@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>투자커멘드 | 실시간 포트폴리오 대시보드</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        :root {
+            --bg-dark: #0a0e1a;
+            --bg-card: #151b2d;
+            --bg-header: #1a1f2e;
+            --border: #2d3748;
+            --text-primary: #e0e6ed;
+            --text-secondary: #8b9dc3;
+            --accent-red: #ff4757;
+            --accent-green: #4ecdc4;
+            --accent-blue: #4834d4;
+            --accent-yellow: #f9ca24;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans KR', sans-serif;
+            background: var(--bg-dark);
+            color: var(--text-primary);
+            line-height: 1.5;
+            font-size: 14px;
+            padding-bottom: 80px;
+        }
+        
+        /* 상단 상태바 */
+        .status-bar {
+            background: var(--bg-header);
+            padding: 12px 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px solid var(--accent-blue);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-weight: 800;
+            font-size: 16px;
+        }
+        .logo::before {
+            content: "◆";
+            color: var(--accent-blue);
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.6; }
+        }
+        .market-status {
+            background: rgba(78, 205, 196, 0.15);
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 11px;
+            font-weight: 600;
+            color: var(--accent-green);
+            border: 1px solid rgba(78, 205, 196, 0.3);
+        }
+        .market-status.closed {
+            background: rgba(255, 71, 87, 0.15);
+            color: var(--accent-red);
+            border-color: rgba(255, 71, 87, 0.3);
+        }
+        
+        /* 뉴스 티커 */
+        .news-ticker {
+            background: linear-gradient(90deg, var(--accent-blue), #686de0);
+            padding: 10px 0;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+        .ticker-content {
+            display: inline-block;
+            animation: scroll 25s linear infinite;
+            padding-left: 100%;
+        }
+        .ticker-item {
+            display: inline-block;
+            padding: 0 35px;
+            font-size: 12px;
+            font-weight: 500;
+        }
+        @keyframes scroll {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-100%); }
+        }
+        
+        /* 알림 배너 */
+        .alert-banner {
+            background: linear-gradient(135deg, var(--accent-red) 0%, #c44569 100%);
+            padding: 12px 15px;
+            font-size: 12px;
+        }
+        .alert-banner.warning {
+            background: linear-gradient(135deg, var(--accent-yellow), #f39c12);
+            color: #000;
+        }
+        .alert-banner.success {
+            background: linear-gradient(135deg, var(--accent-green), #00b894);
+        }
+        
+        /* 포트폴리오 그리드 */
+        .portfolio-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1px;
+            background: var(--border);
+        }
+        .portfolio-card {
+            background: var(--bg-card);
+            padding: 20px 12px;
+            text-align: center;
+        }
+        .portfolio-card.main {
+            grid-column: span 2;
+            background: linear-gradient(135deg, var(--accent-blue), #686de0);
+        }
+        .portfolio-value {
+            font-size: 28px;
+            font-weight: 800;
+            margin-bottom: 4px;
+        }
+        .portfolio-card.main .portfolio-value {
+            font-size: 36px;
+        }
+        .portfolio-label {
+            font-size: 11px;
+            opacity: 0.8;
+            font-weight: 600;
+        }
+        .portfolio-change {
+            font-size: 14px;
+            margin-top: 6px;
+            font-weight: 700;
+        }
+        .up { color: var(--accent-red); }
+        .down { color: var(--accent-green); }
+        
+        /* 목표 진행률 */
+        .goal-section {
+            background: var(--bg-card);
+            padding: 18px 15px;
+            border-bottom: 1px solid var(--border);
+        }
+        .goal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 12px;
+        }
+        .goal-title {
+            font-size: 14px;
+            font-weight: 700;
+        }
+        .goal-value {
+            font-size: 18px;
+            font-weight: 800;
+            color: var(--accent-green);
+        }
+        .goal-bar {
+            height: 12px;
+            background: #2d3748;
+            border-radius: 6px;
+            overflow: hidden;
+        }
+        .goal-fill {
+            height: 100%;
+            background: linear-gradient(90deg, var(--accent-green), #00b894);
+            border-radius: 6px;
+            box-shadow: 0 0 10px rgba(78, 205, 196, 0.4);
+        }
+        .goal-labels {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 8px;
+            font-size: 11px;
+            color: var(--text-secondary);
+        }
+        
+        /* 섹션 공통 */
+        .section {
+            background: var(--bg-card);
+            margin-bottom: 8px;
+            border-top: 1px solid var(--border);
+            border-bottom: 1px solid var(--border);
+        }
+        .section-header {
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+        }
+        .section-title {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 15px;
+            font-weight: 700;
+        }
+        .section-count {
+            background: rgba(72, 52, 212, 0.2);
+            padding: 2px 8px;
+            border-radius: 10px;
+            font-size: 11px;
+            color: var(--accent-blue);
+        }
+        .section-toggle {
+            font-size: 12px;
+            color: var(--text-secondary);
+            transition: transform 0.3s;
+        }
+        .section.expanded .section-toggle {
+            transform: rotate(180deg);
+        }
+        .section-content {
+            display: none;
+            padding: 0 15px 15px;
+        }
+        .section.expanded .section-content {
+            display: block;
+        }
+        
+        /* 종목 카드 스크롤 */
+        .stocks-scroll {
+            display: flex;
+            gap: 12px;
+            overflow-x: auto;
+            padding: 5px 15px 15px;
+            scroll-snap-type: x mandatory;
+            -webkit-overflow-scrolling: touch;
+        }
+        .stocks-scroll::-webkit-scrollbar {
+            display: none;
+        }
+        .stock-card {
+            min-width: 160px;
+            background: var(--bg-header);
+            border-radius: 12px;
+            padding: 15px;
+            scroll-snap-align: start;
+            border: 1px solid var(--border);
+        }
+        .stock-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 10px;
+        }
+        .stock-name {
+            font-size: 15px;
+            font-weight: 700;
+        }
+        .stock-code {
+            font-size: 10px;
+            color: var(--text-secondary);
+            margin-top: 2px;
+        }
+        .stock-badge {
+            font-size: 11px;
+            font-weight: 700;
+            padding: 3px 8px;
+            border-radius: 4px;
+        }
+        .stock-badge.up {
+            background: rgba(255, 71, 87, 0.15);
+            color: var(--accent-red);
+        }
+        .stock-badge.down {
+            background: rgba(78, 205, 196, 0.15);
+            color: var(--accent-green);
+        }
+        .sparkline {
+            height: 30px;
+            margin: 8px 0;
+        }
+        .stock-price {
+            font-size: 20px;
+            font-weight: 800;
+        }
+        .stock-quantity {
+            font-size: 11px;
+            color: var(--text-secondary);
+            margin-top: 4px;
+        }
+        
+        /* 리포트 카드 */
+        .report-card {
+            background: var(--bg-header);
+            border-radius: 10px;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-left: 3px solid var(--accent-blue);
+        }
+        .report-card.buy {
+            border-left-color: var(--accent-red);
+        }
+        .report-card.sell {
+            border-left-color: var(--accent-green);
+        }
+        .report-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 8px;
+        }
+        .report-time {
+            font-size: 11px;
+            color: var(--accent-blue);
+            font-weight: 600;
+        }
+        .report-opinion {
+            font-size: 10px;
+            font-weight: 700;
+            padding: 3px 8px;
+            border-radius: 4px;
+            background: rgba(255, 71, 87, 0.15);
+            color: var(--accent-red);
+        }
+        .report-opinion.sell {
+            background: rgba(78, 205, 196, 0.15);
+            color: var(--accent-green);
+        }
+        .report-title {
+            font-size: 14px;
+            font-weight: 700;
+            margin-bottom: 6px;
+            line-height: 1.4;
+        }
+        .report-summary {
+            font-size: 12px;
+            color: var(--text-secondary);
+            line-height: 1.5;
+        }
+        .report-tags {
+            display: flex;
+            gap: 6px;
+            margin-top: 10px;
+        }
+        .tag {
+            background: rgba(72, 52, 212, 0.15);
+            padding: 3px 8px;
+            border-radius: 4px;
+            font-size: 10px;
+            font-weight: 600;
+            color: var(--accent-blue);
+        }
+        
+        /* 플레이북 아이템 */
+        .playbook-list {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .playbook-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 14px;
+            background: var(--bg-header);
+            border-radius: 10px;
+        }
+        .playbook-icon {
+            width: 44px;
+            height: 44px;
+            background: rgba(72, 52, 212, 0.15);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 22px;
+        }
+        .playbook-info {
+            flex: 1;
+        }
+        .playbook-title {
+            font-size: 14px;
+            font-weight: 700;
+            margin-bottom: 3px;
+        }
+        .playbook-desc {
+            font-size: 11px;
+            color: var(--text-secondary);
+        }
+        .playbook-status {
+            font-size: 10px;
+            font-weight: 700;
+            padding: 4px 10px;
+            border-radius: 20px;
+        }
+        .status-active {
+            background: rgba(78, 205, 196, 0.15);
+            color: var(--accent-green);
+        }
+        .status-waiting {
+            background: rgba(249, 202, 36, 0.15);
+            color: var(--accent-yellow);
+        }
+        .status-done {
+            background: rgba(139, 157, 195, 0.15);
+            color: var(--text-secondary);
+        }
+        
+        /* 하단 네비게이션 */
+        .bottom-nav {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: var(--bg-header);
+            border-top: 1px solid var(--border);
+            display: flex;
+            justify-content: space-around;
+            padding: 8px 0 20px;
+            z-index: 1000;
+        }
+        .nav-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 3px;
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 10px;
+            padding: 5px 15px;
+        }
+        .nav-item.active {
+            color: var(--accent-blue);
+        }
+        .nav-icon {
+            font-size: 22px;
+        }
+        
+        /* 빠른 액션 버튼 */
+        .quick-actions {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+            padding: 15px;
+        }
+        .quick-btn {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 6px;
+            padding: 15px 10px;
+            background: var(--bg-header);
+            border-radius: 12px;
+            border: 1px solid var(--border);
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .quick-btn:active {
+            transform: scale(0.95);
+            background: var(--border);
+        }
+        .quick-icon {
+            font-size: 24px;
+        }
+        .quick-label {
+            font-size: 11px;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <!-- 상단 상태바 -->
+    <div class="status-bar">
+        <div class="logo">투자커멘드</div>
+        <div class="market-status" id="marketStatus">● 장중</div>
+    </div>
+    
+    <!-- 뉴스 티커 -->
+    <div class="news-ticker">
+        <div class="ticker-content">
+            <span class="ticker-item">📈 KOSPI 2,580 (+0.3%) 삼성전자 강세</span>
+            <span class="ticker-item">📊 WiseReport: 현대차 목표주가 320,000원</span>
+            <span class="ticker-item">🚨 이란 전쟁: 유가 $110+ 지속</span>
+            <span class="ticker-item">💰 오늘의 매수: 현대차 248,500원</span>
+            <span class="ticker-item">📉 외국인 3거래일 연속 순매도</span>
+        </div>
+    </div>
+    
+    <!-- 알림 배너 -->
+    <div class="alert-banner" id="alertBanner">
+        ⚠️ 이란 전쟁 영향: 유가 급등으로 현대차 단기 하락 -10%
+    </div>
+    
+    <!-- 포트폴리오 핵심 지표 -->
+    <div class="portfolio-grid">
+        <div class="portfolio-card main">
+            <div class="portfolio-value">₩2.3억</div>
+            <div class="portfolio-label">총 자산</div>
+            <div class="portfolio-change up">+14.6% (YTD)</div>
+        </div>
+        <div class="portfolio-card">
+            <div class="portfolio-value">₩2,000만</div>
+            <div class="portfolio-label">ISA</div>
+            <div class="portfolio-change" style="font-size: 11px; color: var(--text-secondary)">현대차 100%</div>
+        </div>
+        <div class="portfolio-card">
+            <div class="portfolio-value">₩295만</div>
+            <div class="portfolio-label">IRP</div>
+            <div class="portfolio-change" style="font-size: 11px; color: var(--text-secondary)">TDF 43% + 증권 57%</div>
+        </div>
+    </div>
+    
+    <!-- 목표 진행률 -->
+    <div class="goal-section">
+        <div class="goal-header">
+            <span class="goal-title">🎯 2026년 목표 진행률</span>
+            <span class="goal-value">+14.6%</span>
+        </div>
+        <div class="goal-bar">
+            <div class="goal-fill" style="width: 73%"></div>
+        </div>
+        <div class="goal-labels">
+            <span>현재 +14.6%</span>
+            <span>목표 +20%</span>
+        </div>
+    </div>
+    
+    <!-- 빠른 액션 -->
+    <div class="section">
+        <div class="quick-actions">
+            <div class="quick-btn" onclick="location.href='wisereport.html'">
+                <span class="quick-icon">📋</span>
+                <span class="quick-label">리포트</span>
+            </div>
+            <div class="quick-btn" onclick="location.href='portfolio.html'">
+                <span class="quick-icon">📊</span>
+                <span class="quick-label">포트폴리오</span>
+            </div>
+            <div class="quick-btn" onclick="location.href='playbook.html'">
+                <span class="quick-icon">📖</span>
+                <span class="quick-label">플레이북</span>
+            </div>
+            <div class="quick-btn" onclick="location.href='settings.html'">
+                <span class="quick-icon">⚙️</span>
+                <span class="quick-label">설정</span>
+            </div>
+        </div>
+    </div>
+    
+    <!-- 보유 종목 -->
+    <div class="section expanded">
+        <div class="section-header" onclick="toggleSection(this.parentElement)">
+            <div class="section-title">
+                📊 보유 종목
+                <span class="section-count">3</span>
+            </div>
+            <span class="section-toggle">▼</span>
+        </div>
+        <div class="section-content">
+            <div class="stocks-scroll">
+                <div class="stock-card">
+                    <div class="stock-header">
+                        <div>
+                            <div class="stock-name">현대차</div>
+                            <div class="stock-code">005380</div>
+                        </div>
+                        <span class="stock-badge down">-10.04%</span>
+                    </div>
+                    <svg class="sparkline" viewBox="0 0 100 30">
+                        <polyline points="0,8 20,12 40,10 60,18 80,25 100,28" fill="none" stroke="#4ecdc4" stroke-width="2"/>
+                    </svg>
+                    <div class="stock-price">248,500</div>
+                    <div class="stock-quantity">80주 · -13.89%</div>
+                </div>
+                
+                <div class="stock-card">
+                    <div class="stock-header">
+                        <div>
+                            <div class="stock-name">KODEX TDF</div>
+                            <div class="stock-code">2040</div>
+                        </div>
+                        <span class="stock-badge down">-8.5%</span>
+                    </div>
+                    <svg class="sparkline" viewBox="0 0 100 30">
+                        <polyline points="0,15 30,18 60,20 100,25" fill="none" stroke="#4ecdc4" stroke-width="2"/>
+                    </svg>
+                    <div class="stock-price">15,140</div>
+                    <div class="stock-quantity">100주 · ISA</div>
+                </div>
+                
+                <div class="stock-card">
+                    <div class="stock-header">
+                        <div>
+                            <div class="stock-name">KODEX 증권</div>
+                            <div class="stock-code">102970</div>
+                        </div>
+                        <span class="stock-badge down">-12%</span>
+                    </div>
+                    <svg class="sparkline" viewBox="0 0 100 30">
+                        <polyline points="0,10 25,16 50,20 75,26 100,28" fill="none" stroke="#4ecdc4" stroke-width="2"/>
+                    </svg>
+                    <div class="stock-price">24,355</div>
+                    <div class="stock-quantity">100주 · IRP</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- WiseReport -->
+    <div class="section" id="reportSection">
+        <div class="section-header" onclick="toggleSection(this.parentElement)">
+            <div class="section-title">
+                📋 오늘의 WiseReport
+                <span class="section-count">2</span>
+            </div>
+            <span class="section-toggle">▼</span>
+        </div>
+        <div class="section-content">
+            <div class="report-card buy">
+                <div class="report-header">
+                    <span class="report-time">Today Top · 3월 9일</span>
+                    <span class="report-opinion">BUY</span>
+                </div>
+                <div class="report-title">빙그레: 26년 밸류업 기반 다지기</div>
+                <div class="report-summary">2026년 밸류업 기반 다지기 전략. 단기 실적 조정은 있으나 중장기 성장성 유지.</div>
+                <div class="report-tags">
+                    <span class="tag">DS투자증권</span>
+                    <span class="tag">목표가 165,000</span>
+                </div>
+            </div>
+            
+            <div class="report-card buy">
+                <div class="report-header">
+                    <span class="report-time">Today Hot · 3월 9일</span>
+                    <span class="report-opinion">BUY</span>
+                </div>
+                <div class="report-title">BGF리테일: 이제 편의점에 주목할 때!</div>
+                <div class="report-summary">편의점 업황 개선세 뚜렷. EPS 상향으로 실적 개선 모멘텀 확인.</div>
+                <div class="report-tags">
+                    <span class="tag">상상인증권</span>
+                    <span class="tag">목표가 상향</span>
+                </div>
+            </div>
+            
+            <div style="text-align: center; padding: 10px;">
+                <a href="wisereport.html" style="color: var(--accent-blue); font-size: 13px; font-weight: 600; text-decoration: none;">전체 리포트 보기 →</a>
+            </div>
+        </div>
+    </div>
+    
+    <!-- 투자 플레이북 -->
+    <div class="section" id="playbookSection">
+        <div class="section-header" onclick="toggleSection(this.parentElement)">
+            <div class="section-title">
+                📖 투자 플레이북
+                <span class="section-count">2</span>
+            </div>
+            <span class="section-toggle">▼</span>
+        </div>
+        <div class="section-content">
+            <div class="playbook-list">
+                <div class="playbook-item">
+                    <div class="playbook-icon">📈</div>
+                    <div class="playbook-info">
+                        <div class="playbook-title">폭락 시 매수 전략</div>
+                        <div class="playbook-desc">KOSPI -8% 이상 시 분할 매수 실행</div>
+                    </div>
+                    <span class="playbook-status status-active">실행중</span>
+                </div>
+                
+                <div class="playbook-item">
+                    <div class="playbook-icon">🎯</div>
+                    <div class="playbook-info">
+                        <div class="playbook-title">ISA 20M 채우기</div>
+                        <div class="playbook-desc">현대차 80주 매수 완료</div>
+                    </div>
+                    <span class="playbook-status status-active">완료</span>
+                </div>
+            </div>
+            
+            <div style="text-align: center; padding: 10px;">
+                <a href="playbook.html" style="color: var(--accent-blue); font-size: 13px; font-weight: 600; text-decoration: none;">전체 플레이북 보기 →</a>
+            </div>
+        </div>
+    </div>
+    
+    <!-- 하단 네비게이션 -->
+    <nav class="bottom-nav">
+        <a href="index.html" class="nav-item active">
+            <span class="nav-icon">🏠</span>
+            <span>홈</span>
+        </a>
+        <a href="portfolio.html" class="nav-item">
+            <span class="nav-icon">📊</span>
+            <span>포트폴리오</span>
+        </a>
+        <a href="wisereport.html" class="nav-item">
+            <span class="nav-icon">📋</span>
+            <span>리포트</span>
+        </a>
+        <a href="playbook.html" class="nav-item">
+            <span class="nav-icon">📖</span>
+            <span>플레이북</span>
+        </a>
+    </nav>
+
+    <script>
+        function toggleSection(section) {
+            section.classList.toggle('expanded');
+        }
+        
+        // 장중/장외 상태 확인
+        function checkMarketStatus() {
+            const now = new Date();
+            const hour = now.getHours();
+            const day = now.getDay();
+            const statusEl = document.getElementById('marketStatus');
+            
+            if (day === 0 || day === 6) {
+                statusEl.textContent = '● 휴장';
+                statusEl.classList.add('closed');
+            } else if (hour >= 9 && hour < 15) {
+                statusEl.textContent = '● 장중';
+                statusEl.classList.remove('closed');
+            } else {
+                statusEl.textContent = '● 장외';
+                statusEl.classList.add('closed');
+            }
+        }
+        
+        checkMarketStatus();
+        setInterval(checkMarketStatus, 60000);
+    </script>
+</body>
+</html>

@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>투자커멘드 | 투자 플레이북</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        :root {
+            --bg-dark: #0a0e1a;
+            --bg-card: #151b2d;
+            --bg-header: #1a1f2e;
+            --border: #2d3748;
+            --text-primary: #e0e6ed;
+            --text-secondary: #8b9dc3;
+            --accent-red: #ff4757;
+            --accent-green: #4ecdc4;
+            --accent-blue: #4834d4;
+            --accent-yellow: #f9ca24;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans KR', sans-serif;
+            background: var(--bg-dark);
+            color: var(--text-primary);
+            line-height: 1.5;
+            font-size: 14px;
+            padding-bottom: 80px;
+        }
+        
+        .header {
+            background: var(--bg-header);
+            padding: 15px;
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        .header-title {
+            font-size: 18px;
+            font-weight: 800;
+        }
+        
+        /* 통계 카드 */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            padding: 15px;
+        }
+        .stat-card {
+            background: var(--bg-card);
+            padding: 18px 10px;
+            border-radius: 12px;
+            text-align: center;
+        }
+        .stat-number {
+            font-size: 26px;
+            font-weight: 800;
+            margin-bottom: 4px;
+        }
+        .stat-card.active .stat-number {
+            color: var(--accent-green);
+        }
+        .stat-card.waiting .stat-number {
+            color: var(--accent-yellow);
+        }
+        .stat-card.done .stat-number {
+            color: var(--text-secondary);
+        }
+        .stat-label {
+            font-size: 11px;
+            color: var(--text-secondary);
+            font-weight: 600;
+        }
+        
+        /* 섹션 */
+        .section {
+            background: var(--bg-card);
+            margin: 0 15px 15px;
+            padding: 18px;
+            border-radius: 12px;
+        }
+        .section-title {
+            font-size: 15px;
+            font-weight: 700;
+            margin-bottom: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .add-btn {
+            background: var(--accent-blue);
+            color: #fff;
+            border: none;
+            padding: 6px 12px;
+            border-radius: 6px;
+            font-size: 12px;
+            font-weight: 600;
+            cursor: pointer;
+        }
+        
+        /* 플레이북 아이템 */
+        .playbook-list {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        .playbook-item {
+            background: var(--bg-header);
+            border-radius: 12px;
+            padding: 16px;
+            border-left: 4px solid var(--accent-yellow);
+        }
+        .playbook-item.active {
+            border-left-color: var(--accent-green);
+        }
+        .playbook-item.done {
+            border-left-color: var(--text-secondary);
+            opacity: 0.7;
+        }
+        .playbook-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 12px;
+        }
+        .playbook-title-area {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .playbook-icon {
+            width: 40px;
+            height: 40px;
+            background: rgba(72, 52, 212, 0.15);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+        }
+        .playbook-title {
+            font-size: 15px;
+            font-weight: 700;
+        }
+        .playbook-desc {
+            font-size: 12px;
+            color: var(--text-secondary);
+            margin-top: 3px;
+        }
+        .playbook-status {
+            font-size: 10px;
+            font-weight: 700;
+            padding: 4px 10px;
+            border-radius: 20px;
+        }
+        .status-active {
+            background: rgba(78, 205, 196, 0.15);
+            color: var(--accent-green);
+        }
+        .status-waiting {
+            background: rgba(249, 202, 36, 0.15);
+            color: var(--accent-yellow);
+        }
+        .status-done {
+            background: rgba(139, 157, 195, 0.15);
+            color: var(--text-secondary);
+        }
+        
+        /* 진행 게이지 */
+        .progress-area {
+            margin-top: 10px;
+        }
+        .progress-header {
+            display: flex;
+            justify-content: space-between;
+            font-size: 12px;
+            margin-bottom: 6px;
+        }
+        .progress-bar {
+            height: 8px;
+            background: #2d3748;
+            border-radius: 4px;
+            overflow: hidden;
+        }
+        .progress-fill {
+            height: 100%;
+            border-radius: 4px;
+            transition: width 0.5s;
+        }
+        .progress-fill.green {
+            background: linear-gradient(90deg, var(--accent-green), #00b894);
+        }
+        .progress-fill.yellow {
+            background: linear-gradient(90deg, var(--accent-yellow), #f39c12);
+        }
+        
+        /* 상세 정보 */
+        .playbook-details {
+            margin-top: 12px;
+            padding-top: 12px;
+            border-top: 1px solid var(--border);
+        }
+        .detail-row {
+            display: flex;
+            justify-content: space-between;
+            font-size: 12px;
+            margin-bottom: 6px;
+        }
+        .detail-label {
+            color: var(--text-secondary);
+        }
+        .detail-value {
+            font-weight: 600;
+        }
+        .detail-value.highlight {
+            color: var(--accent-green);
+        }
+        
+        /* 액션 버튼 */
+        .action-btns {
+            display: flex;
+            gap: 8px;
+            margin-top: 12px;
+        }
+        .action-btn {
+            flex: 1;
+            padding: 10px;
+            border-radius: 8px;
+            font-size: 12px;
+            font-weight: 700;
+            text-align: center;
+            cursor: pointer;
+            border: none;
+        }
+        .action-btn.primary {
+            background: var(--accent-blue);
+            color: #fff;
+        }
+        .action-btn.secondary {
+            background: var(--bg-card);
+            color: var(--text-primary);
+            border: 1px solid var(--border);
+        }
+        
+        /* 크론 상태 */
+        .cron-status {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 12px;
+            background: rgba(78, 205, 196, 0.1);
+            border-radius: 8px;
+            margin-top: 10px;
+        }
+        .cron-indicator {
+            width: 8px;
+            height: 8px;
+            background: var(--accent-green);
+            border-radius: 50%;
+            animation: blink 2s infinite;
+        }
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.3; }
+        }
+        .cron-text {
+            font-size: 12px;
+            flex: 1;
+        }
+        .cron-time {
+            font-size: 11px;
+            color: var(--text-secondary);
+        }
+        
+        /* 하단 네비 */
+        .bottom-nav {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: var(--bg-header);
+            border-top: 1px solid var(--border);
+            display: flex;
+            justify-content: space-around;
+            padding: 8px 0 20px;
+        }
+        .nav-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 3px;
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 10px;
+            padding: 5px 15px;
+        }
+        .nav-item.active {
+            color: var(--accent-blue);
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="header-title">📖 투자 플레이북</div>
+    </div>
+    
+    <div class="stats-grid">
+        <div class="stat-card active">
+            <div class="stat-number">2</div>
+            <div class="stat-label">실행중</div>
+        </div>
+        <div class="stat-card waiting">
+            <div class="stat-number">1</div>
+            <div class="stat-label">대기중</div>
+        </div>
+        <div class="stat-card done">
+            <div class="stat-number">1</div>
+            <div class="stat-label">완료</div>
+        </div>
+    </div>
+    
+    <div class="section">
+        <div class="section-title">
+            실행중인 전략
+            <button class="add-btn">+ 새 전략</button>
+        </div>
+        
+        <div class="playbook-list">
+            <div class="playbook-item active">
+                <div class="playbook-header">
+                    <div class="playbook-title-area">
+                        <div class="playbook-icon">📈</div>
+                        <div>
+                            <div class="playbook-title">폭락 시 매수 전략</div>
+                            <div class="playbook-desc">KOSPI -8% 이상 시 분할 매수</div>
+                        </div>
+                    </div>
+                    <span class="playbook-status status-active">실행중</span>
+                </div>
+                
+                <div class="progress-area">
+                    <div class="progress-header">
+                        <span style="font-size: 12px; color: var(--text-secondary)">진행률</span>
+                        <span style="font-size: 12px; font-weight: 700; color: var(--accent-green)">2/5 차수</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill green" style="width: 40%"></div>
+                    </div>
+                </div>
+                
+                <div class="playbook-details">
+                    <div class="detail-row">
+                        <span class="detail-label">매수 조건</span>
+                        <span class="detail-value">KOSPI < -8%</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">총 투자금</span>
+                        <span class="detail-value">₩2,000만</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">실행 금액</span>
+                        <span class="detail-value highlight">₩800만</span>
+                    </div>
+                </div>
+                
+                <div class="cron-status">
+                    <div class="cron-indicator"></div>
+                    <span class="cron-text">자동 모니터링 활성화</span>
+                    <span class="cron-time">5분 전 실행</span>
+                </div>
+            </div>
+            
+            
+            <div class="playbook-item done">
+                <div class="playbook-header">
+                    <div class="playbook-title-area">
+                        <div class="playbook-icon">🎯</div>
+                        <div>
+                            <div class="playbook-title">ISA 20M 채우기</div>
+                            <div class="playbook-desc">ISA 계좌 2,000만원 투자 완료</div>
+                        </div>
+                    </div>
+                    <span class="playbook-status status-done">완료</span>
+                </div>
+                
+                <div class="progress-area">
+                    <div class="progress-header">
+                        <span style="font-size: 12px; color: var(--text-secondary)">완료률</span>
+                        <span style="font-size: 12px; font-weight: 700">100%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill green" style="width: 100%; background: var(--text-secondary)"></div>
+                    </div>
+                </div>
+                
+                <div class="playbook-details">
+                    <div class="detail-row">
+                        <span class="detail-label">매수 종목</span>
+                        <span class="detail-value">현대차 80주</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">매수가</span>
+                        <span class="detail-value">평균 250,000원</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">완료일</span>
+                        <span class="detail-value">2026.03.05</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="section">
+        <div class="section-title">대기중인 전략</div>
+        
+        <div class="playbook-list">
+            <div class="playbook-item">
+                <div class="playbook-header">
+                    <div class="playbook-title-area">
+                        <div class="playbook-icon">💰</div>
+                        <div>
+                            <div class="playbook-title">IRP 리밸런싱</div>
+                            <div class="playbook-desc">TDF 60% + 증권 40% 비율 조정</div>
+                        </div>
+                    </div>
+                    <span class="playbook-status status-waiting">대기중</span>
+                </div>
+                
+                <div class="progress-area">
+                    <div class="progress-header">
+                        <span style="font-size: 12px; color: var(--text-secondary)">대기중</span>
+                        <span style="font-size: 12px; font-weight: 700; color: var(--accent-yellow)">0%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill yellow" style="width: 0%"></div>
+                    </div>
+                </div>
+                
+                <div class="action-btns">
+                    <button class="action-btn secondary">수정</button>
+                    <button class="action-btn primary">지금 실행</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <nav class="bottom-nav">
+        <a href="index.html" class="nav-item">
+            <span style="font-size: 22px">🏠</span>
+            <span>홈</span>
+        </a>
+        <a href="portfolio.html" class="nav-item">
+            <span style="font-size: 22px">📊</span>
+            <span>포트폴리오</span>
+        </a>
+        <a href="wisereport.html" class="nav-item">
+            <span style="font-size: 22px">📋</span>
+            <span>리포트</span>
+        </a>
+        <a href="playbook.html" class="nav-item active">
+            <span style="font-size: 22px">📖</span>
+            <span>플레이북</span>
+        </a>
+    </nav>
+</body>
+</html>

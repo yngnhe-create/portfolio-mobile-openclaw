@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>투자커멘드 | 포트폴리오 상세</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        :root {
+            --bg-dark: #0a0e1a;
+            --bg-card: #151b2d;
+            --bg-header: #1a1f2e;
+            --border: #2d3748;
+            --text-primary: #e0e6ed;
+            --text-secondary: #8b9dc3;
+            --accent-red: #ff4757;
+            --accent-green: #4ecdc4;
+            --accent-blue: #4834d4;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans KR', sans-serif;
+            background: var(--bg-dark);
+            color: var(--text-primary);
+            line-height: 1.5;
+            font-size: 14px;
+            padding-bottom: 80px;
+        }
+        
+        /* 상단 */
+        .header {
+            background: var(--bg-header);
+            padding: 15px;
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        .header-title {
+            font-size: 18px;
+            font-weight: 800;
+            margin-bottom: 15px;
+        }
+        
+        /* 탭 */
+        .tabs {
+            display: flex;
+            gap: 8px;
+        }
+        .tab {
+            flex: 1;
+            padding: 10px;
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            text-align: center;
+            font-size: 13px;
+            font-weight: 600;
+            cursor: pointer;
+        }
+        .tab.active {
+            background: var(--accent-blue);
+            border-color: var(--accent-blue);
+        }
+        
+        /* 총자산 카드 */
+        .total-card {
+            background: linear-gradient(135deg, var(--accent-blue), #686de0);
+            padding: 25px 20px;
+            margin: 15px;
+            border-radius: 16px;
+        }
+        .total-label {
+            font-size: 13px;
+            opacity: 0.9;
+            margin-bottom: 8px;
+        }
+        .total-value {
+            font-size: 36px;
+            font-weight: 800;
+            margin-bottom: 8px;
+        }
+        .total-change {
+            font-size: 16px;
+            font-weight: 700;
+        }
+        
+        /* 자산 분포 */
+        .distribution {
+            background: var(--bg-card);
+            margin: 0 15px 15px;
+            padding: 20px;
+            border-radius: 12px;
+        }
+        .dist-title {
+            font-size: 15px;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+        .donut-chart {
+            width: 150px;
+            height: 150px;
+            margin: 0 auto 20px;
+            position: relative;
+        }
+        .donut-svg {
+            width: 100%;
+            height: 100%;
+            transform: rotate(-90deg);
+        }
+        .donut-center {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+        .donut-label {
+            font-size: 11px;
+            color: var(--text-secondary);
+        }
+        .donut-value {
+            font-size: 20px;
+            font-weight: 800;
+        }
+        .legend {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 13px;
+        }
+        .legend-color {
+            width: 12px;
+            height: 12px;
+            border-radius: 3px;
+        }
+        .legend-text {
+            flex: 1;
+        }
+        .legend-percent {
+            font-weight: 700;
+        }
+        
+        /* 종목 리스트 */
+        .stocks-section {
+            background: var(--bg-card);
+            margin: 0 15px 15px;
+            padding: 20px;
+            border-radius: 12px;
+        }
+        .section-title {
+            font-size: 15px;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+        .stock-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 15px;
+            background: var(--bg-header);
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+        .stock-icon {
+            width: 45px;
+            height: 45px;
+            background: rgba(72, 52, 212, 0.15);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            font-weight: 700;
+        }
+        .stock-info {
+            flex: 1;
+        }
+        .stock-name {
+            font-size: 15px;
+            font-weight: 700;
+            margin-bottom: 4px;
+        }
+        .stock-detail {
+            font-size: 12px;
+            color: var(--text-secondary);
+        }
+        .stock-numbers {
+            text-align: right;
+        }
+        .stock-current {
+            font-size: 16px;
+            font-weight: 700;
+        }
+        .stock-change {
+            font-size: 12px;
+            font-weight: 600;
+            margin-top: 2px;
+        }
+        .stock-profit {
+            font-size: 11px;
+            color: var(--text-secondary);
+            margin-top: 4px;
+        }
+        
+        /* 손익 요약 */
+        .summary-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+            margin-top: 15px;
+        }
+        .summary-item {
+            background: var(--bg-header);
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .summary-label {
+            font-size: 11px;
+            color: var(--text-secondary);
+            margin-bottom: 6px;
+        }
+        .summary-value {
+            font-size: 18px;
+            font-weight: 700;
+        }
+        
+        /* 하단 네비 */
+        .bottom-nav {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: var(--bg-header);
+            border-top: 1px solid var(--border);
+            display: flex;
+            justify-content: space-around;
+            padding: 8px 0 20px;
+        }
+        .nav-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 3px;
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 10px;
+            padding: 5px 15px;
+        }
+        .nav-item.active {
+            color: var(--accent-blue);
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="header-title">📊 포트폴리오</div>
+        <div class="tabs">
+            <div class="tab active">전체</div>
+            <div class="tab">ISA</div>
+            <div class="tab">IRP</div>
+            <div class="tab">연금</div>
+        </div>
+    </div>
+
+    <div class="total-card">
+        <div class="total-label">총 자산</div>
+        <div class="total-value">₩231,032,000</div>
+        <div class="total-change">+14.6% (YTD)</div>
+    </div>
+
+    <div class="distribution">
+        <div class="dist-title">자산 분포</div>
+        
+        <div class="donut-chart">
+            <svg class="donut-svg" viewBox="0 0 100 100">
+                <circle cx="50" cy="50" r="40" fill="none" stroke="#2d3748" stroke-width="15"/>
+                <circle cx="50" cy="50" r="40" fill="none" stroke="#4834d4" stroke-width="15" 
+                    stroke-dasharray="188.5 251.3" stroke-linecap="round"/>
+                <circle cx="50" cy="50" r="40" fill="none" stroke="#4ecdc4" stroke-width="15" 
+                    stroke-dasharray="37.7 251.3" stroke-dashoffset="-188.5" stroke-linecap="round"/>
+            </svg>
+            <div class="donut-center">
+                <div class="donut-label">총 3개</div>
+                <div class="donut-value">자산</div>
+            </div>
+        </div>
+        
+        <div class="legend">
+            <div class="legend-item">
+                <div class="legend-color" style="background: #4834d4"></div>
+                <span class="legend-text">ISA (현대차)</span>
+                <span class="legend-percent">86.5%</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background: #4ecdc4"></div>
+                <span class="legend-text">IRP</span>
+                <span class="legend-percent">13.5%</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="stocks-section">
+        <div class="section-title">보유 종목</div>
+        
+        <div class="stock-item">
+            <div class="stock-icon">현</div>
+            <div class="stock-info">
+                <div class="stock-name">현대차</div>
+                <div class="stock-detail">80주 · 평단 288,800원 · ISA</div>
+            </div>
+            <div class="stock-numbers">
+                <div class="stock-current">248,500</div>
+                <div class="stock-change" style="color: var(--accent-green)">-13.89%</div>
+                <div class="stock-profit">-3,224,000원</div>
+            </div>
+        </div>
+        
+        <div class="stock-item">
+            <div class="stock-icon" style="background: rgba(78, 205, 196, 0.15)">T</div>
+            <div class="stock-info">
+                <div class="stock-name">KODEX TDF2040</div>
+                <div class="stock-detail">100주 · 평단 16,545원 · IRP</div>
+            </div>
+            <div class="stock-numbers">
+                <div class="stock-current">15,140</div>
+                <div class="stock-change" style="color: var(--accent-green)">-8.49%</div>
+                <div class="stock-profit">-140,500원</div>
+            </div>
+        </div>
+        
+        <div class="stock-item">
+            <div class="stock-icon" style="background: rgba(255, 71, 87, 0.15); color: var(--accent-red)">증</div>
+            <div class="stock-info">
+                <div class="stock-name">KODEX 증권</div>
+                <div class="stock-detail">100주 · 평단 27,675원 · IRP</div>
+            </div>
+            <div class="stock-numbers">
+                <div class="stock-current">24,355</div>
+                <div class="stock-change" style="color: var(--accent-green)">-12.0%</div>
+                <div class="stock-profit">-332,000원</div>
+            </div>
+        </div>
+        
+        <div class="summary-grid">
+            <div class="summary-item">
+                <div class="summary-label">총 매수금액</div>
+                <div class="summary-value">₩23,728만</div>
+            </div>
+            <div class="summary-item">
+                <div class="summary-label">평가손익</div>
+                <div class="summary-value" style="color: var(--accent-green)">-362만</div>
+            </div>
+            <div class="summary-item">
+                <div class="summary-label">보유종목</div>
+                <div class="summary-value">3개</div>
+            </div>
+            <div class="summary-item">
+                <div class="summary-label">수익률</div>
+                <div class="summary-value" style="color: var(--accent-green)">-1.52%</div>
+            </div>
+        </div>
+    </div>
+
+    <nav class="bottom-nav">
+        <a href="index.html" class="nav-item">
+            <span style="font-size: 22px">🏠</span>
+            <span>홈</span>
+        </a>
+        <a href="portfolio.html" class="nav-item active">
+            <span style="font-size: 22px">📊</span>
+            <span>포트폴리오</span>
+        </a>
+        <a href="wisereport.html" class="nav-item">
+            <span style="font-size: 22px">📋</span>
+            <span>리포트</span>
+        </a>
+        <a href="playbook.html" class="nav-item">
+            <span style="font-size: 22px">📖</span>
+            <span>플레이북</span>
+        </a>
+    </nav>
+</body>
+</html>
