@@ -7,6 +7,8 @@
 ## Stock Monitoring
 
 - Check Hyundai preferred shares 2-4 times per market day when heartbeats run.
+- Use this command first: `python3 /Users/geon/.openclaw/workspace/scripts/check_hyundai_alerts.py`
+- Read the JSON output and alert only when `alerts` is non-empty.
 - Focus symbols/targets:
   - 현대차3우B: alert at 264,000원 (1차 관심), 274,000원 (2차 관심), and if it falls below 232,000원 (리스크 체크)
   - 현대차우: alert at 280,000원 (1차 관심), 295,000원 (2차 관심), and if it falls below 248,000원 (리스크 체크)
