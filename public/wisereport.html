@@ -204,6 +204,14 @@
         .c-grn { color: var(--grn); }
         .c-red { color: var(--red); }
 
+        /* 상승여력 배지 */
+        .up { display: inline-block; font-size: 11px; font-weight: 800; padding: 2px 6px; border-radius: 4px; white-space: nowrap; }
+        .up-high { background: rgba(78,205,196,0.18); color: #4ecdc4; }
+        .up-mid  { background: rgba(255,209,102,0.18); color: #ffd166; }
+        .up-low  { background: rgba(255,107,107,0.18); color: #ff6b6b; }
+        .up-neg  { background: rgba(150,150,150,0.15); color: #888; }
+        td.upside-cell { text-align: center; }
+
         /* Portfolio Impact */
         .impact-card {
             background: linear-gradient(135deg, rgba(72,52,212,0.1), rgba(78,205,196,0.05));
@@ -520,27 +528,27 @@
         <div class="sec-title">📈 목표주가 상향 <span class="count">20건</span></div>
         <div class="tbl-wrap">
             <table>
-                <tr><th>종목</th><th>증권사</th><th>목표가</th><th>변경</th><th>핵심</th></tr>
-                <tr class="port"><td><strong>SK</strong></td><td>DS투자</td><td class="hl-red">630,000</td><td>+40%</td><td>자사주 4.8조 소각</td></tr>
-                <tr><td><strong>SK하이닉스</strong></td><td>다올</td><td class="hl-red">1,600,000</td><td>+33%</td><td>HBM 독보적 1위</td></tr>
-                <tr class="port"><td><strong>삼성전자 ★</strong></td><td>다올</td><td class="hl-red">290,000</td><td>▲</td><td>HBM4, ASP↑</td></tr>
-                <tr><td><strong>한전기술</strong></td><td>한화</td><td class="hl-red">210,000</td><td>+56%</td><td>원전 글로벌 수주</td></tr>
-                <tr><td>삼성전기</td><td>신한</td><td class="hl-red">500,000</td><td>▲</td><td>AI 성장 지속</td></tr>
-                <tr><td>에이디테크</td><td>교보</td><td class="hl-red">60,000</td><td>▲</td><td>비메모리 Top</td></tr>
-                <tr><td>KCC</td><td>NH</td><td class="hl-red">680,000</td><td>▲</td><td>실리콘+소각</td></tr>
-                <tr><td>덴티움</td><td>DB금융</td><td class="hl-red">63,000</td><td>▲</td><td>소각 EPS+31%</td></tr>
-                <tr><td>클래시스</td><td>상상인</td><td class="hl-red">87,000</td><td>▲</td><td>브라질 +34%</td></tr>
-                <tr><td>SK이터닉스</td><td>DS</td><td class="hl-red">43,000</td><td>▲</td><td>태양광 5~6GW</td></tr>
-                <tr><td>파미셀</td><td>DS</td><td class="hl-red">25,000</td><td>▲</td><td>두산 1,100억</td></tr>
-                <tr><td>제노코</td><td>흥국</td><td class="hl-red">32,000</td><td>▲</td><td>항공우주</td></tr>
-                <tr><td>롯데관광개발</td><td>DS</td><td class="hl-red">33,000</td><td>▲</td><td>제주 성수기</td></tr>
-                <tr><td>대한항공</td><td>미래에셋</td><td class="hl-red">31,000</td><td>▲</td><td>방산 3.9조</td></tr>
-                <tr><td>PSK홀딩스</td><td>신한</td><td class="hl-red">135,000</td><td>▲</td><td>AI 장비</td></tr>
-                <tr><td>피에스케이</td><td>신한</td><td class="hl-red">94,000</td><td>▲</td><td>매수</td></tr>
-                <tr><td>솔브레인</td><td>신한</td><td class="hl-red">554,000</td><td>▲</td><td>매수</td></tr>
-                <tr><td>현대제철</td><td>신한</td><td class="hl-red">43,000</td><td>▲</td><td>매수</td></tr>
-                <tr class="port"><td><strong>두산 ★</strong></td><td>BNK</td><td class="hl-red">1,500,000</td><td>▲</td><td>원전+건설</td></tr>
-                <tr><td>삼성생명</td><td>미래에셋</td><td class="hl-red">193,000</td><td>▲</td><td>중립 유지</td></tr>
+                <tr><th>종목</th><th>증권사</th><th>현재가</th><th>목표가</th><th>상승여력</th><th>핵심</th></tr>
+                <tr class="port"><td><strong>SK</strong></td><td>DS투자</td><td>359,500</td><td class="hl-red">630,000</td><td class="upside-cell"><span class="up up-high">+75.2%</span></td><td>자사주 4.8조 소각</td></tr>
+                <tr><td><strong>SK하이닉스</strong></td><td>다올</td><td>955,000</td><td class="hl-red">1,600,000</td><td class="upside-cell"><span class="up up-high">+67.5%</span></td><td>HBM 독보적 1위</td></tr>
+                <tr class="port"><td><strong>삼성전자 ★</strong></td><td>다올</td><td>190,000</td><td class="hl-red">290,000</td><td class="upside-cell"><span class="up up-high">+52.6%</span></td><td>HBM4, ASP↑</td></tr>
+                <tr><td><strong>한전기술</strong></td><td>한화</td><td>56,200</td><td class="hl-red">210,000</td><td class="upside-cell"><span class="up up-high">+273%</span></td><td>원전 글로벌 수주</td></tr>
+                <tr><td>삼성전기</td><td>신한</td><td>406,000</td><td class="hl-red">500,000</td><td class="upside-cell"><span class="up up-mid">+23.2%</span></td><td>AI 성장 지속</td></tr>
+                <tr><td>에이디테크</td><td>교보</td><td>—</td><td class="hl-red">60,000</td><td class="upside-cell"><span class="up up-neg">—</span></td><td>비메모리 Top</td></tr>
+                <tr><td>KCC</td><td>NH</td><td>560,000</td><td class="hl-red">680,000</td><td class="upside-cell"><span class="up up-mid">+21.4%</span></td><td>실리콘+소각</td></tr>
+                <tr><td>덴티움</td><td>DB금융</td><td>54,700</td><td class="hl-red">63,000</td><td class="upside-cell"><span class="up up-mid">+15.2%</span></td><td>소각 EPS+31%</td></tr>
+                <tr><td>클래시스</td><td>상상인</td><td>54,700</td><td class="hl-red">87,000</td><td class="upside-cell"><span class="up up-high">+59.0%</span></td><td>브라질 +34%</td></tr>
+                <tr><td>SK이터닉스</td><td>DS</td><td>—</td><td class="hl-red">43,000</td><td class="upside-cell"><span class="up up-neg">—</span></td><td>태양광 5~6GW</td></tr>
+                <tr><td>파미셀</td><td>DS</td><td>—</td><td class="hl-red">25,000</td><td class="upside-cell"><span class="up up-neg">—</span></td><td>두산 1,100억</td></tr>
+                <tr><td>제노코</td><td>흥국</td><td>—</td><td class="hl-red">32,000</td><td class="upside-cell"><span class="up up-neg">—</span></td><td>항공우주</td></tr>
+                <tr><td>롯데관광개발</td><td>DS</td><td>—</td><td class="hl-red">33,000</td><td class="upside-cell"><span class="up up-neg">—</span></td><td>제주 성수기</td></tr>
+                <tr><td>대한항공</td><td>미래에셋</td><td>24,600</td><td class="hl-red">31,000</td><td class="upside-cell"><span class="up up-mid">+26.0%</span></td><td>방산 3.9조</td></tr>
+                <tr><td>PSK홀딩스</td><td>신한</td><td>—</td><td class="hl-red">135,000</td><td class="upside-cell"><span class="up up-neg">—</span></td><td>AI 장비</td></tr>
+                <tr><td>피에스케이</td><td>신한</td><td>—</td><td class="hl-red">94,000</td><td class="upside-cell"><span class="up up-neg">—</span></td><td>매수</td></tr>
+                <tr><td>솔브레인</td><td>신한</td><td>—</td><td class="hl-red">554,000</td><td class="upside-cell"><span class="up up-neg">—</span></td><td>매수</td></tr>
+                <tr><td>현대제철</td><td>신한</td><td>—</td><td class="hl-red">43,000</td><td class="upside-cell"><span class="up up-neg">—</span></td><td>매수</td></tr>
+                <tr class="port"><td><strong>두산 ★</strong></td><td>BNK</td><td>1,101,000</td><td class="hl-red">1,500,000</td><td class="upside-cell"><span class="up up-high">+36.2%</span></td><td>원전+건설</td></tr>
+                <tr><td>삼성생명</td><td>미래에셋</td><td>226,500</td><td class="hl-red">193,000</td><td class="upside-cell"><span class="up up-neg">-14.8%</span></td><td>중립 유지</td></tr>
             </table>
         </div>
         <p style="font-size:9px;color:var(--dim);margin-top:-10px;margin-bottom:14px">★ = 내 보유종목 | 노란 배경 = 포트폴리오 관련</p>
@@ -589,31 +597,31 @@
         <div class="sec-title">📋 목표가 유지 리포트 <span class="count">47건</span></div>
         <div class="tbl-wrap">
             <table>
-                <tr><th>종목</th><th>증권사</th><th>목표가</th><th>핵심</th></tr>
-                <tr><td>HD한국조선해양</td><td>LS</td><td>510,000</td><td>호황의 최전선</td></tr>
-                <tr><td>HD현대중공업</td><td>LS</td><td>760,000</td><td>Top-pick, 시너지</td></tr>
-                <tr><td>삼성중공업</td><td>LS</td><td>40,000</td><td>수주+실적 동시</td></tr>
-                <tr><td>한화오션</td><td>LS</td><td>170,000</td><td>특수선 모멘텀</td></tr>
-                <tr><td>JYP Ent.</td><td>iM/키움</td><td>100,000</td><td>MD전략·스키즈 서프라이즈</td></tr>
-                <tr><td>LG이노텍</td><td>현대차</td><td>360,000</td><td>기판+휴머노이드</td></tr>
-                <tr class="port"><td><strong>삼성전자 ★</strong></td><td>IBK</td><td>=</td><td>자사주 소각 공시</td></tr>
-                <tr><td>SK</td><td>NH/키움</td><td>=</td><td>소각 후 현금배분 관건</td></tr>
-                <tr><td>녹십자</td><td>IBK</td><td>=</td><td>알리글로 미국 안착</td></tr>
-                <tr><td>덕산네오룩스</td><td>현대차</td><td>57,000</td><td>OLED 변곡점</td></tr>
-                <tr><td>비나텍</td><td>DS투자</td><td>=</td><td>슈퍼캡 +122%</td></tr>
-                <tr><td>아모센스</td><td>SK증권</td><td>=</td><td>SOFC 기판 출하</td></tr>
-                <tr><td>에임드바이오</td><td>신한</td><td>=</td><td>ADC 에셋 순항</td></tr>
-                <tr><td>엔씨소프트</td><td>하나</td><td>=</td><td>JustPlay 인수</td></tr>
-                <tr><td>이수페타시스</td><td>신한</td><td>=</td><td>AI서버 PCB 증설</td></tr>
-                <tr><td>진성티이씨</td><td>신한</td><td>=</td><td>캐터필러 업사이클</td></tr>
-                <tr><td>티에프이</td><td>NH</td><td>=</td><td>반도체 테스트 저평가</td></tr>
-                <tr><td>포스코퓨처엠</td><td>KB</td><td>=</td><td>음극재 수주 기대</td></tr>
-                <tr><td>퓨쳐켐</td><td>아이브이</td><td>=</td><td>방사성의약품</td></tr>
-                <tr><td>씨에스베어링</td><td>DS투자</td><td>=</td><td>육상풍력 풀캐파</td></tr>
-                <tr><td>하이비젼시스템</td><td>DS투자</td><td>=</td><td>AI글래스 성장엔진</td></tr>
-                <tr><td>성호전자</td><td>미래에셋</td><td>=</td><td>CPO 수혜 OP+70%</td></tr>
-                <tr><td>메디아나</td><td>리딩</td><td>=</td><td>무선감시장치 약진</td></tr>
-                <tr><td>한전KPS</td><td>삼성</td><td>68,000</td><td>원전 실적 강화</td></tr>
+                <tr><th>종목</th><th>증권사</th><th>현재가</th><th>목표가</th><th>상승여력</th><th>핵심</th></tr>
+                <tr><td>HD한국조선해양</td><td>LS</td><td>420,000</td><td>510,000</td><td class="upside-cell"><span class="up up-mid">+21.4%</span></td><td>호황의 최전선</td></tr>
+                <tr><td>HD현대중공업</td><td>LS</td><td>590,000</td><td>760,000</td><td class="upside-cell"><span class="up up-mid">+28.8%</span></td><td>Top-pick, 시너지</td></tr>
+                <tr><td>삼성중공업</td><td>LS</td><td>28,800</td><td>40,000</td><td class="upside-cell"><span class="up up-high">+38.9%</span></td><td>수주+실적 동시</td></tr>
+                <tr><td>한화오션</td><td>LS</td><td>133,600</td><td>170,000</td><td class="upside-cell"><span class="up up-mid">+27.2%</span></td><td>특수선 모멘텀</td></tr>
+                <tr><td>JYP Ent.</td><td>iM/키움</td><td>64,700</td><td>100,000</td><td class="upside-cell"><span class="up up-high">+54.6%</span></td><td>MD전략·스키즈 서프라이즈</td></tr>
+                <tr><td>LG이노텍</td><td>현대차</td><td>261,000</td><td>360,000</td><td class="upside-cell"><span class="up up-high">+37.9%</span></td><td>기판+휴머노이드</td></tr>
+                <tr class="port"><td><strong>삼성전자 ★</strong></td><td>IBK</td><td>190,000</td><td>=</td><td class="upside-cell"><span class="up up-neg">—</span></td><td>자사주 소각 공시</td></tr>
+                <tr><td>SK</td><td>NH/키움</td><td>359,500</td><td>=</td><td class="upside-cell"><span class="up up-neg">—</span></td><td>소각 후 현금배분 관건</td></tr>
+                <tr><td>녹십자</td><td>IBK</td><td>—</td><td>=</td><td class="upside-cell"><span class="up up-neg">—</span></td><td>알리글로 미국 안착</td></tr>
+                <tr><td>덕산네오룩스</td><td>현대차</td><td>41,950</td><td>57,000</td><td class="upside-cell"><span class="up up-high">+35.9%</span></td><td>OLED 변곡점</td></tr>
+                <tr><td>비나텍</td><td>DS투자</td><td>—</td><td>=</td><td class="upside-cell"><span class="up up-neg">—</span></td><td>슈퍼캡 +122%</td></tr>
+                <tr><td>아모센스</td><td>SK증권</td><td>—</td><td>=</td><td class="upside-cell"><span class="up up-neg">—</span></td><td>SOFC 기판 출하</td></tr>
+                <tr><td>에임드바이오</td><td>신한</td><td>—</td><td>=</td><td class="upside-cell"><span class="up up-neg">—</span></td><td>ADC 에셋 순항</td></tr>
+                <tr><td>엔씨소프트</td><td>하나</td><td>—</td><td>=</td><td class="upside-cell"><span class="up up-neg">—</span></td><td>JustPlay 인수</td></tr>
+                <tr><td>이수페타시스</td><td>신한</td><td>—</td><td>=</td><td class="upside-cell"><span class="up up-neg">—</span></td><td>AI서버 PCB 증설</td></tr>
+                <tr><td>진성티이씨</td><td>신한</td><td>—</td><td>=</td><td class="upside-cell"><span class="up up-neg">—</span></td><td>캐터필러 업사이클</td></tr>
+                <tr><td>티에프이</td><td>NH</td><td>—</td><td>=</td><td class="upside-cell"><span class="up up-neg">—</span></td><td>반도체 테스트 저평가</td></tr>
+                <tr><td>포스코퓨처엠</td><td>KB</td><td>210,500</td><td>280,000</td><td class="upside-cell"><span class="up up-high">+33.0%</span></td><td>음극재 수주 기대</td></tr>
+                <tr><td>퓨쳐켐</td><td>아이브이</td><td>—</td><td>=</td><td class="upside-cell"><span class="up up-neg">—</span></td><td>방사성의약품</td></tr>
+                <tr><td>씨에스베어링</td><td>DS투자</td><td>—</td><td>=</td><td class="upside-cell"><span class="up up-neg">—</span></td><td>육상풍력 풀캐파</td></tr>
+                <tr><td>하이비젼시스템</td><td>DS투자</td><td>—</td><td>=</td><td class="upside-cell"><span class="up up-neg">—</span></td><td>AI글래스 성장엔진</td></tr>
+                <tr><td>성호전자</td><td>미래에셋</td><td>—</td><td>=</td><td class="upside-cell"><span class="up up-neg">—</span></td><td>CPO 수혜 OP+70%</td></tr>
+                <tr><td>메디아나</td><td>리딩</td><td>—</td><td>=</td><td class="upside-cell"><span class="up up-neg">—</span></td><td>무선감시장치 약진</td></tr>
+                <tr><td>한전KPS</td><td>삼성</td><td>56,200</td><td>68,000</td><td class="upside-cell"><span class="up up-mid">+20.9%</span></td><td>원전 실적 강화</td></tr>
             </table>
         </div>
     </div>
