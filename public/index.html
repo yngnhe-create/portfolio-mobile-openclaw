@@ -90,7 +90,7 @@ body.masked .pval,body.masked .pchg,body.masked .cd-num{filter:blur(8px);user-se
 <button class="mask-btn" id="maskBtn" onclick="toggleMask()">🙈 마스킹</button>
 <div class="topbar">
   <div class="logo"><span>◆</span>투자커멘드</div>
-  <div class="mstat" id="ms">● 업데이트: 2026년 03월 11일 18:06 KST</div>
+  <div class="mstat" id="ms">● 업데이트: 2026년 03월 12일 08:17 KST</div>
 </div>
 
 <div class="ticker">
@@ -103,20 +103,20 @@ body.masked .pval,body.masked .pchg,body.masked .cd-num{filter:blur(8px);user-se
   </div>
 </div>
 
-<div class="alert">⚠️ 리스크 경고: 가상자산 비중 9.9% (권장 15% 이하 — 현재 양호)</div>
+<div class="alert">⚠️ 리스크 경고: 가상자산 비중 9.6% (권장 15% 이하 — 현재 양호)</div>
 
 <div class="pgrid">
   <div class="pcard main">
-    <div class="pval">₩11.4억</div>
+    <div class="pval">₩11.8억</div>
     <div class="plbl">총 자산</div>
-    <div class="pchg">+34.4% (+₩2.9억) YTD</div>
+    <div class="pchg">+39.1% (+₩3.3억) YTD</div>
   </div>
   <div class="pcard">
     <div class="pval">₩8.5억</div>
     <div class="plbl">총 매수금액</div>
   </div>
   <div class="pcard">
-    <div class="pval" style="color:var(--red)">+₩2.9억</div>
+    <div class="pval" style="color:var(--red)">+₩3.3억</div>
     <div class="plbl">평가손익</div>
     <div class="pchg" style="color:var(--red)">+23.5%</div>
   </div>
@@ -234,7 +234,7 @@ body.masked .pval,body.masked .pchg,body.masked .cd-num{filter:blur(8px);user-se
 
 <div class="risk-box">
   <div class="risk-ttl">⚠️ 포트폴리오 리스크</div>
-  <div class="risk-row"><span class="rbadge rm">중위험</span><span>가상자산 비중 9.9% (권장 15% 이하 — 현재 양호)</span></div>
+  <div class="risk-row"><span class="rbadge rm">중위험</span><span>가상자산 비중 9.6% (권장 15% 이하 — 현재 양호)</span></div>
   <div class="risk-row"><span class="rbadge rm">중위험</span><span>IT/반도체 집중도 37.8% · 환율 리스크</span></div>
   <div class="risk-row"><span class="rbadge rl">저위험</span><span>채권/리츠 12% 안정성 확보</span></div>
 </div>
@@ -242,7 +242,7 @@ body.masked .pval,body.masked .pchg,body.masked .cd-num{filter:blur(8px);user-se
 <div class="rec-box">
   <div class="rec-ttl">💡 투자 운영 제언</div>
   <div class="rec-item"><strong>1. 수익 실현 권고:</strong> 연간 목표(+20%) 초과 달성. 일부 수익 실현 검토</div>
-  <div class="rec-item"><strong>2. 리밸런싱:</strong> 가상자산 비중 9.9% (권장 15% 이하 — 현재 양호)</div>
+  <div class="rec-item"><strong>2. 리밸런싱:</strong> 가상자산 비중 9.6% (권장 15% 이하 — 현재 양호)</div>
   <div class="rec-item"><strong>3. 신규 매수 유지:</strong> 현대차 단기 하락 중. 분할 매수 전략 유지</div>
   <div class="rec-item"><strong>4. 손절라인:</strong> 파마리서치 -15% 도달 시 부분 손절 검토</div>
 </div>
@@ -438,7 +438,7 @@ async function loadMarketData(force) {
     document.getElementById('mkt-upd').textContent = '데이터 없음';
   }
 }
-const MKT_INIT=[{id:"KOSPI",cur:5609.95,chg:77.3600,pct:1.3983},{id:"KOSDAQ",cur:1136.83,chg:34.5500,pct:3.1344},{id:"NASDAQ",cur:22697.104,chg:1.1590,pct:0.0051},{id:"SP500",cur:6781.48,chg:-14.5100,pct:-0.2135},{id:"USDKRW",cur:1473.6,chg:0.0700,pct:0.0048}];MKT_INIT.forEach(m=>renderMkt(m.id,"",m.cur,m.chg,m.pct));
+const MKT_INIT=[{id:"KOSPI",cur:5609.95,chg:77.3600,pct:1.3983},{id:"KOSDAQ",cur:1136.83,chg:34.5500,pct:3.1344},{id:"NASDAQ",cur:22716.135,chg:19.0310,pct:0.0838},{id:"SP500",cur:6775.8,chg:-5.6800,pct:-0.0838},{id:"USDKRW",cur:1476.77,chg:3.2400,pct:0.2199}];MKT_INIT.forEach(m=>renderMkt(m.id,"",m.cur,m.chg,m.pct));
 loadMarketData(false);
 // 4시간마다 자동 갱신
 setInterval(() => loadMarketData(true), MKT_TTL);
