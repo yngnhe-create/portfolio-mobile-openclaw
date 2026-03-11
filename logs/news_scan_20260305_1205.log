@@ -1,0 +1,102 @@
+[12:05:29] 🚀 Starting Global + Korean Financial News Scan
+[12:05:30] 📅 2026-03-05 12:05 KST
+[12:05:30] 
+======================================================================
+🚀 Global + Korean Financial News Scanner
+======================================================================
+
+============================================================
+📰 Scanning Korean Financial News...
+============================================================
+  [연합인포맥스]... /Users/geon/.openclaw/workspace/scripts/global_news_scanner.py:164: DeprecationWarning: Testing an element's truth value will always return True in future versions.  Use specific 'len(elem)' or 'elem is not None' test instead.
+  title_elem = item.find('title') or item.find('{http://www.w3.org/2005/Atom}title')
+/Users/geon/.openclaw/workspace/scripts/global_news_scanner.py:167: DeprecationWarning: Testing an element's truth value will always return True in future versions.  Use specific 'len(elem)' or 'elem is not None' test instead.
+  link_elem = item.find('link') or item.find('{http://www.w3.org/2005/Atom}link')
+/Users/geon/.openclaw/workspace/scripts/global_news_scanner.py:173: DeprecationWarning: Testing an element's truth value will always return True in future versions.  Use specific 'len(elem)' or 'elem is not None' test instead.
+  desc_elem = item.find('description') or item.find('{http://www.w3.org/2005/Atom}summary')
+✅ 0 new
+  [연합뉴스경제]... ✅ 0 new
+  [한국경제]... ✅ 0 new
+  [매일경제]... ❌ Failed
+  [머니투데이]... ❌ Failed
+  [아시아경제]... ❌ Failed
+  [이데일리]... ✅ 0 new
+  [서울경제]... ✅ 0 new
+  [전자신문]... ✅ 0 new
+  [아이뉴스24]... ❌ Failed
+
+============================================================
+🌍 Scanning International Tech News...
+============================================================
+  [TechCrunch AI]... ✅ 0 new
+  [The Verge AI]... ✅ 0 new
+  [OpenAI Blog]... ✅ 0 new
+  [Google AI]... ✅ 0 new
+  [Hugging Face]... ✅ 0 new
+  [MIT Tech Review]... ✅ 0 new
+  [Wired AI]... ✅ 0 new
+  [Ars Technica]... ✅ 0 new
+  [VentureBeat AI]... ✅ 0 new
+  [THE DECODER]... ✅ 0 new
+  [Simon Willison]... ✅ 0 new
+  [Ben's Bites]... ✅ 0 new
+
+============================================================
+💹 Scanning Global Financial News...
+============================================================
+  [Reuters Tech]... ❌ Failed
+  [Bloomberg Markets]... ✅ 0 new
+  [CNBC Finance]... ✅ 0 new
+  [Financial Times]... ✅ 0 new
+  [WSJ Markets]... ✅ 0 new
+  [MarketWatch]... ✅ 0 new
+
+============================================================
+🔥 Scanning Reddit...
+============================================================
+  [r/machinelearning]... ✅ 0 new
+  [r/artificial]... ✅ 0 new
+  [r/singularity]... ✅ 1 new
+  [r/LocalLLaMA]... ✅ 1 new
+  [r/OpenAI]... ✅ 2 new
+  [r/ChatGPT]... ✅ 2 new
+  [r/ClaudeAI]... ✅ 2 new
+  [r/technology]... ✅ 0 new
+  [r/Futurology]... ✅ 0 new
+  [r/investing]... ✅ 2 new
+  [r/wallstreetbets]... ✅ 1 new
+  [r/cryptocurrency]... ✅ 0 new
+  [r/Bitcoin]... ✅ 0 new
+
+======================================================================
+📊 Summary: 11 new articles found
+======================================================================
+
+📤 Telegram Output:
+----------------------------------------------------------------------
+📊 <b>오늘의 투자 뉴스</b>
+📅 2026.03.05 12:05
+📰 Total Sources: 28 RSS + 13 Reddit
+
+🤖 <b>AI/테크</b>
+• <a href='https://reddit.com/r/investing/comments/1rl4ho7/a_tanker_was_hit_by_a_large_explosion_in_the/'>A tanker was hit by a "large explosion" in the northern P...</a>
+  └ 🔥 Reddit r/investing | Score: 44
+• <a href='https://reddit.com/r/OpenAI/comments/1rl5dvw/its_still_growing_25m_people_have_stopped_using/'>It's still growing: 2,5M people have stopped using ChatGPT</a>
+  └ 🔥 Reddit r/OpenAI | Score: 42
+• <a href='https://reddit.com/r/ChatGPT/comments/1rl3isx/chatgpt_uninstalls_jumped_295_and_altman_is_in/'>ChatGPT uninstalls jumped 295% and Altman is in apology mode</a>
+  └ 🔥 Reddit r/ChatGPT | Score: 38
+
+📰 <b>기타</b>
+• <a href='https://reddit.com/r/wallstreetbets/comments/1rl5yj3/trump_admin_has_to_pay_back_tariffs_time_to_rally/'>Trump admin has to pay back tariffs. Time to rally!</a>
+  └ 🔥 Reddit r/wallstreetbets | Score: 21
+• <a href='https://reddit.com/r/ChatGPT/comments/1rkxi8d/take_a_deep_breath/'>Take a deep breath</a>
+  └ 🔥 Reddit r/ChatGPT | Score: 20
+• <a href='https://reddit.com/r/investing/comments/1rl481c/be_wary_of_investment_advise_from_chamath/'>Be wary of investment advise from Chamath</a>
+  └ 🔥 Reddit r/investing | Score: 13
+
+----------------------------------------------------------------------
+
+💾 Saved: /Users/geon/.openclaw/workspace/memory/news_output_telegram.txt
+[12:05:55] 
+[12:05:55] ✅ News scan completed
+[12:05:55] 📝 Log: /Users/geon/.openclaw/workspace/logs/news_scan_20260305_1205.log

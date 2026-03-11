@@ -1,0 +1,98 @@
+{
+  "date": "2026-03-05 08:04",
+  "portfolio": {
+    "total_assets": "₩10.9B",
+    "ytd_return": "+11.2%",
+    "risk_score": 68,
+    "top_gainer": "삼성전자 (+77.4M)",
+    "top_loser": "코람코리츠 (-13.8%)"
+  },
+  "events": [
+    {
+      "title": "미국 중국산 ESS 수입제한 법안",
+      "impact": "HIGH",
+      "affected": [
+        "삼성SDI",
+        "LG에너지솔루션"
+      ],
+      "action": "매수 기회",
+      "source": "정책"
+    },
+    {
+      "title": "이란-미국 분쟁 격화",
+      "impact": "HIGH",
+      "affected": [
+        "BTC",
+        "ETH",
+        "방산주"
+      ],
+      "action": "가상자산 비중 축소",
+      "source": "지정학"
+    },
+    {
+      "title": "FOMC 금리 동결",
+      "impact": "MEDIUM",
+      "affected": [
+        "리츠",
+        "금융주"
+      ],
+      "action": "관망",
+      "source": "통화정책"
+    },
+    {
+      "title": "엔비디아 주가 조정",
+      "impact": "MEDIUM",
+      "affected": [
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "action": "분할 매수 기회",
+      "source": "기업실적"
+    }
+  ],
+  "risks": [
+    {
+      "type": "환율",
+      "level": "HIGH",
+      "value": "₩1,455",
+      "threshold": "₩1,500",
+      "action": "해외주 수익 실현 검토"
+    },
+    {
+      "type": "집중도",
+      "level": "MEDIUM",
+      "value": "삼성전자 22%",
+      "threshold": "30%",
+      "action": "분산 원칙 적용"
+    },
+    {
+      "type": "VIX",
+      "level": "MEDIUM",
+      "value": "22.4",
+      "threshold": "30",
+      "action": "모니터링 강화"
+    }
+  ],
+  "actions": [
+    {
+      "type": "BUY",
+      "stock": "삼성SDI",
+      "reason": "목표가 상향 +34%"
+    },
+    {
+      "type": "BUY",
+      "stock": "기아",
+      "reason": "역사적 신고가"
+    },
+    {
+      "type": "SELL",
+      "stock": "리츠 섹터",
+      "reason": "손절 기준 도달"
+    },
+    {
+      "type": "MONITOR",
+      "stock": "해외주",
+      "reason": "환율 리스크"
+    }
+  ]
+}

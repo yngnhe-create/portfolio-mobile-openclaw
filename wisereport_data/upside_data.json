@@ -1,0 +1,80 @@
+{
+  "원익IPS": {
+    "current": 124300,
+    "target": 160000,
+    "upside": 28.7,
+    "source": "WiseReport"
+  },
+  "RFHIC": {
+    "current": 63200,
+    "target": 100000,
+    "upside": 58.2,
+    "source": "WiseReport"
+  },
+  "삼성전자": {
+    "current": 173500,
+    "target": 220000,
+    "upside": 26.8,
+    "source": "컨센서스"
+  },
+  "LG에너지솔루션": {
+    "current": 359500,
+    "target": 450000,
+    "upside": 25.2,
+    "source": "컨센서스"
+  },
+  "SK하이닉스": {
+    "current": 836000,
+    "target": 980000,
+    "upside": 17.2,
+    "source": "컨센서스"
+  },
+  "현대차": {
+    "current": 507000,
+    "target": 580000,
+    "upside": 14.4,
+    "source": "미래에셋"
+  },
+  "파마리서치": {
+    "current": 315500,
+    "target": 350000,
+    "upside": 10.9,
+    "source": "컨센서스"
+  },
+  "KT": {
+    "current": 59500,
+    "target": 67000,
+    "upside": 12.6,
+    "source": "컨센서스"
+  },
+  "SK텔레콤": {
+    "current": 75800,
+    "target": 85000,
+    "upside": 12.1,
+    "source": "컨센서스"
+  },
+  "LG유플러스": {
+    "current": 14720,
+    "target": 16000,
+    "upside": 8.7,
+    "source": "컨센서스"
+  },
+  "DN오토모티브": {
+    "current": 446,
+    "target": 0,
+    "upside": null,
+    "source": "의견없음"
+  },
+  "에이프릴바이오": {
+    "current": 61400,
+    "target": 80000,
+    "upside": 30.3,
+    "source": "컨센서스"
+  },
+  "한올바이오파마": {
+    "current": 52200,
+    "target": 62000,
+    "upside": 18.8,
+    "source": "컨센서스"
+  }
+}

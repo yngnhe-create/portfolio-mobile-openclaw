@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WiseReport Complete - 2026-03-07</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans KR', sans-serif;
+            background: #0a0a0f;
+            color: #f1f5f9;
+            padding: 20px;
+        }
+        .header {
+            background: linear-gradient(135deg, #1e3a5f, #0f172a);
+            padding: 30px;
+            border-radius: 16px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .header h1 {
+            font-size: 1.8rem;
+            background: linear-gradient(90deg, #60a5fa, #34d399);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 10px;
+        }
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        .stat-box {
+            background: #1a1a24;
+            padding: 20px;
+            border-radius: 12px;
+            text-align: center;
+        }
+        .stat-value {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #3b82f6;
+        }
+        .stat-label {
+            font-size: 0.85rem;
+            color: #64748b;
+            margin-top: 5px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: #1a1a24;
+            border-radius: 12px;
+            overflow: hidden;
+        }
+        th {
+            background: #252532;
+            padding: 15px;
+            text-align: left;
+            font-weight: 600;
+            color: #94a3b8;
+            font-size: 0.85rem;
+            text-transform: uppercase;
+        }
+        td {
+            padding: 15px;
+            border-bottom: 1px solid #2d2d3d;
+        }
+        tr:hover {
+            background: #252532;
+        }
+        .rank {
+            font-weight: 700;
+            color: #8b5cf6;
+            font-size: 1.1rem;
+        }
+        .name {
+            font-weight: 600;
+            font-size: 1rem;
+        }
+        .badge {
+            background: #10b981;
+            color: white;
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+        .price {
+            font-family: 'Monaco', monospace;
+            font-weight: 600;
+        }
+        .target {
+            color: #3b82f6;
+        }
+        .upside {
+            font-weight: 700;
+            font-size: 1.1rem;
+        }
+        .upside.up { color: #10b981; }
+        .upside.down { color: #ef4444; }
+        .desc {
+            color: #94a3b8;
+            font-size: 0.85rem;
+            max-width: 300px;
+        }
+        .footer {
+            text-align: center;
+            padding: 30px;
+            color: #64748b;
+            font-size: 0.8rem;
+        }
+        @media (max-width: 768px) {
+            .stats { grid-template-columns: 1fr; }
+            table { font-size: 0.8rem; }
+            td, th { padding: 10px; }
+            .desc { display: none; }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>📊 WiseReport Complete Analysis</h1>
+        <p style="color: #94a3b8;">2026-03-07 | 전체 20개 종목 분석</p>
+    </div>
+    
+    <div class="stats">
+        <div class="stat-box">
+            <div class="stat-value">20</div>
+            <div class="stat-label">분석 종목</div>
+        </div>
+        <div class="stat-box">
+            <div class="stat-value" style="color: #10b981;">+8561.1%</div>
+            <div class="stat-label">평균 상승여력</div>
+        </div>
+        <div class="stat-box">
+            <div class="stat-value" style="color: #3b82f6;">3</div>
+            <div class="stat-label">BUY/매수</div>
+        </div>
+    </div>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>순위</th>
+                <th>종목명</th>
+                <th>의견</th>
+                <th>현재가</th>
+                <th>목표가</th>
+                <th>상승여력</th>
+                <th class="desc">설명</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+        <tr class="stock-row">
+            <td class="rank">#1</td>
+            <td class="name">에너지소재산업재</td>
+            <td class="opinion"><span class="badge"></span></td>
+            <td class="price">₩1,403,453,559,014,153,001,020</td>
+            <td class="price target">₩2,403,121,112,161,105,510,260,306</td>
+            <td class="upside up">+171129.1%</td>
+            <td class="desc"></td>
+        </tr>
+        
+        <tr class="stock-row">
+            <td class="rank">#2</td>
+            <td class="name">한화비전</td>
+            <td class="opinion"><span class="badge">BUY</span></td>
+            <td class="price">₩85,000</td>
+            <td class="price target">₩120,000</td>
+            <td class="upside up">+41.2%</td>
+            <td class="desc">반도체 장비 수주 본격화, 고객 다변화 성공</td>
+        </tr>
+        
+        <tr class="stock-row">
+            <td class="rank">#3</td>
+            <td class="name">원익QnC</td>
+            <td class="opinion"><span class="badge">매수</span></td>
+            <td class="price">₩32,000</td>
+            <td class="price target">₩45,000</td>
+            <td class="upside up">+40.6%</td>
+            <td class="desc">쿼츠 및 세정 풀가동, 수익성 개선</td>
+        </tr>
+        
+        <tr class="stock-row">
+            <td class="rank">#4</td>
+            <td class="name">한국가스공사</td>
+            <td class="opinion"><span class="badge">Buy</span></td>
+            <td class="price">₩45,000</td>
+            <td class="price target">₩50,000</td>
+            <td class="upside up">+11.1%</td>
+            <td class="desc">배당이 아쉬우나 안정적 현금흐름</td>
+        </tr>
+        
+        <tr class="stock-row">
+            <td class="rank">#5</td>
+            <td class="name">전체</td>
+            <td class="opinion"><span class="badge"></span></td>
+            <td class="price">₩</td>
+            <td class="price target">₩</td>
+            <td class="upside ">N/A</td>
+            <td class="desc"></td>
+        </tr>
+        
+        <tr class="stock-row">
+            <td class="rank">#6</td>
+            <td class="name">아이디</td>
+            <td class="opinion"><span class="badge"></span></td>
+            <td class="price">₩</td>
+            <td class="price target">₩</td>
+            <td class="upside ">N/A</td>
+            <td class="desc"></td>
+        </tr>
+        
+        <tr class="stock-row">
+            <td class="rank">#7</td>
+            <td class="name">와이즈리포트</td>
+            <td class="opinion"><span class="badge">목표주가</span></td>
+            <td class="price">₩</td>
+            <td class="price target">₩45,000,180,412,000,040,665,000,081,464,500,018,041,200,004,066</td>
+            <td class="upside ">N/A</td>
+            <td class="desc"></td>
+        </tr>
+        
+        <tr class="stock-row">
+            <td class="rank">#8</td>
+            <td class="name">목표주가</td>
+            <td class="opinion"><span class="badge"></span></td>
+            <td class="price">₩</td>
+            <td class="price target">₩45,000</td>
+            <td class="upside ">N/A</td>
+            <td class="desc"></td>
+        </tr>
+        
+        <tr class="stock-row">
+            <td class="rank">#9</td>
+            <td class="name">추정</td>
+            <td class="opinion"><span class="badge"></span></td>
+            <td class="price">₩</td>
+            <td class="price target">₩1,804</td>
+            <td class="upside ">N/A</td>
+            <td class="desc"></td>
+        </tr>
+        
+        <tr class="stock-row">
+            <td class="rank">#10</td>
+            <td class="name">신규</td>
+            <td class="opinion"><span class="badge">[주간 해외] 중국 양회(兩會), 단기 지표보다 산업 구조 전환에 주목</span></td>
+            <td class="price">₩</td>
+            <td class="price target">₩26,030,926,030,926,030,920,262,603,092,603,092,603,092,026,260,309,126,526,030,926,030,926,030,720,263,062,603,062,026,306,260,306,202,630,626,030,620,263,062,603,062,026,306,260,306</td>
+            <td class="upside ">N/A</td>
+            <td class="desc"></td>
+        </tr>
+        
+        <tr class="stock-row">
+            <td class="rank">#11</td>
+            <td class="name">주간</td>
+            <td class="opinion"><span class="badge"></span></td>
+            <td class="price">₩260,309</td>
+            <td class="price target">₩</td>
+            <td class="upside ">N/A</td>
+            <td class="desc"></td>
+        </tr>
+        
+        <tr class="stock-row">
+            <td class="rank">#12</td>
+            <td class="name">식품</td>
+            <td class="opinion"><span class="badge"></span></td>
+            <td class="price">₩260,309</td>
+            <td class="price target">₩</td>
+            <td class="upside ">N/A</td>
+            <td class="desc"></td>
+        </tr>
+        
+        <tr class="stock-row">
+            <td class="rank">#13</td>
+            <td class="name">월간</td>
+            <td class="opinion"><span class="badge"></span></td>
+            <td class="price">₩260,309</td>
+            <td class="price target">₩</td>
+            <td class="upside ">N/A</td>
+            <td class="desc"></td>
+        </tr>
+        
+        <tr class="stock-row">
+            <td class="rank">#14</td>
+            <td class="name">무선통신서비스</td>
+            <td class="opinion"><span class="badge"></span></td>
+            <td class="price">₩260,309</td>
+            <td class="price target">₩</td>
+            <td class="upside ">N/A</td>
+            <td class="desc"></td>
+        </tr>
+        
+        <tr class="stock-row">
+            <td class="rank">#15</td>
+            <td class="name">판매업체</td>
+            <td class="opinion"><span class="badge"></span></td>
+            <td class="price">₩260,309</td>
+            <td class="price target">₩</td>
+            <td class="upside ">N/A</td>
+            <td class="desc"></td>
+        </tr>
+        
+        <tr class="stock-row">
+            <td class="rank">#16</td>
+            <td class="name">관심종목</td>
+            <td class="opinion"><span class="badge"></span></td>
+            <td class="price">₩260,309</td>
+            <td class="price target">₩</td>
+            <td class="upside ">N/A</td>
+            <td class="desc"></td>
+        </tr>
+        
+        <tr class="stock-row">
+            <td class="rank">#17</td>
+            <td class="name">미국</td>
+            <td class="opinion"><span class="badge"></span></td>
+            <td class="price">₩260,309</td>
+            <td class="price target">₩</td>
+            <td class="upside ">N/A</td>
+            <td class="desc"></td>
+        </tr>
+        
+        <tr class="stock-row">
+            <td class="rank">#18</td>
+            <td class="name">분기</td>
+            <td class="opinion"><span class="badge"></span></td>
+            <td class="price">₩260,309</td>
+            <td class="price target">₩</td>
+            <td class="upside ">N/A</td>
+            <td class="desc"></td>
+        </tr>
+        
+        <tr class="stock-row">
+            <td class="rank">#19</td>
+            <td class="name">채권</td>
+            <td class="opinion"><span class="badge"></span></td>
+            <td class="price">₩260,309</td>
+            <td class="price target">₩</td>
+            <td class="upside ">N/A</td>
+            <td class="desc"></td>
+        </tr>
+        
+        <tr class="stock-row">
+            <td class="rank">#20</td>
+            <td class="name">와이엠티</td>
+            <td class="opinion"><span class="badge"></span></td>
+            <td class="price">₩260,307</td>
+            <td class="price target">₩</td>
+            <td class="upside ">N/A</td>
+            <td class="desc"></td>
+        </tr>
+        
+        </tbody>
+    </table>
+    
+    <div class="footer">
+        📈 실시간 스크래핑 | 생성: 2026-03-07 13:31:14 <br>
+        데이터 출처: WiseReport
+    </div>
+</body>
+</html>

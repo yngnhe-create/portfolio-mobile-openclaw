@@ -1,0 +1,2172 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="theme-color" content="#0f1419">
+    <title>📊 올인원 포트폴리오 대시보드</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        :root {
+            --bg-primary: #0f1419;
+            --bg-secondary: #15202b;
+            --bg-card: #1e2732;
+            --bg-elevated: #263340;
+            --text-primary: #e7e9ea;
+            --text-secondary: #71767b;
+            --accent-blue: #1d9bf0;
+            --accent-green: #00ba7c;
+            --accent-red: #f4212e;
+            --accent-yellow: #ffd400;
+            --accent-purple: #8b5cf6;
+            --border-color: #2f3336;
+        }
+        
+        * { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+        html { font-size: 16px; scroll-behavior: smooth; }
+        
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.5;
+            padding-bottom: 100px;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #1d9bf0 0%, #0d8bd9 50%, #8b5cf6 100%);
+            padding: 24px 20px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        .header-title { font-size: 1.5rem; font-weight: 700; margin-bottom: 4px; }
+        .header-subtitle { font-size: 0.875rem; opacity: 0.9; }
+        .update-time { font-size: 0.75rem; opacity: 0.8; margin-top: 8px; }
+        
+        .nav-tabs {
+            display: flex;
+            gap: 8px;
+            padding: 12px 16px;
+            background: var(--bg-secondary);
+            border-bottom: 1px solid var(--border-color);
+            overflow-x: auto;
+            scrollbar-width: none;
+        }
+        
+        .nav-tabs::-webkit-scrollbar { display: none; }
+        
+        .nav-tab {
+            flex-shrink: 0;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.875rem;
+            font-weight: 500;
+            background: var(--bg-card);
+            color: var(--text-secondary);
+            border: none;
+            cursor: pointer;
+            white-space: nowrap;
+        }
+        
+        .nav-tab.active {
+            background: var(--accent-blue);
+            color: white;
+        }
+        
+        .container { padding: 16px; max-width: 600px; margin: 0 auto; }
+        
+        .section { display: none; }
+        .section.active { display: block; }
+        
+        .card {
+            background: var(--bg-secondary);
+            border-radius: 16px;
+            padding: 20px;
+            margin-bottom: 16px;
+            border: 1px solid var(--border-color);
+        }
+        
+        .card-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 16px;
+        }
+        
+        .card-title {
+            font-size: 1.125rem;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .badge {
+            font-size: 0.625rem;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-weight: 600;
+        }
+        
+        .badge-green { background: rgba(0, 186, 124, 0.2); color: var(--accent-green); }
+        .badge-red { background: rgba(244, 33, 46, 0.2); color: var(--accent-red); }
+        .badge-yellow { background: rgba(255, 212, 0, 0.2); color: var(--accent-yellow); }
+        .badge-blue { background: rgba(29, 155, 240, 0.2); color: var(--accent-blue); }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+        
+        .stat-card {
+            background: var(--bg-card);
+            border-radius: 16px;
+            padding: 20px 16px;
+            text-align: center;
+        }
+        
+        .stat-value {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 4px;
+        }
+        
+        .stat-value.blue { color: var(--accent-blue); }
+        .stat-value.green { color: var(--accent-green); }
+        .stat-value.red { color: var(--accent-red); }
+        
+        .stat-label {
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+            margin-bottom: 4px;
+        }
+        
+        /* Portfolio Item */
+        .portfolio-item {
+            background: var(--bg-card);
+            border-radius: 12px;
+            padding: 16px;
+            margin-bottom: 12px;
+            border-left: 4px solid var(--accent-blue);
+        }
+        
+        .portfolio-item.profit { border-left-color: var(--accent-green); }
+        .portfolio-item.loss { border-left-color: var(--accent-red); }
+        
+        .portfolio-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 8px;
+        }
+        
+        .portfolio-name {
+            font-weight: 700;
+            font-size: 1rem;
+            margin-bottom: 2px;
+        }
+        
+        .portfolio-sector {
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+        }
+        
+        .portfolio-rank {
+            font-size: 0.875rem;
+            font-weight: 700;
+            color: var(--accent-blue);
+            background: rgba(29, 155, 240, 0.1);
+            padding: 4px 10px;
+            border-radius: 12px;
+        }
+        
+        .portfolio-body {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px 0;
+            border-top: 1px solid var(--border-color);
+            border-bottom: 1px solid var(--border-color);
+        }
+        
+        .portfolio-metric {
+            text-align: center;
+        }
+        
+        .portfolio-metric-label {
+            font-size: 0.625rem;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            margin-bottom: 4px;
+        }
+        
+        .portfolio-metric-value {
+            font-size: 0.9375rem;
+            font-weight: 600;
+        }
+        
+        .portfolio-pnl {
+            text-align: right;
+        }
+        
+        .portfolio-pnl-amount {
+            font-size: 1.125rem;
+            font-weight: 700;
+        }
+        
+        .portfolio-pnl-amount.positive { color: var(--accent-green); }
+        .portfolio-pnl-amount.negative { color: var(--accent-red); }
+        
+        .portfolio-pnl-pct {
+            font-size: 0.875rem;
+            color: var(--text-secondary);
+        }
+        
+        /* Sector */
+        .sector-item {
+            display: flex;
+            align-items: center;
+            padding: 14px 0;
+            border-bottom: 1px solid var(--border-color);
+        }
+        
+        .sector-item:last-child { border-bottom: none; }
+        
+        .sector-color {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            margin-right: 12px;
+        }
+        
+        .sector-info { flex: 1; }
+        
+        .sector-name {
+            font-weight: 600;
+            font-size: 0.9375rem;
+            margin-bottom: 2px;
+        }
+        
+        .sector-count {
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+        }
+        
+        .sector-bar-bg {
+            flex: 1;
+            height: 6px;
+            background: var(--bg-elevated);
+            border-radius: 3px;
+            margin: 0 12px;
+            overflow: hidden;
+        }
+        
+        .sector-bar-fill {
+            height: 100%;
+            border-radius: 3px;
+            background: var(--accent-blue);
+        }
+        
+        .sector-percent {
+            font-weight: 700;
+            font-size: 1rem;
+            min-width: 50px;
+            text-align: right;
+        }
+        
+        .chart-container {
+            position: relative;
+            height: 220px;
+            margin: 16px 0;
+        }
+        
+        .bottom-nav {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: var(--bg-secondary);
+            border-top: 1px solid var(--border-color);
+            padding: 12px 20px calc(12px + env(safe-area-inset-bottom));
+            display: flex;
+            justify-content: space-around;
+            z-index: 100;
+        }
+        
+        .nav-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 4px;
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.625rem;
+            background: none;
+            border: none;
+            cursor: pointer;
+        }
+        
+        .nav-item.active { color: var(--accent-blue); }
+        .nav-icon { font-size: 1.5rem; }
+        
+        .view-toggle {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 16px;
+        }
+        
+        .view-btn {
+            flex: 1;
+            padding: 10px;
+            border-radius: 10px;
+            font-size: 0.875rem;
+            font-weight: 500;
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            color: var(--text-secondary);
+            cursor: pointer;
+        }
+        
+        .view-btn.active {
+            background: var(--accent-blue);
+            color: white;
+            border-color: var(--accent-blue);
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1 class="header-title">📊 올인원 포트폴리오</h1>
+        <p class="header-subtitle">손익분석 · 섹터별 비중 · 실시간 시세</p>
+        <p class="update-time">⏱️ 2026년 3월 2일 12:06 KST (크론 자동업데이트 완료)</p>
+    </header>
+
+    <nav class="nav-tabs">
+        <button class="nav-tab active" onclick="showSection('overview')">📈 개요</button>
+        <button class="nav-tab" onclick="showSection('holdings')">💼 보유종목</button>
+        <button class="nav-tab" onclick="showSection('sectors')">📊 섹터비중</button>
+        <button class="nav-tab" onclick="showSection('subsectors')">🔍 세부섹터</button>
+    </nav>
+
+    <div class="container">
+        <!-- Section 1: Overview -->
+        <div id="overview" class="section active">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-value blue">₩11.4억</div>
+                    <div class="stat-label">총 자산</div>
+                    <div style="font-size: 0.875rem; color: var(--accent-green);">+2.3% 📈</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value green">57</div>
+                    <div class="stat-label">보유 종목</div>
+                    <div style="font-size: 0.875rem; color: var(--text-secondary);">14개 섹터</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value green">+₩127M</div>
+                    <div class="stat-label">총 실현손익</div>
+                    <div style="font-size: 0.875rem; color: var(--accent-green);">수익종목 42개</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">32.8%</div>
+                    <div class="stat-label">최대 섹터</div>
+                    <div style="font-size: 0.875rem; color: var(--accent-blue);">첨단 기술</div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <h2 class="card-title">🏆 TOP 5 수익 종목</h2>
+                    <span class="badge badge-green">손익액 순</span>
+                </div>
+
+                <div class="portfolio-item profit">
+                    <div class="portfolio-header">
+                        <div>
+                            <div class="portfolio-name">TIGER 코스피고배당 (210780)</div>
+                            <div class="portfolio-sector">채권 · 203주</div>
+                        </div>
+                        <div class="portfolio-rank">#1</div>
+                    </div>
+                    <div class="portfolio-body">
+                        <div class="portfolio-metric">
+                            <div class="portfolio-metric-label">현재가</div>
+                            <div class="portfolio-metric-value">₩27,085</div>
+                        </div>
+                        <div class="portfolio-metric">
+                            <div class="portfolio-metric-label">매수가</div>
+                            <div class="portfolio-metric-value">₩14,980</div>
+                        </div>
+                        <div class="portfolio-pnl">
+                            <div class="portfolio-pnl-amount positive">+₩2.46M</div>
+                            <div class="portfolio-pnl-pct">+80.8% 🚀</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item profit">
+                    <div class="portfolio-header">
+                        <div>
+                            <div class="portfolio-name">삼성전자</div>
+                            <div class="portfolio-sector">첨단 기술 · 519주</div>
+                        </div>
+                        <div class="portfolio-rank">#2</div>
+                    </div>
+                    <div class="portfolio-body">
+                        <div class="portfolio-metric">
+                            <div class="portfolio-metric-label">현재가</div>
+                            <div class="portfolio-metric-value">₩216,500</div>
+                        </div>
+                        <div class="portfolio-metric">
+                            <div class="portfolio-metric-label">매수가</div>
+                            <div class="portfolio-metric-value">₩67,303</div>
+                        </div>
+                        <div class="portfolio-pnl">
+                            <div class="portfolio-pnl-amount positive">+₩77.4M</div>
+                            <div class="portfolio-pnl-pct">+221.7% 📈</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item profit">
+                    <div class="portfolio-header">
+                        <div>
+                            <div class="portfolio-name">현대차3우B (005389)</div>
+                            <div class="portfolio-sector">경기 소비재 · 104주</div>
+                        </div>
+                        <div class="portfolio-rank">#3</div>
+                    </div>
+                    <div class="portfolio-body">
+                        <div class="portfolio-metric">
+                            <div class="portfolio-metric-label">현재가</div>
+                            <div class="portfolio-metric-value">₩306,500</div>
+                        </div>
+                        <div class="portfolio-metric">
+                            <div class="portfolio-metric-label">매수가</div>
+                            <div class="portfolio-metric-value">₩80,667</div>
+                        </div>
+                        <div class="portfolio-pnl">
+                            <div class="portfolio-pnl-amount positive">+₩23.5M</div>
+                            <div class="portfolio-pnl-pct">+279.7% 🚀</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item profit">
+                    <div class="portfolio-header">
+                        <div>
+                            <div class="portfolio-name">삼성전자우</div>
+                            <div class="portfolio-sector">첨단 기술 · 217주</div>
+                        </div>
+                        <div class="portfolio-rank">#4</div>
+                    </div>
+                    <div class="portfolio-body">
+                        <div class="portfolio-metric">
+                            <div class="portfolio-metric-label">현재가</div>
+                            <div class="portfolio-metric-value">₩143,800</div>
+                        </div>
+                        <div class="portfolio-metric">
+                            <div class="portfolio-metric-label">매수가</div>
+                            <div class="portfolio-metric-value">₩46,051</div>
+                        </div>
+                        <div class="portfolio-pnl">
+                            <div class="portfolio-pnl-amount positive">+₩21.2M</div>
+                            <div class="portfolio-pnl-pct">+212.3% 📈</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item profit">
+                    <div class="portfolio-header">
+                        <div>
+                            <div class="portfolio-name">TIGER 미국테크TOP10 INDXX</div>
+                            <div class="portfolio-sector">ETF · 1,050주</div>
+                        </div>
+                        <div class="portfolio-rank">#5</div>
+                    </div>
+                    <div class="portfolio-body">
+                        <div class="portfolio-metric">
+                            <div class="portfolio-metric-label">현재가</div>
+                            <div class="portfolio-metric-value">₩40,650</div>
+                        </div>
+                        <div class="portfolio-metric">
+                            <div class="portfolio-metric-label">매수가</div>
+                            <div class="portfolio-metric-value">₩20,918</div>
+                        </div>
+                        <div class="portfolio-pnl">
+                            <div class="portfolio-pnl-amount positive">+₩20.7M</div>
+                            <div class="portfolio-pnl-pct">+94.3% 📈</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <h2 class="card-title">⚠️ TOP 3 손실 종목</h2>
+                    <span class="badge badge-red">리스크 관리</span>
+                </div>
+
+                <div class="portfolio-item loss">
+                    <div class="portfolio-header">
+                        <div>
+                            <div class="portfolio-name">파마리서치 (214450)</div>
+                            <div class="portfolio-sector">헬스케어 · 126주</div>
+                        </div>
+                        <div class="portfolio-rank" style="background: rgba(244, 33, 46, 0.2); color: var(--accent-red);">#1</div>
+                    </div>
+                    <div class="portfolio-body">
+                        <div class="portfolio-metric">
+                            <div class="portfolio-metric-label">현재가</div>
+                            <div class="portfolio-metric-value">₩349,500</div>
+                        </div>
+                        <div class="portfolio-metric">
+                            <div class="portfolio-metric-label">매수가</div>
+                            <div class="portfolio-metric-value">₩401,408</div>
+                        </div>
+                        <div class="portfolio-pnl">
+                            <div class="portfolio-pnl-amount negative">₩-6.5M</div>
+                            <div class="portfolio-pnl-pct">-12.9% ⚠️</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item profit">
+                    <div class="portfolio-header">
+                        <div>
+                            <div class="portfolio-name">DL이앤씨우 (37550K)</div>
+                            <div class="portfolio-sector">산업재 · 1,206주</div>
+                        </div>
+                        <div class="portfolio-rank">#2</div>
+                    </div>
+                    <div class="portfolio-body">
+                        <div class="portfolio-metric">
+                            <div class="portfolio-metric-label">현재가</div>
+                            <div class="portfolio-metric-value">₩25,750</div>
+                        </div>
+                        <div class="portfolio-metric">
+                            <div class="portfolio-metric-label">매수가</div>
+                            <div class="portfolio-metric-value">₩19,570</div>
+                        </div>
+                        <div class="portfolio-pnl">
+                            <div class="portfolio-pnl-amount positive">+₩7.5M</div>
+                            <div class="portfolio-pnl-pct">+31.6% 📈</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item loss">
+                    <div class="portfolio-header">
+                        <div>
+                            <div class="portfolio-name">코람코라이프인프라리츠 (357120)</div>
+                            <div class="portfolio-sector">부동산 · 3,570주</div>
+                        </div>
+                        <div class="portfolio-rank" style="background: rgba(244, 33, 46, 0.2); color: var(--accent-red);">#3</div>
+                    </div>
+                    <div class="portfolio-body">
+                        <div class="portfolio-metric">
+                            <div class="portfolio-metric-label">현재가</div>
+                            <div class="portfolio-metric-value">₩4,580</div>
+                        </div>
+                        <div class="portfolio-metric">
+                            <div class="portfolio-metric-label">매수가</div>
+                            <div class="portfolio-metric-value">₩5,316</div>
+                        </div>
+                        <div class="portfolio-pnl">
+                            <div class="portfolio-pnl-amount negative">₩-2.6M</div>
+                            <div class="portfolio-pnl-pct">-13.8% ⚠️</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 2: All Holdings -->
+        <div id="holdings" class="section">
+            <div class="card">
+                <div class="card-header">
+                    <h2 class="card-title">💼 전체 보유 종목</h2>
+                    <span class="badge badge-blue">57개</span>
+                </div>
+
+                <!-- All 57 holdings sorted by PnL amount (descending) -->
+                <div id="holdings-list">                    
+                    <div class="portfolio-item profit">
+                        <div class="portfolio-header">
+                            <div>
+                                <div class="portfolio-name">삼성전자</div>
+                                <div class="portfolio-sector">보유 종목</div>
+                            </div>
+                            <div class="portfolio-rank">#1</div>
+                        </div>
+                        <div class="portfolio-body">
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">현재가</div>
+                                <div class="portfolio-metric-value">₩216,500</div>
+                            </div>
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">매수가</div>
+                                <div class="portfolio-metric-value">₩67,303</div>
+                            </div>
+                            <div class="portfolio-pnl">
+                                <div class="portfolio-pnl-amount positive">+₩77.4M</div>
+                                <div class="portfolio-pnl-pct">+221.68% 🚀</div>
+                            </div>
+                        </div>
+                    </div>                    
+                    <div class="portfolio-item profit">
+                        <div class="portfolio-header">
+                            <div>
+                                <div class="portfolio-name">현대차3우B</div>
+                                <div class="portfolio-sector">보유 종목</div>
+                            </div>
+                            <div class="portfolio-rank">#2</div>
+                        </div>
+                        <div class="portfolio-body">
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">현재가</div>
+                                <div class="portfolio-metric-value">₩306,500</div>
+                            </div>
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">매수가</div>
+                                <div class="portfolio-metric-value">₩80,667</div>
+                            </div>
+                            <div class="portfolio-pnl">
+                                <div class="portfolio-pnl-amount positive">+₩23.5M</div>
+                                <div class="portfolio-pnl-pct">+291.03% 🚀</div>
+                            </div>
+                        </div>
+                    </div>                    
+                    <div class="portfolio-item profit">
+                        <div class="portfolio-header">
+                            <div>
+                                <div class="portfolio-name">삼성전자우</div>
+                                <div class="portfolio-sector">보유 종목</div>
+                            </div>
+                            <div class="portfolio-rank">#3</div>
+                        </div>
+                        <div class="portfolio-body">
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">현재가</div>
+                                <div class="portfolio-metric-value">₩143,800</div>
+                            </div>
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">매수가</div>
+                                <div class="portfolio-metric-value">₩46,051</div>
+                            </div>
+                            <div class="portfolio-pnl">
+                                <div class="portfolio-pnl-amount positive">+₩21.2M</div>
+                                <div class="portfolio-pnl-pct">+212.26% 🚀</div>
+                            </div>
+                        </div>
+                    </div>                    
+                    <div class="portfolio-item profit">
+                        <div class="portfolio-header">
+                            <div>
+                                <div class="portfolio-name">TIGER 미국테크TOP10 INDXX</div>
+                                <div class="portfolio-sector">보유 종목</div>
+                            </div>
+                            <div class="portfolio-rank">#4</div>
+                        </div>
+                        <div class="portfolio-body">
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">현재가</div>
+                                <div class="portfolio-metric-value">₩40,650</div>
+                            </div>
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">매수가</div>
+                                <div class="portfolio-metric-value">₩20,918</div>
+                            </div>
+                            <div class="portfolio-pnl">
+                                <div class="portfolio-pnl-amount positive">+₩20.7M</div>
+                                <div class="portfolio-pnl-pct">+94.33%</div>
+                            </div>
+                        </div>
+                    </div>                    
+                    <div class="portfolio-item profit">
+                        <div class="portfolio-header">
+                            <div>
+                                <div class="portfolio-name">두산</div>
+                                <div class="portfolio-sector">보유 종목</div>
+                            </div>
+                            <div class="portfolio-rank">#5</div>
+                        </div>
+                        <div class="portfolio-body">
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">현재가</div>
+                                <div class="portfolio-metric-value">₩1,278,000</div>
+                            </div>
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">매수가</div>
+                                <div class="portfolio-metric-value">₩846,067</div>
+                            </div>
+                            <div class="portfolio-pnl">
+                                <div class="portfolio-pnl-amount positive">+₩13.0M</div>
+                                <div class="portfolio-pnl-pct">+51.05%</div>
+                            </div>
+                        </div>
+                    </div>                    
+                    <div class="portfolio-item profit">
+                        <div class="portfolio-header">
+                            <div>
+                                <div class="portfolio-name">TIGER 코리아AI전력기기TOP3+</div>
+                                <div class="portfolio-sector">보유 종목</div>
+                            </div>
+                            <div class="portfolio-rank">#6</div>
+                        </div>
+                        <div class="portfolio-body">
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">현재가</div>
+                                <div class="portfolio-metric-value">₩15,900</div>
+                            </div>
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">매수가</div>
+                                <div class="portfolio-metric-value">₩12,823</div>
+                            </div>
+                            <div class="portfolio-pnl">
+                                <div class="portfolio-pnl-amount positive">+₩12.7M</div>
+                                <div class="portfolio-pnl-pct">+24.0%</div>
+                            </div>
+                        </div>
+                    </div>                    
+                    <div class="portfolio-item profit">
+                        <div class="portfolio-header">
+                            <div>
+                                <div class="portfolio-name">SOL 미국AI전력인프라</div>
+                                <div class="portfolio-sector">보유 종목</div>
+                            </div>
+                            <div class="portfolio-rank">#7</div>
+                        </div>
+                        <div class="portfolio-body">
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">현재가</div>
+                                <div class="portfolio-metric-value">$83.58</div>
+                            </div>
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">매수가</div>
+                                <div class="portfolio-metric-value">₩13,285</div>
+                            </div>
+                            <div class="portfolio-pnl">
+                                <div class="portfolio-pnl-amount positive">+₩12.4M</div>
+                                <div class="portfolio-pnl-pct">+53.03%</div>
+                            </div>
+                        </div>
+                    </div>                    
+                    <div class="portfolio-item profit">
+                        <div class="portfolio-header">
+                            <div>
+                                <div class="portfolio-name">현대차우</div>
+                                <div class="portfolio-sector">보유 종목</div>
+                            </div>
+                            <div class="portfolio-rank">#8</div>
+                        </div>
+                        <div class="portfolio-body">
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">현재가</div>
+                                <div class="portfolio-metric-value">₩323,500</div>
+                            </div>
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">매수가</div>
+                                <div class="portfolio-metric-value">₩100,201</div>
+                            </div>
+                            <div class="portfolio-pnl">
+                                <div class="portfolio-pnl-amount positive">+₩11.2M</div>
+                                <div class="portfolio-pnl-pct">+222.85% 🚀</div>
+                            </div>
+                        </div>
+                    </div>                    
+                    <div class="portfolio-item profit">
+                        <div class="portfolio-header">
+                            <div>
+                                <div class="portfolio-name">BTC/KRW</div>
+                                <div class="portfolio-sector">보유 종목</div>
+                            </div>
+                            <div class="portfolio-rank">#9</div>
+                        </div>
+                        <div class="portfolio-body">
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">현재가</div>
+                                <div class="portfolio-metric-value">₩65,758</div>
+                            </div>
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">매수가</div>
+                                <div class="portfolio-metric-value">₩82,000,000</div>
+                            </div>
+                            <div class="portfolio-pnl">
+                                <div class="portfolio-pnl-amount positive">+₩10.6M</div>
+                                <div class="portfolio-pnl-pct">+18.46%</div>
+                            </div>
+                        </div>
+                    </div>                    
+                    <div class="portfolio-item profit">
+                        <div class="portfolio-header">
+                            <div>
+                                <div class="portfolio-name">TIME 글로벌우주테크&방산</div>
+                                <div class="portfolio-sector">보유 종목</div>
+                            </div>
+                            <div class="portfolio-rank">#10</div>
+                        </div>
+                        <div class="portfolio-body">
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">현재가</div>
+                                <div class="portfolio-metric-value">₩21,645</div>
+                            </div>
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">매수가</div>
+                                <div class="portfolio-metric-value">₩14,274</div>
+                            </div>
+                            <div class="portfolio-pnl">
+                                <div class="portfolio-pnl-amount positive">+₩4.9M</div>
+                                <div class="portfolio-pnl-pct">+51.64%</div>
+                            </div>
+                        </div>
+                    </div>                    
+                    <div class="portfolio-item profit">
+                        <div class="portfolio-header">
+                            <div>
+                                <div class="portfolio-name">네이버</div>
+                                <div class="portfolio-sector">보유 종목</div>
+                            </div>
+                            <div class="portfolio-rank">#11</div>
+                        </div>
+                        <div class="portfolio-body">
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">현재가</div>
+                                <div class="portfolio-metric-value">₩254,500</div>
+                            </div>
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">매수가</div>
+                                <div class="portfolio-metric-value">₩187,200</div>
+                            </div>
+                            <div class="portfolio-pnl">
+                                <div class="portfolio-pnl-amount positive">+₩4.0M</div>
+                                <div class="portfolio-pnl-pct">+35.95%</div>
+                            </div>
+                        </div>
+                    </div>                    
+                    <div class="portfolio-item profit">
+                        <div class="portfolio-header">
+                            <div>
+                                <div class="portfolio-name">ESR켄달스퀘어리츠</div>
+                                <div class="portfolio-sector">보유 종목</div>
+                            </div>
+                            <div class="portfolio-rank">#12</div>
+                        </div>
+                        <div class="portfolio-body">
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">현재가</div>
+                                <div class="portfolio-metric-value">₩4,445</div>
+                            </div>
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">매수가</div>
+                                <div class="portfolio-metric-value">₩3,762</div>
+                            </div>
+                            <div class="portfolio-pnl">
+                                <div class="portfolio-pnl-amount positive">+₩3.8M</div>
+                                <div class="portfolio-pnl-pct">+18.15%</div>
+                            </div>
+                        </div>
+                    </div>                    
+                    <div class="portfolio-item profit">
+                        <div class="portfolio-header">
+                            <div>
+                                <div class="portfolio-name">SK리츠</div>
+                                <div class="portfolio-sector">보유 종목</div>
+                            </div>
+                            <div class="portfolio-rank">#13</div>
+                        </div>
+                        <div class="portfolio-body">
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">현재가</div>
+                                <div class="portfolio-metric-value">₩5,610</div>
+                            </div>
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">매수가</div>
+                                <div class="portfolio-metric-value">₩4,002</div>
+                            </div>
+                            <div class="portfolio-pnl">
+                                <div class="portfolio-pnl-amount positive">+₩3.2M</div>
+                                <div class="portfolio-pnl-pct">+40.18%</div>
+                            </div>
+                        </div>
+                    </div>                    
+                    <div class="portfolio-item profit">
+                        <div class="portfolio-header">
+                            <div>
+                                <div class="portfolio-name">TIGER 코스피고배당</div>
+                                <div class="portfolio-sector">보유 종목</div>
+                            </div>
+                            <div class="portfolio-rank">#14</div>
+                        </div>
+                        <div class="portfolio-body">
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">현재가</div>
+                                <div class="portfolio-metric-value">₩27,085</div>
+                            </div>
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">매수가</div>
+                                <div class="portfolio-metric-value">₩14,980</div>
+                            </div>
+                            <div class="portfolio-pnl">
+                                <div class="portfolio-pnl-amount positive">+₩2.5M</div>
+                                <div class="portfolio-pnl-pct">+80.8%</div>
+                            </div>
+                        </div>
+                    </div>                    
+                    <div class="portfolio-item profit">
+                        <div class="portfolio-header">
+                            <div>
+                                <div class="portfolio-name">KODEX 미국S&P500헬스케어</div>
+                                <div class="portfolio-sector">보유 종목</div>
+                            </div>
+                            <div class="portfolio-rank">#15</div>
+                        </div>
+                        <div class="portfolio-body">
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">현재가</div>
+                                <div class="portfolio-metric-value">₩13,610</div>
+                            </div>
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">매수가</div>
+                                <div class="portfolio-metric-value">₩10,155</div>
+                            </div>
+                            <div class="portfolio-pnl">
+                                <div class="portfolio-pnl-amount positive">+₩2.1M</div>
+                                <div class="portfolio-pnl-pct">+34.02%</div>
+                            </div>
+                        </div>
+                    </div>                    
+                    <div class="portfolio-item profit">
+                        <div class="portfolio-header">
+                            <div>
+                                <div class="portfolio-name">KODEX 미국30년국채액티브(H)</div>
+                                <div class="portfolio-sector">보유 종목</div>
+                            </div>
+                            <div class="portfolio-rank">#16</div>
+                        </div>
+                        <div class="portfolio-body">
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">현재가</div>
+                                <div class="portfolio-metric-value">₩8,980</div>
+                            </div>
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">매수가</div>
+                                <div class="portfolio-metric-value">₩8,093</div>
+                            </div>
+                            <div class="portfolio-pnl">
+                                <div class="portfolio-pnl-amount positive">+₩1.9M</div>
+                                <div class="portfolio-pnl-pct">+10.96%</div>
+                            </div>
+                        </div>
+                    </div>                    
+                    <div class="portfolio-item profit">
+                        <div class="portfolio-header">
+                            <div>
+                                <div class="portfolio-name">ACE 구글밸류체인액티브</div>
+                                <div class="portfolio-sector">보유 종목</div>
+                            </div>
+                            <div class="portfolio-rank">#17</div>
+                        </div>
+                        <div class="portfolio-body">
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">현재가</div>
+                                <div class="portfolio-metric-value">₩16,560</div>
+                            </div>
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">매수가</div>
+                                <div class="portfolio-metric-value">₩14,981</div>
+                            </div>
+                            <div class="portfolio-pnl">
+                                <div class="portfolio-pnl-amount positive">+₩1.4M</div>
+                                <div class="portfolio-pnl-pct">+10.54%</div>
+                            </div>
+                        </div>
+                    </div>                    
+                    <div class="portfolio-item profit">
+                        <div class="portfolio-header">
+                            <div>
+                                <div class="portfolio-name">LG에너지솔루션</div>
+                                <div class="portfolio-sector">보유 종목</div>
+                            </div>
+                            <div class="portfolio-rank">#18</div>
+                        </div>
+                        <div class="portfolio-body">
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">현재가</div>
+                                <div class="portfolio-metric-value">₩427,000</div>
+                            </div>
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">매수가</div>
+                                <div class="portfolio-metric-value">₩404,000</div>
+                            </div>
+                            <div class="portfolio-pnl">
+                                <div class="portfolio-pnl-amount positive">+₩1.3M</div>
+                                <div class="portfolio-pnl-pct">+5.69%</div>
+                            </div>
+                        </div>
+                    </div>                    
+                    <div class="portfolio-item profit">
+                        <div class="portfolio-header">
+                            <div>
+                                <div class="portfolio-name">이지스밸류플러스리츠</div>
+                                <div class="portfolio-sector">보유 종목</div>
+                            </div>
+                            <div class="portfolio-rank">#19</div>
+                        </div>
+                        <div class="portfolio-body">
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">현재가</div>
+                                <div class="portfolio-metric-value">₩4,850</div>
+                            </div>
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">매수가</div>
+                                <div class="portfolio-metric-value">₩4,335</div>
+                            </div>
+                            <div class="portfolio-pnl">
+                                <div class="portfolio-pnl-amount positive">+₩1.2M</div>
+                                <div class="portfolio-pnl-pct">+11.88%</div>
+                            </div>
+                        </div>
+                    </div>                    
+                    <div class="portfolio-item profit">
+                        <div class="portfolio-header">
+                            <div>
+                                <div class="portfolio-name">TIGER 테슬라채권혼합Fn</div>
+                                <div class="portfolio-sector">보유 종목</div>
+                            </div>
+                            <div class="portfolio-rank">#20</div>
+                        </div>
+                        <div class="portfolio-body">
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">현재가</div>
+                                <div class="portfolio-metric-value">₩14,665</div>
+                            </div>
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">매수가</div>
+                                <div class="portfolio-metric-value">₩13,800</div>
+                            </div>
+                            <div class="portfolio-pnl">
+                                <div class="portfolio-pnl-amount positive">+₩1.1M</div>
+                                <div class="portfolio-pnl-pct">+6.27%</div>
+                            </div>
+                        </div>
+                    </div>                    
+                    <div class="portfolio-item profit">
+                        <div class="portfolio-header">
+                            <div>
+                                <div class="portfolio-name">신한서부티엔디리츠</div>
+                                <div class="portfolio-sector">보유 종목</div>
+                            </div>
+                            <div class="portfolio-rank">#21</div>
+                        </div>
+                        <div class="portfolio-body">
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">현재가</div>
+                                <div class="portfolio-metric-value">₩4,075</div>
+                            </div>
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">매수가</div>
+                                <div class="portfolio-metric-value">₩3,747</div>
+                            </div>
+                            <div class="portfolio-pnl">
+                                <div class="portfolio-pnl-amount positive">+₩811K</div>
+                                <div class="portfolio-pnl-pct">+8.77%</div>
+                            </div>
+                        </div>
+                    </div>                    
+                    <div class="portfolio-item profit">
+                        <div class="portfolio-header">
+                            <div>
+                                <div class="portfolio-name">TIGER 글로벌멀티에셋TIF</div>
+                                <div class="portfolio-sector">보유 종목</div>
+                            </div>
+                            <div class="portfolio-rank">#22</div>
+                        </div>
+                        <div class="portfolio-body">
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">현재가</div>
+                                <div class="portfolio-metric-value">₩12,320</div>
+                            </div>
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">매수가</div>
+                                <div class="portfolio-metric-value">₩9,639</div>
+                            </div>
+                            <div class="portfolio-pnl">
+                                <div class="portfolio-pnl-amount positive">+₩649K</div>
+                                <div class="portfolio-pnl-pct">+27.81%</div>
+                            </div>
+                        </div>
+                    </div>                    
+                    <div class="portfolio-item profit">
+                        <div class="portfolio-header">
+                            <div>
+                                <div class="portfolio-name">KODEX TRF3070</div>
+                                <div class="portfolio-sector">보유 종목</div>
+                            </div>
+                            <div class="portfolio-rank">#23</div>
+                        </div>
+                        <div class="portfolio-body">
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">현재가</div>
+                                <div class="portfolio-metric-value">₩14,315</div>
+                            </div>
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">매수가</div>
+                                <div class="portfolio-metric-value">₩12,340</div>
+                            </div>
+                            <div class="portfolio-pnl">
+                                <div class="portfolio-pnl-amount positive">+₩482K</div>
+                                <div class="portfolio-pnl-pct">+16.0%</div>
+                            </div>
+                        </div>
+                    </div>                    
+                    <div class="portfolio-item profit">
+                        <div class="portfolio-header">
+                            <div>
+                                <div class="portfolio-name">삼성SDI</div>
+                                <div class="portfolio-sector">보유 종목</div>
+                            </div>
+                            <div class="portfolio-rank">#24</div>
+                        </div>
+                        <div class="portfolio-body">
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">현재가</div>
+                                <div class="portfolio-metric-value">₩466,000</div>
+                            </div>
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">매수가</div>
+                                <div class="portfolio-metric-value">₩204,417</div>
+                            </div>
+                            <div class="portfolio-pnl">
+                                <div class="portfolio-pnl-amount positive">+₩262K</div>
+                                <div class="portfolio-pnl-pct">+127.97% 🚀</div>
+                            </div>
+                        </div>
+                    </div>                    
+                    <div class="portfolio-item profit">
+                        <div class="portfolio-header">
+                            <div>
+                                <div class="portfolio-name">TIGER 미국초단기국채</div>
+                                <div class="portfolio-sector">보유 종목</div>
+                            </div>
+                            <div class="portfolio-rank">#25</div>
+                        </div>
+                        <div class="portfolio-body">
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">현재가</div>
+                                <div class="portfolio-metric-value">₩10,010</div>
+                            </div>
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">매수가</div>
+                                <div class="portfolio-metric-value">₩9,654</div>
+                            </div>
+                            <div class="portfolio-pnl">
+                                <div class="portfolio-pnl-amount positive">+₩165K</div>
+                                <div class="portfolio-pnl-pct">+3.69%</div>
+                            </div>
+                        </div>
+                    </div>                    
+                    <div class="portfolio-item profit">
+                        <div class="portfolio-header">
+                            <div>
+                                <div class="portfolio-name">세아베스틸지주</div>
+                                <div class="portfolio-sector">보유 종목</div>
+                            </div>
+                            <div class="portfolio-rank">#26</div>
+                        </div>
+                        <div class="portfolio-body">
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">현재가</div>
+                                <div class="portfolio-metric-value">₩142,000</div>
+                            </div>
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">매수가</div>
+                                <div class="portfolio-metric-value">₩25,654</div>
+                            </div>
+                            <div class="portfolio-pnl">
+                                <div class="portfolio-pnl-amount positive">+₩116K</div>
+                                <div class="portfolio-pnl-pct">+453.52% 🚀</div>
+                            </div>
+                        </div>
+                    </div>                    
+                    <div class="portfolio-item profit">
+                        <div class="portfolio-header">
+                            <div>
+                                <div class="portfolio-name">HANARO 글로벌금채굴기업</div>
+                                <div class="portfolio-sector">보유 종목</div>
+                            </div>
+                            <div class="portfolio-rank">#27</div>
+                        </div>
+                        <div class="portfolio-body">
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">현재가</div>
+                                <div class="portfolio-metric-value">₩37,425</div>
+                            </div>
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">매수가</div>
+                                <div class="portfolio-metric-value">₩13,280</div>
+                            </div>
+                            <div class="portfolio-pnl">
+                                <div class="portfolio-pnl-amount positive">+₩97K</div>
+                                <div class="portfolio-pnl-pct">+181.81% 🚀</div>
+                            </div>
+                        </div>
+                    </div>                    
+                    <div class="portfolio-item profit">
+                        <div class="portfolio-header">
+                            <div>
+                                <div class="portfolio-name">샤오미</div>
+                                <div class="portfolio-sector">보유 종목</div>
+                            </div>
+                            <div class="portfolio-rank">#28</div>
+                        </div>
+                        <div class="portfolio-body">
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">현재가</div>
+                                <div class="portfolio-metric-value">$33.22</div>
+                            </div>
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">매수가</div>
+                                <div class="portfolio-metric-value">$10.66</div>
+                            </div>
+                            <div class="portfolio-pnl">
+                                <div class="portfolio-pnl-amount positive">+₩24K</div>
+                                <div class="portfolio-pnl-pct">+227.39% 🚀</div>
+                            </div>
+                        </div>
+                    </div>                    
+                    <div class="portfolio-item profit">
+                        <div class="portfolio-header">
+                            <div>
+                                <div class="portfolio-name">INTC</div>
+                                <div class="portfolio-sector">보유 종목</div>
+                            </div>
+                            <div class="portfolio-rank">#29</div>
+                        </div>
+                        <div class="portfolio-body">
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">현재가</div>
+                                <div class="portfolio-metric-value">$45.61</div>
+                            </div>
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">매수가</div>
+                                <div class="portfolio-metric-value">$35.1</div>
+                            </div>
+                            <div class="portfolio-pnl">
+                                <div class="portfolio-pnl-amount positive">+₩5K</div>
+                                <div class="portfolio-pnl-pct">+29.94%</div>
+                            </div>
+                        </div>
+                    </div>                    
+                    <div class="portfolio-item profit">
+                        <div class="portfolio-header">
+                            <div>
+                                <div class="portfolio-name">AMD</div>
+                                <div class="portfolio-sector">보유 종목</div>
+                            </div>
+                            <div class="portfolio-rank">#30</div>
+                        </div>
+                        <div class="portfolio-body">
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">현재가</div>
+                                <div class="portfolio-metric-value">$200.21</div>
+                            </div>
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">매수가</div>
+                                <div class="portfolio-metric-value">$113.58</div>
+                            </div>
+                            <div class="portfolio-pnl">
+                                <div class="portfolio-pnl-amount positive">+₩4K</div>
+                                <div class="portfolio-pnl-pct">+76.27%</div>
+                            </div>
+                        </div>
+                    </div>                    
+                    <div class="portfolio-item profit">
+                        <div class="portfolio-header">
+                            <div>
+                                <div class="portfolio-name">ARTY</div>
+                                <div class="portfolio-sector">보유 종목</div>
+                            </div>
+                            <div class="portfolio-rank">#31</div>
+                        </div>
+                        <div class="portfolio-body">
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">현재가</div>
+                                <div class="portfolio-metric-value">$51.79</div>
+                            </div>
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">매수가</div>
+                                <div class="portfolio-metric-value">$45.01</div>
+                            </div>
+                            <div class="portfolio-pnl">
+                                <div class="portfolio-pnl-amount positive">+₩3K</div>
+                                <div class="portfolio-pnl-pct">+12.39%</div>
+                            </div>
+                        </div>
+                    </div>                    
+                    <div class="portfolio-item profit">
+                        <div class="portfolio-header">
+                            <div>
+                                <div class="portfolio-name">GRID ETF</div>
+                                <div class="portfolio-sector">보유 종목</div>
+                            </div>
+                            <div class="portfolio-rank">#32</div>
+                        </div>
+                        <div class="portfolio-body">
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">현재가</div>
+                                <div class="portfolio-metric-value">$178.49</div>
+                            </div>
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">매수가</div>
+                                <div class="portfolio-metric-value">$147.35</div>
+                            </div>
+                            <div class="portfolio-pnl">
+                                <div class="portfolio-pnl-amount positive">+₩3K</div>
+                                <div class="portfolio-pnl-pct">+21.13%</div>
+                            </div>
+                        </div>
+                    </div>                    
+                    <div class="portfolio-item profit">
+                        <div class="portfolio-header">
+                            <div>
+                                <div class="portfolio-name">NVDA</div>
+                                <div class="portfolio-sector">보유 종목</div>
+                            </div>
+                            <div class="portfolio-rank">#33</div>
+                        </div>
+                        <div class="portfolio-body">
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">현재가</div>
+                                <div class="portfolio-metric-value">$177.19</div>
+                            </div>
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">매수가</div>
+                                <div class="portfolio-metric-value">$141.9</div>
+                            </div>
+                            <div class="portfolio-pnl">
+                                <div class="portfolio-pnl-amount positive">+₩3K</div>
+                                <div class="portfolio-pnl-pct">+24.87%</div>
+                            </div>
+                        </div>
+                    </div>                    
+                    <div class="portfolio-item profit">
+                        <div class="portfolio-header">
+                            <div>
+                                <div class="portfolio-name">LLY</div>
+                                <div class="portfolio-sector">보유 종목</div>
+                            </div>
+                            <div class="portfolio-rank">#34</div>
+                        </div>
+                        <div class="portfolio-body">
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">현재가</div>
+                                <div class="portfolio-metric-value">$1051.99</div>
+                            </div>
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">매수가</div>
+                                <div class="portfolio-metric-value">$453.16</div>
+                            </div>
+                            <div class="portfolio-pnl">
+                                <div class="portfolio-pnl-amount positive">+₩2K</div>
+                                <div class="portfolio-pnl-pct">+132.15% 🚀</div>
+                            </div>
+                        </div>
+                    </div>                    
+                    <div class="portfolio-item profit">
+                        <div class="portfolio-header">
+                            <div>
+                                <div class="portfolio-name">AMZN</div>
+                                <div class="portfolio-sector">보유 종목</div>
+                            </div>
+                            <div class="portfolio-rank">#35</div>
+                        </div>
+                        <div class="portfolio-body">
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">현재가</div>
+                                <div class="portfolio-metric-value">$210.00</div>
+                            </div>
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">매수가</div>
+                                <div class="portfolio-metric-value">$127.13</div>
+                            </div>
+                            <div class="portfolio-pnl">
+                                <div class="portfolio-pnl-amount positive">+₩2K</div>
+                                <div class="portfolio-pnl-pct">+65.19%</div>
+                            </div>
+                        </div>
+                    </div>                    
+                    <div class="portfolio-item profit">
+                        <div class="portfolio-header">
+                            <div>
+                                <div class="portfolio-name">HSAI</div>
+                                <div class="portfolio-sector">보유 종목</div>
+                            </div>
+                            <div class="portfolio-rank">#36</div>
+                        </div>
+                        <div class="portfolio-body">
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">현재가</div>
+                                <div class="portfolio-metric-value">$26.95</div>
+                            </div>
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">매수가</div>
+                                <div class="portfolio-metric-value">$23.98</div>
+                            </div>
+                            <div class="portfolio-pnl">
+                                <div class="portfolio-pnl-amount positive">+₩1K</div>
+                                <div class="portfolio-pnl-pct">+12.39%</div>
+                            </div>
+                        </div>
+                    </div>                    
+                    <div class="portfolio-item profit">
+                        <div class="portfolio-header">
+                            <div>
+                                <div class="portfolio-name">NLR</div>
+                                <div class="portfolio-sector">보유 종목</div>
+                            </div>
+                            <div class="portfolio-rank">#37</div>
+                        </div>
+                        <div class="portfolio-body">
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">현재가</div>
+                                <div class="portfolio-metric-value">$149.74</div>
+                            </div>
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">매수가</div>
+                                <div class="portfolio-metric-value">$139.67</div>
+                            </div>
+                            <div class="portfolio-pnl">
+                                <div class="portfolio-pnl-amount positive">+₩1K</div>
+                                <div class="portfolio-pnl-pct">+7.21%</div>
+                            </div>
+                        </div>
+                    </div>                    
+                    <div class="portfolio-item profit">
+                        <div class="portfolio-header">
+                            <div>
+                                <div class="portfolio-name">TIGER 미국달러단기채권</div>
+                                <div class="portfolio-sector">보유 종목</div>
+                            </div>
+                            <div class="portfolio-rank">#38</div>
+                        </div>
+                        <div class="portfolio-body">
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">현재가</div>
+                                <div class="portfolio-metric-value">₩13,420</div>
+                            </div>
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">매수가</div>
+                                <div class="portfolio-metric-value">₩13,415</div>
+                            </div>
+                            <div class="portfolio-pnl">
+                                <div class="portfolio-pnl-amount positive">+₩1K</div>
+                                <div class="portfolio-pnl-pct">+0.04%</div>
+                            </div>
+                        </div>
+                    </div>                    
+                    <div class="portfolio-item profit">
+                        <div class="portfolio-header">
+                            <div>
+                                <div class="portfolio-name">MSFT</div>
+                                <div class="portfolio-sector">보유 종목</div>
+                            </div>
+                            <div class="portfolio-rank">#39</div>
+                        </div>
+                        <div class="portfolio-body">
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">현재가</div>
+                                <div class="portfolio-metric-value">$392.74</div>
+                            </div>
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">매수가</div>
+                                <div class="portfolio-metric-value">$331.83</div>
+                            </div>
+                            <div class="portfolio-pnl">
+                                <div class="portfolio-pnl-amount positive">+₩304</div>
+                                <div class="portfolio-pnl-pct">+18.36%</div>
+                            </div>
+                        </div>
+                    </div>                    
+                    <div class="portfolio-item profit">
+                        <div class="portfolio-header">
+                            <div>
+                                <div class="portfolio-name">RTX</div>
+                                <div class="portfolio-sector">보유 종목</div>
+                            </div>
+                            <div class="portfolio-rank">#40</div>
+                        </div>
+                        <div class="portfolio-body">
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">현재가</div>
+                                <div class="portfolio-metric-value">$202.62</div>
+                            </div>
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">매수가</div>
+                                <div class="portfolio-metric-value">$74.51</div>
+                            </div>
+                            <div class="portfolio-pnl">
+                                <div class="portfolio-pnl-amount positive">+₩128</div>
+                                <div class="portfolio-pnl-pct">+171.94% 🚀</div>
+                            </div>
+                        </div>
+                    </div>                    
+                    <div class="portfolio-item profit">
+                        <div class="portfolio-header">
+                            <div>
+                                <div class="portfolio-name">GOOGL</div>
+                                <div class="portfolio-sector">보유 종목</div>
+                            </div>
+                            <div class="portfolio-rank">#41</div>
+                        </div>
+                        <div class="portfolio-body">
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">현재가</div>
+                                <div class="portfolio-metric-value">$311.76</div>
+                            </div>
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">매수가</div>
+                                <div class="portfolio-metric-value">$298.68</div>
+                            </div>
+                            <div class="portfolio-pnl">
+                                <div class="portfolio-pnl-amount positive">+₩39</div>
+                                <div class="portfolio-pnl-pct">+4.38%</div>
+                            </div>
+                        </div>
+                    </div>                    
+                    <div class="portfolio-item profit">
+                        <div class="portfolio-header">
+                            <div>
+                                <div class="portfolio-name">TSLA</div>
+                                <div class="portfolio-sector">보유 종목</div>
+                            </div>
+                            <div class="portfolio-rank">#42</div>
+                        </div>
+                        <div class="portfolio-body">
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">현재가</div>
+                                <div class="portfolio-metric-value">$402.51</div>
+                            </div>
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">매수가</div>
+                                <div class="portfolio-metric-value">$401.96</div>
+                            </div>
+                            <div class="portfolio-pnl">
+                                <div class="portfolio-pnl-amount positive">+₩14</div>
+                                <div class="portfolio-pnl-pct">+0.14%</div>
+                            </div>
+                        </div>
+                    </div>                    
+                    <div class="portfolio-item profit">
+                        <div class="portfolio-header">
+                            <div>
+                                <div class="portfolio-name">TIGER 글로벌AI액티브</div>
+                                <div class="portfolio-sector">보유 종목</div>
+                            </div>
+                            <div class="portfolio-rank">#43</div>
+                        </div>
+                        <div class="portfolio-body">
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">현재가</div>
+                                <div class="portfolio-metric-value">₩23,030</div>
+                            </div>
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">매수가</div>
+                                <div class="portfolio-metric-value">₩23,030</div>
+                            </div>
+                            <div class="portfolio-pnl">
+                                <div class="portfolio-pnl-amount positive">+₩0</div>
+                                <div class="portfolio-pnl-pct">+0.0%</div>
+                            </div>
+                        </div>
+                    </div>                    
+                    <div class="portfolio-item profit">
+                        <div class="portfolio-header">
+                            <div>
+                                <div class="portfolio-name">USD 현금</div>
+                                <div class="portfolio-sector">보유 종목</div>
+                            </div>
+                            <div class="portfolio-rank">#44</div>
+                        </div>
+                        <div class="portfolio-body">
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">현재가</div>
+                                <div class="portfolio-metric-value">-</div>
+                            </div>
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">매수가</div>
+                                <div class="portfolio-metric-value">-</div>
+                            </div>
+                            <div class="portfolio-pnl">
+                                <div class="portfolio-pnl-amount positive">+₩0</div>
+                                <div class="portfolio-pnl-pct">+0.0%</div>
+                            </div>
+                        </div>
+                    </div>                    
+                    <div class="portfolio-item profit">
+                        <div class="portfolio-header">
+                            <div>
+                                <div class="portfolio-name">미래에셋현금성자산</div>
+                                <div class="portfolio-sector">보유 종목</div>
+                            </div>
+                            <div class="portfolio-rank">#45</div>
+                        </div>
+                        <div class="portfolio-body">
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">현재가</div>
+                                <div class="portfolio-metric-value">-</div>
+                            </div>
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">매수가</div>
+                                <div class="portfolio-metric-value">-</div>
+                            </div>
+                            <div class="portfolio-pnl">
+                                <div class="portfolio-pnl-amount positive">+₩0</div>
+                                <div class="portfolio-pnl-pct">+0.0%</div>
+                            </div>
+                        </div>
+                    </div>                    
+                    <div class="portfolio-item profit">
+                        <div class="portfolio-header">
+                            <div>
+                                <div class="portfolio-name">KRW 현금</div>
+                                <div class="portfolio-sector">보유 종목</div>
+                            </div>
+                            <div class="portfolio-rank">#46</div>
+                        </div>
+                        <div class="portfolio-body">
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">현재가</div>
+                                <div class="portfolio-metric-value">-</div>
+                            </div>
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">매수가</div>
+                                <div class="portfolio-metric-value">-</div>
+                            </div>
+                            <div class="portfolio-pnl">
+                                <div class="portfolio-pnl-amount positive">+₩0</div>
+                                <div class="portfolio-pnl-pct">+0.0%</div>
+                            </div>
+                        </div>
+                    </div>                    
+                    <div class="portfolio-item loss">
+                        <div class="portfolio-header">
+                            <div>
+                                <div class="portfolio-name">PLTR</div>
+                                <div class="portfolio-sector">보유 종목</div>
+                            </div>
+                            <div class="portfolio-rank">#47</div>
+                        </div>
+                        <div class="portfolio-body">
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">현재가</div>
+                                <div class="portfolio-metric-value">$137.19</div>
+                            </div>
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">매수가</div>
+                                <div class="portfolio-metric-value">$170.58</div>
+                            </div>
+                            <div class="portfolio-pnl">
+                                <div class="portfolio-pnl-amount negative">-₩33</div>
+                                <div class="portfolio-pnl-pct">-19.57% ⚠️</div>
+                            </div>
+                        </div>
+                    </div>                    
+                    <div class="portfolio-item loss">
+                        <div class="portfolio-header">
+                            <div>
+                                <div class="portfolio-name">TIGER 글로벌AI사이버보안</div>
+                                <div class="portfolio-sector">보유 종목</div>
+                            </div>
+                            <div class="portfolio-rank">#48</div>
+                        </div>
+                        <div class="portfolio-body">
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">현재가</div>
+                                <div class="portfolio-metric-value">₩12,060</div>
+                            </div>
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">매수가</div>
+                                <div class="portfolio-metric-value">₩13,938</div>
+                            </div>
+                            <div class="portfolio-pnl">
+                                <div class="portfolio-pnl-amount negative">-₩242K</div>
+                                <div class="portfolio-pnl-pct">-13.47%</div>
+                            </div>
+                        </div>
+                    </div>                    
+                    <div class="portfolio-item loss">
+                        <div class="portfolio-header">
+                            <div>
+                                <div class="portfolio-name">KODEX 미국30년국채울트라(H)</div>
+                                <div class="portfolio-sector">보유 종목</div>
+                            </div>
+                            <div class="portfolio-rank">#49</div>
+                        </div>
+                        <div class="portfolio-body">
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">현재가</div>
+                                <div class="portfolio-metric-value">₩7,730</div>
+                            </div>
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">매수가</div>
+                                <div class="portfolio-metric-value">₩8,408</div>
+                            </div>
+                            <div class="portfolio-pnl">
+                                <div class="portfolio-pnl-amount negative">-₩915K</div>
+                                <div class="portfolio-pnl-pct">-8.06%</div>
+                            </div>
+                        </div>
+                    </div>                    
+                    <div class="portfolio-item loss">
+                        <div class="portfolio-header">
+                            <div>
+                                <div class="portfolio-name">현대건설</div>
+                                <div class="portfolio-sector">보유 종목</div>
+                            </div>
+                            <div class="portfolio-rank">#50</div>
+                        </div>
+                        <div class="portfolio-body">
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">현재가</div>
+                                <div class="portfolio-metric-value">₩16,000</div>
+                            </div>
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">매수가</div>
+                                <div class="portfolio-metric-value">₩56,946</div>
+                            </div>
+                            <div class="portfolio-pnl">
+                                <div class="portfolio-pnl-amount negative">-₩2.3M</div>
+                                <div class="portfolio-pnl-pct">-71.9% ⚠️</div>
+                            </div>
+                        </div>
+                    </div>                    
+                    <div class="portfolio-item loss">
+                        <div class="portfolio-header">
+                            <div>
+                                <div class="portfolio-name">코람코라이프인프라리츠</div>
+                                <div class="portfolio-sector">보유 종목</div>
+                            </div>
+                            <div class="portfolio-rank">#51</div>
+                        </div>
+                        <div class="portfolio-body">
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">현재가</div>
+                                <div class="portfolio-metric-value">₩4,580</div>
+                            </div>
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">매수가</div>
+                                <div class="portfolio-metric-value">₩5,316</div>
+                            </div>
+                            <div class="portfolio-pnl">
+                                <div class="portfolio-pnl-amount negative">-₩2.6M</div>
+                                <div class="portfolio-pnl-pct">-13.8%</div>
+                            </div>
+                        </div>
+                    </div>                    
+                    <div class="portfolio-item loss">
+                        <div class="portfolio-header">
+                            <div>
+                                <div class="portfolio-name">ETH/KRW</div>
+                                <div class="portfolio-sector">보유 종목</div>
+                            </div>
+                            <div class="portfolio-rank">#52</div>
+                        </div>
+                        <div class="portfolio-body">
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">현재가</div>
+                                <div class="portfolio-metric-value">₩1,939</div>
+                            </div>
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">매수가</div>
+                                <div class="portfolio-metric-value">₩3,368,000</div>
+                            </div>
+                            <div class="portfolio-pnl">
+                                <div class="portfolio-pnl-amount negative">-₩4.1M</div>
+                                <div class="portfolio-pnl-pct">-15.4% ⚠️</div>
+                            </div>
+                        </div>
+                    </div>                    
+                    <div class="portfolio-item loss">
+                        <div class="portfolio-header">
+                            <div>
+                                <div class="portfolio-name">LINK/USD</div>
+                                <div class="portfolio-sector">보유 종목</div>
+                            </div>
+                            <div class="portfolio-rank">#53</div>
+                        </div>
+                        <div class="portfolio-body">
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">현재가</div>
+                                <div class="portfolio-metric-value">$8.67</div>
+                            </div>
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">매수가</div>
+                                <div class="portfolio-metric-value">$12.89</div>
+                            </div>
+                            <div class="portfolio-pnl">
+                                <div class="portfolio-pnl-amount negative">-₩4.5M</div>
+                                <div class="portfolio-pnl-pct">-31.39% ⚠️</div>
+                            </div>
+                        </div>
+                    </div>                    
+                    <div class="portfolio-item loss">
+                        <div class="portfolio-header">
+                            <div>
+                                <div class="portfolio-name">엘오티베큠</div>
+                                <div class="portfolio-sector">보유 종목</div>
+                            </div>
+                            <div class="portfolio-rank">#54</div>
+                        </div>
+                        <div class="portfolio-body">
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">현재가</div>
+                                <div class="portfolio-metric-value">₩5,260</div>
+                            </div>
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">매수가</div>
+                                <div class="portfolio-metric-value">₩16,380</div>
+                            </div>
+                            <div class="portfolio-pnl">
+                                <div class="portfolio-pnl-amount negative">-₩5.7M</div>
+                                <div class="portfolio-pnl-pct">-67.89% ⚠️</div>
+                            </div>
+                        </div>
+                    </div>                    
+                    <div class="portfolio-item loss">
+                        <div class="portfolio-header">
+                            <div>
+                                <div class="portfolio-name">파마리서치</div>
+                                <div class="portfolio-sector">보유 종목</div>
+                            </div>
+                            <div class="portfolio-rank">#55</div>
+                        </div>
+                        <div class="portfolio-body">
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">현재가</div>
+                                <div class="portfolio-metric-value">₩349,500</div>
+                            </div>
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">매수가</div>
+                                <div class="portfolio-metric-value">₩401,408</div>
+                            </div>
+                            <div class="portfolio-pnl">
+                                <div class="portfolio-pnl-amount negative">-₩6.5M</div>
+                                <div class="portfolio-pnl-pct">-12.93%</div>
+                            </div>
+                        </div>
+                    </div>                    
+                    <div class="portfolio-item loss">
+                        <div class="portfolio-header">
+                            <div>
+                                <div class="portfolio-name">SOL/KRW</div>
+                                <div class="portfolio-sector">보유 종목</div>
+                            </div>
+                            <div class="portfolio-rank">#56</div>
+                        </div>
+                        <div class="portfolio-body">
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">현재가</div>
+                                <div class="portfolio-metric-value">₩84</div>
+                            </div>
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">매수가</div>
+                                <div class="portfolio-metric-value">₩187,860</div>
+                            </div>
+                            <div class="portfolio-pnl">
+                                <div class="portfolio-pnl-amount negative">-₩6.9M</div>
+                                <div class="portfolio-pnl-pct">-34.89% ⚠️</div>
+                            </div>
+                        </div>
+                    </div>                    
+                    <div class="portfolio-item loss">
+                        <div class="portfolio-header">
+                            <div>
+                                <div class="portfolio-name">DL이앤씨우</div>
+                                <div class="portfolio-sector">보유 종목</div>
+                            </div>
+                            <div class="portfolio-rank">#57</div>
+                        </div>
+                        <div class="portfolio-body">
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">현재가</div>
+                                <div class="portfolio-metric-value">₩973</div>
+                            </div>
+                            <div class="portfolio-metric">
+                                <div class="portfolio-metric-label">매수가</div>
+                                <div class="portfolio-metric-value">₩19,570</div>
+                            </div>
+                            <div class="portfolio-pnl">
+                                <div class="portfolio-pnl-amount negative">-₩22.4M</div>
+                                <div class="portfolio-pnl-pct">-95.03% ⚠️</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 3: Sector Allocation -->
+        <div id="sectors" class="section">
+            <div class="card">
+                <div class="card-header">
+                    <h2 class="card-title">📊 섹터별 비중</h2>
+                </div>
+                
+                <div class="chart-container">
+                    <canvas id="sectorChart"></canvas>
+                </div>
+
+                <div style="margin-top: 16px;">
+                    <div class="sector-item">
+                        <div class="sector-color" style="background: #1d9bf0;"></div>
+                        <div class="sector-info">
+                            <div class="sector-name">첨단 기술</div>
+                            <div class="sector-count">14개 종목</div>
+                        </div>
+                        <div class="sector-bar-bg">
+                            <div class="sector-bar-fill" style="width: 100%; background: #1d9bf0;"></div>
+                        </div>
+                        <div class="sector-percent">32.8%</div>
+                    </div>
+
+                    <div class="sector-item">
+                        <div class="sector-color" style="background: #00ba7c;"></div>
+                        <div class="sector-info">
+                            <div class="sector-name">경기 소비재</div>
+                            <div class="sector-count">6개 종목</div>
+                        </div>
+                        <div class="sector-bar-bg">
+                            <div class="sector-bar-fill" style="width: 42%; background: #00ba7c;"></div>
+                        </div>
+                        <div class="sector-percent">13.8%</div>
+                    </div>
+
+                    <div class="sector-item">
+                        <div class="sector-color" style="background: #ffd400;"></div>
+                        <div class="sector-info">
+                            <div class="sector-name">ETF</div>
+                            <div class="sector-count">10개 종목</div>
+                        </div>
+                        <div class="sector-bar-bg">
+                            <div class="sector-bar-fill" style="width: 39%; background: #ffd400;"></div>
+                        </div>
+                        <div class="sector-percent">12.8%</div>
+                    </div>
+
+                    <div class="sector-item">
+                        <div class="sector-color" style="background: #8b5cf6;"></div>
+                        <div class="sector-info">
+                            <div class="sector-name">채권</div>
+                            <div class="sector-count">7개 종목</div>
+                        </div>
+                        <div class="sector-bar-bg">
+                            <div class="sector-bar-fill" style="width: 37%; background: #8b5cf6;"></div>
+                        </div>
+                        <div class="sector-percent">12.0%</div>
+                    </div>
+
+                    <div class="sector-item">
+                        <div class="sector-color" style="background: #f59e0b;"></div>
+                        <div class="sector-info">
+                            <div class="sector-name">가상자산</div>
+                            <div class="sector-count">4개 종목</div>
+                        </div>
+                        <div class="sector-bar-bg">
+                            <div class="sector-bar-fill" style="width: 30%; background: #f59e0b;"></div>
+                        </div>
+                        <div class="sector-percent">10.0%</div>
+                    </div>
+
+                    <div class="sector-item">
+                        <div class="sector-color" style="background: #ec4899;"></div>
+                        <div class="sector-info">
+                            <div class="sector-name">부동산</div>
+                            <div class="sector-count">5개 종목</div>
+                        </div>
+                        <div class="sector-bar-bg">
+                            <div class="sector-bar-fill" style="width: 18%; background: #ec4899;"></div>
+                        </div>
+                        <div class="sector-percent">5.8%</div>
+                    </div>
+
+                    <div class="sector-item">
+                        <div class="sector-color" style="background: #6b7280;"></div>
+                        <div class="sector-info">
+                            <div class="sector-name">기타 (금융, IT, 헬스케어, 현금 등)</div>
+                            <div class="sector-count">11개 종목</div>
+                        </div>
+                        <div class="sector-bar-bg">
+                            <div class="sector-bar-fill" style="width: 39%; background: #6b7280;"></div>
+                        </div>
+                        <div class="sector-percent">12.8%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 4: Sub-sectors -->
+        <div id="subsectors" class="section">
+            <div class="card">
+                <div class="card-header">
+                    <h2 class="card-title">🔍 세부 섹터 분석</h2>
+                </div>
+
+                <div class="sector-item">
+                    <div class="sector-info">
+                        <div class="sector-name">🤖 AI/반도체</div>
+                        <div class="sector-count">삼성전자, NVDA, AMD, TIGER AI ETFs</div>
+                    </div>
+                    <div class="sector-percent">~19.6%</div>
+                </div>
+
+                <div class="sector-item">
+                    <div class="sector-info">
+                        <div class="sector-name">⚡ AI 전력/인프라</div>
+                        <div class="sector-count">SOL 미국AI전력, TIGER 코리아AI전력</div>
+                    </div>
+                    <div class="sector-percent">~11.5%</div>
+                </div>
+
+                <div class="sector-item">
+                    <div class="sector-info">
+                        <div class="sector-name">🚗 자동차/모빌리티</div>
+                        <div class="sector-count">현대차, 기아, TSLA, 샤오미</div>
+                    </div>
+                    <div class="sector-percent">~6.5%</div>
+                </div>
+
+                <div class="sector-item">
+                    <div class="sector-info">
+                        <div class="sector-name">🔋 배터리/2차전지</div>
+                        <div class="sector-count">삼성SDI, LG에너지, 포스코퓨처엠</div>
+                    </div>
+                    <div class="sector-percent">~5.3%</div>
+                </div>
+
+                <div class="sector-item">
+                    <div class="sector-info">
+                        <div class="sector-name">🏢 리츠/부동산</div>
+                        <div class="sector-count">ESR, 코람코, SK리츠, 신한서부, 이지스</div>
+                    </div>
+                    <div class="sector-percent">~5.8%</div>
+                </div>
+
+                <div class="sector-item">
+                    <div class="sector-info">
+                        <div class="sector-name">💊 바이오/헬스케어</div>
+                        <div class="sector-count">파마리서치, 한미약품, 유한양행, LLY</div>
+                    </div>
+                    <div class="sector-percent">~2.1%</div>
+                </div>
+
+                <div class="sector-item">
+                    <div class="sector-info">
+                        <div class="sector-name">📱 IT/플랫폼</div>
+                        <div class="sector-count">네이버, AMZN, GOOGL, MSFT, PLTR</div>
+                    </div>
+                    <div class="sector-percent">~2.3%</div>
+                </div>
+
+                <div class="sector-item">
+                    <div class="sector-info">
+                        <div class="sector-name">₿ 가상자산</div>
+                        <div class="sector-count">BTC, ETH, SOL, LINK</div>
+                    </div>
+                    <div class="sector-percent">~10.0%</div>
+                </div>
+
+                <div class="sector-item">
+                    <div class="sector-info">
+                        <div class="sector-name">📈 채권/ETF</div>
+                        <div class="sector-count">TIGER 고배당, KODEX 국채, 다양한 ETF</div>
+                    </div>
+                    <div class="sector-percent">~12.8%</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <nav class="bottom-nav">
+        <button class="nav-item active" onclick="showSection('overview')">
+            <span class="nav-icon">🏠</span>
+            <span>개요</span>
+        </button>
+        <button class="nav-item" onclick="showSection('holdings')">
+            <span class="nav-icon">💼</span>
+            <span>종목</span>
+        </button>
+        <button class="nav-item" onclick="showSection('sectors')">
+            <span class="nav-icon">📊</span>
+            <span>섹터</span>
+        </button>
+        <button class="nav-item" onclick="showSection('subsectors')">
+            <span class="nav-icon">🔍</span>
+            <span>세부</span>
+        </button>
+    </nav>
+
+    <script>
+        function showSection(sectionId) {
+            document.querySelectorAll('.section').forEach(section => {
+                section.classList.remove('active');
+            });
+            document.getElementById(sectionId).classList.add('active');
+            
+            document.querySelectorAll('.nav-tab').forEach(tab => {
+                tab.classList.remove('active');
+            });
+            
+            document.querySelectorAll('.bottom-nav .nav-item').forEach(item => {
+                item.classList.remove('active');
+            });
+            
+            event.target.classList.add('active');
+            
+            if (sectionId === 'sectors') {
+                initSectorChart();
+            }
+        }
+        
+        function initSectorChart() {
+            const ctx = document.getElementById('sectorChart');
+            if (!ctx) return;
+            
+            new Chart(ctx, {
+                type: 'doughnut',
+                data: {
+                    labels: ['첨단 기술', '경기 소비재', 'ETF', '채권', '가상자산', '부동산', '기타'],
+                    datasets: [{
+                        data: [32.8, 13.8, 12.8, 12.0, 10.0, 5.8, 12.8],
+                        backgroundColor: [
+                            '#1d9bf0',
+                            '#00ba7c',
+                            '#ffd400',
+                            '#8b5cf6',
+                            '#f59e0b',
+                            '#ec4899',
+                            '#6b7280'
+                        ],
+                        borderWidth: 0
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            display: false
+                        }
+                    },
+                    cutout: '65%'
+                }
+            });
+        }
+    </script>
+</body>
+</html>

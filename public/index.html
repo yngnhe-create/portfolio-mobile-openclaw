@@ -1,738 +1,450 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>투자커멘드 | 실시간 포트폴리오 대시보드</title>
-    <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        :root {
-            --bg-dark: #0a0e1a;
-            --bg-card: #151b2d;
-            --bg-header: #1a1f2e;
-            --border: #2d3748;
-            --text-primary: #e0e6ed;
-            --text-secondary: #8b9dc3;
-            --accent-red: #ff4757;
-            --accent-green: #4ecdc4;
-            --accent-blue: #4834d4;
-            --accent-yellow: #f9ca24;
-        }
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans KR', sans-serif;
-            background: var(--bg-dark);
-            color: var(--text-primary);
-            line-height: 1.5;
-            font-size: 14px;
-            padding-bottom: 80px;
-        }
-        
-        /* 상단 상태바 */
-        .status-bar {
-            background: var(--bg-header);
-            padding: 12px 15px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            border-bottom: 2px solid var(--accent-blue);
-            position: sticky;
-            top: 0;
-            z-index: 1000;
-        }
-        .logo {
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            font-weight: 800;
-            font-size: 16px;
-        }
-        .logo::before {
-            content: "◆";
-            color: var(--accent-blue);
-            animation: pulse 2s infinite;
-        }
-        @keyframes pulse {
-            0%, 100% { opacity: 1; }
-            50% { opacity: 0.6; }
-        }
-        .market-status {
-            background: rgba(78, 205, 196, 0.15);
-            padding: 6px 12px;
-            border-radius: 20px;
-            font-size: 11px;
-            font-weight: 600;
-            color: var(--accent-green);
-            border: 1px solid rgba(78, 205, 196, 0.3);
-        }
-        .market-status.closed {
-            background: rgba(255, 71, 87, 0.15);
-            color: var(--accent-red);
-            border-color: rgba(255, 71, 87, 0.3);
-        }
-        
-        /* 뉴스 티커 */
-        .news-ticker {
-            background: linear-gradient(90deg, var(--accent-blue), #686de0);
-            padding: 10px 0;
-            overflow: hidden;
-            white-space: nowrap;
-        }
-        .ticker-content {
-            display: inline-block;
-            animation: scroll 25s linear infinite;
-            padding-left: 100%;
-        }
-        .ticker-item {
-            display: inline-block;
-            padding: 0 35px;
-            font-size: 12px;
-            font-weight: 500;
-        }
-        @keyframes scroll {
-            0% { transform: translateX(0); }
-            100% { transform: translateX(-100%); }
-        }
-        
-        /* 알림 배너 */
-        .alert-banner {
-            background: linear-gradient(135deg, var(--accent-red) 0%, #c44569 100%);
-            padding: 12px 15px;
-            font-size: 12px;
-        }
-        .alert-banner.warning {
-            background: linear-gradient(135deg, var(--accent-yellow), #f39c12);
-            color: #000;
-        }
-        .alert-banner.success {
-            background: linear-gradient(135deg, var(--accent-green), #00b894);
-        }
-        
-        /* 포트폴리오 그리드 */
-        .portfolio-grid {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 1px;
-            background: var(--border);
-        }
-        .portfolio-card {
-            background: var(--bg-card);
-            padding: 20px 12px;
-            text-align: center;
-        }
-        .portfolio-card.main {
-            grid-column: span 2;
-            background: linear-gradient(135deg, var(--accent-blue), #686de0);
-        }
-        .portfolio-value {
-            font-size: 28px;
-            font-weight: 800;
-            margin-bottom: 4px;
-        }
-        .portfolio-card.main .portfolio-value {
-            font-size: 36px;
-        }
-        .portfolio-label {
-            font-size: 11px;
-            opacity: 0.8;
-            font-weight: 600;
-        }
-        .portfolio-change {
-            font-size: 14px;
-            margin-top: 6px;
-            font-weight: 700;
-        }
-        .up { color: var(--accent-red); }
-        .down { color: var(--accent-green); }
-        
-        /* 목표 진행률 */
-        .goal-section {
-            background: var(--bg-card);
-            padding: 18px 15px;
-            border-bottom: 1px solid var(--border);
-        }
-        .goal-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 12px;
-        }
-        .goal-title {
-            font-size: 14px;
-            font-weight: 700;
-        }
-        .goal-value {
-            font-size: 18px;
-            font-weight: 800;
-            color: var(--accent-green);
-        }
-        .goal-bar {
-            height: 12px;
-            background: #2d3748;
-            border-radius: 6px;
-            overflow: hidden;
-        }
-        .goal-fill {
-            height: 100%;
-            background: linear-gradient(90deg, var(--accent-green), #00b894);
-            border-radius: 6px;
-            box-shadow: 0 0 10px rgba(78, 205, 196, 0.4);
-        }
-        .goal-labels {
-            display: flex;
-            justify-content: space-between;
-            margin-top: 8px;
-            font-size: 11px;
-            color: var(--text-secondary);
-        }
-        
-        /* 섹션 공통 */
-        .section {
-            background: var(--bg-card);
-            margin-bottom: 8px;
-            border-top: 1px solid var(--border);
-            border-bottom: 1px solid var(--border);
-        }
-        .section-header {
-            padding: 15px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            cursor: pointer;
-        }
-        .section-title {
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            font-size: 15px;
-            font-weight: 700;
-        }
-        .section-count {
-            background: rgba(72, 52, 212, 0.2);
-            padding: 2px 8px;
-            border-radius: 10px;
-            font-size: 11px;
-            color: var(--accent-blue);
-        }
-        .section-toggle {
-            font-size: 12px;
-            color: var(--text-secondary);
-            transition: transform 0.3s;
-        }
-        .section.expanded .section-toggle {
-            transform: rotate(180deg);
-        }
-        .section-content {
-            display: none;
-            padding: 0 15px 15px;
-        }
-        .section.expanded .section-content {
-            display: block;
-        }
-        
-        /* 종목 카드 스크롤 */
-        .stocks-scroll {
-            display: flex;
-            gap: 12px;
-            overflow-x: auto;
-            padding: 5px 15px 15px;
-            scroll-snap-type: x mandatory;
-            -webkit-overflow-scrolling: touch;
-        }
-        .stocks-scroll::-webkit-scrollbar {
-            display: none;
-        }
-        .stock-card {
-            min-width: 160px;
-            background: var(--bg-header);
-            border-radius: 12px;
-            padding: 15px;
-            scroll-snap-align: start;
-            border: 1px solid var(--border);
-        }
-        .stock-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-start;
-            margin-bottom: 10px;
-        }
-        .stock-name {
-            font-size: 15px;
-            font-weight: 700;
-        }
-        .stock-code {
-            font-size: 10px;
-            color: var(--text-secondary);
-            margin-top: 2px;
-        }
-        .stock-badge {
-            font-size: 11px;
-            font-weight: 700;
-            padding: 3px 8px;
-            border-radius: 4px;
-        }
-        .stock-badge.up {
-            background: rgba(255, 71, 87, 0.15);
-            color: var(--accent-red);
-        }
-        .stock-badge.down {
-            background: rgba(78, 205, 196, 0.15);
-            color: var(--accent-green);
-        }
-        .sparkline {
-            height: 30px;
-            margin: 8px 0;
-        }
-        .stock-price {
-            font-size: 20px;
-            font-weight: 800;
-        }
-        .stock-quantity {
-            font-size: 11px;
-            color: var(--text-secondary);
-            margin-top: 4px;
-        }
-        
-        /* 리포트 카드 */
-        .report-card {
-            background: var(--bg-header);
-            border-radius: 10px;
-            padding: 15px;
-            margin-bottom: 10px;
-            border-left: 3px solid var(--accent-blue);
-        }
-        .report-card.buy {
-            border-left-color: var(--accent-red);
-        }
-        .report-card.sell {
-            border-left-color: var(--accent-green);
-        }
-        .report-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 8px;
-        }
-        .report-time {
-            font-size: 11px;
-            color: var(--accent-blue);
-            font-weight: 600;
-        }
-        .report-opinion {
-            font-size: 10px;
-            font-weight: 700;
-            padding: 3px 8px;
-            border-radius: 4px;
-            background: rgba(255, 71, 87, 0.15);
-            color: var(--accent-red);
-        }
-        .report-opinion.sell {
-            background: rgba(78, 205, 196, 0.15);
-            color: var(--accent-green);
-        }
-        .report-title {
-            font-size: 14px;
-            font-weight: 700;
-            margin-bottom: 6px;
-            line-height: 1.4;
-        }
-        .report-summary {
-            font-size: 12px;
-            color: var(--text-secondary);
-            line-height: 1.5;
-        }
-        .report-tags {
-            display: flex;
-            gap: 6px;
-            margin-top: 10px;
-        }
-        .tag {
-            background: rgba(72, 52, 212, 0.15);
-            padding: 3px 8px;
-            border-radius: 4px;
-            font-size: 10px;
-            font-weight: 600;
-            color: var(--accent-blue);
-        }
-        
-        /* 플레이북 아이템 */
-        .playbook-list {
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-        }
-        .playbook-item {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            padding: 14px;
-            background: var(--bg-header);
-            border-radius: 10px;
-        }
-        .playbook-icon {
-            width: 44px;
-            height: 44px;
-            background: rgba(72, 52, 212, 0.15);
-            border-radius: 10px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 22px;
-        }
-        .playbook-info {
-            flex: 1;
-        }
-        .playbook-title {
-            font-size: 14px;
-            font-weight: 700;
-            margin-bottom: 3px;
-        }
-        .playbook-desc {
-            font-size: 11px;
-            color: var(--text-secondary);
-        }
-        .playbook-status {
-            font-size: 10px;
-            font-weight: 700;
-            padding: 4px 10px;
-            border-radius: 20px;
-        }
-        .status-active {
-            background: rgba(78, 205, 196, 0.15);
-            color: var(--accent-green);
-        }
-        .status-waiting {
-            background: rgba(249, 202, 36, 0.15);
-            color: var(--accent-yellow);
-        }
-        .status-done {
-            background: rgba(139, 157, 195, 0.15);
-            color: var(--text-secondary);
-        }
-        
-        /* 하단 네비게이션 */
-        .bottom-nav {
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            background: var(--bg-header);
-            border-top: 1px solid var(--border);
-            display: flex;
-            justify-content: space-around;
-            padding: 8px 0 20px;
-            z-index: 1000;
-        }
-        .nav-item {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 3px;
-            color: var(--text-secondary);
-            text-decoration: none;
-            font-size: 10px;
-            padding: 5px 15px;
-        }
-        .nav-item.active {
-            color: var(--accent-blue);
-        }
-        .nav-icon {
-            font-size: 22px;
-        }
-        
-        /* 빠른 액션 버튼 */
-        .quick-actions {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 10px;
-            padding: 15px;
-        }
-        .quick-btn {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 6px;
-            padding: 15px 10px;
-            background: var(--bg-header);
-            border-radius: 12px;
-            border: 1px solid var(--border);
-            cursor: pointer;
-            transition: all 0.2s;
-        }
-        .quick-btn:active {
-            transform: scale(0.95);
-            background: var(--border);
-        }
-        .quick-icon {
-            font-size: 24px;
-        }
-        .quick-label {
-            font-size: 11px;
-            font-weight: 600;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>투자커멘드 | 메인 대시보드</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--bg:#0a0e1a;--card:#151b2d;--hdr:#1a1f2e;--brd:#2d3748;--txt:#e0e6ed;--sub:#8b9dc3;--red:#ff4757;--grn:#4ecdc4;--blu:#4834d4;--yel:#f9ca24}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans KR',sans-serif;background:var(--bg);color:var(--txt);font-size:14px;padding-bottom:80px}
+.topbar{background:var(--hdr);padding:12px 15px;display:flex;justify-content:space-between;align-items:center;border-bottom:2px solid var(--blu);position:sticky;top:0;z-index:999}
+.logo{font-weight:800;font-size:16px}
+.logo span{color:var(--blu);margin-right:6px}
+.mstat{padding:5px 12px;border-radius:20px;font-size:11px;font-weight:600;background:rgba(78,205,196,.15);color:var(--grn);border:1px solid rgba(78,205,196,.3)}
+.ticker{background:linear-gradient(90deg,var(--blu),#686de0);padding:10px 0;overflow:hidden;white-space:nowrap}
+.ticker-inner{display:inline-block;animation:tick 25s linear infinite;padding-left:100%}
+.ticker-inner span{display:inline-block;padding:0 35px;font-size:12px}
+@keyframes tick{0%{transform:translateX(0)}100%{transform:translateX(-100%)}}
+.alert{background:linear-gradient(135deg,var(--red),#c44569);padding:12px 15px;font-size:12px;line-height:1.5}
+.pgrid{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:var(--brd)}
+.pcard{background:var(--card);padding:20px 12px;text-align:center}
+.pcard.main{grid-column:span 2;background:linear-gradient(135deg,var(--blu),#686de0)}
+.pval{font-size:34px;font-weight:800;margin-bottom:4px}
+.pcard.main .pval{font-size:38px}
+.plbl{font-size:11px;opacity:.8;font-weight:600}
+.pchg{font-size:13px;margin-top:5px;font-weight:700}
+.goal{background:var(--card);padding:18px 15px;border-bottom:1px solid var(--brd)}
+.goal-hdr{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}
+.goal-ttl{font-size:14px;font-weight:700}
+.goal-val{font-size:18px;font-weight:800;color:var(--grn)}
+.gbar{height:12px;background:#2d3748;border-radius:6px;overflow:hidden}
+.gfill{height:100%;background:linear-gradient(90deg,var(--grn),#00b894);border-radius:6px}
+.glbl{display:flex;justify-content:space-between;margin-top:8px;font-size:11px;color:var(--sub)}
+.risk-box{background:var(--card);margin:10px 15px;padding:15px;border-radius:12px;border-left:4px solid var(--yel)}
+.risk-ttl{font-size:14px;font-weight:700;margin-bottom:10px}
+.risk-row{display:flex;align-items:center;gap:8px;padding:8px 0;border-bottom:1px solid var(--brd);font-size:12px}
+.risk-row:last-child{border:none}
+.rbadge{padding:2px 6px;border-radius:4px;font-size:10px;font-weight:700}
+.rh{background:rgba(255,71,87,.2);color:var(--red)}
+.rm{background:rgba(249,202,36,.2);color:var(--yel)}
+.rl{background:rgba(78,205,196,.2);color:var(--grn)}
+.rec-box{background:var(--card);margin:0 15px 10px;padding:15px;border-radius:12px;border-left:4px solid var(--grn)}
+.rec-ttl{font-size:14px;font-weight:700;margin-bottom:10px}
+.rec-item{padding:10px;background:var(--hdr);border-radius:8px;margin-bottom:8px;font-size:12px;line-height:1.5}
+.rec-item:last-child{margin-bottom:0}
+.qact{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;padding:15px}
+.qbtn{display:flex;flex-direction:column;align-items:center;gap:6px;padding:15px 10px;background:var(--hdr);border-radius:12px;border:1px solid var(--brd);cursor:pointer;text-decoration:none;color:var(--txt)}
+.qbtn:active{transform:scale(.95)}
+.qicon{font-size:22px}
+.qlbl{font-size:11px;font-weight:600}
+.sec{background:var(--card);margin-bottom:8px;border-top:1px solid var(--brd);border-bottom:1px solid var(--brd)}
+.sec-hdr{padding:15px;display:flex;justify-content:space-between;align-items:center;cursor:pointer}
+.sec-ttl{display:flex;align-items:center;gap:8px;font-size:15px;font-weight:700}
+.sec-cnt{background:rgba(72,52,212,.2);padding:2px 8px;border-radius:10px;font-size:11px;color:var(--blu)}
+.sec-body{display:none;padding:0 15px 15px}
+.sec.open .sec-body{display:block}
+.hscroll{display:flex;gap:12px;overflow-x:auto;padding:5px 0 10px;-webkit-overflow-scrolling:touch}
+.hscroll::-webkit-scrollbar{display:none}
+.scard{min-width:155px;background:var(--hdr);border-radius:12px;padding:14px;border:1px solid var(--brd);flex-shrink:0}
+.sname{font-size:14px;font-weight:700;margin-bottom:3px}
+.scod{font-size:10px;color:var(--sub)}
+.sprice{font-size:18px;font-weight:800;margin-top:8px}
+.sup{color:var(--red);font-size:12px;font-weight:600}
+.sdn{color:var(--grn);font-size:12px;font-weight:600}
+.rcard{background:var(--hdr);border-radius:10px;padding:14px;margin-bottom:10px;border-left:3px solid var(--blu)}
+.rcard.buy{border-left-color:var(--red)}
+.rtime{font-size:11px;color:var(--blu);margin-bottom:5px}
+.rttl{font-size:14px;font-weight:700;margin-bottom:5px}
+.rdesc{font-size:12px;color:var(--sub);line-height:1.4}
+.lmore{text-align:center;padding:10px 0}
+.lmore a{color:var(--blu);font-size:13px;font-weight:600;text-decoration:none}
+#news-track::-webkit-scrollbar{display:none}
+.ndot{width:8px;height:8px;border-radius:50%;background:var(--brd);cursor:pointer;transition:.2s}
+.ndot.on{background:var(--blu);width:20px;border-radius:4px}
+.bnav{position:fixed;bottom:0;left:0;right:0;background:var(--hdr);border-top:1px solid var(--brd);display:flex;justify-content:space-around;padding:8px 0 20px;z-index:999}
+.bnav a{display:flex;flex-direction:column;align-items:center;gap:3px;color:var(--sub);text-decoration:none;font-size:10px;padding:5px 10px}
+.bnav a.on{color:var(--blu)}
+.bnav .ni{font-size:22px}
+</style>
+<style>
+.mask-btn{position:fixed;top:12px;right:12px;z-index:9999;background:rgba(72,52,212,.9);color:#fff;border:none;border-radius:20px;padding:6px 14px;font-size:12px;font-weight:700;cursor:pointer;backdrop-filter:blur(4px);box-shadow:0 2px 8px rgba(0,0,0,.4)}
+body.masked .pval,body.masked .pchg,body.masked .cd-num{filter:blur(8px);user-select:none;transition:filter .2s}
+.mkt-card{background:var(--card);border-radius:10px;padding:12px 14px;display:flex;flex-direction:column;gap:3px}
+.mkt-nm{font-size:11px;color:var(--sub);font-weight:600}
+.mkt-val{font-size:16px;font-weight:800}
+.mkt-chg{font-size:11px;font-weight:700}
+</style>
 </head>
 <body>
-    <!-- 상단 상태바 -->
-    <div class="status-bar">
-        <div class="logo">투자커멘드</div>
-        <div class="market-status" id="marketStatus">● 장중</div>
-    </div>
-    
-    <!-- 뉴스 티커 -->
-    <div class="news-ticker">
-        <div class="ticker-content">
-            <span class="ticker-item">📈 KOSPI 2,580 (+0.3%) 삼성전자 강세</span>
-            <span class="ticker-item">📊 WiseReport: 현대차 목표주가 320,000원</span>
-            <span class="ticker-item">🚨 이란 전쟁: 유가 $110+ 지속</span>
-            <span class="ticker-item">💰 오늘의 매수: 현대차 248,500원</span>
-            <span class="ticker-item">📉 외국인 3거래일 연속 순매도</span>
-        </div>
-    </div>
-    
-    <!-- 알림 배너 -->
-    <div class="alert-banner" id="alertBanner">
-        ⚠️ 이란 전쟁 영향: 유가 급등으로 현대차 단기 하락 -10%
-    </div>
-    
-    <!-- 포트폴리오 핵심 지표 -->
-    <div class="portfolio-grid">
-        <div class="portfolio-card main">
-            <div class="portfolio-value">₩2.3억</div>
-            <div class="portfolio-label">총 자산</div>
-            <div class="portfolio-change up">+14.6% (YTD)</div>
-        </div>
-        <div class="portfolio-card">
-            <div class="portfolio-value">₩2,000만</div>
-            <div class="portfolio-label">ISA</div>
-            <div class="portfolio-change" style="font-size: 11px; color: var(--text-secondary)">현대차 100%</div>
-        </div>
-        <div class="portfolio-card">
-            <div class="portfolio-value">₩295만</div>
-            <div class="portfolio-label">IRP</div>
-            <div class="portfolio-change" style="font-size: 11px; color: var(--text-secondary)">TDF 43% + 증권 57%</div>
-        </div>
-    </div>
-    
-    <!-- 목표 진행률 -->
-    <div class="goal-section">
-        <div class="goal-header">
-            <span class="goal-title">🎯 2026년 목표 진행률</span>
-            <span class="goal-value">+14.6%</span>
-        </div>
-        <div class="goal-bar">
-            <div class="goal-fill" style="width: 73%"></div>
-        </div>
-        <div class="goal-labels">
-            <span>현재 +14.6%</span>
-            <span>목표 +20%</span>
-        </div>
-    </div>
-    
-    <!-- 빠른 액션 -->
-    <div class="section">
-        <div class="quick-actions">
-            <div class="quick-btn" onclick="location.href='wisereport.html'">
-                <span class="quick-icon">📋</span>
-                <span class="quick-label">리포트</span>
-            </div>
-            <div class="quick-btn" onclick="location.href='portfolio.html'">
-                <span class="quick-icon">📊</span>
-                <span class="quick-label">포트폴리오</span>
-            </div>
-            <div class="quick-btn" onclick="location.href='playbook.html'">
-                <span class="quick-icon">📖</span>
-                <span class="quick-label">플레이북</span>
-            </div>
-            <div class="quick-btn" onclick="location.href='settings.html'">
-                <span class="quick-icon">⚙️</span>
-                <span class="quick-label">설정</span>
-            </div>
-        </div>
-    </div>
-    
-    <!-- 보유 종목 -->
-    <div class="section expanded">
-        <div class="section-header" onclick="toggleSection(this.parentElement)">
-            <div class="section-title">
-                📊 보유 종목
-                <span class="section-count">3</span>
-            </div>
-            <span class="section-toggle">▼</span>
-        </div>
-        <div class="section-content">
-            <div class="stocks-scroll">
-                <div class="stock-card">
-                    <div class="stock-header">
-                        <div>
-                            <div class="stock-name">현대차</div>
-                            <div class="stock-code">005380</div>
-                        </div>
-                        <span class="stock-badge down">-10.04%</span>
-                    </div>
-                    <svg class="sparkline" viewBox="0 0 100 30">
-                        <polyline points="0,8 20,12 40,10 60,18 80,25 100,28" fill="none" stroke="#4ecdc4" stroke-width="2"/>
-                    </svg>
-                    <div class="stock-price">248,500</div>
-                    <div class="stock-quantity">80주 · -13.89%</div>
-                </div>
-                
-                <div class="stock-card">
-                    <div class="stock-header">
-                        <div>
-                            <div class="stock-name">KODEX TDF</div>
-                            <div class="stock-code">2040</div>
-                        </div>
-                        <span class="stock-badge down">-8.5%</span>
-                    </div>
-                    <svg class="sparkline" viewBox="0 0 100 30">
-                        <polyline points="0,15 30,18 60,20 100,25" fill="none" stroke="#4ecdc4" stroke-width="2"/>
-                    </svg>
-                    <div class="stock-price">15,140</div>
-                    <div class="stock-quantity">100주 · ISA</div>
-                </div>
-                
-                <div class="stock-card">
-                    <div class="stock-header">
-                        <div>
-                            <div class="stock-name">KODEX 증권</div>
-                            <div class="stock-code">102970</div>
-                        </div>
-                        <span class="stock-badge down">-12%</span>
-                    </div>
-                    <svg class="sparkline" viewBox="0 0 100 30">
-                        <polyline points="0,10 25,16 50,20 75,26 100,28" fill="none" stroke="#4ecdc4" stroke-width="2"/>
-                    </svg>
-                    <div class="stock-price">24,355</div>
-                    <div class="stock-quantity">100주 · IRP</div>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    <!-- WiseReport -->
-    <div class="section" id="reportSection">
-        <div class="section-header" onclick="toggleSection(this.parentElement)">
-            <div class="section-title">
-                📋 오늘의 WiseReport
-                <span class="section-count">2</span>
-            </div>
-            <span class="section-toggle">▼</span>
-        </div>
-        <div class="section-content">
-            <div class="report-card buy">
-                <div class="report-header">
-                    <span class="report-time">Today Top · 3월 9일</span>
-                    <span class="report-opinion">BUY</span>
-                </div>
-                <div class="report-title">빙그레: 26년 밸류업 기반 다지기</div>
-                <div class="report-summary">2026년 밸류업 기반 다지기 전략. 단기 실적 조정은 있으나 중장기 성장성 유지.</div>
-                <div class="report-tags">
-                    <span class="tag">DS투자증권</span>
-                    <span class="tag">목표가 165,000</span>
-                </div>
-            </div>
-            
-            <div class="report-card buy">
-                <div class="report-header">
-                    <span class="report-time">Today Hot · 3월 9일</span>
-                    <span class="report-opinion">BUY</span>
-                </div>
-                <div class="report-title">BGF리테일: 이제 편의점에 주목할 때!</div>
-                <div class="report-summary">편의점 업황 개선세 뚜렷. EPS 상향으로 실적 개선 모멘텀 확인.</div>
-                <div class="report-tags">
-                    <span class="tag">상상인증권</span>
-                    <span class="tag">목표가 상향</span>
-                </div>
-            </div>
-            
-            <div style="text-align: center; padding: 10px;">
-                <a href="wisereport.html" style="color: var(--accent-blue); font-size: 13px; font-weight: 600; text-decoration: none;">전체 리포트 보기 →</a>
-            </div>
-        </div>
-    </div>
-    
-    <!-- 투자 플레이북 -->
-    <div class="section" id="playbookSection">
-        <div class="section-header" onclick="toggleSection(this.parentElement)">
-            <div class="section-title">
-                📖 투자 플레이북
-                <span class="section-count">2</span>
-            </div>
-            <span class="section-toggle">▼</span>
-        </div>
-        <div class="section-content">
-            <div class="playbook-list">
-                <div class="playbook-item">
-                    <div class="playbook-icon">📈</div>
-                    <div class="playbook-info">
-                        <div class="playbook-title">폭락 시 매수 전략</div>
-                        <div class="playbook-desc">KOSPI -8% 이상 시 분할 매수 실행</div>
-                    </div>
-                    <span class="playbook-status status-active">실행중</span>
-                </div>
-                
-                <div class="playbook-item">
-                    <div class="playbook-icon">🎯</div>
-                    <div class="playbook-info">
-                        <div class="playbook-title">ISA 20M 채우기</div>
-                        <div class="playbook-desc">현대차 80주 매수 완료</div>
-                    </div>
-                    <span class="playbook-status status-active">완료</span>
-                </div>
-            </div>
-            
-            <div style="text-align: center; padding: 10px;">
-                <a href="playbook.html" style="color: var(--accent-blue); font-size: 13px; font-weight: 600; text-decoration: none;">전체 플레이북 보기 →</a>
-            </div>
-        </div>
-    </div>
-    
-    <!-- 하단 네비게이션 -->
-    <nav class="bottom-nav">
-        <a href="index.html" class="nav-item active">
-            <span class="nav-icon">🏠</span>
-            <span>홈</span>
-        </a>
-        <a href="portfolio.html" class="nav-item">
-            <span class="nav-icon">📊</span>
-            <span>포트폴리오</span>
-        </a>
-        <a href="wisereport.html" class="nav-item">
-            <span class="nav-icon">📋</span>
-            <span>리포트</span>
-        </a>
-        <a href="playbook.html" class="nav-item">
-            <span class="nav-icon">📖</span>
-            <span>플레이북</span>
-        </a>
-    </nav>
+<button class="mask-btn" id="maskBtn" onclick="toggleMask()">🙈 마스킹</button>
+<div class="topbar">
+  <div class="logo"><span>◆</span>투자커멘드</div>
+  <div class="mstat" id="ms">● 업데이트: 2026년 03월 11일 18:06 KST</div>
+</div>
 
-    <script>
-        function toggleSection(section) {
-            section.classList.toggle('expanded');
-        }
-        
-        // 장중/장외 상태 확인
-        function checkMarketStatus() {
-            const now = new Date();
-            const hour = now.getHours();
-            const day = now.getDay();
-            const statusEl = document.getElementById('marketStatus');
-            
-            if (day === 0 || day === 6) {
-                statusEl.textContent = '● 휴장';
-                statusEl.classList.add('closed');
-            } else if (hour >= 9 && hour < 15) {
-                statusEl.textContent = '● 장중';
-                statusEl.classList.remove('closed');
-            } else {
-                statusEl.textContent = '● 장외';
-                statusEl.classList.add('closed');
-            }
-        }
-        
-        checkMarketStatus();
-        setInterval(checkMarketStatus, 60000);
-    </script>
+<div class="ticker">
+  <div class="ticker-inner">
+    <span>🚨 미국 CPI 발표: 예상치 부합, 금리 인하 기대 유지</span>
+    <span>📈 삼성전자 2026 Q1 가이던스 상향</span>
+    <span>💰 현대차 목표주가 ₩320,000 상향</span>
+    <span>🌏 이란 전쟁 11일차: 유가 $110 유지</span>
+    <span>🪙 비트코인 $97,000 안착</span>
+  </div>
+</div>
+
+<div class="alert">⚠️ 리스크 경고: 가상자산 비중 9.9% (권장 15% 이하 — 현재 양호)</div>
+
+<div class="pgrid">
+  <div class="pcard main">
+    <div class="pval">₩11.4억</div>
+    <div class="plbl">총 자산</div>
+    <div class="pchg">+34.4% (+₩2.9억) YTD</div>
+  </div>
+  <div class="pcard">
+    <div class="pval">₩8.5억</div>
+    <div class="plbl">총 매수금액</div>
+  </div>
+  <div class="pcard">
+    <div class="pval" style="color:var(--red)">+₩2.9억</div>
+    <div class="plbl">평가손익</div>
+    <div class="pchg" style="color:var(--red)">+23.5%</div>
+  </div>
+</div>
+
+<div class="goal">
+  <div class="goal-hdr">
+    <span class="goal-ttl">🎯 2026년 목표 진행률</span>
+    <span class="goal-val">목표 초과달성!</span>
+  </div>
+  <div class="gbar"><div class="gfill" style="width:100%"></div></div>
+  <div class="glbl"><span>현재 +23.5%</span><span>목표 +20% ✅</span></div>
+</div>
+
+<!-- 📈 시장 지수 -->
+<div style="padding:0 15px 15px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px">
+    <span style="font-size:15px;font-weight:700">📈 글로벌 시장</span>
+    <span style="font-size:10px;color:var(--sub)" id="mkt-upd">로딩 중...</span>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px" id="mkt-grid">
+    <div class="mkt-card" id="mkt-KOSPI"><div class="mkt-nm">KOSPI</div><div class="mkt-val">-</div><div class="mkt-chg">-</div></div>
+    <div class="mkt-card" id="mkt-KOSDAQ"><div class="mkt-nm">KOSDAQ</div><div class="mkt-val">-</div><div class="mkt-chg">-</div></div>
+    <div class="mkt-card" id="mkt-NASDAQ"><div class="mkt-nm">NASDAQ</div><div class="mkt-val">-</div><div class="mkt-chg">-</div></div>
+    <div class="mkt-card" id="mkt-SP500"><div class="mkt-nm">S&amp;P 500</div><div class="mkt-val">-</div><div class="mkt-chg">-</div></div>
+    <div class="mkt-card" style="grid-column:span 2" id="mkt-USDKRW"><div class="mkt-nm">USD/KRW 환율</div><div class="mkt-val">-</div><div class="mkt-chg">-</div></div>
+  </div>
+</div>
+
+<!-- 📰 뉴스 임팩트 카드 -->
+<div style="padding:15px 0 5px">
+  <div style="padding:0 15px 10px;display:flex;justify-content:space-between;align-items:center">
+    <span style="font-size:15px;font-weight:700">📰 시장 영향 뉴스</span>
+    <span style="font-size:11px;color:var(--sub)" id="news-pos">1 / 6</span>
+  </div>
+  <div id="news-track" style="display:flex;overflow-x:auto;gap:12px;padding:0 15px 10px;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;scrollbar-width:none">
+
+    <!-- 뉴스 카드 1 -->
+    <div class="ncard" style="scroll-snap-align:start;min-width:85vw;max-width:320px;background:var(--card);border-radius:14px;padding:18px;flex-shrink:0;border-top:3px solid #ff4757">
+      <div style="font-size:10px;color:#ff4757;font-weight:700;margin-bottom:6px">🔴 HIGH IMPACT · 3/10 08:00</div>
+      <div style="font-size:14px;font-weight:800;margin-bottom:8px;line-height:1.4">트럼프 관세 타임라인 발표 — 4월 2일 상호관세 예고</div>
+      <div style="font-size:11px;color:var(--sub);margin-bottom:12px">미국이 4월 2일부터 주요국 상호관세 부과 예고. 수출 의존도 높은 종목 타격 우려</div>
+      <div style="background:rgba(255,71,87,.08);border-radius:8px;padding:10px">
+        <div style="font-size:11px;font-weight:700;color:#ff4757;margin-bottom:6px">📊 내 포트폴리오 영향</div>
+        <div style="font-size:11px;color:var(--sub);line-height:1.6">🔴 삼성전자 · 현대차 — 대미 수출 영향<br>🟡 TIGER 미국테크 ETF — 환율 수혜 가능<br>🟢 채권 ETF — 경기 우려로 안전자산 유입</div>
+      </div>
+    </div>
+
+    <!-- 뉴스 카드 2 -->
+    <div class="ncard" style="scroll-snap-align:start;min-width:85vw;max-width:320px;background:var(--card);border-radius:14px;padding:18px;flex-shrink:0;border-top:3px solid #f9ca24">
+      <div style="font-size:10px;color:#f9ca24;font-weight:700;margin-bottom:6px">🟡 MEDIUM · 3/10 07:30</div>
+      <div style="font-size:14px;font-weight:800;margin-bottom:8px;line-height:1.4">삼성전자 HBM4 시장 입지 확대 — 키움 목표가 상향</div>
+      <div style="font-size:11px;color:var(--sub);margin-bottom:12px">HBM4 양산 본격화, SK하이닉스 독점 구도 깨질 전망. 삼성전자 반도체 부문 재평가</div>
+      <div style="background:rgba(249,202,36,.08);border-radius:8px;padding:10px">
+        <div style="font-size:11px;font-weight:700;color:#f9ca24;margin-bottom:6px">📊 내 포트폴리오 영향</div>
+        <div style="font-size:11px;color:var(--sub);line-height:1.6">🔴 삼성전자 519주 — 직접 호재, 목표가 상향<br>🔴 삼성전자우 217주 — 동반 상승 기대<br>🟡 TIGER 코리아AI ETF — 반도체 비중 높아 수혜</div>
+      </div>
+    </div>
+
+    <!-- 뉴스 카드 3 -->
+    <div class="ncard" style="scroll-snap-align:start;min-width:85vw;max-width:320px;background:var(--card);border-radius:14px;padding:18px;flex-shrink:0;border-top:3px solid #4ecdc4">
+      <div style="font-size:10px;color:#4ecdc4;font-weight:700;margin-bottom:6px">🟢 POSITIVE · 3/10 09:00</div>
+      <div style="font-size:14px;font-weight:800;margin-bottom:8px;line-height:1.4">현대차 데이터 확보 · 로봇 메커니즘 역량 — 미래에셋 목표가 ₩320,000↑</div>
+      <div style="font-size:11px;color:var(--sub);margin-bottom:12px">소프트웨어 전환(SDV) + 로봇사업 시너지 기대. 신규 매수 종목 긍정 신호</div>
+      <div style="background:rgba(78,205,196,.08);border-radius:8px;padding:10px">
+        <div style="font-size:11px;font-weight:700;color:#4ecdc4;margin-bottom:6px">📊 내 포트폴리오 영향</div>
+        <div style="font-size:11px;color:var(--sub);line-height:1.6">🔴 현대차 80주 (신규) — 상승여력 +28% 확인<br>🔴 현대차3우B 104주 — 동반 상승<br>🔴 현대차우 50주 — 동반 상승</div>
+      </div>
+    </div>
+
+    <!-- 뉴스 카드 4 -->
+    <div class="ncard" style="scroll-snap-align:start;min-width:85vw;max-width:320px;background:var(--card);border-radius:14px;padding:18px;flex-shrink:0;border-top:3px solid #a55eea">
+      <div style="font-size:10px;color:#a55eea;font-weight:700;margin-bottom:6px">🟣 CRYPTO · 3/10 08:00</div>
+      <div style="font-size:14px;font-weight:800;margin-bottom:8px;line-height:1.4">비트코인 $97,000 안착 — ETF 순유입 지속</div>
+      <div style="font-size:11px;color:var(--sub);margin-bottom:12px">미국 비트코인 현물 ETF 3일 연속 순유입. 기관 수요 지속에 $100K 재도전 기대감</div>
+      <div style="background:rgba(165,94,234,.08);border-radius:8px;padding:10px">
+        <div style="font-size:11px;font-weight:700;color:#a55eea;margin-bottom:6px">📊 내 포트폴리오 영향</div>
+        <div style="font-size:11px;color:var(--sub);line-height:1.6">🔴 BTC 0.698개 — 직접 수혜<br>🟡 ETH 7.998개 — BTC 상승 시 동반 기대<br>🔴 SOL/LINK — 알트 시즌 선행 가능성</div>
+      </div>
+    </div>
+
+    <!-- 뉴스 카드 5 -->
+    <div class="ncard" style="scroll-snap-align:start;min-width:85vw;max-width:320px;background:var(--card);border-radius:14px;padding:18px;flex-shrink:0;border-top:3px solid #0984e3">
+      <div style="font-size:10px;color:#0984e3;font-weight:700;margin-bottom:6px">🔵 MACRO · 3/10 07:00</div>
+      <div style="font-size:14px;font-weight:800;margin-bottom:8px;line-height:1.4">미국 고용지표 예상 하회 — 금리 인하 기대 재부상</div>
+      <div style="font-size:11px;color:var(--sub);margin-bottom:12px">2월 비농업고용 15.1만 (예상 16만). 연준 6월 인하 기대 상승, 채권 랠리 재개</div>
+      <div style="background:rgba(9,132,227,.08);border-radius:8px;padding:10px">
+        <div style="font-size:11px;font-weight:700;color:#0984e3;margin-bottom:6px">📊 내 포트폴리오 영향</div>
+        <div style="font-size:11px;color:var(--sub);line-height:1.6">🔴 KODEX 미국30년국채 — 금리 하락 수혜<br>🔴 ESR리츠 · SK리츠 — 부동산 회복 기대<br>🟡 성장주 전반 — 저금리 환경 긍정</div>
+      </div>
+    </div>
+
+    <!-- 뉴스 카드 6 -->
+    <div class="ncard" style="scroll-snap-align:start;min-width:85vw;max-width:320px;background:var(--card);border-radius:14px;padding:18px;flex-shrink:0;border-top:3px solid #ff6b6b">
+      <div style="font-size:10px;color:#ff6b6b;font-weight:700;margin-bottom:6px">🔴 RISK · 3/9 20:00</div>
+      <div style="font-size:14px;font-weight:800;margin-bottom:8px;line-height:1.4">이란 전쟁 11일차 — 유가 $110 유지, 호르무즈 해협 긴장</div>
+      <div style="font-size:11px;color:var(--sub);margin-bottom:12px">중동 긴장 장기화로 유가 고공행진. 항공·해운·소비재 비용 압박 우려 지속</div>
+      <div style="background:rgba(255,107,107,.08);border-radius:8px;padding:10px">
+        <div style="font-size:11px;font-weight:700;color:#ff6b6b;margin-bottom:6px">📊 내 포트폴리오 영향</div>
+        <div style="font-size:11px;color:var(--sub);line-height:1.6">🔴 현대차 · LG에너지 — 원가 부담 증가<br>🟢 NLR(원자력) · GRID ETF — 에너지 대안 수혜<br>🟡 샤오미 · HSAI — 중국 공급망 간접 영향</div>
+      </div>
+    </div>
+
+  </div>
+  <!-- 인디케이터 도트 -->
+  <div style="display:flex;justify-content:center;gap:6px;padding-bottom:5px" id="news-dots">
+    <div class="ndot on" onclick="goNews(0)"></div>
+    <div class="ndot" onclick="goNews(1)"></div>
+    <div class="ndot" onclick="goNews(2)"></div>
+    <div class="ndot" onclick="goNews(3)"></div>
+    <div class="ndot" onclick="goNews(4)"></div>
+    <div class="ndot" onclick="goNews(5)"></div>
+  </div>
+</div>
+
+<div class="risk-box">
+  <div class="risk-ttl">⚠️ 포트폴리오 리스크</div>
+  <div class="risk-row"><span class="rbadge rm">중위험</span><span>가상자산 비중 9.9% (권장 15% 이하 — 현재 양호)</span></div>
+  <div class="risk-row"><span class="rbadge rm">중위험</span><span>IT/반도체 집중도 37.8% · 환율 리스크</span></div>
+  <div class="risk-row"><span class="rbadge rl">저위험</span><span>채권/리츠 12% 안정성 확보</span></div>
+</div>
+
+<div class="rec-box">
+  <div class="rec-ttl">💡 투자 운영 제언</div>
+  <div class="rec-item"><strong>1. 수익 실현 권고:</strong> 연간 목표(+20%) 초과 달성. 일부 수익 실현 검토</div>
+  <div class="rec-item"><strong>2. 리밸런싱:</strong> 가상자산 비중 9.9% (권장 15% 이하 — 현재 양호)</div>
+  <div class="rec-item"><strong>3. 신규 매수 유지:</strong> 현대차 단기 하락 중. 분할 매수 전략 유지</div>
+  <div class="rec-item"><strong>4. 손절라인:</strong> 파마리서치 -15% 도달 시 부분 손절 검토</div>
+</div>
+
+<div class="sec">
+  <div class="qact">
+    <a href="portfolio.html" class="qbtn"><span class="qicon">📊</span><span class="qlbl">포트폴리오</span></a>
+    <a href="wisereport.html" class="qbtn"><span class="qicon">📋</span><span class="qlbl">리포트</span></a>
+    <a href="playbook.html" class="qbtn"><span class="qicon">📖</span><span class="qlbl">플레이북</span></a>
+    <a href="#" class="qbtn" onclick="alert('준비중')"><span class="qicon">⚙️</span><span class="qlbl">설정</span></a>
+  </div>
+</div>
+
+<div class="sec open" id="s1">
+  <div class="sec-hdr" onclick="tog('s1')">
+    <div class="sec-ttl">📊 주요 보유 종목 <span class="sec-cnt">40+</span></div>
+    <span id="s1t">▼</span>
+  </div>
+  <div class="sec-body">
+    <div class="hscroll">
+      <div class="scard">
+        <div class="sname">삼성전자</div>
+        <div class="scod">519주 · 9.3%</div>
+        <div class="sprice">193,500</div>
+        <div class="sup">+187.3%</div>
+      </div>
+      <div class="scard">
+        <div class="sname">Bitcoin</div>
+        <div class="scod">0.698개 · 5.6%</div>
+        <div class="sprice">97,000,000</div>
+        <div class="sup">+18.5%</div>
+      </div>
+      <div class="scard">
+        <div class="sname">TIGER 코리아AI</div>
+        <div class="scod">4,121주 · 5.4%</div>
+        <div class="sprice">15,900</div>
+        <div class="sup">+24.0%</div>
+      </div>
+      <div class="scard">
+        <div class="sname">샤오미</div>
+        <div class="scod">1,000주 · 3.8%</div>
+        <div class="sprice">$32.78</div>
+        <div class="sup">+207.5%</div>
+      </div>
+      <div class="scard">
+        <div class="sname">파마리서치</div>
+        <div class="scod">126주 · 3.4%</div>
+        <div class="sprice">325,000</div>
+        <div class="sdn">-19.0%</div>
+      </div>
+    </div>
+    <div class="lmore"><a href="portfolio.html">전체 40개 종목 보기 →</a></div>
+  </div>
+</div>
+
+<div class="sec" id="s2">
+  <div class="sec-hdr" onclick="tog('s2')">
+    <div class="sec-ttl">📋 오늘의 WiseReport <span class="sec-cnt">8</span></div>
+    <span id="s2t">▼</span>
+  </div>
+  <div class="sec-body">
+    <div class="rcard buy">
+      <div class="rtime">Today Top · 3월 9일 09:00</div>
+      <div class="rttl">빙그레: 26년 밸류업 기반 다지기</div>
+      <div class="rdesc">BUY / DS투자증권 / 목표가 165,000원</div>
+    </div>
+    <div class="rcard buy">
+      <div class="rtime">Today Hot · 3월 9일 09:00</div>
+      <div class="rttl">BGF리테일: 편의점에 주목할 때!</div>
+      <div class="rdesc">BUY / 상상인증권 / 목표가 185,000↑</div>
+    </div>
+    <div class="rcard">
+      <div class="rtime">보유종목 알림 ⚠️</div>
+      <div class="rttl">파마리서치 목표가 하향 310,000↓</div>
+      <div class="rdesc">HOLD / 키움증권 · 보유중 주의</div>
+    </div>
+    <div class="lmore"><a href="wisereport.html">전체 리포트 보기 →</a></div>
+  </div>
+</div>
+
+<nav class="bnav">
+  <a href="index.html" class="on"><span class="ni">🏠</span>홈</a>
+  <a href="portfolio.html"><span class="ni">📊</span>포트폴리오</a>
+  <a href="wisereport.html"><span class="ni">📋</span>리포트</a>
+  <a href="playbook.html"><span class="ni">📖</span>플레이북</a>
+</nav>
+
+<script>
+// 뉴스 카드 스와이프
+const track = document.getElementById('news-track');
+const dots = document.querySelectorAll('.ndot');
+const posEl = document.getElementById('news-pos');
+let curNews = 0;
+function updateDots(i) {
+  curNews = i;
+  dots.forEach((d,j) => d.classList.toggle('on', i===j));
+  if(posEl) posEl.textContent = `${i+1} / ${dots.length}`;
+}
+function goNews(i) {
+  const cards = track.querySelectorAll('.ncard');
+  if(cards[i]) track.scrollTo({left: cards[i].offsetLeft - 15, behavior:'smooth'});
+  updateDots(i);
+}
+if(track) {
+  track.addEventListener('scroll', () => {
+    const cards = track.querySelectorAll('.ncard');
+    let closest = 0, minDist = Infinity;
+    cards.forEach((c,i) => {
+      const dist = Math.abs(c.getBoundingClientRect().left - track.getBoundingClientRect().left);
+      if(dist < minDist){ minDist=dist; closest=i; }
+    });
+    updateDots(closest);
+  });
+}
+
+function tog(id){
+  const s=document.getElementById(id);
+  const t=document.getElementById(id+'t');
+  s.classList.toggle('open');
+  t.textContent=s.classList.contains('open')?'▼':'▶';
+}
+function checkMarket(){
+  const h=new Date().getHours(),d=new Date().getDay();
+  const el=document.getElementById('ms');
+  if(d===0||d===6){el.textContent='● 휴장';el.style.color='var(--red)'}
+  else if(h>=9&&h<15){el.textContent='● 장중';el.style.color='var(--grn)'}
+  else{el.textContent='● 장외';el.style.color='var(--sub)'}
+}
+checkMarket();
+setInterval(checkMarket,60000);
+// ── 글로벌 시장 지수 ──
+const MKT_SYMBOLS = [
+  {id:'KOSPI',  sym:'^KS11',  label:'KOSPI',    fmt:'comma2'},
+  {id:'KOSDAQ', sym:'^KQ11',  label:'KOSDAQ',   fmt:'comma2'},
+  {id:'NASDAQ', sym:'^IXIC',  label:'NASDAQ',   fmt:'comma2'},
+  {id:'SP500',  sym:'^GSPC',  label:'S&P 500',  fmt:'comma2'},
+  {id:'USDKRW', sym:'KRW=X',  label:'USD/KRW',  fmt:'comma2'},
+];
+const MKT_TTL = 4 * 60 * 60 * 1000; // 4시간
+
+async function fetchOneSym(sym) {
+  const url = `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(sym)}?interval=1d&range=1d`;
+  const r = await fetch(url, {headers:{'Accept':'application/json'}});
+  const d = await r.json();
+  const meta = d.chart.result[0].meta;
+  const cur = meta.regularMarketPrice || 0;
+  const prev = meta.chartPreviousClose || meta.previousClose || cur;
+  const chg = cur - prev;
+  const pct = prev ? chg/prev*100 : 0;
+  return {cur, chg, pct};
+}
+
+function renderMkt(id, label, cur, chg, pct) {
+  const el = document.getElementById('mkt-' + id);
+  if (!el) return;
+  const up = chg >= 0;
+  const col = up ? '#ff4757' : '#4ecdc4';
+  const arr = up ? '▲' : '▼';
+  const valStr = cur >= 1000 ? cur.toLocaleString('ko-KR', {maximumFractionDigits:2})
+                             : cur.toFixed(2);
+  const chgStr = `${arr} ${Math.abs(chg).toFixed(2)} (${pct >= 0?'+':''}${pct.toFixed(2)}%)`;
+  el.querySelector('.mkt-val').textContent = valStr;
+  el.querySelector('.mkt-val').style.color = col;
+  el.querySelector('.mkt-chg').textContent = chgStr;
+  el.querySelector('.mkt-chg').style.color = col;
+}
+
+async function loadMarketData(force) {
+  const KEY = 'mktData', TKEY = 'mktTime';
+  const cached = localStorage.getItem(KEY);
+  const ts = parseInt(localStorage.getItem(TKEY) || '0');
+  if (!force && cached && Date.now() - ts < MKT_TTL) {
+    const data = JSON.parse(cached);
+    data.forEach(({id,label,cur,chg,pct}) => renderMkt(id,label,cur,chg,pct));
+    const d = new Date(ts);
+    document.getElementById('mkt-upd').textContent = `업데이트 ${d.getHours()}:${String(d.getMinutes()).padStart(2,'0')}`;
+    return;
+  }
+  document.getElementById('mkt-upd').textContent = '업데이트 중...';
+  try {
+    const results = await Promise.all(MKT_SYMBOLS.map(async m => {
+      try {
+        const {cur,chg,pct} = await fetchOneSym(m.sym);
+        renderMkt(m.id, m.label, cur, chg, pct);
+        return {id:m.id, label:m.label, cur, chg, pct};
+      } catch(e) { return {id:m.id, label:m.label, cur:0, chg:0, pct:0}; }
+    }));
+    localStorage.setItem(KEY, JSON.stringify(results));
+    localStorage.setItem(TKEY, Date.now().toString());
+    const now = new Date();
+    document.getElementById('mkt-upd').textContent = `업데이트 ${now.getHours()}:${String(now.getMinutes()).padStart(2,'0')} · 4시간마다 갱신`;
+  } catch(e) {
+    document.getElementById('mkt-upd').textContent = '데이터 없음';
+  }
+}
+const MKT_INIT=[{id:"KOSPI",cur:5609.95,chg:77.3600,pct:1.3983},{id:"KOSDAQ",cur:1136.83,chg:34.5500,pct:3.1344},{id:"NASDAQ",cur:22697.104,chg:1.1590,pct:0.0051},{id:"SP500",cur:6781.48,chg:-14.5100,pct:-0.2135},{id:"USDKRW",cur:1473.6,chg:0.0700,pct:0.0048}];MKT_INIT.forEach(m=>renderMkt(m.id,"",m.cur,m.chg,m.pct));
+loadMarketData(false);
+// 4시간마다 자동 갱신
+setInterval(() => loadMarketData(true), MKT_TTL);
+
+function toggleMask(){const on=document.body.classList.toggle('masked');document.getElementById('maskBtn').textContent=on?'👁 해제':'🙈 마스킹';localStorage.setItem('mask',on?'1':'0');}
+if(localStorage.getItem('mask')==='1'){document.body.classList.add('masked');document.getElementById('maskBtn').textContent='👁 해제';}
+</script>
 </body>
 </html>

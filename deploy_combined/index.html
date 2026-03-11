@@ -1,0 +1,1304 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>WiseReport Today - 2026.03.04</title>
+    <style>
+        :root {
+            --bg-primary: #0a0a0f;
+            --bg-secondary: #12121a;
+            --bg-card: #1a1a24;
+            --accent-blue: #3b82f6;
+            --accent-green: #10b981;
+            --accent-red: #ef4444;
+            --accent-purple: #8b5cf6;
+            --accent-orange: #f59e0b;
+            --text-primary: #f1f5f9;
+            --text-secondary: #94a3b8;
+            --text-muted: #64748b;
+            --border: #2d2d3d;
+        }
+        
+        * { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans KR', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.5;
+            padding-bottom: 80px;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #1e3a5f 0%, #0f172a 100%);
+            padding: 20px 16px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            border-bottom: 1px solid var(--border);
+        }
+        .header-title {
+            font-size: 1.3rem;
+            font-weight: 700;
+            background: linear-gradient(90deg, #60a5fa, #34d399);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .header-date {
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+            margin-top: 4px;
+        }
+        .header-stats {
+            display: flex;
+            gap: 16px;
+            margin-top: 12px;
+            font-size: 0.75rem;
+        }
+        .header-stat {
+            color: var(--text-secondary);
+        }
+        .header-stat span {
+            color: var(--accent-green);
+            font-weight: 600;
+        }
+        
+        .nav-tabs {
+            display: flex;
+            overflow-x: auto;
+            background: var(--bg-secondary);
+            border-bottom: 1px solid var(--border);
+            scrollbar-width: none;
+        }
+        .nav-tabs::-webkit-scrollbar { display: none; }
+        .nav-tab {
+            flex: 0 0 auto;
+            padding: 14px 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: var(--text-secondary);
+            border-bottom: 2px solid transparent;
+            cursor: pointer;
+            white-space: nowrap;
+        }
+        .nav-tab.active {
+            color: var(--accent-blue);
+            border-bottom-color: var(--accent-blue);
+        }
+        
+        .section { display: none; padding: 16px; }
+        .section.active { display: block; }
+        .section-title {
+            font-size: 1rem;
+            font-weight: 700;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+        
+        .exec-summary {
+            background: linear-gradient(135deg, rgba(59, 130, 246, 0.15), rgba(16, 185, 129, 0.1));
+            border: 1px solid rgba(59, 130, 246, 0.3);
+            border-radius: 16px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .exec-summary h3 {
+            color: var(--accent-blue);
+            font-size: 0.9rem;
+            margin-bottom: 12px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .exec-summary p {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            line-height: 1.6;
+        }
+        .key-themes {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 16px;
+        }
+        .theme-tag {
+            background: rgba(59, 130, 246, 0.2);
+            color: var(--accent-blue);
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+        
+        .strategy-card {
+            background: var(--bg-card);
+            border-radius: 12px;
+            padding: 16px;
+            margin-bottom: 16px;
+            border-left: 3px solid var(--accent-green);
+        }
+        .strategy-card h4 {
+            font-size: 0.85rem;
+            color: var(--accent-green);
+            margin-bottom: 10px;
+        }
+        .strategy-list {
+            list-style: none;
+        }
+        .strategy-list li {
+            padding: 8px 0;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+        }
+        .strategy-list li:last-child { border-bottom: none; }
+        .strategy-list li::before {
+            content: "✓";
+            color: var(--accent-green);
+            font-weight: bold;
+            flex-shrink: 0;
+        }
+        
+        .stock-card {
+            background: var(--bg-card);
+            border-radius: 12px;
+            padding: 12px;
+            margin-bottom: 8px;
+            border: 1px solid var(--border);
+        }
+        .stock-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 8px;
+        }
+        .stock-info { flex: 1; }
+        .stock-name {
+            font-size: 1rem;
+            font-weight: 700;
+            margin-bottom: 2px;
+        }
+        .stock-opinion {
+            display: inline-block;
+            background: var(--accent-green);
+            color: white;
+            padding: 3px 8px;
+            border-radius: 10px;
+            font-size: 0.65rem;
+            font-weight: 700;
+        }
+        .stock-opinion.neutral {
+            background: var(--accent-orange);
+        }
+        .stock-rank {
+            background: linear-gradient(135deg, var(--accent-purple), var(--accent-blue));
+            color: white;
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.7rem;
+            font-weight: 700;
+        }
+        .stock-rank.down {
+            background: linear-gradient(135deg, var(--accent-red), #dc2626);
+        }
+        
+        .price-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 6px;
+            margin-bottom: 8px;
+        }
+        .price-box {
+            background: var(--bg-secondary);
+            border-radius: 8px;
+            padding: 8px 4px;
+            text-align: center;
+        }
+        .price-label {
+            font-size: 0.65rem;
+            color: var(--text-muted);
+            margin-bottom: 2px;
+        }
+        .price-value {
+            font-size: 0.9rem;
+            font-weight: 700;
+            color: var(--text-primary);
+        }
+        .price-value.target { color: var(--accent-blue); }
+        .price-value.upside { color: var(--accent-green); }
+        .price-value.downside { color: var(--accent-red); }
+        
+        .reasoning {
+            background: rgba(59, 130, 246, 0.08);
+            border-radius: 8px;
+            padding: 8px 10px;
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+            line-height: 1.4;
+        }
+        .reasoning::before {
+            content: "💡 ";
+        }
+        
+        .sector-card {
+            background: var(--bg-card);
+            border-radius: 16px;
+            padding: 16px;
+            margin-bottom: 12px;
+            border-left: 4px solid var(--accent-blue);
+        }
+        .sector-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 12px;
+        }
+        .sector-name {
+            font-size: 1rem;
+            font-weight: 700;
+        }
+        .sector-rating {
+            background: rgba(16, 185, 129, 0.2);
+            color: var(--accent-green);
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 0.7rem;
+            font-weight: 700;
+        }
+        .sector-outlook {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            margin-bottom: 12px;
+            line-height: 1.5;
+        }
+        .sector-stocks {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+        .sector-stock {
+            background: var(--bg-secondary);
+            padding: 6px 12px;
+            border-radius: 8px;
+            font-size: 0.75rem;
+            color: var(--text-primary);
+        }
+        
+        .news-card {
+            background: var(--bg-card);
+            border-radius: 16px;
+            padding: 16px;
+            margin-bottom: 12px;
+            border-left: 4px solid var(--accent-orange);
+        }
+        .news-title {
+            font-size: 0.95rem;
+            font-weight: 600;
+            margin-bottom: 8px;
+            line-height: 1.4;
+        }
+        .news-source {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            margin-bottom: 8px;
+        }
+        .news-impact {
+            background: rgba(245, 158, 11, 0.1);
+            border-radius: 8px;
+            padding: 10px;
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+        }
+        .news-impact::before {
+            content: "📊 포트폴리오 시사점: ";
+            color: var(--accent-orange);
+            font-weight: 600;
+        }
+        
+        .highlight-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        .highlight-item {
+            background: var(--bg-card);
+            border-radius: 12px;
+            padding: 16px 8px;
+            text-align: center;
+        }
+        .highlight-label {
+            font-size: 0.65rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            margin-bottom: 6px;
+        }
+        .highlight-value {
+            font-size: 0.9rem;
+            font-weight: 700;
+        }
+        .highlight-value.top { color: var(--accent-purple); }
+        .highlight-value.hot { color: var(--accent-red); }
+        .highlight-value.best { color: var(--accent-green); }
+        
+        .bottom-nav {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: var(--bg-secondary);
+            border-top: 1px solid var(--border);
+            display: flex;
+            justify-content: space-around;
+            padding: 8px 0;
+            z-index: 100;
+        }
+        .bottom-nav-item {
+            flex: 1;
+            text-align: center;
+            padding: 8px;
+            color: var(--text-muted);
+            font-size: 0.7rem;
+            text-decoration: none;
+        }
+        .bottom-nav-item.active {
+            color: var(--accent-blue);
+        }
+        .bottom-nav-icon {
+            font-size: 1.3rem;
+            display: block;
+            margin-bottom: 2px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="header-title">📊 WiseReport Today</div>
+        <div class="header-date" id="currentDate">2026년 3월 4일</div>
+        <div class="header-stats">
+            <div class="header-stat">목표가 변경: <span>27개</span></div>
+            <div class="header-stat">상향: <span>25개</span></div>
+            <div class="header-stat">하향: <span>2개</span></div>
+        </div>
+    </div>
+    
+    <div class="nav-tabs">
+        <div class="nav-tab active" onclick="showSection('summary')">개요</div>
+        <div class="nav-tab" onclick="showSection('stocks')">종목(27)</div>
+        <div class="nav-tab" onclick="showSection('sectors')">섹터(6)</div>
+        <div class="nav-tab" onclick="showSection('news')">뉴스</div>
+    </div>
+    
+    <!-- Summary Section -->
+    <div id="summary" class="section active">
+        <div class="exec-summary">
+            <h3>📌 Executive Summary</h3>
+            <p>국내 증시는 <strong>반도체·배터리·자동차</strong> 3대 성장 엔진의 강력한 모멘텀 아래 있습니다. 미국 보호무역 정책이 오히려 국내 배터리 기업에 수혜를 주고 있으며, 자동차 산업은 AI/로보틱스 융합으로 진화 중입니다.</p>
+            <div class="key-themes">
+                <span class="theme-tag">🔋 배터리 수혜</span>
+                <span class="theme-tag">🤖 AI 융합</span>
+                <span class="theme-tag">💰 주주환원</span>
+                <span class="theme-tag">📈 주주가치</span>
+            </div>
+        </div>
+        
+        <div class="highlight-grid">
+            <div class="highlight-item">
+                <div class="highlight-label">🏆 TOP Pick</div>
+                <div class="highlight-value top">인텔리안테크</div>
+            </div>
+            <div class="highlight-item">
+                <div class="highlight-label">🔥 HOT Pick</div>
+                <div class="highlight-value hot">RF머트리얼즈</div>
+            </div>
+            <div class="highlight-item">
+                <div class="highlight-label">⭐ BEST Pick</div>
+                <div class="highlight-value best">코스맥스</div>
+            </div>
+        </div>
+        
+        <div class="strategy-card">
+            <h4>🎯 투자 전략</h4>
+            <ul class="strategy-list">
+                <li>대형주 중심, 특히 반도체/배터리/자동차 비중 확대</li>
+                <li>주주환원 강화 기업(자사주 소각, 배당 확대) 우대</li>
+                <li>음극재·양극재 등 배터리 소재 중소형주 탐색</li>
+                <li>로봇산업 (LG이노텍 등) 장기 관점 검토</li>
+            </ul>
+        </div>
+        
+
+    </div>
+    
+    <!-- Stocks Section - All 27 Stocks -->
+    <div id="stocks" class="section">
+        <div class="section-title">📈 목표가 변경 종목 (27개)</div>
+        
+        <!-- TOP 10 -->
+        <div class="stock-card">
+            <div class="stock-header">
+                <div class="stock-info">
+                    <div class="stock-name">씨젠</div>
+                    <span class="stock-opinion">매수</span>
+                </div>
+                <div class="stock-rank">1</div>
+            </div>
+            <div class="price-row">
+                <div class="price-box">
+                    <div class="price-label">현재가</div>
+                    <div class="price-value">27,000</div>
+                </div>
+                <div class="price-box">
+                    <div class="price-label">목표가</div>
+                    <div class="price-value target">44,000</div>
+                </div>
+                <div class="price-box">
+                    <div class="price-label">상승여력</div>
+                    <div class="price-value upside">+63.0%</div>
+                </div>
+            </div>
+            <div class="reasoning">체외진단 매출 5,000억원 시대 예고. 코로나 이후 신규 검사 항목 확대로 성장세 지속. 4Q25 매출 시장 기대치 부합.</div>
+        </div>
+        
+        <div class="stock-card">
+            <div class="stock-header">
+                <div class="stock-info">
+                    <div class="stock-name">피에스케이홀딩스</div>
+                    <span class="stock-opinion">매수</span>
+                </div>
+                <div class="stock-rank">2</div>
+            </div>
+            <div class="price-row">
+                <div class="price-box">
+                    <div class="price-label">현재가</div>
+                    <div class="price-value">80,500</div>
+                </div>
+                <div class="price-box">
+                    <div class="price-label">목표가</div>
+                    <div class="price-value target">125,000</div>
+                </div>
+                <div class="price-box">
+                    <div class="price-label">상승여력</div>
+                    <div class="price-value upside">+55.3%</div>
+                </div>
+            </div>
+            <div class="reasoning">AI와 동반 성장하는 장비 업체. 후공정 시장 블루칩, CoWoS 중심 성장. HBM 투자 속도 상향 조정.</div>
+        </div>
+        
+        <div class="stock-card">
+            <div class="stock-header">
+                <div class="stock-info">
+                    <div class="stock-name">포스코퓨처엠</div>
+                    <span class="stock-opinion">BUY</span>
+                </div>
+                <div class="stock-rank">3</div>
+            </div>
+            <div class="price-row">
+                <div class="price-box">
+                    <div class="price-label">현재가</div>
+                    <div class="price-value">246,000</div>
+                </div>
+                <div class="price-box">
+                    <div class="price-label">목표가</div>
+                    <div class="price-value target">370,000</div>
+                </div>
+                <div class="price-box">
+                    <div class="price-label">상승여력</div>
+                    <div class="price-value upside">+50.4%</div>
+                </div>
+            </div>
+            <div class="reasoning">3월 음극재 모멘텀 기대. 미국 중국산 ESS 수입 금지법안 발의, 음극재 반덤핑 최종 판결 임박. 리튬 가격 반등.</div>
+        </div>
+        
+        <div class="stock-card">
+            <div class="stock-header">
+                <div class="stock-info">
+                    <div class="stock-name">이수페타시스</div>
+                    <span class="stock-opinion">Buy</span>
+                </div>
+                <div class="stock-rank">4</div>
+            </div>
+            <div class="price-row">
+                <div class="price-box">
+                    <div class="price-label">현재가</div>
+                    <div class="price-value">116,100</div>
+                </div>
+                <div class="price-box">
+                    <div class="price-label">목표가</div>
+                    <div class="price-value target">170,000</div>
+                </div>
+                <div class="price-box">
+                    <div class="price-label">상승여력</div>
+                    <div class="price-value upside">+46.4%</div>
+                </div>
+            </div>
+            <div class="reasoning">AI 서버용 고부가가치 기판 수요 증가. 글로벌 CSP 고객사 물량 확대로 실적 개선 전망.</div>
+        </div>
+        
+        <div class="stock-card">
+            <div class="stock-header">
+                <div class="stock-info">
+                    <div class="stock-name">한국콜마</div>
+                    <span class="stock-opinion">Buy</span>
+                </div>
+                <div class="stock-rank">5</div>
+            </div>
+            <div class="price-row">
+                <div class="price-box">
+                    <div class="price-label">현재가</div>
+                    <div class="price-value">71,600</div>
+                </div>
+                <div class="price-box">
+                    <div class="price-label">목표가</div>
+                    <div class="price-value target">100,000</div>
+                </div>
+                <div class="price-box">
+                    <div class="price-label">상승여력</div>
+                    <div class="price-value upside">+39.7%</div>
+                </div>
+            </div>
+            <div class="reasoning">4Q25 Review: 비수기에도 견조, 자신감 있는 1분기 전망. 신규 고객사 확보 및 해외 시장 확대.</div>
+        </div>
+        
+        <div class="stock-card">
+            <div class="stock-header">
+                <div class="stock-info">
+                    <div class="stock-name">엔씨소프트</div>
+                    <span class="stock-opinion">Buy</span>
+                </div>
+                <div class="stock-rank">6</div>
+            </div>
+            <div class="price-row">
+                <div class="price-box">
+                    <div class="price-label">현재가</div>
+                    <div class="price-value">237,500</div>
+                </div>
+                <div class="price-box">
+                    <div class="price-label">목표가</div>
+                    <div class="price-value target">330,000</div>
+                </div>
+                <div class="price-box">
+                    <div class="price-label">상승여력</div>
+                    <div class="price-value upside">+39.0%</div>
+                </div>
+            </div>
+            <div class="reasoning">신작 성과 호조, IP 파워 부각. 자사주 소각으로 주주환원 강화. 정상화되고 있는 실적.</div>
+        </div>
+        
+        <div class="stock-card">
+            <div class="stock-header">
+                <div class="stock-info">
+                    <div class="stock-name">파트론</div>
+                    <span class="stock-opinion">Buy</span>
+                </div>
+                <div class="stock-rank">7</div>
+            </div>
+            <div class="price-row">
+                <div class="price-box">
+                    <div class="price-label">현재가</div>
+                    <div class="price-value">8,560</div>
+                </div>
+                <div class="price-box">
+                    <div class="price-label">목표가</div>
+                    <div class="price-value target">11,500</div>
+                </div>
+                <div class="price-box">
+                    <div class="price-label">상승여력</div>
+                    <div class="price-value upside">+34.3%</div>
+                </div>
+            </div>
+            <div class="reasoning">AI 반도체 광학 부품 수요 증가. AR/VR 시장 성장으로 광학 렌즈 사업 확대 전망.</div>
+        </div>
+        
+        <div class="stock-card">
+            <div class="stock-header">
+                <div class="stock-info">
+                    <div class="stock-name">삼성SDI</div>
+                    <span class="stock-opinion">BUY</span>
+                </div>
+                <div class="stock-rank">8</div>
+            </div>
+            <div class="price-row">
+                <div class="price-box">
+                    <div class="price-label">현재가</div>
+                    <div class="price-value">433,000</div>
+                </div>
+                <div class="price-box">
+                    <div class="price-label">목표가</div>
+                    <div class="price-value target">580,000</div>
+                </div>
+                <div class="price-box">
+                    <div class="price-label">상승여력</div>
+                    <div class="price-value upside">+34.0%</div>
+                </div>
+            </div>
+            <div class="reasoning">ESS 매출규모 4Q25 가속화. 미국 중국산 ESS 수입제한 가능성 부각. SDC 매각추진 모멘텀.</div>
+        </div>
+        
+        <div class="stock-card">
+            <div class="stock-header">
+                <div class="stock-info">
+                    <div class="stock-name">한섬</div>
+                    <span class="stock-opinion">Buy</span>
+                </div>
+                <div class="stock-rank">9</div>
+            </div>
+            <div class="price-row">
+                <div class="price-box">
+                    <div class="price-label">현재가</div>
+                    <div class="price-value">22,450</div>
+                </div>
+                <div class="price-box">
+                    <div class="price-label">목표가</div>
+                    <div class="price-value target">30,000</div>
+                </div>
+                <div class="price-box">
+                    <div class="price-label">상승여력</div>
+                    <div class="price-value upside">+33.6%</div>
+                </div>
+            </div>
+            <div class="reasoning">면세점 채널 회복세 지속. 해외 시장 확대 및 디지털 전환으로 수익성 개선 전망.</div>
+        </div>
+        
+        <div class="stock-card">
+            <div class="stock-header">
+                <div class="stock-info">
+                    <div class="stock-name">유한양행</div>
+                    <span class="stock-opinion">BUY</span>
+                </div>
+                <div class="stock-rank">10</div>
+            </div>
+            <div class="price-row">
+                <div class="price-box">
+                    <div class="price-label">현재가</div>
+                    <div class="price-value">113,100</div>
+                </div>
+                <div class="price-box">
+                    <div class="price-label">목표가</div>
+                    <div class="price-value target">150,000</div>
+                </div>
+                <div class="price-box">
+                    <div class="price-label">상승여력</div>
+                    <div class="price-value upside">+32.6%</div>
+                </div>
+            </div>
+            <div class="reasoning">레이저티닙 로열티 수익 증가 기대. 4분기 실적 무난. NDR(Non-Deal Roadshow) 진행으로 IR 강화.</div>
+        </div>
+        
+        <!-- Additional 17 Stocks -->
+        
+        <div class="stock-card">
+            <div class="stock-header">
+                <div class="stock-info">
+                    <div class="stock-name">LG이노텍</div>
+                    <span class="stock-opinion">Buy</span>
+                </div>
+                <div class="stock-rank">11</div>
+            </div>
+            <div class="price-row">
+                <div class="price-box">
+                    <div class="price-label">현재가</div>
+                    <div class="price-value">287,500</div>
+                </div>
+                <div class="price-box">
+                    <div class="price-label">목표가</div>
+                    <div class="price-value target">370,000</div>
+                </div>
+                <div class="price-box">
+                    <div class="price-label">상승여력</div>
+                    <div class="price-value upside">+28.7%</div>
+                </div>
+            </div>
+            <div class="reasoning">로봇산업 진출로 전방산업 확장. 가격 인상 효과 기대. 1Q26 견조한 광학 실적, 컨센서스 상회 예상.</div>
+        </div>
+        
+        <div class="stock-card">
+            <div class="stock-header">
+                <div class="stock-info">
+                    <div class="stock-name">LG화학</div>
+                    <span class="stock-opinion">Buy 상향</span>
+                </div>
+                <div class="stock-rank">12</div>
+            </div>
+            <div class="price-row">
+                <div class="price-box">
+                    <div class="price-label">현재가</div>
+                    <div class="price-value">387,500</div>
+                </div>
+                <div class="price-box">
+                    <div class="price-label">목표가</div>
+                    <div class="price-value target">487,000</div>
+                </div>
+                <div class="price-box">
+                    <div class="price-label">상승여력</div>
+                    <div class="price-value upside">+25.7%</div>
+                </div>
+            </div>
+            <div class="reasoning">LGES 지분율 감축 가시화. 자산가치 할인율 감소로 투자의견 Buy로 상향 조정.</div>
+        </div>
+        
+        <div class="stock-card">
+            <div class="stock-header">
+                <div class="stock-info">
+                    <div class="stock-name">롯데렌탈</div>
+                    <span class="stock-opinion">BUY</span>
+                </div>
+                <div class="stock-rank">13</div>
+            </div>
+            <div class="price-row">
+                <div class="price-box">
+                    <div class="price-label">현재가</div>
+                    <div class="price-value">34,300</div>
+                </div>
+                <div class="price-box">
+                    <div class="price-label">목표가</div>
+                    <div class="price-value target">43,000</div>
+                </div>
+                <div class="price-box">
+                    <div class="price-label">상승여력</div>
+                    <div class="price-value upside">+25.4%</div>
+                </div>
+            </div>
+            <div class="reasoning">렌탈 사업 안정적 성장 지속. 중고차 판매 플랫폼 사업 확대로 수익 다각화.</div>
+        </div>
+        
+        <div class="stock-card">
+            <div class="stock-header">
+                <div class="stock-info">
+                    <div class="stock-name">기아</div>
+                    <span class="stock-opinion">Buy</span>
+                </div>
+                <div class="stock-rank">14</div>
+            </div>
+            <div class="price-row">
+                <div class="price-box">
+                    <div class="price-label">현재가</div>
+                    <div class="price-value">196,100</div>
+                </div>
+                <div class="price-box">
+                    <div class="price-label">목표가</div>
+                    <div class="price-value target">240,000</div>
+                </div>
+                <div class="price-box">
+                    <div class="price-label">상승여력</div>
+                    <div class="price-value upside">+22.4%</div>
+                </div>
+            </div>
+            <div class="reasoning">2026.2.25 역사적 신고가 경신. 26년 초반 판매 흐름 긍정적. 신차 기반 물량 확대의 한 해.</div>
+        </div>
+        
+        <div class="stock-card">
+            <div class="stock-header">
+                <div class="stock-info">
+                    <div class="stock-name">KT&G</div>
+                    <span class="stock-opinion">BUY</span>
+                </div>
+                <div class="stock-rank">15</div>
+            </div>
+            <div class="price-row">
+                <div class="price-box">
+                    <div class="price-label">현재가</div>
+                    <div class="price-value">179,700</div>
+                </div>
+                <div class="price-box">
+                    <div class="price-label">목표가</div>
+                    <div class="price-value target">220,000</div>
+                </div>
+                <div class="price-box">
+                    <div class="price-label">상승여력</div>
+                    <div class="price-value upside">+22.4%</div>
+                </div>
+            </div>
+            <div class="reasoning">상법 개정안 통과. 보유 자사주 전량 소각 공시. EPS 상승 반영으로 주주가치 제고.</div>
+        </div>
+        
+        <div class="stock-card">
+            <div class="stock-header">
+                <div class="stock-info">
+                    <div class="stock-name">한솔케미칼</div>
+                    <span class="stock-opinion">Buy</span>
+                </div>
+                <div class="stock-rank">16</div>
+            </div>
+            <div class="price-row">
+                <div class="price-box">
+                    <div class="price-label">현재가</div>
+                    <div class="price-value">319,000</div>
+                </div>
+                <div class="price-box">
+                    <div class="price-label">목표가</div>
+                    <div class="price-value target">395,000</div>
+                </div>
+                <div class="price-box">
+                    <div class="price-label">상승여력</div>
+                    <div class="price-value upside">+23.8%</div>
+                </div>
+            </div>
+            <div class="reasoning">전고점 돌파. 4Q25 Review: 이미 다 예상했잖아요. 이차전지 소재 사업 고성장 지속.</div>
+        </div>
+        
+        <div class="stock-card">
+            <div class="stock-header">
+                <div class="stock-info">
+                    <div class="stock-name">LG디스플레이</div>
+                    <span class="stock-opinion">매수</span>
+                </div>
+                <div class="stock-rank">17</div>
+            </div>
+            <div class="price-row">
+                <div class="price-box">
+                    <div class="price-label">현재가</div>
+                    <div class="price-value">14,820</div>
+                </div>
+                <div class="price-box">
+                    <div class="price-label">목표가</div>
+                    <div class="price-value target">19,000</div>
+                </div>
+                <div class="price-box">
+                    <div class="price-label">상승여력</div>
+                    <div class="price-value upside">+28.2%</div>
+                </div>
+            </div>
+            <div class="reasoning">높은 이익 가시성. FY26 상반기도 흑자 구struct, ROIC > WACC 시점 도래.</div>
+        </div>
+        
+        <div class="stock-card">
+            <div class="stock-header">
+                <div class="stock-info">
+                    <div class="stock-name">한화솔루션</div>
+                    <span class="stock-opinion">BUY</span>
+                </div>
+                <div class="stock-rank">18</div>
+            </div>
+            <div class="price-row">
+                <div class="price-box">
+                    <div class="price-label">현재가</div>
+                    <div class="price-value">51,600</div>
+                </div>
+                <div class="price-box">
+                    <div class="price-label">목표가</div>
+                    <div class="price-value target">67,000</div>
+                </div>
+                <div class="price-box">
+                    <div class="price-label">상승여력</div>
+                    <div class="price-value upside">+29.8%</div>
+                </div>
+            </div>
+            <div class="reasoning">2026~2028년 태양광 예상치 상회. 전력망 부족 심화, 빅테크 수요 급증. 우주 태양광/페로브스카이트 기대.</div>
+        </div>
+        
+        <div class="stock-card">
+            <div class="stock-header">
+                <div class="stock-info">
+                    <div class="stock-name">한미약품</div>
+                    <span class="stock-opinion">Buy</span>
+                </div>
+                <div class="stock-rank">19</div>
+            </div>
+            <div class="price-row">
+                <div class="price-box">
+                    <div class="price-label">현재가</div>
+                    <div class="price-value">591,000</div>
+                </div>
+                <div class="price-box">
+                    <div class="price-label">목표가</div>
+                    <div class="price-value target">700,000</div>
+                </div>
+                <div class="price-box">
+                    <div class="price-label">상승여력</div>
+                    <div class="price-value upside">+18.4%</div>
+                </div>
+            </div>
+            <div class="reasoning">높은 마진 성장률 입증 중. 파이프라인 성장 기대. 신약 개발 역량 지속 확보.</div>
+        </div>
+        
+        <div class="stock-card">
+            <div class="stock-header">
+                <div class="stock-info">
+                    <div class="stock-name">대한항공</div>
+                    <span class="stock-opinion">BUY</span>
+                </div>
+                <div class="stock-rank">20</div>
+            </div>
+            <div class="price-row">
+                <div class="price-box">
+                    <div class="price-label">현재가</div>
+                    <div class="price-value">28,950</div>
+                </div>
+                <div class="price-box">
+                    <div class="price-label">목표가</div>
+                    <div class="price-value target">34,000</div>
+                </div>
+                <div class="price-box">
+                    <div class="price-label">상승여력</div>
+                    <div class="price-value upside">+17.4%</div>
+                </div>
+            </div>
+            <div class="reasoning">방산 경쟁력 확인. KF-21 보라매 전투기 등 방산 수출 확대 기대. 항공 수요 회복세 지속.</div>
+        </div>
+        
+        <div class="stock-card">
+            <div class="stock-header">
+                <div class="stock-info">
+                    <div class="stock-name">한화손해보험</div>
+                    <span class="stock-opinion">Buy</span>
+                </div>
+                <div class="stock-rank">21</div>
+            </div>
+            <div class="price-row">
+                <div class="price-box">
+                    <div class="price-label">현재가</div>
+                    <div class="price-value">7,980</div>
+                </div>
+                <div class="price-box">
+                    <div class="price-label">목표가</div>
+                    <div class="price-value target">9,300</div>
+                </div>
+                <div class="price-box">
+                    <div class="price-label">상승여력</div>
+                    <div class="price-value upside">+16.5%</div>
+                </div>
+            </div>
+            <div class="reasoning">이익 체력 빠르게 개선 중. 건전성 무난. 배당 재개 기대로 주주환원 강화 전망.</div>
+        </div>
+        
+        <div class="stock-card">
+            <div class="stock-header">
+                <div class="stock-info">
+                    <div class="stock-name">아모레퍼시픽</div>
+                    <span class="stock-opinion">Buy</span>
+                </div>
+                <div class="stock-rank">22</div>
+            </div>
+            <div class="price-row">
+                <div class="price-box">
+                    <div class="price-label">현재가</div>
+                    <div class="price-value">157,000</div>
+                </div>
+                <div class="price-box">
+                    <div class="price-label">목표가</div>
+                    <div class="price-value target">180,000</div>
+                </div>
+                <div class="price-box">
+                    <div class="price-label">상승여력</div>
+                    <div class="price-value upside">+14.6%</div>
+                </div>
+            </div>
+            <div class="reasoning">기대치 하회한 4Q25. COSRX 인수 효과 비관에서 낙관으로 전환. 중국 사업 회복세.</div>
+        </div>
+        
+        <!-- Additional stocks without target prices listed -->
+        
+        <div class="stock-card">
+            <div class="stock-header">
+                <div class="stock-info">
+                    <div class="stock-name">인터로조</div>
+                    <span class="stock-opinion">신규</span>
+                </div>
+                <div class="stock-rank">23</div>
+            </div>
+            <div class="price-row">
+                <div class="price-box">
+                    <div class="price-label">현재가</div>
+                    <div class="price-value">18,910</div>
+                </div>
+                <div class="price-box">
+                    <div class="price-label">목표가</div>
+                    <div class="price-value target">-</div>
+                </div>
+                <div class="price-box">
+                    <div class="price-label">상승여력</div>
+                    <div class="price-value">-</div>
+                </div>
+            </div>
+            <div class="reasoning">신규 커버리지 개시. 로봇/자동화 설비 전문 기업. 국내 제조업 자동화 수요 확대 수혜.</div>
+        </div>
+        
+        <div class="stock-card">
+            <div class="stock-header">
+                <div class="stock-info">
+                    <div class="stock-name">에코앤드림</div>
+                    <span class="stock-opinion">신규</span>
+                </div>
+                <div class="stock-rank">24</div>
+            </div>
+            <div class="price-row">
+                <div class="price-box">
+                    <div class="price-label">현재가</div>
+                    <div class="price-value">21,200</div>
+                </div>
+                <div class="price-box">
+                    <div class="price-label">목표가</div>
+                    <div class="price-value target">-</div>
+                </div>
+                <div class="price-box">
+                    <div class="price-label">상승여력</div>
+                    <div class="price-value">-</div>
+                </div>
+            </div>
+            <div class="reasoning">신규 커버리지 개시. 친환경 소재/패키징 전문 기업. ESG 트렌드 수혜 및 글로벌 브랜드 고객사 확대.</div>
+        </div>
+        
+        <div class="stock-card">
+            <div class="stock-header">
+                <div class="stock-info">
+                    <div class="stock-name">롯데케미칼</div>
+                    <span class="stock-opinion">유지</span>
+                </div>
+                <div class="stock-rank">25</div>
+            </div>
+            <div class="price-row">
+                <div class="price-box">
+                    <div class="price-label">현재가</div>
+                    <div class="price-value">90,300</div>
+                </div>
+                <div class="price-box">
+                    <div class="price-label">목표가</div>
+                    <div class="price-value target">-</div>
+                </div>
+                <div class="price-box">
+                    <div class="price-label">상승여력</div>
+                    <div class="price-value">-</div>
+                </div>
+            </div>
+            <div class="reasoning">대산 구조조정 진행. 단기 영업손익 개선되나 중장기 설비 지분 감소 영향으로 신중한 접근 필요.</div>
+        </div>
+        
+        <!-- Downgraded stocks -->
+        
+        <div class="stock-card">
+            <div class="stock-header">
+                <div class="stock-info">
+                    <div class="stock-name">켐트로닉스</div>
+                    <span class="stock-opinion">매수</span>
+                </div>
+                <div class="stock-rank down">▼</div>
+            </div>
+            <div class="price-row">
+                <div class="price-box">
+                    <div class="price-label">현재가</div>
+                    <div class="price-value">32,750</div>
+                </div>
+                <div class="price-box">
+                    <div class="price-label">목표가</div>
+                    <div class="price-value target">44,000</div>
+                </div>
+                <div class="price-box">
+                    <div class="price-label">변동</div>
+                    <div class="price-value downside">-34.3%</div>
+                </div>
+            </div>
+            <div class="reasoning">TP 하향 조정. 2분기 IT OLED 양산 시작, 반도체 소재, 8.6세대 OLED 식각 매출 본격화 예정. 사업 다각화로 중장기 성장 기대.</div>
+        </div>
+        
+        <div class="stock-card">
+            <div class="stock-header">
+                <div class="stock-info">
+                    <div class="stock-name">웹젠</div>
+                    <span class="stock-opinion neutral">중립</span>
+                </div>
+                <div class="stock-rank down">▼</div>
+            </div>
+            <div class="price-row">
+                <div class="price-box">
+                    <div class="price-label">현재가</div>
+                    <div class="price-value">13,620</div>
+                </div>
+                <div class="price-box">
+                    <div class="price-label">목표가</div>
+                    <div class="price-value target">-</div>
+                </div>
+                <div class="price-box">
+                    <div class="price-label">투자의견</div>
+                    <div class="price-value downside">중립</div>
+                </div>
+            </div>
+            <div class="reasoning">개발/운영 역량 부족, 신작 부진. 주주환원으로 방어하기엔 역부족. 중립 의견으로 하향 조정.</div>
+        </div>
+    </div>
+    
+    <!-- Sectors Section - All 6 Sectors -->
+    <div id="sectors" class="section">
+        <div class="section-title">🏭 섹터별 투자 의견 (6개)</div>
+        
+        <div class="sector-card">
+            <div class="sector-header">
+                <div class="sector-name">🔋 배터리/이차전지</div>
+                <div class="sector-rating">Overweight</div>
+            </div>
+            <div class="sector-outlook"><strong>투자 전망:</strong> 미국 중국산 ESS 수입제한 법안 발의로 국내 기업 수혜. 음극재 모멘텀 강화, 리튬 가격 반등으로 배터리 소재 기업 실적 개선 기대.</div>
+            <div class="sector-stocks">
+                <span class="sector-stock">삼성SDI</span>
+                <span class="sector-stock">LG에너지솔루션</span>
+                <span class="sector-stock">포스코퓨처엠</span>
+                <span class="sector-stock">에코프로비엠</span>
+                <span class="sector-stock">한솔케미칼</span>
+            </div>
+        </div>
+        
+        <div class="sector-card">
+            <div class="sector-header">
+                <div class="sector-name">🚗 자동차/로봇</div>
+                <div class="sector-rating">Overweight</div>
+            </div>
+            <div class="sector-outlook"><strong>투자 전망:</strong> 전통 제조업에서 AI/로보틱스 융합 산업으로 진화. 기아 역사적 신고가 경신, LG이노텍 로봇사업 진출 등 산업 구조 재편 가속.</div>
+            <div class="sector-stocks">
+                <span class="sector-stock">기아</span>
+                <span class="sector-stock">현대차</span>
+                <span class="sector-stock">LG이노텍</span>
+                <span class="sector-stock">레인보우로보틱스</span>
+                <span class="sector-stock">인터로조</span>
+            </div>
+        </div>
+        
+        <div class="sector-card">
+            <div class="sector-header">
+                <div class="sector-name">💻 반도체/AI</div>
+                <div class="sector-rating">Overweight</div>
+            </div>
+            <div class="sector-outlook"><strong>투자 전망:</strong> HBM 수혜주 지속, CoWoS 동반 수혜 예상. AI 인프라 투자 확대로 관련 장비/부품 기업 실적 가속화.</div>
+            <div class="sector-stocks">
+                <span class="sector-stock">삼성전자</span>
+                <span class="sector-stock">SK하이닉스</span>
+                <span class="sector-stock">피에스케이홀딩스</span>
+                <span class="sector-stock">이수페타시스</span>
+                <span class="sector-stock">파트론</span>
+            </div>
+        </div>
+        
+        <div class="sector-card">
+            <div class="sector-header">
+                <div class="sector-name">🧪 화학/소재</div>
+                <div class="sector-rating">Overweight</div>
+            </div>
+            <div class="sector-outlook"><strong>투자 전망:</strong> LG화학 LGES 지분 감축 가시화로 투자의견 상향. 태양광/페로브스카이트 사업 재평가로 기업가치 상승 기대.</div>
+            <div class="sector-stocks">
+                <span class="sector-stock">LG화학</span>
+                <span class="sector-stock">한화솔루션</span>
+                <span class="sector-stock">한솔케미칼</span>
+                <span class="sector-stock">롯데케미칼</span>
+            </div>
+        </div>
+        
+        <div class="sector-card">
+            <div class="sector-header">
+                <div class="sector-name">🎮 게임/엔터테인먼트</div>
+                <div class="sector-rating">Overweight</div>
+            </div>
+            <div class="sector-outlook"><strong>투자 전망:</strong> 엔씨소프트 신작 성과 호조, IP 파워 부각. 글로벌 경쟁력 강화로 해외 매출 비중 확대 지속.</div>
+            <div class="sector-stocks">
+                <span class="sector-stock">엔씨소프트</span>
+                <span class="sector-stock">넷마블</span>
+                <span class="sector-stock">카카오게임즈</span>
+                <span class="sector-stock">디앤씨미디어</span>
+            </div>
+        </div>
+        
+        <div class="sector-card">
+            <div class="sector-header">
+                <div class="sector-name">✈️ 방산/항공</div>
+                <div class="sector-rating">Positive</div>
+            </div>
+            <div class="sector-outlook"><strong>투자 전망:</strong> 대한항공 방산 경쟁력 확인. 글로벌 defense 수요 확대로 방산 수출 증가 기대. KF-21 보라매 등 전투기 수출 호조.</div>
+            <div class="sector-stocks">
+                <span class="sector-stock">대한항공</span>
+                <span class="sector-stock">한화에어로스페이스</span>
+                <span class="sector-stock">LIG넥스원</span>
+                <span class="sector-stock">한화시스템</span>
+            </div>
+        </div>
+        
+        <div class="strategy-card">
+            <h4>📊 섹터별 투자 전략 요약</h4>
+            <ul class="strategy-list">
+                <li><strong>Overweight (5개):</strong> 배터리, 자동차/로봇, 반도체/AI, 화학/소재, 게임/엔터 - 비중 확대 권장</li>
+                <li><strong>Positive (1개):</strong> 방산/항공 - 중소폭 비중 확대 고려</li>
+                <li><strong>핵심 테마:</strong> 미국 보호무역 수혜(배터리), AI융합(자동차/반도체), 주주환원</li>
+            </ul>
+        </div>
+    </div>
+    
+    <!-- News Section -->
+    <div id="news" class="section">
+        <div class="section-title">📰 시장 뉴스 & 포트폴리오 시사점</div>
+        
+        <div class="news-card">
+            <div class="news-title">🇮🇷 이란-미국 군사 긴장 고조... 호르무즈 해협 봉쇄 가능성</div>
+            <div class="news-source">미래에셋증권 | 2026.03.03</div>
+            <div class="news-impact">유가 상승 시 인플레이션 압력 증가 → 에너지 섹터(석유/가스) 단기 수혜. 항공/운송업은 비용 상승 부담. 방산 섹터는 지정학적 리스크로 긍정적. 포트폴리오 내 에너지/방산 소폭 비중 확대 고려.</div>
+        </div>
+        
+        <div class="news-card">
+            <div class="news-title">🇺🇸 美 중국산 ESS 수입제한 정책 확정</div>
+            <div class="news-source">WiseReport | 2026.03.04</div>
+            <div class="news-impact">삼성SDI, LG에너지솔루션 등 국내 배터리 기업 직접 수혜. ESS 시장 점유율 확대로 실적 개선 기대. 관련 소재 기업(음극재/양극재)도 간접 수혜. 배터리 섹터 Overweight 유지.</div>
+        </div>
+        
+        <div class="news-card">
+            <div class="news-title">📈 코스피, 외국인 순매수 전환... 반도체 중심 강세</div>
+            <div class="news-source">한국경제 | 2026.03.04</div>
+            <div class="news-impact">외국인 자금 유입으로 시장 유동성 개선. 반도체 업종 선호도 지속. 대형주 중심 매수세 예상. SK하이닉스, 삼성전자 등 블루칵 비중 확대 검토.</div>
+        </div>
+        
+        <div class="news-card">
+            <div class="news-title">💰 KT&G 자사주 전량 소각 공시... 주주환원 강화</div>
+            <div class="news-source">매일경제 | 2026.03.04</div>
+            <div class="news-impact">EPS 상승으로 주가 부담 지원. 주주환원 정책 기대감 확산. 담배주(KT&G, 궐련형 전환주) 수혜 예상. 유사한 주주환원 정책 기업(엔씨소프트 등) 관심.</div>
+        </div>
+        
+        <div class="news-card">
+            <div class="news-title">🚗 기아, 역사적 신고가 경신... 신차 효과 기대감</div>
+            <div class="news-source">WiseReport | 2026.03.04</div>
+            <div class="news-impact">EV 전환 가속화로 완성차 업종 재평가. 기아 중심으로 현대차, GM 등 글로벌 완성차 업종 관심 확대. 자동차 부품/소재 기업 동반 수혜.</div>
+        </div>
+        
+        <div class="news-card">
+            <div class="news-title">🤖 LG이노텍, 로봇산업 진출... 전방산업 확장</div>
+            <div class="news-source">WiseReport | 2026.03.04</div>
+            <div class="news-impact">광학/전장 사업 기반 로봇 부품 사업 확대. 1Q26 실적 컨센서스 상회 예상. 자동차-AI-로봇 융합 트렌드 수혜. 장기 관점 분할 매수 전략 유효.</div>
+        </div>
+        
+        <div class="strategy-card">
+            <h4>💼 내 포트폴리오 시사점</h4>
+            <ul class="strategy-list">
+                <li><strong>반도체/배터리 비중 확대:</strong> 외국인 매수 + 정책 수혜로 모멘텀 강함</li>
+                <li><strong>주주환원 기업 관심:</strong> KT&G, 엔씨소프트 등 자사주 소각/배당 확대 기업</li>
+                <li><strong>지정학적 리스크 대비:</strong> 에너지/방산 소폭 비중 확대 고려</li>
+                <li><strong>로봇산업 장기 투자:</strong> LG이노텍 등 AI/로보틱스 융합 기업 분할 매수</li>
+            </ul>
+        </div>
+    </div>
+    
+    <script>
+        const today = new Date();
+        const dateStr = today.toLocaleDateString('ko-KR', { 
+            year: 'numeric', 
+            month: 'long', 
+            day: 'numeric',
+            weekday: 'short'
+        });
+        document.getElementById('currentDate').textContent = dateStr;
+        
+        function showSection(sectionId) {
+            document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+            document.querySelectorAll('.nav-tab').forEach(t => t.classList.remove('active'));
+            
+            document.getElementById(sectionId).classList.add('active');
+            event.target.classList.add('active');
+            
+            window.scrollTo(0, 0);
+        }
+    </script>
+</body>
+</html>

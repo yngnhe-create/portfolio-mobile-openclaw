@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="theme-color" content="#0f1419">
+    <title>📊 와이즈리포트 대시보드</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-primary: #0f1419;
+            --bg-secondary: #15202b;
+            --bg-card: #1e2732;
+            --bg-elevated: #263340;
+            --text-primary: #e7e9ea;
+            --text-secondary: #71767b;
+            --accent-blue: #1d9bf0;
+            --accent-green: #00ba7c;
+            --accent-red: #f4212e;
+            --accent-yellow: #ffd400;
+            --accent-purple: #8b5cf6;
+            --border-color: #2f3336;
+        }
+        
+        * { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+        html { font-size: 16px; scroll-behavior: smooth; }
+        
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.5;
+            padding-bottom: 100px;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #8b5cf6 0%, #1d9bf0 100%);
+            padding: 24px 20px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        .header-title { font-size: 1.5rem; font-weight: 700; margin-bottom: 4px; }
+        .header-subtitle { font-size: 0.875rem; opacity: 0.9; }
+        .update-time { font-size: 0.75rem; opacity: 0.8; margin-top: 8px; }
+        
+        .nav-tabs {
+            display: flex;
+            gap: 8px;
+            padding: 12px 16px;
+            background: var(--bg-secondary);
+            border-bottom: 1px solid var(--border-color);
+            overflow-x: auto;
+            scrollbar-width: none;
+        }
+        
+        .nav-tabs::-webkit-scrollbar { display: none; }
+        
+        .nav-tab {
+            flex-shrink: 0;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.875rem;
+            font-weight: 500;
+            background: var(--bg-card);
+            color: var(--text-secondary);
+            border: none;
+            cursor: pointer;
+            white-space: nowrap;
+        }
+        
+        .nav-tab.active {
+            background: var(--accent-blue);
+            color: white;
+        }
+        
+        .container { padding: 16px; max-width: 600px; margin: 0 auto; }
+        
+        .section { display: none; }
+        .section.active { display: block; }
+        
+        .card {
+            background: var(--bg-secondary);
+            border-radius: 16px;
+            padding: 20px;
+            margin-bottom: 16px;
+            border: 1px solid var(--border-color);
+        }
+        
+        .card-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 16px;
+        }
+        
+        .card-title {
+            font-size: 1.125rem;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .badge {
+            font-size: 0.625rem;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-weight: 600;
+        }
+        
+        .badge-green { background: rgba(0, 186, 124, 0.2); color: var(--accent-green); }
+        .badge-blue { background: rgba(29, 155, 240, 0.2); color: var(--accent-blue); }
+        .badge-yellow { background: rgba(255, 212, 0, 0.2); color: var(--accent-yellow); }
+        .badge-purple { background: rgba(139, 92, 246, 0.2); color: var(--accent-purple); }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+        
+        .stat-card {
+            background: var(--bg-card);
+            border-radius: 16px;
+            padding: 16px 12px;
+            text-align: center;
+        }
+        
+        .stat-value {
+            font-size: 1.75rem;
+            font-weight: 700;
+            margin-bottom: 4px;
+        }
+        
+        .stat-value.blue { color: var(--accent-blue); }
+        .stat-value.green { color: var(--accent-green); }
+        .stat-value.yellow { color: var(--accent-yellow); }
+        
+        .stat-label {
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+        }
+        
+        /* Today's Best */
+        .best-report {
+            background: linear-gradient(135deg, rgba(0, 186, 124, 0.1) 0%, rgba(29, 155, 240, 0.1) 100%);
+            border: 1px solid rgba(0, 186, 124, 0.3);
+            border-radius: 16px;
+            padding: 20px;
+            margin-bottom: 16px;
+        }
+        
+        .report-badge {
+            display: inline-block;
+            background: var(--accent-green);
+            color: #000;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            margin-bottom: 12px;
+        }
+        
+        .report-name {
+            font-size: 1.25rem;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+        
+        .report-ticker {
+            font-size: 0.875rem;
+            color: var(--text-secondary);
+            margin-bottom: 12px;
+        }
+        
+        .report-meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            font-size: 0.875rem;
+        }
+        
+        .meta-item {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+        
+        .meta-label {
+            color: var(--text-secondary);
+        }
+        
+        .meta-value {
+            font-weight: 600;
+            color: var(--accent-green);
+        }
+        
+        /* Sector List */
+        .sector-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 14px 0;
+            border-bottom: 1px solid var(--border-color);
+        }
+        
+        .sector-item:last-child {
+            border-bottom: none;
+        }
+        
+        .sector-info {
+            flex: 1;
+        }
+        
+        .sector-name {
+            font-weight: 600;
+            font-size: 0.9375rem;
+            margin-bottom: 4px;
+        }
+        
+        .sector-bar {
+            height: 4px;
+            background: var(--bg-elevated);
+            border-radius: 2px;
+            overflow: hidden;
+            margin-top: 6px;
+        }
+        
+        .sector-fill {
+            height: 100%;
+            background: var(--accent-blue);
+            border-radius: 2px;
+        }
+        
+        .sector-fill.buy {
+            background: var(--accent-green);
+        }
+        
+        .sector-count {
+            font-weight: 700;
+            font-size: 1rem;
+            margin-left: 12px;
+            text-align: right;
+        }
+        
+        .sector-buy {
+            font-size: 0.75rem;
+            color: var(--accent-green);
+        }
+        
+        /* Stock Cards */
+        .stock-card {
+            background: var(--bg-card);
+            border-radius: 12px;
+            padding: 16px;
+            margin-bottom: 12px;
+            border-left: 4px solid var(--accent-green);
+        }
+        
+        .stock-card.hold { border-left-color: var(--accent-yellow); }
+        .stock-card.sell { border-left-color: var(--accent-red); }
+        
+        .stock-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 8px;
+        }
+        
+        .stock-name {
+            font-weight: 700;
+            font-size: 1rem;
+        }
+        
+        .stock-sector {
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+            margin-top: 2px;
+        }
+        
+        .stock-opinion {
+            text-align: right;
+        }
+        
+        .opinion-badge {
+            display: inline-block;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 0.625rem;
+            font-weight: 700;
+        }
+        
+        .opinion-buy { background: rgba(0, 186, 124, 0.2); color: var(--accent-green); }
+        .opinion-hold { background: rgba(255, 212, 0, 0.2); color: var(--accent-yellow); }
+        .opinion-sell { background: rgba(244, 33, 46, 0.2); color: var(--accent-red); }
+        
+        .stock-upside {
+            font-size: 1rem;
+            font-weight: 700;
+            color: var(--accent-green);
+        }
+        
+        /* News */
+        .news-item {
+            padding: 16px 0;
+            border-bottom: 1px solid var(--border-color);
+            cursor: pointer;
+            text-decoration: none;
+            display: block;
+            color: inherit;
+        }
+        
+        .news-item:hover {
+            background: rgba(29, 155, 240, 0.05);
+        }
+        
+        .news-item:last-child {
+            border-bottom: none;
+        }
+        
+        .news-number {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 24px;
+            height: 24px;
+            background: var(--accent-blue);
+            border-radius: 50%;
+            font-size: 0.75rem;
+            font-weight: 700;
+            margin-right: 8px;
+        }
+        
+        .news-title {
+            font-weight: 600;
+            margin-bottom: 4px;
+            font-size: 0.9375rem;
+        }
+        
+        .news-source {
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+        }
+        
+        /* Strategy */
+        .strategy-card {
+            background: var(--bg-elevated);
+            border-radius: 12px;
+            padding: 16px;
+            margin-bottom: 12px;
+        }
+        
+        .strategy-title {
+            font-weight: 600;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .strategy-list {
+            list-style: none;
+        }
+        
+        .strategy-list li {
+            padding: 6px 0;
+            font-size: 0.875rem;
+            color: var(--text-secondary);
+        }
+        
+        .strategy-list li::before {
+            content: "•";
+            margin-right: 8px;
+            color: var(--accent-blue);
+        }
+        
+        .bottom-nav {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: var(--bg-secondary);
+            border-top: 1px solid var(--border-color);
+            padding: 12px 20px calc(12px + env(safe-area-inset-bottom));
+            display: flex;
+            justify-content: space-around;
+            z-index: 100;
+        }
+        
+        .nav-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 4px;
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.625rem;
+            background: none;
+            border: none;
+            cursor: pointer;
+        }
+        
+        .nav-item.active { color: var(--accent-blue); }
+        .nav-icon { font-size: 1.5rem; }
+        
+        .executive-summary {
+            font-size: 0.9375rem;
+            line-height: 1.7;
+            color: var(--text-secondary);
+        }
+        
+        .executive-summary strong {
+            color: var(--text-primary);
+        }
+        
+        .highlight-box {
+            background: var(--bg-elevated);
+            border-radius: 12px;
+            padding: 16px;
+            margin-top: 16px;
+        }
+        
+        .highlight-title {
+            font-weight: 600;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1 class="header-title">📊 와이즈리포트 대시보드</h1>
+        <p class="header-subtitle">증권사 리포트 분석 & 투자 인사이트</p>
+        <p class="update-time">⏱️ 2026년 3월 2일 (월) 13:30 기준</p>
+    </header>
+
+    <nav class="nav-tabs">
+        <button class="nav-tab active" onclick="showSection('overview')">📈 개요</button>
+        <button class="nav-tab" onclick="showSection('sectors')">🏭 섹터</button>
+        <button class="nav-tab" onclick="showSection('stocks')">📋 종목</button>
+        <button class="nav-tab" onclick="showSection('strategy')">🎯 전략</button>
+    </nav>
+
+    <div class="container">
+        <!-- Section 1: Overview -->
+        <div id="overview" class="section active">
+            <!-- Stats -->
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-value blue">74</div>
+                    <div class="stat-label">전체 리포트</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value green">44</div>
+                    <div class="stat-label">BUY 권장</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value yellow">59%</div>
+                    <div class="stat-label">BUY 비율</div>
+                </div>
+            </div>
+
+            <!-- Today's Best -->
+            <div class="best-report">
+                <span class="report-badge">⭐ TODAY BEST</span>
+                <div class="report-name">디앤씨미디어</div>
+                <div class="report-ticker">263720 | 미디어/콘텐츠</div>
+                <div class="report-meta">
+                    <div class="meta-item">
+                        <span class="meta-label">의견:</span>
+                        <span class="meta-value">매수</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">목표가:</span>
+                        <span class="meta-value">17,000</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">애널리스트:</span>
+                        <span>신한투자 김아람</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Executive Summary -->
+            <div class="card">
+                <div class="card-header">
+                    <h2 class="card-title">📋 Executive Summary</h2>
+                </div>
+                <div class="executive-summary">
+                    종합적으로 볼 때, 국내 증시는 <strong>세 가지 성장 엔진(반도체·배터리·자동차)</strong>의 강력한 모멘텀 아래 있습니다. 특히 배터리 섹터의 경우, 미국 보호무역 정책이 오히려 국내 기업에 수혜를 줄 수 있는 구조적 기회를 제공하고 있습니다.
+                </div>
+                <div class="highlight-box">
+                    <div class="highlight-title">🎯 투자 전략</div>
+                    <ul class="strategy-list">
+                        <li>대형주 중심, 반도체/배터리/자동차 비중 확대</li>
+                        <li>주주환원 강화 기업(자사주 소각, 배당 확대) 우대</li>
+                        <li>음극재·양극재 등 배터리 소재 중소형주 탐색</li>
+                        <li>로봇산업(LG이노텍 등) 장기 관점 검토</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Hot News -->
+            <div class="card">
+                <div class="card-header">
+                    <h2 class="card-title">🔥 Hot 뉴스</h2>
+                    <span class="badge badge-yellow">7개</span>
+                </div>
+
+                <a href="https://search.naver.com/search.naver?query=China+Weekly+2026+전망+전략" target="_blank" class="news-item">
+                    <div class="news-title"><span class="news-number">1</span>China Weekly - 2026년 전망 전략</div>
+                    <div class="news-source">주간 해외 🔗</div>
+                </a>
+
+                <a href="https://search.naver.com/search.naver?query=KB+Bond+Scheduler+채권+재개장" target="_blank" class="news-item">
+                    <div class="news-title"><span class="news-number">2</span>KB Bond Scheduler - 일간 재개장</div>
+                    <div class="news-source">채권 시장 🔗</div>
+                </a>
+
+                <a href="https://search.naver.com/search.naver?query=AI+관세+변수+주식+시장" target="_blank" class="news-item">
+                    <div class="news-title"><span class="news-number">3</span>AI·관세 변수에 출렁인 한 주</div>
+                    <div class="news-source">주간 금융 🔗</div>
+                </a>
+
+                <a href="https://search.naver.com/search.naver?query=Week+Ahead+Snapshot+주간+시황" target="_blank" class="news-item">
+                    <div class="news-title"><span class="news-number">4</span>Week Ahead Snapshot</div>
+                    <div class="news-source">주간 시황 🔗</div>
+                </a>
+
+                <a href="https://search.naver.com/search.naver?query=FY25+4분기+실적+가이던스+리뷰" target="_blank" class="news-item">
+                    <div class="news-title"><span class="news-number">5</span>FY25 4분기 실적 및 가이던스 리뷰</div>
+                    <div class="news-source">기술주 실적 🔗</div>
+                </a>
+            </div>
+        </div>
+
+        <!-- Section 2: Sectors -->
+        <div id="sectors" class="section">
+            <div class="card">
+                <div class="card-header">
+                    <h2 class="card-title">📊 섹터별 리포트 현황</h2>
+                    <span class="badge badge-blue">전체 10개</span>
+                </div>
+
+                <div class="sector-item">
+                    <div class="sector-info">
+                        <div class="sector-name">유틸리티</div>
+                        <div class="sector-bar"><div class="sector-fill" style="width: 100%"></div></div>
+                    </div>
+                    <div class="sector-count">14</div>
+                </div>
+
+                <div class="sector-item">
+                    <div class="sector-info">
+                        <div class="sector-name">커뮤니케이션서비스</div>
+                        <div class="sector-bar"><div class="sector-fill" style="width: 100%"></div></div>
+                    </div>
+                    <div class="sector-count">14</div>
+                </div>
+
+                <div class="sector-item">
+                    <div class="sector-info">
+                        <div class="sector-name">IT</div>
+                        <div class="sector-bar"><div class="sector-fill buy" style="width: 93%"></div></div>
+                    </div>
+                    <div class="sector-count">
+                        13
+                        <div class="sector-buy">BUY 61.5%</div>
+                    </div>
+                </div>
+
+                <div class="sector-item">
+                    <div class="sector-info">
+                        <div class="sector-name">산업재</div>
+                        <div class="sector-bar"><div class="sector-fill buy" style="width: 79%"></div></div>
+                    </div>
+                    <div class="sector-count">
+                        11
+                        <div class="sector-buy">BUY 63.6%</div>
+                    </div>
+                </div>
+
+                <div class="sector-item">
+                    <div class="sector-info">
+                        <div class="sector-name">경기관련소비재</div>
+                        <div class="sector-bar"><div class="sector-fill buy" style="width: 71%"></div></div>
+                    </div>
+                    <div class="sector-count">
+                        10
+                        <div class="sector-buy">BUY 50.0%</div>
+                    </div>
+                </div>
+
+                <div class="sector-item">
+                    <div class="sector-info">
+                        <div class="sector-name">건강관리</div>
+                        <div class="sector-bar"><div class="sector-fill" style="width: 36%"></div></div>
+                    </div>
+                    <div class="sector-count">5</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 3: Stocks -->
+        <div id="stocks" class="section">
+            <div class="card">
+                <div class="card-header">
+                    <h2 class="card-title">📋 BUY 권장 종목</h2>
+                    <span class="badge badge-green">TOP 5</span>
+                </div>
+
+                <div class="stock-card">
+                    <div class="stock-header">
+                        <div>
+                            <div class="stock-name">포스코퓨처엠</div>
+                            <div class="stock-sector">2차전지/음극재</div>
+                        </div>
+                        <div class="stock-opinion">
+                            <span class="opinion-badge opinion-buy">BUY</span>
+                            <div class="stock-upside">+50.4%</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="stock-card">
+                    <div class="stock-header">
+                        <div>
+                            <div class="stock-name">피에스케이홀딩스</div>
+                            <div class="stock-sector">반도체 장비</div>
+                        </div>
+                        <div class="stock-opinion">
+                            <span class="opinion-badge opinion-buy">매수</span>
+                            <div class="stock-upside">+55.3%</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="stock-card">
+                    <div class="stock-header">
+                        <div>
+                            <div class="stock-name">삼성SDI</div>
+                            <div class="stock-sector">2차전지</div>
+                        </div>
+                        <div class="stock-opinion">
+                            <span class="opinion-badge opinion-buy">BUY</span>
+                            <div class="stock-upside">+34.0%</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="stock-card">
+                    <div class="stock-header">
+                        <div>
+                            <div class="stock-name">기아</div>
+                            <div class="stock-sector">자동차</div>
+                        </div>
+                        <div class="stock-opinion">
+                            <span class="opinion-badge opinion-buy">Buy</span>
+                            <div class="stock-upside">+22.4%</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="stock-card">
+                    <div class="stock-header">
+                        <div>
+                            <div class="stock-name">LG이노텍</div>
+                            <div class="stock-sector">IT/광학</div>
+                        </div>
+                        <div class="stock-opinion">
+                            <span class="opinion-badge opinion-buy">Buy</span>
+                            <div class="stock-upside">+28.7%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 4: Strategy -->
+        <div id="strategy" class="section">
+            <div class="card">
+                <div class="card-header">
+                    <h2 class="card-title">🎯 섹터별 투자 전략</h2>
+                </div>
+
+                <div class="strategy-card">
+                    <div class="strategy-title">🟢 Overweight (비중 확대)</div>
+                    <ul class="strategy-list">
+                        <li>반도체/AI (BUY 61.5%) - SK하이닉스, 삼성전자</li>
+                        <li>배터리/이차전지 (정책 수혜) - 삼성SDI, LG화학</li>
+                        <li>산업재/로봇 (자동차-AI 융합) - 기아, LG이노텍</li>
+                    </ul>
+                </div>
+
+                <div class="strategy-card">
+                    <div class="strategy-title">🟡 Neutral (현재 유지)</div>
+                    <ul class="strategy-list">
+                        <li>ETF (고배당/채권 혼합) - 안정적 배당수익</li>
+                        <li>헬스케어 (바이오/제약) - 장기 성장성</li>
+                        <li>유틸리티 (방어적 성격) - 변동성 대응</li>
+                    </ul>
+                </div>
+
+                <div class="strategy-card">
+                    <div class="strategy-title">🔴 Underweight (비중 축소)</div>
+                    <ul class="strategy-list">
+                        <li>가상자산 (리스크 관리) - 변동성 확대</li>
+                        <li>리츠/금리민감 자산 (단기 약세)</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <h2 class="card-title">⚠️ 주요 리스크 요인</h2>
+                </div>
+
+                <div class="strategy-card">
+                    <div class="strategy-title">🔥 이란-미국 분쟁</div>
+                    <ul class="strategy-list">
+                        <li>중동 지정학적 리스크 확산</li>
+                        <li>유가 급등 → 인플레이션 재점화 우려</li>
+                        <li>방산주 수혜, 항공/유통 부담</li>
+                    </ul>
+                </div>
+
+                <div class="strategy-card">
+                    <div class="strategy-title">📉 AI 거품론</div>
+                    <ul class="strategy-list">
+                        <li>AI 반도체 수요 둔화 우려</li>
+                        <li>엔비디아 등 대형 기술주 밸류에이션 부담</li>
+                        <li>실적 검증 필요 (HBM 수요 확인)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <nav class="bottom-nav">
+        <button class="nav-item active" onclick="showSection('overview')">
+            <span class="nav-icon">🏠</span>
+            <span>개요</span>
+        </button>
+        <button class="nav-item" onclick="showSection('sectors')">
+            <span class="nav-icon">🏭</span>
+            <span>섹터</span>
+        </button>
+        <button class="nav-item" onclick="showSection('stocks')">
+            <span class="nav-icon">📋</span>
+            <span>종목</span>
+        </button>
+        <button class="nav-item" onclick="showSection('strategy')">
+            <span class="nav-icon">🎯</span>
+            <span>전략</span>
+        </button>
+    </nav>
+
+    <script>
+        function showSection(sectionId) {
+            document.querySelectorAll('.section').forEach(section => {
+                section.classList.remove('active');
+            });
+            document.getElementById(sectionId).classList.add('active');
+            
+            document.querySelectorAll('.nav-tab').forEach(tab => {
+                tab.classList.remove('active');
+            });
+            
+            document.querySelectorAll('.bottom-nav .nav-item').forEach(item => {
+                item.classList.remove('active');
+            });
+            
+            event.target.classList.add('active');
+        }
+    </script>
+</body>
+</html>

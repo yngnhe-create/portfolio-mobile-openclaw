@@ -1,0 +1,1013 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>WiseReport Today - 2026.03.11</title>
+    <style>
+        :root {
+            --bg-primary: #0a0a0f;
+            --bg-secondary: #12121a;
+            --bg-card: #1a1a24;
+            --accent-blue: #3b82f6;
+            --accent-green: #10b981;
+            --accent-red: #ef4444;
+            --accent-purple: #8b5cf6;
+            --accent-orange: #f59e0b;
+            --text-primary: #f1f5f9;
+            --text-secondary: #94a3b8;
+            --text-muted: #64748b;
+            --border: #2d2d3d;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans KR', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.5;
+            padding-bottom: 80px;
+        }
+        .header {
+            background: linear-gradient(135deg, #1e3a5f 0%, #0f172a 100%);
+            padding: 20px 16px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            border-bottom: 1px solid var(--border);
+        }
+        .header-title {
+            font-size: 1.3rem;
+            font-weight: 700;
+            background: linear-gradient(90deg, #60a5fa, #34d399);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .header-date { font-size: 0.8rem; color: var(--text-secondary); margin-top: 4px; }
+        .header-stats { display: flex; gap: 16px; margin-top: 12px; font-size: 0.75rem; flex-wrap: wrap; }
+        .header-stat { color: var(--text-secondary); }
+        .header-stat span { color: var(--accent-green); font-weight: 600; }
+        .header-stat span.red { color: var(--accent-red); }
+
+        .nav-tabs {
+            display: flex;
+            overflow-x: auto;
+            background: var(--bg-secondary);
+            border-bottom: 1px solid var(--border);
+            scrollbar-width: none;
+        }
+        .nav-tabs::-webkit-scrollbar { display: none; }
+        .nav-tab {
+            flex: 0 0 auto;
+            padding: 14px 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: var(--text-secondary);
+            border-bottom: 2px solid transparent;
+            cursor: pointer;
+            white-space: nowrap;
+        }
+        .nav-tab.active { color: var(--accent-blue); border-bottom-color: var(--accent-blue); }
+
+        .section { display: none; padding: 16px; }
+        .section.active { display: block; }
+        .section-title {
+            font-size: 1rem;
+            font-weight: 700;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        /* Executive Summary */
+        .exec-summary {
+            background: linear-gradient(135deg, rgba(59,130,246,0.15), rgba(16,185,129,0.1));
+            border: 1px solid rgba(59,130,246,0.3);
+            border-radius: 16px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .exec-summary h3 {
+            color: var(--accent-blue);
+            font-size: 0.9rem;
+            margin-bottom: 12px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .exec-summary p { color: var(--text-secondary); font-size: 0.9rem; line-height: 1.6; }
+        .key-themes { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; }
+        .theme-tag {
+            background: rgba(59,130,246,0.2);
+            color: var(--accent-blue);
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+        .theme-tag.red { background: rgba(239,68,68,0.2); color: var(--accent-red); }
+        .theme-tag.green { background: rgba(16,185,129,0.2); color: var(--accent-green); }
+        .theme-tag.orange { background: rgba(245,158,11,0.2); color: var(--accent-orange); }
+        .theme-tag.purple { background: rgba(139,92,246,0.2); color: var(--accent-purple); }
+
+        /* Market Overview */
+        .market-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            margin-bottom: 16px;
+        }
+        .market-card {
+            background: var(--bg-card);
+            border-radius: 12px;
+            padding: 14px;
+            border: 1px solid var(--border);
+        }
+        .market-label { font-size: 0.7rem; color: var(--text-muted); margin-bottom: 4px; }
+        .market-value { font-size: 1.2rem; font-weight: 700; }
+        .market-change { font-size: 0.8rem; margin-top: 2px; }
+        .up { color: var(--accent-red); }
+        .dn { color: var(--accent-blue); }
+
+        /* Today's Picks */
+        .picks-row { display: flex; flex-direction: column; gap: 10px; margin-bottom: 16px; }
+        .pick-card {
+            background: var(--bg-card);
+            border-radius: 12px;
+            padding: 14px;
+            border: 1px solid var(--border);
+            position: relative;
+            overflow: hidden;
+        }
+        .pick-card.top { border-left: 4px solid var(--accent-orange); }
+        .pick-card.hot { border-left: 4px solid var(--accent-red); }
+        .pick-card.best { border-left: 4px solid var(--accent-purple); }
+        .pick-badge {
+            position: absolute;
+            top: 12px;
+            right: 12px;
+            font-size: 0.65rem;
+            font-weight: 700;
+            padding: 3px 8px;
+            border-radius: 10px;
+        }
+        .pick-badge.top { background: rgba(245,158,11,0.2); color: var(--accent-orange); }
+        .pick-badge.hot { background: rgba(239,68,68,0.2); color: var(--accent-red); }
+        .pick-badge.best { background: rgba(139,92,246,0.2); color: var(--accent-purple); }
+        .pick-name { font-size: 1.05rem; font-weight: 700; margin-bottom: 2px; }
+        .pick-firm { font-size: 0.75rem; color: var(--text-muted); margin-bottom: 8px; }
+        .pick-row { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+        .pick-price { font-size: 0.85rem; font-weight: 600; color: var(--accent-blue); }
+        .pick-opinion {
+            font-size: 0.7rem;
+            background: rgba(16,185,129,0.2);
+            color: var(--accent-green);
+            padding: 2px 8px;
+            border-radius: 8px;
+            font-weight: 700;
+        }
+        .pick-direction {
+            font-size: 0.7rem;
+            padding: 2px 8px;
+            border-radius: 8px;
+            font-weight: 700;
+        }
+        .pick-direction.up { background: rgba(239,68,68,0.2); }
+        .pick-direction.new { background: rgba(139,92,246,0.2); color: var(--accent-purple); }
+        .pick-summary { font-size: 0.8rem; color: var(--text-secondary); margin-top: 8px; line-height: 1.4; }
+
+        /* Stock Cards */
+        .stock-card {
+            background: var(--bg-card);
+            border-radius: 12px;
+            padding: 12px;
+            margin-bottom: 8px;
+            border: 1px solid var(--border);
+        }
+        .stock-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 8px;
+        }
+        .stock-name { font-size: 0.95rem; font-weight: 700; margin-bottom: 2px; }
+        .stock-firm { font-size: 0.7rem; color: var(--text-muted); }
+        .stock-badge {
+            font-size: 0.65rem;
+            font-weight: 700;
+            padding: 3px 8px;
+            border-radius: 8px;
+            white-space: nowrap;
+        }
+        .badge-up { background: rgba(239,68,68,0.2); color: var(--accent-red); }
+        .badge-dn { background: rgba(59,130,246,0.2); color: var(--accent-blue); }
+        .badge-new { background: rgba(139,92,246,0.2); color: var(--accent-purple); }
+        .badge-buy { background: rgba(16,185,129,0.2); color: var(--accent-green); }
+        .price-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 6px;
+            margin-bottom: 8px;
+        }
+        .price-box { background: var(--bg-secondary); border-radius: 8px; padding: 8px 4px; text-align: center; }
+        .price-label { font-size: 0.62rem; color: var(--text-muted); margin-bottom: 2px; }
+        .price-value { font-size: 0.85rem; font-weight: 700; }
+        .price-value.target { color: var(--accent-blue); }
+        .price-value.green { color: var(--accent-green); }
+        .price-value.red { color: var(--accent-red); }
+        .reasoning {
+            background: rgba(59,130,246,0.08);
+            border-radius: 8px;
+            padding: 8px 10px;
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+            line-height: 1.4;
+        }
+
+        /* IB Table */
+        .ib-card {
+            background: var(--bg-card);
+            border-radius: 12px;
+            padding: 14px;
+            margin-bottom: 10px;
+            border: 1px solid var(--border);
+        }
+        .ib-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .ib-name { font-size: 0.9rem; font-weight: 700; }
+        .ib-target {
+            font-size: 0.8rem;
+            font-weight: 700;
+            color: var(--accent-orange);
+        }
+        .ib-opinion {
+            font-size: 0.7rem;
+            padding: 3px 8px;
+            border-radius: 8px;
+            background: rgba(16,185,129,0.2);
+            color: var(--accent-green);
+            font-weight: 700;
+        }
+        .ib-detail { font-size: 0.78rem; color: var(--text-secondary); line-height: 1.5; }
+        .ib-stocks {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+            margin-top: 8px;
+        }
+        .ib-stock-tag {
+            font-size: 0.7rem;
+            padding: 3px 8px;
+            border-radius: 8px;
+            background: rgba(59,130,246,0.15);
+            color: var(--accent-blue);
+        }
+
+        /* Sector Cards */
+        .sector-card {
+            background: var(--bg-card);
+            border-radius: 12px;
+            padding: 14px;
+            margin-bottom: 10px;
+            border: 1px solid var(--border);
+        }
+        .sector-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 8px;
+        }
+        .sector-name { font-size: 0.9rem; font-weight: 700; }
+        .sector-weight {
+            font-size: 0.7rem;
+            padding: 3px 10px;
+            border-radius: 8px;
+            font-weight: 700;
+        }
+        .weight-ow { background: rgba(16,185,129,0.2); color: var(--accent-green); }
+        .weight-n { background: rgba(245,158,11,0.2); color: var(--accent-orange); }
+        .weight-uw { background: rgba(239,68,68,0.2); color: var(--accent-red); }
+        .sector-body { font-size: 0.78rem; color: var(--text-secondary); line-height: 1.5; }
+
+        /* Alert / News items */
+        .news-item {
+            background: var(--bg-card);
+            border-radius: 10px;
+            padding: 12px;
+            margin-bottom: 8px;
+            border-left: 3px solid var(--accent-blue);
+            font-size: 0.82rem;
+            color: var(--text-secondary);
+            line-height: 1.5;
+        }
+        .news-item.alert { border-left-color: var(--accent-red); }
+        .news-item.positive { border-left-color: var(--accent-green); }
+        .news-label {
+            font-size: 0.65rem;
+            font-weight: 700;
+            color: var(--accent-blue);
+            margin-bottom: 4px;
+            text-transform: uppercase;
+        }
+        .news-label.alert { color: var(--accent-red); }
+        .news-label.positive { color: var(--accent-green); }
+        .news-title { font-size: 0.88rem; font-weight: 600; color: var(--text-primary); margin-bottom: 4px; }
+
+        /* Stat badges */
+        .stat-row {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+            margin-bottom: 16px;
+        }
+        .stat-badge {
+            flex: 1;
+            min-width: 80px;
+            background: var(--bg-card);
+            border-radius: 10px;
+            padding: 12px 8px;
+            text-align: center;
+            border: 1px solid var(--border);
+        }
+        .stat-num { font-size: 1.4rem; font-weight: 700; }
+        .stat-lbl { font-size: 0.65rem; color: var(--text-muted); margin-top: 2px; }
+
+        /* Table */
+        table { width: 100%; border-collapse: collapse; font-size: 0.78rem; }
+        th {
+            background: var(--bg-secondary);
+            padding: 8px 6px;
+            text-align: left;
+            color: var(--text-muted);
+            font-weight: 600;
+            border-bottom: 1px solid var(--border);
+        }
+        td {
+            padding: 8px 6px;
+            border-bottom: 1px solid rgba(45,45,61,0.5);
+            color: var(--text-secondary);
+        }
+        tr:last-child td { border-bottom: none; }
+        .tbl-wrap { background: var(--bg-card); border-radius: 12px; overflow: hidden; margin-bottom: 16px; }
+
+        /* Strategy card */
+        .strategy-card {
+            background: var(--bg-card);
+            border-radius: 12px;
+            padding: 16px;
+            margin-bottom: 16px;
+            border-left: 3px solid var(--accent-green);
+        }
+        .strategy-card.warn { border-left-color: var(--accent-red); }
+        .strategy-card h4 { font-size: 0.85rem; color: var(--accent-green); margin-bottom: 10px; }
+        .strategy-card.warn h4 { color: var(--accent-red); }
+        .strategy-list { list-style: none; }
+        .strategy-list li {
+            padding: 7px 0;
+            font-size: 0.82rem;
+            color: var(--text-secondary);
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+        }
+        .strategy-list li:last-child { border-bottom: none; }
+        .strategy-list li::before { content: "✓"; color: var(--accent-green); font-weight: bold; flex-shrink: 0; }
+        .strategy-card.warn .strategy-list li::before { content: "⚠"; color: var(--accent-red); }
+
+        .divider { height: 1px; background: var(--border); margin: 16px 0; }
+        .sub-title { font-size: 0.8rem; font-weight: 700; color: var(--text-muted); margin-bottom: 10px; text-transform: uppercase; letter-spacing: 0.5px; }
+        .highlight { color: var(--accent-orange); font-weight: 700; }
+        .green-text { color: var(--accent-green); font-weight: 600; }
+        .red-text { color: var(--accent-red); font-weight: 600; }
+        .blue-text { color: var(--accent-blue); font-weight: 600; }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <div class="header-title">📊 WiseReport Today</div>
+    <div class="header-date">2026년 3월 11일 (수) | 이란전 여파 반등 국면</div>
+    <div class="header-stats">
+        <div class="header-stat">리포트 <span>95건</span></div>
+        <div class="header-stat">목표가상향 <span>20종목</span></div>
+        <div class="header-stat">목표가하향 <span class="red">4종목</span></div>
+        <div class="header-stat">신규커버 <span>3종목</span></div>
+    </div>
+</div>
+
+<div class="nav-tabs">
+    <div class="nav-tab active" onclick="showSection('summary')">📋 요약</div>
+    <div class="nav-tab" onclick="showSection('picks')">⭐ 오늘의 픽</div>
+    <div class="nav-tab" onclick="showSection('changes')">📈 목표가 변경</div>
+    <div class="nav-tab" onclick="showSection('global')">🌍 글로벌 IB</div>
+    <div class="nav-tab" onclick="showSection('sector')">🏭 섹터별</div>
+    <div class="nav-tab" onclick="showSection('strategy')">💡 전략</div>
+</div>
+
+<!-- ==================== 요약 ==================== -->
+<div id="summary" class="section active">
+    <div class="exec-summary">
+        <h3>⚡ Executive Summary</h3>
+        <p>
+            코스피 <span class="red-text">5,251.87 (-5.96%)</span> — 이란전 충격 후 반등 시도 중, 전일 급등 대비 차익실현 매물 출현.
+            오늘 <strong>삼성전자 자사주 15.6조 소각</strong>, <strong>SK 자사주 4.8조 전량 소각</strong> 발표로 주주환원 신호 강화.
+            외국계 IB(GS·MS·JPM·Macquarie)는 일제히 반도체·방산·조선 <strong class="highlight">Overweight</strong> 유지하며
+            "패닉 매도 = 진입 기회" 뷰 고수.
+        </p>
+        <div class="key-themes">
+            <span class="theme-tag purple">반도체 슈퍼사이클</span>
+            <span class="theme-tag green">주주환원 강화</span>
+            <span class="theme-tag orange">K-방산 수혜</span>
+            <span class="theme-tag">조선 2026 수주</span>
+            <span class="theme-tag red">이란전 지정학 리스크</span>
+            <span class="theme-tag green">밸류업 개혁</span>
+        </div>
+    </div>
+
+    <!-- 시장 현황 -->
+    <div class="section-title">📊 시장 현황</div>
+    <div class="market-grid">
+        <div class="market-card">
+            <div class="market-label">코스피</div>
+            <div class="market-value dn">5,251.87</div>
+            <div class="market-change dn">▼ -5.96%</div>
+        </div>
+        <div class="market-card">
+            <div class="market-label">코스닥</div>
+            <div class="market-value dn">1,102.28</div>
+            <div class="market-change dn">▼ -4.54%</div>
+        </div>
+        <div class="market-card">
+            <div class="market-label">거래대금 (코스피)</div>
+            <div class="market-value" style="font-size:1rem;">33.1조</div>
+            <div class="market-change" style="color:var(--text-muted);">전일 대비 강세 유지</div>
+        </div>
+        <div class="market-card">
+            <div class="market-label">원/달러</div>
+            <div class="market-value" style="font-size:1rem;">~1,465</div>
+            <div class="market-change dn">고점 1,480 저항</div>
+        </div>
+    </div>
+
+    <!-- 주요 이슈 -->
+    <div class="section-title">🔥 오늘의 주요 이슈</div>
+    <div class="news-item positive">
+        <div class="news-label positive">주주환원 빅딜</div>
+        <div class="news-title">삼성전자 자사주 8,696만주 소각 — 약 15.6조원 규모</div>
+        AI 메모리 슈퍼사이클 + 주주환원 강화. IBK투자증권 커버. EPS 희석 효과 제거 → 장기 긍정.
+    </div>
+    <div class="news-item positive">
+        <div class="news-label positive">주주환원 빅딜</div>
+        <div class="news-title">SK 임직원 보상 목적 외 자사주 전량 소각 — 4조 8,343억원</div>
+        DS투자 목표주가 상향 → 630,000원. 지주사 디스카운트 해소 기대.
+    </div>
+    <div class="news-item">
+        <div class="news-label">조선</div>
+        <div class="news-title">HD한국조선·HD현대중공업·삼성중공업·한화오션 — LS증권 일괄 커버</div>
+        2026년 수주·실적 동시 달성 전망. 한화오션 캐나다 잠수함 협약(3/7) 체결.
+    </div>
+    <div class="news-item">
+        <div class="news-label">엔터</div>
+        <div class="news-title">JYP Ent. — 10개 증권사 리포트 동시 발간</div>
+        스트레이키즈 실적 서프라이즈. 키움증권 목표주가 100,000원 BUY.
+    </div>
+    <div class="news-item alert">
+        <div class="news-label alert">지정학 리스크</div>
+        <div class="news-title">이란 전쟁 여파 — 코스피 최근 3주 급등락 반복</div>
+        3/4 역대 최대 단일일 하락(-12.06%) 이후 반등. 트럼프 조기 종결 시사로 완화 기대.
+    </div>
+
+    <div class="divider"></div>
+
+    <!-- 오늘 리포트 통계 -->
+    <div class="section-title">📦 오늘의 리포트 통계</div>
+    <div class="stat-row">
+        <div class="stat-badge">
+            <div class="stat-num" style="color:var(--accent-blue)">95</div>
+            <div class="stat-lbl">총 리포트</div>
+        </div>
+        <div class="stat-badge">
+            <div class="stat-num" style="color:var(--accent-red)">20</div>
+            <div class="stat-lbl">목표가 상향</div>
+        </div>
+        <div class="stat-badge">
+            <div class="stat-num" style="color:var(--accent-blue)">4</div>
+            <div class="stat-lbl">목표가 하향</div>
+        </div>
+        <div class="stat-badge">
+            <div class="stat-num" style="color:var(--accent-purple)">3</div>
+            <div class="stat-lbl">신규 커버리지</div>
+        </div>
+    </div>
+
+    <!-- 섹터 분포 -->
+    <div class="section-title">🏭 섹터별 리포트 분포</div>
+    <div class="tbl-wrap">
+        <table>
+            <tr><th>섹터</th><th>리포트 수</th></tr>
+            <tr><td>IT (반도체·전자)</td><td class="highlight">30</td></tr>
+            <tr><td>산업재 (조선·방산·기계)</td><td class="green-text">18</td></tr>
+            <tr><td>건강관리 (바이오·의료기기)</td><td>13</td></tr>
+            <tr><td>커뮤니케이션서비스 (엔터·게임)</td><td>13</td></tr>
+            <tr><td>경기관련소비재 (자동차·유통)</td><td>9</td></tr>
+            <tr><td>에너지 (정유·발전)</td><td>4</td></tr>
+            <tr><td>유틸리티 (원전·전력)</td><td>4</td></tr>
+            <tr><td>소재 (화학·철강)</td><td>3</td></tr>
+            <tr><td>금융</td><td>1</td></tr>
+        </table>
+    </div>
+</div>
+
+<!-- ==================== 오늘의 픽 ==================== -->
+<div id="picks" class="section">
+    <div class="section-title">⭐ WiseReport Today Picks</div>
+    <div class="picks-row">
+        <div class="pick-card top">
+            <div class="pick-badge top">TODAY TOP</div>
+            <div class="pick-name">JYP Ent.</div>
+            <div class="pick-firm">키움증권 | 임수진·박정현</div>
+            <div class="pick-row">
+                <span class="pick-price">🎯 100,000원</span>
+                <span class="pick-opinion">BUY</span>
+                <span class="pick-direction" style="background:rgba(94,160,60,0.2);color:#6ee7b7">유지</span>
+            </div>
+            <div class="pick-summary">2026년 MD 전략 변화에 주목할 시점 — 스트레이키즈 서프라이즈, 10개 증권사 동시 커버. K-팝 MD 수익화 본격화 기대.</div>
+        </div>
+        <div class="pick-card hot">
+            <div class="pick-badge hot">TODAY HOT</div>
+            <div class="pick-name">아이에스동서</div>
+            <div class="pick-firm">하나증권 | 김승준</div>
+            <div class="pick-row">
+                <span class="pick-price">🎯 50,000원</span>
+                <span class="pick-opinion">BUY</span>
+                <span class="pick-direction new">신규</span>
+            </div>
+            <div class="pick-summary">최소 시총 1.5조원을 기대하는 종목 — 2028년 영업이익 4,534억 추정. 폐기물·건설 복합 성장주. 신규 커버리지 개시.</div>
+        </div>
+        <div class="pick-card best">
+            <div class="pick-badge best">TODAY BEST</div>
+            <div class="pick-name">한전기술</div>
+            <div class="pick-firm">한화투자증권 | 송유림·김예인</div>
+            <div class="pick-row">
+                <span class="pick-price">🎯 210,000원</span>
+                <span class="pick-opinion">BUY</span>
+                <span class="pick-direction up" style="color:var(--accent-red)">▲ 상향</span>
+            </div>
+            <div class="pick-summary">New History, New Record — 원전 해체 11조 블루오션 진입. 파미셀과의 협업(두산향 매출 1,100억) 시너지. 상승여력 최고 수준.</div>
+        </div>
+    </div>
+
+    <div class="divider"></div>
+    <div class="section-title">💎 주목 종목</div>
+
+    <div class="stock-card">
+        <div class="stock-header">
+            <div><div class="stock-name">한중엔시에스</div><div class="stock-firm">유안타증권 / 유화증권</div></div>
+            <span class="stock-badge badge-up">▲ 상향 +54%</span>
+        </div>
+        <div class="price-row">
+            <div class="price-box"><div class="price-label">목표주가</div><div class="price-value target">97,000원</div></div>
+            <div class="price-box"><div class="price-label">상승여력</div><div class="price-value green">+90.6%</div></div>
+            <div class="price-box"><div class="price-label">의견</div><div class="price-value green">BUY</div></div>
+        </div>
+        <div class="reasoning">BESS 수냉식 시스템 최강자. 2026년 북미 ESS 수요 폭증 직접 수혜. 유화증권도 68,000 상향 커버.</div>
+    </div>
+
+    <div class="stock-card">
+        <div class="stock-header">
+            <div><div class="stock-name">에이디테크놀로지</div><div class="stock-firm">교보증권</div></div>
+            <span class="stock-badge badge-up">▲ 상향</span>
+        </div>
+        <div class="price-row">
+            <div class="price-box"><div class="price-label">목표주가</div><div class="price-value target">60,000원</div></div>
+            <div class="price-box"><div class="price-label">섹터</div><div class="price-value" style="color:var(--accent-purple)">비메모리</div></div>
+            <div class="price-box"><div class="price-label">의견</div><div class="price-value green">BUY</div></div>
+        </div>
+        <div class="reasoning">ADP 620 의미 부각. 비메모리 산업 내 성장 잠재력 Top-Tier. 팹리스 설계 역량 글로벌 수준.</div>
+    </div>
+
+    <div class="stock-card">
+        <div class="stock-header">
+            <div><div class="stock-name">덴티움</div><div class="stock-firm">DB금융투자</div></div>
+            <span class="stock-badge badge-up">▲ 상향</span>
+        </div>
+        <div class="price-row">
+            <div class="price-box"><div class="price-label">목표주가</div><div class="price-value target">63,000원</div></div>
+            <div class="price-box"><div class="price-label">EPS효과</div><div class="price-value green">+31.3%</div></div>
+            <div class="price-box"><div class="price-label">의견</div><div class="price-value green">BUY</div></div>
+        </div>
+        <div class="reasoning">자사주 전량 소각 → EPS +31.3% 효과. 주주환원 강화 + 중국 임플란트 시장 회복 기대.</div>
+    </div>
+
+    <div class="stock-card">
+        <div class="stock-header">
+            <div><div class="stock-name">클래시스</div><div class="stock-firm">상상인증권</div></div>
+            <span class="stock-badge badge-up">▲ 상향</span>
+        </div>
+        <div class="price-row">
+            <div class="price-box"><div class="price-label">목표주가</div><div class="price-value target">87,000원</div></div>
+            <div class="price-box"><div class="price-label">성장률</div><div class="price-value green">+33.8%</div></div>
+            <div class="price-box"><div class="price-label">의견</div><div class="price-value green">BUY</div></div>
+        </div>
+        <div class="reasoning">브라질 유통사 인수 + 2026년 연간 33.8% 성장 기대. 미용 의료기기 브라질·동남아 확장.</div>
+    </div>
+
+    <div class="stock-card">
+        <div class="stock-header">
+            <div><div class="stock-name">SK하이닉스</div><div class="stock-firm">다올투자증권</div></div>
+            <span class="stock-badge badge-up">▲ 상향</span>
+        </div>
+        <div class="price-row">
+            <div class="price-box"><div class="price-label">국내목표가</div><div class="price-value target">1,600,000</div></div>
+            <div class="price-box"><div class="price-label">Macquarie</div><div class="price-value green">1,700,000</div></div>
+            <div class="price-box"><div class="price-label">의견</div><div class="price-value green">BUY</div></div>
+        </div>
+        <div class="reasoning">HBM 시장 독보적 1위. CLSA: DRAM ASP +115% 상향. PER 3.6배(2026E) 저평가.</div>
+    </div>
+
+    <div class="stock-card">
+        <div class="stock-header">
+            <div><div class="stock-name">한전KPS</div><div class="stock-firm">삼성증권</div></div>
+            <span class="stock-badge badge-new">신규</span>
+        </div>
+        <div class="price-row">
+            <div class="price-box"><div class="price-label">목표주가</div><div class="price-value target">68,000원</div></div>
+            <div class="price-box"><div class="price-label">섹터</div><div class="price-value" style="color:var(--accent-orange)">원전</div></div>
+            <div class="price-box"><div class="price-label">의견</div><div class="price-value green">BUY</div></div>
+        </div>
+        <div class="reasoning">강화되는 실적 기반. 원전 정비·유지보수 독점 사업자. 원전 확대 정책 수혜.</div>
+    </div>
+
+    <div class="stock-card">
+        <div class="stock-header">
+            <div><div class="stock-name">감성코퍼레이션</div><div class="stock-firm">DS투자증권</div></div>
+            <span class="stock-badge badge-new">신규</span>
+        </div>
+        <div class="price-row">
+            <div class="price-box"><div class="price-label">목표주가</div><div class="price-value target">7,500원</div></div>
+            <div class="price-box"><div class="price-label">중국 매출</div><div class="price-value green">200억↑</div></div>
+            <div class="price-box"><div class="price-label">의견</div><div class="price-value green">BUY</div></div>
+        </div>
+        <div class="reasoning">아직 쓰이지 않은 챕터 — 중국 사업이 핵심 모멘텀. 2026년 중국 초도매출 200억원 전망.</div>
+    </div>
+</div>
+
+<!-- ==================== 목표가 변경 ==================== -->
+<div id="changes" class="section">
+    <div class="section-title">📈 목표주가 상향 Top (20종목)</div>
+    <div class="tbl-wrap">
+        <table>
+            <tr><th>종목</th><th>증권사</th><th>목표주가</th><th>의견</th></tr>
+            <tr><td><strong>한중엔시에스</strong></td><td>유안타/유화</td><td class="red-text">97,000 ▲</td><td class="green-text">BUY</td></tr>
+            <tr><td><strong>에이디테크놀로지</strong></td><td>교보</td><td class="red-text">60,000 ▲</td><td class="green-text">BUY</td></tr>
+            <tr><td><strong>한전기술</strong></td><td>한화</td><td class="red-text">210,000 ▲</td><td class="green-text">BUY</td></tr>
+            <tr><td>SK하이닉스</td><td>다올</td><td class="red-text">1,600,000 ▲</td><td class="green-text">BUY</td></tr>
+            <tr><td>삼성전자</td><td>다올</td><td class="red-text">290,000 ▲</td><td class="green-text">BUY</td></tr>
+            <tr><td>삼성전기</td><td>신한</td><td class="red-text">500,000 ▲</td><td class="green-text">매수</td></tr>
+            <tr><td>덴티움</td><td>DB금융</td><td class="red-text">63,000 ▲</td><td class="green-text">BUY</td></tr>
+            <tr><td>클래시스</td><td>상상인</td><td class="red-text">87,000 ▲</td><td class="green-text">BUY</td></tr>
+            <tr><td>SK</td><td>DS</td><td class="red-text">630,000 ▲</td><td class="green-text">BUY</td></tr>
+            <tr><td>SK이터닉스</td><td>DS</td><td class="red-text">43,000 ▲</td><td class="green-text">BUY</td></tr>
+            <tr><td>두산</td><td>BNK</td><td class="red-text">1,500,000 ▲</td><td class="green-text">매수</td></tr>
+            <tr><td>솔브레인</td><td>신한</td><td class="red-text">554,000 ▲</td><td class="green-text">매수</td></tr>
+            <tr><td>피에스케이홀딩스</td><td>신한</td><td class="red-text">135,000 ▲</td><td class="green-text">매수</td></tr>
+            <tr><td>피에스케이</td><td>신한</td><td class="red-text">94,000 ▲</td><td class="green-text">매수</td></tr>
+            <tr><td>현대제철</td><td>신한</td><td class="red-text">43,000 ▲</td><td class="green-text">매수</td></tr>
+            <tr><td>파미셀</td><td>DS</td><td class="red-text">25,000 ▲</td><td class="green-text">BUY</td></tr>
+            <tr><td>KCC</td><td>NH</td><td class="red-text">680,000 ▲</td><td class="green-text">BUY</td></tr>
+            <tr><td>제노코</td><td>흥국</td><td class="red-text">32,000 ▲</td><td class="green-text">BUY</td></tr>
+            <tr><td>롯데관광개발</td><td>DS</td><td class="red-text">33,000 ▲</td><td class="green-text">BUY</td></tr>
+            <tr><td>삼성생명</td><td>미래에셋</td><td class="red-text">193,000 ▲</td><td style="color:var(--accent-orange)">중립</td></tr>
+        </table>
+    </div>
+
+    <div class="divider"></div>
+    <div class="section-title">📉 목표주가 하향</div>
+    <div class="tbl-wrap">
+        <table>
+            <tr><th>종목</th><th>증권사</th><th>목표주가</th><th>의견</th></tr>
+            <tr><td>삼성전자</td><td>현대차증권</td><td class="blue-text">258,000 ▼</td><td class="green-text">BUY</td></tr>
+            <tr><td>유티아이</td><td>현대차증권</td><td class="blue-text">30,000 ▼</td><td class="green-text">BUY</td></tr>
+            <tr><td>사피엔반도체</td><td>현대차증권</td><td class="blue-text">44,000 ▼</td><td class="green-text">BUY</td></tr>
+            <tr><td>노머스</td><td>DS투자</td><td class="blue-text">28,000 ▼</td><td class="green-text">BUY</td></tr>
+        </table>
+    </div>
+
+    <div class="divider"></div>
+    <div class="section-title">🆕 신규 커버리지</div>
+    <div class="tbl-wrap">
+        <table>
+            <tr><th>종목</th><th>증권사</th><th>목표주가</th><th>포인트</th></tr>
+            <tr><td><strong>한전KPS</strong></td><td>삼성</td><td class="green-text">68,000</td><td>원전 실적 기반 강화</td></tr>
+            <tr><td><strong>아이에스동서</strong></td><td>하나</td><td class="green-text">50,000</td><td>시총 1.5조 기대, 폐기물+건설</td></tr>
+            <tr><td><strong>감성코퍼레이션</strong></td><td>DS투자</td><td class="green-text">7,500</td><td>중국 사업 핵심 모멘텀</td></tr>
+        </table>
+    </div>
+</div>
+
+<!-- ==================== 글로벌 IB ==================== -->
+<div id="global" class="section">
+    <div class="section-title">🌍 글로벌 IB 코스피 전망</div>
+    <div class="tbl-wrap">
+        <table>
+            <tr><th>기관</th><th>코스피 목표</th><th>상향 기준</th><th>한국 의견</th></tr>
+            <tr><td><strong style="color:var(--accent-blue)">Goldman Sachs</strong></td><td class="highlight">7,000pt</td><td>3/7 3번째 상향</td><td class="green-text">Overweight</td></tr>
+            <tr><td><strong>Morgan Stanley</strong></td><td class="highlight">6,500pt</td><td>2/27</td><td class="green-text">Overweight</td></tr>
+            <tr><td><strong>JP Morgan</strong></td><td class="highlight">6,000pt</td><td>낙관 7,500</td><td class="green-text">Overweight</td></tr>
+            <tr><td><strong>Macquarie</strong></td><td class="highlight">6,000pt</td><td>연초</td><td class="green-text">Positive</td></tr>
+        </table>
+    </div>
+
+    <div class="section-title">📋 종목별 외국계 의견</div>
+
+    <div class="ib-card">
+        <div class="ib-header">
+            <span class="ib-name">🔵 삼성전자 (005930)</span>
+            <span class="ib-target">최고 340,000원</span>
+        </div>
+        <div class="ib-detail">
+            전원 Buy/Overweight. Macquarie 340,000 (Top Pick) · CLSA 290,000 · Nomura 290,000 · Citi 280,000 · MS 248,000 · JPM 240,000
+        </div>
+        <div class="ib-stocks">
+            <span class="ib-stock-tag">Macquarie 34만 Top Pick</span>
+            <span class="ib-stock-tag">CLSA DRAM ASP +169%</span>
+            <span class="ib-stock-tag">MS 1조달러 클럽 가능</span>
+            <span class="ib-stock-tag">HBM4 인증 진전</span>
+        </div>
+    </div>
+
+    <div class="ib-card">
+        <div class="ib-header">
+            <span class="ib-name">🔵 SK하이닉스 (000660)</span>
+            <span class="ib-target">최고 1,700,000원</span>
+        </div>
+        <div class="ib-detail">
+            전원 Buy. Macquarie 1,700,000 · Nomura 1,560,000 · CLSA 1,420,000 · JPM 1,250,000
+        </div>
+        <div class="ib-stocks">
+            <span class="ib-stock-tag">HBM 독보적 1위</span>
+            <span class="ib-stock-tag">PER 3.6배 저평가</span>
+            <span class="ib-stock-tag">DRAM ASP +115%</span>
+        </div>
+    </div>
+
+    <div class="ib-card">
+        <div class="ib-header">
+            <span class="ib-name">🔵 기타 주요 종목</span>
+        </div>
+        <div class="tbl-wrap" style="margin:0">
+            <table>
+                <tr><th>종목</th><th>기관</th><th>의견</th><th>포인트</th></tr>
+                <tr><td>현대차/기아</td><td>MS</td><td class="green-text">OW</td><td>K-모빌리티 밸류업</td></tr>
+                <tr><td>한화에어로스페이스</td><td>MS·GS</td><td class="green-text">OW</td><td>K-방산 수요 폭증</td></tr>
+                <tr><td>삼성바이오로직스</td><td>MS</td><td class="green-text">OW</td><td>헬스케어 신규 편입</td></tr>
+                <tr><td>한화오션</td><td>복수</td><td class="green-text">Positive</td><td>캐나다 잠수함</td></tr>
+                <tr><td>LIG넥스원</td><td>복수</td><td class="green-text">Positive</td><td>UAE 청룡II 긴급 수입</td></tr>
+            </table>
+        </div>
+    </div>
+
+    <div class="divider"></div>
+    <div class="section-title">🏦 IB별 핵심 뷰</div>
+
+    <div class="ib-card">
+        <div class="ib-header">
+            <span class="ib-name">Goldman Sachs</span>
+            <span class="ib-opinion">KOSPI 7,000</span>
+        </div>
+        <div class="ib-detail">
+            이익 성장률 +130% (2026). "20% 급락은 과도 조정, 패닉 매도 = 진입 기회". 선행 PER 8.8배 (역사 평균 -0.8σ). 선호 섹터: <strong>반도체·AI·방산·조선·발전·K-컬처</strong>.
+        </div>
+    </div>
+
+    <div class="ib-card">
+        <div class="ib-header">
+            <span class="ib-name">Morgan Stanley</span>
+            <span class="ib-opinion">KOSPI 6,500</span>
+        </div>
+        <div class="ib-detail">
+            AI 메모리 슈퍼사이클 + Value-Up 개혁 + 내수 회복 3박자. "한국은 아시아 sweet spot". OW: <strong>반도체·방산·발전·자동차·헬스케어(신규)</strong>.
+        </div>
+    </div>
+
+    <div class="ib-card">
+        <div class="ib-header">
+            <span class="ib-name">JP Morgan</span>
+            <span class="ib-opinion">KOSPI 6,000</span>
+        </div>
+        <div class="ib-detail">
+            "최근 조정은 건강한 기술적 정리, 반도체 실적 개선 추세 불변." AI 반도체 + 밸류업 수혜주(은행·지주·보험) 집중 권고.
+        </div>
+    </div>
+
+    <div class="ib-card">
+        <div class="ib-header">
+            <span class="ib-name">CLSA (3/9 최신)</span>
+            <span class="ib-opinion">메모리 ASP 대폭 상향</span>
+        </div>
+        <div class="ib-detail">
+            삼성 DRAM ASP +169% (이전 +121%). 하이닉스 DRAM ASP +115% (이전 +87%). Q1 메모리 ASP 상승 45~60% (이전 35~40%).
+        </div>
+    </div>
+
+    <div class="divider"></div>
+    <div class="section-title">🌐 매크로 뷰</div>
+
+    <div class="news-item alert">
+        <div class="news-label alert">유가 전망 (GS)</div>
+        <div class="news-title">Q1 $71.6 · Q2 $76.6 · Q3 $72.0 · Q4 $70.0/bbl</div>
+        호르무즈 봉쇄 6주 지속 시 $85~100 가능. 현재 Brent ~$80대 중반.
+    </div>
+    <div class="news-item">
+        <div class="news-label">환율</div>
+        <div class="news-title">원/달러 1,462~1,480원 구간 등락 — 1,480이 핵심 저항</div>
+        GS: 경상수지 흑자 $255bn(GDP 9.3%) → 중장기 원화 회복 지지. 반도체 수출 +120% 충격 완충.
+    </div>
+</div>
+
+<!-- ==================== 섹터별 ==================== -->
+<div id="sector" class="section">
+    <div class="sector-card">
+        <div class="sector-header">
+            <span class="sector-name">🔵 반도체 / IT</span>
+            <span class="sector-weight weight-ow">Overweight</span>
+        </div>
+        <div class="sector-body">
+            HBM3E 수요 폭증 + AI 서버 투자 확대. 삼성전자·SK하이닉스 전원 Buy. DRAM/NAND 공급부족 + AI 수요 = 슈퍼사이클 진행 중. 오늘 IT 섹터 30건 리포트 (전체 1위).
+        </div>
+        <div class="ib-stocks" style="margin-top:8px">
+            <span class="ib-stock-tag">삼성전자 BUY</span>
+            <span class="ib-stock-tag">SK하이닉스 BUY</span>
+            <span class="ib-stock-tag">삼성전기↑</span>
+            <span class="ib-stock-tag">피에스케이홀딩스↑</span>
+            <span class="ib-stock-tag">에이디테크↑</span>
+        </div>
+    </div>
+
+    <div class="sector-card">
+        <div class="sector-header">
+            <span class="sector-name">⚓ 조선</span>
+            <span class="sector-weight weight-ow">Overweight</span>
+        </div>
+        <div class="sector-body">
+            2026년 수주·실적 동시 달성 전망. LNG 수요 증가 + 중동 물류 재편 + 방산(잠수함) 수주. 한화오션 캐나다 잠수함 협약 체결(3/7). LS증권 조선 4사 일괄 커버.
+        </div>
+        <div class="ib-stocks" style="margin-top:8px">
+            <span class="ib-stock-tag">HD한국조선 510,000</span>
+            <span class="ib-stock-tag">HD현대중공업 760,000</span>
+            <span class="ib-stock-tag">삼성중공업 40,000</span>
+            <span class="ib-stock-tag">한화오션 170,000</span>
+        </div>
+    </div>
+
+    <div class="sector-card">
+        <div class="sector-header">
+            <span class="sector-name">🛡️ 방산</span>
+            <span class="sector-weight weight-ow">Overweight</span>
+        </div>
+        <div class="sector-body">
+            이란 전쟁으로 K-방산 글로벌 검증 완료. KDEF(방산지수) 3개월 +50.75%, 1년 +137.79%. UAE 청룡II 미사일 긴급 수입(3/8). 한전기술 목표가 210,000 상향.
+        </div>
+        <div class="ib-stocks" style="margin-top:8px">
+            <span class="ib-stock-tag">한화에어로스페이스 MS OW</span>
+            <span class="ib-stock-tag">LIG넥스원 Positive</span>
+            <span class="ib-stock-tag">한전기술↑ 210,000</span>
+            <span class="ib-stock-tag">제노코↑ 신규</span>
+        </div>
+    </div>
+
+    <div class="sector-card">
+        <div class="sector-header">
+            <span class="sector-name">⚛️ 원전 / 유틸리티</span>
+            <span class="sector-weight weight-ow">Positive</span>
+        </div>
+        <div class="sector-body">
+            원전 해체 11조 블루오션 진입. 한전KPS 삼성증권 신규 커버(68,000). 파미셀 두산향 매출 1,100억 전망. SK이터닉스 희소성 높은 정책 수혜 기업.
+        </div>
+        <div class="ib-stocks" style="margin-top:8px">
+            <span class="ib-stock-tag">한전KPS 신규 68,000</span>
+            <span class="ib-stock-tag">SK이터닉스↑ 43,000</span>
+            <span class="ib-stock-tag">파미셀↑ 25,000</span>
+        </div>
+    </div>
+
+    <div class="sector-card">
+        <div class="sector-header">
+            <span class="sector-name">🎤 엔터 / 커뮤니케이션</span>
+            <span class="sector-weight weight-n">Neutral</span>
+        </div>
+        <div class="sector-body">
+            JYP Ent. 스트레이키즈 서프라이즈로 10개 증권사 동시 커버. 2026년 MD 전략 변화 주목. 엔씨소프트 JustPlay 인수, 하반기 캐주얼 딜 기대.
+        </div>
+        <div class="ib-stocks" style="margin-top:8px">
+            <span class="ib-stock-tag">JYP Ent. TODAY TOP</span>
+            <span class="ib-stock-tag">엔씨소프트 430,000</span>
+        </div>
+    </div>
+
+    <div class="sector-card">
+        <div class="sector-header">
+            <span class="sector-name">🏥 헬스케어 / 바이오</span>
+            <span class="sector-weight weight-ow">Positive</span>
+        </div>
+        <div class="sector-body">
+            클래시스 33.8% 성장 기대(브라질 확장). 덴티움 자사주 소각 EPS +31.3%. 삼성바이오로직스 MS 신규 편입. 오늘 건강관리 섹터 13건 리포트.
+        </div>
+        <div class="ib-stocks" style="margin-top:8px">
+            <span class="ib-stock-tag">클래시스↑ 87,000</span>
+            <span class="ib-stock-tag">덴티움↑ 63,000</span>
+            <span class="ib-stock-tag">삼성바이오 MS OW</span>
+        </div>
+    </div>
+
+    <div class="sector-card">
+        <div class="sector-header">
+            <span class="sector-name">⛽ 정유 / 화학</span>
+            <span class="sector-weight weight-uw">주의</span>
+        </div>
+        <div class="sector-body">
+            유가 상승으로 원자재 비용 급등. 마진 압박 우려. 단기 재고 이익 가능성 vs. 지속적 고유가 리스크. 항공 섹터도 노선 우회 비용 급증.
+        </div>
+    </div>
+</div>
+
+<!-- ==================== 전략 ==================== -->
+<div id="strategy" class="section">
+    <div class="exec-summary">
+        <h3>📍 오늘의 시장 전략 요약</h3>
+        <p>
+            코스피 이란전 충격(-12%) 이후 반등 국면. 외국계 IB 전원 한국 Overweight 유지.
+            삼성전자·SK 자사주 소각 발표로 <strong>주주환원 랠리</strong> 기대.
+            반도체 슈퍼사이클 + 밸류업 개혁 + 지정학 완화 = 삼박자 회복 구도.
+        </p>
+        <div class="key-themes">
+            <span class="theme-tag green">적극 매수: 반도체</span>
+            <span class="theme-tag green">비중 확대: 방산·조선</span>
+            <span class="theme-tag orange">관망: 정유·화학</span>
+            <span class="theme-tag red">주의: 항공</span>
+        </div>
+    </div>
+
+    <div class="strategy-card">
+        <h4>🎯 단기 전략 (1~2주)</h4>
+        <ul class="strategy-list">
+            <li>삼성전자·SK하이닉스: 이란전 저점 매수 기회 — 자사주 소각 + HBM 수요 지속</li>
+            <li>한중엔시에스: 목표가 +54% 상향 — BESS 수냉식 북미 수혜 본격화</li>
+            <li>한전기술: 원전 해체 11조 신규 시장 진입 — 목표가 210,000 상향</li>
+            <li>에이디테크놀로지: 비메모리 Top-Tier — ADP 620 의미 부각 진입</li>
+            <li>SK: 4.8조 자사주 소각 발표 — 지주사 디스카운트 해소 기대</li>
+        </ul>
+    </div>
+
+    <div class="strategy-card">
+        <h4>📅 중기 전략 (1~3개월)</h4>
+        <ul class="strategy-list">
+            <li>반도체 슈퍼사이클: CLSA DRAM ASP +169% 상향 — 메모리 가격 상승 지속</li>
+            <li>K-방산 글로벌화: KDEF 1년 +137% — 방산 수출 확대 모멘텀 이어짐</li>
+            <li>조선 수주 모멘텀: LNG + 방산 잠수함 복합 수주 사이클</li>
+            <li>밸류업 수혜주: 은행·보험·지주사 — JP Morgan 집중 권고</li>
+            <li>헬스케어 확장: 클래시스 브라질·덴티움 중국 회복 병행 전략</li>
+        </ul>
+    </div>
+
+    <div class="strategy-card warn">
+        <h4>⚠️ 리스크 요인</h4>
+        <ul class="strategy-list">
+            <li>호르무즈 장기 봉쇄 시 유가 $100+ → 인플레 재점화 가능성</li>
+            <li>반도체 집중도: KOSPI 상승의 40%가 삼성+하이닉스 의존 (쏠림 리스크)</li>
+            <li>원/달러 1,480 저항 돌파 시 외국인 이탈 가중 가능성</li>
+            <li>이란전 재격화 시 글로벌 공급망 재차 충격 우려</li>
+        </ul>
+    </div>
+
+    <div class="divider"></div>
+    <div class="section-title">💰 주요 밸류에이션</div>
+    <div class="tbl-wrap">
+        <table>
+            <tr><th>지표</th><th>수치</th><th>평가</th></tr>
+            <tr><td>코스피 선행 PER</td><td class="green-text">8.8배</td><td>역사 평균 -0.8σ (저평가)</td></tr>
+            <tr><td>코스피 목표 (GS)</td><td class="highlight">7,000pt</td><td>현재 대비 +33% 잠재</td></tr>
+            <tr><td>SK하이닉스 PER</td><td class="green-text">3.6배</td><td>글로벌 메모리 최저 수준</td></tr>
+            <tr><td>한국 경상흑자</td><td class="green-text">$255bn</td><td>GDP 9.3% — 원화 지지</td></tr>
+            <tr><td>3/1~10 수출</td><td class="highlight">역대 최고</td><td>반도체 주도 증가</td></tr>
+            <tr><td>예탁금</td><td class="green-text">10년 최고</td><td>국내 대기 매수세 풍부</td></tr>
+        </table>
+    </div>
+</div>
+
+<script>
+function showSection(id) {
+    document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+    document.querySelectorAll('.nav-tab').forEach(t => t.classList.remove('active'));
+    document.getElementById(id).classList.add('active');
+    event.target.classList.add('active');
+}
+</script>
+</body>
+</html>

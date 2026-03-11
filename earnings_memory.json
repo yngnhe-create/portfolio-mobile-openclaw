@@ -1,0 +1,42 @@
+{
+  "tracked_companies": [
+    "NVDA",
+    "MSFT",
+    "GOOGL",
+    "META",
+    "AMZN",
+    "TSLA",
+    "AMD",
+    "AAPL",
+    "NFLX",
+    "CRM",
+    "ORCL"
+  ],
+  "last_suggestions": [
+    "NVDA",
+    "MSFT",
+    "GOOGL",
+    "META",
+    "AMZN",
+    "TSLA",
+    "AMD",
+    "AAPL",
+    "NFLX",
+    "CRM"
+  ],
+  "scheduled_jobs": [],
+  "user_preferences": {
+    "focus_areas": [
+      "AI",
+      "cloud",
+      "datacenter",
+      "semiconductors"
+    ],
+    "metrics_priority": [
+      "revenue",
+      "EPS",
+      "guidance",
+      "AI revenue"
+    ]
+  }
+}

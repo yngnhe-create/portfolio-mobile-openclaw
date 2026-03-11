@@ -1,0 +1,619 @@
+{
+  "updated": "2026-03-02 14:40 KST",
+  "total": 1094584351,
+  "count": 57,
+  "cats": [
+    {
+      "name": "\ucca8\ub2e8 \uae30\uc220",
+      "value": 260942272,
+      "pct": 23.84
+    },
+    {
+      "name": "ETF",
+      "value": 119877582,
+      "pct": 10.95
+    },
+    {
+      "name": "\uac00\uc0c1\uc790\uc0b0",
+      "value": 113467004,
+      "pct": 10.37
+    },
+    {
+      "name": "\ubd80\ub3d9\uc0b0",
+      "value": 73584990,
+      "pct": 6.72
+    },
+    {
+      "name": "\uacbd\uae30 \uc18c\ube44\uc7ac",
+      "value": 72485621,
+      "pct": 6.62
+    },
+    {
+      "name": "\ucc44\uad8c",
+      "value": 56981095,
+      "pct": 5.21
+    },
+    {
+      "name": "\ud5ec\uc2a4\ucf00\uc5b4",
+      "value": 52206155,
+      "pct": 4.77
+    },
+    {
+      "name": "\uae08\uc735",
+      "value": 38340000,
+      "pct": 3.5
+    },
+    {
+      "name": "IT",
+      "value": 15277236,
+      "pct": 1.4
+    },
+    {
+      "name": "\ud604\uae08",
+      "value": 5078735,
+      "pct": 0.46
+    },
+    {
+      "name": "\uc0b0\uc5c5\uc7ac",
+      "value": 3866558,
+      "pct": 0.35
+    },
+    {
+      "name": "\uc720\ud2f8\ub9ac\ud2f0",
+      "value": 896000,
+      "pct": 0.08
+    },
+    {
+      "name": "\uc18c\uc7ac",
+      "value": 142000,
+      "pct": 0.01
+    },
+    {
+      "name": "\uae30\ud0c0",
+      "value": 19316,
+      "pct": 0.0
+    }
+  ],
+  "subs": [
+    {
+      "name": "\ubc18\ub3c4\uccb4",
+      "value": 65235568,
+      "pct": 5.96
+    },
+    {
+      "name": "AI \uc804\ub825",
+      "value": 65235568,
+      "pct": 5.96
+    },
+    {
+      "name": "\uc18c\ud504\ud2b8\uc6e8\uc5b4",
+      "value": 65235568,
+      "pct": 5.96
+    },
+    {
+      "name": "\uc0ac\uc774\ubc84\ubcf4\uc548",
+      "value": 65235568,
+      "pct": 5.96
+    },
+    {
+      "name": "\uace0\ubc30\ub2f9",
+      "value": 59938791,
+      "pct": 5.48
+    },
+    {
+      "name": "\ucc44\uad8c/\uad6d\ucc44",
+      "value": 59938791,
+      "pct": 5.48
+    },
+    {
+      "name": "\ub514\uc9c0\ud138/\uc554\ud638\ud654\uc790\uc0b0",
+      "value": 113467004,
+      "pct": 10.37
+    },
+    {
+      "name": "\ub9ac\uce20",
+      "value": 73584990,
+      "pct": 6.72
+    },
+    {
+      "name": "\uc790\ub3d9\ucc28",
+      "value": 24161873,
+      "pct": 2.21
+    },
+    {
+      "name": "\uac00\uc804",
+      "value": 24161873,
+      "pct": 2.21
+    },
+    {
+      "name": "\uc790\uc728\uc8fc\ud589/EV",
+      "value": 24161873,
+      "pct": 2.21
+    },
+    {
+      "name": "\ud5ec\uc2a4\ucf00\uc5b4/\uc758\ub8cc",
+      "value": 52206155,
+      "pct": 4.77
+    },
+    {
+      "name": "\uc0b0\uc5c5\uc7ac/\uc9c0\uc8fc\uc0ac",
+      "value": 38340000,
+      "pct": 3.5
+    },
+    {
+      "name": "\uc778\ud130\ub137/\ud50c\ub7ab\ud3fc",
+      "value": 15277236,
+      "pct": 1.4
+    },
+    {
+      "name": "\uc608\uc218\uae08",
+      "value": 5078735,
+      "pct": 0.46
+    },
+    {
+      "name": "\uac74\uc124/\uc5d4\uc9c0\ub2c8\uc5b4\ub9c1",
+      "value": 1933279,
+      "pct": 0.18
+    },
+    {
+      "name": "\uc0b0\uc5c5\uc7ac/\uc9c0\uc8fc\uc0ac",
+      "value": 1933279,
+      "pct": 0.18
+    },
+    {
+      "name": "\uc5d0\ub108\uc9c0",
+      "value": 896000,
+      "pct": 0.08
+    },
+    {
+      "name": "\uc5d0\ub108\uc9c0",
+      "value": 19316,
+      "pct": 0.0
+    }
+  ],
+  "items": [
+    {
+      "asset": "\uc0bc\uc131\uc804\uc790",
+      "buy": "\u20a967,303",
+      "now": "\u20a9216,500",
+      "pnlAmt": 77433243,
+      "pnlPct": 221.68
+    },
+    {
+      "asset": "\ud604\ub300\ucc283\uc6b0B",
+      "buy": "\u20a980,667",
+      "now": "\u20a9306,500",
+      "pnlAmt": 23478532,
+      "pnlPct": 291.03
+    },
+    {
+      "asset": "\uc0bc\uc131\uc804\uc790\uc6b0",
+      "buy": "\u20a946,051",
+      "now": "\u20a9143,800",
+      "pnlAmt": 21211533,
+      "pnlPct": 212.26
+    },
+    {
+      "asset": "TIGER \ubbf8\uad6d\ud14c\ud06cTOP10 INDXX",
+      "buy": "\u20a920,918",
+      "now": "\u20a940,650",
+      "pnlAmt": 20718600,
+      "pnlPct": 94.33
+    },
+    {
+      "asset": "\ub450\uc0b0",
+      "buy": "\u20a9846,067",
+      "now": "\u20a91,278,000",
+      "pnlAmt": 12957990,
+      "pnlPct": 51.05
+    },
+    {
+      "asset": "TIGER \ucf54\ub9ac\uc544AI\uc804\ub825\uae30\uae30TOP3+",
+      "buy": "\u20a912,823",
+      "now": "\u20a915,900",
+      "pnlAmt": 12680317,
+      "pnlPct": 24.0
+    },
+    {
+      "asset": "SOL \ubbf8\uad6dAI\uc804\ub825\uc778\ud504\ub77c",
+      "buy": "\u20a913,285",
+      "now": "$83.58",
+      "pnlAmt": 12398855,
+      "pnlPct": 53.03
+    },
+    {
+      "asset": "\ud604\ub300\ucc28\uc6b0",
+      "buy": "\u20a9100,201",
+      "now": "\u20a9323,500",
+      "pnlAmt": 11164950,
+      "pnlPct": 222.85
+    },
+    {
+      "asset": "BTC/KRW",
+      "buy": "\u20a982,000,000",
+      "now": "\u20a965,758",
+      "pnlAmt": 10564468,
+      "pnlPct": 18.46
+    },
+    {
+      "asset": "TIME \uae00\ub85c\ubc8c\uc6b0\uc8fc\ud14c\ud06c&\ubc29\uc0b0",
+      "buy": "\u20a914,274",
+      "now": "\u20a921,645",
+      "pnlAmt": 4916494,
+      "pnlPct": 51.64
+    },
+    {
+      "asset": "\ub124\uc774\ubc84",
+      "buy": "\u20a9187,200",
+      "now": "\u20a9254,500",
+      "pnlAmt": 4038000,
+      "pnlPct": 35.95
+    },
+    {
+      "asset": "ESR\ucf04\ub2ec\uc2a4\ud018\uc5b4\ub9ac\uce20",
+      "buy": "\u20a93,762",
+      "now": "\u20a94,445",
+      "pnlAmt": 3812089,
+      "pnlPct": 18.15
+    },
+    {
+      "asset": "SK\ub9ac\uce20",
+      "buy": "\u20a94,002",
+      "now": "\u20a95,610",
+      "pnlAmt": 3216005,
+      "pnlPct": 40.18
+    },
+    {
+      "asset": "TIGER \ucf54\uc2a4\ud53c\uace0\ubc30\ub2f9",
+      "buy": "\u20a914,980",
+      "now": "\u20a927,085",
+      "pnlAmt": 2457255,
+      "pnlPct": 80.8
+    },
+    {
+      "asset": "KODEX \ubbf8\uad6dS&P500\ud5ec\uc2a4\ucf00\uc5b4",
+      "buy": "\u20a910,155",
+      "now": "\u20a913,610",
+      "pnlAmt": 2073000,
+      "pnlPct": 34.02
+    },
+    {
+      "asset": "KODEX \ubbf8\uad6d30\ub144\uad6d\ucc44\uc561\ud2f0\ube0c(H)",
+      "buy": "\u20a98,093",
+      "now": "\u20a98,980",
+      "pnlAmt": 1916807,
+      "pnlPct": 10.96
+    },
+    {
+      "asset": "ACE \uad6c\uae00\ubc38\ub958\uccb4\uc778\uc561\ud2f0\ube0c",
+      "buy": "\u20a914,981",
+      "now": "\u20a916,560",
+      "pnlAmt": 1407086,
+      "pnlPct": 10.54
+    },
+    {
+      "asset": "LG\uc5d0\ub108\uc9c0\uc194\ub8e8\uc158",
+      "buy": "\u20a9404,000",
+      "now": "\u20a9427,000",
+      "pnlAmt": 1288000,
+      "pnlPct": 5.69
+    },
+    {
+      "asset": "\uc774\uc9c0\uc2a4\ubc38\ub958\ud50c\ub7ec\uc2a4\ub9ac\uce20",
+      "buy": "\u20a94,335",
+      "now": "\u20a94,850",
+      "pnlAmt": 1183470,
+      "pnlPct": 11.88
+    },
+    {
+      "asset": "TIGER \ud14c\uc2ac\ub77c\ucc44\uad8c\ud63c\ud569Fn",
+      "buy": "\u20a913,800",
+      "now": "\u20a914,665",
+      "pnlAmt": 1058760,
+      "pnlPct": 6.27
+    },
+    {
+      "asset": "\uc2e0\ud55c\uc11c\ubd80\ud2f0\uc5d4\ub514\ub9ac\uce20",
+      "buy": "\u20a93,747",
+      "now": "\u20a94,075",
+      "pnlAmt": 810717,
+      "pnlPct": 8.77
+    },
+    {
+      "asset": "TIGER \uae00\ub85c\ubc8c\uba40\ud2f0\uc5d0\uc14bTIF",
+      "buy": "\u20a99,639",
+      "now": "\u20a912,320",
+      "pnlAmt": 648689,
+      "pnlPct": 27.81
+    },
+    {
+      "asset": "KODEX TRF3070",
+      "buy": "\u20a912,340",
+      "now": "\u20a914,315",
+      "pnlAmt": 481805,
+      "pnlPct": 16.0
+    },
+    {
+      "asset": "\uc0bc\uc131SDI",
+      "buy": "\u20a9204,417",
+      "now": "\u20a9466,000",
+      "pnlAmt": 261583,
+      "pnlPct": 127.97
+    },
+    {
+      "asset": "TIGER \ubbf8\uad6d\ucd08\ub2e8\uae30\uad6d\ucc44",
+      "buy": "\u20a99,654",
+      "now": "\u20a910,010",
+      "pnlAmt": 165184,
+      "pnlPct": 3.69
+    },
+    {
+      "asset": "\uc138\uc544\ubca0\uc2a4\ud2f8\uc9c0\uc8fc",
+      "buy": "\u20a925,654",
+      "now": "\u20a9142,000",
+      "pnlAmt": 116346,
+      "pnlPct": 453.52
+    },
+    {
+      "asset": "HANARO \uae00\ub85c\ubc8c\uae08\ucc44\uad74\uae30\uc5c5",
+      "buy": "\u20a913,280",
+      "now": "\u20a937,425",
+      "pnlAmt": 96578,
+      "pnlPct": 181.81
+    },
+    {
+      "asset": "\uc0e4\uc624\ubbf8",
+      "buy": "$10.66",
+      "now": "$33.22",
+      "pnlAmt": 24240,
+      "pnlPct": 227.39
+    },
+    {
+      "asset": "INTC",
+      "buy": "$35.1",
+      "now": "$45.61",
+      "pnlAmt": 5276,
+      "pnlPct": 29.94
+    },
+    {
+      "asset": "AMD",
+      "buy": "$113.58",
+      "now": "$200.21",
+      "pnlAmt": 4071,
+      "pnlPct": 76.27
+    },
+    {
+      "asset": "ARTY",
+      "buy": "$45.01",
+      "now": "$51.79",
+      "pnlAmt": 3347,
+      "pnlPct": 12.39
+    },
+    {
+      "asset": "GRID ETF",
+      "buy": "$147.35",
+      "now": "$178.49",
+      "pnlAmt": 3114,
+      "pnlPct": 21.13
+    },
+    {
+      "asset": "NVDA",
+      "buy": "$141.9",
+      "now": "$177.19",
+      "pnlAmt": 2576,
+      "pnlPct": 24.87
+    },
+    {
+      "asset": "LLY",
+      "buy": "$453.16",
+      "now": "$1051.99",
+      "pnlAmt": 1796,
+      "pnlPct": 132.15
+    },
+    {
+      "asset": "AMZN",
+      "buy": "$127.13",
+      "now": "$210.00",
+      "pnlAmt": 1657,
+      "pnlPct": 65.19
+    },
+    {
+      "asset": "HSAI",
+      "buy": "$23.98",
+      "now": "$26.95",
+      "pnlAmt": 1425,
+      "pnlPct": 12.39
+    },
+    {
+      "asset": "NLR",
+      "buy": "$139.67",
+      "now": "$149.74",
+      "pnlAmt": 1299,
+      "pnlPct": 7.21
+    },
+    {
+      "asset": "TIGER \ubbf8\uad6d\ub2ec\ub7ec\ub2e8\uae30\ucc44\uad8c",
+      "buy": "\u20a913,415",
+      "now": "\u20a913,420",
+      "pnlAmt": 1169,
+      "pnlPct": 0.04
+    },
+    {
+      "asset": "MSFT",
+      "buy": "$331.83",
+      "now": "$392.74",
+      "pnlAmt": 304,
+      "pnlPct": 18.36
+    },
+    {
+      "asset": "RTX",
+      "buy": "$74.51",
+      "now": "$202.62",
+      "pnlAmt": 128,
+      "pnlPct": 171.94
+    },
+    {
+      "asset": "GOOGL",
+      "buy": "$298.68",
+      "now": "$311.76",
+      "pnlAmt": 39,
+      "pnlPct": 4.38
+    },
+    {
+      "asset": "TSLA",
+      "buy": "$401.96",
+      "now": "$402.51",
+      "pnlAmt": 14,
+      "pnlPct": 0.14
+    },
+    {
+      "asset": "TIGER \uae00\ub85c\ubc8cAI\uc561\ud2f0\ube0c",
+      "buy": "\u20a923,030",
+      "now": "\u20a923,030",
+      "pnlAmt": 0,
+      "pnlPct": 0.0
+    },
+    {
+      "asset": "USD \ud604\uae08",
+      "buy": "-",
+      "now": "-",
+      "pnlAmt": 0,
+      "pnlPct": 0.0
+    },
+    {
+      "asset": "\ubbf8\ub798\uc5d0\uc14b\ud604\uae08\uc131\uc790\uc0b0",
+      "buy": "-",
+      "now": "-",
+      "pnlAmt": 0,
+      "pnlPct": 0.0
+    },
+    {
+      "asset": "KRW \ud604\uae08",
+      "buy": "-",
+      "now": "-",
+      "pnlAmt": 0,
+      "pnlPct": 0.0
+    },
+    {
+      "asset": "PLTR",
+      "buy": "$170.58",
+      "now": "$137.19",
+      "pnlAmt": -33,
+      "pnlPct": -19.57
+    },
+    {
+      "asset": "TIGER \uae00\ub85c\ubc8cAI\uc0ac\uc774\ubc84\ubcf4\uc548",
+      "buy": "\u20a913,938",
+      "now": "\u20a912,060",
+      "pnlAmt": -242236,
+      "pnlPct": -13.47
+    },
+    {
+      "asset": "KODEX \ubbf8\uad6d30\ub144\uad6d\ucc44\uc6b8\ud2b8\ub77c(H)",
+      "buy": "\u20a98,408",
+      "now": "\u20a97,730",
+      "pnlAmt": -915315,
+      "pnlPct": -8.06
+    },
+    {
+      "asset": "\ud604\ub300\uac74\uc124",
+      "buy": "\u20a956,946",
+      "now": "\u20a916,000",
+      "pnlAmt": -2292976,
+      "pnlPct": -71.9
+    },
+    {
+      "asset": "\ucf54\ub78c\ucf54\ub77c\uc774\ud504\uc778\ud504\ub77c\ub9ac\uce20",
+      "buy": "\u20a95,316",
+      "now": "\u20a94,580",
+      "pnlAmt": -2629620,
+      "pnlPct": -13.8
+    },
+    {
+      "asset": "ETH/KRW",
+      "buy": "\u20a93,368,000",
+      "now": "\u20a91,939",
+      "pnlAmt": -4149662,
+      "pnlPct": -15.4
+    },
+    {
+      "asset": "LINK/USD",
+      "buy": "$12.89",
+      "now": "$8.67",
+      "pnlAmt": -4535249,
+      "pnlPct": -31.39
+    },
+    {
+      "asset": "\uc5d8\uc624\ud2f0\ubca0\ud060",
+      "buy": "\u20a916,380",
+      "now": "\u20a95,260",
+      "pnlAmt": -5693440,
+      "pnlPct": -67.89
+    },
+    {
+      "asset": "\ud30c\ub9c8\ub9ac\uc11c\uce58",
+      "buy": "\u20a9401,408",
+      "now": "\u20a9349,500",
+      "pnlAmt": -6540408,
+      "pnlPct": -12.93
+    },
+    {
+      "asset": "SOL/KRW",
+      "buy": "\u20a9187,860",
+      "now": "\u20a984",
+      "pnlAmt": -6946733,
+      "pnlPct": -34.89
+    },
+    {
+      "asset": "DL\uc774\uc564\uc528\uc6b0",
+      "buy": "\u20a919,570",
+      "now": "\u20a9973",
+      "pnlAmt": -22427982,
+      "pnlPct": -95.03
+    }
+  ],
+  "risk": {
+    "hhi": 949.2,
+    "top5": 58.5,
+    "top10": 73.84,
+    "volAnn": 0.0,
+    "var95": 11.13,
+    "mdd": 0.0
+  },
+  "alerts": [
+    "\uc190\uc2e4 \uacbd\uace0: \ud604\ub300\uac74\uc124 -71.9%",
+    "\uc190\uc2e4 \uacbd\uace0: LINK/USD -31.4%",
+    "\uc190\uc2e4 \uacbd\uace0: \uc5d8\uc624\ud2f0\ubca0\ud060 -67.9%",
+    "\uc190\uc2e4 \uacbd\uace0: SOL/KRW -34.9%",
+    "\uc190\uc2e4 \uacbd\uace0: DL\uc774\uc564\uc528\uc6b0 -95.0%"
+  ],
+  "actions": [
+    "\ud83d\udcb0 \uc0bc\uc131\uc804\uc790 \uc218\uc775 222% \ub2ec\uc131. 10~20% \ubd84\ud560 \uc775\uc808 \uac80\ud1a0",
+    "\ud83d\udcb0 \ud604\ub300\ucc283\uc6b0B \uc218\uc775 291% \ub2ec\uc131. 10~20% \ubd84\ud560 \uc775\uc808 \uac80\ud1a0",
+    "\ud83d\udcb0 \uc0bc\uc131\uc804\uc790\uc6b0 \uc218\uc775 212% \ub2ec\uc131. 10~20% \ubd84\ud560 \uc775\uc808 \uac80\ud1a0",
+    "\ud83d\udcb0 TIGER \ubbf8\uad6d\ud14c\ud06cTOP10 INDXX \uc218\uc775 94% \ub2ec\uc131. 10~20% \ubd84\ud560 \uc775\uc808 \uac80\ud1a0",
+    "\ud83d\udcb0 \ub450\uc0b0 \uc218\uc775 51% \ub2ec\uc131. 10~20% \ubd84\ud560 \uc775\uc808 \uac80\ud1a0",
+    "\ud83d\udcb0 SOL \ubbf8\uad6dAI\uc804\ub825\uc778\ud504\ub77c \uc218\uc775 53% \ub2ec\uc131. 10~20% \ubd84\ud560 \uc775\uc808 \uac80\ud1a0",
+    "\ud83d\udcb0 \ud604\ub300\ucc28\uc6b0 \uc218\uc775 223% \ub2ec\uc131. 10~20% \ubd84\ud560 \uc775\uc808 \uac80\ud1a0",
+    "\ud83d\udcb0 TIME \uae00\ub85c\ubc8c\uc6b0\uc8fc\ud14c\ud06c&\ubc29\uc0b0 \uc218\uc775 52% \ub2ec\uc131. 10~20% \ubd84\ud560 \uc775\uc808 \uac80\ud1a0",
+    "\ud83d\udcb0 \ub124\uc774\ubc84 \uc218\uc775 36% \ub2ec\uc131. 10~20% \ubd84\ud560 \uc775\uc808 \uac80\ud1a0",
+    "\ud83d\udcb0 SK\ub9ac\uce20 \uc218\uc775 40% \ub2ec\uc131. 10~20% \ubd84\ud560 \uc775\uc808 \uac80\ud1a0",
+    "\ud83d\udcb0 TIGER \ucf54\uc2a4\ud53c\uace0\ubc30\ub2f9 \uc218\uc775 81% \ub2ec\uc131. 10~20% \ubd84\ud560 \uc775\uc808 \uac80\ud1a0",
+    "\ud83d\udcb0 KODEX \ubbf8\uad6dS&P500\ud5ec\uc2a4\ucf00\uc5b4 \uc218\uc775 34% \ub2ec\uc131. 10~20% \ubd84\ud560 \uc775\uc808 \uac80\ud1a0",
+    "\ud83d\udcb0 \uc0bc\uc131SDI \uc218\uc775 128% \ub2ec\uc131. 10~20% \ubd84\ud560 \uc775\uc808 \uac80\ud1a0",
+    "\ud83d\udcb0 \uc138\uc544\ubca0\uc2a4\ud2f8\uc9c0\uc8fc \uc218\uc775 454% \ub2ec\uc131. 10~20% \ubd84\ud560 \uc775\uc808 \uac80\ud1a0",
+    "\ud83d\udcb0 HANARO \uae00\ub85c\ubc8c\uae08\ucc44\uad74\uae30\uc5c5 \uc218\uc775 182% \ub2ec\uc131. 10~20% \ubd84\ud560 \uc775\uc808 \uac80\ud1a0",
+    "\ud83d\udcb0 \uc0e4\uc624\ubbf8 \uc218\uc775 227% \ub2ec\uc131. 10~20% \ubd84\ud560 \uc775\uc808 \uac80\ud1a0",
+    "\ud83d\udcb0 AMD \uc218\uc775 76% \ub2ec\uc131. 10~20% \ubd84\ud560 \uc775\uc808 \uac80\ud1a0",
+    "\ud83d\udcb0 LLY \uc218\uc775 132% \ub2ec\uc131. 10~20% \ubd84\ud560 \uc775\uc808 \uac80\ud1a0",
+    "\ud83d\udcb0 AMZN \uc218\uc775 65% \ub2ec\uc131. 10~20% \ubd84\ud560 \uc775\uc808 \uac80\ud1a0",
+    "\ud83d\udcb0 RTX \uc218\uc775 172% \ub2ec\uc131. 10~20% \ubd84\ud560 \uc775\uc808 \uac80\ud1a0",
+    "\ud83d\udd38 PLTR \uc190\uc2e4 -20% \uc811\uadfc. \uad00\ucc30 \ud544\uc694",
+    "\u26a0\ufe0f \ud604\ub300\uac74\uc124 \uc190\uc2e4 -72% \ub3c4\ub2ec. \uc190\uc808 \ub610\ub294 \ubd84\ud560 \ucd95\uc18c \uac80\ud1a0",
+    "\ud83d\udd38 ETH/KRW \uc190\uc2e4 -15% \uc811\uadfc. \uad00\ucc30 \ud544\uc694",
+    "\u26a0\ufe0f LINK/USD \uc190\uc2e4 -31% \ub3c4\ub2ec. \uc190\uc808 \ub610\ub294 \ubd84\ud560 \ucd95\uc18c \uac80\ud1a0",
+    "\u26a0\ufe0f \uc5d8\uc624\ud2f0\ubca0\ud060 \uc190\uc2e4 -68% \ub3c4\ub2ec. \uc190\uc808 \ub610\ub294 \ubd84\ud560 \ucd95\uc18c \uac80\ud1a0",
+    "\u26a0\ufe0f SOL/KRW \uc190\uc2e4 -35% \ub3c4\ub2ec. \uc190\uc808 \ub610\ub294 \ubd84\ud560 \ucd95\uc18c \uac80\ud1a0",
+    "\u26a0\ufe0f DL\uc774\uc564\uc528\uc6b0 \uc190\uc2e4 -95% \ub3c4\ub2ec. \uc190\uc808 \ub610\ub294 \ubd84\ud560 \ucd95\uc18c \uac80\ud1a0"
+  ]
+}

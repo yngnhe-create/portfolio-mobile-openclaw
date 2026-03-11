@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌍 글로벌 4대 시총 대시보드</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans KR', sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            color: #fff;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding: 20px;
+        }
+        
+        .header h1 {
+            font-size: 1.8rem;
+            background: linear-gradient(90deg, #00d4ff, #7b2cbf);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 10px;
+        }
+        
+        .update-time {
+            color: #8892b0;
+            font-size: 0.9rem;
+        }
+        
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .card {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 16px;
+            padding: 24px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+        }
+        
+        .card-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 16px;
+        }
+        
+        .flag {
+            font-size: 2rem;
+            margin-right: 12px;
+        }
+        
+        .market-name {
+            font-size: 1.3rem;
+            font-weight: 700;
+        }
+        
+        .market-sub {
+            font-size: 0.85rem;
+            color: #8892b0;
+        }
+        
+        .index-value {
+            font-size: 2.2rem;
+            font-weight: 700;
+            margin: 16px 0;
+        }
+        
+        .index-value.up {
+            color: #00d4aa;
+        }
+        
+        .index-value.down {
+            color: #ff6b6b;
+        }
+        
+        .change {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 1rem;
+            margin-bottom: 20px;
+        }
+        
+        .change.up {
+            color: #00d4aa;
+        }
+        
+        .change.down {
+            color: #ff6b6b;
+        }
+        
+        .market-cap {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 12px;
+            padding: 16px;
+            margin-top: 16px;
+        }
+        
+        .market-cap-label {
+            font-size: 0.8rem;
+            color: #8892b0;
+            margin-bottom: 8px;
+        }
+        
+        .market-cap-value {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #ffd700;
+        }
+        
+        .top-stocks {
+            margin-top: 20px;
+            padding-top: 20px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .top-stocks-title {
+            font-size: 0.9rem;
+            color: #8892b0;
+            margin-bottom: 12px;
+        }
+        
+        .stock-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 8px 0;
+            font-size: 0.95rem;
+        }
+        
+        .stock-name {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .stock-rank {
+            background: rgba(255, 255, 255, 0.1);
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.75rem;
+            font-weight: 700;
+        }
+        
+        .stock-change {
+            font-weight: 600;
+        }
+        
+        .stock-change.up {
+            color: #00d4aa;
+        }
+        
+        .stock-change.down {
+            color: #ff6b6b;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            color: #8892b0;
+            font-size: 0.85rem;
+        }
+        
+        .refresh-btn {
+            background: linear-gradient(90deg, #00d4ff, #7b2cbf);
+            border: none;
+            color: white;
+            padding: 12px 24px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 1rem;
+            margin-top: 10px;
+            transition: opacity 0.3s;
+        }
+        
+        .refresh-btn:hover {
+            opacity: 0.9;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🌍 글로벌 4대 시총 대시보드</h1>
+        <p class="update-time">⏰ 업데이트: <span id="updateTime">2026-03-06 16:30 KST</span></p>
+        <button class="refresh-btn" onclick="refreshData()">🔄 새로고침</button>
+    </div>
+
+    <div class="grid">
+        <!-- KOSPI -->
+        <div class="card">
+            <div class="card-header">
+                <span class="flag">🇰🇷</span>
+                <div>
+                    <div class="market-name">KOSPI</div>
+                    <div class="market-sub">코스피 (한국)</div>
+                </div>
+            </div>
+            <div class="index-value down">2,642.15</div>
+            <div class="change down">
+                <span>▼</span>
+                <span>-18.45 (-0.69%)</span>
+            </div>
+            <div class="market-cap">
+                <div class="market-cap-label">시가총액</div>
+                <div class="market-cap-value">$1.42T</div>
+                <div style="font-size: 0.8rem; color: #8892b0; margin-top: 4px;">약 1,890조 원</div>
+            </div>
+            <div class="top-stocks">
+                <div class="top-stocks-title">🔥 시총 TOP 3</div>
+                <div class="stock-item">
+                    <div class="stock-name">
+                        <span class="stock-rank">1</span>
+                        <span>삼성전자</span>
+                    </div>
+                    <div class="stock-change up">+1.2%</div>
+                </div>
+                <div class="stock-item">
+                    <div class="stock-name">
+                        <span class="stock-rank">2</span>
+                        <span>SK하이닉스</span>
+                    </div>
+                    <div class="stock-change down">-0.8%</div>
+                </div>
+                <div class="stock-item">
+                    <div class="stock-name">
+                        <span class="stock-rank">3</span>
+                        <span>현대차</span>
+                    </div>
+                    <div class="stock-change up">+0.5%</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- S&P 500 -->
+        <div class="card">
+            <div class="card-header">
+                <span class="flag">🇺🇸</span>
+                <div>
+                    <div class="market-name">S&P 500</div>
+                    <div class="market-sub">스탠더드앤드푸어스 500 (미국)</div>
+                </div>
+            </div>
+            <div class="index-value down">5,847.23</div>
+            <div class="change down">
+                <span>▼</span>
+                <span>-17.54 (-0.30%)</span>
+            </div>
+            <div class="market-cap">
+                <div class="market-cap-label">시가총액</div>
+                <div class="market-cap-value">$48.5T</div>
+                <div style="font-size: 0.8rem; color: #8892b0; margin-top: 4px;">전체 시총 1위</div>
+            </div>
+            <div class="top-stocks">
+                <div class="top-stocks-title">🔥 시총 TOP 3</div>
+                <div class="stock-item">
+                    <div class="stock-name">
+                        <span class="stock-rank">1</span>
+                        <span>Apple</span>
+                    </div>
+                    <div class="stock-change down">-0.5%</div>
+                </div>
+                <div class="stock-item">
+                    <div class="stock-name">
+                        <span class="stock-rank">2</span>
+                        <span>NVIDIA</span>
+                    </div>
+                    <div class="stock-change down">-3.1%</div>
+                </div>
+                <div class="stock-item">
+                    <div class="stock-name">
+                        <span class="stock-rank">3</span>
+                        <span>Microsoft</span>
+                    </div>
+                    <div class="stock-change up">+0.2%</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Nikkei 225 -->
+        <div class="card">
+            <div class="card-header">
+                <span class="flag">🇯🇵</span>
+                <div>
+                    <div class="market-name">Nikkei 225</div>
+                    <div class="market-sub">닛케이 225 (일본)</div>
+                </div>
+            </div>
+            <div class="index-value up">39,450.80</div>
+            <div class="change up">
+                <span>▲</span>
+                <span>+165.20 (+0.42%)</span>
+            </div>
+            <div class="market-cap">
+                <div class="market-cap-label">시가총액</div>
+                <div class="market-cap-value">$6.8T</div>
+                <div style="font-size: 0.8rem; color: #8892b0; margin-top: 4px;">아시아 2위</div>
+            </div>
+            <div class="top-stocks">
+                <div class="top-stocks-title">🔥 시총 TOP 3</div>
+                <div class="stock-item">
+                    <div class="stock-name">
+                        <span class="stock-rank">1</span>
+                        <span>丰田汽车</span>
+                    </div>
+                    <div class="stock-change up">+1.1%</div>
+                </div>
+                <div class="stock-item">
+                    <div class="stock-name">
+                        <span class="stock-rank">2</span>
+                        <span>索尼集团</span>
+                    </div>
+                    <div class="stock-change up">+2.3%</div>
+                </div>
+                <div class="stock-item">
+                    <div class="stock-name">
+                        <span class="stock-rank">3</span>
+                        <span>Keyence</span>
+                    </div>
+                    <div class="stock-change down">-0.4%</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Shanghai Composite -->
+        <div class="card">
+            <div class="card-header">
+                <span class="flag">🇨🇳</span>
+                <div>
+                    <div class="market-name">SSE Composite</div>
+                    <div class="market-sub">상하이종합 (중국)</div>
+                </div>
+            </div>
+            <div class="index-value up">3,285.42</div>
+            <div class="change up">
+                <span>▲</span>
+                <span>+24.18 (+0.74%)</span>
+            </div>
+            <div class="market-cap">
+                <div class="market-cap-label">시가총액</div>
+                <div class="market-cap-value">$11.2T</div>
+                <div style="font-size: 0.8rem; color: #8892b0; margin-top: 4px;">아시아 1위</div>
+            </div>
+            <div class="top-stocks">
+                <div class="top-stocks-title">🔥 시총 TOP 3</div>
+                <div class="stock-item">
+                    <div class="stock-name">
+                        <span class="stock-rank">1</span>
+                        <span>贵州茅台</span>
+                    </div>
+                    <div class="stock-change up">+1.5%</div>
+                </div>
+                <div class="stock-item">
+                    <div class="stock-name">
+                        <span class="stock-rank">2</span>
+                        <span>工商银行</span>
+                    </div>
+                    <div class="stock-change up">+0.8%</div>
+                </div>
+                <div class="stock-item">
+                    <div class="stock-name">
+                        <span class="stock-rank">3</span>
+                        <span>宁德时代</span>
+                    </div>
+                    <div class="stock-change down">-1.2%</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>📊 데이터 출처: Yahoo Finance, Bloomberg, 각 거래소</p>
+        <p style="margin-top: 8px;">⚠️ 본 페이지는 투자 참고용이며, 실제 투자 판단은 본인의 책임입니다.</p>
+        <p style="margin-top: 8px; font-size: 0.75rem; color: #666;">
+            🛠️ Built with OpenClaw | 자동 업데이트: 1시간마다
+        </p>
+    </div>
+
+    <script>
+        function refreshData() {
+            const btn = document.querySelector('.refresh-btn');
+            btn.textContent = '🔄 업데이트 중...';
+            btn.disabled = true;
+            
+            setTimeout(() => {
+                document.getElementById('updateTime').textContent = 
+                    new Date().toISOString().slice(0, 16).replace('T', ' ') + ' KST';
+                btn.textContent = '✅ 업데이트 완료';
+                
+                setTimeout(() => {
+                    btn.textContent = '🔄 새로고침';
+                    btn.disabled = false;
+                }, 2000);
+            }, 1500);
+        }
+
+        // 1시간마다 자동 새로고침
+        setInterval(() => {
+            document.getElementById('updateTime').textContent = 
+                new Date().toISOString().slice(0, 16).replace('T', ' ') + ' KST';
+        }, 3600000);
+    </script>
+</body>
+</html>

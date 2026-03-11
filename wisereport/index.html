@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📊 와이즈리포트 대시보드</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans KR', sans-serif;
+            background: linear-gradient(135deg, #0a0e27 0%, #1a1f3a 100%);
+            color: #e8e8e8;
+            min-height: 100vh;
+        }
+        .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+        
+        /* Header */
+        header {
+            text-align: center;
+            padding: 30px 20px;
+            background: linear-gradient(135deg, rgba(88, 166, 255, 0.1) 0%, rgba(126, 231, 135, 0.1) 100%);
+            border-radius: 20px;
+            margin-bottom: 20px;
+            border: 1px solid rgba(88, 166, 255, 0.2);
+        }
+        h1 { 
+            font-size: 2em; 
+            margin-bottom: 10px;
+            background: linear-gradient(90deg, #58a6ff, #7ee787);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .subtitle { color: #8b949e; font-size: 0.95em; }
+        .timestamp { 
+            color: #58a6ff; 
+            font-size: 0.9em; 
+            margin-top: 10px;
+            font-weight: 500;
+        }
+        
+        /* Navigation */
+        .nav-tabs {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 25px;
+            flex-wrap: wrap;
+        }
+        .nav-tab {
+            flex: 1;
+            min-width: 120px;
+            padding: 15px 20px;
+            background: rgba(22, 27, 34, 0.8);
+            border: 1px solid rgba(88, 166, 255, 0.2);
+            border-radius: 12px;
+            color: #8b949e;
+            font-size: 0.95em;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+            text-align: center;
+        }
+        .nav-tab:hover, .nav-tab.active {
+            background: linear-gradient(135deg, rgba(88, 166, 255, 0.2) 0%, rgba(126, 231, 135, 0.2) 100%);
+            border-color: rgba(88, 166, 255, 0.5);
+            color: #e8e8e8;
+        }
+        
+        /* Stats Grid */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            margin-bottom: 25px;
+        }
+        .stat-card {
+            background: rgba(22, 27, 34, 0.8);
+            padding: 20px;
+            border-radius: 16px;
+            text-align: center;
+            border: 1px solid rgba(88, 166, 255, 0.1);
+        }
+        .stat-card .number {
+            font-size: 2em;
+            font-weight: bold;
+            color: #58a6ff;
+            margin-bottom: 5px;
+        }
+        .stat-card .label {
+            color: #8b949e;
+            font-size: 0.85em;
+        }
+        .stat-card.buy .number { color: #7ee787; }
+        .stat-card.change .number { color: #f0883e; }
+        
+        /* Today Best */
+        .today-best {
+            background: linear-gradient(135deg, rgba(126, 231, 135, 0.15) 0%, rgba(88, 166, 255, 0.1) 100%);
+            border: 2px solid rgba(126, 231, 135, 0.3);
+            border-radius: 20px;
+            padding: 25px;
+            margin-bottom: 25px;
+        }
+        .today-best h2 {
+            color: #7ee787;
+            font-size: 1.1em;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .best-stock {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        .best-stock .name {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+        .best-stock .opinion {
+            background: #238636;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+        .best-stock .target {
+            color: #58a6ff;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+        .best-stock .analyst {
+            color: #8b949e;
+            font-size: 0.9em;
+        }
+        
+        /* Section Box */
+        .section-box {
+            background: rgba(22, 27, 34, 0.8);
+            border-radius: 20px;
+            padding: 25px;
+            margin-bottom: 20px;
+            border: 1px solid rgba(88, 166, 255, 0.1);
+        }
+        .section-box h2 {
+            color: #58a6ff;
+            font-size: 1.2em;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid rgba(88, 166, 255, 0.2);
+        }
+        .section-box h3 {
+            color: #7ee787;
+            font-size: 1em;
+            margin: 20px 0 10px;
+        }
+        
+        /* Strategy List */
+        .strategy-list {
+            list-style: none;
+        }
+        .strategy-list li {
+            padding: 12px 0;
+            border-bottom: 1px solid rgba(88, 166, 255, 0.1);
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+        }
+        .strategy-list li:last-child { border-bottom: none; }
+        .strategy-list .bullet {
+            color: #58a6ff;
+            font-weight: bold;
+        }
+        
+        /* Sector Grid */
+        .sector-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 15px;
+        }
+        .sector-card {
+            background: rgba(13, 17, 23, 0.6);
+            padding: 20px;
+            border-radius: 16px;
+            border-left: 4px solid #58a6ff;
+        }
+        .sector-card h4 {
+            color: #58a6ff;
+            font-size: 1em;
+            margin-bottom: 8px;
+        }
+        .sector-card .tag {
+            display: inline-block;
+            background: rgba(126, 231, 135, 0.2);
+            color: #7ee787;
+            padding: 3px 10px;
+            border-radius: 10px;
+            font-size: 0.8em;
+            margin-bottom: 10px;
+        }
+        .sector-card p {
+            color: #8b949e;
+            font-size: 0.9em;
+            line-height: 1.5;
+        }
+        
+        /* Top Stocks Table */
+        .stock-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .stock-table th, .stock-table td {
+            padding: 15px 12px;
+            text-align: left;
+            border-bottom: 1px solid rgba(88, 166, 255, 0.1);
+        }
+        .stock-table th {
+            color: #8b949e;
+            font-size: 0.8em;
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+        .stock-table tr:hover { background: rgba(88, 166, 255, 0.05); }
+        .stock-table .name { font-weight: 600; }
+        .stock-table .up { color: #7ee787; font-weight: bold; }
+        
+        /* Bottom Nav */
+        .bottom-nav {
+            display: flex;
+            gap: 10px;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid rgba(88, 166, 255, 0.2);
+        }
+        .bottom-nav button {
+            flex: 1;
+            padding: 15px;
+            background: rgba(22, 27, 34, 0.8);
+            border: 1px solid rgba(88, 166, 255, 0.2);
+            border-radius: 12px;
+            color: #8b949e;
+            font-weight: 600;
+            cursor: pointer;
+        }
+        .bottom-nav button:hover {
+            background: rgba(88, 166, 255, 0.1);
+            color: #e8e8e8;
+        }
+        
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 30px 20px;
+            color: #8b949e;
+            font-size: 0.85em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📊 와이즈리포트 대시보드</h1>
+            <p class="subtitle">증권사 리포트 분석 & 투자 인사이트</p>
+            <p class="timestamp">⏱️ <span id="today-date"></span> 기준</p>
+            <script>
+                const today = new Date();
+                const year = today.getFullYear();
+                const month = today.getMonth() + 1;
+                const day = today.getDate();
+                const weekdays = ['일', '월', '화', '수', '목', '금', '토'];
+                const weekday = weekdays[today.getDay()];
+                document.getElementById('today-date').textContent = year + '년 ' + month + '월 ' + day + '일 (' + weekday + ')';
+            </script>
+        </header>
+
+        <div class="nav-tabs">
+            <button class="nav-tab active">📈 개요</button>
+            <button class="nav-tab">📋 종목</button>
+            <button class="nav-tab">🏭 섹터</button>
+            <button class="nav-tab">📰 뉴스</button>
+        </div>
+
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="number">45</div>
+                <div class="label">전체 리포트</div>
+            </div>
+            <div class="stat-card buy">
+                <div class="number">44</div>
+                <div class="label">BUY 권장</div>
+            </div>
+            <div class="stat-card change">
+                <div class="number">27</div>
+                <div class="label">목표가 변경</div>
+            </div>
+        </div>
+
+        <div class="today-best">
+            <h2>⭐ TODAY BEST</h2>
+            <div class="best-stock">
+                <div>
+                    <div class="name">인텔리안테크</div>
+                    <div class="analyst">한화투자증권 배성조</div>
+                </div>
+                <div class="opinion">Buy</div>
+                <div class="target">목표가: 150,000 ▲</div>
+            </div>
+        </div>
+
+        <div class="section-box">
+            <h2>📋 Executive Summary</h2>
+            <p style="line-height: 1.8; color: #c9d1d9;">
+                종합적으로 볼 때, 국내 증시는 <strong style="color: #7ee787;">세 가지 성장 엔진(조선·건강기능식품·중공업)</strong>의 
+                강력한 모멘텀 아래 있습니다. 특히 <strong style="color: #58a6ff;">조선 섹터</strong>의 경우, 
+                신조선가 상승과 수주 잔고 확대로 국내 기업에 수혜를 줄 수 있는 구조적 기회를 제공하고 있습니다.
+            </p>
+            
+            <h3>🎯 투자 전략</h3>
+            <ul class="strategy-list">
+                <li><span class="bullet">▸</span> 대형주 중심, 반도체/배터리/자동차 비중 확대</li>
+                <li><span class="bullet">▸</span> 주주환원 강화 기업(자사주 소각, 배당 확대) 우대</li>
+                <li><span class="bullet">▸</span> 음극재·양극재 등 배터리 소재 중소형주 탐색</li>
+                <li><span class="bullet">▸</span> 로봇산업(LG이노텍 등) 장기 관점 검토</li>
+            </ul>
+        </div>
+
+        <div class="section-box">
+            <h2>📈 TOP 5 목표가 상향 종목</h2>
+            <table class="stock-table">
+                <thead>
+                    <tr>
+                        <th>순위</th>
+                        <th>종목</th>
+                        <th>의견</th>
+                        <th>목표가</th>
+                        <th>상승여력</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>1</td><td class="name">인텔리안테크</td><td>Buy</td><td>150,000</td><td class="up">+턴어라운드</td></tr>
+                    <tr><td>2</td><td class="name">RF머트리얼즈</td><td>BUY</td><td>80,000</td><td class="up">+텐베거</td></tr>
+                    <tr><td>3</td><td class="name">코스맥스</td><td>BUY</td><td>250,000</td><td class="up">+성장모멘텀</td></tr>
+                    <tr><td>4</td><td class="name">대한조선</td><td>Buy</td><td>-</td><td class="up">+신조선가</td></tr>
+                    <tr><td>5</td><td class="name">HJ중공업</td><td>Buy</td><td>-</td><td class="up">+상선호황</td></tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="section-box">
+            <h2>🏭 추천 섹터</h2>
+            <div class="sector-grid">
+                <div class="sector-card">
+                    <h4>🚢 조선</h4>
+                    <span class="tag">Overweight</span>
+                    <p>대한조선, HJ중공업 - 신조선가 상승, 수주 잔고 확대</p>
+                </div>
+                <div class="sector-card">
+                    <h4>💊 건강기능식품</h4>
+                    <span class="tag">Overweight</span>
+                    <p>노바렉스 - 확신의 건기식 트렌드 선도 주자</p>
+                </div>
+                <div class="sector-card">
+                    <h4>🏭 중공업</h4>
+                    <span class="tag">Overweight</span>
+                    <p>효성중공업 - 고점을 논하기엔 이른 이유</p>
+                </div>
+                <div class="sector-card">
+                    <h4>🔋 배터리/이차전지</h4>
+                    <span class="tag">Overweight</span>
+                    <p>美 중국산 ESS 수입제한 수혜, 음극재 모멘텀</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="bottom-nav">
+            <button onclick="location.reload()">🏠 개요</button>
+            <button>📋 종목</button>
+            <button>🏭 섹터</button>
+            <button>📰 뉴스</button>
+        </div>
+
+        <footer>
+            <p>📊 데이터 출처: 와이즈리포트 (wisereport.co.kr)</p>
+            <p>⚠️ 최종 투자 결정은 투자자 본인의 판단하에 이루어져야 합니다.</p>
+        </footer>
+    </div>
+</body>
+</html>

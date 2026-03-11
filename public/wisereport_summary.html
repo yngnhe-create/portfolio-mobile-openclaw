@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="theme-color" content="#0f1419">
+    <title>📊 와이즈리포트 요약</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-primary: #0f1419;
+            --bg-secondary: #15202b;
+            --bg-card: #1e2732;
+            --text-primary: #e7e9ea;
+            --text-secondary: #71767b;
+            --accent-blue: #1d9bf0;
+            --accent-green: #00ba7c;
+            --accent-red: #f4212e;
+            --accent-yellow: #ffd400;
+            --border-color: #2f3336;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            -webkit-tap-highlight-color: transparent;
+        }
+        
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.5;
+            padding-bottom: 20px;
+        }
+        
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, #1d9bf0 0%, #0d8bd9 100%);
+            padding: 24px 20px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        .header-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 4px;
+        }
+        
+        .header-subtitle {
+            font-size: 0.875rem;
+            opacity: 0.9;
+        }
+        
+        .update-time {
+            font-size: 0.75rem;
+            opacity: 0.8;
+            margin-top: 8px;
+        }
+        
+        /* Container */
+        .container {
+            padding: 16px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        /* Stats Grid */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+        
+        .stat-card {
+            background: var(--bg-secondary);
+            border-radius: 16px;
+            padding: 16px 12px;
+            text-align: center;
+            border: 1px solid var(--border-color);
+        }
+        
+        .stat-value {
+            font-size: 1.75rem;
+            font-weight: 700;
+            color: var(--accent-blue);
+            margin-bottom: 4px;
+        }
+        
+        .stat-value.green { color: var(--accent-green); }
+        .stat-value.red { color: var(--accent-red); }
+        
+        .stat-label {
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+        }
+        
+        /* Cards */
+        .card {
+            background: var(--bg-secondary);
+            border-radius: 16px;
+            padding: 20px;
+            margin-bottom: 16px;
+            border: 1px solid var(--border-color);
+        }
+        
+        .card-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 16px;
+        }
+        
+        .card-title {
+            font-size: 1.125rem;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .badge {
+            font-size: 0.625rem;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+        
+        .badge-green { background: rgba(0, 186, 124, 0.2); color: var(--accent-green); }
+        .badge-blue { background: rgba(29, 155, 240, 0.2); color: var(--accent-blue); }
+        .badge-yellow { background: rgba(255, 212, 0, 0.2); color: var(--accent-yellow); }
+        
+        /* Today Report */
+        .today-report {
+            background: linear-gradient(135deg, rgba(0, 186, 124, 0.1) 0%, rgba(29, 155, 240, 0.1) 100%);
+            border: 1px solid rgba(0, 186, 124, 0.3);
+            border-radius: 16px;
+            padding: 20px;
+            margin-bottom: 16px;
+        }
+        
+        .report-badge {
+            display: inline-block;
+            background: var(--accent-green);
+            color: #000;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            margin-bottom: 12px;
+        }
+        
+        .report-name {
+            font-size: 1.25rem;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+        
+        .report-ticker {
+            font-size: 0.875rem;
+            color: var(--text-secondary);
+            margin-bottom: 12px;
+        }
+        
+        .report-meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            font-size: 0.875rem;
+        }
+        
+        .meta-item {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+        
+        .meta-label {
+            color: var(--text-secondary);
+        }
+        
+        .meta-value {
+            font-weight: 600;
+            color: var(--accent-green);
+        }
+        
+        /* Sector List */
+        .sector-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px 0;
+            border-bottom: 1px solid var(--border-color);
+        }
+        
+        .sector-item:last-child {
+            border-bottom: none;
+        }
+        
+        .sector-info {
+            flex: 1;
+        }
+        
+        .sector-name {
+            font-weight: 600;
+            margin-bottom: 4px;
+        }
+        
+        .sector-bar {
+            height: 4px;
+            background: var(--bg-card);
+            border-radius: 2px;
+            overflow: hidden;
+            margin-top: 6px;
+        }
+        
+        .sector-fill {
+            height: 100%;
+            background: var(--accent-blue);
+            border-radius: 2px;
+        }
+        
+        .sector-fill.buy {
+            background: var(--accent-green);
+        }
+        
+        .sector-count {
+            font-weight: 700;
+            font-size: 1.125rem;
+            margin-left: 12px;
+        }
+        
+        /* Hot News */
+        .news-item {
+            padding: 16px 0;
+            border-bottom: 1px solid var(--border-color);
+        }
+        
+        .news-item:last-child {
+            border-bottom: none;
+        }
+        
+        .news-number {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 24px;
+            height: 24px;
+            background: var(--accent-blue);
+            border-radius: 50%;
+            font-size: 0.75rem;
+            font-weight: 700;
+            margin-right: 8px;
+        }
+        
+        .news-title {
+            font-weight: 600;
+            margin-bottom: 4px;
+        }
+        
+        .news-source {
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+        }
+        
+        /* Executive Summary */
+        .summary-text {
+            font-size: 0.9375rem;
+            line-height: 1.7;
+            color: var(--text-secondary);
+        }
+        
+        .summary-text strong {
+            color: var(--text-primary);
+        }
+        
+        .highlight-box {
+            background: var(--bg-card);
+            border-radius: 12px;
+            padding: 16px;
+            margin-top: 16px;
+        }
+        
+        .highlight-title {
+            font-weight: 600;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .strategy-list {
+            list-style: none;
+        }
+        
+        .strategy-list li {
+            padding: 6px 0;
+            font-size: 0.875rem;
+            color: var(--text-secondary);
+        }
+        
+        .strategy-list li::before {
+            content: "✅";
+            margin-right: 8px;
+        }
+        
+        /* Bottom Action */
+        .bottom-action {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: var(--bg-secondary);
+            border-top: 1px solid var(--border-color);
+            padding: 16px 20px calc(16px + env(safe-area-inset-bottom));
+            z-index: 100;
+        }
+        
+        .action-btn {
+            background: var(--accent-blue);
+            color: white;
+            border: none;
+            padding: 16px 24px;
+            border-radius: 12px;
+            font-size: 1rem;
+            font-weight: 600;
+            width: 100%;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <h1 class="header-title">📊 와이즈리포트</h1>
+        <p class="header-subtitle">증권사 투자 의견 종합</p>
+        <p class="update-time">⏱️ 2026년 3월 2일 (월) 09:50 기준</p>
+    </header>
+
+    <div class="container">
+        <!-- Stats -->
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-value">74</div>
+                <div class="stat-label">전체 리포트</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value green">44</div>
+                <div class="stat-label">BUY 권장</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value">10</div>
+                <div class="stat-label">섹터</div>
+            </div>
+        </div>
+
+        <!-- Today Best Report -->
+        <div class="today-report">
+            <span class="report-badge">⭐ TODAY BEST</span>
+            <div class="report-name">디앤씨미디어</div>
+            <div class="report-ticker">263720 | 미디어/콘텐츠</div>
+            <div class="report-meta">
+                <div class="meta-item">
+                    <span class="meta-label">의견:</span>
+                    <span class="meta-value">매수</span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-label">목표가:</span>
+                    <span class="meta-value">17,000</span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-label">애널리스트:</span>
+                    <span>신한투자 김아람</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Executive Summary -->
+        <div class="card">
+            <div class="card-header">
+                <h2 class="card-title">📋 Executive Summary</h2>
+            </div>
+            <div class="summary-text">
+                종합적으로 볼 때, 국내 증시는 <strong>세 가지 성장 엔진(반도체·배터리·자동차)</strong>의 강력한 모멘텀 아래 있습니다. 특히 배터리 섹터의 경우, 미국 보호무역 정책이 오히려 국내 기업에 수혜를 줄 수 있는 구조적 기회를 제공하고 있습니다.
+            </div>
+            <div class="highlight-box">
+                <div class="highlight-title">🎯 투자 전략</div>
+                <ul class="strategy-list">
+                    <li>대형주 중심, 반도체/배터리/자동차 비중 확대</li>
+                    <li>주주환원 강화 기업(자사주 소각, 배당 확대) 우대</li>
+                    <li>음극재·양극재 등 배터리 소재 중소형주 탐색</li>
+                    <li>로봇산업(LG이노텍 등) 장기 관점 검토</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Sector Analysis -->
+        <div class="card">
+            <div class="card-header">
+                <h2 class="card-title">📈 섹터별 리포트</h2>
+                <span class="badge badge-blue">전체 10개</span>
+            </div>
+            
+            <div class="sector-item">
+                <div class="sector-info">
+                    <div class="sector-name">유틸리티</div>
+                    <div class="sector-bar">
+                        <div class="sector-fill" style="width: 100%"></div>
+                    </div>
+                </div>
+                <div class="sector-count">14</div>
+            </div>
+            
+            <div class="sector-item">
+                <div class="sector-info">
+                    <div class="sector-name">커뮤니케이션서비스</div>
+                    <div class="sector-bar">
+                        <div class="sector-fill" style="width: 100%"></div>
+                    </div>
+                </div>
+                <div class="sector-count">14</div>
+            </div>
+            
+            <div class="sector-item">
+                <div class="sector-info">
+                    <div class="sector-name">IT</div>
+                    <div class="sector-bar">
+                        <div class="sector-fill" style="width: 93%"></div>
+                    </div>
+                </div>
+                <div class="sector-count">13</div>
+            </div>
+            
+            <div class="sector-item">
+                <div class="sector-info">
+                    <div class="sector-name">산업재</div>
+                    <div class="sector-bar">
+                        <div class="sector-fill" style="width: 79%"></div>
+                    </div>
+                </div>
+                <div class="sector-count">11</div>
+            </div>
+            
+            <div class="sector-item">
+                <div class="sector-info">
+                    <div class="sector-name">경기관련소비재</div>
+                    <div class="sector-bar">
+                        <div class="sector-fill" style="width: 71%"></div>
+                    </div>
+                </div>
+                <div class="sector-count">10</div>
+            </div>
+        </div>
+
+        <!-- BUY Recommendations -->
+        <div class="card">
+            <div class="card-header">
+                <h2 class="card-title">📊 BUY 권장 섹터</h2>
+                <span class="badge badge-green">44개</span>
+            </div>
+            
+            <div class="sector-item">
+                <div class="sector-info">
+                    <div class="sector-name">IT</div>
+                    <div class="sector-bar">
+                        <div class="sector-fill buy" style="width: 61.5%"></div>
+                    </div>
+                </div>
+                <div class="sector-count green">8</div>
+            </div>
+            
+            <div class="sector-item">
+                <div class="sector-info">
+                    <div class="sector-name">산업재</div>
+                    <div class="sector-bar">
+                        <div class="sector-fill buy" style="width: 63.6%"></div>
+                    </div>
+                </div>
+                <div class="sector-count green">7</div>
+            </div>
+            
+            <div class="sector-item">
+                <div class="sector-info">
+                    <div class="sector-name">커뮤니케이션서비스</div>
+                    <div class="sector-bar">
+                        <div class="sector-fill buy" style="width: 35.7%"></div>
+                    </div>
+                </div>
+                <div class="sector-count green">5</div>
+            </div>
+            
+            <div class="sector-item">
+                <div class="sector-info">
+                    <div class="sector-name">경기소비재</div>
+                    <div class="sector-bar">
+                        <div class="sector-fill buy" style="width: 50%"></div>
+                    </div>
+                </div>
+                <div class="sector-count green">5</div>
+            </div>
+        </div>
+
+        <!-- Hot News -->
+        <div class="card">
+            <div class="card-header">
+                <h2 class="card-title">📰 Hot 뉴스</h2>
+                <span class="badge badge-yellow">7개</span>
+            </div>
+            
+            <div class="news-item">
+                <div class="news-title"><span class="news-number">1</span>China Weekly - 2026년 전망 전략</div>
+                <div class="news-source">주간 해외</div>
+            </div>
+            
+            <div class="news-item">
+                <div class="news-title"><span class="news-number">2</span>KB Bond Scheduler - 일간 재개장</div>
+                <div class="news-source">채권 시장</div>
+            </div>
+            
+            <div class="news-item">
+                <div class="news-title"><span class="news-number">3</span>AI·관세 변수에 출렁인 한 주</div>
+                <div class="news-source">주간 금융</div>
+            </div>
+            
+            <div class="news-item">
+                <div class="news-title"><span class="news-number">4</span>Week Ahead Snapshot</div>
+                <div class="news-source">주간 시황</div>
+            </div>
+            
+            <div class="news-item">
+                <div class="news-title"><span class="news-number">5</span>FY25 4분기 실적 및 가이던스 리뷰</div>
+                <div class="news-source">기술주 실적</div>
+            </div>
+        </div>
+
+        <!-- Disclaimer -->
+        <div style="padding: 16px; text-align: center; font-size: 0.75rem; color: var(--text-secondary);">
+            <p>*본 자료는 wisereport.co.kr의 데이터를 가공하여 작성되었으며,</p>
+            <p>최종 투자 결정은 투자자 본인의 판단하에 이루어져야 합니다.</p>
+        </div>
+    </div>
+
+    <!-- Bottom Action -->
+    <div class="bottom-action">
+        <button class="action-btn" onclick="location.href='portfolio_mobile_dashboard.html'">포트폴리오 보기 →</button>
+    </div>
+</body>
+</html>

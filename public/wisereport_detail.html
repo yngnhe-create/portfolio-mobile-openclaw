@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>와이즈리포트 상세 분석</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-primary: #0a0e14;
+            --bg-secondary: #111820;
+            --bg-card: #1a2332;
+            --bg-elevated: #243447;
+            --text-primary: #f0f6fc;
+            --text-secondary: #8b949e;
+            --accent-blue: #58a6ff;
+            --accent-green: #3fb950;
+            --accent-red: #f85149;
+            --accent-yellow: #d29922;
+            --accent-purple: #a371f7;
+            --accent-cyan: #39c5cf;
+            --border-color: #30363d;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Inter', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            padding-bottom: 100px;
+        }
+        .header {
+            background: linear-gradient(135deg, #1d4ed8 0%, #7c3aed 50%, #db2777 100%);
+            padding: 24px 20px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        .header-title { font-size: 1.5rem; font-weight: 800; }
+        .header-subtitle { font-size: 0.875rem; opacity: 0.9; margin-top: 4px; }
+        .nav-tabs {
+            display: flex;
+            gap: 8px;
+            padding: 12px 16px;
+            background: var(--bg-secondary);
+            overflow-x: auto;
+            border-bottom: 1px solid var(--border-color);
+        }
+        .nav-tab {
+            flex-shrink: 0;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.8125rem;
+            font-weight: 600;
+            background: var(--bg-card);
+            color: var(--text-secondary);
+            border: 1px solid var(--border-color);
+            cursor: pointer;
+        }
+        .nav-tab.active { background: var(--accent-blue); color: white; border-color: var(--accent-blue); }
+        .container { padding: 16px; max-width: 800px; margin: 0 auto; }
+        .card {
+            background: var(--bg-card);
+            border-radius: 16px;
+            padding: 20px;
+            margin-bottom: 16px;
+            border: 1px solid var(--border-color);
+        }
+        .card-title {
+            font-size: 1.125rem;
+            font-weight: 700;
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .stats-row {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+        .stat-box {
+            text-align: center;
+            padding: 16px;
+            background: var(--bg-elevated);
+            border-radius: 12px;
+        }
+        .stat-number { font-size: 1.75rem; font-weight: 800; }
+        .stat-label { font-size: 0.75rem; color: var(--text-secondary); margin-top: 4px; }
+        /* Target Price Table */
+        .target-table-header {
+            display: grid;
+            grid-template-columns: 1.5fr 0.8fr 1fr 1fr 0.8fr;
+            gap: 8px;
+            padding: 12px 0;
+            border-bottom: 1px solid var(--border-color);
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+            text-align: center;
+        }
+        .target-item {
+            padding: 16px 0;
+            border-bottom: 1px solid var(--border-color);
+        }
+        .target-row {
+            display: grid;
+            grid-template-columns: 1.5fr 0.8fr 1fr 1fr 0.8fr;
+            gap: 8px;
+            align-items: center;
+            text-align: center;
+            margin-bottom: 8px;
+        }
+        .target-name { font-weight: 700; text-align: left; }
+        .target-opinion { font-size: 0.875rem; font-weight: 600; }
+        .target-price { font-size: 0.875rem; }
+        .target-upside { font-size: 0.875rem; font-weight: 700; color: var(--accent-green); }
+        .target-desc {
+            font-size: 0.8125rem;
+            color: var(--text-secondary);
+            line-height: 1.6;
+            padding-left: 4px;
+        }
+        /* Sector Cards */
+        .sector-card {
+            background: var(--bg-elevated);
+            border-radius: 12px;
+            padding: 16px;
+            margin-bottom: 12px;
+        }
+        .sector-name { font-size: 1rem; font-weight: 700; margin-bottom: 6px; }
+        .sector-weight {
+            font-size: 0.875rem;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+        .sector-weight.overweight { color: var(--accent-green); }
+        .sector-weight.positive { color: var(--accent-yellow); }
+        .sector-desc { font-size: 0.8125rem; color: var(--text-secondary); line-height: 1.5; }
+        /* Action Cards */
+        .action-card {
+            background: var(--bg-elevated);
+            border-radius: 12px;
+            padding: 16px;
+            margin-bottom: 12px;
+            border-left: 4px solid var(--accent-blue);
+        }
+        .action-card.buy { border-left-color: var(--accent-green); }
+        .action-card.sell { border-left-color: var(--accent-red); }
+        .action-card.monitor { border-left-color: var(--accent-yellow); }
+        .action-header {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 8px;
+        }
+        .action-title { font-weight: 700; }
+        .action-desc { font-size: 0.875rem; color: var(--text-secondary); margin-bottom: 12px; }
+        .action-reason {
+            background: var(--bg-primary);
+            padding: 12px;
+            border-radius: 8px;
+            font-size: 0.8125rem;
+        }
+        /* News */
+        .news-item {
+            padding: 16px;
+            background: var(--bg-elevated);
+            border-radius: 12px;
+            margin-bottom: 12px;
+        }
+        .news-header {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 8px;
+        }
+        .news-impact {
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.6875rem;
+            font-weight: 700;
+        }
+        .impact-high { background: rgba(248, 81, 73, 0.2); color: var(--accent-red); }
+        .impact-medium { background: rgba(210, 153, 34, 0.2); color: var(--accent-yellow); }
+        .news-title { font-weight: 700; }
+        .news-desc { font-size: 0.875rem; color: var(--text-secondary); margin-bottom: 8px; }
+        .news-action {
+            font-size: 0.8125rem;
+            padding: 8px 12px;
+            background: var(--bg-card);
+            border-radius: 8px;
+        }
+        /* Bottom Nav */
+        .bottom-nav {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: var(--bg-secondary);
+            border-top: 1px solid var(--border-color);
+            padding: 12px 20px;
+            display: flex;
+            justify-content: space-around;
+        }
+        .nav-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: var(--text-secondary);
+            background: none;
+            border: none;
+            font-size: 0.625rem;
+            cursor: pointer;
+        }
+        .section { display: none; }
+        .section.active { display: block; }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1 class="header-title">📈 와이즈리포트 분석</h1>
+        <p class="header-subtitle">증권사 리포트 기반 투자 인사이트</p>
+    </header>
+
+    <nav class="nav-tabs">
+        <button class="nav-tab active" onclick="showTab('overview')">📊 개요</button>
+        <button class="nav-tab" onclick="showTab('target')">🎯 목표가변경</button>
+        <button class="nav-tab" onclick="showTab('sectors')">🏭 섹터</button>
+        <button class="nav-tab" onclick="showTab('strategy')">📋 전략</button>
+        <button class="nav-tab" onclick="showTab('news')">📰 뉴스</button>
+    </nav>
+
+    <div class="container">
+        <!-- Overview -->
+        <div id="overview" class="section active">
+            <div class="stats-row">
+                <div class="stat-box">
+                    <div class="stat-number" style="color: var(--accent-blue);">74</div>
+                    <div class="stat-label">전체 리포트</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-number" style="color: var(--accent-green);">44</div>
+                    <div class="stat-label">BUY 권장</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-number" style="color: var(--accent-yellow);">27</div>
+                    <div class="stat-label">목표가 변경</div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-title">⭐ Today Best 리포트</div>
+                <div class="sector-card" style="background: linear-gradient(135deg, rgba(0, 186, 124, 0.1) 0%, rgba(29, 155, 240, 0.1) 100%); border: 1px solid rgba(0, 186, 124, 0.3);">
+                    <div class="sector-name">디앤씨미디어</div>
+                    <div style="display: flex; gap: 16px; margin-bottom: 8px;">
+                        <span style="font-size: 0.875rem;"><strong>의견:</strong> <span style="color: var(--accent-green);">매수</span></span>
+                        <span style="font-size: 0.875rem;"><strong>목표가:</strong> 17,000</span>
+                        <span style="font-size: 0.875rem;"><strong>애널리스트:</strong> 신한투자 김아람</span>
+                    </div>
+                    <div class="sector-desc">AI 콘텐츠 플랫폼 턴어라운드 예상. 4Q24 실적 개선, 2025년 흑자 전환 전망</div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-title">📈 주요 지표 변화</div>
+                <div class="sector-card">
+                    <div class="sector-name">📊 KOSPI 전망</div>
+                    <div class="sector-desc">
+                        <strong>현재:</strong> 2,580 (-0.3%)<br>
+                        <strong>목표:</strong> 2,800 (연말 목표)<br>
+                        <strong>주요 변수:</strong> FOMC 금리 정책, 미중 무역 갈등, 반도체 수요 회복
+                    </div>
+                </div>
+                <div class="sector-card">
+                    <div class="sector-name">💱 환율</div>
+                    <div class="sector-desc">
+                        <strong>현재:</strong> ₩1,455/USD<br>
+                        <strong>전망:</strong> ₩1,420~1,480 범위 예상<br>
+                        <strong>포인트:</strong> 원화 강세 시 수출주 부담, 약세 시 외국인 매수세 유입
+                    </div>
+                </div>
+                <div class="sector-card">
+                    <div class="sector-name">📉 VIX (변동성 지수)</div>
+                    <div class="sector-desc">
+                        <strong>현재:</strong> 22.4<br>
+                        <strong>상태:</strong> 중간 수준<br>
+                        <strong>시사점:</strong> 30 돌파 시 방어적 자산 비중 확대 필요
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Target Price Changes -->
+        <div id="target" class="section">
+            <div class="card">
+                <div class="card-title">📋 목표가 변경 종목 (27개)</div>
+                
+                <div class="target-table-header">
+                    <span>종목</span>
+                    <span>의견</span>
+                    <span>목표가</span>
+                    <span>현재가</span>
+                    <span>상승여력</span>
+                </div>
+
+                <div class="target-item">
+                    <div class="target-row">
+                        <div class="target-name">기아</div>
+                        <div class="target-opinion">Buy</div>
+                        <div class="target-price">240,000</div>
+                        <div class="target-price">196,100</div>
+                        <div class="target-upside">+22.4%</div>
+                    </div>
+                    <div class="target-desc">
+                        2026.2.25 역사적 신고가 경신. 26년 초반 판매 흐름 긍정적, 신차 기반 물량 확대의 한 해 될 것. EV+로봇 기업 변신 가속화.
+                    </div>
+                </div>
+
+                <div class="target-item">
+                    <div class="target-row">
+                        <div class="target-name">한화솔루션</div>
+                        <div class="target-opinion">BUY</div>
+                        <div class="target-price">67,000</div>
+                        <div class="target-price">51,600</div>
+                        <div class="target-upside">+29.8%</div>
+                    </div>
+                    <div class="target-desc">
+                        2026~2028년 태양광 예상치 상회. 전력망 부족 심화, 빅테크 수요 급증, 우주 태양광/페로브스카이트 가치 재평가.
+                    </div>
+                </div>
+
+                <div class="target-item">
+                    <div class="target-row">
+                        <div class="target-name">삼성SDI</div>
+                        <div class="target-opinion">BUY</div>
+                        <div class="target-price">580,000</div>
+                        <div class="target-price">433,000</div>
+                        <div class="target-upside">+34.0%</div>
+                    </div>
+                    <div class="target-desc">
+                        ESS 매출규모 4Q25 가속화. 미국내 중국산 ESS 수입제한 가능성 부각, SDC매각추진 모멘텀.
+                    </div>
+                </div>
+
+                <div class="target-item">
+                    <div class="target-row">
+                        <div class="target-name">포스코퓨처엠</div>
+                        <div class="target-opinion">BUY</div>
+                        <div class="target-price">370,000</div>
+                        <div class="target-price">246,000</div>
+                        <div class="target-upside">+50.4%</div>
+                    </div>
+                    <div class="target-desc">
+                        3월 음극재 모멘텀. 미국 중국산 ESS 수입 금지법안 발의, 음극재 반덤핑 최종 판결 임박, 리튬 가격 반등.
+                    </div>
+                </div>
+
+                <div class="target-item">
+                    <div class="target-row">
+                        <div class="target-name">피에스케이홀딩스</div>
+                        <div class="target-opinion">매수</div>
+                        <div class="target-price">125,000</div>
+                        <div class="target-price">80,500</div>
+                        <div class="target-upside">+55.3%</div>
+                    </div>
+                    <div class="target-desc">
+                        AI와 동반 성장하는 장비 업체. 후공정 시장 블루칩, CoWoS 중심 성장, HBM 투자 속도 상향 조정.
+                    </div>
+                </div>
+
+                <div class="target-item">
+                    <div class="target-row">
+                        <div class="target-name">LG화학</div>
+                        <div class="target-opinion">Buy 상향</div>
+                        <div class="target-price">487,000</div>
+                        <div class="target-price">387,500</div>
+                        <div class="target-upside">+25.7%</div>
+                    </div>
+                    <div class="target-desc">
+                        LGES 지분율 감축 가시화. 자산가치 할인율 감소, 투자의견 Buy로 상향. 태양광/페로브스카이트 가치 재평가.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sectors -->
+        <div id="sectors" class="section">
+            <div class="card">
+                <div class="card-title">🏭 섹터별 투자 전략</div>
+
+                <div class="sector-card">
+                    <div class="sector-name">🚗 자동차/로봇</div>
+                    <div class="sector-weight overweight">Overweight</div>
+                    <div class="sector-desc">
+                        기아 역사적 신고가 경신. LG이노텍 로봇사업 진출, 자동차-AI 융합 가속. 현대차그룹 EV 라인업 확대와 함께 로봇 사업이 신성장 동력으로 부상.
+                    </div>
+                </div>
+
+                <div class="sector-card">
+                    <div class="sector-name">🔋 배터리/이차전지</div>
+                    <div class="sector-weight overweight">Overweight</div>
+                    <div class="sector-desc">
+                        미국 중국산 ESS 수입제한 법안 발의. 음극재 모멘텀, 리튬 가격 반등. 삼성SDI, LG화학 수혜 예상. 중국의 견제가 오히려 국내 업체의 시장점유율 확대로 이어질 전망.
+                    </div>
+                </div>
+
+                <div class="sector-card">
+                    <div class="sector-name">💻 반도체/AI</div>
+                    <div class="sector-weight overweight">Overweight</div>
+                    <div class="sector-desc">
+                        HBM 수혜주 지속, CoWoS 동반 수혜, AI 인프라 투자 확대. 엔비디아 실적 발표 후 주가 조정은 단기적이며, HBM 수요는 여전히 견고. 장비 업체 피에스케이홀딩스도 수혜.
+                    </div>
+                </div>
+
+                <div class="sector-card">
+                    <div class="sector-name">🧪 화학/소재</div>
+                    <div class="sector-weight overweight">Overweight</div>
+                    <div class="sector-desc">
+                        LG화학 지분 감축 가시화. 태양광/페로브스카이트 가치 재평가. 한화솔루션 우주 태양광 사업 진출. 2차 전지 소재 중심으로 성장성 확보.
+                    </div>
+                </div>
+
+                <div class="sector-card">
+                    <div class="sector-name">🎮 게임/엔터테인먼트</div>
+                    <div class="sector-weight overweight">Overweight</div>
+                    <div class="sector-desc">
+                        엔씨소프트 신작 성과, IP파워 부각, 글로벌 경쟁력 강화. 디앤씨미디어 AI 콘텐츠 플랫폼 턴어라운드 예상.
+                    </div>
+                </div>
+
+                <div class="sector-card">
+                    <div class="sector-name">✈️ 방산/항공</div>
+                    <div class="sector-weight positive">Positive</div>
+                    <div class="sector-desc">
+                        대한항공 방산 경쟁력 확인, 글로벌 defense 수요 확대. 중동 리스크로 유가 상승 시 방산주 수혜.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Strategy & Actions -->
+        <div id="strategy" class="section">
+            <div class="card">
+                <div class="card-title">📋 와이즈리포트 기반 통합 전략</div>
+
+                <div class="action-card buy">
+                    <div class="action-header">
+                        <span style="font-size: 1.25rem;">🟢</span>
+                        <span class="action-title">[매수] 삼성SDI 추가 매수</span>
+                    </div>
+                    <div class="action-desc">
+                        와이즈리포트 목표가 ₩580,000 (+34%), 현재 ₩433,000. ESS 수입제한 수혜 + SDC 매각 모멘텀
+                    </div>
+                    <div class="action-reason">
+                        <strong>근거:</strong> 플레이북 분할 매수 원칙 적용. 현재 비중 유지하되 추가 하띹 시 2차 분할 매수. 리포트 투자의견 BUY, 상승여력 충분.
+                    </div>
+                </div>
+
+                <div class="action-card buy">
+                    <div class="action-header">
+                        <span style="font-size: 1.25rem;">🟢</span>
+                        <span class="action-title">[매수] 기아 추가 매수</span>
+                    </div>
+                    <div class="action-desc">
+                        2026.2.25 역사적 신고가 경신. 목표가 ₩240,000 (+22%), EV+로봇 모멘텀
+                    </div>
+                    <div class="action-reason">
+                        <strong>근거:</strong> 와이즈리포트 자동차 섹터 Overweight 권고와 일치. 플레이북 익절 원칙 적용 전 단계로 추가 매수 고려.
+                    </div>
+                </div>
+
+                <div class="action-card sell">
+                    <div class="action-header">
+                        <span style="font-size: 1.25rem;">🔴</span>
+                        <span class="action-title">[손절] 리츠 섹터 전체 감축</span>
+                    </div>
+                    <div class="action-desc">
+                        코람코리츠 (-13.8%), 파마리서치 (-12.9%). 금리 민감 섹터 부진 지속
+                    </div>
+                    <div class="action-reason">
+                        <strong>근거:</strong> 플레이북 손절 원칙(-15%) 임박. 와이즈리포트 리츠 섹터 언급 부재. 금리 인하 시점 지연으로 리스크 관리 필요.
+                    </div>
+                </div>
+
+                <div class="action-card monitor">
+                    <div class="action-header">
+                        <span style="font-size: 1.25rem;">🟡</span>
+                        <span class="action-title">[관망] 반도체 주요 종목</span>
+                    </div>
+                    <div class="action-desc">
+                        AI 거품론으로 변동성 확대. 엔비디아 주가 조정 국면
+                    </div>
+                    <div class="action-reason">
+                        <strong>근거:</strong> 와이즈리포트 반도체 Overweight는 유효하나, 단기 변동성 대비. 플레이북 분산 원칙(30% 제한) 적용 필요.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- News -->
+        <div id="news" class="section">
+            <div class="card">
+                <div class="card-title">📰 최신 시장 이벤트 및 영향</div>
+
+                <div class="news-item">
+                    <div class="news-header">
+                        <span class="news-impact impact-high">HIGH</span>
+                        <span class="news-title">미국 중국산 ESS 수입제한 법안 발의</span>
+                    </div>
+                    <div class="news-desc">
+                        미국 의회, 중국산 ESS에 25% 관세 + 연방조달 제한 법안 발의. 국내 배터리 업체 수혜 전망.
+                    </div>
+                    <div class="news-action">
+                        <strong>💡 포트폴리오 액션:</strong> 삼성SDI, LG에너지솔루션 수혜 예상. 와이즈리포트 BUY 권고와 함께 매수 기회
+                    </div>
+                </div>
+
+                <div class="news-item">
+                    <div class="news-header">
+                        <span class="news-impact impact-high">HIGH</span>
+                        <span class="news-title">이란-미국 분쟁 격화</span>
+                    </div>
+                    <div class="news-desc">
+                        중동 리스크 확산. 유가 상승, 안전자산 선호 심화. 가상자산/위험자산 약세
+                    </div>
+                    <div class="news-action">
+                        <strong>⚠️ 리스크 관리:</strong> 가상자산 비중 축소(8.3%→5%). 방산주(TIME 글로벌우주) 모니터링
+                    </div>
+                </div>
+
+                <div class="news-item">
+                    <div class="news-header">
+                        <span class="news-impact impact-medium">MEDIUM</span>
+                        <span class="news-title">FOMC 3월 금리 동결 확정</span>
+                    </div>
+                    <div class="news-desc">
+                        3월 FOMC 금리 동결 확률 96%. 첫 인하 시점 6월→9월로 지연 전망 우세
+                    </div>
+                    <div class="news-action">
+                        <strong>📊 전략:</strong> 리츠/금리민감주 단기 약세 예상. 금융주(은행) 수혜
+                    </div>
+                </div>
+
+                <div class="news-item">
+                    <div class="news-header">
+                        <span class="news-impact impact-medium">MEDIUM</span>
+                        <span class="news-title">엔비디아 주가 조정 (-4%)</span>
+                    </div>
+                    <div class="news-desc">
+                        AI 거품론 부상. 고평가 논란. 반도체 섹터 단기 변동성 확대
+                    </div>
+                    <div class="news-action">
+                        <strong>📊 전략:</strong> 반도체 비중 유지하되 급락 시 분할 매수. HBM 실적 모멘텀은 유효
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <nav class="bottom-nav">
+        <button class="nav-item" onclick="location.href='command_center.html'">🏠 홈</button>
+        <button class="nav-item" onclick="location.href='portfolio_dashboard_v4.html'">📊 포트폴리오</button>
+        <button class="nav-item" onclick="location.href='portfolio_playbook.html'">📖 플레이북</button>
+    </nav>
+
+    <script>
+        function showTab(tabId) {
+            document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+            document.querySelectorAll('.nav-tab').forEach(t => t.classList.remove('active'));
+            document.getElementById(tabId).classList.add('active');
+            event.target.classList.add('active');
+        }
+    </script>
+</body>
+</html>

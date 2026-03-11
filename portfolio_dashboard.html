@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>포트폴리오 대시보드 - 2026년 2월 21일</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body {
+            font-family: 'Segoe UI', 'Noto Sans KR', sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        h1 {
+            color: white;
+            text-align: center;
+            margin-bottom: 10px;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        .summary-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        .card {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        .card-title {
+            font-size: 0.9em;
+            color: #666;
+            margin-bottom: 10px;
+        }
+        .card-value {
+            font-size: 2em;
+            font-weight: bold;
+            color: #333;
+        }
+        .card-value.total {
+            color: #667eea;
+        }
+        .chart-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        .chart-container {
+            background: white;
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+        .chart-title {
+            font-size: 1.3em;
+            font-weight: bold;
+            margin-bottom: 15px;
+            color: #333;
+        }
+        .full-width {
+            grid-column: 1 / -1;
+        }
+        .update-date {
+            text-align: center;
+            color: rgba(255,255,255,0.8);
+            margin-bottom: 30px;
+            font-size: 1.1em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📊 포트폴리오 대시보드</h1>
+        <p class="update-date">최종 업데이트: 2026년 2월 21일 | 총 자산: 9.92억원 | 58개 종목</p>
+        
+        <div class="summary-cards">
+            <div class="card">
+                <div class="card-title">총 자산</div>
+                <div class="card-value total">9.92억원</div>
+            </div>
+            <div class="card">
+                <div class="card-title">원화 자산 (KRW)</div>
+                <div class="card-value">7.44억원</div>
+            </div>
+            <div class="card">
+                <div class="card-title">USD 자산</div>
+                <div class="card-value">$166,883</div>
+            </div>
+            <div class="card">
+                <div class="card-title">HKD 자산</div>
+                <div class="card-value">HK$36,840</div>
+            </div>
+        </div>
+
+        <div class="chart-grid">
+            <div class="chart-container">
+                <div class="chart-title">🏭 섹터별 비중</div>
+                <canvas id="sectorChart"></canvas>
+            </div>
+            <div class="chart-container">
+                <div class="chart-title">🌍 통화별 비중</div>
+                <canvas id="currencyChart"></canvas>
+            </div>
+            <div class="chart-container full-width">
+                <div class="chart-title">📈 상위 20개 종목 (자산가치 기준)</div>
+                <canvas id="holdingsChart"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const portfolio = [
+            {name:'삼성전자', sector:'첨단 기술', value:94042800, currency:'KRW'},
+            {name:'BTC/KRW', sector:'가상자산', value:69663890, currency:'KRW'},
+            {name:'TIGER 코리아AI전력기기TOP3+', sector:'첨단 기술', value:46507500, currency:'KRW'},
+            {name:'ARTY', sector:'첨단 기술', valueUsd:30354, currency:'USD'},
+            {name:'파마리서치', sector:'헬스케어', value:43470000, currency:'KRW'},
+            {name:'SOL 미국AI전력인프라', sector:'첨단 기술', value:35780800, currency:'KRW'},
+            {name:'현대차3우B', sector:'경기 소비재', value:34222500, currency:'KRW'},
+            {name:'INTC', sector:'첨단 기술', valueUsd:23177.34, currency:'USD'},
+            {name:'DL이앤씨우', sector:'산업재', value:30451500, currency:'KRW'},
+            {name:'TIGER 미국테크TOP10', sector:'ETF', value:29851500, currency:'KRW'},
+            {name:'HSAI', sector:'경기 소비재', valueUsd:13051.20, currency:'USD'},
+            {name:'두산', sector:'금융', value:28260000, currency:'KRW'},
+            {name:'삼성전자우', sector:'첨단 기술', value:27689200, currency:'KRW'},
+            {name:'NLR', sector:'기타', valueUsd:18377.34, currency:'USD'},
+            {name:'GRID ETF', sector:'ETF', valueUsd:17514, currency:'USD'},
+            {name:'ESR켄달스퀘어리츠', sector:'부동산', value:24811990, currency:'KRW'},
+            {name:'ETH/KRW', sector:'가상자산', value:23395027, currency:'KRW'},
+            {name:'NVDA', sector:'첨단 기술', valueUsd:13761.96, currency:'USD'},
+            {name:'KODEX 미국30년국채', sector:'채권', value:19405780, currency:'KRW'},
+            {name:'USD 현금', sector:'현금', valueUsd:13386.17, currency:'USD'},
+        ];
+
+        const USD_KRW = 1450;
+        const totalValue = 992000000;
+
+        // 모든 종목의 원화 환산 가치 계산
+        const allHoldings = portfolio.map(a => {
+            let val = a.value || 0;
+            if (a.valueUsd) val = a.valueUsd * USD_KRW;
+            return {...a, valueKRW: val};
+        }).sort((a,b) => b.valueKRW - a.valueKRW);
+
+        // 섹터별 집계
+        const sectors = {};
+        allHoldings.forEach(a => {
+            if (!sectors[a.sector]) sectors[a.sector] = 0;
+            sectors[a.sector] += a.valueKRW;
+        });
+
+        // 섹터 차트
+        new Chart(document.getElementById('sectorChart'), {
+            type: 'doughnut',
+            data: {
+                labels: Object.keys(sectors),
+                datasets: [{
+                    data: Object.values(sectors),
+                    backgroundColor: ['#667eea', '#764ba2', '#f093fb', '#f5576c', '#4facfe', '#00f2fe', '#43e97b', '#fa709a', '#fee140']
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    legend: { position: 'right' },
+                    tooltip: {
+                        callbacks: {
+                            label: (ctx) => {
+                                const pct = ((ctx.raw / totalValue) * 100).toFixed(1);
+                                return ` ${pct}%`;
+                            }
+                        }
+                    }
+                }
+            }
+        });
+
+        // 통화별 차트
+        const currencyData = {
+            'KRW': allHoldings.filter(a => a.currency === 'KRW').reduce((s,a) => s + a.valueKRW, 0),
+            'USD': allHoldings.filter(a => a.currency === 'USD').reduce((s,a) => s + a.valueKRW, 0),
+        };
+
+        new Chart(document.getElementById('currencyChart'), {
+            type: 'pie',
+            data: {
+                labels: ['원화 (KRW)', 'USD'],
+                datasets: [{
+                    data: Object.values(currencyData),
+                    backgroundColor: ['#667eea', '#f5576c']
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    legend: { position: 'right' },
+                    tooltip: {
+                        callbacks: {
+                            label: (ctx) => {
+                                const pct = ((ctx.raw / totalValue) * 100).toFixed(1);
+                                return ` ${pct}% (${(ctx.raw/100000000).toFixed(2)}억)`;
+                            }
+                        }
+                    }
+                }
+            }
+        });
+
+        // 상위 20개 종목 차트
+        const top20 = allHoldings.slice(0, 20);
+        new Chart(document.getElementById('holdingsChart'), {
+            type: 'bar',
+            data: {
+                labels: top20.map(a => a.name),
+                datasets: [{
+                    label: '자산 가치 (억원)',
+                    data: top20.map(a => a.valueKRW / 100000000),
+                    backgroundColor: '#667eea'
+                }]
+            },
+            options: {
+                responsive: true,
+                indexAxis: 'y',
+                plugins: {
+                    legend: { display: false }
+                },
+                scales: {
+                    x: {
+                        ticks: {
+                            callback: (val) => val.toFixed(2) + '억'
+                        }
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>

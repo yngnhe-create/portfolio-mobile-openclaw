@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WiseReport Full - 2026-03-06</title>
+    <style>
+        :root {
+            --bg: #0a0a0f;
+            --card: #1a1a24;
+            --accent: #3b82f6;
+            --green: #10b981;
+            --red: #ef4444;
+            --text: #f1f5f9;
+        }
+        body {
+            font-family: -apple-system, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            padding: 20px;
+            margin: 0;
+        }
+        .header {
+            background: linear-gradient(135deg, #1e3a5f, #0f172a);
+            padding: 20px;
+            border-radius: 16px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .header h1 {
+            font-size: 1.5rem;
+            background: linear-gradient(90deg, #60a5fa, #34d399);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .header .date {
+            color: #94a3b8;
+            font-size: 0.9rem;
+        }
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        .stat-box {
+            background: var(--card);
+            padding: 15px;
+            border-radius: 12px;
+            text-align: center;
+        }
+        .stat-value {
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: var(--accent);
+        }
+        .stat-label {
+            font-size: 0.75rem;
+            color: #64748b;
+        }
+        .stock-card {
+            background: var(--card);
+            border-radius: 12px;
+            padding: 16px;
+            margin-bottom: 10px;
+            display: grid;
+            grid-template-columns: 40px 1fr 200px;
+            gap: 15px;
+            align-items: center;
+        }
+        .stock-rank {
+            background: linear-gradient(135deg, #8b5cf6, #3b82f6);
+            color: white;
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 0.85rem;
+        }
+        .stock-name {
+            font-size: 1.1rem;
+            font-weight: 700;
+        }
+        .stock-opinion {
+            background: var(--green);
+            color: white;
+            padding: 3px 8px;
+            border-radius: 10px;
+            font-size: 0.7rem;
+            display: inline-block;
+            margin-top: 4px;
+        }
+        .price-info {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 8px;
+        }
+        .price-box {
+            background: #12121a;
+            padding: 10px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        .price-label {
+            font-size: 0.65rem;
+            color: #64748b;
+        }
+        .price-value {
+            font-size: 0.9rem;
+            font-weight: 600;
+        }
+        .price-value.target { color: var(--accent); }
+        .price-value.up { color: var(--green); }
+        .price-value.down { color: var(--red); }
+        .stock-desc {
+            grid-column: 1 / -1;
+            font-size: 0.8rem;
+            color: #94a3b8;
+            margin-top: 5px;
+            padding-top: 10px;
+            border-top: 1px solid #2d2d3d;
+        }
+        @media (max-width: 768px) {
+            .stock-card {
+                grid-template-columns: 1fr;
+            }
+            .price-info {
+                margin-top: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>📊 WiseReport Full Analysis</h1>
+        <div class="date">2026-03-06 | 10개 종목 분석</div>
+    </div>
+    
+    <div class="stats">
+        <div class="stat-box">
+            <div class="stat-value">10</div>
+            <div class="stat-label">분석 종목</div>
+        </div>
+        <div class="stat-box">
+            <div class="stat-value" style="color: var(--green);">+30.5%</div>
+            <div class="stat-label">평균 상승여력</div>
+        </div>
+        <div class="stat-box">
+            <div class="stat-value" style="color: var(--accent);">85%</div>
+            <div class="stat-label">BUY 비중</div>
+        </div>
+    </div>
+    
+    
+        <div class="stock-card">
+            <div class="stock-rank">#1</div>
+            <div class="stock-info">
+                <div class="stock-name">원익QnC</div>
+                <div class="stock-opinion">매수</div>
+            </div>
+            <div class="price-info">
+                <div class="price-box">
+                    <div class="price-label">현재가</div>
+                    <div class="price-value">₩32,000</div>
+                </div>
+                <div class="price-box">
+                    <div class="price-label">목표가</div>
+                    <div class="price-value target">₩45,000</div>
+                </div>
+                <div class="price-box">
+                    <div class="price-label">상승여력</div>
+                    <div class="price-value up">+40.6%</div>
+                </div>
+            </div>
+            <div class="stock-desc">쿼츠 및 세정 풀가동</div>
+        </div>
+        
+        <div class="stock-card">
+            <div class="stock-rank">#2</div>
+            <div class="stock-info">
+                <div class="stock-name">한국가스공사</div>
+                <div class="stock-opinion">Buy</div>
+            </div>
+            <div class="price-info">
+                <div class="price-box">
+                    <div class="price-label">현재가</div>
+                    <div class="price-value">₩45,000</div>
+                </div>
+                <div class="price-box">
+                    <div class="price-label">목표가</div>
+                    <div class="price-value target">₩50,000</div>
+                </div>
+                <div class="price-box">
+                    <div class="price-label">상승여력</div>
+                    <div class="price-value up">+11.1%</div>
+                </div>
+            </div>
+            <div class="stock-desc">배당이 아쉬우나 안정적</div>
+        </div>
+        
+        <div class="stock-card">
+            <div class="stock-rank">#3</div>
+            <div class="stock-info">
+                <div class="stock-name">한화비전</div>
+                <div class="stock-opinion">BUY</div>
+            </div>
+            <div class="price-info">
+                <div class="price-box">
+                    <div class="price-label">현재가</div>
+                    <div class="price-value">₩85,000</div>
+                </div>
+                <div class="price-box">
+                    <div class="price-label">목표가</div>
+                    <div class="price-value target">₩120,000</div>
+                </div>
+                <div class="price-box">
+                    <div class="price-label">상승여력</div>
+                    <div class="price-value up">+41.2%</div>
+                </div>
+            </div>
+            <div class="stock-desc">반도체 장비 수주 본격화</div>
+        </div>
+        
+        <div class="stock-card">
+            <div class="stock-rank">#4</div>
+            <div class="stock-info">
+                <div class="stock-name">전체
+									분류/제공처
+									KeyPoint
+									조회수Top
+									
+									추천종목
+									MP
+									MyPage</div>
+                <div class="stock-opinion"></div>
+            </div>
+            <div class="price-info">
+                <div class="price-box">
+                    <div class="price-label">현재가</div>
+                    <div class="price-value">₩Company
+									ETF/ETN
+									Industry
+									Insider
+									ChartFocus</div>
+                </div>
+                <div class="price-box">
+                    <div class="price-label">목표가</div>
+                    <div class="price-value target">₩</div>
+                </div>
+                <div class="price-box">
+                    <div class="price-label">상승여력</div>
+                    <div class="price-value down"></div>
+                </div>
+            </div>
+            <div class="stock-desc"></div>
+        </div>
+        
+        <div class="stock-card">
+            <div class="stock-rank">#5</div>
+            <div class="stock-info">
+                <div class="stock-name">아이디 저장
+									회원가입
+								
+								
+									
+									
+								
+								
+									
+									아이디 찾기 비밀번호 찾기</div>
+                <div class="stock-opinion"></div>
+            </div>
+            <div class="price-info">
+                <div class="price-box">
+                    <div class="price-label">현재가</div>
+                    <div class="price-value">₩</div>
+                </div>
+                <div class="price-box">
+                    <div class="price-label">목표가</div>
+                    <div class="price-value target">₩</div>
+                </div>
+                <div class="price-box">
+                    <div class="price-label">상승여력</div>
+                    <div class="price-value down"></div>
+                </div>
+            </div>
+            <div class="stock-desc"></div>
+        </div>
+        
+        <div class="stock-card">
+            <div class="stock-rank">#6</div>
+            <div class="stock-info">
+                <div class="stock-name">와이즈리포트 활용 사례 공모 안내
+                    리타민 라이트 요금제</div>
+                <div class="stock-opinion">목표주가</div>
+            </div>
+            <div class="price-info">
+                <div class="price-box">
+                    <div class="price-label">현재가</div>
+                    <div class="price-value">₩</div>
+                </div>
+                <div class="price-box">
+                    <div class="price-label">목표가</div>
+                    <div class="price-value target">₩Today Top Report
+
+원익QnC
+매수
+쿼츠 및 세정 풀가동. 수익성 더 좋아진다
+
+
+BNK투자증권 이민희
+
+
+
+목표주가
+
+45,000
+
+
+추정EPS
+
+1,804
+
+
+
+
+
+
+
+ 
+
+Today Hot Report
+
+한화비전
+BUY
+반도체 장비 수주 본격화, 고객 다변화 성공
+
+
+키움증권 박유악
+
+
+
+목표주가
+
+120,000
+
+
+추정EPS
+
+4,066
+
+
+
+
+
+
+
+ 
+
+Today Best Report
+
+한국가스공사
+Buy
+배당이 아쉬우니
+
+
+한화투자증권 송유림,김예인
+
+
+
+목표주가
+
+50,000
+
+
+추정EPS
+
+8,146
+
+
+
+
+
+
+
+ 
+
+Today Top Report
+
+원익QnC
+매수
+쿼츠 및 세정 풀가동. 수익성 더 좋아진다
+
+
+BNK투자증권 이민희
+
+
+
+목표주가
+
+45,000
+
+
+추정EPS
+
+1,804
+
+
+
+
+
+
+
+ 
+
+Today Hot Report
+
+한화비전
+BUY
+반도체 장비 수주 본격화, 고객 다변화 성공
+
+
+키움증권 박유악
+
+
+
+목표주가
+
+120,000
+
+
+추정EPS
+
+4,066
+
+
+
+
+
+
+prevnext
+            
+            
+                
+                    HOT
+                    BEST
+                    TOP</div>
+                </div>
+                <div class="price-box">
+                    <div class="price-label">상승여력</div>
+                    <div class="price-value down"></div>
+                </div>
+            </div>
+            <div class="stock-desc"></div>
+        </div>
+        
+        <div class="stock-card">
+            <div class="stock-rank">#7</div>
+            <div class="stock-info">
+                <div class="stock-name">목표주가</div>
+                <div class="stock-opinion"></div>
+            </div>
+            <div class="price-info">
+                <div class="price-box">
+                    <div class="price-label">현재가</div>
+                    <div class="price-value">₩</div>
+                </div>
+                <div class="price-box">
+                    <div class="price-label">목표가</div>
+                    <div class="price-value target">₩45,000</div>
+                </div>
+                <div class="price-box">
+                    <div class="price-label">상승여력</div>
+                    <div class="price-value down"></div>
+                </div>
+            </div>
+            <div class="stock-desc"></div>
+        </div>
+        
+        <div class="stock-card">
+            <div class="stock-rank">#8</div>
+            <div class="stock-info">
+                <div class="stock-name">추정EPS</div>
+                <div class="stock-opinion"></div>
+            </div>
+            <div class="price-info">
+                <div class="price-box">
+                    <div class="price-label">현재가</div>
+                    <div class="price-value">₩</div>
+                </div>
+                <div class="price-box">
+                    <div class="price-label">목표가</div>
+                    <div class="price-value target">₩1,804</div>
+                </div>
+                <div class="price-box">
+                    <div class="price-label">상승여력</div>
+                    <div class="price-value down"></div>
+                </div>
+            </div>
+            <div class="stock-desc"></div>
+        </div>
+        
+        <div class="stock-card">
+            <div class="stock-rank">#9</div>
+            <div class="stock-info">
+                <div class="stock-name">신규 WiseRport
+						[주간 해외] 중국 양회(兩會), 단기 지표보다 산업 구조 전환에 주목26/03/09[식품] F&B Weekly Comment: 변동성을 대처하는 자세(Feat. 전쟁 영향 점검)26/03/09[월간 경제] 반도체 롱사이클26/03/09[무선통신서비스] AI 시대에 통신의 먹거리(MWC 2026 참관기)26/03/09[판매업체] 삼김시대: 물김, 마른김, 조미김26/03/09[관심종목] 국내 투자유망 포트폴리오26/03/09[미국/빌리빌리] 2026년에는 AI 투자 가속화26/03/09[분기 계량분석] 1Q26 실적발표 전 5일을 위한 Active Quant의 定石26/03/09[채권] 트루플레이션(Truflation) vs CPI26/03/09[와이엠티] 일본 독점을 깬 도금 기술, 그 다음 단계로26/03/07[관심종목] 셀트리온-2026년 3월 06일 AIR KOR26/03/06[관심종목] TBH글로벌-2026년 3월 06일 AIR KOR26/03/06[관심종목] 세아제강지주-2026년 3월 06일 AIR KOR26/03/06[관심종목] 동부건설-2026년 3월 06일 AIR KOR26/03/06[관심종목] 에스티팜-2026년 3월 06일 AIR KOR26/03/06</div>
+                <div class="stock-opinion">[주간 해외] 중국 양회(兩會), 단기 지표보다 산업 구조 전환에 주목</div>
+            </div>
+            <div class="price-info">
+                <div class="price-box">
+                    <div class="price-label">현재가</div>
+                    <div class="price-value">₩</div>
+                </div>
+                <div class="price-box">
+                    <div class="price-label">목표가</div>
+                    <div class="price-value target">₩신규 WiseRport
+						[주간 해외] 중국 양회(兩會), 단기 지표보다 산업 구조 전환에 주목26/03/09[식품] F&B Weekly Comment: 변동성을 대처하는 자세(Feat. 전쟁 영향 점검)26/03/09[월간 경제] 반도체 롱사이클26/03/09[무선통신서비스] AI 시대에 통신의 먹거리(MWC 2026 참관기)26/03/09[판매업체] 삼김시대: 물김, 마른김, 조미김26/03/09[관심종목] 국내 투자유망 포트폴리오26/03/09[미국/빌리빌리] 2026년에는 AI 투자 가속화26/03/09[분기 계량분석] 1Q26 실적발표 전 5일을 위한 Active Quant의 定石26/03/09[채권] 트루플레이션(Truflation) vs CPI26/03/09[와이엠티] 일본 독점을 깬 도금 기술, 그 다음 단계로26/03/07[관심종목] 셀트리온-2026년 3월 06일 AIR KOR26/03/06[관심종목] TBH글로벌-2026년 3월 06일 AIR KOR26/03/06[관심종목] 세아제강지주-2026년 3월 06일 AIR KOR26/03/06[관심종목] 동부건설-2026년 3월 06일 AIR KOR26/03/06[관심종목] 에스티팜-2026년 3월 06일 AIR KOR26/03/06</div>
+                </div>
+                <div class="price-box">
+                    <div class="price-label">상승여력</div>
+                    <div class="price-value down"></div>
+                </div>
+            </div>
+            <div class="stock-desc"></div>
+        </div>
+        
+        <div class="stock-card">
+            <div class="stock-rank">#10</div>
+            <div class="stock-info">
+                <div class="stock-name">main_Chart_01
+    
+
+
+    
+    Created with Highcharts 4.0.3[총 45개]35590141530에너지소재산업재경기관련소비재필수소비재건강관리금융IT커뮤니케이션서비스유틸리티01020  
+
+
+
+                                
+
+
+
+    main_Chart_02
+     
+
+
+    Created with Highcharts 4.0.3[총 12개][총 1개]1121611에너지소재산업재경기관련소비재필수소비재건강관리금융IT커뮤니케이션서비스유틸리티05-510기준일:26.03.06</div>
+                <div class="stock-opinion"></div>
+            </div>
+            <div class="price-info">
+                <div class="price-box">
+                    <div class="price-label">현재가</div>
+                    <div class="price-value">₩main_Chart_01
+    
+
+
+    
+    Created with Highcharts 4.0.3[총 45개]35590141530에너지소재산업재경기관련소비재필수소비재건강관리금융IT커뮤니케이션서비스유틸리티01020</div>
+                </div>
+                <div class="price-box">
+                    <div class="price-label">목표가</div>
+                    <div class="price-value target">₩main_Chart_02
+     
+
+
+    Created with Highcharts 4.0.3[총 12개][총 1개]1121611에너지소재산업재경기관련소비재필수소비재건강관리금융IT커뮤니케이션서비스유틸리티05-510기준일:26.03.06</div>
+                </div>
+                <div class="price-box">
+                    <div class="price-label">상승여력</div>
+                    <div class="price-value down">0%</div>
+                </div>
+            </div>
+            <div class="stock-desc"></div>
+        </div>
+        
+    
+    <div style="text-align: center; padding: 30px; color: #64748b; font-size: 0.8rem;">
+        📈 실시간 스크래핑 데이터 | 생성: 2026-03-06 10:41:59
+    </div>
+</body>
+</html>

@@ -1,0 +1,106 @@
+[14:00:10] 🚀 Starting Global + Korean Financial News Scan
+[14:00:10] 📅 2026-03-04 14:00 KST
+[14:00:10] 
+======================================================================
+🚀 Global + Korean Financial News Scanner
+======================================================================
+
+============================================================
+📰 Scanning Korean Financial News...
+============================================================
+  [연합인포맥스]... /Users/geon/.openclaw/workspace/scripts/global_news_scanner.py:164: DeprecationWarning: Testing an element's truth value will always return True in future versions.  Use specific 'len(elem)' or 'elem is not None' test instead.
+  title_elem = item.find('title') or item.find('{http://www.w3.org/2005/Atom}title')
+/Users/geon/.openclaw/workspace/scripts/global_news_scanner.py:167: DeprecationWarning: Testing an element's truth value will always return True in future versions.  Use specific 'len(elem)' or 'elem is not None' test instead.
+  link_elem = item.find('link') or item.find('{http://www.w3.org/2005/Atom}link')
+/Users/geon/.openclaw/workspace/scripts/global_news_scanner.py:173: DeprecationWarning: Testing an element's truth value will always return True in future versions.  Use specific 'len(elem)' or 'elem is not None' test instead.
+  desc_elem = item.find('description') or item.find('{http://www.w3.org/2005/Atom}summary')
+✅ 0 new
+  [연합뉴스경제]... ✅ 0 new
+  [한국경제]... ✅ 0 new
+  [매일경제]... ❌ Failed
+  [머니투데이]... ❌ Failed
+  [아시아경제]... ❌ Failed
+  [이데일리]... ✅ 0 new
+  [서울경제]... ✅ 0 new
+  [전자신문]... ✅ 0 new
+  [아이뉴스24]... ❌ Failed
+
+============================================================
+🌍 Scanning International Tech News...
+============================================================
+  [TechCrunch AI]... ✅ 0 new
+  [The Verge AI]... ✅ 10 new
+  [OpenAI Blog]... ✅ 0 new
+  [Google AI]... ✅ 0 new
+  [Hugging Face]... ✅ 0 new
+  [MIT Tech Review]... ✅ 0 new
+  [Wired AI]... ✅ 0 new
+  [Ars Technica]... ✅ 0 new
+  [VentureBeat AI]... ✅ 0 new
+  [THE DECODER]... ✅ 0 new
+  [Simon Willison]... ✅ 15 new
+  [Ben's Bites]... ✅ 0 new
+
+============================================================
+💹 Scanning Global Financial News...
+============================================================
+  [Reuters Tech]... ❌ Failed
+  [Bloomberg Markets]... ✅ 0 new
+  [CNBC Finance]... ✅ 0 new
+  [Financial Times]... ✅ 0 new
+  [WSJ Markets]... ✅ 0 new
+  [MarketWatch]... ✅ 0 new
+
+============================================================
+🔥 Scanning Reddit...
+============================================================
+  [r/machinelearning]... ✅ 3 new
+  [r/artificial]... ✅ 4 new
+  [r/singularity]... ✅ 10 new
+  [r/LocalLLaMA]... ✅ 9 new
+  [r/OpenAI]... ✅ 10 new
+  [r/ChatGPT]... ✅ 10 new
+  [r/ClaudeAI]... ✅ 10 new
+  [r/technology]... ✅ 10 new
+  [r/Futurology]... ✅ 9 new
+  [r/investing]... ✅ 5 new
+  [r/wallstreetbets]... ✅ 10 new
+  [r/cryptocurrency]... ✅ 9 new
+  [r/Bitcoin]... ✅ 8 new
+
+======================================================================
+📊 Summary: 132 new articles found
+======================================================================
+
+📤 Telegram Output:
+----------------------------------------------------------------------
+📊 <b>오늘의 투자 뉴스</b>
+📅 2026.03.04 14:00
+📰 Total Sources: 28 RSS + 13 Reddit
+
+🤖 <b>AI/테크</b>
+• <a href='https://reddit.com/r/Futurology/comments/1ri1by8/cancel_chatgpt_movement_goes_mainstream_after/'>"Cancel ChatGPT" movement goes mainstream after OpenAI cl...</a>
+  └ 🔥 Reddit r/Futurology | Score: 3696
+• <a href='https://reddit.com/r/technology/comments/1rjxe9f/15_million_users_leave_chatgpt/'>1.5 Million Users Leave ChatGPT</a>
+  └ 🔥 Reddit r/technology | Score: 3051
+• <a href='https://reddit.com/r/Futurology/comments/1rie603/claude_hits_no_1_on_app_store_as_chatgpt_users/'>Claude hits No. 1 on App Store as ChatGPT users defect in...</a>
+  └ 🔥 Reddit r/Futurology | Score: 853
+
+🌍 <b>글로벌마켓</b>
+• <a href='https://reddit.com/r/wallstreetbets/comments/1rjns62/paramount_psky_debt_downgraded_to_junk_following/'>Paramount (PSKY) Debt Downgraded to Junk Following Warner...</a>
+  └ 🔥 Reddit r/wallstreetbets | Score: 1009
+
+📰 <b>기타</b>
+• <a href='https://reddit.com/r/technology/comments/1rjkj9u/uk_pornography_depicting_sexual_relationships/'>UK: Pornography depicting sexual relationships between st...</a>
+  └ 🔥 Reddit r/technology | Score: 1181
+• <a href='https://reddit.com/r/ChatGPT/comments/1rjiw7c/what_are_the_alternatives/'>What are the alternatives?</a>
+  └ 🔥 Reddit r/ChatGPT | Score: 382
+• <a href='https://reddit.com/r/CryptoCurrency/comments/1rj2b4l/journey_for_financial_freedom/'>Journey for financial freedom</a>
+  └ 🔥 Reddit r/cryptocurrency | Score: 264
+
+----------------------------------------------------------------------
+
+💾 Saved: /Users/geon/.openclaw/workspace/memory/news_output_telegram.txt
+[14:00:42] 
+[14:00:42] ✅ News scan completed
+[14:00:42] 📝 Log: /Users/geon/.openclaw/workspace/logs/news_scan_20260304_1400.log

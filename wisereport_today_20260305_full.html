@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WiseReport Today - 2026.03.05</title>
+    <style>
+        :root { --bg-primary: #0a0a0f; --bg-card: #1a1a24; --accent-blue: #3b82f6; --accent-green: #10b981; --text-primary: #f1f5f9; }
+        body { font-family: -apple-system, sans-serif; background: var(--bg-primary); color: var(--text-primary); padding: 16px; margin: 0; }
+        .header { background: linear-gradient(135deg, #1e3a5f, #0f172a); padding: 20px; border-radius: 12px; margin-bottom: 16px; }
+        .header-title { font-size: 1.3rem; font-weight: 700; background: linear-gradient(90deg, #60a5fa, #34d399); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .date { font-size: 0.8rem; color: #94a3b8; margin-top: 4px; }
+        .card { background: var(--bg-card); border-radius: 12px; padding: 16px; margin-bottom: 12px; }
+        .card-title { font-size: 1rem; font-weight: 700; margin-bottom: 12px; color: var(--accent-blue); }
+        .highlight { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px; margin-bottom: 16px; }
+        .highlight-item { background: var(--bg-card); border-radius: 12px; padding: 16px 8px; text-align: center; border: 2px solid transparent; }
+        .highlight-item.top { border-color: #8b5cf6; }
+        .highlight-item.hot { border-color: #ef4444; }
+        .highlight-item.best { border-color: #10b981; }
+        .highlight-label { font-size: 0.7rem; color: #64748b; margin-bottom: 6px; }
+        .highlight-value { font-size: 0.85rem; font-weight: 700; }
+        .stock-card { background: var(--bg-card); border-radius: 12px; padding: 12px; margin-bottom: 8px; }
+        .stock-header { display: flex; justify-content: space-between; margin-bottom: 8px; }
+        .stock-name { font-weight: 700; }
+        .opinion { background: var(--accent-green); color: white; padding: 2px 8px; border-radius: 10px; font-size: 0.7rem; }
+        .price-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 8px; font-size: 0.8rem; }
+        .price-box { text-align: center; }
+        .price-label { color: #64748b; font-size: 0.7rem; }
+        .news-card { background: var(--bg-card); border-radius: 12px; padding: 12px; margin-bottom: 8px; border-left: 3px solid #f59e0b; }
+        .news-title { font-weight: 600; margin-bottom: 4px; }
+        .news-source { font-size: 0.75rem; color: #64748b; margin-bottom: 6px; }
+        .impact { background: rgba(245, 158, 11, 0.1); border-radius: 8px; padding: 8px; font-size: 0.8rem; color: #94a3b8; }
+        .strategy-card { background: var(--bg-card); border-radius: 12px; padding: 16px; margin-bottom: 12px; border-left: 3px solid var(--accent-green); }
+        .strategy-title { font-size: 0.9rem; color: var(--accent-green); margin-bottom: 10px; }
+        .nav-tabs { display: flex; gap: 8px; padding: 12px; background: #12121a; overflow-x: auto; }
+        .nav-tab { flex-shrink: 0; padding: 8px 16px; border-radius: 20px; font-size: 0.85rem; font-weight: 600; color: #94a3b8; cursor: pointer; }
+        .nav-tab.active { color: var(--accent-blue); background: rgba(59, 130, 246, 0.2); }
+        .section { display: none; padding: 16px; }
+        .section.active { display: block; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="header-title">📊 WiseReport Today</div>
+        <div class="date">2026년 3월 5일 (목)</div>
+        <div style="margin-top: 8px; font-size: 0.75rem; color: #64748b;">
+            목표가 변경: <span style="color: var(--accent-green);">39개</span> | 상향: <span style="color: var(--accent-green);">25개</span> | 하향: <span style="color: #ef4444;">2개</span>
+        </div>
+    </div>
+
+    <div class="nav-tabs">
+        <div class="nav-tab active" onclick="showSection('summary')">개요</div>
+        <div class="nav-tab" onclick="showSection('stocks')">종목</div>
+        <div class="nav-tab" onclick="showSection('sectors')">섹터</div>
+        <div class="nav-tab" onclick="showSection('news')">뉴스</div>
+    </div>
+
+    <div id="summary" class="section active">
+        <div class="card">
+            <div style="font-size: 0.9rem; color: #94a3b8; line-height: 1.6;">
+                <strong style="color: var(--text-primary);">Executive Summary:</strong> 국내 증시는 <strong style="color: var(--accent-blue);">반도체·배터리·자동차</strong> 3대 성장 엔진의 강력한 모멘텀 아래 있습니다. 미국 보호무역 정책이 오히려 국내 배터리 기업에 수혜를 주고 있으며, 자동차 산업은 AI/로보틱스 융합으로 진화 중입니다.
+            </div>
+            <div style="display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px;">
+                <span style="background: rgba(59, 130, 246, 0.2); color: var(--accent-blue); padding: 4px 12px; border-radius: 20px; font-size: 0.75rem;">배터리 수혜</span>
+                <span style="background: rgba(59, 130, 246, 0.2); color: var(--accent-blue); padding: 4px 12px; border-radius: 20px; font-size: 0.75rem;">AI 융합</span>
+                <span style="background: rgba(59, 130, 246, 0.2); color: var(--accent-blue); padding: 4px 12px; border-radius: 20px; font-size: 0.75rem;">주주환원</span>
+            </div>
+        </div>
+
+        <div class="highlight">
+            <div class="highlight-item top">
+                <div class="highlight-label">🏆 TOP Pick</div>
+                <div class="highlight-value" style="color: #8b5cf6;">네오위즈</div>
+            </div>
+            <div class="highlight-item hot">
+                <div class="highlight-label">🔥 HOT Pick</div>
+                <div class="highlight-value" style="color: #ef4444;">티씨케이</div>
+            </div>
+            <div class="highlight-item best">
+                <div class="highlight-label">⭐ BEST Pick</div>
+                <div class="highlight-value" style="color: var(--accent-green);">한국가스공사</div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-title">🎯 투자 전략</div>
+            <ul style="color: #94a3b8; font-size: 0.85rem; line-height: 1.6; margin: 0; padding-left: 16px;">
+                <li>대형주 중심, 특히 반도체/배터리/자동차 비중 확대</li>
+                <li>주주환원 강화 기업(자사주 소각, 배당 확대) 우대</li>
+                <li>음극재·양극재 등 배터리 소재 중소형주 탐색</li>
+                <li>로봇산업 (LG이노텍 등) 장기 관점 검토</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="stocks" class="section">
+        <div class="card-title">📈 목표가 상향 TOP 10</div>
+        
+        <div class="stock-card">
+            <div class="stock-header">
+                <div>
+                    <div class="stock-name">씨젠</div>
+                    <span class="opinion">매수</span>
+                </div>
+                <div style="color: #8b5cf6; font-weight: 700;">#1</div>
+            </div>
+            <div class="price-row">
+                <div class="price-box">
+                    <div class="price-label">현재가</div>
+                    <div>27,000</div>
+                </div>
+                <div class="price-box">
+                    <div class="price-label">목표가</div>
+                    <div style="color: var(--accent-blue);">44,000</div>
+                </div>
+                <div class="price-box">
+                    <div class="price-label">상승여력</div>
+                    <div style="color: var(--accent-green);">+63%</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="stock-card">
+            <div class="stock-header">
+                <div>
+                    <div class="stock-name">피에스케이홀딩스</div>
+                    <span class="opinion">매수</span>
+                </div>
+                <div style="color: #8b5cf6; font-weight: 700;">#2</div>
+            </div>
+            <div class="price-row">
+                <div class="price-box">
+                    <div class="price-label">현재가</div>
+                    <div>80,500</div>
+                </div>
+                <div class="price-box">
+                    <div class="price-label">목표가</div>
+                    <div style="color: var(--accent-blue);">125,000</div>
+                </div>
+                <div class="price-box">
+                    <div class="price-label">상승여력</div>
+                    <div style="color: var(--accent-green);">+55%</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="stock-card">
+            <div class="stock-header">
+                <div>
+                    <div class="stock-name">포스코퓨처엠</div>
+                    <span class="opinion">BUY</span>
+                </div>
+                <div style="color: #8b5cf6; font-weight: 700;">#3</div>
+            </div>
+            <div class="price-row">
+                <div class="price-box">
+                    <div class="price-label">현재가</div>
+                    <div>246,000</div>
+                </div>
+                <div class="price-box">
+                    <div class="price-label">목표가</div>
+                    <div style="color: var(--accent-blue);">370,000</div>
+                </div>
+                <div class="price-box">
+                    <div class="price-label">상승여력</div>
+                    <div style="color: var(--accent-green);">+50%</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- More stocks would go here -->
+        
+        <div style="text-align: center; padding: 20px; color: #64748b; font-size: 0.8rem;">
+            총 27개 종목 (Managed Browser 2026.03.05 추출)
+        </div>
+    </div>
+
+    <div id="sectors" class="section">
+        <div class="card-title">🏭 섹터별 전망</div>
+        
+        <div class="stock-card">
+            <div class="stock-header">
+                <div class="stock-name">🔋 배터리/이차전지</div>
+                <span style="background: var(--accent-green); color: white; padding: 2px 8px; border-radius: 10px; font-size: 0.7rem;">Overweight</span>
+            </div>
+            <div style="font-size: 0.85rem; color: #94a3b8; margin-top: 8px;">
+                미국 중국산 ESS 수입제한 법안 수혜. 음극재 모멘텀 및 리튬 가격 반등으로 실적 개선 기대.
+            </div>
+        </div>
+
+        <div class="stock-card">
+            <div class="stock-header">
+                <div class="stock-name">🚗 자동차/로봇</div>
+                <span style="background: var(--accent-green); color: white; padding: 2px 8px; border-radius: 10px; font-size: 0.7rem;">Overweight</span>
+            </div>
+            <div style="font-size: 0.85rem; color: #94a3b8; margin-top: 8px;">
+                기아 역사적 신고가, LG이노텍 로봇사업 진출, 자동차-AI 융합 가속.
+            </div>
+        </div>
+
+        <div class="stock-card">
+            <div class="stock-header">
+                <div class="stock-name">💻 반도체/AI</div>
+                <span style="background: var(--accent-green); color: white; padding: 2px 8px; border-radius: 10px; font-size: 0.7rem;">Overweight</span>
+            </div>
+            <div style="font-size: 0.85rem; color: #94a3b8; margin-top: 8px;">
+                HBM 수혜주 지속, CoWoS 동반 수혜, AI 인프라 투자 확대.
+            </div>
+        </div>
+    </div>
+
+    <div id="news" class="section">
+        <div class="card-title">📰 3월 5일 뉴스 & 시사점</div>
+        
+        <div class="news-card">
+            <div class="news-title">이란-미국 분쟁 격화...유가 상승</div>
+            <div class="news-source">WiseReport | 2026.03.05</div>
+            <div class="impact">
+                <strong>시사점:</strong> 에너지/방산 섹터 단기 수혜. 항공/운송업 비용 상승 부담.
+            </div>
+        </div>
+
+        <div class="news-card">
+            <div class="news-title">미국 중국산 ESS 수입제한 법안 확정</div>
+            <div class="news-source">WiseReport | 2026.03.05</div>
+            <div class="impact">
+                <strong>시사점:</strong> 삼성SDI, LG에너지솔루션 등 국내 배터리 기업 수혜 예상.
+            </div>
+        </div>
+
+        <div class="news-card">
+            <div class="news-title">OpenAI VP, Anthropic으로 이직</div>
+            <div class="news-source">Reddit r/OpenAI | 2026.03.05</div>
+            <div class="impact">
+                <strong>시사점:</strong> AI 인재 쟁탈전 심화. Anthropic 관련주(파트론 등) 관심.
+            </div>
+        </div>
+
+        <div class="strategy-card">
+            <div class="strategy-title">💼 내 포트폴리오 시사점</div>
+            <ul style="color: #94a3b8; font-size: 0.85rem; line-height: 1.6; margin: 0; padding-left: 16px;">
+                <li>반도체/배터리 비중 확대: 외국인 매수 + 정책 수혜로 모멘텀 강함</li>
+                <li>주주환원 기업 관심: KT&G, 엔씨소프트 등 자사주 소각 기업</li>
+                <li>지정학적 리스크 대비: 에너지/방산 소폭 비중 확대 고려</li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        function showSection(sectionId) {
+            document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+            document.querySelectorAll('.nav-tab').forEach(t => t.classList.remove('active'));
+            document.getElementById(sectionId).classList.add('active');
+            event.target.classList.add('active');
+        }
+    </script>
+</body>
+</html>

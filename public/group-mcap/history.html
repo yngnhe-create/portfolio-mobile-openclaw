@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>5대그룹 시총 순위 변동 (2015~2026)</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#0a0e1a;color:#e0e6ed;font-family:-apple-system,'Noto Sans KR',sans-serif;padding:16px;padding-bottom:40px}
+h1{font-size:18px;font-weight:800;text-align:center;margin:12px 0 4px;background:linear-gradient(90deg,#3b82f6,#8b5cf6);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.sub{text-align:center;color:#8b9dc3;font-size:12px;margin-bottom:20px}
+.card{background:#151b2d;border-radius:14px;padding:16px;margin-bottom:16px;border:1px solid #2d3748}
+.card-title{font-size:13px;font-weight:700;color:#8b9dc3;margin-bottom:14px}
+.legend{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px;justify-content:center}
+.leg-item{display:flex;align-items:center;gap:5px;font-size:11px;font-weight:600}
+.leg-dot{width:10px;height:10px;border-radius:50%}
+/* 순위표 */
+.rank-table{width:100%;border-collapse:collapse;font-size:11px}
+.rank-table th{background:#1a1f2e;padding:8px 6px;text-align:center;color:#8b9dc3;font-weight:600;border-bottom:2px solid #2d3748}
+.rank-table td{padding:7px 6px;text-align:center;border-bottom:1px solid rgba(45,55,72,0.4)}
+.rank-table tr:last-child td{border-bottom:none}
+.badge{display:inline-block;padding:2px 7px;border-radius:10px;font-weight:700;font-size:10px}
+/* 이벤트 타임라인 */
+.event-list{display:flex;flex-direction:column;gap:10px}
+.event-item{display:flex;gap:10px;padding:10px 12px;background:#1a1f2e;border-radius:8px;border-left:3px solid var(--c)}
+.event-year{font-size:12px;font-weight:800;color:var(--c);min-width:40px;flex-shrink:0}
+.event-body{font-size:11px;color:#e0e6ed;line-height:1.5}
+.event-body strong{color:#fff}
+/* 시총 변화표 */
+.mcap-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:6px;margin-bottom:6px}
+.mcap-card{background:#1a1f2e;border-radius:8px;padding:10px 8px;text-align:center;border-top:3px solid var(--c)}
+.mcap-name{font-size:10px;color:#8b9dc3;margin-bottom:4px}
+.mcap-val{font-size:14px;font-weight:800;color:var(--c)}
+.mcap-mul{font-size:10px;color:#4ecdc4;margin-top:2px}
+</style>
+</head>
+<body>
+
+<h1>🏆 5대그룹 시총 순위 변동</h1>
+<div class="sub">2015 ~ 2026년 3월 · 국내 상장 계열사 합산 기준</div>
+
+<!-- Legend -->
+<div class="legend">
+  <div class="leg-item"><div class="leg-dot" style="background:#3b82f6"></div>삼성</div>
+  <div class="leg-item"><div class="leg-dot" style="background:#8b5cf6"></div>SK</div>
+  <div class="leg-item"><div class="leg-dot" style="background:#10b981"></div>현대차</div>
+  <div class="leg-item"><div class="leg-dot" style="background:#f59e0b"></div>한화</div>
+  <div class="leg-item"><div class="leg-dot" style="background:#ef4444"></div>LG</div>
+</div>
+
+<!-- Bump Chart -->
+<div class="card">
+  <div class="card-title">📈 순위 변동 추이 (1위가 위, 5위가 아래)</div>
+  <canvas id="bumpChart" height="280"></canvas>
+</div>
+
+<!-- 시총 규모 차트 -->
+<div class="card">
+  <div class="card-title">💰 그룹별 시가총액 규모 변화 (조원)</div>
+  <canvas id="mcapChart" height="260"></canvas>
+</div>
+
+<!-- 순위표 -->
+<div class="card">
+  <div class="card-title">📋 연도별 순위표</div>
+  <div style="overflow-x:auto">
+  <table class="rank-table">
+    <tr>
+      <th>연도</th>
+      <th>🥇 1위</th>
+      <th>🥈 2위</th>
+      <th>🥉 3위</th>
+      <th>4위</th>
+      <th>5위</th>
+    </tr>
+    <tr>
+      <td>2015</td>
+      <td><span class="badge" style="background:rgba(59,130,246,.2);color:#3b82f6">삼성</span></td>
+      <td><span class="badge" style="background:rgba(139,92,246,.2);color:#8b5cf6">SK</span></td>
+      <td><span class="badge" style="background:rgba(16,185,129,.2);color:#10b981">현대차</span></td>
+      <td><span class="badge" style="background:rgba(239,68,68,.2);color:#ef4444">LG</span></td>
+      <td><span style="color:#6b7280">-</span></td>
+    </tr>
+    <tr>
+      <td>2017</td>
+      <td><span class="badge" style="background:rgba(59,130,246,.2);color:#3b82f6">삼성</span></td>
+      <td><span class="badge" style="background:rgba(139,92,246,.2);color:#8b5cf6">SK</span></td>
+      <td><span class="badge" style="background:rgba(16,185,129,.2);color:#10b981">현대차</span></td>
+      <td><span class="badge" style="background:rgba(239,68,68,.2);color:#ef4444">LG</span></td>
+      <td><span style="color:#6b7280">-</span></td>
+    </tr>
+    <tr style="background:rgba(239,68,68,.05)">
+      <td>2020</td>
+      <td><span class="badge" style="background:rgba(59,130,246,.2);color:#3b82f6">삼성</span></td>
+      <td><span class="badge" style="background:rgba(139,92,246,.2);color:#8b5cf6">SK</span></td>
+      <td>🔴 <span class="badge" style="background:rgba(239,68,68,.2);color:#ef4444">LG ↑</span></td>
+      <td>🟢 <span class="badge" style="background:rgba(16,185,129,.2);color:#10b981">현대차 ↓</span></td>
+      <td><span style="color:#6b7280">-</span></td>
+    </tr>
+    <tr style="background:rgba(239,68,68,.08)">
+      <td><strong>2022</strong></td>
+      <td><span class="badge" style="background:rgba(59,130,246,.2);color:#3b82f6">삼성</span></td>
+      <td>🔴 <span class="badge" style="background:rgba(239,68,68,.2);color:#ef4444">LG ↑↑</span></td>
+      <td>🟣 <span class="badge" style="background:rgba(139,92,246,.2);color:#8b5cf6">SK ↓</span></td>
+      <td><span class="badge" style="background:rgba(16,185,129,.2);color:#10b981">현대차</span></td>
+      <td><span class="badge" style="background:rgba(245,158,11,.2);color:#f59e0b">한화</span></td>
+    </tr>
+    <tr style="background:rgba(239,68,68,.05)">
+      <td>2023 H1</td>
+      <td><span class="badge" style="background:rgba(59,130,246,.2);color:#3b82f6">삼성</span></td>
+      <td><span class="badge" style="background:rgba(239,68,68,.2);color:#ef4444">LG</span></td>
+      <td><span class="badge" style="background:rgba(139,92,246,.2);color:#8b5cf6">SK</span></td>
+      <td><span class="badge" style="background:rgba(16,185,129,.2);color:#10b981">현대차</span></td>
+      <td><span class="badge" style="background:rgba(245,158,11,.2);color:#f59e0b">한화</span></td>
+    </tr>
+    <tr style="background:rgba(139,92,246,.05)">
+      <td>2024</td>
+      <td><span class="badge" style="background:rgba(59,130,246,.2);color:#3b82f6">삼성</span></td>
+      <td>🟣 <span class="badge" style="background:rgba(139,92,246,.2);color:#8b5cf6">SK ↑</span></td>
+      <td><span class="badge" style="background:rgba(16,185,129,.2);color:#10b981">현대차</span></td>
+      <td>🔴 <span class="badge" style="background:rgba(239,68,68,.2);color:#ef4444">LG ↓</span></td>
+      <td><span class="badge" style="background:rgba(245,158,11,.2);color:#f59e0b">한화</span></td>
+    </tr>
+    <tr style="background:rgba(245,158,11,.08)">
+      <td><strong>2026.3 🎯</strong></td>
+      <td><span class="badge" style="background:rgba(59,130,246,.2);color:#3b82f6">삼성</span></td>
+      <td><span class="badge" style="background:rgba(139,92,246,.2);color:#8b5cf6">SK</span></td>
+      <td><span class="badge" style="background:rgba(16,185,129,.2);color:#10b981">현대차</span></td>
+      <td>🟠 <span class="badge" style="background:rgba(245,158,11,.2);color:#f59e0b">한화 ↑</span></td>
+      <td>🔴 <span class="badge" style="background:rgba(239,68,68,.2);color:#ef4444">LG ↓</span></td>
+    </tr>
+  </table>
+  </div>
+</div>
+
+<!-- 배수 카드 -->
+<div class="card">
+  <div class="card-title">🚀 2015 → 2026 시총 성장 배수</div>
+  <div class="mcap-grid">
+    <div class="mcap-card" style="--c:#3b82f6">
+      <div class="mcap-name">삼성</div>
+      <div class="mcap-val">1,556조</div>
+      <div class="mcap-mul">+7.7배</div>
+    </div>
+    <div class="mcap-card" style="--c:#8b5cf6">
+      <div class="mcap-name">SK</div>
+      <div class="mcap-val">837조</div>
+      <div class="mcap-mul">+12.7배</div>
+    </div>
+    <div class="mcap-card" style="--c:#10b981">
+      <div class="mcap-name">현대차</div>
+      <div class="mcap-val">270조</div>
+      <div class="mcap-mul">+3.8배</div>
+    </div>
+    <div class="mcap-card" style="--c:#f59e0b">
+      <div class="mcap-name">한화</div>
+      <div class="mcap-val">168조</div>
+      <div class="mcap-mul" style="color:#f59e0b">+36배 🔥</div>
+    </div>
+    <div class="mcap-card" style="--c:#ef4444">
+      <div class="mcap-name">LG</div>
+      <div class="mcap-val">165조</div>
+      <div class="mcap-mul">+4.4배</div>
+    </div>
+  </div>
+</div>
+
+<!-- 이벤트 타임라인 -->
+<div class="card">
+  <div class="card-title">⚡ 순위를 바꾼 결정적 이벤트</div>
+  <div class="event-list">
+    <div class="event-item" style="--c:#3b82f6">
+      <div class="event-year">2017~18</div>
+      <div class="event-body"><strong>반도체 슈퍼사이클</strong> — 삼성전자 주가 2.7만원 돌파, SK하이닉스 2배 급등. 삼성·SK 시총 압도적 확대</div>
+    </div>
+    <div class="event-item" style="--c:#ef4444">
+      <div class="event-year">2020</div>
+      <div class="event-body"><strong>코로나 + 배터리 붐</strong> — LG화학 배터리 사업 기대감으로 <strong>LG가 현대차 추월</strong>, 처음으로 3위 등극</div>
+    </div>
+    <div class="event-item" style="--c:#ef4444">
+      <div class="event-year">2022.1</div>
+      <div class="event-body"><strong>LG에너지솔루션 IPO</strong> — 상장 첫날 시총 70조+ 추가. <strong>LG가 SK 제치고 2위</strong>. 삼성 > LG > SK > 현대차 사상 첫 배열</div>
+    </div>
+    <div class="event-item" style="--c:#ef4444">
+      <div class="event-year">2023 H1</div>
+      <div class="event-body"><strong>이차전지 최절정</strong> — LG에너지솔루션 130조대, LG 그룹 <strong>251조 역대 최고치</strong>. SK와 110조 차이</div>
+    </div>
+    <div class="event-item" style="--c:#8b5cf6">
+      <div class="event-year">2023 H2</div>
+      <div class="event-body"><strong>AI + HBM 붐</strong> — SK하이닉스 HBM 독점 수혜로 <strong>SK 반격, 다시 2위 탈환</strong>. LG는 배터리 캐즘으로 하락</div>
+    </div>
+    <div class="event-item" style="--c:#f59e0b">
+      <div class="event-year">2024~25</div>
+      <div class="event-body"><strong>K-방산·조선 폭등</strong> — 한화에어로스페이스 +300%, 한화오션 +264%. <strong>한화 36배 성장</strong>으로 LG 턱밑 추격</div>
+    </div>
+    <div class="event-item" style="--c:#f59e0b">
+      <div class="event-year" style="font-size:10px">2026.3.8</div>
+      <div class="event-body">🎯 <strong>이란 전쟁 발발</strong> — 방산주 폭등으로 <strong>한화(181조)가 LG(175조) 추월</strong>. 사상 첫 5대그룹 4위 진입</div>
+    </div>
+  </div>
+</div>
+
+<div style="text-align:center;color:#4b5563;font-size:10px;margin-top:8px">
+  출처: 한국거래소·공정거래위원회·에프앤가이드·리더스인덱스 | 2015~2018 추정치 포함<br>
+  <span id="upd"></span>
+</div>
+
+<script>
+document.getElementById('upd').textContent = '업데이트: ' + new Date().toLocaleString('ko-KR',{timeZone:'Asia/Seoul'});
+
+// ── 데이터 ──────────────────────────────────────────
+const labels = ['2015','2016','2017','2018','2019','2020','2021','2022','2023H1','2023H2','2024','2025Q1','2025Q3','2026.1','2026.3'];
+
+// 순위 (1=1위, 5=5위)
+const rankData = {
+  삼성:    [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],
+  SK:      [2,2,2,2,2,2,2,3,3,2,2,2,2,2,2],
+  현대차:  [3,3,3,4,3,4,4,4,4,3,3,4,3,3,3],
+  한화:    [5,5,5,5,5,5,5,5,5,5,5,5,5,5,4],
+  LG:      [4,4,4,3,4,3,3,2,2,4,4,3,4,4,5],
+};
+
+const colors = {
+  삼성:'#3b82f6', SK:'#8b5cf6', 현대차:'#10b981', 한화:'#f59e0b', LG:'#ef4444'
+};
+
+// ── 범프차트 ──────────────────────────────────────────
+const bumpDatasets = Object.entries(rankData).map(([name, ranks]) => ({
+  label: name,
+  data: ranks,
+  borderColor: colors[name],
+  backgroundColor: colors[name],
+  borderWidth: 2.5,
+  pointRadius: 5,
+  pointHoverRadius: 8,
+  tension: 0.3,
+  fill: false,
+}));
+
+new Chart(document.getElementById('bumpChart'), {
+  type:'line',
+  data:{labels, datasets:bumpDatasets},
+  options:{
+    responsive:true,
+    plugins:{
+      legend:{display:false},
+      tooltip:{
+        callbacks:{
+          label: ctx => `${ctx.dataset.label}: ${ctx.raw}위`
+        }
+      }
+    },
+    scales:{
+      y:{
+        reverse:true,
+        min:0.5, max:5.5,
+        ticks:{
+          stepSize:1,
+          callback: v => v===1?'🥇 1위':v===2?'🥈 2위':v===3?'🥉 3위':v===4?'4위':v===5?'5위':'',
+          color:'#8b9dc3', font:{size:10}
+        },
+        grid:{color:'rgba(45,55,72,0.4)'},
+      },
+      x:{
+        ticks:{color:'#8b9dc3', font:{size:9}, maxRotation:45},
+        grid:{color:'rgba(45,55,72,0.3)'},
+      }
+    }
+  }
+});
+
+// ── 시총 규모 차트 ──────────────────────────────────────────
+const mcapData = {
+  삼성:   [185,265,380,310,514,570,700,450,587,620,672,700,774,1368,1556],
+  SK:     [65, 80, 115,105,130,150,185,90, 141,175,246,200,394,733, 837],
+  현대차: [80, 72, 70, 68, 83, 81, 140,85, 116,120,164,167,168,291, 270],
+  한화:   [5,  6,  7,  8,  10, 12, 20, 20, 30, 37, 37, 60, 126,150, 168],
+  LG:     [40, 50, 70, 72, 88, 120,150,150,251,156,156,170,166,184, 165],
+};
+
+const mcapDatasets = Object.entries(mcapData).map(([name, vals]) => ({
+  label: name,
+  data: vals,
+  borderColor: colors[name],
+  backgroundColor: colors[name]+'22',
+  borderWidth: 2,
+  pointRadius: 3,
+  tension: 0.3,
+  fill: false,
+}));
+
+new Chart(document.getElementById('mcapChart'), {
+  type:'line',
+  data:{labels, datasets:mcapDatasets},
+  options:{
+    responsive:true,
+    plugins:{
+      legend:{display:false},
+      tooltip:{
+        callbacks:{
+          label: ctx => `${ctx.dataset.label}: ${ctx.raw}조원`
+        }
+      }
+    },
+    scales:{
+      y:{
+        ticks:{
+          callback: v => v+'조',
+          color:'#8b9dc3', font:{size:10}
+        },
+        grid:{color:'rgba(45,55,72,0.4)'},
+      },
+      x:{
+        ticks:{color:'#8b9dc3', font:{size:9}, maxRotation:45},
+        grid:{color:'rgba(45,55,72,0.3)'},
+      }
+    }
+  }
+});
+</script>
+</body>
+</html>

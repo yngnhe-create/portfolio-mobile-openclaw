@@ -1,0 +1,193 @@
+[2026-03-10 07:50:16] ============================================================
+[2026-03-10 07:50:16] 🚀 WiseReport 자동 수집 시작
+[2026-03-10 07:50:16] 🌐 Playwright 브라우저 시작...
+[2026-03-10 07:50:17] 📱 wisereport.co.kr 접속...
+[2026-03-10 07:50:22] 🔐 로그인 중...
+[2026-03-10 07:50:32] ⚠️ 로그인 시도: Page.fill: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator("input[name='user_id'], input[id='user_id'], input[placeholder*='아이디']")
+
+[2026-03-10 07:50:36] 📊 Report Summary 페이지 이동...
+[2026-03-10 07:50:42] 📝 페이지 텍스트 추출 완료 (35자)
+[2026-03-10 07:50:42] 🏆 Top Picks: 0개
+[2026-03-10 07:50:42] 📋 기업 리포트: 0개
+[2026-03-10 07:50:42] 📸 스크린샷: /Users/geon/.openclaw/workspace/wisereport_data/wisereport_20260310_0750.png
+[2026-03-10 07:50:42] 💾 데이터 저장: /Users/geon/.openclaw/workspace/wisereport_data/wisereport_2026-03-10.json
+[2026-03-10 07:50:42] 📊 분석 완료: 리포트 0건, 연관종목 0개
+[2026-03-10 07:50:42] ✅ HTML 저장: /Users/geon/.openclaw/workspace/public/wisereport.html
+[2026-03-10 07:50:42] 🚀 Cloudflare 배포 중...
+[2026-03-10 07:50:53] ✅ 배포 성공: https://7fa09561.investment-command.pages.dev
+[2026-03-10 07:50:53] 🏁 WiseReport 자동화 완료
+[2026-03-10 07:51:29] ============================================================
+[2026-03-10 07:51:29] 🚀 WiseReport 자동 수집 시작
+[2026-03-10 07:51:29] 🌐 Playwright 브라우저 시작...
+[2026-03-10 07:51:30] 📱 wisereport.co.kr 접속...
+[2026-03-10 07:51:35] 🔐 로그인 페이지 이동...
+[2026-03-10 07:52:07] ⚠️ 폼 시도 1 실패, 재시도: Page.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("input[name='user_id']")
+
+[2026-03-10 07:52:11] ✅ 로그인 재시도 완료
+[2026-03-10 07:52:15] 📊 Report Summary 페이지 이동...
+[2026-03-10 07:52:21] 📝 페이지 텍스트 추출 완료 (35자)
+[2026-03-10 07:52:21] 🏆 Top Picks: 0개
+[2026-03-10 07:52:21] 📋 기업 리포트: 0개
+[2026-03-10 07:52:21] 📸 스크린샷: /Users/geon/.openclaw/workspace/wisereport_data/wisereport_20260310_0752.png
+[2026-03-10 07:52:21] 💾 데이터 저장: /Users/geon/.openclaw/workspace/wisereport_data/wisereport_2026-03-10.json
+[2026-03-10 07:52:21] 📊 분석 완료: 리포트 0건, 연관종목 0개
+[2026-03-10 07:52:21] ✅ HTML 저장: /Users/geon/.openclaw/workspace/public/wisereport.html
+[2026-03-10 07:52:21] 🚀 Cloudflare 배포 중...
+[2026-03-10 07:52:33] ✅ 배포 성공: https://480a145f.investment-command.pages.dev
+[2026-03-10 07:52:33] 🏁 WiseReport 자동화 완료
+[2026-03-10 08:09:54] ============================================================
+[2026-03-10 08:09:54] 🚀 WiseReport 자동 수집 시작
+[2026-03-10 08:09:54] 🌐 Playwright 브라우저 시작...
+[2026-03-10 08:09:59] 📱 wisereport.co.kr 접속...
+[2026-03-10 08:10:04] 🔐 로그인 페이지 이동...
+[2026-03-10 08:10:38] ⚠️ 폼 시도 1 실패, 재시도: Page.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("input[name='user_id']")
+
+[2026-03-10 08:10:42] ✅ 로그인 재시도 완료
+[2026-03-10 08:10:47] 📊 Report Summary 페이지 이동...
+[2026-03-10 08:10:53] 📝 페이지 텍스트 추출 완료 (35자)
+[2026-03-10 08:10:53] 🏆 Top Picks: 0개
+[2026-03-10 08:10:53] 📋 기업 리포트: 0개
+[2026-03-10 08:10:53] 📸 스크린샷: /Users/geon/.openclaw/workspace/wisereport_data/wisereport_20260310_0810.png
+[2026-03-10 08:10:53] 💾 데이터 저장: /Users/geon/.openclaw/workspace/wisereport_data/wisereport_2026-03-10.json
+[2026-03-10 08:10:53] 📊 분석 완료: 리포트 0건, 연관종목 0개
+[2026-03-10 08:10:53] ✅ HTML 저장: /Users/geon/.openclaw/workspace/public/wisereport.html
+[2026-03-10 08:10:53] 🚀 Cloudflare 배포 중...
+[2026-03-10 08:11:10] ✅ 배포 성공: https://de13c221.investment-command.pages.dev
+[2026-03-10 08:11:10] 🏁 WiseReport 자동화 완료
+[2026-03-10 08:11:49] ============================================================
+[2026-03-10 08:11:49] 🚀 WiseReport 자동 수집 시작
+[2026-03-10 08:11:49] 🌐 Playwright 브라우저 시작...
+[2026-03-10 08:11:51] 📱 wisereport.co.kr 접속...
+[2026-03-10 08:11:57] 🔐 메인 페이지 로그인 폼 입력...
+[2026-03-10 08:11:59]   현재 URL: https://www.wisereport.co.kr/
+[2026-03-10 08:12:29] ⚠️ 폼 시도 1 실패: Page.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("input[name='user_id']")
+
+[2026-03-10 08:13:00] ⚠️ 로그인 실패: ElementHandle.fill: Timeout 30000ms exceeded.
+Call log:
+    - fill("yngnhe")
+  - attempting fill action
+    2 × waiting for element to be visible, enabled and editable
+      - element is not visible
+    - retrying fill action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and editable
+      - element is not visible
+    - retrying fill action
+      - waiting 100ms
+    59 × waiting for element to be visible, enabled and editable
+       - element is not visible
+     - retrying fill action
+       - waiting 500ms
+
+[2026-03-10 08:13:05] 📊 Report Summary 페이지 이동...
+[2026-03-10 08:13:11] 📝 페이지 텍스트 추출 완료 (35자)
+[2026-03-10 08:13:11] 🏆 Top Picks: 0개
+[2026-03-10 08:13:11] 📋 기업 리포트: 0개
+[2026-03-10 08:13:11] 📸 스크린샷: /Users/geon/.openclaw/workspace/wisereport_data/wisereport_20260310_0813.png
+[2026-03-10 08:13:11] 💾 데이터 저장: /Users/geon/.openclaw/workspace/wisereport_data/wisereport_2026-03-10.json
+[2026-03-10 08:13:11] 📊 분석 완료: 리포트 0건, 연관종목 0개
+[2026-03-10 08:13:11] ✅ HTML 저장: /Users/geon/.openclaw/workspace/public/wisereport.html
+[2026-03-10 08:13:11] 🚀 Cloudflare 배포 중...
+[2026-03-10 08:13:25] ✅ 배포 성공: https://14e19600.investment-command.pages.dev
+[2026-03-10 08:13:25] 🏁 WiseReport 자동화 완료
+[2026-03-10 08:13:56] ============================================================
+[2026-03-10 08:13:56] 🚀 WiseReport 자동 수집 시작
+[2026-03-10 08:13:56] 🌐 Playwright 브라우저 시작...
+[2026-03-10 08:13:58] 📱 wisereport.co.kr 접속...
+[2026-03-10 08:14:03] 🔐 메인 페이지 로그인 폼 입력...
+[2026-03-10 08:14:05]   현재 URL: https://www.wisereport.co.kr/
+[2026-03-10 08:14:36] ⚠️ 로그인 실패: Page.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("input[name='UsrPassWD_Login']")
+    - locator resolved to <input tabindex="4" type="password" placeholder="비밀번호" id="UsrPassWD_Login" class="bottom_login" name="UsrPassWD_Login" autocomplete="current-password"/>
+    - fill("wldhs232")
+  - attempting fill action
+    2 × waiting for element to be visible, enabled and editable
+      - element is not visible
+    - retrying fill action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and editable
+      - element is not visible
+    - retrying fill action
+      - waiting 100ms
+    59 × waiting for element to be visible, enabled and editable
+       - element is not visible
+     - retrying fill action
+       - waiting 500ms
+
+[2026-03-10 08:14:41] 📊 Report Summary 페이지 이동...
+[2026-03-10 08:14:47] 📝 페이지 텍스트 추출 완료 (35자)
+[2026-03-10 08:14:47] 🏆 Top Picks: 0개
+[2026-03-10 08:14:47] 📋 기업 리포트: 0개
+[2026-03-10 08:14:47] 📸 스크린샷: /Users/geon/.openclaw/workspace/wisereport_data/wisereport_20260310_0814.png
+[2026-03-10 08:14:47] 💾 데이터 저장: /Users/geon/.openclaw/workspace/wisereport_data/wisereport_2026-03-10.json
+[2026-03-10 08:14:47] 📊 분석 완료: 리포트 0건, 연관종목 0개
+[2026-03-10 08:14:47] ✅ HTML 저장: /Users/geon/.openclaw/workspace/public/wisereport.html
+[2026-03-10 08:14:47] 🚀 Cloudflare 배포 중...
+[2026-03-10 08:15:22] ✅ 배포 성공: https://d2742586.investment-command.pages.dev
+[2026-03-10 08:15:22] 🏁 WiseReport 자동화 완료
+[2026-03-10 08:18:32] ============================================================
+[2026-03-10 08:18:32] 🚀 WiseReport 자동 수집 시작
+[2026-03-10 08:18:32] 🌐 Playwright 브라우저 시작...
+[2026-03-10 08:18:34] 📱 wisereport.co.kr 접속...
+[2026-03-10 08:18:39] 🔐 로그인 중...
+[2026-03-10 08:18:45] ✅ 로그인 시도 (URL: https://www.wisereport.co.kr/)
+[2026-03-10 08:18:48] 📊 메인 페이지 리포트 데이터 수집...
+[2026-03-10 08:18:48] 📝 페이지 텍스트 추출 완료 (1660자)
+[2026-03-10 08:18:48] 🏆 Top Picks: 3개
+[2026-03-10 08:18:48] 📋 신규 리포트: 18개
+[2026-03-10 08:18:48] 📸 스크린샷: /Users/geon/.openclaw/workspace/wisereport_data/wisereport_20260310_0818.png
+[2026-03-10 08:18:49] 💾 데이터 저장: /Users/geon/.openclaw/workspace/wisereport_data/wisereport_2026-03-10.json
+[2026-03-10 08:18:49] 📊 분석 완료: Top Picks 3건, 신규리포트 18건, 연관종목 0개
+[2026-03-10 08:18:49] ✅ HTML 저장: /Users/geon/.openclaw/workspace/public/wisereport.html
+[2026-03-10 08:18:49] 🚀 Cloudflare 배포 중...
+[2026-03-10 08:19:01] ✅ 배포 성공: https://9cb6bc10.investment-command.pages.dev
+[2026-03-10 08:19:01] 🏁 WiseReport 자동화 완료
+[2026-03-10 08:31:07] ============================================================
+[2026-03-10 08:31:07] 🚀 WiseReport 자동 수집 v2 시작
+[2026-03-10 08:31:07] 🌐 Playwright 브라우저 시작...
+[2026-03-10 08:31:20] ✅ 로그인 완료 (URL: https://www.wisereport.co.kr/)
+[2026-03-10 08:31:20]   Today Top/Hot/Best: 3개
+[2026-03-10 08:31:20]   리포트 링크 수집: 15개
+[2026-03-10 08:32:35]   상세 리포트: 15개
+[2026-03-10 08:32:35]   신규 리포트 목록: 18개
+[2026-03-10 08:32:35] ✅ HTML 저장: /Users/geon/.openclaw/workspace/public/wisereport.html
+[2026-03-10 08:32:35] 🚀 Cloudflare 배포...
+[2026-03-10 08:32:50] ✅ 배포: https://853aa349.investment-command.pages.dev
+[2026-03-10 08:32:50] 🏁 완료
+[2026-03-10 08:40:27] ============================================================
+[2026-03-10 08:40:27] 🚀 WiseReport 자동 수집 v2 시작
+[2026-03-10 08:40:27] 🌐 Playwright 브라우저 시작...
+[2026-03-10 08:40:39] ✅ 로그인 완료 (URL: https://www.wisereport.co.kr/)
+[2026-03-10 08:40:39]   Today Top/Hot/Best: 3개
+[2026-03-10 08:40:39]   리포트 링크 수집: 15개
+[2026-03-10 08:41:54]   상세 리포트: 15개
+[2026-03-10 08:41:54]   신규 리포트 목록: 18개
+[2026-03-10 08:41:54] ✅ HTML 저장: /Users/geon/.openclaw/workspace/public/wisereport.html
+[2026-03-10 08:41:54] 🚀 Cloudflare 배포...
+[2026-03-10 08:42:06] ✅ 배포: https://e09d9f48.investment-command.pages.dev
+[2026-03-10 08:42:06] 🏁 완료
+[2026-03-10 08:58:03] ============================================================
+[2026-03-10 08:58:03] 🚀 WiseReport 자동 수집 v2 시작
+[2026-03-10 08:58:03] 🌐 Playwright 브라우저 시작...
+[2026-03-10 08:58:14] ✅ 로그인 완료 (URL: https://www.wisereport.co.kr/)
+[2026-03-10 08:58:14]   Today Top/Hot/Best: 3개
+[2026-03-10 08:58:14]   리포트 링크 수집: 15개
+[2026-03-10 08:59:30]   상세 리포트: 15개
+[2026-03-10 08:59:30]   신규 리포트 목록: 18개
+[2026-03-10 08:59:30] ✅ HTML 저장: /Users/geon/.openclaw/workspace/public/wisereport.html
+[2026-03-10 08:59:30] 🚀 Cloudflare 배포...
+[2026-03-10 08:59:46] ✅ 배포: https://b4703d61.investment-command.pages.dev
+[2026-03-10 08:59:46] 🏁 완료
+[2026-03-10 10:58:23]   네이버 리포트 수집 실패: name 'BeautifulSoup' is not defined
+[2026-03-10 10:59:03]   네이버 리포트 11개 수집
+[2026-03-10 10:59:44]   네이버 리포트 11개 수집
+[2026-03-10 11:00:27]   네이버 리포트 11개 수집

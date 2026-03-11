@@ -1,0 +1,718 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>모바일 포트폴리오 인사이트</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<style>
+body{margin:0;background:#0b1220;color:#e5e7eb;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif}
+.wrap{padding:14px;max-width:760px;margin:0 auto}
+.card{background:#131c2f;border:1px solid #223052;border-radius:14px;padding:12px;margin-bottom:10px}
+.kpis{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.k{font-size:12px;color:#93a4c3}
+.v{font-weight:700;font-size:18px}
+.sub{color:#94a3b8;font-size:12px}
+.table{width:100%;font-size:12px;border-collapse:collapse}
+.table td,.table th{padding:6px;border-bottom:1px solid #24345a;text-align:right}
+.table td:first-child,.table th:first-child{text-align:left}
+.good{color:#34d399}
+.bad{color:#f87171}
+.btns button{margin:4px 4px 0 0;padding:4px 8px;border-radius:8px;border:1px solid #3b4d77;background:#1b2742;color:#dbe7ff}
+ul{margin:6px 0 0 16px;padding:0}
+li{margin:4px 0}
+.alert{border:1px solid #f59e0b;background:#1b2a1a}
+.action{border:1px solid #34d399;background:#1a2a22}
+</style>
+</head>
+<body>
+<div class="wrap">
+<div class="card">
+<h2 style="margin:0">📱 포트폴리오 현황</h2>
+<div class="sub" id="up"></div>
+<div class="kpis" style="margin-top:8px">
+<div><div class="k">총 자산</div><div class="v" id="total"></div></div>
+<div><div class="k">보유 종목수</div><div class="v" id="count"></div></div>
+</div>
+</div>
+<div class="card alert">
+<h3>🚨 알림</h3>
+<ul id="alerts"></ul>
+</div>
+<div class="card action">
+<h3>⚡ 권장 액션</h3>
+<ul id="actions"></ul>
+</div>
+<div class="card">
+<h3>🏆 보유 종목 리스트 (손익액 높은 순)</h3>
+<div style="overflow:auto;max-height:420px"><table class="table" id="tbl"></table></div>
+</div>
+<div class="card">
+<h3>📊 섹터 비중(%)</h3>
+<canvas id="pie" height="200"></canvas>
+</div>
+</div>
+<script>
+const D = {
+  "updated": "2026-03-01 21:58 KST",
+  "total": 1136131456,
+  "count": 57,
+  "cats": [
+    {
+      "name": "첨단 기술",
+      "value": 260941552,
+      "pct": 22.97
+    },
+    {
+      "name": "채권",
+      "value": 136235340,
+      "pct": 11.99
+    },
+    {
+      "name": "ETF",
+      "value": 119877582,
+      "pct": 10.55
+    },
+    {
+      "name": "가상자산",
+      "value": 113467004,
+      "pct": 9.99
+    },
+    {
+      "name": "경기 소비재",
+      "value": 74255301,
+      "pct": 6.54
+    },
+    {
+      "name": "부동산",
+      "value": 66195090,
+      "pct": 5.83
+    },
+    {
+      "name": "금융",
+      "value": 38340000,
+      "pct": 3.37
+    },
+    {
+      "name": "헬스케어",
+      "value": 18727955,
+      "pct": 1.65
+    },
+    {
+      "name": "IT",
+      "value": 15277236,
+      "pct": 1.34
+    },
+    {
+      "name": "현금",
+      "value": 5078735,
+      "pct": 0.45
+    },
+    {
+      "name": "산업재",
+      "value": 3866558,
+      "pct": 0.34
+    },
+    {
+      "name": "유틸리티",
+      "value": 896000,
+      "pct": 0.08
+    },
+    {
+      "name": "소재",
+      "value": 142000,
+      "pct": 0.01
+    },
+    {
+      "name": "기타",
+      "value": 19316,
+      "pct": 0.0
+    }
+  ],
+  "subs": [
+    {
+      "name": "반도체",
+      "value": 65235388,
+      "pct": 5.74
+    },
+    {
+      "name": "AI 전력",
+      "value": 65235388,
+      "pct": 5.74
+    },
+    {
+      "name": "소프트웨어",
+      "value": 65235388,
+      "pct": 5.74
+    },
+    {
+      "name": "사이버보안",
+      "value": 65235388,
+      "pct": 5.74
+    },
+    {
+      "name": "고배당",
+      "value": 59938791,
+      "pct": 5.28
+    },
+    {
+      "name": "채권/국채",
+      "value": 59938791,
+      "pct": 5.28
+    },
+    {
+      "name": "디지털/암호화자산",
+      "value": 113467004,
+      "pct": 9.99
+    },
+    {
+      "name": "자동차",
+      "value": 24751767,
+      "pct": 2.18
+    },
+    {
+      "name": "가전",
+      "value": 24751767,
+      "pct": 2.18
+    },
+    {
+      "name": "자율주행/EV",
+      "value": 24751767,
+      "pct": 2.18
+    },
+    {
+      "name": "리츠",
+      "value": 66195090,
+      "pct": 5.83
+    },
+    {
+      "name": "산업재/지주사",
+      "value": 38340000,
+      "pct": 3.37
+    },
+    {
+      "name": "헬스케어/의료",
+      "value": 18727955,
+      "pct": 1.65
+    },
+    {
+      "name": "인터넷/플랫폼",
+      "value": 15277236,
+      "pct": 1.34
+    },
+    {
+      "name": "예수금",
+      "value": 5078735,
+      "pct": 0.45
+    },
+    {
+      "name": "건설/엔지니어링",
+      "value": 1933279,
+      "pct": 0.17
+    },
+    {
+      "name": "산업재/지주사",
+      "value": 1933279,
+      "pct": 0.17
+    },
+    {
+      "name": "에너지",
+      "value": 896000,
+      "pct": 0.08
+    },
+    {
+      "name": "에너지",
+      "value": 19316,
+      "pct": 0.0
+    }
+  ],
+  "items": [
+    {
+      "asset": "삼성전자",
+      "buy": "₩67,303",
+      "now": "₩216,500",
+      "pnlAmt": 0,
+      "pnlPct": 221.68
+    },
+    {
+      "asset": "BTC/KRW",
+      "buy": "₩82,000,000",
+      "now": "₩97,135,340",
+      "pnlAmt": 0,
+      "pnlPct": 18.46
+    },
+    {
+      "asset": "TIGER 코리아AI전력기기TOP3+",
+      "buy": "₩12,823",
+      "now": "₩15,900",
+      "pnlAmt": 0,
+      "pnlPct": 24.0
+    },
+    {
+      "asset": "샤오미",
+      "buy": "$10.66",
+      "now": "$34.90",
+      "pnlAmt": 0,
+      "pnlPct": 227.39
+    },
+    {
+      "asset": "TIGER 글로벌AI액티브",
+      "buy": "₩23,030",
+      "now": "₩23,030",
+      "pnlAmt": 0,
+      "pnlPct": 0.0
+    },
+    {
+      "asset": "ARTY",
+      "buy": "$45.01",
+      "now": "$50.59",
+      "pnlAmt": 0,
+      "pnlPct": 12.39
+    },
+    {
+      "asset": "파마리서치",
+      "buy": "₩401,408",
+      "now": "₩83,800",
+      "pnlAmt": 0,
+      "pnlPct": -79.12
+    },
+    {
+      "asset": "SOL 미국AI전력인프라",
+      "buy": "₩13,285",
+      "now": "₩20,330",
+      "pnlAmt": 0,
+      "pnlPct": 53.03
+    },
+    {
+      "asset": "현대차3우B",
+      "buy": "₩80,667",
+      "now": "₩323,500",
+      "pnlAmt": 0,
+      "pnlPct": 301.03
+    },
+    {
+      "asset": "INTC",
+      "buy": "$35.1",
+      "now": "$45.61",
+      "pnlAmt": 0,
+      "pnlPct": 29.94
+    },
+    {
+      "asset": "DL이앤씨우",
+      "buy": "₩19,570",
+      "now": "₩973",
+      "pnlAmt": 0,
+      "pnlPct": -95.03
+    },
+    {
+      "asset": "TIGER 미국테크TOP10 INDXX",
+      "buy": "₩20,918",
+      "now": "₩40,650",
+      "pnlAmt": 0,
+      "pnlPct": 94.33
+    },
+    {
+      "asset": "두산",
+      "buy": "₩846,067",
+      "now": "₩1,278,000",
+      "pnlAmt": 0,
+      "pnlPct": 51.05
+    },
+    {
+      "asset": "삼성전자우",
+      "buy": "₩46,051",
+      "now": "₩143,800",
+      "pnlAmt": 0,
+      "pnlPct": 212.26
+    },
+    {
+      "asset": "NLR",
+      "buy": "$139.67",
+      "now": "$149.74",
+      "pnlAmt": 0,
+      "pnlPct": 7.21
+    },
+    {
+      "asset": "GRID ETF",
+      "buy": "$147.35",
+      "now": "$178.49",
+      "pnlAmt": 0,
+      "pnlPct": 21.13
+    },
+    {
+      "asset": "ESR켄달스퀘어리츠",
+      "buy": "₩3,762",
+      "now": "₩4,445",
+      "pnlAmt": 0,
+      "pnlPct": 18.15
+    },
+    {
+      "asset": "ETH/KRW",
+      "buy": "₩3,368,000",
+      "now": "₩2,849,163",
+      "pnlAmt": 0,
+      "pnlPct": -15.4
+    },
+    {
+      "asset": "NVDA",
+      "buy": "$141.9",
+      "now": "$177.19",
+      "pnlAmt": 0,
+      "pnlPct": 24.87
+    },
+    {
+      "asset": "USD 현금",
+      "buy": "-",
+      "now": "-",
+      "pnlAmt": 0,
+      "pnlPct": 0.0
+    },
+    {
+      "asset": "KODEX 미국30년국채액티브(H)",
+      "buy": "₩8,093",
+      "now": "₩8,980",
+      "pnlAmt": 0,
+      "pnlPct": 10.96
+    },
+    {
+      "asset": "HSAI",
+      "buy": "$23.98",
+      "now": "$26.95",
+      "pnlAmt": 0,
+      "pnlPct": 12.39
+    },
+    {
+      "asset": "TIGER 테슬라채권혼합Fn",
+      "buy": "₩13,800",
+      "now": "₩14,665",
+      "pnlAmt": 0,
+      "pnlPct": 6.27
+    },
+    {
+      "asset": "코람코라이프인프라리츠",
+      "buy": "₩5,316",
+      "now": "₩2,510",
+      "pnlAmt": 0,
+      "pnlPct": -52.78
+    },
+    {
+      "asset": "TSLA",
+      "buy": "$401.96",
+      "now": "$402.51",
+      "pnlAmt": 0,
+      "pnlPct": 0.14
+    },
+    {
+      "asset": "네이버",
+      "buy": "₩187,200",
+      "now": "₩254,500",
+      "pnlAmt": 0,
+      "pnlPct": 35.95
+    },
+    {
+      "asset": "ACE 구글밸류체인액티브",
+      "buy": "₩14,981",
+      "now": "₩16,560",
+      "pnlAmt": 0,
+      "pnlPct": 10.54
+    },
+    {
+      "asset": "TIME 글로벌우주테크&방산",
+      "buy": "₩14,274",
+      "now": "₩21,645",
+      "pnlAmt": 0,
+      "pnlPct": 51.64
+    },
+    {
+      "asset": "AMD",
+      "buy": "$113.58",
+      "now": "$200.21",
+      "pnlAmt": 0,
+      "pnlPct": 76.27
+    },
+    {
+      "asset": "현대차우",
+      "buy": "₩100,201",
+      "now": "₩323,500",
+      "pnlAmt": 0,
+      "pnlPct": 222.85
+    },
+    {
+      "asset": "SOL/KRW",
+      "buy": "₩187,860",
+      "now": "₩122,325",
+      "pnlAmt": 0,
+      "pnlPct": -34.89
+    },
+    {
+      "asset": "SK리츠",
+      "buy": "₩4,002",
+      "now": "₩5,610",
+      "pnlAmt": 0,
+      "pnlPct": 40.18
+    },
+    {
+      "asset": "KODEX 미국30년국채울트라(H)",
+      "buy": "₩8,408",
+      "now": "₩7,730",
+      "pnlAmt": 0,
+      "pnlPct": -8.06
+    },
+    {
+      "asset": "신한서부티엔디리츠",
+      "buy": "₩3,747",
+      "now": "₩4,075",
+      "pnlAmt": 0,
+      "pnlPct": 8.77
+    },
+    {
+      "asset": "이지스밸류플러스리츠",
+      "buy": "₩4,335",
+      "now": "₩4,850",
+      "pnlAmt": 0,
+      "pnlPct": 11.88
+    },
+    {
+      "asset": "LINK/USD",
+      "buy": "$12.89",
+      "now": "₩12,823",
+      "pnlAmt": 0,
+      "pnlPct": -31.39
+    },
+    {
+      "asset": "KODEX 미국S&P500헬스케어",
+      "buy": "₩10,155",
+      "now": "₩13,610",
+      "pnlAmt": 0,
+      "pnlPct": 34.02
+    },
+    {
+      "asset": "엘오티베큠",
+      "buy": "₩16,380",
+      "now": "₩5,260",
+      "pnlAmt": 0,
+      "pnlPct": -67.89
+    },
+    {
+      "asset": "현대건설",
+      "buy": "₩56,946",
+      "now": "₩16,000",
+      "pnlAmt": 0,
+      "pnlPct": -71.9
+    },
+    {
+      "asset": "AMZN",
+      "buy": "$127.13",
+      "now": "$210.00",
+      "pnlAmt": 0,
+      "pnlPct": 65.19
+    },
+    {
+      "asset": "TIGER 코스피고배당",
+      "buy": "₩14,980",
+      "now": "₩417,500",
+      "pnlAmt": 0,
+      "pnlPct": 2687.05
+    },
+    {
+      "asset": "TIGER 미국초단기국채",
+      "buy": "₩9,654",
+      "now": "₩10,010",
+      "pnlAmt": 0,
+      "pnlPct": 3.69
+    },
+    {
+      "asset": "LLY",
+      "buy": "$453.16",
+      "now": "$1,051.99",
+      "pnlAmt": 0,
+      "pnlPct": 132.15
+    },
+    {
+      "asset": "미래에셋현금성자산",
+      "buy": "-",
+      "now": "-",
+      "pnlAmt": 0,
+      "pnlPct": 0.0
+    },
+    {
+      "asset": "KODEX TRF3070",
+      "buy": "₩12,340",
+      "now": "₩14,315",
+      "pnlAmt": 0,
+      "pnlPct": 16.0
+    },
+    {
+      "asset": "TIGER 글로벌멀티에셋TIF",
+      "buy": "₩9,639",
+      "now": "₩12,320",
+      "pnlAmt": 0,
+      "pnlPct": 27.81
+    },
+    {
+      "asset": "MSFT",
+      "buy": "$331.83",
+      "now": "$392.74",
+      "pnlAmt": 0,
+      "pnlPct": 18.36
+    },
+    {
+      "asset": "TIGER 미국달러단기채권",
+      "buy": "₩13,415",
+      "now": "₩13,420",
+      "pnlAmt": 0,
+      "pnlPct": 0.04
+    },
+    {
+      "asset": "TIGER 글로벌AI사이버보안",
+      "buy": "₩13,938",
+      "now": "₩12,060",
+      "pnlAmt": 0,
+      "pnlPct": -13.47
+    },
+    {
+      "asset": "GOOGL",
+      "buy": "$298.68",
+      "now": "$311.76",
+      "pnlAmt": 0,
+      "pnlPct": 4.38
+    },
+    {
+      "asset": "KRW 현금",
+      "buy": "-",
+      "now": "-",
+      "pnlAmt": 0,
+      "pnlPct": 0.0
+    },
+    {
+      "asset": "삼성SDI",
+      "buy": "₩204,417",
+      "now": "₩466,000",
+      "pnlAmt": 0,
+      "pnlPct": 127.97
+    },
+    {
+      "asset": "RTX",
+      "buy": "$74.51",
+      "now": "$202.62",
+      "pnlAmt": 0,
+      "pnlPct": 171.94
+    },
+    {
+      "asset": "PLTR",
+      "buy": "$170.58",
+      "now": "$137.19",
+      "pnlAmt": 0,
+      "pnlPct": -19.57
+    },
+    {
+      "asset": "HANARO 글로벌금채굴기업",
+      "buy": "₩13,280",
+      "now": "₩37,425",
+      "pnlAmt": 0,
+      "pnlPct": 181.81
+    },
+    {
+      "asset": "세아베스틸지주",
+      "buy": "₩25,654",
+      "now": "₩142,000",
+      "pnlAmt": 0,
+      "pnlPct": 453.52
+    },
+    {
+      "asset": "LG에너지솔루션",
+      "buy": "₩404,000",
+      "now": "₩427,000",
+      "pnlAmt": 0,
+      "pnlPct": 5.69
+    }
+  ],
+  "risk": {
+    "hhi": 975.4,
+    "top5": 62.04,
+    "top10": 74.68,
+    "volAnn": 0.0,
+    "var95": 11.13,
+    "mdd": 0.0
+  },
+  "alerts": [
+    "손실 경고: 파마리서치 -79.1%",
+    "손실 경고: DL이앤씨우 -95.0%",
+    "손실 경고: 코람코라이프인프라리츠 -52.8%",
+    "손실 경고: SOL/KRW -34.9%",
+    "손실 경고: LINK/USD -31.4%",
+    "손실 경고: 엘오티베큠 -67.9%",
+    "손실 경고: 현대건설 -71.9%"
+  ],
+  "actions": [
+    "💰 삼성전자 수익 222% 달성. 10~20% 분할 익절 검토",
+    "💰 샤오미 수익 227% 달성. 10~20% 분할 익절 검토",
+    "⚠️ 파마리서치 손실 -79% 도달. 손절 또는 분할 축소 검토",
+    "💰 SOL 미국AI전력인프라 수익 53% 달성. 10~20% 분할 익절 검토",
+    "💰 현대차3우B 수익 301% 달성. 10~20% 분할 익절 검토",
+    "⚠️ DL이앤씨우 손실 -95% 도달. 손절 또는 분할 축소 검토",
+    "💰 TIGER 미국테크TOP10 INDXX 수익 94% 달성. 10~20% 분할 익절 검토",
+    "💰 두산 수익 51% 달성. 10~20% 분할 익절 검토",
+    "💰 삼성전자우 수익 212% 달성. 10~20% 분할 익절 검토",
+    "🔸 ETH/KRW 손실 -15% 접근. 관찰 필요",
+    "⚠️ 코람코라이프인프라리츠 손실 -53% 도달. 손절 또는 분할 축소 검토",
+    "💰 네이버 수익 36% 달성. 10~20% 분할 익절 검토",
+    "💰 TIME 글로벌우주테크&방산 수익 52% 달성. 10~20% 분할 익절 검토",
+    "💰 AMD 수익 76% 달성. 10~20% 분할 익절 검토",
+    "💰 현대차우 수익 223% 달성. 10~20% 분할 익절 검토",
+    "⚠️ SOL/KRW 손실 -35% 도달. 손절 또는 분할 축소 검토",
+    "💰 SK리츠 수익 40% 달성. 10~20% 분할 익절 검토",
+    "⚠️ LINK/USD 손실 -31% 도달. 손절 또는 분할 축소 검토",
+    "💰 KODEX 미국S&P500헬스케어 수익 34% 달성. 10~20% 분할 익절 검토",
+    "⚠️ 엘오티베큠 손실 -68% 도달. 손절 또는 분할 축소 검토",
+    "⚠️ 현대건설 손실 -72% 도달. 손절 또는 분할 축소 검토",
+    "💰 AMZN 수익 65% 달성. 10~20% 분할 익절 검토",
+    "💰 TIGER 코스피고배당 수익 2687% 달성. 10~20% 분할 익절 검토",
+    "💰 LLY 수익 132% 달성. 10~20% 분할 익절 검토",
+    "💰 삼성SDI 수익 128% 달성. 10~20% 분할 익절 검토",
+    "💰 RTX 수익 172% 달성. 10~20% 분할 익절 검토",
+    "🔸 PLTR 손실 -20% 접근. 관찰 필요",
+    "💰 HANARO 글로벌금채굴기업 수익 182% 달성. 10~20% 분할 익절 검토",
+    "💰 세아베스틸지주 수익 454% 달성. 10~20% 분할 익절 검토"
+  ]
+};
+const fmt=n=>new Intl.NumberFormat('ko-KR').format(n);
+document.getElementById('up').innerText='업데이트: '+D.updated;
+document.getElementById('total').innerText='₩'+fmt(D.total);
+document.getElementById('count').innerText=D.count+'개';
+
+const alertsEl = document.getElementById('alerts');
+if(D.alerts && D.alerts.length){
+    D.alerts.forEach(t=>{
+        const li=document.createElement('li');
+        li.textContent=t;
+        alertsEl.appendChild(li);
+    });
+} else {
+    alertsEl.innerHTML='<li style="color:#94a3b8">현재 알림 없음</li>';
+}
+
+const actionsEl = document.getElementById('actions');
+if(D.actions && D.actions.length){
+    D.actions.slice(0, 10).forEach(t=>{
+        const li=document.createElement('li');
+        li.textContent=t;
+        actionsEl.appendChild(li);
+    });
+} else {
+    actionsEl.innerHTML='<li style="color:#94a3b8">현재 권장 액션 없음</li>';
+}
+
+document.getElementById('tbl').innerHTML='<tr><th>종목</th><th>매수가</th><th>현재가</th><th>손익%</th></tr>'+D.items.map(r=>`<tr><td>${r.asset}</td><td>${r.buy}</td><td>${r.now}</td><td class="${r.pnlPct>=0?'good':'bad'}">${r.pnlPct>=0?'+':''}${r.pnlPct.toFixed(2)}%</td></tr>`).join('');
+
+new Chart(document.getElementById('pie'),{
+    type:'doughnut',
+    data:{
+        labels:D.cats.map(x=>`${x.name} (${x.pct}%)`),
+        datasets:[{data:D.cats.map(x=>x.value)}]
+    },
+    options:{plugins:{legend:{display:false}}}
+});
+</script>
+</body>
+</html>

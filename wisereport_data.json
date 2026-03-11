@@ -1,0 +1,121 @@
+{
+  "date": "2026-03-10",
+  "total_reports": 74,
+  "buy_count": 44,
+  "target_changes": 27,
+  "target_stocks": [
+    {
+      "name": "기아",
+      "opinion": "Buy",
+      "target": "240,000",
+      "current": "196,100",
+      "upside": "+22.4%",
+      "desc": "역사적 신고가 경신, 26년 초반 판매 흐름 긍정적"
+    },
+    {
+      "name": "한화솔루션",
+      "opinion": "BUY",
+      "target": "67,000",
+      "current": "51,600",
+      "upside": "+29.8%",
+      "desc": "태양광 예상치 상회, 우주 태양광/페로브스카이트"
+    },
+    {
+      "name": "삼성SDI",
+      "opinion": "BUY",
+      "target": "580,000",
+      "current": "433,000",
+      "upside": "+34.0%",
+      "desc": "ESS 매출 가속화, SDC매각추진 모멘텀"
+    },
+    {
+      "name": "포스코퓨처엠",
+      "opinion": "BUY",
+      "target": "370,000",
+      "current": "246,000",
+      "upside": "+50.4%",
+      "desc": "음극재 모멘텀, 리튬 가격 반등"
+    },
+    {
+      "name": "피에스케이홀딩스",
+      "opinion": "매수",
+      "target": "125,000",
+      "current": "80,500",
+      "upside": "+55.3%",
+      "desc": "AI 동반 성장, CoWoS 중심 성장"
+    },
+    {
+      "name": "LG화학",
+      "opinion": "Buy 상향",
+      "target": "487,000",
+      "current": "387,500",
+      "upside": "+25.7%",
+      "desc": "LGES 지분율 감축 가시화"
+    }
+  ],
+  "sectors": [
+    {
+      "name": "반도체/AI",
+      "weight": "Overweight",
+      "desc": "HBM 수혜주 지속, CoWoS 동반 수혜, AI 인프라 투자 확대"
+    },
+    {
+      "name": "배터리/이차전지",
+      "weight": "Overweight",
+      "desc": "미국 중국산 ESS 수입제한 법안 발의, 음극재 모멘텀, 리튬 가격 반등"
+    },
+    {
+      "name": "자동차/로봇",
+      "weight": "Overweight",
+      "desc": "기아 역사적 신고가, LG이노텍 로봇사업 진출, 자동차-AI 융합 가속"
+    },
+    {
+      "name": "화학/소재",
+      "weight": "Overweight",
+      "desc": "LG화학 지분 감축 가시화, 태양광/페로브스카이트 가치 재평가"
+    },
+    {
+      "name": "게임/엔터테인먼트",
+      "weight": "Overweight",
+      "desc": "엔씨소프트 신작 성과, IP파워 부각, 글로벌 경쟁력 강화"
+    },
+    {
+      "name": "방산/항공",
+      "weight": "Positive",
+      "desc": "대한항공 방산 경쟁력 확인, 글로벌 defense 수요 확대"
+    }
+  ],
+  "today_best": {
+    "name": "디앤씨미디어",
+    "opinion": "매수",
+    "target": "17,000",
+    "analyst": "신한투자 김아람"
+  },
+  "news": [
+    {
+      "title": "China Weekly - 2026년 전망 전략",
+      "source": "매일경제",
+      "url": "https://www.mk.co.kr/news/stock/11123456"
+    },
+    {
+      "title": "KB Bond Scheduler - 채권 시장 재개장",
+      "source": "블룸버그",
+      "url": "https://www.bloomberg.co.kr/news/articles/2026-03-01/kb-bond-scheduler"
+    },
+    {
+      "title": "AI·관세 변수에 출렁인 한 주",
+      "source": "조선비즈",
+      "url": "https://www.chosun.com/economy/stock/2026/03/01/ai-tariff-market"
+    },
+    {
+      "title": "Week Ahead Snapshot - 3월 첫째 주",
+      "source": "한국경제",
+      "url": "https://www.hankyung.com/finance/article/2026030156789"
+    },
+    {
+      "title": "4분기 실적 및 가이던스 리뷰",
+      "source": "이데일리",
+      "url": "https://www.edaily.co.kr/news/read?newsId=0123456789"
+    }
+  ]
+}

@@ -1,0 +1,492 @@
+
+📊 STEP 1: Updating Portfolio Prices...
+============================================================
+🚀 Portfolio Price Update - KIS API Edition
+============================================================
+
+🔑 Getting KIS access token...
+✅ KIS token obtained
+
+📊 Loaded 59 assets from portfolio
+📋 Columns: ['자산', '분류', '수량', '자산가치', '매수가', '현재가', '손익', '배당월', '투자배당률']
+
+[1/59] 삼성전자... ✅ ₩187,900
+[2/59] BTC/KRW... ✅ ₩103,194,752
+[3/59] TIGER 코리아AI전력기기TOP3+... ⏭️  ETF - skipped
+[4/59] 샤오미... ⏭️  Skipped
+[5/59] TIGER 글로벌AI액티브... ⏭️  ETF - skipped
+[6/59] ARTY... ⏭️  Skipped
+[7/59] 파마리서치... ✅ ₩320,500
+[8/59] SOL 미국AI전력인프라... ✅ ₩126,749
+[9/59] 현대차3우B... ✅ ₩245,500
+[10/59] INTC... ⏭️  Skipped
+[11/59] DL이앤씨우... ⏭️  Skipped
+[12/59] TIGER 미국테크TOP10 INDXX... ⏭️  ETF - skipped
+[13/59] 두산... ✅ ₩1,053,000
+[14/59] 삼성전자우... ❌ Failed
+[15/59] NLR... ✅ $142.87
+[16/59] GRID ETF... ⏭️  ETF - skipped
+[17/59] ESR켄달스퀘어리츠... ⏭️  Skipped
+[18/59] ETH/KRW... ✅ ₩3,005,518
+[19/59] NVDA... ✅ $184.77
+[20/59] USD 현금... 💵 Cash - skipped
+[21/59] KODEX 미국30년국채액티브(H)... ⏭️  ETF - skipped
+[22/59] HSAI... ✅ $25.24
+[23/59] TIGER 테슬라채권혼합Fn... ⏭️  ETF - skipped
+[24/59] 코람코라이프인프라리츠... ✅ ₩4,475
+[25/59] TSLA... ✅ $399.24
+[26/59] 네이버... ✅ ₩220,500
+[27/59] ACE 구글밸류체인액티브... ⏭️  ETF - skipped
+[28/59] TIME 글로벌우주테크&방산... ⏭️  Skipped
+[29/59] AMD... ✅ $203.23
+[30/59] 현대차우... ✅ ₩263,000
+[31/59] SOL/KRW... ✅ ₩126,749
+[32/59] SK리츠... ✅ ₩0
+[33/59] KODEX 미국30년국채울트라(H)... ⏭️  ETF - skipped
+[34/59] 신한서부티엔디리츠... ⏭️  Skipped
+[35/59] 이지스밸류플러스리츠... ✅ ₩16,760
+[36/59] LINK/USD... ✅ $8.99
+[37/59] KODEX 미국S&P500헬스케어... ⏭️  ETF - skipped
+[38/59] 엘오티베큠... ❌ Failed
+[39/59] 현대건설... ✅ ₩152,000
+[40/59] AMZN... ✅ $214.33
+[41/59] TIGER 코스피고배당... ⏭️  ETF - skipped
+[42/59] TIGER 미국초단기국채... ⏭️  ETF - skipped
+[43/59] LLY... ✅ $1001.35
+[44/59] 미래에셋현금성자산... 💵 Cash - skipped
+[45/59] KODEX TRF3070... ⏭️  ETF - skipped
+[46/59] TIGER 글로벌멀티에셋TIF... ⏭️  ETF - skipped
+[47/59] MSFT... ✅ $405.76
+[48/59] TIGER 미국달러단기채권... ⏭️  ETF - skipped
+[49/59] TIGER 글로벌AI사이버보안... ⏭️  ETF - skipped
+[50/59] GOOGL... ✅ $307.04
+[51/59] KRW 현금... 💵 Cash - skipped
+[52/59] 삼성SDI... ✅ ₩403,500
+[53/59] RTX... ✅ $207.00
+[54/59] PLTR... ✅ $151.14
+[55/59] HANARO 글로벌금채굴기업... ⏭️  Skipped
+[56/59] 세아베스틸지주... ✅ ₩61,900
+[57/59] LG에너지솔루션... ✅ ₩367,000
+[58/59] 현대차우... ✅ ₩263,000
+[59/59] KODEX 증권... ⏭️  ETF - skipped
+
+============================================================
+✅ Updated: 30 | ❌ Failed: 2 | ⏭️ Skipped: 27
+============================================================
+
+💾 Saved to: /Users/geon/.openclaw/workspace/portfolio_full.csv
+============================================================
+🚀 Portfolio Price Update - KIS API Edition
+============================================================
+
+🔑 Getting KIS access token...
+✅ KIS token obtained
+
+📊 Loaded 59 assets from portfolio
+📋 Columns: ['자산', '분류', '수량', '자산가치', '매수가', '현재가', '손익', '배당월', '투자배당률']
+
+[1/59] 삼성전자... ✅ ₩187,900
+[2/59] BTC/KRW... ✅ ₩103,194,752
+[3/59] TIGER 코리아AI전력기기TOP3+... ⏭️  ETF - skipped
+[4/59] 샤오미... ⏭️  Skipped
+[5/59] TIGER 글로벌AI액티브... ⏭️  ETF - skipped
+[6/59] ARTY... ⏭️  Skipped
+[7/59] 파마리서치... ✅ ₩320,500
+[8/59] SOL 미국AI전력인프라... ✅ ₩126,749
+[9/59] 현대차3우B... ✅ ₩245,500
+[10/59] INTC... ⏭️  Skipped
+[11/59] DL이앤씨우... ⏭️  Skipped
+[12/59] TIGER 미국테크TOP10 INDXX... ⏭️  ETF - skipped
+[13/59] 두산... ✅ ₩1,053,000
+[14/59] 삼성전자우... ❌ Failed
+[15/59] NLR... ✅ $142.87
+[16/59] GRID ETF... ⏭️  ETF - skipped
+[17/59] ESR켄달스퀘어리츠... ⏭️  Skipped
+[18/59] ETH/KRW... ✅ ₩3,005,518
+[19/59] NVDA... ✅ $184.77
+[20/59] USD 현금... 💵 Cash - skipped
+[21/59] KODEX 미국30년국채액티브(H)... ⏭️  ETF - skipped
+[22/59] HSAI... ✅ $25.24
+[23/59] TIGER 테슬라채권혼합Fn... ⏭️  ETF - skipped
+[24/59] 코람코라이프인프라리츠... ✅ ₩4,475
+[25/59] TSLA... ✅ $399.24
+[26/59] 네이버... ✅ ₩220,500
+[27/59] ACE 구글밸류체인액티브... ⏭️  ETF - skipped
+[28/59] TIME 글로벌우주테크&방산... ⏭️  Skipped
+[29/59] AMD... ✅ $203.23
+[30/59] 현대차우... ✅ ₩263,000
+[31/59] SOL/KRW... ✅ ₩126,749
+[32/59] SK리츠... ✅ ₩0
+[33/59] KODEX 미국30년국채울트라(H)... ⏭️  ETF - skipped
+[34/59] 신한서부티엔디리츠... ⏭️  Skipped
+[35/59] 이지스밸류플러스리츠... ✅ ₩16,760
+[36/59] LINK/USD... ✅ $8.99
+[37/59] KODEX 미국S&P500헬스케어... ⏭️  ETF - skipped
+[38/59] 엘오티베큠... ❌ Failed
+[39/59] 현대건설... ✅ ₩152,000
+[40/59] AMZN... ✅ $214.33
+[41/59] TIGER 코스피고배당... ⏭️  ETF - skipped
+[42/59] TIGER 미국초단기국채... ⏭️  ETF - skipped
+[43/59] LLY... ✅ $1001.35
+[44/59] 미래에셋현금성자산... 💵 Cash - skipped
+[45/59] KODEX TRF3070... ⏭️  ETF - skipped
+[46/59] TIGER 글로벌멀티에셋TIF... ⏭️  ETF - skipped
+[47/59] MSFT... ✅ $405.76
+[48/59] TIGER 미국달러단기채권... ⏭️  ETF - skipped
+[49/59] TIGER 글로벌AI사이버보안... ⏭️  ETF - skipped
+[50/59] GOOGL... ✅ $307.04
+[51/59] KRW 현금... 💵 Cash - skipped
+[52/59] 삼성SDI... ✅ ₩403,500
+[53/59] RTX... ✅ $207.00
+[54/59] PLTR... ✅ $151.14
+[55/59] HANARO 글로벌금채굴기업... ⏭️  Skipped
+[56/59] 세아베스틸지주... ✅ ₩61,900
+[57/59] LG에너지솔루션... ✅ ₩367,000
+[58/59] 현대차우... ✅ ₩263,000
+[59/59] KODEX 증권... ⏭️  ETF - skipped
+
+============================================================
+✅ Updated: 30 | ❌ Failed: 2 | ⏭️ Skipped: 27
+============================================================
+
+💾 Saved to: /Users/geon/.openclaw/workspace/portfolio_full.csv
+✅ Portfolio prices updated
+
+📈 STEP 2: Generating Portfolio Dashboard with History...
+✅ Portfolio dashboard with history: /Users/geon/.openclaw/workspace/public/portfolio_dashboard_live.html
+📊 Total Value: ₩11.1억
+📈 Total P&L: ₩4.7억 (+73.5%)
+📅 YTD Return: +16.8%
+📈 7D Return: +2.0%
+📈 30D Return: +8.8%
+✅ Portfolio dashboard with history: /Users/geon/.openclaw/workspace/public/portfolio_dashboard_live.html
+📊 Total Value: ₩11.1억
+📈 Total P&L: ₩4.7억 (+73.5%)
+📅 YTD Return: +16.8%
+📈 7D Return: +2.0%
+📈 30D Return: +8.8%
+✅ Portfolio dashboard with YTD/period returns generated
+
+📖 STEP 3: Generating Dynamic Playbook...
+✅ Playbook generated: /Users/geon/.openclaw/workspace/public/portfolio_playbook_live.html
+📊 Total value: ₩8.4억
+💰 Total P&L: +₩1.8억
+📈 Total return: +26.8%
+📋 Assets count: 59
+
+🔝 Top 3 gainers:
+  • 삼성전자: +221.7% (₩187,900)
+  • 현대차3우B: +291.0% (₩245,500)
+  • 삼성전자우: +212.3% (₩121,500)
+
+🔻 Top 3 losers:
+  • DL이앤씨우: -95.0% (₩973)
+  • SOL/KRW: -34.9% (₩122,325 × 106.0개)
+  • 파마리서치: -12.9% (₩320,500)
+✅ Playbook generated: /Users/geon/.openclaw/workspace/public/portfolio_playbook_live.html
+📊 Total value: ₩8.4억
+💰 Total P&L: +₩1.8억
+📈 Total return: +26.8%
+📋 Assets count: 59
+
+🔝 Top 3 gainers:
+  • 삼성전자: +221.7% (₩187,900)
+  • 현대차3우B: +291.0% (₩245,500)
+  • 삼성전자우: +212.3% (₩121,500)
+
+🔻 Top 3 losers:
+  • DL이앤씨우: -95.0% (₩973)
+  • SOL/KRW: -34.9% (₩122,325 × 106.0개)
+  • 파마리서치: -12.9% (₩320,500)
+✅ Playbook generated with latest data
+
+📰 STEP 4: Checking WiseReport updates...
+✅ WiseReport data current (2026-03-04)
+
+☁️  STEP 5: Deploying to Cloudflare Pages...
+
+ ⛅️ wrangler 4.69.0 (update available 4.72.0)
+─────────────────────────────────────────────
+
+ ⛅️ wrangler 4.69.0 (update available 4.72.0)
+─────────────────────────────────────────────
+Uploading... (3/4)
+Uploading... (3/4)
+Uploading... (4/4)
+Uploading... (4/4)
+✨ Success! Uploaded 1 files (3 already uploaded) (1.15 sec)
+
+✨ Success! Uploaded 1 files (3 already uploaded) (1.15 sec)
+
+🌎 Deploying...
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://1e80869a.portfolio-mobile-openclaw.pages.dev
+✨ Deployment complete! Take a peek over at https://1e80869a.portfolio-mobile-openclaw.pages.dev
+
+==========================================
+✅ DAILY UPDATE COMPLETE!
+==========================================
+
+🌐 Updated URLs:
+   • Command Center: https://portfolio-mobile-openclaw.pages.dev/command.html
+   • Portfolio: https://portfolio-mobile-openclaw.pages.dev/portfolio.html
+   • Playbook: https://portfolio-mobile-openclaw.pages.dev/playbook.html
+   • WiseReport: https://portfolio-mobile-openclaw.pages.dev/
+
+📊 Updated Content:
+   • Portfolio prices (KIS API)
+   • All 57 stocks with latest prices
+   • Playbook with WiseReport integration
+   • Sector breakdown & risk analysis
+
+⏰ Next Update: Tomorrow 07:00 KST
+📝 Log: /Users/geon/.openclaw/workspace/logs/master_update_20260311.log
+📱 Telegram notification sent
+
+🎯 All systems updated and deployed successfully!
+
+📊 STEP 1: Updating Portfolio Prices...
+============================================================
+🚀 Portfolio Price Update - KIS API Edition
+============================================================
+
+🔑 Getting KIS access token...
+✅ KIS token obtained
+
+📊 Loaded 59 assets from portfolio
+📋 Columns: ['자산', '분류', '수량', '자산가치', '매수가', '현재가', '손익', '배당월', '투자배당률']
+
+[1/59] 삼성전자... ✅ ₩187,900
+[2/59] BTC/KRW... ✅ ₩102,863,208
+[3/59] TIGER 코리아AI전력기기TOP3+... ⏭️  ETF - skipped
+[4/59] 샤오미... ⏭️  Skipped
+[5/59] TIGER 글로벌AI액티브... ⏭️  ETF - skipped
+[6/59] ARTY... ⏭️  Skipped
+[7/59] 파마리서치... ✅ ₩320,500
+[8/59] SOL 미국AI전력인프라... ✅ ₩126,314
+[9/59] 현대차3우B... ✅ ₩245,500
+[10/59] INTC... ⏭️  Skipped
+[11/59] DL이앤씨우... ⏭️  Skipped
+[12/59] TIGER 미국테크TOP10 INDXX... ⏭️  ETF - skipped
+[13/59] 두산... ✅ ₩1,053,000
+[14/59] 삼성전자우... ❌ Failed
+[15/59] NLR... ✅ $142.87
+[16/59] GRID ETF... ⏭️  ETF - skipped
+[17/59] ESR켄달스퀘어리츠... ⏭️  Skipped
+[18/59] ETH/KRW... ✅ ₩2,990,462
+[19/59] NVDA... ✅ $184.77
+[20/59] USD 현금... 💵 Cash - skipped
+[21/59] KODEX 미국30년국채액티브(H)... ⏭️  ETF - skipped
+[22/59] HSAI... ✅ $25.24
+[23/59] TIGER 테슬라채권혼합Fn... ⏭️  ETF - skipped
+[24/59] 코람코라이프인프라리츠... ✅ ₩4,475
+[25/59] TSLA... ✅ $399.24
+[26/59] 네이버... ✅ ₩220,500
+[27/59] ACE 구글밸류체인액티브... ⏭️  ETF - skipped
+[28/59] TIME 글로벌우주테크&방산... ⏭️  Skipped
+[29/59] AMD... ✅ $203.23
+[30/59] 현대차우... ✅ ₩263,000
+[31/59] SOL/KRW... ✅ ₩126,314
+[32/59] SK리츠... ✅ ₩0
+[33/59] KODEX 미국30년국채울트라(H)... ⏭️  ETF - skipped
+[34/59] 신한서부티엔디리츠... ⏭️  Skipped
+[35/59] 이지스밸류플러스리츠... ✅ ₩16,760
+[36/59] LINK/USD... ✅ $8.94
+[37/59] KODEX 미국S&P500헬스케어... ⏭️  ETF - skipped
+[38/59] 엘오티베큠... ❌ Failed
+[39/59] 현대건설... ❌ Failed
+[40/59] AMZN... ✅ $214.33
+[41/59] TIGER 코스피고배당... ⏭️  ETF - skipped
+[42/59] TIGER 미국초단기국채... ⏭️  ETF - skipped
+[43/59] LLY... ✅ $1001.35
+[44/59] 미래에셋현금성자산... 💵 Cash - skipped
+[45/59] KODEX TRF3070... ⏭️  ETF - skipped
+[46/59] TIGER 글로벌멀티에셋TIF... ⏭️  ETF - skipped
+[47/59] MSFT... ✅ $405.76
+[48/59] TIGER 미국달러단기채권... ⏭️  ETF - skipped
+[49/59] TIGER 글로벌AI사이버보안... ⏭️  ETF - skipped
+[50/59] GOOGL... ✅ $307.04
+[51/59] KRW 현금... 💵 Cash - skipped
+[52/59] 삼성SDI... ✅ ₩403,500
+[53/59] RTX... ✅ $207.00
+[54/59] PLTR... ✅ $151.14
+[55/59] HANARO 글로벌금채굴기업... ⏭️  Skipped
+[56/59] 세아베스틸지주... ✅ ₩61,900
+[57/59] LG에너지솔루션... ✅ ₩367,000
+[58/59] 현대차우... ❌ Failed
+[59/59] KODEX 증권... ⏭️  ETF - skipped
+
+============================================================
+✅ Updated: 28 | ❌ Failed: 4 | ⏭️ Skipped: 27
+============================================================
+
+💾 Saved to: /Users/geon/.openclaw/workspace/portfolio_full.csv
+============================================================
+🚀 Portfolio Price Update - KIS API Edition
+============================================================
+
+🔑 Getting KIS access token...
+✅ KIS token obtained
+
+📊 Loaded 59 assets from portfolio
+📋 Columns: ['자산', '분류', '수량', '자산가치', '매수가', '현재가', '손익', '배당월', '투자배당률']
+
+[1/59] 삼성전자... ✅ ₩187,900
+[2/59] BTC/KRW... ✅ ₩102,863,208
+[3/59] TIGER 코리아AI전력기기TOP3+... ⏭️  ETF - skipped
+[4/59] 샤오미... ⏭️  Skipped
+[5/59] TIGER 글로벌AI액티브... ⏭️  ETF - skipped
+[6/59] ARTY... ⏭️  Skipped
+[7/59] 파마리서치... ✅ ₩320,500
+[8/59] SOL 미국AI전력인프라... ✅ ₩126,314
+[9/59] 현대차3우B... ✅ ₩245,500
+[10/59] INTC... ⏭️  Skipped
+[11/59] DL이앤씨우... ⏭️  Skipped
+[12/59] TIGER 미국테크TOP10 INDXX... ⏭️  ETF - skipped
+[13/59] 두산... ✅ ₩1,053,000
+[14/59] 삼성전자우... ❌ Failed
+[15/59] NLR... ✅ $142.87
+[16/59] GRID ETF... ⏭️  ETF - skipped
+[17/59] ESR켄달스퀘어리츠... ⏭️  Skipped
+[18/59] ETH/KRW... ✅ ₩2,990,462
+[19/59] NVDA... ✅ $184.77
+[20/59] USD 현금... 💵 Cash - skipped
+[21/59] KODEX 미국30년국채액티브(H)... ⏭️  ETF - skipped
+[22/59] HSAI... ✅ $25.24
+[23/59] TIGER 테슬라채권혼합Fn... ⏭️  ETF - skipped
+[24/59] 코람코라이프인프라리츠... ✅ ₩4,475
+[25/59] TSLA... ✅ $399.24
+[26/59] 네이버... ✅ ₩220,500
+[27/59] ACE 구글밸류체인액티브... ⏭️  ETF - skipped
+[28/59] TIME 글로벌우주테크&방산... ⏭️  Skipped
+[29/59] AMD... ✅ $203.23
+[30/59] 현대차우... ✅ ₩263,000
+[31/59] SOL/KRW... ✅ ₩126,314
+[32/59] SK리츠... ✅ ₩0
+[33/59] KODEX 미국30년국채울트라(H)... ⏭️  ETF - skipped
+[34/59] 신한서부티엔디리츠... ⏭️  Skipped
+[35/59] 이지스밸류플러스리츠... ✅ ₩16,760
+[36/59] LINK/USD... ✅ $8.94
+[37/59] KODEX 미국S&P500헬스케어... ⏭️  ETF - skipped
+[38/59] 엘오티베큠... ❌ Failed
+[39/59] 현대건설... ❌ Failed
+[40/59] AMZN... ✅ $214.33
+[41/59] TIGER 코스피고배당... ⏭️  ETF - skipped
+[42/59] TIGER 미국초단기국채... ⏭️  ETF - skipped
+[43/59] LLY... ✅ $1001.35
+[44/59] 미래에셋현금성자산... 💵 Cash - skipped
+[45/59] KODEX TRF3070... ⏭️  ETF - skipped
+[46/59] TIGER 글로벌멀티에셋TIF... ⏭️  ETF - skipped
+[47/59] MSFT... ✅ $405.76
+[48/59] TIGER 미국달러단기채권... ⏭️  ETF - skipped
+[49/59] TIGER 글로벌AI사이버보안... ⏭️  ETF - skipped
+[50/59] GOOGL... ✅ $307.04
+[51/59] KRW 현금... 💵 Cash - skipped
+[52/59] 삼성SDI... ✅ ₩403,500
+[53/59] RTX... ✅ $207.00
+[54/59] PLTR... ✅ $151.14
+[55/59] HANARO 글로벌금채굴기업... ⏭️  Skipped
+[56/59] 세아베스틸지주... ✅ ₩61,900
+[57/59] LG에너지솔루션... ✅ ₩367,000
+[58/59] 현대차우... ❌ Failed
+[59/59] KODEX 증권... ⏭️  ETF - skipped
+
+============================================================
+✅ Updated: 28 | ❌ Failed: 4 | ⏭️ Skipped: 27
+============================================================
+
+💾 Saved to: /Users/geon/.openclaw/workspace/portfolio_full.csv
+✅ Portfolio prices updated
+
+📈 STEP 2: Generating Portfolio Dashboard with History...
+✅ Portfolio dashboard with history: /Users/geon/.openclaw/workspace/public/portfolio_dashboard_live.html
+📊 Total Value: ₩11.1억
+📈 Total P&L: ₩4.7억 (+73.5%)
+📅 YTD Return: +16.8%
+📈 7D Return: +2.0%
+📈 30D Return: +8.8%
+✅ Portfolio dashboard with history: /Users/geon/.openclaw/workspace/public/portfolio_dashboard_live.html
+📊 Total Value: ₩11.1억
+📈 Total P&L: ₩4.7억 (+73.5%)
+📅 YTD Return: +16.8%
+📈 7D Return: +2.0%
+📈 30D Return: +8.8%
+✅ Portfolio dashboard with YTD/period returns generated
+
+📖 STEP 3: Generating Dynamic Playbook...
+✅ Playbook generated: /Users/geon/.openclaw/workspace/public/portfolio_playbook_live.html
+📊 Total value: ₩8.4억
+💰 Total P&L: +₩1.8억
+📈 Total return: +26.8%
+📋 Assets count: 59
+
+🔝 Top 3 gainers:
+  • 삼성전자: +221.7% (₩187,900)
+  • 현대차3우B: +291.0% (₩245,500)
+  • 삼성전자우: +212.3% (₩121,500)
+
+🔻 Top 3 losers:
+  • DL이앤씨우: -95.0% (₩973)
+  • SOL/KRW: -34.9% (₩122,325 × 106.0개)
+  • 파마리서치: -12.9% (₩320,500)
+✅ Playbook generated: /Users/geon/.openclaw/workspace/public/portfolio_playbook_live.html
+📊 Total value: ₩8.4억
+💰 Total P&L: +₩1.8억
+📈 Total return: +26.8%
+📋 Assets count: 59
+
+🔝 Top 3 gainers:
+  • 삼성전자: +221.7% (₩187,900)
+  • 현대차3우B: +291.0% (₩245,500)
+  • 삼성전자우: +212.3% (₩121,500)
+
+🔻 Top 3 losers:
+  • DL이앤씨우: -95.0% (₩973)
+  • SOL/KRW: -34.9% (₩122,325 × 106.0개)
+  • 파마리서치: -12.9% (₩320,500)
+✅ Playbook generated with latest data
+
+📰 STEP 4: Checking WiseReport updates...
+✅ WiseReport data current (2026-03-04)
+
+☁️  STEP 5: Deploying to Cloudflare Pages...
+
+ ⛅️ wrangler 4.69.0 (update available 4.72.0)
+─────────────────────────────────────────────
+
+ ⛅️ wrangler 4.69.0 (update available 4.72.0)
+─────────────────────────────────────────────
+Uploading... (3/4)
+Uploading... (3/4)
+Uploading... (4/4)
+Uploading... (4/4)
+✨ Success! Uploaded 1 files (3 already uploaded) (2.76 sec)
+
+✨ Success! Uploaded 1 files (3 already uploaded) (2.76 sec)
+
+🌎 Deploying...
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://0520862f.portfolio-mobile-openclaw.pages.dev
+✨ Deployment complete! Take a peek over at https://0520862f.portfolio-mobile-openclaw.pages.dev
+
+==========================================
+✅ DAILY UPDATE COMPLETE!
+==========================================
+
+🌐 Updated URLs:
+   • Command Center: https://portfolio-mobile-openclaw.pages.dev/command.html
+   • Portfolio: https://portfolio-mobile-openclaw.pages.dev/portfolio.html
+   • Playbook: https://portfolio-mobile-openclaw.pages.dev/playbook.html
+   • WiseReport: https://portfolio-mobile-openclaw.pages.dev/
+
+📊 Updated Content:
+   • Portfolio prices (KIS API)
+   • All 57 stocks with latest prices
+   • Playbook with WiseReport integration
+   • Sector breakdown & risk analysis
+
+⏰ Next Update: Tomorrow 07:00 KST
+📝 Log: /Users/geon/.openclaw/workspace/logs/master_update_20260311.log
+📱 Telegram notification sent
+
+🎯 All systems updated and deployed successfully!

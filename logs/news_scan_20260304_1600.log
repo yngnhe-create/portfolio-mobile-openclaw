@@ -1,0 +1,102 @@
+[16:00:08] 🚀 Starting Global + Korean Financial News Scan
+[16:00:08] 📅 2026-03-04 16:00 KST
+[16:00:08] 
+======================================================================
+🚀 Global + Korean Financial News Scanner
+======================================================================
+
+============================================================
+📰 Scanning Korean Financial News...
+============================================================
+  [연합인포맥스]... /Users/geon/.openclaw/workspace/scripts/global_news_scanner.py:164: DeprecationWarning: Testing an element's truth value will always return True in future versions.  Use specific 'len(elem)' or 'elem is not None' test instead.
+  title_elem = item.find('title') or item.find('{http://www.w3.org/2005/Atom}title')
+/Users/geon/.openclaw/workspace/scripts/global_news_scanner.py:167: DeprecationWarning: Testing an element's truth value will always return True in future versions.  Use specific 'len(elem)' or 'elem is not None' test instead.
+  link_elem = item.find('link') or item.find('{http://www.w3.org/2005/Atom}link')
+/Users/geon/.openclaw/workspace/scripts/global_news_scanner.py:173: DeprecationWarning: Testing an element's truth value will always return True in future versions.  Use specific 'len(elem)' or 'elem is not None' test instead.
+  desc_elem = item.find('description') or item.find('{http://www.w3.org/2005/Atom}summary')
+✅ 0 new
+  [연합뉴스경제]... ✅ 0 new
+  [한국경제]... ✅ 0 new
+  [매일경제]... ❌ Failed
+  [머니투데이]... ❌ Failed
+  [아시아경제]... ❌ Failed
+  [이데일리]... ✅ 0 new
+  [서울경제]... ✅ 0 new
+  [전자신문]... ✅ 0 new
+  [아이뉴스24]... ❌ Failed
+
+============================================================
+🌍 Scanning International Tech News...
+============================================================
+  [TechCrunch AI]... ✅ 0 new
+  [The Verge AI]... ✅ 0 new
+  [OpenAI Blog]... ✅ 0 new
+  [Google AI]... ✅ 0 new
+  [Hugging Face]... ✅ 0 new
+  [MIT Tech Review]... ✅ 0 new
+  [Wired AI]... ✅ 0 new
+  [Ars Technica]... ✅ 0 new
+  [VentureBeat AI]... ✅ 0 new
+  [THE DECODER]... ✅ 0 new
+  [Simon Willison]... ✅ 0 new
+  [Ben's Bites]... ✅ 0 new
+
+============================================================
+💹 Scanning Global Financial News...
+============================================================
+  [Reuters Tech]... ❌ Failed
+  [Bloomberg Markets]... ✅ 0 new
+  [CNBC Finance]... ✅ 0 new
+  [Financial Times]... ✅ 0 new
+  [WSJ Markets]... ✅ 0 new
+  [MarketWatch]... ✅ 0 new
+
+============================================================
+🔥 Scanning Reddit...
+============================================================
+  [r/machinelearning]... ✅ 1 new
+  [r/artificial]... ✅ 0 new
+  [r/singularity]... ✅ 0 new
+  [r/LocalLLaMA]... ✅ 2 new
+  [r/OpenAI]... ✅ 0 new
+  [r/ChatGPT]... ✅ 1 new
+  [r/ClaudeAI]... ✅ 0 new
+  [r/technology]... ✅ 0 new
+  [r/Futurology]... ✅ 0 new
+  [r/investing]... ✅ 0 new
+  [r/wallstreetbets]... ✅ 2 new
+  [r/cryptocurrency]... ✅ 1 new
+  [r/Bitcoin]... ✅ 0 new
+
+======================================================================
+📊 Summary: 7 new articles found
+======================================================================
+
+📤 Telegram Output:
+----------------------------------------------------------------------
+📊 <b>오늘의 투자 뉴스</b>
+📅 2026.03.04 16:00
+📰 Total Sources: 28 RSS + 13 Reddit
+
+🤖 <b>AI/테크</b>
+• <a href='https://reddit.com/r/wallstreetbets/comments/1rke6hz/dubai_stock_market_crashes_46_at_open/'>Dubai stock market crashes 4.6% at open.</a>
+  └ 🔥 Reddit r/wallstreetbets | Score: 80
+• <a href='https://reddit.com/r/ChatGPT/comments/1rkd4td/openai_loses_15_million_subscribers_in_less_than/'>OpenAI loses 1.5 million subscribers in less than 48 hour...</a>
+  └ 🔥 Reddit r/ChatGPT | Score: 63
+• <a href='https://reddit.com/r/LocalLLaMA/comments/1rkai3l/ever_wonder_how_much_cost_you_can_save_when/'>Ever wonder how much cost you can save when coding with l...</a>
+  └ 🔥 Reddit r/LocalLLaMA | Score: 27
+
+📰 <b>기타</b>
+• <a href='https://reddit.com/r/wallstreetbets/comments/1rkctew/heres_some_loss_porn_for_you_kinky_fucks/'>Here's some loss porn for you kinky fucks</a>
+  └ 🔥 Reddit r/wallstreetbets | Score: 22
+• <a href='https://reddit.com/r/CryptoCurrency/comments/1rkcque/interesting_stuff_going_on_with_polymarket/'>Interesting stuff going on with Polymarket recently</a>
+  └ 🔥 Reddit r/cryptocurrency | Score: 15
+• <a href='https://reddit.com/r/MachineLearning/comments/1rk1mgi/p_we_made_goodseed_a_pleasant_ml_experiment/'>[P] We made GoodSeed, a pleasant ML experiment tracker</a>
+  └ 🔥 Reddit r/machinelearning | Score: 13
+
+----------------------------------------------------------------------
+
+💾 Saved: /Users/geon/.openclaw/workspace/memory/news_output_telegram.txt
+[16:00:42] 
+[16:00:42] ✅ News scan completed
+[16:00:42] 📝 Log: /Users/geon/.openclaw/workspace/logs/news_scan_20260304_1600.log

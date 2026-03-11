@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>4대 그룹 시총 대시보드 (업데이트)</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<style>
+body{font-family:Arial,sans-serif;background:#0b1020;color:#e5e7eb;margin:0;padding:20px}
+.card{background:#121a33;border:1px solid #26345f;border-radius:12px;padding:14px}
+.grid{display:grid;grid-template-columns:repeat(4,minmax(180px,1fr));gap:12px;margin:12px 0 16px}
+.row{display:grid;grid-template-columns:1.2fr 1fr;gap:14px;margin-bottom:16px}
+small{color:#9ca3af} h1{margin:0} h3{margin:6px 0 10px}
+table{width:100%;border-collapse:collapse;font-size:13px} th,td{padding:6px 8px;border-bottom:1px solid #26345f;text-align:right} th:first-child,td:first-child{text-align:left}
+.up{color:#34d399} .mono{font-variant-numeric:tabular-nums}
+.section{margin-top:12px}
+</style></head><body>
+<h1>4대 그룹 시가총액 대시보드</h1>
+<small>기준일: 2026-02-24 · 최근 7거래일 추이 포함 · 단위: 조원(표시)</small>
+<div id="kpis" class="grid"></div>
+<div class="row"><div class="card"><h3>그룹별 시총 최근 7거래일 추이</h3><canvas id="trend"></canvas></div>
+<div class="card"><h3>오늘 그룹별 시총 비교</h3><canvas id="todayBar"></canvas></div></div>
+<div class="card section"><h3>그룹 요약</h3><table id="sumTbl"></table></div>
+<div class="card section"><h3>그룹별 계열사 목록 및 시총 (오늘)</h3><div id="companyTables"></div></div>
+<script>
+const data = {"summary": [{"group": "삼성", "count": 16, "today": 1529039890316750, "diff": 3176760243450, "pct": 0.20819431185137774}, {"group": "SK", "count": 16, "today": 893228210641270, "diff": 5154732564460, "pct": 0.5804398725680855}, {"group": "현대차", "count": 12, "today": 296191799688620, "diff": 2061536262470, "pct": 0.7008922640113192}, {"group": "LG", "count": 11, "today": 190402552926025, "diff": 7137016370450, "pct": 3.89435815625144}], "dates": ["20260211", "20260212", "20260213", "20260219", "20260220", "20260223", "20260224"], "trend": {"삼성": [1313319593924600, 1385039810274850, 1394556147931600, 1457273976184750, 1467185141664150, 1486223536714100, 1528593566130450], "SK": [781777640056945, 808853507434675, 802995373829970, 814960622216165, 860303719206400, 847456669596700, 893400011789890], "현대차": [282643328677890, 284971448837950, 280022117185150, 288771730990350, 291436470667760, 295425055966850, 296322041341050], "LG": [180983348127035, 185241421522045, 179558916635885, 183621741407455, 184749207600300, 185335664095180, 190425093488045]}, "companies": {"삼성": [{"name": "삼성전자", "ticker": "005930", "mcap": 1183335620607800}, {"name": "삼성바이오로직스", "ticker": "207940", "mcap": 79851890475000}, {"name": "삼성물산", "ticker": "028260", "mcap": 57452071872000}, {"name": "삼성생명", "ticker": "032830", "mcap": 44900000000000}, {"name": "삼성SDI", "ticker": "006400", "mcap": 33966800895000}, {"name": "삼성전기", "ticker": "009150", "mcap": 32305023520000}, {"name": "삼성중공업", "ticker": "010140", "mcap": 25476000000000}, {"name": "삼성화재", "ticker": "000810", "mcap": 25306135250000}, {"name": "삼성에스디에스", "ticker": "018260", "mcap": 13517901660000}, {"name": "삼성증권", "ticker": "016360", "mcap": 9590820000000}, {"name": "삼성카드", "ticker": "029780", "mcap": 7449726691300}, {"name": "삼성E&A", "ticker": "028050", "mcap": 7056000000000}, {"name": "에스원", "ticker": "012750", "mcap": 3541523389600}, {"name": "제일기획", "ticker": "030000", "mcap": 2576923440000}, {"name": "호텔신라", "ticker": "008770", "mcap": 1893721838250}, {"name": "멀티캠퍼스", "ticker": "067280", "mcap": 175728997350}], "SK": [{"name": "SK하이닉스", "ticker": "000660", "mcap": 714484120912500}, {"name": "SK스퀘어", "ticker": "402340", "mcap": 83082795335000}, {"name": "SK", "ticker": "034730", "mcap": 28602316333500}, {"name": "SK이노베이션", "ticker": "096770", "mcap": 22974273889200}, {"name": "SK텔레콤", "ticker": "017670", "mcap": 17440952303600}, {"name": "SK바이오팜", "ticker": "326030", "mcap": 9217469525000}, {"name": "SKC", "ticker": "011790", "mcap": 4292371578300}, {"name": "SK바이오사이언스", "ticker": "302440", "mcap": 3945265460300}, {"name": "SK가스", "ticker": "018670", "mcap": 2278952646000}, {"name": "SK아이이테크놀로지", "ticker": "361610", "mcap": 2208251700000}, {"name": "SK네트웍스", "ticker": "001740", "mcap": 1363071876320}, {"name": "SK디스커버리", "ticker": "006120", "mcap": 1133897439000}, {"name": "SK케미칼", "ticker": "285130", "mcap": 1112310653800}, {"name": "SK이터닉스", "ticker": "475150", "mcap": 1037936791500}, {"name": "나노엔텍", "ticker": "039860", "mcap": 292173716510}, {"name": "SK디앤디", "ticker": "210980", "mcap": 249845266440}], "현대차": [{"name": "현대차", "ticker": "005380", "mcap": 106678796086000}, {"name": "기아", "ticker": "000270", "mcap": 67892820352200}, {"name": "현대모비스", "ticker": "012330", "mcap": 41011127516000}, {"name": "현대로템", "ticker": "064350", "mcap": 23956733313500}, {"name": "현대글로비스", "ticker": "086280", "mcap": 20175000000000}, {"name": "현대건설", "ticker": "000720", "mcap": 15400502299500}, {"name": "현대오토에버", "ticker": "307950", "mcap": 11778600269000}, {"name": "현대제철", "ticker": "004020", "mcap": 4924149466500}, {"name": "현대위아", "ticker": "011210", "mcap": 2346935662900}, {"name": "이노션", "ticker": "214320", "mcap": 810000000000}, {"name": "현대차증권", "ticker": "001500", "mcap": 772294719560}, {"name": "현대비앤지스틸", "ticker": "004560", "mcap": 312131387700}], "LG": [{"name": "LG에너지솔루션", "ticker": "373220", "mcap": 96408000000000}, {"name": "LG화학", "ticker": "051910", "mcap": 24636727707000}, {"name": "LG전자", "ticker": "066570", "mcap": 21940796328900}, {"name": "LG", "ticker": "003550", "mcap": 15422158500000}, {"name": "LG유플러스", "ticker": "032640", "mcap": 7487609944100}, {"name": "LG디스플레이", "ticker": "034220", "mcap": 6875000000000}, {"name": "LG씨엔에스", "ticker": "064400", "mcap": 6782016360000}, {"name": "LG이노텍", "ticker": "011070", "mcap": 6401952443500}, {"name": "LG생활건강", "ticker": "051900", "mcap": 4139315159500}, {"name": "LG헬로비전", "ticker": "037560", "mcap": 192455459525}, {"name": "HS애드", "ticker": "035000", "mcap": 139061585520}]}};
+const KRW_TO_JO=1e12;
+const fmtJo=(v)=> (v/KRW_TO_JO).toLocaleString('ko-KR',{minimumFractionDigits:2,maximumFractionDigits:2});
+const fmtWon=(v)=> Number(v).toLocaleString('ko-KR');
+const total=data.summary.reduce((a,b)=>a+b.today,0);
+const totalCount=data.summary.reduce((a,b)=>a+b.count,0);
+const kpis=[['4개 그룹 합산 시총',fmtJo(total)+'조'],['상장 계열사 수',totalCount+'개'],['최대 그룹',data.summary.slice().sort((a,b)=>b.today-a.today)[0].group],['최대 상승(7일)',data.summary.slice().sort((a,b)=>b.pct-a.pct)[0].group]];
+const kd=document.getElementById('kpis');
+kpis.forEach(k=>{const d=document.createElement('div');d.className='card';d.innerHTML=`<small>${k[0]}</small><div style="font-size:22px;font-weight:700" class="mono">${k[1]}</div>`;kd.appendChild(d);});
+new Chart(document.getElementById('trend'),{type:'line',data:{labels:data.dates.map(d=>`${d.slice(4,6)}/${d.slice(6,8)}`),datasets:[
+  {label:'삼성',data:data.trend['삼성'].map(v=>v/KRW_TO_JO),borderColor:'#60a5fa'},
+  {label:'SK',data:data.trend['SK'].map(v=>v/KRW_TO_JO),borderColor:'#34d399'},
+  {label:'현대차',data:data.trend['현대차'].map(v=>v/KRW_TO_JO),borderColor:'#f59e0b'},
+  {label:'LG',data:data.trend['LG'].map(v=>v/KRW_TO_JO),borderColor:'#f472b6'}
+]},options:{responsive:true,plugins:{legend:{position:'bottom'}},scales:{y:{title:{display:true,text:'조원'}}}}});
+new Chart(document.getElementById('todayBar'),{type:'bar',data:{labels:data.summary.map(x=>x.group),datasets:[{label:'오늘 시총(조원)',data:data.summary.map(x=>x.today/KRW_TO_JO),backgroundColor:['#60a5fa','#34d399','#f59e0b','#f472b6']}]},options:{plugins:{legend:{display:false}}}});
+const st=document.getElementById('sumTbl');
+st.innerHTML='<tr><th>그룹</th><th>상장사수</th><th>오늘 시총(원)</th><th>오늘 시총(조원)</th><th>재점검 반영 증감액(원)</th><th>재점검 반영 증감률(%)</th></tr>'+
+  data.summary.map(r=>`<tr><td>${r.group}</td><td>${r.count}</td><td class="mono">${fmtWon(r.today)}</td><td>${fmtJo(r.today)}</td><td class="up mono">+${fmtWon(r.diff)}</td><td class="up">+${r.pct.toFixed(2)}%</td></tr>`).join('');
+const ct=document.getElementById('companyTables');
+['삼성','SK','현대차','LG'].forEach(g=>{const rows=data.companies[g].map(c=>`<tr><td>${c.name}</td><td>${c.ticker}</td><td class="mono">${fmtWon(c.mcap)}</td><td>${fmtJo(c.mcap)}</td></tr>`).join(''); const block=document.createElement('div'); block.style.marginBottom='18px'; block.innerHTML=`<h4>${g} (${data.companies[g].length}개)</h4><table><tr><th>회사명</th><th>티커</th><th>시총(원)</th><th>시총(조원)</th></tr>${rows}</table>`; ct.appendChild(block);});
+</script></body></html>

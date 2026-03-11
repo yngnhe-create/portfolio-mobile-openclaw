@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geon's Portfolio - KIS API Daily</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: #0a0e1a;
+            color: #e8eaed;
+            padding: 20px;
+        }
+        .container { max-width: 1200px; margin: 0 auto; }
+        header {
+            text-align: center;
+            padding: 30px 0;
+            border-bottom: 2px solid #1a2332;
+            margin-bottom: 30px;
+        }
+        h1 { font-size: 2em; margin-bottom: 10px; }
+        .subtitle { color: #8b949e; font-size: 0.9em; }
+        .timestamp {
+            color: #58a6ff;
+            font-size: 0.85em;
+            margin-top: 10px;
+        }
+        .summary {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+        .summary-card {
+            background: linear-gradient(135deg, #1a2332 0%, #0d1117 100%);
+            padding: 20px;
+            border-radius: 12px;
+            border: 1px solid #30363d;
+        }
+        .summary-card h3 {
+            color: #8b949e;
+            font-size: 0.85em;
+            margin-bottom: 8px;
+        }
+        .summary-card .value {
+            font-size: 1.8em;
+            font-weight: bold;
+        }
+        .up { color: #3fb950; }
+        .down { color: #f85149; }
+        .neutral { color: #8b949e; }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: #0d1117;
+            border-radius: 12px;
+            overflow: hidden;
+            border: 1px solid #30363d;
+        }
+        th, td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #21262d;
+        }
+        th {
+            background: #161b22;
+            font-weight: 600;
+            color: #8b949e;
+            font-size: 0.85em;
+            text-transform: uppercase;
+        }
+        tr:hover { background: #161b22; }
+        .symbol { color: #58a6ff; font-family: monospace; }
+        .price { font-weight: bold; font-size: 1.1em; }
+        .change { font-weight: 600; }
+        .volume { color: #8b949e; text-align: right; }
+        footer {
+            text-align: center;
+            padding: 30px 0;
+            color: #8b949e;
+            font-size: 0.85em;
+            border-top: 1px solid #21262d;
+            margin-top: 30px;
+        }
+        .api-badge {
+            display: inline-block;
+            background: #238636;
+            color: white;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 0.75em;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📊 Geon's Portfolio <span class="api-badge">KIS API Daily</span></h1>
+            <p class="subtitle">한국투자증권 Open API 연동 포트폴리오</p>
+            <p class="timestamp">업데이트: 2026-03-11 07:00:01 KST</p>
+        </header>
+
+        <div class="summary">
+            <div class="summary-card">
+                <h3>보유 종목</h3>
+                <div class="value neutral">10개</div>
+            </div>
+            <div class="summary-card">
+                <h3>상승 종목</h3>
+                <div class="value up">1개</div>
+            </div>
+            <div class="summary-card">
+                <h3>하락 종목</h3>
+                <div class="value down">8개</div>
+            </div>
+            <div class="summary-card">
+                <h3>데이터 소스</h3>
+                <div class="value neutral">KIS API ✅</div>
+            </div>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>종목명</th>
+                    <th>종목코드</th>
+                    <th style="text-align:right">현재가</th>
+                    <th style="text-align:right">전일대비</th>
+                    <th style="text-align:right">등락률</th>
+                    <th style="text-align:right">거래량</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                <tr>
+                    <td><strong>LG에너지솔루션</strong></td>
+                    <td class="symbol">373220</td>
+                    <td class="price" style="text-align:right">₩427,000</td>
+                    <td class="change neutral" style="text-align:right">+0</td>
+                    <td class="change neutral" style="text-align:right">+0.00%</td>
+                    <td class="volume" style="text-align:right">591,387</td>
+                </tr>
+
+                <tr>
+                    <td><strong>두산</strong></td>
+                    <td class="symbol">000150</td>
+                    <td class="price" style="text-align:right">₩1,278,000</td>
+                    <td class="change up" style="text-align:right">+63,000</td>
+                    <td class="change up" style="text-align:right">+5.19%</td>
+                    <td class="volume" style="text-align:right">234,413</td>
+                </tr>
+
+                <tr>
+                    <td><strong>삼성전자</strong></td>
+                    <td class="symbol">005930</td>
+                    <td class="price" style="text-align:right">₩195,100</td>
+                    <td class="change down" style="text-align:right">-21,400</td>
+                    <td class="change down" style="text-align:right">-9.88%</td>
+                    <td class="volume" style="text-align:right">54,879,010</td>
+                </tr>
+
+                <tr>
+                    <td><strong>삼성전자우</strong></td>
+                    <td class="symbol">005935</td>
+                    <td class="price" style="text-align:right">₩129,200</td>
+                    <td class="change down" style="text-align:right">-14,600</td>
+                    <td class="change down" style="text-align:right">-10.15%</td>
+                    <td class="volume" style="text-align:right">9,371,868</td>
+                </tr>
+
+                <tr>
+                    <td><strong>엔씨소프트</strong></td>
+                    <td class="symbol">036570</td>
+                    <td class="price" style="text-align:right">₩219,500</td>
+                    <td class="change down" style="text-align:right">-11,500</td>
+                    <td class="change down" style="text-align:right">-4.98%</td>
+                    <td class="volume" style="text-align:right">144,683</td>
+                </tr>
+
+                <tr>
+                    <td><strong>포스코퓨처엠</strong></td>
+                    <td class="symbol">003670</td>
+                    <td class="price" style="text-align:right">₩226,500</td>
+                    <td class="change down" style="text-align:right">-20,500</td>
+                    <td class="change down" style="text-align:right">-8.30%</td>
+                    <td class="volume" style="text-align:right">667,688</td>
+                </tr>
+
+                <tr>
+                    <td><strong>피에스케이홀딩스</strong></td>
+                    <td class="symbol">319660</td>
+                    <td class="price" style="text-align:right">₩61,300</td>
+                    <td class="change down" style="text-align:right">-2,800</td>
+                    <td class="change down" style="text-align:right">-4.37%</td>
+                    <td class="volume" style="text-align:right">586,701</td>
+                </tr>
+
+                <tr>
+                    <td><strong>한화솔루션</strong></td>
+                    <td class="symbol">009830</td>
+                    <td class="price" style="text-align:right">₩48,350</td>
+                    <td class="change down" style="text-align:right">-4,650</td>
+                    <td class="change down" style="text-align:right">-8.77%</td>
+                    <td class="volume" style="text-align:right">5,043,606</td>
+                </tr>
+
+                <tr>
+                    <td><strong>현대차3우B</strong></td>
+                    <td class="symbol">005389</td>
+                    <td class="price" style="text-align:right">₩268,000</td>
+                    <td class="change down" style="text-align:right">-38,500</td>
+                    <td class="change down" style="text-align:right">-12.56%</td>
+                    <td class="volume" style="text-align:right">61,282</td>
+                </tr>
+
+                <tr>
+                    <td><strong>현대차우</strong></td>
+                    <td class="symbol">005385</td>
+                    <td class="price" style="text-align:right">₩282,000</td>
+                    <td class="change down" style="text-align:right">-39,500</td>
+                    <td class="change down" style="text-align:right">-12.29%</td>
+                    <td class="volume" style="text-align:right">498,136</td>
+                </tr>
+
+            </tbody>
+        </table>
+
+        <footer>
+            <p>📡 데이터 출처: 한국투자증권(KIS) Open API</p>
+            <p>🔄 자동 업데이트: 매일 08:50 KST | 생성: 2026-03-11 07:00</p>
+        </footer>
+    </div>
+</body>
+</html>

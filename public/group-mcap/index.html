@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>5대그룹 시총 현황</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+body { background:#0a0e1a; color:#e2e8f0; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; padding:16px; }
+.header { text-align:center; margin-bottom:24px; }
+.header h1 { font-size:1.6rem; margin-bottom:6px; background:linear-gradient(135deg,#3b82f6,#8b5cf6);-webkit-background-clip:text;-webkit-text-fill-color:transparent; }
+.header .meta { color:#9ca3af; font-size:0.85rem; }
+.kospi-badge { display:inline-block; background:#1e293b; padding:4px 12px; border-radius:20px; margin-top:6px; font-size:0.85rem; }
+.summary-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(140px,1fr)); gap:10px; margin-bottom:24px; }
+.summary-card { background:#1e293b; border-radius:10px; padding:12px; text-align:center; border-left:3px solid; }
+.summary-card .label { font-size:0.75rem; color:#9ca3af; }
+.summary-card .value { font-size:1.1rem; font-weight:700; margin-top:2px; }
+.chart-container { background:#1e293b; border-radius:12px; padding:16px; margin-bottom:24px; max-width:800px; margin-left:auto; margin-right:auto; }
+.group-card { background:#1e293b; border-radius:12px; padding:16px; margin-bottom:16px; border-left:4px solid; }
+.group-header { display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; }
+.rank-badge { display:inline-block; width:28px; height:28px; border-radius:50%; text-align:center; line-height:28px; font-weight:700; font-size:0.85rem; color:#fff; margin-right:8px; }
+.group-name { font-size:1.2rem; font-weight:700; }
+.group-mcap { font-size:1.3rem; font-weight:700; }
+.group-pct-bar { height:6px; background:#0f172a; border-radius:3px; margin-bottom:4px; overflow:hidden; }
+.group-pct-fill { height:100%; border-radius:3px; transition:width 0.5s; }
+.stock-table { width:100%; border-collapse:collapse; font-size:0.82rem; }
+.stock-table th { text-align:left; color:#9ca3af; padding:6px 4px; border-bottom:1px solid #334155; font-weight:500; }
+.stock-table td { padding:5px 4px; border-bottom:1px solid #1a2332; }
+.stock-table tr:hover { background:#0f172a; }
+.section-title { font-size:1.2rem; font-weight:700; margin:24px 0 12px; padding-left:8px; border-left:3px solid #8b5cf6; }
+.all-table { width:100%; border-collapse:collapse; font-size:0.82rem; background:#1e293b; border-radius:12px; overflow:hidden; }
+.all-table th { text-align:left; color:#9ca3af; padding:8px 6px; border-bottom:1px solid #334155; background:#0f172a; }
+.all-table td { padding:6px; border-bottom:1px solid #1a2332; }
+.all-table tr:hover { background:#0f172a; }
+@media(max-width:600px) {
+  .summary-grid { grid-template-columns:repeat(2,1fr); }
+  .group-header { flex-direction:column; align-items:flex-start; gap:4px; }
+  .stock-table { font-size:0.75rem; }
+  .all-table { font-size:0.75rem; }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>5대그룹 시가총액 현황</h1>
+  <div class="meta">2026-03-11 14:45 기준</div>
+  <div class="kospi-badge">KOSPI 5,636.39 (103.80 / 1.88%)</div>
+</div>
+
+<div class="summary-grid">
+  <div class="summary-card" style="border-color:#6366f1">
+    <div class="label">5대그룹 합계</div>
+    <div class="value">2,996.6조</div>
+  </div>
+  <div class="summary-card" style="border-color:#3b82f6">
+    <div class="label">삼성</div>
+    <div class="value" style="color:#3b82f6">1,556.4조</div>
+  </div>
+  <div class="summary-card" style="border-color:#8b5cf6">
+    <div class="label">SK</div>
+    <div class="value" style="color:#8b5cf6">837.2조</div>
+  </div>
+  <div class="summary-card" style="border-color:#10b981">
+    <div class="label">현대차</div>
+    <div class="value" style="color:#10b981">269.8조</div>
+  </div>
+  <div class="summary-card" style="border-color:#f59e0b">
+    <div class="label">한화</div>
+    <div class="value" style="color:#f59e0b">167.6조</div>
+  </div>
+  <div class="summary-card" style="border-color:#ef4444">
+    <div class="label">LG</div>
+    <div class="value" style="color:#ef4444">165.5조</div>
+  </div>
+</div>
+
+<div class="chart-container">
+  <canvas id="mcapChart" height="200"></canvas>
+</div>
+
+
+<div class="group-card" style="border-color:#3b82f6">
+  <div class="group-header">
+    <div>
+      <span class="rank-badge" style="background:#3b82f6">1</span>
+      <span class="group-name">삼성</span>
+    </div>
+    <div style="text-align:right">
+      <div class="group-mcap">1,556.4조</div>
+      <div style="color:#ef4444;font-size:0.85rem">▲ 평균 2.48%</div>
+    </div>
+  </div>
+  <div class="group-pct-bar">
+    <div class="group-pct-fill" style="width:51.9%;background:#3b82f6"></div>
+  </div>
+  <div style="font-size:0.75rem;color:#9ca3af;margin-bottom:8px">전체 대비 51.9%</div>
+  <table class="stock-table">
+    <thead><tr><th>종목</th><th style="text-align:right">현재가</th><th style="text-align:right">시총</th><th style="text-align:right">등락</th></tr></thead>
+    <tbody><tr>
+<td><a href="https://m.stock.naver.com/domestic/stock/005930/total" target="_blank" style="color:#e2e8f0;text-decoration:none">삼성전자</a></td>
+<td style="text-align:right">187,900</td>
+<td style="text-align:right">1,130.7조</td>
+<td style="text-align:right"><span style="color:#ef4444">▲ 14,400 (+8.30%)</span></td>
+</tr><tr>
+<td><a href="https://m.stock.naver.com/domestic/stock/005935/total" target="_blank" style="color:#e2e8f0;text-decoration:none">삼성전자우</a></td>
+<td style="text-align:right">134,500</td>
+<td style="text-align:right">112.4조</td>
+<td style="text-align:right"><span style="color:#ef4444">▲ 13,000 (+10.70%)</span></td>
+</tr><tr>
+<td><a href="https://m.stock.naver.com/domestic/stock/207940/total" target="_blank" style="color:#e2e8f0;text-decoration:none">삼성바이오로직스</a></td>
+<td style="text-align:right">1,592,000</td>
+<td style="text-align:right">76.8조</td>
+<td style="text-align:right"><span style="color:#ef4444">▲ 13,000 (+0.82%)</span></td>
+</tr><tr>
+<td><a href="https://m.stock.naver.com/domestic/stock/028260/total" target="_blank" style="color:#e2e8f0;text-decoration:none">삼성물산</a></td>
+<td style="text-align:right">273,000</td>
+<td style="text-align:right">48.4조</td>
+<td style="text-align:right"><span style="color:#ef4444">▲ 2,500 (+0.92%)</span></td>
+</tr><tr>
+<td><a href="https://m.stock.naver.com/domestic/stock/032830/total" target="_blank" style="color:#e2e8f0;text-decoration:none">삼성생명</a></td>
+<td style="text-align:right">211,500</td>
+<td style="text-align:right">45.4조</td>
+<td style="text-align:right"><span style="color:#ef4444">▲ 11,000 (+5.49%)</span></td>
+</tr><tr>
+<td><a href="https://m.stock.naver.com/domestic/stock/006400/total" target="_blank" style="color:#e2e8f0;text-decoration:none">삼성SDI</a></td>
+<td style="text-align:right">403,500</td>
+<td style="text-align:right">32.4조</td>
+<td style="text-align:right"><span style="color:#ef4444">▲ 14,500 (+3.73%)</span></td>
+</tr><tr>
+<td><a href="https://m.stock.naver.com/domestic/stock/009150/total" target="_blank" style="color:#e2e8f0;text-decoration:none">삼성전기</a></td>
+<td style="text-align:right">402,000</td>
+<td style="text-align:right">30.6조</td>
+<td style="text-align:right"><span style="color:#ef4444">▲ 20,000 (+5.24%)</span></td>
+</tr><tr>
+<td><a href="https://m.stock.naver.com/domestic/stock/010140/total" target="_blank" style="color:#e2e8f0;text-decoration:none">삼성중공업</a></td>
+<td style="text-align:right">27,850</td>
+<td style="text-align:right">25.3조</td>
+<td style="text-align:right"><span style="color:#3b82f6">▼ 700 (-2.45%)</span></td>
+</tr><tr>
+<td><a href="https://m.stock.naver.com/domestic/stock/000810/total" target="_blank" style="color:#e2e8f0;text-decoration:none">삼성화재해상</a></td>
+<td style="text-align:right">488,500</td>
+<td style="text-align:right">23.0조</td>
+<td style="text-align:right"><span style="color:#ef4444">▲ 14,000 (+2.95%)</span></td>
+</tr><tr>
+<td><a href="https://m.stock.naver.com/domestic/stock/018260/total" target="_blank" style="color:#e2e8f0;text-decoration:none">삼성SDS</a></td>
+<td style="text-align:right">162,500</td>
+<td style="text-align:right">12.7조</td>
+<td style="text-align:right"><span style="color:#ef4444">▲ 3,900 (+2.46%)</span></td>
+</tr><tr>
+<td><a href="https://m.stock.naver.com/domestic/stock/029780/total" target="_blank" style="color:#e2e8f0;text-decoration:none">삼성카드</a></td>
+<td style="text-align:right">58,800</td>
+<td style="text-align:right">6.9조</td>
+<td style="text-align:right"><span style="color:#ef4444">▲ 600 (+1.03%)</span></td>
+</tr><tr>
+<td><a href="https://m.stock.naver.com/domestic/stock/028050/total" target="_blank" style="color:#e2e8f0;text-decoration:none">삼성엔지니어링</a></td>
+<td style="text-align:right">31,250</td>
+<td style="text-align:right">6.3조</td>
+<td style="text-align:right"><span style="color:#3b82f6">▼ 1,650 (-5.02%)</span></td>
+</tr><tr>
+<td><a href="https://m.stock.naver.com/domestic/stock/012750/total" target="_blank" style="color:#e2e8f0;text-decoration:none">에스원</a></td>
+<td style="text-align:right">82,300</td>
+<td style="text-align:right">3.2조</td>
+<td style="text-align:right"><span style="color:#3b82f6">▼ 1,000 (-1.20%)</span></td>
+</tr><tr>
+<td><a href="https://m.stock.naver.com/domestic/stock/030000/total" target="_blank" style="color:#e2e8f0;text-decoration:none">제일기획</a></td>
+<td style="text-align:right">20,600</td>
+<td style="text-align:right">2.4조</td>
+<td style="text-align:right"><span style="color:#ef4444">▲ 350 (+1.73%)</span></td>
+</tr></tbody>
+  </table>
+</div>
+<div class="group-card" style="border-color:#8b5cf6">
+  <div class="group-header">
+    <div>
+      <span class="rank-badge" style="background:#8b5cf6">2</span>
+      <span class="group-name">SK</span>
+    </div>
+    <div style="text-align:right">
+      <div class="group-mcap">837.2조</div>
+      <div style="color:#ef4444;font-size:0.85rem">▲ 평균 3.89%</div>
+    </div>
+  </div>
+  <div class="group-pct-bar">
+    <div class="group-pct-fill" style="width:27.9%;background:#8b5cf6"></div>
+  </div>
+  <div style="font-size:0.75rem;color:#9ca3af;margin-bottom:8px">전체 대비 27.9%</div>
+  <table class="stock-table">
+    <thead><tr><th>종목</th><th style="text-align:right">현재가</th><th style="text-align:right">시총</th><th style="text-align:right">등락</th></tr></thead>
+    <tbody><tr>
+<td><a href="https://m.stock.naver.com/domestic/stock/000660/total" target="_blank" style="color:#e2e8f0;text-decoration:none">SK하이닉스</a></td>
+<td style="text-align:right">938,000</td>
+<td style="text-align:right">684.9조</td>
+<td style="text-align:right"><span style="color:#ef4444">▲ 102,000 (+12.20%)</span></td>
+</tr><tr>
+<td><a href="https://m.stock.naver.com/domestic/stock/402340/total" target="_blank" style="color:#e2e8f0;text-decoration:none">SK스퀘어</a></td>
+<td style="text-align:right">554,000</td>
+<td style="text-align:right">75.6조</td>
+<td style="text-align:right"><span style="color:#ef4444">▲ 45,000 (+8.84%)</span></td>
+</tr><tr>
+<td><a href="https://m.stock.naver.com/domestic/stock/034730/total" target="_blank" style="color:#e2e8f0;text-decoration:none">SK</a></td>
+<td style="text-align:right">351,000</td>
+<td style="text-align:right">25.9조</td>
+<td style="text-align:right"><span style="color:#ef4444">▲ 22,000 (+6.69%)</span></td>
+</tr><tr>
+<td><a href="https://m.stock.naver.com/domestic/stock/096770/total" target="_blank" style="color:#e2e8f0;text-decoration:none">SK이노베이션</a></td>
+<td style="text-align:right">119,800</td>
+<td style="text-align:right">20.3조</td>
+<td style="text-align:right"><span style="color:#ef4444">▲ 1,600 (+1.35%)</span></td>
+</tr><tr>
+<td><a href="https://m.stock.naver.com/domestic/stock/017670/total" target="_blank" style="color:#e2e8f0;text-decoration:none">SK텔레콤</a></td>
+<td style="text-align:right">77,200</td>
+<td style="text-align:right">16.8조</td>
+<td style="text-align:right"><span style="color:#ef4444">▲ 1,400 (+1.85%)</span></td>
+</tr><tr>
+<td><a href="https://m.stock.naver.com/domestic/stock/326030/total" target="_blank" style="color:#e2e8f0;text-decoration:none">SK바이오팜</a></td>
+<td style="text-align:right">99,900</td>
+<td style="text-align:right">7.8조</td>
+<td style="text-align:right"><span style="color:#ef4444">▲ 1,800 (+1.83%)</span></td>
+</tr><tr>
+<td><a href="https://m.stock.naver.com/domestic/stock/011790/total" target="_blank" style="color:#e2e8f0;text-decoration:none">SKC</a></td>
+<td style="text-align:right">99,800</td>
+<td style="text-align:right">3.9조</td>
+<td style="text-align:right"><span style="color:#ef4444">▲ 3,000 (+3.10%)</span></td>
+</tr><tr>
+<td><a href="https://m.stock.naver.com/domestic/stock/018670/total" target="_blank" style="color:#e2e8f0;text-decoration:none">SK가스</a></td>
+<td style="text-align:right">229,500</td>
+<td style="text-align:right">2.1조</td>
+<td style="text-align:right"><span style="color:#3b82f6">▼ 11,500 (-4.77%)</span></td>
+</tr></tbody>
+  </table>
+</div>
+<div class="group-card" style="border-color:#10b981">
+  <div class="group-header">
+    <div>
+      <span class="rank-badge" style="background:#10b981">3</span>
+      <span class="group-name">현대차</span>
+    </div>
+    <div style="text-align:right">
+      <div class="group-mcap">269.8조</div>
+      <div style="color:#ef4444;font-size:0.85rem">▲ 평균 2.75%</div>
+    </div>
+  </div>
+  <div class="group-pct-bar">
+    <div class="group-pct-fill" style="width:9.0%;background:#10b981"></div>
+  </div>
+  <div style="font-size:0.75rem;color:#9ca3af;margin-bottom:8px">전체 대비 9.0%</div>
+  <table class="stock-table">
+    <thead><tr><th>종목</th><th style="text-align:right">현재가</th><th style="text-align:right">시총</th><th style="text-align:right">등락</th></tr></thead>
+    <tbody><tr>
+<td><a href="https://m.stock.naver.com/domestic/stock/005380/total" target="_blank" style="color:#e2e8f0;text-decoration:none">현대차</a></td>
+<td style="text-align:right">525,000</td>
+<td style="text-align:right">108.9조</td>
+<td style="text-align:right"><span style="color:#ef4444">▲ 18,000 (+3.55%)</span></td>
+</tr><tr>
+<td><a href="https://m.stock.naver.com/domestic/stock/000270/total" target="_blank" style="color:#e2e8f0;text-decoration:none">기아</a></td>
+<td style="text-align:right">161,000</td>
+<td style="text-align:right">63.7조</td>
+<td style="text-align:right"><span style="color:#ef4444">▲ 7,600 (+4.95%)</span></td>
+</tr><tr>
+<td><a href="https://m.stock.naver.com/domestic/stock/012330/total" target="_blank" style="color:#e2e8f0;text-decoration:none">현대모비스</a></td>
+<td style="text-align:right">423,000</td>
+<td style="text-align:right">38.4조</td>
+<td style="text-align:right"><span style="color:#ef4444">▲ 14,000 (+3.42%)</span></td>
+</tr><tr>
+<td><a href="https://m.stock.naver.com/domestic/stock/064350/total" target="_blank" style="color:#e2e8f0;text-decoration:none">현대로템</a></td>
+<td style="text-align:right">207,500</td>
+<td style="text-align:right">22.4조</td>
+<td style="text-align:right"><span style="color:#3b82f6">▼ 7,500 (-3.49%)</span></td>
+</tr><tr>
+<td><a href="https://m.stock.naver.com/domestic/stock/086280/total" target="_blank" style="color:#e2e8f0;text-decoration:none">현대글로비스</a></td>
+<td style="text-align:right">234,500</td>
+<td style="text-align:right">17.8조</td>
+<td style="text-align:right"><span style="color:#ef4444">▲ 8,000 (+3.53%)</span></td>
+</tr><tr>
+<td><a href="https://m.stock.naver.com/domestic/stock/307950/total" target="_blank" style="color:#e2e8f0;text-decoration:none">현대오토에버</a></td>
+<td style="text-align:right">399,500</td>
+<td style="text-align:right">11.3조</td>
+<td style="text-align:right"><span style="color:#ef4444">▲ 16,000 (+4.17%)</span></td>
+</tr><tr>
+<td><a href="https://m.stock.naver.com/domestic/stock/004020/total" target="_blank" style="color:#e2e8f0;text-decoration:none">현대제철</a></td>
+<td style="text-align:right">36,700</td>
+<td style="text-align:right">5.0조</td>
+<td style="text-align:right"><span style="color:#3b82f6">▼ 200 (-0.54%)</span></td>
+</tr><tr>
+<td><a href="https://m.stock.naver.com/domestic/stock/011210/total" target="_blank" style="color:#e2e8f0;text-decoration:none">현대위아</a></td>
+<td style="text-align:right">87,800</td>
+<td style="text-align:right">2.3조</td>
+<td style="text-align:right"><span style="color:#ef4444">▲ 5,300 (+6.42%)</span></td>
+</tr></tbody>
+  </table>
+</div>
+<div class="group-card" style="border-color:#f59e0b">
+  <div class="group-header">
+    <div>
+      <span class="rank-badge" style="background:#f59e0b">4</span>
+      <span class="group-name">한화</span>
+    </div>
+    <div style="text-align:right">
+      <div class="group-mcap">167.6조</div>
+      <div style="color:#ef4444;font-size:0.85rem">▲ 평균 0.95%</div>
+    </div>
+  </div>
+  <div class="group-pct-bar">
+    <div class="group-pct-fill" style="width:5.6%;background:#f59e0b"></div>
+  </div>
+  <div style="font-size:0.75rem;color:#9ca3af;margin-bottom:8px">전체 대비 5.6%</div>
+  <table class="stock-table">
+    <thead><tr><th>종목</th><th style="text-align:right">현재가</th><th style="text-align:right">시총</th><th style="text-align:right">등락</th></tr></thead>
+    <tbody><tr>
+<td><a href="https://m.stock.naver.com/domestic/stock/012450/total" target="_blank" style="color:#e2e8f0;text-decoration:none">한화에어로스페이스</a></td>
+<td style="text-align:right">1,455,000</td>
+<td style="text-align:right">73.6조</td>
+<td style="text-align:right"><span style="color:#ef4444">▲ 21,000 (+1.46%)</span></td>
+</tr><tr>
+<td><a href="https://m.stock.naver.com/domestic/stock/042660/total" target="_blank" style="color:#e2e8f0;text-decoration:none">한화오션</a></td>
+<td style="text-align:right">124,400</td>
+<td style="text-align:right">41.3조</td>
+<td style="text-align:right"><span style="color:#ef4444">▲ 700 (+0.57%)</span></td>
+</tr><tr>
+<td><a href="https://m.stock.naver.com/domestic/stock/272210/total" target="_blank" style="color:#e2e8f0;text-decoration:none">한화시스템</a></td>
+<td style="text-align:right">156,200</td>
+<td style="text-align:right">28.1조</td>
+<td style="text-align:right"><span style="color:#3b82f6">▼ 6,500 (-4.00%)</span></td>
+</tr><tr>
+<td><a href="https://m.stock.naver.com/domestic/stock/000880/total" target="_blank" style="color:#e2e8f0;text-decoration:none">한화</a></td>
+<td style="text-align:right">126,000</td>
+<td style="text-align:right">9.8조</td>
+<td style="text-align:right"><span style="color:#ef4444">▲ 2,500 (+2.02%)</span></td>
+</tr><tr>
+<td><a href="https://m.stock.naver.com/domestic/stock/009830/total" target="_blank" style="color:#e2e8f0;text-decoration:none">한화솔루션</a></td>
+<td style="text-align:right">50,500</td>
+<td style="text-align:right">8.9조</td>
+<td style="text-align:right"><span style="color:#9ca3af">— 0 (0.00%)</span></td>
+</tr><tr>
+<td><a href="https://m.stock.naver.com/domestic/stock/088350/total" target="_blank" style="color:#e2e8f0;text-decoration:none">한화생명</a></td>
+<td style="text-align:right">4,690</td>
+<td style="text-align:right">4.4조</td>
+<td style="text-align:right"><span style="color:#ef4444">▲ 75 (+1.63%)</span></td>
+</tr><tr>
+<td><a href="https://m.stock.naver.com/domestic/stock/003530/total" target="_blank" style="color:#e2e8f0;text-decoration:none">한화투자증권</a></td>
+<td style="text-align:right">7,230</td>
+<td style="text-align:right">1.6조</td>
+<td style="text-align:right"><span style="color:#ef4444">▲ 280 (+4.03%)</span></td>
+</tr></tbody>
+  </table>
+</div>
+<div class="group-card" style="border-color:#ef4444">
+  <div class="group-header">
+    <div>
+      <span class="rank-badge" style="background:#ef4444">5</span>
+      <span class="group-name">LG</span>
+    </div>
+    <div style="text-align:right">
+      <div class="group-mcap">165.5조</div>
+      <div style="color:#ef4444;font-size:0.85rem">▲ 평균 2.53%</div>
+    </div>
+  </div>
+  <div class="group-pct-bar">
+    <div class="group-pct-fill" style="width:5.5%;background:#ef4444"></div>
+  </div>
+  <div style="font-size:0.75rem;color:#9ca3af;margin-bottom:8px">전체 대비 5.5%</div>
+  <table class="stock-table">
+    <thead><tr><th>종목</th><th style="text-align:right">현재가</th><th style="text-align:right">시총</th><th style="text-align:right">등락</th></tr></thead>
+    <tbody><tr>
+<td><a href="https://m.stock.naver.com/domestic/stock/373220/total" target="_blank" style="color:#e2e8f0;text-decoration:none">LG에너지솔루션</a></td>
+<td style="text-align:right">367,000</td>
+<td style="text-align:right">86.9조</td>
+<td style="text-align:right"><span style="color:#ef4444">▲ 7,500 (+2.09%)</span></td>
+</tr><tr>
+<td><a href="https://m.stock.naver.com/domestic/stock/051910/total" target="_blank" style="color:#e2e8f0;text-decoration:none">LG화학</a></td>
+<td style="text-align:right">311,000</td>
+<td style="text-align:right">22.3조</td>
+<td style="text-align:right"><span style="color:#ef4444">▲ 11,000 (+3.67%)</span></td>
+</tr><tr>
+<td><a href="https://m.stock.naver.com/domestic/stock/066570/total" target="_blank" style="color:#e2e8f0;text-decoration:none">LG전자</a></td>
+<td style="text-align:right">115,900</td>
+<td style="text-align:right">19.2조</td>
+<td style="text-align:right"><span style="color:#ef4444">▲ 2,500 (+2.20%)</span></td>
+</tr><tr>
+<td><a href="https://m.stock.naver.com/domestic/stock/003550/total" target="_blank" style="color:#e2e8f0;text-decoration:none">LG</a></td>
+<td style="text-align:right">94,100</td>
+<td style="text-align:right">14.3조</td>
+<td style="text-align:right"><span style="color:#ef4444">▲ 4,800 (+5.38%)</span></td>
+</tr><tr>
+<td><a href="https://m.stock.naver.com/domestic/stock/032640/total" target="_blank" style="color:#e2e8f0;text-decoration:none">LG유플러스</a></td>
+<td style="text-align:right">14,760</td>
+<td style="text-align:right">6.5조</td>
+<td style="text-align:right"><span style="color:#ef4444">▲ 40 (+0.27%)</span></td>
+</tr><tr>
+<td><a href="https://m.stock.naver.com/domestic/stock/011070/total" target="_blank" style="color:#e2e8f0;text-decoration:none">LG이노텍</a></td>
+<td style="text-align:right">258,000</td>
+<td style="text-align:right">6.2조</td>
+<td style="text-align:right"><span style="color:#ef4444">▲ 7,500 (+2.99%)</span></td>
+</tr><tr>
+<td><a href="https://m.stock.naver.com/domestic/stock/034220/total" target="_blank" style="color:#e2e8f0;text-decoration:none">LG디스플레이</a></td>
+<td style="text-align:right">11,980</td>
+<td style="text-align:right">6.0조</td>
+<td style="text-align:right"><span style="color:#ef4444">▲ 650 (+5.74%)</span></td>
+</tr><tr>
+<td><a href="https://m.stock.naver.com/domestic/stock/051900/total" target="_blank" style="color:#e2e8f0;text-decoration:none">LG생활건강</a></td>
+<td style="text-align:right">245,000</td>
+<td style="text-align:right">3.8조</td>
+<td style="text-align:right"><span style="color:#3b82f6">▼ 4,000 (-1.61%)</span></td>
+</tr><tr>
+<td><a href="https://m.stock.naver.com/domestic/stock/037560/total" target="_blank" style="color:#e2e8f0;text-decoration:none">LG헬로비전</a></td>
+<td style="text-align:right">2,215</td>
+<td style="text-align:right">1,777억</td>
+<td style="text-align:right"><span style="color:#ef4444">▲ 45 (+2.07%)</span></td>
+</tr></tbody>
+  </table>
+</div>
+
+<div class="section-title">전체 계열사 시총 순위 (Top 50)</div>
+<div style="overflow-x:auto">
+<table class="all-table">
+<thead><tr><th>#</th><th>종목</th><th style="text-align:right">현재가</th><th style="text-align:right">시총</th><th style="text-align:right">등락</th></tr></thead>
+<tbody><tr>
+<td>1</td>
+<td><span style="color:#3b82f6;font-weight:600">[삼성]</span> <a href="https://m.stock.naver.com/domestic/stock/005930/total" target="_blank" style="color:#e2e8f0;text-decoration:none">삼성전자</a></td>
+<td style="text-align:right">187,900</td>
+<td style="text-align:right;font-weight:600">1,130.7조</td>
+<td style="text-align:right"><span style="color:#ef4444">▲ 14,400 (+8.30%)</span></td>
+</tr><tr>
+<td>2</td>
+<td><span style="color:#8b5cf6;font-weight:600">[SK]</span> <a href="https://m.stock.naver.com/domestic/stock/000660/total" target="_blank" style="color:#e2e8f0;text-decoration:none">SK하이닉스</a></td>
+<td style="text-align:right">938,000</td>
+<td style="text-align:right;font-weight:600">684.9조</td>
+<td style="text-align:right"><span style="color:#ef4444">▲ 102,000 (+12.20%)</span></td>
+</tr><tr>
+<td>3</td>
+<td><span style="color:#3b82f6;font-weight:600">[삼성]</span> <a href="https://m.stock.naver.com/domestic/stock/005935/total" target="_blank" style="color:#e2e8f0;text-decoration:none">삼성전자우</a></td>
+<td style="text-align:right">134,500</td>
+<td style="text-align:right;font-weight:600">112.4조</td>
+<td style="text-align:right"><span style="color:#ef4444">▲ 13,000 (+10.70%)</span></td>
+</tr><tr>
+<td>4</td>
+<td><span style="color:#10b981;font-weight:600">[현대차]</span> <a href="https://m.stock.naver.com/domestic/stock/005380/total" target="_blank" style="color:#e2e8f0;text-decoration:none">현대차</a></td>
+<td style="text-align:right">525,000</td>
+<td style="text-align:right;font-weight:600">108.9조</td>
+<td style="text-align:right"><span style="color:#ef4444">▲ 18,000 (+3.55%)</span></td>
+</tr><tr>
+<td>5</td>
+<td><span style="color:#ef4444;font-weight:600">[LG]</span> <a href="https://m.stock.naver.com/domestic/stock/373220/total" target="_blank" style="color:#e2e8f0;text-decoration:none">LG에너지솔루션</a></td>
+<td style="text-align:right">367,000</td>
+<td style="text-align:right;font-weight:600">86.9조</td>
+<td style="text-align:right"><span style="color:#ef4444">▲ 7,500 (+2.09%)</span></td>
+</tr><tr>
+<td>6</td>
+<td><span style="color:#3b82f6;font-weight:600">[삼성]</span> <a href="https://m.stock.naver.com/domestic/stock/207940/total" target="_blank" style="color:#e2e8f0;text-decoration:none">삼성바이오로직스</a></td>
+<td style="text-align:right">1,592,000</td>
+<td style="text-align:right;font-weight:600">76.8조</td>
+<td style="text-align:right"><span style="color:#ef4444">▲ 13,000 (+0.82%)</span></td>
+</tr><tr>
+<td>7</td>
+<td><span style="color:#8b5cf6;font-weight:600">[SK]</span> <a href="https://m.stock.naver.com/domestic/stock/402340/total" target="_blank" style="color:#e2e8f0;text-decoration:none">SK스퀘어</a></td>
+<td style="text-align:right">554,000</td>
+<td style="text-align:right;font-weight:600">75.6조</td>
+<td style="text-align:right"><span style="color:#ef4444">▲ 45,000 (+8.84%)</span></td>
+</tr><tr>
+<td>8</td>
+<td><span style="color:#f59e0b;font-weight:600">[한화]</span> <a href="https://m.stock.naver.com/domestic/stock/012450/total" target="_blank" style="color:#e2e8f0;text-decoration:none">한화에어로스페이스</a></td>
+<td style="text-align:right">1,455,000</td>
+<td style="text-align:right;font-weight:600">73.6조</td>
+<td style="text-align:right"><span style="color:#ef4444">▲ 21,000 (+1.46%)</span></td>
+</tr><tr>
+<td>9</td>
+<td><span style="color:#10b981;font-weight:600">[현대차]</span> <a href="https://m.stock.naver.com/domestic/stock/000270/total" target="_blank" style="color:#e2e8f0;text-decoration:none">기아</a></td>
+<td style="text-align:right">161,000</td>
+<td style="text-align:right;font-weight:600">63.7조</td>
+<td style="text-align:right"><span style="color:#ef4444">▲ 7,600 (+4.95%)</span></td>
+</tr><tr>
+<td>10</td>
+<td><span style="color:#3b82f6;font-weight:600">[삼성]</span> <a href="https://m.stock.naver.com/domestic/stock/028260/total" target="_blank" style="color:#e2e8f0;text-decoration:none">삼성물산</a></td>
+<td style="text-align:right">273,000</td>
+<td style="text-align:right;font-weight:600">48.4조</td>
+<td style="text-align:right"><span style="color:#ef4444">▲ 2,500 (+0.92%)</span></td>
+</tr><tr>
+<td>11</td>
+<td><span style="color:#3b82f6;font-weight:600">[삼성]</span> <a href="https://m.stock.naver.com/domestic/stock/032830/total" target="_blank" style="color:#e2e8f0;text-decoration:none">삼성생명</a></td>
+<td style="text-align:right">211,500</td>
+<td style="text-align:right;font-weight:600">45.4조</td>
+<td style="text-align:right"><span style="color:#ef4444">▲ 11,000 (+5.49%)</span></td>
+</tr><tr>
+<td>12</td>
+<td><span style="color:#f59e0b;font-weight:600">[한화]</span> <a href="https://m.stock.naver.com/domestic/stock/042660/total" target="_blank" style="color:#e2e8f0;text-decoration:none">한화오션</a></td>
+<td style="text-align:right">124,400</td>
+<td style="text-align:right;font-weight:600">41.3조</td>
+<td style="text-align:right"><span style="color:#ef4444">▲ 700 (+0.57%)</span></td>
+</tr><tr>
+<td>13</td>
+<td><span style="color:#10b981;font-weight:600">[현대차]</span> <a href="https://m.stock.naver.com/domestic/stock/012330/total" target="_blank" style="color:#e2e8f0;text-decoration:none">현대모비스</a></td>
+<td style="text-align:right">423,000</td>
+<td style="text-align:right;font-weight:600">38.4조</td>
+<td style="text-align:right"><span style="color:#ef4444">▲ 14,000 (+3.42%)</span></td>
+</tr><tr>
+<td>14</td>
+<td><span style="color:#3b82f6;font-weight:600">[삼성]</span> <a href="https://m.stock.naver.com/domestic/stock/006400/total" target="_blank" style="color:#e2e8f0;text-decoration:none">삼성SDI</a></td>
+<td style="text-align:right">403,500</td>
+<td style="text-align:right;font-weight:600">32.4조</td>
+<td style="text-align:right"><span style="color:#ef4444">▲ 14,500 (+3.73%)</span></td>
+</tr><tr>
+<td>15</td>
+<td><span style="color:#3b82f6;font-weight:600">[삼성]</span> <a href="https://m.stock.naver.com/domestic/stock/009150/total" target="_blank" style="color:#e2e8f0;text-decoration:none">삼성전기</a></td>
+<td style="text-align:right">402,000</td>
+<td style="text-align:right;font-weight:600">30.6조</td>
+<td style="text-align:right"><span style="color:#ef4444">▲ 20,000 (+5.24%)</span></td>
+</tr><tr>
+<td>16</td>
+<td><span style="color:#f59e0b;font-weight:600">[한화]</span> <a href="https://m.stock.naver.com/domestic/stock/272210/total" target="_blank" style="color:#e2e8f0;text-decoration:none">한화시스템</a></td>
+<td style="text-align:right">156,200</td>
+<td style="text-align:right;font-weight:600">28.1조</td>
+<td style="text-align:right"><span style="color:#3b82f6">▼ 6,500 (-4.00%)</span></td>
+</tr><tr>
+<td>17</td>
+<td><span style="color:#8b5cf6;font-weight:600">[SK]</span> <a href="https://m.stock.naver.com/domestic/stock/034730/total" target="_blank" style="color:#e2e8f0;text-decoration:none">SK</a></td>
+<td style="text-align:right">351,000</td>
+<td style="text-align:right;font-weight:600">25.9조</td>
+<td style="text-align:right"><span style="color:#ef4444">▲ 22,000 (+6.69%)</span></td>
+</tr><tr>
+<td>18</td>
+<td><span style="color:#3b82f6;font-weight:600">[삼성]</span> <a href="https://m.stock.naver.com/domestic/stock/010140/total" target="_blank" style="color:#e2e8f0;text-decoration:none">삼성중공업</a></td>
+<td style="text-align:right">27,850</td>
+<td style="text-align:right;font-weight:600">25.3조</td>
+<td style="text-align:right"><span style="color:#3b82f6">▼ 700 (-2.45%)</span></td>
+</tr><tr>
+<td>19</td>
+<td><span style="color:#3b82f6;font-weight:600">[삼성]</span> <a href="https://m.stock.naver.com/domestic/stock/000810/total" target="_blank" style="color:#e2e8f0;text-decoration:none">삼성화재해상</a></td>
+<td style="text-align:right">488,500</td>
+<td style="text-align:right;font-weight:600">23.0조</td>
+<td style="text-align:right"><span style="color:#ef4444">▲ 14,000 (+2.95%)</span></td>
+</tr><tr>
+<td>20</td>
+<td><span style="color:#10b981;font-weight:600">[현대차]</span> <a href="https://m.stock.naver.com/domestic/stock/064350/total" target="_blank" style="color:#e2e8f0;text-decoration:none">현대로템</a></td>
+<td style="text-align:right">207,500</td>
+<td style="text-align:right;font-weight:600">22.4조</td>
+<td style="text-align:right"><span style="color:#3b82f6">▼ 7,500 (-3.49%)</span></td>
+</tr><tr>
+<td>21</td>
+<td><span style="color:#ef4444;font-weight:600">[LG]</span> <a href="https://m.stock.naver.com/domestic/stock/051910/total" target="_blank" style="color:#e2e8f0;text-decoration:none">LG화학</a></td>
+<td style="text-align:right">311,000</td>
+<td style="text-align:right;font-weight:600">22.3조</td>
+<td style="text-align:right"><span style="color:#ef4444">▲ 11,000 (+3.67%)</span></td>
+</tr><tr>
+<td>22</td>
+<td><span style="color:#8b5cf6;font-weight:600">[SK]</span> <a href="https://m.stock.naver.com/domestic/stock/096770/total" target="_blank" style="color:#e2e8f0;text-decoration:none">SK이노베이션</a></td>
+<td style="text-align:right">119,800</td>
+<td style="text-align:right;font-weight:600">20.3조</td>
+<td style="text-align:right"><span style="color:#ef4444">▲ 1,600 (+1.35%)</span></td>
+</tr><tr>
+<td>23</td>
+<td><span style="color:#ef4444;font-weight:600">[LG]</span> <a href="https://m.stock.naver.com/domestic/stock/066570/total" target="_blank" style="color:#e2e8f0;text-decoration:none">LG전자</a></td>
+<td style="text-align:right">115,900</td>
+<td style="text-align:right;font-weight:600">19.2조</td>
+<td style="text-align:right"><span style="color:#ef4444">▲ 2,500 (+2.20%)</span></td>
+</tr><tr>
+<td>24</td>
+<td><span style="color:#10b981;font-weight:600">[현대차]</span> <a href="https://m.stock.naver.com/domestic/stock/086280/total" target="_blank" style="color:#e2e8f0;text-decoration:none">현대글로비스</a></td>
+<td style="text-align:right">234,500</td>
+<td style="text-align:right;font-weight:600">17.8조</td>
+<td style="text-align:right"><span style="color:#ef4444">▲ 8,000 (+3.53%)</span></td>
+</tr><tr>
+<td>25</td>
+<td><span style="color:#8b5cf6;font-weight:600">[SK]</span> <a href="https://m.stock.naver.com/domestic/stock/017670/total" target="_blank" style="color:#e2e8f0;text-decoration:none">SK텔레콤</a></td>
+<td style="text-align:right">77,200</td>
+<td style="text-align:right;font-weight:600">16.8조</td>
+<td style="text-align:right"><span style="color:#ef4444">▲ 1,400 (+1.85%)</span></td>
+</tr><tr>
+<td>26</td>
+<td><span style="color:#ef4444;font-weight:600">[LG]</span> <a href="https://m.stock.naver.com/domestic/stock/003550/total" target="_blank" style="color:#e2e8f0;text-decoration:none">LG</a></td>
+<td style="text-align:right">94,100</td>
+<td style="text-align:right;font-weight:600">14.3조</td>
+<td style="text-align:right"><span style="color:#ef4444">▲ 4,800 (+5.38%)</span></td>
+</tr><tr>
+<td>27</td>
+<td><span style="color:#3b82f6;font-weight:600">[삼성]</span> <a href="https://m.stock.naver.com/domestic/stock/018260/total" target="_blank" style="color:#e2e8f0;text-decoration:none">삼성SDS</a></td>
+<td style="text-align:right">162,500</td>
+<td style="text-align:right;font-weight:600">12.7조</td>
+<td style="text-align:right"><span style="color:#ef4444">▲ 3,900 (+2.46%)</span></td>
+</tr><tr>
+<td>28</td>
+<td><span style="color:#10b981;font-weight:600">[현대차]</span> <a href="https://m.stock.naver.com/domestic/stock/307950/total" target="_blank" style="color:#e2e8f0;text-decoration:none">현대오토에버</a></td>
+<td style="text-align:right">399,500</td>
+<td style="text-align:right;font-weight:600">11.3조</td>
+<td style="text-align:right"><span style="color:#ef4444">▲ 16,000 (+4.17%)</span></td>
+</tr><tr>
+<td>29</td>
+<td><span style="color:#f59e0b;font-weight:600">[한화]</span> <a href="https://m.stock.naver.com/domestic/stock/000880/total" target="_blank" style="color:#e2e8f0;text-decoration:none">한화</a></td>
+<td style="text-align:right">126,000</td>
+<td style="text-align:right;font-weight:600">9.8조</td>
+<td style="text-align:right"><span style="color:#ef4444">▲ 2,500 (+2.02%)</span></td>
+</tr><tr>
+<td>30</td>
+<td><span style="color:#f59e0b;font-weight:600">[한화]</span> <a href="https://m.stock.naver.com/domestic/stock/009830/total" target="_blank" style="color:#e2e8f0;text-decoration:none">한화솔루션</a></td>
+<td style="text-align:right">50,500</td>
+<td style="text-align:right;font-weight:600">8.9조</td>
+<td style="text-align:right"><span style="color:#9ca3af">— 0 (0.00%)</span></td>
+</tr><tr>
+<td>31</td>
+<td><span style="color:#8b5cf6;font-weight:600">[SK]</span> <a href="https://m.stock.naver.com/domestic/stock/326030/total" target="_blank" style="color:#e2e8f0;text-decoration:none">SK바이오팜</a></td>
+<td style="text-align:right">99,900</td>
+<td style="text-align:right;font-weight:600">7.8조</td>
+<td style="text-align:right"><span style="color:#ef4444">▲ 1,800 (+1.83%)</span></td>
+</tr><tr>
+<td>32</td>
+<td><span style="color:#3b82f6;font-weight:600">[삼성]</span> <a href="https://m.stock.naver.com/domestic/stock/029780/total" target="_blank" style="color:#e2e8f0;text-decoration:none">삼성카드</a></td>
+<td style="text-align:right">58,800</td>
+<td style="text-align:right;font-weight:600">6.9조</td>
+<td style="text-align:right"><span style="color:#ef4444">▲ 600 (+1.03%)</span></td>
+</tr><tr>
+<td>33</td>
+<td><span style="color:#ef4444;font-weight:600">[LG]</span> <a href="https://m.stock.naver.com/domestic/stock/032640/total" target="_blank" style="color:#e2e8f0;text-decoration:none">LG유플러스</a></td>
+<td style="text-align:right">14,760</td>
+<td style="text-align:right;font-weight:600">6.5조</td>
+<td style="text-align:right"><span style="color:#ef4444">▲ 40 (+0.27%)</span></td>
+</tr><tr>
+<td>34</td>
+<td><span style="color:#3b82f6;font-weight:600">[삼성]</span> <a href="https://m.stock.naver.com/domestic/stock/028050/total" target="_blank" style="color:#e2e8f0;text-decoration:none">삼성엔지니어링</a></td>
+<td style="text-align:right">31,250</td>
+<td style="text-align:right;font-weight:600">6.3조</td>
+<td style="text-align:right"><span style="color:#3b82f6">▼ 1,650 (-5.02%)</span></td>
+</tr><tr>
+<td>35</td>
+<td><span style="color:#ef4444;font-weight:600">[LG]</span> <a href="https://m.stock.naver.com/domestic/stock/011070/total" target="_blank" style="color:#e2e8f0;text-decoration:none">LG이노텍</a></td>
+<td style="text-align:right">258,000</td>
+<td style="text-align:right;font-weight:600">6.2조</td>
+<td style="text-align:right"><span style="color:#ef4444">▲ 7,500 (+2.99%)</span></td>
+</tr><tr>
+<td>36</td>
+<td><span style="color:#ef4444;font-weight:600">[LG]</span> <a href="https://m.stock.naver.com/domestic/stock/034220/total" target="_blank" style="color:#e2e8f0;text-decoration:none">LG디스플레이</a></td>
+<td style="text-align:right">11,980</td>
+<td style="text-align:right;font-weight:600">6.0조</td>
+<td style="text-align:right"><span style="color:#ef4444">▲ 650 (+5.74%)</span></td>
+</tr><tr>
+<td>37</td>
+<td><span style="color:#10b981;font-weight:600">[현대차]</span> <a href="https://m.stock.naver.com/domestic/stock/004020/total" target="_blank" style="color:#e2e8f0;text-decoration:none">현대제철</a></td>
+<td style="text-align:right">36,700</td>
+<td style="text-align:right;font-weight:600">5.0조</td>
+<td style="text-align:right"><span style="color:#3b82f6">▼ 200 (-0.54%)</span></td>
+</tr><tr>
+<td>38</td>
+<td><span style="color:#f59e0b;font-weight:600">[한화]</span> <a href="https://m.stock.naver.com/domestic/stock/088350/total" target="_blank" style="color:#e2e8f0;text-decoration:none">한화생명</a></td>
+<td style="text-align:right">4,690</td>
+<td style="text-align:right;font-weight:600">4.4조</td>
+<td style="text-align:right"><span style="color:#ef4444">▲ 75 (+1.63%)</span></td>
+</tr><tr>
+<td>39</td>
+<td><span style="color:#8b5cf6;font-weight:600">[SK]</span> <a href="https://m.stock.naver.com/domestic/stock/011790/total" target="_blank" style="color:#e2e8f0;text-decoration:none">SKC</a></td>
+<td style="text-align:right">99,800</td>
+<td style="text-align:right;font-weight:600">3.9조</td>
+<td style="text-align:right"><span style="color:#ef4444">▲ 3,000 (+3.10%)</span></td>
+</tr><tr>
+<td>40</td>
+<td><span style="color:#ef4444;font-weight:600">[LG]</span> <a href="https://m.stock.naver.com/domestic/stock/051900/total" target="_blank" style="color:#e2e8f0;text-decoration:none">LG생활건강</a></td>
+<td style="text-align:right">245,000</td>
+<td style="text-align:right;font-weight:600">3.8조</td>
+<td style="text-align:right"><span style="color:#3b82f6">▼ 4,000 (-1.61%)</span></td>
+</tr><tr>
+<td>41</td>
+<td><span style="color:#3b82f6;font-weight:600">[삼성]</span> <a href="https://m.stock.naver.com/domestic/stock/012750/total" target="_blank" style="color:#e2e8f0;text-decoration:none">에스원</a></td>
+<td style="text-align:right">82,300</td>
+<td style="text-align:right;font-weight:600">3.2조</td>
+<td style="text-align:right"><span style="color:#3b82f6">▼ 1,000 (-1.20%)</span></td>
+</tr><tr>
+<td>42</td>
+<td><span style="color:#3b82f6;font-weight:600">[삼성]</span> <a href="https://m.stock.naver.com/domestic/stock/030000/total" target="_blank" style="color:#e2e8f0;text-decoration:none">제일기획</a></td>
+<td style="text-align:right">20,600</td>
+<td style="text-align:right;font-weight:600">2.4조</td>
+<td style="text-align:right"><span style="color:#ef4444">▲ 350 (+1.73%)</span></td>
+</tr><tr>
+<td>43</td>
+<td><span style="color:#10b981;font-weight:600">[현대차]</span> <a href="https://m.stock.naver.com/domestic/stock/011210/total" target="_blank" style="color:#e2e8f0;text-decoration:none">현대위아</a></td>
+<td style="text-align:right">87,800</td>
+<td style="text-align:right;font-weight:600">2.3조</td>
+<td style="text-align:right"><span style="color:#ef4444">▲ 5,300 (+6.42%)</span></td>
+</tr><tr>
+<td>44</td>
+<td><span style="color:#8b5cf6;font-weight:600">[SK]</span> <a href="https://m.stock.naver.com/domestic/stock/018670/total" target="_blank" style="color:#e2e8f0;text-decoration:none">SK가스</a></td>
+<td style="text-align:right">229,500</td>
+<td style="text-align:right;font-weight:600">2.1조</td>
+<td style="text-align:right"><span style="color:#3b82f6">▼ 11,500 (-4.77%)</span></td>
+</tr><tr>
+<td>45</td>
+<td><span style="color:#f59e0b;font-weight:600">[한화]</span> <a href="https://m.stock.naver.com/domestic/stock/003530/total" target="_blank" style="color:#e2e8f0;text-decoration:none">한화투자증권</a></td>
+<td style="text-align:right">7,230</td>
+<td style="text-align:right;font-weight:600">1.6조</td>
+<td style="text-align:right"><span style="color:#ef4444">▲ 280 (+4.03%)</span></td>
+</tr><tr>
+<td>46</td>
+<td><span style="color:#ef4444;font-weight:600">[LG]</span> <a href="https://m.stock.naver.com/domestic/stock/037560/total" target="_blank" style="color:#e2e8f0;text-decoration:none">LG헬로비전</a></td>
+<td style="text-align:right">2,215</td>
+<td style="text-align:right;font-weight:600">1,777억</td>
+<td style="text-align:right"><span style="color:#ef4444">▲ 45 (+2.07%)</span></td>
+</tr></tbody>
+</table>
+</div>
+
+<div style="text-align:center;color:#475569;font-size:0.75rem;margin-top:24px;padding-bottom:16px">
+  OpenClaw 5대그룹 시총 대시보드 | 데이터: 네이버금융 | 2026-03-11 14:45
+</div>
+
+<script>
+const ctx = document.getElementById('mcapChart').getContext('2d');
+new Chart(ctx, {
+  type: 'bar',
+  data: {
+    labels: ["삼성", "SK", "현대차", "한화", "LG"],
+    datasets: [{
+      label: '시가총액 (조원)',
+      data: [1556.4, 837.2, 269.8, 167.6, 165.5],
+      backgroundColor: ["#3b82f6", "#8b5cf6", "#10b981", "#f59e0b", "#ef4444"],
+      borderColor: ["#3b82f6", "#8b5cf6", "#10b981", "#f59e0b", "#ef4444"],
+      borderWidth: 1,
+      borderRadius: 6,
+    }]
+  },
+  options: {
+    indexAxis: 'y',
+    responsive: true,
+    plugins: {
+      legend: { display: false },
+      tooltip: {
+        callbacks: {
+          label: ctx => ctx.parsed.x.toFixed(1) + '조원'
+        }
+      }
+    },
+    scales: {
+      x: {
+        grid: { color: '#1e293b' },
+        ticks: { color: '#9ca3af', callback: v => v + '조' }
+      },
+      y: {
+        grid: { display: false },
+        ticks: { color: '#e2e8f0', font: { size: 14, weight: 'bold' } }
+      }
+    }
+  }
+});
+</script>
+</body>
+</html>

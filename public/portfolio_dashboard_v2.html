@@ -1,0 +1,1034 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="theme-color" content="#0f1419">
+    <title>📊 올인원 포트폴리오 대시보드</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-primary: #0f1419;
+            --bg-secondary: #15202b;
+            --bg-card: #1e2732;
+            --bg-elevated: #263340;
+            --text-primary: #e7e9ea;
+            --text-secondary: #71767b;
+            --accent-blue: #1d9bf0;
+            --accent-green: #00ba7c;
+            --accent-red: #f4212e;
+            --accent-yellow: #ffd400;
+            --accent-purple: #8b5cf6;
+            --border-color: #2f3336;
+        }
+        
+        * { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+        html { font-size: 16px; scroll-behavior: smooth; }
+        
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.5;
+            padding-bottom: 100px;
+        }
+        
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, #1d9bf0 0%, #0d8bd9 50%, #8b5cf6 100%);
+            padding: 24px 20px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        .header-title { font-size: 1.5rem; font-weight: 700; margin-bottom: 4px; }
+        .header-subtitle { font-size: 0.875rem; opacity: 0.9; }
+        .update-time { font-size: 0.75rem; opacity: 0.8; margin-top: 8px; }
+        
+        /* Navigation */
+        .nav-tabs {
+            display: flex;
+            gap: 8px;
+            padding: 12px 16px;
+            background: var(--bg-secondary);
+            border-bottom: 1px solid var(--border-color);
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+            scrollbar-width: none;
+        }
+        
+        .nav-tabs::-webkit-scrollbar { display: none; }
+        
+        .nav-tab {
+            flex-shrink: 0;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.875rem;
+            font-weight: 500;
+            background: var(--bg-card);
+            color: var(--text-secondary);
+            border: none;
+            cursor: pointer;
+            white-space: nowrap;
+        }
+        
+        .nav-tab.active {
+            background: var(--accent-blue);
+            color: white;
+        }
+        
+        /* Container */
+        .container { padding: 16px; max-width: 600px; margin: 0 auto; }
+        
+        /* Section */
+        .section { display: none; }
+        .section.active { display: block; }
+        
+        /* Cards */
+        .card {
+            background: var(--bg-secondary);
+            border-radius: 16px;
+            padding: 20px;
+            margin-bottom: 16px;
+            border: 1px solid var(--border-color);
+        }
+        
+        .card-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 16px;
+        }
+        
+        .card-title {
+            font-size: 1.125rem;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .badge {
+            font-size: 0.625rem;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-weight: 600;
+        }
+        
+        .badge-green { background: rgba(0, 186, 124, 0.2); color: var(--accent-green); }
+        .badge-red { background: rgba(244, 33, 46, 0.2); color: var(--accent-red); }
+        .badge-yellow { background: rgba(255, 212, 0, 0.2); color: var(--accent-yellow); }
+        .badge-blue { background: rgba(29, 155, 240, 0.2); color: var(--accent-blue); }
+        .badge-purple { background: rgba(139, 92, 246, 0.2); color: var(--accent-purple); }
+        
+        /* Stats Grid */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+        
+        .stat-card {
+            background: var(--bg-card);
+            border-radius: 16px;
+            padding: 20px 16px;
+            text-align: center;
+        }
+        
+        .stat-value {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 4px;
+        }
+        
+        .stat-value.blue { color: var(--accent-blue); }
+        .stat-value.green { color: var(--accent-green); }
+        .stat-value.red { color: var(--accent-red); }
+        .stat-value.yellow { color: var(--accent-yellow); }
+        
+        .stat-label {
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+            margin-bottom: 4px;
+        }
+        
+        .stat-change {
+            font-size: 0.875rem;
+            font-weight: 600;
+        }
+        
+        /* Stock Cards */
+        .stock-card {
+            background: var(--bg-card);
+            border-radius: 16px;
+            padding: 16px;
+            margin-bottom: 12px;
+            border-left: 4px solid var(--accent-blue);
+        }
+        
+        .stock-card.buy { border-left-color: var(--accent-green); }
+        .stock-card.sell { border-left-color: var(--accent-red); }
+        .stock-card.hold { border-left-color: var(--accent-yellow); }
+        
+        .stock-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 12px;
+        }
+        
+        .stock-info h3 {
+            font-size: 1.125rem;
+            font-weight: 700;
+            margin-bottom: 4px;
+        }
+        
+        .stock-ticker {
+            font-size: 0.875rem;
+            color: var(--text-secondary);
+        }
+        
+        .stock-sector {
+            font-size: 0.75rem;
+            color: var(--accent-blue);
+            margin-top: 4px;
+        }
+        
+        .stock-opinion {
+            text-align: right;
+        }
+        
+        .opinion-badge {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            margin-bottom: 4px;
+        }
+        
+        .opinion-buy { background: rgba(0, 186, 124, 0.2); color: var(--accent-green); }
+        .opinion-sell { background: rgba(244, 33, 46, 0.2); color: var(--accent-red); }
+        .opinion-hold { background: rgba(255, 212, 0, 0.2); color: var(--accent-yellow); }
+        
+        .stock-upside {
+            font-size: 1.25rem;
+            font-weight: 700;
+        }
+        
+        .stock-upside.positive { color: var(--accent-green); }
+        .stock-upside.negative { color: var(--accent-red); }
+        
+        .stock-prices {
+            display: flex;
+            gap: 16px;
+            margin: 12px 0;
+            padding: 12px;
+            background: var(--bg-elevated);
+            border-radius: 12px;
+        }
+        
+        .price-item {
+            flex: 1;
+        }
+        
+        .price-label {
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+            margin-bottom: 4px;
+        }
+        
+        .price-value {
+            font-size: 1rem;
+            font-weight: 600;
+        }
+        
+        .stock-opinion-detail {
+            font-size: 0.875rem;
+            color: var(--text-secondary);
+            line-height: 1.6;
+            margin-top: 12px;
+            padding-top: 12px;
+            border-top: 1px solid var(--border-color);
+        }
+        
+        /* Event Cards */
+        .event-card {
+            background: var(--bg-card);
+            border-radius: 16px;
+            padding: 16px;
+            margin-bottom: 12px;
+            border-left: 4px solid var(--accent-yellow);
+        }
+        
+        .event-card.impact-high { border-left-color: var(--accent-red); }
+        .event-card.impact-medium { border-left-color: var(--accent-yellow); }
+        .event-card.impact-low { border-left-color: var(--accent-green); }
+        
+        .event-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 8px;
+        }
+        
+        .event-title {
+            font-weight: 600;
+            flex: 1;
+        }
+        
+        .event-impact {
+            font-size: 0.625rem;
+            padding: 4px 8px;
+            border-radius: 8px;
+            font-weight: 700;
+            margin-left: 8px;
+        }
+        
+        .impact-high { background: rgba(244, 33, 46, 0.2); color: var(--accent-red); }
+        .impact-medium { background: rgba(255, 212, 0, 0.2); color: var(--accent-yellow); }
+        .impact-low { background: rgba(0, 186, 124, 0.2); color: var(--accent-green); }
+        
+        .event-desc {
+            font-size: 0.875rem;
+            color: var(--text-secondary);
+            margin-bottom: 8px;
+        }
+        
+        .event-affected {
+            font-size: 0.75rem;
+            color: var(--accent-blue);
+        }
+        
+        /* Action Cards */
+        .action-card {
+            background: linear-gradient(135deg, rgba(29, 155, 240, 0.1) 0%, rgba(139, 92, 246, 0.1) 100%);
+            border: 1px solid rgba(29, 155, 240, 0.3);
+            border-radius: 16px;
+            padding: 16px;
+            margin-bottom: 12px;
+        }
+        
+        .action-header {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 8px;
+        }
+        
+        .action-icon {
+            font-size: 1.25rem;
+        }
+        
+        .action-title {
+            font-weight: 600;
+        }
+        
+        .action-desc {
+            font-size: 0.875rem;
+            color: var(--text-secondary);
+            margin-bottom: 12px;
+        }
+        
+        .action-stocks {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+        
+        .action-stock {
+            background: var(--bg-elevated);
+            padding: 6px 12px;
+            border-radius: 8px;
+            font-size: 0.75rem;
+            font-weight: 500;
+        }
+        
+        /* Alert Banner */
+        .alert-banner {
+            background: linear-gradient(135deg, rgba(244, 33, 46, 0.2) 0%, rgba(255, 212, 0, 0.2) 100%);
+            border: 1px solid rgba(244, 33, 46, 0.3);
+            border-radius: 16px;
+            padding: 16px;
+            margin-bottom: 16px;
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+        }
+        
+        .alert-icon {
+            font-size: 1.5rem;
+        }
+        
+        .alert-content h3 {
+            font-weight: 600;
+            margin-bottom: 4px;
+        }
+        
+        .alert-content p {
+            font-size: 0.875rem;
+            color: var(--text-secondary);
+        }
+        
+        /* Bottom Nav */
+        .bottom-nav {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: var(--bg-secondary);
+            border-top: 1px solid var(--border-color);
+            padding: 12px 20px calc(12px + env(safe-area-inset-bottom));
+            display: flex;
+            justify-content: space-around;
+            z-index: 100;
+        }
+        
+        .nav-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 4px;
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.625rem;
+            background: none;
+            border: none;
+            cursor: pointer;
+        }
+        
+        .nav-item.active { color: var(--accent-blue); }
+        .nav-icon { font-size: 1.5rem; }
+        
+        /* Section Title */
+        .section-title {
+            font-size: 1.25rem;
+            font-weight: 700;
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .section-subtitle {
+            font-size: 0.875rem;
+            color: var(--text-secondary);
+            margin-bottom: 16px;
+        }
+        
+        /* Filter Chips */
+        .filter-chips {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 16px;
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+            scrollbar-width: none;
+        }
+        
+        .filter-chips::-webkit-scrollbar { display: none; }
+        
+        .chip {
+            flex-shrink: 0;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.875rem;
+            font-weight: 500;
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            color: var(--text-secondary);
+            cursor: pointer;
+        }
+        
+        .chip.active {
+            background: var(--accent-blue);
+            color: white;
+            border-color: var(--accent-blue);
+        }
+        
+        /* Priority Marker */
+        .priority-marker {
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            padding: 4px 8px;
+            border-radius: 8px;
+            margin-left: 8px;
+        }
+        
+        .priority-high { background: rgba(244, 33, 46, 0.2); color: var(--accent-red); }
+        .priority-medium { background: rgba(255, 212, 0, 0.2); color: var(--accent-yellow); }
+        .priority-low { background: rgba(0, 186, 124, 0.2); color: var(--accent-green); }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <h1 class="header-title">📊 올인원 포트폴리오 대시보드</h1>
+        <p class="header-subtitle">와이즈리포트 · 시장이벤트 · 제안액션 통합</p>
+        <p class="update-time">⏱️ 실시간 업데이트: 2026년 3월 2일 10:40 KST</p>
+    </header>
+
+    <!-- Navigation Tabs -->
+    <nav class="nav-tabs">
+        <button class="nav-tab active" onclick="showSection('overview')">📈 개요</button>
+        <button class="nav-tab" onclick="showSection('stocks')">📋 종목분석</button>
+        <button class="nav-tab" onclick="showSection('events')">🔥 시장이벤트</button>
+        <button class="nav-tab" onclick="showSection('actions')">⚡ 제안액션</button>
+    </nav>
+
+    <div class="container">
+        <!-- Section 1: Overview -->
+        <div id="overview" class="section active">
+            <!-- Alert Banner -->
+            <div class="alert-banner">
+                <span class="alert-icon">🚨</span>
+                <div class="alert-content">
+                    <h3>긴급: 이란-미국 분쟁 고조</h3>
+                    <p>중동 지정학적 리스크 확산으로 유가 및 방산주 변동성 확대 예상</p>
+                </div>
+            </div>
+
+            <!-- Portfolio Stats -->
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-value blue">₩11.4억</div>
+                    <div class="stat-label">총 자산</div>
+                    <div class="stat-change green">+2.3% 📈</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value green">57</div>
+                    <div class="stat-label">보유 종목</div>
+                    <div class="stat-change">14개 섹터</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value yellow">7</div>
+                    <div class="stat-label">리스크 알림</div>
+                    <div class="stat-change red">즉시 조치 필요</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">29</div>
+                    <div class="stat-label">제안액션</div>
+                    <div class="stat-change">오늘 신규 5개</div>
+                </div>
+            </div>
+
+            <!-- Today's Summary Card -->
+            <div class="card">
+                <div class="card-header">
+                    <h2 class="card-title">📊 오늘의 핵심 요약</h2>
+                    <span class="badge badge-blue">3/2</span>
+                </div>
+                
+                <div style="margin-bottom: 16px;">
+                    <div style="font-size: 0.875rem; color: var(--text-secondary); margin-bottom: 8px;">🎯 와이즈리포트 BUY 권장</div>
+                    <div style="font-size: 1.5rem; font-weight: 700; color: var(--accent-green);">44개 종목 <span style="font-size: 0.875rem; color: var(--text-secondary);">/ 74개 중</span></div>
+                    <div style="margin-top: 8px; display: flex; gap: 8px; flex-wrap: wrap;">
+                        <span class="badge badge-green">IT 61.5%</span>
+                        <span class="badge badge-green">산업재 63.6%</span>
+                        <span class="badge badge-green">배터리 강세</span>
+                    </div>
+                </div>
+
+                <div style="padding-top: 16px; border-top: 1px solid var(--border-color);">
+                    <div style="font-size: 0.875rem; color: var(--text-secondary); margin-bottom: 8px;">🔥 핫 이슈</div>
+                    <div style="font-size: 0.9375rem;">
+                        • 이란-미국 분쟁: <span style="color: var(--accent-red);">유가/방산주 영향</span><br>
+                        • FOMC 금리 동결 예상: <span style="color: var(--accent-yellow);">96%</span><br>
+                        • AI 거품론: <span style="color: var(--accent-red);">엔비디아 -4.16%</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Top Priority Actions -->
+            <div class="card">
+                <div class="card-header">
+                    <h2 class="card-title">⚡ 우선 처리 액션</h2>
+                    <span class="badge badge-red">긴급</span>
+                </div>
+
+                <div class="action-card">
+                    <div class="action-header">
+                        <span class="action-icon">🔴</span>
+                        <span class="action-title">손절/축소 검토</span>
+                        <span class="priority-marker priority-high">즉시</span>
+                    </div>
+                    <div class="action-desc">-30% 이상 손실 종목 리스크 관리</div>
+                    <div class="action-stocks">
+                        <span class="action-stock">SOL/KRW -34.9%</span>
+                        <span class="action-stock">LINK/USD -31.4%</span>
+                        <span class="action-stock">파마리서치 -79.1%</span>
+                    </div>
+                </div>
+
+                <div class="action-card">
+                    <div class="action-header">
+                        <span class="action-icon">💰</span>
+                        <span class="action-title">분할 익절 검토</span>
+                        <span class="priority-marker priority-medium">권장</span>
+                    </div>
+                    <div class="action-desc">+200% 이상 수익 종목 수익 확정</div>
+                    <div class="action-stocks">
+                        <span class="action-stock">현대차3우B +301%</span>
+                        <span class="action-stock">삼성전자 +222%</span>
+                        <span class="action-stock">샤오미 +246%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 2: Stock Analysis -->
+        <div id="stocks" class="section">
+            <h2 class="section-title">📋 종목별 상세 분석</h2>
+            <p class="section-subtitle">와이즈리포트 기반 투자 의견 및 목표가</p>
+
+            <!-- Filter Chips -->
+            <div class="filter-chips">
+                <button class="chip active">전체</button>
+                <button class="chip">BUY 추천</button>
+                <button class="chip">보유중</button>
+                <button class="chip">리스크</button>
+            </div>
+
+            <!-- Stock Cards -->
+            <div class="stock-card buy">
+                <div class="stock-header">
+                    <div class="stock-info">
+                        <h3>포스코퓨처엠</h3>
+                        <div class="stock-ticker">003670 | 2차전지/음극재</div>
+                        <div class="stock-sector">배터리 소재 전문기업</div>
+                    </div>
+                    <div class="stock-opinion">
+                        <span class="opinion-badge opinion-buy">BUY</span>
+                        <div class="stock-upside positive">+50.4% 🚀</div>
+                    </div>
+                </div>
+                
+                <div class="stock-prices">
+                    <div class="price-item">
+                        <div class="price-label">현재가</div>
+                        <div class="price-value">246,000</div>
+                    </div>
+                    <div class="price-item">
+                        <div class="price-label">목표가</div>
+                        <div class="price-value green">370,000</div>
+                    </div>
+                    <div class="price-item">
+                        <div class="price-label">투자의견</div>
+                        <div class="price-value green">매수</div>
+                    </div>
+                </div>
+
+                <div class="stock-opinion-detail">
+                    <strong>핵심 투자포인트:</strong> 3월 음극재 모멘텀, 미국 중국산 ESS 수입 금지 법안 발의로 국내 기업 수혜 예상. 음극재 반덤핑 최종 판결 임박 및 리튬 가격 반등으로 실적 개선 기대. 미국 현지 생산 기지 확보로 글로벌 공급망 재편 수혜주.
+                </div>
+            </div>
+
+            <div class="stock-card buy">
+                <div class="stock-header">
+                    <div class="stock-info">
+                        <h3>피에스케이홀딩스</h3>
+                        <div class="stock-ticker">031980 | 반도체 장비</div>
+                        <div class="stock-sector">후공정 장비 전문</div>
+                    </div>
+                    <div class="stock-opinion">
+                        <span class="opinion-badge opinion-buy">매수</span>
+                        <div class="stock-upside positive">+55.3% 🚀</div>
+                    </div>
+                </div>
+                
+                <div class="stock-prices">
+                    <div class="price-item">
+                        <div class="price-label">현재가</div>
+                        <div class="price-value">80,500</div>
+                    </div>
+                    <div class="price-item">
+                        <div class="price-label">목표가</div>
+                        <div class="price-value green">125,000</div>
+                    </div>
+                    <div class="price-item">
+                        <div class="price-label">투자의견</div>
+                        <div class="price-value green">매수</div>
+                    </div>
+                </div>
+
+                <div class="stock-opinion-detail">
+                    <strong>핵심 투자포인트:</strong> AI와 동반 성장하는 장비 업체. 후공정 시장 블루칩으로 CoWoS 중심 성장 예상. HBM 투자 속도 상향 조정으로 장비 수요 급증. 엔비디아/AMD 등 글로벌 반도체 기업 수주 확대로 실적 성장 가시성 높음.
+                </div>
+            </div>
+
+            <div class="stock-card buy">
+                <div class="stock-header">
+                    <div class="stock-info">
+                        <h3>삼성SDI</h3>
+                        <div class="stock-ticker">006400 | 2차전지</div>
+                        <div class="stock-sector">ESS/전고체 전지</div>
+                    </div>
+                    <div class="stock-opinion">
+                        <span class="opinion-badge opinion-buy">BUY</span>
+                        <div class="stock-upside positive">+34.0% 📈</div>
+                    </div>
+                </div>
+                
+                <div class="stock-prices">
+                    <div class="price-item">
+                        <div class="price-label">현재가</div>
+                        <div class="price-value">433,000</div>
+                    </div>
+                    <div class="price-item">
+                        <div class="price-label">목표가</div>
+                        <div class="price-value green">580,000</div>
+                    </div>
+                    <div class="price-item">
+                        <div class="price-label">투자의견</div>
+                        <div class="price-value green">BUY</div>
+                    </div>
+                </div>
+
+                <div class="stock-opinion-detail">
+                    <strong>핵심 투자포인트:</strong> ESS 매출규모 4Q25 가속화. 미국내 중국산 ESS 수입제한 가능성 부각으로 국내 1위 수혜 기대. SDC 매각추진 모멘텀으로 기업가치 재평가. 전고체 전지 상용화 선도로 차세대 배터리 시장 주도권 확보.
+                </div>
+            </div>
+
+            <div class="stock-card buy">
+                <div class="stock-header">
+                    <div class="stock-info">
+                        <h3>기아</h3>
+                        <div class="stock-ticker">000270 | 자동차</div>
+                        <div class="stock-sector">전기차/신차 모델</div>
+                    </div>
+                    <div class="stock-opinion">
+                        <span class="opinion-badge opinion-buy">Buy</span>
+                        <div class="stock-upside positive">+22.4% 📈</div>
+                    </div>
+                </div>
+                
+                <div class="stock-prices">
+                    <div class="price-item">
+                        <div class="price-label">현재가</div>
+                        <div class="price-value">196,100</div>
+                    </div>
+                    <div class="price-item">
+                        <div class="price-label">목표가</div>
+                        <div class="price-value green">240,000</div>
+                    </div>
+                    <div class="price-item">
+                        <div class="price-label">투자의견</div>
+                        <div class="price-value green">Buy</div>
+                    </div>
+                </div>
+
+                <div class="stock-opinion-detail">
+                    <strong>핵심 투자포인트:</strong> 2026.2.25 역사적 신고가 경신. 26년 초반 판매 흐름 긍정적이며 신차 기반 물량 확대의 한 해가 될 전망. EV 라인업 강화와 글로벌 시장 점유율 확대로 프리미엄 브랜드 가치 상승.
+                </div>
+            </div>
+
+            <div class="stock-card sell">
+                <div class="stock-header">
+                    <div class="stock-info">
+                        <h3>파마리서치</h3>
+                        <div class="stock-ticker">214450 | 바이오/리서치</div>
+                        <div class="stock-sector">내 보유 종목</div>
+                    </div>
+                    <div class="stock-opinion">
+                        <span class="opinion-badge opinion-sell">손절검토</span>
+                        <div class="stock-upside negative">-79.1% ⚠️</div>
+                    </div>
+                </div>
+                
+                <div class="stock-prices">
+                    <div class="price-item">
+                        <div class="price-label">현재가</div>
+                        <div class="price-value">83,800</div>
+                    </div>
+                    <div class="price-item">
+                        <div class="price-label">매수가</div>
+                        <div class="price-value">401,408</div>
+                    </div>
+                    <div class="price-item">
+                        <div class="price-label">손실률</div>
+                        <div class="price-value red">-79%</div>
+                    </div>
+                </div>
+
+                <div class="stock-opinion-detail">
+                    <strong>⚠️ 리스크 알림:</strong> 심각한 손실 상태. 추가 하 위험 관리를 위해 손절 또는 분할 축소 검토 필요. 신규 매수 추천 종목으로 교체 고려.
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 3: Market Events -->
+        <div id="events" class="section">
+            <h2 class="section-title">🔥 시장 이벤트 & 영향도 분석</h2>
+            <p class="section-subtitle">최근 금융/시장에 영향도가 높은 이벤트 및 예상 영향</p>
+
+            <!-- Geopolitical Risk -->
+            <div class="event-card impact-high">
+                <div class="event-header">
+                    <span class="event-title">🚨 이란-미국-이스라엘 분쟁 격화</span>
+                    <span class="event-impact impact-high">영향도: 매우 높음</span>
+                </div>
+                <div class="event-desc">
+                    이란 최고지도자 하메네이 사망, 이란 보복 공습. 중동 지정학적 리스크 최고조. 유가 급등 및 공급망 차질 우려.
+                </div>
+                <div style="margin-top: 12px; padding: 12px; background: var(--bg-elevated); border-radius: 8px;">
+                    <div style="font-size: 0.75rem; color: var(--text-secondary); margin-bottom: 8px;">📊 예상 영향:</div>
+                    <div style="font-size: 0.875rem;">
+                        • <span style="color: var(--accent-red);">유가 급등</span> → 인플레이션 재점화<br>
+                        • <span style="color: var(--accent-green);">방산주</span> → 수혜 예상<br>
+                        • <span style="color: var(--accent-yellow);">항공/유통</span> → 운송비 상승 부담
+                    </div>
+                </div>
+                <div class="event-affected">
+                    영향 종목: 대한항공(방산), 원유/에너지 관련 ETF, 해운주
+                </div>
+            </div>
+
+            <div class="event-card impact-high">
+                <div class="event-header">
+                    <span class="event-title">📉 AI 거품론 확산</span>
+                    <span class="event-impact impact-high">영향도: 높음</span>
+                </div>
+                <div class="event-desc">
+                    AI 반도체 수요 둔화 우려. 엔비디아 -4.16% 급. 대형 기술주 밸류에이션 조정 압력.
+                </div>
+                <div style="margin-top: 12px; padding: 12px; background: var(--bg-elevated); border-radius: 8px;">
+                    <div style="font-size: 0.75rem; color: var(--text-secondary); margin-bottom: 8px;">📊 예상 영향:</div>
+                    <div style="font-size: 0.875rem;">
+                        • <span style="color: var(--accent-red);">반도체/AI주</span> → 단기 변동성 확대<br>
+                        • <span style="color: var(--accent-yellow);">실적 검증</span> → HBM 수요 확인 필요<br>
+                        • <span style="color: var(--accent-green);">분할 매수</span> → 장기 성장성 유효
+                    </div>
+                </div>
+                <div class="event-affected">
+                    영향 종목: 삼성전자, SK하이닉스, 엔비디아, AMD
+                </div>
+            </div>
+
+            <div class="event-card impact-medium">
+                <div class="event-header">
+                    <span class="event-title">🏛️ FOMC 금리 정책</span>
+                    <span class="event-impact impact-medium">영향도: 중간</span>
+                </div>
+                <div class="event-desc">
+                    3월 FOMC 금리 동결 확률 96%. 연준 금리 인하 시점 하반기로 밀릴 가능성.
+                </div>
+                <div style="margin-top: 12px; padding: 12px; background: var(--bg-elevated); border-radius: 8px;">
+                    <div style="font-size: 0.75rem; color: var(--text-secondary); margin-bottom: 8px;">📊 예상 영향:</div>
+                    <div style="font-size: 0.875rem;">
+                        • <span style="color: var(--accent-yellow);">금리 인하 지연</span> → 기술주 밸류에이션 부담<br>
+                        • <span style="color: var(--accent-green);">금융주</span> → 이자이익 확대<br>
+                        • <span style="color: var(--accent-red);">리츠/채권</span> → 단기 약세
+                    </div>
+                </div>
+            </div>
+
+            <div class="event-card impact-medium">
+                <div class="event-header">
+                    <span class="event-title">🔋 미국 중국산 ESS 수입제한</span>
+                    <span class="event-impact impact-medium">영향도: 중간</span>
+                </div>
+                <div class="event-desc">
+                    미국, 중국산 ESS 수입 금지 법안 발의. 국내 배터리 기업 수혜 기대.
+                </div>
+                <div style="margin-top: 12px; padding: 12px; background: var(--bg-elevated); border-radius: 8px;">
+                    <div style="font-size: 0.75rem; color: var(--text-secondary); margin-bottom: 8px;">📊 예상 영향:</div>
+                    <div style="font-size: 0.875rem;">
+                        • <span style="color: var(--accent-green);">삼성SDI, LG화학</span> → 수혜 예상<br>
+                        • <span style="color: var(--accent-green);">포스코퓨처엠</span> → 음극재 수출 증가<br>
+                        • <span style="color: var(--accent-green);">배터리 소재</span> → 전반적 수혜
+                    </div>
+                </div>
+            </div>
+
+            <div class="event-card impact-low">
+                <div class="event-header">
+                    <span class="event-title">🇨🇳 중국 부양책 기대감</span>
+                    <span class="event-impact impact-low">영향도: 낮음-중간</span>
+                </div>
+                <div class="event-desc">
+                    전인대 앞두고 추가 경기 부양책 기대. 상하이지수 소폭 상승.
+                </div>
+                <div style="margin-top: 12px; padding: 12px; background: var(--bg-elevated); border-radius: 8px;">
+                    <div style="font-size: 0.75rem; color: var(--text-secondary); margin-bottom: 8px;">📊 예상 영향:</div>
+                    <div style="font-size: 0.875rem;">
+                        • <span style="color: var(--accent-green);">중국 관련주</span> → 단기 반등<br>
+                        • <span style="color: var(--accent-yellow);">원자재</span> → 수요 증가 기대
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 4: Recommended Actions -->
+        <div id="actions" class="section">
+            <h2 class="section-title">⚡ 제안 액션</h2>
+            <p class="section-subtitle">현재 상황에 따른 우선순위별 투자 액션</p>
+
+            <!-- High Priority -->
+            <div class="card" style="border: 1px solid rgba(244, 33, 46, 0.3);">
+                <div class="card-header">
+                    <h2 class="card-title">🔴 즉시 실행 (High Priority)</h2>
+                </div>
+
+                <div class="action-card" style="border-left: 4px solid var(--accent-red);">
+                    <div class="action-header">
+                        <span class="action-icon">✂️</span>
+                        <span class="action-title">손실 종목 리스크 관리</span>
+                    </div>
+                    <div class="action-desc">
+                        -30% 이상 손실 종목은 추가 하 위험이 크므로 손절 또는 분할 축소 검토
+                    </div>
+                    <div class="action-stocks">
+                        <span class="action-stock">파마리서치 -79%</span>
+                        <span class="action-stock">DL이앤씨우 -95%</span>
+                    </div>
+                    <div style="margin-top: 12px; padding: 12px; background: rgba(244, 33, 46, 0.1); border-radius: 8px; font-size: 0.875rem; color: var(--accent-red);">
+                        ⚠️ 신규 매수 추천 종목으로 교체 권장
+                    </div>
+                </div>
+
+                <div class="action-card" style="border-left: 4px solid var(--accent-yellow);">
+                    <div class="action-header">
+                        <span class="action-icon">⚠️</span>
+                        <span class="action-title">크립토 리스크 축소</span>
+                    </div>
+                    <div class="action-desc">
+                        -30% 이상 손실, 중동 리스크로 변동성 확대 예상
+                    </div>
+                    <div class="action-stocks">
+                        <span class="action-stock">SOL/KRW -35%</span>
+                        <span class="action-stock">LINK/USD -31%</span>
+                        <span class="action-stock">엘오티베큠 -68%</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Medium Priority -->
+            <div class="card" style="border: 1px solid rgba(255, 212, 0, 0.3); margin-top: 16px;">
+                <div class="card-header">
+                    <h2 class="card-title">🟡 적극 검토 (Medium Priority)</h2>
+                </div>
+
+                <div class="action-card" style="border-left: 4px solid var(--accent-green);">
+                    <div class="action-header">
+                        <span class="action-icon">💰</span>
+                        <span class="action-title">수익 종목 분할 익절</span>
+                    </div>
+                    <div class="action-desc">
+                        +200% 이상 수익 종목은 10~20% 분할 익절로 수익 확정
+                    </div>
+                    <div class="action-stocks">
+                        <span class="action-stock">현대차3우B +301%</span>
+                        <span class="action-stock">삼성전자 +222%</span>
+                        <span class="action-stock">삼성전자우 +212%</span>
+                        <span class="action-stock">샤오미 +246%</span>
+                    </div>
+                </div>
+
+                <div class="action-card" style="border-left: 4px solid var(--accent-blue);">
+                    <div class="action-header">
+                        <span class="action-icon">🚀</span>
+                        <span class="action-title">배터리/반도체 비중 확대</span>
+                    </div>
+                    <div class="action-desc">
+                        미국 ESS 수입제한 수혜 + AI 인프라 투자 확대로 성장성 유효
+                    </div>
+                    <div class="action-stocks">
+                        <span class="action-stock">포스코퓨처엠 +50%</span>
+                        <span class="action-stock">삼성SDI +34%</span>
+                        <span class="action-stock">피에스케이홀딩스 +55%</span>
+                        <span class="action-stock">LG화학 +26%</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Portfolio Strategy -->
+            <div class="card" style="margin-top: 16px;">
+                <div class="card-header">
+                    <h2 class="card-title">🎯 포트폴리오 리밸런싱 전략</h2>
+                </div>
+
+                <div style="display: grid; gap: 12px;">
+                    <div style="padding: 16px; background: var(--bg-elevated); border-radius: 12px;">
+                        <div style="font-weight: 600; margin-bottom: 8px;">📊 현재 포트폴리오 상태</div>
+                        <div style="font-size: 0.875rem; color: var(--text-secondary);">
+                            • 반도체: 19.6% (적정)<br>
+                            • AI 전력: 11.5% (적정)<br>
+                            • 가상자산: 11.0% (<span style="color: var(--accent-red);">과다 - 축소 권장</span>)<br>
+                            • 배터리: 9.99% (<span style="color: var(--accent-green);">확대 기회</span>)
+                        </div>
+                    </div>
+
+                    <div style="padding: 16px; background: var(--bg-elevated); border-radius: 12px;">
+                        <div style="font-weight: 600; margin-bottom: 8px;">🎯 제안 조정안</div>
+                        <div style="font-size: 0.875rem; color: var(--text-secondary);">
+                            1️⃣ <span style="color: var(--accent-red);">크립토 11% → 6%</span> (5% 축소)<br>
+                            2️⃣ <span style="color: var(--accent-green);">배터리 10% → 15%</span> (5% 확대)<br>
+                            3️⃣ <span style="color: var(--accent-green);">현금 2% → 10%</span> (유동성 확보)
+                        </div>
+                    </div>
+
+                    <div style="padding: 16px; background: rgba(0, 186, 124, 0.1); border-radius: 12px; border: 1px solid rgba(0, 186, 124, 0.2);">
+                        <div style="font-weight: 600; margin-bottom: 8px; color: var(--accent-green);">✅ 최종 권장 포트폴리오 비중</div>
+                        <div style="font-size: 0.875rem;">
+                            • 반도체/AI: 35% (핵심 성장)<br>
+                            • 배터리: 15% (정책 수혜)<br>
+                            • 자동차/로봇: 12% (신성장)<br>
+                            • 가상자산: 6% (리스크 관리)<br>
+                            • 현금/단기채: 10% (방어)
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bottom Navigation -->
+    <nav class="bottom-nav">
+        <button class="nav-item active" onclick="showSection('overview')">
+            <span class="nav-icon">🏠</span>
+            <span>개요</span>
+        </button>
+        <button class="nav-item" onclick="showSection('stocks')">
+            <span class="nav-icon">📋</span>
+            <span>종목</span>
+        </button>
+        <button class="nav-item" onclick="showSection('events')">
+            <span class="nav-icon">🔥</span>
+            <span>이벤트</span>
+        </button>
+        <button class="nav-item" onclick="showSection('actions')">
+            <span class="nav-icon">⚡</span>
+            <span>액션</span>
+        </button>
+    </nav>
+
+    <script>
+        function showSection(sectionId) {
+            // Hide all sections
+            document.querySelectorAll('.section').forEach(section => {
+                section.classList.remove('active');
+            });
+            
+            // Show selected section
+            document.getElementById(sectionId).classList.add('active');
+            
+            // Update nav tabs
+            document.querySelectorAll('.nav-tab').forEach(tab => {
+                tab.classList.remove('active');
+            });
+            event.target.classList.add('active');
+            
+            // Update bottom nav
+            document.querySelectorAll('.bottom-nav .nav-item').forEach(item => {
+                item.classList.remove('active');
+            });
+            event.target.classList.add('active');
+        }
+    </script>
+</body>
+</html>

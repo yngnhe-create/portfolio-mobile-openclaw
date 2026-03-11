@@ -1,0 +1,93 @@
+[2026-03-10 00:00] 업데이트 시작
+🔄 데이터 수집 시작: 2026-03-10 00:00:01.827973
+✅ HTML 업데이트 완료: /Users/geon/.openclaw/workspace/public/iran-dashboard/index.html
+✅ 완료: 2026-03-10 00:00:02.717848
+To https://github.com/yngnhe-create/iran-dashboard-kr.git
+   b61d7d6..57c35dd  main -> main
+[2026-03-10 00:00] 업데이트 완료
+[2026-03-10 04:00] 업데이트 시작
+🔄 데이터 수집 시작: 2026-03-10 04:00:01.130627
+✅ HTML 업데이트 완료: /Users/geon/.openclaw/workspace/public/iran-dashboard/index.html
+✅ 완료: 2026-03-10 04:00:01.891105
+To https://github.com/yngnhe-create/iran-dashboard-kr.git
+   57c35dd..773e28d  main -> main
+[2026-03-10 04:00] 업데이트 완료
+[2026-03-10 08:00] 업데이트 시작
+🔄 데이터 수집 시작: 2026-03-10 08:00:00.738335
+✅ HTML 업데이트 완료: /Users/geon/.openclaw/workspace/public/iran-dashboard/index.html
+✅ 완료: 2026-03-10 08:00:01.501463
+To https://github.com/yngnhe-create/iran-dashboard-kr.git
+   773e28d..5c072f7  main -> main
+[2026-03-10 08:00] 업데이트 완료
+[2026-03-10 12:00] 업데이트 시작
+🔄 데이터 수집 시작: 2026-03-10 12:00:01.096805
+✅ HTML 업데이트 완료: /Users/geon/.openclaw/workspace/public/iran-dashboard/index.html
+✅ 완료: 2026-03-10 12:00:01.800419
+To https://github.com/yngnhe-create/iran-dashboard-kr.git
+   5c072f7..089020b  main -> main
+[2026-03-10 12:00] 업데이트 완료
+[2026-03-10 16:00] 업데이트 시작
+🔄 데이터 수집 시작: 2026-03-10 16:00:00.537340
+✅ HTML 업데이트 완료: /Users/geon/.openclaw/workspace/public/iran-dashboard/index.html
+✅ 완료: 2026-03-10 16:00:02.116721
+To https://github.com/yngnhe-create/iran-dashboard-kr.git
+   089020b..8246f82  main -> main
+[2026-03-10 16:00] 업데이트 완료
+[2026-03-10 20:00] 업데이트 시작
+🔄 데이터 수집 시작: 2026-03-10 20:00:00.664066
+✅ HTML 업데이트 완료: /Users/geon/.openclaw/workspace/public/iran-dashboard/index.html
+✅ 완료: 2026-03-10 20:00:01.416408
+To https://github.com/yngnhe-create/iran-dashboard-kr.git
+   8246f82..0cea2c7  main -> main
+[2026-03-10 20:00] 업데이트 완료
+[2026-03-11 00:00] 업데이트 시작
+🔄 데이터 수집 시작: 2026-03-11 00:00:00.826508
+✅ HTML 업데이트 완료: /Users/geon/.openclaw/workspace/public/iran-dashboard/index.html
+✅ 완료: 2026-03-11 00:00:02.019877
+To https://github.com/yngnhe-create/iran-dashboard-kr.git
+   0cea2c7..62f0d53  main -> main
+[2026-03-11 00:00] 업데이트 완료
+[2026-03-11 04:00] 업데이트 시작
+🔄 데이터 수집 시작: 2026-03-11 04:00:00.425547
+✅ HTML 업데이트 완료: /Users/geon/.openclaw/workspace/public/iran-dashboard/index.html
+✅ 완료: 2026-03-11 04:00:01.309267
+To https://github.com/yngnhe-create/iran-dashboard-kr.git
+   62f0d53..c9742ff  main -> main
+[2026-03-11 04:00] 업데이트 완료
+[2026-03-11 08:00] 업데이트 시작
+🔄 데이터 수집 시작: 2026-03-11 08:00:00.753202
+✅ HTML 업데이트 완료: /Users/geon/.openclaw/workspace/public/iran-dashboard/index.html
+✅ 완료: 2026-03-11 08:00:01.539745
+To https://github.com/yngnhe-create/iran-dashboard-kr.git
+   c9742ff..18cc1f0  main -> main
+[2026-03-11 08:00] 업데이트 완료
+[2026-03-11 12:00] 업데이트 시작
+🔄 데이터 수집 시작: 2026-03-11 12:00:00.428045
+✅ HTML 업데이트 완료: /Users/geon/.openclaw/workspace/public/iran-dashboard/index.html
+✅ 완료: 2026-03-11 12:00:01.511408
+To https://github.com/yngnhe-create/iran-dashboard-kr.git
+   18cc1f0..666bd7e  main -> main
+[2026-03-11 12:00] 업데이트 완료
+[2026-03-11 16:00] 업데이트 시작
+🔄 데이터 수집 시작: 2026-03-11 16:00:00.712078
+✅ HTML 업데이트 완료: /Users/geon/.openclaw/workspace/public/iran-dashboard/index.html
+✅ 완료: 2026-03-11 16:00:01.503038
+To https://github.com/yngnhe-create/iran-dashboard-kr.git
+   666bd7e..49853f3  main -> main
+[2026-03-11 16:00] 업데이트 완료
+[2026-03-11 20:00] 업데이트 시작
+[2026-03-11 20:00:00] 이란 대시보드 업데이트 시작...
+Traceback (most recent call last):
+  File "/Users/geon/.openclaw/workspace/scripts/update_iran_dashboard.py", line 50, in <module>
+    success = run_openclaw_update()
+  File "/Users/geon/.openclaw/workspace/scripts/update_iran_dashboard.py", line 36, in run_openclaw_update
+    result = subprocess.run(
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1821, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'openclaw'
+Everything up-to-date
+[2026-03-11 20:00] 업데이트 완료
