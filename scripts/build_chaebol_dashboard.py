@@ -318,152 +318,318 @@ def build_dataset() -> dict:
     }
 
 
+RANK_EMOJI = {1: '🥇', 2: '🥈', 3: '🥉', 4: '4위', 5: '5위'}
+
+
+def rank_arrow(cur: int, prev: int) -> str:
+    diff = prev - cur
+    if diff > 0:
+        return f'<span class="tag-up">▲{diff}</span>'
+    if diff < 0:
+        return f'<span class="tag-down">▼{abs(diff)}</span>'
+    return '<span class="tag-flat">–</span>'
+
+
+def render_group_block(summary: dict, group: dict) -> str:
+    color = summary['color']
+    rank = summary['current_rank']
+    mcap = summary['current_total']
+    chg = summary['mcap_change']
+    chg_pct = summary['mcap_change_pct']
+    chg_cls = 'pos' if chg > 0 else ('neg' if chg < 0 else 'flat')
+    chg_sign = '+' if chg >= 0 else ''
+    rows = []
+    for m in group['members']:
+        if not m['market_cap']:
+            continue
+        c = m['mcap_change']
+        cc = 'pos' if c > 0 else ('neg' if c < 0 else 'flat')
+        cs = '+' if c >= 0 else ''
+        rows.append(
+            f'<tr>'
+            f'<td class="name-cell">{m["name"]}</td>'
+            f'<td class="code-cell">{m["code"]}</td>'
+            f'<td>{fmt_krw(m["price"])}</td>'
+            f'<td class="prev">{fmt_krw(m["prev_close"])}</td>'
+            f'<td class="mcap">{fmt_jo(m["market_cap"])}</td>'
+            f'<td class="{cc}">{cs}{fmt_jo(c)}</td>'
+            f'</tr>'
+        )
+    rank_arrow_html = rank_arrow(summary['current_rank'], summary['prev_rank'])
+    return f"""
+<details class="group-block" open>
+  <summary class="group-summary" style="border-left-color:{color}">
+    <div class="gs-left">
+      <div class="rank-badge" style="color:{color}">{RANK_EMOJI.get(rank, f'{rank}위')}</div>
+      <div>
+        <div class="gs-name">{summary['group']} {rank_arrow_html}</div>
+        <div class="gs-meta">{summary['count']}개 계열사 · 전일 {summary['prev_rank']}위</div>
+      </div>
+    </div>
+    <div class="gs-right">
+      <div class="gs-mcap" style="color:{color}">{fmt_jo(mcap)}</div>
+      <div class="gs-chg {chg_cls}">{chg_sign}{fmt_jo(chg)} ({chg_pct:+.2f}%)</div>
+    </div>
+  </summary>
+  <div class="tbl-wrap">
+    <table>
+      <thead><tr><th>종목명</th><th>코드</th><th>현재가</th><th>전일</th><th>시총</th><th>시총 변동</th></tr></thead>
+      <tbody>{''.join(rows)}</tbody>
+    </table>
+  </div>
+</details>"""
+
+
 def render_html(data: dict) -> str:
+    rank_cards = []
+    for s in data['summary']:
+        r = s['current_rank']
+        chg_cls = 'pos' if s['mcap_change'] > 0 else ('neg' if s['mcap_change'] < 0 else 'flat')
+        chg_sign = '+' if s['mcap_change'] >= 0 else ''
+        pr = s['prev_rank']
+        move = ''
+        if r < pr:
+            move = f'<div class="rc-move up-move">▲ {pr-r}단계 상승</div>'
+        elif r > pr:
+            move = f'<div class="rc-move dn-move">▼ {r-pr}단계 하락</div>'
+        rank_cards.append(
+            f'<div class="rank-card" style="--gc:{s["color"]}">'
+            f'  <div class="rc-rank">{RANK_EMOJI.get(r, f"{r}위")}</div>'
+            f'  <div class="rc-name">{s["group"]}</div>'
+            f'  <div class="rc-mcap">{fmt_jo(s["current_total"])}</div>'
+            f'  <div class="rc-chg {chg_cls}">{chg_sign}{fmt_jo(s["mcap_change"])} ({s["mcap_change_pct"]:+.2f}%)</div>'
+            f'  {move}'
+            f'  <div class="rc-count">{s["count"]}개 계열사</div>'
+            f'</div>'
+        )
+    rank_cards_html = '\n'.join(rank_cards)
+    group_blocks_html = '\n'.join(render_group_block(s, data['groups'][s['group']]) for s in data['summary'])
+    data_json = json.dumps(data, ensure_ascii=False)
+    generated = data['generated_at']
+    scope = data['scope_note']
+
     return f'''<!DOCTYPE html>
 <html lang="ko">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>5대 그룹 시총 순위 대시보드</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<title>5대 그룹 시총 대시보드</title>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
 <style>
+:root {{
+  --bg: #0a0e1a;
+  --card: #151b2d;
+  --card2: #1a1f2e;
+  --border: #2d3748;
+  --txt: #e0e6ed;
+  --muted: #8b9dc3;
+  --pos: #22c55e;
+  --neg: #ef4444;
+}}
 *{{margin:0;padding:0;box-sizing:border-box}}
-body{{background:#0a0e1a;color:#e5e7eb;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans KR',sans-serif;padding:16px;line-height:1.45}}
-a{{color:#93c5fd;text-decoration:none}} a:hover{{text-decoration:underline}}
-.header{{text-align:center;margin-bottom:20px}}
-.header h1{{font-size:1.8rem;background:linear-gradient(90deg,#60a5fa,#a78bfa);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:6px}}
-.sub{{color:#94a3b8;font-size:.9rem}}
-.top-links{{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin:12px 0 18px}}
-.top-links a{{background:#111827;border:1px solid #334155;padding:8px 12px;border-radius:999px;font-size:.85rem}}
-.grid{{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;margin-bottom:18px}}
-.card{{background:#111827;border:1px solid #253042;border-radius:14px;padding:14px}}
-.card h3{{font-size:.82rem;color:#94a3b8;margin-bottom:8px}}
-.big{{font-size:1.35rem;font-weight:800}}
-.chart-card{{background:#111827;border:1px solid #253042;border-radius:14px;padding:16px;margin-bottom:18px}}
-.chart-title{{font-size:1rem;font-weight:800;margin-bottom:10px}}
-.rank-box{{display:flex;gap:8px;flex-wrap:wrap;margin-top:8px}}
-.badge{{padding:4px 8px;border-radius:999px;font-size:.78rem;font-weight:700}}
-.group-block{{background:#111827;border:1px solid #253042;border-radius:14px;padding:16px;margin-bottom:16px}}
-.group-header{{display:flex;justify-content:space-between;gap:10px;align-items:flex-start;margin-bottom:10px;flex-wrap:wrap}}
-.group-name{{font-size:1.2rem;font-weight:800}}
-.group-meta{{font-size:.88rem;color:#94a3b8}}
-.up{{color:#22c55e}} .down{{color:#ef4444}} .flat{{color:#94a3b8}}
-.tbl-wrap{{overflow-x:auto}}
-table{{width:100%;border-collapse:collapse;font-size:.83rem}}
-th,td{{padding:8px 6px;border-bottom:1px solid #1f2937;text-align:right;white-space:nowrap}}
-th:first-child,td:first-child{{text-align:left}}
-th:nth-child(2),td:nth-child(2){{text-align:left}}
-tr:hover td{{background:#0b1220}}
-.footer{{text-align:center;color:#64748b;font-size:.78rem;margin-top:24px}}
-@media(max-width:720px){{body{{padding:12px}} .header h1{{font-size:1.45rem}}}}
+body{{background:var(--bg);color:var(--txt);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans KR',sans-serif;font-size:14px;line-height:1.5;overflow-x:hidden}}
+a{{color:#93c5fd;text-decoration:none}}
+
+/* ─── TOP BAR ─────────── */
+.topbar{{background:var(--card);border-bottom:2px solid #3b82f6;padding:10px 16px;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:100}}
+.tb-logo{{font-weight:800;font-size:15px;background:linear-gradient(90deg,#60a5fa,#a78bfa);-webkit-background-clip:text;-webkit-text-fill-color:transparent}}
+.tb-links{{display:flex;gap:10px;font-size:12px}}
+.tb-links a{{color:var(--muted);padding:4px 8px;border-radius:999px;border:1px solid var(--border)}}
+.tb-links a:hover{{color:var(--txt);border-color:#4b6cb7}}
+
+/* ─── HERO ─────────────── */
+.hero{{padding:16px 16px 0;text-align:center}}
+.hero h1{{font-size:clamp(1.3rem,5vw,2rem);font-weight:900;background:linear-gradient(90deg,#60a5fa,#a78bfa,#f59e0b);-webkit-background-clip:text;-webkit-text-fill-color:transparent}}
+.hero .sub{{color:var(--muted);font-size:.8rem;margin-top:4px}}
+
+/* ─── RANK CARDS ───────── */
+.rank-scroll{{display:flex;gap:12px;padding:16px;overflow-x:auto;scrollbar-width:none}}
+.rank-scroll::-webkit-scrollbar{{display:none}}
+.rank-card{{background:var(--card);border-radius:16px;padding:16px 14px;min-width:140px;flex-shrink:0;border:1px solid var(--border);border-top:3px solid var(--gc);text-align:center;transition:transform .15s}}
+.rank-card:hover{{transform:translateY(-3px)}}
+.rc-rank{{font-size:1.6rem;margin-bottom:4px}}
+.rc-name{{font-size:1rem;font-weight:800;color:var(--gc);margin-bottom:6px}}
+.rc-mcap{{font-size:1.3rem;font-weight:900;color:var(--txt);margin-bottom:4px}}
+.rc-chg{{font-size:.75rem;font-weight:600;margin-bottom:4px}}
+.rc-move{{font-size:.72rem;font-weight:700;padding:2px 6px;border-radius:999px;display:inline-block;margin-bottom:4px}}
+.up-move{{background:rgba(34,197,94,.15);color:#22c55e}}
+.dn-move{{background:rgba(239,68,68,.15);color:#ef4444}}
+.rc-count{{font-size:.72rem;color:var(--muted)}}
+
+/* ─── CHARTS ───────────── */
+.charts{{padding:0 16px 16px;display:grid;gap:14px}}
+.chart-card{{background:var(--card);border-radius:14px;padding:16px;border:1px solid var(--border)}}
+.chart-label{{font-size:.85rem;font-weight:700;color:var(--muted);margin-bottom:10px;display:flex;align-items:center;gap:6px}}
+
+/* ─── GROUP BLOCKS ──────── */
+.groups{{padding:0 16px 24px}}
+details.group-block{{background:var(--card);border-radius:14px;margin-bottom:12px;border:1px solid var(--border);overflow:hidden}}
+summary.group-summary{{list-style:none;cursor:pointer;padding:14px 16px;border-left:4px solid;display:flex;justify-content:space-between;align-items:center;gap:10px}}
+summary.group-summary::-webkit-details-marker{{display:none}}
+summary.group-summary:hover{{background:var(--card2)}}
+.gs-left{{display:flex;align-items:center;gap:12px}}
+.rank-badge{{font-size:1.5rem;line-height:1}}
+.gs-name{{font-size:1.05rem;font-weight:800;display:flex;align-items:center;gap:6px}}
+.gs-meta{{font-size:.75rem;color:var(--muted);margin-top:2px}}
+.gs-right{{text-align:right;flex-shrink:0}}
+.gs-mcap{{font-size:1.25rem;font-weight:900}}
+.gs-chg{{font-size:.78rem;font-weight:600;margin-top:2px}}
+.tag-up{{background:rgba(34,197,94,.18);color:#22c55e;padding:2px 6px;border-radius:999px;font-size:.72rem;font-weight:700}}
+.tag-down{{background:rgba(239,68,68,.18);color:#ef4444;padding:2px 6px;border-radius:999px;font-size:.72rem;font-weight:700}}
+.tag-flat{{color:var(--muted);font-size:.72rem}}
+
+/* ─── TABLES ────────────── */
+.tbl-wrap{{overflow-x:auto;padding:0 4px 12px}}
+table{{width:100%;border-collapse:collapse;font-size:.8rem}}
+th{{background:var(--card2);color:var(--muted);padding:8px 8px;text-align:right;font-weight:600;white-space:nowrap;border-bottom:1px solid var(--border)}}
+th:first-child,th:nth-child(2){{text-align:left}}
+td{{padding:7px 8px;border-bottom:1px solid rgba(45,55,72,.4);text-align:right;white-space:nowrap}}
+td.name-cell{{text-align:left;font-weight:600}}
+td.code-cell{{text-align:left;color:var(--muted);font-family:monospace;font-size:.75rem}}
+td.prev{{color:var(--muted)}}
+td.mcap{{font-weight:700}}
+tbody tr:hover td{{background:rgba(59,130,246,.05)}}
+
+/* ─── UTILITY ───────────── */
+.pos{{color:var(--pos)}} .neg{{color:var(--neg)}} .flat{{color:var(--muted)}}
+.footer{{text-align:center;color:#4b5563;font-size:.75rem;padding:12px 16px 32px}}
 </style>
 </head>
 <body>
-<div class="header">
-  <h1>🏢 한국 5대 그룹 시총 순위 대시보드</h1>
-  <div class="sub">{data['generated_at']} · {data['scope_note']}</div>
+
+<div class="topbar">
+  <div class="tb-logo">🏢 5대 그룹 시총</div>
+  <div class="tb-links">
+    <a href="/">메인</a>
+    <a href="/portfolio.html">포트폴리오</a>
+    <a href="/wisereport">리포트</a>
+    <a href="/iran-dashboard-kr/">이란</a>
+  </div>
 </div>
-<div class="top-links">
-  <a href="/">메인</a>
-  <a href="/portfolio.html">포트폴리오</a>
-  <a href="/wisereport">와이즈리포트</a>
-  <a href="/iran-dashboard-kr/">이란 대시보드</a>
+
+<div class="hero">
+  <h1>한국 5대 그룹 시가총액 대시보드</h1>
+  <div class="sub">{generated} · {scope}</div>
 </div>
-<div class="grid">
-  {''.join([f"<div class='card'><h3>{s['group']} · 현재 {s['current_rank']}위</h3><div class='big' style='color:{s['color']}'>{fmt_jo(s['current_total'])}</div><div class='{ 'up' if s['mcap_change']>0 else 'down' if s['mcap_change']<0 else 'flat'}'>전일 대비 {('+' if s['mcap_change']>=0 else '')}{fmt_jo(s['mcap_change'])} ({s['mcap_change_pct']:+.2f}%) · 계열사 {s['count']}개</div></div>" for s in data['summary']])}
+
+<div class="rank-scroll">
+{rank_cards_html}
 </div>
-<div class="chart-card"><div class="chart-title">📈 최근 10년 그룹별 순위 변동</div><canvas id="rankChart" height="110"></canvas></div>
-<div class="chart-card"><div class="chart-title">💰 최근 10년 그룹별 시총 추이 (월말, 조원)</div><canvas id="mcapChart" height="120"></canvas></div>
-{''.join(render_group_block(s, data['groups'][s['group']]) for s in data['summary'])}
-<div class="footer">OpenClaw · 5대 그룹 시총 대시보드</div>
+
+<div class="charts">
+  <div class="chart-card">
+    <div class="chart-label">📈 최근 10년 순위 변동 추이</div>
+    <canvas id="rankChart" height="160"></canvas>
+  </div>
+  <div class="chart-card">
+    <div class="chart-label">💰 그룹별 시총 규모 변화 (조원)</div>
+    <canvas id="mcapChart" height="160"></canvas>
+  </div>
+</div>
+
+<div class="groups">
+{group_blocks_html}
+</div>
+
+<div class="footer">
+  OpenClaw Investment Command · 5대 그룹 시총 대시보드<br>
+  현행 상장 계열사 기준 · 우선주 포함 · Yahoo Finance + Naver Finance
+</div>
+
 <script>
-const DATA = {json.dumps(data, ensure_ascii=False)};
-const rankCtx = document.getElementById('rankChart');
-const mcapCtx = document.getElementById('mcapChart');
-new Chart(rankCtx, {{
-  type:'line',
-  data:{{
+const DATA = {data_json};
+const COLORS = Object.fromEntries(DATA.summary.map(s => [s.group, s.color]));
+
+// ── 순위 차트 ──────────────────────────────────────────────
+new Chart(document.getElementById('rankChart'), {{
+  type: 'line',
+  data: {{
     labels: DATA.labels,
     datasets: DATA.summary.map(s => ({{
-      label:s.group,
+      label: s.group,
       data: DATA.rank_history[s.group],
-      borderColor:s.color,
-      backgroundColor:s.color,
-      tension:.25,
-      pointRadius:0,
-      pointHoverRadius:4,
-      borderWidth:2
+      borderColor: s.color,
+      backgroundColor: s.color + '30',
+      tension: 0.3,
+      pointRadius: 2,
+      pointHoverRadius: 6,
+      borderWidth: 2.5,
+      fill: false,
     }}))
   }},
-  options:{{
-    responsive:true,
-    plugins:{{legend:{{position:'bottom'}}}},
-    scales:{{
-      y:{{reverse:true,min:1,max:5,ticks:{{stepSize:1}}}},
-      x:{{ticks:{{maxTicksLimit:12}}}}
+  options: {{
+    responsive: true,
+    interaction: {{ mode: 'index', intersect: false }},
+    plugins: {{
+      legend: {{ position: 'bottom', labels: {{ font: {{ size: 11 }}, boxWidth: 12, padding: 14 }} }},
+      tooltip: {{ callbacks: {{ label: ctx => ctx.dataset.label + ': ' + ctx.raw + '위' }} }}
+    }},
+    scales: {{
+      y: {{
+        reverse: true, min: 0.5, max: 5.5,
+        grid: {{ color: 'rgba(45,55,72,.4)' }},
+        ticks: {{
+          stepSize: 1,
+          color: '#8b9dc3',
+          callback: v => ['','🥇','🥈','🥉','4위','5위'][v] || ''
+        }}
+      }},
+      x: {{
+        grid: {{ color: 'rgba(45,55,72,.3)' }},
+        ticks: {{ maxTicksLimit: 12, color: '#8b9dc3', font: {{ size: 10 }} }}
+      }}
     }}
   }}
 }});
-new Chart(mcapCtx, {{
-  type:'line',
-  data:{{
+
+// ── 시총 차트 ──────────────────────────────────────────────
+new Chart(document.getElementById('mcapChart'), {{
+  type: 'line',
+  data: {{
     labels: DATA.labels,
     datasets: DATA.summary.map(s => ({{
-      label:s.group,
-      data: DATA.mcap_history.map(r => (r[s.group]||0)/1e12),
-      borderColor:s.color,
-      backgroundColor:s.color + '22',
-      fill:false,
-      tension:.2,
-      pointRadius:0,
-      borderWidth:2
+      label: s.group,
+      data: DATA.mcap_history.map(r => +(((r[s.group] || 0) / 1e12).toFixed(1))),
+      borderColor: s.color,
+      backgroundColor: s.color + '18',
+      tension: 0.25,
+      pointRadius: 0,
+      pointHoverRadius: 5,
+      borderWidth: 2.5,
+      fill: false,
     }}))
   }},
-  options:{{
-    responsive:true,
-    plugins:{{legend:{{position:'bottom'}}}},
-    scales:{{x:{{ticks:{{maxTicksLimit:12}}}}, y:{{ticks:{{callback:(v)=>v+'조'}}}}}}
+  options: {{
+    responsive: true,
+    interaction: {{ mode: 'index', intersect: false }},
+    plugins: {{
+      legend: {{ position: 'bottom', labels: {{ font: {{ size: 11 }}, boxWidth: 12, padding: 14 }} }},
+      tooltip: {{ callbacks: {{ label: ctx => ctx.dataset.label + ': ' + ctx.raw + '조' }} }}
+    }},
+    scales: {{
+      y: {{
+        grid: {{ color: 'rgba(45,55,72,.4)' }},
+        ticks: {{ color: '#8b9dc3', callback: v => v + '조' }}
+      }},
+      x: {{
+        grid: {{ color: 'rgba(45,55,72,.3)' }},
+        ticks: {{ maxTicksLimit: 12, color: '#8b9dc3', font: {{ size: 10 }} }}
+      }}
+    }}
   }}
+}});
+
+document.querySelectorAll('details.group-block').forEach(d => {{
+  const tbl = d.querySelector('.tbl-wrap');
+  if (tbl) d.querySelector('summary').insertAdjacentHTML('beforeend', '<span style="font-size:.72rem;color:#8b9dc3;margin-left:auto;padding-left:8px">▾</span>');
+  d.addEventListener('toggle', () => {{
+    const arrow = d.querySelector('summary span:last-child');
+    if (arrow) arrow.textContent = d.open ? '▴' : '▾';
+  }});
 }});
 </script>
 </body>
 </html>'''
-
-
-def render_group_block(summary: dict, group: dict) -> str:
-    rank_change = summary['prev_rank'] - summary['current_rank']
-    if rank_change > 0:
-        rank_txt = f"▲ {rank_change}단계 상승"
-        cls = 'up'
-    elif rank_change < 0:
-        rank_txt = f"▼ {abs(rank_change)}단계 하락"
-        cls = 'down'
-    else:
-        rank_txt = '순위 변동 없음'
-        cls = 'flat'
-    rows = []
-    for m in group['members']:
-        rows.append(f"<tr><td>{m['name']}</td><td>{m['code']}</td><td>{fmt_krw(m['price'])}</td><td>{fmt_krw(m['prev_close'])}</td><td>{fmt_jo(m['market_cap'])}</td><td>{fmt_jo(m['prev_market_cap'])}</td><td class='{ 'up' if m['mcap_change']>0 else 'down' if m['mcap_change']<0 else 'flat'}'>{('+' if m['mcap_change']>=0 else '')}{fmt_jo(m['mcap_change'])}</td></tr>")
-    return f"""
-<div class='group-block'>
-  <div class='group-header'>
-    <div>
-      <div class='group-name' style='color:{summary['color']}'>{summary['current_rank']}위 · {summary['group']}</div>
-      <div class='group-meta'>{summary['count']}개 상장 계열사 · 전일 {summary['prev_rank']}위 → 오늘 {summary['current_rank']}위</div>
-      <div class='{cls}' style='font-size:.88rem;margin-top:4px'>{rank_txt}</div>
-    </div>
-    <div style='text-align:right'>
-      <div class='big' style='color:{summary['color']}'>{fmt_jo(summary['current_total'])}</div>
-      <div class='{ 'up' if summary['mcap_change']>0 else 'down' if summary['mcap_change']<0 else 'flat'}'>전일 대비 {('+' if summary['mcap_change']>=0 else '')}{fmt_jo(summary['mcap_change'])} ({summary['mcap_change_pct']:+.2f}%)</div>
-    </div>
-  </div>
-  <div class='tbl-wrap'>
-    <table>
-      <thead><tr><th>종목</th><th>코드</th><th>현재가</th><th>전일종가</th><th>시총</th><th>전일 시총</th><th>시총 변동</th></tr></thead>
-      <tbody>{''.join(rows)}</tbody>
-    </table>
-  </div>
-</div>"""
 
 
 def build_message(data: dict) -> str:
