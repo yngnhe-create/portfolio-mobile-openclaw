@@ -90,7 +90,7 @@ body.masked .pval,body.masked .pchg,body.masked .cd-num{filter:blur(8px);user-se
 <button class="mask-btn" id="maskBtn" onclick="toggleMask()">🙈 마스킹</button>
 <div class="topbar">
   <div class="logo"><span>◆</span>투자커멘드</div>
-  <div class="mstat" id="ms">● 업데이트: 2026년 03월 12일 08:26 KST</div>
+  <div class="mstat" id="ms">● 업데이트: 2026년 03월 12일 18:18 KST</div>
 </div>
 
 <div class="ticker">
@@ -253,6 +253,7 @@ body.masked .pval,body.masked .pchg,body.masked .cd-num{filter:blur(8px);user-se
     <a href="wisereport.html" class="qbtn"><span class="qicon">📋</span><span class="qlbl">리포트</span></a>
     <a href="playbook.html" class="qbtn"><span class="qicon">📖</span><span class="qlbl">플레이북</span></a>
     <a href="iran-dashboard-kr/" class="qbtn"><span class="qicon">🌍</span><span class="qlbl">이란 전황</span></a>
+    <a href="chaebol-groups/" class="qbtn"><span class="qicon">🏢</span><span class="qlbl">5대 그룹</span></a>
   </div>
 </div>
 
@@ -438,7 +439,7 @@ async function loadMarketData(force) {
     document.getElementById('mkt-upd').textContent = '데이터 없음';
   }
 }
-const MKT_INIT=[{id:"KOSPI",cur:5609.95,chg:77.3600,pct:1.3983},{id:"KOSDAQ",cur:1136.83,chg:34.5500,pct:3.1344},{id:"NASDAQ",cur:22716.135,chg:19.0310,pct:0.0838},{id:"SP500",cur:6775.8,chg:-5.6800,pct:-0.0838},{id:"USDKRW",cur:1476.77,chg:3.2400,pct:0.2199}];MKT_INIT.forEach(m=>renderMkt(m.id,"",m.cur,m.chg,m.pct));
+const MKT_INIT=[{id:"KOSPI",cur:5583.25,chg:-26.7000,pct:-0.4759},{id:"KOSDAQ",cur:1148.4,chg:10.7200,pct:0.9423},{id:"NASDAQ",cur:22716.135,chg:19.0310,pct:0.0838},{id:"SP500",cur:6775.8,chg:-5.6800,pct:-0.0838},{id:"USDKRW",cur:1479.58,chg:0.3200,pct:0.0216}];MKT_INIT.forEach(m=>renderMkt(m.id,"",m.cur,m.chg,m.pct));
 loadMarketData(false);
 // 4시간마다 자동 갱신
 setInterval(() => loadMarketData(true), MKT_TTL);
