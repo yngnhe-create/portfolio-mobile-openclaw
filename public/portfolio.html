@@ -41,6 +41,9 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans KR',sans
 .stock-num{text-align:right}
 .stock-val{font-size:15px;font-weight:700}
 .stock-chg{font-size:12px;font-weight:600;margin-top:2px}
+.weight-bar-wrap{height:4px;background:#2d3748;border-radius:2px;margin-top:6px;overflow:hidden;position:relative}
+.weight-bar-fill{height:100%;border-radius:2px;width:0%;transition:width .5s ease}
+.weight-pct-lbl{font-size:10px;color:var(--sub);position:absolute;right:0;top:-14px}
 .nbadge{background:#ff4757;color:#fff;font-size:9px;padding:2px 5px;border-radius:3px;margin-left:5px;font-weight:700}
 .tog-btn{display:block;width:100%;padding:12px;background:rgba(72,52,212,.15);border:1px solid var(--blu);border-radius:8px;color:var(--blu);font-size:13px;font-weight:700;cursor:pointer;margin-top:10px;text-align:center}
 .chart-range-btn{padding:4px 10px;border-radius:12px;background:var(--hdr);border:1px solid var(--brd);color:var(--sub);font-size:11px;font-weight:600;cursor:pointer}
@@ -56,7 +59,7 @@ body.masked .tval,body.masked .tchg,body.masked .smval,body.masked .stock-val,bo
 <button class="mask-btn" id="maskBtn" onclick="toggleMask()">🙈 마스킹</button>
 <div class="hdr">
   <div class="hdr-ttl">📊 포트폴리오</div>
-  <div class="upd">⏱ 마지막 업데이트: 2026년 03월 12일 08:26 KST</div>
+  <div class="upd">⏱ 마지막 업데이트: 2026년 03월 12일 19:12 KST</div>
   <div class="tabs">
     <div class="tab on" onclick="switchTab('all',this)">전체</div>
     <div class="tab" onclick="switchTab('sector',this)">섹터</div>
@@ -108,96 +111,104 @@ body.masked .tval,body.masked .tchg,body.masked .smval,body.masked .stock-val,bo
   <div class="sec">
     <div class="sec-ttl">보유 종목 <span style="font-size:12px;color:var(--sub)">59개</span></div>
     <div id="top-stocks">
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="125051745" data-color="#4834d4">
   <div class="stock-ico" style="background:#4834d4;color:#fff">TI</div>
   <div class="stock-info">
     <div class="stock-nm">TIGER 코리아AI전력기기TOP3+</div>
     <div class="stock-det">4121.0주/개 · 첨단 기술</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩1.3억</span> <span style="color:#ff4757;font-weight:600">+₩7221만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩1.3억</span> <span style="color:#ff4757;font-weight:600">+₩7221만 (+136.6%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#4834d4"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">₩30,345</div>
     <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="98610000" data-color="#4834d4">
   <div class="stock-ico" style="background:#4834d4;color:#fff">삼성</div>
   <div class="stock-info">
     <div class="stock-nm">삼성전자</div>
     <div class="stock-det">519.0주/개 · 첨단 기술</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩9861만</span> <span style="color:#ff4757;font-weight:600">+₩6368만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩9861만</span> <span style="color:#ff4757;font-weight:600">+₩6368만 (+182.3%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#4834d4"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">₩190,000</div>
     <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="67800468" data-color="#f7931a">
   <div class="stock-ico" style="background:#f7931a;color:#fff">BT</div>
   <div class="stock-info">
     <div class="stock-nm">BTC/KRW</div>
     <div class="stock-det">0.698주/개 · 가상자산</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩6780만</span> <span style="color:#ff4757;font-weight:600">+₩1056만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩6780만</span> <span style="color:#ff4757;font-weight:600">+₩1056만 (+18.5%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#f7931a"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
-    <div class="stock-val">₩103,885,897</div>
+    <div class="stock-val">₩103,344,030</div>
     <div class="stock-chg" style="color:#ff4757">+1.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="55860750" data-color="#6c5ce7">
   <div class="stock-ico" style="background:#6c5ce7;color:#fff">TI</div>
   <div class="stock-info">
     <div class="stock-nm">TIGER 글로벌AI액티브</div>
     <div class="stock-det">2257.0주/개 · ETF</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩5586만</span> <span style="color:#ff4757;font-weight:600">+₩388만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩5586만</span> <span style="color:#ff4757;font-weight:600">+₩388만 (+7.5%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#6c5ce7"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">₩24,750</div>
     <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="49198504" data-color="#4ecdc4">
   <div class="stock-ico" style="background:#4ecdc4;color:#fff">샤오</div>
   <div class="stock-info">
     <div class="stock-nm">샤오미</div>
     <div class="stock-det">1000.0주/개 · 경기 소비재</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩4910만</span> <span style="color:#ff4757;font-weight:600">+₩3340만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩4920만</span> <span style="color:#ff4757;font-weight:600">+₩3347만 (+212.8%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#4ecdc4"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">$33.34</div>
     <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="43588045" data-color="#4834d4">
   <div class="stock-ico" style="background:#4834d4;color:#fff">AR</div>
   <div class="stock-info">
     <div class="stock-nm">ARTY</div>
     <div class="stock-det">600.0주/개 · 첨단 기술</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩4350만</span> <span style="color:#ff4757;font-weight:600">+₩373만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩4359만</span> <span style="color:#ff4757;font-weight:600">+₩374만 (+9.4%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#4834d4"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">$49.23</div>
     <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="40005000" data-color="#00b894">
   <div class="stock-ico" style="background:#00b894;color:#fff">파마</div>
   <div class="stock-info">
     <div class="stock-nm">파마리서치</div>
     <div class="stock-det">126.0주/개 · 헬스케어</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩4000만</span> <span style="color:#4ecdc4;font-weight:600">₩1057만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩4000만</span> <span style="color:#4ecdc4;font-weight:600">₩1057만 (-20.9%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#00b894"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">₩317,500</div>
     <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="37646400" data-color="#4834d4">
   <div class="stock-ico" style="background:#4834d4;color:#fff">SO</div>
   <div class="stock-info">
     <div class="stock-nm">SOL 미국AI전력인프라</div>
     <div class="stock-det">1760.0주/개 · 첨단 기술</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩3765만</span> <span style="color:#ff4757;font-weight:600">+₩1426만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩3765만</span> <span style="color:#ff4757;font-weight:600">+₩1426만 (+61.0%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#4834d4"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">₩21,390</div>
@@ -205,612 +216,663 @@ body.masked .tval,body.masked .tchg,body.masked .smval,body.masked .stock-val,bo
   </div>
 </div></div>
     <div id="hidden-stocks" style="display:none">
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="34653750" data-color="#4834d4">
   <div class="stock-ico" style="background:#4834d4;color:#fff">IN</div>
   <div class="stock-info">
     <div class="stock-nm">INTC</div>
     <div class="stock-det">502.0주/개 · 첨단 기술</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩3459만</span> <span style="color:#ff4757;font-weight:600">+₩864만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩3465만</span> <span style="color:#ff4757;font-weight:600">+₩865만 (+33.3%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#4834d4"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">$46.78</div>
     <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="33030000" data-color="#fdcb6e">
   <div class="stock-ico" style="background:#fdcb6e;color:#fff">두산</div>
   <div class="stock-info">
     <div class="stock-nm">두산</div>
     <div class="stock-det">30.0주/개 · 금융</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩3303만</span> <span style="color:#ff4757;font-weight:600">+₩765만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩3303만</span> <span style="color:#ff4757;font-weight:600">+₩765만 (+30.1%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#fdcb6e"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">₩1,101,000</div>
     <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="32237100" data-color="#27ae60">
   <div class="stock-ico" style="background:#27ae60;color:#fff">코람</div>
   <div class="stock-info">
     <div class="stock-nm">코람코라이프인프라리츠</div>
     <div class="stock-det">3570.0주/개 · 부동산</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩3224만</span> <span style="color:#ff4757;font-weight:600">+₩1326만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩3224만</span> <span style="color:#ff4757;font-weight:600">+₩1326만 (+69.9%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#27ae60"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">₩9,030</div>
     <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="30864750" data-color="#6c5ce7">
   <div class="stock-ico" style="background:#6c5ce7;color:#fff">TI</div>
   <div class="stock-info">
     <div class="stock-nm">TIGER 미국테크TOP10 INDXX</div>
     <div class="stock-det">1050.0주/개 · ETF</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩3086만</span> <span style="color:#ff4757;font-weight:600">+₩890만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩3086만</span> <span style="color:#ff4757;font-weight:600">+₩890만 (+40.5%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#6c5ce7"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">₩29,395</div>
     <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="30141300" data-color="#4834d4">
   <div class="stock-ico" style="background:#4834d4;color:#fff">삼성</div>
   <div class="stock-info">
     <div class="stock-nm">삼성전자우</div>
     <div class="stock-det">217.0주/개 · 첨단 기술</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩3014만</span> <span style="color:#ff4757;font-weight:600">+₩2015만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩3014만</span> <span style="color:#ff4757;font-weight:600">+₩2015만 (+201.6%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#4834d4"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">₩138,900</div>
     <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="29908800" data-color="#636e72">
   <div class="stock-ico" style="background:#636e72;color:#fff">DL</div>
   <div class="stock-info">
     <div class="stock-nm">DL이앤씨우</div>
     <div class="stock-det">1206.0주/개 · 산업재</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩2991만</span> <span style="color:#ff4757;font-weight:600">+₩631만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩2991만</span> <span style="color:#ff4757;font-weight:600">+₩631만 (+26.7%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#636e72"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">₩24,800</div>
     <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="26703720" data-color="#636e72">
   <div class="stock-ico" style="background:#636e72;color:#fff">NL</div>
   <div class="stock-info">
     <div class="stock-nm">NLR</div>
     <div class="stock-det">129.0주/개 · 기타</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩2665만</span> <span style="color:#ff4757;font-weight:600">+₩12만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩2670만</span> <span style="color:#ff4757;font-weight:600">+₩12만 (+0.4%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#636e72"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">$140.28</div>
     <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="26339055" data-color="#6c5ce7">
   <div class="stock-ico" style="background:#6c5ce7;color:#fff">GR</div>
   <div class="stock-info">
     <div class="stock-nm">GRID ETF</div>
     <div class="stock-det">100.0주/개 · ETF</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩2629만</span> <span style="color:#ff4757;font-weight:600">+₩459만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩2634만</span> <span style="color:#ff4757;font-weight:600">+₩460만 (+21.1%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#6c5ce7"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">$178.49</div>
     <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="26000000" data-color="#4ecdc4">
   <div class="stock-ico" style="background:#4ecdc4;color:#fff">현대</div>
   <div class="stock-info">
     <div class="stock-nm">현대차3우B</div>
     <div class="stock-det">104.0주/개 · 경기 소비재</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩2600만</span> <span style="color:#ff4757;font-weight:600">+₩1761만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩2600만</span> <span style="color:#ff4757;font-weight:600">+₩1761만 (+209.9%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#4ecdc4"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">₩250,000</div>
     <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="24058420" data-color="#27ae60">
   <div class="stock-ico" style="background:#27ae60;color:#fff">ES</div>
   <div class="stock-info">
     <div class="stock-nm">ESR켄달스퀘어리츠</div>
     <div class="stock-det">5582.0주/개 · 부동산</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩2406만</span> <span style="color:#ff4757;font-weight:600">+₩306만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩2406만</span> <span style="color:#ff4757;font-weight:600">+₩306만 (+14.6%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#27ae60"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">₩4,310</div>
     <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="22787602" data-color="#f7931a">
   <div class="stock-ico" style="background:#f7931a;color:#fff">ET</div>
   <div class="stock-info">
     <div class="stock-nm">ETH/KRW</div>
     <div class="stock-det">7.998주/개 · 가상자산</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩2279만</span> <span style="color:#4ecdc4;font-weight:600">₩415만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩2279만</span> <span style="color:#4ecdc4;font-weight:600">₩415만 (-15.4%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#f7931a"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
-    <div class="stock-val">₩3,039,901</div>
-    <div class="stock-chg" style="color:#ff4757">+1.5%</div>
+    <div class="stock-val">₩3,036,927</div>
+    <div class="stock-chg" style="color:#ff4757">+2.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="21360000" data-color="#4ecdc4">
   <div class="stock-ico" style="background:#4ecdc4;color:#fff">현대</div>
   <div class="stock-info">
     <div class="stock-nm">현대차우</div>
     <div class="stock-det">80.0주/개 · 경기 소비재</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩2136만</span> <span style="color:#ff4757;font-weight:600">+₩148만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩2136만</span> <span style="color:#ff4757;font-weight:600">+₩148만 (+7.4%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#4ecdc4"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">₩267,000</div>
     <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="20692000" data-color="#4ecdc4">
   <div class="stock-ico" style="background:#4ecdc4;color:#fff">LG</div>
   <div class="stock-info">
     <div class="stock-nm">LG에너지솔루션</div>
     <div class="stock-det">56.0주/개 · 경기 소비재</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩2069만</span> <span style="color:#4ecdc4;font-weight:600">₩193만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩2069만</span> <span style="color:#4ecdc4;font-weight:600">₩193만 (-8.5%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#4ecdc4"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">₩369,500</div>
     <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="19904011" data-color="#4834d4">
   <div class="stock-ico" style="background:#4834d4;color:#fff">NV</div>
   <div class="stock-info">
     <div class="stock-nm">NVDA</div>
     <div class="stock-det">73.0주/개 · 첨단 기술</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩1987만</span> <span style="color:#ff4757;font-weight:600">+₩461만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩1990만</span> <span style="color:#ff4757;font-weight:600">+₩462만 (+30.2%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#4834d4"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">$184.77</div>
     <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="19753435" data-color="#636e72">
   <div class="stock-ico" style="background:#636e72;color:#fff">US</div>
   <div class="stock-info">
     <div class="stock-nm">USD 현금</div>
     <div class="stock-det">13386.17주/개 · 현금</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩1972만</span> <span style="color:#8b9dc3;font-weight:600"></span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩1975만</span> <span style="color:#8b9dc3;font-weight:600"></span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#636e72"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">-</div>
     <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="18969600" data-color="#636e72">
   <div class="stock-ico" style="background:#636e72;color:#fff">엘오</div>
   <div class="stock-info">
     <div class="stock-nm">엘오티베큠</div>
     <div class="stock-det">512.0주/개 · 산업재</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩1897만</span> <span style="color:#ff4757;font-weight:600">+₩1058만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩1897만</span> <span style="color:#ff4757;font-weight:600">+₩1058만 (+126.2%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#636e72"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">₩37,050</div>
     <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
-  <div class="stock-ico" style="background:#0984e3;color:#fff">TI</div>
-  <div class="stock-info">
-    <div class="stock-nm">TIGER 테슬라채권혼합Fn</div>
-    <div class="stock-det">1224.0주/개 · 채권</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩1787만</span> <span style="color:#ff4757;font-weight:600">+₩98만</span></div>
-  </div>
-  <div class="stock-num">
-    <div class="stock-val">₩14,600</div>
-    <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
-  </div>
-</div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="17877916" data-color="#4ecdc4">
   <div class="stock-ico" style="background:#4ecdc4;color:#fff">HS</div>
   <div class="stock-info">
     <div class="stock-nm">HSAI</div>
     <div class="stock-det">480.0주/개 · 경기 소비재</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩1784만</span> <span style="color:#ff4757;font-weight:600">+₩89만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩1788만</span> <span style="color:#ff4757;font-weight:600">+₩89만 (+5.3%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#4ecdc4"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">$25.24</div>
     <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="17870400" data-color="#0984e3">
+  <div class="stock-ico" style="background:#0984e3;color:#fff">TI</div>
+  <div class="stock-info">
+    <div class="stock-nm">TIGER 테슬라채권혼합Fn</div>
+    <div class="stock-det">1224.0주/개 · 채권</div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩1787만</span> <span style="color:#ff4757;font-weight:600">+₩98만 (+5.8%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#0984e3"></div><span class="weight-pct-lbl"></span></div>
+  </div>
+  <div class="stock-num">
+    <div class="stock-val">₩14,600</div>
+    <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
+  </div>
+</div>
+<div class="stock-item" style="" data-val="16672115" data-color="#0984e3">
   <div class="stock-ico" style="background:#0984e3;color:#fff">KO</div>
   <div class="stock-info">
     <div class="stock-nm">KODEX 미국30년국채액티브(H)</div>
     <div class="stock-det">2161.0주/개 · 채권</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩1667만</span> <span style="color:#4ecdc4;font-weight:600">₩82만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩1667만</span> <span style="color:#4ecdc4;font-weight:600">₩82만 (-4.7%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#0984e3"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">₩7,715</div>
     <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="15644580" data-color="#6c5ce7">
   <div class="stock-ico" style="background:#6c5ce7;color:#fff">KO</div>
   <div class="stock-info">
     <div class="stock-nm">KODEX 미국30년국채울트라(H)</div>
     <div class="stock-det">1351.0주/개 · ETF</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩1564만</span> <span style="color:#ff4757;font-weight:600">+₩429만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩1564만</span> <span style="color:#ff4757;font-weight:600">+₩429만 (+37.7%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#6c5ce7"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">₩11,580</div>
     <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="15467760" data-color="#6c5ce7">
   <div class="stock-ico" style="background:#6c5ce7;color:#fff">AC</div>
   <div class="stock-info">
     <div class="stock-nm">ACE 구글밸류체인액티브</div>
     <div class="stock-det">891.0주/개 · ETF</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩1547만</span> <span style="color:#ff4757;font-weight:600">+₩212만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩1547만</span> <span style="color:#ff4757;font-weight:600">+₩212만 (+15.9%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#6c5ce7"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">₩17,360</div>
     <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="15317513" data-color="#4ecdc4">
   <div class="stock-ico" style="background:#4ecdc4;color:#fff">TS</div>
   <div class="stock-info">
     <div class="stock-nm">TSLA</div>
     <div class="stock-det">26.0주/개 · 경기 소비재</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩1529만</span> <span style="color:#4ecdc4;font-weight:600">₩10만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩1532만</span> <span style="color:#4ecdc4;font-weight:600">₩10만 (-0.7%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#4ecdc4"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">$399.24</div>
     <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="15147570" data-color="#4834d4">
   <div class="stock-ico" style="background:#4834d4;color:#fff">TI</div>
   <div class="stock-info">
     <div class="stock-nm">TIME 글로벌우주테크&방산</div>
     <div class="stock-det">667.0주/개 · 첨단 기술</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩1515만</span> <span style="color:#ff4757;font-weight:600">+₩563만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩1515만</span> <span style="color:#ff4757;font-weight:600">+₩563만 (+59.1%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#4834d4"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">₩22,710</div>
     <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="14095223" data-color="#4834d4">
   <div class="stock-ico" style="background:#4834d4;color:#fff">AM</div>
   <div class="stock-info">
     <div class="stock-nm">AMD</div>
     <div class="stock-det">47.0주/개 · 첨단 기술</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩1407만</span> <span style="color:#ff4757;font-weight:600">+₩621만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩1410만</span> <span style="color:#ff4757;font-weight:600">+₩622만 (+78.9%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#4834d4"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">$203.23</div>
     <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="13350000" data-color="#4ecdc4">
   <div class="stock-ico" style="background:#4ecdc4;color:#fff">현대</div>
   <div class="stock-info">
     <div class="stock-nm">현대차우</div>
     <div class="stock-det">50.0주/개 · 경기 소비재</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩1335만</span> <span style="color:#ff4757;font-weight:600">+₩834만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩1335만</span> <span style="color:#ff4757;font-weight:600">+₩834만 (+166.5%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#4ecdc4"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">₩267,000</div>
     <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="13320000" data-color="#3498db">
   <div class="stock-ico" style="background:#3498db;color:#fff">네이</div>
   <div class="stock-info">
     <div class="stock-nm">네이버</div>
     <div class="stock-det">60.0주/개 · IT</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩1332만</span> <span style="color:#ff4757;font-weight:600">+₩209만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩1332만</span> <span style="color:#ff4757;font-weight:600">+₩209만 (+18.6%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#3498db"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">₩222,000</div>
     <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="12966427" data-color="#f7931a">
   <div class="stock-ico" style="background:#f7931a;color:#fff">SO</div>
   <div class="stock-info">
     <div class="stock-nm">SOL/KRW</div>
     <div class="stock-det">106.0주/개 · 가상자산</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩1297만</span> <span style="color:#4ecdc4;font-weight:600">₩695만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩1297만</span> <span style="color:#4ecdc4;font-weight:600">₩695만 (-34.9%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#f7931a"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
-    <div class="stock-val">₩128,425</div>
-    <div class="stock-chg" style="color:#ff4757">+1.7%</div>
+    <div class="stock-val">₩127,312</div>
+    <div class="stock-chg" style="color:#ff4757">+1.6%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="11480000" data-color="#27ae60">
   <div class="stock-ico" style="background:#27ae60;color:#fff">SK</div>
   <div class="stock-info">
     <div class="stock-nm">SK리츠</div>
     <div class="stock-det">2000.0주/개 · 부동산</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩1148만</span> <span style="color:#ff4757;font-weight:600">+₩348만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩1148만</span> <span style="color:#ff4757;font-weight:600">+₩348만 (+43.4%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#27ae60"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">₩5,740</div>
     <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="10846860" data-color="#27ae60">
   <div class="stock-ico" style="background:#27ae60;color:#fff">신한</div>
   <div class="stock-info">
     <div class="stock-nm">신한서부티엔디리츠</div>
     <div class="stock-det">2468.0주/개 · 부동산</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩1085만</span> <span style="color:#ff4757;font-weight:600">+₩160만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩1085만</span> <span style="color:#ff4757;font-weight:600">+₩160만 (+17.3%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#27ae60"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">₩4,395</div>
     <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="9912507" data-color="#f7931a">
   <div class="stock-ico" style="background:#f7931a;color:#fff">LI</div>
   <div class="stock-info">
     <div class="stock-nm">LINK/USD</div>
     <div class="stock-det">773.0주/개 · 가상자산</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩991만</span> <span style="color:#4ecdc4;font-weight:600">₩476만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩991만</span> <span style="color:#4ecdc4;font-weight:600">₩479만 (-32.6%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#f7931a"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
-    <div class="stock-val">$9.04</div>
-    <div class="stock-chg" style="color:#ff4757">+0.9%</div>
+    <div class="stock-val">$8.99</div>
+    <div class="stock-chg" style="color:#ff4757">+1.2%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="9398820" data-color="#27ae60">
   <div class="stock-ico" style="background:#27ae60;color:#fff">이지</div>
   <div class="stock-info">
     <div class="stock-nm">이지스밸류플러스리츠</div>
     <div class="stock-det">2298.0주/개 · 부동산</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩940만</span> <span style="color:#4ecdc4;font-weight:600">₩56만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩940만</span> <span style="color:#4ecdc4;font-weight:600">₩56만 (-5.7%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#27ae60"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">₩4,090</div>
     <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="8332800" data-color="#636e72">
   <div class="stock-ico" style="background:#636e72;color:#fff">현대</div>
   <div class="stock-info">
     <div class="stock-nm">현대건설</div>
     <div class="stock-det">56.0주/개 · 유틸리티</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩833만</span> <span style="color:#ff4757;font-weight:600">+₩514만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩833만</span> <span style="color:#ff4757;font-weight:600">+₩514만 (+161.3%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#636e72"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">₩148,800</div>
     <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="8166000" data-color="#00b894">
   <div class="stock-ico" style="background:#00b894;color:#fff">KO</div>
   <div class="stock-info">
     <div class="stock-nm">KODEX 미국S&P500헬스케어</div>
     <div class="stock-det">600.0주/개 · 헬스케어</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩817만</span> <span style="color:#ff4757;font-weight:600">+₩207만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩817만</span> <span style="color:#ff4757;font-weight:600">+₩207만 (+34.0%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#00b894"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">₩13,610</div>
     <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="6325564" data-color="#3498db">
   <div class="stock-ico" style="background:#3498db;color:#fff">AM</div>
   <div class="stock-info">
     <div class="stock-nm">AMZN</div>
     <div class="stock-det">20.0주/개 · IT</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩631만</span> <span style="color:#ff4757;font-weight:600">+₩257만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩633만</span> <span style="color:#ff4757;font-weight:600">+₩257만 (+68.6%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#3498db"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">$214.33</div>
     <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="5863655" data-color="#0984e3">
   <div class="stock-ico" style="background:#0984e3;color:#fff">TI</div>
   <div class="stock-info">
     <div class="stock-nm">TIGER 코스피고배당</div>
     <div class="stock-det">203.0주/개 · 채권</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩586만</span> <span style="color:#ff4757;font-weight:600">+₩282만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩586만</span> <span style="color:#ff4757;font-weight:600">+₩282만 (+92.8%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#0984e3"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">₩28,885</div>
     <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="4707280" data-color="#0984e3">
   <div class="stock-ico" style="background:#0984e3;color:#fff">TI</div>
   <div class="stock-info">
     <div class="stock-nm">TIGER 미국초단기국채</div>
     <div class="stock-det">464.0주/개 · 채권</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩471만</span> <span style="color:#ff4757;font-weight:600">+₩23만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩471만</span> <span style="color:#ff4757;font-weight:600">+₩23만 (+5.1%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#0984e3"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">₩10,145</div>
     <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
-  <div class="stock-ico" style="background:#636e72;color:#fff">미래</div>
-  <div class="stock-info">
-    <div class="stock-nm">미래에셋현금성자산</div>
-    <div class="stock-det">1.0주/개 · 현금</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩442만</span> <span style="color:#8b9dc3;font-weight:600"></span></div>
-  </div>
-  <div class="stock-num">
-    <div class="stock-val">-</div>
-    <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
-  </div>
-</div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="4432956" data-color="#00b894">
   <div class="stock-ico" style="background:#00b894;color:#fff">LL</div>
   <div class="stock-info">
     <div class="stock-nm">LLY</div>
     <div class="stock-det">3.0주/개 · 헬스케어</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩442만</span> <span style="color:#ff4757;font-weight:600">+₩242만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩443만</span> <span style="color:#ff4757;font-weight:600">+₩243만 (+121.0%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#00b894"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">$1001.35</div>
     <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
-  <div class="stock-ico" style="background:#0984e3;color:#fff">KO</div>
+<div class="stock-item" style="" data-val="4424654" data-color="#636e72">
+  <div class="stock-ico" style="background:#636e72;color:#fff">미래</div>
   <div class="stock-info">
-    <div class="stock-nm">KODEX TRF3070</div>
-    <div class="stock-det">244.0주/개 · 채권</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩351만</span> <span style="color:#ff4757;font-weight:600">+₩50만</span></div>
-  </div>
-  <div class="stock-num">
-    <div class="stock-val">₩14,370</div>
-    <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
-  </div>
-</div>
-<div class="stock-item" style="">
-  <div class="stock-ico" style="background:#0984e3;color:#fff">TI</div>
-  <div class="stock-info">
-    <div class="stock-nm">TIGER 글로벌멀티에셋TIF</div>
-    <div class="stock-det">242.0주/개 · 채권</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩299만</span> <span style="color:#ff4757;font-weight:600">+₩66만</span></div>
-  </div>
-  <div class="stock-num">
-    <div class="stock-val">₩12,365</div>
-    <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
-  </div>
-</div>
-<div class="stock-item" style="">
-  <div class="stock-ico" style="background:#3498db;color:#fff">MS</div>
-  <div class="stock-info">
-    <div class="stock-nm">MSFT</div>
-    <div class="stock-det">5.0주/개 · IT</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩299만</span> <span style="color:#ff4757;font-weight:600">+₩54만</span></div>
-  </div>
-  <div class="stock-num">
-    <div class="stock-val">$405.76</div>
-    <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
-  </div>
-</div>
-<div class="stock-item" style="">
-  <div class="stock-ico" style="background:#0984e3;color:#fff">TI</div>
-  <div class="stock-info">
-    <div class="stock-nm">TIGER 미국달러단기채권</div>
-    <div class="stock-det">213.0주/개 · 채권</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩291만</span> <span style="color:#ff4757;font-weight:600">+₩5만</span></div>
-  </div>
-  <div class="stock-num">
-    <div class="stock-val">₩13,640</div>
-    <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
-  </div>
-</div>
-<div class="stock-item" style="border:1px solid #ff4757;border-radius:10px;">
-  <div class="stock-ico" style="background:#fdcb6e;color:#fff">KO</div>
-  <div class="stock-info">
-    <div class="stock-nm">KODEX 증권<span class="nbadge">NEW</span></div>
-    <div class="stock-det">100.0주/개 · 금융</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩275만</span> <span style="color:#ff4757;font-weight:600">+₩31만</span></div>
-  </div>
-  <div class="stock-num">
-    <div class="stock-val">₩27,470</div>
-    <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
-  </div>
-</div>
-<div class="stock-item" style="">
-  <div class="stock-ico" style="background:#4834d4;color:#fff">TI</div>
-  <div class="stock-info">
-    <div class="stock-nm">TIGER 글로벌AI사이버보안</div>
-    <div class="stock-det">129.0주/개 · 첨단 기술</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩154만</span> <span style="color:#4ecdc4;font-weight:600">₩25만</span></div>
-  </div>
-  <div class="stock-num">
-    <div class="stock-val">₩11,975</div>
-    <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
-  </div>
-</div>
-<div class="stock-item" style="">
-  <div class="stock-ico" style="background:#3498db;color:#fff">GO</div>
-  <div class="stock-info">
-    <div class="stock-nm">GOOGL</div>
-    <div class="stock-det">3.0주/개 · IT</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩136만</span> <span style="color:#ff4757;font-weight:600">+₩4만</span></div>
-  </div>
-  <div class="stock-num">
-    <div class="stock-val">$307.04</div>
-    <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
-  </div>
-</div>
-<div class="stock-item" style="">
-  <div class="stock-ico" style="background:#636e72;color:#fff">KR</div>
-  <div class="stock-info">
-    <div class="stock-nm">KRW 현금</div>
-    <div class="stock-det">640695.0주/개 · 현금</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩64만</span> <span style="color:#8b9dc3;font-weight:600"></span></div>
+    <div class="stock-nm">미래에셋현금성자산</div>
+    <div class="stock-det">1.0주/개 · 현금</div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩442만</span> <span style="color:#8b9dc3;font-weight:600"></span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#636e72"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">-</div>
     <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="3506280" data-color="#0984e3">
+  <div class="stock-ico" style="background:#0984e3;color:#fff">KO</div>
+  <div class="stock-info">
+    <div class="stock-nm">KODEX TRF3070</div>
+    <div class="stock-det">244.0주/개 · 채권</div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩351만</span> <span style="color:#ff4757;font-weight:600">+₩50만 (+16.5%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#0984e3"></div><span class="weight-pct-lbl"></span></div>
+  </div>
+  <div class="stock-num">
+    <div class="stock-val">₩14,370</div>
+    <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
+  </div>
+</div>
+<div class="stock-item" style="" data-val="2993819" data-color="#3498db">
+  <div class="stock-ico" style="background:#3498db;color:#fff">MS</div>
+  <div class="stock-info">
+    <div class="stock-nm">MSFT</div>
+    <div class="stock-det">5.0주/개 · IT</div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩299만</span> <span style="color:#ff4757;font-weight:600">+₩55만 (+22.3%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#3498db"></div><span class="weight-pct-lbl"></span></div>
+  </div>
+  <div class="stock-num">
+    <div class="stock-val">$405.76</div>
+    <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
+  </div>
+</div>
+<div class="stock-item" style="" data-val="2992330" data-color="#0984e3">
+  <div class="stock-ico" style="background:#0984e3;color:#fff">TI</div>
+  <div class="stock-info">
+    <div class="stock-nm">TIGER 글로벌멀티에셋TIF</div>
+    <div class="stock-det">242.0주/개 · 채권</div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩299만</span> <span style="color:#ff4757;font-weight:600">+₩66만 (+28.3%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#0984e3"></div><span class="weight-pct-lbl"></span></div>
+  </div>
+  <div class="stock-num">
+    <div class="stock-val">₩12,365</div>
+    <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
+  </div>
+</div>
+<div class="stock-item" style="" data-val="2905320" data-color="#0984e3">
+  <div class="stock-ico" style="background:#0984e3;color:#fff">TI</div>
+  <div class="stock-info">
+    <div class="stock-nm">TIGER 미국달러단기채권</div>
+    <div class="stock-det">213.0주/개 · 채권</div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩291만</span> <span style="color:#ff4757;font-weight:600">+₩5만 (+1.7%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#0984e3"></div><span class="weight-pct-lbl"></span></div>
+  </div>
+  <div class="stock-num">
+    <div class="stock-val">₩13,640</div>
+    <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
+  </div>
+</div>
+<div class="stock-item" style="border:1px solid #ff4757;border-radius:10px;" data-val="2747000" data-color="#fdcb6e">
+  <div class="stock-ico" style="background:#fdcb6e;color:#fff">KO</div>
+  <div class="stock-info">
+    <div class="stock-nm">KODEX 증권<span class="nbadge">NEW</span></div>
+    <div class="stock-det">100.0주/개 · 금융</div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩275만</span> <span style="color:#ff4757;font-weight:600">+₩31만 (+12.8%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#fdcb6e"></div><span class="weight-pct-lbl"></span></div>
+  </div>
+  <div class="stock-num">
+    <div class="stock-val">₩27,470</div>
+    <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
+  </div>
+</div>
+<div class="stock-item" style="" data-val="1544775" data-color="#4834d4">
+  <div class="stock-ico" style="background:#4834d4;color:#fff">TI</div>
+  <div class="stock-info">
+    <div class="stock-nm">TIGER 글로벌AI사이버보안</div>
+    <div class="stock-det">129.0주/개 · 첨단 기술</div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩154만</span> <span style="color:#4ecdc4;font-weight:600">₩25만 (-14.1%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#4834d4"></div><span class="weight-pct-lbl"></span></div>
+  </div>
+  <div class="stock-num">
+    <div class="stock-val">₩11,975</div>
+    <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
+  </div>
+</div>
+<div class="stock-item" style="" data-val="1359259" data-color="#3498db">
+  <div class="stock-ico" style="background:#3498db;color:#fff">GO</div>
+  <div class="stock-info">
+    <div class="stock-nm">GOOGL</div>
+    <div class="stock-det">3.0주/개 · IT</div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩136만</span> <span style="color:#ff4757;font-weight:600">+₩4만 (+2.8%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#3498db"></div><span class="weight-pct-lbl"></span></div>
+  </div>
+  <div class="stock-num">
+    <div class="stock-val">$307.04</div>
+    <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
+  </div>
+</div>
+<div class="stock-item" style="" data-val="640695" data-color="#636e72">
+  <div class="stock-ico" style="background:#636e72;color:#fff">KR</div>
+  <div class="stock-info">
+    <div class="stock-nm">KRW 현금</div>
+    <div class="stock-det">640695.0주/개 · 현금</div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩64만</span> <span style="color:#8b9dc3;font-weight:600"></span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#636e72"></div><span class="weight-pct-lbl"></span></div>
+  </div>
+  <div class="stock-num">
+    <div class="stock-val">-</div>
+    <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
+  </div>
+</div>
+<div class="stock-item" style="" data-val="400000" data-color="#4ecdc4">
   <div class="stock-ico" style="background:#4ecdc4;color:#fff">삼성</div>
   <div class="stock-info">
     <div class="stock-nm">삼성SDI</div>
     <div class="stock-det">1.0주/개 · 경기 소비재</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩40만</span> <span style="color:#ff4757;font-weight:600">+₩20만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩40만</span> <span style="color:#ff4757;font-weight:600">+₩20만 (+95.7%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#4ecdc4"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">₩400,000</div>
     <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="305461" data-color="#4834d4">
   <div class="stock-ico" style="background:#4834d4;color:#fff">RT</div>
   <div class="stock-info">
     <div class="stock-nm">RTX</div>
     <div class="stock-det">1.0주/개 · 첨단 기술</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩30만</span> <span style="color:#ff4757;font-weight:600">+₩20만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩31만</span> <span style="color:#ff4757;font-weight:600">+₩20만 (+177.8%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#4834d4"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">$207.00</div>
     <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="223031" data-color="#3498db">
   <div class="stock-ico" style="background:#3498db;color:#fff">PL</div>
   <div class="stock-info">
     <div class="stock-nm">PLTR</div>
     <div class="stock-det">1.0주/개 · IT</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩22만</span> <span style="color:#4ecdc4;font-weight:600">₩3만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩22만</span> <span style="color:#4ecdc4;font-weight:600">₩3만 (-11.4%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#3498db"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">$151.14</div>
     <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="156880" data-color="#0984e3">
   <div class="stock-ico" style="background:#0984e3;color:#fff">HA</div>
   <div class="stock-info">
     <div class="stock-nm">HANARO 글로벌금채굴기업</div>
     <div class="stock-det">4.0주/개 · 채권</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩16만</span> <span style="color:#ff4757;font-weight:600">+₩10만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩16만</span> <span style="color:#ff4757;font-weight:600">+₩10만 (+195.3%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#0984e3"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">₩39,220</div>
     <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="69700" data-color="#636e72">
   <div class="stock-ico" style="background:#636e72;color:#fff">세아</div>
   <div class="stock-info">
     <div class="stock-nm">세아베스틸지주</div>
     <div class="stock-det">1.0주/개 · 소재</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩7만</span> <span style="color:#ff4757;font-weight:600">+₩4만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩7만</span> <span style="color:#ff4757;font-weight:600">+₩4만 (+171.7%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#636e72"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">₩69,700</div>
@@ -1072,708 +1134,767 @@ body.masked .tval,body.masked .tchg,body.masked .smval,body.masked .stock-val,bo
   <div class="sec">
     <div class="sec-ttl">전체 종목 (59개)</div>
     
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="125051745" data-color="#4834d4">
   <div class="stock-ico" style="background:#4834d4;color:#fff">TI</div>
   <div class="stock-info">
     <div class="stock-nm">TIGER 코리아AI전력기기TOP3+</div>
     <div class="stock-det">4121.0주/개 · 첨단 기술</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩1.3억</span> <span style="color:#ff4757;font-weight:600">+₩7221만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩1.3억</span> <span style="color:#ff4757;font-weight:600">+₩7221만 (+136.6%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#4834d4"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">₩30,345</div>
     <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="98610000" data-color="#4834d4">
   <div class="stock-ico" style="background:#4834d4;color:#fff">삼성</div>
   <div class="stock-info">
     <div class="stock-nm">삼성전자</div>
     <div class="stock-det">519.0주/개 · 첨단 기술</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩9861만</span> <span style="color:#ff4757;font-weight:600">+₩6368만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩9861만</span> <span style="color:#ff4757;font-weight:600">+₩6368만 (+182.3%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#4834d4"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">₩190,000</div>
     <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="67800468" data-color="#f7931a">
   <div class="stock-ico" style="background:#f7931a;color:#fff">BT</div>
   <div class="stock-info">
     <div class="stock-nm">BTC/KRW</div>
     <div class="stock-det">0.698주/개 · 가상자산</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩6780만</span> <span style="color:#ff4757;font-weight:600">+₩1056만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩6780만</span> <span style="color:#ff4757;font-weight:600">+₩1056만 (+18.5%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#f7931a"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
-    <div class="stock-val">₩103,885,897</div>
+    <div class="stock-val">₩103,344,030</div>
     <div class="stock-chg" style="color:#ff4757">+1.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="55860750" data-color="#6c5ce7">
   <div class="stock-ico" style="background:#6c5ce7;color:#fff">TI</div>
   <div class="stock-info">
     <div class="stock-nm">TIGER 글로벌AI액티브</div>
     <div class="stock-det">2257.0주/개 · ETF</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩5586만</span> <span style="color:#ff4757;font-weight:600">+₩388만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩5586만</span> <span style="color:#ff4757;font-weight:600">+₩388만 (+7.5%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#6c5ce7"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">₩24,750</div>
     <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="49198504" data-color="#4ecdc4">
   <div class="stock-ico" style="background:#4ecdc4;color:#fff">샤오</div>
   <div class="stock-info">
     <div class="stock-nm">샤오미</div>
     <div class="stock-det">1000.0주/개 · 경기 소비재</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩4910만</span> <span style="color:#ff4757;font-weight:600">+₩3340만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩4920만</span> <span style="color:#ff4757;font-weight:600">+₩3347만 (+212.8%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#4ecdc4"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">$33.34</div>
     <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="43588045" data-color="#4834d4">
   <div class="stock-ico" style="background:#4834d4;color:#fff">AR</div>
   <div class="stock-info">
     <div class="stock-nm">ARTY</div>
     <div class="stock-det">600.0주/개 · 첨단 기술</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩4350만</span> <span style="color:#ff4757;font-weight:600">+₩373만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩4359만</span> <span style="color:#ff4757;font-weight:600">+₩374만 (+9.4%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#4834d4"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">$49.23</div>
     <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="40005000" data-color="#00b894">
   <div class="stock-ico" style="background:#00b894;color:#fff">파마</div>
   <div class="stock-info">
     <div class="stock-nm">파마리서치</div>
     <div class="stock-det">126.0주/개 · 헬스케어</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩4000만</span> <span style="color:#4ecdc4;font-weight:600">₩1057만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩4000만</span> <span style="color:#4ecdc4;font-weight:600">₩1057만 (-20.9%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#00b894"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">₩317,500</div>
     <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="37646400" data-color="#4834d4">
   <div class="stock-ico" style="background:#4834d4;color:#fff">SO</div>
   <div class="stock-info">
     <div class="stock-nm">SOL 미국AI전력인프라</div>
     <div class="stock-det">1760.0주/개 · 첨단 기술</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩3765만</span> <span style="color:#ff4757;font-weight:600">+₩1426만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩3765만</span> <span style="color:#ff4757;font-weight:600">+₩1426만 (+61.0%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#4834d4"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">₩21,390</div>
     <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="34653750" data-color="#4834d4">
   <div class="stock-ico" style="background:#4834d4;color:#fff">IN</div>
   <div class="stock-info">
     <div class="stock-nm">INTC</div>
     <div class="stock-det">502.0주/개 · 첨단 기술</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩3459만</span> <span style="color:#ff4757;font-weight:600">+₩864만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩3465만</span> <span style="color:#ff4757;font-weight:600">+₩865만 (+33.3%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#4834d4"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">$46.78</div>
     <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="33030000" data-color="#fdcb6e">
   <div class="stock-ico" style="background:#fdcb6e;color:#fff">두산</div>
   <div class="stock-info">
     <div class="stock-nm">두산</div>
     <div class="stock-det">30.0주/개 · 금융</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩3303만</span> <span style="color:#ff4757;font-weight:600">+₩765만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩3303만</span> <span style="color:#ff4757;font-weight:600">+₩765만 (+30.1%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#fdcb6e"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">₩1,101,000</div>
     <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="32237100" data-color="#27ae60">
   <div class="stock-ico" style="background:#27ae60;color:#fff">코람</div>
   <div class="stock-info">
     <div class="stock-nm">코람코라이프인프라리츠</div>
     <div class="stock-det">3570.0주/개 · 부동산</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩3224만</span> <span style="color:#ff4757;font-weight:600">+₩1326만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩3224만</span> <span style="color:#ff4757;font-weight:600">+₩1326만 (+69.9%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#27ae60"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">₩9,030</div>
     <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="30864750" data-color="#6c5ce7">
   <div class="stock-ico" style="background:#6c5ce7;color:#fff">TI</div>
   <div class="stock-info">
     <div class="stock-nm">TIGER 미국테크TOP10 INDXX</div>
     <div class="stock-det">1050.0주/개 · ETF</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩3086만</span> <span style="color:#ff4757;font-weight:600">+₩890만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩3086만</span> <span style="color:#ff4757;font-weight:600">+₩890만 (+40.5%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#6c5ce7"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">₩29,395</div>
     <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="30141300" data-color="#4834d4">
   <div class="stock-ico" style="background:#4834d4;color:#fff">삼성</div>
   <div class="stock-info">
     <div class="stock-nm">삼성전자우</div>
     <div class="stock-det">217.0주/개 · 첨단 기술</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩3014만</span> <span style="color:#ff4757;font-weight:600">+₩2015만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩3014만</span> <span style="color:#ff4757;font-weight:600">+₩2015만 (+201.6%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#4834d4"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">₩138,900</div>
     <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="29908800" data-color="#636e72">
   <div class="stock-ico" style="background:#636e72;color:#fff">DL</div>
   <div class="stock-info">
     <div class="stock-nm">DL이앤씨우</div>
     <div class="stock-det">1206.0주/개 · 산업재</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩2991만</span> <span style="color:#ff4757;font-weight:600">+₩631만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩2991만</span> <span style="color:#ff4757;font-weight:600">+₩631만 (+26.7%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#636e72"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">₩24,800</div>
     <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="26703720" data-color="#636e72">
   <div class="stock-ico" style="background:#636e72;color:#fff">NL</div>
   <div class="stock-info">
     <div class="stock-nm">NLR</div>
     <div class="stock-det">129.0주/개 · 기타</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩2665만</span> <span style="color:#ff4757;font-weight:600">+₩12만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩2670만</span> <span style="color:#ff4757;font-weight:600">+₩12만 (+0.4%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#636e72"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">$140.28</div>
     <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="26339055" data-color="#6c5ce7">
   <div class="stock-ico" style="background:#6c5ce7;color:#fff">GR</div>
   <div class="stock-info">
     <div class="stock-nm">GRID ETF</div>
     <div class="stock-det">100.0주/개 · ETF</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩2629만</span> <span style="color:#ff4757;font-weight:600">+₩459만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩2634만</span> <span style="color:#ff4757;font-weight:600">+₩460만 (+21.1%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#6c5ce7"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">$178.49</div>
     <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="26000000" data-color="#4ecdc4">
   <div class="stock-ico" style="background:#4ecdc4;color:#fff">현대</div>
   <div class="stock-info">
     <div class="stock-nm">현대차3우B</div>
     <div class="stock-det">104.0주/개 · 경기 소비재</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩2600만</span> <span style="color:#ff4757;font-weight:600">+₩1761만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩2600만</span> <span style="color:#ff4757;font-weight:600">+₩1761만 (+209.9%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#4ecdc4"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">₩250,000</div>
     <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="24058420" data-color="#27ae60">
   <div class="stock-ico" style="background:#27ae60;color:#fff">ES</div>
   <div class="stock-info">
     <div class="stock-nm">ESR켄달스퀘어리츠</div>
     <div class="stock-det">5582.0주/개 · 부동산</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩2406만</span> <span style="color:#ff4757;font-weight:600">+₩306만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩2406만</span> <span style="color:#ff4757;font-weight:600">+₩306만 (+14.6%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#27ae60"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">₩4,310</div>
     <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="22787602" data-color="#f7931a">
   <div class="stock-ico" style="background:#f7931a;color:#fff">ET</div>
   <div class="stock-info">
     <div class="stock-nm">ETH/KRW</div>
     <div class="stock-det">7.998주/개 · 가상자산</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩2279만</span> <span style="color:#4ecdc4;font-weight:600">₩415만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩2279만</span> <span style="color:#4ecdc4;font-weight:600">₩415만 (-15.4%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#f7931a"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
-    <div class="stock-val">₩3,039,901</div>
-    <div class="stock-chg" style="color:#ff4757">+1.5%</div>
+    <div class="stock-val">₩3,036,927</div>
+    <div class="stock-chg" style="color:#ff4757">+2.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="21360000" data-color="#4ecdc4">
   <div class="stock-ico" style="background:#4ecdc4;color:#fff">현대</div>
   <div class="stock-info">
     <div class="stock-nm">현대차우</div>
     <div class="stock-det">80.0주/개 · 경기 소비재</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩2136만</span> <span style="color:#ff4757;font-weight:600">+₩148만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩2136만</span> <span style="color:#ff4757;font-weight:600">+₩148만 (+7.4%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#4ecdc4"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">₩267,000</div>
     <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="20692000" data-color="#4ecdc4">
   <div class="stock-ico" style="background:#4ecdc4;color:#fff">LG</div>
   <div class="stock-info">
     <div class="stock-nm">LG에너지솔루션</div>
     <div class="stock-det">56.0주/개 · 경기 소비재</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩2069만</span> <span style="color:#4ecdc4;font-weight:600">₩193만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩2069만</span> <span style="color:#4ecdc4;font-weight:600">₩193만 (-8.5%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#4ecdc4"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">₩369,500</div>
     <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="19904011" data-color="#4834d4">
   <div class="stock-ico" style="background:#4834d4;color:#fff">NV</div>
   <div class="stock-info">
     <div class="stock-nm">NVDA</div>
     <div class="stock-det">73.0주/개 · 첨단 기술</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩1987만</span> <span style="color:#ff4757;font-weight:600">+₩461만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩1990만</span> <span style="color:#ff4757;font-weight:600">+₩462만 (+30.2%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#4834d4"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">$184.77</div>
     <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="19753435" data-color="#636e72">
   <div class="stock-ico" style="background:#636e72;color:#fff">US</div>
   <div class="stock-info">
     <div class="stock-nm">USD 현금</div>
     <div class="stock-det">13386.17주/개 · 현금</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩1972만</span> <span style="color:#8b9dc3;font-weight:600"></span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩1975만</span> <span style="color:#8b9dc3;font-weight:600"></span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#636e72"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">-</div>
     <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="18969600" data-color="#636e72">
   <div class="stock-ico" style="background:#636e72;color:#fff">엘오</div>
   <div class="stock-info">
     <div class="stock-nm">엘오티베큠</div>
     <div class="stock-det">512.0주/개 · 산업재</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩1897만</span> <span style="color:#ff4757;font-weight:600">+₩1058만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩1897만</span> <span style="color:#ff4757;font-weight:600">+₩1058만 (+126.2%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#636e72"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">₩37,050</div>
     <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
-  <div class="stock-ico" style="background:#0984e3;color:#fff">TI</div>
-  <div class="stock-info">
-    <div class="stock-nm">TIGER 테슬라채권혼합Fn</div>
-    <div class="stock-det">1224.0주/개 · 채권</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩1787만</span> <span style="color:#ff4757;font-weight:600">+₩98만</span></div>
-  </div>
-  <div class="stock-num">
-    <div class="stock-val">₩14,600</div>
-    <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
-  </div>
-</div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="17877916" data-color="#4ecdc4">
   <div class="stock-ico" style="background:#4ecdc4;color:#fff">HS</div>
   <div class="stock-info">
     <div class="stock-nm">HSAI</div>
     <div class="stock-det">480.0주/개 · 경기 소비재</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩1784만</span> <span style="color:#ff4757;font-weight:600">+₩89만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩1788만</span> <span style="color:#ff4757;font-weight:600">+₩89만 (+5.3%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#4ecdc4"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">$25.24</div>
     <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="17870400" data-color="#0984e3">
+  <div class="stock-ico" style="background:#0984e3;color:#fff">TI</div>
+  <div class="stock-info">
+    <div class="stock-nm">TIGER 테슬라채권혼합Fn</div>
+    <div class="stock-det">1224.0주/개 · 채권</div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩1787만</span> <span style="color:#ff4757;font-weight:600">+₩98만 (+5.8%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#0984e3"></div><span class="weight-pct-lbl"></span></div>
+  </div>
+  <div class="stock-num">
+    <div class="stock-val">₩14,600</div>
+    <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
+  </div>
+</div>
+<div class="stock-item" style="" data-val="16672115" data-color="#0984e3">
   <div class="stock-ico" style="background:#0984e3;color:#fff">KO</div>
   <div class="stock-info">
     <div class="stock-nm">KODEX 미국30년국채액티브(H)</div>
     <div class="stock-det">2161.0주/개 · 채권</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩1667만</span> <span style="color:#4ecdc4;font-weight:600">₩82만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩1667만</span> <span style="color:#4ecdc4;font-weight:600">₩82만 (-4.7%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#0984e3"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">₩7,715</div>
     <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="15644580" data-color="#6c5ce7">
   <div class="stock-ico" style="background:#6c5ce7;color:#fff">KO</div>
   <div class="stock-info">
     <div class="stock-nm">KODEX 미국30년국채울트라(H)</div>
     <div class="stock-det">1351.0주/개 · ETF</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩1564만</span> <span style="color:#ff4757;font-weight:600">+₩429만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩1564만</span> <span style="color:#ff4757;font-weight:600">+₩429만 (+37.7%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#6c5ce7"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">₩11,580</div>
     <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="15467760" data-color="#6c5ce7">
   <div class="stock-ico" style="background:#6c5ce7;color:#fff">AC</div>
   <div class="stock-info">
     <div class="stock-nm">ACE 구글밸류체인액티브</div>
     <div class="stock-det">891.0주/개 · ETF</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩1547만</span> <span style="color:#ff4757;font-weight:600">+₩212만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩1547만</span> <span style="color:#ff4757;font-weight:600">+₩212만 (+15.9%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#6c5ce7"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">₩17,360</div>
     <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="15317513" data-color="#4ecdc4">
   <div class="stock-ico" style="background:#4ecdc4;color:#fff">TS</div>
   <div class="stock-info">
     <div class="stock-nm">TSLA</div>
     <div class="stock-det">26.0주/개 · 경기 소비재</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩1529만</span> <span style="color:#4ecdc4;font-weight:600">₩10만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩1532만</span> <span style="color:#4ecdc4;font-weight:600">₩10만 (-0.7%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#4ecdc4"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">$399.24</div>
     <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="15147570" data-color="#4834d4">
   <div class="stock-ico" style="background:#4834d4;color:#fff">TI</div>
   <div class="stock-info">
     <div class="stock-nm">TIME 글로벌우주테크&방산</div>
     <div class="stock-det">667.0주/개 · 첨단 기술</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩1515만</span> <span style="color:#ff4757;font-weight:600">+₩563만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩1515만</span> <span style="color:#ff4757;font-weight:600">+₩563만 (+59.1%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#4834d4"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">₩22,710</div>
     <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="14095223" data-color="#4834d4">
   <div class="stock-ico" style="background:#4834d4;color:#fff">AM</div>
   <div class="stock-info">
     <div class="stock-nm">AMD</div>
     <div class="stock-det">47.0주/개 · 첨단 기술</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩1407만</span> <span style="color:#ff4757;font-weight:600">+₩621만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩1410만</span> <span style="color:#ff4757;font-weight:600">+₩622만 (+78.9%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#4834d4"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">$203.23</div>
     <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="13350000" data-color="#4ecdc4">
   <div class="stock-ico" style="background:#4ecdc4;color:#fff">현대</div>
   <div class="stock-info">
     <div class="stock-nm">현대차우</div>
     <div class="stock-det">50.0주/개 · 경기 소비재</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩1335만</span> <span style="color:#ff4757;font-weight:600">+₩834만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩1335만</span> <span style="color:#ff4757;font-weight:600">+₩834만 (+166.5%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#4ecdc4"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">₩267,000</div>
     <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="13320000" data-color="#3498db">
   <div class="stock-ico" style="background:#3498db;color:#fff">네이</div>
   <div class="stock-info">
     <div class="stock-nm">네이버</div>
     <div class="stock-det">60.0주/개 · IT</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩1332만</span> <span style="color:#ff4757;font-weight:600">+₩209만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩1332만</span> <span style="color:#ff4757;font-weight:600">+₩209만 (+18.6%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#3498db"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">₩222,000</div>
     <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="12966427" data-color="#f7931a">
   <div class="stock-ico" style="background:#f7931a;color:#fff">SO</div>
   <div class="stock-info">
     <div class="stock-nm">SOL/KRW</div>
     <div class="stock-det">106.0주/개 · 가상자산</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩1297만</span> <span style="color:#4ecdc4;font-weight:600">₩695만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩1297만</span> <span style="color:#4ecdc4;font-weight:600">₩695만 (-34.9%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#f7931a"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
-    <div class="stock-val">₩128,425</div>
-    <div class="stock-chg" style="color:#ff4757">+1.7%</div>
+    <div class="stock-val">₩127,312</div>
+    <div class="stock-chg" style="color:#ff4757">+1.6%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="11480000" data-color="#27ae60">
   <div class="stock-ico" style="background:#27ae60;color:#fff">SK</div>
   <div class="stock-info">
     <div class="stock-nm">SK리츠</div>
     <div class="stock-det">2000.0주/개 · 부동산</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩1148만</span> <span style="color:#ff4757;font-weight:600">+₩348만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩1148만</span> <span style="color:#ff4757;font-weight:600">+₩348만 (+43.4%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#27ae60"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">₩5,740</div>
     <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="10846860" data-color="#27ae60">
   <div class="stock-ico" style="background:#27ae60;color:#fff">신한</div>
   <div class="stock-info">
     <div class="stock-nm">신한서부티엔디리츠</div>
     <div class="stock-det">2468.0주/개 · 부동산</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩1085만</span> <span style="color:#ff4757;font-weight:600">+₩160만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩1085만</span> <span style="color:#ff4757;font-weight:600">+₩160만 (+17.3%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#27ae60"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">₩4,395</div>
     <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="9912507" data-color="#f7931a">
   <div class="stock-ico" style="background:#f7931a;color:#fff">LI</div>
   <div class="stock-info">
     <div class="stock-nm">LINK/USD</div>
     <div class="stock-det">773.0주/개 · 가상자산</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩991만</span> <span style="color:#4ecdc4;font-weight:600">₩476만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩991만</span> <span style="color:#4ecdc4;font-weight:600">₩479만 (-32.6%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#f7931a"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
-    <div class="stock-val">$9.04</div>
-    <div class="stock-chg" style="color:#ff4757">+0.9%</div>
+    <div class="stock-val">$8.99</div>
+    <div class="stock-chg" style="color:#ff4757">+1.2%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="9398820" data-color="#27ae60">
   <div class="stock-ico" style="background:#27ae60;color:#fff">이지</div>
   <div class="stock-info">
     <div class="stock-nm">이지스밸류플러스리츠</div>
     <div class="stock-det">2298.0주/개 · 부동산</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩940만</span> <span style="color:#4ecdc4;font-weight:600">₩56만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩940만</span> <span style="color:#4ecdc4;font-weight:600">₩56만 (-5.7%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#27ae60"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">₩4,090</div>
     <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="8332800" data-color="#636e72">
   <div class="stock-ico" style="background:#636e72;color:#fff">현대</div>
   <div class="stock-info">
     <div class="stock-nm">현대건설</div>
     <div class="stock-det">56.0주/개 · 유틸리티</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩833만</span> <span style="color:#ff4757;font-weight:600">+₩514만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩833만</span> <span style="color:#ff4757;font-weight:600">+₩514만 (+161.3%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#636e72"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">₩148,800</div>
     <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="8166000" data-color="#00b894">
   <div class="stock-ico" style="background:#00b894;color:#fff">KO</div>
   <div class="stock-info">
     <div class="stock-nm">KODEX 미국S&P500헬스케어</div>
     <div class="stock-det">600.0주/개 · 헬스케어</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩817만</span> <span style="color:#ff4757;font-weight:600">+₩207만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩817만</span> <span style="color:#ff4757;font-weight:600">+₩207만 (+34.0%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#00b894"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">₩13,610</div>
     <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="6325564" data-color="#3498db">
   <div class="stock-ico" style="background:#3498db;color:#fff">AM</div>
   <div class="stock-info">
     <div class="stock-nm">AMZN</div>
     <div class="stock-det">20.0주/개 · IT</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩631만</span> <span style="color:#ff4757;font-weight:600">+₩257만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩633만</span> <span style="color:#ff4757;font-weight:600">+₩257만 (+68.6%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#3498db"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">$214.33</div>
     <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="5863655" data-color="#0984e3">
   <div class="stock-ico" style="background:#0984e3;color:#fff">TI</div>
   <div class="stock-info">
     <div class="stock-nm">TIGER 코스피고배당</div>
     <div class="stock-det">203.0주/개 · 채권</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩586만</span> <span style="color:#ff4757;font-weight:600">+₩282만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩586만</span> <span style="color:#ff4757;font-weight:600">+₩282만 (+92.8%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#0984e3"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">₩28,885</div>
     <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="4707280" data-color="#0984e3">
   <div class="stock-ico" style="background:#0984e3;color:#fff">TI</div>
   <div class="stock-info">
     <div class="stock-nm">TIGER 미국초단기국채</div>
     <div class="stock-det">464.0주/개 · 채권</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩471만</span> <span style="color:#ff4757;font-weight:600">+₩23만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩471만</span> <span style="color:#ff4757;font-weight:600">+₩23만 (+5.1%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#0984e3"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">₩10,145</div>
     <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
-  <div class="stock-ico" style="background:#636e72;color:#fff">미래</div>
-  <div class="stock-info">
-    <div class="stock-nm">미래에셋현금성자산</div>
-    <div class="stock-det">1.0주/개 · 현금</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩442만</span> <span style="color:#8b9dc3;font-weight:600"></span></div>
-  </div>
-  <div class="stock-num">
-    <div class="stock-val">-</div>
-    <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
-  </div>
-</div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="4432956" data-color="#00b894">
   <div class="stock-ico" style="background:#00b894;color:#fff">LL</div>
   <div class="stock-info">
     <div class="stock-nm">LLY</div>
     <div class="stock-det">3.0주/개 · 헬스케어</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩442만</span> <span style="color:#ff4757;font-weight:600">+₩242만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩443만</span> <span style="color:#ff4757;font-weight:600">+₩243만 (+121.0%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#00b894"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">$1001.35</div>
     <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
-  <div class="stock-ico" style="background:#0984e3;color:#fff">KO</div>
+<div class="stock-item" style="" data-val="4424654" data-color="#636e72">
+  <div class="stock-ico" style="background:#636e72;color:#fff">미래</div>
   <div class="stock-info">
-    <div class="stock-nm">KODEX TRF3070</div>
-    <div class="stock-det">244.0주/개 · 채권</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩351만</span> <span style="color:#ff4757;font-weight:600">+₩50만</span></div>
-  </div>
-  <div class="stock-num">
-    <div class="stock-val">₩14,370</div>
-    <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
-  </div>
-</div>
-<div class="stock-item" style="">
-  <div class="stock-ico" style="background:#0984e3;color:#fff">TI</div>
-  <div class="stock-info">
-    <div class="stock-nm">TIGER 글로벌멀티에셋TIF</div>
-    <div class="stock-det">242.0주/개 · 채권</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩299만</span> <span style="color:#ff4757;font-weight:600">+₩66만</span></div>
-  </div>
-  <div class="stock-num">
-    <div class="stock-val">₩12,365</div>
-    <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
-  </div>
-</div>
-<div class="stock-item" style="">
-  <div class="stock-ico" style="background:#3498db;color:#fff">MS</div>
-  <div class="stock-info">
-    <div class="stock-nm">MSFT</div>
-    <div class="stock-det">5.0주/개 · IT</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩299만</span> <span style="color:#ff4757;font-weight:600">+₩54만</span></div>
-  </div>
-  <div class="stock-num">
-    <div class="stock-val">$405.76</div>
-    <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
-  </div>
-</div>
-<div class="stock-item" style="">
-  <div class="stock-ico" style="background:#0984e3;color:#fff">TI</div>
-  <div class="stock-info">
-    <div class="stock-nm">TIGER 미국달러단기채권</div>
-    <div class="stock-det">213.0주/개 · 채권</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩291만</span> <span style="color:#ff4757;font-weight:600">+₩5만</span></div>
-  </div>
-  <div class="stock-num">
-    <div class="stock-val">₩13,640</div>
-    <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
-  </div>
-</div>
-<div class="stock-item" style="border:1px solid #ff4757;border-radius:10px;">
-  <div class="stock-ico" style="background:#fdcb6e;color:#fff">KO</div>
-  <div class="stock-info">
-    <div class="stock-nm">KODEX 증권<span class="nbadge">NEW</span></div>
-    <div class="stock-det">100.0주/개 · 금융</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩275만</span> <span style="color:#ff4757;font-weight:600">+₩31만</span></div>
-  </div>
-  <div class="stock-num">
-    <div class="stock-val">₩27,470</div>
-    <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
-  </div>
-</div>
-<div class="stock-item" style="">
-  <div class="stock-ico" style="background:#4834d4;color:#fff">TI</div>
-  <div class="stock-info">
-    <div class="stock-nm">TIGER 글로벌AI사이버보안</div>
-    <div class="stock-det">129.0주/개 · 첨단 기술</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩154만</span> <span style="color:#4ecdc4;font-weight:600">₩25만</span></div>
-  </div>
-  <div class="stock-num">
-    <div class="stock-val">₩11,975</div>
-    <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
-  </div>
-</div>
-<div class="stock-item" style="">
-  <div class="stock-ico" style="background:#3498db;color:#fff">GO</div>
-  <div class="stock-info">
-    <div class="stock-nm">GOOGL</div>
-    <div class="stock-det">3.0주/개 · IT</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩136만</span> <span style="color:#ff4757;font-weight:600">+₩4만</span></div>
-  </div>
-  <div class="stock-num">
-    <div class="stock-val">$307.04</div>
-    <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
-  </div>
-</div>
-<div class="stock-item" style="">
-  <div class="stock-ico" style="background:#636e72;color:#fff">KR</div>
-  <div class="stock-info">
-    <div class="stock-nm">KRW 현금</div>
-    <div class="stock-det">640695.0주/개 · 현금</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩64만</span> <span style="color:#8b9dc3;font-weight:600"></span></div>
+    <div class="stock-nm">미래에셋현금성자산</div>
+    <div class="stock-det">1.0주/개 · 현금</div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩442만</span> <span style="color:#8b9dc3;font-weight:600"></span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#636e72"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">-</div>
     <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="3506280" data-color="#0984e3">
+  <div class="stock-ico" style="background:#0984e3;color:#fff">KO</div>
+  <div class="stock-info">
+    <div class="stock-nm">KODEX TRF3070</div>
+    <div class="stock-det">244.0주/개 · 채권</div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩351만</span> <span style="color:#ff4757;font-weight:600">+₩50만 (+16.5%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#0984e3"></div><span class="weight-pct-lbl"></span></div>
+  </div>
+  <div class="stock-num">
+    <div class="stock-val">₩14,370</div>
+    <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
+  </div>
+</div>
+<div class="stock-item" style="" data-val="2993819" data-color="#3498db">
+  <div class="stock-ico" style="background:#3498db;color:#fff">MS</div>
+  <div class="stock-info">
+    <div class="stock-nm">MSFT</div>
+    <div class="stock-det">5.0주/개 · IT</div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩299만</span> <span style="color:#ff4757;font-weight:600">+₩55만 (+22.3%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#3498db"></div><span class="weight-pct-lbl"></span></div>
+  </div>
+  <div class="stock-num">
+    <div class="stock-val">$405.76</div>
+    <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
+  </div>
+</div>
+<div class="stock-item" style="" data-val="2992330" data-color="#0984e3">
+  <div class="stock-ico" style="background:#0984e3;color:#fff">TI</div>
+  <div class="stock-info">
+    <div class="stock-nm">TIGER 글로벌멀티에셋TIF</div>
+    <div class="stock-det">242.0주/개 · 채권</div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩299만</span> <span style="color:#ff4757;font-weight:600">+₩66만 (+28.3%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#0984e3"></div><span class="weight-pct-lbl"></span></div>
+  </div>
+  <div class="stock-num">
+    <div class="stock-val">₩12,365</div>
+    <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
+  </div>
+</div>
+<div class="stock-item" style="" data-val="2905320" data-color="#0984e3">
+  <div class="stock-ico" style="background:#0984e3;color:#fff">TI</div>
+  <div class="stock-info">
+    <div class="stock-nm">TIGER 미국달러단기채권</div>
+    <div class="stock-det">213.0주/개 · 채권</div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩291만</span> <span style="color:#ff4757;font-weight:600">+₩5만 (+1.7%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#0984e3"></div><span class="weight-pct-lbl"></span></div>
+  </div>
+  <div class="stock-num">
+    <div class="stock-val">₩13,640</div>
+    <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
+  </div>
+</div>
+<div class="stock-item" style="border:1px solid #ff4757;border-radius:10px;" data-val="2747000" data-color="#fdcb6e">
+  <div class="stock-ico" style="background:#fdcb6e;color:#fff">KO</div>
+  <div class="stock-info">
+    <div class="stock-nm">KODEX 증권<span class="nbadge">NEW</span></div>
+    <div class="stock-det">100.0주/개 · 금융</div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩275만</span> <span style="color:#ff4757;font-weight:600">+₩31만 (+12.8%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#fdcb6e"></div><span class="weight-pct-lbl"></span></div>
+  </div>
+  <div class="stock-num">
+    <div class="stock-val">₩27,470</div>
+    <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
+  </div>
+</div>
+<div class="stock-item" style="" data-val="1544775" data-color="#4834d4">
+  <div class="stock-ico" style="background:#4834d4;color:#fff">TI</div>
+  <div class="stock-info">
+    <div class="stock-nm">TIGER 글로벌AI사이버보안</div>
+    <div class="stock-det">129.0주/개 · 첨단 기술</div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩154만</span> <span style="color:#4ecdc4;font-weight:600">₩25만 (-14.1%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#4834d4"></div><span class="weight-pct-lbl"></span></div>
+  </div>
+  <div class="stock-num">
+    <div class="stock-val">₩11,975</div>
+    <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
+  </div>
+</div>
+<div class="stock-item" style="" data-val="1359259" data-color="#3498db">
+  <div class="stock-ico" style="background:#3498db;color:#fff">GO</div>
+  <div class="stock-info">
+    <div class="stock-nm">GOOGL</div>
+    <div class="stock-det">3.0주/개 · IT</div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩136만</span> <span style="color:#ff4757;font-weight:600">+₩4만 (+2.8%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#3498db"></div><span class="weight-pct-lbl"></span></div>
+  </div>
+  <div class="stock-num">
+    <div class="stock-val">$307.04</div>
+    <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
+  </div>
+</div>
+<div class="stock-item" style="" data-val="640695" data-color="#636e72">
+  <div class="stock-ico" style="background:#636e72;color:#fff">KR</div>
+  <div class="stock-info">
+    <div class="stock-nm">KRW 현금</div>
+    <div class="stock-det">640695.0주/개 · 현금</div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩64만</span> <span style="color:#8b9dc3;font-weight:600"></span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#636e72"></div><span class="weight-pct-lbl"></span></div>
+  </div>
+  <div class="stock-num">
+    <div class="stock-val">-</div>
+    <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
+  </div>
+</div>
+<div class="stock-item" style="" data-val="400000" data-color="#4ecdc4">
   <div class="stock-ico" style="background:#4ecdc4;color:#fff">삼성</div>
   <div class="stock-info">
     <div class="stock-nm">삼성SDI</div>
     <div class="stock-det">1.0주/개 · 경기 소비재</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩40만</span> <span style="color:#ff4757;font-weight:600">+₩20만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩40만</span> <span style="color:#ff4757;font-weight:600">+₩20만 (+95.7%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#4ecdc4"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">₩400,000</div>
     <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="305461" data-color="#4834d4">
   <div class="stock-ico" style="background:#4834d4;color:#fff">RT</div>
   <div class="stock-info">
     <div class="stock-nm">RTX</div>
     <div class="stock-det">1.0주/개 · 첨단 기술</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩30만</span> <span style="color:#ff4757;font-weight:600">+₩20만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩31만</span> <span style="color:#ff4757;font-weight:600">+₩20만 (+177.8%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#4834d4"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">$207.00</div>
     <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="223031" data-color="#3498db">
   <div class="stock-ico" style="background:#3498db;color:#fff">PL</div>
   <div class="stock-info">
     <div class="stock-nm">PLTR</div>
     <div class="stock-det">1.0주/개 · IT</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩22만</span> <span style="color:#4ecdc4;font-weight:600">₩3만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩22만</span> <span style="color:#4ecdc4;font-weight:600">₩3만 (-11.4%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#3498db"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">$151.14</div>
     <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="156880" data-color="#0984e3">
   <div class="stock-ico" style="background:#0984e3;color:#fff">HA</div>
   <div class="stock-info">
     <div class="stock-nm">HANARO 글로벌금채굴기업</div>
     <div class="stock-det">4.0주/개 · 채권</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩16만</span> <span style="color:#ff4757;font-weight:600">+₩10만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩16만</span> <span style="color:#ff4757;font-weight:600">+₩10만 (+195.3%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#0984e3"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">₩39,220</div>
     <div class="stock-chg" style="color:#8b9dc3">+0.0%</div>
   </div>
 </div>
-<div class="stock-item" style="">
+<div class="stock-item" style="" data-val="69700" data-color="#636e72">
   <div class="stock-ico" style="background:#636e72;color:#fff">세아</div>
   <div class="stock-info">
     <div class="stock-nm">세아베스틸지주</div>
     <div class="stock-det">1.0주/개 · 소재</div>
-    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩7만</span> <span style="color:#ff4757;font-weight:600">+₩4만</span></div>
+    <div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">₩7만</span> <span style="color:#ff4757;font-weight:600">+₩4만 (+171.7%)</span></div>
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:#636e72"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">₩69,700</div>
@@ -1831,7 +1952,7 @@ if(localStorage.getItem('mask')==='1'){document.body.classList.add('masked');doc
 </script>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
 <script>
-const HISTORY = [{"date": "2026-02-09", "total": 968010744, "cost": 850000000, "profit": 118010744, "profit_pct": 13.88}, {"date": "2026-02-10", "total": 996439484, "cost": 850000000, "profit": 146439484, "profit_pct": 17.23}, {"date": "2026-02-11", "total": 992738692, "cost": 850000000, "profit": 142738692, "profit_pct": 16.79}, {"date": "2026-02-12", "total": 995007801, "cost": 850000000, "profit": 145007801, "profit_pct": 17.06}, {"date": "2026-02-13", "total": 998311542, "cost": 850000000, "profit": 148311542, "profit_pct": 17.45}, {"date": "2026-02-16", "total": 998373390, "cost": 850000000, "profit": 148373390, "profit_pct": 17.46}, {"date": "2026-02-17", "total": 1020329859, "cost": 850000000, "profit": 170329859, "profit_pct": 20.04}, {"date": "2026-02-18", "total": 1031633618, "cost": 850000000, "profit": 181633618, "profit_pct": 21.37}, {"date": "2026-02-19", "total": 1022600992, "cost": 850000000, "profit": 172600992, "profit_pct": 20.31}, {"date": "2026-02-20", "total": 1029904336, "cost": 850000000, "profit": 179904336, "profit_pct": 21.17}, {"date": "2026-02-23", "total": 1055197477, "cost": 850000000, "profit": 205197477, "profit_pct": 24.14}, {"date": "2026-02-24", "total": 1034551385, "cost": 850000000, "profit": 184551385, "profit_pct": 21.71}, {"date": "2026-02-25", "total": 1025404196, "cost": 850000000, "profit": 175404196, "profit_pct": 20.64}, {"date": "2026-02-26", "total": 1059513170, "cost": 850000000, "profit": 209513170, "profit_pct": 24.65}, {"date": "2026-02-27", "total": 1066419547, "cost": 850000000, "profit": 216419547, "profit_pct": 25.46}, {"date": "2026-03-02", "total": 1085556656, "cost": 850000000, "profit": 235556656, "profit_pct": 27.71}, {"date": "2026-03-03", "total": 1046250074, "cost": 850000000, "profit": 196250074, "profit_pct": 23.09}, {"date": "2026-03-04", "total": 1077370851, "cost": 850000000, "profit": 227370851, "profit_pct": 26.75}, {"date": "2026-03-05", "total": 1076694130, "cost": 850000000, "profit": 226694130, "profit_pct": 26.67}, {"date": "2026-03-06", "total": 1059292664, "cost": 850000000, "profit": 209292664, "profit_pct": 24.62}, {"date": "2026-03-09", "total": 1080437231, "cost": 850000000, "profit": 230437231, "profit_pct": 27.11}, {"date": "2026-03-10", "total": 1090116952, "cost": 849850219, "profit": 240266732, "profit_pct": 28.27}, {"date": "2026-03-11", "total": 1276531860, "cost": 849255141, "profit": 427276719, "profit_pct": 50.31}, {"date": "2026-03-12", "total": 1181304055, "cost": 849255141, "profit": 332048914, "profit_pct": 39.1}];
+const HISTORY = [{"date": "2026-02-09", "total": 968010744, "cost": 850000000, "profit": 118010744, "profit_pct": 13.88}, {"date": "2026-02-10", "total": 996439484, "cost": 850000000, "profit": 146439484, "profit_pct": 17.23}, {"date": "2026-02-11", "total": 992738692, "cost": 850000000, "profit": 142738692, "profit_pct": 16.79}, {"date": "2026-02-12", "total": 995007801, "cost": 850000000, "profit": 145007801, "profit_pct": 17.06}, {"date": "2026-02-13", "total": 998311542, "cost": 850000000, "profit": 148311542, "profit_pct": 17.45}, {"date": "2026-02-16", "total": 998373390, "cost": 850000000, "profit": 148373390, "profit_pct": 17.46}, {"date": "2026-02-17", "total": 1020329859, "cost": 850000000, "profit": 170329859, "profit_pct": 20.04}, {"date": "2026-02-18", "total": 1031633618, "cost": 850000000, "profit": 181633618, "profit_pct": 21.37}, {"date": "2026-02-19", "total": 1022600992, "cost": 850000000, "profit": 172600992, "profit_pct": 20.31}, {"date": "2026-02-20", "total": 1029904336, "cost": 850000000, "profit": 179904336, "profit_pct": 21.17}, {"date": "2026-02-23", "total": 1055197477, "cost": 850000000, "profit": 205197477, "profit_pct": 24.14}, {"date": "2026-02-24", "total": 1034551385, "cost": 850000000, "profit": 184551385, "profit_pct": 21.71}, {"date": "2026-02-25", "total": 1025404196, "cost": 850000000, "profit": 175404196, "profit_pct": 20.64}, {"date": "2026-02-26", "total": 1059513170, "cost": 850000000, "profit": 209513170, "profit_pct": 24.65}, {"date": "2026-02-27", "total": 1066419547, "cost": 850000000, "profit": 216419547, "profit_pct": 25.46}, {"date": "2026-03-02", "total": 1085556656, "cost": 850000000, "profit": 235556656, "profit_pct": 27.71}, {"date": "2026-03-03", "total": 1046250074, "cost": 850000000, "profit": 196250074, "profit_pct": 23.09}, {"date": "2026-03-04", "total": 1077370851, "cost": 850000000, "profit": 227370851, "profit_pct": 26.75}, {"date": "2026-03-05", "total": 1076694130, "cost": 850000000, "profit": 226694130, "profit_pct": 26.67}, {"date": "2026-03-06", "total": 1059292664, "cost": 850000000, "profit": 209292664, "profit_pct": 24.62}, {"date": "2026-03-09", "total": 1080437231, "cost": 850000000, "profit": 230437231, "profit_pct": 27.11}, {"date": "2026-03-10", "total": 1090116952, "cost": 849850219, "profit": 240266732, "profit_pct": 28.27}, {"date": "2026-03-11", "total": 1276531860, "cost": 849255141, "profit": 427276719, "profit_pct": 50.31}, {"date": "2026-03-12", "total": 1181810826, "cost": 849659452, "profit": 332151374, "profit_pct": 39.09}];
 let chartInstance = null;
 function fmtAmt(v){
   if(v>=1e8) return (v/1e8).toFixed(2)+'억';
@@ -1895,7 +2016,23 @@ function setRange(days, el){
   el.classList.add('on');
   buildChart(days);
 }
-document.addEventListener('DOMContentLoaded', ()=>buildChart(7));
+document.addEventListener('DOMContentLoaded', ()=>{
+  buildChart(7);
+  // ── 비중 바 초기화 ──────────────────────────────────────
+  const items = document.querySelectorAll('.stock-item[data-val]');
+  let total = 0;
+  items.forEach(el => { total += parseInt(el.dataset.val || 0); });
+  if (total > 0) {
+    items.forEach(el => {
+      const val = parseInt(el.dataset.val || 0);
+      const pct = (val / total * 100);
+      const fill = el.querySelector('.weight-bar-fill');
+      const lbl = el.querySelector('.weight-pct-lbl');
+      if (fill) fill.style.width = Math.min(pct, 100) + '%';
+      if (lbl) lbl.textContent = pct.toFixed(1) + '%';
+    });
+  }
+});
 </script>
 </body>
 </html>

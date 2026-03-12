@@ -306,14 +306,22 @@ def generate_stock_item(row, current_price_str, change_pct, is_new=False,
     profit_sign = '+' if profit_krw >= 0 else ''
     profit_color = '#ff4757' if profit_krw > 0 else '#4ecdc4' if profit_krw < 0 else '#8b9dc3'
     profit_str = f'{profit_sign}{fmt_krw(abs(profit_krw))}' if profit_krw != 0 else ''
+    # 수익률 % (매수가 대비)
+    profit_pct_str = ''
+    if total_val_krw > 0 and profit_krw != 0:
+        cost_est = total_val_krw - profit_krw
+        if cost_est > 0:
+            pct_v = profit_krw / cost_est * 100
+            profit_pct_str = f' ({pct_v:+.1f}%)'
 
     return f'''
-<div class="stock-item" style="{border}">
+<div class="stock-item" style="{border}" data-val="{int(total_val_krw)}" data-color="{bg}">
   <div class="stock-ico" style="background:{bg};color:#fff">{ico_text}</div>
   <div class="stock-info">
     <div class="stock-nm">{name}{new_badge}</div>
     <div class="stock-det">{qty}주/개 · {분류}</div>
-    {f'<div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">{val_str}</span> <span style="color:{profit_color};font-weight:600">{profit_str}</span></div>' if val_str else ''}
+    {f'<div style="font-size:11px;margin-top:3px"><span style="color:var(--sub)">{val_str}</span> <span style="color:{profit_color};font-weight:600">{profit_str}{profit_pct_str}</span></div>' if val_str else ''}
+    <div class="weight-bar-wrap"><div class="weight-bar-fill" style="background:{bg}"></div><span class="weight-pct-lbl"></span></div>
   </div>
   <div class="stock-num">
     <div class="stock-val">{current_price_str}</div>
@@ -512,6 +520,9 @@ body{{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans KR',san
 .stock-num{{text-align:right}}
 .stock-val{{font-size:15px;font-weight:700}}
 .stock-chg{{font-size:12px;font-weight:600;margin-top:2px}}
+.weight-bar-wrap{{height:4px;background:#2d3748;border-radius:2px;margin-top:6px;overflow:hidden;position:relative}}
+.weight-bar-fill{{height:100%;border-radius:2px;width:0%;transition:width .5s ease}}
+.weight-pct-lbl{{font-size:10px;color:var(--sub);position:absolute;right:0;top:-14px}}
 .nbadge{{background:#ff4757;color:#fff;font-size:9px;padding:2px 5px;border-radius:3px;margin-left:5px;font-weight:700}}
 .tog-btn{{display:block;width:100%;padding:12px;background:rgba(72,52,212,.15);border:1px solid var(--blu);border-radius:8px;color:var(--blu);font-size:13px;font-weight:700;cursor:pointer;margin-top:10px;text-align:center}}
 .chart-range-btn{{padding:4px 10px;border-radius:12px;background:var(--hdr);border:1px solid var(--brd);color:var(--sub);font-size:11px;font-weight:600;cursor:pointer}}
@@ -725,7 +736,23 @@ function setRange(days, el){{
   el.classList.add('on');
   buildChart(days);
 }}
-document.addEventListener('DOMContentLoaded', ()=>buildChart(7));
+document.addEventListener('DOMContentLoaded', ()=>{{
+  buildChart(7);
+  // ── 비중 바 초기화 ──────────────────────────────────────
+  const items = document.querySelectorAll('.stock-item[data-val]');
+  let total = 0;
+  items.forEach(el => {{ total += parseInt(el.dataset.val || 0); }});
+  if (total > 0) {{
+    items.forEach(el => {{
+      const val = parseInt(el.dataset.val || 0);
+      const pct = (val / total * 100);
+      const fill = el.querySelector('.weight-bar-fill');
+      const lbl = el.querySelector('.weight-pct-lbl');
+      if (fill) fill.style.width = Math.min(pct, 100) + '%';
+      if (lbl) lbl.textContent = pct.toFixed(1) + '%';
+    }});
+  }}
+}});
 </script>
 </body>
 </html>'''
