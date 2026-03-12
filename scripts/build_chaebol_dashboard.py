@@ -520,17 +520,17 @@ tbody tr:hover td{{background:rgba(59,130,246,.05)}}
 <div class="charts">
   <div class="chart-card">
     <div class="chart-label">💰 오늘 그룹별 시총 비교</div>
-    <canvas id="todayBarChart" height="140"></canvas>
+    <canvas id="todayBarChart" height="160"></canvas>
   </div>
   <div class="chart-card">
     <div class="chart-label">📈 순위 변동 추이 (2015 → 2026)</div>
     <div class="chart-note">※ 연도별 대표 시점 기준 · 공정거래위원회·리더스인덱스 참고</div>
-    <canvas id="rankChart" height="200"></canvas>
+    <canvas id="rankChart" height="240"></canvas>
   </div>
   <div class="chart-card">
     <div class="chart-label">📊 시가총액 성장 추이 (조원)</div>
     <div class="chart-note">※ 연도별 추정치 포함</div>
-    <canvas id="mcapChart" height="200"></canvas>
+    <canvas id="mcapChart" height="220"></canvas>
   </div>
 </div>
 
@@ -552,14 +552,15 @@ const ORDER = DATA.summary.map(s => s.group); // 현재 순위 순
 new Chart(document.getElementById('todayBarChart'), {{
   type: 'bar',
   data: {{
-    labels: DATA.summary.map(s => s.current_rank + '위 ' + s.group),
+    labels: DATA.summary.map(s => ['🥇','🥈','🥉','4위','5위'][s.current_rank-1] + '  ' + s.group),
     datasets: [{{
-      label: '시가총액 (조원)',
+      label: '시가총액',
       data: DATA.summary.map(s => +(s.current_total / 1e12).toFixed(1)),
-      backgroundColor: DATA.summary.map(s => s.color + 'cc'),
+      backgroundColor: DATA.summary.map(s => s.color + 'aa'),
       borderColor: DATA.summary.map(s => s.color),
-      borderWidth: 2,
-      borderRadius: 6,
+      borderWidth: 0,
+      borderRadius: 10,
+      borderSkipped: false,
     }}]
   }},
   options: {{
@@ -567,30 +568,46 @@ new Chart(document.getElementById('todayBarChart'), {{
     responsive: true,
     plugins: {{
       legend: {{ display: false }},
-      tooltip: {{ callbacks: {{ label: ctx => ' ' + ctx.raw + '조원' }} }}
+      tooltip: {{
+        backgroundColor: 'rgba(15,20,35,.95)',
+        padding: 12,
+        titleFont: {{ size: 13, weight: 'bold' }},
+        callbacks: {{ label: ctx => '  ' + ctx.raw.toLocaleString() + '조원' }}
+      }}
     }},
     scales: {{
       x: {{
-        grid: {{ color: 'rgba(45,55,72,.4)' }},
-        ticks: {{ color: '#8b9dc3', callback: v => v + '조' }}
+        grid: {{ color: 'rgba(45,55,72,.35)' }},
+        ticks: {{ color: '#8b9dc3', font: {{ size: 11 }}, callback: v => v + '조' }},
+        border: {{ display: false }},
       }},
       y: {{
         grid: {{ display: false }},
-        ticks: {{ color: '#e0e6ed', font: {{ size: 13, weight: 'bold' }} }}
+        ticks: {{ color: '#e0e6ed', font: {{ size: 14, weight: 'bold' }}, padding: 8 }},
+        border: {{ display: false }},
+      }}
+    }},
+    animation: {{
+      duration: 900, easing: 'easeOutQuart',
+      onComplete(anim) {{
+        const chart = anim.chart;
+        const ctx2 = chart.ctx;
+        chart.data.datasets[0].data.forEach((val, i) => {{
+          const meta = chart.getDatasetMeta(0);
+          const bar = meta.data[i];
+          ctx2.fillStyle = '#e0e6ed';
+          ctx2.font = 'bold 13px sans-serif';
+          ctx2.textAlign = 'left';
+          ctx2.fillText(val.toLocaleString() + '조', bar.x + 8, bar.y + 5);
+        }});
       }}
     }}
   }}
 }});
 
-// ── 연도별 순위 추이 (하드코딩 실제 데이터) ────────────────
-// ── 연도별 하드코딩 순위/시총 (출처: 공정거래위원회·한국거래소·조선일보 2026.01·03) ──
-// 5그룹 내 상대 순위 기준
-// 핵심 이벤트:
-//  2022 - LG에너지솔루션 IPO → LG 2위
-//  2023 - EV 캐즘 → LG 4위로 급락, SK 2위 탈환
-//  2024말 - 한화 8위(전체), 41조 / LG 3위, 144조
-//  2025말 - 방산 급등으로 한화 ~140조로 성장 (LG 아직 우위)
-//  2026.3 - 이란 사태 방산 급등 → 한화가 처음으로 LG 추월 (180조 vs 175조)
+// ── 연도별 순위/시총 (실제 자료 기반 하드코딩) ──────────────
+// 출처: 공정거래위원회·한국거래소·조선일보(2026.01·03)
+// 한화-LG 역전: 2026년 3월이 최초
 const HIST_LABELS = ['2015','2016','2017','2018','2019','2020','2021','2022','2023','2024','2025','2026.3'];
 const HIST_RANKS = {{
   '삼성':  [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
@@ -599,14 +616,21 @@ const HIST_RANKS = {{
   '한화':  [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 4],
   'LG':    [4, 4, 4, 3, 4, 3, 3, 2, 4, 3, 4, 5],
 }};
-const HIST_MCAP = {{  // 조원 (실제 자료 기반 추정, 5그룹 합산)
+const HIST_MCAP = {{  // 조원 실측/추정
   '삼성':  [204, 222, 290, 265, 350, 410, 475, 385, 440, 543, 490, 1543],
   'SK':    [ 64,  72,  98,  88, 128, 155, 195, 175, 195, 202, 260,  825],
   '현대차':[ 68,  65,  72,  63,  82,  96, 138, 128, 148, 141, 210,  309],
   '한화':  [  7,   8,   9,  10,  12,  15,  20,  32,  50,  41, 140,  182],
   'LG':    [ 38,  42,  48,  55,  62, 118, 198, 240, 185, 144, 155,  176],
 }};
+// 2015 대비 성장 배수 (삼성 압도 문제 해결)
+const HIST_MULT = {{}};
+ORDER.forEach(g => {{
+  const base = HIST_MCAP[g][0];
+  HIST_MULT[g] = HIST_MCAP[g].map(v => +(v / base).toFixed(2));
+}});
 
+// ── 순위 bump 차트 ─────────────────────────────────────────
 new Chart(document.getElementById('rankChart'), {{
   type: 'line',
   data: {{
@@ -615,53 +639,96 @@ new Chart(document.getElementById('rankChart'), {{
       label: g,
       data: HIST_RANKS[g],
       borderColor: COLORS[g],
-      backgroundColor: COLORS[g] + '20',
+      backgroundColor: COLORS[g],
       tension: 0.3,
-      pointRadius: 5,
-      pointHoverRadius: 8,
-      borderWidth: 3,
+      pointRadius: 8,
+      pointHoverRadius: 12,
+      pointBorderWidth: 2.5,
+      pointBorderColor: '#0a0e1a',
+      borderWidth: 4,
       fill: false,
-      pointStyle: 'circle',
     }}))
   }},
   options: {{
     responsive: true,
     interaction: {{ mode: 'index', intersect: false }},
     plugins: {{
-      legend: {{ position: 'bottom', labels: {{ color: '#e0e6ed', font: {{ size: 12 }}, boxWidth: 14, padding: 16 }} }},
-      tooltip: {{ callbacks: {{ label: ctx => ' ' + ctx.dataset.label + ': ' + ctx.raw + '위' }} }}
+      legend: {{
+        position: 'bottom',
+        labels: {{ color: '#e0e6ed', font: {{ size: 12, weight: 'bold' }}, boxWidth: 12, padding: 20, usePointStyle: true }}
+      }},
+      tooltip: {{
+        backgroundColor: 'rgba(15,20,35,.95)',
+        borderColor: 'rgba(255,255,255,.1)',
+        borderWidth: 1,
+        padding: 14,
+        titleFont: {{ size: 13, weight: 'bold' }},
+        bodyFont: {{ size: 12 }},
+        callbacks: {{
+          title: items => '📅 ' + HIST_LABELS[items[0].dataIndex] + '년',
+          label: ctx => {{
+            const medal = ['🥇','🥈','🥉','4위','5위'][ctx.raw-1] || ctx.raw+'위';
+            return '  ' + ctx.dataset.label + '  ' + medal;
+          }}
+        }}
+      }}
     }},
     scales: {{
       y: {{
         reverse: true, min: 0.5, max: 5.5,
         grid: {{ color: 'rgba(45,55,72,.5)' }},
         ticks: {{
-          stepSize: 1, color: '#8b9dc3', font: {{ size: 12 }},
-          callback: v => ({{1:'🥇 1위',2:'🥈 2위',3:'🥉 3위',4:'4위',5:'5위'}})[v] || ''
-        }}
+          stepSize: 1, color: '#8b9dc3', font: {{ size: 13, weight: 'bold' }},
+          padding: 10,
+          callback: v => ({{1:'🥇 1위',2:'🥈 2위',3:'🥉 3위',4:'  4위',5:'  5위'}})[v] || ''
+        }},
+        border: {{ display: false }},
       }},
       x: {{
-        grid: {{ color: 'rgba(45,55,72,.3)' }},
-        ticks: {{ color: '#8b9dc3', font: {{ size: 11 }} }}
+        grid: {{ color: 'rgba(45,55,72,.25)' }},
+        ticks: {{ color: '#8b9dc3', font: {{ size: 12 }}, maxRotation: 0 }},
+        border: {{ display: false }},
+      }}
+    }},
+    animation: {{
+      duration: 1200, easing: 'easeInOutQuart',
+      onComplete(anim) {{
+        const chart = anim.chart;
+        const c2 = chart.ctx;
+        ORDER.forEach((g, dsIdx) => {{
+          const meta = chart.getDatasetMeta(dsIdx);
+          const last = meta.data[meta.data.length - 1];
+          if (!last) return;
+          c2.save();
+          c2.font = 'bold 11px sans-serif';
+          c2.fillStyle = COLORS[g];
+          c2.textAlign = 'left';
+          c2.fillText(g, last.x + 8, last.y + 4);
+          c2.restore();
+        }});
       }}
     }}
   }}
 }});
 
-// ── 시총 추이 ──────────────────────────────────────────────
+// ── 성장 배수 차트 (2015 = 1.0x 기준) ─────────────────────
+// 절대값 대신 배수 사용 → 삼성 1543조에 나머지가 묻히는 문제 해결
+// 한화 7조 → 182조 = 26배 가 가장 극적으로 보임
 new Chart(document.getElementById('mcapChart'), {{
   type: 'line',
   data: {{
     labels: HIST_LABELS,
     datasets: ORDER.map(g => ({{
-      label: g,
-      data: HIST_MCAP[g],
+      label: g + ' (' + HIST_MCAP[g][HIST_MCAP[g].length-1].toLocaleString() + '조)',
+      data: HIST_MULT[g],
       borderColor: COLORS[g],
       backgroundColor: COLORS[g] + '15',
       tension: 0.3,
-      pointRadius: 4,
-      pointHoverRadius: 7,
-      borderWidth: 2.5,
+      pointRadius: 5,
+      pointHoverRadius: 9,
+      pointBorderWidth: 2,
+      pointBorderColor: '#0a0e1a',
+      borderWidth: 3.5,
       fill: false,
     }}))
   }},
@@ -669,22 +736,43 @@ new Chart(document.getElementById('mcapChart'), {{
     responsive: true,
     interaction: {{ mode: 'index', intersect: false }},
     plugins: {{
-      legend: {{ position: 'bottom', labels: {{ color: '#e0e6ed', font: {{ size: 12 }}, boxWidth: 14, padding: 16 }} }},
-      tooltip: {{ callbacks: {{ label: ctx => ' ' + ctx.dataset.label + ': ' + ctx.raw + '조' }} }}
+      legend: {{
+        position: 'bottom',
+        labels: {{ color: '#e0e6ed', font: {{ size: 11 }}, boxWidth: 12, padding: 16, usePointStyle: true }}
+      }},
+      tooltip: {{
+        backgroundColor: 'rgba(15,20,35,.95)',
+        borderColor: 'rgba(255,255,255,.1)',
+        borderWidth: 1,
+        padding: 14,
+        titleFont: {{ size: 13, weight: 'bold' }},
+        bodyFont: {{ size: 12 }},
+        callbacks: {{
+          title: items => '📅 ' + HIST_LABELS[items[0].dataIndex] + '년',
+          label: ctx => {{
+            const g = ORDER[ctx.datasetIndex];
+            const mult = ctx.raw;
+            const abs = HIST_MCAP[g][ctx.dataIndex];
+            return '  ' + g + '  ' + mult + 'x  →  ' + abs.toLocaleString() + '조원';
+          }}
+        }}
+      }}
     }},
     scales: {{
       y: {{
         grid: {{ color: 'rgba(45,55,72,.4)' }},
-        ticks: {{ color: '#8b9dc3', callback: v => v + '조' }}
+        ticks: {{ color: '#8b9dc3', font: {{ size: 11 }}, callback: v => v + 'x', padding: 8 }},
+        border: {{ display: false }},
       }},
       x: {{
-        grid: {{ color: 'rgba(45,55,72,.3)' }},
-        ticks: {{ color: '#8b9dc3', font: {{ size: 11 }} }}
+        grid: {{ color: 'rgba(45,55,72,.25)' }},
+        ticks: {{ color: '#8b9dc3', font: {{ size: 12 }}, maxRotation: 0 }},
+        border: {{ display: false }},
       }}
-    }}
+    }},
+    animation: {{ duration: 1200, easing: 'easeInOutQuart' }}
   }}
 }});
-
 document.querySelectorAll('details.group-block').forEach(d => {{
   const tbl = d.querySelector('.tbl-wrap');
   if (tbl) d.querySelector('summary').insertAdjacentHTML('beforeend', '<span style="font-size:.72rem;color:#8b9dc3;margin-left:auto;padding-left:8px">▾</span>');
