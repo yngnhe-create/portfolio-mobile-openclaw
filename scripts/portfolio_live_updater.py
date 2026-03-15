@@ -88,12 +88,42 @@ def get_naver_price(code):
     """네이버 금융 API로 현재가 조회"""
     try:
         url = f"https://api.finance.naver.com/service/itemSummary.nhn?itemcode={code}"
-        r = requests.get(url, headers={'User-Agent': 'Mozilla/5.0'}, timeout=5)
-        if r.status_code == 200:
+        r = requests.get(
+            url,
+            headers={
+                'User-Agent': 'Mozilla/5.0',
+                'Accept': 'application/json,text/plain,*/*',
+                'Referer': 'https://finance.naver.com/'
+            },
+            timeout=5
+        )
+        if r.status_code != 200:
+            log(f"  ⚠️ 네이버 {code}: HTTP {r.status_code}")
+            return None, None
+
+        body = (r.text or '').strip()
+        if not body:
+            log(f"  ⚠️ 네이버 {code}: empty response")
+            return None, None
+
+        ctype = (r.headers.get('content-type') or '').lower()
+        if 'json' not in ctype and not body.startswith('{'):
+            snippet = body[:80].replace('\n', ' ')
+            log(f"  ⚠️ 네이버 {code}: non-json response ({snippet})")
+            return None, None
+
+        try:
             d = r.json()
-            price = int(d.get('now', 0))
-            change_rate = float(d.get('changeRate', 0))
-            return price, change_rate
+        except Exception:
+            snippet = body[:80].replace('\n', ' ')
+            log(f"  ⚠️ 네이버 {code}: invalid json ({snippet})")
+            return None, None
+
+        price = int(d.get('now', 0) or 0)
+        change_rate = float(d.get('changeRate', 0) or 0)
+        if price <= 0:
+            return None, None
+        return price, change_rate
     except Exception as e:
         log(f"  ⚠️ 네이버 {code}: {e}")
     return None, None
