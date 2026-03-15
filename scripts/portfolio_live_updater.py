@@ -84,6 +84,10 @@ CRYPTO_IDS = {
 
 # ─── 가격 조회 함수들 ─────────────────────────────────────────────
 
+NAVER_EMPTY_CODES = {'457580', '431980', '439200', '449950', '441660', '441650', '441670', '441730'}
+NAVER_EMPTY_WARNED = set()
+
+
 def get_naver_price(code):
     """네이버 금융 API로 현재가 조회"""
     try:
@@ -103,7 +107,9 @@ def get_naver_price(code):
 
         body = (r.text or '').strip()
         if not body:
-            log(f"  ⚠️ 네이버 {code}: empty response")
+            if code not in NAVER_EMPTY_CODES or code not in NAVER_EMPTY_WARNED:
+                log(f"  ⚠️ 네이버 {code}: empty response → CSV 현재가 유지")
+                NAVER_EMPTY_WARNED.add(code)
             return None, None
 
         ctype = (r.headers.get('content-type') or '').lower()
