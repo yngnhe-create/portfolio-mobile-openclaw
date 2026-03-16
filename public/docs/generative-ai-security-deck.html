@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>생성형 AI 보안 설명 자료</title>
+  <style>
+    :root{
+      --bg:#eef2f7;
+      --page:#ffffff;
+      --ink:#152033;
+      --sub:#5b6b82;
+      --line:#d8e0eb;
+      --blue:#2f6bff;
+      --teal:#0f9d8a;
+      --orange:#ff9f1c;
+      --red:#e25555;
+      --purple:#7357ff;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:var(--bg);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans KR',sans-serif;color:var(--ink)}
+    .topbar{position:sticky;top:0;z-index:10;background:rgba(238,242,247,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+    .topbar-inner{max-width:1100px;margin:0 auto;padding:12px 20px;display:flex;gap:12px;align-items:center;justify-content:space-between}
+    .topbar .title{font-weight:800}
+    .btns a{display:inline-block;margin-left:8px;padding:9px 12px;border-radius:10px;text-decoration:none;color:white;background:var(--blue);font-size:14px}
+    .wrap{max-width:1100px;margin:24px auto;padding:0 20px 40px}
+    .page{background:var(--page);border:1px solid var(--line);border-radius:18px;padding:34px 40px;margin:0 auto 22px;box-shadow:0 10px 30px rgba(26,39,68,.06);min-height:760px;position:relative;overflow:hidden}
+    .page-num{position:absolute;right:28px;bottom:22px;color:#8a97aa;font-size:13px}
+    h1{font-size:34px;line-height:1.2;margin:0 0 8px}
+    h2{font-size:26px;line-height:1.25;margin:0 0 18px}
+    h3{font-size:18px;margin:0 0 10px}
+    p{font-size:16px;line-height:1.65;color:var(--sub);margin:0 0 14px}
+    ul{margin:0;padding-left:20px;color:var(--sub)}
+    li{margin:8px 0;line-height:1.55}
+    .hero{display:grid;grid-template-columns:1.2fr .8fr;gap:28px;align-items:center}
+    .pill{display:inline-block;padding:6px 12px;border-radius:999px;background:#e8f0ff;color:var(--blue);font-weight:700;font-size:13px;margin-bottom:12px}
+    .subhero{font-size:18px;color:var(--sub)}
+    .grid-2{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+    .grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+    .card{border:1px solid var(--line);border-radius:16px;padding:18px;background:#fbfcfe}
+    .card strong{color:var(--ink)}
+    .big{font-size:22px;font-weight:800;line-height:1.35}
+    .kicker{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:#7b8aa3;font-weight:700;margin-bottom:8px}
+    .badge{display:inline-block;padding:4px 9px;border-radius:999px;font-size:12px;font-weight:800;color:white}
+    .b-low{background:var(--red)} .b-mid{background:var(--orange)} .b-high{background:var(--teal)} .b-vhigh{background:var(--purple)}
+    table{width:100%;border-collapse:collapse;font-size:14px}
+    th,td{border:1px solid var(--line);padding:12px 10px;text-align:left;vertical-align:top}
+    th{background:#f5f8fc;color:#3c4d66;font-weight:800}
+    .note{padding:14px 16px;background:#f8fbff;border:1px solid #dbe8ff;border-radius:14px;color:#46607d}
+    .center{display:flex;justify-content:center;align-items:center}
+    .diagram{width:100%;background:#fbfcff;border:1px solid var(--line);border-radius:16px;padding:18px}
+    .small{font-size:13px;color:#75849a}
+    @media print{
+      body{background:white}
+      .topbar{display:none}
+      .wrap{max-width:none;margin:0;padding:0}
+      .page{border:none;box-shadow:none;border-radius:0;page-break-after:always;min-height:auto;margin:0;padding:22mm 18mm}
+    }
+    @media (max-width: 900px){
+      .hero,.grid-2,.grid-3{grid-template-columns:1fr}
+      .page{padding:24px}
+    }
+  </style>
+</head>
+<body>
+  <div class="topbar">
+    <div class="topbar-inner">
+      <div class="title">생성형 AI 보안 설명 자료</div>
+      <div class="btns">
+        <a href="./generative-ai-security-slides.md">원본 MD</a>
+        <a href="javascript:window.print()">PDF로 저장/인쇄</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <section class="page">
+      <div class="hero">
+        <div>
+          <div class="pill">비전문가용 설명 자료</div>
+          <h1>생성형 AI 보안,<br>쉽고 현실적으로 이해하기</h1>
+          <p class="subhero">Web형 / 기업형(API) / 설치형(온프레미스)은 무엇이 다르고, 우리 정보는 어디로 가는지 한눈에 설명합니다.</p>
+          <div class="note"><strong>핵심 메시지:</strong> 생성형 AI 보안은 “AI가 얼마나 똑똑한가”보다, <strong>우리 데이터가 어디로 가고 누가 통제하느냐</strong>의 문제입니다.</div>
+        </div>
+        <div class="center">
+          <svg viewBox="0 0 420 280" width="100%" aria-label="AI security illustration">
+            <rect x="20" y="25" width="120" height="72" rx="16" fill="#e8f0ff" stroke="#b9ccff"/>
+            <text x="80" y="57" text-anchor="middle" font-size="16" font-weight="800" fill="#2f6bff">사용자</text>
+            <text x="80" y="79" text-anchor="middle" font-size="12" fill="#58709c">질문 / 파일 / 문서</text>
+
+            <rect x="154" y="25" width="120" height="72" rx="16" fill="#ecfbf8" stroke="#b7eadf"/>
+            <text x="214" y="57" text-anchor="middle" font-size="16" font-weight="800" fill="#0f9d8a">AI 서비스</text>
+            <text x="214" y="79" text-anchor="middle" font-size="12" fill="#4f7f79">웹 / API / 사내 UI</text>
+
+            <rect x="288" y="25" width="112" height="72" rx="16" fill="#fff4e8" stroke="#ffd5a4"/>
+            <text x="344" y="57" text-anchor="middle" font-size="16" font-weight="800" fill="#ff9f1c">모델</text>
+            <text x="344" y="79" text-anchor="middle" font-size="12" fill="#9a7141">외부 or 내부</text>
+
+            <path d="M140 61 L154 61" stroke="#6a7b94" stroke-width="3" marker-end="url(#a)"/>
+            <path d="M274 61 L288 61" stroke="#6a7b94" stroke-width="3" marker-end="url(#a)"/>
+
+            <rect x="52" y="155" width="140" height="90" rx="16" fill="#fff" stroke="#d8e0eb"/>
+            <text x="122" y="182" text-anchor="middle" font-size="15" font-weight="800" fill="#152033">Web형</text>
+            <text x="122" y="203" text-anchor="middle" font-size="12" fill="#5b6b82">가장 쉬움</text>
+            <text x="122" y="222" text-anchor="middle" font-size="12" fill="#5b6b82">외부 전송 가능성 큼</text>
+
+            <rect x="208" y="155" width="140" height="90" rx="16" fill="#fff" stroke="#d8e0eb"/>
+            <text x="278" y="182" text-anchor="middle" font-size="15" font-weight="800" fill="#152033">기업형 API</text>
+            <text x="278" y="203" text-anchor="middle" font-size="12" fill="#5b6b82">겉은 내부</text>
+            <text x="278" y="222" text-anchor="middle" font-size="12" fill="#5b6b82">두뇌는 외부일 수 있음</text>
+
+            <defs><marker id="a" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L0,6 L6,3 z" fill="#6a7b94"/></marker></defs>
+          </svg>
+        </div>
+      </div>
+      <div class="page-num">1</div>
+    </section>
+
+    <section class="page">
+      <h2>1. LLM은 무엇인가?</h2>
+      <div class="grid-2">
+        <div class="card">
+          <div class="kicker">쉽게 설명하면</div>
+          <div class="big">엄청나게 많은 문서를 학습해서<br>사람처럼 글을 만들고 설명하는 AI</div>
+          <p>질문 답변, 요약, 보고서 초안, 코드 생성, 회의록 정리 등에 쓰입니다.</p>
+        </div>
+        <div class="card">
+          <div class="kicker">대표 예시</div>
+          <ul>
+            <li>ChatGPT</li>
+            <li>Claude</li>
+            <li>Gemini</li>
+            <li>EXAONE</li>
+            <li>HyperCLOVA X</li>
+            <li>Qwen / DeepSeek / GLM</li>
+          </ul>
+        </div>
+      </div>
+      <div class="note" style="margin-top:18px">중요한 포인트는 <strong>AI의 성능</strong>보다 <strong>어디에서 실행되느냐</strong>입니다. 보안은 배포 방식에 따라 크게 달라집니다.</div>
+      <div class="page-num">2</div>
+    </section>
+
+    <section class="page">
+      <h2>2. 공급자와 제공 방식</h2>
+      <div class="grid-3">
+        <div class="card">
+          <h3>글로벌 상용 공급자</h3>
+          <ul><li>OpenAI</li><li>Anthropic</li><li>Google</li></ul>
+        </div>
+        <div class="card">
+          <h3>국내 공급자</h3>
+          <ul><li>NAVER HyperCLOVA X</li><li>LG EXAONE / ChatExaone</li><li>Samsung Gauss</li></ul>
+        </div>
+        <div class="card">
+          <h3>오픈모델</h3>
+          <ul><li>Qwen</li><li>DeepSeek</li><li>GLM</li><li>Llama / Mistral</li></ul>
+        </div>
+      </div>
+      <div class="grid-3" style="margin-top:18px">
+        <div class="card"><h3>Web형</h3><p>외부 웹사이트에 직접 접속해 사용하는 방식</p></div>
+        <div class="card"><h3>기업형(API)</h3><p>우리 회사 채팅창을 만들고, 뒤에서 외부 또는 내부 모델 API를 호출</p></div>
+        <div class="card"><h3>설치형</h3><p>모델을 우리 GPU 서버에 직접 설치해 내부에서만 운영</p></div>
+      </div>
+      <div class="page-num">3</div>
+    </section>
+
+    <section class="page">
+      <h2>3. 데이터는 어디로 가는가?</h2>
+      <div class="diagram">
+        <svg viewBox="0 0 980 360" width="100%">
+          <rect x="20" y="120" width="130" height="80" rx="16" fill="#e8f0ff" stroke="#b9ccff"/>
+          <text x="85" y="152" text-anchor="middle" font-size="18" font-weight="800" fill="#2f6bff">사용자</text>
+          <text x="85" y="174" text-anchor="middle" font-size="12" fill="#60779c">질문 / 파일 업로드</text>
+
+          <rect x="210" y="40" width="220" height="86" rx="16" fill="#fff" stroke="#d8e0eb"/>
+          <text x="320" y="74" text-anchor="middle" font-size="18" font-weight="800" fill="#152033">Case A: Web형</text>
+          <text x="320" y="97" text-anchor="middle" font-size="12" fill="#5b6b82">외부 웹사이트 → 외부 모델</text>
+
+          <rect x="210" y="142" width="220" height="86" rx="16" fill="#fff" stroke="#d8e0eb"/>
+          <text x="320" y="176" text-anchor="middle" font-size="18" font-weight="800" fill="#152033">Case B: 기업형 API</text>
+          <text x="320" y="199" text-anchor="middle" font-size="12" fill="#5b6b82">우리 UI → 외부 모델 API</text>
+
+          <rect x="210" y="244" width="220" height="86" rx="16" fill="#fff" stroke="#d8e0eb"/>
+          <text x="320" y="278" text-anchor="middle" font-size="18" font-weight="800" fill="#152033">Case C: 자체 설치형</text>
+          <text x="320" y="301" text-anchor="middle" font-size="12" fill="#5b6b82">우리 UI → 우리 서버 모델</text>
+
+          <rect x="510" y="40" width="190" height="86" rx="16" fill="#fff4e8" stroke="#ffd5a4"/>
+          <text x="605" y="74" text-anchor="middle" font-size="18" font-weight="800" fill="#ff9f1c">외부 공급자</text>
+          <text x="605" y="97" text-anchor="middle" font-size="12" fill="#8f6b39">웹 서비스 / API / 모델</text>
+
+          <rect x="510" y="244" width="190" height="86" rx="16" fill="#ecfbf8" stroke="#b7eadf"/>
+          <text x="605" y="278" text-anchor="middle" font-size="18" font-weight="800" fill="#0f9d8a">우리 서버</text>
+          <text x="605" y="301" text-anchor="middle" font-size="12" fill="#537f79">GPU / 앱 / 문서저장소</text>
+
+          <path d="M150 160 L210 84" stroke="#6a7b94" stroke-width="3" marker-end="url(#m)"/>
+          <path d="M150 160 L210 185" stroke="#6a7b94" stroke-width="3" marker-end="url(#m)"/>
+          <path d="M150 160 L210 286" stroke="#6a7b94" stroke-width="3" marker-end="url(#m)"/>
+          <path d="M430 84 L510 84" stroke="#e25555" stroke-width="3" marker-end="url(#m2)"/>
+          <path d="M430 185 L510 84" stroke="#ff9f1c" stroke-width="3" marker-end="url(#m2)"/>
+          <path d="M430 286 L510 286" stroke="#0f9d8a" stroke-width="3" marker-end="url(#m2)"/>
+          <defs>
+            <marker id="m" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L0,6 L6,3 z" fill="#6a7b94"/></marker>
+            <marker id="m2" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L0,6 L6,3 z" fill="#415471"/></marker>
+          </defs>
+        </svg>
+      </div>
+      <p class="small">같은 “사내 채팅창”이라도 뒤에서 외부 모델 API를 부르면 데이터는 외부로 갈 수 있습니다.</p>
+      <div class="page-num">4</div>
+    </section>
+
+    <section class="page">
+      <h2>4. Web형 vs 기업형(API) vs 설치형</h2>
+      <div class="grid-3">
+        <div class="card"><h3>Web형</h3><ul><li>가장 쉽고 빠름</li><li>구축 필요 없음</li><li>데이터 외부 전송 가능성 큼</li></ul><span class="badge b-low">보안성 낮음</span></div>
+        <div class="card"><h3>기업형(API)</h3><ul><li>우리 채팅 UI / 인증 / 로그 통제 가능</li><li>실제 모델은 외부일 수 있음</li><li>겉은 내부, 두뇌는 외부</li></ul><span class="badge b-mid">보안성 중간</span></div>
+        <div class="card"><h3>설치형</h3><ul><li>모델을 우리 서버에 설치</li><li>외부 API 없이 운영 가능</li><li>가장 강한 통제 가능</li></ul><span class="badge b-vhigh">보안성 매우 높음</span></div>
+      </div>
+      <div class="note" style="margin-top:20px"><strong>중요:</strong> “기업형 UI”라고 해서 자동으로 안전한 건 아닙니다. 실제 모델 호출이 외부 공급자로 가는지 반드시 확인해야 합니다.</div>
+      <div class="page-num">5</div>
+    </section>
+
+    <section class="page">
+      <h2>5. 인프라 위치와 모델 위치는 다르다</h2>
+      <div class="grid-2">
+        <div class="card">
+          <h3>축 1. 인프라 위치</h3>
+          <ul>
+            <li><strong>온프레미스</strong>: 우리 서버실, 우리 데이터센터</li>
+            <li><strong>퍼블릭 클라우드</strong>: AWS, Azure, GCP, Naver Cloud 등</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>축 2. 모델 위치</h3>
+          <ul>
+            <li><strong>외부 공급자 모델</strong>: OpenAI, Anthropic 등</li>
+            <li><strong>우리가 설치한 모델</strong>: Qwen, EXAONE, DeepSeek 등</li>
+          </ul>
+        </div>
+      </div>
+      <table style="margin-top:18px">
+        <tr><th>인프라</th><th>모델</th><th>의미</th></tr>
+        <tr><td>외부 SaaS</td><td>외부 공급자</td><td>일반 Web형</td></tr>
+        <tr><td>우리 앱(온프렘/클라우드)</td><td>외부 공급자</td><td>기업형 API</td></tr>
+        <tr><td>우리 퍼블릭 클라우드</td><td>우리 설치 모델</td><td>클라우드 self-host</td></tr>
+        <tr><td>우리 온프레미스</td><td>우리 설치 모델</td><td>완전 자체형</td></tr>
+      </table>
+      <div class="page-num">6</div>
+    </section>
+
+    <section class="page">
+      <h2>6. 가장 중요한 보안 비교표</h2>
+      <table>
+        <tr>
+          <th>케이스</th>
+          <th>데이터 외부 유출 가능성</th>
+          <th>학습에 쓰일 가능성</th>
+          <th>외부에서 우리 데이터 볼 가능성</th>
+          <th>통제 수준</th>
+        </tr>
+        <tr>
+          <td>Web형 SaaS</td>
+          <td><span class="badge b-low">높음</span></td>
+          <td>정책에 따라 가능</td>
+          <td>상대적으로 높음</td>
+          <td>낮음</td>
+        </tr>
+        <tr>
+          <td>기업형 UI + 외부 API</td>
+          <td><span class="badge b-mid">중간~높음</span></td>
+          <td>정책/계약 따라 다름</td>
+          <td>공급자 접근 가능성 존재</td>
+          <td>중간</td>
+        </tr>
+        <tr>
+          <td>우리 퍼블릭 클라우드 + 자체 모델</td>
+          <td><span class="badge b-high">낮음~중간</span></td>
+          <td>우리가 안 하면 없음</td>
+          <td>우리 운영자/클라우드 관리자</td>
+          <td>높음</td>
+        </tr>
+        <tr>
+          <td>우리 온프레미스 + 자체 모델</td>
+          <td><span class="badge b-vhigh">가장 낮음</span></td>
+          <td>우리가 안 하면 없음</td>
+          <td>우리 내부 관리자</td>
+          <td>매우 높음</td>
+        </tr>
+        <tr>
+          <td>전용 프라이빗/폐쇄형 공급자</td>
+          <td><span class="badge b-high">낮음</span></td>
+          <td>계약으로 제한 가능</td>
+          <td>제한적</td>
+          <td>높음~매우 높음</td>
+        </tr>
+      </table>
+      <div class="page-num">7</div>
+    </section>
+
+    <section class="page">
+      <h2>7. 사람들이 가장 많이 헷갈리는 질문</h2>
+      <div class="grid-2">
+        <div class="card">
+          <h3>Q1. “학습에 안 쓰이면 안전한 거 아닌가요?”</h3>
+          <p><strong>아니요.</strong> 학습에 안 써도 저장, 로그, 운영자 접근, 법적 요청 대응 같은 리스크는 남습니다.</p>
+        </div>
+        <div class="card">
+          <h3>Q2. “우리 채팅창이면 내부 AI 아닌가요?”</h3>
+          <p><strong>아닙니다.</strong> 뒤에서 외부 모델 API를 호출하면 데이터는 외부로 갈 수 있습니다.</p>
+        </div>
+        <div class="card">
+          <h3>Q3. “온프레미스면 무조건 안전한가요?”</h3>
+          <p><strong>아닙니다.</strong> 내부 관리자 권한, 로그 저장, 문서 권한, 네트워크 분리까지 제대로 설계해야 합니다.</p>
+        </div>
+        <div class="card">
+          <h3>Q4. “퍼블릭 클라우드는 다 위험한가요?”</h3>
+          <p><strong>그것도 아닙니다.</strong> 우리 계정의 폐쇄형 self-host 구조는 상당히 강한 통제가 가능합니다.</p>
+        </div>
+      </div>
+      <div class="page-num">8</div>
+    </section>
+
+    <section class="page">
+      <h2>8. 업무 유형별 권고안</h2>
+      <div class="grid-2">
+        <div class="card"><h3>비민감 업무</h3><ul><li>일반 초안 작성</li><li>아이디어 브레인스토밍</li><li>비공개성이 낮은 자료 요약</li></ul><p><strong>권고:</strong> 기업형 API 가능</p></div>
+        <div class="card"><h3>사내 문서 / 부서 업무 보조</h3><ul><li>사내 규정 검색</li><li>FAQ</li><li>업무 문서 요약</li></ul><p><strong>권고:</strong> 기업형 API 또는 private deployment</p></div>
+        <div class="card"><h3>금융 / 법무 / 인사 / 연구기밀</h3><ul><li>계약서</li><li>인사자료</li><li>연구자료</li></ul><p><strong>권고:</strong> 전용 프라이빗 또는 온프레미스 우선</p></div>
+        <div class="card"><h3>최고 보안 요구</h3><ul><li>폐쇄망</li><li>국가/규제 산업</li><li>최고 민감정보</li></ul><p><strong>권고:</strong> 온프레미스 self-host + 권한통제 + 감사로그</p></div>
+      </div>
+      <div class="page-num">9</div>
+    </section>
+
+    <section class="page">
+      <h2>9. 경영진이 마지막으로 기억할 3가지</h2>
+      <div class="grid-3">
+        <div class="card"><div class="big">1</div><p><strong>우리 데이터가 외부 모델 공급자에게 가는가?</strong></p></div>
+        <div class="card"><div class="big">2</div><p><strong>저장되거나 학습에 쓰이는가?</strong></p></div>
+        <div class="card"><div class="big">3</div><p><strong>외부에서 그 데이터를 볼 수 있는가?</strong></p></div>
+      </div>
+      <div class="note" style="margin-top:20px">
+        <div class="big" style="font-size:24px">최종 메시지</div>
+        <p style="margin-top:10px">생성형 AI 보안은 “이 AI가 얼마나 좋으냐”보다, <strong>우리 정보가 어디로 가고, 누가 보고, 누가 통제하느냐</strong>를 결정하는 문제입니다.</p>
+      </div>
+      <div class="page-num">10</div>
+    </section>
+  </div>
+</body>
+</html>
