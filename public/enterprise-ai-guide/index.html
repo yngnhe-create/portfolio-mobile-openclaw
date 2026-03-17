@@ -53,16 +53,16 @@ const CASES = [
     verdict: "대부분 기업에 가장 현실적인 표준 선택",
   },
   {
-    id: "C", emoji: "🤝", title: "공급사 서비스 + 우리 서버 저장형", subtitle: "추론은 외부 서비스, 저장과 통제는 우리 서버 중심",
+    id: "C", emoji: "🤝", title: "외부 AI 사용 + 내부 기록 보관형", subtitle: "질문은 외부 AI가 처리, 기록은 우리 서버에 보관",
     color: "#f59e0b", bgColor: "#1a1000", borderColor: "#d97706",
     examples: ["사내 앱 + OpenAI", "사내 포털 + Claude", "우리 DB + Kimi"],
-    desc: "AI 응답 생성은 공급사 서비스를 쓰지만, 대화 기록·업무 데이터·로그는 우리 서버나 우리 DB에 저장하는 방식.",
+    desc: "질문 자체는 외부 AI로 보내서 답을 받지만, 대화 기록·업무 로그·결과 저장은 우리 서버나 우리 DB에 남기는 방식.",
     security: 3, cost: 3, ease: 5,
     training: "정책상/계약상 없음", storage: "우리 서버/DB 중심 (일부 요청은 외부 전송)", canSee: "질문 처리 시 공급자 인프라에서 처리",
     policy: "모델은 외부 서비스 사용, 저장과 감사는 우리 시스템에서 관리",
     pros: ["도입 가장 빠름", "최신 모델 접근 쉬움", "사내 서비스에 붙이기 쉬움", "대화 기록·로그를 내부에 보관 가능"],
     cons: ["질문 자체는 외부로 전송됨", "정책·계약 검토 필수", "공급자 변경 시 영향"],
-    verdict: "서비스는 외부 AI를 쓰되 기록과 통제는 내부에 두고 싶은 기업에 적합",
+    verdict: "외부 AI 성능은 쓰되, 대화 이력과 업무 기록은 내부에 남기고 싶은 기업에 적합",
   },
   {
     id: "D", emoji: "🌐", title: "일반 웹/SaaS", subtitle: "개인 플랜·일반 웹 서비스 사용",
@@ -545,7 +545,25 @@ const OverviewTab = () => (
       </div>
     </div>
     <div style={{ background: "#0d1117", border: "1px solid #1e2433", borderRadius: 12, padding: 18, marginBottom: 16 }}>
-      <div style={{ fontSize: 12, fontWeight: 700, color: "#e2e8f0", marginBottom: 12 }}>3️⃣ 마지막: 이 둘의 조합이 실제 케이스</div>
+      <div style={{ fontSize: 12, fontWeight: 700, color: "#e2e8f0", marginBottom: 12 }}>3️⃣ 공급사는 보통 어떤 방식으로 제공하나?</div>
+      <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr", gap: 10 }} className="mobile-stack-3">
+        <div style={{ background: "#111827", border: "1px solid #334155", borderRadius: 10, padding: 12 }}>
+          <div style={{ fontSize: 12, fontWeight: 800, color: "#3b82f6", marginBottom: 6 }}>🌐 웹 서비스</div>
+          <div style={{ fontSize: 11, color: "#94a3b8", lineHeight: 1.8 }}>브라우저로 바로 접속해서 씀. 가장 쉬움. 예: ChatGPT, Claude, Gemini, Kimi</div>
+        </div>
+        <div style={{ background: "#111827", border: "1px solid #334155", borderRadius: 10, padding: 12 }}>
+          <div style={{ fontSize: 12, fontWeight: 800, color: "#f59e0b", marginBottom: 6 }}>🔌 연결형 서비스</div>
+          <div style={{ fontSize: 11, color: "#94a3b8", lineHeight: 1.8 }}>계약 후 API 키를 받아 우리 시스템에 연결해서 씀. 예: OpenAI, Anthropic, Google, Moonshot</div>
+        </div>
+        <div style={{ background: "#111827", border: "1px solid #334155", borderRadius: 10, padding: 12 }}>
+          <div style={{ fontSize: 12, fontWeight: 800, color: "#10b981", marginBottom: 6 }}>📦 직접 설치형</div>
+          <div style={{ fontSize: 11, color: "#94a3b8", lineHeight: 1.8 }}>모델 파일을 받아 우리 서버나 우리 클라우드에 직접 설치. 예: Qwen, DeepSeek 일부, Llama 계열</div>
+        </div>
+      </div>
+    </div>
+
+    <div style={{ background: "#0d1117", border: "1px solid #1e2433", borderRadius: 12, padding: 18, marginBottom: 16 }}>
+      <div style={{ fontSize: 12, fontWeight: 700, color: "#e2e8f0", marginBottom: 12 }}>4️⃣ 마지막: 이 둘의 조합이 실제 케이스</div>
       <div style={{ background: "#111827", border: "1px solid #334155", borderRadius: 10, padding: 12, marginBottom: 12 }}>
         <div style={{ fontSize: 11, fontWeight: 700, color: "#e2e8f0", marginBottom: 6 }}>🔌 "연결해서 쓴다"는 뜻이 뭔가?</div>
         <div style={{ fontSize: 11, color: "#94a3b8", lineHeight: 1.8 }}>
@@ -576,8 +594,8 @@ const OverviewTab = () => (
           <div style={{ fontSize:11, color:"#94a3b8", lineHeight:1.8 }}>모델도 외부 클라우드에서 돌고, 저장도 외부 클라우드에 남을 수 있습니다. 대신 리전, IAM, 감사로그, 네트워크 통제가 강합니다.</div>
         </div>
         <div style={{ background:"#1a1000", border:"1px solid #d9770655", borderRadius:10, padding:12 }}>
-          <div style={{ fontSize:12, fontWeight:800, color:"#f59e0b", marginBottom:6 }}>케이스 C · 외부 추론 + 내부 저장형</div>
-          <div style={{ fontSize:11, color:"#94a3b8", lineHeight:1.8 }}>질문은 외부 모델이 처리하지만, 대화 기록·업무 로그·업무 데이터는 우리 서버에 저장합니다. 저장 위치 기준으로는 B보다 더 내부 지향적일 수 있습니다.</div>
+          <div style={{ fontSize:12, fontWeight:800, color:"#f59e0b", marginBottom:6 }}>케이스 C · 외부 AI 사용 + 내부 기록 보관형</div>
+          <div style={{ fontSize:11, color:"#94a3b8", lineHeight:1.8 }}>질문 내용은 외부 AI가 읽고 답하지만, 그 대화 이력과 업무 로그는 우리 서버에 저장하는 방식입니다. 즉 처리 장소는 외부, 기록 보관은 내부입니다.</div>
         </div>
       </div>
     </div>
@@ -654,7 +672,7 @@ const SummaryTab = () => (
         { q: "보안 최우선, 데이터 외부 반출 불가", ans: "케이스 A (내부 설치형)", color: "#10b981", icon: "🏢" },
         { q: "보안도 중요하지만 최신 모델도 강하게 쓰고 싶음", ans: "케이스 B (기업용 격리 클라우드)", color: "#8b5cf6", icon: "🔒" },
         { q: "빠르게 시작하되 대화 기록과 로그는 우리 서버에 두고 싶음", ans: "케이스 C (공급사 서비스 + 우리 서버 저장형)", color: "#f59e0b", icon: "🤝" },
-        { q: "원본 민감정보는 내부에 두고 외부 AI 성능도 쓰고 싶음", ans: "케이스 C (외부 추론 + 내부 저장형)", color: "#06b6d4", icon: "🔗" },
+        { q: "원본 민감정보는 내부에 두고 외부 AI 성능도 쓰고 싶음", ans: "케이스 C (외부 AI 사용 + 내부 기록 보관형)", color: "#06b6d4", icon: "🔗" },
         { q: "가벼운 테스트나 개인 생산성 용도", ans: "케이스 D (일반 웹/SaaS) ⚠️", color: "#ef4444", icon: "⚠️" },
       ].map(item => (
         <div key={item.q} style={{ display: "flex", gap: 9, alignItems: "flex-start", background: item.color + "08", border: `1px solid ${item.color}20`, borderRadius: 7, padding: "7px 10px", marginBottom: 5 }}>
