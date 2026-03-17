@@ -29,7 +29,7 @@ const { useState } = React;
 
 const CASES = [
   {
-    id: "A", emoji: "🏢", title: "직접 설치형", subtitle: "온프레미스 또는 우리 클라우드에 직접 설치",
+    id: "A", emoji: "🏢", title: "우리 안에서 직접 돌림", subtitle: "AI도 내부, 데이터도 내부",
     color: "#10b981", bgColor: "#052e16", borderColor: "#059669",
     examples: ["사내 GPU 서버", "프라이빗 클라우드", "Qwen/DeepSeek 직접 배포"],
     desc: "AI 모델을 우리 회사가 직접 설치·운영하는 방식. 데이터 통제력이 가장 높음.",
@@ -42,7 +42,7 @@ const CASES = [
     verdict: "보안 최우선 기업의 가장 강한 선택",
   },
   {
-    id: "B", emoji: "🔒", title: "격리 클라우드형", subtitle: "Azure OpenAI / Bedrock / Vertex AI",
+    id: "B", emoji: "🔒", title: "외부 전용 금고에서 돌림", subtitle: "밖에 있지만 기업용으로 통제 강함",
     color: "#8b5cf6", bgColor: "#130d24", borderColor: "#7c3aed",
     examples: ["Azure OpenAI", "AWS Bedrock", "GCP Vertex AI"],
     desc: "클라우드 안의 기업용 격리 환경에서 강력한 모델을 쓰는 방식. 보안과 성능의 균형형.",
@@ -55,7 +55,7 @@ const CASES = [
     verdict: "대부분 기업에 가장 현실적인 표준 선택",
   },
   {
-    id: "C", emoji: "🤝", title: "외부 AI 사용형 (기록은 내부 보관)", subtitle: "답변은 외부 AI, 기록은 우리 시스템에 보관",
+    id: "C", emoji: "🤝", title: "AI는 밖에서 쓰고 기록은 안에 둠 (기록은 내부 보관)", subtitle: "답변은 외부 AI, 기록은 우리 시스템에 보관",
     color: "#f59e0b", bgColor: "#1a1000", borderColor: "#d97706",
     examples: ["사내 앱 + OpenAI", "사내 포털 + Claude", "우리 DB + Kimi"],
     desc: "AI 답변은 외부 서비스에서 받지만, 사용 이력과 업무 기록은 우리 시스템에 남기는 방식. 즉 AI는 밖에서 쓰고, 기록은 안에 쌓는 구조.",
@@ -68,7 +68,7 @@ const CASES = [
     verdict: "외부 AI는 쓰되, 회사의 기록과 로그는 내부에 남기고 싶은 기업에 적합",
   },
   {
-    id: "D", emoji: "🌐", title: "일반 웹/SaaS", subtitle: "개인 플랜·일반 웹 서비스 사용",
+    id: "D", emoji: "🌐", title: "웹에서 그냥 씀", subtitle: "가장 쉽지만 기업용으론 위험",
     color: "#ef4444", bgColor: "#1a0000", borderColor: "#dc2626",
     examples: ["ChatGPT Plus", "Claude.ai 일반", "Gemini 일반"],
     desc: "개인이 웹에서 바로 쓰는 가장 쉬운 방식. 기업 기밀 용도로는 가장 위험.",
@@ -561,7 +561,7 @@ const OverviewTab = () => (
           <div style={{ fontSize: 11, color: "#94a3b8", lineHeight: 1.8 }}>계약 후 API 키를 받아 우리 시스템에 연결해서 씀. 예: OpenAI, Anthropic, Google, Moonshot</div>
         </div>
         <div style={{ background: "#111827", border: "1px solid #334155", borderRadius: 10, padding: 12 }}>
-          <div style={{ fontSize: 12, fontWeight: 800, color: "#10b981", marginBottom: 6 }}>📦 직접 설치형</div>
+          <div style={{ fontSize: 12, fontWeight: 800, color: "#10b981", marginBottom: 6 }}>📦 우리 안에서 직접 돌림</div>
           <div style={{ fontSize: 11, color: "#94a3b8", lineHeight: 1.8 }}>모델 파일을 받아 우리 서버나 우리 클라우드에 직접 설치. 예: Qwen, DeepSeek 일부, Llama 계열</div>
         </div>
       </div>
@@ -578,10 +578,10 @@ const OverviewTab = () => (
       </div>
       <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 8 }} className="mobile-stack-2">
         {[
-          { id:"A", title:"직접 설치형", sub:"모델 내부 / 저장 내부", color:"#10b981" },
-          { id:"B", title:"격리 클라우드형", sub:"모델 외부 / 저장 외부(격리)", color:"#8b5cf6" },
+          { id:"A", title:"우리 안에서 직접 돌림", sub:"모델 내부 / 저장 내부", color:"#10b981" },
+          { id:"B", title:"외부 전용 금고에서 돌림", sub:"모델 외부 / 저장 외부(격리)", color:"#8b5cf6" },
           { id:"C", title:"외부 추론 + 내부 저장형", sub:"모델 외부 / 저장 내부", color:"#f59e0b" },
-          { id:"D", title:"일반 웹/SaaS", sub:"모델 외부 / 저장 외부 가능성 큼", color:"#ef4444" },
+          { id:"D", title:"웹에서 그냥 씀", sub:"모델 외부 / 저장 외부 가능성 큼", color:"#ef4444" },
         ].map(item => (
           <button key={item.id} onClick={() => { setActiveCase(item.id); setActiveTab("cases"); window.scrollTo({top:0, behavior:"smooth"}); }} style={{ background: item.color + "12", border: `1px solid ${item.color}35`, borderRadius: 10, padding: 12, textAlign:"left", cursor:"pointer" }}>
             <div style={{ fontSize: 12, fontWeight: 800, color: item.color }}>케이스 {item.id}</div>
@@ -595,11 +595,11 @@ const OverviewTab = () => (
       <div style={{ fontSize: 12, fontWeight: 700, color: "#e2e8f0", marginBottom: 10 }}>4️⃣ B와 C의 차이 한 줄로</div>
       <div style={{ display:"grid", gridTemplateColumns:"1fr 1fr", gap:10 }} className="mobile-stack-2">
         <div style={{ background:"#130d24", border:"1px solid #7c3aed55", borderRadius:10, padding:12 }}>
-          <div style={{ fontSize:12, fontWeight:800, color:"#8b5cf6", marginBottom:6 }}>케이스 B · 격리 클라우드형</div>
+          <div style={{ fontSize:12, fontWeight:800, color:"#8b5cf6", marginBottom:6 }}>케이스 B · 외부 전용 금고에서 돌림</div>
           <div style={{ fontSize:11, color:"#94a3b8", lineHeight:1.8 }}>모델도 외부 클라우드에서 돌고, 저장도 외부 클라우드에 남을 수 있습니다. 대신 리전, IAM, 감사로그, 네트워크 통제가 강합니다.</div>
         </div>
         <div style={{ background:"#1a1000", border:"1px solid #d9770655", borderRadius:10, padding:12 }}>
-          <div style={{ fontSize:12, fontWeight:800, color:"#f59e0b", marginBottom:6 }}>케이스 C · 외부 AI 사용형</div>
+          <div style={{ fontSize:12, fontWeight:800, color:"#f59e0b", marginBottom:6 }}>케이스 C · AI는 밖에서 쓰고 기록은 안에 둠</div>
           <div style={{ fontSize:11, color:"#94a3b8", lineHeight:1.8 }}>질문 내용은 외부 AI가 읽고 답하지만, 그 대화 이력과 업무 로그는 우리 서버에 저장하는 방식입니다. 즉 처리 장소는 외부, 기록 보관은 내부입니다.</div>
         </div>
       </div>
@@ -677,8 +677,8 @@ const SummaryTab = () => (
         { q: "보안 최우선, 데이터 외부 반출 불가", ans: "케이스 A (내부 설치형)", color: "#10b981", icon: "🏢" },
         { q: "보안도 중요하지만 최신 모델도 강하게 쓰고 싶음", ans: "케이스 B (기업용 격리 클라우드)", color: "#8b5cf6", icon: "🔒" },
         { q: "빠르게 시작하되 대화 기록과 로그는 우리 서버에 두고 싶음", ans: "케이스 C (공급사 서비스 + 우리 서버 저장형)", color: "#f59e0b", icon: "🤝" },
-        { q: "원본 민감정보는 내부에 두고 외부 AI 성능도 쓰고 싶음", ans: "케이스 C (외부 AI 사용형)", color: "#06b6d4", icon: "🔗" },
-        { q: "가벼운 테스트나 개인 생산성 용도", ans: "케이스 D (일반 웹/SaaS) ⚠️", color: "#ef4444", icon: "⚠️" },
+        { q: "원본 민감정보는 내부에 두고 외부 AI 성능도 쓰고 싶음", ans: "케이스 C (AI는 밖에서 쓰고 기록은 안에 둠)", color: "#06b6d4", icon: "🔗" },
+        { q: "가벼운 테스트나 개인 생산성 용도", ans: "케이스 D (웹에서 그냥 씀) ⚠️", color: "#ef4444", icon: "⚠️" },
       ].map(item => (
         <div key={item.q} style={{ display: "flex", gap: 9, alignItems: "flex-start", background: item.color + "08", border: `1px solid ${item.color}20`, borderRadius: 7, padding: "7px 10px", marginBottom: 5 }}>
           <span style={{ fontSize: 16, flexShrink: 0 }}>{item.icon}</span>
