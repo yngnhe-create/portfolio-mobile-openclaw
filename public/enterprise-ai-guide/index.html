@@ -104,27 +104,27 @@ const CASES = [
 
 const DELIVERY_METHODS = [
   {
-    vendor: "OpenAI (GPT-4 계열)", logo: "🟢", color: "#10b981",
+    vendor: "OpenAI (GPT-5.4 계열)", logo: "🟢", color: "#10b981",
     methods: [
-      { type: "🌐 Web", name: "ChatGPT.com", desc: "브라우저에서 바로 접속. 개인·팀용. 기업 기밀 입력 주의.", security: 2, tag: "일반/팀" },
-      { type: "🔌 API", name: "OpenAI Enterprise API", desc: "기업 계약 후 API 키로 사내 시스템에 연동. 학습 미사용. ZDR 옵션.", security: 4, tag: "엔터프라이즈" },
-      { type: "☁️ 클라우드 격리", name: "Azure OpenAI Service", desc: "Microsoft 클라우드 내 격리 환경. 데이터 OpenAI 본사 미전송. 한국 리전 가능.", security: 5, tag: "격리 클라우드" },
+      { type: "🌐 Web", name: "ChatGPT (GPT-5.4)", desc: "브라우저에서 바로 접속. 개인·팀용. 기업 기밀 입력 주의.", security: 2, tag: "일반/팀" },
+      { type: "🔌 API", name: "OpenAI Enterprise API (GPT-5.4)", desc: "기업 계약 후 API 키로 사내 시스템에 연동. 학습 미사용. ZDR 옵션.", security: 4, tag: "엔터프라이즈" },
+      { type: "☁️ 클라우드 격리", name: "Azure OpenAI Service (GPT-5.4)", desc: "Microsoft 클라우드 내 격리 환경. 데이터 OpenAI 본사 미전송. 한국 리전 가능.", security: 5, tag: "격리 클라우드" },
     ],
   },
   {
-    vendor: "Anthropic (Claude 계열)", logo: "🟠", color: "#f97316",
+    vendor: "Anthropic (Claude Sonnet 4.6 계열)", logo: "🟠", color: "#f97316",
     methods: [
-      { type: "🌐 Web", name: "Claude.ai", desc: "브라우저에서 직접 사용. 무료/Pro/Team 플랜 제공.", security: 2, tag: "일반/팀" },
-      { type: "🔌 API", name: "Anthropic API (기업 계약)", desc: "API 키로 사내 시스템 연동. 기업 계약 시 데이터 학습 미사용.", security: 4, tag: "엔터프라이즈" },
-      { type: "☁️ 클라우드 격리", name: "AWS Bedrock (Claude)", desc: "AWS 내 격리 환경. Anthropic 본사 접근 불가. 한국 리전 가능.", security: 5, tag: "격리 클라우드" },
+      { type: "🌐 Web", name: "Claude.ai (Sonnet 4.6)", desc: "브라우저에서 직접 사용. 무료/Pro/Team 플랜 제공.", security: 2, tag: "일반/팀" },
+      { type: "🔌 API", name: "Anthropic API (Claude Sonnet 4.6)", desc: "API 키로 사내 시스템 연동. 기업 계약 시 데이터 학습 미사용.", security: 4, tag: "엔터프라이즈" },
+      { type: "☁️ 클라우드 격리", name: "AWS Bedrock (Claude Sonnet 4.6)", desc: "AWS 내 격리 환경. Anthropic 본사 접근 불가. 한국 리전 가능.", security: 5, tag: "격리 클라우드" },
     ],
   },
   {
-    vendor: "Google (Gemini 계열)", logo: "🔵", color: "#3b82f6",
+    vendor: "Google (Gemini 2.5 Pro 계열)", logo: "🔵", color: "#3b82f6",
     methods: [
-      { type: "🌐 Web", name: "Gemini.google.com", desc: "브라우저에서 직접 사용. Google 계정으로 접속.", security: 2, tag: "일반" },
-      { type: "💼 Workspace", name: "Gemini for Workspace", desc: "Google 기업용 구독. Gmail·Docs·Drive 연동. 학습 제외 설정 가능.", security: 4, tag: "엔터프라이즈" },
-      { type: "☁️ 클라우드 격리", name: "Vertex AI (GCP)", desc: "GCP 내 격리 배포. 한국 리전(서울). 감사 로그·DLP 연동 가능.", security: 5, tag: "격리 클라우드" },
+      { type: "🌐 Web", name: "Gemini (2.5 Pro)", desc: "브라우저에서 직접 사용. Google 계정으로 접속.", security: 2, tag: "일반" },
+      { type: "💼 Workspace", name: "Gemini for Workspace (2.5 Pro)", desc: "Google 기업용 구독. Gmail·Docs·Drive 연동. 학습 제외 설정 가능.", security: 4, tag: "엔터프라이즈" },
+      { type: "☁️ 클라우드 격리", name: "Vertex AI (Gemini 2.5 Pro)", desc: "GCP 내 격리 배포. 한국 리전(서울). 감사 로그·DLP 연동 가능.", security: 5, tag: "격리 클라우드" },
     ],
   },
   {
@@ -410,9 +410,9 @@ const CompareTab = () => (
       </div>
       <div style={{ fontSize: 13, fontWeight: 700, color: "#e2e8f0", marginBottom: 12 }}>🏢 주요 공급자 기업 보안 정책</div>
       {[
-        { name: "OpenAI (GPT-4)", color: "#10b981", logo: "🟢", points: ["기업 계약 시 데이터 AI 학습 미사용 (기본)", "Zero Data Retention(ZDR) 옵션 (계약 승인 시)", "Admin/Audit Log API 제공", "데이터 삭제 요청 시 30일 내 완전 삭제", "SOC2 Type II, ISO27001 인증"] },
-        { name: "Anthropic (Claude)", color: "#f97316", logo: "🟠", points: ["기업 API 계약 시 데이터 학습 미사용", "AWS Bedrock 통해 한국 리전 사용 가능", "Claude.ai 무료/Pro: 학습 가능 (설정 필요)"] },
-        { name: "Google (Gemini)", color: "#3b82f6", logo: "🔵", points: ["Gemini Enterprise: Workspace 데이터 AI 학습 제외", "Cloud Logging 연동 감사 로그", "한국 리전(서울) 저장 가능", "HIPAA·GDPR·ISO27001 인증"] },
+        { name: "OpenAI (GPT-5.4)", color: "#10b981", logo: "🟢", points: ["기업 계약 시 데이터 AI 학습 미사용 (기본)", "Zero Data Retention(ZDR) 옵션 (계약 승인 시)", "Admin/Audit Log API 제공", "데이터 삭제 요청 시 30일 내 완전 삭제", "SOC2 Type II, ISO27001 인증"] },
+        { name: "Anthropic (Claude Sonnet 4.6)", color: "#f97316", logo: "🟠", points: ["기업 API 계약 시 데이터 학습 미사용", "AWS Bedrock 통해 한국 리전 사용 가능", "Claude.ai 무료/Pro: 학습 가능 (설정 필요)"] },
+        { name: "Google (Gemini 2.5 Pro)", color: "#3b82f6", logo: "🔵", points: ["Gemini Enterprise: Workspace 데이터 AI 학습 제외", "Cloud Logging 연동 감사 로그", "한국 리전(서울) 저장 가능", "HIPAA·GDPR·ISO27001 인증"] },
         { name: "LG EXAONE", color: "#f59e0b", logo: "🇰🇷", points: ["웹형 API: FriendliAI 통해 제공 (기업 계약 권장)", "온프레미스: HuggingFace 다운로드 후 자체 설치", "K-EXAONE: 글로벌 오픈웨이트 Top 10 (7위)", "상업 이용 시 LG AI Research 별도 계약 필요"] },
       ].map(p => (
         <div key={p.name} style={{ background: "#0d1117", border: `1px solid ${p.color}25`, borderRadius: 10, padding: 12, marginBottom: 8 }}>
@@ -429,9 +429,9 @@ const CompareTab = () => (
 
 const ModelsTab = () => {
   const models = [
-    { name: "GPT-4o / GPT-4 Turbo", maker: "OpenAI", logo: "🟢", color: "#10b981", bgColor: "#052e16", tag: "전반적 최강", desc: "가장 널리 쓰이는 상용 모델. 텍스트·이미지·코드 등 거의 모든 업무에서 최상위 수준.", ratings: [["📝 문서·글쓰기",5],["💻 코딩",5],["🔢 수학·분석",5],["🖼️ 이미지 이해",5],["🇰🇷 한국어",4],["⚡ 응답 속도",4]], pros:["가장 넓은 생태계·플러그인","멀티모달(텍스트+이미지+음성)","Function Calling·JSON mode 지원","Azure OpenAI로 격리 환경 제공"], cons:["비용이 높은 편","데이터 주로 미국 서버","오픈소스 아님"], best:"일반 사무, 문서 작성, 코딩, 고객 응대 등 다목적", avoid:"초고속 실시간 서비스, 예산 제한 환경", pricing:"GPT-4o: 입력 $5 / 출력 $15 (1M 토큰)" },
-    { name: "Claude 3.5 Sonnet / Opus", maker: "Anthropic", logo: "🟠", color: "#f97316", bgColor: "#1a0a00", tag: "문서·추론 특화", desc: "안전성과 정확성에 강점. 긴 문서 처리(200K 토큰), 복잡한 추론에서 GPT-4와 대등 이상.", ratings: [["📝 문서·글쓰기",5],["💻 코딩",5],["🔢 수학·분석",4],["🖼️ 이미지 이해",4],["🇰🇷 한국어",4],["⚡ 응답 속도",4]], pros:["긴 문서 요약·분석 최강 (200K 토큰)","지시 사항 정확히 따르는 능력 탁월","허위 정보 생성 비율 낮음","보고서·계약서 업무에 매우 적합"], cons:["이미지 생성 기능 없음","서드파티 생태계 작음","Opus는 느리고 비용 높음"], best:"내부 보고서, 계약서 검토, 긴 문서 요약, 복잡한 지시", avoid:"이미지 생성, 외부 플러그인 다수 연동", pricing:"Claude 3.5 Sonnet: 입력 $3 / 출력 $15 (1M 토큰)" },
-    { name: "Gemini 1.5 Pro / Ultra", maker: "Google", logo: "🔵", color: "#3b82f6", bgColor: "#0c1a2e", tag: "Google 연동 강점", desc: "Google 생태계(Gmail·Drive·Docs) 통합 특화. 1M 토큰의 초장문 컨텍스트 처리 가능.", ratings: [["📝 문서·글쓰기",4],["💻 코딩",4],["🔢 수학·분석",4],["🖼️ 이미지 이해",5],["🇰🇷 한국어",4],["⚡ 응답 속도",4]], pros:["Google Workspace 네이티브 연동","1M 토큰 컨텍스트","이미지·영상·오디오 동시 처리","한국 리전(서울) 저장 가능"], cons:["GPT-4·Claude 대비 일부 벤치마크 뒤처짐","Workspace 구독 필요"], best:"Google Workspace 기업, 대용량 문서, 멀티미디어", avoid:"Google 생태계 미사용 기업, 정밀 코딩", pricing:"Gemini 1.5 Pro: 입력 $3.5 / 출력 $10.5 (1M 토큰)" },
+    { name: "GPT-5.4", maker: "OpenAI", logo: "🟢", color: "#10b981", bgColor: "#052e16", tag: "전반적 최강", desc: "가장 널리 쓰이는 상용 모델 축. 텍스트·이미지·코드 등 거의 모든 업무에서 최상위 수준.", ratings: [["📝 문서·글쓰기",5],["💻 코딩",5],["🔢 수학·분석",5],["🖼️ 이미지 이해",5],["🇰🇷 한국어",4],["⚡ 응답 속도",4]], pros:["가장 넓은 생태계·플러그인","멀티모달(텍스트+이미지+음성)","Function Calling·JSON mode 지원","Azure OpenAI로 격리 환경 제공"], cons:["비용이 높은 편","데이터 주로 미국 서버","오픈소스 아님"], best:"일반 사무, 문서 작성, 코딩, 고객 응대 등 다목적", avoid:"초고속 실시간 서비스, 예산 제한 환경", pricing:"가격은 계약/배포 방식별 상이 (Enterprise/Azure 기준 확인 필요)" },
+    { name: "Claude Sonnet 4.6 / Opus", maker: "Anthropic", logo: "🟠", color: "#f97316", bgColor: "#1a0a00", tag: "문서·추론 특화", desc: "안전성과 정확성에 강점. 긴 문서 처리와 복잡한 추론에서 매우 강함.", ratings: [["📝 문서·글쓰기",5],["💻 코딩",5],["🔢 수학·분석",4],["🖼️ 이미지 이해",4],["🇰🇷 한국어",4],["⚡ 응답 속도",4]], pros:["긴 문서 요약·분석 강점","지시 사항 정확히 따르는 능력 탁월","허위 정보 생성 비율 낮음","보고서·계약서 업무에 매우 적합"], cons:["이미지 생성 기능 없음","서드파티 생태계 작음","Opus는 느리고 비용 높음"], best:"내부 보고서, 계약서 검토, 긴 문서 요약, 복잡한 지시", avoid:"이미지 생성, 외부 플러그인 다수 연동", pricing:"가격은 계약/API/Bedrock 경로별 상이" },
+    { name: "Gemini 2.5 Pro", maker: "Google", logo: "🔵", color: "#3b82f6", bgColor: "#0c1a2e", tag: "Google 연동 강점", desc: "Google 생태계(Gmail·Drive·Docs) 통합 특화. 초장문 컨텍스트 처리에 강함.", ratings: [["📝 문서·글쓰기",4],["💻 코딩",4],["🔢 수학·분석",4],["🖼️ 이미지 이해",5],["🇰🇷 한국어",4],["⚡ 응답 속도",4]], pros:["Google Workspace 네이티브 연동","초장문 컨텍스트","이미지·영상·오디오 동시 처리","한국 리전(서울) 저장 가능"], cons:["GPT-5.4·Claude 대비 일부 벤치마크 뒤처질 수 있음","Workspace 구독 필요"], best:"Google Workspace 기업, 대용량 문서, 멀티미디어", avoid:"Google 생태계 미사용 기업, 정밀 코딩", pricing:"가격은 Vertex AI / Workspace 계약 기준 확인 필요" },
     { name: "K-EXAONE / EXAONE 4.0", maker: "LG AI Research", logo: "🇰🇷", color: "#f59e0b", bgColor: "#1a1000", tag: "한국어 최강 + 글로벌 Top 10", desc: "K-EXAONE은 글로벌 오픈웨이트 7위. 한국어 최상위 성능. 웹형 API + 온프레미스 모두 제공.", ratings: [["📝 문서·글쓰기",4],["💻 코딩",4],["🔢 수학·분석",4],["🖼️ 이미지 이해",3],["🇰🇷 한국어",5],["⚡ 응답 속도",4]], pros:["한국어 이해·생성 최상위","국내 법·규제 환경 이해도 높음","온프레미스 배포 가능","웹형 API + 온프레미스 이중 제공"], cons:["영어 등 다국어 GPT-4 대비 낮음","K-EXAONE은 대형 GPU 필요","상업 이용 시 라이선스 계약 필요"], best:"한국어 문서, 국내 규제 대응, 공공·금융·국내 산업", avoid:"영어 중심 글로벌 업무, 라이선스 제약 환경", pricing:"웹 API: FriendliAI 통해 제공 / 온프레미스: 무료 (서버 비용 별도)" },
     { name: "Meta Llama 3.1 (70B·405B)", maker: "Meta (오픈소스)", logo: "🟣", color: "#8b5cf6", bgColor: "#130d24", tag: "온프레미스 최강자", desc: "오픈소스 모델 중 압도적 성능. 405B는 GPT-4에 근접. 자체 서버 설치로 보안 최강.", ratings: [["📝 문서·글쓰기",4],["💻 코딩",4],["🔢 수학·분석",4],["🖼️ 이미지 이해",3],["🇰🇷 한국어",3],["⚡ 응답 속도",3]], pros:["완전 무료 (상업 이용 가능)","자체 서버 설치 → 데이터 100% 통제","파인튜닝(업무 특화 학습) 가능","오픈소스라 내부 작동 투명"], cons:["고성능 GPU 서버 필요","한국어 성능 영어 대비 낮음","자체 운영 인력 필수"], best:"보안 최우선, 파인튜닝, 장기적 AI 내재화", avoid:"빠른 도입, 한국어 특화, AI 운영 인력 없는 기업", pricing:"무료 (A100 GPU 서버 월 수백~수천만원)" },
     { name: "Mistral Large / Mixtral", maker: "Mistral AI", logo: "⚪", color: "#94a3b8", bgColor: "#0d1117", tag: "경량 고효율", desc: "유럽산 오픈소스. 가볍고 빠르면서 우수한 성능. GDPR 준수에 유리.", ratings: [["📝 문서·글쓰기",4],["💻 코딩",4],["🔢 수학·분석",3],["🖼️ 이미지 이해",2],["🇰🇷 한국어",3],["⚡ 응답 속도",5]], pros:["유럽 본사 → GDPR 유리","가벼운 모델 → 저사양 GPU도 가능","응답 속도 매우 빠름","오픈소스 + API 모두 제공"], cons:["Llama 405B·GPT-4 대비 성능 낮음","한국어 학습 데이터 부족","이미지 처리 미약"], best:"유럽 규정 준수, 빠른 응답, 코딩 보조", avoid:"한국어 특화, 최고 수준 추론", pricing:"API: 입력 $2 / 출력 $6 (1M 토큰) / 오픈소스 무료" },
