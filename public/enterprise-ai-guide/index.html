@@ -29,7 +29,7 @@ const { useState } = React;
 
 const CASES = [
   {
-    id: "A", emoji: "🏢", title: "내부 설치형", subtitle: "온프레미스 또는 우리 클라우드에 직접 설치",
+    id: "A", emoji: "🏢", title: "직접 설치형", subtitle: "온프레미스 또는 우리 클라우드에 직접 설치",
     color: "#10b981", bgColor: "#052e16", borderColor: "#059669",
     examples: ["사내 GPU 서버", "프라이빗 클라우드", "Qwen/DeepSeek 직접 배포"],
     desc: "AI 모델을 우리 회사가 직접 설치·운영하는 방식. 데이터 통제력이 가장 높음.",
@@ -41,7 +41,7 @@ const CASES = [
     verdict: "보안 최우선 기업의 가장 강한 선택",
   },
   {
-    id: "B", emoji: "🔒", title: "기업용 격리 클라우드", subtitle: "Azure OpenAI / Bedrock / Vertex AI",
+    id: "B", emoji: "🔒", title: "격리 클라우드형", subtitle: "Azure OpenAI / Bedrock / Vertex AI",
     color: "#8b5cf6", bgColor: "#130d24", borderColor: "#7c3aed",
     examples: ["Azure OpenAI", "AWS Bedrock", "GCP Vertex AI"],
     desc: "클라우드 안의 기업용 격리 환경에서 강력한 모델을 쓰는 방식. 보안과 성능의 균형형.",
@@ -53,10 +53,10 @@ const CASES = [
     verdict: "대부분 기업에 가장 현실적인 표준 선택",
   },
   {
-    id: "C", emoji: "🤝", title: "기업용 API", subtitle: "공급사와 직접 계약한 API 사용",
+    id: "C", emoji: "🤝", title: "공급사 직접 연결형", subtitle: "공급사 서비스를 바로 연결해서 사용",
     color: "#f59e0b", bgColor: "#1a1000", borderColor: "#d97706",
-    examples: ["OpenAI Enterprise API", "Anthropic API", "Moonshot API"],
-    desc: "기업 계약을 맺고 API로 바로 연동하는 방식. 가장 빨리 도입 가능.",
+    examples: ["OpenAI 직접 연결", "Anthropic 직접 연결", "Moonshot 직접 연결"],
+    desc: "공급사가 운영하는 서비스를 우리 시스템에서 바로 연결해 쓰는 방식. 가장 빨리 도입 가능.",
     security: 3, cost: 3, ease: 5,
     training: "정책상/계약상 없음", storage: "공급사 서버", canSee: "공급자 인프라에서 처리",
     policy: "학습 미사용, 삭제 정책, 감사 기능을 계약으로 확인",
@@ -508,18 +508,60 @@ const OverviewTab = () => (
     <div style={{ background: "#0d1117", border: "1px solid #1e2433", borderRadius: 12, padding: 18, marginBottom: 16 }}>
       <div style={{ fontSize: 12, fontWeight: 700, color: "#e2e8f0", marginBottom: 7 }}>💡 핵심 개념 이해</div>
       <p style={{ fontSize: 12, color: "#94a3b8", lineHeight: 1.8, margin: 0 }}>
-        복잡하게 보이지만 실제로는 <strong style={{ color: "#e2e8f0" }}>5가지</strong>로 보면 됩니다: <strong style={{ color: "#10b981" }}>내부 설치형</strong>, <strong style={{ color: "#8b5cf6" }}>기업용 격리 클라우드</strong>, <strong style={{ color: "#f59e0b" }}>기업용 API</strong>, <strong style={{ color: "#06b6d4" }}>사내 게이트웨이 절충안</strong>, <strong style={{ color: "#ef4444" }}>일반 웹/SaaS</strong>.
+        먼저 <strong style={{ color: "#e2e8f0" }}>모델</strong>과 <strong style={{ color: "#e2e8f0" }}>인프라</strong>를 분리해서 이해해야 합니다. 모델은 "AI의 두뇌"이고, 인프라는 "그 두뇌가 돌아가는 장소"입니다. 이 둘을 섞어 생각하면 헷갈리기 쉽습니다.
       </p>
     </div>
     <div style={{ background: "#0d1117", border: "1px solid #1e2433", borderRadius: 12, padding: 18, marginBottom: 16 }}>
-      <div style={{ fontSize: 11, color: "#64748b", textAlign: "center", marginBottom: 12 }}>▼ 더 단순하게 보면 3개 기본형 + 1개 절충안 + 1개 비추천</div>
+      <div style={{ fontSize: 12, fontWeight: 700, color: "#e2e8f0", marginBottom: 12 }}>1️⃣ 먼저: 모델과 인프라는 다른 것</div>
+      <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 10 }} className="mobile-stack-2">
+        <div style={{ background: "#0f1f0f", border: "1px solid #10b98135", borderRadius: 10, padding: 14 }}>
+          <div style={{ fontSize: 13, fontWeight: 800, color: "#10b981", marginBottom: 8 }}>🧠 모델 = AI의 두뇌</div>
+          <div style={{ fontSize: 11, color: "#94a3b8", lineHeight: 1.8, marginBottom: 8 }}>
+            질문에 답하고, 글을 쓰고, 코드를 만드는 "AI 자체"를 말합니다.
+          </div>
+          <div style={{ fontSize: 11, color: "#64748b", marginBottom: 4 }}>예시</div>
+          <div style={{ display: "flex", flexWrap: "wrap", gap: 6 }}>
+            {["GPT-5.4", "Claude Sonnet 4.6", "Gemini 2.5 Pro", "Qwen", "Kimi", "DeepSeek"].map(x => (
+              <span key={x} style={{ fontSize: 10, color: "#10b981", background: "#10b98118", border: "1px solid #10b98133", borderRadius: 99, padding: "3px 8px" }}>{x}</span>
+            ))}
+          </div>
+        </div>
+        <div style={{ background: "#111827", border: "1px solid #3b82f635", borderRadius: 10, padding: 14 }}>
+          <div style={{ fontSize: 13, fontWeight: 800, color: "#3b82f6", marginBottom: 8 }}>🖥️ 인프라 = AI가 돌아가는 장소</div>
+          <div style={{ fontSize: 11, color: "#94a3b8", lineHeight: 1.8, marginBottom: 8 }}>
+            그 AI를 어디서 실행하느냐를 뜻합니다. 우리 회사 서버일 수도 있고, 외부 클라우드일 수도 있습니다.
+          </div>
+          <div style={{ fontSize: 11, color: "#64748b", marginBottom: 4 }}>예시</div>
+          <div style={{ display: "flex", flexWrap: "wrap", gap: 6 }}>
+            {["온프레미스", "우리 클라우드", "격리 클라우드", "공급사 서버"].map(x => (
+              <span key={x} style={{ fontSize: 10, color: "#3b82f6", background: "#3b82f618", border: "1px solid #3b82f633", borderRadius: 99, padding: "3px 8px" }}>{x}</span>
+            ))}
+          </div>
+        </div>
+      </div>
+    </div>
+    <div style={{ background: "#0d1117", border: "1px solid #1e2433", borderRadius: 12, padding: 18, marginBottom: 16 }}>
+      <div style={{ fontSize: 12, fontWeight: 700, color: "#e2e8f0", marginBottom: 12 }}>2️⃣ 다음: 모델은 두 가지로 나눠 보면 쉬움</div>
+      <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 10 }} className="mobile-stack-2">
+        <div style={{ background: "#052e16", border: "1px solid #10b98135", borderRadius: 10, padding: 14 }}>
+          <div style={{ fontSize: 12, fontWeight: 800, color: "#10b981", marginBottom: 6 }}>📦 직접 설치 가능한 모델</div>
+          <div style={{ fontSize: 11, color: "#94a3b8", lineHeight: 1.8 }}>다운로드해서 우리 서버나 우리 클라우드에 설치할 수 있는 모델. 예: Qwen, DeepSeek 일부, Llama 계열</div>
+        </div>
+        <div style={{ background: "#1a1000", border: "1px solid #f59e0b35", borderRadius: 10, padding: 14 }}>
+          <div style={{ fontSize: 12, fontWeight: 800, color: "#f59e0b", marginBottom: 6 }}>🌐 직접 설치가 어려운 서비스형 모델</div>
+          <div style={{ fontSize: 11, color: "#94a3b8", lineHeight: 1.8 }}>보통 공급사가 운영하는 서비스로 접속해서 쓰는 모델. 예: GPT-5.4, Claude Sonnet 4.6, Gemini 2.5 Pro, Kimi</div>
+        </div>
+      </div>
+    </div>
+    <div style={{ background: "#0d1117", border: "1px solid #1e2433", borderRadius: 12, padding: 18, marginBottom: 16 }}>
+      <div style={{ fontSize: 12, fontWeight: 700, color: "#e2e8f0", marginBottom: 12 }}>3️⃣ 마지막: 이 둘의 조합이 실제 케이스</div>
       <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 8 }} className="mobile-stack-2">
         {[
-          { id:"A", title:"내부 설치형", sub:"우리가 직접 설치·운영", color:"#10b981" },
-          { id:"B", title:"기업용 격리 클라우드", sub:"보안과 성능의 균형형", color:"#8b5cf6" },
-          { id:"C", title:"기업용 API", sub:"가장 빠른 도입형", color:"#f59e0b" },
-          { id:"D", title:"사내 게이트웨이 절충안", sub:"사내 통제 + 외부 AI", color:"#06b6d4" },
-          { id:"E", title:"일반 웹/SaaS", sub:"가장 쉽지만 기업용 비추천", color:"#ef4444" },
+          { id:"A", title:"직접 설치형", sub:"직접 설치 가능한 모델 + 우리 인프라", color:"#10b981" },
+          { id:"B", title:"격리 클라우드형", sub:"서비스형 모델 + 기업용 격리 클라우드", color:"#8b5cf6" },
+          { id:"C", title:"공급사 직접 연결형", sub:"서비스형 모델 + 공급사 서버", color:"#f59e0b" },
+          { id:"D", title:"사내 게이트웨이 절충안", sub:"우리 통제 + 외부 모델 조합", color:"#06b6d4" },
+          { id:"E", title:"일반 웹/SaaS", sub:"서비스형 모델 + 일반 웹 사용", color:"#ef4444" },
         ].map(item => (
           <div key={item.id} style={{ background: item.color + "12", border: `1px solid ${item.color}35`, borderRadius: 10, padding: 12 }}>
             <div style={{ fontSize: 12, fontWeight: 800, color: item.color }}>케이스 {item.id}</div>
