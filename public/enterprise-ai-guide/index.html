@@ -549,12 +549,22 @@ const OverviewTab = () => (
         </div>
         <div style={{ background: "#1a1000", border: "1px solid #f59e0b35", borderRadius: 10, padding: 14 }}>
           <div style={{ fontSize: 12, fontWeight: 800, color: "#f59e0b", marginBottom: 6 }}>🌐 직접 설치가 어려운 서비스형 모델</div>
-          <div style={{ fontSize: 11, color: "#94a3b8", lineHeight: 1.8 }}>보통 공급사가 운영하는 서비스로 접속해서 쓰는 모델. 예: GPT-5.4, Claude Sonnet 4.6, Gemini 2.5 Pro, Kimi</div>
+          <div style={{ fontSize: 11, color: "#94a3b8", lineHeight: 1.8, marginBottom: 8 }}>보통 공급사가 운영하는 서비스로 접속해서 쓰는 모델. 예: GPT-5.4, Claude Sonnet 4.6, Gemini 2.5 Pro, Kimi</div>
+          <div style={{ background: "#0d111780", borderRadius: 8, padding: 10, fontSize: 11, color: "#cbd5e1", lineHeight: 1.8 }}>
+            쉽게 말하면 <strong style={{ color: "#f8fafc" }}>계약을 하면 공급사가 "사용용 시리얼 넘버" 같은 것(API 키)</strong>을 줍니다. 우리 회사 시스템은 그 키를 넣고 공급사 서버에 연결해서 AI를 쓰는 방식입니다.
+          </div>
         </div>
       </div>
     </div>
     <div style={{ background: "#0d1117", border: "1px solid #1e2433", borderRadius: 12, padding: 18, marginBottom: 16 }}>
       <div style={{ fontSize: 12, fontWeight: 700, color: "#e2e8f0", marginBottom: 12 }}>3️⃣ 마지막: 이 둘의 조합이 실제 케이스</div>
+      <div style={{ background: "#111827", border: "1px solid #334155", borderRadius: 10, padding: 12, marginBottom: 12 }}>
+        <div style={{ fontSize: 11, fontWeight: 700, color: "#e2e8f0", marginBottom: 6 }}>🔌 "연결해서 쓴다"는 뜻이 뭔가?</div>
+        <div style={{ fontSize: 11, color: "#94a3b8", lineHeight: 1.8 }}>
+          우리 회사가 모델 파일을 직접 받는 게 아니라, <strong style={{ color: "#f8fafc" }}>공급사와 계약한 뒤 API 키를 받아</strong> 그 키로 연결해서 쓰는 방식입니다.
+          비유하면 <strong style={{ color: "#f8fafc" }}>소프트웨어 라이선스 키</strong>나 <strong style={{ color: "#f8fafc" }}>시리얼 넘버</strong>를 받아서 서비스를 여는 것과 비슷합니다.
+        </div>
+      </div>
       <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 8 }} className="mobile-stack-2">
         {[
           { id:"A", title:"직접 설치형", sub:"직접 설치 가능한 모델 + 우리 인프라", color:"#10b981" },
