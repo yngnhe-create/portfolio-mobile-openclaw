@@ -65,19 +65,7 @@ const CASES = [
     verdict: "서비스는 외부 AI를 쓰되 기록과 통제는 내부에 두고 싶은 기업에 적합",
   },
   {
-    id: "D", emoji: "🔗", title: "절충안 (사내 게이트웨이)", subtitle: "사내 통제 + 외부 API 조합",
-    color: "#06b6d4", bgColor: "#041a1f", borderColor: "#0891b2",
-    examples: ["마스킹 게이트웨이", "사내 RAG + 외부 API", "사내 포털 + Bedrock"],
-    desc: "사내 서버가 중간에서 통제·마스킹하고, 실제 추론은 외부 API를 쓰는 절충형 구조.",
-    security: 4, cost: 3, ease: 3,
-    training: "원본은 없음", storage: "원본은 내부 / 일부 가공 데이터만 외부 전송", canSee: "원본은 공급자 불가",
-    policy: "마스킹·로그·권한을 사내에서 직접 통제",
-    pros: ["보안과 성능의 절충", "원본 민감정보 보호 가능", "외부 최신 모델 활용 가능", "감사 로그 내부 통제 가능"],
-    cons: ["구조 설계가 중요", "마스킹 실패 시 위험", "게이트웨이 운영 부담 존재"],
-    verdict: "보안과 최신 모델을 둘 다 원하는 기업의 현실적 절충안",
-  },
-  {
-    id: "E", emoji: "🌐", title: "일반 웹/SaaS", subtitle: "개인 플랜·일반 웹 서비스 사용",
+    id: "D", emoji: "🌐", title: "일반 웹/SaaS", subtitle: "개인 플랜·일반 웹 서비스 사용",
     color: "#ef4444", bgColor: "#1a0000", borderColor: "#dc2626",
     examples: ["ChatGPT Plus", "Claude.ai 일반", "Gemini 일반"],
     desc: "개인이 웹에서 바로 쓰는 가장 쉬운 방식. 기업 기밀 용도로는 가장 위험.",
@@ -567,21 +555,33 @@ const OverviewTab = () => (
       </div>
       <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 8 }} className="mobile-stack-2">
         {[
-          { id:"A", title:"직접 설치형", sub:"직접 설치 가능한 모델 + 우리 인프라", color:"#10b981" },
-          { id:"B", title:"격리 클라우드형", sub:"서비스형 모델 + 기업용 격리 클라우드", color:"#8b5cf6" },
-          { id:"C", title:"공급사 서비스 + 우리 서버 저장형", sub:"모델은 외부 서비스 / 저장은 우리 서버", color:"#f59e0b" },
-          { id:"D", title:"사내 게이트웨이 절충안", sub:"우리 통제 + 외부 모델 조합", color:"#06b6d4" },
-          { id:"E", title:"일반 웹/SaaS", sub:"서비스형 모델 + 일반 웹 사용", color:"#ef4444" },
+          { id:"A", title:"직접 설치형", sub:"모델 내부 / 저장 내부", color:"#10b981" },
+          { id:"B", title:"격리 클라우드형", sub:"모델 외부 / 저장 외부(격리)", color:"#8b5cf6" },
+          { id:"C", title:"외부 추론 + 내부 저장형", sub:"모델 외부 / 저장 내부", color:"#f59e0b" },
+          { id:"D", title:"일반 웹/SaaS", sub:"모델 외부 / 저장 외부 가능성 큼", color:"#ef4444" },
         ].map(item => (
-          <div key={item.id} style={{ background: item.color + "12", border: `1px solid ${item.color}35`, borderRadius: 10, padding: 12 }}>
+          <button key={item.id} onClick={() => { setActiveCase(item.id); setActiveTab("cases"); window.scrollTo({top:0, behavior:"smooth"}); }} style={{ background: item.color + "12", border: `1px solid ${item.color}35`, borderRadius: 10, padding: 12, textAlign:"left", cursor:"pointer" }}>
             <div style={{ fontSize: 12, fontWeight: 800, color: item.color }}>케이스 {item.id}</div>
             <div style={{ fontSize: 12, fontWeight: 700, color: "#e2e8f0", marginTop: 4 }}>{item.title}</div>
             <div style={{ fontSize: 11, color: "#94a3b8", marginTop: 3 }}>{item.sub}</div>
-          </div>
+          </button>
         ))}
       </div>
     </div>
-    <GatewayDiagram />
+    <div style={{ background: "#0d1117", border: "1px solid #1e2433", borderRadius: 12, padding: 16, marginBottom: 16 }}>
+      <div style={{ fontSize: 12, fontWeight: 700, color: "#e2e8f0", marginBottom: 10 }}>4️⃣ B와 C의 차이 한 줄로</div>
+      <div style={{ display:"grid", gridTemplateColumns:"1fr 1fr", gap:10 }} className="mobile-stack-2">
+        <div style={{ background:"#130d24", border:"1px solid #7c3aed55", borderRadius:10, padding:12 }}>
+          <div style={{ fontSize:12, fontWeight:800, color:"#8b5cf6", marginBottom:6 }}>케이스 B · 격리 클라우드형</div>
+          <div style={{ fontSize:11, color:"#94a3b8", lineHeight:1.8 }}>모델도 외부 클라우드에서 돌고, 저장도 외부 클라우드에 남을 수 있습니다. 대신 리전, IAM, 감사로그, 네트워크 통제가 강합니다.</div>
+        </div>
+        <div style={{ background:"#1a1000", border:"1px solid #d9770655", borderRadius:10, padding:12 }}>
+          <div style={{ fontSize:12, fontWeight:800, color:"#f59e0b", marginBottom:6 }}>케이스 C · 외부 추론 + 내부 저장형</div>
+          <div style={{ fontSize:11, color:"#94a3b8", lineHeight:1.8 }}>질문은 외부 모델이 처리하지만, 대화 기록·업무 로그·업무 데이터는 우리 서버에 저장합니다. 저장 위치 기준으로는 B보다 더 내부 지향적일 수 있습니다.</div>
+        </div>
+      </div>
+    </div>
+
     <div style={{ marginBottom: 16 }}>
       <div style={{ fontSize: 12, fontWeight: 700, color: "#e2e8f0", marginBottom: 10 }}>🔐 보안을 판단하는 4가지 핵심 질문</div>
       <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 8 }}>
@@ -605,8 +605,7 @@ const OverviewTab = () => (
         { id:"A", analogy:"내 건물에 금고를 직접 설치 → 열쇠도 운영도 내가 관리", color:"#10b981" },
         { id:"B", analogy:"은행 VIP 금고 사용 → 강한 보안 아래 외부 인프라 활용", color:"#8b5cf6" },
         { id:"C", analogy:"기업 전용 우체국 사용 → 빠르고 편하지만 외부 서비스 의존", color:"#f59e0b" },
-        { id:"D", analogy:"사내 경비실이 내용을 확인·가린 뒤 외부 전문기관에 보내줌", color:"#06b6d4" },
-        { id:"E", analogy:"일반 우편함에 중요한 서류를 넣는 것 → 가장 쉬우나 기업용으론 위험", color:"#ef4444" },
+        { id:"D", analogy:"일반 우편함에 중요한 서류를 넣는 것 → 가장 쉬우나 기업용으론 위험", color:"#ef4444" },
       ].map(item => (
         <div key={item.id} style={{ display: "flex", gap: 8, alignItems: "flex-start", marginBottom: 6 }}>
           <Badge text={`케이스 ${item.id}`} color={item.color} />
@@ -655,8 +654,8 @@ const SummaryTab = () => (
         { q: "보안 최우선, 데이터 외부 반출 불가", ans: "케이스 A (내부 설치형)", color: "#10b981", icon: "🏢" },
         { q: "보안도 중요하지만 최신 모델도 강하게 쓰고 싶음", ans: "케이스 B (기업용 격리 클라우드)", color: "#8b5cf6", icon: "🔒" },
         { q: "빠르게 시작하되 대화 기록과 로그는 우리 서버에 두고 싶음", ans: "케이스 C (공급사 서비스 + 우리 서버 저장형)", color: "#f59e0b", icon: "🤝" },
-        { q: "원본 민감정보는 내부에 두고 외부 AI 성능도 쓰고 싶음", ans: "케이스 D (사내 게이트웨이 절충안)", color: "#06b6d4", icon: "🔗" },
-        { q: "가벼운 테스트나 개인 생산성 용도", ans: "케이스 E (일반 웹/SaaS) ⚠️", color: "#ef4444", icon: "⚠️" },
+        { q: "원본 민감정보는 내부에 두고 외부 AI 성능도 쓰고 싶음", ans: "케이스 C (외부 추론 + 내부 저장형)", color: "#06b6d4", icon: "🔗" },
+        { q: "가벼운 테스트나 개인 생산성 용도", ans: "케이스 D (일반 웹/SaaS) ⚠️", color: "#ef4444", icon: "⚠️" },
       ].map(item => (
         <div key={item.q} style={{ display: "flex", gap: 9, alignItems: "flex-start", background: item.color + "08", border: `1px solid ${item.color}20`, borderRadius: 7, padding: "7px 10px", marginBottom: 5 }}>
           <span style={{ fontSize: 16, flexShrink: 0 }}>{item.icon}</span>
@@ -803,7 +802,7 @@ const MultiLLMTab = () => {
               items: [
                 { name: "LiteLLM", desc: "100개 이상의 LLM을 단일 OpenAI 포맷으로 통합. 비용 추적, 폴백, 속도 제한 기능 내장. 가장 널리 쓰이는 오픈소스", badge: "가장 인기", badgeColor: "#10b981" },
                 { name: "OpenRouter", desc: "웹 기반 멀티LLM 라우터. 모델별 가격·성능 비교 후 최저 비용 모델로 자동 라우팅. API 형태 제공", badge: "가성비", badgeColor: "#3b82f6" },
-                { name: "BricksLLM", desc: "기업용 API 게이트웨이. 팀·프로젝트별 사용량·비용 추적, SSO, RBAC 접근 제어 지원", badge: "엔터프라이즈", badgeColor: "#8b5cf6" },
+                { name: "BricksLLM", desc: "기업 환경용 AI 연결 게이트웨이. 팀·프로젝트별 사용량·비용 추적, SSO, RBAC 접근 제어 지원", badge: "엔터프라이즈", badgeColor: "#8b5cf6" },
               ],
             },
             {
