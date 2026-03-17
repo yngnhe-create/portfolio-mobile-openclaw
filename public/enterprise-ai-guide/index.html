@@ -128,27 +128,27 @@ const DELIVERY_METHODS = [
     ],
   },
   {
-    vendor: "LG EXAONE (국내 모델)", logo: "🇰🇷", color: "#f59e0b",
+    vendor: "Qwen (Alibaba)", logo: "🟡", color: "#eab308",
     methods: [
-      { type: "🌐 웹형 API", name: "EXAONE API (FriendliAI)", desc: "웹 기반 API. 별도 GPU 서버 없이 API 키만으로 연동 가능. EXAONE 4.0 제공.", security: 3, tag: "웹형 API" },
-      { type: "📦 온프레미스", name: "EXAONE 온프레미스", desc: "HuggingFace에서 모델 가중치 다운로드 후 사내 서버에 직접 설치. 데이터 완전 내부 처리.", security: 5, tag: "온프레미스" },
-      { type: "🤝 엔터프라이즈", name: "EXAONE 기업 직접 계약", desc: "LG AI Research와 B2B 계약. 기업 전용 모델 및 지원 제공. K-EXAONE(236B) 포함.", security: 4, tag: "엔터프라이즈" },
+      { type: "🌐 Web", name: "Qwen Chat", desc: "브라우저에서 직접 사용. 최신 상용/호스팅 버전 체험 가능.", security: 2, tag: "일반" },
+      { type: "🔌 API", name: "Alibaba Cloud Model Studio API", desc: "qwen3-max / qwen-plus 등 API로 연동. 기업 계약 기반으로 운영 가능.", security: 4, tag: "엔터프라이즈" },
+      { type: "📦 온프레미스", name: "Qwen 오픈웨이트 직접 배포", desc: "Qwen 오픈 모델을 사내 GPU 서버나 프라이빗 클라우드에 직접 설치. 데이터 내부 처리 가능.", security: 5, tag: "온프레미스" },
     ],
   },
   {
-    vendor: "Meta Llama / Mistral (오픈소스)", logo: "🟣", color: "#8b5cf6",
+    vendor: "Moonshot AI (Kimi)", logo: "🌙", color: "#8b5cf6",
     methods: [
-      { type: "📦 온프레미스", name: "자체 서버 직접 설치", desc: "HuggingFace에서 모델 다운로드 후 사내 GPU 서버에 설치. 데이터 100% 통제.", security: 5, tag: "온프레미스" },
-      { type: "☁️ 클라우드 설치", name: "클라우드 VM에 설치", desc: "AWS·Azure·GCP 서버를 빌려서 오픈소스 모델 설치. 유연한 확장 가능.", security: 4, tag: "클라우드" },
-      { type: "🔌 관리형 API", name: "Groq / Together AI 등", desc: "오픈소스 모델을 관리형 API로 제공하는 서드파티 서비스. 빠른 응답 속도.", security: 3, tag: "관리형 API" },
+      { type: "🌐 Web", name: "Kimi Chat", desc: "브라우저 기반 사용. 긴 문맥과 문서 처리 강점.", security: 2, tag: "일반" },
+      { type: "🔌 API", name: "Kimi API / Moonshot API", desc: "기업 시스템에서 API로 연동. 주로 호스팅형 제공.", security: 3, tag: "호스팅 API" },
+      { type: "☁️ 전용 배포", name: "기업 계약형 전용 환경", desc: "일부 기업 대상 전용/격리 환경 협의 가능하나, 기본은 호스팅 API 중심.", security: 4, tag: "전용 환경" },
     ],
   },
   {
-    vendor: "삼성SDS (Brity / FabriX)", logo: "🏢", color: "#94a3b8",
+    vendor: "DeepSeek / GLM 등 중국 오픈모델", logo: "🧠", color: "#06b6d4",
     methods: [
-      { type: "☁️ SaaS", name: "Brity Works (SaaS)", desc: "삼성SDS 클라우드 기반. 메일·메신저·회의록 AI 코파일럿. 다양한 LLM 연계 가능.", security: 3, tag: "SaaS" },
-      { type: "🔒 프라이빗 클라우드", name: "Brity 프라이빗 클라우드", desc: "고객 전용 격리 클라우드. 외부 LLM 연동 가능. 기업 보안 요건 충족.", security: 4, tag: "프라이빗 클라우드" },
-      { type: "💼 기업 AI 플랫폼", name: "FabriX", desc: "사내 데이터·업무시스템을 다양한 LLM과 연결하는 기업용 AI 플랫폼. 삼성SDS 제공.", security: 4, tag: "엔터프라이즈 플랫폼" },
+      { type: "📦 온프레미스", name: "DeepSeek / GLM 자체 설치", desc: "오픈웨이트 또는 배포 가능한 모델을 사내 서버에 직접 설치. 데이터 100% 통제 가능.", security: 5, tag: "온프레미스" },
+      { type: "☁️ 클라우드 설치", name: "AWS·Azure·GCP VM 직접 배포", desc: "클라우드 GPU 서버에 직접 설치해 운영. 리전·네트워크 정책 선택 가능.", security: 4, tag: "클라우드" },
+      { type: "🔌 관리형 API", name: "Together / Fireworks / 기타 서드파티", desc: "중국 오픈모델을 관리형 API로 제공하는 사업자 통해 사용. 빠른 도입 가능.", security: 3, tag: "관리형 API" },
     ],
   },
 ];
@@ -338,20 +338,20 @@ const DeliveryTab = () => (
         </div>
       </div>
     ))}
-    <div style={{ background: "#1a1000", border: "2px solid #f59e0b35", borderRadius: 12, padding: 16, marginTop: 4 }}>
-      <div style={{ fontSize: 12, fontWeight: 700, color: "#f59e0b", marginBottom: 10 }}>🇰🇷 EXAONE 특별 안내 — 웹형 API + 온프레미스 모두 제공</div>
+    <div style={{ background: "#111827", border: "2px solid #06b6d435", borderRadius: 12, padding: 16, marginTop: 4 }}>
+      <div style={{ fontSize: 12, fontWeight: 700, color: "#06b6d4", marginBottom: 10 }}>🇨🇳 중국계 최신 모델 공급 방식 요약</div>
       <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 10, marginBottom: 10 }}>
         <div style={{ background: "#0d111780", borderRadius: 8, padding: 10 }}>
-          <div style={{ fontSize: 11, fontWeight: 700, color: "#3b82f6", marginBottom: 5 }}>🌐 웹형 API</div>
-          <div style={{ fontSize: 11, color: "#94a3b8", lineHeight: 1.7 }}>• FriendliAI 파트너십으로 API 제공<br/>• EXAONE 4.0 Serverless Endpoint<br/>• API 키만으로 사용 (별도 서버 불필요)<br/>• 보안: 외부 서버 전송 (기업 계약 권장)</div>
+          <div style={{ fontSize: 11, fontWeight: 700, color: "#eab308", marginBottom: 5 }}>🟡 Qwen</div>
+          <div style={{ fontSize: 11, color: "#94a3b8", lineHeight: 1.7 }}>• Qwen Chat (웹)<br/>• Alibaba Cloud Model Studio API<br/>• 오픈웨이트 모델은 온프레미스/프라이빗 클라우드 직접 설치 가능<br/>• 공급 방식이 가장 다양함</div>
         </div>
         <div style={{ background: "#0d111780", borderRadius: 8, padding: 10 }}>
-          <div style={{ fontSize: 11, fontWeight: 700, color: "#10b981", marginBottom: 5 }}>📦 온프레미스</div>
-          <div style={{ fontSize: 11, color: "#94a3b8", lineHeight: 1.7 }}>• HuggingFace에서 모델 가중치 다운로드<br/>• EXAONE 3.5: 2.4B / 7.8B / 32B 선택<br/>• K-EXAONE: 236B MoE (대형 GPU 필요)<br/>• 보안: 데이터 완전 내부 처리</div>
+          <div style={{ fontSize: 11, fontWeight: 700, color: "#8b5cf6", marginBottom: 5 }}>🌙 Kimi</div>
+          <div style={{ fontSize: 11, color: "#94a3b8", lineHeight: 1.7 }}>• Kimi Chat (웹)<br/>• Moonshot API 중심<br/>• 기본은 호스팅형 서비스<br/>• 온프레미스보다는 API/전용 환경 협의형에 가까움</div>
         </div>
       </div>
       <div style={{ fontSize: 10, color: "#64748b", lineHeight: 1.6, background: "#0d111780", borderRadius: 6, padding: 8 }}>
-        ℹ️ 상업적 이용 시 라이선스 확인 필요. EXAONE 3.5 이후 버전은 기업 사용 가능 여부를 LG AI Research와 별도 계약 권장. K-EXAONE은 글로벌 오픈웨이트 모델 7위 (Artificial Analysis 기준, 2026.01).
+        ℹ️ 중국계 모델은 공급사마다 차이가 큼. <strong style="color:#e2e8f0">Qwen은 웹·API·온프레미스까지 가장 폭넓고</strong>, Kimi는 호스팅형 중심, DeepSeek/GLM 계열은 오픈모델/서드파티 배포를 통한 온프레미스 활용이 현실적인 경우가 많음.
       </div>
     </div>
   </div>
@@ -413,7 +413,7 @@ const CompareTab = () => (
         { name: "OpenAI (GPT-5.4)", color: "#10b981", logo: "🟢", points: ["기업 계약 시 데이터 AI 학습 미사용 (기본)", "Zero Data Retention(ZDR) 옵션 (계약 승인 시)", "Admin/Audit Log API 제공", "데이터 삭제 요청 시 30일 내 완전 삭제", "SOC2 Type II, ISO27001 인증"] },
         { name: "Anthropic (Claude Sonnet 4.6)", color: "#f97316", logo: "🟠", points: ["기업 API 계약 시 데이터 학습 미사용", "AWS Bedrock 통해 한국 리전 사용 가능", "Claude.ai 무료/Pro: 학습 가능 (설정 필요)"] },
         { name: "Google (Gemini 2.5 Pro)", color: "#3b82f6", logo: "🔵", points: ["Gemini Enterprise: Workspace 데이터 AI 학습 제외", "Cloud Logging 연동 감사 로그", "한국 리전(서울) 저장 가능", "HIPAA·GDPR·ISO27001 인증"] },
-        { name: "LG EXAONE", color: "#f59e0b", logo: "🇰🇷", points: ["웹형 API: FriendliAI 통해 제공 (기업 계약 권장)", "온프레미스: HuggingFace 다운로드 후 자체 설치", "K-EXAONE: 글로벌 오픈웨이트 Top 10 (7위)", "상업 이용 시 LG AI Research 별도 계약 필요"] },
+        { name: "Qwen / Kimi / DeepSeek / GLM", color: "#06b6d4", logo: "🇨🇳", points: ["Qwen: 웹·API·온프레미스까지 공급 방식이 가장 다양", "Kimi: 웹/호스팅 API 중심, 전용 환경은 별도 협의형", "DeepSeek·GLM: 오픈모델/서드파티 배포를 통한 온프레미스 활용 가능", "중국계 모델은 공급 방식과 데이터 정책 차이가 커서 벤더별 확인 필수"] },
       ].map(p => (
         <div key={p.name} style={{ background: "#0d1117", border: `1px solid ${p.color}25`, borderRadius: 10, padding: 12, marginBottom: 8 }}>
           <div style={{ display: "flex", gap: 7, alignItems: "center", marginBottom: 7 }}>
@@ -432,9 +432,9 @@ const ModelsTab = () => {
     { name: "GPT-5.4", maker: "OpenAI", logo: "🟢", color: "#10b981", bgColor: "#052e16", tag: "전반적 최강", desc: "가장 널리 쓰이는 상용 모델 축. 텍스트·이미지·코드 등 거의 모든 업무에서 최상위 수준.", ratings: [["📝 문서·글쓰기",5],["💻 코딩",5],["🔢 수학·분석",5],["🖼️ 이미지 이해",5],["🇰🇷 한국어",4],["⚡ 응답 속도",4]], pros:["가장 넓은 생태계·플러그인","멀티모달(텍스트+이미지+음성)","Function Calling·JSON mode 지원","Azure OpenAI로 격리 환경 제공"], cons:["비용이 높은 편","데이터 주로 미국 서버","오픈소스 아님"], best:"일반 사무, 문서 작성, 코딩, 고객 응대 등 다목적", avoid:"초고속 실시간 서비스, 예산 제한 환경", pricing:"가격은 계약/배포 방식별 상이 (Enterprise/Azure 기준 확인 필요)" },
     { name: "Claude Sonnet 4.6 / Opus", maker: "Anthropic", logo: "🟠", color: "#f97316", bgColor: "#1a0a00", tag: "문서·추론 특화", desc: "안전성과 정확성에 강점. 긴 문서 처리와 복잡한 추론에서 매우 강함.", ratings: [["📝 문서·글쓰기",5],["💻 코딩",5],["🔢 수학·분석",4],["🖼️ 이미지 이해",4],["🇰🇷 한국어",4],["⚡ 응답 속도",4]], pros:["긴 문서 요약·분석 강점","지시 사항 정확히 따르는 능력 탁월","허위 정보 생성 비율 낮음","보고서·계약서 업무에 매우 적합"], cons:["이미지 생성 기능 없음","서드파티 생태계 작음","Opus는 느리고 비용 높음"], best:"내부 보고서, 계약서 검토, 긴 문서 요약, 복잡한 지시", avoid:"이미지 생성, 외부 플러그인 다수 연동", pricing:"가격은 계약/API/Bedrock 경로별 상이" },
     { name: "Gemini 2.5 Pro", maker: "Google", logo: "🔵", color: "#3b82f6", bgColor: "#0c1a2e", tag: "Google 연동 강점", desc: "Google 생태계(Gmail·Drive·Docs) 통합 특화. 초장문 컨텍스트 처리에 강함.", ratings: [["📝 문서·글쓰기",4],["💻 코딩",4],["🔢 수학·분석",4],["🖼️ 이미지 이해",5],["🇰🇷 한국어",4],["⚡ 응답 속도",4]], pros:["Google Workspace 네이티브 연동","초장문 컨텍스트","이미지·영상·오디오 동시 처리","한국 리전(서울) 저장 가능"], cons:["GPT-5.4·Claude 대비 일부 벤치마크 뒤처질 수 있음","Workspace 구독 필요"], best:"Google Workspace 기업, 대용량 문서, 멀티미디어", avoid:"Google 생태계 미사용 기업, 정밀 코딩", pricing:"가격은 Vertex AI / Workspace 계약 기준 확인 필요" },
-    { name: "K-EXAONE / EXAONE 4.0", maker: "LG AI Research", logo: "🇰🇷", color: "#f59e0b", bgColor: "#1a1000", tag: "한국어 최강 + 글로벌 Top 10", desc: "K-EXAONE은 글로벌 오픈웨이트 7위. 한국어 최상위 성능. 웹형 API + 온프레미스 모두 제공.", ratings: [["📝 문서·글쓰기",4],["💻 코딩",4],["🔢 수학·분석",4],["🖼️ 이미지 이해",3],["🇰🇷 한국어",5],["⚡ 응답 속도",4]], pros:["한국어 이해·생성 최상위","국내 법·규제 환경 이해도 높음","온프레미스 배포 가능","웹형 API + 온프레미스 이중 제공"], cons:["영어 등 다국어 GPT-4 대비 낮음","K-EXAONE은 대형 GPU 필요","상업 이용 시 라이선스 계약 필요"], best:"한국어 문서, 국내 규제 대응, 공공·금융·국내 산업", avoid:"영어 중심 글로벌 업무, 라이선스 제약 환경", pricing:"웹 API: FriendliAI 통해 제공 / 온프레미스: 무료 (서버 비용 별도)" },
-    { name: "Meta Llama 3.1 (70B·405B)", maker: "Meta (오픈소스)", logo: "🟣", color: "#8b5cf6", bgColor: "#130d24", tag: "온프레미스 최강자", desc: "오픈소스 모델 중 압도적 성능. 405B는 GPT-4에 근접. 자체 서버 설치로 보안 최강.", ratings: [["📝 문서·글쓰기",4],["💻 코딩",4],["🔢 수학·분석",4],["🖼️ 이미지 이해",3],["🇰🇷 한국어",3],["⚡ 응답 속도",3]], pros:["완전 무료 (상업 이용 가능)","자체 서버 설치 → 데이터 100% 통제","파인튜닝(업무 특화 학습) 가능","오픈소스라 내부 작동 투명"], cons:["고성능 GPU 서버 필요","한국어 성능 영어 대비 낮음","자체 운영 인력 필수"], best:"보안 최우선, 파인튜닝, 장기적 AI 내재화", avoid:"빠른 도입, 한국어 특화, AI 운영 인력 없는 기업", pricing:"무료 (A100 GPU 서버 월 수백~수천만원)" },
-    { name: "Mistral Large / Mixtral", maker: "Mistral AI", logo: "⚪", color: "#94a3b8", bgColor: "#0d1117", tag: "경량 고효율", desc: "유럽산 오픈소스. 가볍고 빠르면서 우수한 성능. GDPR 준수에 유리.", ratings: [["📝 문서·글쓰기",4],["💻 코딩",4],["🔢 수학·분석",3],["🖼️ 이미지 이해",2],["🇰🇷 한국어",3],["⚡ 응답 속도",5]], pros:["유럽 본사 → GDPR 유리","가벼운 모델 → 저사양 GPU도 가능","응답 속도 매우 빠름","오픈소스 + API 모두 제공"], cons:["Llama 405B·GPT-4 대비 성능 낮음","한국어 학습 데이터 부족","이미지 처리 미약"], best:"유럽 규정 준수, 빠른 응답, 코딩 보조", avoid:"한국어 특화, 최고 수준 추론", pricing:"API: 입력 $2 / 출력 $6 (1M 토큰) / 오픈소스 무료" },
+    { name: "Qwen 3 계열", maker: "Alibaba", logo: "🟡", color: "#eab308", bgColor: "#1a1605", tag: "중국계 오픈모델 강자", desc: "웹·API·온프레미스까지 폭넓게 제공되는 중국계 대표 모델. 오픈웨이트와 기업형 API를 모두 활용 가능.", ratings: [["📝 문서·글쓰기",4],["💻 코딩",4],["🔢 수학·분석",4],["🖼️ 이미지 이해",4],["🇰🇷 한국어",3],["⚡ 응답 속도",4]], pros:["공급 방식이 가장 다양함","온프레미스·프라이빗 클라우드 배포 가능","오픈모델치고 성능 강함","API와 자체 배포를 병행 가능"], cons:["기업용 상세 정책은 계약별 확인 필요","한국어/영어 균형은 글로벌 상위 폐쇄형보다 약할 수 있음","고성능 버전은 GPU 요구 높음"], best:"온프레미스와 API를 함께 검토하는 기업, 비용·유연성 중시", avoid:"정책 검증 없이 바로 민감정보 투입", pricing:"웹/클라우드/API/자체 배포 방식별 상이" },
+    { name: "Kimi K2.5", maker: "Moonshot AI", logo: "🌙", color: "#8b5cf6", bgColor: "#130d24", tag: "긴 문맥·호스팅형 강점", desc: "문서 처리와 긴 컨텍스트 쪽에서 강점을 보이는 중국계 호스팅형 모델. 기본은 웹/API 사용 중심.", ratings: [["📝 문서·글쓰기",4],["💻 코딩",4],["🔢 수학·분석",4],["🖼️ 이미지 이해",3],["🇰🇷 한국어",3],["⚡ 응답 속도",4]], pros:["긴 문맥 처리 강점","웹과 API로 빠르게 도입 가능","호스팅형이라 구축이 쉬움"], cons:["온프레미스 선택지는 제한적","기업용 보안 정책은 별도 계약 확인 필요","공급 방식이 Qwen보다 좁음"], best:"긴 문서 처리, 빠른 PoC, 호스팅형 기업 API 검토", avoid:"완전 내부망 필수 환경", pricing:"웹/API 계약 기준 확인 필요" },
+    { name: "DeepSeek / GLM 계열", maker: "DeepSeek / Zhipu AI", logo: "🧠", color: "#06b6d4", bgColor: "#041a1f", tag: "오픈모델·서드파티 배포형", desc: "오픈모델 또는 서드파티 배포를 통해 온프레미스와 클라우드 자체 운영이 가능한 중국계 계열. 비용 효율이 강점.", ratings: [["📝 문서·글쓰기",4],["💻 코딩",4],["🔢 수학·분석",4],["🖼️ 이미지 이해",3],["🇰🇷 한국어",3],["⚡ 응답 속도",4]], pros:["온프레미스 배포 현실성 높음","비용 효율이 좋음","오픈모델 생태계 활용 가능","서드파티 관리형 API 선택지도 존재"], cons:["정책·품질이 배포 경로별로 편차 큼","기업 보안 검증은 직접 해야 함","공식 웹/SaaS보다 자체 운영 비중 큼"], best:"비용 효율형 사내 배포, 프라이빗 클라우드, 연구/개발용", avoid:"공식 엔터프라이즈 지원이 꼭 필요한 환경", pricing:"오픈모델 무료 + 인프라 비용 / 서드파티 API 별도" },
   ];
   return (
     <div>
