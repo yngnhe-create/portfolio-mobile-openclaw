@@ -29,76 +29,64 @@ const { useState } = React;
 
 const CASES = [
   {
-    id: "A", emoji: "🏢", title: "완전 온프레미스", subtitle: "회사 서버 + 자체 AI 모델",
+    id: "A", emoji: "🏢", title: "내부 설치형", subtitle: "온프레미스 또는 우리 클라우드에 직접 설치",
     color: "#10b981", bgColor: "#052e16", borderColor: "#059669",
-    examples: ["Meta Llama 3", "Mistral", "EXAONE (온프레미스)", "HyperCLOVA X"],
-    desc: "회사 서버에 AI 모델 자체 설치. 인터넷 완전 차단 가능. 데이터 외부 유출 없음.",
-    security: 5, cost: 1, ease: 1,
-    training: "없음 (100%)", storage: "사내 서버", canSee: "불가 (기술적으로도 불가)",
-    policy: "해당 없음 (자체 운영)",
-    pros: ["데이터 절대 외부 유출 없음", "인터넷 완전 차단 가능", "규제 요건 충족 용이", "장기 비용 예측 가능"],
-    cons: ["초기 GPU 서버 구축 비용 높음", "AI 모델 직접 관리 필요", "전문 기술 인력 필수"],
-    verdict: "금융·의료·국방 등 최고 보안 요구 산업에 적합",
+    examples: ["사내 GPU 서버", "프라이빗 클라우드", "Qwen/DeepSeek 직접 배포"],
+    desc: "AI 모델을 우리 회사가 직접 설치·운영하는 방식. 데이터 통제력이 가장 높음.",
+    security: 5, cost: 2, ease: 2,
+    training: "구조상 없음", storage: "사내 서버 또는 우리 클라우드", canSee: "공급자 불가 (직접 운영)",
+    policy: "공급자 정책보다 우리 회사 운영 정책이 핵심",
+    pros: ["데이터 통제력 최고", "온프레미스/폐쇄망 가능", "공급자 종속 낮음", "규제 대응에 유리"],
+    cons: ["GPU·운영 인력 필요", "초기 구축 난이도 높음", "최신 최고성능 모델은 직접 운영이 어려울 수 있음"],
+    verdict: "보안 최우선 기업의 가장 강한 선택",
   },
   {
-    id: "B", emoji: "☁️", title: "클라우드 + 자체 모델", subtitle: "퍼블릭 클라우드 + 오픈소스 AI",
-    color: "#3b82f6", bgColor: "#0c1a2e", borderColor: "#2563eb",
-    examples: ["AWS EC2 + Llama 3", "Azure VM + Mistral", "GCP + Gemma"],
-    desc: "클라우드 서버를 빌려서 오픈소스 AI를 직접 설치·운영. AI 공급사 접근 불가.",
-    security: 4, cost: 3, ease: 2,
-    training: "없음 (100%)", storage: "클라우드 (리전 선택 가능)", canSee: "클라우드사 이론상 가능 (계약으로 금지)",
-    policy: "AWS/Azure/GCP: 고객 데이터 열람 금지 계약. ISO27001, SOC2 인증",
-    pros: ["온프레미스보다 빠른 구축", "서버 증설 용이", "한국 리전 선택 가능"],
-    cons: ["클라우드사 기술적 접근 이론상 존재", "GPU 클라우드 비용 높음", "AI 모델 관리 여전히 필요"],
-    verdict: "보안과 유연성을 동시에 원하는 기업에 적합",
-  },
-  {
-    id: "C", emoji: "🔒", title: "전용 클라우드 API", subtitle: "격리된 클라우드에서 API 사용",
+    id: "B", emoji: "🔒", title: "기업용 격리 클라우드", subtitle: "Azure OpenAI / Bedrock / Vertex AI",
     color: "#8b5cf6", bgColor: "#130d24", borderColor: "#7c3aed",
-    examples: ["Azure OpenAI Service", "AWS Bedrock", "GCP Vertex AI"],
-    desc: "클라우드사가 AI 모델을 격리된 환경으로 제공. 데이터가 OpenAI 본사로 전송되지 않음.",
+    examples: ["Azure OpenAI", "AWS Bedrock", "GCP Vertex AI"],
+    desc: "클라우드 안의 기업용 격리 환경에서 강력한 모델을 쓰는 방식. 보안과 성능의 균형형.",
     security: 4, cost: 3, ease: 4,
-    training: "없음 (계약 보장)", storage: "클라우드 내 격리 영역 (리전 선택)", canSee: "클라우드사만 이론상 가능. AI 원공급사 접근 불가",
-    policy: "MS/AWS/Google: HIPAA·GDPR·ISO27001. 한국 리전 보관 가능",
-    pros: ["GPT-4 등 강력한 모델 사용", "AI 원공급사 데이터 접근 불가", "한국 리전 선택 가능"],
-    cons: ["클라우드사 접근 이론상 존재", "클라우드사에 종속", "완전 온프레미스 대비 보안 낮음"],
-    verdict: "강력한 AI 성능 + 높은 보안이 동시에 필요한 기업에 최적",
+    training: "계약상 없음", storage: "선택한 클라우드 리전", canSee: "클라우드 운영사 이론상 가능",
+    policy: "리전·IAM·감사로그·계약으로 통제",
+    pros: ["최신 상용 모델 사용 가능", "보안팀이 설명하기 쉬움", "리전/로그/권한 관리 가능", "구축 속도 빠름"],
+    cons: ["클라우드 종속 존재", "완전 내부 설치형보단 통제력 낮음", "비용 최적화 필요"],
+    verdict: "대부분 기업에 가장 현실적인 표준 선택",
   },
   {
-    id: "D", emoji: "🤝", title: "기업용 API (엔터프라이즈)", subtitle: "AI 공급사와 직접 기업 계약",
+    id: "C", emoji: "🤝", title: "기업용 API", subtitle: "공급사와 직접 계약한 API 사용",
     color: "#f59e0b", bgColor: "#1a1000", borderColor: "#d97706",
-    examples: ["OpenAI Enterprise API", "Anthropic Claude API", "EXAONE 기업 API"],
-    desc: "OpenAI·Anthropic 등과 직접 기업 계약. 일반 사용자와 분리된 전용 환경.",
+    examples: ["OpenAI Enterprise API", "Anthropic API", "Moonshot API"],
+    desc: "기업 계약을 맺고 API로 바로 연동하는 방식. 가장 빨리 도입 가능.",
     security: 3, cost: 3, ease: 5,
-    training: "없음 (기업 계약 기본)", storage: "공급사 서버 (주로 미국)", canSee: "공급사 기술적 접근 가능 (암호화+계약으로 제한)",
-    policy: "OpenAI: ZDR 옵션·30일 삭제. Anthropic: 학습 미사용. Google: 학습 제외 설정",
-    pros: ["가장 강력한 최신 AI 모델", "구축 없이 바로 사용", "감사 로그·관리자 콘솔 제공"],
-    cons: ["데이터 해외 서버 저장", "공급사 정책 변경에 취약", "인터넷 연결 필수"],
-    verdict: "빠른 도입 + 기업 보안 요건이 필요할 때 현실적 선택",
+    training: "정책상/계약상 없음", storage: "공급사 서버", canSee: "공급자 인프라에서 처리",
+    policy: "학습 미사용, 삭제 정책, 감사 기능을 계약으로 확인",
+    pros: ["도입 가장 빠름", "최신 모델 접근 쉬움", "사내 서비스에 붙이기 쉬움", "초기 인프라 부담 적음"],
+    cons: ["해외 서버/외부 인프라 의존", "정책·계약 검토 필수", "공급자 변경 시 영향"],
+    verdict: "빠른 도입과 편의성이 중요한 기업에 적합",
   },
   {
-    id: "F", emoji: "🔗", title: "온프레미스 게이트웨이 + 외부 API", subtitle: "사내 서버가 AI API 중계·통제",
+    id: "D", emoji: "🔗", title: "절충안 (사내 게이트웨이)", subtitle: "사내 통제 + 외부 API 조합",
     color: "#06b6d4", bgColor: "#041a1f", borderColor: "#0891b2",
-    examples: ["사내 RAG 서버 → Claude API", "마스킹 서버 → GPT-4", "사내 포털 → AWS Bedrock"],
-    desc: "사내 서버가 AI 게이트웨이 역할. 민감정보 마스킹 후 외부 API 호출. 원본 데이터는 사내에만 존재.",
+    examples: ["마스킹 게이트웨이", "사내 RAG + 외부 API", "사내 포털 + Bedrock"],
+    desc: "사내 서버가 중간에서 통제·마스킹하고, 실제 추론은 외부 API를 쓰는 절충형 구조.",
     security: 4, cost: 3, ease: 3,
-    training: "없음 (API 공급사 기업 계약 기반)", storage: "원본: 사내 서버 / API 전송 데이터: 마스킹 후 전송", canSee: "원본 데이터: 접근 불가 / 마스킹 데이터만 공급사 수신",
-    policy: "게이트웨이에서 민감정보 마스킹 후 전송 → 공급사가 보는 데이터에 원본 기밀 없음",
-    pros: ["강력한 외부 AI 모델 활용 가능", "민감정보 마스킹으로 보안 강화", "사내 로그 완전 통제", "AI 모델 자체 관리 불필요"],
-    cons: ["게이트웨이 서버 구축·운영 필요", "인터넷 연결 필수", "마스킹 설계 잘못되면 보안 취약", "초기 구조 설계 비용 큼"],
-    verdict: "보안도 챙기고 최신 AI도 써야 하는 기업의 현실적 절충안",
+    training: "원본은 없음", storage: "원본은 내부 / 일부 가공 데이터만 외부 전송", canSee: "원본은 공급자 불가",
+    policy: "마스킹·로그·권한을 사내에서 직접 통제",
+    pros: ["보안과 성능의 절충", "원본 민감정보 보호 가능", "외부 최신 모델 활용 가능", "감사 로그 내부 통제 가능"],
+    cons: ["구조 설계가 중요", "마스킹 실패 시 위험", "게이트웨이 운영 부담 존재"],
+    verdict: "보안과 최신 모델을 둘 다 원하는 기업의 현실적 절충안",
   },
   {
-    id: "E", emoji: "🌐", title: "일반 API / SaaS", subtitle: "개인/소규모 플랜으로 사용",
+    id: "E", emoji: "🌐", title: "일반 웹/SaaS", subtitle: "개인 플랜·일반 웹 서비스 사용",
     color: "#ef4444", bgColor: "#1a0000", borderColor: "#dc2626",
-    examples: ["ChatGPT Plus/Team", "Claude.ai 일반", "Gemini 무료/Pro"],
-    desc: "기업 계약 없이 개인 계정으로 사용. 다른 사용자와 동일한 서버 공유.",
+    examples: ["ChatGPT Plus", "Claude.ai 일반", "Gemini 일반"],
+    desc: "개인이 웹에서 바로 쓰는 가장 쉬운 방식. 기업 기밀 용도로는 가장 위험.",
     security: 2, cost: 5, ease: 5,
-    training: "설정에 따라 가능 (주의 필요)", storage: "공용 서버 (해외)", canSee: "공급사 접근 가능, 서비스 개선 목적 활용 가능",
-    policy: "기업 계약 없으므로 보호 수준 낮음. 학습 사용 가능 (설정 필요)",
-    pros: ["가장 저렴하거나 무료", "즉시 사용 가능", "별도 인프라 불필요"],
-    cons: ["기업 기밀 정보 입력 위험", "데이터 학습 활용 가능성", "감사 로그 없음"],
-    verdict: "⚠️ 기업 업무용으로는 권장하지 않음",
+    training: "설정 확인 필요", storage: "공용 서버", canSee: "공급자 접근 가능성 높음",
+    policy: "기업 계약이 없으면 보호 수준이 낮을 수 있음",
+    pros: ["가장 빠르고 쉬움", "저렴하거나 무료", "별도 구축 없음"],
+    cons: ["기업 기밀 입력 위험", "감사/통제 약함", "정책 확인 없이 쓰면 위험"],
+    verdict: "테스트용은 가능하지만 기업 핵심 업무용으로는 비추천",
   },
 ];
 
@@ -520,28 +508,23 @@ const OverviewTab = () => (
     <div style={{ background: "#0d1117", border: "1px solid #1e2433", borderRadius: 12, padding: 18, marginBottom: 16 }}>
       <div style={{ fontSize: 12, fontWeight: 700, color: "#e2e8f0", marginBottom: 7 }}>💡 핵심 개념 이해</div>
       <p style={{ fontSize: 12, color: "#94a3b8", lineHeight: 1.8, margin: 0 }}>
-        기업 AI 도입은 <strong style={{ color: "#e2e8f0" }}>어떤 AI 모델</strong>을 쓰느냐와 <strong style={{ color: "#e2e8f0" }}>어떤 인프라</strong>에서 쓰느냐의 조합입니다. 여기에 <strong style={{ color: "#06b6d4" }}>온프레미스 서버로 외부 API를 중계·통제하는 방식</strong>까지 더하면 총 6가지 케이스가 나옵니다.
+        복잡하게 보이지만 실제로는 <strong style={{ color: "#e2e8f0" }}>5가지</strong>로 보면 됩니다: <strong style={{ color: "#10b981" }}>내부 설치형</strong>, <strong style={{ color: "#8b5cf6" }}>기업용 격리 클라우드</strong>, <strong style={{ color: "#f59e0b" }}>기업용 API</strong>, <strong style={{ color: "#06b6d4" }}>사내 게이트웨이 절충안</strong>, <strong style={{ color: "#ef4444" }}>일반 웹/SaaS</strong>.
       </p>
     </div>
     <div style={{ background: "#0d1117", border: "1px solid #1e2433", borderRadius: 12, padding: 18, marginBottom: 16 }}>
-      <div style={{ fontSize: 11, color: "#64748b", textAlign: "center", marginBottom: 12 }}>▼ LLM × 인프라 조합 매트릭스 (총 6가지 케이스)</div>
-      <div style={{ display: "grid", gridTemplateColumns: "78px 1fr 1fr", gap: 3 }}>
-        <div />
-        {["🏢 온프레미스 인프라", "☁️ 퍼블릭 클라우드"].map(h => (
-          <div key={h} style={{ background: "#1e2433", borderRadius: 7, padding: "7px 10px", fontSize: 11, color: "#94a3b8", textAlign: "center", fontWeight: 600 }}>{h}</div>
-        ))}
+      <div style={{ fontSize: 11, color: "#64748b", textAlign: "center", marginBottom: 12 }}>▼ 더 단순하게 보면 3개 기본형 + 1개 절충안 + 1개 비추천</div>
+      <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 8 }} className="mobile-stack-2">
         {[
-          { label: "🧠 오픈소스\nLLM", cells: [{ id:"A", name:"케이스 A", color:"#10b981", sub:"완전 온프레미스" }, { id:"B", name:"케이스 B", color:"#3b82f6", sub:"클라우드+자체모델" }] },
-          { label: "🔌 기업용\nAPI", cells: [{ id:"F", name:"케이스 F ✨", color:"#06b6d4", sub:"게이트웨이+외부API" }, { id:"CDE", name:"케이스 C·D·E", color:"#8b5cf6", sub:"격리/엔터프라이즈/일반" }] },
-        ].map(row => (
-          <div key={row.label} style={{ display: "contents" }}>
-            <div style={{ background: "#1e2433", borderRadius: 7, padding: 8, fontSize: 10, color: "#94a3b8", textAlign: "center", fontWeight: 600, display: "flex", alignItems: "center", justifyContent: "center", whiteSpace: "pre-line" }}>{row.label}</div>
-            {row.cells.map(cell => (
-              <div key={cell.id} style={{ background: cell.color + "15", border: `1px solid ${cell.color}35`, borderRadius: 7, padding: "10px 12px" }}>
-                <div style={{ color: cell.color, fontWeight: 700, fontSize: 12 }}>{cell.name}</div>
-                <div style={{ color: "#64748b", fontSize: 11, marginTop: 2 }}>{cell.sub}</div>
-              </div>
-            ))}
+          { id:"A", title:"내부 설치형", sub:"우리가 직접 설치·운영", color:"#10b981" },
+          { id:"B", title:"기업용 격리 클라우드", sub:"보안과 성능의 균형형", color:"#8b5cf6" },
+          { id:"C", title:"기업용 API", sub:"가장 빠른 도입형", color:"#f59e0b" },
+          { id:"D", title:"사내 게이트웨이 절충안", sub:"사내 통제 + 외부 AI", color:"#06b6d4" },
+          { id:"E", title:"일반 웹/SaaS", sub:"가장 쉽지만 기업용 비추천", color:"#ef4444" },
+        ].map(item => (
+          <div key={item.id} style={{ background: item.color + "12", border: `1px solid ${item.color}35`, borderRadius: 10, padding: 12 }}>
+            <div style={{ fontSize: 12, fontWeight: 800, color: item.color }}>케이스 {item.id}</div>
+            <div style={{ fontSize: 12, fontWeight: 700, color: "#e2e8f0", marginTop: 4 }}>{item.title}</div>
+            <div style={{ fontSize: 11, color: "#94a3b8", marginTop: 3 }}>{item.sub}</div>
           </div>
         ))}
       </div>
@@ -567,12 +550,11 @@ const OverviewTab = () => (
     <div style={{ background: "#0d1117", border: "1px solid #1e2433", borderRadius: 12, padding: 16 }}>
       <div style={{ fontSize: 12, fontWeight: 700, color: "#f59e0b", marginBottom: 9 }}>📖 쉬운 비유로 이해하기</div>
       {[
-        { id:"A", analogy:"내 건물에 직접 금고 설치 → 열쇠도 나만 가짐", color:"#10b981" },
-        { id:"B", analogy:"남의 건물 빌려서 내 금고 설치 → 건물주는 건물만 관리", color:"#3b82f6" },
-        { id:"C", analogy:"은행 금고 내 전용 칸에 보관 → 다른 은행(AI 본사)은 접근 불가", color:"#8b5cf6" },
-        { id:"F", analogy:"내 건물 경비원이 방문자 확인 후 외부 기관에 심부름 → 원본 서류는 내부, 요약본만 전달", color:"#06b6d4" },
-        { id:"D", analogy:"기업 전용 우체국 사용 → 일반 우편보다 보안 강화, 계약으로 보호", color:"#f59e0b" },
-        { id:"E", analogy:"일반 우체국 사용 → 편리하지만 보안 낮음", color:"#ef4444" },
+        { id:"A", analogy:"내 건물에 금고를 직접 설치 → 열쇠도 운영도 내가 관리", color:"#10b981" },
+        { id:"B", analogy:"은행 VIP 금고 사용 → 강한 보안 아래 외부 인프라 활용", color:"#8b5cf6" },
+        { id:"C", analogy:"기업 전용 우체국 사용 → 빠르고 편하지만 외부 서비스 의존", color:"#f59e0b" },
+        { id:"D", analogy:"사내 경비실이 내용을 확인·가린 뒤 외부 전문기관에 보내줌", color:"#06b6d4" },
+        { id:"E", analogy:"일반 우편함에 중요한 서류를 넣는 것 → 가장 쉬우나 기업용으론 위험", color:"#ef4444" },
       ].map(item => (
         <div key={item.id} style={{ display: "flex", gap: 8, alignItems: "flex-start", marginBottom: 6 }}>
           <Badge text={`케이스 ${item.id}`} color={item.color} />
@@ -618,12 +600,11 @@ const SummaryTab = () => (
     <div style={{ marginTop: 16, background: "#0d1117", border: "1px solid #1e2433", borderRadius: 12, padding: 16 }}>
       <div style={{ fontSize: 12, fontWeight: 700, color: "#e2e8f0", marginBottom: 10 }}>🗺️ 우리 회사엔 어떤 케이스?</div>
       {[
-        { q: "보안 최우선, 인터넷도 안 됨", ans: "케이스 A (완전 온프레미스)", color: "#10b981", icon: "🏢" },
-        { q: "보안 중요 + 유연한 확장도 필요", ans: "케이스 B (클라우드 + 자체 모델)", color: "#3b82f6", icon: "☁️" },
-        { q: "GPT-4 쓰되 OpenAI 본사로 데이터 전송 불가", ans: "케이스 C (Azure OpenAI / AWS Bedrock)", color: "#8b5cf6", icon: "🔒" },
-        { q: "사내 서버로 외부 AI API 통제·마스킹 후 사용", ans: "케이스 F (온프레미스 게이트웨이)", color: "#06b6d4", icon: "🔗" },
-        { q: "빠른 도입 + 기업 보안 요건 충족", ans: "케이스 D (기업용 API 엔터프라이즈)", color: "#f59e0b", icon: "🤝" },
-        { q: "간단한 테스트, 개인 사용 (기밀 입력 금지!)", ans: "케이스 E (일반 API) ⚠️", color: "#ef4444", icon: "⚠️" },
+        { q: "보안 최우선, 데이터 외부 반출 불가", ans: "케이스 A (내부 설치형)", color: "#10b981", icon: "🏢" },
+        { q: "보안도 중요하지만 최신 모델도 강하게 쓰고 싶음", ans: "케이스 B (기업용 격리 클라우드)", color: "#8b5cf6", icon: "🔒" },
+        { q: "빠르게 시작하고 싶고 사내 서비스에 붙이고 싶음", ans: "케이스 C (기업용 API)", color: "#f59e0b", icon: "🤝" },
+        { q: "원본 민감정보는 내부에 두고 외부 AI 성능도 쓰고 싶음", ans: "케이스 D (사내 게이트웨이 절충안)", color: "#06b6d4", icon: "🔗" },
+        { q: "가벼운 테스트나 개인 생산성 용도", ans: "케이스 E (일반 웹/SaaS) ⚠️", color: "#ef4444", icon: "⚠️" },
       ].map(item => (
         <div key={item.q} style={{ display: "flex", gap: 9, alignItems: "flex-start", background: item.color + "08", border: `1px solid ${item.color}20`, borderRadius: 7, padding: "7px 10px", marginBottom: 5 }}>
           <span style={{ fontSize: 16, flexShrink: 0 }}>{item.icon}</span>
