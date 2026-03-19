@@ -103,7 +103,7 @@
 
         <div class="row" style="margin-top:14px">
           <button class="btn-good" onclick="maskAll()">전체 마스킹</button>
-          <button class="btn-secondary" onclick="semanticMasking()">의미 보존형 치환</button>
+          <button class="btn-secondary" onclick="semanticMasking()">의미보존형 치환 적용</button>
           <button class="btn-secondary" onclick="keepOriginal()">원본 유지</button>
           <button class="btn-primary" onclick="applySelectedMasking()">선택 반영</button>
         </div>
@@ -114,7 +114,7 @@
     <div class="two" style="margin-top:16px">
       <div class="card">
         <h2>3) 외부 AI 전송 직전 프롬프트 / 의미 보존형 치환 결과</h2>
-        <p class="muted">아래 내용이 최종적으로 외부 AI 서비스(ChatGPT/Claude/Gemini 등)에 전달되는 본문이다.</p>
+        <p class="muted">아래 내용이 최종적으로 외부 AI 서비스(ChatGPT/Claude/Gemini 등)에 전달되는 본문이다.</p><div id="modeBanner" class="badge b-yellow" style="margin:10px 0 12px">현재 적용 모드: 미적용</div>
         <div class="box" id="maskedOutput">탐지 후 결과가 여기에 표시됩니다.</div>
         <div class="row" style="margin-top:12px">
           <button class="btn-primary" onclick="simulateSend()">외부 AI로 전송 시뮬레이션</button>
@@ -310,7 +310,7 @@ let findings = [];
 
       findings = findings.sort((a,b)=>a.start-b.start || a.end-b.end || (b.text.length-a.text.length));
       renderFindings();
-      applySelectedMasking();
+      semanticMasking();
     }
 
     function renderFindings(){
@@ -354,13 +354,14 @@ let findings = [];
     function maskAll(){
       findings.forEach(f => f.enabled = true);
       renderFindings();
-      applySelectedMasking();
+      semanticMasking();
     }
 
     function keepOriginal(){
       keptOriginal = true;
       document.getElementById('maskedOutput').textContent = currentOriginal || '원본이 없습니다.';
       document.getElementById('routeType').textContent = '원본 유지 선택';
+      const mb=document.getElementById('modeBanner'); if(mb) mb.textContent='현재 적용 모드: 원본 유지';
     }
 
     function applySelectedMasking(){
@@ -374,6 +375,7 @@ let findings = [];
       currentMasked = result;
       document.getElementById('maskedOutput').textContent = currentMasked || '마스킹 결과가 없습니다.';
       document.getElementById('routeType').textContent = active.length ? '마스킹 후 전송' : '원본 전송';
+      const mb=document.getElementById('modeBanner'); if(mb) mb.textContent = active.length ? '현재 적용 모드: 선택/전체 마스킹' : '현재 적용 모드: 원본 전송';
     }
 
 
@@ -427,6 +429,7 @@ let findings = [];
       currentMasked = semanticTransform(currentOriginal);
       document.getElementById('maskedOutput').textContent = currentMasked;
       document.getElementById('routeType').textContent = '의미 보존형 치환 후 전송';
+      const mb=document.getElementById('modeBanner'); if(mb) mb.textContent='현재 적용 모드: 의미보존형 치환';
     }
 
     function simulateSend(){
