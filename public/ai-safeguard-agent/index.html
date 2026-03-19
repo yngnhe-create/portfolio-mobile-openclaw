@@ -195,10 +195,62 @@
       });
       return arr;
     }
+
+    function detectBlockSecrets(text){
+      const arr = [];
+      const blocks = text.split(/(?<=[\.\n])/);
+      let cursor = 0;
+      for(const block of blocks){
+        const trimmed = block.trim();
+        const start = text.indexOf(block, cursor);
+        const end = start + block.length;
+        cursor = end;
+        if(trimmed.length < 10) continue;
+        const hasProject = /(TS Task|Project\s?[A-Z]|프로젝트|Task|코드명)/i.test(trimmed);
+        const hasBusiness = /(신규|공장|착수|투자|공동 투자|신소재|메모리|6세대|사업|본부|JV|양산)/i.test(trimmed);
+        const hasContract = /(계약|기간|체결|상대|엔비디아|협력사|거래처)/i.test(trimmed);
+        const hasScale = /(1\.5조|조|억원|\d+명|27년|28년|30년\s?9월|아리조나)/i.test(trimmed);
+        if((hasProject && hasBusiness) || (hasBusiness && hasContract) || (hasBusiness && hasScale)){
+          addFinding(arr, {
+            id: 'blk-' + start + '-' + end,
+            type: '기밀 문장 블록',
+            risk: 'high',
+            mode: 'ai-like-context',
+            text: trimmed,
+            reason: '사업내용·프로젝트명·계약/투자/일정이 결합된 고위험 문맥',
+            mask: '[기밀사업내용]',
+            enabled: true,
+            start,
+            end
+          });
+        }
+      }
+      return arr;
+    }
 let findings = [];
     let currentOriginal = '';
     let currentMasked = '';
     let keptOriginal = false;
+
+    function normalizeText(text){
+      let t = text;
+      const replacements = [
+        [/프\s*로젝트/g, '프로젝트'],
+        [/신소\s*재/g, '신소재'],
+        [/투\s*자/g, '투자'],
+        [/연라\s*4처/g, '연락처'],
+        [/계야\s*4/g, '계약'],
+        [/본\s*부/g, '본부'],
+        [/직\s*급/g, '직급'],
+        [/성\s*명/g, '성명'],
+        [/기\s*간/g, '기간']
+      ];
+      replacements.forEach(([r, v]) => {
+        t = t.replace(r, v);
+      });
+      t = t.replace(/\s{2,}/g, ' ');
+      return t;
+    }
 
     function escapeHtml(str){
       return str.replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[ch]));
@@ -209,7 +261,7 @@ let findings = [];
     }
 
     function loadSample2(){
-      document.getElementById('promptInput').value = 'LG전자와 협력사A 간 Project Falcon 관련 신규 공장 투자 계획 검토 자료입니다. 2026년 4월 이사회 안건으로 상정 예정이며 예상 투자금액은 1,250억원입니다. 동남아 JV 설립과 파일럿 라인 증설이 포함되며 작성자는 박민수 부장입니다.';
+      document.getElementById('promptInput').value = '나는 [기업명]와 엔비디아가 27년 신규 [프 로젝트명] TS Task를 추진하고 있고, 신소 재를 이용해서 1NM 메모리 6세대를 공동 투자해서 미국 아리조나에 28년부터 공장 착수와 2000명의 현지인원 고용 그리고 투 자 금액은 1.5조, 전체 계약기간은 30년9월 까지야. 이 계약의 담당자는 [기업명] DS 본 부의 [성명] [직급]이고, 실무자는 김건후 [연라4처] 010-2222-3333 야. 이 내용에 대해서 [성명] [직급] 한테 이 계약건에 대해 메일을 보내려는데 초안 작성해줘';
     }
 
     function resetAll(){
@@ -226,7 +278,8 @@ let findings = [];
     }
 
     function analyzePrompt(){
-      const text = document.getElementById('promptInput').value.trim();
+      const rawText = document.getElementById('promptInput').value.trim();
+      const text = normalizeText(rawText);
       currentOriginal = text;
       findings = [];
       keptOriginal = false;
@@ -252,6 +305,7 @@ let findings = [];
       });
 
       detectContextualSensitive(text).forEach(f => addFinding(findings, f));
+      detectBlockSecrets(text).forEach(f => addFinding(findings, f));
 
       findings = findings.sort((a,b)=>a.start-b.start || a.end-b.end || (b.text.length-a.text.length));
       renderFindings();
