@@ -389,37 +389,72 @@ let findings = [];
     }
 
     function semanticTransform(text){
-      let t = text;
-      // company/entity role-based replacements
-      t = t.replace(/삼성전자/g, '[국내 메모리 기업 A]');
-      t = t.replace(/엔비디아/g, '[미국 AI 반도체 기업 B]');
+      let t = normalizeText(text);
+      // board / meeting documents
+      t = t.replace(/제\s*\d+차\s*이사회\s*회의록/g, '[이사회 회의록]');
+      t = t.replace(/이사회/g, '[경영 의사결정 회의]');
+      t = t.replace(/안건\s*\d+/g, '[안건]');
+      t = t.replace(/전원\s*찬성으로\s*승인/g, '[내부 의사결정 결과]');
+      t = t.replace(/\d+:\d+로\s*승인[^
+]*/g, '[내부 의사결정 결과]');
+      t = t.replace(/차기\s*이사회[^
+]*/g, '[차기 내부 의사결정 일정]');
+
+      // company / counterparties
+      t = t.replace(/삼성전자/g, '[국내 대기업 A]');
+      t = t.replace(/엔비디아|보스턴\s*다이나믹스/g, '[외부 파트너사]');
       t = t.replace(/(기업명A|기업명B|\[기업명\])/g, '[기업명]');
-      // project/code name
-      t = t.replace(/TS Task|Project\s?[A-Z][A-Za-z0-9_-]+|프로젝트\s?[가-힣A-Za-z0-9_-]+/g, '[차세대 공동개발 프로젝트]');
-      // tech details
+
+      // project / code names / products
+      t = t.replace(/TS Task|Project\s?[A-Z][A-Za-z0-9_-]+|프로젝트\s?[가-힣A-Za-z0-9_-]+|코드명\s*[A-Za-z0-9_-]+|Rex/g, '[프로젝트명]');
+      t = t.replace(/산업용\s*물류\s*로봇/g, '[신규 제품군]');
+
+      // people / titles
+      t = t.replace(/([가-힣]{2,4})\s*(부회장|사장|부사장|부사징|전무|상무|부문장|센터장|사외이사|감사)/g, '[임원]');
+      t = t.replace(/\[성명\]\s*\[직급\]/g, '[임원]');
+
+      // business / technology
+      t = t.replace(/GAA\s*2nm/gi, '[차세대 공정]');
       t = t.replace(/1NM/gi, '[초미세 공정]');
       t = t.replace(/6세대/g, '[차세대 세대]');
       t = t.replace(/신소재/g, '[차세대 신소재]');
-      t = t.replace(/메모리/g, '[메모리 기술]');
-      // geography
-      t = t.replace(/미국\s*아리조나/g, '[북미 생산거점]');
-      // dates / time
-      t = t.replace(/27년/g, '[초기 추진 시점]');
-      t = t.replace(/28년부터/g, '[이듬해 착수 예정]');
-      t = t.replace(/30년\s*9월\s*까지|30년9월\s*까지/g, '[장기 계약 종료 시점]');
-      // scale and hiring
-      t = t.replace(/2000명의\s*현지인원\s*고용|2000명\s*의?\s*현지인원\s*고용|2000명\s*고용/g, '[수천 명 규모의 현지 고용]');
-      // amount
+      t = t.replace(/메모리/g, '[핵심 반도체 기술]');
+      t = t.replace(/QD-OLED\s*IT\s*패널\s*라인/gi, '[디스플레이 신규 라인]');
+      t = t.replace(/설비투자\s*계획/g, '[설비투자 계획]');
+      t = t.replace(/공장\s*착수|라인\s*증설|로봇사업부\s*신설|기술\s*제휴\s*MOU\s*체결\s*예정/g, '[사업 추진 내용]');
+
+      // locations
+      t = t.replace(/서울\s*서초구\s*삼성타운\s*본관\s*20층\s*대회의실/g, '[본사 회의 장소]');
+      t = t.replace(/평택\s*4공장|아산|미국\s*텍사스\s*테일러\s*2공장|미국\s*아리조나/g, '[사업 거점]');
+
+      // organizations
+      t = t.replace(/DS부문\s*메모리사업부장|DS부문\s*핵심\s*반도체\s*기술사업부장|DS\s*본부|MX사업부장|AI센터장/g, '[조직명]');
+
+      // dates / schedule
+      t = t.replace(/2026년\s*3월\s*15일\s*14:00/g, '[회의 일시]');
+      t = t.replace(/2026년\s*5월\s*20일/g, '[향후 일정]');
+      t = t.replace(/2027년|27년/g, '[중기 시점]');
+      t = t.replace(/2028년|28년부터/g, '[이후 추진 시점]');
+      t = t.replace(/2030년\s*9월까지|30년\s*9월\s*까지|30년9월\s*까지/g, '[장기 계약 종료 시점]');
+      t = t.replace(/2026년\s*3월|2026년|2028년|2030년/g, '[년도]');
+
+      // headcount and money
+      t = t.replace(/2000명의\s*현지인원\s*고용|2000명\s*의?\s*현지인원\s*고용|2000명\s*고용/g, '[대규모 현지 고용 계획]');
+      t = t.replace(/15조원/g, '[10조원대 투자]');
+      t = t.replace(/3조원/g, '[조 단위 투자]');
+      t = t.replace(/\$17B/g, '[대규모 해외 투자]');
+      t = t.replace(/2,000억원/g, '[수천억원 투자]');
       t = t.replace(/1\.5조/g, '[1조원대 중반 투자]');
-      t = t.replace(/(\d{1,3}(,\d{3})*(\.\d+)?)\s?(억원|조원|만원|원)/g, '[투자금액]');
-      // org/person/contact
-      t = t.replace(/DS\s*본부/g, '[핵심 사업조직]');
-      t = t.replace(/김지현\s*상무/g, '[담당 임원]');
-      t = t.replace(/김건후/g, '[실무 담당자]');
+      t = t.replace(/(\d{1,3}(,\d{3})*(\.\d+)?)\s?(억원|조원|만원|원)/g, '[금액]');
+
+      // contact
       t = t.replace(/01[0-9]-?\d{3,4}-?\d{4}/g, '[연락처]');
-      // smooth phrasing
-      t = t.replace(/공동\s*투자/g, '공동 투자');
-      t = t.replace(/공장\s*착수/g, '공장 착수');
+
+      // cleanup
+      t = t.replace(/(\[조직명\]\s*){2,}/g, '[조직명] ');
+      t = t.replace(/(\[프로젝트명\]\s*){2,}/g, '[프로젝트명] ');
+      t = t.replace(/(\[사업 거점\]\s*){2,}/g, '[사업 거점] ');
+      t = t.replace(/\s{2,}/g, ' ').trim();
       return t;
     }
 
