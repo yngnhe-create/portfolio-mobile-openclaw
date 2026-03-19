@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Safeguard Agent PoC</title>
+  <style>
+    *{box-sizing:border-box;margin:0;padding:0}
+    :root{
+      --bg:#0b1020;--card:#121a30;--card2:#1a2442;--text:#e7ecf7;--sub:#93a3c7;
+      --line:#2a355a;--red:#ff5d73;--yellow:#ffcc4d;--green:#41d392;--blue:#5b8cff;--cyan:#41c7ff;
+    }
+    body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans KR',sans-serif;background:linear-gradient(180deg,#08101e,#0b1020 30%,#0a0f1a);color:var(--text);line-height:1.5}
+    .wrap{max-width:1200px;margin:0 auto;padding:24px 16px 80px}
+    .hero{background:linear-gradient(135deg,#1a2442,#10172d);border:1px solid var(--line);border-radius:18px;padding:24px;margin-bottom:18px;box-shadow:0 10px 30px rgba(0,0,0,.25)}
+    .eyebrow{display:inline-block;color:var(--cyan);font-size:12px;font-weight:700;letter-spacing:.08em;margin-bottom:10px}
+    h1{font-size:28px;line-height:1.2;margin-bottom:10px}
+    .lead{color:var(--sub);font-size:15px;max-width:900px}
+    .grid{display:grid;grid-template-columns:1.2fr .8fr;gap:16px}
+    .card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px}
+    .card h2{font-size:18px;margin-bottom:10px}
+    .muted{color:var(--sub)}
+    textarea{width:100%;min-height:240px;background:#0a1122;color:var(--text);border:1px solid var(--line);border-radius:14px;padding:16px;font-size:14px;resize:vertical;outline:none}
+    textarea:focus{border-color:var(--blue);box-shadow:0 0 0 3px rgba(91,140,255,.12)}
+    .row{display:flex;gap:10px;flex-wrap:wrap}
+    button{border:none;border-radius:12px;padding:12px 16px;font-weight:700;cursor:pointer}
+    .btn-primary{background:var(--blue);color:#fff}
+    .btn-secondary{background:#223154;color:#dce6ff}
+    .btn-danger{background:rgba(255,93,115,.14);color:var(--red);border:1px solid rgba(255,93,115,.25)}
+    .btn-good{background:rgba(65,211,146,.14);color:var(--green);border:1px solid rgba(65,211,146,.25)}
+    .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:14px}
+    .stat{background:var(--card2);border:1px solid var(--line);border-radius:12px;padding:12px}
+    .stat .k{font-size:11px;color:var(--sub);margin-bottom:4px}
+    .stat .v{font-size:20px;font-weight:800}
+    .badge{display:inline-flex;align-items:center;gap:6px;padding:6px 10px;border-radius:999px;font-size:12px;font-weight:700}
+    .b-red{background:rgba(255,93,115,.15);color:var(--red);border:1px solid rgba(255,93,115,.25)}
+    .b-yellow{background:rgba(255,204,77,.13);color:var(--yellow);border:1px solid rgba(255,204,77,.25)}
+    .b-green{background:rgba(65,211,146,.13);color:var(--green);border:1px solid rgba(65,211,146,.25)}
+    .detect-list{display:grid;gap:10px;margin-top:12px}
+    .detect-item{background:var(--card2);border:1px solid var(--line);border-radius:12px;padding:12px;display:grid;grid-template-columns:auto 1fr auto;gap:12px;align-items:start}
+    .detect-item input{margin-top:4px}
+    .type{font-size:12px;color:var(--yellow);font-weight:700}
+    .frag{font-size:14px;font-weight:700}
+    .reason{font-size:12px;color:var(--sub)}
+    .pill{padding:4px 8px;border-radius:999px;font-size:11px;font-weight:700}
+    .risk-high{background:rgba(255,93,115,.15);color:var(--red)}
+    .risk-mid{background:rgba(255,204,77,.15);color:var(--yellow)}
+    .risk-low{background:rgba(65,211,146,.15);color:var(--green)}
+    .box{background:#0a1122;border:1px solid var(--line);border-radius:14px;padding:14px;white-space:pre-wrap;word-break:break-word}
+    .two{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+    .small{font-size:12px;color:var(--sub)}
+    .log{max-height:260px;overflow:auto;display:grid;gap:8px}
+    .log-item{background:var(--card2);border:1px solid var(--line);border-radius:12px;padding:12px}
+    .log-head{display:flex;justify-content:space-between;gap:8px;font-size:12px;margin-bottom:8px;color:var(--sub)}
+    .hint{margin-top:10px;padding:12px 14px;border-left:4px solid var(--cyan);background:rgba(65,199,255,.08);border-radius:10px;color:#ccefff;font-size:13px}
+    .footer-note{margin-top:14px;font-size:12px;color:var(--sub)}
+    @media (max-width: 920px){.grid,.two,.stats{grid-template-columns:1fr}.stats{gap:8px}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="hero">
+      <div class="eyebrow">AI SAFEGUARD AGENT · PROTOTYPE</div>
+      <h1>외부 AI 사용 전 민감정보를 자동 탐지·마스킹하는 보안 게이트웨이 PoC</h1>
+      <p class="lead">이 프로토타입은 <b>프롬프트 입력 → 민감정보 탐지 → 마스킹 여부 선택 → 외부 AI 전송 직전 생성</b>까지를 체험하는 목업이다. 실제 외부 AI 호출 대신, 보안 통제 흐름과 사용자 경험을 검증하는 데 초점을 둔다.</p>
+    </div>
+
+    <div class="grid">
+      <div class="card">
+        <h2>1) 프롬프트 입력</h2>
+        <p class="muted">임직원이 외부 AI에 보내려는 문장을 입력한다. 예시 버튼을 눌러 테스트할 수 있다.</p>
+        <div class="row" style="margin:12px 0 10px">
+          <button class="btn-secondary" onclick="loadSample()">예시 불러오기</button>
+          <button class="btn-secondary" onclick="loadSample2()">재무/전략 예시</button>
+          <button class="btn-primary" onclick="analyzePrompt()">민감정보 탐지</button>
+          <button class="btn-danger" onclick="resetAll()">초기화</button>
+        </div>
+        <textarea id="promptInput" placeholder="예: [기업명A]의 신규 공장 투자 계획 관련 계약서로, 총 투자 규모는 3,200억원이며 [기업명B]와 2026년 3월 계약 체결 예정입니다. 담당자는 김지현 상무(연락처: 010-1234-5678)입니다."></textarea>
+
+        <div class="stats">
+          <div class="stat"><div class="k">탐지 건수</div><div class="v" id="detectedCount">0</div></div>
+          <div class="stat"><div class="k">위험도</div><div class="v" id="riskScore">LOW</div></div>
+          <div class="stat"><div class="k">처리 방식</div><div class="v" id="routeType">대기</div></div>
+          <div class="stat"><div class="k">저장 대상</div><div class="v" id="storageType">내부 로그</div></div>
+        </div>
+
+        <div class="hint">
+          <b>쉽게 설명하면</b>: 이 시스템은 임직원이 외부 AI를 직접 쓰기 전에, 회사가 먼저 내용을 읽고 민감정보가 있는지 검사한 뒤 필요한 경우 자동으로 가려서 보내주는 구조다.
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>2) 탐지 결과</h2>
+        <p class="muted">패턴 탐지 + 문맥 이해 탐지 결과를 보여준다. 항목별로 마스킹 여부를 조정할 수 있다.</p>
+        <div class="row" style="margin:12px 0">
+          <span class="badge b-red" id="badgeHigh">고위험 0</span>
+          <span class="badge b-yellow" id="badgeMid">중위험 0</span>
+          <span class="badge b-green" id="badgeLow">저위험 0</span>
+        </div>
+        <div id="detectList" class="detect-list">
+          <div class="small">아직 탐지 결과가 없습니다.</div>
+        </div>
+
+        <div class="row" style="margin-top:14px">
+          <button class="btn-good" onclick="maskAll()">전체 마스킹</button>
+          <button class="btn-secondary" onclick="keepOriginal()">원본 유지</button>
+          <button class="btn-primary" onclick="applySelectedMasking()">선택 반영</button>
+        </div>
+        <div class="footer-note">운영 권장안: 기본값은 <b>전체 마스킹</b>, 원본 유지는 사유 입력과 추가 로깅을 남기도록 설계.</div>
+      </div>
+    </div>
+
+    <div class="two" style="margin-top:16px">
+      <div class="card">
+        <h2>3) 외부 AI 전송 직전 프롬프트</h2>
+        <p class="muted">아래 내용이 최종적으로 외부 AI 서비스(ChatGPT/Claude/Gemini 등)에 전달되는 본문이다.</p>
+        <div class="box" id="maskedOutput">탐지 후 결과가 여기에 표시됩니다.</div>
+        <div class="row" style="margin-top:12px">
+          <button class="btn-primary" onclick="simulateSend()">외부 AI로 전송 시뮬레이션</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>4) 사후 통제 / 감사 로그</h2>
+        <p class="muted">전송 내역, 마스킹 여부, 위험도, 이상징후 판단 근거를 내부 로그로 남긴다.</p>
+        <div class="log" id="auditLog">
+          <div class="small">아직 로그가 없습니다.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const patterns = [
+      { type: '개인정보', risk: 'high', mode: 'pattern', regex: /([가-힣]{2,4})\s?(상무|부장|차장|과장|대리|책임|수석|선임|매니저)/g, mask: '[성명] [직급]', reason:'성명+직급 패턴' },
+      { type: '개인정보', risk: 'high', mode: 'pattern', regex: /01[0-9]-?\d{3,4}-?\d{4}/g, mask: '[연락처]', reason:'휴대전화 패턴' },
+      { type: '개인정보', risk: 'high', mode: 'pattern', regex: /[\w.-]+@[\w.-]+\.[A-Za-z]{2,}/g, mask: '[이메일]', reason:'이메일 패턴' },
+      { type: '개인정보', risk: 'high', mode: 'pattern', regex: /\d{6}-?[1-4]\d{6}/g, mask: '[주민등록번호]', reason:'주민등록번호 패턴' },
+      { type: '재무정보', risk: 'mid', mode: 'pattern', regex: /\b\d{1,3}(,\d{3})*(\.\d+)?\s?(억원|억|만원|조원|백만원|원)\b/g, mask: '[금액]', reason:'금액 패턴' },
+      { type: '일정정보', risk: 'mid', mode: 'pattern', regex: /20\d{2}년\s?\d{1,2}월(\s?\d{1,2}일)?/g, mask: '[날짜]', reason:'날짜 패턴' },
+      { type: '기업 식별 정보', risk: 'mid', mode: 'context', regex: /(LG전자|LG에너지솔루션|삼성전자|현대차|SK하이닉스|네이버|카카오|기업명A|기업명B|협력사A|협력사B)/g, mask: '[기업명]', reason:'기업명 사전 매칭' },
+      { type: '사업 내용', risk: 'mid', mode: 'context', regex: /(신규 공장 투자 계획|미공개 프로젝트|신규 사업 계획|전략 회의|이사회 안건|계약 체결 예정|공장 증설|사업부명)/g, mask: '[사업내용]', reason:'사업/전략 문맥 매칭' },
+      { type: '기타', risk: 'low', mode: 'context', regex: /(내부 의사결정|검토 중|승인 예정|비공개)/g, mask: '[내부정보]', reason:'내부 의사결정 문맥' }
+    ];
+
+    let findings = [];
+    let currentOriginal = '';
+    let currentMasked = '';
+    let keptOriginal = false;
+
+    function escapeHtml(str){
+      return str.replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[ch]));
+    }
+
+    function loadSample(){
+      document.getElementById('promptInput').value = '[기업명A]의 [사업부명] 신규 공장 투자 계획 관련 계약서로, 총 투자 규모는 3,200억원이며 [기업명B]와 2026년 3월 계약 체결 예정입니다. 담당자는 김지현 상무 (연락처: 010-1234-5678, 이메일: jihyun.kim@company.com)입니다.';
+    }
+
+    function loadSample2(){
+      document.getElementById('promptInput').value = 'LG전자와 협력사A 간 신규 사업 계획 검토 자료입니다. 2026년 4월 이사회 안건으로 상정 예정이며 예상 투자금액은 1,250억원입니다. 작성자는 박민수 부장입니다.';
+    }
+
+    function resetAll(){
+      document.getElementById('promptInput').value = '';
+      document.getElementById('detectList').innerHTML = '<div class="small">아직 탐지 결과가 없습니다.</div>';
+      document.getElementById('maskedOutput').textContent = '탐지 후 결과가 여기에 표시됩니다.';
+      document.getElementById('detectedCount').textContent = '0';
+      document.getElementById('riskScore').textContent = 'LOW';
+      document.getElementById('routeType').textContent = '대기';
+      document.getElementById('badgeHigh').textContent = '고위험 0';
+      document.getElementById('badgeMid').textContent = '중위험 0';
+      document.getElementById('badgeLow').textContent = '저위험 0';
+      findings = []; currentOriginal=''; currentMasked=''; keptOriginal=false;
+    }
+
+    function analyzePrompt(){
+      const text = document.getElementById('promptInput').value.trim();
+      currentOriginal = text;
+      findings = [];
+      keptOriginal = false;
+      if(!text){ alert('먼저 프롬프트를 입력해줘.'); return; }
+
+      patterns.forEach((p, idx) => {
+        const regex = new RegExp(p.regex.source, p.regex.flags);
+        let match;
+        while((match = regex.exec(text)) !== null){
+          findings.push({
+            id: idx + '-' + match.index + '-' + match[0],
+            type: p.type,
+            risk: p.risk,
+            mode: p.mode,
+            text: match[0],
+            reason: p.reason,
+            mask: p.mask,
+            enabled: true,
+            start: match.index,
+            end: match.index + match[0].length
+          });
+        }
+      });
+
+      // dedupe overlapping exact matches
+      const seen = new Set();
+      findings = findings.filter(f => {
+        const key = f.start + '|' + f.end + '|' + f.text + '|' + f.type;
+        if(seen.has(key)) return false;
+        seen.add(key); return true;
+      }).sort((a,b)=>a.start-b.start || a.end-b.end);
+
+      renderFindings();
+      applySelectedMasking();
+    }
+
+    function renderFindings(){
+      const list = document.getElementById('detectList');
+      if(findings.length === 0){
+        list.innerHTML = '<div class="small">탐지된 민감정보가 없습니다.</div>';
+        document.getElementById('detectedCount').textContent = '0';
+        document.getElementById('riskScore').textContent = 'LOW';
+        document.getElementById('routeType').textContent = '바로 전송 가능';
+        return;
+      }
+
+      const counts = {high:0, mid:0, low:0};
+      findings.forEach(f => counts[f.risk]++);
+      document.getElementById('badgeHigh').textContent = `고위험 ${counts.high}`;
+      document.getElementById('badgeMid').textContent = `중위험 ${counts.mid}`;
+      document.getElementById('badgeLow').textContent = `저위험 ${counts.low}`;
+      document.getElementById('detectedCount').textContent = String(findings.length);
+      document.getElementById('riskScore').textContent = counts.high > 0 ? 'HIGH' : counts.mid > 0 ? 'MED' : 'LOW';
+      document.getElementById('routeType').textContent = '사전 통제 필요';
+
+      list.innerHTML = findings.map((f, i) => `
+        <label class="detect-item">
+          <input type="checkbox" ${f.enabled ? 'checked' : ''} onchange="toggleFinding('${f.id}', this.checked)">
+          <div>
+            <div class="type">${f.type} · ${f.mode === 'pattern' ? '패턴 탐지' : '문맥 이해 탐지'}</div>
+            <div class="frag">${escapeHtml(f.text)}</div>
+            <div class="reason">${f.reason}</div>
+          </div>
+          <div class="pill ${f.risk==='high'?'risk-high':f.risk==='mid'?'risk-mid':'risk-low'}">${f.risk.toUpperCase()}</div>
+        </label>
+      `).join('');
+    }
+
+    function toggleFinding(id, checked){
+      const target = findings.find(f => f.id === id);
+      if(target) target.enabled = checked;
+      applySelectedMasking();
+    }
+
+    function maskAll(){
+      findings.forEach(f => f.enabled = true);
+      renderFindings();
+      applySelectedMasking();
+    }
+
+    function keepOriginal(){
+      keptOriginal = true;
+      document.getElementById('maskedOutput').textContent = currentOriginal || '원본이 없습니다.';
+      document.getElementById('routeType').textContent = '원본 유지 선택';
+    }
+
+    function applySelectedMasking(){
+      keptOriginal = false;
+      let result = currentOriginal;
+      // replace longer spans first to avoid collisions
+      const active = findings.filter(f=>f.enabled).sort((a,b)=>b.start-a.start || (b.end-b.start)-(a.end-a.start));
+      for(const f of active){
+        result = result.slice(0, f.start) + f.mask + result.slice(f.end);
+      }
+      currentMasked = result;
+      document.getElementById('maskedOutput').textContent = currentMasked || '마스킹 결과가 없습니다.';
+      document.getElementById('routeType').textContent = active.length ? '마스킹 후 전송' : '원본 전송';
+    }
+
+    function simulateSend(){
+      const content = keptOriginal ? currentOriginal : currentMasked;
+      if(!content){ alert('먼저 프롬프트를 분석해줘.'); return; }
+      const enabledCount = findings.filter(f=>f.enabled).length;
+      const timestamp = new Date().toLocaleString('ko-KR');
+      const risk = document.getElementById('riskScore').textContent;
+      const route = document.getElementById('routeType').textContent;
+      const item = document.createElement('div');
+      item.className = 'log-item';
+      item.innerHTML = `
+        <div class="log-head">
+          <span>${timestamp}</span>
+          <span>${route} · 위험도 ${risk}</span>
+        </div>
+        <div style="font-size:12px;margin-bottom:6px;color:#c8d4f2">저장 항목: 사용자ID / 시간 / 탐지유형 / 마스킹여부 / 전송본문 길이 / 응답연계ID</div>
+        <div style="font-size:12px;color:var(--sub);margin-bottom:6px">탐지 ${findings.length}건 · 마스킹 적용 ${enabledCount}건 · 외부 AI 전송 시뮬레이션 완료</div>
+        <div class="box" style="font-size:12px">${escapeHtml(content)}</div>
+      `;
+      const log = document.getElementById('auditLog');
+      if(log.querySelector('.small')) log.innerHTML = '';
+      log.prepend(item);
+      alert('외부 AI 전송 직전 단계까지 시뮬레이션 완료.\n(현재 PoC는 실제 외부 API 호출 없이 보안 흐름만 검증함)');
+    }
+  </script>
+</body>
+</html>
