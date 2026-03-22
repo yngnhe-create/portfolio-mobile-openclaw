@@ -189,8 +189,10 @@ async function loadPlaybook() {
       let valKRW = assetVal.usd ? assetVal.val * usdkrw : assetVal.val;
       let costKRW = costPer.val > 0 ? (costPer.usd ? costPer.val * usdkrw * qty : costPer.val * qty) : 0;
 
-      totalAssets += valKRW;
-      totalCost += costKRW;
+      if (sector !== '현금') {
+        totalAssets += valKRW;
+        totalCost += costKRW;
+      }
       sectorMap[sector] = (sectorMap[sector] || 0) + valKRW;
 
       if (row['배당월'] && row['배당월'] !== '-') {

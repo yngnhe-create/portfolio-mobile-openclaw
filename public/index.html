@@ -102,7 +102,7 @@ body.masked .pval,body.masked .pchg,body.masked .cd-num{filter:blur(8px);user-se
 <button class="mask-btn" id="maskBtn" onclick="toggleMask()">🙈 마스킹</button>
 <div class="topbar">
   <div class="logo"><span>📊</span>투자커멘드</div>
-  <div class="mstat" id="ms">● 로딩 중...</div>
+  <div class="mstat" id="ms">● 업데이트: 2026년 03월 22일 18:03 KST</div>
 </div>
 
 <div class="ticker">
@@ -367,8 +367,10 @@ async function loadPortfolio() {
       let valKRW = assetVal.usd ? assetVal.val * usdkrw : assetVal.val;
       let costKRW = costPer.val > 0 ? (costPer.usd ? costPer.val * usdkrw * qty : costPer.val * qty) : 0;
 
-      totalAssets += valKRW;
-      totalCost += costKRW;
+      if (sector !== '현금') {
+        totalAssets += valKRW;
+        totalCost += costKRW;
+      }
 
       sectorMap[sector] = (sectorMap[sector] || 0) + valKRW;
 

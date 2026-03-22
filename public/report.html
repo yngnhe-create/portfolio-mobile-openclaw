@@ -277,7 +277,9 @@ async function loadReport() {
       const pnlPct = parsePnlPct(row['손익']);
       let valKRW = assetVal.usd ? assetVal.val * usdkrw : assetVal.val;
 
-      totalAssets += valKRW;
+      if (sector !== '현금') {
+        totalAssets += valKRW;
+      }
       sectorMap[sector] = (sectorMap[sector] || { val: 0, items: [] });
       sectorMap[sector].val += valKRW;
       sectorMap[sector].items.push({ name, valKRW, pnlPct, costPer: costPer.val, qty });
