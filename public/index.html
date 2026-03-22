@@ -330,15 +330,18 @@ async function fetchViaProxy(url) {
 
 async function fetchUSDKRW() {
   try {
-    const cached = localStorage.getItem('usdkrw');
-    const ts = parseInt(localStorage.getItem('usdkrwTs') || '0');
-    if (cached && Date.now() - ts < MKT_TTL) { usdkrw = parseFloat(cached); return; }
+    const mktRes = await fetch('data/market_latest.json');
+    if (mktRes.ok) {
+      const mkt = await mktRes.json();
+      const fx = mkt.data && mkt.data.find(d => d.id === 'USDKRW');
+      if (fx && fx.cur > 0) { usdkrw = fx.cur; return; }
+    }
+  } catch(e) {}
+  try {
     const text = await fetchViaProxy('https://query1.finance.yahoo.com/v8/finance/chart/KRW=X?interval=1d&range=1d');
     const d = JSON.parse(text);
     usdkrw = d.chart.result[0].meta.regularMarketPrice || 1450;
-    localStorage.setItem('usdkrw', usdkrw.toString());
-    localStorage.setItem('usdkrwTs', Date.now().toString());
-  } catch(e) { /* use default */ }
+  } catch(e) { /* use default 1450 */ }
 }
 
 async function loadPortfolio() {

@@ -134,8 +134,8 @@ function parseCSV(text) {
 function parseMoney(s) {
   if (!s || s === '-') return { val: 0, usd: false };
   const usd = s.includes('$');
-  const n = parseFloat(s.replace(/[₩$,]/g, '')) || 0;
-  return { val: n, usd };
+  const n = parseFloat(s.replace(/[₩$,+\s]/g, ''));
+  return { val: isNaN(n) ? 0 : Math.abs(n), usd };
 }
 
 function parsePnlPct(s) {
