@@ -125,12 +125,30 @@ async def scrape_main_page(page):
         chunk = raw[idx:idx+400]
         lines = [l.strip() for l in chunk.split('\n') if l.strip()]
         if len(lines) < 3: continue
+        # lines[1] = company, lines[2] = opinion (Buy/매수/etc) or company+title
+        company = lines[1] if len(lines) > 1 else ''
+        # Check if lines[2] is a known opinion keyword
+        opinion_keywords = ['Buy', 'BUY', 'buy', '매수', 'HOLD', 'Hold', '중립', 'SELL', '매도', 'Not Rated']
+        if len(lines) > 2 and lines[2] in opinion_keywords:
+            opinion = lines[2]
+            title = lines[3] if len(lines) > 3 else ''
+            broker = lines[4] if len(lines) > 4 else ''
+        else:
+            # opinion line is missing or merged with title - common for Best
+            opinion = 'BUY'
+            title = lines[2] if len(lines) > 2 else ''
+            # Remove company name prefix from title if present
+            if title.startswith(company + ','):
+                title = title[len(company)+1:].strip()
+            elif title.startswith(company):
+                title = title[len(company):].strip()
+            broker = lines[3] if len(lines) > 3 else ''
         pick = {
             'type': tag.replace('Today ', '').replace(' Report', ''),
-            'company': lines[1] if len(lines) > 1 else '',
-            'opinion': lines[2] if len(lines) > 2 else '',
-            'title': lines[3] if len(lines) > 3 else '',
-            'broker': lines[4] if len(lines) > 4 else '',
+            'company': company,
+            'opinion': opinion,
+            'title': title,
+            'broker': broker,
         }
         tp = re.search(r'목표주가\s+([\d,]+)', chunk)
         pick['target'] = tp.group(1) if tp else ''
@@ -864,6 +882,81 @@ setInterval(updateCountdown, 1000);
 </html>'''
 
 
+def generate_latest_json(data):
+    """report.html용 wisereport_latest.json 생성"""
+    import csv
+    portfolio_stocks = []
+    try:
+        with open(f"{WORKSPACE}/public/portfolio_full.csv", 'r', encoding='utf-8') as f:
+            reader = csv.reader(f)
+            next(reader)  # skip header
+            for row in reader:
+                if row and row[0]:
+                    portfolio_stocks.append(row[0].strip())
+    except: pass
+
+    # top_picks는 그대로
+    top_picks = data.get('top_picks', [])
+
+    # portfolio_reports: reports 중 포트폴리오 종목과 매칭되는 것
+    portfolio_reports = []
+    for r in data.get('reports', []):
+        company = r.get('company', '')
+        for ps in portfolio_stocks:
+            if company in ps or ps in company:
+                portfolio_reports.append({
+                    'company': company,
+                    'broker': r.get('broker', 'WiseReport'),
+                    'title': r.get('title', ''),
+                    'opinion': r.get('opinion', '-'),
+                    'target': f"{r['target_price']:,}" if r.get('target_price') else '-',
+                    'current_price': r.get('current_price', 0),
+                    'upside': f"{r['upside']:+.1f}%" if r.get('upside') else '-',
+                    'summary': r.get('title', '')
+                })
+                break
+
+    # key_reports: 주요 개별종목 리포트 (상위 5개, opinion 있는 것 우선)
+    key_reports = []
+    for nr in data.get('naver_reports', []):
+        if nr.get('opinion') and nr['opinion'] not in ('없음', '', 'N/A'):
+            key_reports.append({
+                'company': nr['company'],
+                'title': nr['title'],
+                'opinion': nr['opinion'],
+                'target': nr.get('target', '-'),
+                'broker': nr.get('broker', '')
+            })
+    # 리포트에서 추가 (company 이름이 실제 종목인 것만)
+    sector_keywords = ['기계','화장품','제약','은행','건설','화학','IT서비스',
+                       '전기제품','판매업체','일간','양방향']
+    for r in data.get('reports', []):
+        if len(key_reports) >= 5: break
+        company = r.get('company', '')
+        if any(kw in company for kw in sector_keywords): continue
+        if company and company not in [kr['company'] for kr in key_reports]:
+            key_reports.append({
+                'company': company,
+                'title': r.get('title', ''),
+                'opinion': r.get('opinion', '-'),
+                'target': f"{r['target_price']:,}" if r.get('target_price') else '-',
+                'broker': r.get('broker', 'WiseReport')
+            })
+
+    latest = {
+        'date': data['date'],
+        'top_picks': top_picks,
+        'portfolio_reports': portfolio_reports,
+        'key_reports': key_reports[:5]
+    }
+
+    latest_path = f"{WORKSPACE}/public/data/wisereport_latest.json"
+    os.makedirs(os.path.dirname(latest_path), exist_ok=True)
+    with open(latest_path, 'w', encoding='utf-8') as f:
+        json.dump(latest, f, ensure_ascii=False, indent=2)
+    log(f"✅ wisereport_latest.json 저장")
+
+
 async def main_async():
     log("=" * 60)
     log("🚀 WiseReport 자동 수집 v2 시작")
@@ -884,6 +977,9 @@ async def main_async():
     with open(OUTPUT_PATH, 'w', encoding='utf-8') as f:
         f.write(html)
     log(f"✅ HTML 저장: {OUTPUT_PATH}")
+
+    # wisereport_latest.json 생성 (report.html 용)
+    generate_latest_json(data)
 
     log("🚀 Cloudflare 배포...")
     result = subprocess.run(

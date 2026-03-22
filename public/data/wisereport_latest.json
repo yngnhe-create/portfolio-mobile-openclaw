@@ -1,64 +1,71 @@
 {
-  "date": "2026-03-17",
+  "date": "2026-03-23",
   "top_picks": [
     {
       "type": "Top",
-      "company": "오리온",
-      "opinion": "BUY",
-      "title": "활발한 신제품 출시와 고무적인 해외 성장",
-      "broker": "상상인증권 김혜미",
-      "target": "160,000"
+      "company": "메가스터디교육",
+      "opinion": "Buy",
+      "title": "국내 교육기업 대장",
+      "broker": "LS증권 정홍식",
+      "target": "60,000"
     },
     {
       "type": "Hot",
-      "company": "케이엠더블유",
-      "opinion": "BUY",
-      "title": "실적 확인하고 매수하시면 늦습니다",
-      "broker": "하나증권 김홍식,이상훈",
-      "target": "50,000"
+      "company": "비에이치",
+      "opinion": "Buy",
+      "title": "밸류에이션의 재평가 시작 : ①애플 폴더블폰 ②피지컬 AI",
+      "broker": "대신증권 박강호,서지원",
+      "target": "35,000"
     },
     {
       "type": "Best",
-      "company": "DN오토모티브",
+      "company": "티엘비",
       "opinion": "BUY",
-      "title": "밸류업의 조건들이 갖춰지고 있다",
-      "broker": "하나증권 송선재",
-      "target": "160,000"
+      "title": "공장투어 후기 (추가 증설 결정)",
+      "broker": "SK증권 박형우",
+      "target": "60,000"
     }
   ],
   "portfolio_reports": [
     {
-      "company": "두산",
-      "broker": "하나증권",
-      "title": "서버 구조의 변화는 중장기 성장의 근거",
+      "company": "DL이앤씨",
+      "broker": "WiseReport",
+      "title": "나는 상한가를 처음 보았다",
       "opinion": "Buy",
-      "target": "1,670,000",
-      "current_price": 1120000,
-      "upside": "+49.1%",
-      "summary": "전자BG 26년 매출 2.1조원 영업이익 5,989억 전망. AI 가속기향 CCL 독점적 지위 지속"
+      "target": "-",
+      "current_price": 24800,
+      "upside": "-",
+      "summary": "건설 섹터 온기 확산. DL이앤씨 상한가 기록 - 건설/리츠 포트폴리오 수혜 기대"
     }
   ],
   "key_reports": [
     {
-      "company": "포스코인터내셔널",
-      "title": "모빌리티사업 밸류데이 후기",
+      "company": "하이브",
+      "title": "성장의 물결 위로, SWIM",
+      "opinion": "-",
+      "target": "-",
+      "broker": "WiseReport"
+    },
+    {
+      "company": "삼양식품",
+      "title": "간담회 후기: 수요보다 공급이 변수, 성장 방향성 유효",
+      "opinion": "-",
+      "target": "-",
+      "broker": "WiseReport"
+    },
+    {
+      "company": "비에이치",
+      "title": "밸류에이션의 재평가 시작: 애플 폴더블폰 + 피지컬 AI",
       "opinion": "Buy",
-      "target": "90,000",
-      "broker": "하나증권"
+      "target": "35,000",
+      "broker": "대신증권 박강호,서지원"
     },
     {
-      "company": "삼성E&A",
-      "title": "실적보다는 높아진 뉴에너지 성장성에 주목",
-      "opinion": "매수",
-      "target": "45,000",
-      "broker": "신한투자증권"
-    },
-    {
-      "company": "태광",
-      "title": "앞으로 좋아질 실적과 주주환원까지",
-      "opinion": "매수",
-      "target": "38,000",
-      "broker": "신한투자증권"
+      "company": "현대오토에버",
+      "title": "Corp.Day 후기: 로봇/SDV가 수익 모델의 구조..",
+      "opinion": "Buy",
+      "target": "510,000",
+      "broker": "유진투자증권"
     }
   ]
 }

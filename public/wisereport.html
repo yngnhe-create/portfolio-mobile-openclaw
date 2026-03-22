@@ -33,15 +33,15 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans KR',sans
 <body>
 <div class="hdr">
   <div class="hdr-ttl">📋 WiseReport</div>
-  <div class="upd">⏱ 2026년 03월 16일 09:47 KST · 오늘 Summary 기준 업데이트</div>
+  <div class="upd">⏱ 2026년 03월 23일 08:15 KST · 총 33건 수집</div>
 </div>
 
 <div class="countdown-box">
   <div>
-    <div style="font-size:12px;opacity:.8;margin-bottom:4px">오늘 핵심 축</div>
-    <div class="cd-timer" id="countdown" style="font-size:22px">반도체 · 성장재평가 · 밸류업</div>
+    <div style="font-size:12px;opacity:.8;margin-bottom:4px">다음 리포트까지</div>
+    <div class="cd-timer" id="countdown">00:00:00</div>
   </div>
-  <div style="text-align:right;font-size:12px;opacity:.8">삼성전자 / 씨어스테크 / 한국단자</div>
+  <div style="text-align:right;font-size:12px;opacity:.8">내일 09:00 KST 📊</div>
 </div>
 
 <div class="sgrid">
@@ -70,68 +70,52 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans KR',sans
   <div class="filter-tab" onclick="filterReports('down',this)">목표가 하향</div>
 </div>
 
-<div style="margin:0 15px 12px;padding:10px 12px;background:rgba(72,52,212,.12);border:1px solid rgba(72,52,212,.25);border-radius:10px;font-size:11px;color:var(--sub);line-height:1.5">
-  ※ 개별 종목 리포트는 목표가/최근종가를 표시하고, 섹터·테마 리포트는 현재가/전일종가 대신 핵심 포인트 중심으로 보여줍니다.
-</div>
-
 <div style="padding:0 15px 5px">
   <div id="report-list">
     
 <div class="report-card" data-category="top buy" style="background:var(--hdr);border-left:4px solid #f9ca24;border-radius:12px;padding:16px;margin-bottom:12px">
   <div style="display:flex;justify-content:space-between;margin-bottom:8px">
     <span style="font-size:11px;font-weight:700;color:#f9ca24">🏆 Today Top</span>
-    <span style="font-size:11px;font-weight:700;color:#ff4757">BUY</span>
+    <span style="font-size:11px;font-weight:700;color:#4ecdc4">Buy</span>
   </div>
-  <div style="font-size:16px;font-weight:800;margin-bottom:4px">삼성전자 </div>
-  <div style="font-size:13px;margin-bottom:8px;color:var(--txt)">파운드리도 봐야 할 때</div>
+  <div style="font-size:16px;font-weight:800;margin-bottom:4px">메가스터디교육 </div>
+  <div style="font-size:13px;margin-bottom:8px;color:var(--txt)">국내 교육기업 대장</div>
   <div style="display:flex;justify-content:space-between;font-size:11px;color:var(--sub)">
-    <span>DS투자증권 이수림</span>
-    <span>목표가 <b style="color:var(--txt)">270,000</b></span>
-  </div>
-  <div style="margin-top:10px;padding-top:10px;border-top:1px solid var(--brd);display:flex;justify-content:space-between;font-size:11px;color:var(--sub)">
-    <span>최근종가 <b style="color:var(--txt)">183,500</b></span>
-    <span>상승여력 <b style="color:#4ecdc4">+47.1%</b></span>
+    <span>LS증권 정홍식</span>
+    <span>목표가 <b style="color:var(--txt)">60,000</b></span>
   </div>
 </div>
 <div class="report-card" data-category="hot buy" style="background:var(--hdr);border-left:4px solid #ff4757;border-radius:12px;padding:16px;margin-bottom:12px">
   <div style="display:flex;justify-content:space-between;margin-bottom:8px">
     <span style="font-size:11px;font-weight:700;color:#ff4757">🏆 Today Hot</span>
-    <span style="font-size:11px;font-weight:700;color:#ff4757">BUY</span>
+    <span style="font-size:11px;font-weight:700;color:#4ecdc4">Buy</span>
   </div>
-  <div style="font-size:16px;font-weight:800;margin-bottom:4px">씨어스테크놀로지 </div>
-  <div style="font-size:13px;margin-bottom:8px;color:var(--txt)">씽크 잠재력 좀 더 공격적으로 보자</div>
+  <div style="font-size:16px;font-weight:800;margin-bottom:4px">비에이치 </div>
+  <div style="font-size:13px;margin-bottom:8px;color:var(--txt)">밸류에이션의 재평가 시작 : ①애플 폴더블폰 ②피지컬 AI</div>
   <div style="display:flex;justify-content:space-between;font-size:11px;color:var(--sub)">
-    <span>상상인증권 하태기</span>
-    <span>목표가 <b style="color:var(--txt)">260,000</b></span>
-  </div>
-  <div style="margin-top:10px;padding-top:10px;border-top:1px solid var(--brd);display:flex;justify-content:space-between;font-size:11px;color:var(--sub)">
-    <span>현재가 <b style="color:var(--txt)">시세연동 준비중</b></span>
-    <span>전일종가 <b style="color:var(--txt)">확인중</b></span>
+    <span>대신증권 박강호,서지원</span>
+    <span>목표가 <b style="color:var(--txt)">35,000</b></span>
   </div>
 </div>
 <div class="report-card" data-category="best buy" style="background:var(--hdr);border-left:4px solid #4ecdc4;border-radius:12px;padding:16px;margin-bottom:12px">
   <div style="display:flex;justify-content:space-between;margin-bottom:8px">
     <span style="font-size:11px;font-weight:700;color:#4ecdc4">🏆 Today Best</span>
-    <span style="font-size:11px;font-weight:700;color:#ff4757">BUY</span>
+    <span style="font-size:11px;font-weight:700;color:#4ecdc4">티엘비, 공장투어 후기 (추가 증설 결정)</span>
   </div>
-  <div style="font-size:16px;font-weight:800;margin-bottom:4px">한국단자 </div>
-  <div style="font-size:13px;margin-bottom:8px;color:var(--txt)">실적 회복과 배당은 기본. 더 큰 미래도 가능하다</div>
+  <div style="font-size:16px;font-weight:800;margin-bottom:4px">티엘비 </div>
+  <div style="font-size:13px;margin-bottom:8px;color:var(--txt)">SK증권 박형우</div>
   <div style="display:flex;justify-content:space-between;font-size:11px;color:var(--sub)">
-    <span>하나증권 송선재</span>
-    <span>목표가 <b style="color:var(--txt)">의견없음</b></span>
-  </div>
-  <div style="margin-top:10px;padding-top:10px;border-top:1px solid var(--brd);display:flex;justify-content:space-between;font-size:11px;color:var(--sub)">
-    <span>현재가 <b style="color:var(--txt)">시세연동 준비중</b></span>
-    <span>비고 <b style="color:#4ecdc4">배당·로봇 커넥터</b></span>
+    <span>목표주가		의견없음</span>
+    <span>목표가 <b style="color:var(--txt)">60,000</b></span>
   </div>
 </div>
     
 <div class="report-card" data-category="all buy" style="background:var(--hdr);border-radius:10px;padding:14px;margin-bottom:10px;">
   <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
-    <span style="font-size:14px;font-weight:800">건강관리장비와용품</span>
+    <span style="font-size:14px;font-weight:800">하이브</span>
     <span style="padding:3px 8px;border-radius:4px;font-size:11px;font-weight:700;color:#4ecdc4">N/A</span>
   </div>
-  <div style="font-size:12px;color:var(--sub);margin-bottom:10px">의사의 손끝에 로봇을 더하다, 의료 로봇</div>
+  <div style="font-size:12px;color:var(--sub);margin-bottom:10px">성장의 물결 위로, SWIM</div>
   <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:8px">
     <div style="text-align:center;background:var(--bg);padding:8px;border-radius:8px">
       <div style="font-size:10px;color:var(--sub)">현재가</div>
@@ -150,10 +134,10 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans KR',sans
 </div>
 <div class="report-card" data-category="all hold" style="background:var(--hdr);border-radius:10px;padding:14px;margin-bottom:10px;">
   <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
-    <span style="font-size:14px;font-weight:800">관심종목</span>
+    <span style="font-size:14px;font-weight:800">기계</span>
     <span style="padding:3px 8px;border-radius:4px;font-size:11px;font-weight:700;color:#4ecdc4">N/A</span>
   </div>
-  <div style="font-size:12px;color:var(--sub);margin-bottom:10px">단기 투자유망종목</div>
+  <div style="font-size:12px;color:var(--sub);margin-bottom:10px">공개된 중국 로봇 대장 유니트리의 어마어마한 숫자들</div>
   <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:8px">
     <div style="text-align:center;background:var(--bg);padding:8px;border-radius:8px">
       <div style="font-size:10px;color:var(--sub)">현재가</div>
@@ -172,10 +156,10 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans KR',sans
 </div>
 <div class="report-card" data-category="all up" style="background:var(--hdr);border-radius:10px;padding:14px;margin-bottom:10px;">
   <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
-    <span style="font-size:14px;font-weight:800">무선통신서비스</span>
+    <span style="font-size:14px;font-weight:800">화장품</span>
     <span style="padding:3px 8px;border-radius:4px;font-size:11px;font-weight:700;color:#4ecdc4">N/A</span>
   </div>
-  <div style="font-size:12px;color:var(--sub);margin-bottom:10px">통신서비스 Weekly - 더 이상 확인할 필요는 없습니다</div>
+  <div style="font-size:12px;color:var(--sub);margin-bottom:10px">K-컬쳐: New Era, 글로벌 메인스트림으로</div>
   <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:8px">
     <div style="text-align:center;background:var(--bg);padding:8px;border-radius:8px">
       <div style="font-size:10px;color:var(--sub)">현재가</div>
@@ -194,10 +178,10 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans KR',sans
 </div>
 <div class="report-card" data-category="all down" style="background:var(--hdr);border-radius:10px;padding:14px;margin-bottom:10px;">
   <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
-    <span style="font-size:14px;font-weight:800">한국단자</span>
+    <span style="font-size:14px;font-weight:800">제약</span>
     <span style="padding:3px 8px;border-radius:4px;font-size:11px;font-weight:700;color:#4ecdc4">N/A</span>
   </div>
-  <div style="font-size:12px;color:var(--sub);margin-bottom:10px">실적 회복과 배당은 기본. 더 큰 미래도 가능하다</div>
+  <div style="font-size:12px;color:var(--sub);margin-bottom:10px">Weekly Bio Insight</div>
   <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:8px">
     <div style="text-align:center;background:var(--bg);padding:8px;border-radius:8px">
       <div style="font-size:10px;color:var(--sub)">현재가</div>
@@ -216,10 +200,10 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans KR',sans
 </div>
 <div class="report-card" data-category="all sector" style="background:var(--hdr);border-radius:10px;padding:14px;margin-bottom:10px;">
   <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
-    <span style="font-size:14px;font-weight:800">복합유틸리티</span>
+    <span style="font-size:14px;font-weight:800">양방향미디어와서비스</span>
     <span style="padding:3px 8px;border-radius:4px;font-size:11px;font-weight:700;color:#4ecdc4">N/A</span>
   </div>
-  <div style="font-size:12px;color:var(--sub);margin-bottom:10px">1월 전력통계월보: 통계보다 중요한 중동 이슈</div>
+  <div style="font-size:12px;color:var(--sub);margin-bottom:10px">인터넷/게임 Weekly</div>
   <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:8px">
     <div style="text-align:center;background:var(--bg);padding:8px;border-radius:8px">
       <div style="font-size:10px;color:var(--sub)">현재가</div>
@@ -238,10 +222,10 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans KR',sans
 </div>
 <div class="report-card" data-category="all buy" style="background:var(--hdr);border-radius:10px;padding:14px;margin-bottom:10px;">
   <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
-    <span style="font-size:14px;font-weight:800">반도체와반도체장비</span>
+    <span style="font-size:14px;font-weight:800">전기제품</span>
     <span style="padding:3px 8px;border-radius:4px;font-size:11px;font-weight:700;color:#4ecdc4">N/A</span>
   </div>
-  <div style="font-size:12px;color:var(--sub);margin-bottom:10px">2월 대만 Tech 매출: 서버 위주 견조한 업황</div>
+  <div style="font-size:12px;color:var(--sub);margin-bottom:10px">기판 산업 Update: 티엘비 공장 투어 후기</div>
   <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:8px">
     <div style="text-align:center;background:var(--bg);padding:8px;border-radius:8px">
       <div style="font-size:10px;color:var(--sub)">현재가</div>
@@ -260,10 +244,10 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans KR',sans
 </div>
 <div class="report-card" data-category="all hold" style="background:var(--hdr);border-radius:10px;padding:14px;margin-bottom:10px;">
   <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
-    <span style="font-size:14px;font-weight:800">미국/뉴코</span>
+    <span style="font-size:14px;font-weight:800">양방향미디어와서비스</span>
     <span style="padding:3px 8px;border-radius:4px;font-size:11px;font-weight:700;color:#4ecdc4">N/A</span>
   </div>
-  <div style="font-size:12px;color:var(--sub);margin-bottom:10px">견조한 내수와 더불어 수입 감소로 수주잔고 급증</div>
+  <div style="font-size:12px;color:var(--sub);margin-bottom:10px">IBKS Daily [인터넷/게임]</div>
   <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:8px">
     <div style="text-align:center;background:var(--bg);padding:8px;border-radius:8px">
       <div style="font-size:10px;color:var(--sub)">현재가</div>
@@ -282,10 +266,10 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans KR',sans
 </div>
 <div class="report-card" data-category="all up" style="background:var(--hdr);border-radius:10px;padding:14px;margin-bottom:10px;">
   <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
-    <span style="font-size:14px;font-weight:800">해외</span>
+    <span style="font-size:14px;font-weight:800">은행</span>
     <span style="padding:3px 8px;border-radius:4px;font-size:11px;font-weight:700;color:#4ecdc4">N/A</span>
   </div>
-  <div style="font-size:12px;color:var(--sub);margin-bottom:10px">[큰 그림으로 보는 중국] 시진핑의 10년, 그리고 7년</div>
+  <div style="font-size:12px;color:var(--sub);margin-bottom:10px">메리츠 Financial Daily</div>
   <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:8px">
     <div style="text-align:center;background:var(--bg);padding:8px;border-radius:8px">
       <div style="font-size:10px;color:var(--sub)">현재가</div>
@@ -304,10 +288,10 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans KR',sans
 </div>
 <div class="report-card" data-category="all down" style="background:var(--hdr);border-radius:10px;padding:14px;margin-bottom:10px;">
   <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
-    <span style="font-size:14px;font-weight:800">관심종목</span>
+    <span style="font-size:14px;font-weight:800">IT서비스</span>
     <span style="padding:3px 8px;border-radius:4px;font-size:11px;font-weight:700;color:#4ecdc4">N/A</span>
   </div>
-  <div style="font-size:12px;color:var(--sub);margin-bottom:10px">오이솔루션-2026년 3월 13일 AIR KOR</div>
+  <div style="font-size:12px;color:var(--sub);margin-bottom:10px">Meritz Overnight Tech</div>
   <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:8px">
     <div style="text-align:center;background:var(--bg);padding:8px;border-radius:8px">
       <div style="font-size:10px;color:var(--sub)">현재가</div>
@@ -326,10 +310,10 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans KR',sans
 </div>
 <div class="report-card" data-category="all sector" style="background:var(--hdr);border-radius:10px;padding:14px;margin-bottom:10px;">
   <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
-    <span style="font-size:14px;font-weight:800">관심종목</span>
+    <span style="font-size:14px;font-weight:800">DL이앤씨</span>
     <span style="padding:3px 8px;border-radius:4px;font-size:11px;font-weight:700;color:#4ecdc4">N/A</span>
   </div>
-  <div style="font-size:12px;color:var(--sub);margin-bottom:10px">삼성중공업-2026년 3월 13일 AIR KOR</div>
+  <div style="font-size:12px;color:var(--sub);margin-bottom:10px">나는 상한가를 처음 보았다</div>
   <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:8px">
     <div style="text-align:center;background:var(--bg);padding:8px;border-radius:8px">
       <div style="font-size:10px;color:var(--sub)">현재가</div>
@@ -348,10 +332,10 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans KR',sans
 </div>
 <div class="report-card" data-category="all buy" style="background:var(--hdr);border-radius:10px;padding:14px;margin-bottom:10px;">
   <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
-    <span style="font-size:14px;font-weight:800">관심종목</span>
+    <span style="font-size:14px;font-weight:800">화학</span>
     <span style="padding:3px 8px;border-radius:4px;font-size:11px;font-weight:700;color:#4ecdc4">N/A</span>
   </div>
-  <div style="font-size:12px;color:var(--sub);margin-bottom:10px">태광-2026년 3월 13일 AIR KOR</div>
+  <div style="font-size:12px;color:var(--sub);margin-bottom:10px">여수 화학산업 구조조정 발표</div>
   <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:8px">
     <div style="text-align:center;background:var(--bg);padding:8px;border-radius:8px">
       <div style="font-size:10px;color:var(--sub)">현재가</div>
@@ -370,10 +354,10 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans KR',sans
 </div>
 <div class="report-card" data-category="all hold" style="background:var(--hdr);border-radius:10px;padding:14px;margin-bottom:10px;">
   <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
-    <span style="font-size:14px;font-weight:800">관심종목</span>
+    <span style="font-size:14px;font-weight:800">삼양식품</span>
     <span style="padding:3px 8px;border-radius:4px;font-size:11px;font-weight:700;color:#4ecdc4">N/A</span>
   </div>
-  <div style="font-size:12px;color:var(--sub);margin-bottom:10px">삼성바이오로직스-2026년 3월 13일 AIR KOR</div>
+  <div style="font-size:12px;color:var(--sub);margin-bottom:10px">간담회 후기: 수요보다 공급이 변수, 성장 방향성 유효</div>
   <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:8px">
     <div style="text-align:center;background:var(--bg);padding:8px;border-radius:8px">
       <div style="font-size:10px;color:var(--sub)">현재가</div>
@@ -392,10 +376,10 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans KR',sans
 </div>
 <div class="report-card" data-category="all up" style="background:var(--hdr);border-radius:10px;padding:14px;margin-bottom:10px;">
   <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
-    <span style="font-size:14px;font-weight:800">관심종목</span>
+    <span style="font-size:14px;font-weight:800">일간 계량분석</span>
     <span style="padding:3px 8px;border-radius:4px;font-size:11px;font-weight:700;color:#4ecdc4">N/A</span>
   </div>
-  <div style="font-size:12px;color:var(--sub);margin-bottom:10px">테스-2026년 3월 13일 AIR KOR</div>
+  <div style="font-size:12px;color:var(--sub);margin-bottom:10px">Data Talk #10: 국내 시장 복귀 계좌(RIA) 도입</div>
   <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:8px">
     <div style="text-align:center;background:var(--bg);padding:8px;border-radius:8px">
       <div style="font-size:10px;color:var(--sub)">현재가</div>
@@ -414,10 +398,10 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans KR',sans
 </div>
 <div class="report-card" data-category="all down" style="background:var(--hdr);border-radius:10px;padding:14px;margin-bottom:10px;">
   <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
-    <span style="font-size:14px;font-weight:800">관심종목</span>
+    <span style="font-size:14px;font-weight:800">판매업체</span>
     <span style="padding:3px 8px;border-radius:4px;font-size:11px;font-weight:700;color:#4ecdc4">N/A</span>
   </div>
-  <div style="font-size:12px;color:var(--sub);margin-bottom:10px">영원무역홀딩스-2026년 3월 13일 AIR KOR</div>
+  <div style="font-size:12px;color:var(--sub);margin-bottom:10px">소비재/플랫폼 Weekly: 올리브영, 숫자로 증명한 독주</div>
   <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:8px">
     <div style="text-align:center;background:var(--bg);padding:8px;border-radius:8px">
       <div style="font-size:10px;color:var(--sub)">현재가</div>
@@ -436,10 +420,10 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans KR',sans
 </div>
 <div class="report-card" data-category="all sector" style="background:var(--hdr);border-radius:10px;padding:14px;margin-bottom:10px;">
   <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
-    <span style="font-size:14px;font-weight:800">관심종목</span>
+    <span style="font-size:14px;font-weight:800">건설</span>
     <span style="padding:3px 8px;border-radius:4px;font-size:11px;font-weight:700;color:#4ecdc4">N/A</span>
   </div>
-  <div style="font-size:12px;color:var(--sub);margin-bottom:10px">프롬바이오-2026년 3월 13일 AIR KOR</div>
+  <div style="font-size:12px;color:var(--sub);margin-bottom:10px">퍼지는 온기 (주가 코멘트)</div>
   <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:8px">
     <div style="text-align:center;background:var(--bg);padding:8px;border-radius:8px">
       <div style="font-size:10px;color:var(--sub)">현재가</div>
@@ -467,9 +451,9 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans KR',sans
 <thead><tr><th>종목</th><th style="text-align:right">현재가</th><th style="text-align:right">목표가</th><th style="text-align:right">상승여력</th><th>출처</th></tr></thead>
 <tbody><tr style="background:rgba(249,202,36,.04);">
   <td style="font-weight:700">⭐ 현대차3우B</td>
-  <td style="text-align:right">248,500</td>
+  <td style="text-align:right">251,000</td>
   <td style="text-align:right">480,000</td>
-  <td style="text-align:right;color:#ff4757;font-weight:800">+93.2%</td>
+  <td style="text-align:right;color:#ff4757;font-weight:800">+91.2%</td>
   <td style="font-size:11px;color:var(--sub)">컨센서스</td>
 </tr><tr style="background:rgba(249,202,36,.04);">
   <td style="font-weight:700">⭐ 현대차우</td>
@@ -479,28 +463,22 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans KR',sans
   <td style="font-size:11px;color:var(--sub)">컨센서스</td>
 </tr><tr style="background:rgba(249,202,36,.04);">
   <td style="font-weight:700">⭐ 원익IPS</td>
-  <td style="text-align:right">119,000</td>
+  <td style="text-align:right">125,000</td>
   <td style="text-align:right">160,000</td>
-  <td style="text-align:right;color:#ff4757;font-weight:800">+34.5%</td>
+  <td style="text-align:right;color:#ff4757;font-weight:800">+28.0%</td>
+  <td style="font-size:11px;color:var(--sub)">WiseReport</td>
+</tr><tr style="background:rgba(249,202,36,.04);">
+  <td style="font-weight:700">⭐ RFHIC</td>
+  <td style="text-align:right">80,900</td>
+  <td style="text-align:right">100,000</td>
+  <td style="text-align:right;color:#ff4757;font-weight:800">+23.6%</td>
   <td style="font-size:11px;color:var(--sub)">WiseReport</td>
 </tr><tr style="background:rgba(249,202,36,.04);">
   <td style="font-weight:700">⭐ LG에너지솔루션</td>
-  <td style="text-align:right">369,000</td>
+  <td style="text-align:right">375,500</td>
   <td style="text-align:right">450,000</td>
-  <td style="text-align:right;color:#ff4757;font-weight:800">+22.0%</td>
+  <td style="text-align:right;color:#ff4757;font-weight:800">+19.8%</td>
   <td style="font-size:11px;color:var(--sub)">컨센서스</td>
-</tr><tr style="background:rgba(249,202,36,.04);">
-  <td style="font-weight:700">⭐ 삼성전자</td>
-  <td style="text-align:right">183,500</td>
-  <td style="text-align:right">220,000</td>
-  <td style="text-align:right;color:#ff4757;font-weight:800">+19.9%</td>
-  <td style="font-size:11px;color:var(--sub)">컨센서스</td>
-</tr><tr style="background:rgba(249,202,36,.04);">
-  <td style="font-weight:700">⭐ RFHIC</td>
-  <td style="text-align:right">84,800</td>
-  <td style="text-align:right">100,000</td>
-  <td style="text-align:right;color:#ff4757;font-weight:800">+17.9%</td>
-  <td style="font-size:11px;color:var(--sub)">WiseReport</td>
 </tr><tr style="background:rgba(249,202,36,.04);">
   <td style="font-weight:700">⭐ 현대차</td>
   <td style="text-align:right">517,000</td>
@@ -508,22 +486,28 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans KR',sans
   <td style="text-align:right;color:#f9ca24;font-weight:800">+12.2%</td>
   <td style="font-size:11px;color:var(--sub)">미래에셋</td>
 </tr><tr style="background:rgba(249,202,36,.04);">
-  <td style="font-weight:700">⭐ 파마리서치</td>
-  <td style="text-align:right">318,000</td>
-  <td style="text-align:right">350,000</td>
-  <td style="text-align:right;color:#f9ca24;font-weight:800">+10.1%</td>
+  <td style="font-weight:700">⭐ 삼성전자</td>
+  <td style="text-align:right">199,400</td>
+  <td style="text-align:right">220,000</td>
+  <td style="text-align:right;color:#f9ca24;font-weight:800">+10.3%</td>
   <td style="font-size:11px;color:var(--sub)">컨센서스</td>
 </tr><tr style="background:rgba(249,202,36,.04);">
-  <td style="font-weight:700">⭐ SK하이닉스</td>
-  <td style="text-align:right">910,000</td>
-  <td style="text-align:right">980,000</td>
+  <td style="font-weight:700">⭐ 파마리서치</td>
+  <td style="text-align:right">325,000</td>
+  <td style="text-align:right">350,000</td>
   <td style="text-align:right;color:#f9ca24;font-weight:800">+7.7%</td>
   <td style="font-size:11px;color:var(--sub)">컨센서스</td>
 </tr><tr style="background:rgba(249,202,36,.04);">
+  <td style="font-weight:700">⭐ SK하이닉스</td>
+  <td style="text-align:right">1,007,000</td>
+  <td style="text-align:right">980,000</td>
+  <td style="text-align:right;color:#4ecdc4;font-weight:800">-2.7%</td>
+  <td style="font-size:11px;color:var(--sub)">컨센서스</td>
+</tr><tr style="background:rgba(249,202,36,.04);">
   <td style="font-weight:700">⭐ 두산</td>
-  <td style="text-align:right">1,099,000</td>
+  <td style="text-align:right">1,186,000</td>
   <td style="text-align:right">250,000</td>
-  <td style="text-align:right;color:#4ecdc4;font-weight:800">-77.3%</td>
+  <td style="text-align:right;color:#4ecdc4;font-weight:800">-78.9%</td>
   <td style="font-size:11px;color:var(--sub)">컨센서스</td>
 </tr></tbody>
 </table>
@@ -595,18 +579,18 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans KR',sans
 
 <!-- 네이버 금융 오늘 리포트 상세 분석 -->
 <div class="sec">
-  <div class="sec-ttl">📰 오늘 리포트 상세 분석 (12건)</div>
+  <div class="sec-ttl">📰 오늘 리포트 상세 분석 (3건)</div>
   <div style="font-size:11px;color:var(--sub);margin-bottom:12px">출처: 네이버 금융 · 각 증권사 투자의견 + 핵심 포인트</div>
   
 <div class="report-card" data-category="naver " style="background:var(--hdr);border-radius:12px;padding:16px;margin-bottom:12px;">
   <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:8px">
     <div>
-      <span style="font-size:15px;font-weight:800">헥토이노베이션</span>
-      <div style="font-size:11px;color:var(--sub);margin-top:2px">유안타증권</div>
+      <span style="font-size:15px;font-weight:800">필옵틱스</span>
+      <div style="font-size:11px;color:var(--sub);margin-top:2px">iM증권</div>
     </div>
     <span style="padding:4px 10px;border-radius:6px;font-size:12px;font-weight:700;background:rgba(255,71,87,.15);color:#8b9dc3">없음</span>
   </div>
-  <div style="font-size:12px;color:var(--txt);margin-bottom:10px;font-weight:600">실적과 모멘텀 모두 매력적이다!</div>
+  <div style="font-size:12px;color:var(--txt);margin-bottom:10px;font-weight:600">[NDR 후기] 천천히, 꾸준히</div>
   <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin-bottom:12px">
     <div style="background:var(--bg);padding:8px;border-radius:8px;text-align:center">
       <div style="font-size:9px;color:var(--sub);margin-bottom:2px">현재가</div>
@@ -622,225 +606,17 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans KR',sans
       <div style="font-size:13px;font-weight:800;color:#8b9dc3">-</div>
     </div>
   </div>
-  <div style="border-top:1px solid var(--brd);padding-top:10px"><div style="display:flex;gap:6px;margin-bottom:5px"><span style="color:var(--blu);flex-shrink:0">▸</span><span style="font-size:11px;color:var(--sub);line-height:1.5">4Q25 실적은 매출액 988.5억원으로 전년대비 12.8% 성장했다. 신규 서비스 출시 지속 및 확대전략과 고객 다변화 효과로 본업인 IT정보서비스의 성장세가 지속되었다. 더불어</span></div><div style="display:flex;gap:6px;margin-bottom:5px"><span style="color:var(--blu);flex-shrink:0">▸</span><span style="font-size:11px;color:var(--sub);line-height:1.5">2025년 연간으로는 매출액 3,758억원, 영업이익 502억원으로 전년대비 각각 17.6%, 2.7% 증가하며 사상 최대 실적을 경신했다. 본업의 성장과 자회사들의 성장이 동반되</span></div></div>
+  <div style="border-top:1px solid var(--brd);padding-top:10px"><div style="display:flex;gap:6px;margin-bottom:5px"><span style="color:var(--blu);flex-shrink:0">▸</span><span style="font-size:11px;color:var(--sub);line-height:1.5">동사 TGV 장비의 최대 고객사가 1조원의 유상증자를 결정함에 따라 설비 투자에 대한 관심이 확대됐다. 이번 NDR에서 투자자들은 최대 고객사로부터의 잠재적인 수주 규모와 유리기판</span></div><div style="display:flex;gap:6px;margin-bottom:5px"><span style="color:var(--blu);flex-shrink:0">▸</span><span style="font-size:11px;color:var(--sub);line-height:1.5">① 최대 고객사향 수주 타임라인: 조지아 라인향 TGV 장비 수주는 2Q26 전후로 결정될 전망이고, 최대 6대의 수주가 예상되며, 출하 시점은 2H26으로 추정된다. 동사는 고객</span></div><div style="display:flex;gap:6px;margin-bottom:5px"><span style="color:var(--blu);flex-shrink:0">▸</span><span style="font-size:11px;color:var(--sub);line-height:1.5">② 상용화 시점: 소재 공급망에 따르면 최대 고객사의 유리기판 램프업 시점은 ‘28년으로 추정되며, 동사 역시 비슷한 의견을 제시했다. 이 경우 기술 개발 속도는 미국 반도체 업체</span></div><div style="display:flex;gap:6px;margin-bottom:5px"><span style="color:var(--blu);flex-shrink:0">▸</span><span style="font-size:11px;color:var(--sub);line-height:1.5">한편, 올해 TGV 샘플 고객사 4곳이 추가될 예정이다. 한 곳은 그룹 차원에서 유리기판 양산을 준비하고 있는 글로벌 반도체 기업, 두 곳은 글로벌 유리 원장 업체다. 이외로 유리</span></div></div>
 </div>
 <div class="report-card" data-category="naver " style="background:var(--hdr);border-radius:12px;padding:16px;margin-bottom:12px;">
   <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:8px">
     <div>
-      <span style="font-size:15px;font-weight:800">디지털대성</span>
-      <div style="font-size:11px;color:var(--sub);margin-top:2px">유안타증권</div>
-    </div>
-    <span style="padding:4px 10px;border-radius:6px;font-size:12px;font-weight:700;background:rgba(255,71,87,.15);color:#8b9dc3">없음</span>
-  </div>
-  <div style="font-size:12px;color:var(--txt);margin-bottom:10px;font-weight:600">올해도 N수생 多</div>
-  <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin-bottom:12px">
-    <div style="background:var(--bg);padding:8px;border-radius:8px;text-align:center">
-      <div style="font-size:9px;color:var(--sub);margin-bottom:2px">현재가</div>
-      <div style="font-size:12px;font-weight:700">-</div>
-      <div style="font-size:10px;color:#ff4757"></div>
-    </div>
-    <div style="background:var(--bg);padding:8px;border-radius:8px;text-align:center">
-      <div style="font-size:9px;color:var(--sub);margin-bottom:2px">목표가</div>
-      <div style="font-size:12px;font-weight:700">-</div>
-    </div>
-    <div style="background:var(--bg);padding:8px;border-radius:8px;text-align:center">
-      <div style="font-size:9px;color:var(--sub);margin-bottom:2px">상승여력</div>
-      <div style="font-size:13px;font-weight:800;color:#8b9dc3">-</div>
-    </div>
-  </div>
-  <div style="border-top:1px solid var(--brd);padding-top:10px"><div style="display:flex;gap:6px;margin-bottom:5px"><span style="color:var(--blu);flex-shrink:0">▸</span><span style="font-size:11px;color:var(--sub);line-height:1.5">25년 실적은 매출액 2,538.2억원, 영업이익 315.6억원으로 전년대비 각각 16.5%, 33.1% 개선되었다. 고등 온라인 교육에서 19PASS의 할인가격 기간 단축으로 A</span></div></div>
-</div>
-<div class="report-card" data-category="naver " style="background:var(--hdr);border-radius:12px;padding:16px;margin-bottom:12px;">
-  <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:8px">
-    <div>
-      <span style="font-size:15px;font-weight:800">RF머트리얼즈</span>
-      <div style="font-size:11px;color:var(--sub);margin-top:2px">하나증권</div>
-    </div>
-    <span style="padding:4px 10px;border-radius:6px;font-size:12px;font-weight:700;background:rgba(255,71,87,.15);color:#ff4757">Buy</span>
-  </div>
-  <div style="font-size:12px;color:var(--txt);margin-bottom:10px;font-weight:600">광모듈 수요가 끝이 없다</div>
-  <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin-bottom:12px">
-    <div style="background:var(--bg);padding:8px;border-radius:8px;text-align:center">
-      <div style="font-size:9px;color:var(--sub);margin-bottom:2px">현재가</div>
-      <div style="font-size:12px;font-weight:700">-</div>
-      <div style="font-size:10px;color:#ff4757"></div>
-    </div>
-    <div style="background:var(--bg);padding:8px;border-radius:8px;text-align:center">
-      <div style="font-size:9px;color:var(--sub);margin-bottom:2px">목표가</div>
-      <div style="font-size:12px;font-weight:700">₩80,000</div>
-    </div>
-    <div style="background:var(--bg);padding:8px;border-radius:8px;text-align:center">
-      <div style="font-size:9px;color:var(--sub);margin-bottom:2px">상승여력</div>
-      <div style="font-size:13px;font-weight:800;color:#8b9dc3">-</div>
-    </div>
-  </div>
-  <div style="border-top:1px solid var(--brd);padding-top:10px"><div style="display:flex;gap:6px;margin-bottom:5px"><span style="color:var(--blu);flex-shrink:0">▸</span><span style="font-size:11px;color:var(--sub);line-height:1.5">RF머트리얼즈 투자의견 매수, 12개월 목표주가 80,000원 유지</span></div><div style="display:flex;gap:6px;margin-bottom:5px"><span style="color:var(--blu);flex-shrink:0">▸</span><span style="font-size:11px;color:var(--sub);line-height:1.5">RF머트리얼즈 투자의견 매수, 목표주가 80,000원을 유지한다. 추천 사유는 1) AI로 인한 트래픽 증가 양상을 보면 빠른 시일내에 서버내 구리선이 CPO로 완전 대체될 것이고</span></div></div>
-</div>
-<div class="report-card" data-category="naver " style="background:var(--hdr);border-radius:12px;padding:16px;margin-bottom:12px;">
-  <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:8px">
-    <div>
-      <span style="font-size:15px;font-weight:800">SK텔레콤</span>
-      <div style="font-size:11px;color:var(--sub);margin-top:2px">하나증권</div>
-    </div>
-    <span style="padding:4px 10px;border-radius:6px;font-size:12px;font-weight:700;background:rgba(255,71,87,.15);color:#ff4757">Buy</span>
-  </div>
-  <div style="font-size:12px;color:var(--txt);margin-bottom:10px;font-weight:600">이번엔 기대가 되는 4월입니다</div>
-  <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin-bottom:12px">
-    <div style="background:var(--bg);padding:8px;border-radius:8px;text-align:center">
-      <div style="font-size:9px;color:var(--sub);margin-bottom:2px">현재가</div>
-      <div style="font-size:12px;font-weight:700">₩75,000</div>
-      <div style="font-size:10px;color:#ff4757">+1.57%</div>
-    </div>
-    <div style="background:var(--bg);padding:8px;border-radius:8px;text-align:center">
-      <div style="font-size:9px;color:var(--sub);margin-bottom:2px">목표가</div>
-      <div style="font-size:12px;font-weight:700">₩100,000</div>
-    </div>
-    <div style="background:var(--bg);padding:8px;border-radius:8px;text-align:center">
-      <div style="font-size:9px;color:var(--sub);margin-bottom:2px">상승여력</div>
-      <div style="font-size:13px;font-weight:800;color:#ff4757">+33.3%</div>
-    </div>
-  </div>
-  <div style="border-top:1px solid var(--brd);padding-top:10px"><div style="display:flex;gap:6px;margin-bottom:5px"><span style="color:var(--blu);flex-shrink:0">▸</span><span style="font-size:11px;color:var(--sub);line-height:1.5">매수/TP 10만원/통신업종 탑픽 유지, 1분기 배당 발표 전 매수 추천</span></div><div style="display:flex;gap:6px;margin-bottom:5px"><span style="color:var(--blu);flex-shrink:0">▸</span><span style="font-size:11px;color:var(--sub);line-height:1.5">SKT에 대한 투자의견 매수, 12개월 목표주가 10만원을 유지하며 국내 통신서비스 업종 Top Pick으로 제시한다. 추천 사유는 1) 2026년 1분기 DPS 발표를 계기로 2</span></div></div>
-</div>
-<div class="report-card" data-category="naver mine" style="background:var(--hdr);border-radius:12px;padding:16px;margin-bottom:12px;border:1px solid rgba(249,202,36,0.4);">
-  <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:8px">
-    <div>
-      <span style="font-size:15px;font-weight:800">삼성전자</span><span style="background:#f9ca24;color:#000;font-size:9px;padding:2px 5px;border-radius:3px;font-weight:800;margin-left:5px">⭐ 내 종목</span>
-      <div style="font-size:11px;color:var(--sub);margin-top:2px">하나증권</div>
-    </div>
-    <span style="padding:4px 10px;border-radius:6px;font-size:12px;font-weight:700;background:rgba(255,71,87,.15);color:#ff4757">Buy</span>
-  </div>
-  <div style="font-size:12px;color:var(--txt);margin-bottom:10px;font-weight:600">실적 상향과 밸류업 기대감</div>
-  <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin-bottom:12px">
-    <div style="background:var(--bg);padding:8px;border-radius:8px;text-align:center">
-      <div style="font-size:9px;color:var(--sub);margin-bottom:2px">현재가</div>
-      <div style="font-size:12px;font-weight:700">₩183,500</div>
-      <div style="font-size:10px;color:#ff4757">+2.34%</div>
-    </div>
-    <div style="background:var(--bg);padding:8px;border-radius:8px;text-align:center">
-      <div style="font-size:9px;color:var(--sub);margin-bottom:2px">목표가</div>
-      <div style="font-size:12px;font-weight:700">₩300,000</div>
-    </div>
-    <div style="background:var(--bg);padding:8px;border-radius:8px;text-align:center">
-      <div style="font-size:9px;color:var(--sub);margin-bottom:2px">상승여력</div>
-      <div style="font-size:13px;font-weight:800;color:#ff4757">+63.5%</div>
-    </div>
-  </div>
-  <div style="border-top:1px solid var(--brd);padding-top:10px"><div style="display:flex;gap:6px;margin-bottom:5px"><span style="color:var(--blu);flex-shrink:0">▸</span><span style="font-size:11px;color:var(--sub);line-height:1.5">삼성전자의 26년 1분기 매출액을 122조원, 영업이익을 38조원으로 상향한다. DRAM 및 NAND 가격이 당초 예상치를 재차 상회하는 것으로 파악되어 가정을 상향 조정했고, 환</span></div></div>
-</div>
-<div class="report-card" data-category="naver " style="background:var(--hdr);border-radius:12px;padding:16px;margin-bottom:12px;">
-  <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:8px">
-    <div>
-      <span style="font-size:15px;font-weight:800">피에이치에이</span>
-      <div style="font-size:11px;color:var(--sub);margin-top:2px">하나증권</div>
-    </div>
-    <span style="padding:4px 10px;border-radius:6px;font-size:12px;font-weight:700;background:rgba(255,71,87,.15);color:#8b9dc3">N/R</span>
-  </div>
-  <div style="font-size:12px;color:var(--txt);margin-bottom:10px;font-weight:600">자기주식 7.0% 보유 중</div>
-  <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin-bottom:12px">
-    <div style="background:var(--bg);padding:8px;border-radius:8px;text-align:center">
-      <div style="font-size:9px;color:var(--sub);margin-bottom:2px">현재가</div>
-      <div style="font-size:12px;font-weight:700">-</div>
-      <div style="font-size:10px;color:#ff4757"></div>
-    </div>
-    <div style="background:var(--bg);padding:8px;border-radius:8px;text-align:center">
-      <div style="font-size:9px;color:var(--sub);margin-bottom:2px">목표가</div>
-      <div style="font-size:12px;font-weight:700">-</div>
-    </div>
-    <div style="background:var(--bg);padding:8px;border-radius:8px;text-align:center">
-      <div style="font-size:9px;color:var(--sub);margin-bottom:2px">상승여력</div>
-      <div style="font-size:13px;font-weight:800;color:#8b9dc3">-</div>
-    </div>
-  </div>
-  <div style="border-top:1px solid var(--brd);padding-top:10px"><div style="display:flex;gap:6px;margin-bottom:5px"><span style="color:var(--blu);flex-shrink:0">▸</span><span style="font-size:11px;color:var(--sub);line-height:1.5">P/E 4Йш ШФЙн, МјЧіБнРЬ НУАЁУбОзРЧ 75%, ЙшДчМіРЭЗќ 3.3%, РкБтСжНФ 7.0% КИРЏ</span></div><div style="display:flex;gap:6px;margin-bottom:5px"><span style="color:var(--blu);flex-shrink:0">▸</span><span style="font-size:11px;color:var(--sub);line-height:1.5">ЧЧПЁРЬФЁПЁРЬПЁ ДыЧб ХѕРкРЧАп BUYПЭ ИёЧЅСжАЁ 1.5ИИПјРЛ РЏСіЧбДй. 2025Гт 4КаБт НЧРћРЬ ПЙЛѓФЁИІ ЛѓШИЧпА</span></div></div>
-</div>
-<div class="report-card" data-category="naver " style="background:var(--hdr);border-radius:12px;padding:16px;margin-bottom:12px;">
-  <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:8px">
-    <div>
-      <span style="font-size:15px;font-weight:800">두산밥캣</span>
-      <div style="font-size:11px;color:var(--sub);margin-top:2px">하나증권</div>
-    </div>
-    <span style="padding:4px 10px;border-radius:6px;font-size:12px;font-weight:700;background:rgba(255,71,87,.15);color:#8b9dc3">없음</span>
-  </div>
-  <div style="font-size:12px;color:var(--txt);margin-bottom:10px;font-weight:600">[탐방노트] 연간 가이던스 달성 가능성 충분</div>
-  <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin-bottom:12px">
-    <div style="background:var(--bg);padding:8px;border-radius:8px;text-align:center">
-      <div style="font-size:9px;color:var(--sub);margin-bottom:2px">현재가</div>
-      <div style="font-size:12px;font-weight:700">-</div>
-      <div style="font-size:10px;color:#ff4757"></div>
-    </div>
-    <div style="background:var(--bg);padding:8px;border-radius:8px;text-align:center">
-      <div style="font-size:9px;color:var(--sub);margin-bottom:2px">목표가</div>
-      <div style="font-size:12px;font-weight:700">-</div>
-    </div>
-    <div style="background:var(--bg);padding:8px;border-radius:8px;text-align:center">
-      <div style="font-size:9px;color:var(--sub);margin-bottom:2px">상승여력</div>
-      <div style="font-size:13px;font-weight:800;color:#8b9dc3">-</div>
-    </div>
-  </div>
-  <div style="border-top:1px solid var(--brd);padding-top:10px"><div style="display:flex;gap:6px;margin-bottom:5px"><span style="color:var(--blu);flex-shrink:0">▸</span><span style="font-size:11px;color:var(--sub);line-height:1.5">두산밥캣은 1947년 미국에서 설립된 기업으로 1960년 세계 최초로 스키드-스티어 로더를 개발/출시했다. 1962년에는 Bobcat 브랜드를 도입했으며 1986년 북미 최초로 소</span></div></div>
-</div>
-<div class="report-card" data-category="naver " style="background:var(--hdr);border-radius:12px;padding:16px;margin-bottom:12px;">
-  <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:8px">
-    <div>
-      <span style="font-size:15px;font-weight:800">아크릴</span>
-      <div style="font-size:11px;color:var(--sub);margin-top:2px">신한투자증권</div>
-    </div>
-    <span style="padding:4px 10px;border-radius:6px;font-size:12px;font-weight:700;background:rgba(255,71,87,.15);color:#8b9dc3">없음</span>
-  </div>
-  <div style="font-size:12px;color:var(--txt);margin-bottom:10px;font-weight:600">엔비디아 GPU 26만 장의 직접적인 수혜주</div>
-  <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin-bottom:12px">
-    <div style="background:var(--bg);padding:8px;border-radius:8px;text-align:center">
-      <div style="font-size:9px;color:var(--sub);margin-bottom:2px">현재가</div>
-      <div style="font-size:12px;font-weight:700">-</div>
-      <div style="font-size:10px;color:#ff4757"></div>
-    </div>
-    <div style="background:var(--bg);padding:8px;border-radius:8px;text-align:center">
-      <div style="font-size:9px;color:var(--sub);margin-bottom:2px">목표가</div>
-      <div style="font-size:12px;font-weight:700">-</div>
-    </div>
-    <div style="background:var(--bg);padding:8px;border-radius:8px;text-align:center">
-      <div style="font-size:9px;color:var(--sub);margin-bottom:2px">상승여력</div>
-      <div style="font-size:13px;font-weight:800;color:#8b9dc3">-</div>
-    </div>
-  </div>
-  <div style="border-top:1px solid var(--brd);padding-top:10px"><div style="display:flex;gap:6px;margin-bottom:5px"><span style="color:var(--blu);flex-shrink:0">▸</span><span style="font-size:11px;color:var(--sub);line-height:1.5">국내 최초이자 유일의 풀스택 AX(AI Transformation) 인프라 전문 기업으로, 국내 GPU 도입 확대에 따른 독점적인 수혜 가능. 정부, 대기업 주도 AX 대전환 흐름</span></div><div style="display:flex;gap:6px;margin-bottom:5px"><span style="color:var(--blu);flex-shrink:0">▸</span><span style="font-size:11px;color:var(--sub);line-height:1.5">사업다변화에 성공, 역대 최대 매출 달성 지속 전망</span></div></div>
-</div>
-<div class="report-card" data-category="naver " style="background:var(--hdr);border-radius:12px;padding:16px;margin-bottom:12px;">
-  <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:8px">
-    <div>
-      <span style="font-size:15px;font-weight:800">컴투스</span>
-      <div style="font-size:11px;color:var(--sub);margin-top:2px">신한투자증권</div>
-    </div>
-    <span style="padding:4px 10px;border-radius:6px;font-size:12px;font-weight:700;background:rgba(255,71,87,.15);color:#8b9dc3">없음</span>
-  </div>
-  <div style="font-size:12px;color:var(--txt);margin-bottom:10px;font-weight:600">콥데이 후기: 다가오는 기대 신작들</div>
-  <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin-bottom:12px">
-    <div style="background:var(--bg);padding:8px;border-radius:8px;text-align:center">
-      <div style="font-size:9px;color:var(--sub);margin-bottom:2px">현재가</div>
-      <div style="font-size:12px;font-weight:700">-</div>
-      <div style="font-size:10px;color:#ff4757"></div>
-    </div>
-    <div style="background:var(--bg);padding:8px;border-radius:8px;text-align:center">
-      <div style="font-size:9px;color:var(--sub);margin-bottom:2px">목표가</div>
-      <div style="font-size:12px;font-weight:700">₩32,000</div>
-    </div>
-    <div style="background:var(--bg);padding:8px;border-radius:8px;text-align:center">
-      <div style="font-size:9px;color:var(--sub);margin-bottom:2px">상승여력</div>
-      <div style="font-size:13px;font-weight:800;color:#8b9dc3">-</div>
-    </div>
-  </div>
-  <div style="border-top:1px solid var(--brd);padding-top:10px"><div style="display:flex;gap:6px;margin-bottom:5px"><span style="color:var(--blu);flex-shrink:0">▸</span><span style="font-size:11px;color:var(--sub);line-height:1.5">자회사 정리, 실적 개선으로 주가 저점 확인. 신작에만 집중할 수 있는 투자 환경 마련되어, 3월말 애니메재팬에서 신작에 대한 유저 반응 중요</span></div><div style="display:flex;gap:6px;margin-bottom:5px"><span style="color:var(--blu);flex-shrink:0">▸</span><span style="font-size:11px;color:var(--sub);line-height:1.5">사업다변화에 성공, 역대 최대 매출 달성 지속 전망</span></div><div style="display:flex;gap:6px;margin-bottom:5px"><span style="color:var(--blu);flex-shrink:0">▸</span><span style="font-size:11px;color:var(--sub);line-height:1.5">단순 테마 아닌 구조적 성장 가능성을 확인하다</span></div></div>
-</div>
-<div class="report-card" data-category="naver " style="background:var(--hdr);border-radius:12px;padding:16px;margin-bottom:12px;">
-  <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:8px">
-    <div>
-      <span style="font-size:15px;font-weight:800">헥토이노베이션</span>
+      <span style="font-size:15px;font-weight:800">현대오토에버</span>
       <div style="font-size:11px;color:var(--sub);margin-top:2px">유진투자증권</div>
     </div>
     <span style="padding:4px 10px;border-radius:6px;font-size:12px;font-weight:700;background:rgba(255,71,87,.15);color:#ff4757">Buy</span>
   </div>
-  <div style="font-size:12px;color:var(--txt);margin-bottom:10px;font-weight:600">사업다변화에 성공, 역대 최대 매출 달성 지..</div>
+  <div style="font-size:12px;color:var(--txt);margin-bottom:10px;font-weight:600">Corp.Day 후기: 로봇/SDV가 수익 모델의 구조..</div>
   <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin-bottom:12px">
     <div style="background:var(--bg);padding:8px;border-radius:8px;text-align:center">
       <div style="font-size:9px;color:var(--sub);margin-bottom:2px">현재가</div>
@@ -849,50 +625,24 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans KR',sans
     </div>
     <div style="background:var(--bg);padding:8px;border-radius:8px;text-align:center">
       <div style="font-size:9px;color:var(--sub);margin-bottom:2px">목표가</div>
-      <div style="font-size:12px;font-weight:700">₩28,000</div>
+      <div style="font-size:12px;font-weight:700">₩510,000</div>
     </div>
     <div style="background:var(--bg);padding:8px;border-radius:8px;text-align:center">
       <div style="font-size:9px;color:var(--sub);margin-bottom:2px">상승여력</div>
       <div style="font-size:13px;font-weight:800;color:#8b9dc3">-</div>
     </div>
   </div>
-  <div style="border-top:1px solid var(--brd);padding-top:10px"><div style="display:flex;gap:6px;margin-bottom:5px"><span style="color:var(--blu);flex-shrink:0">▸</span><span style="font-size:11px;color:var(--sub);line-height:1.5">사업다변화에 성공, 역대 최대 매출 달성 지속 전망</span></div><div style="display:flex;gap:6px;margin-bottom:5px"><span style="color:var(--blu);flex-shrink:0">▸</span><span style="font-size:11px;color:var(--sub);line-height:1.5">" 4Q25 Review: 7개 분기 연속 최대 매출액 갱신하며 성장세를 지속. 2025년 4분기 실적(연결 기준)은 매출액 988억원, 영업이익 104억원으로 전년동기 대비 매출</span></div><div style="display:flex;gap:6px;margin-bottom:5px"><span style="color:var(--blu);flex-shrink:0">▸</span><span style="font-size:11px;color:var(--sub);line-height:1.5">" 4분기 실적에서 긍정적인 것은 모든 사업부문이 성장세를 유지하면서, 6분기 연속 분기 최대 매출액을 갱신했다는 것임. 매출 성장 요잉은 IT정보서비스, 핀테크, 헬스케어 부문 </span></div><div style="display:flex;gap:6px;margin-bottom:5px"><span style="color:var(--blu);flex-shrink:0">▸</span><span style="font-size:11px;color:var(--sub);line-height:1.5">" 2025 Review: 2009년 설립 이후 16년간 매년 최대 매출액 갱신 지속.</span></div><div style="display:flex;gap:6px;margin-bottom:5px"><span style="color:var(--blu);flex-shrink:0">▸</span><span style="font-size:11px;color:var(--sub);line-height:1.5">2025년 연간 실적(연결 기준)은 매출액 3,758억원, 영업이익 502억원으로, 전년대비 각각 17.6%, 2.7%, 증가하였음. 매출액 증가 요인은 본사 및 주요 자회사 등의</span></div></div>
+  <div style="border-top:1px solid var(--brd);padding-top:10px"><div style="display:flex;gap:6px;margin-bottom:5px"><span style="color:var(--blu);flex-shrink:0">▸</span><span style="font-size:11px;color:var(--sub);line-height:1.5">" 1Q26 실적은 안정적인 성장세를 유지할 전망. 지난 해 대미 관세 영향으로 저가 차종의 내비게이션 소프트웨어 탑재율이 하락함. 가격 경쟁력 확보를 위해 엔트리 레벨 모델용 내</span></div><div style="display:flex;gap:6px;margin-bottom:5px"><span style="color:var(--blu);flex-shrink:0">▸</span><span style="font-size:11px;color:var(--sub);line-height:1.5">" SDV 관련 사업은 그룹의 SDV (Software Defined Vehicle), AD(Autonomous Driving) 전략을 지원하고 표준화된 미들웨어를 모든 차량에 장</span></div><div style="display:flex;gap:6px;margin-bottom:5px"><span style="color:var(--blu);flex-shrink:0">▸</span><span style="font-size:11px;color:var(--sub);line-height:1.5">된 차량 대수에 비례해 매출이 발생하는 구조고 편의 및 바디 제어, 주행 성능 및 안전 기능까지 제어기 추가로 탑재되면서 추가 매출 발생할 것</span></div><div style="display:flex;gap:6px;margin-bottom:5px"><span style="color:var(--blu);flex-shrink:0">▸</span><span style="font-size:11px;color:var(--sub);line-height:1.5">" 동사는 그룹사의 SDV/로보틱스 사업 고도화됨에 따라 비즈니스의 구조적 변화기에 진입하고 있음. 2026년 연간 안정적인 고성세를 유지하는 가운데 2027년부터 초고성장기에 진</span></div></div>
 </div>
 <div class="report-card" data-category="naver " style="background:var(--hdr);border-radius:12px;padding:16px;margin-bottom:12px;">
   <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:8px">
     <div>
-      <span style="font-size:15px;font-weight:800">빅텍</span>
-      <div style="font-size:11px;color:var(--sub);margin-top:2px">SK증권</div>
-    </div>
-    <span style="padding:4px 10px;border-radius:6px;font-size:12px;font-weight:700;background:rgba(255,71,87,.15);color:#8b9dc3">없음</span>
-  </div>
-  <div style="font-size:12px;color:var(--txt);margin-bottom:10px;font-weight:600">단순 테마 아닌 구조적 성장 가능성을 확인하..</div>
-  <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin-bottom:12px">
-    <div style="background:var(--bg);padding:8px;border-radius:8px;text-align:center">
-      <div style="font-size:9px;color:var(--sub);margin-bottom:2px">현재가</div>
-      <div style="font-size:12px;font-weight:700">-</div>
-      <div style="font-size:10px;color:#ff4757"></div>
-    </div>
-    <div style="background:var(--bg);padding:8px;border-radius:8px;text-align:center">
-      <div style="font-size:9px;color:var(--sub);margin-bottom:2px">목표가</div>
-      <div style="font-size:12px;font-weight:700">-</div>
-    </div>
-    <div style="background:var(--bg);padding:8px;border-radius:8px;text-align:center">
-      <div style="font-size:9px;color:var(--sub);margin-bottom:2px">상승여력</div>
-      <div style="font-size:13px;font-weight:800;color:#8b9dc3">-</div>
-    </div>
-  </div>
-  <div style="border-top:1px solid var(--brd);padding-top:10px"><div style="display:flex;gap:6px;margin-bottom:5px"><span style="color:var(--blu);flex-shrink:0">▸</span><span style="font-size:11px;color:var(--sub);line-height:1.5">단순 테마 아닌 구조적 성장 가능성을 확인하다</span></div><div style="display:flex;gap:6px;margin-bottom:5px"><span style="color:var(--blu);flex-shrink:0">▸</span><span style="font-size:11px;color:var(--sub);line-height:1.5">빅텍은 2025 년 매출액 830 억원(YoY +16%), 영업이익 44 억원(YoY +141%)을 기록하며 큰 폭의 실적 성장세를 보였다. 주요 고객사인 국내 무기 체계 업체향 </span></div><div style="display:flex;gap:6px;margin-bottom:5px"><span style="color:var(--blu);flex-shrink:0">▸</span><span style="font-size:11px;color:var(--sub);line-height:1.5">사업다변화에 성공, 역대 최대 매출 달성 지속 전망</span></div><div style="display:flex;gap:6px;margin-bottom:5px"><span style="color:var(--blu);flex-shrink:0">▸</span><span style="font-size:11px;color:var(--sub);line-height:1.5">단순 테마 아닌 구조적 성장 가능성을 확인하다</span></div><div style="display:flex;gap:6px;margin-bottom:5px"><span style="color:var(--blu);flex-shrink:0">▸</span><span style="font-size:11px;color:var(--sub);line-height:1.5">해외 마케팅과 지역 확대로 글로벌 존재감 확대 중</span></div></div>
-</div>
-<div class="report-card" data-category="naver " style="background:var(--hdr);border-radius:12px;padding:16px;margin-bottom:12px;">
-  <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:8px">
-    <div>
-      <span style="font-size:15px;font-weight:800">덕산네오룩스</span>
+      <span style="font-size:15px;font-weight:800">네오이뮨텍</span>
       <div style="font-size:11px;color:var(--sub);margin-top:2px">한국IR협의회</div>
     </div>
     <span style="padding:4px 10px;border-radius:6px;font-size:12px;font-weight:700;background:rgba(255,71,87,.15);color:#8b9dc3">없음</span>
   </div>
-  <div style="font-size:12px;color:var(--txt);margin-bottom:10px;font-weight:600">고부가제품 확대 기대</div>
+  <div style="font-size:12px;color:var(--txt);margin-bottom:10px;font-weight:600">First-in-Class를 향한 두 개의 길: ARS와 CA..</div>
   <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin-bottom:12px">
     <div style="background:var(--bg);padding:8px;border-radius:8px;text-align:center">
       <div style="font-size:9px;color:var(--sub);margin-bottom:2px">현재가</div>
@@ -908,7 +658,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans KR',sans
       <div style="font-size:13px;font-weight:800;color:#8b9dc3">-</div>
     </div>
   </div>
-  <div style="border-top:1px solid var(--brd);padding-top:10px"><div style="display:flex;gap:6px;margin-bottom:5px"><span style="color:var(--blu);flex-shrink:0">▸</span><span style="font-size:11px;color:var(--sub);line-height:1.5">■ Black PDL은 Bar 타입 모델인 Galaxy S26 Ultra에 최초 적용되며 출하량 증가가 예상. 2026년 Black PDL 적용 패널 출하량은 2025년 대비 약 </span></div><div style="display:flex;gap:6px;margin-bottom:5px"><span style="color:var(--blu);flex-shrink:0">▸</span><span style="font-size:11px;color:var(--sub);line-height:1.5">■ 반도체 증착용 감광 소재인 PSPI를 개발하고 현재 고객사 퀄을 진행 중. 현재 글로벌 시장은 일본 업체가 90% 이상의 점유율을 장악. 고객사의 NAND향 공급을 목표. 상반</span></div><div style="display:flex;gap:6px;margin-bottom:5px"><span style="color:var(--blu);flex-shrink:0">▸</span><span style="font-size:11px;color:var(--sub);line-height:1.5">■ 2026년 매출액 4,243억 원(+23.2% YoY), 영업이익 799억 원(+31.6% YoY)을 전망. 2025년 하반기부터 반영된 Green Prime 공급 효과가 온기</span></div><div style="display:flex;gap:6px;margin-bottom:5px"><span style="color:var(--blu);flex-shrink:0">▸</span><span style="font-size:11px;color:var(--sub);line-height:1.5">사업다변화에 성공, 역대 최대 매출 달성 지속 전망</span></div><div style="display:flex;gap:6px;margin-bottom:5px"><span style="color:var(--blu);flex-shrink:0">▸</span><span style="font-size:11px;color:var(--sub);line-height:1.5">단순 테마 아닌 구조적 성장 가능성을 확인하다</span></div></div>
+  <div style="border-top:1px solid var(--brd);padding-top:10px"><div style="display:flex;gap:6px;margin-bottom:5px"><span style="color:var(--blu);flex-shrink:0">▸</span><span style="font-size:11px;color:var(--sub);line-height:1.5">■ ARS 치료제 개발을 통한 단기 상업화 모멘텀 가시화 구간: NT-I7은 Animal Rule 기반의 ARS 치료제로 개발이 진행 중이며, 미국 정부 전략비축 시장 진입 가능성</span></div><div style="display:flex;gap:6px;margin-bottom:5px"><span style="color:var(--blu);flex-shrink:0">▸</span><span style="font-size:11px;color:var(--sub);line-height:1.5">■ Endari 매출 가세를 통한 외형 성장 + R&D 레버리지 확보: 2026년부터 Endari 북미 판매가 반영되며 상장유지 요건 충족과 현금흐름 보완이 가능할 전망으로, 이후</span></div><div style="display:flex;gap:6px;margin-bottom:5px"><span style="color:var(--blu);flex-shrink:0">▸</span><span style="font-size:11px;color:var(--sub);line-height:1.5">자사주 소각에 따른 재무적 효과 결국 주가에 반영 전망</span></div></div>
 </div>
 </div>
 
@@ -917,76 +667,76 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans KR',sans
   <div class="sec-ttl">📋 WiseReport 신규 (18건)</div>
   
 <div style="display:flex;align-items:flex-start;gap:10px;padding:10px 0;border-bottom:1px solid var(--brd)">
-  <span style="font-size:10px;color:var(--blu);background:rgba(72,52,212,.15);padding:2px 6px;border-radius:4px;white-space:nowrap;flex-shrink:0">건강관리장비와용품</span>
-  <span style="font-size:12px;flex:1">의사의 손끝에 로봇을 더하다, 의료 로봇</span>
+  <span style="font-size:10px;color:var(--blu);background:rgba(72,52,212,.15);padding:2px 6px;border-radius:4px;white-space:nowrap;flex-shrink:0">하이브</span>
+  <span style="font-size:12px;flex:1">성장의 물결 위로, SWIM</span>
 </div>
 <div style="display:flex;align-items:flex-start;gap:10px;padding:10px 0;border-bottom:1px solid var(--brd)">
-  <span style="font-size:10px;color:var(--blu);background:rgba(72,52,212,.15);padding:2px 6px;border-radius:4px;white-space:nowrap;flex-shrink:0">관심종목</span>
-  <span style="font-size:12px;flex:1">단기 투자유망종목</span>
+  <span style="font-size:10px;color:var(--blu);background:rgba(72,52,212,.15);padding:2px 6px;border-radius:4px;white-space:nowrap;flex-shrink:0">기계</span>
+  <span style="font-size:12px;flex:1">공개된 중국 로봇 대장 유니트리의 어마어마한 숫자들</span>
 </div>
 <div style="display:flex;align-items:flex-start;gap:10px;padding:10px 0;border-bottom:1px solid var(--brd)">
-  <span style="font-size:10px;color:var(--blu);background:rgba(72,52,212,.15);padding:2px 6px;border-radius:4px;white-space:nowrap;flex-shrink:0">무선통신서비스</span>
-  <span style="font-size:12px;flex:1">통신서비스 Weekly - 더 이상 확인할 필요는 없습니다</span>
+  <span style="font-size:10px;color:var(--blu);background:rgba(72,52,212,.15);padding:2px 6px;border-radius:4px;white-space:nowrap;flex-shrink:0">화장품</span>
+  <span style="font-size:12px;flex:1">K-컬쳐: New Era, 글로벌 메인스트림으로</span>
 </div>
 <div style="display:flex;align-items:flex-start;gap:10px;padding:10px 0;border-bottom:1px solid var(--brd)">
-  <span style="font-size:10px;color:var(--blu);background:rgba(72,52,212,.15);padding:2px 6px;border-radius:4px;white-space:nowrap;flex-shrink:0">한국단자</span>
-  <span style="font-size:12px;flex:1">실적 회복과 배당은 기본. 더 큰 미래도 가능하다</span>
+  <span style="font-size:10px;color:var(--blu);background:rgba(72,52,212,.15);padding:2px 6px;border-radius:4px;white-space:nowrap;flex-shrink:0">제약</span>
+  <span style="font-size:12px;flex:1">Weekly Bio Insight</span>
 </div>
 <div style="display:flex;align-items:flex-start;gap:10px;padding:10px 0;border-bottom:1px solid var(--brd)">
-  <span style="font-size:10px;color:var(--blu);background:rgba(72,52,212,.15);padding:2px 6px;border-radius:4px;white-space:nowrap;flex-shrink:0">복합유틸리티</span>
-  <span style="font-size:12px;flex:1">1월 전력통계월보: 통계보다 중요한 중동 이슈</span>
+  <span style="font-size:10px;color:var(--blu);background:rgba(72,52,212,.15);padding:2px 6px;border-radius:4px;white-space:nowrap;flex-shrink:0">양방향미디어와서비스</span>
+  <span style="font-size:12px;flex:1">인터넷/게임 Weekly</span>
 </div>
 <div style="display:flex;align-items:flex-start;gap:10px;padding:10px 0;border-bottom:1px solid var(--brd)">
-  <span style="font-size:10px;color:var(--blu);background:rgba(72,52,212,.15);padding:2px 6px;border-radius:4px;white-space:nowrap;flex-shrink:0">반도체와반도체장비</span>
-  <span style="font-size:12px;flex:1">2월 대만 Tech 매출: 서버 위주 견조한 업황</span>
+  <span style="font-size:10px;color:var(--blu);background:rgba(72,52,212,.15);padding:2px 6px;border-radius:4px;white-space:nowrap;flex-shrink:0">전기제품</span>
+  <span style="font-size:12px;flex:1">기판 산업 Update: 티엘비 공장 투어 후기</span>
 </div>
 <div style="display:flex;align-items:flex-start;gap:10px;padding:10px 0;border-bottom:1px solid var(--brd)">
-  <span style="font-size:10px;color:var(--blu);background:rgba(72,52,212,.15);padding:2px 6px;border-radius:4px;white-space:nowrap;flex-shrink:0">미국/뉴코</span>
-  <span style="font-size:12px;flex:1">견조한 내수와 더불어 수입 감소로 수주잔고 급증</span>
+  <span style="font-size:10px;color:var(--blu);background:rgba(72,52,212,.15);padding:2px 6px;border-radius:4px;white-space:nowrap;flex-shrink:0">양방향미디어와서비스</span>
+  <span style="font-size:12px;flex:1">IBKS Daily [인터넷/게임]</span>
 </div>
 <div style="display:flex;align-items:flex-start;gap:10px;padding:10px 0;border-bottom:1px solid var(--brd)">
-  <span style="font-size:10px;color:var(--blu);background:rgba(72,52,212,.15);padding:2px 6px;border-radius:4px;white-space:nowrap;flex-shrink:0">해외</span>
-  <span style="font-size:12px;flex:1">[큰 그림으로 보는 중국] 시진핑의 10년, 그리고 7년</span>
+  <span style="font-size:10px;color:var(--blu);background:rgba(72,52,212,.15);padding:2px 6px;border-radius:4px;white-space:nowrap;flex-shrink:0">은행</span>
+  <span style="font-size:12px;flex:1">메리츠 Financial Daily</span>
 </div>
 <div style="display:flex;align-items:flex-start;gap:10px;padding:10px 0;border-bottom:1px solid var(--brd)">
-  <span style="font-size:10px;color:var(--blu);background:rgba(72,52,212,.15);padding:2px 6px;border-radius:4px;white-space:nowrap;flex-shrink:0">관심종목</span>
-  <span style="font-size:12px;flex:1">오이솔루션-2026년 3월 13일 AIR KOR</span>
+  <span style="font-size:10px;color:var(--blu);background:rgba(72,52,212,.15);padding:2px 6px;border-radius:4px;white-space:nowrap;flex-shrink:0">IT서비스</span>
+  <span style="font-size:12px;flex:1">Meritz Overnight Tech</span>
 </div>
 <div style="display:flex;align-items:flex-start;gap:10px;padding:10px 0;border-bottom:1px solid var(--brd)">
-  <span style="font-size:10px;color:var(--blu);background:rgba(72,52,212,.15);padding:2px 6px;border-radius:4px;white-space:nowrap;flex-shrink:0">관심종목</span>
-  <span style="font-size:12px;flex:1">삼성중공업-2026년 3월 13일 AIR KOR</span>
+  <span style="font-size:10px;color:var(--blu);background:rgba(72,52,212,.15);padding:2px 6px;border-radius:4px;white-space:nowrap;flex-shrink:0">DL이앤씨</span>
+  <span style="font-size:12px;flex:1">나는 상한가를 처음 보았다</span>
 </div>
 <div style="display:flex;align-items:flex-start;gap:10px;padding:10px 0;border-bottom:1px solid var(--brd)">
-  <span style="font-size:10px;color:var(--blu);background:rgba(72,52,212,.15);padding:2px 6px;border-radius:4px;white-space:nowrap;flex-shrink:0">관심종목</span>
-  <span style="font-size:12px;flex:1">태광-2026년 3월 13일 AIR KOR</span>
+  <span style="font-size:10px;color:var(--blu);background:rgba(72,52,212,.15);padding:2px 6px;border-radius:4px;white-space:nowrap;flex-shrink:0">화학</span>
+  <span style="font-size:12px;flex:1">여수 화학산업 구조조정 발표</span>
 </div>
 <div style="display:flex;align-items:flex-start;gap:10px;padding:10px 0;border-bottom:1px solid var(--brd)">
-  <span style="font-size:10px;color:var(--blu);background:rgba(72,52,212,.15);padding:2px 6px;border-radius:4px;white-space:nowrap;flex-shrink:0">관심종목</span>
-  <span style="font-size:12px;flex:1">삼성바이오로직스-2026년 3월 13일 AIR KOR</span>
+  <span style="font-size:10px;color:var(--blu);background:rgba(72,52,212,.15);padding:2px 6px;border-radius:4px;white-space:nowrap;flex-shrink:0">삼양식품</span>
+  <span style="font-size:12px;flex:1">간담회 후기: 수요보다 공급이 변수, 성장 방향성 유효</span>
 </div>
 <div style="display:flex;align-items:flex-start;gap:10px;padding:10px 0;border-bottom:1px solid var(--brd)">
-  <span style="font-size:10px;color:var(--blu);background:rgba(72,52,212,.15);padding:2px 6px;border-radius:4px;white-space:nowrap;flex-shrink:0">관심종목</span>
-  <span style="font-size:12px;flex:1">테스-2026년 3월 13일 AIR KOR</span>
+  <span style="font-size:10px;color:var(--blu);background:rgba(72,52,212,.15);padding:2px 6px;border-radius:4px;white-space:nowrap;flex-shrink:0">일간 계량분석</span>
+  <span style="font-size:12px;flex:1">Data Talk #10: 국내 시장 복귀 계좌(RIA) 도입</span>
 </div>
 <div style="display:flex;align-items:flex-start;gap:10px;padding:10px 0;border-bottom:1px solid var(--brd)">
-  <span style="font-size:10px;color:var(--blu);background:rgba(72,52,212,.15);padding:2px 6px;border-radius:4px;white-space:nowrap;flex-shrink:0">관심종목</span>
-  <span style="font-size:12px;flex:1">영원무역홀딩스-2026년 3월 13일 AIR KOR</span>
+  <span style="font-size:10px;color:var(--blu);background:rgba(72,52,212,.15);padding:2px 6px;border-radius:4px;white-space:nowrap;flex-shrink:0">판매업체</span>
+  <span style="font-size:12px;flex:1">소비재/플랫폼 Weekly: 올리브영, 숫자로 증명한 독주</span>
 </div>
 <div style="display:flex;align-items:flex-start;gap:10px;padding:10px 0;border-bottom:1px solid var(--brd)">
-  <span style="font-size:10px;color:var(--blu);background:rgba(72,52,212,.15);padding:2px 6px;border-radius:4px;white-space:nowrap;flex-shrink:0">관심종목</span>
-  <span style="font-size:12px;flex:1">프롬바이오-2026년 3월 13일 AIR KOR</span>
-</div>
-<div style="display:flex;align-items:flex-start;gap:10px;padding:10px 0;border-bottom:1px solid var(--brd)">
-  <span style="font-size:10px;color:var(--blu);background:rgba(72,52,212,.15);padding:2px 6px;border-radius:4px;white-space:nowrap;flex-shrink:0">리포트</span>
-  <span style="font-size:12px;flex:1">[총 50개]</span>
+  <span style="font-size:10px;color:var(--blu);background:rgba(72,52,212,.15);padding:2px 6px;border-radius:4px;white-space:nowrap;flex-shrink:0">건설</span>
+  <span style="font-size:12px;flex:1">퍼지는 온기 (주가 코멘트)</span>
 </div>
 <div style="display:flex;align-items:flex-start;gap:10px;padding:10px 0;border-bottom:1px solid var(--brd)">
   <span style="font-size:10px;color:var(--blu);background:rgba(72,52,212,.15);padding:2px 6px;border-radius:4px;white-space:nowrap;flex-shrink:0">리포트</span>
-  <span style="font-size:12px;flex:1">[총 17개]</span>
+  <span style="font-size:12px;flex:1">[총 32개]</span>
 </div>
 <div style="display:flex;align-items:flex-start;gap:10px;padding:10px 0;border-bottom:1px solid var(--brd)">
   <span style="font-size:10px;color:var(--blu);background:rgba(72,52,212,.15);padding:2px 6px;border-radius:4px;white-space:nowrap;flex-shrink:0">리포트</span>
-  <span style="font-size:12px;flex:1">[총 0개]</span>
+  <span style="font-size:12px;flex:1">[총 9개]</span>
+</div>
+<div style="display:flex;align-items:flex-start;gap:10px;padding:10px 0;border-bottom:1px solid var(--brd)">
+  <span style="font-size:10px;color:var(--blu);background:rgba(72,52,212,.15);padding:2px 6px;border-radius:4px;white-space:nowrap;flex-shrink:0">리포트</span>
+  <span style="font-size:12px;flex:1">[총 2개]</span>
 </div>
 </div>
 
