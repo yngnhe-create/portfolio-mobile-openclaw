@@ -450,23 +450,20 @@ function render() {
 // Market Data (for USD/KRW)
 // ═══════════════════════════════════════
 async function fetchUSDKRW() {
-  const KEY = 'mktData', TKEY = 'mktTime';
-  const cached = localStorage.getItem(KEY);
-  const ts = parseInt(localStorage.getItem(TKEY) || '0');
-  if (cached && Date.now() - ts < 4*60*60*1000) {
-    try {
-      const data = JSON.parse(cached);
-      const usd = data.find(d => d.id === 'USDKRW');
-      if (usd && usd.cur > 0) USDKRW = usd.cur;
-    } catch(e) {}
-    return;
-  }
+  try {
+    const res = await fetch('data/market_latest.json');
+    if (res.ok) {
+      const mkt = await res.json();
+      const fx = mkt.data && mkt.data.find(d => d.id === 'USDKRW');
+      if (fx && fx.cur > 0) { USDKRW = fx.cur; return; }
+    }
+  } catch(e) {}
   try {
     const r = await fetch('https://query1.finance.yahoo.com/v8/finance/chart/KRW=X?interval=1d&range=1d');
     const d = await r.json();
     const cur = d.chart.result[0].meta.regularMarketPrice;
     if (cur > 0) USDKRW = cur;
-  } catch(e) {}
+  } catch(e) { /* fallback 1450 */ }
 }
 
 // ═══════════════════════════════════════
