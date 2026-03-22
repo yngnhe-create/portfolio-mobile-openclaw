@@ -1,0 +1,40 @@
+{
+  "timestamp": "2026-03-22T17:25:54.942446",
+  "data": [
+    {
+      "id": "KOSPI",
+      "label": "KOSPI",
+      "cur": 5781.2,
+      "chg": 17.98,
+      "pct": 0.312
+    },
+    {
+      "id": "KOSDAQ",
+      "label": "KOSDAQ",
+      "cur": 1161.52,
+      "chg": 18.04,
+      "pct": 1.5776
+    },
+    {
+      "id": "NASDAQ",
+      "label": "NASDAQ",
+      "cur": 21647.61,
+      "chg": -443.08,
+      "pct": -2.0057
+    },
+    {
+      "id": "SP500",
+      "label": "SP500",
+      "cur": 6506.48,
+      "chg": -100.01,
+      "pct": -1.5138
+    },
+    {
+      "id": "USDKRW",
+      "label": "USDKRW",
+      "cur": 1504.83,
+      "chg": 10.42,
+      "pct": 0.6973
+    }
+  ]
+}

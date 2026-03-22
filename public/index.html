@@ -745,32 +745,34 @@ function renderMkt(id, label, cur, chg, pct) {
   el.querySelector('.mkt-chg').style.color = col;
 }
 
-async function loadMarketData(force) {
-  const KEY = 'mktData', TKEY = 'mktTime';
-  const cached = localStorage.getItem(KEY);
-  const ts = parseInt(localStorage.getItem(TKEY) || '0');
-  if (!force && cached && Date.now() - ts < MKT_TTL) {
-    const data = JSON.parse(cached);
-    data.forEach(({id,label,cur,chg,pct}) => renderMkt(id,label,cur,chg,pct));
-    const d = new Date(ts);
-    document.getElementById('mkt-upd').textContent = `업데이트 ${d.getHours()}:${String(d.getMinutes()).padStart(2,'0')}`;
-    return;
-  }
+async function loadMarketData() {
   document.getElementById('mkt-upd').textContent = '업데이트 중...';
   try {
-    const results = await Promise.all(MKT_SYMBOLS.map(async m => {
-      try {
-        const {cur,chg,pct} = await fetchOneSym(m.sym);
-        renderMkt(m.id, m.label, cur, chg, pct);
-        return {id:m.id, label:m.label, cur, chg, pct};
-      } catch(e) { return {id:m.id, label:m.label, cur:0, chg:0, pct:0}; }
-    }));
-    localStorage.setItem(KEY, JSON.stringify(results));
-    localStorage.setItem(TKEY, Date.now().toString());
-    const now = new Date();
-    document.getElementById('mkt-upd').textContent = `업데이트 ${now.getHours()}:${String(now.getMinutes()).padStart(2,'0')} · 4시간마다 갱신`;
+    // Primary: load from pre-generated JSON (cron job updates this)
+    const res = await fetch('data/market_latest.json');
+    if (!res.ok) throw new Error('no json');
+    const json = await res.json();
+    json.data.forEach(({id, label, cur, chg, pct}) => renderMkt(id, label, cur, chg, pct));
+    // Also update usdkrw for portfolio calculation
+    const krw = json.data.find(d => d.id === 'USDKRW');
+    if (krw && krw.cur > 0) usdkrw = krw.cur;
+    const ts = new Date(json.timestamp);
+    document.getElementById('mkt-upd').textContent = `업데이트 ${ts.getMonth()+1}/${ts.getDate()} ${ts.getHours()}:${String(ts.getMinutes()).padStart(2,'0')}`;
   } catch(e) {
-    document.getElementById('mkt-upd').textContent = '데이터 없음';
+    // Fallback: try Yahoo Finance via proxy
+    try {
+      const results = await Promise.all(MKT_SYMBOLS.map(async m => {
+        try {
+          const {cur,chg,pct} = await fetchOneSym(m.sym);
+          renderMkt(m.id, m.label, cur, chg, pct);
+          return {id:m.id, label:m.label, cur, chg, pct};
+        } catch(e) { return {id:m.id, label:m.label, cur:0, chg:0, pct:0}; }
+      }));
+      const now = new Date();
+      document.getElementById('mkt-upd').textContent = `업데이트 ${now.getHours()}:${String(now.getMinutes()).padStart(2,'0')}`;
+    } catch(e2) {
+      document.getElementById('mkt-upd').textContent = '데이터 없음';
+    }
   }
 }
 
@@ -804,13 +806,11 @@ Promise.all([
   loadPortfolio(),
   loadNews(),
   loadWiseReport(),
-  loadMarketData(false)
+  loadMarketData()
 ]).then(() => {
   console.log('All data loaded');
 });
 
-// Auto-refresh market data
-setInterval(() => loadMarketData(true), MKT_TTL);
 // Auto-refresh news every hour
 setInterval(() => loadNews(), NEWS_TTL);
 
