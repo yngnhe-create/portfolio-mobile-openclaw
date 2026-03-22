@@ -8,31 +8,38 @@
 *{margin:0;padding:0;box-sizing:border-box}
 :root{--bg:#0a0e1a;--card:#151b2d;--hdr:#1a1f2e;--brd:#2d3748;--txt:#e0e6ed;--sub:#8b9dc3;--red:#ff4757;--grn:#4ecdc4;--blu:#4834d4;--yel:#f9ca24}
 body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans KR',sans-serif;background:var(--bg);color:var(--txt);font-size:14px;padding-bottom:80px}
-.hdr{background:var(--hdr);padding:15px;border-bottom:1px solid var(--brd);position:sticky;top:0;z-index:999}
+.hdr{background:rgba(26,31,46,.85);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid rgba(72,52,212,.3);padding:15px;position:sticky;top:0;z-index:999}
 .hdr-ttl{font-size:18px;font-weight:800;margin-bottom:4px}
 .upd{font-size:11px;color:var(--sub)}
-.tcard{background:linear-gradient(135deg,var(--blu),#686de0);padding:20px;margin:15px;border-radius:14px}
-.sec{background:var(--card);margin:0 15px 15px;padding:18px;border-radius:12px}
+.tcard{background:linear-gradient(135deg,var(--blu),#686de0);padding:20px;margin:15px;border-radius:14px;position:relative;overflow:hidden;animation:fadeUp .5s ease}
+.tcard::before{content:'';position:absolute;top:-50%;right:-30%;width:200px;height:200px;background:radial-gradient(circle,rgba(255,255,255,.1),transparent 70%);pointer-events:none}
+.sec{background:var(--card);margin:0 15px 15px;padding:18px;border-radius:14px;border:1px solid rgba(45,55,72,.5)}
 .sec-ttl{font-size:15px;font-weight:700;margin-bottom:14px}
-.metric-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin:0 15px 15px}
-.metric{background:var(--card);padding:15px;border-radius:12px;text-align:center}
+.metric-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin:0 15px 15px;animation:fadeUp .4s ease .1s both}
+.metric{background:var(--card);padding:15px;border-radius:14px;text-align:center}
 .metric-val{font-size:22px;font-weight:800;margin-bottom:4px}
 .metric-lbl{font-size:11px;color:var(--sub)}
 .sector-table{width:100%;border-collapse:collapse}
 .sector-table th{text-align:left;padding:8px;font-size:11px;color:var(--sub);border-bottom:1px solid var(--brd)}
-.principle{background:var(--hdr);border-left:4px solid var(--blu);border-radius:8px;padding:14px;margin-bottom:10px}
+.principle{background:var(--hdr);border-left:4px solid var(--blu);border-radius:10px;padding:14px;margin-bottom:10px;transition:transform .15s}
+.principle:active{transform:scale(.98)}
 .p-num{font-size:22px;font-weight:900;color:var(--blu);margin-bottom:4px}
 .p-ttl{font-size:14px;font-weight:700;margin-bottom:4px}
 .p-desc{font-size:12px;color:var(--sub)}
-.bnav{position:fixed;bottom:0;left:0;right:0;background:var(--hdr);border-top:1px solid var(--brd);display:flex;justify-content:space-around;padding:8px 0 20px;z-index:999}
+.bnav{position:fixed;bottom:0;left:0;right:0;background:rgba(26,31,46,.92);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-top:1px solid rgba(45,55,72,.5);padding:8px 0 max(20px,env(safe-area-inset-bottom));display:flex;justify-content:space-around;z-index:999}
 .bnav a{display:flex;flex-direction:column;align-items:center;gap:3px;color:var(--sub);text-decoration:none;font-size:10px;padding:5px 10px}
 .bnav a.on{color:var(--blu)}.ni{font-size:22px}
+@keyframes fadeUp{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
+.sector-table tbody tr{transition:background .15s}
+.sector-table tbody tr:active{background:rgba(255,255,255,.02)}
+.scroll-top{position:fixed;bottom:80px;right:16px;width:44px;height:44px;border-radius:50%;background:rgba(72,52,212,.9);backdrop-filter:blur(8px);color:#fff;border:1px solid rgba(72,52,212,.4);font-size:18px;cursor:pointer;display:none;z-index:998;box-shadow:0 4px 16px rgba(0,0,0,.3);transition:all .2s}
+.scroll-top:active{transform:scale(.9)}
 </style>
 </head>
 <body>
 <div class="hdr">
-  <div class="hdr-ttl">📖 플레이북</div>
-  <div class="upd">⏱ 분석: 2026년 03월 18일 08:46 KST</div>
+  <div class="hdr-ttl"><span style="margin-right:6px">📖</span>플레이북</div>
+  <div class="upd">⏱ 분석: 2026년 03월 22일 07:03 KST</div>
 </div>
 
 <div class="tcard">
@@ -295,11 +302,18 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans KR',sans
   <div class="principle"><div class="p-num">05</div><div class="p-ttl">리뷰 사이클</div><div class="p-desc">주 1회 포트폴리오 리뷰. 월 1회 전략 재검토.</div></div>
 </div>
 
+<div style="padding:20px 16px;font-size:10px;color:var(--sub);text-align:center;line-height:1.6;opacity:.5">
+  투자커멘드 플레이북 · 투자 결정은 본인의 판단과 책임하에 이루어져야 합니다
+</div>
 <nav class="bnav">
-  <a href="index.html"><span class="ni">🏠</span>홈</a>
-  <a href="portfolio.html"><span class="ni">📊</span>포트폴리오</a>
-  <a href="wisereport.html"><span class="ni">📋</span>리포트</a>
+  <a href="index.html"><span class="ni">📊</span>대시보드</a>
+  <a href="invest.html"><span class="ni">💡</span>투자제언</a>
+  <a href="report.html"><span class="ni">📋</span>리포트</a>
   <a href="playbook.html" class="on"><span class="ni">📖</span>플레이북</a>
 </nav>
+<button class="scroll-top" id="scrollTopBtn" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+<script>
+window.addEventListener('scroll',()=>{document.getElementById('scrollTopBtn').style.display=window.scrollY>300?'block':'none';},{passive:true});
+</script>
 </body>
 </html>

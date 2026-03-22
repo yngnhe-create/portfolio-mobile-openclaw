@@ -8,7 +8,7 @@
 *{margin:0;padding:0;box-sizing:border-box}
 :root{--bg:#0a0e1a;--card:#151b2d;--hdr:#1a1f2e;--brd:#2d3748;--txt:#e0e6ed;--sub:#8b9dc3;--red:#ff4757;--grn:#4ecdc4;--blu:#4834d4;--yel:#f9ca24}
 body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans KR',sans-serif;background:var(--bg);color:var(--txt);font-size:14px;padding-bottom:80px}
-.topbar{background:var(--hdr);padding:12px 15px;display:flex;justify-content:space-between;align-items:center;border-bottom:2px solid var(--blu);position:sticky;top:0;z-index:999}
+.topbar{background:rgba(26,31,46,.85);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid rgba(72,52,212,.3);padding:12px 15px;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:999}
 .logo{font-weight:800;font-size:16px}
 .logo span{color:var(--blu);margin-right:6px}
 .mstat{padding:5px 12px;border-radius:20px;font-size:11px;font-weight:600;background:rgba(78,205,196,.15);color:var(--grn);border:1px solid rgba(78,205,196,.3)}
@@ -32,7 +32,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans KR',sans
 .gbar{height:12px;background:#2d3748;border-radius:6px;overflow:hidden}
 .gfill{height:100%;background:linear-gradient(90deg,var(--grn),#00b894);border-radius:6px;transition:width .6s}
 .glbl{display:flex;justify-content:space-between;margin-top:8px;font-size:11px;color:var(--sub)}
-.risk-box{background:var(--card);margin:10px 15px;padding:15px;border-radius:12px;border-left:4px solid var(--yel)}
+.risk-box{background:var(--card);margin:10px 15px;padding:15px;border-radius:14px;border-left:4px solid var(--yel)}
 .risk-ttl{font-size:14px;font-weight:700;margin-bottom:10px}
 .risk-row{display:flex;align-items:center;gap:8px;padding:8px 0;border-bottom:1px solid var(--brd);font-size:12px}
 .risk-row:last-child{border:none}
@@ -40,7 +40,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans KR',sans
 .rh{background:rgba(255,71,87,.2);color:var(--red)}
 .rm{background:rgba(249,202,36,.2);color:var(--yel)}
 .rl{background:rgba(78,205,196,.2);color:var(--grn)}
-.rec-box{background:var(--card);margin:0 15px 10px;padding:15px;border-radius:12px;border-left:4px solid var(--grn)}
+.rec-box{background:var(--card);margin:0 15px 10px;padding:15px;border-radius:14px;border-left:4px solid var(--grn)}
 .rec-ttl{font-size:14px;font-weight:700;margin-bottom:10px}
 .rec-item{padding:10px;background:var(--hdr);border-radius:8px;margin-bottom:8px;font-size:12px;line-height:1.5}
 .rec-item:last-child{margin-bottom:0}
@@ -52,7 +52,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans KR',sans
 .rec-tag.div{background:rgba(72,52,212,.2);color:var(--blu)}
 .rec-tag.cash{background:rgba(139,157,195,.2);color:var(--sub)}
 .qact{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;padding:15px}
-.qbtn{display:flex;flex-direction:column;align-items:center;gap:6px;padding:15px 10px;background:var(--hdr);border-radius:12px;border:1px solid var(--brd);cursor:pointer;text-decoration:none;color:var(--txt)}
+.qbtn{display:flex;flex-direction:column;align-items:center;gap:6px;padding:15px 10px;background:var(--hdr);border-radius:14px;border:1px solid var(--brd);cursor:pointer;text-decoration:none;color:var(--txt)}
 .qbtn:active{transform:scale(.95)}
 .qicon{font-size:22px}
 .qlbl{font-size:11px;font-weight:600}
@@ -64,7 +64,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans KR',sans
 .sec.open .sec-body{display:block}
 .hscroll{display:flex;gap:12px;overflow-x:auto;padding:5px 0 10px;-webkit-overflow-scrolling:touch}
 .hscroll::-webkit-scrollbar{display:none}
-.scard{min-width:155px;background:var(--hdr);border-radius:12px;padding:14px;border:1px solid var(--brd);flex-shrink:0}
+.scard{min-width:155px;background:var(--hdr);border-radius:14px;padding:14px;border:1px solid var(--brd);flex-shrink:0}
 .sname{font-size:14px;font-weight:700;margin-bottom:3px}
 .scod{font-size:10px;color:var(--sub)}
 .sprice{font-size:18px;font-weight:800;margin-top:8px}
@@ -75,11 +75,11 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans KR',sans
 #news-track::-webkit-scrollbar{display:none}
 .ndot{width:8px;height:8px;border-radius:50%;background:var(--brd);cursor:pointer;transition:.2s}
 .ndot.on{background:var(--blu);width:20px;border-radius:4px}
-.bnav{position:fixed;bottom:0;left:0;right:0;background:var(--hdr);border-top:1px solid var(--brd);display:flex;justify-content:space-around;padding:8px 0 20px;z-index:999}
+.bnav{position:fixed;bottom:0;left:0;right:0;background:rgba(26,31,46,.92);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-top:1px solid rgba(45,55,72,.5);display:flex;justify-content:space-around;padding:8px 0 max(20px,env(safe-area-inset-bottom));z-index:999}
 .bnav a{display:flex;flex-direction:column;align-items:center;gap:3px;color:var(--sub);text-decoration:none;font-size:10px;padding:5px 10px}
 .bnav a.on{color:var(--blu)}
 .bnav .ni{font-size:22px}
-.mask-btn{position:fixed;top:12px;right:12px;z-index:9999;background:rgba(72,52,212,.9);color:#fff;border:none;border-radius:20px;padding:6px 14px;font-size:12px;font-weight:700;cursor:pointer;backdrop-filter:blur(4px);box-shadow:0 2px 8px rgba(0,0,0,.4)}
+.mask-btn{position:fixed;top:12px;right:12px;z-index:9999;background:rgba(72,52,212,.9);color:#fff;border:none;border-radius:20px;padding:6px 14px;font-size:12px;font-weight:700;cursor:pointer;backdrop-filter:blur(4px);box-shadow:0 2px 8px rgba(0,0,0,.4);transition:all .2s;-webkit-tap-highlight-color:transparent}
 body.masked .pval,body.masked .pchg,body.masked .cd-num,body.masked .sprice,body.masked .sup,body.masked .sdn{filter:blur(8px);user-select:none;transition:filter .2s}
 .mkt-card{background:var(--card);border-radius:10px;padding:12px 14px;display:flex;flex-direction:column;gap:3px}
 .mkt-nm{font-size:11px;color:var(--sub);font-weight:600}
@@ -102,12 +102,20 @@ body.masked .pval,body.masked .pchg,body.masked .cd-num,body.masked .sprice,body
 .loading{text-align:center;padding:40px;color:var(--sub);font-size:13px}
 .loading .spin{display:inline-block;width:24px;height:24px;border:3px solid var(--brd);border-top-color:var(--blu);border-radius:50%;animation:spin .8s linear infinite}
 @keyframes spin{to{transform:rotate(360deg)}}
+@keyframes fadeUp{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
+.fade-in{animation:fadeUp .5s ease both}
+.scroll-top{position:fixed;bottom:80px;right:16px;width:44px;height:44px;border-radius:50%;background:rgba(72,52,212,.9);backdrop-filter:blur(8px);color:#fff;border:1px solid rgba(72,52,212,.4);font-size:18px;cursor:pointer;display:none;z-index:998;box-shadow:0 4px 16px rgba(0,0,0,.3);transition:all .2s;-webkit-tap-highlight-color:transparent}
+.scroll-top:active{transform:scale(.9)}
+.sec-arrow{font-size:18px;color:var(--sub);transition:transform .25s ease;line-height:1}
+.sec.open .sec-arrow{transform:rotate(180deg)}
+.scard{transition:transform .15s}
+.scard:active{transform:scale(.97)}
 </style>
 </head>
 <body>
 <button class="mask-btn" id="maskBtn" onclick="toggleMask()">🙈 마스킹</button>
 <div class="topbar">
-  <div class="logo"><span>◆</span>투자커멘드</div>
+  <div class="logo"><span>📊</span>투자커멘드</div>
   <div class="mstat" id="ms">● 로딩 중...</div>
 </div>
 
@@ -123,7 +131,7 @@ body.masked .pval,body.masked .pchg,body.masked .cd-num,body.masked .sprice,body
 <div class="alert" id="alertBanner"></div>
 
 <!-- Portfolio Summary -->
-<div class="pgrid" id="pgrid">
+<div class="pgrid fade-in" id="pgrid">
   <div class="pcard main">
     <div class="pval" id="totalAsset">-</div>
     <div class="plbl">총 자산</div>
@@ -141,7 +149,7 @@ body.masked .pval,body.masked .pchg,body.masked .cd-num,body.masked .sprice,body
 </div>
 
 <!-- Goal Progress -->
-<div class="goal">
+<div class="goal fade-in">
   <div class="goal-hdr">
     <span class="goal-ttl">🎯 2026년 목표 진행률</span>
     <span class="goal-val" id="goalStatus">-</span>
@@ -166,7 +174,7 @@ body.masked .pval,body.masked .pchg,body.masked .cd-num,body.masked .sprice,body
 </div>
 
 <!-- Risk Management -->
-<div class="risk-box">
+<div class="risk-box fade-in">
   <div class="risk-ttl">⚠️ 포트폴리오 리스크</div>
   <div id="riskRows"><div class="loading"><div class="spin"></div><br>분석 중...</div></div>
 </div>
@@ -244,7 +252,7 @@ body.masked .pval,body.masked .pchg,body.masked .cd-num,body.masked .sprice,body
 </div>
 
 <!-- Investment Recommendations -->
-<div class="rec-box">
+<div class="rec-box fade-in">
   <div class="rec-ttl">💡 투자 운영 제언</div>
   <div id="recItems"><div class="loading"><div class="spin"></div><br>제언 생성 중...</div></div>
 </div>
@@ -253,7 +261,7 @@ body.masked .pval,body.masked .pchg,body.masked .cd-num,body.masked .sprice,body
 <div class="sec">
   <div class="qact">
     <a href="portfolio.html" class="qbtn"><span class="qicon">📊</span><span class="qlbl">포트폴리오</span></a>
-    <a href="wisereport.html" class="qbtn"><span class="qicon">📋</span><span class="qlbl">리포트</span></a>
+    <a href="report.html" class="qbtn"><span class="qicon">📋</span><span class="qlbl">리포트</span></a>
     <a href="playbook.html" class="qbtn"><span class="qicon">📖</span><span class="qlbl">플레이북</span></a>
     <a href="iran-dashboard-kr/" class="qbtn"><span class="qicon">🌍</span><span class="qlbl">이란 전황</span></a>
   </div>
@@ -263,7 +271,7 @@ body.masked .pval,body.masked .pchg,body.masked .cd-num,body.masked .sprice,body
 <div class="sec open" id="s0">
   <div class="sec-hdr" onclick="tog('s0')">
     <div class="sec-ttl">📊 카테고리별 배분 <span class="sec-cnt" id="catCnt">-</span></div>
-    <span id="s0t">▼</span>
+    <span class="sec-arrow">▾</span>
   </div>
   <div class="sec-body">
     <div class="cat-grid" id="catGrid"><div class="loading"><div class="spin"></div><br>분석 중...</div></div>
@@ -274,7 +282,7 @@ body.masked .pval,body.masked .pchg,body.masked .cd-num,body.masked .sprice,body
 <div class="sec open" id="s1">
   <div class="sec-hdr" onclick="tog('s1')">
     <div class="sec-ttl">💰 주요 보유 종목 <span class="sec-cnt" id="holdCnt">-</span></div>
-    <span id="s1t">▼</span>
+    <span class="sec-arrow">▾</span>
   </div>
   <div class="sec-body">
     <div class="hscroll" id="holdScroll"><div class="loading"><div class="spin"></div><br>로딩 중...</div></div>
@@ -286,7 +294,7 @@ body.masked .pval,body.masked .pchg,body.masked .cd-num,body.masked .sprice,body
 <div class="sec" id="s2">
   <div class="sec-hdr" onclick="tog('s2')">
     <div class="sec-ttl">💵 배당 예정 종목 <span class="sec-cnt" id="divCnt">-</span></div>
-    <span id="s2t">▼</span>
+    <span class="sec-arrow">▾</span>
   </div>
   <div class="sec-body">
     <div id="divList"><div class="loading"><div class="spin"></div><br>로딩 중...</div></div>
@@ -297,18 +305,21 @@ body.masked .pval,body.masked .pchg,body.masked .cd-num,body.masked .sprice,body
 <div class="sec" id="s3">
   <div class="sec-hdr" onclick="tog('s3')">
     <div class="sec-ttl">🔻 손실 관찰 종목 <span class="sec-cnt" id="lossCnt">-</span></div>
-    <span id="s3t">▼</span>
+    <span class="sec-arrow">▾</span>
   </div>
   <div class="sec-body">
     <div class="hscroll" id="lossScroll"><div class="loading"><div class="spin"></div><br>로딩 중...</div></div>
   </div>
 </div>
 
+<div style="padding:20px 16px;font-size:10px;color:var(--sub);text-align:center;line-height:1.6;opacity:.5">
+  투자커멘드 · CSV 데이터 기반 자동 분석 · 투자 결정은 본인의 판단과 책임하에 이루어져야 합니다
+</div>
 <nav class="bnav">
-  <a href="index.html"><span class="ni">🏠</span>홈</a>
+  <a href="index.html"><span class="ni">📊</span>대시보드</a>
   <a href="invest.html" class="on"><span class="ni">💡</span>투자제언</a>
   <a href="report.html"><span class="ni">📋</span>리포트</a>
-  <a href="portfolio.html"><span class="ni">📊</span>포트폴리오</a>
+  <a href="playbook.html"><span class="ni">📖</span>플레이북</a>
 </nav>
 
 <script>
@@ -780,10 +791,7 @@ if(track) {
 }
 
 function tog(id) {
-  const s = document.getElementById(id);
-  const t = document.getElementById(id + 't');
-  s.classList.toggle('open');
-  t.textContent = s.classList.contains('open') ? '▼' : '▶';
+  document.getElementById(id).classList.toggle('open');
 }
 
 function checkMarket() {
@@ -865,6 +873,9 @@ async function init() {
 
 init();
 setInterval(() => loadMarketData(true), MKT_TTL);
+
+window.addEventListener('scroll',()=>{document.getElementById('scrollTopBtn').style.display=window.scrollY>300?'block':'none';},{passive:true});
 </script>
+<button class="scroll-top" id="scrollTopBtn" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
 </body>
 </html>
