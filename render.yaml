@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: investment-command
+    runtime: static
+    buildCommand: ""
+    staticPublishPath: ./public
+    branch: main
