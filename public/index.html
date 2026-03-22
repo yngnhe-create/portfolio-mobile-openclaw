@@ -539,61 +539,39 @@ async function fetchWithProxy(url) {
 }
 
 async function loadNews() {
-  // Check cache
-  const cacheKey = 'newsCache';
-  const cacheTs = 'newsCacheTs';
-  const cached = localStorage.getItem(cacheKey);
-  const ts = parseInt(localStorage.getItem(cacheTs) || '0');
-
   let articles = [];
-
-  if (cached && Date.now() - ts < NEWS_TTL) {
-    articles = JSON.parse(cached);
-  } else {
-    const allItems = [];
-    const seen = new Set();
-
-    for (const rssUrl of NEWS_RSS_URLS) {
-      const xml = await fetchWithProxy(rssUrl);
-      if (!xml) continue;
-      try {
+  try {
+    // Primary: load from pre-generated JSON (cron job updates this)
+    const res = await fetch('data/news_latest.json');
+    if (!res.ok) throw new Error('no json');
+    const json = await res.json();
+    articles = json.articles || [];
+  } catch(e) {
+    // Fallback: try RSS via proxy
+    try {
+      const xml = await fetchWithProxy(NEWS_RSS_URLS[0]);
+      if (xml) {
         const parser = new DOMParser();
         const doc = parser.parseFromString(xml, 'text/xml');
         const items = doc.querySelectorAll('item');
+        const seen = new Set();
         items.forEach(item => {
           const rawTitle = item.querySelector('title')?.textContent || '';
           const title = cleanTitle(rawTitle);
           if (!title || seen.has(title)) return;
           seen.add(title);
-          const link = item.querySelector('link')?.textContent || '';
-          const pubDate = item.querySelector('pubDate')?.textContent || '';
-          const source = item.querySelector('source')?.textContent || '';
-          allItems.push({ title, link, pubDate, source });
+          articles.push({
+            title, link: item.querySelector('link')?.textContent || '',
+            pubDate: item.querySelector('pubDate')?.textContent || '',
+            source: item.querySelector('source')?.textContent || '',
+            category: categorizeNews(title), impacts: findPortfolioImpact(title)
+          });
         });
-      } catch(e) { /* skip bad xml */ }
-    }
-
-    // Sort by date descending, take top 8
-    allItems.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
-    articles = allItems.slice(0, 8).map(item => {
-      const cat = categorizeNews(item.title);
-      const impacts = findPortfolioImpact(item.title);
-      return {
-        title: item.title,
-        link: item.link,
-        pubDate: item.pubDate,
-        source: item.source,
-        category: cat,
-        impacts: impacts
-      };
-    });
-
-    if (articles.length > 0) {
-      localStorage.setItem(cacheKey, JSON.stringify(articles));
-      localStorage.setItem(cacheTs, Date.now().toString());
-    }
+        articles.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
+        articles = articles.slice(0, 8);
+      }
+    } catch(e2) { /* give up */ }
   }
-
   renderNews(articles);
   renderTicker(articles);
 }
