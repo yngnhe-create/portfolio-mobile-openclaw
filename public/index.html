@@ -230,10 +230,7 @@ body.masked .pval,body.masked .pchg,body.masked .cd-num{filter:blur(8px);user-se
 const GOAL_PCT = 20; // 2026 목표 수익률
 const NEWS_TTL = 60 * 60 * 1000; // 1시간
 const MKT_TTL = 4 * 60 * 60 * 1000; // 4시간
-const CORS_PROXIES = [
-  url => `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`,
-  url => `https://corsproxy.io/?url=${encodeURIComponent(url)}`
-];
+const PROXY = url => `https://api.allorigins.win/get?url=${encodeURIComponent(url)}`;
 const NEWS_RSS_URLS = [
   'https://news.google.com/rss/search?q=코스피+주식+경제+증시&hl=ko&gl=KR&ceid=KR:ko',
   'https://news.google.com/rss/search?q=삼성전자+OR+현대차+OR+비트코인+OR+반도체&hl=ko&gl=KR&ceid=KR:ko'
@@ -324,13 +321,20 @@ function timeAgo(dateStr) {
 let portfolioData = [];
 let usdkrw = 1450; // default fallback
 
+async function fetchViaProxy(url) {
+  const r = await fetch(PROXY(url));
+  const j = await r.json();
+  if (!j.contents) throw new Error('proxy empty');
+  return j.contents;
+}
+
 async function fetchUSDKRW() {
   try {
     const cached = localStorage.getItem('usdkrw');
     const ts = parseInt(localStorage.getItem('usdkrwTs') || '0');
     if (cached && Date.now() - ts < MKT_TTL) { usdkrw = parseFloat(cached); return; }
-    const r = await fetch('https://query1.finance.yahoo.com/v8/finance/chart/KRW=X?interval=1d&range=1d');
-    const d = await r.json();
+    const text = await fetchViaProxy('https://query1.finance.yahoo.com/v8/finance/chart/KRW=X?interval=1d&range=1d');
+    const d = JSON.parse(text);
     usdkrw = d.chart.result[0].meta.regularMarketPrice || 1450;
     localStorage.setItem('usdkrw', usdkrw.toString());
     localStorage.setItem('usdkrwTs', Date.now().toString());
@@ -529,13 +533,9 @@ function cleanTitle(title) {
 }
 
 async function fetchWithProxy(url) {
-  for (const mkProxy of CORS_PROXIES) {
-    try {
-      const res = await fetch(mkProxy(url), {signal: AbortSignal.timeout(8000)});
-      if (res.ok) return await res.text();
-    } catch(e) { continue; }
-  }
-  return null;
+  try {
+    return await fetchViaProxy(url);
+  } catch(e) { return null; }
 }
 
 async function loadNews() {
@@ -721,8 +721,8 @@ const MKT_SYMBOLS = [
 
 async function fetchOneSym(sym) {
   const url = `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(sym)}?interval=1d&range=1d`;
-  const r = await fetch(url, {headers:{'Accept':'application/json'}});
-  const d = await r.json();
+  const text = await fetchViaProxy(url);
+  const d = JSON.parse(text);
   const meta = d.chart.result[0].meta;
   const cur = meta.regularMarketPrice || 0;
   const prev = meta.chartPreviousClose || meta.previousClose || cur;
