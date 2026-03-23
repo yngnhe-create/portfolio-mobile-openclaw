@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-24T00:40:44.772578",
+  "timestamp": "2026-03-24T00:58:48.277001",
   "count": 10,
   "articles": [
     {
@@ -12,8 +12,8 @@
         "color": "#8b9dc3"
       },
       "impacts": [
-        "현대차",
-        "삼성전자"
+        "삼성전자",
+        "현대차"
       ]
     },
     {
@@ -39,8 +39,8 @@
         "color": "#8b9dc3"
       },
       "impacts": [
-        "현대차",
-        "삼성전자"
+        "삼성전자",
+        "현대차"
       ]
     },
     {
@@ -67,6 +67,19 @@
       },
       "impacts": [
         "현대차"
+      ]
+    },
+    {
+      "title": "‘파운드리도 가격↑’…삼성전자, 반도체 양 날개 드디어 펴나",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5GNW5aVXNGeFVfYUNCck1TUjBqVFB3dG85dlJsT1c4N0xFMG5DLU1qd2MzbEdOUmprSU5BNnJCZlBFRXRFdlFTWF9YY013dw?oc=5",
+      "pubDate": "Mon, 23 Mar 2026 14:47:47 GMT",
+      "source": "dt.co.kr",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
       ]
     },
     {
@@ -119,20 +132,6 @@
       },
       "impacts": [
         "삼성전자"
-      ]
-    },
-    {
-      "title": "마이크로스트래티지, 자사 주식 활용해 이번 주 비트코인 7650만 달러 매입",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9HZVF1eFhWa0JKVEhQdEhBR3UzOTJaS1IwVUdIM0RHSEZudnl0dmxTdjZBbDlMMnR5TGg4UUdPZHkxN09nYlMteHhFdVRSaEdlSEtZc1NtSzlmWlVEbWRsY3dPTWVSRFdLWjZURTlEVnlJTkUwV05Z?oc=5",
-      "pubDate": "Mon, 23 Mar 2026 13:44:00 GMT",
-      "source": "Investing.com 한국어",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "환율",
-        "BTC"
       ]
     }
   ]
