@@ -8,85 +8,286 @@
 *{margin:0;padding:0;box-sizing:border-box}
 :root{--bg:#0a0e1a;--card:#151b2d;--hdr:#1a1f2e;--brd:#2d3748;--txt:#e0e6ed;--sub:#8b9dc3;--red:#ff4757;--grn:#4ecdc4;--blu:#4834d4;--yel:#f9ca24}
 body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans KR',sans-serif;background:var(--bg);color:var(--txt);font-size:14px;padding-bottom:80px}
-.hdr{background:rgba(26,31,46,.85);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid rgba(72,52,212,.3);padding:15px;position:sticky;top:0;z-index:999}
+.hdr{background:var(--hdr);padding:15px;border-bottom:1px solid var(--brd);position:sticky;top:0;z-index:999}
 .hdr-ttl{font-size:18px;font-weight:800;margin-bottom:4px}
 .upd{font-size:11px;color:var(--sub)}
-.tcard{background:linear-gradient(135deg,var(--blu),#686de0);padding:20px;margin:15px;border-radius:14px;position:relative;overflow:hidden;animation:fadeUp .5s ease}
-.tcard::before{content:'';position:absolute;top:-50%;right:-30%;width:200px;height:200px;background:radial-gradient(circle,rgba(255,255,255,.1),transparent 70%);pointer-events:none}
-.sec{background:var(--card);margin:0 15px 15px;padding:18px;border-radius:14px;border:1px solid rgba(45,55,72,.5)}
+.tcard{background:linear-gradient(135deg,var(--blu),#686de0);padding:20px;margin:15px;border-radius:14px}
+.sec{background:var(--card);margin:0 15px 15px;padding:18px;border-radius:12px}
 .sec-ttl{font-size:15px;font-weight:700;margin-bottom:14px}
-.metric-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin:0 15px 15px;animation:fadeUp .4s ease .1s both}
-.metric{background:var(--card);padding:15px;border-radius:14px;text-align:center}
+.metric-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin:0 15px 15px}
+.metric{background:var(--card);padding:15px;border-radius:12px;text-align:center}
 .metric-val{font-size:22px;font-weight:800;margin-bottom:4px}
 .metric-lbl{font-size:11px;color:var(--sub)}
 .sector-table{width:100%;border-collapse:collapse}
 .sector-table th{text-align:left;padding:8px;font-size:11px;color:var(--sub);border-bottom:1px solid var(--brd)}
-.principle{background:var(--hdr);border-left:4px solid var(--blu);border-radius:10px;padding:14px;margin-bottom:10px;transition:transform .15s}
-.principle:active{transform:scale(.98)}
+.principle{background:var(--hdr);border-left:4px solid var(--blu);border-radius:8px;padding:14px;margin-bottom:10px}
 .p-num{font-size:22px;font-weight:900;color:var(--blu);margin-bottom:4px}
 .p-ttl{font-size:14px;font-weight:700;margin-bottom:4px}
 .p-desc{font-size:12px;color:var(--sub)}
-.bnav{position:fixed;bottom:0;left:0;right:0;background:rgba(26,31,46,.92);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-top:1px solid rgba(45,55,72,.5);padding:8px 0 max(20px,env(safe-area-inset-bottom));display:flex;justify-content:space-around;z-index:999}
+.bnav{position:fixed;bottom:0;left:0;right:0;background:var(--hdr);border-top:1px solid var(--brd);display:flex;justify-content:space-around;padding:8px 0 20px;z-index:999}
 .bnav a{display:flex;flex-direction:column;align-items:center;gap:3px;color:var(--sub);text-decoration:none;font-size:10px;padding:5px 10px}
 .bnav a.on{color:var(--blu)}.ni{font-size:22px}
-@keyframes fadeUp{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
-.sector-table tbody tr{transition:background .15s}
-.sector-table tbody tr:active{background:rgba(255,255,255,.02)}
-.scroll-top{position:fixed;bottom:80px;right:16px;width:44px;height:44px;border-radius:50%;background:rgba(72,52,212,.9);backdrop-filter:blur(8px);color:#fff;border:1px solid rgba(72,52,212,.4);font-size:18px;cursor:pointer;display:none;z-index:998;box-shadow:0 4px 16px rgba(0,0,0,.3);transition:all .2s}
-.scroll-top:active{transform:scale(.9)}
-.loading{text-align:center;padding:30px;color:var(--sub);font-size:13px}
+.fab-refresh{position:fixed;bottom:78px;left:16px;width:48px;height:48px;border-radius:50%;background:linear-gradient(135deg,var(--blu),#686de0);color:#fff;border:none;font-size:20px;cursor:pointer;z-index:1000;box-shadow:0 4px 14px rgba(72,52,212,.4);display:flex;align-items:center;justify-content:center;transition:transform .2s;-webkit-tap-highlight-color:transparent}
+.fab-refresh:active{transform:scale(.9)}
+.fab-refresh.spin .fab-icon{animation:fabspin .8s linear infinite}
+@keyframes fabspin{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}
 </style>
 </head>
 <body>
 <div class="hdr">
-  <div class="hdr-ttl"><span style="margin-right:6px">📖</span>플레이북</div>
-  <div class="upd" id="updateTime">⏱ 로딩 중...</div>
+  <div class="hdr-ttl">📖 플레이북</div>
+  <div class="upd">⏱ 분석: 2026년 03월 23일 07:05 KST</div>
 </div>
 
-<div class="tcard" id="summaryCard">
+<div class="tcard">
   <div style="font-size:12px;opacity:.8;margin-bottom:4px">포트폴리오 종합 현황</div>
-  <div style="font-size:32px;font-weight:800;margin-bottom:4px" id="totalValue">—</div>
-  <div style="font-size:14px;font-weight:700" id="totalPnl">—</div>
+  <div style="font-size:32px;font-weight:800;margin-bottom:4px">₩11.7억</div>
+  <div style="font-size:14px;font-weight:700">+39.3% · +₩3.3억</div>
 </div>
 
 <div class="metric-grid">
-  <div class="metric"><div class="metric-val" id="mHoldings">—</div><div class="metric-lbl">보유종목</div></div>
-  <div class="metric"><div class="metric-val" id="mRisks">—</div><div class="metric-lbl">리스크 항목</div></div>
-  <div class="metric"><div class="metric-val" id="mDividend">—</div><div class="metric-lbl">배당종목</div></div>
-  <div class="metric"><div class="metric-val" id="mSectors">—</div><div class="metric-lbl">투자섹터</div></div>
+  <div class="metric"><div class="metric-val">59</div><div class="metric-lbl">보유종목</div></div>
+  <div class="metric"><div class="metric-val">4</div><div class="metric-lbl">리스크 항목</div></div>
+  <div class="metric"><div class="metric-val">32</div><div class="metric-lbl">배당종목</div></div>
+  <div class="metric"><div class="metric-val">13</div><div class="metric-lbl">투자섹터</div></div>
 </div>
 
-<div class="sec" id="riskSection">
+<div class="sec">
   <div class="sec-ttl">⚠️ 포트폴리오 리스크 경고</div>
-  <div id="riskAlerts" class="loading">분석 중...</div>
+  
+<div style="background:rgba(249,202,36,.1);border-left:3px solid #f9ca24;border-radius:8px;padding:12px;margin-bottom:10px">
+  <div style="display:flex;align-items:center;gap:8px;margin-bottom:5px">
+    <span>🟡</span>
+    <span style="font-size:13px;font-weight:700">TIGER 코리아AI전력기기TOP3+ 집중도</span>
+  </div>
+  <div style="font-size:12px;color:var(--sub)">단일 종목 비중 10.7% — 부분 익실 또는 스탑로스 설정</div>
+</div>
+<div style="background:rgba(249,202,36,.1);border-left:3px solid #f9ca24;border-radius:8px;padding:12px;margin-bottom:10px">
+  <div style="display:flex;align-items:center;gap:8px;margin-bottom:5px">
+    <span>⚠️</span>
+    <span style="font-size:13px;font-weight:700">파마리서치 손실</span>
+  </div>
+  <div style="font-size:12px;color:var(--sub)">현재 -20.9% 손실 중 — 손절 기준 재검토</div>
+</div>
+<div style="background:rgba(249,202,36,.1);border-left:3px solid #f9ca24;border-radius:8px;padding:12px;margin-bottom:10px">
+  <div style="display:flex;align-items:center;gap:8px;margin-bottom:5px">
+    <span>⚠️</span>
+    <span style="font-size:13px;font-weight:700">ETH/KRW 손실</span>
+  </div>
+  <div style="font-size:12px;color:var(--sub)">현재 -15.4% 손실 중 — 손절 기준 재검토</div>
+</div>
+<div style="background:rgba(249,202,36,.1);border-left:3px solid #f9ca24;border-radius:8px;padding:12px;margin-bottom:10px">
+  <div style="display:flex;align-items:center;gap:8px;margin-bottom:5px">
+    <span>⚠️</span>
+    <span style="font-size:13px;font-weight:700">SOL/KRW 손실</span>
+  </div>
+  <div style="font-size:12px;color:var(--sub)">현재 -34.9% 손실 중 — 손절 기준 재검토</div>
+</div>
 </div>
 
-<div class="sec" id="strategySection">
+<div class="sec">
   <div class="sec-ttl">💡 투자 전략 추천</div>
-  <div id="strategyItems" class="loading">분석 중...</div>
+  
+<div style="background:var(--hdr);border-radius:10px;padding:14px;margin-bottom:10px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+    <span style="font-size:13px;font-weight:700">💰 연간 목표 초과 달성 (+39.3%)</span>
+    <span style="padding:3px 8px;border-radius:10px;font-size:10px;font-weight:700;background:rgba(255,255,255,.1);color:#ff4757">즉시</span>
+  </div>
+  <div style="font-size:12px;color:var(--sub)">수익의 10~15% 현금화 검토. 리밸런싱으로 리스크 관리.</div>
+</div>
+<div style="background:var(--hdr);border-radius:10px;padding:14px;margin-bottom:10px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+    <span style="font-size:13px;font-weight:700">⚖️ 섹터 리밸런싱</span>
+    <span style="padding:3px 8px;border-radius:10px;font-size:10px;font-weight:700;background:rgba(255,255,255,.1);color:#f9ca24">1개월 내</span>
+  </div>
+  <div style="font-size:12px;color:var(--sub)">가상자산 비중 축소 → 채권/배당주 비중 확대 (안정성 강화)</div>
+</div>
+<div style="background:var(--hdr);border-radius:10px;padding:14px;margin-bottom:10px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+    <span style="font-size:13px;font-weight:700">📈 신규 매수 종목 관리</span>
+    <span style="padding:3px 8px;border-radius:10px;font-size:10px;font-weight:700;background:rgba(255,255,255,.1);color:#4ecdc4">모니터링</span>
+  </div>
+  <div style="font-size:12px;color:var(--sub)">현대차: 단기 하락 구간 분할 매수 전략 유지. 목표 수익률 +15%</div>
+</div>
 </div>
 
 <div class="sec">
   <div class="sec-ttl">📊 섹터별 비중 분석</div>
   <table class="sector-table">
     <thead><tr><th>섹터</th><th>비중 바</th><th>비중</th><th>금액</th></tr></thead>
-    <tbody id="sectorBody"><tr><td colspan="4" class="loading">분석 중...</td></tr></tbody>
+    <tbody>
+<tr>
+  <td style="padding:10px 8px;font-size:13px">첨단 기술</td>
+  <td style="padding:10px 8px">
+    <div style="height:8px;background:#2d3748;border-radius:4px;overflow:hidden">
+      <div style="width:36%;height:100%;background:var(--blu);border-radius:4px"></div>
+    </div>
+  </td>
+  <td style="padding:10px 8px;font-size:13px;font-weight:700;text-align:right">35.5%</td>
+  <td style="padding:10px 8px;font-size:11px;color:var(--sub);text-align:right">₩4.1억</td>
+</tr>
+<tr>
+  <td style="padding:10px 8px;font-size:13px">경기 소비재</td>
+  <td style="padding:10px 8px">
+    <div style="height:8px;background:#2d3748;border-radius:4px;overflow:hidden">
+      <div style="width:14%;height:100%;background:var(--blu);border-radius:4px"></div>
+    </div>
+  </td>
+  <td style="padding:10px 8px;font-size:13px;font-weight:700;text-align:right">13.7%</td>
+  <td style="padding:10px 8px;font-size:11px;color:var(--sub);text-align:right">₩1.6억</td>
+</tr>
+<tr>
+  <td style="padding:10px 8px;font-size:13px">ETF</td>
+  <td style="padding:10px 8px">
+    <div style="height:8px;background:#2d3748;border-radius:4px;overflow:hidden">
+      <div style="width:12%;height:100%;background:var(--blu);border-radius:4px"></div>
+    </div>
+  </td>
+  <td style="padding:10px 8px;font-size:13px;font-weight:700;text-align:right">12.2%</td>
+  <td style="padding:10px 8px;font-size:11px;color:var(--sub);text-align:right">₩1.4억</td>
+</tr>
+<tr>
+  <td style="padding:10px 8px;font-size:13px">가상자산</td>
+  <td style="padding:10px 8px">
+    <div style="height:8px;background:#2d3748;border-radius:4px;overflow:hidden">
+      <div style="width:10%;height:100%;background:var(--blu);border-radius:4px"></div>
+    </div>
+  </td>
+  <td style="padding:10px 8px;font-size:13px;font-weight:700;text-align:right">9.7%</td>
+  <td style="padding:10px 8px;font-size:11px;color:var(--sub);text-align:right">₩1.1억</td>
+</tr>
+<tr>
+  <td style="padding:10px 8px;font-size:13px">부동산</td>
+  <td style="padding:10px 8px">
+    <div style="height:8px;background:#2d3748;border-radius:4px;overflow:hidden">
+      <div style="width:8%;height:100%;background:var(--blu);border-radius:4px"></div>
+    </div>
+  </td>
+  <td style="padding:10px 8px;font-size:13px;font-weight:700;text-align:right">7.5%</td>
+  <td style="padding:10px 8px;font-size:11px;color:var(--sub);text-align:right">₩8802만</td>
+</tr>
+<tr>
+  <td style="padding:10px 8px;font-size:13px">채권</td>
+  <td style="padding:10px 8px">
+    <div style="height:8px;background:#2d3748;border-radius:4px;overflow:hidden">
+      <div style="width:5%;height:100%;background:var(--blu);border-radius:4px"></div>
+    </div>
+  </td>
+  <td style="padding:10px 8px;font-size:13px;font-weight:700;text-align:right">4.7%</td>
+  <td style="padding:10px 8px;font-size:11px;color:var(--sub);text-align:right">₩5467만</td>
+</tr>
+<tr>
+  <td style="padding:10px 8px;font-size:13px">헬스케어</td>
+  <td style="padding:10px 8px">
+    <div style="height:8px;background:#2d3748;border-radius:4px;overflow:hidden">
+      <div style="width:4%;height:100%;background:var(--blu);border-radius:4px"></div>
+    </div>
+  </td>
+  <td style="padding:10px 8px;font-size:13px;font-weight:700;text-align:right">4.5%</td>
+  <td style="padding:10px 8px;font-size:11px;color:var(--sub);text-align:right">₩5238만</td>
+</tr>
+<tr>
+  <td style="padding:10px 8px;font-size:13px">산업재</td>
+  <td style="padding:10px 8px">
+    <div style="height:8px;background:#2d3748;border-radius:4px;overflow:hidden">
+      <div style="width:4%;height:100%;background:var(--blu);border-radius:4px"></div>
+    </div>
+  </td>
+  <td style="padding:10px 8px;font-size:13px;font-weight:700;text-align:right">4.2%</td>
+  <td style="padding:10px 8px;font-size:11px;color:var(--sub);text-align:right">₩4888만</td>
+</tr>
+<tr>
+  <td style="padding:10px 8px;font-size:13px">금융</td>
+  <td style="padding:10px 8px">
+    <div style="height:8px;background:#2d3748;border-radius:4px;overflow:hidden">
+      <div style="width:3%;height:100%;background:var(--blu);border-radius:4px"></div>
+    </div>
+  </td>
+  <td style="padding:10px 8px;font-size:13px;font-weight:700;text-align:right">3.1%</td>
+  <td style="padding:10px 8px;font-size:11px;color:var(--sub);text-align:right">₩3578만</td>
+</tr>
+<tr>
+  <td style="padding:10px 8px;font-size:13px">기타</td>
+  <td style="padding:10px 8px">
+    <div style="height:8px;background:#2d3748;border-radius:4px;overflow:hidden">
+      <div style="width:2%;height:100%;background:var(--blu);border-radius:4px"></div>
+    </div>
+  </td>
+  <td style="padding:10px 8px;font-size:13px;font-weight:700;text-align:right">2.2%</td>
+  <td style="padding:10px 8px;font-size:11px;color:var(--sub);text-align:right">₩2533만</td>
+</tr></tbody>
   </table>
 </div>
 
 <div class="sec">
   <div class="sec-ttl">✅ 매수 신호 체크리스트</div>
-  <div id="buySignals"></div>
+  <div style="padding:10px 0;border-bottom:1px solid var(--brd);font-size:13px;color:var(--grn)">✅ 섹터 조정 15% 이상</div><div style="padding:10px 0;border-bottom:1px solid var(--brd);font-size:13px;color:var(--sub)">⬜ 거래량 평균 대비 3배 이상</div><div style="padding:10px 0;border-bottom:1px solid var(--brd);font-size:13px;color:var(--sub)">⬜ RSI 30 이하 과매도</div><div style="padding:10px 0;border-bottom:1px solid var(--brd);font-size:13px;color:var(--grn)">✅ 분기 실적 예상치 상회</div><div style="padding:10px 0;border-bottom:1px solid var(--brd);font-size:13px;color:var(--grn)">✅ 목표주가 현재가 대비 20% 이상 상승여력</div>
 </div>
 
 <div class="sec">
   <div class="sec-ttl">🚨 매도 신호 체크리스트</div>
-  <div id="sellSignals"></div>
+  <div style="padding:10px 0;border-bottom:1px solid var(--brd);font-size:13px;color:var(--grn)">✅ 수익률 +30% 이상 달성</div><div style="padding:10px 0;border-bottom:1px solid var(--brd);font-size:13px;color:var(--sub)">⬜ 펀더멘털 악화 (실적 하향 2분기 연속)</div><div style="padding:10px 0;border-bottom:1px solid var(--brd);font-size:13px;color:var(--sub)">⬜ RSI 70 이상 과매수</div><div style="padding:10px 0;border-bottom:1px solid var(--brd);font-size:13px;color:var(--sub)">⬜ 섹터 전망 UNDERWEIGHT 전환</div><div style="padding:10px 0;border-bottom:1px solid var(--brd);font-size:13px;color:var(--sub)">⬜ 목표주가 달성</div>
 </div>
 
 <div class="sec">
   <div class="sec-ttl">💰 배당 포트폴리오</div>
-  <div id="dividendList" class="loading">분석 중...</div>
+  
+<div style="display:flex;justify-content:space-between;align-items:center;padding:10px 0;border-bottom:1px solid var(--brd)">
+  <span style="font-size:13px">삼성전자</span>
+  <div style="text-align:right">
+    <div style="font-size:12px;color:#4ecdc4;font-weight:700">2.18% (₩760,335)</div>
+    <div style="font-size:10px;color:var(--sub)">4,5,8,11월 배당</div>
+  </div>
+</div>
+<div style="display:flex;justify-content:space-between;align-items:center;padding:10px 0;border-bottom:1px solid var(--brd)">
+  <span style="font-size:13px">파마리서치</span>
+  <div style="text-align:right">
+    <div style="font-size:12px;color:#4ecdc4;font-weight:700">0.27% (₩138,600)</div>
+    <div style="font-size:10px;color:var(--sub)">4월 배당</div>
+  </div>
+</div>
+<div style="display:flex;justify-content:space-between;align-items:center;padding:10px 0;border-bottom:1px solid var(--brd)">
+  <span style="font-size:13px">현대차3우B</span>
+  <div style="text-align:right">
+    <div style="font-size:12px;color:#4ecdc4;font-weight:700">16.8% (₩1,829,250)</div>
+    <div style="font-size:10px;color:var(--sub)">4,6,9,12월 배당</div>
+  </div>
+</div>
+<div style="display:flex;justify-content:space-between;align-items:center;padding:10px 0;border-bottom:1px solid var(--brd)">
+  <span style="font-size:13px">DL이앤씨우</span>
+  <div style="text-align:right">
+    <div style="font-size:12px;color:#4ecdc4;font-weight:700">3.01% (₩711,540)</div>
+    <div style="font-size:10px;color:var(--sub)">4월 배당</div>
+  </div>
+</div>
+<div style="display:flex;justify-content:space-between;align-items:center;padding:10px 0;border-bottom:1px solid var(--brd)">
+  <span style="font-size:13px">두산</span>
+  <div style="text-align:right">
+    <div style="font-size:12px;color:#4ecdc4;font-weight:700">0.24% (₩60,000)</div>
+    <div style="font-size:10px;color:var(--sub)">4월 배당</div>
+  </div>
+</div>
+<div style="display:flex;justify-content:space-between;align-items:center;padding:10px 0;border-bottom:1px solid var(--brd)">
+  <span style="font-size:13px">삼성전자우</span>
+  <div style="text-align:right">
+    <div style="font-size:12px;color:#4ecdc4;font-weight:700">3.18% (₩318,122)</div>
+    <div style="font-size:10px;color:var(--sub)">4,5,8,11월 배당</div>
+  </div>
+</div>
+<div style="display:flex;justify-content:space-between;align-items:center;padding:10px 0;border-bottom:1px solid var(--brd)">
+  <span style="font-size:13px">NLR</span>
+  <div style="text-align:right">
+    <div style="font-size:12px;color:#4ecdc4;font-weight:700">2.27%</div>
+    <div style="font-size:10px;color:var(--sub)">12월 배당</div>
+  </div>
+</div>
+<div style="display:flex;justify-content:space-between;align-items:center;padding:10px 0;border-bottom:1px solid var(--brd)">
+  <span style="font-size:13px">GRID ETF</span>
+  <div style="text-align:right">
+    <div style="font-size:12px;color:#4ecdc4;font-weight:700">1.05%</div>
+    <div style="font-size:10px;color:var(--sub)">3,6,9,12월 배당</div>
+  </div>
+</div>
 </div>
 
 <div class="sec">
@@ -98,302 +299,13 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans KR',sans
   <div class="principle"><div class="p-num">05</div><div class="p-ttl">리뷰 사이클</div><div class="p-desc">주 1회 포트폴리오 리뷰. 월 1회 전략 재검토.</div></div>
 </div>
 
-<div style="padding:20px 16px;font-size:10px;color:var(--sub);text-align:center;line-height:1.6;opacity:.5">
-  투자커멘드 플레이북 · 투자 결정은 본인의 판단과 책임하에 이루어져야 합니다
-</div>
 <nav class="bnav">
   <a href="index.html"><span class="ni">📊</span>대시보드</a>
   <a href="invest.html"><span class="ni">🗺️</span>히트맵</a>
   <a href="report.html"><span class="ni">📋</span>리포트</a>
   <a href="playbook.html" class="on"><span class="ni">📖</span>플레이북</a>
 </nav>
-<button class="scroll-top" id="scrollTopBtn" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
-<script>
-window.addEventListener('scroll',()=>{document.getElementById('scrollTopBtn').style.display=window.scrollY>300?'block':'none';},{passive:true});
-
-const GOAL_PCT = 15;
-
-function parseCSV(text) {
-  const lines = text.trim().split('\n');
-  const headers = lines[0].split(',');
-  return lines.slice(1).map(line => {
-    const vals = []; let cur = ''; let inQ = false;
-    for (let i = 0; i < line.length; i++) {
-      const c = line[i];
-      if (c === '"') { inQ = !inQ; continue; }
-      if (c === ',' && !inQ) { vals.push(cur.trim()); cur = ''; continue; }
-      cur += c;
-    }
-    vals.push(cur.trim());
-    const obj = {};
-    headers.forEach((h, i) => obj[h.trim()] = vals[i] || '');
-    return obj;
-  });
-}
-
-function parseMoney(s) {
-  if (!s || s === '-') return { val: 0, usd: false };
-  const usd = s.includes('$');
-  const n = parseFloat(s.replace(/[₩$,+\s]/g, ''));
-  return { val: isNaN(n) ? 0 : Math.abs(n), usd };
-}
-
-function parsePnlPct(s) {
-  if (!s || s === '-') return 0;
-  const m = s.match(/([+-]?\d+\.?\d*)%/);
-  return m ? parseFloat(m[1]) : 0;
-}
-
-function fmtBillion(n) {
-  if (n >= 1e8) return '₩' + (n / 1e8).toFixed(1) + '억';
-  if (n >= 1e4) return '₩' + (n / 1e4).toFixed(0) + '만';
-  return '₩' + Math.round(n).toLocaleString();
-}
-
-function fmtPct(n) { return (n >= 0 ? '+' : '') + n.toFixed(1) + '%'; }
-
-async function loadPlaybook() {
-  try {
-    // Fetch USD/KRW rate
-    let usdkrw = 1450;
-    try {
-      const mktRes = await fetch('data/market_latest.json');
-      if (mktRes.ok) {
-        const mkt = await mktRes.json();
-        const fx = mkt.data && mkt.data.find(d => d.id === 'USDKRW');
-        if (fx && fx.cur > 0) usdkrw = fx.cur;
-      }
-    } catch(e) {}
-
-    // Fetch portfolio CSV
-    const res = await fetch('portfolio_full.csv');
-    const text = await res.text();
-    const rows = parseCSV(text);
-
-    let totalAssets = 0, totalCost = 0;
-    const sectorMap = {};
-    const holdings = [];
-    const losers = [];
-    const bigWinners = [];
-    const dividendAssets = [];
-    const concentrationAlerts = [];
-
-    rows.forEach(row => {
-      const qty = parseFloat(row['수량']) || 0;
-      const assetVal = parseMoney(row['자산가치']);
-      const costPer = parseMoney(row['매수가']);
-      const pnlPct = parsePnlPct(row['손익']);
-      const sector = row['분류'] || '기타';
-      const name = row['자산'] || '';
-
-      let valKRW = assetVal.usd ? assetVal.val * usdkrw : assetVal.val;
-      let costKRW = costPer.val > 0 ? (costPer.usd ? costPer.val * usdkrw * qty : costPer.val * qty) : 0;
-
-      if (sector !== '현금') {
-        totalAssets += valKRW;
-        totalCost += costKRW;
-      }
-      sectorMap[sector] = (sectorMap[sector] || 0) + valKRW;
-
-      if (row['배당월'] && row['배당월'] !== '-') {
-        dividendAssets.push({
-          name: name,
-          divYield: row['투자배당률'] || '-',
-          months: row['배당월']
-        });
-      }
-
-      if (pnlPct < -10) losers.push({ name, pct: pnlPct });
-      if (pnlPct > 100) bigWinners.push({ name, pct: pnlPct });
-
-      holdings.push({ name, qty, valKRW, pnlPct, sector });
-    });
-
-    const totalPnL = totalAssets - totalCost;
-    const totalPnLPct = totalCost > 0 ? (totalPnL / totalCost * 100) : 0;
-
-    // Check concentration
-    holdings.forEach(h => {
-      const weight = h.valKRW / totalAssets * 100;
-      if (weight > 8 && h.sector !== '현금') {
-        concentrationAlerts.push({ name: h.name, weight });
-      }
-    });
-
-    // ── Summary Card ──
-    document.getElementById('totalValue').textContent = fmtBillion(totalAssets);
-    document.getElementById('totalPnl').textContent = fmtPct(totalPnLPct) + ' · ' + (totalPnL >= 0 ? '+' : '') + fmtBillion(Math.abs(totalPnL));
-
-    // ── Metrics ──
-    const nonCash = holdings.filter(h => h.sector !== '현금');
-    const sectors = Object.keys(sectorMap).filter(s => s !== '현금');
-    const riskCount = concentrationAlerts.length + losers.length;
-
-    document.getElementById('mHoldings').textContent = nonCash.length;
-    document.getElementById('mRisks').textContent = riskCount;
-    document.getElementById('mDividend').textContent = dividendAssets.length;
-    document.getElementById('mSectors').textContent = sectors.length;
-
-    // ── Risk Alerts ──
-    let riskHtml = '';
-
-    concentrationAlerts.sort((a, b) => b.weight - a.weight);
-    concentrationAlerts.forEach(a => {
-      riskHtml += `<div style="background:rgba(249,202,36,.1);border-left:3px solid #f9ca24;border-radius:8px;padding:12px;margin-bottom:10px">
-        <div style="display:flex;align-items:center;gap:8px;margin-bottom:5px">
-          <span>🟡</span>
-          <span style="font-size:13px;font-weight:700">${a.name} 집중도</span>
-        </div>
-        <div style="font-size:12px;color:var(--sub)">단일 종목 비중 ${a.weight.toFixed(1)}% — 부분 익실 또는 스탑로스 설정</div>
-      </div>`;
-    });
-
-    losers.sort((a, b) => a.pct - b.pct);
-    losers.forEach(l => {
-      const color = l.pct < -25 ? '#ff4757' : '#f9ca24';
-      const icon = l.pct < -25 ? '🔴' : '⚠️';
-      riskHtml += `<div style="background:rgba(249,202,36,.1);border-left:3px solid ${color};border-radius:8px;padding:12px;margin-bottom:10px">
-        <div style="display:flex;align-items:center;gap:8px;margin-bottom:5px">
-          <span>${icon}</span>
-          <span style="font-size:13px;font-weight:700">${l.name} 손실</span>
-        </div>
-        <div style="font-size:12px;color:var(--sub)">현재 ${l.pct.toFixed(1)}% 손실 중 — ${l.pct < -25 ? '강제 손절 검토' : '손절 기준 재검토'}</div>
-      </div>`;
-    });
-
-    if (!riskHtml) riskHtml = '<div style="font-size:13px;color:var(--grn);padding:10px 0">✅ 현재 주요 리스크 항목 없음</div>';
-    document.getElementById('riskAlerts').innerHTML = riskHtml;
-
-    // ── Strategy Recommendations ──
-    const cryptoPct = ((sectorMap['가상자산'] || 0) / totalAssets * 100);
-    const defensivePct = ((sectorMap['채권'] || 0) + (sectorMap['부동산'] || 0)) / totalAssets * 100;
-    let stratHtml = '';
-
-    // Goal achievement
-    if (totalPnLPct >= GOAL_PCT) {
-      stratHtml += stratCard('💰 연간 목표 초과 달성 (' + fmtPct(totalPnLPct) + ')', '즉시', '#ff4757',
-        '수익의 10~15% 현금화 검토. 리밸런싱으로 리스크 관리.');
-    } else {
-      stratHtml += stratCard('📈 연간 목표까지 ' + (GOAL_PCT - totalPnLPct).toFixed(1) + '%p 남음', '모니터링', '#4ecdc4',
-        '현재 전략 유지. 목표 +' + GOAL_PCT + '% 달성 시 수익 실현 검토.');
-    }
-
-    // Sector rebalancing
-    if (cryptoPct > 15) {
-      stratHtml += stratCard('⚖️ 가상자산 비중 축소 필요', '1개월 내', '#f9ca24',
-        '가상자산 비중 ' + cryptoPct.toFixed(1) + '% → 15% 이하로 조절. 채권/배당주 비중 확대 권장.');
-    } else if (defensivePct < 10) {
-      stratHtml += stratCard('⚖️ 방어적 자산 확대 검토', '1개월 내', '#f9ca24',
-        '채권/리츠 비중 ' + defensivePct.toFixed(1) + '% — 안정성 강화를 위해 비중 확대 권장.');
-    } else {
-      stratHtml += stratCard('⚖️ 섹터 밸런스 양호', '모니터링', '#4ecdc4',
-        '채권/리츠 ' + defensivePct.toFixed(1) + '%, 가상자산 ' + cryptoPct.toFixed(1) + '% — 균형 유지.');
-    }
-
-    // Big winners profit taking
-    if (bigWinners.length > 0) {
-      const names = bigWinners.slice(0, 3).map(w => w.name + ' +' + w.pct.toFixed(0) + '%').join(', ');
-      stratHtml += stratCard('📈 고수익 종목 이익 실현 검토', '모니터링', '#4ecdc4',
-        names + ' 등 수익률 100% 초과 종목 부분 익실 검토. 실현 현금은 배당주/채권으로 이전.');
-    }
-
-    // Losers management
-    if (losers.length > 0) {
-      const worst = losers[0];
-      stratHtml += stratCard('🛡️ 손실 종목 관리', '모니터링', '#f9ca24',
-        worst.name + ' ' + worst.pct.toFixed(1) + '% 손실. -25% 도달 시 강제 손절 원칙 적용.');
-    }
-
-    document.getElementById('strategyItems').innerHTML = stratHtml;
-
-    // ── Sector Table ──
-    const sectorEntries = Object.entries(sectorMap).filter(([s]) => s !== '현금').sort((a, b) => b[1] - a[1]);
-    const maxSectorVal = sectorEntries[0] ? sectorEntries[0][1] : 1;
-    let sectorHtml = '';
-    sectorEntries.forEach(([name, val]) => {
-      const pct = (val / totalAssets * 100);
-      const barW = Math.max(2, (val / maxSectorVal * 100));
-      sectorHtml += `<tr>
-        <td style="padding:10px 8px;font-size:13px">${name}</td>
-        <td style="padding:10px 8px">
-          <div style="height:8px;background:#2d3748;border-radius:4px;overflow:hidden">
-            <div style="width:${barW.toFixed(0)}%;height:100%;background:var(--blu);border-radius:4px"></div>
-          </div>
-        </td>
-        <td style="padding:10px 8px;font-size:13px;font-weight:700;text-align:right">${pct.toFixed(1)}%</td>
-        <td style="padding:10px 8px;font-size:11px;color:var(--sub);text-align:right">${fmtBillion(val)}</td>
-      </tr>`;
-    });
-    document.getElementById('sectorBody').innerHTML = sectorHtml;
-
-    // ── Buy/Sell Signal Checklists ──
-    const topSectorPct = sectorEntries[0] ? (sectorEntries[0][1] / totalAssets * 100) : 0;
-    const hasGoalExceeded = totalPnLPct >= GOAL_PCT;
-    const hasBigLosers = losers.some(l => l.pct < -20);
-
-    const buyChecks = [
-      { label: '섹터 조정 15% 이상', checked: topSectorPct > 30 },
-      { label: '거래량 평균 대비 3배 이상', checked: false },
-      { label: 'RSI 30 이하 과매도', checked: false },
-      { label: '분기 실적 예상치 상회', checked: bigWinners.length > 3 },
-      { label: '목표주가 현재가 대비 20% 이상 상승여력', checked: true },
-    ];
-    const sellChecks = [
-      { label: '수익률 +30% 이상 달성', checked: hasGoalExceeded },
-      { label: '펀더멘털 악화 (실적 하향 2분기 연속)', checked: false },
-      { label: 'RSI 70 이상 과매수', checked: false },
-      { label: '섹터 전망 UNDERWEIGHT 전환', checked: false },
-      { label: '목표주가 달성', checked: false },
-    ];
-
-    document.getElementById('buySignals').innerHTML = buyChecks.map(c =>
-      `<div style="padding:10px 0;border-bottom:1px solid var(--brd);font-size:13px;color:${c.checked ? 'var(--grn)' : 'var(--sub)'}">${c.checked ? '✅' : '⬜'} ${c.label}</div>`
-    ).join('');
-    document.getElementById('sellSignals').innerHTML = sellChecks.map(c =>
-      `<div style="padding:10px 0;border-bottom:1px solid var(--brd);font-size:13px;color:${c.checked ? 'var(--grn)' : 'var(--sub)'}">${c.checked ? '✅' : '⬜'} ${c.label}</div>`
-    ).join('');
-
-    // ── Dividend Portfolio ──
-    dividendAssets.sort((a, b) => {
-      const yA = parseFloat(a.divYield) || 0;
-      const yB = parseFloat(b.divYield) || 0;
-      return yB - yA;
-    });
-    let divHtml = '';
-    dividendAssets.forEach(d => {
-      divHtml += `<div style="display:flex;justify-content:space-between;align-items:center;padding:10px 0;border-bottom:1px solid var(--brd)">
-        <span style="font-size:13px">${d.name}</span>
-        <div style="text-align:right">
-          <div style="font-size:12px;color:#4ecdc4;font-weight:700">${d.divYield}</div>
-          <div style="font-size:10px;color:var(--sub)">${d.months.includes('월') ? d.months + ' 배당' : d.months + '월 배당'}</div>
-        </div>
-      </div>`;
-    });
-    if (!divHtml) divHtml = '<div style="font-size:13px;color:var(--sub);padding:10px 0">배당 종목 없음</div>';
-    document.getElementById('dividendList').innerHTML = divHtml;
-
-    // ── Timestamp ──
-    const now = new Date();
-    document.getElementById('updateTime').textContent =
-      `⏱ 분석: ${now.getFullYear()}년 ${String(now.getMonth()+1).padStart(2,'0')}월 ${String(now.getDate()).padStart(2,'0')}일 ${String(now.getHours()).padStart(2,'0')}:${String(now.getMinutes()).padStart(2,'0')} KST`;
-
-  } catch(e) {
-    console.error('Playbook load error:', e);
-    document.getElementById('updateTime').textContent = '❌ 데이터 로딩 실패';
-  }
-}
-
-function stratCard(title, urgency, color, desc) {
-  return `<div style="background:var(--hdr);border-radius:10px;padding:14px;margin-bottom:10px">
-    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
-      <span style="font-size:13px;font-weight:700">${title}</span>
-      <span style="padding:3px 8px;border-radius:10px;font-size:10px;font-weight:700;background:rgba(255,255,255,.1);color:${color}">${urgency}</span>
-    </div>
-    <div style="font-size:12px;color:var(--sub)">${desc}</div>
-  </div>`;
-}
-
-loadPlaybook();
-</script>
+<button class="fab-refresh" id="refreshBtn" onclick="doRefresh()" title="전체 새로고침"><span class="fab-icon">↻</span></button>
+<script>function doRefresh(){document.getElementById('refreshBtn').classList.add('spin');setTimeout(()=>location.reload(),300)}</script>
 </body>
 </html>

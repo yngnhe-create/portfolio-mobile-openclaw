@@ -112,6 +112,10 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans KR',sans
 .scroll-top:active{transform:scale(.9)}
 @keyframes fadeUp{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
 .loading{text-align:center;padding:20px;color:var(--sub);font-size:12px}
+.fab-refresh{position:fixed;bottom:78px;left:16px;width:48px;height:48px;border-radius:50%;background:linear-gradient(135deg,var(--blu),#686de0);color:#fff;border:none;font-size:20px;cursor:pointer;z-index:1000;box-shadow:0 4px 14px rgba(72,52,212,.4);display:flex;align-items:center;justify-content:center;transition:transform .2s;-webkit-tap-highlight-color:transparent}
+.fab-refresh:active{transform:scale(.9)}
+.fab-refresh.spin .fab-icon{animation:fabspin .8s linear infinite}
+@keyframes fabspin{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}
 </style>
 </head>
 <body>
@@ -590,5 +594,7 @@ sections.forEach(s => secObserver.observe(s));
 
 loadReport();
 </script>
+<button class="fab-refresh" id="refreshBtn" onclick="doRefresh()" title="전체 새로고침"><span class="fab-icon">↻</span></button>
+<script>function doRefresh(){document.getElementById('refreshBtn').classList.add('spin');setTimeout(()=>location.reload(),300)}</script>
 </body>
 </html>

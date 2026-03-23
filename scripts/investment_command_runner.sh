@@ -38,6 +38,26 @@ run_playbook() {
     log "✅ 플레이북 완료"
 }
 
+# ── 시장 데이터 + 뉴스 수집
+run_market_news() {
+    log "📈 시장 데이터 수집"
+    python3 "$SCRIPTS/market_data_fetcher.py" >> "$SCRIPTS/runner.log" 2>&1
+    log "📰 뉴스 수집"
+    python3 "$SCRIPTS/news_fetcher.py" >> "$SCRIPTS/runner.log" 2>&1
+    log "✅ 시장/뉴스 완료"
+}
+
+# ── Git 자동 배포
+run_git_push() {
+    cd "$WORKSPACE"
+    git add public/data/market_latest.json public/data/news_latest.json public/data/wisereport_latest.json 2>/dev/null
+    if ! git diff --cached --quiet 2>/dev/null; then
+        git commit -m "auto: 데이터 현행화 $(date '+%Y-%m-%d %H:%M')" >> "$LOG" 2>&1
+        git push origin main >> "$LOG" 2>&1
+        log "🚀 GitHub 푸시 완료"
+    fi
+}
+
 # ── 스마트 스케줄링 로직
 smart_run() {
     log "═══════════════════════════════════"
@@ -100,10 +120,22 @@ smart_run() {
         RUN_PLAYBOOK=true
     fi
 
+    # ── 시장/뉴스 — 포트폴리오가 업데이트될 때 함께 실행
+    RUN_MARKET=false
+    if $RUN_PORTFOLIO; then
+        RUN_MARKET=true
+    fi
+
     # ── 실행
     $RUN_PORTFOLIO && run_portfolio
+    $RUN_MARKET && run_market_news
     $RUN_WISEREPORT && run_wisereport
     $RUN_PLAYBOOK && run_playbook
+
+    # Git 배포 (데이터 변경 시)
+    if $RUN_PORTFOLIO || $RUN_WISEREPORT; then
+        run_git_push
+    fi
 
     if ! $RUN_PORTFOLIO && ! $RUN_WISEREPORT && ! $RUN_PLAYBOOK; then
         log "⏭️  이번 주기 건너뜀 (조건 미충족)"
@@ -117,8 +149,10 @@ case "$TARGET" in
     playbook)   run_playbook ;;
     all)
         run_portfolio
+        run_market_news
         run_wisereport
         run_playbook
+        run_git_push
         ;;
     *)
         smart_run
