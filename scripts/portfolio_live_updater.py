@@ -193,6 +193,102 @@ def clean_number(val):
         return 0
 
 
+# ─── CSV 가격 업데이트 ─────────────────────────────────────────────
+
+def update_csv_prices(df, kr_prices, us_prices, crypto_prices, usd_krw):
+    """CSV 파일에 최신 현재가/자산가치/손익 반영"""
+    updated_count = 0
+
+    for idx, row in df.iterrows():
+        name = str(row['자산'])
+        분류 = str(row['분류'])
+        qty = float(row['수량']) if not pd.isna(row['수량']) else 0
+
+        if '현금' in 분류:
+            continue
+
+        new_price = None
+        is_usd = False
+
+        # 한국 주식/ETF
+        if name in KR_CODES:
+            p, _ = kr_prices.get(name, (None, None))
+            if p and p > 0:
+                new_price = p
+        # 미국 주식
+        elif name in US_TICKERS:
+            ticker = US_TICKERS[name]
+            if ticker in us_prices:
+                new_price = us_prices[ticker]['price']
+                is_usd = True if ticker != '1810.HK' else False
+        # 홍콩 주식 (샤오미)
+        elif name == '샤오미' and '1810.HK' in us_prices:
+            new_price = us_prices['1810.HK']['price']
+            is_usd = True  # USD로 취급
+        # 코인
+        elif name in CRYPTO_IDS:
+            cg_id = CRYPTO_IDS[name]
+            if cg_id in crypto_prices:
+                cd = crypto_prices[cg_id]
+                if '/KRW' in name:
+                    new_price = cd.get('krw', 0)
+                else:
+                    new_price = cd.get('usd', 0)
+                    is_usd = True
+
+        if new_price is None or new_price <= 0:
+            continue
+
+        # 현재가 포맷
+        if is_usd:
+            price_str = f"${new_price:,.2f}" if new_price < 1000 else f"${new_price:,.2f}"
+            asset_val = new_price * qty
+            asset_val_str = f'"${asset_val:,.2f}"'
+        else:
+            price_str = f"₩{int(new_price):,}"
+            asset_val = int(new_price) * qty
+            asset_val_str = f'"₩{int(asset_val):,}"'
+
+        # 매수가 파싱
+        raw_cost = str(row['매수가'])
+        if raw_cost in ['-', 'nan', '']:
+            cost_per = 0
+        else:
+            cost_per = clean_number(raw_cost)
+
+        # 손익 계산
+        if cost_per > 0:
+            if is_usd:
+                profit = (new_price - cost_per) * qty
+                profit_pct = (new_price - cost_per) / cost_per * 100
+                if profit >= 0:
+                    pnl_str = f'"+${abs(profit):,.2f} ({profit_pct:+.2f}%)"'
+                else:
+                    pnl_str = f'"-${abs(profit):,.2f} ({profit_pct:+.2f}%)"'
+            else:
+                profit = (int(new_price) - cost_per) * qty
+                profit_pct = (int(new_price) - cost_per) / cost_per * 100
+                if profit >= 0:
+                    pnl_str = f'"+₩{int(abs(profit)):,} ({profit_pct:+.2f}%)"'
+                else:
+                    pnl_str = f'"₩-{int(abs(profit)):,} ({profit_pct:+.2f}%)"'
+        else:
+            pnl_str = str(row['손익'])
+
+        df.at[idx, '현재가'] = price_str
+        df.at[idx, '자산가치'] = asset_val_str.strip('"')
+        df.at[idx, '손익'] = pnl_str.strip('"')
+        updated_count += 1
+
+    if updated_count > 0:
+        df.to_csv(CSV_PATH, index=False, encoding='utf-8')
+        log(f"✅ CSV 업데이트 완료: {updated_count}개 종목 현재가 반영 → {CSV_PATH}")
+    else:
+        log("⚠️ CSV 업데이트: 변경된 가격 없음")
+
+    return updated_count
+
+
 # ─── 산업별 섹터 매핑 ─────────────────────────────────────────────
 
 INDUSTRY_MAP = {
@@ -829,13 +925,15 @@ def main():
     crypto_prices = get_crypto_prices()
     log(f"  🪙 CoinGecko: {len(crypto_prices)}개 코인")
 
-    # 3. 종목별 현재가 매핑 + HTML 생성
-    stock_items = []
-    total_val_krw = 0
-    total_cost_krw = 0
-    crypto_val_krw = 0
+    # 한국주식 개별 조회 (CSV 업데이트용 캐시)
+    kr_prices = {}
+    for name, code in KR_CODES.items():
+        p, chg = get_naver_price(code)
+        if p and p > 0:
+            kr_prices[name] = (p, chg)
+    log(f"  🇰🇷 네이버 금융: {len(kr_prices)}개 종목")
 
-    # KRW 환율 근사 (USD→KRW)
+    # KRW 환율
     try:
         fx_r = requests.get(
             "https://api.exchangerate-api.com/v4/latest/USD",
@@ -844,6 +942,21 @@ def main():
         usd_krw = fx_r.get('rates', {}).get('KRW', 1400)
     except:
         usd_krw = 1400
+
+    # 2-1. CSV에 최신 가격 반영
+    update_csv_prices(df, kr_prices, us_prices, crypto_prices, usd_krw)
+
+    # CSV가 업데이트되었으므로 다시 로드
+    df = load_portfolio()
+    if df is None:
+        log("❌ 종료: 업데이트된 CSV 읽기 실패")
+        return
+
+    # 3. 종목별 현재가 매핑 + HTML 생성
+    stock_items = []
+    total_val_krw = 0
+    total_cost_krw = 0
+    crypto_val_krw = 0
 
     NEW_ASSETS = {'현대차', 'KODEX 증권'}
 
@@ -857,8 +970,8 @@ def main():
         change_pct = 0.0
         price_str = str(row['현재가'])
 
-        if name in KR_CODES:
-            p, chg = get_naver_price(KR_CODES[name])
+        if name in KR_CODES and name in kr_prices:
+            p, chg = kr_prices[name]
             if p:
                 current_price = p
                 change_pct = chg or 0

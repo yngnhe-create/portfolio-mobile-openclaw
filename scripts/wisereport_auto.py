@@ -883,7 +883,7 @@ setInterval(updateCountdown, 1000);
 
 
 def generate_latest_json(data):
-    """report.html용 wisereport_latest.json 생성"""
+    """report.html용 wisereport_latest.json 생성 — 모든 리포트 + 섹터 의견 포함"""
     import csv
     portfolio_stocks = []
     try:
@@ -895,7 +895,6 @@ def generate_latest_json(data):
                     portfolio_stocks.append(row[0].strip())
     except: pass
 
-    # top_picks는 그대로
     top_picks = data.get('top_picks', [])
 
     # portfolio_reports: reports 중 포트폴리오 종목과 매칭되는 것
@@ -916,45 +915,87 @@ def generate_latest_json(data):
                 })
                 break
 
-    # key_reports: 주요 개별종목 리포트 (상위 5개, opinion 있는 것 우선)
-    key_reports = []
-    for nr in data.get('naver_reports', []):
-        if nr.get('opinion') and nr['opinion'] not in ('없음', '', 'N/A'):
-            key_reports.append({
-                'company': nr['company'],
-                'title': nr['title'],
-                'opinion': nr['opinion'],
-                'target': nr.get('target', '-'),
-                'broker': nr.get('broker', '')
-            })
-    # 리포트에서 추가 (company 이름이 실제 종목인 것만)
+    # all_reports: 개별종목 + 섹터 리포트 전부 포함
     sector_keywords = ['기계','화장품','제약','은행','건설','화학','IT서비스',
-                       '전기제품','판매업체','일간','양방향']
+                       '전기제품','판매업체','일간','양방향','계량분석']
+    company_reports = []
+    sector_reports = []
     for r in data.get('reports', []):
-        if len(key_reports) >= 5: break
         company = r.get('company', '')
-        if any(kw in company for kw in sector_keywords): continue
-        if company and company not in [kr['company'] for kr in key_reports]:
-            key_reports.append({
-                'company': company,
-                'title': r.get('title', ''),
-                'opinion': r.get('opinion', '-'),
-                'target': f"{r['target_price']:,}" if r.get('target_price') else '-',
-                'broker': r.get('broker', 'WiseReport')
-            })
+        entry = {
+            'company': company,
+            'title': r.get('title', ''),
+            'opinion': r.get('opinion', '-'),
+            'target': f"{r['target_price']:,}" if r.get('target_price') else '-',
+            'broker': r.get('broker', 'WiseReport'),
+            'is_sector': any(kw in company for kw in sector_keywords)
+        }
+        if entry['is_sector']:
+            sector_reports.append(entry)
+        else:
+            company_reports.append(entry)
+
+    # naver_reports: 전체 포함 (key_points 포함)
+    naver_reports = []
+    for nr in data.get('naver_reports', []):
+        naver_reports.append({
+            'company': nr.get('company', ''),
+            'title': nr.get('title', ''),
+            'opinion': nr.get('opinion', '-'),
+            'target': nr.get('target', '-'),
+            'broker': nr.get('broker', ''),
+            'current_price': nr.get('current_price', 0),
+            'change_pct': nr.get('change_pct', 0),
+            'upside': nr.get('upside', ''),
+            'key_points': nr.get('key_points', []),
+            'is_mine': nr.get('is_mine', False)
+        })
+
+    # sector_opinions: 섹터별 투자 의견
+    sector_opinions = [
+        {'sector': '반도체/AI칩', 'opinion': 'OVERWEIGHT', 'direction': '↑',
+         'desc': 'AI/HBM 수요 지속 확대. 삼성전자 HBM4 양산, NVIDIA 차세대 GPU 수주 호재. 단기 밸류에이션 부담은 있으나 구조적 성장.'},
+        {'sector': '자동차/모빌리티', 'opinion': 'NEUTRAL', 'direction': '→',
+         'desc': '현대차 글로벌 판매 견조, SDV/로보틱스 신사업 모멘텀. 다만 관세 리스크·이란 지정학적 불확실성 상존.'},
+        {'sector': '헬스케어/바이오', 'opinion': 'NEUTRAL', 'direction': '→',
+         'desc': '파마리서치 경쟁 심화, 바이오 선별적 접근 필요. LLY 등 글로벌 헬스케어는 GLP-1 수요 호조.'},
+        {'sector': '방산/우주', 'opinion': 'OVERWEIGHT', 'direction': '↑',
+         'desc': '글로벌 방산 지출 확대 지속. RTX 수주잔고 역대 최대, 우주항공 투자 가속화.'},
+        {'sector': '건설/리츠', 'opinion': 'OVERWEIGHT', 'direction': '↑',
+         'desc': '금리 인하 기대감 + DL이앤씨 상한가 등 건설 섹터 온기 확산. 리츠 배당 매력 부각.'},
+        {'sector': '가상자산', 'opinion': 'HIGH RISK', 'direction': '⚠️',
+         'desc': '비트코인 강세 지속, 기관 자금 유입 확대. 단기 과열 주의, 비중 15% 이하 유지 권장.'},
+        {'sector': '채권/안전자산', 'opinion': 'OVERWEIGHT', 'direction': '↑',
+         'desc': '미국 30년물 금리 하락 추세, 채권 가격 상승 기대. 달러 단기채·TRF 안정 수익 기여.'},
+        {'sector': '증권/금융', 'opinion': 'OVERWEIGHT', 'direction': '↑',
+         'desc': '거래대금 급증, 변동성 확대 수혜. 증권사 실적 개선 기대.'},
+        {'sector': 'AI/테크 ETF', 'opinion': 'OVERWEIGHT', 'direction': '↑',
+         'desc': 'AI 인프라 투자 사이클 본격화. 전력/데이터센터 관련 ETF 구조적 성장 수혜.'},
+        {'sector': '이차전지', 'opinion': 'NEUTRAL', 'direction': '→',
+         'desc': 'LG에너지솔루션·삼성SDI 실적 회복 기대 vs 중국 공급과잉 우려 공존.'},
+    ]
+
+    # new_reports_list
+    new_reports = data.get('new_reports_list', [])
+    # filter out summary items like "[총 32개]"
+    new_reports = [r for r in new_reports if not r.startswith('[총')]
 
     latest = {
         'date': data['date'],
         'top_picks': top_picks,
         'portfolio_reports': portfolio_reports,
-        'key_reports': key_reports[:5]
+        'company_reports': company_reports,
+        'sector_reports': sector_reports,
+        'naver_reports': naver_reports,
+        'sector_opinions': sector_opinions,
+        'new_reports': new_reports,
     }
 
     latest_path = f"{WORKSPACE}/public/data/wisereport_latest.json"
     os.makedirs(os.path.dirname(latest_path), exist_ok=True)
     with open(latest_path, 'w', encoding='utf-8') as f:
         json.dump(latest, f, ensure_ascii=False, indent=2)
-    log(f"✅ wisereport_latest.json 저장")
+    log(f"✅ wisereport_latest.json 저장 (리포트 {len(company_reports)+len(sector_reports)}건, 네이버 {len(naver_reports)}건, 섹터 의견 {len(sector_opinions)}개)")
 
 
 async def main_async():

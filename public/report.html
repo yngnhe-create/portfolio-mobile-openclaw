@@ -127,7 +127,9 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans KR',sans
   <a class="pill active" href="#hero">브리핑</a>
   <a class="pill" href="#sec-picks">추천</a>
   <a class="pill" href="#sec-reports">리포트</a>
-  <a class="pill" href="#sec-sector">섹터</a>
+  <a class="pill" href="#sec-naver">상세분석</a>
+  <a class="pill" href="#sec-sector-opinion">산업의견</a>
+  <a class="pill" href="#sec-sector">포트섹터</a>
   <a class="pill" href="#sec-strategy">전략</a>
 </div>
 <div class="hero" id="hero">
@@ -159,6 +161,26 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans KR',sans
     <div class="loading">로딩 중...</div>
   </div>
 </div>
+<div class="sec open" id="sec-naver">
+  <div class="sec-hdr" onclick="toggleSec(this)">
+    <div class="sec-ttl">오늘 리포트 상세 분석</div>
+    <div class="sec-cnt" id="naverCnt">—</div>
+    <span class="sec-arrow">▾</span>
+  </div>
+  <div class="sec-body" id="naverBody">
+    <div class="loading">로딩 중...</div>
+  </div>
+</div>
+<div class="sec open" id="sec-sector-opinion">
+  <div class="sec-hdr" onclick="toggleSec(this)">
+    <div class="sec-ttl">산업별 투자 의견</div>
+    <div class="sec-cnt" id="sectorOpCnt">—</div>
+    <span class="sec-arrow">▾</span>
+  </div>
+  <div class="sec-body" id="sectorOpBody">
+    <div class="loading">로딩 중...</div>
+  </div>
+</div>
 <div class="sec open" id="sec-sector">
   <div class="sec-hdr" onclick="toggleSec(this)">
     <div class="sec-ttl">포트폴리오 섹터 분석</div>
@@ -186,6 +208,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans KR',sans
 <button class="scroll-top" id="scrollTopBtn" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
 <nav class="bnav">
   <a href="index.html"><span class="ni">📊</span>대시보드</a>
+  <a href="portfolio.html"><span class="ni">💼</span>포트폴리오</a>
   <a href="invest.html"><span class="ni">🗺️</span>히트맵</a>
   <a href="report.html" class="on"><span class="ni">📋</span>리포트</a>
   <a href="playbook.html"><span class="ni">📖</span>플레이북</a>
@@ -252,7 +275,7 @@ async function loadReport() {
       fetch('data/market_latest.json').catch(() => null)
     ]);
 
-    const wr = wrRes.ok ? await wrRes.json() : { top_picks: [], portfolio_reports: [], key_reports: [] };
+    const wr = wrRes.ok ? await wrRes.json() : { top_picks: [], portfolio_reports: [], company_reports: [], sector_reports: [], naver_reports: [], sector_opinions: [], new_reports: [] };
     const csvText = await csvRes.text();
     const rows = parseCSV(csvText);
 
@@ -330,15 +353,42 @@ async function loadReport() {
 
     // ── Reports ──
     const allReports = [];
+    const seen = new Set();
     // Portfolio reports (보유 종목 관련)
     (wr.portfolio_reports || []).forEach(r => {
       const held = portfolio[r.company];
       allReports.push({ ...r, is_mine: true, held });
+      seen.add(r.company + r.title);
     });
-    // Key reports
-    (wr.key_reports || []).forEach(r => {
+    // Company reports (개별종목)
+    (wr.company_reports || []).forEach(r => {
+      if (seen.has(r.company + r.title)) return;
       const held = portfolio[r.company];
       allReports.push({ ...r, is_mine: !!held, held: held || null });
+      seen.add(r.company + r.title);
+    });
+    // Sector reports (산업별)
+    (wr.sector_reports || []).forEach(r => {
+      if (seen.has(r.company + r.title)) return;
+      allReports.push({ ...r, is_mine: false, held: null, is_sector_report: true });
+      seen.add(r.company + r.title);
+    });
+    // Naver reports (company level, without key_points in this section)
+    (wr.naver_reports || []).forEach(r => {
+      if (seen.has(r.company + r.title)) return;
+      const held = portfolio[r.company];
+      allReports.push({ ...r, is_mine: r.is_mine || !!held, held: held || null });
+      seen.add(r.company + r.title);
+    });
+    // New reports list
+    (wr.new_reports || []).forEach(item => {
+      const m = item.match(/^\[([^\]]+)\]\s*(.+)$/);
+      if (!m) return;
+      const co = m[1], ti = m[2];
+      if (seen.has(co + ti)) return;
+      const held = portfolio[co];
+      allReports.push({ company: co, title: ti, opinion: '-', broker: 'WiseReport', is_mine: !!held, held: held || null });
+      seen.add(co + ti);
     });
 
     const buyCount = allReports.filter(r => {
@@ -354,34 +404,32 @@ async function loadReport() {
     allReports.forEach(r => {
       const op = (r.opinion || '').toLowerCase();
       const isBuy = op.includes('buy') || op.includes('매수');
-      const cardCls = isBuy ? 'buy' : '';
+      const cardCls = isBuy ? 'buy' : r.is_sector_report ? '' : '';
       const opCls = isBuy ? 'buy-op' : 'hold-op';
 
       let pricesHtml = '';
-      if (r.target) pricesHtml += `<span class="target">목표 ₩${r.target}</span>`;
+      if (r.target && r.target !== '-') pricesHtml += `<span class="target">목표 ₩${r.target}</span>`;
       if (r.current_price) pricesHtml += `<span class="current">현재 ₩${r.current_price.toLocaleString()}</span>`;
 
       let upsideHtml = '';
-      if (r.upside) {
+      if (r.upside && r.upside !== '-') {
         const isPos = r.upside.startsWith('+');
         upsideHtml = `<div class="rpt-upside ${isPos ? 'pos' : 'neg'}">${r.upside} 상승여력</div>`;
       }
 
-      // If held, show portfolio info
       let heldInfo = '';
       if (r.held) {
-        const h = r.held;
-        const pnlCls = h.pnlPct >= 0 ? 'pos' : 'neg';
         heldInfo = `<div style="margin-top:8px;padding:8px 10px;background:rgba(240,147,43,.06);border-radius:8px;border:1px solid rgba(240,147,43,.1);font-size:11px;color:var(--sub)">
-          📦 보유 중 · ${fmtPct(h.pnlPct)} · ${fmtBillion(h.valKRW)}
+          📦 보유 중 · ${fmtPct(r.held.pnlPct)} · ${fmtBillion(r.held.valKRW)}
         </div>`;
       }
 
       const myBadge = r.is_mine ? ' <span class="my-badge">보유종목</span>' : '';
+      const sectorBadge = r.is_sector_report ? ' <span style="padding:2px 8px;border-radius:6px;font-size:9px;font-weight:700;background:rgba(72,52,212,.1);color:var(--blu);border:1px solid rgba(72,52,212,.15);margin-left:4px">산업</span>' : '';
 
       reportsHtml += `<div class="rpt-card ${cardCls}">
         <div class="rpt-header">
-          <div class="rpt-name">${r.company}${myBadge}</div>
+          <div class="rpt-name">${r.company}${myBadge}${sectorBadge}</div>
           <div class="rpt-opinion ${opCls}">${r.opinion || '—'}</div>
         </div>
         <div class="rpt-meta"><span class="analyst">${r.broker || ''}</span></div>
@@ -538,6 +586,126 @@ async function loadReport() {
 
     document.getElementById('strategyBody').innerHTML = stratHtml || '<div class="loading">전략 데이터 없음</div>';
 
+    // ── Naver Reports (상세 분석) ──
+    const naverReports = wr.naver_reports || [];
+    document.getElementById('naverCnt').textContent = naverReports.length + '건';
+    let naverHtml = '';
+    if (naverReports.length === 0) {
+      naverHtml = '<div class="loading">오늘 상세 분석 리포트 없음</div>';
+    } else {
+      naverReports.forEach(nr => {
+        const op = (nr.opinion || '').toLowerCase();
+        const isBuy = op.includes('buy') || op.includes('매수');
+        const opCls = isBuy ? 'buy-op' : 'hold-op';
+        const opColor = isBuy ? 'var(--red)' : op.includes('hold') || op.includes('중립') ? 'var(--yel)' : 'var(--sub)';
+        const held = portfolio[nr.company];
+        const myBadge = (nr.is_mine || held) ? ' <span class="my-badge">보유종목</span>' : '';
+        const borderStyle = (nr.is_mine || held) ? 'border:1px solid rgba(240,147,43,.3);' : '';
+
+        let priceRow = '';
+        if (nr.current_price || nr.target) {
+          const cur = nr.current_price ? `₩${nr.current_price.toLocaleString()}` : '-';
+          const chg = nr.change_pct ? `${nr.change_pct >= 0 ? '+' : ''}${nr.change_pct.toFixed(2)}%` : '';
+          const chgCol = nr.change_pct >= 0 ? 'var(--red)' : 'var(--grn)';
+          const tgt = nr.target && nr.target !== '-' ? `₩${nr.target}` : '-';
+          const up = nr.upside || '-';
+          const upCol = up.startsWith('+') ? 'var(--red)' : up.startsWith('-') ? 'var(--grn)' : 'var(--sub)';
+          priceRow = `<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin:10px 0">
+            <div style="background:var(--bg);padding:8px;border-radius:8px;text-align:center">
+              <div style="font-size:9px;color:var(--sub);margin-bottom:2px">현재가</div>
+              <div style="font-size:12px;font-weight:700">${cur}</div>
+              ${chg ? `<div style="font-size:10px;color:${chgCol}">${chg}</div>` : ''}
+            </div>
+            <div style="background:var(--bg);padding:8px;border-radius:8px;text-align:center">
+              <div style="font-size:9px;color:var(--sub);margin-bottom:2px">목표가</div>
+              <div style="font-size:12px;font-weight:700">${tgt}</div>
+            </div>
+            <div style="background:var(--bg);padding:8px;border-radius:8px;text-align:center">
+              <div style="font-size:9px;color:var(--sub);margin-bottom:2px">상승여력</div>
+              <div style="font-size:13px;font-weight:800;color:${upCol}">${up}</div>
+            </div>
+          </div>`;
+        }
+
+        let pointsHtml = '';
+        if (nr.key_points && nr.key_points.length > 0) {
+          pointsHtml = '<div style="border-top:1px solid var(--brd);padding-top:10px;margin-top:10px">';
+          nr.key_points.slice(0, 5).forEach(pt => {
+            const short = pt.length > 120 ? pt.substring(0, 120) + '...' : pt;
+            pointsHtml += `<div style="display:flex;gap:6px;margin-bottom:6px"><span style="color:var(--blu);flex-shrink:0;font-size:12px">▸</span><span style="font-size:11px;color:var(--sub);line-height:1.5">${short}</span></div>`;
+          });
+          pointsHtml += '</div>';
+        }
+
+        let heldInfo = '';
+        if (held) {
+          heldInfo = `<div style="margin-top:8px;padding:8px 10px;background:rgba(240,147,43,.06);border-radius:8px;border:1px solid rgba(240,147,43,.1);font-size:11px;color:var(--sub)">
+            📦 보유 중 · ${fmtPct(held.pnlPct)} · ${fmtBillion(held.valKRW)}
+          </div>`;
+        }
+
+        naverHtml += `<div class="rpt-card" style="${borderStyle}">
+          <div class="rpt-header">
+            <div class="rpt-name">${nr.company}${myBadge}</div>
+            <div class="rpt-opinion ${opCls}">${nr.opinion || '—'}</div>
+          </div>
+          <div class="rpt-meta"><span class="analyst">${nr.broker || ''}</span></div>
+          <div class="rpt-title">"${nr.title}"</div>
+          ${priceRow}
+          ${pointsHtml}
+          ${heldInfo}
+        </div>`;
+      });
+    }
+    document.getElementById('naverBody').innerHTML = naverHtml;
+
+    // ── Sector Investment Opinions (산업별 투자 의견) ──
+    const sectorOps = wr.sector_opinions || [];
+    document.getElementById('sectorOpCnt').textContent = sectorOps.length + '개 산업';
+    let sectorOpHtml = '';
+    const opColors = {
+      'OVERWEIGHT': { bg: 'rgba(255,71,87,.08)', color: 'var(--red)', icon: '↑' },
+      'NEUTRAL': { bg: 'rgba(249,202,36,.08)', color: 'var(--yel)', icon: '→' },
+      'UNDERWEIGHT': { bg: 'rgba(78,205,196,.08)', color: 'var(--grn)', icon: '↓' },
+      'HIGH RISK': { bg: 'rgba(255,71,87,.12)', color: 'var(--red)', icon: '⚠️' }
+    };
+    sectorOps.forEach(so => {
+      const style = opColors[so.opinion] || opColors['NEUTRAL'];
+      // Check if user has holdings in this sector
+      const relatedHoldings = rows.filter(r => {
+        const name = r['자산'] || '';
+        const sec = r['분류'] || '';
+        if (sec === '현금') return false;
+        const sectorLower = so.sector.toLowerCase();
+        return sectorLower.includes('반도체') && (name.includes('삼성전자') || name.includes('NVDA') || name.includes('INTC') || name.includes('AMD')) ||
+               sectorLower.includes('자동차') && (name.includes('현대차') || name.includes('TSLA') || name.includes('샤오미') || name.includes('HSAI')) ||
+               sectorLower.includes('헬스케어') && (name.includes('파마리서치') || name.includes('LLY') || name.includes('KODEX 미국S&P')) ||
+               sectorLower.includes('방산') && (name.includes('RTX') || name.includes('TIME')) ||
+               sectorLower.includes('건설') && (name.includes('DL이앤씨') || name.includes('현대건설') || name.includes('리츠')) ||
+               sectorLower.includes('가상자산') && (name.includes('/KRW') || name.includes('/USD')) ||
+               sectorLower.includes('채권') && sec.includes('채권') ||
+               sectorLower.includes('증권') && (name.includes('KODEX 증권')) ||
+               sectorLower.includes('AI/테크') && (sec === 'ETF' || name.includes('TIGER 글로벌AI') || name.includes('TIGER 미국테크')) ||
+               sectorLower.includes('이차전지') && (name.includes('LG에너지') || name.includes('삼성SDI'));
+      }).slice(0, 3);
+
+      const holdingTags = relatedHoldings.map(h => {
+        const pnl = parsePnlPct(h['손익'] || '');
+        const col = pnl >= 0 ? 'var(--red)' : 'var(--grn)';
+        return `<span class="sector-tag">${h['자산']} <span style="color:${col};font-size:10px">${fmtPct(pnl)}</span></span>`;
+      }).join('');
+
+      sectorOpHtml += `<div class="sector-card" style="border-left:3px solid ${style.color}">
+        <div class="sector-header">
+          <div class="sector-name">${so.sector}</div>
+          <span style="padding:4px 12px;border-radius:8px;font-size:11px;font-weight:700;background:${style.bg};color:${style.color}">${so.direction} ${so.opinion}</span>
+        </div>
+        <div class="sector-desc">${so.desc}</div>
+        ${holdingTags ? `<div style="margin-top:4px"><div style="font-size:10px;color:var(--sub);margin-bottom:6px;font-weight:600">📦 보유 종목</div><div class="sector-stocks">${holdingTags}</div></div>` : ''}
+      </div>`;
+    });
+    document.getElementById('sectorOpBody').innerHTML = sectorOpHtml || '<div class="loading">산업별 의견 데이터 없음</div>';
+
     // ── Hero Summary ──
     const topSectors = sectors.slice(0, 3).map(([n]) => n);
     const heroKws = [];
@@ -546,10 +714,13 @@ async function loadReport() {
 
     document.getElementById('heroText').innerHTML =
       `포트폴리오 <strong>${rows.length}개 자산</strong> · <strong>${fmtBillion(totalAssets)}</strong> · 수익률 <strong style="color:${totalPnLPct >= 0 ? 'var(--red)' : 'var(--grn)'}">${fmtPct(totalPnLPct)}</strong>. ` +
-      `${allReports.length > 0 ? `WiseReport 기준 <strong>${allReports.length}건</strong> 리포트 분석 완료.` : ''} ` +
+      `WiseReport <strong>${allReports.length}건</strong> + 네이버 <strong>${naverReports.length}건</strong> 리포트 분석. ` +
+      `<strong>${sectorOps.length}개</strong> 산업 투자 의견 업데이트. ` +
       `${bigWinners.length > 0 ? `<strong>${bigWinners.length}개</strong> 종목 +30% 이상 수익 중.` : ''}`;
 
-    document.getElementById('heroKeywords').innerHTML = heroKws.slice(0, 6).map(k =>
+    // Add sector opinion keywords
+    sectorOps.filter(s => s.opinion === 'OVERWEIGHT').forEach(s => heroKws.push(s.sector));
+    document.getElementById('heroKeywords').innerHTML = heroKws.slice(0, 8).map(k =>
       `<span class="kw">${k}</span>`
     ).join('');
 
