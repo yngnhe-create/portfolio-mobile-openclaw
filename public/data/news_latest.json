@@ -1,12 +1,53 @@
 {
-  "timestamp": "2026-03-23T08:10:11.591039",
+  "timestamp": "2026-03-23T18:09:14.756476",
   "count": 10,
   "articles": [
     {
-      "title": "제조 AX 본격화… SSPA 2026서 반도체·전자 최첨단 트렌드 공개",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1QZUVtWWpfd2RfWjZuZ0xLSF9YbXRZak1ka0ZKYUV3SG1FbGN1NkVMdjN0MGdZalpHS0ZtdWEyVlRjVjVDVmgyaUVidFhtVTdHWWdhY1hENE8wbHdIbGc?oc=5",
-      "pubDate": "Sun, 22 Mar 2026 23:00:00 GMT",
-      "source": "투데이안",
+      "title": "“車에서 집안 가전 제어”…삼성·현대차 ‘맞손’",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5RalZrRWZHYzJOMzlobDNwcktLUE54Tk02SlJSOHpTQUJVUGFEdldqRHR4QTBjR0Y0SzJzSk90NUlrZVhDVXhfWXlRZ0FaUkJ4TzlYOE5Tc2t0UkpEQU9wZHgzaFo?oc=5",
+      "pubDate": "Mon, 23 Mar 2026 09:05:47 GMT",
+      "source": "서울경제TV",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자",
+        "현대차"
+      ]
+    },
+    {
+      "title": "[희소금속 가격 폭등] K-인더스트리 '중동 전쟁' 유탄 본격화...반도체·방산·배터리 등 줄타격 우려",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFAxVUhOeVFUUHJPTFhrS0l3bWZfQnZONC1rb0VBMmRfOVVDeFFFSmVTTkJRazNjTWVaYVBqa21qWUFGSG5kc0dYczkzaUhlcnc?oc=5",
+      "pubDate": "Mon, 23 Mar 2026 09:01:23 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "삼성전자",
+        "원유"
+      ]
+    },
+    {
+      "title": "현대차, 28억 시장 중국·인도에 신차 40종 파상공세",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5YTGhtTHdocW9DbkFYNTloWFdsbFF1dkVjX2lDVmgwaUZwREdlRTU2UWNPTVlYTlRsRFlnV3RnMTA2WGEzWlZKM1V5SVdpN1k?oc=5",
+      "pubDate": "Mon, 23 Mar 2026 08:51:03 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "파네시아-KAIST, 링크 반도체로 AX 실현 MOU",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5ZUWM2RWQweTB2T1Y0REhoVkpEMzVnRzQtUV9iWU1ZQk53RnB5ei1hM0RYd2VIZGpsQUg0QzkxaGdaLWhmZ0ZRU1daeXpyMDZrNTl4enBuT1FjM3VxaFViRlpfeGxSZw?oc=5",
+      "pubDate": "Mon, 23 Mar 2026 08:45:28 GMT",
+      "source": "디일렉",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -16,23 +57,9 @@
       ]
     },
     {
-      "title": "[오늘의 투자전략] 전쟁·금리 불안 겹쳤다…코스피 6000선, 반도체 실적 모멘텀이 좌우",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE95MnJYbTdFTGlYekhOTjRNNk1VUmdMXzFwV1drTktLeEpONnB4RXk3eXBjekxocGNMWjdLMkswUVUySkxtU0JDLUE0cmowNFRONlRyNQ?oc=5",
-      "pubDate": "Sun, 22 Mar 2026 22:48:00 GMT",
-      "source": "이투데이",
-      "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
-      },
-      "impacts": [
-        "채권",
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "코스피 반도체 이익 비중 60%…시총 대비 저평가 지속",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB5T1J6OE5lSVFfOU5hd2xSMzdfYUg1am1KblFPejJBUk56M0t0emI0X1BtczU0ZGpjS3dRTDZpcWlSMW1BN2ItWEZQUmdOMk0?oc=5",
-      "pubDate": "Sun, 22 Mar 2026 22:22:03 GMT",
+      "title": "머스크 '테라팹' 비현실 논란 속...K반도체 영향 주목",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBNaFh1clQ3UmFhQ1B1Qzk0b3RMZlp2NWZzMzNWWllOcDBSVVBiN0hicXVjOUdFMVRCb092MWtRcEg2Mm4xYTJVcjZyZzMyOEk?oc=5",
+      "pubDate": "Mon, 23 Mar 2026 08:41:20 GMT",
       "source": "v.daum.net",
       "category": {
         "label": "📋 GENERAL",
@@ -43,37 +70,37 @@
       ]
     },
     {
-      "title": "이더리움 5.4% 하락…비트코인·리플 등 코인 시세는?",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1veUNnTmVoUmxfOG9BNVp5azM3X2IyVEhoRVpLVUs2N2htR0RjUkF6dW5XRGJMUFhTd0t2S0MwSXNpZEpkZ0VRUDFqYXR3dFR5SHNCTg?oc=5",
-      "pubDate": "Sun, 22 Mar 2026 22:20:00 GMT",
-      "source": "이투데이",
+      "title": "“운전 중 에어컨 켜고 로봇청소기 돌린다”... 삼성전자-현대차, ‘카투홈’ 서비스 본격 가동",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBUSVppVnNJUk05djBKTmRmdmttV1dQM1AyVHVoNVo4cUVFR3o2OFVDenFEZTZYMUFhQnlRR0U5b05XWXdUNW51M0tuemR6QzhNUVktTURCODY3QTBVRFAwMmtMQQ?oc=5",
+      "pubDate": "Mon, 23 Mar 2026 08:38:21 GMT",
+      "source": "매일산업뉴스",
       "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
       },
       "impacts": [
-        "BTC"
+        "삼성전자",
+        "현대차"
       ]
     },
     {
-      "title": "금값·비트코인 동반 폭락…이란 전쟁에 '안전자산 공식' 완전히 깨졌다",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQOGJqU2EtdHAyMHdoNmN1Mlk3ZXBESzQ1V2hSUlJHRUhRbDI5TXVaOTRfbXNVWnlQaG9yYktNQnJ3V1J1ZW96MVlMT1BwMldpcFQ2Y0RPenVjdVNTOXdCb1Jzc0ozVi1UUWxLUEM3WHlVb3lmb05lU3d4Q19lVW9Hc0Vsc1U5OHRY?oc=5",
-      "pubDate": "Sun, 22 Mar 2026 22:18:39 GMT",
-      "source": "글로벌이코노믹",
+      "title": "반도체 질주에 수출 50% 급증…위기 속 들려온 희소식",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5JN080RzVrSmVweWVmYlhLWUFzTXNoQ2c5V3I2eENQaGNNOXhmbDdXa19oNkhKMGNtVU5wLURQY3J0UmpUaFRveVdTXzR4Nm95VFFVVzBSOXBpUdIBVEFVX3lxTE5meUZJaHlKdTMxMzVnMFhNVDZvMEZ6N1JOa0tYMFk5SDlTcnpWZFNNMnc0OWZkNzhtcHpfS1V5Z1ZVSDF0RGt3VDNOdG5uMWtNU3Fjdw?oc=5",
+      "pubDate": "Mon, 23 Mar 2026 08:30:55 GMT",
+      "source": "한국경제",
       "category": {
         "label": "🔴 HIGH IMPACT",
         "color": "#ff4757"
       },
       "impacts": [
-        "원유",
-        "BTC"
+        "삼성전자"
       ]
     },
     {
-      "title": "반도체 보조금 152조 쏟아부었지만… 공급망은 세 동강, 중국만 어부지리",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNcWN2ZENMS0dmNTR2MTc5SnpYNXBlWFZsbDBncVIzZS15TV83YXNvY1NOV0pHWFlnN0s1UnAwVTEzVmdJb21ETFRzbkFYaC1YRXdXUGliQ2s1LW9rYUFPM3MxY09rUTZEclFZU1lSbGM2UnBxLU5POGcxZWpfc0ZEdUdwQWZYLVhJ?oc=5",
-      "pubDate": "Sun, 22 Mar 2026 22:17:12 GMT",
-      "source": "글로벌이코노믹",
+      "title": "'검은 월요일' 개미는 '7조' 최대 베팅, 삼성전자 SK하이닉스 집중 매수 또 통할까",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1VVTBwV1VRdWtYRjR4azlZNktfUDRPWWw3RlBad3JOYm9VQ1VWMGNsc3lDWVJ5OUp5WUczQmNRYkI2U0piaENNTjdGSV9nOU95TVpQM2FRa1U2c05qRjBBRnhGSVhyclgtelhTbEFiWTVzUE0?oc=5",
+      "pubDate": "Mon, 23 Mar 2026 08:24:31 GMT",
+      "source": "비즈니스포스트",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -83,54 +110,29 @@
       ]
     },
     {
-      "title": "NYSE, 비트코인·이더리움 ETF 옵션 규제 완화안 SEC 제출",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE8taHVZMHpHc2JEbHdwaEpSVDdrXzNPc2gwSC0xNTlwQUhoVFFUNEM0QVRLRk1tUnJXdS1sZG1GbC1maFcyVDc5Wmk0dEZGeXJS?oc=5",
-      "pubDate": "Sun, 22 Mar 2026 22:15:06 GMT",
-      "source": "블루밍비트",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "삼성전자 HBM4 오픈AI ‘타이탄’ 독점 공급…반도체 판도 뒤집는다",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOVi02VlpDY2RJcXJpNnU1TExkZ3k0VEhxMlVpRDVxVGthWkVTV3E2bnVwUEd5OGJaQk85NVdWN2RaNklqeWEzUFdwOGRNZ05IbzhpNDlVV0t5dVJvdFRERWJhM2Y0MHNPdVlwT19WWW93T2dGYjk1WEFUQkROUkFZT09ZX0EtNkZR?oc=5",
-      "pubDate": "Sun, 22 Mar 2026 22:13:32 GMT",
-      "source": "글로벌이코노믹",
+      "title": "대전 화재 공장, 현대차·기아 납품사였다…車 생산 늦어지나",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1falFQSWphOVJiYmM3cXBNTkJHV3pGNHB4STJCeGhpNkgtVFR5WFZuV0JnNWdDdkRUeE1EcHdkZ0JJTHNLblE0anp0Wk55cm9Ed0p0VkJaWFd3T3RWckx1X0Z0NA?oc=5",
+      "pubDate": "Mon, 23 Mar 2026 08:20:49 GMT",
+      "source": "매일일보",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
-        "삼성전자"
+        "현대차"
       ]
     },
     {
-      "title": "과학기술",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOOFh6Y2FPaktlVFBGU3Z5OFg3MmNNZXh0WHg3SktjTER0V0QxVHpkWTBqN21LUjJ3RndWdnJlaWpMQXhNRGYtWDNvTkM4MVFlMFpZMjg5ZF9oZWl3NnpVdEdya0Z1QUxFNnBZV2h6TGxhT0dxSmIzQnhlT3hQc0s2elc2QWFzeFJWR1dJQ2I4UQ?oc=5",
-      "pubDate": "Sun, 22 Mar 2026 22:04:33 GMT",
-      "source": "사이언스타임즈",
+      "title": "대전 안전공업 화재로 현대차 생산차질 우려…“타 업체와 협의중”",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE84a05YX2NadGh1bHc2TDNkTlJ0Vm90cEZncHlSTmotSDJPUDJFekt4MlZkS3Z0X1FCZlVyNXJRYjBsb0dQRnJpRVFlLW9JV1h2LXQyaEt4QmR2TS10SkYtRA?oc=5",
+      "pubDate": "Mon, 23 Mar 2026 08:20:06 GMT",
+      "source": "뉴스토마토",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
-      "impacts": []
-    },
-    {
-      "title": "`트럼프 48시간 통첩`에 비트코인 또 하락…\"5만달러 볼 수도\"",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPSkdUZ2NGWURtRkN6b2h0eFlVMlZZbm45STI4Y0hnYlNGUktUdm5yTGMxV01XTk1wUkhYUFZ0LTQtOXByc3RLaEZSTmN2QTJyWlg5ZGJJT0dpc0lOaXY0MkQ5VjVWWnJ5YmR4V0ZXSDhGTHptY29Gb0QzaGVmS1Noeg?oc=5",
-      "pubDate": "Sun, 22 Mar 2026 22:03:00 GMT",
-      "source": "edaily.co.kr",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
       "impacts": [
-        "환율",
-        "BTC"
+        "현대차"
       ]
     }
   ]
