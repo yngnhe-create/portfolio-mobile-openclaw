@@ -37,6 +37,10 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans KR',sans
 .hm-cell.small .pct{font-size:10px}
 .hm-cell.tiny .name,.hm-cell.tiny .weight{display:none}
 .hm-cell.tiny .pct{font-size:9px}
+.mode-pill{display:inline-flex;gap:2px;background:var(--hdr);border-radius:14px;padding:2px;margin-left:auto;flex-shrink:0}
+.mode-pill .mp{padding:5px 10px;border-radius:12px;font-size:10px;font-weight:600;cursor:pointer;color:var(--sub);transition:all .2s;white-space:nowrap}
+.mode-pill .mp.on{background:var(--blu);color:#fff}
+.fetch-bar{text-align:center;padding:4px;font-size:10px;color:var(--sub);background:var(--card);border-bottom:1px solid var(--brd)}
 /* Flat view */
 .hm-flat{display:flex;flex-wrap:wrap;gap:3px;padding:8px}
 /* Detail modal */
@@ -97,7 +101,9 @@ body.masked .si-val,body.masked .hm-cell .pct,body.masked .hm-cell .weight,body.
   <div class="vtab" onclick="setView('flat')">전체 종목</div>
   <div class="vtab" onclick="setView('gain')">수익률순</div>
   <div class="vtab" onclick="setView('summary')">섹터 요약</div>
+  <div class="mode-pill"><div class="mp on" id="mpDaily" onclick="setMode('daily')">당일</div><div class="mp" id="mpTotal" onclick="setMode('total')">총수익</div></div>
 </div>
+<div class="fetch-bar" id="fetchBar" style="display:none">실시간 시세 로딩 중...</div>
 <div class="summary" id="summaryBar">
   <div class="summary-item"><div class="si-val" id="smTotal">-</div><div class="si-lbl">총 자산</div></div>
   <div class="summary-item"><div class="si-val" id="smPL">-</div><div class="si-lbl">평가손익</div></div>
@@ -109,7 +115,7 @@ body.masked .si-val,body.masked .hm-cell .pct,body.masked .hm-cell .weight,body.
   <div class="legend-bar"></div>
   <span>수익</span>
 </div>
-<div class="legend-labels"><span>-30%</span><span>-15%</span><span>0%</span><span>+50%</span><span>+100%+</span></div>
+<div class="legend-labels" id="legendLabels"><span>-5%</span><span>-2%</span><span>0%</span><span>+2%</span><span>+5%+</span></div>
 <div id="content"><div class="loading"><div class="spin"></div><br>포트폴리오 로딩 중...</div></div>
 
 <div class="modal-overlay" id="modal" onclick="closeModal(event)">
@@ -187,8 +193,8 @@ function pNum(s) {
 // ═══════════════════════════════════════
 // Color Engine
 // ═══════════════════════════════════════
-function getColor(pct) {
-  // Korean: red = gain, green = loss
+function getTotalColor(pct) {
+  // Korean: red = gain, green = loss — for total return scale (-30% to +100%)
   if (pct >= 100) return 'rgba(255,55,67,.85)';
   if (pct >= 50) return `rgba(255,${Math.round(55 + (107-55)*(100-pct)/50)},${Math.round(67 + (107-67)*(100-pct)/50)},.75)`;
   if (pct >= 20) return `rgba(255,${Math.round(107 + (130-107)*(50-pct)/30)},${Math.round(107 + (130-107)*(50-pct)/30)},.65)`;
@@ -197,6 +203,20 @@ function getColor(pct) {
   if (pct >= -30) return `rgba(78,205,196,.65)`;
   return 'rgba(46,213,115,.75)';
 }
+function getDailyColor(pct) {
+  // Daily change scale: -5% to +5% (amplified for visibility)
+  if (pct >= 5) return 'rgba(255,55,67,.85)';
+  if (pct >= 3) return `rgba(255,${Math.round(55+(107-55)*(5-pct)/2)},${Math.round(67+(107-67)*(5-pct)/2)},.75)`;
+  if (pct >= 1) return `rgba(255,${Math.round(107+(150-107)*(3-pct)/2)},${Math.round(107+(140-107)*(3-pct)/2)},.6)`;
+  if (pct >= 0) return `rgba(${Math.round(200+55*pct)},${Math.round(160-10*pct)},${Math.round(155-48*pct)},.45)`;
+  if (pct >= -1) return `rgba(${Math.round(160+40*(1+pct))},${Math.round(190+15*(1+pct))},${Math.round(188+8*(1+pct))},.45)`;
+  if (pct >= -3) return `rgba(${Math.round(100+60*(3+pct)/2)},${Math.round(190)},${Math.round(190)},.6)`;
+  if (pct >= -5) return 'rgba(78,205,196,.7)';
+  return 'rgba(46,213,115,.8)';
+}
+function getColor(pct) {
+  return displayMode === 'daily' ? getDailyColor(pct) : getTotalColor(pct);
+}
 
 // ═══════════════════════════════════════
 // Data & State
@@ -204,6 +224,33 @@ function getColor(pct) {
 let ASSETS = [];
 let USDKRW = 1450;
 let currentView = 'sector';
+let displayMode = 'daily'; // 'daily' or 'total'
+const dailyChgMap = {};
+
+const PROXY = url => `https://api.allorigins.win/get?url=${encodeURIComponent(url)}`;
+
+const TICKER_MAP = {
+  // US Stocks
+  'INTC':'INTC','NVDA':'NVDA','TSLA':'TSLA','AMD':'AMD','AMZN':'AMZN',
+  'LLY':'LLY','MSFT':'MSFT','GOOGL':'GOOGL','RTX':'RTX','PLTR':'PLTR',
+  'ARTY':'ARTY','HSAI':'HSAI',
+  // US ETFs
+  'NLR':'NLR','GRID ETF':'GRID',
+  // Crypto
+  'BTC/KRW':'BTC-KRW','ETH/KRW':'ETH-KRW','SOL/KRW':'SOL-KRW','LINK/USD':'LINK-USD',
+  // Korean individual stocks
+  '삼성전자':'005930.KS','삼성전자우':'005935.KS','파마리서치':'214150.KQ',
+  '현대차3우B':'005387.KS','DL이앤씨우':'375500.KS','두산':'000150.KS',
+  '네이버':'035420.KS','엘오티베큠':'083310.KQ','현대건설':'000720.KS',
+  '현대차우':'005385.KS','삼성SDI':'006400.KS','세아베스틸지주':'001430.KS',
+  'LG에너지솔루션':'373220.KS','샤오미':'1810.HK',
+  // Korean REITs
+  'ESR켄달스퀘어리츠':'365550.KS','코람코라이프인프라리츠':'357120.KS',
+  'SK리츠':'395400.KS','신한서부티엔디리츠':'404990.KS','이지스밸류플러스리츠':'334890.KS',
+  // Korean ETFs (known codes)
+  'KODEX 증권':'102970.KS','TIGER 코스피고배당':'161510.KS',
+  'TIGER 미국테크TOP10 INDXX':'381170.KS','KODEX TRF3070':'294400.KS',
+};
 
 function getKRW(a) {
   return a.currency === 'USD' ? a.totalValue * USDKRW : a.totalValue;
@@ -225,14 +272,23 @@ function renderSummary() {
     if (a.category === '현금') return;
     const v = getKRW(a);
     total += v;
-    if (a.gainPct > 0) up++; else if (a.gainPct < 0) dn++;
-    // Approximate P&L from pct
-    const cost = v / (1 + a.gainPct/100);
-    pl += v - cost;
+    if (displayMode === 'daily') {
+      const dc = dailyChgMap[a.name];
+      if (dc) {
+        if (dc.pct > 0) up++; else if (dc.pct < 0) dn++;
+        pl += v * dc.pct / 100;
+      }
+    } else {
+      if (a.gainPct > 0) up++; else if (a.gainPct < 0) dn++;
+      const cost = v / (1 + a.gainPct/100);
+      pl += v - cost;
+    }
   });
   document.getElementById('smTotal').textContent = fmtKRW(total);
+  const plLabel = displayMode === 'daily' ? '당일 손익' : '평가손익';
   document.getElementById('smPL').textContent = (pl >= 0 ? '+' : '') + fmtKRW(pl);
   document.getElementById('smPL').style.color = pl >= 0 ? 'var(--red)' : 'var(--grn)';
+  document.getElementById('smPL').parentElement.querySelector('.si-lbl').textContent = plLabel;
   document.getElementById('smUp').textContent = up + '개';
   document.getElementById('smDn').textContent = dn + '개';
 }
@@ -257,6 +313,15 @@ function cellSize(weight) {
   return Math.max(minW, Math.min(maxW, Math.round(side)));
 }
 
+function getDisplayPct(a) {
+  if (displayMode === 'daily') {
+    const dc = dailyChgMap[a.name];
+    if (dc) return { pct: dc.pct, live: true };
+    return { pct: 0, live: false }; // no data yet
+  }
+  return { pct: a.gainPct, live: true };
+}
+
 function createCell(a) {
   const size = cellSize(a.weight);
   const isSmall = size < 80;
@@ -265,10 +330,12 @@ function createCell(a) {
   el.className = 'hm-cell' + (isTiny ? ' tiny' : isSmall ? ' small' : '');
   el.style.width = size + 'px';
   el.style.height = Math.max(50, Math.round(size * 0.65)) + 'px';
-  el.style.background = getColor(a.gainPct);
+  const dp = getDisplayPct(a);
+  el.style.background = dp.live ? getColor(dp.pct) : 'rgba(87,96,111,.4)';
   el.style.flexGrow = Math.max(1, Math.round(a.weight * 2));
-  const sign = a.gainPct >= 0 ? '+' : '';
-  el.innerHTML = `<div class="name">${a.name}</div><div class="pct">${sign}${a.gainPct.toFixed(1)}%</div><div class="weight">${a.weight.toFixed(1)}%</div>`;
+  const sign = dp.pct >= 0 ? '+' : '';
+  const pctStr = dp.live ? `${sign}${dp.pct.toFixed(1)}%` : '···';
+  el.innerHTML = `<div class="name">${a.name}</div><div class="pct">${pctStr}</div><div class="weight">${a.weight.toFixed(1)}%</div>`;
   el.onclick = () => openModal(a);
   return el;
 }
@@ -313,12 +380,13 @@ function renderFlatView() {
 }
 
 function renderGainView() {
-  const items = calcWeights().sort((a,b) => b.gainPct - a.gainPct);
+  const items = calcWeights().map(a => ({...a, dispPct: getDisplayPct(a).pct, dispLive: getDisplayPct(a).live}))
+    .sort((a,b) => b.dispPct - a.dispPct);
   const container = document.getElementById('content');
   container.innerHTML = '';
   // Winners
-  const winners = items.filter(a => a.gainPct >= 0);
-  const losers = items.filter(a => a.gainPct < 0);
+  const winners = items.filter(a => a.dispPct >= 0);
+  const losers = items.filter(a => a.dispPct < 0);
   if (winners.length) {
     const sec = document.createElement('div');
     sec.className = 'hm-sector';
@@ -347,10 +415,12 @@ function renderSummaryView() {
   items.forEach(a => {
     if (!sectors[a.category]) sectors[a.category] = { totalVal: 0, totalWeight: 0, stocks: [], gainSum: 0, count: 0 };
     const s = sectors[a.category];
+    const dp = getDisplayPct(a);
+    const pct = dp.live ? dp.pct : a.gainPct;
     s.totalVal += a.valKRW;
     s.totalWeight += a.weight;
-    s.stocks.push(a);
-    s.gainSum += a.gainPct * a.weight;
+    s.stocks.push({...a, dispPct: pct});
+    s.gainSum += pct * a.weight;
     s.count++;
   });
 
@@ -367,9 +437,9 @@ function renderSummaryView() {
     const col = s.avgGain >= 0 ? 'var(--red)' : 'var(--grn)';
     const topStocks = s.stocks.sort((a,b) => b.valKRW - a.valKRW).slice(0, 5);
     const stocksHtml = topStocks.map(a => {
-      const sc = a.gainPct >= 0 ? 'var(--red)' : 'var(--grn)';
-      const ss = a.gainPct >= 0 ? '+' : '';
-      return `<strong>${a.name}</strong> ${fmtKRW(a.valKRW)} <span style="color:${sc}">${ss}${a.gainPct.toFixed(1)}%</span>`;
+      const sc = a.dispPct >= 0 ? 'var(--red)' : 'var(--grn)';
+      const ss = a.dispPct >= 0 ? '+' : '';
+      return `<strong>${a.name}</strong> ${fmtKRW(a.valKRW)} <span style="color:${sc}">${ss}${a.dispPct.toFixed(1)}%</span>`;
     }).join(' · ');
 
     const card = document.createElement('div');
@@ -401,9 +471,12 @@ function openModal(a) {
   const valStr = a.currency === 'USD' ? '$' + a.totalValue.toLocaleString() : fmtKRW(a.totalValue);
   document.getElementById('mdValue').textContent = valStr;
 
-  const sign = a.gainPct >= 0 ? '+' : '';
-  document.getElementById('mdPct').textContent = sign + a.gainPct.toFixed(2) + '%';
-  document.getElementById('mdPct').style.color = a.gainPct >= 0 ? 'var(--red)' : 'var(--grn)';
+  const dp = getDisplayPct(a);
+  const showPct = dp.live ? dp.pct : a.gainPct;
+  const sign = showPct >= 0 ? '+' : '';
+  document.getElementById('mdPct').textContent = sign + showPct.toFixed(2) + '%';
+  document.getElementById('mdPct').style.color = showPct >= 0 ? 'var(--red)' : 'var(--grn)';
+  document.getElementById('mdPct').parentElement.querySelector('.mg-lbl').textContent = displayMode === 'daily' ? '당일 등락' : '수익률';
 
   const buyStr = a.buyPrice === 0 ? '-' : (a.currency === 'USD' ? '$' + a.buyPrice.toLocaleString() : '₩' + a.buyPrice.toLocaleString());
   const curStr = a.currentPrice === 0 ? '-' : (a.currency === 'USD' ? '$' + a.currentPrice.toLocaleString() : '₩' + a.currentPrice.toLocaleString());
@@ -416,6 +489,13 @@ function openModal(a) {
 
   let info = `<strong>포트폴리오 비중:</strong> ${a.weight.toFixed(2)}%<br>`;
   info += `<strong>자산가치 (KRW):</strong> ${fmtKRW(getKRW(a))}<br>`;
+  const dc = dailyChgMap[a.name];
+  if (dc) {
+    const ds = dc.pct >= 0 ? '+' : '';
+    const dcol = dc.pct >= 0 ? 'var(--red)' : 'var(--grn)';
+    info += `<strong>당일 등락:</strong> <span style="color:${dcol};font-weight:700">${ds}${dc.pct.toFixed(2)}%</span><br>`;
+  }
+  info += `<strong>총수익률:</strong> <span style="color:${a.gainPct>=0?'var(--red)':'var(--grn)'};font-weight:700">${a.gainPct>=0?'+':''}${a.gainPct.toFixed(2)}%</span><br>`;
   if (a.divMonths !== '-') info += `<strong>배당월:</strong> ${a.divMonths}<br>`;
   if (a.divYield !== '-') info += `<strong>투자배당률:</strong> ${a.divYield}<br>`;
   if (a.gainPct > 100) info += `<br><span style="color:var(--red);font-weight:700">고수익 종목 — 일부 익실 검토</span>`;
@@ -471,6 +551,65 @@ async function fetchUSDKRW() {
 }
 
 // ═══════════════════════════════════════
+// Daily Change Fetcher
+// ═══════════════════════════════════════
+async function fetchOneTicker(name, sym) {
+  try {
+    const url = `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(sym)}?interval=1d&range=1d`;
+    const resp = await fetch(PROXY(url));
+    const json = await resp.json();
+    const d = JSON.parse(json.contents);
+    const meta = d.chart.result[0].meta;
+    const cur = meta.regularMarketPrice || 0;
+    const prev = meta.chartPreviousClose || meta.previousClose || cur;
+    if (prev > 0) dailyChgMap[name] = { pct: (cur-prev)/prev*100, cur, prev };
+  } catch(e) { /* skip */ }
+}
+
+async function fetchDailyChanges() {
+  const bar = document.getElementById('fetchBar');
+  bar.style.display = 'block';
+  const entries = Object.entries(TICKER_MAP);
+  let done = 0;
+  bar.textContent = `실시간 시세 로딩 중... (0/${entries.length})`;
+
+  // Concurrency-limited parallel fetch
+  const concurrency = 8;
+  let idx = 0;
+  async function worker() {
+    while (idx < entries.length) {
+      const i = idx++;
+      const [name, sym] = entries[i];
+      await fetchOneTicker(name, sym);
+      done++;
+      bar.textContent = `실시간 시세 로딩 중... (${done}/${entries.length})`;
+    }
+  }
+  await Promise.all(Array(Math.min(concurrency, entries.length)).fill(0).map(() => worker()));
+
+  bar.textContent = `실시간 데이터 ${done}/${entries.length} 로드 완료`;
+  setTimeout(() => { bar.style.display = 'none'; }, 2000);
+
+  // Re-render with live data
+  renderSummary();
+  render();
+}
+
+function setMode(mode) {
+  displayMode = mode;
+  document.getElementById('mpDaily').classList.toggle('on', mode === 'daily');
+  document.getElementById('mpTotal').classList.toggle('on', mode === 'total');
+  const labels = document.getElementById('legendLabels');
+  if (mode === 'daily') {
+    labels.innerHTML = '<span>-5%</span><span>-2%</span><span>0%</span><span>+2%</span><span>+5%+</span>';
+  } else {
+    labels.innerHTML = '<span>-30%</span><span>-15%</span><span>0%</span><span>+50%</span><span>+100%+</span>';
+  }
+  renderSummary();
+  render();
+}
+
+// ═══════════════════════════════════════
 // Init
 // ═══════════════════════════════════════
 function toggleMask() {
@@ -501,6 +640,8 @@ async function init() {
   }
   renderSummary();
   render();
+  // Fetch daily changes in background (non-blocking)
+  fetchDailyChanges();
 }
 init();
 
@@ -515,6 +656,20 @@ window.addEventListener('popstate', () => {
 });
 </script>
 <button class="fab-refresh" id="refreshBtn" onclick="doRefresh()" title="전체 새로고침"><span class="fab-icon">↻</span></button>
-<script>function doRefresh(){document.getElementById('refreshBtn').classList.add('spin');setTimeout(()=>location.reload(),300)}</script>
+<script>
+async function doRefresh(){
+  const btn=document.getElementById('refreshBtn');
+  btn.classList.add('spin');
+  try{
+    // Re-fetch USD/KRW live
+    await fetchUSDKRW();
+    // Re-fetch daily changes
+    await fetchDailyChanges();
+    renderSummary();
+    render();
+  }catch(e){}
+  btn.classList.remove('spin');
+}
+</script>
 </body>
 </html>

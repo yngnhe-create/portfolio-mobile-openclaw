@@ -547,39 +547,50 @@ async function fetchWithProxy(url) {
   } catch(e) { return null; }
 }
 
-async function loadNews() {
-  let articles = [];
-  try {
-    // Primary: load from pre-generated JSON (cron job updates this)
-    const res = await fetch('data/news_latest.json');
-    if (!res.ok) throw new Error('no json');
-    const json = await res.json();
-    articles = json.articles || [];
-  } catch(e) {
-    // Fallback: try RSS via proxy
+async function fetchLiveRSS() {
+  const articles = [];
+  for (const rssUrl of NEWS_RSS_URLS) {
     try {
-      const xml = await fetchWithProxy(NEWS_RSS_URLS[0]);
-      if (xml) {
-        const parser = new DOMParser();
-        const doc = parser.parseFromString(xml, 'text/xml');
-        const items = doc.querySelectorAll('item');
-        const seen = new Set();
-        items.forEach(item => {
-          const rawTitle = item.querySelector('title')?.textContent || '';
-          const title = cleanTitle(rawTitle);
-          if (!title || seen.has(title)) return;
-          seen.add(title);
-          articles.push({
-            title, link: item.querySelector('link')?.textContent || '',
-            pubDate: item.querySelector('pubDate')?.textContent || '',
-            source: item.querySelector('source')?.textContent || '',
-            category: categorizeNews(title), impacts: findPortfolioImpact(title)
-          });
+      const xml = await fetchWithProxy(rssUrl);
+      if (!xml) continue;
+      const parser = new DOMParser();
+      const doc = parser.parseFromString(xml, 'text/xml');
+      const items = doc.querySelectorAll('item');
+      const seen = new Set(articles.map(a => a.title));
+      items.forEach(item => {
+        const rawTitle = item.querySelector('title')?.textContent || '';
+        const title = cleanTitle(rawTitle);
+        if (!title || seen.has(title)) return;
+        seen.add(title);
+        articles.push({
+          title, link: item.querySelector('link')?.textContent || '',
+          pubDate: item.querySelector('pubDate')?.textContent || '',
+          source: item.querySelector('source')?.textContent || '',
+          category: categorizeNews(title), impacts: findPortfolioImpact(title)
         });
-        articles.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
-        articles = articles.slice(0, 8);
-      }
-    } catch(e2) { /* give up */ }
+      });
+    } catch(e) {}
+  }
+  articles.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
+  return articles.slice(0, 10);
+}
+
+async function loadNews(live) {
+  let articles = [];
+  if (live) {
+    try { articles = await fetchLiveRSS(); } catch(e) {}
+    if (articles.length === 0) {
+      try { const res = await fetch('data/news_latest.json'); const json = await res.json(); articles = json.articles || []; } catch(e) {}
+    }
+  } else {
+    try {
+      const res = await fetch('data/news_latest.json');
+      if (!res.ok) throw new Error('no json');
+      const json = await res.json();
+      articles = json.articles || [];
+    } catch(e) {
+      try { articles = await fetchLiveRSS(); } catch(e2) {}
+    }
   }
   renderNews(articles);
   renderTicker(articles);
@@ -732,32 +743,34 @@ function renderMkt(id, label, cur, chg, pct) {
   el.querySelector('.mkt-chg').style.color = col;
 }
 
-async function loadMarketData() {
+async function fetchLiveMarket() {
+  const results = await Promise.all(MKT_SYMBOLS.map(async m => {
+    try {
+      const {cur,chg,pct} = await fetchOneSym(m.sym);
+      renderMkt(m.id, m.label, cur, chg, pct);
+      if (m.id === 'USDKRW' && cur > 0) usdkrw = cur;
+      return {id:m.id, cur, chg, pct};
+    } catch(e) { return null; }
+  }));
+  const now = new Date();
+  document.getElementById('mkt-upd').textContent = `실시간 ${now.getHours()}:${String(now.getMinutes()).padStart(2,'0')}`;
+  return results.filter(Boolean).length > 0;
+}
+
+async function loadMarketData(live) {
   document.getElementById('mkt-upd').textContent = '업데이트 중...';
+  if (live) { try { await fetchLiveMarket(); return; } catch(e) {} }
   try {
-    // Primary: load from pre-generated JSON (cron job updates this)
     const res = await fetch('data/market_latest.json');
     if (!res.ok) throw new Error('no json');
     const json = await res.json();
     json.data.forEach(({id, label, cur, chg, pct}) => renderMkt(id, label, cur, chg, pct));
-    // Also update usdkrw for portfolio calculation
     const krw = json.data.find(d => d.id === 'USDKRW');
     if (krw && krw.cur > 0) usdkrw = krw.cur;
     const ts = new Date(json.timestamp);
     document.getElementById('mkt-upd').textContent = `업데이트 ${ts.getMonth()+1}/${ts.getDate()} ${ts.getHours()}:${String(ts.getMinutes()).padStart(2,'0')}`;
   } catch(e) {
-    // Fallback: try Yahoo Finance via proxy
-    try {
-      const results = await Promise.all(MKT_SYMBOLS.map(async m => {
-        try {
-          const {cur,chg,pct} = await fetchOneSym(m.sym);
-          renderMkt(m.id, m.label, cur, chg, pct);
-          return {id:m.id, label:m.label, cur, chg, pct};
-        } catch(e) { return {id:m.id, label:m.label, cur:0, chg:0, pct:0}; }
-      }));
-      const now = new Date();
-      document.getElementById('mkt-upd').textContent = `업데이트 ${now.getHours()}:${String(now.getMinutes()).padStart(2,'0')}`;
-    } catch(e2) {
+    try { await fetchLiveMarket(); } catch(e2) {
       document.getElementById('mkt-upd').textContent = '데이터 없음';
     }
   }
@@ -809,10 +822,19 @@ window.addEventListener('scroll', () => {
 <button class="scroll-top" id="scrollTopBtn" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
 <button class="fab-refresh" id="refreshBtn" onclick="doRefresh()" title="전체 새로고침"><span class="fab-icon">↻</span></button>
 <script>
-function doRefresh(){
+async function doRefresh(){
   const btn=document.getElementById('refreshBtn');
   btn.classList.add('spin');
-  setTimeout(()=>location.reload(),300);
+  try{
+    // Re-fetch live data from APIs (skip cached JSON for market)
+    await Promise.all([
+      loadMarketData(true),
+      loadNews(true),
+      loadPortfolio(),
+      loadWiseReport()
+    ]);
+  }catch(e){}
+  btn.classList.remove('spin');
 }
 </script>
 </body>
