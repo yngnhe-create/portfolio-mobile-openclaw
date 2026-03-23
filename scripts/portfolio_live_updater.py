@@ -777,7 +777,8 @@ body.masked .tval,body.masked .tchg,body.masked .smval,body.masked .stock-val,bo
 <nav class="bnav">
   <a href="index.html"><span class="ni">🏠</span>홈</a>
   <a href="portfolio.html" class="on"><span class="ni">📊</span>포트폴리오</a>
-  <a href="wisereport.html"><span class="ni">📋</span>리포트</a>
+  <a href="report.html"><span class="ni">📋</span>리포트</a>
+  <a href="invest.html"><span class="ni">💡</span>투자제언</a>
   <a href="playbook.html"><span class="ni">📖</span>플레이북</a>
 </nav>
 
