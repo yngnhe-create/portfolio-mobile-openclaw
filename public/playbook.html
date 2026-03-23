@@ -31,273 +31,16 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans KR',sans
 .fab-refresh:active{transform:scale(.9)}
 .fab-refresh.spin .fab-icon{animation:fabspin .8s linear infinite}
 @keyframes fabspin{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}
+.loading{text-align:center;padding:40px;color:var(--sub);font-size:13px}
 </style>
 </head>
 <body>
 <div class="hdr">
   <div class="hdr-ttl">📖 플레이북</div>
-  <div class="upd">⏱ 분석: 2026년 03월 23일 07:05 KST</div>
+  <div class="upd" id="updTime">⏱ 로딩 중...</div>
 </div>
 
-<div class="tcard">
-  <div style="font-size:12px;opacity:.8;margin-bottom:4px">포트폴리오 종합 현황</div>
-  <div style="font-size:32px;font-weight:800;margin-bottom:4px">₩11.7억</div>
-  <div style="font-size:14px;font-weight:700">+39.3% · +₩3.3억</div>
-</div>
-
-<div class="metric-grid">
-  <div class="metric"><div class="metric-val">59</div><div class="metric-lbl">보유종목</div></div>
-  <div class="metric"><div class="metric-val">4</div><div class="metric-lbl">리스크 항목</div></div>
-  <div class="metric"><div class="metric-val">32</div><div class="metric-lbl">배당종목</div></div>
-  <div class="metric"><div class="metric-val">13</div><div class="metric-lbl">투자섹터</div></div>
-</div>
-
-<div class="sec">
-  <div class="sec-ttl">⚠️ 포트폴리오 리스크 경고</div>
-  
-<div style="background:rgba(249,202,36,.1);border-left:3px solid #f9ca24;border-radius:8px;padding:12px;margin-bottom:10px">
-  <div style="display:flex;align-items:center;gap:8px;margin-bottom:5px">
-    <span>🟡</span>
-    <span style="font-size:13px;font-weight:700">TIGER 코리아AI전력기기TOP3+ 집중도</span>
-  </div>
-  <div style="font-size:12px;color:var(--sub)">단일 종목 비중 10.7% — 부분 익실 또는 스탑로스 설정</div>
-</div>
-<div style="background:rgba(249,202,36,.1);border-left:3px solid #f9ca24;border-radius:8px;padding:12px;margin-bottom:10px">
-  <div style="display:flex;align-items:center;gap:8px;margin-bottom:5px">
-    <span>⚠️</span>
-    <span style="font-size:13px;font-weight:700">파마리서치 손실</span>
-  </div>
-  <div style="font-size:12px;color:var(--sub)">현재 -20.9% 손실 중 — 손절 기준 재검토</div>
-</div>
-<div style="background:rgba(249,202,36,.1);border-left:3px solid #f9ca24;border-radius:8px;padding:12px;margin-bottom:10px">
-  <div style="display:flex;align-items:center;gap:8px;margin-bottom:5px">
-    <span>⚠️</span>
-    <span style="font-size:13px;font-weight:700">ETH/KRW 손실</span>
-  </div>
-  <div style="font-size:12px;color:var(--sub)">현재 -15.4% 손실 중 — 손절 기준 재검토</div>
-</div>
-<div style="background:rgba(249,202,36,.1);border-left:3px solid #f9ca24;border-radius:8px;padding:12px;margin-bottom:10px">
-  <div style="display:flex;align-items:center;gap:8px;margin-bottom:5px">
-    <span>⚠️</span>
-    <span style="font-size:13px;font-weight:700">SOL/KRW 손실</span>
-  </div>
-  <div style="font-size:12px;color:var(--sub)">현재 -34.9% 손실 중 — 손절 기준 재검토</div>
-</div>
-</div>
-
-<div class="sec">
-  <div class="sec-ttl">💡 투자 전략 추천</div>
-  
-<div style="background:var(--hdr);border-radius:10px;padding:14px;margin-bottom:10px">
-  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
-    <span style="font-size:13px;font-weight:700">💰 연간 목표 초과 달성 (+39.3%)</span>
-    <span style="padding:3px 8px;border-radius:10px;font-size:10px;font-weight:700;background:rgba(255,255,255,.1);color:#ff4757">즉시</span>
-  </div>
-  <div style="font-size:12px;color:var(--sub)">수익의 10~15% 현금화 검토. 리밸런싱으로 리스크 관리.</div>
-</div>
-<div style="background:var(--hdr);border-radius:10px;padding:14px;margin-bottom:10px">
-  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
-    <span style="font-size:13px;font-weight:700">⚖️ 섹터 리밸런싱</span>
-    <span style="padding:3px 8px;border-radius:10px;font-size:10px;font-weight:700;background:rgba(255,255,255,.1);color:#f9ca24">1개월 내</span>
-  </div>
-  <div style="font-size:12px;color:var(--sub)">가상자산 비중 축소 → 채권/배당주 비중 확대 (안정성 강화)</div>
-</div>
-<div style="background:var(--hdr);border-radius:10px;padding:14px;margin-bottom:10px">
-  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
-    <span style="font-size:13px;font-weight:700">📈 신규 매수 종목 관리</span>
-    <span style="padding:3px 8px;border-radius:10px;font-size:10px;font-weight:700;background:rgba(255,255,255,.1);color:#4ecdc4">모니터링</span>
-  </div>
-  <div style="font-size:12px;color:var(--sub)">현대차: 단기 하락 구간 분할 매수 전략 유지. 목표 수익률 +15%</div>
-</div>
-</div>
-
-<div class="sec">
-  <div class="sec-ttl">📊 섹터별 비중 분석</div>
-  <table class="sector-table">
-    <thead><tr><th>섹터</th><th>비중 바</th><th>비중</th><th>금액</th></tr></thead>
-    <tbody>
-<tr>
-  <td style="padding:10px 8px;font-size:13px">첨단 기술</td>
-  <td style="padding:10px 8px">
-    <div style="height:8px;background:#2d3748;border-radius:4px;overflow:hidden">
-      <div style="width:36%;height:100%;background:var(--blu);border-radius:4px"></div>
-    </div>
-  </td>
-  <td style="padding:10px 8px;font-size:13px;font-weight:700;text-align:right">35.5%</td>
-  <td style="padding:10px 8px;font-size:11px;color:var(--sub);text-align:right">₩4.1억</td>
-</tr>
-<tr>
-  <td style="padding:10px 8px;font-size:13px">경기 소비재</td>
-  <td style="padding:10px 8px">
-    <div style="height:8px;background:#2d3748;border-radius:4px;overflow:hidden">
-      <div style="width:14%;height:100%;background:var(--blu);border-radius:4px"></div>
-    </div>
-  </td>
-  <td style="padding:10px 8px;font-size:13px;font-weight:700;text-align:right">13.7%</td>
-  <td style="padding:10px 8px;font-size:11px;color:var(--sub);text-align:right">₩1.6억</td>
-</tr>
-<tr>
-  <td style="padding:10px 8px;font-size:13px">ETF</td>
-  <td style="padding:10px 8px">
-    <div style="height:8px;background:#2d3748;border-radius:4px;overflow:hidden">
-      <div style="width:12%;height:100%;background:var(--blu);border-radius:4px"></div>
-    </div>
-  </td>
-  <td style="padding:10px 8px;font-size:13px;font-weight:700;text-align:right">12.2%</td>
-  <td style="padding:10px 8px;font-size:11px;color:var(--sub);text-align:right">₩1.4억</td>
-</tr>
-<tr>
-  <td style="padding:10px 8px;font-size:13px">가상자산</td>
-  <td style="padding:10px 8px">
-    <div style="height:8px;background:#2d3748;border-radius:4px;overflow:hidden">
-      <div style="width:10%;height:100%;background:var(--blu);border-radius:4px"></div>
-    </div>
-  </td>
-  <td style="padding:10px 8px;font-size:13px;font-weight:700;text-align:right">9.7%</td>
-  <td style="padding:10px 8px;font-size:11px;color:var(--sub);text-align:right">₩1.1억</td>
-</tr>
-<tr>
-  <td style="padding:10px 8px;font-size:13px">부동산</td>
-  <td style="padding:10px 8px">
-    <div style="height:8px;background:#2d3748;border-radius:4px;overflow:hidden">
-      <div style="width:8%;height:100%;background:var(--blu);border-radius:4px"></div>
-    </div>
-  </td>
-  <td style="padding:10px 8px;font-size:13px;font-weight:700;text-align:right">7.5%</td>
-  <td style="padding:10px 8px;font-size:11px;color:var(--sub);text-align:right">₩8802만</td>
-</tr>
-<tr>
-  <td style="padding:10px 8px;font-size:13px">채권</td>
-  <td style="padding:10px 8px">
-    <div style="height:8px;background:#2d3748;border-radius:4px;overflow:hidden">
-      <div style="width:5%;height:100%;background:var(--blu);border-radius:4px"></div>
-    </div>
-  </td>
-  <td style="padding:10px 8px;font-size:13px;font-weight:700;text-align:right">4.7%</td>
-  <td style="padding:10px 8px;font-size:11px;color:var(--sub);text-align:right">₩5467만</td>
-</tr>
-<tr>
-  <td style="padding:10px 8px;font-size:13px">헬스케어</td>
-  <td style="padding:10px 8px">
-    <div style="height:8px;background:#2d3748;border-radius:4px;overflow:hidden">
-      <div style="width:4%;height:100%;background:var(--blu);border-radius:4px"></div>
-    </div>
-  </td>
-  <td style="padding:10px 8px;font-size:13px;font-weight:700;text-align:right">4.5%</td>
-  <td style="padding:10px 8px;font-size:11px;color:var(--sub);text-align:right">₩5238만</td>
-</tr>
-<tr>
-  <td style="padding:10px 8px;font-size:13px">산업재</td>
-  <td style="padding:10px 8px">
-    <div style="height:8px;background:#2d3748;border-radius:4px;overflow:hidden">
-      <div style="width:4%;height:100%;background:var(--blu);border-radius:4px"></div>
-    </div>
-  </td>
-  <td style="padding:10px 8px;font-size:13px;font-weight:700;text-align:right">4.2%</td>
-  <td style="padding:10px 8px;font-size:11px;color:var(--sub);text-align:right">₩4888만</td>
-</tr>
-<tr>
-  <td style="padding:10px 8px;font-size:13px">금융</td>
-  <td style="padding:10px 8px">
-    <div style="height:8px;background:#2d3748;border-radius:4px;overflow:hidden">
-      <div style="width:3%;height:100%;background:var(--blu);border-radius:4px"></div>
-    </div>
-  </td>
-  <td style="padding:10px 8px;font-size:13px;font-weight:700;text-align:right">3.1%</td>
-  <td style="padding:10px 8px;font-size:11px;color:var(--sub);text-align:right">₩3578만</td>
-</tr>
-<tr>
-  <td style="padding:10px 8px;font-size:13px">기타</td>
-  <td style="padding:10px 8px">
-    <div style="height:8px;background:#2d3748;border-radius:4px;overflow:hidden">
-      <div style="width:2%;height:100%;background:var(--blu);border-radius:4px"></div>
-    </div>
-  </td>
-  <td style="padding:10px 8px;font-size:13px;font-weight:700;text-align:right">2.2%</td>
-  <td style="padding:10px 8px;font-size:11px;color:var(--sub);text-align:right">₩2533만</td>
-</tr></tbody>
-  </table>
-</div>
-
-<div class="sec">
-  <div class="sec-ttl">✅ 매수 신호 체크리스트</div>
-  <div style="padding:10px 0;border-bottom:1px solid var(--brd);font-size:13px;color:var(--grn)">✅ 섹터 조정 15% 이상</div><div style="padding:10px 0;border-bottom:1px solid var(--brd);font-size:13px;color:var(--sub)">⬜ 거래량 평균 대비 3배 이상</div><div style="padding:10px 0;border-bottom:1px solid var(--brd);font-size:13px;color:var(--sub)">⬜ RSI 30 이하 과매도</div><div style="padding:10px 0;border-bottom:1px solid var(--brd);font-size:13px;color:var(--grn)">✅ 분기 실적 예상치 상회</div><div style="padding:10px 0;border-bottom:1px solid var(--brd);font-size:13px;color:var(--grn)">✅ 목표주가 현재가 대비 20% 이상 상승여력</div>
-</div>
-
-<div class="sec">
-  <div class="sec-ttl">🚨 매도 신호 체크리스트</div>
-  <div style="padding:10px 0;border-bottom:1px solid var(--brd);font-size:13px;color:var(--grn)">✅ 수익률 +30% 이상 달성</div><div style="padding:10px 0;border-bottom:1px solid var(--brd);font-size:13px;color:var(--sub)">⬜ 펀더멘털 악화 (실적 하향 2분기 연속)</div><div style="padding:10px 0;border-bottom:1px solid var(--brd);font-size:13px;color:var(--sub)">⬜ RSI 70 이상 과매수</div><div style="padding:10px 0;border-bottom:1px solid var(--brd);font-size:13px;color:var(--sub)">⬜ 섹터 전망 UNDERWEIGHT 전환</div><div style="padding:10px 0;border-bottom:1px solid var(--brd);font-size:13px;color:var(--sub)">⬜ 목표주가 달성</div>
-</div>
-
-<div class="sec">
-  <div class="sec-ttl">💰 배당 포트폴리오</div>
-  
-<div style="display:flex;justify-content:space-between;align-items:center;padding:10px 0;border-bottom:1px solid var(--brd)">
-  <span style="font-size:13px">삼성전자</span>
-  <div style="text-align:right">
-    <div style="font-size:12px;color:#4ecdc4;font-weight:700">2.18% (₩760,335)</div>
-    <div style="font-size:10px;color:var(--sub)">4,5,8,11월 배당</div>
-  </div>
-</div>
-<div style="display:flex;justify-content:space-between;align-items:center;padding:10px 0;border-bottom:1px solid var(--brd)">
-  <span style="font-size:13px">파마리서치</span>
-  <div style="text-align:right">
-    <div style="font-size:12px;color:#4ecdc4;font-weight:700">0.27% (₩138,600)</div>
-    <div style="font-size:10px;color:var(--sub)">4월 배당</div>
-  </div>
-</div>
-<div style="display:flex;justify-content:space-between;align-items:center;padding:10px 0;border-bottom:1px solid var(--brd)">
-  <span style="font-size:13px">현대차3우B</span>
-  <div style="text-align:right">
-    <div style="font-size:12px;color:#4ecdc4;font-weight:700">16.8% (₩1,829,250)</div>
-    <div style="font-size:10px;color:var(--sub)">4,6,9,12월 배당</div>
-  </div>
-</div>
-<div style="display:flex;justify-content:space-between;align-items:center;padding:10px 0;border-bottom:1px solid var(--brd)">
-  <span style="font-size:13px">DL이앤씨우</span>
-  <div style="text-align:right">
-    <div style="font-size:12px;color:#4ecdc4;font-weight:700">3.01% (₩711,540)</div>
-    <div style="font-size:10px;color:var(--sub)">4월 배당</div>
-  </div>
-</div>
-<div style="display:flex;justify-content:space-between;align-items:center;padding:10px 0;border-bottom:1px solid var(--brd)">
-  <span style="font-size:13px">두산</span>
-  <div style="text-align:right">
-    <div style="font-size:12px;color:#4ecdc4;font-weight:700">0.24% (₩60,000)</div>
-    <div style="font-size:10px;color:var(--sub)">4월 배당</div>
-  </div>
-</div>
-<div style="display:flex;justify-content:space-between;align-items:center;padding:10px 0;border-bottom:1px solid var(--brd)">
-  <span style="font-size:13px">삼성전자우</span>
-  <div style="text-align:right">
-    <div style="font-size:12px;color:#4ecdc4;font-weight:700">3.18% (₩318,122)</div>
-    <div style="font-size:10px;color:var(--sub)">4,5,8,11월 배당</div>
-  </div>
-</div>
-<div style="display:flex;justify-content:space-between;align-items:center;padding:10px 0;border-bottom:1px solid var(--brd)">
-  <span style="font-size:13px">NLR</span>
-  <div style="text-align:right">
-    <div style="font-size:12px;color:#4ecdc4;font-weight:700">2.27%</div>
-    <div style="font-size:10px;color:var(--sub)">12월 배당</div>
-  </div>
-</div>
-<div style="display:flex;justify-content:space-between;align-items:center;padding:10px 0;border-bottom:1px solid var(--brd)">
-  <span style="font-size:13px">GRID ETF</span>
-  <div style="text-align:right">
-    <div style="font-size:12px;color:#4ecdc4;font-weight:700">1.05%</div>
-    <div style="font-size:10px;color:var(--sub)">3,6,9,12월 배당</div>
-  </div>
-</div>
-</div>
-
-<div class="sec">
-  <div class="sec-ttl">📌 투자 5원칙</div>
-  <div class="principle"><div class="p-num">01</div><div class="p-ttl">분산 투자</div><div class="p-desc">단일 종목 10% 이상 비중 금지. 섹터별 20% 이상 금지.</div></div>
-  <div class="principle"><div class="p-num">02</div><div class="p-ttl">손절 원칙</div><div class="p-desc">-15% 도달 시 무조건 재검토. -25% 도달 시 강제 손절.</div></div>
-  <div class="principle"><div class="p-num">03</div><div class="p-ttl">분할 매수</div><div class="p-desc">한 번에 전액 투자 금지. 3회 이상 분할 매수 원칙.</div></div>
-  <div class="principle"><div class="p-num">04</div><div class="p-ttl">수익 실현</div><div class="p-desc">+30% 달성 시 절반 익실. 연간 목표 초과 시 리밸런싱.</div></div>
-  <div class="principle"><div class="p-num">05</div><div class="p-ttl">리뷰 사이클</div><div class="p-desc">주 1회 포트폴리오 리뷰. 월 1회 전략 재검토.</div></div>
-</div>
+<div id="content"><div class="loading">데이터 로딩 중...</div></div>
 
 <nav class="bnav">
   <a href="index.html"><span class="ni">📊</span>대시보드</a>
@@ -306,6 +49,240 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans KR',sans
   <a href="playbook.html" class="on"><span class="ni">📖</span>플레이북</a>
 </nav>
 <button class="fab-refresh" id="refreshBtn" onclick="doRefresh()" title="전체 새로고침"><span class="fab-icon">↻</span></button>
-<script>function doRefresh(){document.getElementById('refreshBtn').classList.add('spin');setTimeout(()=>location.reload(),300)}</script>
+
+<script>
+function doRefresh(){document.getElementById('refreshBtn').classList.add('spin');setTimeout(()=>location.reload(),300)}
+
+/* ── CSV 파서 ── */
+function parseCSVLine(line){
+  const r=[];let cur='',inQ=false;
+  for(let i=0;i<line.length;i++){const ch=line[i];if(ch==='"')inQ=!inQ;else if(ch===','&&!inQ){r.push(cur.trim());cur='';}else cur+=ch;}
+  r.push(cur.trim());return r;
+}
+function parseCSV(text){
+  const lines=text.trim().split('\n').filter(l=>l.trim());
+  const hdrs=parseCSVLine(lines[0]);
+  return lines.slice(1).map(line=>{const vals=parseCSVLine(line);const obj={};hdrs.forEach((h,i)=>obj[h]=vals[i]||'');return obj;});
+}
+function parseMoney(str){
+  if(!str||str==='-')return{val:0,usd:false};
+  const usd=str.includes('$');
+  const n=parseFloat(str.replace(/[₩$,+\s]/g,''));
+  return{val:isNaN(n)?0:Math.abs(n),usd};
+}
+function parsePnlPct(str){
+  if(!str||str==='-')return 0;
+  const m=str.match(/([+-]?\d+\.?\d*)%/);
+  return m?parseFloat(m[1]):0;
+}
+function fmtKRW(v){
+  if(v>=1e8)return'₩'+(v/1e8).toFixed(1)+'억';
+  if(v>=1e4)return'₩'+Math.round(v/1e4)+'만';
+  return'₩'+v.toLocaleString('ko-KR',{maximumFractionDigits:0});
+}
+
+/* ── 데이터 로드 & 분석 ── */
+let usdkrw=1400;
+
+async function fetchUSDKRW(){
+  try{
+    const r=await fetch('data/market_latest.json');
+    if(r.ok){const mkt=await r.json();const fx=mkt.data&&mkt.data.find(d=>d.id==='USDKRW');if(fx)usdkrw=parseFloat(fx.price.replace(/,/g,''))||1400;}
+  }catch(e){}
+}
+
+async function loadAndRender(){
+  await fetchUSDKRW();
+  const res=await fetch('portfolio_full.csv');
+  const text=await res.text();
+  const rows=parseCSV(text);
+
+  /* ── 분석 ── */
+  let totalVal=0,totalCost=0;
+  const sectorMap={};
+  const losers=[];
+  const gainers=[];
+  const dividends=[];
+  let stockCount=0;
+
+  rows.forEach(row=>{
+    const name=row['자산']||'';
+    const cat=row['분류']||'기타';
+    const qty=parseFloat(row['수량'])||0;
+    const av=parseMoney(row['자산가치']);
+    const cp=parseMoney(row['매수가']);
+    const pct=parsePnlPct(row['손익']);
+
+    let valKRW=av.usd?av.val*usdkrw:av.val;
+    let costKRW=cp.val>0?(cp.usd?cp.val*usdkrw*qty:cp.val*qty):0;
+
+    if(cat==='현금')return; // 현금 제외
+
+    stockCount++;
+    totalVal+=valKRW;
+    totalCost+=costKRW;
+    sectorMap[cat]=(sectorMap[cat]||0)+valKRW;
+
+    if(pct>50)gainers.push({name,pct,val:valKRW});
+    if(pct<-10)losers.push({name,pct,val:valKRW});
+
+    // 배당
+    const dm=row['배당월']||'';
+    const dy=row['투자배당률']||'';
+    if(dm&&dm!=='-'){
+      dividends.push({name,month:dm,yield:dy.substring(0,25)});
+    }
+  });
+
+  const totalProfit=totalVal-totalCost;
+  const totalPct=totalCost>0?(totalProfit/totalCost*100):0;
+
+  // 섹터 정렬
+  const sectors=Object.entries(sectorMap).sort((a,b)=>b[1]-a[1]).map(([cat,val])=>({cat,val,pct:totalVal>0?val/totalVal*100:0}));
+
+  // 리스크 항목
+  const risks=[];
+  // 단일 종목 집중도
+  gainers.sort((a,b)=>b.pct-a.pct);
+  gainers.slice(0,5).forEach(g=>{
+    const w=totalVal>0?g.val/totalVal*100:0;
+    if(w>10)risks.push({level:'medium',icon:'🟡',title:g.name+' 집중도',desc:'단일 종목 비중 '+w.toFixed(1)+'% — 부분 익실 또는 스탑로스 설정'});
+  });
+  // 손실 종목
+  losers.sort((a,b)=>a.pct-b.pct);
+  losers.slice(0,3).forEach(l=>{
+    risks.push({level:'medium',icon:'⚠️',title:l.name+' 손실',desc:'현재 '+l.pct.toFixed(1)+'% 손실 중 — 손절 기준 재검토'});
+  });
+
+  // 전략 추천
+  const recs=[];
+  if(totalPct>20)recs.push({icon:'💰',priority:'즉시',pColor:'#ff4757',title:'연간 목표 초과 달성 (+'+totalPct.toFixed(1)+'%)',desc:'수익의 10~15% 현금화 검토. 리밸런싱으로 리스크 관리.'});
+  recs.push({icon:'⚖️',priority:'1개월 내',pColor:'#f9ca24',title:'섹터 리밸런싱',desc:'가상자산 비중 축소 → 채권/배당주 비중 확대 (안정성 강화)'});
+  recs.push({icon:'📈',priority:'모니터링',pColor:'#4ecdc4',title:'신규 매수 종목 관리',desc:'현대차: 단기 하락 구간 분할 매수 전략 유지. 목표 수익률 +15%'});
+
+  /* ── 렌더링 ── */
+  const sign=totalProfit>=0?'+':'';
+  const now=new Date();
+  const ts=now.getFullYear()+'년 '+String(now.getMonth()+1).padStart(2,'0')+'월 '+String(now.getDate()).padStart(2,'0')+'일 '+String(now.getHours()).padStart(2,'0')+':'+String(now.getMinutes()).padStart(2,'0')+' KST';
+  document.getElementById('updTime').textContent='⏱ 분석: '+ts;
+
+  let html='';
+
+  // 종합 현황 카드
+  html+='<div class="tcard">';
+  html+='<div style="font-size:12px;opacity:.8;margin-bottom:4px">포트폴리오 종합 현황</div>';
+  html+='<div style="font-size:32px;font-weight:800;margin-bottom:4px">'+fmtKRW(totalVal)+'</div>';
+  html+='<div style="font-size:14px;font-weight:700">'+sign+totalPct.toFixed(1)+'% · '+sign+fmtKRW(Math.abs(totalProfit))+'</div>';
+  html+='</div>';
+
+  // 메트릭 그리드
+  html+='<div class="metric-grid">';
+  html+='<div class="metric"><div class="metric-val">'+stockCount+'</div><div class="metric-lbl">보유종목</div></div>';
+  html+='<div class="metric"><div class="metric-val">'+risks.length+'</div><div class="metric-lbl">리스크 항목</div></div>';
+  html+='<div class="metric"><div class="metric-val">'+dividends.length+'</div><div class="metric-lbl">배당종목</div></div>';
+  html+='<div class="metric"><div class="metric-val">'+sectors.length+'</div><div class="metric-lbl">투자섹터</div></div>';
+  html+='</div>';
+
+  // 리스크 경고
+  html+='<div class="sec"><div class="sec-ttl">⚠️ 포트폴리오 리스크 경고</div>';
+  if(risks.length===0){
+    html+='<div style="text-align:center;padding:20px;color:var(--sub)">리스크 항목 없음 ✅</div>';
+  }else{
+    const lvlBg={high:'rgba(255,71,87,.1)',medium:'rgba(249,202,36,.1)',low:'rgba(78,205,196,.1)'};
+    const lvlCol={high:'#ff4757',medium:'#f9ca24',low:'#4ecdc4'};
+    risks.forEach(r=>{
+      html+='<div style="background:'+lvlBg[r.level]+';border-left:3px solid '+lvlCol[r.level]+';border-radius:8px;padding:12px;margin-bottom:10px">';
+      html+='<div style="display:flex;align-items:center;gap:8px;margin-bottom:5px"><span>'+r.icon+'</span><span style="font-size:13px;font-weight:700">'+r.title+'</span></div>';
+      html+='<div style="font-size:12px;color:var(--sub)">'+r.desc+'</div></div>';
+    });
+  }
+  html+='</div>';
+
+  // 투자 전략 추천
+  html+='<div class="sec"><div class="sec-ttl">💡 투자 전략 추천</div>';
+  recs.forEach(rec=>{
+    html+='<div style="background:var(--hdr);border-radius:10px;padding:14px;margin-bottom:10px">';
+    html+='<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">';
+    html+='<span style="font-size:13px;font-weight:700">'+rec.icon+' '+rec.title+'</span>';
+    html+='<span style="padding:3px 8px;border-radius:10px;font-size:10px;font-weight:700;background:rgba(255,255,255,.1);color:'+rec.pColor+'">'+rec.priority+'</span>';
+    html+='</div><div style="font-size:12px;color:var(--sub)">'+rec.desc+'</div></div>';
+  });
+  html+='</div>';
+
+  // 섹터별 비중 분석
+  html+='<div class="sec"><div class="sec-ttl">📊 섹터별 비중 분석</div>';
+  html+='<table class="sector-table"><thead><tr><th>섹터</th><th>비중 바</th><th>비중</th><th>금액</th></tr></thead><tbody>';
+  sectors.slice(0,12).forEach(s=>{
+    const bw=Math.min(s.pct,100);
+    html+='<tr><td style="padding:10px 8px;font-size:13px">'+s.cat+'</td>';
+    html+='<td style="padding:10px 8px"><div style="height:8px;background:#2d3748;border-radius:4px;overflow:hidden"><div style="width:'+bw.toFixed(0)+'%;height:100%;background:var(--blu);border-radius:4px"></div></div></td>';
+    html+='<td style="padding:10px 8px;font-size:13px;font-weight:700;text-align:right">'+s.pct.toFixed(1)+'%</td>';
+    html+='<td style="padding:10px 8px;font-size:11px;color:var(--sub);text-align:right">'+fmtKRW(s.val)+'</td></tr>';
+  });
+  html+='</tbody></table></div>';
+
+  // 매수 신호 체크리스트
+  const buySignals=[
+    ['섹터 조정 15% 이상',totalPct>15],
+    ['거래량 평균 대비 3배 이상',false],
+    ['RSI 30 이하 과매도',false],
+    ['분기 실적 예상치 상회',totalPct>10],
+    ['목표주가 현재가 대비 20% 이상 상승여력',totalPct>20]
+  ];
+  html+='<div class="sec"><div class="sec-ttl">✅ 매수 신호 체크리스트</div>';
+  buySignals.forEach(([label,checked])=>{
+    const icon=checked?'✅':'⬜';
+    const style=checked?'color:var(--grn)':'color:var(--sub)';
+    html+='<div style="padding:10px 0;border-bottom:1px solid var(--brd);font-size:13px;'+style+'">'+icon+' '+label+'</div>';
+  });
+  html+='</div>';
+
+  // 매도 신호 체크리스트
+  const sellSignals=[
+    ['수익률 +30% 이상 달성',totalPct>30],
+    ['펀더멘털 악화 (실적 하향 2분기 연속)',false],
+    ['RSI 70 이상 과매수',false],
+    ['섹터 전망 UNDERWEIGHT 전환',false],
+    ['목표주가 달성',false]
+  ];
+  html+='<div class="sec"><div class="sec-ttl">🚨 매도 신호 체크리스트</div>';
+  sellSignals.forEach(([label,checked])=>{
+    const icon=checked?'✅':'⬜';
+    const style=checked?'color:var(--grn)':'color:var(--sub)';
+    html+='<div style="padding:10px 0;border-bottom:1px solid var(--brd);font-size:13px;'+style+'">'+icon+' '+label+'</div>';
+  });
+  html+='</div>';
+
+  // 배당 포트폴리오
+  html+='<div class="sec"><div class="sec-ttl">💰 배당 포트폴리오</div>';
+  dividends.slice(0,12).forEach(d=>{
+    html+='<div style="display:flex;justify-content:space-between;align-items:center;padding:10px 0;border-bottom:1px solid var(--brd)">';
+    html+='<span style="font-size:13px">'+d.name+'</span>';
+    html+='<div style="text-align:right"><div style="font-size:12px;color:#4ecdc4;font-weight:700">'+d.yield+'</div>';
+    html+='<div style="font-size:10px;color:var(--sub)">'+d.month+'월 배당</div></div></div>';
+  });
+  html+='</div>';
+
+  // 투자 5원칙
+  html+='<div class="sec"><div class="sec-ttl">📌 투자 5원칙</div>';
+  const principles=[
+    ['01','분산 투자','단일 종목 10% 이상 비중 금지. 섹터별 20% 이상 금지.'],
+    ['02','손절 원칙','-15% 도달 시 무조건 재검토. -25% 도달 시 강제 손절.'],
+    ['03','분할 매수','한 번에 전액 투자 금지. 3회 이상 분할 매수 원칙.'],
+    ['04','수익 실현','+30% 달성 시 절반 익실. 연간 목표 초과 시 리밸런싱.'],
+    ['05','리뷰 사이클','주 1회 포트폴리오 리뷰. 월 1회 전략 재검토.']
+  ];
+  principles.forEach(([num,ttl,desc])=>{
+    html+='<div class="principle"><div class="p-num">'+num+'</div><div class="p-ttl">'+ttl+'</div><div class="p-desc">'+desc+'</div></div>';
+  });
+  html+='</div>';
+
+  document.getElementById('content').innerHTML=html;
+}
+
+loadAndRender().catch(e=>{
+  document.getElementById('content').innerHTML='<div class="loading" style="color:var(--red)">데이터 로드 실패: '+e.message+'</div>';
+});
+</script>
 </body>
 </html>

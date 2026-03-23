@@ -378,6 +378,29 @@ body{{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans KR',san
 </html>'''
 
 
+def generate_json(analysis):
+    """분석 결과를 JSON으로 저장 (playbook.html이 동적으로 로드)"""
+    json_path = f"{WORKSPACE}/public/data/playbook_latest.json"
+    data = {
+        'updated_at': datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
+        'total_val': analysis['total_val'],
+        'total_cost': analysis['total_cost'],
+        'total_profit': analysis['total_profit'],
+        'total_pct': analysis['total_pct'],
+        'total_stocks': analysis['total_stocks'],
+        'sectors': {k: {'val': v['val'], 'pct': v['pct']} for k, v in analysis['sectors'].items()},
+        'risk_items': analysis['risk_items'],
+        'recommendations': analysis['recommendations'],
+        'dividend_stocks': analysis['dividend_stocks'],
+        'top_gainers': analysis['top_gainers'][:5],
+        'top_losers': analysis['top_losers'][:5],
+    }
+    os.makedirs(os.path.dirname(json_path), exist_ok=True)
+    with open(json_path, 'w', encoding='utf-8') as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+    log(f"✅ JSON 저장: {json_path}")
+
+
 def main():
     log("=" * 60)
     log("🚀 플레이북 자동 생성 시작")
@@ -388,28 +411,10 @@ def main():
     analysis = analyze_portfolio(df)
     log(f"📊 분석 완료: 총 자산 {fmt_krw(analysis['total_val'])}, 수익률 {analysis['total_pct']:.1f}%")
 
-    html = generate_html(analysis)
+    # JSON 데이터만 생성 (HTML은 동적 페이지가 CSV에서 직접 로드)
+    generate_json(analysis)
 
-    with open(OUTPUT_PATH, 'w', encoding='utf-8') as f:
-        f.write(html)
-    log(f"✅ HTML 저장: {OUTPUT_PATH}")
-
-    # 배포
-    log("🚀 Cloudflare 배포 중...")
-    result = subprocess.run(
-        ['/opt/homebrew/bin/wrangler', 'pages', 'deploy', '.',
-         '--project-name=investment-command', '--branch=main', '--commit-dirty=true'],
-        cwd=f"{WORKSPACE}/public",
-        capture_output=True, text=True, timeout=120
-    )
-
-    if result.returncode == 0:
-        url_match = re.search(r'https://[a-z0-9]+\.investment-command\.pages\.dev', result.stdout)
-        log(f"✅ 배포: {url_match.group(0) if url_match else '완료'}")
-    else:
-        log(f"❌ 배포 실패: {result.stderr[:200]}")
-
-    log("🏁 플레이북 생성 완료")
+    log("🏁 플레이북 생성 완료 (동적 HTML 모드 — HTML 덮어쓰기 없음)")
 
 
 if __name__ == '__main__':
