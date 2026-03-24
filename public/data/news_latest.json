@@ -1,18 +1,125 @@
 {
-  "timestamp": "2026-03-24T22:48:31.158649",
+  "timestamp": "2026-03-25T00:18:55.005255",
   "count": 10,
   "articles": [
     {
-      "title": "하이닉스, 대당 수천억원 반도체 핵심장비 12조원어치 구매",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9hMWQwaXY2SkFHRWVUN3BiU3JhQ1NiNFN0cktQQ0g5MXhISjZRcEdoRC1oaUM4UlBWcy1fdEtHZHhETG1vVmlpT1I2a0NsMnd1SGNsWm82WTA1QlNGdW84SF9yQV93Uks2NlYxc0hLdE5tZw?oc=5",
-      "pubDate": "Tue, 24 Mar 2026 13:21:00 GMT",
-      "source": "한겨레",
+      "title": "미국 국채 금리 5% 돌파 가능성…비트코인에 어떤 영향?",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE53elFWMFZqU0tJbmdtTnNJanROMEhNQnhITFJSc0pQa1ZMRWdjWHFzb21lOWI4V0ZtSnlja3JzV2FHbjlJYVdnWGI3MlpoV2RmTmtMWGxscHJrTnVzN0dSQkZacTB4Mll6bVlHZ3FWNTZpazQ?oc=5",
+      "pubDate": "Tue, 24 Mar 2026 15:01:00 GMT",
+      "source": "디지털투데이",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC",
+        "채권"
+      ]
+    },
+    {
+      "title": "현대차노사, 고용안정·경쟁력 확보 머리맞대",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE42cXhBc0JqbzVBT001SWs5T0lMRmxyeHVxNDBqOXpZRFBqb2xRUElrdndRM05iTFhJU0dmR1g5T29YNHlQVWdXYmFUZ3htLUdOUF8tb203RWlqbkRTSl8yWUdrcVNzTDJKaFBUMg?oc=5",
+      "pubDate": "Tue, 24 Mar 2026 15:00:03 GMT",
+      "source": "경상일보",
+      "category": {
+        "label": "🔵 MACRO",
+        "color": "#0984e3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "[속보] 연준 FOMC 금리인상 급선회... 뉴욕증시 비트코인 국제유가 \"이란전쟁 협상 결렬\"",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNbl93R2JOTFVDQ182Z0NvLUkyQXNYZ2ZmRUFCR2F6Tjl3RzdjYllQUFRpck5QTTVWVVpEc0pjRUNnYzZwU1ZlY25Yek9pY1VKU2dlY1VON2FYQ0NIVnN2UEtJNVA3OWhmSlNxRlp3ZkpwRC1zbFVvZ2VkRTRSUkphVjRuWnJmQQ?oc=5",
+      "pubDate": "Tue, 24 Mar 2026 15:00:00 GMT",
+      "source": "글로벌이코노믹",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "BTC",
+        "채권",
+        "원유"
+      ]
+    },
+    {
+      "title": "韓, 카타르서 LNG 20% 조달 … 반도체 등 산업계 전반 연쇄 타격 불가피",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5sSWVtMTZFcUItY0lwVFlLUl9NdkNiRWpNNXRBWk5pcHUybzVlX2pIbE9JTkFIQXFzSDhmYXB2dlBXSWYtZEowUTBGbnYzeUZaQkthWkV1SG5ab2FzSl9NQmxpQUE3Y3dLOTNtb3hWcWRGUk9TU2MyLWlKOA?oc=5",
+      "pubDate": "Tue, 24 Mar 2026 14:50:11 GMT",
+      "source": "뉴데일리 경제",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
         "삼성전자"
+      ]
+    },
+    {
+      "title": "[태평로] 끝나지 않은 반도체 호남 이전론",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPMms5clJhYmNBV0dBTnMzd0dBdGh0M3ZwRHkyRkIzMzVWQUFjdG9uR0FGaDZ6NWxMa0c4Wjlja3hYeGRfRnpKX0g5YXY1TUVrWUM5aGVsSmh1bE43MENmeGZFdER1T3hHTjNYa2ZLZGJQbUVLdVpMWGt6bkQzYi1INF9MX21OSUJp0gGcAUFVX3lxTFBIekgzNVRkUUxoSXNXeE9nZE4xQWM4SXNWbF9zM284VFliRkZNOTRXcHBrSmkyOWtQRDlLZUk2M21xcHhmZHFpQ3pDUUdFM1lvR2RGWm1sUHZnellnQ3pNdUZxc0JxdTVWNDN4d01kaE5RYkFNUWYwNlRWMzdfa01fNWtiRnJVZkY5aGgzREV1eEEtY0U5NmxMRGNsNg?oc=5",
+      "pubDate": "Tue, 24 Mar 2026 14:39:00 GMT",
+      "source": "조선일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "이재용 회장, 中경제장관 만나 \"투자 확대·반도체 공급망 수호\" 협력",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9iZl82UlZGUHF0OVdnUk5IV3pYaTRZbTc4M3FhemFaYWlkOVJPNG5OLV8xeVZ5eDVWTUdwcV93Mi1lVkxoRHZBeTA5ZmMtbUFTQzhhbjBuUmFtb2ZpWElxTQ?oc=5",
+      "pubDate": "Tue, 24 Mar 2026 14:35:01 GMT",
+      "source": "KBC광주방송",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전자 노사, 교섭 재개…5월 총파업 전 최종 타결 주목",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9DaFRnOHYyQ2tFWTJtLUkzVzFZTng2S1FzS3hreUZKdkxIVGNsNGhwTzZkUFVrb21YYkZicm54NkRBaFVSOEtFMXllVnkzeFdBQ2VwX3pFdE85RER3WjNQODlpZXVFUWZZ?oc=5",
+      "pubDate": "Tue, 24 Mar 2026 14:05:19 GMT",
+      "source": "한국NGO신문",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "비트코인 바닥 확인, 상승 전망: 번스타인 By Investing.com",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9xVWNJYmw4dWJxSHFfN1JOYnlXNVpla0s4OGxNMDhRamlOMGt2NG0yR05abFNSbmdRS2Fjd1pLRHNjc1BCSmV0aFQ4czF5VEJZa25uZUZOLTZrR0QtWVZWWl9sblBETEhpUDhpVFN4cXVISWc?oc=5",
+      "pubDate": "Tue, 24 Mar 2026 14:03:00 GMT",
+      "source": "Investing.com 한국어",
+      "category": {
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "채굴 풀 간 갈등으로 비트코인, 이례적인 2블록 재구성 발생… 네트워크는 별다른 영향 없어",
+      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNNEJyZGIzenRmR3ZGQ1ZBLTdxZ0JjM3d3TXZUS2JBZjV0SGwzSkdfazdIUnNCUFBQbnZiQ1UtT0d0alU3cHpmX3hiOFE3Z3Nid1p6VW5DMGFhVkpEdWd5OEZwaVJMRVFoRUU5bzVkeWFxWkpQUk4xUWZoVU5QWERTSEdHQ0pJbmF0dV9oaXFnbEptOVVtOEQzbFNzLWxLOFMxQ1RLYi11UDVydUxZbVFQclpxd0ZOSDk4a1h6UVhuT25LVktxT1dxLVk5VC1vaXpNOUhDeEM2UmlZMVVYMkY2Y0xULUVGY3ViSWRz?oc=5",
+      "pubDate": "Tue, 24 Mar 2026 13:57:14 GMT",
+      "source": "Bitcoin.com News",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
       ]
     },
     {
@@ -25,118 +132,6 @@
         "color": "#a55eea"
       },
       "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "7만달러서 멈춘 비트코인…금리 변수·중동 리스크 겹쳤다",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBjWHkwNzdGQnRweXpKOUVqZTZVcnlsUHBmVk9VbnU0YUtFZzA3U0E5dmppQ054WHB0OEo4Mzc2bjdmV21IdU9yanN1a01JaEhYZWNlendKSnp0ck1kSTRhZlF5QUpPVXFMeEZEN0QxRk9JR1k?oc=5",
-      "pubDate": "Tue, 24 Mar 2026 13:10:57 GMT",
-      "source": "디지털투데이",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "원유",
-        "환율",
-        "채권",
-        "BTC"
-      ]
-    },
-    {
-      "title": "번스타인 \"비트코인 저점 통과\"…연말 15만달러 전망 유지",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE42d1Fxa203WEtOZFN0QjIxNlNFZFVmU1ByOUhUZUZzS1pPSEJQUWVURXRkSU9jbTh5YkhSRVZ1V0lOSzZqdWRweEpqbXoxcmlT?oc=5",
-      "pubDate": "Tue, 24 Mar 2026 13:07:13 GMT",
-      "source": "블루밍비트",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "환율",
-        "BTC"
-      ]
-    },
-    {
-      "title": "번스타인 소시에테 제네랄, 비트코인 전망에 대한 Strategy 주식 등급 재확인 By Investing.com",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5NSWU2emdkMWlqM19kYl9EdURmSnRfZE9yYzg1cXo5bzFMWml6ampnVUh1UnRha1lBU0xoMXZ1Z0tTTkxHNUlndkJlQ3VJSzh2UkpCb2tseEl5VTJxMElHVlhaWlc2UVFnWVFVWWhqSG9vVEdv?oc=5",
-      "pubDate": "Tue, 24 Mar 2026 13:00:00 GMT",
-      "source": "Investing.com 한국어",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "\"비트코인, 상단 유동성 공백 구간 앞두고 횡보…지정학·금리 변수 부담\"",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE54S04ycXpjY0JZREpVTXh0akVDRVNRR3NVYW8zWDY2VVo3Y3RCci01REpscFAtRklhcEhOQ1A1VExONEwxd0lOdnNLeURQODBN?oc=5",
-      "pubDate": "Tue, 24 Mar 2026 12:45:35 GMT",
-      "source": "블루밍비트",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "채권",
-        "BTC"
-      ]
-    },
-    {
-      "title": "비트코인, 美·이란 충돌 이후 금·주식 대비 강세",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9OMWpxd3dvWVltTlVSTHIwNjUxMmNWck1DQW1TUkdGSGhZTmRUTkpKRjdGazVUQzZid015TWFVSmtFdXRTSjdIeGtTYUFyemtY?oc=5",
-      "pubDate": "Tue, 24 Mar 2026 12:26:13 GMT",
-      "source": "블루밍비트",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "원유",
-        "BTC"
-      ]
-    },
-    {
-      "title": "현대차·기아, 유럽서 주춤…중국 전기차 경쟁 심화에 발목",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBHRDVISEJRMUxzQU1kNE5TVDdKRHNmVFRPaWFQLUVmRTk2NkpSNUdJM1RDbmJXbzN0QUtLQWJMeE5SRFdMMGZPWlhobzRlNVE?oc=5",
-      "pubDate": "Tue, 24 Mar 2026 12:19:02 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차",
-        "테슬라"
-      ]
-    },
-    {
-      "title": "구미시, 반도체·로봇·방산 ‘3대 축’ 앞세워 국비 확보 총력전",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBSVmdYTGFYZEVxaVI4bVRfSWk1WndaeFAxRDZvRkRuV29ad2JYY3lNWVgxa3pvTnU2SkUwTlRfb2Vvc0dzd0p2MjFyRHRCRy1iVnpWR0NaVzQ5VzJBaTFlZjZCNHR5ZTU4V0x6d1ZaZw?oc=5",
-      "pubDate": "Tue, 24 Mar 2026 12:18:56 GMT",
-      "source": "경북일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "\"비트코인 7만5000달러 돌파 여부 주목…추세 전환 분기점\"",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE8tQXRmZmFDenlwbDNNSEdDRTRPZFFhVm1PNU13Q3daX0tWREVMR19rbHRTaVVJdFlwTWpQbEdFTHpQQ2hXOEtQdzBGRVpkMmpu?oc=5",
-      "pubDate": "Tue, 24 Mar 2026 12:14:03 GMT",
-      "source": "블루밍비트",
-      "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
-      },
-      "impacts": [
-        "환율",
         "BTC"
       ]
     }
