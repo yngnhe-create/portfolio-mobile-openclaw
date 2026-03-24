@@ -1,7 +1,34 @@
 {
-  "timestamp": "2026-03-24T13:15:46.772749",
+  "timestamp": "2026-03-24T13:46:09.830157",
   "count": 10,
   "articles": [
+    {
+      "title": "美 비트코인 현물 ETF, 하루 1.67억달러 순유입…블랙록 주도",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFAxNzNRcFN2YU00Q3pZNDY4RGR4cUE1X0FZZ1Jsblh1NGN6ZWpOUUY1TzNGd1FBeGxHZUJrMWFPODNoc3lpN05VVm1lTlpqWXMy?oc=5",
+      "pubDate": "Tue, 24 Mar 2026 04:28:59 GMT",
+      "source": "블루밍비트",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC",
+        "환율"
+      ]
+    },
+    {
+      "title": "삼성전자, '아트 바젤 홍콩 2026' 공개… 아트 마케팅 강화",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5HdHREMV8xdVJWdENNOEtUSUpHRTdxbUxRVmQ2Vll5Nm5QX2dQLUlxZDFSdTI2WUQ3UlpwN1dIMmdpY0tfUENTeU0wQjdUbGZQT2JzMFdkT0JqUzNaR3c1dmJzMFpxUnByMkZaeA?oc=5",
+      "pubDate": "Tue, 24 Mar 2026 04:23:07 GMT",
+      "source": "서울와이어",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
     {
       "title": "반도체 핵심 '텅스텐 수출 조이기'에 주목받는 상동광산 재가동",
       "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBwTFI3QVlhbnkwbzlVQzJUUHpZUVlvVlRKT2wtazJmdFhhUjhxLW9xNmFvLVJ3UTZqZDBJZTdJaG5pbU1fUHNzUDFaVzdvWTZMUWV2ZHJIRjB6b2ZPV3pJ?oc=5",
@@ -38,8 +65,8 @@
         "color": "#a55eea"
       },
       "impacts": [
-        "환율",
-        "BTC"
+        "BTC",
+        "환율"
       ]
     },
     {
@@ -52,8 +79,8 @@
         "color": "#8b9dc3"
       },
       "impacts": [
-        "삼성전자",
-        "리츠"
+        "리츠",
+        "삼성전자"
       ]
     },
     {
@@ -106,33 +133,6 @@
       },
       "impacts": [
         "삼성전자"
-      ]
-    },
-    {
-      "title": "“이동이 곧 생활”..현대차·기아, 삼성전자와 ‘카투홈’ 서비스 돌입!",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9IdGQtRldueG5aNjBwT0VBTUlIdXNKeWsxTTZGZ1ZFblFmX09SUkhzSXFTQlBPUFFNUks2ZEN3SlN3cXlQOGMxRlJSVElZMkpBcTdndEVBYkVMdEV2czNOVFpKc1RHWndUS3lvZVQ2ZjBvNDBlYVE?oc=5",
-      "pubDate": "Tue, 24 Mar 2026 02:50:00 GMT",
-      "source": "dailycar.co.kr",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차",
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "현대차, 아이오닉 시트콤 ‘덤앤더미’",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBVWlFPN056b01xWWw2UHZ3cV9OR0VPMktQNEtEN3ZNVVUzeHc4UTN0c0VQVldCdkNXQkUwanRQMFFEeEhOMk9Hd0hFS2pBdF9BUXd0THpkbjQxUTg4T3d3UkNPYUxGdno4Ni1VXw?oc=5",
-      "pubDate": "Tue, 24 Mar 2026 02:49:18 GMT",
-      "source": "Hyundai Motor Group",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
       ]
     }
   ]
