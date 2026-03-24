@@ -1,7 +1,131 @@
 {
-  "timestamp": "2026-03-24T21:18:04.266822",
+  "timestamp": "2026-03-24T22:48:31.158649",
   "count": 10,
   "articles": [
+    {
+      "title": "하이닉스, 대당 수천억원 반도체 핵심장비 12조원어치 구매",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9hMWQwaXY2SkFHRWVUN3BiU3JhQ1NiNFN0cktQQ0g5MXhISjZRcEdoRC1oaUM4UlBWcy1fdEtHZHhETG1vVmlpT1I2a0NsMnd1SGNsWm82WTA1QlNGdW84SF9yQV93Uks2NlYxc0hLdE5tZw?oc=5",
+      "pubDate": "Tue, 24 Mar 2026 13:21:00 GMT",
+      "source": "한겨레",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "모건스탠리, 美 은행 최초 비트코인 ETF 신청",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9HdGxXZXFJYzhFNThKeDQ4MkhrQXlmLVBFbVh2eGZ0RFRCVmNZcjU3c0owSzNZWUxwLTctam9GcVlwZzJFZHpxVU5GRjVIcWpOZ1dGQ3ZBTGZIT2NhVDBIaTJfNEMzZGpqeDBYYmE5bDRGSzg?oc=5",
+      "pubDate": "Tue, 24 Mar 2026 13:19:49 GMT",
+      "source": "디지털투데이",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "7만달러서 멈춘 비트코인…금리 변수·중동 리스크 겹쳤다",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBjWHkwNzdGQnRweXpKOUVqZTZVcnlsUHBmVk9VbnU0YUtFZzA3U0E5dmppQ054WHB0OEo4Mzc2bjdmV21IdU9yanN1a01JaEhYZWNlendKSnp0ck1kSTRhZlF5QUpPVXFMeEZEN0QxRk9JR1k?oc=5",
+      "pubDate": "Tue, 24 Mar 2026 13:10:57 GMT",
+      "source": "디지털투데이",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "원유",
+        "환율",
+        "채권",
+        "BTC"
+      ]
+    },
+    {
+      "title": "번스타인 \"비트코인 저점 통과\"…연말 15만달러 전망 유지",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE42d1Fxa203WEtOZFN0QjIxNlNFZFVmU1ByOUhUZUZzS1pPSEJQUWVURXRkSU9jbTh5YkhSRVZ1V0lOSzZqdWRweEpqbXoxcmlT?oc=5",
+      "pubDate": "Tue, 24 Mar 2026 13:07:13 GMT",
+      "source": "블루밍비트",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "환율",
+        "BTC"
+      ]
+    },
+    {
+      "title": "번스타인 소시에테 제네랄, 비트코인 전망에 대한 Strategy 주식 등급 재확인 By Investing.com",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5NSWU2emdkMWlqM19kYl9EdURmSnRfZE9yYzg1cXo5bzFMWml6ampnVUh1UnRha1lBU0xoMXZ1Z0tTTkxHNUlndkJlQ3VJSzh2UkpCb2tseEl5VTJxMElHVlhaWlc2UVFnWVFVWWhqSG9vVEdv?oc=5",
+      "pubDate": "Tue, 24 Mar 2026 13:00:00 GMT",
+      "source": "Investing.com 한국어",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "\"비트코인, 상단 유동성 공백 구간 앞두고 횡보…지정학·금리 변수 부담\"",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE54S04ycXpjY0JZREpVTXh0akVDRVNRR3NVYW8zWDY2VVo3Y3RCci01REpscFAtRklhcEhOQ1A1VExONEwxd0lOdnNLeURQODBN?oc=5",
+      "pubDate": "Tue, 24 Mar 2026 12:45:35 GMT",
+      "source": "블루밍비트",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "채권",
+        "BTC"
+      ]
+    },
+    {
+      "title": "비트코인, 美·이란 충돌 이후 금·주식 대비 강세",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9OMWpxd3dvWVltTlVSTHIwNjUxMmNWck1DQW1TUkdGSGhZTmRUTkpKRjdGazVUQzZid015TWFVSmtFdXRTSjdIeGtTYUFyemtY?oc=5",
+      "pubDate": "Tue, 24 Mar 2026 12:26:13 GMT",
+      "source": "블루밍비트",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "원유",
+        "BTC"
+      ]
+    },
+    {
+      "title": "현대차·기아, 유럽서 주춤…중국 전기차 경쟁 심화에 발목",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBHRDVISEJRMUxzQU1kNE5TVDdKRHNmVFRPaWFQLUVmRTk2NkpSNUdJM1RDbmJXbzN0QUtLQWJMeE5SRFdMMGZPWlhobzRlNVE?oc=5",
+      "pubDate": "Tue, 24 Mar 2026 12:19:02 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차",
+        "테슬라"
+      ]
+    },
+    {
+      "title": "구미시, 반도체·로봇·방산 ‘3대 축’ 앞세워 국비 확보 총력전",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBSVmdYTGFYZEVxaVI4bVRfSWk1WndaeFAxRDZvRkRuV29ad2JYY3lNWVgxa3pvTnU2SkUwTlRfb2Vvc0dzd0p2MjFyRHRCRy1iVnpWR0NaVzQ5VzJBaTFlZjZCNHR5ZTU4V0x6d1ZaZw?oc=5",
+      "pubDate": "Tue, 24 Mar 2026 12:18:56 GMT",
+      "source": "경북일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
     {
       "title": "\"비트코인 7만5000달러 돌파 여부 주목…추세 전환 분기점\"",
       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE8tQXRmZmFDenlwbDNNSEdDRTRPZFFhVm1PNU13Q3daX0tWREVMR19rbHRTaVVJdFlwTWpQbEdFTHpQQ2hXOEtQdzBGRVpkMmpu?oc=5",
@@ -12,127 +136,8 @@
         "color": "#f9ca24"
       },
       "impacts": [
-        "BTC",
-        "환율"
-      ]
-    },
-    {
-      "title": "하이퍼스케일 데이터, 비트코인 보유액 4,260만 달러…시가총액의 147% By Investing.com",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5HakNqTW5OU0xHS1Q2d0hqcmJyc2NYaGJ4U0l3T01zQzRlLUNCN01UcFhhbW51X1IyU0FtTmRPSDk4VWtYaXdEMzBfSm51LWhyVnA5V3NZNUZuVTg4TjkwYTJnYjgwRVJ6MW43azBuSWI?oc=5",
-      "pubDate": "Tue, 24 Mar 2026 12:14:00 GMT",
-      "source": "Investing.com 한국어",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC",
-        "환율"
-      ]
-    },
-    {
-      "title": "비트코인 예치소, 알렉스 홈즈 CEO 임명 By Investing.com",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB3SmRXUWxBdmFnU0hzQ2JJaV9CdkZCV2hjMDZzTTFWbzVPQ0xPYjhDZVZvcWJxVUcwbE1DR1VEU1pka0pLN3ZtWVZ2ZlRpZ25kZ2JGakRuV0dzWl9GZGlqaE5mRE0tZTVheXpuaDA0aXM?oc=5",
-      "pubDate": "Tue, 24 Mar 2026 12:07:00 GMT",
-      "source": "Investing.com 한국어",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
+        "환율",
         "BTC"
-      ]
-    },
-    {
-      "title": "현대차·기아 2월 유럽 판매 7만661대…전년비 3.6%↓",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1VeWgxVmttT1BBZ0c1X3o4TjVoV1hCb0xITUZiTGkxdGVyX2xvcllHUmg2LXNXOE44MzdidVdFclZPVlhOelRoamJQbjEwSklJN3Vnc1ZtcjdxclZna05zdmg0Mjg?oc=5",
-      "pubDate": "Tue, 24 Mar 2026 11:57:59 GMT",
-      "source": "디지털데일리",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "현대차그룹 보스턴다이내믹스, 미 ‘로봇 전략 수립’ 싱크탱크 참여",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9RU0xMYTItd0JrYnp1bHlYcmpaVXJ5NC1ib2VVclFGRGtlMUVRQVNlZXdCbFJTZnJLU2pxdV9GQ0lVN1BhWG1jYWhCY080RHMxWS04emwyMkZDUdIBX0FVX3lxTFB0Q3VjdWNvUFlnR0JBSmg4TGVzYXhGUkZOQXl0dDRtTjVMbUtNVVRKZ1pOa2N1d003YTJGZV9MQ1g4Z0szXzUxUkdWaVZmS3pyeWFxSVJkXzlPMGRKT3lZ?oc=5",
-      "pubDate": "Tue, 24 Mar 2026 11:53:00 GMT",
-      "source": "경향신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "삼성전자, 플랙트그룹과 'MCE 2026' 출격···유럽 중앙공조 시장 정조준",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9YUXlxRWstVHJ0U0JyOUQwVkJaNG5QNnpmd0ttV0VGR29aa2NNUk4tUXdKaG5MMm95M0FLRTA1VVh6cDNaaHhTR2ZLQWlTWXJkdklSU2FXdWh3bURicUp6MG1BRURoQ2x60gFrQVVfeXFMUGF0eElDdnhKLWx1a3I0U0EweDJYRkc5QVBPcGNKazd0SlVKcnlrU2NLTFJoaVpWSGZBQ0JVY0lMR3ZuZjk1dm5QVkowM2NXWUIzQVBiR2NiWEZ0MmNkejYxYkNHS2x0ZFdKdUU?oc=5",
-      "pubDate": "Tue, 24 Mar 2026 11:49:17 GMT",
-      "source": "현대경제신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "\"호주 연기금 호스트플러스, 비트코인 투자 검토\"",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE42dmZob0pLSDlNTlRtNmJMaWE0dHVOYXJoR0h0dUtBaGFWRjNfNlVZdGJkUUpFcWNvbVB2am8tYVdzSFNUV1RZOExYN3ZPVDJV?oc=5",
-      "pubDate": "Tue, 24 Mar 2026 11:47:59 GMT",
-      "source": "블루밍비트",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "비트코인, 지정학 완화 기대에 반등…\"향후 5일이 방향 결정\"",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9qcy1ZSmZ0R3VKMTJUNnUwUXBUMTYyMU54UmRQd2hqNlVrenJsQ2xBSmQzY3NaVGVBYk04RVZjYnJTdTlsQ3BobHhrUW9Lajg0?oc=5",
-      "pubDate": "Tue, 24 Mar 2026 11:04:37 GMT",
-      "source": "블루밍비트",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "반도체 호조로 착시…중동 사태에 수출 기업 2분기 경기 전망 더 벌어졌다",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE90SkJmLVJwQXRVQXBxTkE5LVVfb29iLTJLWkpZOWdlS2RFZ0haQ3p3ZGRBYlJPSWxKZEZzbWVSVlBvWVNIWjg2aTdFVzc2eFVtenFDeGIyM1hjUkJiSV9Tb3FBcGpoLWVrOFgyamRITzA3Y3Q2MGdOMUtKYw?oc=5",
-      "pubDate": "Tue, 24 Mar 2026 10:56:49 GMT",
-      "source": "서울신문",
-      "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
-      },
-      "impacts": [
-        "원유",
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "INFICON, 4분기 매출 기록…반도체 부진 속 선전 By Investing.com",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1zREpDSnBVbElDUnQwb2U5WnR3NDktdjAyY2xNNXdpVWNHY3Zxd2hTQUxjWXJlOFFpbDEzeWl4Q0tHTGJ4aG1aLWJZaFA4MG1UQVc2bjVhdmlZZThhZFllUUNScE9ESzgxZjZCZXVGVQ?oc=5",
-      "pubDate": "Tue, 24 Mar 2026 09:58:00 GMT",
-      "source": "Investing.com 한국어",
-      "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
-      },
-      "impacts": [
-        "삼성전자"
       ]
     }
   ]
