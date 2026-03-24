@@ -1,12 +1,39 @@
 {
-  "timestamp": "2026-03-24T15:17:12.953348",
+  "timestamp": "2026-03-24T16:17:05.155584",
   "count": 10,
   "articles": [
     {
-      "title": "“삼성·TSMC 못 따라와” 머스크, 반도체 공장 세운다",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE51Q2dodUV4dC03TmdOYWIwNFBxWW1FdmZkMTQwbDdzTkhhdm5tU3A2ZnNvR2ZYZjFTODhCcWU4Wm5qQ3dBRUR3N29oUmJwTUNJ?oc=5",
-      "pubDate": "Tue, 24 Mar 2026 06:07:37 GMT",
-      "source": "문화일보",
+      "title": "재계에 ‘사외이사 의장’ 바람...LG 다음 타자는 현대차·한화?",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5ZclRGN3dCa0tOSlYtcWdwcjNVVzdPVFpfMnVmS1VzaUdoZ05ONzZkb3RVMnpITEljSjVmZG5XbUtrOUhZaDYtQkI3U3YyRDV0dHVuZEtUd1pVdEVzckhUYkpHYjNpU1B3UzlhdA?oc=5",
+      "pubDate": "Tue, 24 Mar 2026 07:06:11 GMT",
+      "source": "ESG경제",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "미국 양당 상원의원, 상무부에 \"중국의 엔비디아 AI 반도체 우회 수입경로 차단\" 촉구",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB4VllhMDU3a2xlMDVwa2xmXzJQOEpmV2pXeGZveERnN1VBMXlBODZFYmgxaGVCNEg5cTRmb3hGakV1cm8xTFdjYnctaDdhdTV1bENoc3RxcDFRbE16VlZWd2JZQjdNM3QxQ2tYdXdSWVpuTk0?oc=5",
+      "pubDate": "Tue, 24 Mar 2026 07:05:15 GMT",
+      "source": "비즈니스포스트",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "NVIDIA",
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전자, 플랙트그룹과 ‘MCE 2026’ 참가…LG 트롬 워시타워, 글로벌 판매 300만 대 돌파 [IT오늘]",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE10amRfV3o2cDh5OUNGQ0xDeHVKbWJWTF9jUWM3cldlTEpVRDE2NHZrT1RQOFZGcTZ4emU2a3NwTmhNOHEyUVh4MEMzcy1ra1diRGpGeFl3OGUtSEFSRkpXckRBUm42WW80WlE?oc=5",
+      "pubDate": "Tue, 24 Mar 2026 07:00:00 GMT",
+      "source": "시사오늘",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -16,21 +43,64 @@
       ]
     },
     {
-      "title": "마우저, ST 방대한 제품 포트폴리오 공급",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5aY1V1ZTdzMUVmSnR0VDhHTmtwbjFZb0tHdjhsd3p5VWR6UG9xX19DSHRzNFVvZDExdFpqMVVNTk1NWGtwSjJSLWptWU9Qdm9GZ2FNUjktVjhtOXllYkJmZDBSWjkzRkZM?oc=5",
-      "pubDate": "Tue, 24 Mar 2026 06:05:11 GMT",
-      "source": "테크월드뉴스",
+      "title": "현대차그룹 보스턴다이나믹스, 美 로봇 싱크탱크 참여…르노코리아, 부산시와 전동화 설비 추가 MOU 체결 [자동차오늘]",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9FSDlJakFBeVY0b2Q1dVIxNjlpckpvYUVwa2lVTFFDYlhoV1RRbVJLWFd6d2FuRjRqNkM2eXFLRHBHbndNSFNFS1BVamsxTWUyM3cwN2JSTzRENE00ZkNSbkVQZFhyaDR3Z2c?oc=5",
+      "pubDate": "Tue, 24 Mar 2026 07:00:00 GMT",
+      "source": "시사오늘",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
-      "impacts": []
+      "impacts": [
+        "현대차"
+      ]
     },
     {
-      "title": "삼성전자 판결이 쏘아 올린 공 … 삼성SDS 등 '소송 도미노'",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBWR1lVTVJTYW1fb2pmby1VRlVDS3pjenVoYWx1Nm9rSDBoNU5zS1hlMUZhM0ZZWllWWUo3cmhIZlo2V1AtR2o3VWgwRlZrTnUzV3Bkam1HNlo0TUJJampVS3NLaVR1bkJJXzV4YVVjR1FieE3SAXNBVV95cUxQVkdZVU1SU2FtX29qZm8tVUZVQ0t6Y3p1aGFsdTZva0gwaDVOc0tYZTFGYTNGWVpZVllKN3JoSGZaNldQLUdqN1VoMEZWa051M1dwZGptRzZaNE1CSWpqVUtzS2lUdW5CSV81eGFVY0dRYnhN?oc=5",
-      "pubDate": "Tue, 24 Mar 2026 06:03:24 GMT",
-      "source": "세이프타임즈",
+      "title": "현대차그룹, 수익성 악화에도 R&D는 풀악셀… 작년 11조 썼다 - 조선비즈",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5LNl9NckFKTUZ4SldIbkw3TDlsYmVoQ3EwY0I3MFltalVrMklYbjFCLTRkLVBmUV9xeDF1MkhSV3BKUXExWDh1LTFXNHFlQ1pJZmJaRjRXZXZSWFo1aDM1V0tkc09XMGZBRUg2NWk0R2FQS3dkWU80ZmpFbzVvXzjSAZMBQVVfeXFMT2Q5dUFwYlZkY2RLbzkxLWxBZ0E1a0NpQzN3VFBBazBZQ3JJVUhxSEo3MVBfRzV6Vm81ZHZlZFpTbzU4eGNIMVVha2djQ0VORTkwYlYyelFnU2VZaGNHS1k1VDZvNWF6TXlOT09GdjNhT2pTT0U0dkZVM2FlXzhYM2xIU1o4cjl3LThweFZOZzVsSU8w?oc=5",
+      "pubDate": "Tue, 24 Mar 2026 06:58:00 GMT",
+      "source": "Chosunbiz",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "“운전하다 집 에어컨 끈다”…현대차·기아, 삼성전자와 ‘카투홈’ 본격화",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA2Ukx5VXlNcHl2Tml1ZGxDZWJwd29HQWxIZWV2aUpYOUdUMDE1Z2lGTXh5YXFzUnU3QThPNFNPazc3djNyWVFiZlB4NktmRW5yNmZGa2Y2UlJ1cE5ReHByTElGWW4ya0c1VjZpNA?oc=5",
+      "pubDate": "Tue, 24 Mar 2026 06:57:00 GMT",
+      "source": "매거진한경",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차",
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[영상] 테슬라, 독자 파운드리 운영⋯ 일론 머스크 반도체 공장 '테라팹' 구상 공개",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE80cUNCcHpiYTFwREE1SmFwNVBfREZhdnlqRVFCMFlfeElZeTdqQk1DdnhfX28xcms0N2UxRVpCeC1zZF9scGxTeVlvRmttUkNyMjUxWHNDVE1uTWRpdVFxOWlB?oc=5",
+      "pubDate": "Tue, 24 Mar 2026 06:56:34 GMT",
+      "source": "더구루",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "테슬라",
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "“내가 만들겠다”⋯ 머스크 ‘테라팹’, K-반도체에 독 될까",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1heVVNT09Mc05vZTJtWkYtRl9kcXczbURFQzAxNUFTcDVnMTNmUGRvWXBsQWJFOVdiS0dkeHRvY3ppdHRrUUVpcUU1OW1QVjRiMWlwbURxaUFIQQ?oc=5",
+      "pubDate": "Tue, 24 Mar 2026 06:55:00 GMT",
+      "source": "브릿지경제",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -40,37 +110,10 @@
       ]
     },
     {
-      "title": "스웨덴 비트코인 트레저리 기업 'H100 그룹', 노르웨이 기업 인수",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1xUGtIc29sWXdMVjRNenQwbm1PeDJHRGJzSzQwS0VwRXQ4dUpiX2Q5MjdPcjNTcUo4azlua1gtbUpHNHI3RVdWRlh4MDltbElOVG5vRTlFbTdfTElqc2Q1ZGpoRG0xek9DR2NLNHFNdW1sN3JJTVE?oc=5",
-      "pubDate": "Tue, 24 Mar 2026 06:00:00 GMT",
-      "source": "블록체인투데이",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "KITA, “중동 사태에도 2분기 수출 온기…반도체가 끌어올렸다”",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE0xd1NQU3VmUUNEV1QzbkFBWm5WaUxHRWxQN2YwTlJ1OS11dXU2ejlZWkQ0SEVxQkg5QzhFWUpDdTgyUHVWd1o0RzB4RWpRUQ?oc=5",
-      "pubDate": "Tue, 24 Mar 2026 05:57:18 GMT",
-      "source": "전자신문",
-      "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
-      },
-      "impacts": [
-        "삼성전자",
-        "원유"
-      ]
-    },
-    {
-      "title": "삼성전자, 플랙트그룹과 유럽 최대 공조 전시 MCE 참가",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBoUERDNHl0SU5WRFFhV3N5c1V1Tk5IZjduQUR5dV9WbHNZLTZFMjNhUEFhMVhORVJDM2ZfTWdyLXF0aUlSaFFORkxZSklWSUwxa0o5NDV3?oc=5",
-      "pubDate": "Tue, 24 Mar 2026 05:55:41 GMT",
-      "source": "지디넷코리아",
+      "title": "SK하이닉스, 영업익 365조 간다...반도체 호황에 ‘역대급’",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBEbVNiOWNmQTlybWVKaVhtQUNWTWt6TE54SFJyY3A4VzdvMkpWalBNbGZvNzk0dGhmcmw3dEV6dXRTbDgwXzl4YUVkdTdTQ2tIOEVWblgxWWc2UEVZb2NjQ0piNnQ4TXhkd0I1ZQ?oc=5",
+      "pubDate": "Tue, 24 Mar 2026 06:52:00 GMT",
+      "source": "매거진한경",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -80,58 +123,16 @@
       ]
     },
     {
-      "title": "트레이더들, 비트코인 반등에도 '상승 베팅' 회피… 7만 달러 공방 지속",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5wa0F0cFpqR3lsczdIdnlFYVhGVEpob0hZeHdPVWNBTndlMHMtdDR6UTF6MTRsVDhLbXdpcVNjTm1BUTJyd3ZjUnNrTHRXd2pwWWI3cWk1YWVsVXkzYm1ybWpnY3JYTkZiSzRrWUdRZWpwUXR3WEE?oc=5",
-      "pubDate": "Tue, 24 Mar 2026 05:55:00 GMT",
-      "source": "블록체인투데이",
+      "title": "송탄소방서, 삼성전자와 업무협약…“현장에 스며든 안전수칙”",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE52emhJT0xHd0t0N05DX3hFQkU1Rk1CbEI5YUNKcmI0Y21ZZVFSWk9FNWdmc3BwUkRxSXN1TEVEeVFQYlloenZ1NW9FcXlpQTVCb1g5NXJoSUNaSFhnOUVFVW10VEY?oc=5",
+      "pubDate": "Tue, 24 Mar 2026 06:49:45 GMT",
+      "source": "매일일보",
       "category": {
-        "label": "🟢 POSITIVE",
-        "color": "#4ecdc4"
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
       },
       "impacts": [
-        "BTC",
-        "환율"
-      ]
-    },
-    {
-      "title": "지정학 리스크에 흔들린 비트코인… 레버리지 4억 달러 증발",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9kWlJONVVVYmxZZVgwRjlrWFZpU1h6SVdXMnZSVDQwODVDS2tkWVdlb0tObTY4dmtwdTBMOHBHUDF2X1dabzVjVlVSMWs5cVk?oc=5",
-      "pubDate": "Tue, 24 Mar 2026 05:52:03 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC",
-        "환율"
-      ]
-    },
-    {
-      "title": "무역협회 “중동 사태에도 반도체 호황에 2분기 수출 개선 지속”",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4tMmFSOWlvc3JZYlBhV3Z5X2l2RENyTUIyTkFPSXVscDIxZWg0a2lzZFNHRmQ4QXFqeDQ0amkwYm5TMkwxVURSMy14aTFXQWxvUGxHcTlQcGM4bjg?oc=5",
-      "pubDate": "Tue, 24 Mar 2026 05:47:00 GMT",
-      "source": "KBS 뉴스",
-      "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
-      },
-      "impacts": [
-        "삼성전자",
-        "원유"
-      ]
-    },
-    {
-      "title": "트럼프 발언에 롤러코스터 탄 비트코인 … 스트래티지 8만9000개 '추매'",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBnWDQ0cThONXJzaUJlckZOUEVnRUlUWjZDZVZQVk4wSUFQLWJ4c29hd0N2ZGhRbkZxN00zc1QxZEs1Z0dId3VOSmhmcE0zYWx4U1hrTDkyeF9yckNZRzhvZG4xOFp3bWNiQjlzMHNwS0FPd1gyMWZJT1NpOA?oc=5",
-      "pubDate": "Tue, 24 Mar 2026 05:42:57 GMT",
-      "source": "뉴데일리 경제",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
+        "삼성전자"
       ]
     }
   ]
