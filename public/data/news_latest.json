@@ -1,18 +1,32 @@
 {
-  "timestamp": "2026-03-25T04:20:53.326851",
+  "timestamp": "2026-03-25T04:51:19.676727",
   "count": 10,
   "articles": [
     {
-      "title": "전북도, 현대차 9조 원 투자 지원체계 가동… 전담조직 중심 대응",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1FaV80Qmx5QWJ6dks2XzVZYnd0Y2tuMld0R21IOWo1ZmhlWTl4X0pwdWhOR3ZDVnR2RFlFalNlRVYzRHd2aGtIN2JqUDJlMkVVM1dUQlhGaTNRODN3ZkRDSThmclN3VXR0WGp5bldoYUHSAXRBVV95cUxOVTRtbi1BemFEOEtCbVVzemZwcDdWYVVTd0MtV2Z6TTRaZmhYX19zUnlTLUFpQ3I3RnBYWkkzRGlMby1oWkJMLWN6SVZqUnlaRF84VDNmY0RGZGdwT0Z4ZDFMM1RPeUVJTFY0S241UEdGb1FIQg?oc=5",
-      "pubDate": "Tue, 24 Mar 2026 19:05:00 GMT",
-      "source": "포인트데일리",
+      "title": "하이퍼리퀴드 비트코인 갬블러, 4600만달러 청산 위기…가격 반전 가능성은?",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5rbmk2QjNOR1k3Rnp6b0NaUUFVYnRmaFNzWmZmOUEyOS1OVUVZeW56endEVGI0WngzbWM2UEUzOUQzczBDS2dfN2JXbHczenctR0E4ZGpIMVN5SmRObGJMZDRfcDVvdzZncnhkWUx3?oc=5",
+      "pubDate": "Tue, 24 Mar 2026 19:26:15 GMT",
+      "source": "BeInCrypto",
       "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
       },
       "impacts": [
-        "현대차"
+        "환율",
+        "BTC"
+      ]
+    },
+    {
+      "title": "HBM 공급 2/3 장악한 한국…삼성·SK, AI 칩 전쟁의 진짜 승자",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxORzBDUUlnbW9rVmRQRl9qMzd4c1BpOEZDcEE3Z18tSG1BUXctaENDS2F2RnF0OGZJc3IxUDZjaVg0QTBUY1BZXzhkd1BOaWJfbGs4N09ybm8yd3BDSllUS0UzdTQ0cWY0VzlFWnlzdHMxRlRJMXhnRENrOWNJRm1pYmpfYVZWSlR2?oc=5",
+      "pubDate": "Tue, 24 Mar 2026 19:25:00 GMT",
+      "source": "글로벌이코노믹",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "삼성전자"
       ]
     },
     {
@@ -119,19 +133,6 @@
       "impacts": [
         "현대차",
         "NVIDIA"
-      ]
-    },
-    {
-      "title": "SK하이닉스, 12조 규모 반도체 제조 ‘EUV 장비’ 구매",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQbmhTb0kyS0EyeHJPYkIxZDRNeDFFbEVjdzFPd2Y4ZWJRRmNZcWNtUEVSTndXUUw3TGwtU01WLWQyUkZra2lTUXZlMWl1QV9RcjBUOUc1MDZRVndiN0NGdmJyY3pGZk5CaGdNWHJzQWw3VmVweE9mZ0ZORFR5MXBQbmE5b9IBlwFBVV95cUxOMWVtbm8tU1BpbzU4OEphSkplX1laVDNvdGNxUDZwUERQbmlDcDF5YkFFdzNjWWFIaGJ3M3lyd19ibmZGVk9rRThqWUtEeDE1UmhzNTFXa0FGaWxTeEwyREh0ZF9FR1o1NlJYak9fMmtob3pFcXl0XzQ0cTM5UUJNNEU4Q25aTUhmeVBXZ3hFQkpjVUtFNllv?oc=5",
-      "pubDate": "Tue, 24 Mar 2026 15:31:00 GMT",
-      "source": "조선일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
       ]
     }
   ]
