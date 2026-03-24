@@ -1,25 +1,64 @@
 {
-  "timestamp": "2026-03-24T09:43:16.782913",
+  "timestamp": "2026-03-24T10:13:40.219800",
   "count": 10,
   "articles": [
     {
-      "title": "[특징주] 삼성전자·SK하이닉스, 4거래일만 '빨간 불'.. 美 M7 상승 영향",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNVGtweUJ2aXl5bTlZQTJQWFk5UWthS2R4aHNhcFc4Mm42LWtEbjQyamRUZWJDMnEtMVNhWnVLOGNHME5SWnRfQ0ROLUh3ek5OdFk2Yk1RWEYtQmFjTEgzMDZ5MTBuS3F2emoydzlxZWd5b0V2Q3hfTDZtNUdjLWx1Z2pMTUxjSDQ?oc=5",
-      "pubDate": "Tue, 24 Mar 2026 00:39:08 GMT",
-      "source": "글로벌이코노믹",
+      "title": "삼성전자·삼성바이오로직스, 동시 파업 위기...465조원 투자 차질 우려",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBfSnd2eGlCMU1yZGUtYS1oY0NmMTZnOWdHcEtkaWdrcThpQUpxeUtMQXQ4S2FLbnpZaTlUa0JNaVEwT2x3U0hXaVJCRVYwVXNGQXpTT2ZEcFlKbEx3UHVBMWZ0bHM?oc=5",
+      "pubDate": "Tue, 24 Mar 2026 01:04:56 GMT",
+      "source": "PRESS9",
       "category": {
-        "label": "🟢 POSITIVE",
-        "color": "#4ecdc4"
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
       },
       "impacts": [
         "삼성전자"
       ]
     },
     {
-      "title": "IBK투자증권 \"현대차, '완성차'를 넘어 'AI 플랫폼’으로\"",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5hbnFfQi1oejcwNVpFai1MMEx3Smx1TWlTd3hfdlc0cU1KZmo3TGtQT2p3WU41UTkyWFVfc1c0azNlV1B4M1oydG1KT1NjTWFOdmhncHdpc3FyVU5WOTFBUUhXUnM?oc=5",
-      "pubDate": "Tue, 24 Mar 2026 00:34:00 GMT",
+      "title": "회계사들이 본 올해 1분기 경기 좋아졌다…반도체·AI 훈풍에 BSI 118",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1icjNSeUxZTVlnWTF1dFNjNm5fbWp5ZGJYS2V1a0ZvWVBDaFBEelRVcHdMUS1WZXRVeDAtLThudXVzd002QkI0bkNsS2VTY3pPT3Q4b3J2R3B5bTNpdndZMU1Qa250SlRaa2dSRg?oc=5",
+      "pubDate": "Tue, 24 Mar 2026 01:04:49 GMT",
+      "source": "세정일보",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "KB증권 \"삼성전자·SK하이닉스, 빅테크 5년 장기공급계약 요청...파운드리형 구조 전환 전망\"",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1mNE5ORWs5NXkzSjBPN015WkZsUm1EOUY1eUNKZTFIUDQ2eGdoRWdsUlk5OGU1MG1Hb0FtUzNmcFdlWlVfaTc2U3l1Tl9qcTNKOG5qYy04QVBHcW5vRUtQYXJtSUk?oc=5",
+      "pubDate": "Tue, 24 Mar 2026 01:04:42 GMT",
       "source": "PRESS9",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "애플 '폴더블 아이폰' 수요 삼성전자에 우위 전망, BofA \"기본형 아이폰18은 내년 출시\"",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5abXZwSFMwWDFUVi1vZDFuT2tBWG15YTZQLXd1eFVEb1IyRUlYZlo5c20zeTJhRUZnb0JnNGJLV21ES2Zudng2WEpoZjdhdS15ZkF2RzlweUc1bFNkMExNaTJhQTRkNFVtY05EQ1VCSjRXUkU?oc=5",
+      "pubDate": "Tue, 24 Mar 2026 01:01:30 GMT",
+      "source": "비즈니스포스트",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "현대차 보스턴다이나믹스, 美 로봇 국가전략 ‘핵심 플레이어’ 참여",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE93Y1YtN1dIWU9zWm5CNFVtaWlpNkl1R2JKeXYyM1ZDZXgyYjJFQ3NQZndmVXdvZ0RZSTJnQ2VxUVJKYzdiTlV4TFoydzNVajl5SlN1eW5NTUJWN19kOWFsdW1HWQ?oc=5",
+      "pubDate": "Tue, 24 Mar 2026 01:00:16 GMT",
+      "source": "매일산업뉴스",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -29,36 +68,24 @@
       ]
     },
     {
-      "title": "반도체·전자 최첨단 트렌드 공개…′2026 스마트 SMT&PCB 어셈블리′ 개최 (영상)",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE4tTXVJcHNHcXdxS1RYX1prbUdzeTU0aHdGdEFYcUZQSzFvMUp4STY3bFU0bXctT0NHRUNYLXUzeTRtVDZEd1J1TDVHb0wxSUxqT0lOSkdzemRGTnIxamhpQWJlV1JLcThhelItakktV0s4eWxpOHhFWEdCQQ?oc=5",
-      "pubDate": "Tue, 24 Mar 2026 00:28:57 GMT",
-      "source": "데일리매거진",
+      "title": "트럼프 \"이란 공격 5일간 중단\" 발언에…비트코인 7만 달러 회복",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBIUUZ3YjEyVTZ3WFk4X3k5d2JTSElxSnpuNWwwNWR4WkQ2ak5PMDlVSHhuZUNsV1BQNHE3b2xTeTRlRU5WZjBPenp4b09mVDRyRmFhMUh3?oc=5",
+      "pubDate": "Tue, 24 Mar 2026 00:59:11 GMT",
+      "source": "지디넷코리아",
       "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
       },
       "impacts": [
-        "삼성전자"
+        "원유",
+        "환율",
+        "BTC"
       ]
     },
     {
-      "title": "[특징주] 한국첨단소재 등 광통신株 급등…엔비디아 ‘광반도체’ 기대감 반영",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBxWUoxVFprMlRROEVHREpqRmRLb3FfT3lCVjBfOWFFN2ZNSUZpMUdTRDBfeGNib1VTVGJOb0hVY2Y1WGg4cHQtdnltSVZxcmlRZDJxczY3ZktxYkNoblpCS3o4ZFdHZ28wYk5DUw?oc=5",
-      "pubDate": "Tue, 24 Mar 2026 00:25:25 GMT",
-      "source": "서울와이어",
-      "category": {
-        "label": "🟢 POSITIVE",
-        "color": "#4ecdc4"
-      },
-      "impacts": [
-        "삼성전자",
-        "NVIDIA"
-      ]
-    },
-    {
-      "title": "삼성전자·플랙트그룹 첫 협업…유럽 최대 공조 전시 MCE 참가",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAwTFNMUHlZM2dLZVVBSGdQdVV6bkZZVmZqY0o1X3JmZlE0cjI5UWpJQUFIXzNHZGdlT2o5eTNkMGJrRS1TcEhZd2RXTUxwT3BySk1jT200MEZsUVZjV3psLTRfd2o?oc=5",
-      "pubDate": "Tue, 24 Mar 2026 00:23:31 GMT",
+      "title": "CPA 체감경기 118로 급반등…AI·반도체 업황이 회복 견인",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB3WVJ4dVgtdFdnR3JtdjJFXzNYNXdCNTE2VTM2UVpWMWlFUXdQRm5NLWJhRVRwZ2g1RGpyNzN0cjhXd3E1ZTBUWHBETTNGM0J2SkhpajdYTWk4MWVKdkFXMXVBQXQ?oc=5",
+      "pubDate": "Tue, 24 Mar 2026 00:58:52 GMT",
       "source": "서울경제TV",
       "category": {
         "label": "📋 GENERAL",
@@ -69,10 +96,10 @@
       ]
     },
     {
-      "title": "삼성전자, 밀라노서 유럽 최대 냉난방공조 전시회 참가",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9NbmpEOFM1ekFHT1EtTHJsV3RtSFFmcVNpVTFKQ096eUhOZDVLWGJobmgxUDFHMDhSUV9lem1FdFlJOGlZcWpXRXkya2xLV0UzX1h6V0RSUExQSHdRcGlBUlViWEhwcUdrSndF0gFvQVVfeXFMTXF6U2pxWDY1bUpZWFRlMzM0OUFqMHNQeW9JcXZhaTlGT1QwQ2NxM29PZXBxdE1ubS1OdEZuY3Y3QXB2YUJpLVdIRVR0MG1YOEprUmp6ck9Bd2FqM0lfQWNycmRuVU9GTlR2UEp0MHdV?oc=5",
-      "pubDate": "Tue, 24 Mar 2026 00:22:03 GMT",
-      "source": "한스경제",
+      "title": "삼성전자, 유럽 최대 냉난방공조 전시 참가… 플랙트그룹 솔루션 소개 - 조선비즈",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQck53RGFlN0czeXRKTHJOa0g0ckp2Q3pEdXRrLWJMenYyWmRKN01YMGMxRUhGQ0xSMVQ1bmxkdVVSdTJCQ1VEQzFkRzZHS00xdkFheThQWEliUTVOZDJJQ2k2bndMdVRfUjVyV2RKdHpzQmQ0VmNZVFotTVNqWkx3Mm130gGWAUFVX3lxTFAwNHZ4TTN6ZG5KZUJyRHlOYmlfUXFhdmdpZ0pSMDdzcnlaSUV3RThNTm9aZGlnV1JlcmdDaEJTMTVudS05NUhMMkVNUEN1SUhxS1BUR2h3Y3BjT2g2WWxjTEFSWlBxN1kzX0RfUnFFakpIVHBZTWctVjRZTDFXTkNJeDBJb1F4NGoyQWFWWWd3ZHE1NVR3dw?oc=5",
+      "pubDate": "Tue, 24 Mar 2026 00:56:00 GMT",
+      "source": "Chosunbiz",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -82,55 +109,29 @@
       ]
     },
     {
-      "title": "삼성전자, 플랙트그룹과 ‘MCE 2026’ 공동 참가…유럽 중앙공조 시장 정조준",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE04d2ZCMDNXWFVFdDNub3VOczZQTUFiVlRDT3U0TkNqNVNXOUw5RXFqVkFyTnBkdnBGRUd3TlBNY2xrM3hSM2pab1k4aFBYdVFjcllWZ2F4d3ZWZm9XN2o2elBRaHg?oc=5",
-      "pubDate": "Tue, 24 Mar 2026 00:20:11 GMT",
-      "source": "매일일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "비트코인, 트럼프의 이란 공습 ‘5일 유예’ 발표 후 상승세",
-      "link": "https://news.google.com/rss/articles/CBMizgJBVV95cUxQRjdxYTBQVTRvdnJXUDJuQnd6UU5uUHVWWnA2TlNtT3NkeXcxR0x5Uzk1YVRFUFRabU9VT1RLeXgyWkZ3NE9qT2tZWHRUOHBvTldiZDRnUnZVMXZMWHZZZmpGYzhuVV9kMVdDTzZVaUMxNzRqMW5TaXhfVC1Kc0p2Y2l0YURrS3FDeFpTNUR0WUdLU3Z3U1NQcGFXTVc3bUUxQTRTRmU5Y1VrTDJLdTY1cHBiS290ZjZNT0VRRnhiUzZvM0RsVjM4RDhBcXRRRlVfTEJxLTYyM29JZTBSTG5USkdETWtfOGY5ZjhFYUY0aVBTOUZ3czlhZGZXclhCdHZxX0oyN1dZQ050WVZuR2F5SG9DTDlBdlBJdWNEQ1k1MGVFazcwUERfTThZenA2aFd1OHBuakxnakVjb043WUVqWC1fN1o2SlcwaGl0RzRR?oc=5",
-      "pubDate": "Tue, 24 Mar 2026 00:19:50 GMT",
-      "source": "Benzinga",
+      "title": "삼성전자 장초반 4%대·하이닉스6%대 상승",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE93b1A3UzhrYjRUd3BzM3lvR3ZaMEZlaTRLbU9zMEJCbEQ3Skd3NkMyRGdoLTNLQW5TVl8yS1hPem9xczBvNVY5b1FlWGRNbW8?oc=5",
+      "pubDate": "Tue, 24 Mar 2026 00:55:02 GMT",
+      "source": "v.daum.net",
       "category": {
         "label": "🟢 POSITIVE",
         "color": "#4ecdc4"
       },
       "impacts": [
-        "원유",
-        "BTC"
-      ]
-    },
-    {
-      "title": "삼성전자, 플랙트그룹과 MCE 참가…유럽 공조시장 공략 강화",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBBMUZGZjFnRkFYOTlzRlFNQmZnaEZUOEJDMTBKS01tXzhidTBGcUxlakQzNy1ndjl5MEY5YkZZd1Fpak4taGZFYjhrQ2JKSW1tYTV3TURpVWdVa3hqamhMUjZoS08teDA?oc=5",
-      "pubDate": "Tue, 24 Mar 2026 00:19:46 GMT",
-      "source": "팍스경제TV",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
         "삼성전자"
       ]
     },
     {
-      "title": "비트코인, 레버리지 수요 부진 지속…파생시장 '약한 낙관론' 확인",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBDUWFFT3JzNkFqRXNPbU5FZHBhMllrTVBHYWxaRFVjY1pUUGZrVC1rZ1E0M0RocWh0UHBaY0RDT1RST3ZlbHFDYWJ3TnZBa3BH?oc=5",
-      "pubDate": "Tue, 24 Mar 2026 00:19:40 GMT",
+      "title": "스트래티지, 441억달러 조달 추진…비트코인 매수 확대",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE82U3VZdzBhRFk5YlRmS0Y4dmtBdVJJUUJXUlVtZGpTMU1JYWljYmZnVWs0X1QycVVTWkpza3VLS2dYQ2Rqb1BkQ1NZY01GU0FH?oc=5",
+      "pubDate": "Tue, 24 Mar 2026 00:54:18 GMT",
       "source": "블루밍비트",
       "category": {
         "label": "🟣 CRYPTO",
         "color": "#a55eea"
       },
       "impacts": [
+        "환율",
         "BTC"
       ]
     }
