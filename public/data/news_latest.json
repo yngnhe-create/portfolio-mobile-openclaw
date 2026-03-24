@@ -1,7 +1,60 @@
 {
-  "timestamp": "2026-03-25T02:50:31.302313",
+  "timestamp": "2026-03-25T04:20:53.326851",
   "count": 10,
   "articles": [
+    {
+      "title": "전북도, 현대차 9조 원 투자 지원체계 가동… 전담조직 중심 대응",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1FaV80Qmx5QWJ6dks2XzVZYnd0Y2tuMld0R21IOWo1ZmhlWTl4X0pwdWhOR3ZDVnR2RFlFalNlRVYzRHd2aGtIN2JqUDJlMkVVM1dUQlhGaTNRODN3ZkRDSThmclN3VXR0WGp5bldoYUHSAXRBVV95cUxOVTRtbi1BemFEOEtCbVVzemZwcDdWYVVTd0MtV2Z6TTRaZmhYX19zUnlTLUFpQ3I3RnBYWkkzRGlMby1oWkJMLWN6SVZqUnlaRF84VDNmY0RGZGdwT0Z4ZDFMM1RPeUVJTFY0S241UEdGb1FIQg?oc=5",
+      "pubDate": "Tue, 24 Mar 2026 19:05:00 GMT",
+      "source": "포인트데일리",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "설계도만 팔던 반도체기업 Arm, 자체칩 판매선언…AGI CPU 출시",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1rcmtKSUNYc01meFBVZ3cyeU11ellWMmxUWVFLdlg2Q0dWdFBlTTlDakpkZGdISnVhYkw3VVZjaXk1azNaYXFCNnZpSkVBVGdRN1VBNDl3M2pTbnfSAWBBVV95cUxNZHBtMDlLTEgxaXl5U0NlaEFPRVJKU01WMVRhVzRSaF92cFl5eWt3UGtkWEJjYzZnaUN2WDNYLUlMWVBJT3VLdERkeWJ6SlRVVVpRZ1lNd2t6d0Z3YzdIMFI?oc=5",
+      "pubDate": "Tue, 24 Mar 2026 18:55:03 GMT",
+      "source": "연합뉴스",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "비트코인 채굴사 '코어사이언티픽', 미국 양대 투자은행 자금 확보",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1LMHV2di1CU29FdXhUdHJRLUdTaHNmNnJ3c3RtTTBfTWhkZk5oMW4wcU15NW03UVlzYWs2R1RiY3JhSFRGekhqU3ZTM1JNN2R0aWZ1T21vUmRaMllwcnJKbFVXRjUxQkpiMU50Rg?oc=5",
+      "pubDate": "Tue, 24 Mar 2026 17:50:33 GMT",
+      "source": "경향게임스",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "스트래티지, 비트코인 매수 목적 231억 달러 확보 추진",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5pZF9ja2x6Vlc3Z2V3VXAwMU9zVzY0X0dKOGlCN21VdnF5NEp5djhhaF8xdGFDUHFPUzZBeUpkUUphNkkzVEliQ2VvWG1uQjFPaWx1SlA5TUxzYlBtbE5TeFZVRkw5ZGszSEJFaw?oc=5",
+      "pubDate": "Tue, 24 Mar 2026 17:43:19 GMT",
+      "source": "경향게임스",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "환율",
+        "BTC"
+      ]
+    },
     {
       "title": "“반도체·로봇주 여전히 과소평가… 지수 하락할 때마다 분할매수하라”",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBYOWxQUUlvTjZhd2d5NGxNZklDSnVFSGhRV0VtZGN2Z0ZLTnJTWUpzUVRHMVVodjFmRXRnT1V5a1dBWTI4M3kwN29pTk56c00?oc=5",
@@ -64,8 +117,8 @@
         "color": "#8b9dc3"
       },
       "impacts": [
-        "NVIDIA",
-        "현대차"
+        "현대차",
+        "NVIDIA"
       ]
     },
     {
@@ -73,58 +126,6 @@
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQbmhTb0kyS0EyeHJPYkIxZDRNeDFFbEVjdzFPd2Y4ZWJRRmNZcWNtUEVSTndXUUw3TGwtU01WLWQyUkZra2lTUXZlMWl1QV9RcjBUOUc1MDZRVndiN0NGdmJyY3pGZk5CaGdNWHJzQWw3VmVweE9mZ0ZORFR5MXBQbmE5b9IBlwFBVV95cUxOMWVtbm8tU1BpbzU4OEphSkplX1laVDNvdGNxUDZwUERQbmlDcDF5YkFFdzNjWWFIaGJ3M3lyd19ibmZGVk9rRThqWUtEeDE1UmhzNTFXa0FGaWxTeEwyREh0ZF9FR1o1NlJYak9fMmtob3pFcXl0XzQ0cTM5UUJNNEU4Q25aTUhmeVBXZ3hFQkpjVUtFNllv?oc=5",
       "pubDate": "Tue, 24 Mar 2026 15:31:00 GMT",
       "source": "조선일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "교육과 실습의 연계: 반도체 인력 양성을 위한 새로운 방향.",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNNlRoQU5tVHRKQm53UG8xa2NMRDdZNnNQenZlTUVBY3pkSXJDSERSLVJuQXF6dlA4bzlHT2g3WWY5eF9MMjdQalZ4ZEdpVldQS04yTVlZTVdKbWREZ3JpcUFjNnY5YjZfamtnd1B5ekFLcGN1dHowSUpnYlJicXFtN1BObkRLLUFqUnRjNXdn?oc=5",
-      "pubDate": "Tue, 24 Mar 2026 15:29:44 GMT",
-      "source": "Vietnam.vn",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "현대차노사, 고용안정·경쟁력 확보 머리맞대",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5FbUdRNzZJc3d4TndQeC1DWjF4dWItVERlMV9QM2J0WXQ0SUVSYlNKbzhMY1E1eWI3bjVVNnppajVfZlZ5V2p3T2trcjdTSnc?oc=5",
-      "pubDate": "Tue, 24 Mar 2026 15:21:31 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "🔵 MACRO",
-        "color": "#0984e3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "삼성전자·SK하이닉스, HBM 두뇌 ‘베이스 다이’ 경쟁",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1KVXB5QnNJYkRkeGJMZEtaeEVHbmNYZC05RXFyTjdzTW1MWUszVUlaNy1xN3dhcXlnNENlWG9pN0VyT09wbzFBQmZ4cW1nMms?oc=5",
-      "pubDate": "Tue, 24 Mar 2026 15:15:47 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "반도체장비 관련주, '덩실덩실' 기가레인·원익IPS·에이치엠넥스·주성엔지니어링... '한숨' 네오셈·HPSP",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1ORDM4XzBaYk5YWHI0bk9ibG9SX1RGTXRrUW5BXzZvSkpwVVRTUkxqQVBta1RrcTZSY2c3WEgzNUF3UjI2eDlXOF9zdkJOTUVNUjFoMUZBblltQXdHMkVyVFY5Q2paMTBj0gFrQVVfeXFMTTZxX1QtemFUMkpkcjNBc1BpNFBsVG9kQ05GYjk0OURYcUVmekZLdF82MGJ5RHZablc3aExBbzdJdDlvSVFqUFp2OE41cldBWk9mNG1HNnE1cTBGbjJpREF4VW1rdy1rcFBZMnM?oc=5",
-      "pubDate": "Tue, 24 Mar 2026 15:13:00 GMT",
-      "source": "현대경제신문",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
