@@ -391,17 +391,26 @@ async function loadReport() {
       seen.add(co + ti);
     });
 
-    const buyCount = allReports.filter(r => {
+    const hasReportData = (r) => {
+      const op = (r.opinion || '').trim();
+      const up = (r.upside || '').trim();
+      const hasOpinion = op && op !== '-' && op !== 'N/A' && op !== '없음' && op !== 'n/a';
+      const hasUpside = up && up !== '-';
+      return hasOpinion || hasUpside;
+    };
+    const filteredReports = allReports.filter(hasReportData);
+
+    const buyCount = filteredReports.filter(r => {
       const op = (r.opinion || '').toLowerCase();
       return op.includes('buy') || op.includes('매수');
     }).length;
 
-    document.getElementById('reportsCnt').textContent = allReports.length + '건';
-    document.getElementById('smcReports').textContent = allReports.length + picks.length;
+    document.getElementById('reportsCnt').textContent = filteredReports.length + '건';
+    document.getElementById('smcReports').textContent = filteredReports.length + picks.length;
     document.getElementById('smcBuy').textContent = buyCount;
 
     let reportsHtml = '';
-    allReports.forEach(r => {
+    filteredReports.forEach(r => {
       const op = (r.opinion || '').toLowerCase();
       const isBuy = op.includes('buy') || op.includes('매수');
       const cardCls = isBuy ? 'buy' : r.is_sector_report ? '' : '';
@@ -587,7 +596,8 @@ async function loadReport() {
     document.getElementById('strategyBody').innerHTML = stratHtml || '<div class="loading">전략 데이터 없음</div>';
 
     // ── Naver Reports (상세 분석) ──
-    const naverReports = wr.naver_reports || [];
+    const naverReportsRaw = wr.naver_reports || [];
+    const naverReports = naverReportsRaw.filter(hasReportData);
     document.getElementById('naverCnt').textContent = naverReports.length + '건';
     let naverHtml = '';
     if (naverReports.length === 0) {
