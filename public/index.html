@@ -106,7 +106,7 @@ body.masked .pval,body.masked .pchg,body.masked .cd-num{filter:blur(8px);user-se
 <button class="mask-btn" id="maskBtn" onclick="toggleMask()">🙈 마스킹</button>
 <div class="topbar">
   <div class="logo"><span>📊</span>투자커멘드</div>
-  <div class="mstat" id="ms">● 업데이트: 2026년 03월 24일 00:40 KST</div>
+  <div class="mstat" id="ms">● 업데이트: 2026년 03월 25일 00:49 KST</div>
 </div>
 
 <div class="ticker">
@@ -235,7 +235,7 @@ body.masked .pval,body.masked .pchg,body.masked .cd-num{filter:blur(8px);user-se
 const GOAL_PCT = 20; // 2026 목표 수익률
 const NEWS_TTL = 60 * 60 * 1000; // 1시간
 const MKT_TTL = 4 * 60 * 60 * 1000; // 4시간
-const PROXY = url => `https://api.allorigins.win/get?url=${encodeURIComponent(url)}`;
+const PROXY = url => `/api/proxy?url=${encodeURIComponent(url)}`;
 const NEWS_RSS_URLS = [
   'https://news.google.com/rss/search?q=코스피+주식+경제+증시&hl=ko&gl=KR&ceid=KR:ko',
   'https://news.google.com/rss/search?q=삼성전자+OR+현대차+OR+비트코인+OR+반도체&hl=ko&gl=KR&ceid=KR:ko'

@@ -779,7 +779,7 @@ async function fetchLivePrices(wr){
     await Promise.all(batch.map(async co=>{
       try{
         const code=STOCK_CODES[co];if(!code)return;
-        const res=await fetch(`https://m.stock.naver.com/api/stock/${code}/basic`);
+        const res=await fetch(`/api/stock/${code}`);
         if(!res.ok)return;const data=await res.json();
         const price=parseInt(data.closePrice.replace(/,/g,''),10);if(!price)return;
         // Update all cards with this company

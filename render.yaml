@@ -1,7 +1,10 @@
 services:
   - type: web
     name: investment-command
-    runtime: static
-    buildCommand: ""
-    staticPublishPath: ./public
+    runtime: node
+    buildCommand: npm install
+    startCommand: node server.js
     branch: main
+    envVars:
+      - key: NODE_ENV
+        value: production

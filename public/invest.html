@@ -228,7 +228,7 @@ let currentView = 'sector';
 let displayMode = 'daily'; // 'daily' or 'total'
 const dailyChgMap = {};
 
-const PROXY = url => `https://api.allorigins.win/get?url=${encodeURIComponent(url)}`;
+const PROXY = url => `/api/proxy?url=${encodeURIComponent(url)}`;
 
 const TICKER_MAP = {
   // US Stocks
