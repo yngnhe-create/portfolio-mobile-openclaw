@@ -592,7 +592,7 @@ function renderNews(news,portfolio){
     const cat=a.category||{label:'GENERAL',color:'#636e72'};
     const impactTags=(a.impacts||[]).map(imp=>{
       const isMine=Object.keys(portfolio).some(k=>imp.toLowerCase().includes(k.toLowerCase())||k.toLowerCase().includes(imp.toLowerCase()));
-      return`<span class="news-impact${isMine?' mine'}">${imp}</span>`;
+      return`<span class="news-impact${isMine?' mine':''}">${imp}</span>`;
     }).join('');
 
     h+=`<a class="news-card" href="${a.link||'#'}" target="_blank" rel="noopener">
