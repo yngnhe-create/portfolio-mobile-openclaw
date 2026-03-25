@@ -1,7 +1,108 @@
 {
-  "timestamp": "2026-03-25T13:24:45.780560",
+  "timestamp": "2026-03-25T13:55:07.653764",
   "count": 10,
   "articles": [
+    {
+      "title": "대기업 영업이익 24% 올랐지만…‘반도체 투톱’ 빼면 7.3% 그쳐",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE82RzNhMFRPVGloZnljeU5VWGxPa3E2TEdNcC04MWwxelF2bUNtNUtWVVNKdS1PTXctYlZxM3RfNElySFVLNS1uTkRCUjNLVFRoRlF1eFNGdkhiYjE4cDk0d2JPOGtrQ1VpaHc?oc=5",
+      "pubDate": "Wed, 25 Mar 2026 04:52:00 GMT",
+      "source": "한겨레",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "아나배틱세미, 150억원 투자 유치",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5GeGU5R3lPZXRCTGhUSkxVMS1ieUZLVmY4YzZ5YkhaelI2dWZleUZwMG52SE4tN0RCYnRyY19BSUdyUnphOFFIbHEzYkt6YmttT082ZGlfLURvcGM1RnlsMERnT2lXdw?oc=5",
+      "pubDate": "Wed, 25 Mar 2026 04:49:07 GMT",
+      "source": "디일렉",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": []
+    },
+    {
+      "title": "SK하이닉스 \"순현금 100조 확보 목표...AI 시대 승부수\"",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5wakxnekE5bG52VFNHM0ZqVW0xSkdkVU5NbkpHVUQ0SEN1emFmVFZsUTJvZTcxUUsyQUlfZHFBcFpaZ1BmM0lscklmVHVYNmVjdVN0ZERPVDQwZDNmbHFwa01ETXdUZw?oc=5",
+      "pubDate": "Wed, 25 Mar 2026 04:46:41 GMT",
+      "source": "디일렉",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": []
+    },
+    {
+      "title": "최태원의 미 ADR 상장 ‘승부수’…반도체 패권 ‘정조준’",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1jNDRCNVhhTEI0b2M0NEdFcFRZdzQtMWFycVNDOUFGSXFwSURCYm5wZjJDaDU4VElkVU5RcVRVZEdQcHZncmFQSFNiOHFrUVc0cWxkZWFPWlhQMkxoTmow?oc=5",
+      "pubDate": "Wed, 25 Mar 2026 04:38:37 GMT",
+      "source": "뉴스토마토",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "한미반도체, 세미콘 차이나 참가…\"매출 40% 늘어난다\"",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5panlJRjhXVkM1YlFwTzF1VDBzVnhUNzNpTThNVUJMdzRWY2Q4WjJ1eXBzNnVDekJKR0xTamd2TmtvRzVkUEktX2Q4a2FlUEZwR0o2c3ZFbGltRG5JSlNTZTlRenBPWlpxR1E?oc=5",
+      "pubDate": "Wed, 25 Mar 2026 04:37:42 GMT",
+      "source": "더스탁(The Stock)",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "현대차·테슬라 북한땅 달릴까…평양 국제 전기차 엑스포 추진",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1sOThuanZuMWhLR2ljRldnSmVrblc4SjJEdEJ2c2poVTZwU0Zid2F4TWFkVndFdS1NSkxvandlV3ZQdlFyQllaQTRiQnlwSDQ?oc=5",
+      "pubDate": "Wed, 25 Mar 2026 04:35:02 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차",
+        "테슬라"
+      ]
+    },
+    {
+      "title": "ISC, 세미콘 차이나 2026 참가…AI 반도체 테스트 솔루션으로 중국 공략 강화",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE93R25Bdk9sSERiSkZnOFBKVlFpWm1tUnJ0QzJXUXBwamFua3RfUzdjem5FSWZYUERyOEhHUTJ2a2FTcXQ1eUcwR2Z1R1JfYUNYdWhIMzN1LTJmdTM0ZmVIR2Z5c1BWN1FmVW56UA?oc=5",
+      "pubDate": "Wed, 25 Mar 2026 04:30:16 GMT",
+      "source": "뉴스탭",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "반도체 특수에 대기업 영업익 24% ‘껑충’…하이닉스·삼성 빼면 7%, ‘찔끔’ 착시효과",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8xcUZXeWoxLVZPRGpKZWliRGFtM0RINEF5UXdYOENuQkMwOTFJVnNUUmN4V0l0bzVfZWdydzZXQ19zZkZXVjB0OXFGQzVkVjU4V05MS0Q0ekI2M1lORmhPUjdHVWVtRXlq?oc=5",
+      "pubDate": "Wed, 25 Mar 2026 04:25:00 GMT",
+      "source": "테크월드뉴스",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
     {
       "title": "오킨스전자, 'SEMICON China 2026' 참가…글로벌 반도체 시장 공략 본격화",
       "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1LLWdmcUJDcEM5X3BERDA2bXRuWWFJTmFtandaVmRoUmNBNGpRbXVxTi1GMmgxRFJtWHRqVU9QWnFqeVg5cUtJYTQ3T2lPQQ?oc=5",
@@ -23,115 +124,6 @@
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "'설계도' 팔던 Arm, 첫 실물 반도체 출시",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBWcFUzNHlOQlRzY25xbzVFMjlSSHoxZ1RWdFJtcDRjaUxhQzlWalRPR3BHNW95ZGhoMFBFSGoxTjhoQkJLNG5wMWdRU0pmcGVYWGo1UncxWnhEalRxSVJzYi11c3hJUQ?oc=5",
-      "pubDate": "Wed, 25 Mar 2026 04:06:35 GMT",
-      "source": "디일렉",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[데이터뉴스]美·이란 전쟁 속 반도체·승용차 수출 양호",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1Dd1ZQdTJmcFBiZFQ1UFNXZXdZVTg5MFc5eXZhOXRPZVNIZ3ZvSXBUb01yX2xSaTdzOTFyYkdMS2ZMWkpzWEdLV0FFYlBXQQ?oc=5",
-      "pubDate": "Wed, 25 Mar 2026 04:00:00 GMT",
-      "source": "전자신문",
-      "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
-      },
-      "impacts": [
-        "삼성전자",
-        "원유"
-      ]
-    },
-    {
-      "title": "번스타인 \"비트코인 바닥쳤다…연말 목표가 15만 달러 유지\"",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1XQ2FFVDl3RC1kaGRYVkV1YTNfMmo4NFBFWHEzZXlvYmF1ODVDREp1YWViSXdleGxlQ3YwUldSYW1CYktFeXdSMHkxeGxpUGE2TVZBWHR5dmZ4YjB4czVlY3RSdXItR3hHdnlWaUw0ckjSAXRBVV95cUxQVXpsajV4S0RYd1FybWlxTXZib0xiV1JDUUNOckx1UXdmSVZudXpRNmFBdFBqMXBCcmVwUmdhMFBQQzhocURFMGViR0o2ZlQ1UE5hM2Z5OFRCVndKV1NWRkE1OGs0Vl8zQ0pEZ1dlbk5UNXlETA?oc=5",
-      "pubDate": "Wed, 25 Mar 2026 03:47:47 GMT",
-      "source": "연합인포맥스",
-      "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
-      },
-      "impacts": [
-        "환율",
-        "BTC"
-      ]
-    },
-    {
-      "title": "비트코인 8만 달러? 애널리스트 \"설사 회복하더라도 낙관은 금물\"고",
-      "link": "https://news.google.com/rss/articles/CBMi1wJBVV95cUxONGpRalhaTm5CeEE5YkN4d0RwdjVCZG5XR0VtSkxMMkVjNFBZdndRT0R5MllUbHprbW5zOXhIWWJDM2NxUUFtWjVfalNIVXFGU0dQaHpQSGJ3VzFWNml3WnptX2t0eFFVdDFnOHZfNGRheFNFQW1nenlYOW5nMmdLQmh1YW9Xb2QwcFBIX2ZyUFlxUEZKRWNrdS1zMGdJZF9ya0JPaWYzanFHdHk5MjE0Q1dIcE51eTFsWWw4LVRZaVJoX2pSTEFiR0N2aExVSGsta3pNd1YteXFOY3ZiLXk3U0JhSlR0X1VRVEs1UExxNXd0U0MxSW9hOXRPeGFPc3ZiLWY2WGRhS3g0dXh0cG9SaFN3aUIwNjhWb0ZfQ3dzZUhOaG9aWGJhcGlaUHZpMFJRS1ZuR013TnBJbVBRVENwbXNQMGc5Yk1RTVhXck5ERl9CYmVBNVk4?oc=5",
-      "pubDate": "Wed, 25 Mar 2026 03:39:08 GMT",
-      "source": "Benzinga",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "환율",
-        "BTC"
-      ]
-    },
-    {
-      "title": "번스타인 \"비트코인 45% 폭락, 역사상 가장 약한 하락장…15만 달러 목표가 유지\"",
-      "link": "https://news.google.com/rss/articles/CBMizgJBVV95cUxNb1dCVGpJNThTM28wckRUWTYzZ0luLVVuVi03WTMtSWs0eHVUVHo4RDZaeWt2OHdBZ3hrRC1SeTFYdEpSU1dhamFSa3lqM0VlYzNPTHRybFAwSnVtT0ExT3pUUUtHWjdOeEdsa2FVY1pLS1k4RGZYRV9iZDlWU0xaQzlEeWJEb2JuRkpueXpCUFZ6Z2lqQW84MGVnU1dpZUt4S2tlVlUzemozd2V4R1A0bmI1WjcxM0FKMTBjWWloUGRKbmpDZEVJWlpSTFkzZVU4N0pZazl3QmstT2UxOHlaQjZlQ09ZTGpYSTJaM0xiZm9leXpjUGd5dVR2dHlUbmVHVnhSUEpHZ1FLYnQyM3RoSm9CQjZNR1FnUWktUnpMLXg5Q3QtTXJXSEhyY1pjMGVrRHFuRVNzVWZmRTJnYlBqQTd5WDM5Yy1kUjU3Wmt3?oc=5",
-      "pubDate": "Wed, 25 Mar 2026 03:27:55 GMT",
-      "source": "Benzinga",
-      "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
-      },
-      "impacts": [
-        "환율",
-        "BTC"
-      ]
-    },
-    {
-      "title": "케이엔제이, 반도체 공정 고도화 수혜로 실적 개선",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9RSjE1QVdHd2hoUmNlVnNRQ3lEQ0Fud0FTX25XUUNSWkxwektPQVRmc2tNMW03dHlrV3RZNWxIYW9Ya2NiWlI4bTFLOFhkeFJMYWp0dndjc3UwU2cwcVV0cWZxSnZBY1ZhX0E?oc=5",
-      "pubDate": "Wed, 25 Mar 2026 03:20:02 GMT",
-      "source": "더스탁(The Stock)",
-      "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "비트코인 7만1000달러 재도전…시장은 여전히 '관망세'",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBsTWVUY1FucTFyNmNjS0haNGR2ZTdqTnlLd3VEaG1ZUnRubVBaUzZfc0JZYk9vNEhoNDZzQllPdmVobVM1NVA1bFdFekhpREtPOGoxdllhZFdKNERPQzdwZWRMU3hrNkRBSjFHWWRYU1A2UGM?oc=5",
-      "pubDate": "Wed, 25 Mar 2026 03:20:00 GMT",
-      "source": "디지털투데이",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "환율",
-        "BTC"
-      ]
-    },
-    {
-      "title": "전쟁에도 늘어난 반도체 수요…삼성·SK 생산라인 확대",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE90V0d6MjEtRkVkZHdwbEZlQ0Zqa2huYVZSajN3Yl9kMnZndmxFSzBTLTlMbW1qbWtLczRHZ1FNVGIxV0JQVGFUdzVNS3EtNEtwMGxuc2hGQzRVZGFMMU1wbQ?oc=5",
-      "pubDate": "Wed, 25 Mar 2026 03:19:31 GMT",
-      "source": "뉴스토마토",
-      "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
       },
       "impacts": [
         "삼성전자"
