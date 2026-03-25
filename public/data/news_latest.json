@@ -1,7 +1,20 @@
 {
-  "timestamp": "2026-03-26T04:29:02.173612",
+  "timestamp": "2026-03-26T04:59:20.267503",
   "count": 10,
   "articles": [
+    {
+      "title": "반도체 상승… 국내 주식형 ETF 순자산 1위",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE51dkt4UXVyVXNnZktDZXRmU25keVF6SWRzVFY0V1NrcGNETGtCM21DSGFtc0h1Zm9zUGtaMzdZXy1tSDhSc3d1NXpVVUVnUEVIWHJ6XzN2RFdxZ0l1cVdoVlRvS2R6c2J1N3Nfbkx4Smxla250UVHSAWZBVV95cUxPVDg5aDZaSkcxVFRMSzJqYWNNMm1kS2RNRldfaGItX0ZCZVpYdTRxcS03VDZXaFk3NXNERjNrcVdTWVRUcGZOcFEwSVJpYWRLSFdqRWl6Ti1ET1F1UUFPNEVXSW5nVnc?oc=5",
+      "pubDate": "Wed, 25 Mar 2026 19:30:00 GMT",
+      "source": "동아일보",
+      "category": {
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
     {
       "title": "워싱턴의 휴전 제안 보도에 따라 비트코인, 7만 2천 달러까지 급등",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxObzNERUlUWm9YdnVic2l3VnlqNnVNVEtoRGdxS2pMSjdMakVicDRJOERqYmRmdF8tOFpwMTU1dVV4aGVfSDdWUzZXd19wTnc0NW5yc2VMTEI0RzFjNDJXeGFuLThfc3NtZUl1cjZqX1FPY180bU8yakZvUzZwdU9zaVY4eUtRUzdmTjBoSXBpdzkzeE96dHRHU2NHYk1NMlJKd0xvcWpheDFXZ3F3VDR3?oc=5",
@@ -12,8 +25,8 @@
         "color": "#4ecdc4"
       },
       "impacts": [
-        "환율",
-        "BTC"
+        "BTC",
+        "환율"
       ]
     },
     {
@@ -26,8 +39,8 @@
         "color": "#8b9dc3"
       },
       "impacts": [
-        "테슬라",
-        "현대차"
+        "현대차",
+        "테슬라"
       ]
     },
     {
@@ -40,8 +53,8 @@
         "color": "#ff4757"
       },
       "impacts": [
-        "NVIDIA",
-        "삼성전자"
+        "삼성전자",
+        "NVIDIA"
       ]
     },
     {
@@ -54,8 +67,8 @@
         "color": "#8b9dc3"
       },
       "impacts": [
-        "환율",
-        "삼성전자"
+        "삼성전자",
+        "환율"
       ]
     },
     {
@@ -68,8 +81,8 @@
         "color": "#a55eea"
       },
       "impacts": [
-        "원유",
-        "BTC"
+        "BTC",
+        "원유"
       ]
     },
     {
@@ -116,19 +129,6 @@
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1XU1o1S3p4eGhPeXhYNE5QRXpxTGl3Tzc1b3UwS1o4aHdZeVNPdk43RlZsc2ZIdDhncVdITnVSazFSLTdrZGpJZG00cUNGbzhQaENEdmQzMi1lQdIBVEFVX3lxTE5jRmwyVkxGak1TMmdxelNfM1dzdmJOQS1tZ3FXM3ExSTVHNXZRUXEyanREbFBUWmpNTWVNdzZLQWY4dFUyTHBnMHQ4bmhKV0x6TklfMg?oc=5",
       "pubDate": "Wed, 25 Mar 2026 16:51:00 GMT",
       "source": "한국경제",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자 주식 500억 ‘잭팟’…이세웅 평북지사 1587억 재산 1위",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE0yY253YzVzMGxyeGFQWDB4RVMtNXkwRjljYW9jRjVHYUVYUjVUUEVWOUxNQ0VtMFZRZzgyS21aUnpVWWlfYnp6cGdJakgtVVRYY2FUTkFBdUhnclpOOWJmcDZ0VmFuRFpETWx5SWpR?oc=5",
-      "pubDate": "Wed, 25 Mar 2026 16:37:00 GMT",
-      "source": "한겨레",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
