@@ -1,39 +1,104 @@
 {
-  "timestamp": "2026-03-25T16:17:04.741306",
+  "timestamp": "2026-03-25T18:17:05.074096",
   "count": 10,
   "articles": [
     {
-      "title": "작년 500대 기업 영업익 24% 급증...반도체 빼면 7% 성장 그쳐",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5ZUWd0UXBuTmpVT1hyNUk5aFRGcmNyaC1JbXVyLUF6aG5oSFZHNlZuX2xkTFl3MmxwR2hRalI5ZTduSDVpeW05V2Z1QTZoQklWUHhJemhuWXNJd2dIbUUxakZZRXVSaEN3MVE?oc=5",
-      "pubDate": "Wed, 25 Mar 2026 07:04:45 GMT",
-      "source": "금융소비자뉴스",
+      "title": "SK하이닉스, 왜 순현금 100조원 확대 카드 공개…드러난 반도체업계 '쩐의 전쟁’",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQLTIzX3A0RGhJMjRyUDQtdkIwVzN3U2hKQm9GYk90R2JXeURQcThFZEFqLVMzbWV6SlVXb3B6RlZuNy16Z0JrQ1ZMM2hMcnlmTVNiZTB2UkxFN0I4T3JiV0Z1UXVnbmZzZ2ptVGZwWjJ3NXI5ZjhKZ3BMaGdkMnU5OXczUWh1QQ?oc=5",
+      "pubDate": "Wed, 25 Mar 2026 09:00:01 GMT",
+      "source": "글로벌이코노믹",
       "category": {
-        "label": "🟢 POSITIVE",
-        "color": "#4ecdc4"
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
       },
       "impacts": [
         "삼성전자"
       ]
     },
     {
-      "title": "[단독]정부 ‘산재와의 전쟁’ 선포에도…조선·반도체 산재사망 증가",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE01d1lpUDV1R1ZqWm9zUlVaN3dFTDVQcW1mU3pUZlI0bm1WNDJBQnZyNmtLXzdnUEMxbWJfQk16eGZRWmJsY3VKbHk5WU9XT3g0bWlTeWxpdWFBMTVycDF3cVZMcV9PTjh0M0t3RkU2M0I0XzZ6QmfSAWZBVV95cUxNbjBhQzF2bDNjVG5lWk1INDJHUTBzeHB6YlVnWVRGdFM5QXVMT0Q0WEVEZjJQY3BvZXRuRzAteEhhTzZJUzlTY05WNUsyNFJfTG9oS2twQ2NGRzNnUGV6ZVAzMlplX0E?oc=5",
-      "pubDate": "Wed, 25 Mar 2026 06:57:25 GMT",
+      "title": "포스코, 광양서 희귀가스 '풀 밸류체인' 완성…국내 반도체 절반 공급",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE95R0dGWnNweS16SjhPNWZrenJCdmx0c2xucEVCRFp5aHZZTTNfdmhGeEJnZmlyUEd3bXNGaDJ2Zk52M3paWGN6NndKblZFVDJmaXkyR0ZzN3pJM1dEM2JHVUtXSDhWQVd1M0s4d3JJSDY?oc=5",
+      "pubDate": "Wed, 25 Mar 2026 08:59:29 GMT",
+      "source": "신아일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "대전화재에 현대차그룹 생산 차질…기아 화성 엔진공장 27일 중단",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBxcFZ3MGgxdVU4dHFZM1E1T0tBdkRPczltQVlSR3lsX2tVM3FpYy0wSnJkM1VoQzdMRS1kd2N3aV9NaWxHWU1wT1JKYUFTUXVRU0dMcnRReHVmcEk?oc=5",
+      "pubDate": "Wed, 25 Mar 2026 08:39:00 GMT",
+      "source": "KBS 뉴스",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "SK스퀘어, 3100억원 규모 주주환원 정책 실시···\"AI·반도체 호실적 영향\"",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9keEJrckZ3Y0JJS012Yk04a1FyZUtyTXd3LXFuVUxnXzBqTUdTV3lnN3FPamlVRU5aU1F2ZVlMSUtHNzN6LXlEV2pwWHBkTURZb2xJUkh4S19UbWtROWJHdi1tNXFxZG9IVEE?oc=5",
+      "pubDate": "Wed, 25 Mar 2026 08:30:34 GMT",
+      "source": "서울파이낸스",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "관세청, 중부권 반도체산업 육성 및 수출지원 확대",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5MYVFiZlNJZ3liN1NxdUpfNEZhbWdUTkFFWHBhRGFsbzRlMFA1Vk5MMTBQRUlPMmJGZW9mOUFkRDV2ZEs0WmNMT1V3ODZFMVRhblRtVWlsV2dZaGoxb21sNmtQck1uV0QzblBlZQ?oc=5",
+      "pubDate": "Wed, 25 Mar 2026 08:26:29 GMT",
+      "source": "조세플러스",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "SK하이닉스, 美 ADR 상장 승부수…AI 반도체 '자금 전쟁' 본격화",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9qTmlEZ0l1UmZfaWFFQjBSSl9LaVNhQ0JyeU03M3A2WG9KRG9Na2w1a09zaUlVbWJ6dmtiZWdIT1luamhqZ3MxTEhvNDZqVlhpY1BtXzlaY3VXQW45bUFXLWdLVHZCaGNlOFhLN3dwd3LSAXRBVV95cUxOTDJMbkJvby1mcmJ5TjZ5b0ZudllpdV91R0xsSFRDS3dLWjNqakNmY1cwQndEY0E3blhvcGNON3Jpel9UbHZRZUpKeFEyNVdZRVVyUTc3aEFUNTI4cUdNX2lRam1xWUloQllPbmJBWWZTMVYzMA?oc=5",
+      "pubDate": "Wed, 25 Mar 2026 08:26:04 GMT",
+      "source": "포인트데일리",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "반도체 설계기업 ARM…자체 AI 칩 처음 내놨다",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1aRWZVb3N6emRVcGJXWThydGFKZ1V5b1VZMzBaNm1rbkpoSGlJRnJMazlEX2dlOWdXN05nbEFjeWYwNlRSLUh6WTlDSEdVSWpib0Y2b3p0RjU1d9IBVEFVX3lxTE1hTDRxTlVJSnFIcUJqT1Q4Z0RUS2x6Z0wwVkR5bG5ZXzZnSnluakQxdHZOb0VqZTMyd1lucVJDV1FvTmlSUnZBSmVhRkdodzhBYXF4OQ?oc=5",
+      "pubDate": "Wed, 25 Mar 2026 08:24:16 GMT",
+      "source": "한국경제",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "코스피 랠리에…ETF 수익률 1~5위는 국내 원자력-반도체",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE40QnphS0t3VFYzbi1fNzVrc1RENHlHWTJsTmpZNDVNZFhDOTdCMEVLTWN3ZmROWU9EQ25PNUhrV0lWdldIZ1RPclBHLW5RamFSckZPSEt1b2tFcF91X1RDMmRsUWZRNWIwODVXOGpEamxneFAwVVHSAWZBVV95cUxNbkdBNWt5SjF6OFAxd2ZtOEJsQkt2UHFQTk9mT2lxNExGZVYzcllPZFkxUm84azhMcXdObXhMeVlLMGZKSGFLWW5XZzFTck16STg0SGdvQXJOZWRKRVBFSG5XSlpmWGc?oc=5",
+      "pubDate": "Wed, 25 Mar 2026 08:23:14 GMT",
       "source": "동아일보",
       "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자, 2026년형 TV·모니터 '녹스' 보안 국제 인증",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5rRGM5Nmtaa2tvUnZzNnlGbktpR3A4VzIxYWtHMjRzOEtzRHFONTFJMTFxbFNlOGdlVi00eHVQaFBrNVdQTU1vOTJiMmpfYkZjcjhVNWQyYjZFZnBqckg4VkN1UmFyZw?oc=5",
-      "pubDate": "Wed, 25 Mar 2026 06:56:33 GMT",
-      "source": "디일렉",
-      "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
@@ -42,97 +107,30 @@
       ]
     },
     {
-      "title": "[IB토마토](단독)삼성전자, 해외 기술지분 대거 정리…스타트업 투자전략 재편",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5TejM3T2lIZTJ0eHJiVDUwNGpSZ2RLaEd2V0VadlBFZEwwc0JBOEh4c2ZYajlkWkJ0dHpDMFgzZUVqQ3RaaEJpMnZQUEtXeVhzaTg1VTQ5SVhDZ1c5WkoxVg?oc=5",
-      "pubDate": "Wed, 25 Mar 2026 06:55:00 GMT",
-      "source": "뉴스토마토",
+      "title": "BTQ테크놀로지, `BIP 360` 최초 구현 성공…양자 보안 비트코인 인프라 현실화",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9lT2QwMVRWWTIzV1NVaEhjQUt5ZF9PT0xjdHItcHhyaHlETUpIYTZYRWNTOXRJSVZ3ZVFwTEJROXhweXRZQ201ZExOWWpBZmxDVFBfdVFLTjkwclMtX1VKbFlERnE?oc=5",
+      "pubDate": "Wed, 25 Mar 2026 08:15:23 GMT",
+      "source": "디지털데일리",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "차에서 집안가전 제어…현대차·기아, 삼성전자와 ‘카투홈’ 개시",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE42ZmJOajkwc3dtRWRWWVhjanpWSDcxcXc4V1ZRMzVhWFZsd044cmVwNU5tVHlTcWRmUVBWalR1ZGZZUlhtU3ZKNk1jcHVjM0RXUGlNYnJfajNIc0RVVkNIdzZvTHBMaElQaU12c9IBcEFVX3lxTFB2eWVyYnlVWEtkTDBWZ1R3WTY4UDI3TEVjYWhubk1LZ0JNZEJNR1RZRnlBaU9udGUwTDhSdktnZVFXNE5iZ2FxS1dPeEJyUENuWm51dlRZR3ZiY1QwT18wTTJIc1gwQ0dINVltMWQtb2E?oc=5",
+      "pubDate": "Wed, 25 Mar 2026 08:15:03 GMT",
+      "source": "남도일보",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
+        "현대차",
         "삼성전자"
-      ]
-    },
-    {
-      "title": "반도체 설계도 제공하던 ‘ARM’, 첫 자체 칩 출시",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPdFdtdUxkOXNTRzR5b0hYQWp1b1dRR0w3cTdIanB4TFFMYmdWWGh5eGV3OGFIX2lveWxHNFdWeE00TDVka0YtU1ExVTEtc3ZidVp4bWZTZGwtekVLN3d0RF8xSW9BOXEybkRici1MYXRUd3BJN1pZdGJTZ3phekZmZ0U0RdIBlwFBVV95cUxPZmhRQTFxVmtPeUtHNXdZdDZFeWJXcE5qeEZGU1hoX1QwbkxmQ1U3MTBGRk9OTExDYWU5TXVGcnlILVlKNV9WTkJ2Y3NlTGtHanpNVjV2U2V2OTlPSmNOWjNtYWpKendJWkc2NVpkNDktSnJ3OXBFTnZhVmtld3hxUWRtT1FYaXFkVU9BZWdxQzFpNFFENURj?oc=5",
-      "pubDate": "Wed, 25 Mar 2026 06:48:00 GMT",
-      "source": "조선일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "충북 상장사 엔켐·아이티엠반도체 나란히 ‘상한가’",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5JT2dMLVBMVlRtZ3V4dVlVOEY0bzJSazdWRkh6SlBiY2VkMjIzMGRpNFdQRDJnM1kyMHFFSGszdlQzN2djUVpWajgzOVczaklVYnpQWFZpaFFxRmJScEhzS2J5YkRQUGdvM3fSAW5BVV95cUxOMDhCWTJvUXA1YTZUOVc5c0RDanhvblRvbnlTbWtrLTNHRFdsX3BzVkpQWFZpN2d2eERGWGs1ck5FN1FmakxObDVUNnNKeW4tN21nNW9GWWZOMzZxNEhFWDBHRG51elBnaVpJTnVYQQ?oc=5",
-      "pubDate": "Wed, 25 Mar 2026 06:47:42 GMT",
-      "source": "중부매일",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "이란 전쟁은 SK하이닉스 삼성전자 HBM에 악재, \"생산과 수요 모두 타격\"",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE01MTN0OGpLREI3b08tNEpySExtX3RSSWVHc3NmR2xVajRvSVNCdmVzbVVJSlV0akhmWWVtMlctYWdCOGRoVjdqaHRwNXhjQmo1TWN1NzBURGtnOFpQb3JNejRWWER4bXJGY21mN2RRWlQzT1k?oc=5",
-      "pubDate": "Wed, 25 Mar 2026 06:46:22 GMT",
-      "source": "비즈니스포스트",
-      "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
-      },
-      "impacts": [
-        "삼성전자",
-        "원유"
-      ]
-    },
-    {
-      "title": "한미반도체, 상하이서 AI 반도체 패키징 새 장비 공개",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9tU3I2empaZzBXNkdDeThEQkJXWGdkZlZ2MjFueFdpLUdLX1U4SjYwUnlPMTlmQjBId0NjX2p6UFFkb0h1R1A0cVNHdlZRb29XVTh2Sk4zQnZDZFJmMWxDZg?oc=5",
-      "pubDate": "Wed, 25 Mar 2026 06:43:12 GMT",
-      "source": "뉴스토마토",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "한미반도체, 중국 반도체 전시회서 2.5D TC 본더 첫 공개",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5icHNhSE1EbUJuRXFrcUFNQTQ0bVIxNlRXVFBjeUFUal9mQ1VOZ2ozZk9ubDdQVE96ZTEta3poT3VWZWU5ckZ5eW9SV05pdw?oc=5",
-      "pubDate": "Wed, 25 Mar 2026 06:41:17 GMT",
-      "source": "전자신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "비트코인 오늘 시세: 이란 전쟁 관련 엇갈린 신호 속 7만 1천 달러 상회",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5fbnFSZnh5TWREQkJoQzloaGVBMW5FbHduRHRGSGhVenlKNE5lSjI4SjlLeWpDTjd6QUMxQVI2M05DVlE0ZlF3VnNJX0ZRMC1SUHIwRVpETUFaLS1LVzFjMlNJNVctTjRRNjE4YnRPQTBhTkk?oc=5",
-      "pubDate": "Wed, 25 Mar 2026 06:35:00 GMT",
-      "source": "Investing.com 한국어",
-      "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
-      },
-      "impacts": [
-        "BTC",
-        "원유",
-        "환율"
       ]
     }
   ]
