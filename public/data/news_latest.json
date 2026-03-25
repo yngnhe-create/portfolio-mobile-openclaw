@@ -1,7 +1,34 @@
 {
-  "timestamp": "2026-03-25T12:17:05.011033",
+  "timestamp": "2026-03-25T12:24:07.429943",
   "count": 10,
   "articles": [
+    {
+      "title": "전쟁에도 늘어난 반도체 수요…삼성·SK 생산라인 확대",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE90V0d6MjEtRkVkZHdwbEZlQ0Zqa2huYVZSajN3Yl9kMnZndmxFSzBTLTlMbW1qbWtLczRHZ1FNVGIxV0JQVGFUdzVNS3EtNEtwMGxuc2hGQzRVZGFMMU1wbQ?oc=5",
+      "pubDate": "Wed, 25 Mar 2026 03:19:31 GMT",
+      "source": "뉴스토마토",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "평양서도 현대차·테슬라 달리나…“평양 전기차 엑스포 2027년 추진”",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBaNXN4cGhwY0JSNzZKeXQ4d3N0QjVPMHUtRzdkLXdpUk1HaUVUMWFHNUVhRng1dUo1cm11U0RrU0dSM1RQZjJaYldvZ1BqaVdfMXUzZGpMYUhlTkJvaElJ?oc=5",
+      "pubDate": "Wed, 25 Mar 2026 03:16:04 GMT",
+      "source": "뉴스토마토",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차",
+        "테슬라"
+      ]
+    },
     {
       "title": "일론 머스크 테라팹 투자는 삼성전자 TSMC에 '경고' 분석, 반도체 공급부족 심화 예고",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE55b04xZ2VFcFFKOXhNUHNGRUZvQkZHc2o0aDZwWmFENGhlMVVwcVZmcXpqNFVfaXl3blp3cWlTVm1GSVJSOTBfalN5TVl4Uzc1bXc0aXd0TkloSGh6X01WNDh5WjBoa2dtQ1RhUTZtZXg4MG8?oc=5",
@@ -103,35 +130,8 @@
         "color": "#8b9dc3"
       },
       "impacts": [
-        "테슬라",
-        "현대차"
-      ]
-    },
-    {
-      "title": "삼성전자 \"TV는 허브\"…1억명 묶은 'TV 플러스' 전면에",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8zTV8zQWU4cjMxMzI0c3dIWWRUT0t6dHdqZ2FqS1RZa0tqZ2R2OGZOR2JMZVYyWlZ1eXVveEJCTTl6bTdWSXdQdVktWFp3NW8?oc=5",
-      "pubDate": "Wed, 25 Mar 2026 02:25:01 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "비트코인, 日 금리 인상 때마다 20% 급락···\"추가 인상설에 또 떨고 있다\"",
-      "link": "https://news.google.com/rss/articles/CBMitgJBVV95cUxPZE9ER0hvYVdGZEhZZi1wYm4ydmJTb3RaUmJTNGhCS09lRGhwRjk0dlRBU2M1YWZHdDVjQkVpa2Fna1YydFpMZjhid3g4WG03V2hlNmVhamJDV1VsTEkxQlo5YUpPVjBCU3dxZjIzOF92YnJFRzdvakcwdHlJUl82WnhUd1VtMS1OazJGWnk4Y0FzdmFqR1o0ZGpqTW9xc2RHc0lfa0pSZVNOTGgwSlZYM0hwRU1DRjJ2emtScktzLW9ibTduRkRvX3g2d21xZHVoaV9GU1ZTX2dDaGhwcnJJWndQbkgzdnhTRkJZOUtFTE53TDY4YTQ1Z042VnljVkZEX0lLRzBITkprQmZqN3BxQkVNT19mYUFwOGtFcF9xZlN6eXRNODRTSjN4OHJjY280N0tBNHln?oc=5",
-      "pubDate": "Wed, 25 Mar 2026 02:18:27 GMT",
-      "source": "Benzinga",
-      "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
-      },
-      "impacts": [
-        "채권",
-        "BTC"
+        "현대차",
+        "테슬라"
       ]
     }
   ]
