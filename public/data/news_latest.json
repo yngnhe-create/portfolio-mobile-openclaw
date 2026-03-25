@@ -1,17 +1,86 @@
 {
-  "timestamp": "2026-03-25T13:55:07.653764",
+  "timestamp": "2026-03-25T14:17:04.857692",
   "count": 10,
   "articles": [
     {
-      "title": "대기업 영업이익 24% 올랐지만…‘반도체 투톱’ 빼면 7.3% 그쳐",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE82RzNhMFRPVGloZnljeU5VWGxPa3E2TEdNcC04MWwxelF2bUNtNUtWVVNKdS1PTXctYlZxM3RfNElySFVLNS1uTkRCUjNLVFRoRlF1eFNGdkhiYjE4cDk0d2JPOGtrQ1VpaHc?oc=5",
-      "pubDate": "Wed, 25 Mar 2026 04:52:00 GMT",
-      "source": "한겨레",
+      "title": "호르무즈 해협 물류 흐름이 정상화되면 비트코인 가격 7만 6천 달러까지 상승할 전망: 윈터뮤트",
+      "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNckN5Tk1KaWtUaGNMN04td3V3WnNPXzd2OEVzWDRfcXBCUzZMOGdiZWFxc0Rra2ZUZVRldEdZZ0M1RHVnR2ZicThsY19QelhUeWkwWW1paWVNN0JaNEJkTmVtQWhWc1JQNWlqMnp1TXU2MXY3S2J3cTZiaXN1OGFQMktjNDBpS1U0OHpvQmw5dFlkLTR4RVo4VWVJbC1uZHJVSkpFTUxqZmJBQXkydU1KdHVHeC1tbDNwVGs1eUYzN3VobWRHV056V0dLZEVwNE1KVW11OUJtZVBRN1lnS2NRd2hsaWkyeWxFT08wWXpsTmdLc2xfZXc?oc=5",
+      "pubDate": "Wed, 25 Mar 2026 05:06:20 GMT",
+      "source": "Bitcoin.com News",
       "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
       },
       "impacts": [
+        "환율",
+        "원유",
+        "BTC"
+      ]
+    },
+    {
+      "title": "고금리 한파 뚫은 현대차, 신용등급 '트리플 A' 배경은",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5JOEpiMjFpbWZ5bTRtQTI2T19xWTJKUVRxNXpOUVUwQW5Vd18ybGdlOEVpOWZTdXRtRG02WVp4OVdhUFlPMkctTEhsZ2NidEc3OFJHa1FqSlNWdDJnTVNGNFRYdUswV01q0gFsQVVfeXFMUHJSWG1YLXFpdkhMalJwdGZxX1ZpdE4wT0V6ZllMVlljVy0tTDJRMU1HS0Rndm5iaHRyNWhYeHc3bnVnWUpHLU13X1MyUGduejhIVVN2VExvTk1IMGpDb2RaNVZ6S2Nad0dOMUFi?oc=5",
+      "pubDate": "Wed, 25 Mar 2026 05:05:40 GMT",
+      "source": "블로터",
+      "category": {
+        "label": "🔵 MACRO",
+        "color": "#0984e3"
+      },
+      "impacts": [
+        "채권",
+        "현대차"
+      ]
+    },
+    {
+      "title": "삼성전자, 스마트 모니터 보안 인증 확보…개인정보 보호 경쟁력 강화",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNVGR6NnVkUnpkanRFX3gyLUtqM1RFSC1xd2R6bmZpc01KQ0ZXU2dNNkVIaHFnWUpZeXN2UXdUWXhYRUlPV1VRMDg2OE82VlZTRkdIeFM2emI1R19haFUtTzdTR3IydVZadXJuMklXVlBHejB3ZXJKSDRZQTV4MGlvTjlQUC01UQ?oc=5",
+      "pubDate": "Wed, 25 Mar 2026 05:03:49 GMT",
+      "source": "글로벌이코노믹",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "한미반도체, ‘세미콘 차이나’에서 AI 반도체용 새 장비 선봬",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBIb3NhekpoTlJXYnQtcndjZHktSFZPaHZENmpzck1SbFZ1clpxeHB5QnBnVkN4UnhPcjE3R2VhUkpGaDl4UGJTWEs5YUJTR1Ux?oc=5",
+      "pubDate": "Wed, 25 Mar 2026 05:03:29 GMT",
+      "source": "문화일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "500대 기업 영업익 24% 늘었지만…‘반도체 투톱’ 빼면 7.3% 그쳐",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE82RzNhMFRPVGloZnljeU5VWGxPa3E2TEdNcC04MWwxelF2bUNtNUtWVVNKdS1PTXctYlZxM3RfNElySFVLNS1uTkRCUjNLVFRoRlF1eFNGdkhiYjE4cDk0d2JPOGtrQ1VpaHc?oc=5",
+      "pubDate": "Wed, 25 Mar 2026 04:57:00 GMT",
+      "source": "한겨레",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "이재용 삼성전자 회장, 중동 체류 임직원과 가족에 '최신 폰·노트북' 선물",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBLWVg5dEZSNUFFbjhaSEttVUFicEtST0p5R0h6V1JoUXU2WWNXNGJyVi1pVGJ5SEw5S2thZHZXLTJURkJFMXRPTHVrVVBpZw?oc=5",
+      "pubDate": "Wed, 25 Mar 2026 04:51:07 GMT",
+      "source": "전자신문",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "원유",
         "삼성전자"
       ]
     },
@@ -39,7 +108,7 @@
     },
     {
       "title": "최태원의 미 ADR 상장 ‘승부수’…반도체 패권 ‘정조준’",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1jNDRCNVhhTEI0b2M0NEdFcFRZdzQtMWFycVNDOUFGSXFwSURCYm5wZjJDaDU4VElkVU5RcVRVZEdQcHZncmFQSFNiOHFrUVc0cWxkZWFPWlhQMkxoTmow?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE15YjJHMUcyU2hMZFdjMV8wak9UZTV2azBheGJaQUExOFRpamhzeHc5NkMxb3BsYm5Sby1JOTN1aEd6WGJqN1VJbGtueFlENHdiLURhZjNVUlFYaTlXZVFmQw?oc=5",
       "pubDate": "Wed, 25 Mar 2026 04:38:37 GMT",
       "source": "뉴스토마토",
       "category": {
@@ -58,72 +127,6 @@
       "category": {
         "label": "🟡 MARKET",
         "color": "#f9ca24"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "현대차·테슬라 북한땅 달릴까…평양 국제 전기차 엑스포 추진",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1sOThuanZuMWhLR2ljRldnSmVrblc4SjJEdEJ2c2poVTZwU0Zid2F4TWFkVndFdS1NSkxvandlV3ZQdlFyQllaQTRiQnlwSDQ?oc=5",
-      "pubDate": "Wed, 25 Mar 2026 04:35:02 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차",
-        "테슬라"
-      ]
-    },
-    {
-      "title": "ISC, 세미콘 차이나 2026 참가…AI 반도체 테스트 솔루션으로 중국 공략 강화",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE93R25Bdk9sSERiSkZnOFBKVlFpWm1tUnJ0QzJXUXBwamFua3RfUzdjem5FSWZYUERyOEhHUTJ2a2FTcXQ1eUcwR2Z1R1JfYUNYdWhIMzN1LTJmdTM0ZmVIR2Z5c1BWN1FmVW56UA?oc=5",
-      "pubDate": "Wed, 25 Mar 2026 04:30:16 GMT",
-      "source": "뉴스탭",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "반도체 특수에 대기업 영업익 24% ‘껑충’…하이닉스·삼성 빼면 7%, ‘찔끔’ 착시효과",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8xcUZXeWoxLVZPRGpKZWliRGFtM0RINEF5UXdYOENuQkMwOTFJVnNUUmN4V0l0bzVfZWdydzZXQ19zZkZXVjB0OXFGQzVkVjU4V05MS0Q0ekI2M1lORmhPUjdHVWVtRXlq?oc=5",
-      "pubDate": "Wed, 25 Mar 2026 04:25:00 GMT",
-      "source": "테크월드뉴스",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "오킨스전자, 'SEMICON China 2026' 참가…글로벌 반도체 시장 공략 본격화",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1LLWdmcUJDcEM5X3BERDA2bXRuWWFJTmFtandaVmRoUmNBNGpRbXVxTi1GMmgxRFJtWHRqVU9QWnFqeVg5cUtJYTQ3T2lPQQ?oc=5",
-      "pubDate": "Wed, 25 Mar 2026 04:16:04 GMT",
-      "source": "전자신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[ 이슈 진단]삼성전자 노조, 글로벌 반도체 경쟁에서 뒷다리 잡지말아야",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1YenR1ZlRmLVRLQzJoOUpIaGpRbEN6ZmJZcVI4X0dDWnI1d0hWeExmS1RNeHNmWlNDLU9vX0lHRjRhb3NFYTNBSFZjaGNSR2RUT1BKaHBMWVV4QzBvLWJrdHRKUUszYzlPTk5sRdIBb0FVX3lxTFBEaE5yWDd6Nm9UYjdhYWJ4VEVTS1NBMm1HZ2ZvR0N2ckJKRlFpYXNqTGE0blNUSTJmSHNNRU9lWDJUdzVDUlpKMDlVM1JTTENYNUlwU3Q5MDdsQ1gwc1JfeFQ3dW9vaFNibFlfVXczbw?oc=5",
-      "pubDate": "Wed, 25 Mar 2026 04:13:24 GMT",
-      "source": "한스경제",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
       },
       "impacts": [
         "삼성전자"
