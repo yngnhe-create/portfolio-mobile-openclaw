@@ -135,7 +135,7 @@ body.masked .si-val,body.masked .hm-cell .pct,body.masked .hm-cell .weight,body.
   <div class="vtab" onclick="setView('flat')">전체 종목</div>
   <div class="vtab" onclick="setView('gain')">수익률순</div>
   <div class="vtab" onclick="setView('summary')">섹터 요약</div>
-  <div class="mode-pill"><div class="mp on" id="mpDaily" onclick="setMode('daily')">당일</div><div class="mp" id="mpTotal" onclick="setMode('total')">총수익</div></div>
+  <div class="mode-pill"><div class="mp" id="mpDaily" onclick="setMode('daily')">당일</div><div class="mp on" id="mpTotal" onclick="setMode('total')">총수익</div></div>
 </div>
 <div class="fetch-bar" id="fetchBar" style="display:none">실시간 시세 로딩 중...</div>
 <div class="summary" id="summaryBar">
@@ -149,7 +149,7 @@ body.masked .si-val,body.masked .hm-cell .pct,body.masked .hm-cell .weight,body.
   <div class="legend-bar"></div>
   <span>수익</span>
 </div>
-<div class="legend-labels" id="legendLabels"><span>-5%</span><span>-2%</span><span>0%</span><span>+2%</span><span>+5%+</span></div>
+<div class="legend-labels" id="legendLabels"><span>-30%</span><span>-15%</span><span>0%</span><span>+50%</span><span>+100%+</span></div>
 <div id="content"><div class="loading"><div class="spin"></div><br>포트폴리오 로딩 중...</div></div>
 
 <div class="modal-overlay" id="modal" onclick="closeModal(event)">
@@ -263,7 +263,7 @@ function getColor(pct) {
 let ASSETS = [];
 let USDKRW = 1450;
 let currentView = 'sector';
-let displayMode = 'daily';
+let displayMode = 'total';
 const dailyChgMap = {};
 
 const PROXY = url => `/api/proxy?url=${encodeURIComponent(url)}`;
@@ -350,7 +350,8 @@ function getDisplayPct(a) {
   if (displayMode === 'daily') {
     const dc = dailyChgMap[a.name];
     if (dc) return { pct: dc.pct, live: true };
-    return { pct: 0, live: false };
+    // Fallback: show total return color instead of grey
+    return { pct: a.gainPct, live: true, fallback: true };
   }
   return { pct: a.gainPct, live: true };
 }
