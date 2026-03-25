@@ -1,7 +1,60 @@
 {
-  "timestamp": "2026-03-25T12:54:27.750340",
+  "timestamp": "2026-03-25T13:24:45.780560",
   "count": 10,
   "articles": [
+    {
+      "title": "오킨스전자, 'SEMICON China 2026' 참가…글로벌 반도체 시장 공략 본격화",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1LLWdmcUJDcEM5X3BERDA2bXRuWWFJTmFtandaVmRoUmNBNGpRbXVxTi1GMmgxRFJtWHRqVU9QWnFqeVg5cUtJYTQ3T2lPQQ?oc=5",
+      "pubDate": "Wed, 25 Mar 2026 04:16:04 GMT",
+      "source": "전자신문",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[ 이슈 진단]삼성전자 노조, 글로벌 반도체 경쟁에서 뒷다리 잡지말아야",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1YenR1ZlRmLVRLQzJoOUpIaGpRbEN6ZmJZcVI4X0dDWnI1d0hWeExmS1RNeHNmWlNDLU9vX0lHRjRhb3NFYTNBSFZjaGNSR2RUT1BKaHBMWVV4QzBvLWJrdHRKUUszYzlPTk5sRdIBb0FVX3lxTFBEaE5yWDd6Nm9UYjdhYWJ4VEVTS1NBMm1HZ2ZvR0N2ckJKRlFpYXNqTGE0blNUSTJmSHNNRU9lWDJUdzVDUlpKMDlVM1JTTENYNUlwU3Q5MDdsQ1gwc1JfeFQ3dW9vaFNibFlfVXczbw?oc=5",
+      "pubDate": "Wed, 25 Mar 2026 04:13:24 GMT",
+      "source": "한스경제",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "'설계도' 팔던 Arm, 첫 실물 반도체 출시",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBWcFUzNHlOQlRzY25xbzVFMjlSSHoxZ1RWdFJtcDRjaUxhQzlWalRPR3BHNW95ZGhoMFBFSGoxTjhoQkJLNG5wMWdRU0pmcGVYWGo1UncxWnhEalRxSVJzYi11c3hJUQ?oc=5",
+      "pubDate": "Wed, 25 Mar 2026 04:06:35 GMT",
+      "source": "디일렉",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[데이터뉴스]美·이란 전쟁 속 반도체·승용차 수출 양호",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1Dd1ZQdTJmcFBiZFQ1UFNXZXdZVTg5MFc5eXZhOXRPZVNIZ3ZvSXBUb01yX2xSaTdzOTFyYkdMS2ZMWkpzWEdLV0FFYlBXQQ?oc=5",
+      "pubDate": "Wed, 25 Mar 2026 04:00:00 GMT",
+      "source": "전자신문",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "삼성전자",
+        "원유"
+      ]
+    },
     {
       "title": "번스타인 \"비트코인 바닥쳤다…연말 목표가 15만 달러 유지\"",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1XQ2FFVDl3RC1kaGRYVkV1YTNfMmo4NFBFWHEzZXlvYmF1ODVDREp1YWViSXdleGxlQ3YwUldSYW1CYktFeXdSMHkxeGxpUGE2TVZBWHR5dmZ4YjB4czVlY3RSdXItR3hHdnlWaUw0ckjSAXRBVV95cUxQVXpsajV4S0RYd1FybWlxTXZib0xiV1JDUUNOckx1UXdmSVZudXpRNmFBdFBqMXBCcmVwUmdhMFBQQzhocURFMGViR0o2ZlQ1UE5hM2Z5OFRCVndKV1NWRkE1OGs0Vl8zQ0pEZ1dlbk5UNXlETA?oc=5",
@@ -12,8 +65,8 @@
         "color": "#f9ca24"
       },
       "impacts": [
-        "BTC",
-        "환율"
+        "환율",
+        "BTC"
       ]
     },
     {
@@ -26,8 +79,8 @@
         "color": "#a55eea"
       },
       "impacts": [
-        "BTC",
-        "환율"
+        "환율",
+        "BTC"
       ]
     },
     {
@@ -40,8 +93,8 @@
         "color": "#ff4757"
       },
       "impacts": [
-        "BTC",
-        "환율"
+        "환율",
+        "BTC"
       ]
     },
     {
@@ -67,8 +120,8 @@
         "color": "#a55eea"
       },
       "impacts": [
-        "BTC",
-        "환율"
+        "환율",
+        "BTC"
       ]
     },
     {
@@ -79,58 +132,6 @@
       "category": {
         "label": "🔴 HIGH IMPACT",
         "color": "#ff4757"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "“삼성전자 넘어섰다”…국내 영업이익 1위 ‘이 기업’",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5QakdBS2wzU0ZnclZueU9kSGo4X2dxaFZXR0FpQWdaWTl6c3ZydUVHQ1lsWHZZRGJTbjh4M0lUalRmVFg0R01GamE5S0hMaTQ?oc=5",
-      "pubDate": "Wed, 25 Mar 2026 03:06:02 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "비트코인 18% 하락에 가상자산 거래·수익 동반 감소",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE44amV2U0RpQjdpOWt3bmg4OVpwSzM1NzNPSW9USFU0S2hvdnFLNkVUb0Vpd1ozdHE5ZnJTek92blhHODdDSHNfbXo2eGhxYTA?oc=5",
-      "pubDate": "Wed, 25 Mar 2026 03:02:37 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "일론 머스크 테라팹 투자는 삼성전자 TSMC에 '경고' 분석, 반도체 공급부족 심화 예고",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE55b04xZ2VFcFFKOXhNUHNGRUZvQkZHc2o0aDZwWmFENGhlMVVwcVZmcXpqNFVfaXl3blp3cWlTVm1GSVJSOTBfalN5TVl4Uzc1bXc0aXd0TkloSGh6X01WNDh5WjBoa2dtQ1RhUTZtZXg4MG8?oc=5",
-      "pubDate": "Wed, 25 Mar 2026 03:00:42 GMT",
-      "source": "비즈니스포스트",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자, ‘삼성 녹스’ 모니터까지 CC 인증 획득…디스플레이 보안 확대",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9vb0hBOGN2VTdfcnRyc3BDby1TaFlJcEh1M2dtSU5mOTRxT0NEX0FISHIyb003UWlscEJXQlh5dVYySzZaVkkxVVdmU2hZRzFLTURKbDJ3QkQ5VWlkcVM0QWVyNzBSYjlScnI3cllfRDA?oc=5",
-      "pubDate": "Wed, 25 Mar 2026 02:55:46 GMT",
-      "source": "Korea IT Times",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
       },
       "impacts": [
         "삼성전자"
