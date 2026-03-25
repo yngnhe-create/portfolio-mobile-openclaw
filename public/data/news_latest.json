@@ -1,7 +1,33 @@
 {
-  "timestamp": "2026-03-25T10:17:04.831931",
+  "timestamp": "2026-03-25T10:22:45.268429",
   "count": 10,
   "articles": [
+    {
+      "title": "삼성전자, 스마트 모니터 CC 인증 획득…보안 경쟁력 강화 배경은",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE54b3dWay1CRE5WYzNoV1N1VlNmNXd4S09oVERVeXVyQjk5SWZLU3p1WDIzelhEaUhESTdTMjFaVHhEZmJoZmpJdXIzbXQ2dk9hWjVobW04aW1mZw?oc=5",
+      "pubDate": "Wed, 25 Mar 2026 01:19:35 GMT",
+      "source": "fetv.co.kr",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전자, 스마트 모니터 CC 인증 획득",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBlMjV6cmFLOVlubUJzZUFPRlJmUGc1ZDB0VFZKMHpiMjFkT09JNG4tQkVETlo3NFJUNWpPWEFkVDFNVlBQb3dyajM5SXZaNHlaNEgtYVF0Q0YtTWdnVFZoNThFNHVFZw?oc=5",
+      "pubDate": "Wed, 25 Mar 2026 01:18:02 GMT",
+      "source": "wsobi.com",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
     {
       "title": "전북도, 현대차 9조원 투자 지원 전담조직 가동",
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5JdHpxeklIczNWYkZnWGg1TEJ3NExYMzVmQ19YVUtmcldXdm16M1ZlYldBTHFVMjZIMFlpeFJRaDZ2T0htYTR5X0NveTZzcnhvMmRzVkRSVmg4ejBpM0RwbmdDV2V3QXlGYU84?oc=5",
@@ -13,19 +39,6 @@
       },
       "impacts": [
         "현대차"
-      ]
-    },
-    {
-      "title": "TSMC 생산능력 한계, 2026년 AI반도체 공급망 ‘비상’",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5LM3ZTQnd2YllXaFhIQlZvMmF6UzNkalpGbkd1NU5mSHprQm9FRm9kX090Tlo5TzRqWmN1dEs2OHBwSjBpU0RSdlU1VnByVHBiU0FVTE5ROXJRTGEzdTRWNU9qV2UxOUdXdVlxdmpPMVdlZTlu?oc=5",
-      "pubDate": "Wed, 25 Mar 2026 01:12:56 GMT",
-      "source": "조세일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
       ]
     },
     {
@@ -116,22 +129,9 @@
         "color": "#a55eea"
       },
       "impacts": [
-        "환율",
         "원유",
-        "BTC"
-      ]
-    },
-    {
-      "title": "삼성전자, 스마트 모니터 업계 최초 ‘CC 인증’ 획득",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBpbzhQSG9fd041TVJWbVdBTE5xaHAzM1BPanZwNmVZNkRyZnZtZFdob0Vjamw4bXM1VnBZbzZTeC1ucWp6ZjA4NkJKcUlFZGlMdHVLWVJ2TDk2aGZfQk03S1k4QlkwUFQtQkRQVw?oc=5",
-      "pubDate": "Wed, 25 Mar 2026 00:59:47 GMT",
-      "source": "투데이에너지",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
+        "BTC",
+        "환율"
       ]
     }
   ]
