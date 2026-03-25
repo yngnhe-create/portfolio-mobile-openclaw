@@ -1,7 +1,20 @@
 {
-  "timestamp": "2026-03-26T02:28:21.111445",
+  "timestamp": "2026-03-26T02:58:40.397377",
   "count": 10,
   "articles": [
+    {
+      "title": "비트코인 옵션 하방 수요 사상 최고치 기록",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1fUHZVV0VNejFmX25mSXlOUzdRTEhoTE9BVjctbFNZTmxKaWllU2ZQTHFDSTE1a1pCSTVMUVA5RGlidG1LRXdETWZLN1E3OTI3Z0VEOXVvZ2FtRXFxM0Z5UlJiaWVmeEJkdDUweQ?oc=5",
+      "pubDate": "Wed, 25 Mar 2026 17:43:35 GMT",
+      "source": "경향게임스",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
     {
       "title": "'반도체 투톱' 돈 빌려 투자 속도전…수주 쌓인 방산도 실탄장전",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1XU1o1S3p4eGhPeXhYNE5QRXpxTGl3Tzc1b3UwS1o4aHdZeVNPdk43RlZsc2ZIdDhncVdITnVSazFSLTdrZGpJZG00cUNGbzhQaENEdmQzMi1lQdIBVEFVX3lxTE5jRmwyVkxGak1TMmdxelNfM1dzdmJOQS1tZ3FXM3ExSTVHNXZRUXEyanREbFBUWmpNTWVNdzZLQWY4dFUyTHBnMHQ4bmhKV0x6TklfMg?oc=5",
@@ -116,21 +129,8 @@
         "color": "#a55eea"
       },
       "impacts": [
-        "환율",
-        "BTC"
-      ]
-    },
-    {
-      "title": "반도체 투자한 공직자, 증시 호황에 자산 '쑥'",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1MdnlvVmtYMTBrakUtYzNUZEp4NXJWTk9CZ01pQXZfTnRhRUpnNFR6dVBiUkM4aXlpYjZXdzJtU2RUR216b1NMd1pMNGRJOU8wRHlXWi1McWJnZ9IBVEFVX3lxTE9pM1kySERJa2RXZ2dNSHZ0N2c3OFBreFZtMzdvcTdZWlpyZ3FCMk5Wclh3RndGSHNJRENYTWEyX0dIREFFdmtzUGJPOWdoaHBtMm9fRA?oc=5",
-      "pubDate": "Wed, 25 Mar 2026 15:00:04 GMT",
-      "source": "한국경제",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
+        "BTC",
+        "환율"
       ]
     }
   ]
