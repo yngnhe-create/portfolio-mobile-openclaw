@@ -6,94 +6,128 @@
 <title>투자커멘드 | 포트폴리오 히트맵</title>
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
-:root{--bg:#0a0e1a;--card:#151b2d;--hdr:#1a1f2e;--brd:#2d3748;--txt:#e0e6ed;--sub:#8b9dc3;--red:#ff4757;--grn:#4ecdc4;--blu:#4834d4;--yel:#f9ca24}
-body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans KR',sans-serif;background:var(--bg);color:var(--txt);font-size:14px;padding-bottom:80px;-webkit-font-smoothing:antialiased}
-.topbar{background:rgba(26,31,46,.85);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid rgba(72,52,212,.3);padding:14px 16px;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:999}
-.logo{font-weight:800;font-size:17px;letter-spacing:-.3px}
-.logo span{margin-right:6px}
-.date-badge{padding:5px 14px;border-radius:20px;font-size:11px;font-weight:600;background:rgba(72,52,212,.12);color:var(--blu);border:1px solid rgba(72,52,212,.25)}
-.view-tabs{display:flex;gap:6px;padding:10px 16px;overflow-x:auto;-webkit-overflow-scrolling:touch;background:var(--card);border-bottom:1px solid var(--brd)}
+:root{
+  --bg:#06080f;--card:#0e1320;--hdr:#141a2b;--brd:rgba(255,255,255,.06);
+  --txt:#e8ecf4;--sub:#7b8bb2;--dim:#4a5578;
+  --red:#ff3b4f;--red-soft:rgba(255,59,79,.15);
+  --grn:#00d4aa;--grn-soft:rgba(0,212,170,.15);
+  --blu:#6366f1;--blu-soft:rgba(99,102,241,.12);
+  --yel:#fbbf24;--yel-soft:rgba(251,191,36,.12);
+  --accent:#818cf8;
+}
+body{font-family:'SF Pro Display',-apple-system,BlinkMacSystemFont,'Pretendard','Noto Sans KR',sans-serif;background:var(--bg);color:var(--txt);font-size:14px;padding-bottom:84px;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%}
+
+/* ── Top Bar ── */
+.topbar{background:rgba(14,19,32,.88);backdrop-filter:blur(20px) saturate(180%);-webkit-backdrop-filter:blur(20px) saturate(180%);border-bottom:1px solid var(--brd);padding:16px 20px;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:999}
+.logo{font-weight:800;font-size:17px;letter-spacing:-.4px;display:flex;align-items:center;gap:8px}
+.logo-icon{width:28px;height:28px;border-radius:8px;background:linear-gradient(135deg,var(--blu),#a78bfa);display:flex;align-items:center;justify-content:center;font-size:14px}
+.date-badge{padding:5px 14px;border-radius:20px;font-size:11px;font-weight:600;background:var(--blu-soft);color:var(--accent);border:1px solid rgba(99,102,241,.2)}
+
+/* ── Tabs ── */
+.view-tabs{display:flex;gap:6px;padding:10px 20px;overflow-x:auto;-webkit-overflow-scrolling:touch;background:var(--card);border-bottom:1px solid var(--brd)}
 .view-tabs::-webkit-scrollbar{display:none}
-.vtab{padding:6px 14px;border-radius:20px;font-size:11px;font-weight:600;white-space:nowrap;background:var(--hdr);color:var(--sub);border:1px solid var(--brd);cursor:pointer;transition:all .2s;-webkit-tap-highlight-color:transparent}
-.vtab.active{background:var(--blu);color:#fff;border-color:var(--blu)}
+.vtab{padding:7px 16px;border-radius:20px;font-size:12px;font-weight:600;white-space:nowrap;background:transparent;color:var(--sub);border:1px solid var(--brd);cursor:pointer;transition:all .2s;-webkit-tap-highlight-color:transparent}
+.vtab.active{background:var(--blu);color:#fff;border-color:var(--blu);box-shadow:0 2px 12px rgba(99,102,241,.3)}
 .vtab:active{transform:scale(.96)}
-.summary{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--brd);animation:fadeUp .5s ease}
-.summary-item{background:var(--card);padding:14px 8px;text-align:center}
-.si-val{font-size:18px;font-weight:800;letter-spacing:-1px}
-.si-lbl{font-size:10px;color:var(--sub);margin-top:3px;font-weight:600}
-.legend{display:flex;align-items:center;gap:6px;padding:10px 16px;font-size:10px;color:var(--sub)}
-.legend-bar{height:8px;flex:1;border-radius:4px;background:linear-gradient(90deg,#2ed573,#4ecdc4,#57606f,#ff6b6b,#ff4757)}
-.legend-labels{display:flex;justify-content:space-between;font-size:9px;color:var(--sub);padding:0 16px 8px}
-.heatmap{padding:8px;min-height:400px}
-.hm-sector{margin-bottom:12px}
-.hm-sector-name{font-size:11px;font-weight:700;color:var(--sub);padding:4px 8px;margin-bottom:4px;letter-spacing:.5px;text-transform:uppercase}
-.hm-grid{display:flex;flex-wrap:wrap;gap:3px}
-.hm-cell{border-radius:8px;padding:8px 6px;display:flex;flex-direction:column;justify-content:center;align-items:center;cursor:pointer;transition:all .15s;position:relative;overflow:hidden;border:1px solid rgba(255,255,255,.05)}
-.hm-cell:active{transform:scale(.96);z-index:2}
-.hm-cell .name{font-size:11px;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%;text-align:center;text-shadow:0 1px 3px rgba(0,0,0,.5)}
-.hm-cell .pct{font-size:13px;font-weight:800;text-shadow:0 1px 3px rgba(0,0,0,.5)}
-.hm-cell .weight{font-size:9px;opacity:.7;margin-top:2px}
-.hm-cell.small .name{font-size:9px}
-.hm-cell.small .pct{font-size:10px}
-.hm-cell.tiny .name,.hm-cell.tiny .weight{display:none}
-.hm-cell.tiny .pct{font-size:9px}
-.mode-pill{display:inline-flex;gap:2px;background:var(--hdr);border-radius:14px;padding:2px;margin-left:auto;flex-shrink:0}
-.mode-pill .mp{padding:5px 10px;border-radius:12px;font-size:10px;font-weight:600;cursor:pointer;color:var(--sub);transition:all .2s;white-space:nowrap}
+.mode-pill{display:inline-flex;gap:2px;background:var(--hdr);border-radius:14px;padding:2px;margin-left:auto;flex-shrink:0;border:1px solid var(--brd)}
+.mode-pill .mp{padding:6px 12px;border-radius:12px;font-size:11px;font-weight:600;cursor:pointer;color:var(--sub);transition:all .2s;white-space:nowrap}
 .mode-pill .mp.on{background:var(--blu);color:#fff}
-.fetch-bar{text-align:center;padding:4px;font-size:10px;color:var(--sub);background:var(--card);border-bottom:1px solid var(--brd)}
-/* Flat view */
-.hm-flat{display:flex;flex-wrap:wrap;gap:3px;padding:8px}
-/* Detail modal */
-.modal-overlay{position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.6);backdrop-filter:blur(4px);z-index:1000;display:none;align-items:flex-end;justify-content:center}
-.modal-overlay.show{display:flex}
-.modal{background:var(--card);border-radius:20px 20px 0 0;padding:20px 16px max(20px,env(safe-area-inset-bottom));width:100%;max-width:500px;max-height:80vh;overflow-y:auto;animation:slideUp .3s ease}
-@keyframes slideUp{from{transform:translateY(100%)}to{transform:translateY(0)}}
-.modal-handle{width:40px;height:4px;background:var(--brd);border-radius:2px;margin:0 auto 16px}
-.modal-name{font-size:20px;font-weight:800;margin-bottom:4px;letter-spacing:-.5px}
-.modal-cat{font-size:12px;color:var(--sub);margin-bottom:16px}
-.modal-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:16px}
-.mg-item{background:var(--hdr);border-radius:12px;padding:12px;text-align:center}
-.mg-val{font-size:18px;font-weight:800;margin-bottom:2px}
-.mg-lbl{font-size:10px;color:var(--sub);font-weight:600}
-.modal-bar{height:8px;background:var(--brd);border-radius:4px;overflow:hidden;margin-bottom:16px}
-.modal-bar-fill{height:100%;border-radius:4px;transition:width .6s ease}
-.modal-info{font-size:12px;color:var(--sub);line-height:1.8}
-.modal-info strong{color:var(--txt)}
-.modal-close{display:block;width:100%;padding:14px;border:none;border-radius:14px;background:var(--hdr);color:var(--txt);font-size:14px;font-weight:700;cursor:pointer;margin-top:16px;-webkit-tap-highlight-color:transparent}
-.modal-close:active{transform:scale(.98)}
-/* Sector summary */
-.sec-summary{padding:8px 16px}
-.ss-card{background:var(--card);border-radius:14px;padding:14px;margin-bottom:8px;border:1px solid rgba(45,55,72,.5)}
-.ss-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}
-.ss-name{font-size:14px;font-weight:700}
-.ss-pct{font-size:14px;font-weight:800}
-.ss-bar{height:6px;background:var(--brd);border-radius:3px;overflow:hidden;margin-bottom:8px}
+
+/* ── Summary Bar ── */
+.summary{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--brd);animation:fadeUp .5s ease}
+.summary-item{background:var(--card);padding:16px 8px;text-align:center}
+.si-val{font-size:18px;font-weight:800;letter-spacing:-1px}
+.si-lbl{font-size:10px;color:var(--sub);margin-top:4px;font-weight:600;letter-spacing:.3px;text-transform:uppercase}
+
+/* ── Legend ── */
+.legend{display:flex;align-items:center;gap:8px;padding:12px 20px;font-size:10px;color:var(--sub);font-weight:600}
+.legend-bar{height:10px;flex:1;border-radius:5px;background:linear-gradient(90deg,#00d4aa,#2dd9b0,#57606f,#ff6b6b,#ff3b4f)}
+.legend-labels{display:flex;justify-content:space-between;font-size:9px;color:var(--dim);padding:0 20px 10px;font-weight:600}
+
+/* ── Heatmap ── */
+.heatmap{padding:8px;min-height:400px}
+.hm-sector{margin-bottom:16px}
+.hm-sector-name{font-size:11px;font-weight:700;color:var(--sub);padding:6px 12px;margin-bottom:6px;letter-spacing:.8px;text-transform:uppercase;display:flex;align-items:center;gap:8px}
+.hm-sector-name::before{content:'';width:3px;height:14px;border-radius:2px;background:var(--accent)}
+.hm-grid{display:flex;flex-wrap:wrap;gap:4px}
+
+/* ── Cells ── */
+.hm-cell{border-radius:10px;padding:10px 8px;display:flex;flex-direction:column;justify-content:center;align-items:center;cursor:pointer;transition:all .15s;position:relative;overflow:hidden;border:1px solid rgba(255,255,255,.04);min-height:56px}
+.hm-cell:active{transform:scale(.96);z-index:2}
+.hm-cell .name{font-size:12px;font-weight:700;white-space:nowrap;text-align:center;text-shadow:0 1px 4px rgba(0,0,0,.7);line-height:1.2;margin-bottom:2px}
+.hm-cell .pct{font-size:14px;font-weight:800;text-shadow:0 1px 4px rgba(0,0,0,.7);letter-spacing:-.3px}
+.hm-cell .weight{font-size:9px;opacity:.7;margin-top:1px;font-weight:600}
+.hm-cell.small .name{font-size:10px}
+.hm-cell.small .pct{font-size:12px}
+.hm-cell.tiny .name{font-size:9px}
+.hm-cell.tiny .pct{font-size:10px}
+.hm-cell.tiny .weight{display:none}
+
+/* ── Flat & Gain ── */
+.hm-flat{display:flex;flex-wrap:wrap;gap:4px;padding:8px}
+
+/* ── Sector Summary ── */
+.sec-summary{padding:8px 20px}
+.ss-card{background:var(--card);border-radius:16px;padding:16px;margin-bottom:10px;border:1px solid var(--brd);transition:transform .15s}
+.ss-card:active{transform:scale(.99)}
+.ss-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px}
+.ss-name{font-size:15px;font-weight:700;letter-spacing:-.2px}
+.ss-pct{font-size:15px;font-weight:800}
+.ss-bar{height:6px;background:rgba(255,255,255,.06);border-radius:3px;overflow:hidden;margin-bottom:10px}
 .ss-bar-fill{height:100%;border-radius:3px}
-.ss-stocks{font-size:11px;color:var(--sub);line-height:1.6}
-/* Mask */
-.mask-btn{position:fixed;top:12px;right:12px;z-index:9999;background:rgba(72,52,212,.9);color:#fff;border:none;border-radius:20px;padding:6px 14px;font-size:12px;font-weight:700;cursor:pointer;backdrop-filter:blur(4px);box-shadow:0 2px 8px rgba(0,0,0,.4);transition:all .2s;-webkit-tap-highlight-color:transparent}
+.ss-stocks{font-size:11px;color:var(--sub);line-height:1.8}
+
+/* ── Modal ── */
+.modal-overlay{position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.65);backdrop-filter:blur(8px);z-index:1000;display:none;align-items:flex-end;justify-content:center}
+.modal-overlay.show{display:flex}
+.modal{background:var(--card);border-radius:24px 24px 0 0;padding:20px 20px max(24px,env(safe-area-inset-bottom));width:100%;max-width:500px;max-height:80vh;overflow-y:auto;animation:slideUp .3s cubic-bezier(.32,.72,0,1);border-top:1px solid rgba(255,255,255,.08)}
+@keyframes slideUp{from{transform:translateY(100%)}to{transform:translateY(0)}}
+.modal-handle{width:40px;height:4px;background:rgba(255,255,255,.15);border-radius:2px;margin:0 auto 18px}
+.modal-name{font-size:22px;font-weight:800;margin-bottom:4px;letter-spacing:-.5px}
+.modal-cat{font-size:12px;color:var(--sub);margin-bottom:18px}
+.modal-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:18px}
+.mg-item{background:var(--hdr);border-radius:14px;padding:14px;text-align:center;border:1px solid var(--brd)}
+.mg-val{font-size:18px;font-weight:800;margin-bottom:3px}
+.mg-lbl{font-size:10px;color:var(--sub);font-weight:600;text-transform:uppercase;letter-spacing:.3px}
+.modal-bar{height:8px;background:rgba(255,255,255,.06);border-radius:4px;overflow:hidden;margin-bottom:18px}
+.modal-bar-fill{height:100%;border-radius:4px;transition:width .6s ease}
+.modal-info{font-size:12px;color:var(--sub);line-height:2}
+.modal-info strong{color:var(--txt)}
+.modal-close{display:block;width:100%;padding:15px;border:none;border-radius:14px;background:var(--hdr);color:var(--txt);font-size:14px;font-weight:700;cursor:pointer;margin-top:18px;border:1px solid var(--brd);transition:all .15s}
+.modal-close:active{transform:scale(.98);background:var(--blu-soft)}
+
+/* ── Mask ── */
+.mask-btn{position:fixed;top:14px;right:14px;z-index:9999;background:rgba(99,102,241,.9);color:#fff;border:none;border-radius:20px;padding:7px 16px;font-size:12px;font-weight:700;cursor:pointer;backdrop-filter:blur(8px);box-shadow:0 2px 12px rgba(99,102,241,.3);transition:all .2s;-webkit-tap-highlight-color:transparent}
 body.masked .si-val,body.masked .hm-cell .pct,body.masked .hm-cell .weight,body.masked .mg-val,body.masked .ss-pct{filter:blur(8px);user-select:none}
-/* Loading */
+
+/* ── Loading ── */
 .loading{text-align:center;padding:60px 20px;color:var(--sub)}
-.loading .spin{display:inline-block;width:28px;height:28px;border:3px solid var(--brd);border-top-color:var(--blu);border-radius:50%;animation:spin .8s linear infinite}
+.loading .spin{display:inline-block;width:28px;height:28px;border:3px solid rgba(255,255,255,.06);border-top-color:var(--accent);border-radius:50%;animation:spin .8s linear infinite}
 @keyframes spin{to{transform:rotate(360deg)}}
 @keyframes fadeUp{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
-.bnav{position:fixed;bottom:0;left:0;right:0;background:rgba(26,31,46,.92);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-top:1px solid rgba(45,55,72,.5);display:flex;justify-content:space-around;padding:8px 0 max(20px,env(safe-area-inset-bottom));z-index:999}
-.bnav a{display:flex;flex-direction:column;align-items:center;gap:3px;color:var(--sub);text-decoration:none;font-size:10px;padding:5px 10px;-webkit-tap-highlight-color:transparent}
-.bnav a.on{color:var(--blu)}
+
+/* ── Fetch Bar ── */
+.fetch-bar{text-align:center;padding:6px;font-size:11px;color:var(--accent);background:var(--blu-soft);border-bottom:1px solid rgba(99,102,241,.15);font-weight:600}
+
+/* ── Bottom Nav ── */
+.bnav{position:fixed;bottom:0;left:0;right:0;background:rgba(14,19,32,.92);backdrop-filter:blur(20px) saturate(180%);-webkit-backdrop-filter:blur(20px) saturate(180%);border-top:1px solid var(--brd);display:flex;justify-content:space-around;padding:8px 0 max(20px,env(safe-area-inset-bottom));z-index:999}
+.bnav a{display:flex;flex-direction:column;align-items:center;gap:3px;color:var(--sub);text-decoration:none;font-size:10px;padding:5px 10px;-webkit-tap-highlight-color:transparent;transition:color .15s}
+.bnav a.on{color:var(--accent)}
 .bnav .ni{font-size:22px}
-.scroll-top{position:fixed;bottom:80px;right:16px;width:44px;height:44px;border-radius:50%;background:rgba(72,52,212,.9);backdrop-filter:blur(8px);color:#fff;border:1px solid rgba(72,52,212,.4);font-size:18px;cursor:pointer;display:none;z-index:998;box-shadow:0 4px 16px rgba(0,0,0,.3);transition:all .2s}
+
+/* ── Scroll Top / Refresh ── */
+.scroll-top{position:fixed;bottom:80px;right:16px;width:44px;height:44px;border-radius:50%;background:rgba(99,102,241,.9);backdrop-filter:blur(8px);color:#fff;border:1px solid rgba(99,102,241,.3);font-size:18px;cursor:pointer;display:none;z-index:998;box-shadow:0 4px 16px rgba(0,0,0,.3);transition:all .2s}
 .scroll-top:active{transform:scale(.9)}
-.fab-refresh{position:fixed;bottom:78px;left:16px;width:48px;height:48px;border-radius:50%;background:linear-gradient(135deg,var(--blu),#686de0);color:#fff;border:none;font-size:20px;cursor:pointer;z-index:1000;box-shadow:0 4px 14px rgba(72,52,212,.4);display:flex;align-items:center;justify-content:center;transition:transform .2s;-webkit-tap-highlight-color:transparent}
+.fab-refresh{position:fixed;bottom:78px;left:16px;width:48px;height:48px;border-radius:50%;background:linear-gradient(135deg,var(--blu),#a78bfa);color:#fff;border:none;font-size:20px;cursor:pointer;z-index:1000;box-shadow:0 4px 20px rgba(99,102,241,.35);display:flex;align-items:center;justify-content:center;transition:transform .2s;-webkit-tap-highlight-color:transparent}
 .fab-refresh:active{transform:scale(.9)}
 .fab-refresh.spin .fab-icon{animation:fabspin .8s linear infinite}
 @keyframes fabspin{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}
 </style>
 </head>
 <body>
-<button class="mask-btn" id="maskBtn" onclick="toggleMask()">🙈 마스킹</button>
+<button class="mask-btn" id="maskBtn" onclick="toggleMask()">👁 마스킹</button>
 <div class="topbar">
-  <div class="logo"><span>🗺️</span>포트폴리오 히트맵</div>
+  <div class="logo"><div class="logo-icon">📊</div>포트폴리오 히트맵</div>
   <div class="date-badge" id="dateLabel">-</div>
 </div>
 <div class="view-tabs">
@@ -107,8 +141,8 @@ body.masked .si-val,body.masked .hm-cell .pct,body.masked .hm-cell .weight,body.
 <div class="summary" id="summaryBar">
   <div class="summary-item"><div class="si-val" id="smTotal">-</div><div class="si-lbl">총 자산</div></div>
   <div class="summary-item"><div class="si-val" id="smPL">-</div><div class="si-lbl">평가손익</div></div>
-  <div class="summary-item"><div class="si-val" id="smUp" style="color:var(--red)">-</div><div class="si-lbl">수익 종목</div></div>
-  <div class="summary-item"><div class="si-val" id="smDn" style="color:var(--grn)">-</div><div class="si-lbl">손실 종목</div></div>
+  <div class="summary-item"><div class="si-val" id="smUp" style="color:var(--red)">-</div><div class="si-lbl">상승 종목</div></div>
+  <div class="summary-item"><div class="si-val" id="smDn" style="color:var(--grn)">-</div><div class="si-lbl">하락 종목</div></div>
 </div>
 <div class="legend">
   <span>손실</span>
@@ -129,14 +163,14 @@ body.masked .si-val,body.masked .hm-cell .pct,body.masked .hm-cell .weight,body.
       <div class="mg-item"><div class="mg-val" id="mdBuy">-</div><div class="mg-lbl">매수가</div></div>
       <div class="mg-item"><div class="mg-val" id="mdCur">-</div><div class="mg-lbl">현재가</div></div>
     </div>
-    <div style="font-size:11px;color:var(--sub);margin-bottom:6px;font-weight:600">포트폴리오 비중</div>
+    <div style="font-size:11px;color:var(--sub);margin-bottom:6px;font-weight:600;text-transform:uppercase;letter-spacing:.5px">포트폴리오 비중</div>
     <div class="modal-bar"><div class="modal-bar-fill" id="mdBar"></div></div>
     <div class="modal-info" id="mdInfo">-</div>
     <button class="modal-close" onclick="closeModal()">닫기</button>
   </div>
 </div>
 
-<div style="padding:20px 16px;font-size:10px;color:var(--sub);text-align:center;line-height:1.6;opacity:.5">
+<div style="padding:20px 16px;font-size:10px;color:var(--dim);text-align:center;line-height:1.6">
   투자커멘드 · CSV 데이터 기반 포트폴리오 히트맵 · 투자 결정은 본인의 판단과 책임하에 이루어져야 합니다
 </div>
 <nav class="bnav">
@@ -192,28 +226,32 @@ function pNum(s) {
 }
 
 // ═══════════════════════════════════════
-// Color Engine
+// Color Engine — High Contrast
 // ═══════════════════════════════════════
 function getTotalColor(pct) {
-  // Korean: red = gain, green = loss — for total return scale (-30% to +100%)
-  if (pct >= 100) return 'rgba(255,55,67,.85)';
-  if (pct >= 50) return `rgba(255,${Math.round(55 + (107-55)*(100-pct)/50)},${Math.round(67 + (107-67)*(100-pct)/50)},.75)`;
-  if (pct >= 20) return `rgba(255,${Math.round(107 + (130-107)*(50-pct)/30)},${Math.round(107 + (130-107)*(50-pct)/30)},.65)`;
-  if (pct >= 0) return `rgba(${Math.round(180 + 75*pct/20)},${Math.round(150 - 20*pct/20)},${Math.round(150 - 43*pct/20)},.5)`;
-  if (pct >= -15) return `rgba(${Math.round(100 + 80*(15+pct)/15)},${Math.round(180 + 25*(15+pct)/15)},${Math.round(180 + 16*(15+pct)/15)},.55)`;
-  if (pct >= -30) return `rgba(78,205,196,.65)`;
-  return 'rgba(46,213,115,.75)';
+  // Korean convention: red=gain, blue-green=loss — vivid & high contrast
+  if (pct >= 100) return 'rgba(255,40,50,.92)';
+  if (pct >= 50)  return `rgba(255,${Math.round(50+(100-pct))},${Math.round(60+(100-pct)*.8)},.85)`;
+  if (pct >= 20)  return `rgba(255,${Math.round(100+(50-pct)*2)},${Math.round(100+(50-pct)*2)},.72)`;
+  if (pct >= 5)   return `rgba(255,${Math.round(150-(pct-5)*3)},${Math.round(130-(pct-5)*4)},.6)`;
+  if (pct >= 0)   return `rgba(${Math.round(160+19*pct)},${Math.round(140+2*pct)},${Math.round(140-2*pct)},.42)`;
+  if (pct >= -5)  return `rgba(${Math.round(100-pct*12)},${Math.round(180+pct*4)},${Math.round(175+pct*3)},.5)`;
+  if (pct >= -15) return `rgba(${Math.round(60+(15+pct)*4)},${Math.round(200-(15+pct)*1.3)},${Math.round(190-(15+pct))},.65)`;
+  if (pct >= -30) return 'rgba(0,200,170,.72)';
+  return 'rgba(0,212,170,.85)';
 }
 function getDailyColor(pct) {
-  // Daily change scale: -5% to +5% (amplified for visibility)
-  if (pct >= 5) return 'rgba(255,55,67,.85)';
-  if (pct >= 3) return `rgba(255,${Math.round(55+(107-55)*(5-pct)/2)},${Math.round(67+(107-67)*(5-pct)/2)},.75)`;
-  if (pct >= 1) return `rgba(255,${Math.round(107+(150-107)*(3-pct)/2)},${Math.round(107+(140-107)*(3-pct)/2)},.6)`;
-  if (pct >= 0) return `rgba(${Math.round(200+55*pct)},${Math.round(160-10*pct)},${Math.round(155-48*pct)},.45)`;
-  if (pct >= -1) return `rgba(${Math.round(160+40*(1+pct))},${Math.round(190+15*(1+pct))},${Math.round(188+8*(1+pct))},.45)`;
-  if (pct >= -3) return `rgba(${Math.round(100+60*(3+pct)/2)},${Math.round(190)},${Math.round(190)},.6)`;
-  if (pct >= -5) return 'rgba(78,205,196,.7)';
-  return 'rgba(46,213,115,.8)';
+  // Daily: -5% to +5% range, highly amplified colors
+  if (pct >= 5)   return 'rgba(255,40,50,.92)';
+  if (pct >= 3)   return `rgba(255,${Math.round(50+(5-pct)*30)},${Math.round(55+(5-pct)*25)},.82)';
+  if (pct >= 1.5) return `rgba(255,${Math.round(110+(3-pct)*30)},${Math.round(100+(3-pct)*25)},.68)`;
+  if (pct >= 0.5) return `rgba(255,${Math.round(160+(1.5-pct)*50)},${Math.round(140+(1.5-pct)*40)},.55)`;
+  if (pct >= 0)   return `rgba(${Math.round(180+150*pct)},${Math.round(150-20*pct)},${Math.round(140-20*pct)},.38)`;
+  if (pct >= -0.5)return `rgba(${Math.round(140+80*(0.5+pct))},${Math.round(175+10*(0.5+pct))},${Math.round(170+10*(0.5+pct))},.38)`;
+  if (pct >= -1.5)return `rgba(${Math.round(90+50*(1.5+pct))},${Math.round(190+10*(1.5+pct))},${Math.round(185+5*(1.5+pct))},.55)`;
+  if (pct >= -3)  return `rgba(${Math.round(40+50*(3+pct)/1.5)},${Math.round(200+5*(3+pct)/1.5)},${Math.round(190)},.68)`;
+  if (pct >= -5)  return 'rgba(0,200,170,.82)';
+  return 'rgba(0,212,170,.92)';
 }
 function getColor(pct) {
   return displayMode === 'daily' ? getDailyColor(pct) : getTotalColor(pct);
@@ -225,30 +263,24 @@ function getColor(pct) {
 let ASSETS = [];
 let USDKRW = 1450;
 let currentView = 'sector';
-let displayMode = 'daily'; // 'daily' or 'total'
+let displayMode = 'daily';
 const dailyChgMap = {};
 
 const PROXY = url => `/api/proxy?url=${encodeURIComponent(url)}`;
 
 const TICKER_MAP = {
-  // US Stocks
   'INTC':'INTC','NVDA':'NVDA','TSLA':'TSLA','AMD':'AMD','AMZN':'AMZN',
   'LLY':'LLY','MSFT':'MSFT','GOOGL':'GOOGL','RTX':'RTX','PLTR':'PLTR',
   'ARTY':'ARTY','HSAI':'HSAI',
-  // US ETFs
   'NLR':'NLR','GRID ETF':'GRID',
-  // Crypto
   'BTC/KRW':'BTC-KRW','ETH/KRW':'ETH-KRW','SOL/KRW':'SOL-KRW','LINK/USD':'LINK-USD',
-  // Korean individual stocks
   '삼성전자':'005930.KS','삼성전자우':'005935.KS','파마리서치':'214150.KQ',
   '현대차3우B':'005387.KS','DL이앤씨우':'375500.KS','두산':'000150.KS',
   '네이버':'035420.KS','엘오티베큠':'083310.KQ','현대건설':'000720.KS',
   '현대차우':'005385.KS','삼성SDI':'006400.KS','세아베스틸지주':'001430.KS',
   'LG에너지솔루션':'373220.KS','샤오미':'1810.HK',
-  // Korean REITs
   'ESR켄달스퀘어리츠':'365550.KS','코람코라이프인프라리츠':'357120.KS',
   'SK리츠':'395400.KS','신한서부티엔디리츠':'404990.KS','이지스밸류플러스리츠':'334890.KS',
-  // Korean ETFs (known codes)
   'KODEX 증권':'102970.KS','TIGER 코스피고배당':'161510.KS',
   'TIGER 미국테크TOP10 INDXX':'381170.KS','KODEX TRF3070':'294400.KS',
 };
@@ -305,12 +337,12 @@ function calcWeights() {
 }
 
 function cellSize(weight) {
-  // Map weight to pixel size. Total area ~= screen
   const w = window.innerWidth - 16;
-  const area = w * 500; // approximate area
+  // Larger cells: more area per weight, bigger minimum
+  const area = w * 600;
   const cellArea = area * weight / 100;
   const side = Math.sqrt(cellArea);
-  const minW = 55, maxW = w - 6;
+  const minW = 70, maxW = w - 8;
   return Math.max(minW, Math.min(maxW, Math.round(side)));
 }
 
@@ -318,25 +350,43 @@ function getDisplayPct(a) {
   if (displayMode === 'daily') {
     const dc = dailyChgMap[a.name];
     if (dc) return { pct: dc.pct, live: true };
-    return { pct: 0, live: false }; // no data yet
+    return { pct: 0, live: false };
   }
   return { pct: a.gainPct, live: true };
 }
 
+function shortenName(name) {
+  // Shorten long Korean names for mobile but keep readable
+  const map = {
+    'ESR켄달스퀘어리츠': 'ESR리츠',
+    '코람코라이프인프라리츠': '코람코리츠',
+    '신한서부티엔디리츠': '신한리츠',
+    '이지스밸류플러스리츠': '이지스리츠',
+    'TIGER 미국테크TOP10 INDXX': 'TIGER테크10',
+    'TIGER 코스피고배당': 'TIGER고배당',
+    'LG에너지솔루션': 'LG에솔',
+    '세아베스틸지주': '세아베스틸',
+    'KODEX TRF3070': 'TRF3070',
+    'KODEX 증권': 'KODEX증권',
+  };
+  return map[name] || name;
+}
+
 function createCell(a) {
   const size = cellSize(a.weight);
-  const isSmall = size < 80;
-  const isTiny = size < 62;
+  const isSmall = size < 85;
+  const isTiny = size < 72;
   const el = document.createElement('div');
   el.className = 'hm-cell' + (isTiny ? ' tiny' : isSmall ? ' small' : '');
   el.style.width = size + 'px';
-  el.style.height = Math.max(50, Math.round(size * 0.65)) + 'px';
+  el.style.height = Math.max(56, Math.round(size * 0.68)) + 'px';
   const dp = getDisplayPct(a);
-  el.style.background = dp.live ? getColor(dp.pct) : 'rgba(87,96,111,.4)';
+  el.style.background = dp.live ? getColor(dp.pct) : 'rgba(87,96,111,.35)';
   el.style.flexGrow = Math.max(1, Math.round(a.weight * 2));
   const sign = dp.pct >= 0 ? '+' : '';
   const pctStr = dp.live ? `${sign}${dp.pct.toFixed(1)}%` : '···';
-  el.innerHTML = `<div class="name">${a.name}</div><div class="pct">${pctStr}</div><div class="weight">${a.weight.toFixed(1)}%</div>`;
+  const displayName = shortenName(a.name);
+  el.innerHTML = `<div class="name">${displayName}</div><div class="pct">${pctStr}</div><div class="weight">${a.weight.toFixed(1)}%</div>`;
   el.onclick = () => openModal(a);
   return el;
 }
@@ -348,7 +398,6 @@ function renderSectorView() {
     if (!sectors[a.category]) sectors[a.category] = [];
     sectors[a.category].push(a);
   });
-  // Sort sectors by total weight
   const sorted = Object.entries(sectors).sort((a,b) => {
     const wa = a[1].reduce((s,x) => s + x.weight, 0);
     const wb = b[1].reduce((s,x) => s + x.weight, 0);
@@ -385,13 +434,12 @@ function renderGainView() {
     .sort((a,b) => b.dispPct - a.dispPct);
   const container = document.getElementById('content');
   container.innerHTML = '';
-  // Winners
   const winners = items.filter(a => a.dispPct >= 0);
   const losers = items.filter(a => a.dispPct < 0);
   if (winners.length) {
     const sec = document.createElement('div');
     sec.className = 'hm-sector';
-    sec.innerHTML = `<div class="hm-sector-name" style="color:var(--red)">수익 종목 · ${winners.length}개</div>`;
+    sec.innerHTML = `<div class="hm-sector-name" style="color:var(--red)">상승 종목 · ${winners.length}개</div>`;
     const grid = document.createElement('div');
     grid.className = 'hm-grid';
     winners.forEach(a => grid.appendChild(createCell(a)));
@@ -401,7 +449,7 @@ function renderGainView() {
   if (losers.length) {
     const sec = document.createElement('div');
     sec.className = 'hm-sector';
-    sec.innerHTML = `<div class="hm-sector-name" style="color:var(--grn)">손실 종목 · ${losers.length}개</div>`;
+    sec.innerHTML = `<div class="hm-sector-name" style="color:var(--grn)">하락 종목 · ${losers.length}개</div>`;
     const grid = document.createElement('div');
     grid.className = 'hm-grid';
     losers.forEach(a => grid.appendChild(createCell(a)));
@@ -440,7 +488,7 @@ function renderSummaryView() {
     const stocksHtml = topStocks.map(a => {
       const sc = a.dispPct >= 0 ? 'var(--red)' : 'var(--grn)';
       const ss = a.dispPct >= 0 ? '+' : '';
-      return `<strong>${a.name}</strong> ${fmtKRW(a.valKRW)} <span style="color:${sc}">${ss}${a.dispPct.toFixed(1)}%</span>`;
+      return `<strong>${shortenName(a.name)}</strong> ${fmtKRW(a.valKRW)} <span style="color:${sc}">${ss}${a.dispPct.toFixed(1)}%</span>`;
     }).join(' · ');
 
     const card = document.createElement('div');
@@ -452,7 +500,7 @@ function renderSummaryView() {
       </div>
       <div class="ss-bar"><div class="ss-bar-fill" style="width:${s.totalWeight}%;background:${getColor(s.avgGain)}"></div></div>
       <div style="display:flex;justify-content:space-between;margin-bottom:8px">
-        <span style="font-size:12px;font-weight:700">${fmtKRW(s.totalVal)}</span>
+        <span style="font-size:13px;font-weight:700">${fmtKRW(s.totalVal)}</span>
         <span style="font-size:12px;color:var(--sub)">${s.totalWeight.toFixed(1)}%</span>
       </div>
       <div class="ss-stocks">${stocksHtml}</div>
@@ -574,7 +622,6 @@ async function fetchDailyChanges() {
   let done = 0;
   bar.textContent = `실시간 시세 로딩 중... (0/${entries.length})`;
 
-  // Concurrency-limited parallel fetch
   const concurrency = 8;
   let idx = 0;
   async function worker() {
@@ -591,7 +638,6 @@ async function fetchDailyChanges() {
   bar.textContent = `실시간 데이터 ${done}/${entries.length} 로드 완료`;
   setTimeout(() => { bar.style.display = 'none'; }, 2000);
 
-  // Re-render with live data
   renderSummary();
   render();
 }
@@ -615,7 +661,7 @@ function setMode(mode) {
 // ═══════════════════════════════════════
 function toggleMask() {
   const on = document.body.classList.toggle('masked');
-  document.getElementById('maskBtn').textContent = on ? '👁 해제' : '🙈 마스킹';
+  document.getElementById('maskBtn').textContent = on ? '👁 해제' : '👁 마스킹';
   localStorage.setItem('mask', on ? '1' : '0');
 }
 if (localStorage.getItem('mask') === '1') {
@@ -641,7 +687,6 @@ async function init() {
   }
   renderSummary();
   render();
-  // Fetch daily changes in background (non-blocking)
   fetchDailyChanges();
 }
 init();
@@ -650,7 +695,6 @@ window.addEventListener('scroll', () => {
   document.getElementById('scrollTopBtn').style.display = window.scrollY > 300 ? 'block' : 'none';
 }, {passive: true});
 
-// Close modal on back button
 window.addEventListener('popstate', () => {
   document.getElementById('modal').classList.remove('show');
   document.body.style.overflow = '';
@@ -662,9 +706,7 @@ async function doRefresh(){
   const btn=document.getElementById('refreshBtn');
   btn.classList.add('spin');
   try{
-    // Re-fetch USD/KRW live
     await fetchUSDKRW();
-    // Re-fetch daily changes
     await fetchDailyChanges();
     renderSummary();
     render();
