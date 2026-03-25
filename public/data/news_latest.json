@@ -1,51 +1,64 @@
 {
-  "timestamp": "2026-03-25T10:22:45.268429",
+  "timestamp": "2026-03-25T10:53:06.481012",
   "count": 10,
   "articles": [
     {
-      "title": "삼성전자, 스마트 모니터 CC 인증 획득…보안 경쟁력 강화 배경은",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE54b3dWay1CRE5WYzNoV1N1VlNmNXd4S09oVERVeXVyQjk5SWZLU3p1WDIzelhEaUhESTdTMjFaVHhEZmJoZmpJdXIzbXQ2dk9hWjVobW04aW1mZw?oc=5",
-      "pubDate": "Wed, 25 Mar 2026 01:19:35 GMT",
-      "source": "fetv.co.kr",
+      "title": "헤데라, 비트코인 하락 속 상대적 강세…2026년 흐름 살펴보니",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB5SmNTWV9Gd0x3Y1BqYmdjbFU3V1JfU1ZJWFVVVW9KelRKbmVUYU9CTjNJZl9OY2pCQXh5UGFMaGJlUkUwcGVpc0V3SHIwbGJlaTFPVTE5bk1UdThXSlp3ZzdsRmkzdXBfSWVVVTZDTWxJTkk?oc=5",
+      "pubDate": "Wed, 25 Mar 2026 01:48:06 GMT",
+      "source": "디지털투데이",
       "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "FCC, 외산 공유기 수입 전면 차단…한국 Wi-Fi 반도체株 수혜 주목",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNa21VbTQzNzQ0a1VLZEhBSE5KcGxuaVMxemxOODFnVnNfYnVncG1VYXgzaUwxelFFbkZhbU5mQWF3MHlaV3J0QnFRTV9kVm84Y1piV1F3eElFWW01WWozWjZ0cFFMb0tlc0ZvaS1CV2dRS0hVdW13RkRleVlmSDFOQUM2d3I4VFA2?oc=5",
+      "pubDate": "Wed, 25 Mar 2026 01:47:42 GMT",
+      "source": "글로벌이코노믹",
+      "category": {
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
       },
       "impacts": [
         "삼성전자"
       ]
     },
     {
-      "title": "삼성전자, 스마트 모니터 CC 인증 획득",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBlMjV6cmFLOVlubUJzZUFPRlJmUGc1ZDB0VFZKMHpiMjFkT09JNG4tQkVETlo3NFJUNWpPWEFkVDFNVlBQb3dyajM5SXZaNHlaNEgtYVF0Q0YtTWdnVFZoNThFNHVFZw?oc=5",
-      "pubDate": "Wed, 25 Mar 2026 01:18:02 GMT",
-      "source": "wsobi.com",
+      "title": "비트코인, 지금은 쉬어가는 타이밍?…분석가 \"진짜 바닥은 10월\"",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFAtZjhLdzRscnU4X1l0U3pITlVDd3hrZDA1a3gtbG9jQVBjdnFLb200Q3ZZQm9sVV8xb1JXZXp0R0VTR1Y5QXQ5dVJHQU0xSUR1Tl82SmsxQVVTQ2dhWDJIODRZT01sRHpVS1puNGgtZXhlUVU?oc=5",
+      "pubDate": "Wed, 25 Mar 2026 01:45:46 GMT",
+      "source": "디지털투데이",
       "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "광반도체株 열풍…5일 연속 상한가 '우리로' 270% 폭등 [핫종목]",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBRbF9tMVZrand0Yk02cF90QVlLcmJoTkRic1hlUnhkeHI5Um1STkZldHg1SlotN0o3cWJVOFVRLXhhbUI1akRmU0t0blBnaHZEc0xPVlhQRzk4bEJoRUtz?oc=5",
+      "pubDate": "Wed, 25 Mar 2026 01:42:44 GMT",
+      "source": "뉴스1",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
       },
       "impacts": [
         "삼성전자"
       ]
     },
     {
-      "title": "전북도, 현대차 9조원 투자 지원 전담조직 가동",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5JdHpxeklIczNWYkZnWGg1TEJ3NExYMzVmQ19YVUtmcldXdm16M1ZlYldBTHFVMjZIMFlpeFJRaDZ2T0htYTR5X0NveTZzcnhvMmRzVkRSVmg4ejBpM0RwbmdDV2V3QXlGYU84?oc=5",
-      "pubDate": "Wed, 25 Mar 2026 01:14:00 GMT",
-      "source": "경북신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "'반도체 투톱' SK하이닉스·삼성전자 영업이익 압도적…시장 쏠림 착시효과",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1DblZnbDFqeFRkdThqNmhqVVByM1puN1I1R2V5TldkYmtINjZQRmRub1VXUUMyVmdwRGMzRFNMNW1fbUU2M1dRMGRtdER5RkdqdWhvUXhDY05KTEY0Q3drbGE5ZnpoWWdnWGl3R1QzZ240d3Za?oc=5",
-      "pubDate": "Wed, 25 Mar 2026 01:09:31 GMT",
-      "source": "파이낸셜포스트",
+      "title": "500대 기업 영업이익, 전년比 24% 늘었지만…반도체 빼면 7% ‘착시효과’",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFA1ekJMUE53VDIydkFySkRGYWtuQjlJMl95SE5VcDBDNFlVcXhMZ3diWEZ3SXprdFJzWW9xbS1aTEVMamFVWVRqTTNYQXZGWmlCbFdHZF9EZE14VWtBX2hxR1ZNTVZJN0VRRHdvaV9KUHBWUQ?oc=5",
+      "pubDate": "Wed, 25 Mar 2026 01:42:39 GMT",
+      "source": "인더스트리뉴스",
       "category": {
         "label": "🟡 MARKET",
         "color": "#f9ca24"
@@ -55,10 +68,10 @@
       ]
     },
     {
-      "title": "머스크의 '테라팹' 승부수…K-반도체에 던지는 의미는",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE45dmpLUzlDNkNfYUlhRXRjWE9HM09ndTVqaXJCT0ZqcUJTcGNqYWF5Z2l4emdIenE1RHNZazRXT0trbGZGLU9tcWR1Y2JfVFo0MHF3NFhiYS03Mk5kckhtN1hCWGczbXl5aGs1UGdvVzk?oc=5",
-      "pubDate": "Wed, 25 Mar 2026 01:07:35 GMT",
-      "source": "연합인포맥스",
+      "title": "앰티씨 / 반도체 집약 ‘LED 모기퇴치램프’",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE92QS1iaUc3ZlVYWlhPX0QyRzhSSFNlOVJzLXBxN0tkNE1vWUxiUDJ4NEdsQkJxX0wyRlhGLUtUWUR1YTBCMDZWNFd0azluaTNkSko1ZzJDcUFBZkhUUTZfdHJNX3NpRGJT?oc=5",
+      "pubDate": "Wed, 25 Mar 2026 01:41:07 GMT",
+      "source": "축산신문",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -68,10 +81,23 @@
       ]
     },
     {
-      "title": "삼성전자 “1억명이 선택한 TV 플러스…독보적 플랫폼 입지”",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5EUWxSWVlrb21tdkFjTUlBcDI2Sm9haTFFMVY0R3hhRno2dHREcHkwNE1Zd182TFVFdFNMRnVPcW5ZTl9qYjJmS21PN242TzA?oc=5",
-      "pubDate": "Wed, 25 Mar 2026 01:07:02 GMT",
-      "source": "v.daum.net",
+      "title": "[특징주] 중앙첨단소재, 실적 개선 흐름에 광반도체 테마까지…상한가",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9wUHRxeXFVOHFHVnV6TGFCVXFSOUg2N0xGWGtnWndGdnEyazZIcm1PVHpSdzcybmUxSDhkMVZmVW9QNVJoTlpKWGFPd2NQQWpCZXNQcnV0Z01BMzNCeGVSSXdPRl90UVRCTC1LdQ?oc=5",
+      "pubDate": "Wed, 25 Mar 2026 01:39:08 GMT",
+      "source": "서울와이어",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전자, 히트펌프 등 MCE어워드 8개 우수상 수상",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBNQXBJb2xxVkFEbFFFajd4TjFQZUVtM1I4WS1vRXZBVmhacklZZ200MWQtN1Y5eG1ybTR1ZGhIenZVaHVCX2dFLUZuY0JWQQ?oc=5",
+      "pubDate": "Wed, 25 Mar 2026 01:37:55 GMT",
+      "source": "전자신문",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -81,10 +107,10 @@
       ]
     },
     {
-      "title": "SK하이닉스 EUV 장비 구매는 메모리반도체 업황에 '악재' 평가, 공급 과잉 리스크 키워",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5NMUw3aHJBbHJGRHJNYV8zLVVxWWl4ZjlvNXBvQmtkdW9rSjVQY2d2MTd5UTZRaTFndFROS2hmOVhJM3pfVXBNV0Q1TVFsdDFUTGRmZEdsZmo2aDhxSm93ejkyVmtDTzVPMmJ6dS1kSXhIMzg?oc=5",
-      "pubDate": "Wed, 25 Mar 2026 01:03:22 GMT",
-      "source": "비즈니스포스트",
+      "title": "SK하이닉스 美로 간다…최태원 ‘AI 반도체 주도권’ 행보 가속",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE53WFFDczFIdFRCR25UNGNselhGVW9iZ25BeXlZQWVkUjhjSnRiT09ZQXN0YVMtWHJjSjdtOEdidUphb1dZWDhweDJka3JzdUY0MzlMYXpKWVpHMHRQRnNPYV9tNA?oc=5",
+      "pubDate": "Wed, 25 Mar 2026 01:37:18 GMT",
+      "source": "쿠키뉴스",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -94,44 +120,16 @@
       ]
     },
     {
-      "title": "[단독] AMD·메타, 삼성전자 천안 HBM4 라인 릴레이 현장점검 … 빅테크 고객 문전성시",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE52a0RrbFVEdzlxMzNySEdtb3hiNl9OZ1NIYmdwbHNic3hFazJWVTFWeEJDQWN1QkpCY01KRERJenNQRER0UnhwMDNRWHU4YTBLYzI5Mm1XWUpGV2lkekFOQVE1RmFLa3hnbkMxOEhvaE1uTFNaSzhud3RuYw?oc=5",
-      "pubDate": "Wed, 25 Mar 2026 01:03:10 GMT",
-      "source": "뉴데일리 경제",
+      "title": "SK하이닉스, 사상 첫 영업익 1위…삼성전자 제쳤다",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBpX3gxYmRneXQzRWs5WF9YSjM1YjZJZ1l5Y2tSQUtNZnFaQzNobl8xNTRHaU1CdXVod0duU21pZG9rUE1UUmROYmdrNG5QcW90TTVhR2lsLXA4STZSdXQ4cnQ1SDI1eE9qXzIxOHBB?oc=5",
+      "pubDate": "Wed, 25 Mar 2026 01:35:58 GMT",
+      "source": "이지경제",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
         "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자, MCE 2026서 8개 부문 수상… 냉난방공조 기술력 입증 - 조선비즈",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOTXBFa2g1anZLQmIwTkQyTVpMSWF6Si1BQXpabEtFZ0JTQ2hUeWhZZ2hsUkRjWnE0Y1VNdW0wUTBJT0hxVGpYLTdycUxoQkdaUDBITGdWU2dwZEFfYnFYeUhid1V4a00xWFdUWjF5UnkxZzBKbnQybFpyVVBma1lncVF30gGWAUFVX3lxTE04b2hia25mQU40clY4ZkhpdFcxTTRpWXAzSUp6ZWZIVFVuZnBKWDdCMXplOUdKOFBvSF9PNGVudElTV0t0eERpX05SR1ZIUUpMVDkxVkxxZHp6Q0t4eEV4TjBUME9JNDVaT0k0eXdRZEJtU0dsOUU1dnBzRk1La1pwREs0VWJKaXA5UWZUZDZNMlc4RGZ2Zw?oc=5",
-      "pubDate": "Wed, 25 Mar 2026 01:03:00 GMT",
-      "source": "Chosunbiz",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "美, 이란에 한달 휴전 제안…비트코인 6.8만→7만 달러 회복[코인브리핑]",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1mclNpQlRvSUJsNmF5SW9OdjYwanh0TkJuWllpLTQ5SFVrdExIVVJwemVKVFdhYThwSG1SYzlZb00yVU5ZdVNVQVQ4S3o3YVhRSXFRc2dOaVgzcUxrZWJRRjY3NFQ3dw?oc=5",
-      "pubDate": "Wed, 25 Mar 2026 01:01:20 GMT",
-      "source": "뉴스1",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "원유",
-        "BTC",
-        "환율"
       ]
     }
   ]
