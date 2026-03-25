@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-25T14:17:04.857692",
+  "timestamp": "2026-03-25T14:25:28.560614",
   "count": 10,
   "articles": [
     {
@@ -13,8 +13,8 @@
       },
       "impacts": [
         "환율",
-        "원유",
-        "BTC"
+        "BTC",
+        "원유"
       ]
     },
     {
@@ -29,6 +29,21 @@
       "impacts": [
         "채권",
         "현대차"
+      ]
+    },
+    {
+      "title": "美·이란 휴전 기대감에 비트코인 반등…7만1000달러선 회복",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9wVXZqWUpnVU1YQjJzWjdrcUQxUTk1ZmtndTJRczhMMkx3OUY1YW5DOUhvTldyLWpIZTlSa2NySXVJajhsQ2JjYVV0YjEzZnlW?oc=5",
+      "pubDate": "Wed, 25 Mar 2026 05:05:39 GMT",
+      "source": "블루밍비트",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "환율",
+        "BTC",
+        "원유"
       ]
     },
     {
@@ -62,6 +77,19 @@
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE82RzNhMFRPVGloZnljeU5VWGxPa3E2TEdNcC04MWwxelF2bUNtNUtWVVNKdS1PTXctYlZxM3RfNElySFVLNS1uTkRCUjNLVFRoRlF1eFNGdkhiYjE4cDk0d2JPOGtrQ1VpaHc?oc=5",
       "pubDate": "Wed, 25 Mar 2026 04:57:00 GMT",
       "source": "한겨레",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "반도체 IP 플랫폼 Arm의 변신… 자체 서버용 CPU로 AI 데이터센터 공략",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE0ySW9vcUxBU0FOODNjSkVEZm1MUXR6T3JsTnpjSlhuazZYM0h6X0FmM3o1RmxtQnhVT3VfV3RuZDZLcUFBaUpzQm55bUxjNUpLbVRXQmg0RFlLSkJGTlJMX2F5U1pXWE1ERGM3M1ZYM2lZR3M3?oc=5",
+      "pubDate": "Wed, 25 Mar 2026 04:54:48 GMT",
+      "source": "대한경제",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -105,32 +133,6 @@
         "color": "#8b9dc3"
       },
       "impacts": []
-    },
-    {
-      "title": "최태원의 미 ADR 상장 ‘승부수’…반도체 패권 ‘정조준’",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE15YjJHMUcyU2hMZFdjMV8wak9UZTV2azBheGJaQUExOFRpamhzeHc5NkMxb3BsYm5Sby1JOTN1aEd6WGJqN1VJbGtueFlENHdiLURhZjNVUlFYaTlXZVFmQw?oc=5",
-      "pubDate": "Wed, 25 Mar 2026 04:38:37 GMT",
-      "source": "뉴스토마토",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "한미반도체, 세미콘 차이나 참가…\"매출 40% 늘어난다\"",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5panlJRjhXVkM1YlFwTzF1VDBzVnhUNzNpTThNVUJMdzRWY2Q4WjJ1eXBzNnVDekJKR0xTamd2TmtvRzVkUEktX2Q4a2FlUEZwR0o2c3ZFbGltRG5JSlNTZTlRenBPWlpxR1E?oc=5",
-      "pubDate": "Wed, 25 Mar 2026 04:37:42 GMT",
-      "source": "더스탁(The Stock)",
-      "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
     }
   ]
 }
