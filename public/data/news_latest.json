@@ -1,7 +1,85 @@
 {
-  "timestamp": "2026-03-25T11:23:25.691289",
+  "timestamp": "2026-03-25T11:53:46.456063",
   "count": 10,
   "articles": [
+    {
+      "title": "작년 500대 기업 영업이익 24% 늘었지만…반도체 빼면 7% 성장 그쳐",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9KVnVVVm4yaTlON3Q2QlRCR0pxdVotVEpUNjVMYW1BZEpiZkg0MVJBbUROVmd2QWdOV0ZjdkpBbnhoZEpIaXozZUprYV9qUXpib0tEajVHY0pZVUVsT3o3RVVaNHpRMExlWkt3Sm53?oc=5",
+      "pubDate": "Wed, 25 Mar 2026 02:46:01 GMT",
+      "source": "mstoday.co.kr",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "AI 반도체 시대, 핵심은 ‘소재 기술’…화학경제연, 고기능성 반도체 소재 세미나",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9HNWFmZTdwb3E1QmkzQWhTSFJoeWJRTFYtZVEzcEFoa1MxQzVSY3p5SUM5b1k1RnlIaE03TmJnNVNFSlRmMG9NWUlENVlhd3VIM00tSUlmSnhzcWtiNHVlenhB?oc=5",
+      "pubDate": "Wed, 25 Mar 2026 02:38:00 GMT",
+      "source": "e4ds news",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "'배터리 관리 반도체' 아나배틱세미, 150억 시리즈B 투자유치",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9oQ3RCbmk1Mi1ZSnBWZC00N0dQRzhCVGhpTzlmaHFqT3Y4eEltQ01xYWQ4VVZLcUM1OHVZTGZWNWdWNEk1VXcwcUEzZkVqVUc3emx2bk4tRmJwVVM0cktuajJlWUtibk10d200Zg?oc=5",
+      "pubDate": "Wed, 25 Mar 2026 02:35:49 GMT",
+      "source": "유니콘팩토리",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전자, MCE 2026서 우수상 8개 석권하며 차별화된 공조 기술력 입증",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB1Y2lnUC1MLTgyakQ4X0d3T1E4M0Z2SXpmOENic3dOcXVicGlnejRvcmlKZVNnUUotUGlDYzM3WDJQX3ZCOFFMLWxyYk1SZFNBeXZPNF93R3p5MHMxV09nSVdaVVFZYkNKVURaTVRB?oc=5",
+      "pubDate": "Wed, 25 Mar 2026 02:28:38 GMT",
+      "source": "elec4",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "Arm AGI CPU 한국 파트너 윤곽...삼성전자 메모리 공급, 앰코는 OSAT 협력",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBXZVRiQWdxTjdQcGtKQ1EyZUg2TGp4LTA1c3dXek9oME1VRHJ0ZTh1ZzQzRXRHeFd0TlJiY1hFa3BLd3l4N1RxajhLUWhwdmZGWVkta29TVnRuNTJhNzBNT2VBU0dxaXRTZFpIQmtZRzFYd1k?oc=5",
+      "pubDate": "Wed, 25 Mar 2026 02:28:00 GMT",
+      "source": "디지털투데이",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전자 \"TV는 허브\"…1억명 묶은 'TV 플러스' 전면에",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8zTV8zQWU4cjMxMzI0c3dIWWRUT0t6dHdqZ2FqS1RZa0tqZ2R2OGZOR2JMZVYyWlZ1eXVveEJCTTl6bTdWSXdQdVktWFp3NW8?oc=5",
+      "pubDate": "Wed, 25 Mar 2026 02:25:01 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
     {
       "title": "비트코인, 日 금리 인상 때마다 20% 급락···\"추가 인상설에 또 떨고 있다\"",
       "link": "https://news.google.com/rss/articles/CBMitgJBVV95cUxPZE9ER0hvYVdGZEhZZi1wYm4ydmJTb3RaUmJTNGhCS09lRGhwRjk0dlRBU2M1YWZHdDVjQkVpa2Fna1YydFpMZjhid3g4WG03V2hlNmVhamJDV1VsTEkxQlo5YUpPVjBCU3dxZjIzOF92YnJFRzdvakcwdHlJUl82WnhUd1VtMS1OazJGWnk4Y0FzdmFqR1o0ZGpqTW9xc2RHc0lfa0pSZVNOTGgwSlZYM0hwRU1DRjJ2emtScktzLW9ibTduRkRvX3g2d21xZHVoaV9GU1ZTX2dDaGhwcnJJWndQbkgzdnhTRkJZOUtFTE53TDY4YTQ1Z042VnljVkZEX0lLRzBITkprQmZqN3BxQkVNT19mYUFwOGtFcF9xZlN6eXRNODRTSjN4OHJjY280N0tBNHln?oc=5",
@@ -12,8 +90,8 @@
         "color": "#ff4757"
       },
       "impacts": [
-        "채권",
-        "BTC"
+        "BTC",
+        "채권"
       ]
     },
     {
@@ -50,85 +128,6 @@
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "“목표가 80만 원” 현대차에 몰린 고수들, 수익 난 한화에어로는 ‘차익 실현’ [주식 초고수는 지금]",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5SVUdSYWJoc0FqczJkMy1JcVlhV2ZQVUN2Vm1TeXZmSmtROXFlc2Rlbm1lMDBuaEpEMU5QV0xIYXlrN2ZiTjd0SkFQVFFEbmxfLWc?oc=5",
-      "pubDate": "Wed, 25 Mar 2026 01:55:28 GMT",
-      "source": "매일경제",
-      "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "중국 AI 반도체 자급률 76% 달성 전망, 모간스탠리 \"생산 수율과 HBM 확보는 한계\"",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBHUGpGcVpET012bE1pM3FGWmJ1djdJZzItblI3OC1KcktWd0tuNjFMa3h5LXFpcnJKMUV2Rzk0ZHI0b3lzU2dLMTVSd2hsckhJOG5zNHB6Q0Z4UW40N3FPbWpIWWttcnN4cEZqTEdqUUVMRlk?oc=5",
-      "pubDate": "Wed, 25 Mar 2026 01:51:33 GMT",
-      "source": "비즈니스포스트",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[랭킹연구소] '반도체 특수'에 대기업 영업익 '착시효과'…SK하이닉스>삼성전자>한전>현대차>기아>한화>현대모비스>삼성물산>한화에어로>삼성화재 順",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9qQi1PeFBqU3dONWhJQjM4Q0lSTlFvLWJzaGhHX0pUOUJVZlpVeFVYN2N2RnZkQWwzZWY2VmFJc2J2c3dJSFdBTURFcGFJdElMVUg1ak03cU54ZHB0YmJ5Uw?oc=5",
-      "pubDate": "Wed, 25 Mar 2026 01:49:19 GMT",
-      "source": "뉴스스페이스",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차",
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "AI·히트펌프 앞세운 삼성전자, MCE 2026서 8개 부문 수상",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE85aWhYamlZcGpvWERLRU15SlVwQzVkYTc5dGFOdWk0YllBU0hfNVJHLXVaVEoxR3hjd0NvMGhrSkVnbzBmcFE3SWY1ajdEUzRoUWc?oc=5",
-      "pubDate": "Wed, 25 Mar 2026 01:49:00 GMT",
-      "source": "더나은미래",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "헤데라, 비트코인 하락 속 상대적 강세…2026년 흐름 살펴보니",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB5SmNTWV9Gd0x3Y1BqYmdjbFU3V1JfU1ZJWFVVVW9KelRKbmVUYU9CTjNJZl9OY2pCQXh5UGFMaGJlUkUwcGVpc0V3SHIwbGJlaTFPVTE5bk1UdThXSlp3ZzdsRmkzdXBfSWVVVTZDTWxJTkk?oc=5",
-      "pubDate": "Wed, 25 Mar 2026 01:48:06 GMT",
-      "source": "디지털투데이",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "FCC, 외산 공유기 수입 전면 차단…한국 Wi-Fi 반도체株 수혜 주목",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNa21VbTQzNzQ0a1VLZEhBSE5KcGxuaVMxemxOODFnVnNfYnVncG1VYXgzaUwxelFFbkZhbU5mQWF3MHlaV3J0QnFRTV9kVm84Y1piV1F3eElFWW01WWozWjZ0cFFMb0tlc0ZvaS1CV2dRS0hVdW13RkRleVlmSDFOQUM2d3I4VFA2?oc=5",
-      "pubDate": "Wed, 25 Mar 2026 01:47:42 GMT",
-      "source": "글로벌이코노믹",
-      "category": {
-        "label": "🟢 POSITIVE",
-        "color": "#4ecdc4"
       },
       "impacts": [
         "삼성전자"
