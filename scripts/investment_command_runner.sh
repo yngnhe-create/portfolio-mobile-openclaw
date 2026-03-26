@@ -47,10 +47,17 @@ run_market_news() {
     log "✅ 시장/뉴스 완료"
 }
 
+# ── 히트맵 당일 등락률 수집
+run_daily_changes() {
+    log "🗺️ 히트맵 당일 등락률 수집"
+    python3 "$SCRIPTS/fetch_daily_changes.py" >> "$SCRIPTS/runner.log" 2>&1
+    log "✅ 당일 등락률 완료"
+}
+
 # ── Git 자동 배포
 run_git_push() {
     cd "$WORKSPACE"
-    git add public/data/market_latest.json public/data/news_latest.json public/data/wisereport_latest.json 2>/dev/null
+    git add public/data/market_latest.json public/data/news_latest.json public/data/wisereport_latest.json public/data/daily_changes.json 2>/dev/null
     if ! git diff --cached --quiet 2>/dev/null; then
         git commit -m "auto: 데이터 현행화 $(date '+%Y-%m-%d %H:%M')" >> "$LOG" 2>&1
         git push origin main >> "$LOG" 2>&1
@@ -128,6 +135,7 @@ smart_run() {
 
     # ── 실행
     $RUN_PORTFOLIO && run_portfolio
+    $RUN_PORTFOLIO && run_daily_changes
     $RUN_MARKET && run_market_news
     $RUN_WISEREPORT && run_wisereport
     $RUN_PLAYBOOK && run_playbook
@@ -149,6 +157,7 @@ case "$TARGET" in
     playbook)   run_playbook ;;
     all)
         run_portfolio
+        run_daily_changes
         run_market_news
         run_wisereport
         run_playbook
