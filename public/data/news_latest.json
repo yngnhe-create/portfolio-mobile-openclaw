@@ -1,7 +1,20 @@
 {
-  "timestamp": "2026-03-27T02:07:30.622309",
+  "timestamp": "2026-03-27T02:37:59.761131",
   "count": 10,
   "articles": [
+    {
+      "title": "JP모건 \"비트코인(BTC), 금·은보다 견조한 흐름\"",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE15YWxVMzRMX0JhejQyN3Z1Mk85bDdldmdSRXpoQ2F2S2FqQ0xBdG0weVFKZk93d3ZORmYtNUNIVjZySjlYb0ZjdnJEWTl5c2Jx?oc=5",
+      "pubDate": "Thu, 26 Mar 2026 17:19:05 GMT",
+      "source": "블루밍비트",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
     {
       "title": "“올해 1분기가 반도체 슈퍼싸이클 정점…상반기에 승부 봐야”",
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1ieHFZZjFsZ3BXREwwWmNxQ0lza2FCRnRUSUxaYWlhUU1fdjc2NFIyam1UWEQzdzlqYVY3VXBNUTNMVUNYeHRBLUdCSDFnTEJad2U2OFpyYkhSWmRpQVVyeTJwRXNIbFE3?oc=5",
@@ -64,8 +77,8 @@
         "color": "#8b9dc3"
       },
       "impacts": [
-        "삼성전자",
-        "원유"
+        "원유",
+        "삼성전자"
       ]
     },
     {
@@ -118,21 +131,6 @@
       },
       "impacts": [
         "삼성전자"
-      ]
-    },
-    {
-      "title": "“비트코인, 테슬라·엔비디아보다 안정적…변동성 줄었다”",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB2V3hQamV0ZTFWUVdSYm01V1FkSVdTQ0pfR0NwWE1xY1pyWW9ZUzJGU1ZFYmxSVkd4eGVfUFBsd3FoQVFMa1VPNy00SHRpTkV5U2hLOC1WR3FnZ2lCT1p3YUk1TlloME82cm93Mk9EYzBrMkE?oc=5",
-      "pubDate": "Thu, 26 Mar 2026 13:42:33 GMT",
-      "source": "디지털투데이",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "테슬라",
-        "NVIDIA",
-        "BTC"
       ]
     }
   ]
