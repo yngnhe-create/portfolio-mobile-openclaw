@@ -135,7 +135,7 @@ body.masked .si-val,body.masked .hm-cell .pct,body.masked .hm-cell .weight,body.
   <div class="vtab" onclick="setView('flat')">전체 종목</div>
   <div class="vtab" onclick="setView('gain')">수익률순</div>
   <div class="vtab" onclick="setView('summary')">섹터 요약</div>
-  <div class="mode-pill"><div class="mp" id="mpDaily" onclick="setMode('daily')">당일</div><div class="mp on" id="mpTotal" onclick="setMode('total')">총수익</div></div>
+  <div class="mode-pill"><div class="mp on" id="mpDaily" onclick="setMode('daily')">당일</div><div class="mp" id="mpTotal" onclick="setMode('total')">총수익</div></div>
 </div>
 <div class="fetch-bar" id="fetchBar" style="display:none">실시간 시세 로딩 중...</div>
 <div class="summary" id="summaryBar">
@@ -149,7 +149,7 @@ body.masked .si-val,body.masked .hm-cell .pct,body.masked .hm-cell .weight,body.
   <div class="legend-bar"></div>
   <span>수익</span>
 </div>
-<div class="legend-labels" id="legendLabels"><span>-30%</span><span>-15%</span><span>0%</span><span>+50%</span><span>+100%+</span></div>
+<div class="legend-labels" id="legendLabels"><span>-5%</span><span>-2%</span><span>0%</span><span>+2%</span><span>+5%+</span></div>
 <div id="content"><div class="loading"><div class="spin"></div><br>포트폴리오 로딩 중...</div></div>
 
 <div class="modal-overlay" id="modal" onclick="closeModal(event)">
@@ -263,7 +263,7 @@ function getColor(pct) {
 let ASSETS = [];
 let USDKRW = 1450;
 let currentView = 'sector';
-let displayMode = 'total';
+let displayMode = 'daily';
 const dailyChgMap = {};
 
 const PROXY = url => `/api/proxy?url=${encodeURIComponent(url)}`;
@@ -603,42 +603,35 @@ async function fetchUSDKRW() {
 // ═══════════════════════════════════════
 // Daily Change Fetcher
 // ═══════════════════════════════════════
-async function fetchOneTicker(name, sym) {
-  try {
-    const url = `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(sym)}?interval=1d&range=1d`;
-    const resp = await fetch(PROXY(url));
-    const json = await resp.json();
-    const d = JSON.parse(json.contents);
-    const meta = d.chart.result[0].meta;
-    const cur = meta.regularMarketPrice || 0;
-    const prev = meta.chartPreviousClose || meta.previousClose || cur;
-    if (prev > 0) dailyChgMap[name] = { pct: (cur-prev)/prev*100, cur, prev };
-  } catch(e) { /* skip */ }
-}
-
 async function fetchDailyChanges() {
   const bar = document.getElementById('fetchBar');
   bar.style.display = 'block';
-  const entries = Object.entries(TICKER_MAP);
-  let done = 0;
-  bar.textContent = `실시간 시세 로딩 중... (0/${entries.length})`;
+  bar.textContent = '실시간 시세 로딩 중...';
 
-  const concurrency = 8;
-  let idx = 0;
-  async function worker() {
-    while (idx < entries.length) {
-      const i = idx++;
-      const [name, sym] = entries[i];
-      await fetchOneTicker(name, sym);
-      done++;
-      bar.textContent = `실시간 시세 로딩 중... (${done}/${entries.length})`;
-    }
+  try {
+    const res = await fetch('data/daily_changes.json');
+    if (!res.ok) throw new Error('No data');
+    const data = await res.json();
+    const stocks = data.stocks || {};
+    let count = 0;
+    Object.entries(stocks).forEach(([name, info]) => {
+      dailyChgMap[name] = { pct: info.pct, cur: info.price, prev: info.price / (1 + info.pct/100) };
+      count++;
+    });
+
+    // Show data timestamp
+    const ts = data.timestamp ? new Date(data.timestamp) : null;
+    const timeStr = ts ? ts.toLocaleTimeString('ko-KR', {hour:'2-digit', minute:'2-digit'}) : '';
+    bar.textContent = `실시간 데이터 ${count}개 종목 로드 완료 ${timeStr ? '('+timeStr+' 기준)' : ''}`;
+    bar.style.background = 'var(--grn-soft)';
+    bar.style.color = 'var(--grn)';
+  } catch(e) {
+    bar.textContent = '실시간 데이터 불러오기 실패 — 총수익 모드로 표시';
+    bar.style.background = 'var(--yel-soft)';
+    bar.style.color = 'var(--yel)';
   }
-  await Promise.all(Array(Math.min(concurrency, entries.length)).fill(0).map(() => worker()));
 
-  bar.textContent = `실시간 데이터 ${done}/${entries.length} 로드 완료`;
-  setTimeout(() => { bar.style.display = 'none'; }, 2000);
-
+  setTimeout(() => { bar.style.display = 'none'; }, 3000);
   renderSummary();
   render();
 }
