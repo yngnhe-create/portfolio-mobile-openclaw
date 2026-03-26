@@ -1,7 +1,48 @@
 {
-  "timestamp": "2026-03-26T13:02:30.946628",
+  "timestamp": "2026-03-26T13:32:58.132551",
   "count": 10,
   "articles": [
+    {
+      "title": "반도체 수출 최고 실적에도…중동 리스크에 충남 경기 '불안'",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE02amZlSXdBbUthdlIxdm9vLUtrYkxKdzNod2lNcVd5WHBjRTZqeFVnZGY4WHk1YmFkdTdhb01Ec3lVNF9hbnBNNmRLZmhzTkU?oc=5",
+      "pubDate": "Thu, 26 Mar 2026 04:23:37 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
+      },
+      "impacts": [
+        "삼성전자",
+        "원유"
+      ]
+    },
+    {
+      "title": "무뇨스 현대차 사장 \"글로벌 생산능력 120만대로…AI도 판 키울 것\"",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5RcjEtbUU4c2UxU3hTc01IRk9pd0otQjV6TFZ2QUQ1X0ZxbVdYX0pDUUJncG5QMWZVRjVrMVVmSWQ0OVBpLXl0eG9yOW9KSW8?oc=5",
+      "pubDate": "Thu, 26 Mar 2026 04:22:05 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "이란 전쟁 미사일 소모에 텅스텐 공급 악화…반도체 제조까지 ‘흔들’",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNN2stazJibmNmZEpZMDEtYWlvSVBHazF4RHV1RkFMdmM3Tlo0N0hVVXZwdzNkdTAzZnpnSW5ycC1mUjdvRmJ2RVk3dXJnQlRLdVB5cnEybjlRQVpmZXVwT1REMDBxU0RBd2d3cmo4azNJbVlpU2dCN0UyZVJsMDRRRldNMDJhUlVRTHFF?oc=5",
+      "pubDate": "Thu, 26 Mar 2026 04:02:46 GMT",
+      "source": "서울신문",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "삼성전자",
+        "원유"
+      ]
+    },
     {
       "title": "비트코인, 새 주소 ‘BIP 360’으로 양자 위협 막아낼까?",
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9vUWVDWGZjZ0NfdUIwR1dFalZjSzhGdllxcHItOERwSzdRNzJDdmJlcll6RWJCOFNCZUMyNmdXWjlYeXd3RU5DVXliRzR5Sk4zZzVSRFNVU0VCc29DNlpQbERjSktxRVFhOGVOaVowdw?oc=5",
@@ -13,6 +54,19 @@
       },
       "impacts": [
         "BTC"
+      ]
+    },
+    {
+      "title": "현대차, 중국·인도·북미 등 신차·투자계획 밝혀",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBnN1NCc3BERXFfUWtiQl9wNjdBMEltV3ZzNGFJeloxbHVnM1ZXMWhldUdhclhrbUtEOTR1MDdpdDhLZ2ZCTnpiWGxBdFhqOVBhN2F4c3paQmFFdmYtLVhLNWR0eDBOajdTVmd1WGhLTWtUVm5u?oc=5",
+      "pubDate": "Thu, 26 Mar 2026 03:44:31 GMT",
+      "source": "부산일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
       ]
     },
     {
@@ -56,75 +110,23 @@
       ]
     },
     {
+      "title": "현대차, 렌트 사업 진출 확정…종합 모빌리티 기업 체질 개선 속도",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5YZUIwQlFNak9Jd2R2ZHdxc2JjZ1NUbU5UTlF3S3FfNjlHRnZrZ016Sl9Bd0FoNUhBNlZmVHNlV1BvT0tXc2RDeU9CNVNWalloQ0NmS19ZYzVsQURqc1BwUFhWQWQ2OWpN?oc=5",
+      "pubDate": "Thu, 26 Mar 2026 03:31:09 GMT",
+      "source": "ebn.co.kr",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
       "title": "삼성전자, 건조 기능 대폭 강화한 국내 최대 일체형 세탁건조기 출시",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPa1hKTjV3cGI1WW14b0c2TUxyRlNtNll0NUlkbUJoN1M2T2d2UTZtT0czY2hwdTdQOWJRX0hwZldJeDRuek1GWlZFRWg5cVpGdUw2Y3ltc1dtQXBSNFVFOUp1Y3JPajNHWmpWRWVUdGRPdEJCNjhqQXI3aHJDRWdKY0RmNNIBlwFBVV95cUxNWjdxR1dNS2ZxZl9sLXYyR25NekUxdnEtekZJbTlBdHEtejlWZ3BtQVBLcjVWT2t6RTZLOThBX09TOVUxc29NX0tfcFg3M2E4R3hVMV91RXFPNDFxSW5jQTIxMWNPVWhyMHN3aE85RWV5NC00MC1NRXF4MUFvY185VDZVN1drYzAxbDZmRld3VzI5aHB6ZUhZ?oc=5",
       "pubDate": "Thu, 26 Mar 2026 03:31:00 GMT",
       "source": "조선일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자·SK하이닉스 급락… KB증권 “메모리 수요 둔화 우려 과도”",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE44YW8zYlVwQXJPazFtT09QeE1vbjdBc2ttVk05YlFHellXa1FacHhFNUlvdVVNSXpieE44N3RFM1JndGR5MFM2Nk1Bb3pKdjJmN1JrbXFyc2p6NVFxNEtlTFBOOVg?oc=5",
-      "pubDate": "Thu, 26 Mar 2026 03:29:55 GMT",
-      "source": "PRESS9",
-      "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "현대차, 렌터카 사업추가…제조-렌탈-중고차 ‘수직계열화’ 완성",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBvaUEwM3RxRzluSlhZV3ZjdmJVYWZoU0xrbkFEeWxuYlJJRjFkbHVGX01OS0t6LW9uSmkxM2Znb1NiUUVLbHQwVUR3SWZ5YlpYXzVuSEZyaVBoZGJ6LU9XbQ?oc=5",
-      "pubDate": "Thu, 26 Mar 2026 03:27:55 GMT",
-      "source": "뉴스토마토",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "현대차, AI·로보틱스 기업 전환 가속…현지 생산 강화",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE00Yjltd1UwQkJNelNZcFdpSHpDdEp4a1hjWWQ0aWkxelFWbHNhWTRrS0VkUWc5X1d1V3VSTEtWM056VFJnckF3ak10MkZlRmZQY2NBY0lUa2Y0Um1TZ203UA?oc=5",
-      "pubDate": "Thu, 26 Mar 2026 03:25:27 GMT",
-      "source": "뉴스토마토",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "워트, 유니램과 8억4600만원 규모 반도체 제조장비 공급 계약 체결",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9pTTE1cnhYTGhwOHRSTjMwbjlQc2pnLXFXa2JtZjZjMS1ROFVnTWFtTVNsc1Mya1I1UGNCbVA1XzZtaWJ1WlhIQzV2UjlVcEctdlZodktlWmJnMEU1aVBCeUN2RVVfMFo3bDl1SkdOLUZtZ28?oc=5",
-      "pubDate": "Thu, 26 Mar 2026 03:13:05 GMT",
-      "source": "디지털투데이",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "용인특례시, ‘2026년 제2회 반도체산업 경쟁력강화위원회’ 회의 개최",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE45Z3BNaUZBUW1HaEhyWExoQ241aTVVdk8tZ2xmaG01dEY1QWVaR284ZVBxYjRlWTB2VEl2c2k5YTAxdW9IWHZ5Wm9EZkFibEV2Y2l2eFpvSEI0bDlMclpIYXdnMmpuX09HU0NB?oc=5",
-      "pubDate": "Thu, 26 Mar 2026 03:11:47 GMT",
-      "source": "일간투데이",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
