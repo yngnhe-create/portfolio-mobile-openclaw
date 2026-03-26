@@ -1,12 +1,25 @@
 {
-  "timestamp": "2026-03-26T16:17:04.324417",
+  "timestamp": "2026-03-26T18:04:49.337902",
   "count": 10,
   "articles": [
     {
-      "title": "미래에셋자산운용, ‘TIGER 반도체TOP10 ETF’ 개인 순매수 2조원 돌파",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9DV3ZQa1JjQ19JRTlKV2xYWEVCWGljTlBGZ3doSTNRenNLT3F5MEhOSmRnQkVNVXhxR1pCRFJvLTZOSEF0WjhHSWI3XzNWZmVFc0tXSkZhUDBoSmRPU2ZCYm9RSks?oc=5",
-      "pubDate": "Thu, 26 Mar 2026 07:10:11 GMT",
-      "source": "CNB뉴스",
+      "title": "국민성장펀드, AI 반도체에 2500억 직접투자…지분투자 첫 사례",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9yenZIR3NOT1RKT09CQXA4V0VfbjJFZW9hWGhJVnpWeDFrRzgzb3pSM3BsMUY3YVhsZVJLWGhSTGl3R2xuUEpiaGVfV256ZWZTZnhyRFhEYzRvNVNOb0ZnUE1hN0ZxazA?oc=5",
+      "pubDate": "Thu, 26 Mar 2026 09:01:00 GMT",
+      "source": "한겨레",
+      "category": {
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "코스피 8000간다는 노무라…“반도체 하나면 이상 無”",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBVLV9oamdSSmdkZm1CTE8xa2Fpd3gwTnJaUm9UUzExazNzWk0yX2taZjNqdHlHLTZIN29xbWs5VV85YmJVdGVsUWEyQk9iQm8?oc=5",
+      "pubDate": "Thu, 26 Mar 2026 08:54:33 GMT",
+      "source": "v.daum.net",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -16,10 +29,23 @@
       ]
     },
     {
-      "title": "코스피, 3%대 하락 마감…'터보퀀트'에 메모리 반도체 불확실성↑",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1wOEhMWExxcjUzcE5vMVh5SXp3TG5QYjBiT0FETU9JQ0UzNG1YZUNJNWVldm5FdklBZFlLWW9UM3FxSVhNb2R5NGI0UDR1a1lWWlB0aVBCczk4a3JURHAtbDNnT25oU0Fl?oc=5",
-      "pubDate": "Thu, 26 Mar 2026 07:09:15 GMT",
-      "source": "mt.co.kr",
+      "title": "올해 PC 시장 5% 역성장...메모리 공급부족 탓",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5oVDJwU2FKUU9KVVhqdFhfNzE0Smt1M2E1c0pqVUhONDlGUGctakZsX3kydnJBTks2d1B5X283ME8zbld6cm0zRnppTnJDUFpIVjB4aDVlOHFmU1lwWVplZXNiLXA3UQ?oc=5",
+      "pubDate": "Thu, 26 Mar 2026 08:53:57 GMT",
+      "source": "디일렉",
+      "category": {
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "NH아문디 ‘HANARO K-반도체 ETF’ 순자산 1조7000억 돌파",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9iNUhmU1F2ZndlanRySGhvb05sWFJmcXZWNktoako5blpDa0l1MVZBUHJIaUJ5WU9BUXh6ZlhuUE1uVVJXY3hPa2kxTWNkNlkyX0lieUNyZjVsZw?oc=5",
+      "pubDate": "Thu, 26 Mar 2026 08:53:00 GMT",
+      "source": "농민신문",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -29,23 +55,10 @@
       ]
     },
     {
-      "title": "'1경8000조원' 빗장 풀린다…비트코인, 美 퇴직연금 편입 '초읽기'",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFB4RUpZVkp5SDhpZE1oTXBSem9BVGFmdUE5bEZYLUg2WGNVc091UmRGTmhqWEVyNUZmdVFWT2I1dDVMMUF1VVpTSndseXpVSnlX?oc=5",
-      "pubDate": "Thu, 26 Mar 2026 07:08:54 GMT",
-      "source": "블루밍비트",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "용인 반도체 추진 차질 우려…정부 실행 촉구",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9yeS1qRUhPSm85ZS1tcW9VeVZiSE84U1hIbTVNT1dJdXVGNTVVaUhOR1FEZlBRZEtIUHVyUXdpQ2pWY1g5N0hhUnE4QlpKOHBCT0V1Q0JGOWpVVnlvcXNhaWFxM1Y?oc=5",
-      "pubDate": "Thu, 26 Mar 2026 07:05:36 GMT",
-      "source": "서울경제TV",
+      "title": "삼성전자 노조, '교섭-투쟁' 투트랙 전략으로 전환.. 파업까지 카운트다운 시작",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1vOTRrQlZ1bzA3eEhRZWV4Q2xmRG9EdFRXV0k3Ql9tLWxMQklBOHlaVnRLSW12NFBHcGh5RVc5SVpfZ05XVVJ4eWRTR29ZdnRUa1hocVowSFIwYWQ5RXdibW4tTGxJdXJGeEM4dHFSeFQyQQ?oc=5",
+      "pubDate": "Thu, 26 Mar 2026 08:52:52 GMT",
+      "source": "인더스트리뉴스",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -55,10 +68,49 @@
       ]
     },
     {
-      "title": "[증시-마감] 코스피 3%대 급락…구글 '터보퀀트' 쇼크에 반도체 대형주 흔들",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBDb05vSzhhYVdPT0ZMTTh5bUh5YjlFWkNqZFVSZmpLbzQzLTFTd0VGS19LN0NVQ0F6MTE4YWlzbjdzZ240ZGFicF9IQkVPWU1SczlPcEpXSHFhTHNlM1BWdzdGRUhJTkI2UWd3cnNKMWE?oc=5",
-      "pubDate": "Thu, 26 Mar 2026 07:04:53 GMT",
-      "source": "연합인포맥스",
+      "title": "국민성장펀드, AI 반도체 기업에 2500억 직접 투자…국산 NPU 양산",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1FVWdTaVpRTGNnRUF0cDRHYmlNbGloVHFJU1BycWV6YW05U2xub08wekNhSDJQaTZ3aWR5cGktRkl1VEx5dU96Y1dlT3NaR3Uyd24yNWI3YUFYd1RMNnZkc3ZkRFFJWHhuRlhNSg?oc=5",
+      "pubDate": "Thu, 26 Mar 2026 08:45:16 GMT",
+      "source": "대한민국 정책브리핑",
+      "category": {
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "용인 시민단체, ‘용인 반도체 국가산단 사수 시민대책위원회’ 발족⋯‘배수의 진’",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9GenVyODZOcnJIbHNpblItaUQtOXk3cUlobUQ3THlwdXl5cUx4QzRFLUZnYzhILVhjSXktcldUQmEtZ1lSZWlmM05TQmF1Tll0RTBrbC01YV90d2lyV09pTWtYd2dEVXJnd2dKWk43NA?oc=5",
+      "pubDate": "Thu, 26 Mar 2026 08:43:00 GMT",
+      "source": "인천일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "현대차, 생산·상품·AI 동시 재편…'지능형 시스템 기업' 전환 속도",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5oWmRCelVqZ2VBenNTRlZCT24tZFFheEp2aWtDTkNZYWFaQXhQTWRFVTZhcGtlaUotTHBxVEhIcTByZUZGZDZGdXA2cEs1cFhVUGhZRzllS21mdDVBNm15ZzVIOE9UNHU4VlRVS3FuNA?oc=5",
+      "pubDate": "Thu, 26 Mar 2026 08:38:30 GMT",
+      "source": "위키리크스한국",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "반도체 투심 흔들린 코스피 3%대 급락···5500선 아래로",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBEdjBIekJEdzk5U2MyN3NGajN2V1g4MDJxYWUwcmNqeU83c0s4R0o3Ny1BZ0NPSE1FNUlaano5MDhZOUFFLW13YVZVOGs3QXRjS01Xa0lYejRvcXMxX2VDanFNSW5mSlVjWGc?oc=5",
+      "pubDate": "Thu, 26 Mar 2026 08:36:07 GMT",
+      "source": "서울파이낸스",
       "category": {
         "label": "🔴 HIGH IMPACT",
         "color": "#ff4757"
@@ -68,68 +120,16 @@
       ]
     },
     {
-      "title": "[분석] \"비트코인 현물 수요 회복 더뎌…스트래티지 매수 둔화시 공백\"",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1OMGJjWnNyUHdXa3lmZnBudVNQVzNuLU55cm9US09xREtWSmFZRVhWdnBXdDRLRkhHLUxFZFZrV2YyWjN1Y1I1M3FXc3hwM05z?oc=5",
-      "pubDate": "Thu, 26 Mar 2026 07:03:23 GMT",
-      "source": "블루밍비트",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "메모리반도체 호황 '과소평가' 분석 나와, \"주가 부진은 투자자 PTSD 때문\"",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE0xMUY0eXlMNFhaR24xeXB6SHhRT3RwZU5NRkljWDc0LVYzb0dPZW9DZERqa2hVV1M4c1lCOTBHNVVhWENfb0E0TllzbE9FQTFIeEdyazVBMFhDU3Jwejc4ZHpfYlJJTVhEZF9DNjhIbUNWaFU?oc=5",
-      "pubDate": "Thu, 26 Mar 2026 07:01:21 GMT",
-      "source": "비즈니스포스트",
+      "title": "현대차그룹, 미국 IIHS의 2026년 신차 안전성 평가에서 최고 안전 등급 다수 선정",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBHX3luTGFYWHlvNm5ldWRWYnlQLTdvdVJ1ck8yejVuejc0VHdrMjRZbGZZUDgwTjdpTlIybndzWWpXcnN0Zjd5MnlibGQ4ekhZOHV3SVVTei1wTkN0UEpibVhxV20yZ3BmczBQUVN3RnE?oc=5",
+      "pubDate": "Thu, 26 Mar 2026 08:33:00 GMT",
+      "source": "Hyundai Motor Group",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "중국 CXMT 지난해 매출 130% 증가 추정, 메모리반도체 수요 폭증 수혜",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBhMVdmTDR6ZjVnTk1pcWgwZFFDbjBNN0ZRUThSSnZpb2RaYmtKcDN3RW5CYXc4VkF4My1JVXZObHYyeFFrLWNFZWZkaWNHdnpLcmNCd3JfT0R2RVNFTVlkVDRSTHpmMk9VNlpxUVplTnBPclE?oc=5",
-      "pubDate": "Thu, 26 Mar 2026 07:00:58 GMT",
-      "source": "비즈니스포스트",
-      "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "종전 경계감에 코스피 5460대로 터보퀀트 쇼크…삼성전자 5%↓",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1wTUFjMG1XNUpHcFl2cENxa1c4X1BqYzJkX296QjVwT21VMjN4M3dzWnZQZzI5TUFGdjdTbWRVOER4TXh6RENGQUJnMHdCU2lRSzdieEhrLUpQbHJtXzBOb1BYMW1jM2paVU56Xw?oc=5",
-      "pubDate": "Thu, 26 Mar 2026 06:57:56 GMT",
-      "source": "중소기업신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "\"삼성 300조 반도체 초격차 사수\"…용인 반도체 산단사수 대책위, 원안 추진 촉구",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAxazZ0WXJzb21aaFQ5X28zRldhbjlxQlp0aE5oVzN4RXBLVHVEeEItWGxoV0tQaloxRXk2NUlnNDZza2FVdXZDcHBmaTFGUE9TVDF3OHU3eEFfZi1HRkloMWNraGw?oc=5",
-      "pubDate": "Thu, 26 Mar 2026 06:57:46 GMT",
-      "source": "디지털데일리",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
+        "현대차"
       ]
     }
   ]
