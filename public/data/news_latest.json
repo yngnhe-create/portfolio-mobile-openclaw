@@ -1,7 +1,21 @@
 {
-  "timestamp": "2026-03-27T00:06:23.752627",
+  "timestamp": "2026-03-27T00:37:01.434720",
   "count": 10,
   "articles": [
+    {
+      "title": "비트코인(BTC), 6만9000달러 일시 반납",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5JdHJNd2FZS28wdkdoME10X0g0djBNeHJlSGhPOG55VWNoeER1YWhWSEFHOEFSVmVWTnQ3d0ZmS3ZGZ1hHSzdoZkY5NXZ5azQy?oc=5",
+      "pubDate": "Thu, 26 Mar 2026 15:19:06 GMT",
+      "source": "블루밍비트",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "환율",
+        "BTC"
+      ]
+    },
     {
       "title": "'슈퍼주총데이' 현대차 무뇨스, 미래성장 3축 제시…글로벌 투자 지속",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA3bk9WTi1nbTlWMzBxY0NCeEVhMFNyZXc1TEVlcnlWRnBqeXQ1eHFzWUlTZGlvSVlHT3dqZzgzMVR3Y0dfN280X2NVbEhndVpSWENiTF9IZnZzd25WRFB0dzdTR04yWXNWcFVXY3RsRy0?oc=5",
@@ -40,20 +54,6 @@
       },
       "impacts": [
         "삼성전자"
-      ]
-    },
-    {
-      "title": "부탄, 올 들어 1.5억달러치 비트코인 이체…보유량 최고치 대비 66% 줄어",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE10VGExMmtLUlpxSzdia0s1MEdNeTJicEpnNVcxMjBBeGVoaXlXTm5fYkd5SDJ4T05aN3l6YjhNV0txckFpT3BpeXJmYU5oUUVl?oc=5",
-      "pubDate": "Thu, 26 Mar 2026 14:13:11 GMT",
-      "source": "블루밍비트",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC",
-        "환율"
       ]
     },
     {
@@ -105,9 +105,9 @@
         "color": "#a55eea"
       },
       "impacts": [
-        "NVIDIA",
+        "테슬라",
         "BTC",
-        "테슬라"
+        "NVIDIA"
       ]
     },
     {
@@ -120,8 +120,8 @@
         "color": "#a55eea"
       },
       "impacts": [
-        "BTC",
-        "환율"
+        "환율",
+        "BTC"
       ]
     },
     {
