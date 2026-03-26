@@ -1,7 +1,129 @@
 {
-  "timestamp": "2026-03-26T22:35:52.435855",
+  "timestamp": "2026-03-27T00:06:23.752627",
   "count": 10,
   "articles": [
+    {
+      "title": "'슈퍼주총데이' 현대차 무뇨스, 미래성장 3축 제시…글로벌 투자 지속",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA3bk9WTi1nbTlWMzBxY0NCeEVhMFNyZXc1TEVlcnlWRnBqeXQ1eHFzWUlTZGlvSVlHT3dqZzgzMVR3Y0dfN280X2NVbEhndVpSWENiTF9IZnZzd25WRFB0dzdTR04yWXNWcFVXY3RsRy0?oc=5",
+      "pubDate": "Thu, 26 Mar 2026 14:57:55 GMT",
+      "source": "신아일보",
+      "category": {
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "“코스피 8000 가능하다…반도체가 유가 불안 상쇄” 노무라증권",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5yalBuYUczWUJSbjB3M2Z3YmtxbW1JLVdyMVdUSUdGRFBwMnRCSzIwclpVY01VdklkU3FBa3pwUmtHM0NaV3lkMzJ3NzltQVRJ?oc=5",
+      "pubDate": "Thu, 26 Mar 2026 14:39:23 GMT",
+      "source": "문화일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자",
+        "원유"
+      ]
+    },
+    {
+      "title": "메모리 반도체 주식 하락, 지금 매수해야 할까? 기술 전문가의 견해",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAzXzJoeGtDUmlCV2xTY2NER0haSWdBUWhwSzZ5c0VHYnVDMmZHOVZ0ZFluU0JpM214SUVpVGk4VW5aZTlUSTBpZ2U5MGd2XzR4WC1QZVBBMzRrM1Z6LUZUbzZHLUIwR0RTZ1BXcUhROFM?oc=5",
+      "pubDate": "Thu, 26 Mar 2026 14:21:00 GMT",
+      "source": "Investing.com 한국어",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "부탄, 올 들어 1.5억달러치 비트코인 이체…보유량 최고치 대비 66% 줄어",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE10VGExMmtLUlpxSzdia0s1MEdNeTJicEpnNVcxMjBBeGVoaXlXTm5fYkd5SDJ4T05aN3l6YjhNV0txckFpT3BpeXJmYU5oUUVl?oc=5",
+      "pubDate": "Thu, 26 Mar 2026 14:13:11 GMT",
+      "source": "블루밍비트",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC",
+        "환율"
+      ]
+    },
+    {
+      "title": "미국 경기침체 가능성 50%…비트코인, 2020년 반등 재현할까?",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBpb0txVzVQMlVoTzRNWjZxYkg3eV94RDJTNktDRmRzOUQxSFR1TlZmbHVFNlpGLTE3TjlNRktxaG5xR3lEdlM3Wm5rNWlMeXZqcGJhR3hSbWFQZ0RCOE90cnFtdU9uSW94SGppN3BMUnhyU2c?oc=5",
+      "pubDate": "Thu, 26 Mar 2026 14:11:00 GMT",
+      "source": "디지털투데이",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "글로벌파운드리스, 타워반도체에 특허침해 소송 제기",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5Cb1ZBcWw2aDU1Z1J6V25fek9CcGZCT0V5Y05mV3NGYy1OWWFlVF9TWi1IR2ZpTVBLMVRXX2pRSUgzZXVjVy1pNmxpSWVUMEQ2LTE0ZmpPME52S0F4c1o2TE1hbjVObl83cnM5NVVyM2Q?oc=5",
+      "pubDate": "Thu, 26 Mar 2026 14:10:00 GMT",
+      "source": "Investing.com 한국어",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "이상일 시장 \"용인 반도체산단 차질 없어야\"… 전력계획 지연 우려",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBDQmRJZEdrVUNzcHN1UzhJVTdoaGJuVEpjMU9IcU5sRjB2QThQMmFnd3lyaUNhQjNrQjFpUDFqOWRsZmk2dWQwXzFkV3psUHdnSG1Pb1BidkEyOWRPd0N3UjNoa0ZZNVFtQWNLOEh3?oc=5",
+      "pubDate": "Thu, 26 Mar 2026 14:07:53 GMT",
+      "source": "더리포트",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "“비트코인, 테슬라·엔비디아보다 안정적…변동성 줄었다”",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB2V3hQamV0ZTFWUVdSYm01V1FkSVdTQ0pfR0NwWE1xY1pyWW9ZUzJGU1ZFYmxSVkd4eGVfUFBsd3FoQVFMa1VPNy00SHRpTkV5U2hLOC1WR3FnZ2lCT1p3YUk1TlloME82cm93Mk9EYzBrMkE?oc=5",
+      "pubDate": "Thu, 26 Mar 2026 13:42:33 GMT",
+      "source": "디지털투데이",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "NVIDIA",
+        "BTC",
+        "테슬라"
+      ]
+    },
+    {
+      "title": "7만달러 박스권 갇힌 비트코인, 유동성 부족이 변수…추가 흐름 필요",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8zUlVGeWNDc0tmVXJDYVR5ZmtrVG5tbTZQcGxEd21pcVNHcTZfWUt3ejJZVXVVaVNVNUxJZ0VqUFRQNURXdWhPQVNFSDV3djhtUlFwNnFuZ3lncW1MZTFuSGp5dHBRR29RbmdWTjFoNkdNaFk?oc=5",
+      "pubDate": "Thu, 26 Mar 2026 13:32:13 GMT",
+      "source": "디지털투데이",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC",
+        "환율"
+      ]
+    },
     {
       "title": "타워반도체, 성장 전망에 목표 주가 상향 조정",
       "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1fdXp5bnpuZ3k2Mk9lOUNKdFBNd0RpQWZhQmkxa1RzTXdYWUNhSXJiTG02YjVHR1JJYlcwWElrcy1BNWxQb0hKbG5KSGJLOFd2OXF3bklYdGFCSVNyT0I1ZEI0SHVjd3kyYmRac09aSFV5ejJX?oc=5",
@@ -13,124 +135,6 @@
       },
       "impacts": [
         "삼성전자"
-      ]
-    },
-    {
-      "title": "美 마라홀딩스, 이달 들어 비트코인 1.5만개 매각…11억弗 규모",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBIdzRBYkFmN2RRS1VnUGRrZG1Lc1lFMHZCUThTdVFrRUJDWHpOTW9xQ0lrMncyb1QtdXVLeG9PWkZKc0VDcmRnTFdfRWZ4dk9s?oc=5",
-      "pubDate": "Thu, 26 Mar 2026 13:23:31 GMT",
-      "source": "블루밍비트",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "모건스탠리, 비트코인 현물 ETF 상장 임박…NYSE 상장 확정",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBONHlCQ0FUaXZqSF9MZUgtSXo5c2NuQmEwMl9qRDFzYnRnVW5kalo0Slo4emkwWjlOWnhIaVVDNHd5R3lqQVluVEV4LU44TF9Bd3ItanZLUXFJdlp1bVIyd2t2cTNNemRsVC10dzZxRjY2M28?oc=5",
-      "pubDate": "Thu, 26 Mar 2026 13:21:48 GMT",
-      "source": "디지털투데이",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "비트코인 채굴자 20%, 수익성 악화…구형 장비·고전력 비용이 원인",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1iQWY3X3dTSG1nWmFFS1hFSVZiQ0gyalZtYlJQYkkzYUxUd0FOUHhCekExYzZycU1UU19zVHF2ZTl0Qk5fNlVxWEZCbllDa3Z3a1RjRkhTNnZWOUFZeXBQMi1MUk1YT3ducGM0OVBuUUQ1Y28?oc=5",
-      "pubDate": "Thu, 26 Mar 2026 13:14:30 GMT",
-      "source": "디지털투데이",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "비트코인, 7만달러 붕괴…약세장 막바지 신호인가",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBKNWw4MjE1S1ZBSFlsaHUxX3E5ZVVRSkJPZTUwa3JNT2toUlRMZmhUakR3bjFnVjl2bUpsOXhDbDVLMU5vbHNYaW5lM2VmM3ZCaV9RSkNnNFJXUWxSeTdRRXN5NFJ3eUFVTWRsYVNfRHpDeDQ?oc=5",
-      "pubDate": "Thu, 26 Mar 2026 13:10:53 GMT",
-      "source": "디지털투데이",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "환율",
-        "BTC"
-      ]
-    },
-    {
-      "title": "워트, 삼성전자와 30억2300만원 규모 반도체 제조장비 공급 계약 체결",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE53NWlHcjg1N1Zoa0I1bDllZUtYaEd2cEtNSHRKRHNCYnNvUXd1UkUwWmp4UVdkUmUwRjRrTDJHZmswMUY1Z3dPUHQxS2x5QlBidUJQaGZENkhyZEE3TTB6QWdBUFVxVFpzY2UwUkYxUkFzS28?oc=5",
-      "pubDate": "Thu, 26 Mar 2026 13:04:05 GMT",
-      "source": "디지털투데이",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[The Numbers] 삼성전자·SK하이닉스, 주가 급락의 진짜 이유…구글 '터보퀀트' 쇼크, 메모리반도체 시장 재편 신호탄",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0zTHp4azNxNEd1di1WVGczVERnekZPX09lU1JlWFE2aVBtWk44SXZydlNHT1l3RVM5UTdFV0E4M3VQSjdPS2pZc3hfRlhlcjBRZWN0SzNWRG8wSkxPWnBOZw?oc=5",
-      "pubDate": "Thu, 26 Mar 2026 13:02:09 GMT",
-      "source": "뉴스스페이스",
-      "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "서울반도체, 제39기 재무제표 승인·정관 변경 가결…이사 보수한도는 정족수 미달로 미결",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFA5NzlEXzFXdXp4LUdMbV9YVTVGWjY5Zjc2OEJGNTVKUnNOQkhRZnFZbF9OV3otR3h4R29qX0N0ZFFRVHVxMERtdTc0VmtoTGh5b0Z2NzgycnltemNyZW1YOW5DSk5sZE5rVGtGOGRfeUlXZmc?oc=5",
-      "pubDate": "Thu, 26 Mar 2026 12:58:02 GMT",
-      "source": "디지털투데이",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "서울반도체, 자회사 Seoul Semiconductor Vina에 747억8000만원 대여 결정",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9Ta2d5aGhMcHFBZ0JVS29qOFp5U2hWN3U4V0hSQkNtRXVDRVpZemNjamJlSmNqcXNnbUFfcE1wSzIxUnNTZWkxNC1MRmdHMzJfWWF5RUlwazQ4QzlSX01fWm9XUUh5cTljS3pkbldjTDQ5T2s?oc=5",
-      "pubDate": "Thu, 26 Mar 2026 12:43:05 GMT",
-      "source": "디지털투데이",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "비트코인 담보 대출 출시: Better, Coinbase 협력",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE04bXlhMEpCcmNodllDSUFwWl80dWdJaXJTUzQweGFqS2xXV25LdHd5TXVCSDVudW9fdjd6V0R0TXp3YnZwYVZfOXNoVTY3b0I0SHFQa09LQTRVM1lyS2RiZUFXTTVSUjlLdDJ6WWx5Vzk?oc=5",
-      "pubDate": "Thu, 26 Mar 2026 12:39:00 GMT",
-      "source": "Investing.com 한국어",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
       ]
     }
   ]
