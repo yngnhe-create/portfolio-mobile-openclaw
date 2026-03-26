@@ -1,116 +1,39 @@
 {
-  "timestamp": "2026-03-26T11:01:05.063771",
+  "timestamp": "2026-03-26T11:31:25.635594",
   "count": 10,
   "articles": [
     {
-      "title": "\"이제 혼수 1순위는 세탁건조기\"…삼성전자, 69분 완성 '비스포크 AI 콤보' 출시",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9FNmpQSFh1OGNnNXRpY1o0RHlCRkdUNUdrWWY0V0RNTzVNX09SM1hQV3FiSC0wbmdtV3BhZnFwQXRsWHNnci02a0VsdFVUNXIxaHpvc3Q2dWMyVW52UUk4R2g4Y0p6YnpOenZFaEF3aWdRSUI5?oc=5",
-      "pubDate": "Thu, 26 Mar 2026 02:00:00 GMT",
-      "source": "아시아경제",
+      "title": "[테마시황] 구글발 ‘터보퀀트’, 중동발 헬륨 공급난... 반도체株 '이중고'에 하락",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9mbkpxYTVTUDRHSUVuVFlCLTJTdzREVVQ4cTJ5MndPNVhHdVlkaHZvTlhZRjRwWmRpLXk1SUs1T1JhaHEtNzRMS2FrR3hDNnJraDlJWWdtcU5hQWpGT1VqSG14U2FsczRmcktmTEhOMkplcUpfVHc?oc=5",
+      "pubDate": "Thu, 26 Mar 2026 02:22:53 GMT",
+      "source": "인포스탁데일리",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
+        "원유",
         "삼성전자"
       ]
     },
     {
-      "title": "[위클리오늘] HL그룹ㆍ삼성전자ㆍKGM",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE90VG9GMlFJOXVNVXZHYjJ2SEdlNWdwZDRkVFVZb0piOGk4RVhjNjB1NUJWb3JUb2pOeGxNMEZ3OTd3bmhpa216UjJHZ1RxMzFxTGsyeEtNSkN4NUNQZ19rdjJ0em9FRDRHalRVNHZn?oc=5",
-      "pubDate": "Thu, 26 Mar 2026 01:54:32 GMT",
-      "source": "위클리오늘",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "아이에스티이, SK하이닉스와 반도체 장비 공급 계약 체결",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9adUo3RUJNMlFUc2oxVVM2YmZlLTUybmtXQ1p4VjlYM1hGMDVBYzBGVUlaa21hcXJCeG8tWUV3UTlqQVR3T19DQnpFdkc3b1RmOTk3aGF2Z1E2clN5M2Q1OFNRRkZVU1BJTHFWUlNjRDd1MTA?oc=5",
-      "pubDate": "Thu, 26 Mar 2026 01:52:01 GMT",
-      "source": "디지털투데이",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "광반도체 대장주 '우리로' 거래정지…이노인스트루먼트 3연상 [핫종목]",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE04dWoxdG55QXVsOV80RXFuNE41QXlKSTNnTjFnYWNjb1p1dmVjekhHaDVOUlNNMG50N2ktR01tVkJHcko4Um1RYnJXRjhMLVAtaVBTcFVNZ1lmYjNwZlcw?oc=5",
-      "pubDate": "Thu, 26 Mar 2026 01:50:57 GMT",
-      "source": "뉴스1",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "XRP, CME 그룹 공식 문서에 비트코인·이더리움과 함께 등재",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9EcTJFcGpWUHJZb1hyZ3FxdjhGckdUWFo3dXBkckx1ZWhpSjJwcTVHLVZBSjMzeVBVT3AyTW1ub08xUElfVGlzU1VwTTlldGFEN0EyLS1JNmttOWxSeDQwdjJIU2MzQ0RjMFhtNDFhdThOS2c?oc=5",
-      "pubDate": "Thu, 26 Mar 2026 01:50:00 GMT",
-      "source": "디지털투데이",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "현대차 무뇨스 “현지화·맞춤화 강화…AI 로보틱스로 체질 전환”",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBsbXh0LXFPdUdydzdidkVYQzE1UkVXZVk4RWsyYy1zaTRsVEEwWXpqZnNXTDRrZ1l0ODVuTnE3bjhkM1B6UFp3UnNlamI2TzA?oc=5",
-      "pubDate": "Thu, 26 Mar 2026 01:49:25 GMT",
+      "title": "탄소 잡는 ‘검은 반도체’ 저감량 밝힌다",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5xcTJkdzZRMTA1TDBheGhiZHY2R09kTnE0VkIwMXpuQUhzbjA1WW5QZ1NRcmxpQ0FkT2pXUUtLWllXTGpIVWJyanA5bHFYcDQ?oc=5",
+      "pubDate": "Thu, 26 Mar 2026 02:22:29 GMT",
       "source": "v.daum.net",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
-        "현대차"
+        "삼성전자"
       ]
     },
     {
-      "title": "미국 조지아주 제조업 세액공제 축소 저울질, 현대차 한화솔루션 SK온 영향권",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5VSzAxWVZMOENwS3o5U0lpZF9qM2w1VmNIR1MyTUFyYXEyR1dKLUc0ZkFJTkRPMjhvOUN3QnNQNjFTQlNqSXpOMlRMS2Y1OW5JUEFjODgzZ1UzeW9BR1FGNTNmUDhoY1piTnRwczhIRnRqV3c?oc=5",
-      "pubDate": "Thu, 26 Mar 2026 01:49:10 GMT",
-      "source": "비즈니스포스트",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "현대차∙기아, '2026 iF 디자인 어워드'에서 금상 1개 포함 총 32개 상 휩쓸어",
-      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1lWnhkRmoxX1FtLW9Ba3FzVmpoUTUyOGlycG9SbFgyMzFrTHZFZkU2alRORlJ5ZUJaWFlwRGdCal9yYVM1N211SmZtV1Y?oc=5",
-      "pubDate": "Thu, 26 Mar 2026 01:48:33 GMT",
-      "source": "아이뉴스24",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "아이에스티이, SK하이닉스에 29억 규모 반도체 장비 공급",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9fSnJIeGxtUk13SzY2M1ZXbGdKMzlyVmg1V2xMWTVidXJNTHE0Q1pTNVA4c25OMmNGbjRTYnNURlAwX1AzeVZsODB0MEVHZjdEQzRRakp3VGhKazlZS0p2MjE0YVVYbjhG0gFsQVVfeXFMTzhhMmpyaGNiVXFHaWw4RHdfa0xwbThQZko3dXpSUmE5alFGdGlIdGxubjBjbG5VZGppa0hJRkZsVmZoaFZGV19KWUF2My13eWh6TlhoeFlVRnZXb3R3VjBRS2FPcGlaYnNyanNX?oc=5",
-      "pubDate": "Thu, 26 Mar 2026 01:46:06 GMT",
-      "source": "블로터",
+      "title": "\"세탁서 건조까지 1시간\" 삼성전자, 신형 세탁건조기로 신혼부부 공략",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9UVmgtREhPQ2ZHdGtkTmM0N0VnMVpfSndtdHhoZ2lVeXBQUURKWmhrLXQ1NWJ3NUJTOFpCTklOVms4OEw0Z2x5N1dVZ2RQTnl0clZaUWE3NFR6S1lhblNkLW9WdGhGbHZDeVdvZWVzVC0?oc=5",
+      "pubDate": "Thu, 26 Mar 2026 02:15:30 GMT",
+      "source": "신아일보",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -120,10 +43,88 @@
       ]
     },
     {
-      "title": "‘현대차 정몽구 스칼러십’ 모집 시작…과학기술·문화예술 인재 찾는다",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9EWDdUX1lQUnVLYXZVNUpmdHRQaXd4WVh4dUhVU1Bqd3ViUmxuMlQxZzRhT2tNQUs5MThRNEtQSmh6SVgtYXg0Zy1wSEFVNUV1aXc?oc=5",
-      "pubDate": "Thu, 26 Mar 2026 01:44:00 GMT",
-      "source": "더나은미래",
+      "title": "삼성전자, 세탁·건조 69분 완료 ‘2026년형 비스포크 AI 콤보’ 출시",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE40QkxjekZWR0diLTA2OFJucVZrLWJ6YlVVeWVpV0hWNjdWSVZrQTY2T3RnbHh2YzNhcnR1OXFmWmg4eEhDZVpKVklXTTMzVEdDdUJZemFjamo5MURRX0RUaFo3UWY?oc=5",
+      "pubDate": "Thu, 26 Mar 2026 02:12:57 GMT",
+      "source": "매일일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "현대차 무뇨스 \"올해 현지생산·지역특화 강화…기술기업 전환 박차\"",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4tUHhONWZhRmwzdTNFNGpTS3lfc0M0VVBmT2RacEhGS3B5LW5qLU5QY2JJbmRodWpkSGJuazhuVi1Bb0RSem9sX0ZoblpZMjZSc2g3WTZyWFJDOWxNQ1N3SzA2V0F1VUVEeG10Q1Zn?oc=5",
+      "pubDate": "Thu, 26 Mar 2026 02:12:51 GMT",
+      "source": "mstoday.co.kr",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "車 파는 회사에서 AI 기술기업으로 … 현대차, '현지생산·AI·운영형 모빌리티' 박차",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFAxRUtuOUJWRXV1SEdfdGxhWDE3M2lDTHJJcHV5UmVjd1c2dkRDbmg2SjNHN0JydFd5N2s0ZFZzemdOX090VzRrVWFWQ0tHSHM4NFk5cG5NMEJRZ2FqQnNuUWZweFpMUExtYzBKLUdSNDFWRHRIaVNmSlY1RQ?oc=5",
+      "pubDate": "Thu, 26 Mar 2026 02:06:50 GMT",
+      "source": "뉴데일리 경제",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "무뇨스 \"AI·로보틱스 전환 가속\"…현대차, 실적 기반 미래 투자 본격화",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE10Z3pNUkYxRE5zMFg0cmxaNWZLdHZHSVgxZkFyaWRJR2t0M0ZhQWV6MnNySFJ4YjhBaElxUTFYeGhtekQwZjFqWnptWUdyV1U?oc=5",
+      "pubDate": "Thu, 26 Mar 2026 02:05:35 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "삼성전자, 2026년형 일체형 세탁건조기 '비스포크 AI 콤보' 출시",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE43U0FfOFEzUVc3NndMV3JJTkV3ak1zcXBpWVFOWnpkR1RfQ2l0TFpmaWVrRk5WZmdQaXRiQXhCQVJQTS1oX3pRaHpXb0NoUXNpWWEwSWI4cE9WaHpsZzJJQU04Vzczc0oz?oc=5",
+      "pubDate": "Thu, 26 Mar 2026 02:03:00 GMT",
+      "source": "매거진한경",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전자, ‘신혼 필수템’ 세탁건조기 시장서 리더십 강화한다",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE82M1hIZElsQXdWbzFZTHJQcEFPVXJWOVhfMEtPUTFRU0pkRmFDQjlOU2psRmtYM2Qta21xZklMWE9LVy0tWnlLWUdtVi1yV0U?oc=5",
+      "pubDate": "Thu, 26 Mar 2026 02:02:07 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "현대차, 제네시스 G90에 ‘레벨2’ 자율주행 기능 넣는다",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBTOVU2cmtIemNXUGozbzFUeTE3bFVEV2NKcDMxT3lybEp1Ykhkb2xhbnBncEk5WlBPamNkZXZUSld0ekJjeVRqaDM5TVFXc2NxY2txZmFWTXJvaFhrSWhWeUJkRVZkamIzM25vVHp6QUF1RFI0eEHSAWZBVV95cUxQUDNTVThDckJFaFJBNkthNXpDWXBLUEYydXlDZGFNMWk4TndJTHhfY3JwMjVtTG1kUFBWVm5LX1BFMUtEUHJKSllTRm9WZlRFYzZYaDNhMDVfa2g4VlZ4el9uc19rX2c?oc=5",
+      "pubDate": "Thu, 26 Mar 2026 02:02:03 GMT",
+      "source": "동아일보",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
