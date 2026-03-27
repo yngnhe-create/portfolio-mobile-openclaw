@@ -1,12 +1,26 @@
 {
-  "timestamp": "2026-03-27T12:17:04.847587",
+  "timestamp": "2026-03-27T12:43:16.632901",
   "count": 10,
   "articles": [
     {
-      "title": "워트, 삼성전자와 반도체 제조장비 공급 계약 체결",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFA3aFp0Qk1sZG1nMC1EUTVTa08tTk00Tkp6azFEWEw1VkVtNUpRa21vQzdpWnpBTzBKalJycm13eTIwTlhZdEtsdTlQanIxZkJsN21TaXZIOXk3T01obVhWT3d1YzdBOXpzc05JYTFCSHdVZVk?oc=5",
-      "pubDate": "Fri, 27 Mar 2026 03:04:02 GMT",
-      "source": "디지털투데이",
+      "title": "'따로 똑같이' 현대차‧기아, 올해 생존 위한 이원화 전략",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5CZHU1ZFNjbFZUbjA3dFdrSmhhdE1BbndGNUd5RUNaeFlJRHlTQlFZY0t6V0dlaHZ0TnR3bUpvZzNkZnV5aGhDaWVOb1RaazhwYXhPZWwwSENRc0ZLZ2JUMlNHTWRpZmY0eDJIei14VFp6Qldab0NIVEZfOA?oc=5",
+      "pubDate": "Fri, 27 Mar 2026 03:27:37 GMT",
+      "source": "한국금융신문",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차",
+        "환율"
+      ]
+    },
+    {
+      "title": "OCI, 반도체·카본 사업 승부수…맞춤형 독립 부서 신설",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1tRlZ3VTdqcEpMZjJINm9BNUxiX09Iei1CRjhXaXh3SUtZSFNvbkE2U1JSRENPSFVnaU9idFVPaFEtcWJ5dzhjeDRmaW9Qdzk1ejIyYzE3UklmZkJ6N0k5Tw?oc=5",
+      "pubDate": "Fri, 27 Mar 2026 03:19:42 GMT",
+      "source": "뉴스토마토",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -16,10 +30,24 @@
       ]
     },
     {
-      "title": "OCI홀딩스, 조직개편·사장단 인사…\"반도체 소재 기업으로 체질 개선\"",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9EUjhYSk9tOHBiTm80NlY1TzcwOEhVWmYyNldObUlqWG1PblFlSThZcWV5c1FpSUNuVVlObHNGYUtJV2FYQUxVUVdoX2VQTVNFak81SEJ3?oc=5",
-      "pubDate": "Fri, 27 Mar 2026 03:02:31 GMT",
-      "source": "지디넷코리아",
+      "title": "이란 불확실성 지속되며 아시아 증시 하락, 한국은 반도체 손실로 타격",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9FclhQVFJRSFJyWHJhOXRRZVZ1NXRQWWFFU1k1VWpZQnNlU1NMTS1tMEV3SHZSRXFHaUo2ZWJOM0xERlJRUWpCUktONmdETHJnRGRvRktBanZRckEwMmxsWUxrelNBTnd0RFg3Wll6X2U?oc=5",
+      "pubDate": "Fri, 27 Mar 2026 03:19:00 GMT",
+      "source": "Investing.com 한국어",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자",
+        "원유"
+      ]
+    },
+    {
+      "title": "워트, 삼성전자와 반도체 제조장비 공급 계약 체결",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFA3aFp0Qk1sZG1nMC1EUTVTa08tTk00Tkp6azFEWEw1VkVtNUpRa21vQzdpWnpBTzBKalJycm13eTIwTlhZdEtsdTlQanIxZkJsN21TaXZIOXk3T01obVhWT3d1YzdBOXpzc05JYTFCSHdVZVk?oc=5",
+      "pubDate": "Fri, 27 Mar 2026 03:04:02 GMT",
+      "source": "디지털투데이",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -101,32 +129,6 @@
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[K-TECH 글로벌 리더스] 〈현대차그룹④〉 탱크에 스며든 첨단 모빌리티 DNA… 현대차그룹 방산 경쟁력",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOMm94UVBBMHpNbEI5TnhaWEpKMUp6dU5fOEJpZE5WZUxHUWRCR1FPbVhoajlzNXh5SUREWlNybE1XUmo4aGdIYUhEOWp2WklSekFPMjRPbTBvTGl2QnlUbXJBcmZncVhnUU9wSEllVjNkRTJLZTh1NW9UTXVsdW90M2tPOEhGWDZvd3pUd2F30gFmQVVfeXFMUHNzRnpHcFVpdnJSZGhiOG5jTmZ1QmdsbVZKT3F5ZEdYMWNMcWIxZFYyWnREMWF6ZWNhYkw3WFZHOTdxVWp1QnBmTTJrUmFjQm04UzgyN0ZWdF9SQVl0eEdtMl9MdHJB?oc=5",
-      "pubDate": "Fri, 27 Mar 2026 02:49:00 GMT",
-      "source": "동아일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "수출 경기 3분기 연속 '맑음'…반도체 빼면 '착시효과'",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1qOWNZY3JiUE9Ga3M3cDh5Rlg2TWdLSWNwSmJIUzdXQ2E1MUkyUXJYOERjNWtZUmZhUl9VVDB2SU41UWVMTGhSa3RVb0NDY1dMZVVveDRNQV9CYWJFSTBOOUx3dzZxLUE?oc=5",
-      "pubDate": "Fri, 27 Mar 2026 02:42:56 GMT",
-      "source": "동행일보",
-      "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
       },
       "impacts": [
         "삼성전자"
