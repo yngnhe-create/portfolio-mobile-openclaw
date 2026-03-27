@@ -1,25 +1,51 @@
 {
-  "timestamp": "2026-03-27T11:42:18.951605",
+  "timestamp": "2026-03-27T12:12:49.152135",
   "count": 10,
   "articles": [
     {
-      "title": "구글이 공개한 '이것'…반도체 위기일까[오늘점심]",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE4yUFV2MWViV2RESklkcFB4SUJoRy1BME9yel9ja0RBYkV5YTZjLWtQRFdkUFNwUGlCdkxRMi16cnQwTWh3Q1NPR3R4LWg5M28?oc=5",
-      "pubDate": "Fri, 27 Mar 2026 02:33:01 GMT",
-      "source": "v.daum.net",
+      "title": "워트, 삼성전자와 반도체 제조장비 공급 계약 체결",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFA3aFp0Qk1sZG1nMC1EUTVTa08tTk00Tkp6azFEWEw1VkVtNUpRa21vQzdpWnpBTzBKalJycm13eTIwTlhZdEtsdTlQanIxZkJsN21TaXZIOXk3T01obVhWT3d1YzdBOXpzc05JYTFCSHdVZVk?oc=5",
+      "pubDate": "Fri, 27 Mar 2026 03:04:02 GMT",
+      "source": "디지털투데이",
       "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
       },
       "impacts": [
         "삼성전자"
       ]
     },
     {
-      "title": "게임스톱 \"비트코인 매각 안했다\" 공개… 전량 담보로 맡겨 옵션 전략 운용",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5zLS0xNWNQdEZOQVQ5Sm5hUkJoZEZ0bm9CRklLZVNKeFBQZmxUaVZRMnVtd3VCWWxoOU5UaGc0X21lZ2FuR1dUbXY3M1JoeUw1dWF4aE0xUmJFVzlST3NkYmw3NVduUFNTSHFjOVczSHliLXItTkE?oc=5",
-      "pubDate": "Fri, 27 Mar 2026 02:25:00 GMT",
-      "source": "블록체인투데이",
+      "title": "OCI홀딩스, 조직개편·사장단 인사…\"반도체 소재 기업으로 체질 개선\"",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9EUjhYSk9tOHBiTm80NlY1TzcwOEhVWmYyNldObUlqWG1PblFlSThZcWV5c1FpSUNuVVlObHNGYUtJV2FYQUxVUVdoX2VQTVNFak81SEJ3?oc=5",
+      "pubDate": "Fri, 27 Mar 2026 03:02:31 GMT",
+      "source": "지디넷코리아",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[증권 Pick] 미래에셋·유진투자·현대차증권, MTS 리뉴얼·신규 서비스 도입",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE12YTZTV0RRSlZfbVo1alVibllCMTRFdkw4QTBzTWZXR3c5TTN1VXhpdHJCUDBMcVMzT1BDYmVoSG9Vc2VmaHJyZFN0eUNGcWMxajhETWpQUVJLSVVzVFBOMVE1dnJsSi1XVGtv?oc=5",
+      "pubDate": "Fri, 27 Mar 2026 02:57:58 GMT",
+      "source": "라이센스뉴스",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "JP모건 \"비트코인, 금·은 가격 하락 속 견조한 흐름\"",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBiZnRsSlY4ZlBma21BTDBBeHVxVk9pRW40ZnNYTXJoajFtRGtOcUt6aEtFYTBWM3IwamxtVWZ2LXhLeWpDdFh5bGV4eGhQQjFMZW5ROXdMTTZuUlZHTWhTeHRHR0NXbUtLVmJFbWRLU1c?oc=5",
+      "pubDate": "Fri, 27 Mar 2026 02:56:03 GMT",
+      "source": "연합인포맥스",
       "category": {
         "label": "🟣 CRYPTO",
         "color": "#a55eea"
@@ -29,10 +55,10 @@
       ]
     },
     {
-      "title": "이재용 삼성전자 회장, 中출장 마치고 귀국…\"반도체 등 주력사업 협력 강화\"",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1pWDZyNlpzOGhfTmluUkt1UTBZOFY4eEdTek8zelZ5dDQzVzdrd3pTb2JIZ0RhLUhZWkNjdWlDSWZDclFxWnlqVm16UGlyd09tb0NoRnhDTEphVWR4T0RTVdIBeEFVX3lxTE10THZUSDlRc2h2cUtDWS1ITzQ5enNsM2sxaXZqejltNkRjVkpLMjhkbE9yeHVUcXJZZkVNbzdOdktUUTNfaG1COEpOVDFUeER6OWtlT3hTNkFGY3NRU3lKTmZBZlF2QmxuUG9YWURJM3NTeXBJLWpZNA?oc=5",
-      "pubDate": "Fri, 27 Mar 2026 02:25:00 GMT",
-      "source": "뉴시스",
+      "title": "中, 300단 낸드까지 추격… 韓반도체 업계 ‘경고등’",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE04UjZwYld6X1Rscy1RMVlSTWdWYkNLNjVNZEpQZ3dmMTNrZmNZM201a0JVXzZFdHVLcDhKd1dyTE9lM0lxMXRYcTh2RkdRU2xy?oc=5",
+      "pubDate": "Fri, 27 Mar 2026 02:52:22 GMT",
+      "source": "문화일보",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -42,10 +68,49 @@
       ]
     },
     {
-      "title": "현대차그룹, 차량 5부제 확대…업무차는 친환경차로 배치",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB6S2RqbXg5ZEtOWkFZNnZmZDIwemtMQTR1Y2FVcGhjRXR1TXh4dWxxdmM4Uzllak1OcVp0YktCYWx2U1J1VVlYU2hrRERBbzFPTG13WnBoZkFGNDhpeXIzTQ?oc=5",
-      "pubDate": "Fri, 27 Mar 2026 02:24:14 GMT",
-      "source": "뉴스토마토",
+      "title": "김동연 경기지사 “용인 반도체클러스터 무슨 일 있어도 추진”",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9odERTZ2dZcnZYRkhsWXRWVXBLbGhkMUdRSUJVc0dwMG9VVVo1WWJXNDVlZDJST1dWY0xUUWEwX09UMHFFOG9sUE5tZk9SQTNk?oc=5",
+      "pubDate": "Fri, 27 Mar 2026 02:52:19 GMT",
+      "source": "문화일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[Biz&Law] 삼성전자, 카메라칩 기술분쟁 승소 눈앞…‘특허무효 판결’",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1Eanlla0VHVHV0Q2wwbkM5OGVpZVJqUE4yLS1QMkYtYkFkaTV4N2JPYXNqNG0zM3lqWVlQMmhCbG9ab0FvbllZT3RZTWJEVkJJLXU1dk45NC1QZ3lFQ3dHQUliMjhRM2Y3aG9YYQ?oc=5",
+      "pubDate": "Fri, 27 Mar 2026 02:50:49 GMT",
+      "source": "서울와이어",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "OCI, 반도체소재로 체질 전환 위해 인사 단행",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBuVGU0a0tDdW9EWU9icUZCZTdyU09ucFpYZkpmRVRIUk5SQzhvVkl1RmZVYkFfaV9DUm5JYVAxRFpDQU9rZnhMaG1lSVdJRHQ4Y1J1OHhXMlV2ZmdCTTZyUEZSSkIxUmh1Q1BN0gFvQVVfeXFMT0E4VVZzRmVWdXUzMDdYbENSTW5HVVY4UWp1VUtSR2Nlc2c4V1A5RWZFUFFqZElpVFR5a01vRmMzNEtxd3dZVWw0TENDd2k3bW4xNS1kblhOOU9ZdjlCZ01RODdtdW5lc1dKQ3JZSjJV?oc=5",
+      "pubDate": "Fri, 27 Mar 2026 02:49:58 GMT",
+      "source": "한스경제",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[K-TECH 글로벌 리더스] 〈현대차그룹④〉 탱크에 스며든 첨단 모빌리티 DNA… 현대차그룹 방산 경쟁력",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOMm94UVBBMHpNbEI5TnhaWEpKMUp6dU5fOEJpZE5WZUxHUWRCR1FPbVhoajlzNXh5SUREWlNybE1XUmo4aGdIYUhEOWp2WklSekFPMjRPbTBvTGl2QnlUbXJBcmZncVhnUU9wSEllVjNkRTJLZTh1NW9UTXVsdW90M2tPOEhGWDZvd3pUd2F30gFmQVVfeXFMUHNzRnpHcFVpdnJSZGhiOG5jTmZ1QmdsbVZKT3F5ZEdYMWNMcWIxZFYyWnREMWF6ZWNhYkw3WFZHOTdxVWp1QnBmTTJrUmFjQm04UzgyN0ZWdF9SQVl0eEdtMl9MdHJB?oc=5",
+      "pubDate": "Fri, 27 Mar 2026 02:49:00 GMT",
+      "source": "동아일보",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -55,78 +120,13 @@
       ]
     },
     {
-      "title": "삼성전자 '테일러 팹' 본궤도 오른다 … 1공장 양산 준비, 2공장 확장 채비",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1qTHpVRHZ4aG5MUGM1VWgtVWxXT3Z2NHBISEdCLUR4T2FaemtLT3NQZzhtMmljMjkxcG12SzhzbkFRVy1fbkprbVpkZDlMV1pxbWQwM09RdHJuSDRFclVnZi1xMm9Ec3dyZnU4?oc=5",
-      "pubDate": "Fri, 27 Mar 2026 02:21:06 GMT",
-      "source": "디지털포스트(PC사랑)",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "“헬륨 공급망 대란 올까” 반도체 업계 긴장",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9iSWdiaFZrT1k5UThuUHFMT3VkUUNpemVCNE44dGZ5RlZOdzdSMnEzSEdqdUoyMWhDT0FMd3ZDMFp2SWlhLWl0QWRwMmpDSUk?oc=5",
-      "pubDate": "Fri, 27 Mar 2026 02:19:44 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "켐트로닉스, R&D 확대·반도체 매출 100% 성장 목표 담은 기업가치 제고 계획",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFA2NzYtM0t4Tkx5b0ZhVlZTRkFVanpld2FQb0t2ZG04YmV6NlNfa2J6THNTNzU3UVFhYVA5aEVnSEhsYWtOU0Y5d05hMHVDdXhyMVlfcGVqX283T3BJYnp4NzJCLWxXMi12LXEwUlVyWDBZSTA?oc=5",
-      "pubDate": "Fri, 27 Mar 2026 02:16:01 GMT",
-      "source": "디지털투데이",
+      "title": "수출 경기 3분기 연속 '맑음'…반도체 빼면 '착시효과'",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1qOWNZY3JiUE9Ga3M3cDh5Rlg2TWdLSWNwSmJIUzdXQ2E1MUkyUXJYOERjNWtZUmZhUl9VVDB2SU41UWVMTGhSa3RVb0NDY1dMZVVveDRNQV9CYWJFSTBOOUx3dzZxLUE?oc=5",
+      "pubDate": "Fri, 27 Mar 2026 02:42:56 GMT",
+      "source": "동행일보",
       "category": {
         "label": "🟡 MARKET",
         "color": "#f9ca24"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "현대차그룹, 정부 기조 발맞춰 차량5부제 ‘확대’",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA2LXA4MTVqR1RqWnlNR1BMQmk4RXIxNGNRLXVSYmVJbi0wQll2V2hSdVdBN2hzOVZGZk5va1g2VDVUdHpUblBDMkE1U05EWFlfUU9iLWdQbDVmT3IxNUVOYlF3?oc=5",
-      "pubDate": "Fri, 27 Mar 2026 02:14:43 GMT",
-      "source": "경기신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "기후부·삼성전자, 2030년까지 나무 26만 그루 심는다",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9FZV92UHpmUE1pSFAtemVNRkxEVVo0dmRNbjBfQWpxUVdEcTBuaUctYUhVSXd1ck9sVVdyZU9wSkxxVU1aZGpqOWlCY2UtYWs?oc=5",
-      "pubDate": "Fri, 27 Mar 2026 02:11:44 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "헬륨 조달도 ‘비상’…반도체 생산 차질 우려 확산",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9SMWxkZ2MxakNpeVdqUjJkTDVSbXFmb1VxSkd6ZU5NVkNsMnFYM014S2NYWUplSHpJaXdMbHk0a2x0b0pWVXBJSVZYLU1wa3FSNEp4ZFFUMXlGdy1ReGx1TThBV0NNenUtTXA0TlZB?oc=5",
-      "pubDate": "Fri, 27 Mar 2026 02:10:55 GMT",
-      "source": "mstoday.co.kr",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
       },
       "impacts": [
         "삼성전자"
