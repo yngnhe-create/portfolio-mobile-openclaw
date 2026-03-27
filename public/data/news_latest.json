@@ -1,78 +1,53 @@
 {
-  "timestamp": "2026-03-27T08:17:05.056142",
+  "timestamp": "2026-03-27T09:09:58.608159",
   "count": 10,
   "articles": [
     {
-      "title": "삼성-테슬라 ‘2나노 혈맹’ 초읽기…텍사스 ‘테라팹’ 공조의 막전막후",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQNldYajk4MExjT3pDQmx3ODg0cVpsb01JdTNiRy1UcWtXRE0zS0NzSDVEaHhZVGtvdE1obzl6S0M4eldndU1mRTJhOGtkWm1LZW5lZmQwSHpSMmhLakJtLTBLRmFDc0RMd0FhdkNKVUxrS0N2WWl1ZUVwTVJQWWtMYXdDOWxweGJ0?oc=5",
-      "pubDate": "Thu, 26 Mar 2026 23:10:34 GMT",
-      "source": "글로벌이코노믹",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "테슬라",
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "美정부, 반도체 공급망 강화용 '팍스실리카 펀드'에 3800억 투입",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5yRkNnUGxmbjFjeVlHUDlXYWhnQUQ4ejJNMVdxNURZMkZ1dThFVFN6YzNpbVBTaXRNamRjZXV2SzYwR0lfRW5oYno0ZWdMbGlnc2lPTF9KRE0?oc=5",
-      "pubDate": "Thu, 26 Mar 2026 23:02:21 GMT",
-      "source": "뉴스1",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "현대차∙기아, ‘2026 iF 디자인 어워드’에서 금상 1개 포함 총 32개 상 휩쓸어[재율 아빠 국산차 업계 소식]",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1MSE9TTWdjR1VEUTV2bUpQVWZwa1FXOEczaTNYczRvM3FnZ1MtOUFxbTd2N0lsTEtmYzcyRjVOXzlIQnBzd1NpdDk4ckszTnlROTRrZ01hSGNYdjVpb3pOQk5OZ3ZsYkFLT05UdVBxUld5MkI1XzBZVTVB?oc=5",
-      "pubDate": "Thu, 26 Mar 2026 23:00:27 GMT",
-      "source": "Naver Blog",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "밖은 ‘초격차’ 안은 ‘산재 몸살’···발목 잡힌 K반도체의 이면",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1jQzV3dVYzYVVNSm1lbHhHVkhzRzZiQUVxX3c1RWJ6YjBJN1BfUGF0Q1kyWlp2SzFQRFFGR3ZJS04zNU8xbEtFYU0xNkFNbTRLOC1xWVpyS2xLT1JKclAyTWY4Nm5DU3ljSUVYTTNZbzJPdw?oc=5",
-      "pubDate": "Thu, 26 Mar 2026 23:00:00 GMT",
-      "source": "이뉴스투데이",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "구글 터보 퀀트 기술 실효성 논란…삼성전자·하이닉스 주가 급락 '의문'",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE84Y3d1M1VoWGYtOU9WLWhCVkxMNnJjel9ieTZzbUZBMWNfbUNPUmloRWczSDR6STFaOHhKOTQxLXJ6N3ZyV2tlV3NoRWdnVHRLYTJscVZka05VbkVyOHVmampkbjVFbWdndVHSAW5BVV95cUxNUlBGWUZLOGh5bTJLX2Yta3NOek05a3RNaF94TllMRnQxWV84TkhONkFoOEFOZ2o3VGI4SG5uTVByNmFRbVlLUFZ4SFl2UXptbWpvXzJRZjNPbFBTZE1LNzB0Rm1VNFRtTEJCdlBpUQ?oc=5",
-      "pubDate": "Thu, 26 Mar 2026 22:58:11 GMT",
-      "source": "파이낸셜투데이",
+      "title": "연준 '금리 인하' 실종에 비트코인 급락…6만8000달러선 위태",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5UWnlZMjhFUXlwa2F2ZTJUM1hhcHIzU3lSQm56OGlhV0gyQUlsOFpmOS1MdjdLeTdiZFhfOHFJX1kzWUx3Mk5kUWN5Ynh3eDhB?oc=5",
+      "pubDate": "Fri, 27 Mar 2026 00:01:25 GMT",
+      "source": "블루밍비트",
       "category": {
         "label": "🔴 HIGH IMPACT",
         "color": "#ff4757"
       },
       "impacts": [
+        "환율",
+        "BTC",
+        "채권"
+      ]
+    },
+    {
+      "title": "NH투자 \"메모리반도체 수요 감소 우려는 과도, 다음주 코스피 5300~6000\"",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE83N2J2Tkd2OEN1YU8yemUxOHg2VXZpTDZ5cFRMS05fY3lHajFWZVRBejFYMlNMVTQ4aldiZ2lLNzFpM1dvQ2VtNEpjXzBQN2VBZjdiSnY1T2hoNlJnVDV5VG1URXFsMWtsVzVTdTRhT3E4NU0?oc=5",
+      "pubDate": "Fri, 27 Mar 2026 00:00:45 GMT",
+      "source": "비즈니스포스트",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
         "삼성전자"
       ]
     },
     {
-      "title": "데이비드 삭스 美 AI·가상자산 특사 임기 종료…비트코인 3%대 하락",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBzOE5sMS04dmROTnVkaVdtd2RZbF9MbUFqbzE3aWQ5Q3pRWUc5dDBLNWJPd2phdlg5NjNFV3dsQXd1NFBBSDhHUzVPQ1Jya00xVHNfTWNB?oc=5",
-      "pubDate": "Thu, 26 Mar 2026 22:55:50 GMT",
-      "source": "지디넷코리아",
+      "title": "GPU 한계 넘을 차세대 AI 반도체 기술 가능성 입증",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBtUk1DSFNqSzlHSnNvMUtaVzV4cXV4NDlsTFRZZ3l5RHBiN3lqcy1CcGIzWVdya09vWl9Ba3AyZEp2cE1lcGF2NjRubmZLSEMwOFJDRmRNZ0dnRXdyUmZyUVpncl9VRHc?oc=5",
+      "pubDate": "Thu, 26 Mar 2026 23:58:23 GMT",
+      "source": "교수신문",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "테라울프, ‘비트코인’ 버리고 ‘AI’ 택했다···채굴장에서 AI 데이터센터로 대변신",
+      "link": "https://news.google.com/rss/articles/CBMiswJBVV95cUxONlpnaTJsWlRGR0lvSVg4QW9YbEwzUVNKTHVBakZ0c1FOTzZtUk1ZVkN1NlpWLUNlR1BYcUNYQXNXaXo0cWhPSVZBRUFMeUx6dmhqc2M0N1ZHY2NmT1FxZm1jRTQ2TElielJwQmJZdHItcGRtV2YyR2djbUhaelp1VHpBM3QwZzR3OE5SeU03SXNQRkRDRlBDVmI4S2xoVGxaOWlqRlYybzA3THYzb2dEUHNsSnFGdjVMNXY5bVhaeHNXMHBZWmMxdHplY0RZVk9QWmdxeEVVcGRHN2JQbXJIc2M4b1lZcVZ0R1BxOW95blFGQXFEUVFpZ2lzZVlHSEJBVTlGcFMwUXdNZmVuM19FWVFYR3NRSWM3Zi1NY3JCODNYakMxLWUxM1VaSWc1dUZudzdV?oc=5",
+      "pubDate": "Thu, 26 Mar 2026 23:48:15 GMT",
+      "source": "Benzinga",
       "category": {
         "label": "🟣 CRYPTO",
         "color": "#a55eea"
@@ -82,59 +57,87 @@
       ]
     },
     {
-      "title": "터보퀀트 충격, 메모리주 폭락에 반도체지수도 5% 급락(종합)",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1UZURjTmw2WnpKY3ZBemJTMUVzbWkwX21NdG1SWmpESTd0NEl2YzBuMVBoeFB3Z2hhdkdEamk2Zm1qQVBPNzJnaDRTRHlKYk9BclVOSGZaSk0?oc=5",
-      "pubDate": "Thu, 26 Mar 2026 22:37:44 GMT",
-      "source": "뉴스1",
-      "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[속보] 비트코인(BTC) 2%대 하락…6만9천 달러선 위태, 중동 긴장에 시장 흔들림",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9CbDYxcUdqek9QUmZIWmRJUUxtQjdNRGlJOVBVd2tVTldFX0NlYkphaGY4MmZ4YVdZcTRELUtNUTFqekN3R0EtUEZUX1M0cHVHcXQ4ZHJ0R0Q4V3BQb3N1eFpVMDBrOEtt?oc=5",
-      "pubDate": "Thu, 26 Mar 2026 22:37:33 GMT",
-      "source": "CBC뉴스",
-      "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
-      },
-      "impacts": [
-        "원유",
-        "BTC",
-        "환율"
-      ]
-    },
-    {
-      "title": "미·이란 충돌에 옵션 만기 충격…비트코인 7만달러 붕괴",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNTl94bEpsMkp1MWlSeGd2ZWRPcHJnUmh6QnhIREtvNTNRU2paQWdLaTdqdUY4LVRrYy1MRlVSUXJtT0IyRFlneHp5MFpxak1XekRRSEpTUnlITzI2T0FsSThRbWtwMVpiakcxODdDTzR3RmtIWnB0REtjR1hpcG9PdA?oc=5",
-      "pubDate": "Thu, 26 Mar 2026 22:30:27 GMT",
-      "source": "edaily.co.kr",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "원유",
-        "BTC",
-        "환율"
-      ]
-    },
-    {
-      "title": "뉴욕증권거래소, 모건스탠리 현물 비트코인 ETF 상장 신청 승인",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1JYTFSYzRyZ0dCU1dzNi1YMWNzTV9CX0hUeWpZMGpWUFRhWFIweXFhOFpUTkNVLTJXdTRYdk9qLXZyT2Y0cnpzQko5OWZxbThXYlVVMkpIX05yVi1MTEHSAW5BVV95cUxPQnlmMFBSMFFueEVYdnl4WGRlR1RlazJMdHdoUjN3WTl3N3d1Y0JsMmtJcmZybTJJeWo1NzVJN1dLLWVXblJxb3Q2SnBiV1VFR1lXSHVKS1BrWVFVRE90TldqMVE2R0ZKLVZvT2JlQQ?oc=5",
-      "pubDate": "Thu, 26 Mar 2026 22:27:52 GMT",
-      "source": "알파경제",
+      "title": "비트코인 채굴업체 마라홀딩스, 1만5000 BTC 처분…재무 개선 박차",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9tc3VBQlRaQnpCbVJYVHlVRnBtT2JFQ1RsdWpCdVZ2bG9TX2d6VlhCYXNhUnpEQk9Id1FWbGZhU3pPYXpTNXBjYVJvRVR5ZEJreUNkVFdSYkFHTVFQRWxxSW5WSEV6NkxMVjN6QXBjRW9NUW8?oc=5",
+      "pubDate": "Thu, 26 Mar 2026 23:42:35 GMT",
+      "source": "디지털투데이",
       "category": {
         "label": "🟣 CRYPTO",
         "color": "#a55eea"
       },
       "impacts": [
         "BTC"
+      ]
+    },
+    {
+      "title": "비트코인, 1억300만원선으로 후퇴…중동 긴장에 '흔들'",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE16MWhlU25uTktwblBCRnlheWJRVlRVVGE3RV9ScTBrXzNTZ3JXb09UTkJJRlM2RTFfUXNQQi1STFVnb3R4TzlJU3hGUW1jNW5nNjhSTHBKeXd3TzJGWGlOV9IBeEFVX3lxTFBXZ3FFY3lNYnRhZDNWNDJGbkJ0QWd0TUFJNVRuNTlkclYzWDFYZ0tUR2pXcDBmX2MtaURtdHkyakJmRG92TTFPeFJyOC1ZS0xfVVdoUnNObW55cWtPazVzOVVZZzNxd2JuVV85aC1lcUxzVXBaemxleQ?oc=5",
+      "pubDate": "Thu, 26 Mar 2026 23:42:00 GMT",
+      "source": "뉴시스",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC",
+        "원유"
+      ]
+    },
+    {
+      "title": "비트코인 1억375만 원대 하락, 미국과 이란 협상 기대감 낮아져 투심 위축",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9Vci1IUlhDb3pvcktJZEUzb0ZLUWFpLUUxNkttWWw5Mzd6VC0zV3hkckR1UFdLeWFiQURFeDIxeG5TWUZFQk15M0RhZkFWQktrUDZPYzhnRXRhYnZtNGhndDE4S1RJb1F3bHFhdzU0Q3hlTUE?oc=5",
+      "pubDate": "Thu, 26 Mar 2026 23:41:16 GMT",
+      "source": "비즈니스포스트",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC",
+        "원유"
+      ]
+    },
+    {
+      "title": "美·이란 종전 가능성 후퇴…비트코인 7만 달러 아래로 [디센터 시황]",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBmWkFjSjlsVExUNV9qQmplSS1yaVVPMS1tMlZMWWxqWmJ4aXk2Ui03VDFDZWlwLWt6akRRUkRVOHYyT01mWWZnZlU2UmxnWno3WEHSAVNBVV95cUxORGItdllRSWhpY0pvQUFuUkI4U2JKcWJKb2E0LXcwcFQtYmpRbGlCbmFGcmtaRGVkLWNkc1hDWk9lZ3Frdml0amx0UEFTZW40cmZaRQ?oc=5",
+      "pubDate": "Thu, 26 Mar 2026 23:40:19 GMT",
+      "source": "서울경제신문",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "환율",
+        "BTC",
+        "원유"
+      ]
+    },
+    {
+      "title": "모건스탠리 비트코인 ETF 출시 임박…7만5만달러 돌파 어려운 이유는?",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1rVFItczdOS1JUSmFGTTlMVk5VdzhaX2szd2QwaFNqWUJEeDNpVGNKWEpVSXpOWEs4c3pCVnhzcnJ4TmU4M01Yc1lpaFZnTm0wbGNRN0tiNk1MWl81R05MRTdYQWc0cUphZWlKdHNneE9MTjMxUVpWd2ZR?oc=5",
+      "pubDate": "Thu, 26 Mar 2026 23:35:41 GMT",
+      "source": "BeInCrypto",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "환율",
+        "BTC"
+      ]
+    },
+    {
+      "title": "주요환율 및 반도체/상품동향",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5tS1R5RkJraWpNeExadTRqWnlKWVAxUXFuRUJ5NmhLTzlyeldNbmtFa0NuVWlMM21UdFhJblVGOWJJbzR4Zjg1UXNVWnBZajRtU1E?oc=5",
+      "pubDate": "Thu, 26 Mar 2026 23:33:01 GMT",
+      "source": "매일경제 마켓",
+      "category": {
+        "label": "🔵 MACRO",
+        "color": "#0984e3"
+      },
+      "impacts": [
+        "환율",
+        "삼성전자"
       ]
     }
   ]
