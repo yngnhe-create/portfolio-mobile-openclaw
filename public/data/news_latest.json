@@ -1,7 +1,35 @@
 {
-  "timestamp": "2026-03-27T10:10:57.203095",
+  "timestamp": "2026-03-27T10:17:03.924548",
   "count": 10,
   "articles": [
+    {
+      "title": "미·이란 휴전 불확실성에 비트코인 7.1만→6.8만달러 '뚝'[코인브리핑]",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1HRzJ4OUt2N2RKMTlnR3loNEtjMmNZOUE2QnE5UGc1Z1RSTkd4dFA0NVVEOC1Kb1VSUmVUdXlfc0JYc1lmanczOFhNQ1FhVjA?oc=5",
+      "pubDate": "Fri, 27 Mar 2026 01:12:35 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC",
+        "원유",
+        "환율"
+      ]
+    },
+    {
+      "title": "현대차그룹 \"차량 5부제 적극 동참…주요 그룹사로 확대\"",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9ON3VyWHdjN1hhb1FSQ1g3ZklnY0ZpNDJVY2c3cjVnbFNwUE9rWEdWV3h2aXd6Q21nYzg5amlEa0JVc2Z1b3VlUk5ONFR1Xy11bEdrMWhzTjBNY1FodHdqNNIBmwJBVV95cUxQTWtEakpoazVKREt4d2JvZlU5aUpWa1pZblo5a1dBZWc0WEdvSGZUMFNUdGJoUFRvN20wRENCNll1c0xuc2VZelVsN1M3V0psa1AzMXdXQnlfdUhxbzJjQnNPVmpaRVFfaE1VUFVZQk5OYUJsTENZak9aU2VvVXFLMlRUTnpTdUpUZm02TDFSSUFzanZ6b3pEWlFwUF9aRkx4UkF4eGNjNHJsZS15dk1fLWFYNkJzUXp0OU02Zy01Yy01SUtkcTJpYy1UVlYxMGlOV3dueFRGaHZmZWVweC0yYlIxblJ1V3hSd2twLVBDbVBMOGUzbXlZMTBIUzRfVy1IcXBvZ0Y0YnA2emJzcjRIMU1nSFEteEozQUJV?oc=5",
+      "pubDate": "Fri, 27 Mar 2026 01:10:00 GMT",
+      "source": "데일리안",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
     {
       "title": "코스피, 전쟁·반도체 쇼크에 5,200선 '털썩'…삼성전자 4%대 급락·SK하이닉스도 휘청",
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5aTXl2MURJMkozdlBWS2VabFBkRG05WFFGS1d6TFBvb2xIMDZ1M05wSjF5ZUxCU3gzaHRUSFFTNUxaWnpCRjBUV0tETnhfSm5ya1g0c29ZOEZGSGtXTXc?oc=5",
@@ -95,19 +123,6 @@
       ]
     },
     {
-      "title": "오킨스전자, 창사 이래 최대 실적 달성… \"AI 반도체 호황 속 2026년 더 큰 도약\"",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBwdGR5MDVINlNxRlo4VDI1b2xPdTZGdXVROHBtR3NQS0t5TVFDNDRlNDJ5cTdNcjYycHJCSmxfNG5KR01HMDBJcU41cW1Jc2d1U2JpZWt1eU1sRTFvcTBXQmtsMl9OZ00t?oc=5",
-      "pubDate": "Fri, 27 Mar 2026 00:58:28 GMT",
-      "source": "mt.co.kr",
-      "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
       "title": "현대차증권, MTS '내일' 개편...AI 투자 브리핑 강화",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOM3hCVmxLeUZCSFZ0VW4tYzhiWENoQjRmeTZfaDRzMVBvaHZxa1dUcWVPaFFkLWZGQWRjQU0yQkxOVnNRTk1nQW5BTG5GR0d4THRQbUpjZklIM25WM09BN09SeDBaNXFvWlFIMWo3ZlFQNmFFbUVXUHUtckQzb2VJdkxoZnVWSnNV?oc=5",
       "pubDate": "Fri, 27 Mar 2026 00:55:21 GMT",
@@ -118,19 +133,6 @@
       },
       "impacts": [
         "현대차"
-      ]
-    },
-    {
-      "title": "[특징주] 삼성전자와 SK하이닉스, 구글 '터보퀀트'발 악재 '약세'",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSFlxSFhYdXBZVm5lcVp3Si1PMlB5Ui1ZRVJxOEpFazAyY2FhSXBiR2Zyc0dnUmVIc2c5M194cnNhcHp2QWRWQzdoNGduRkl4X0h3OUl4ajB0b2x0WndCSGxqd1BRc1ZNMndTcGdCcDRlcldhbjE1azNycFFWOVpGUUFmNDdLaWh6?oc=5",
-      "pubDate": "Fri, 27 Mar 2026 00:55:06 GMT",
-      "source": "글로벌이코노믹",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
       ]
     }
   ]
