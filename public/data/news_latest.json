@@ -1,130 +1,135 @@
 {
-  "timestamp": "2026-03-28T18:19:52.371840",
+  "timestamp": "2026-03-29T00:20:29.855125",
   "count": 10,
   "articles": [
     {
-      "title": "비트코인 초기 투자자, 거래소로 비트코인 500개 입금…매도 목적 추정",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFA5WVVBQTcxS1RuV2hjU3l3R0NQUkJ4eUE1SkFJbVlRUEZGSnc3TGJwcE4xMFhMcHhxMmZ0TDJZVHNMbTFkanQyRjg5c0JrYjNs?oc=5",
-      "pubDate": "Sat, 28 Mar 2026 08:55:22 GMT",
+      "title": "“비트코인, 6만달러 붕괴 시 2027년까지 회복 어렵다”…최대 440일 소요 예상",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBUTFlRZE8tT19PWGRxRVZOcmlBdW1kY1lFbVI4dHlTYjFtUE9SZmpIdm5TUHJEdEd6QUQ4bF9OTk9hSDZiR2NZYV9KMVVwd1BBR2pDQjhmTW5NRERJVWlLR1dLdlppQk5yTS1ETDJ5TnEzNXM?oc=5",
+      "pubDate": "Sat, 28 Mar 2026 14:50:00 GMT",
+      "source": "디지털투데이",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC",
+        "환율"
+      ]
+    },
+    {
+      "title": "박경국 가스안전공사 사장, SK하이닉스 반도체 라인 가스 시설 직접 점검",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1kLTJabmJGNEdSYjNTS0JON2J1MmRweXBOakI3VFBIMGQ4VDd3bkJqd0JQS3Itdk9HQ2htaUotMU1XYk91VlB0TXI0amNpa3BZWWpTU2hVUGkxZlNjSi1wcUNWNGJleERub0E?oc=5",
+      "pubDate": "Sat, 28 Mar 2026 14:27:56 GMT",
+      "source": "컨슈머타임스",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "오늘(3월 28일) 암호화폐 시장 동향: 비트코인이 4만 달러까지 하락할 것으로 예상됩니다.",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPS1o3UEdKdlFyaHRGT0V1LVRib2xKTFNsWDJlREhweXpBcFBic01veVI4R0FSZzFwZF90YzJ5WlBhZTV3eUxDdko1bmo1b1pzZkl4WHE1ZHhTc0NvdVAyQWg2NW1LdVFMZ0JnVEx0RkdyZmlPbFdUWEVFMjBQRzBxMGFGQjFkc05RQ3lqME1XRFJ1WWx6TEVDN0ZnVVRmeDQ?oc=5",
+      "pubDate": "Sat, 28 Mar 2026 14:10:49 GMT",
+      "source": "Vietnam.vn",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC",
+        "환율"
+      ]
+    },
+    {
+      "title": "엔비디아도 못 구한다는데…'2인자' 삼성에 온 반격 기회",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1vR2xDb1dwRzZvM01oTWRBNi1HWVhicWZHeFRCS1ltSVhMcFl5bkh6MUhpUkxfeFNIcjJqMi0yUG1SX3dyNllUWVpmc3hWWVR5czRMMUlVWEszdHp2UHZ0Qw?oc=5",
+      "pubDate": "Sat, 28 Mar 2026 14:10:01 GMT",
+      "source": "아시아경제",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자",
+        "NVIDIA"
+      ]
+    },
+    {
+      "title": "비트코인이 다시 하락할까? BTC, 6만 5,500달러의 중요한 지지선 시험 중",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMmtLckI0RjlSRkxydExUdkJkc0ZEZDUzZURLbHFxX1Nud2Q0LVBaNHpZYVkzTEZxdzFYYTQwaVIxYzFCczB1S3o1eklFdkpOY3RqVXIwNy1TX3dhQVU5WkxsbEl3SlhpQVFCVnFTRDNST0Q4QjZJbGtyVTB0WWc3Wm9icEZCbl9WdTVHVU1vRUlXVG56dXV4Rkd0UjF6WkdTczdReVRpVTJxdmpMbXc?oc=5",
+      "pubDate": "Sat, 28 Mar 2026 14:06:37 GMT",
+      "source": "Bitcoin.com News",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC",
+        "환율"
+      ]
+    },
+    {
+      "title": "[터보퀀트 쇼크] ③ 단순 용량 경쟁 끝나나…K반도체 생존 열쇠는 `맞춤형 메모리`",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5wdlJLY29fSlZpcVJmb19xSXdsN0JPV21mRHNQcndKSnJhZnFrNGZRalZ0Q3BxV180WUdJRW5XXzFjZjVBaE4tZ21VeUZFTU5qM1pSWEhYR0tjZGhYZkNOcUhn?oc=5",
+      "pubDate": "Sat, 28 Mar 2026 14:00:00 GMT",
+      "source": "디지털데일리",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "골드만삭스, 비트코인 바닥 선언… 코인베이스, 암호화폐 담보 대출 서비스 출시 등 – 이번 주 주요 소식",
+      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNMHBsMnF6cFRTdDVqWUFya19GWnhzNDdnRUk5V3Q1bHpLR2pwdHJQenl6Z3pWYjlmc1gwZGdHRFNZZzFiRUJfSmlWNVgtQTcwVEtyY1V3bWpHTDdSR1VIUnY2OXR6NTgwQkZoT2FrRnpkWk96aWtJSDF0TGFINk93VnBfZVNXaGZqa21Nb2N5eEFITnRuWVpGSVp4N2xjcnF1YU13djBVT3lwNXdpc1dCSF9uMjR2VkJYXzFVNlJ6dG9mR0Eyc1k3bHZVbWxCMFo3OTh3bkt0dU1PNkFqbExHUHh3?oc=5",
+      "pubDate": "Sat, 28 Mar 2026 13:45:28 GMT",
+      "source": "Bitcoin.com News",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "비트코인, 6만7000달러 상회",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBaMzA4THo2MjlXYUhRX0xNMmhhRnUzTDNHVEVMa21BTUxmN0RaU3d5a1VEbk1feUVLVDlLZVhpN3RUYVRMT3BFS0c3ZVZOekVV?oc=5",
+      "pubDate": "Sat, 28 Mar 2026 13:41:00 GMT",
       "source": "블루밍비트",
       "category": {
         "label": "🟣 CRYPTO",
         "color": "#a55eea"
       },
       "impacts": [
-        "BTC"
+        "BTC",
+        "환율"
       ]
     },
     {
-      "title": "나노라티스, 초격차 스타트업 프로젝트 시스템반도체 분야 선정",
-      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBWc3hjMmNya2tTWk9FMS1uMVp4empONFV0cXlPZ1NhNE1TMWhBZ05Vb2oxeHlfbXhBY2tLVHVpa0RwVGU1N2JydA?oc=5",
-      "pubDate": "Sat, 28 Mar 2026 08:53:01 GMT",
-      "source": "플래텀(Platum)",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[분석] \"비트코인, 6만달러 하회 시 2027년까지 회복 어려울 수도\"",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1WMjEzb1JZN1NMWXNBNkROWFUydFdWSFVEbXZrWlhBM21XUVoySnJTam53VzJQbEgyTWNsbF9NVzRfcTVJSjdjR1o4QnVGZDVE?oc=5",
-      "pubDate": "Sat, 28 Mar 2026 08:28:13 GMT",
-      "source": "블루밍비트",
+      "title": "비트코인 vs 금값(금시세) 엇갈린 흐름…중동 갈등 속 자금 이동 포착",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9vSlMyRE9POGprRTdIUXdTRVJrMUVkWmt3TWxIWVdHLVVNWnV2OXRXR2ZNYlpVRXU3VlotRTNKbWZ6M3dTcTNpa3R5SXNSYVNYeHpMX1ctVXl2dGFVUEQ1blQwak9pMlJE?oc=5",
+      "pubDate": "Sat, 28 Mar 2026 13:31:14 GMT",
+      "source": "CBC뉴스",
       "category": {
         "label": "🟣 CRYPTO",
         "color": "#a55eea"
       },
       "impacts": [
-        "환율",
-        "BTC"
+        "BTC",
+        "원유"
       ]
     },
     {
-      "title": "아진엑스텍, 삼성전자 AI 공장용 제조 로봇 공급",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE0takNXVXNyMi1vandJc3QwTGRwcUdfVkw2blplOTg0QUJUVmwwcjFnaDRLLXJvOEp1Y1FaT1RTR3VpSXZEbjZreHQybFo2ajJubG8zd0VNaTlkdXRkZzJucW5WTXVndw?oc=5",
-      "pubDate": "Sat, 28 Mar 2026 08:26:24 GMT",
-      "source": "디일렉",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "이철우 \"최경환 후보 용인반도체클러스터 분산유치 공약 수용\"",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBRbEpvNnBtYzU3UXUxZzE3LTdXMVJqRVJjSjQ1UHhadWdNVlN3NUtDVkZLRFh0Tm9sbmh4Rko4bmVPZmNiLUJpMno3ZHo3cG95U19ZQ3UzbGFvVy0yNDFlZU02SkNwd2FyTnc?oc=5",
-      "pubDate": "Sat, 28 Mar 2026 08:24:54 GMT",
-      "source": "hidomin.com",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "이천시, 고려대와 손잡고 반도체 인재 조기 발굴·육성 나서",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9pU3RzcnJ3TlpvZjJfbkRJXzA1NTlNTFIxRmhHanViMnJLQlpqUkk0b09OaGhZdU5fNTJtZmJUZkxrc0FpdURCN2FSOHQxZw?oc=5",
-      "pubDate": "Sat, 28 Mar 2026 08:17:51 GMT",
-      "source": "전자신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "비트코인 ETF 자금 유출, 거시 불확실성 속 '방향성 리크스' 탓",
-      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1mU21ZMVM3eUhkWXp0ZWFDdHM3UDRfVVNiNG1vbUJBOXBsMG9GYU9QUVM0Wjd6UHlNNm4wcmlzd3BnMEY2SmxTOQ?oc=5",
-      "pubDate": "Sat, 28 Mar 2026 07:42:08 GMT",
-      "source": "코인니스",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "\"비트코인 수요, 스트래티지에 집중 심화\"",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8zb3l2eEpuZVlRS1kyeEMyeThiQkhDZXpVNkljR3JLOFE1WGN3VXc2LVlzN2pIWXAxR1FKajUwaEVKYmJqLURIdWNpOE9JaVdhcWM3SjNfMDFma19ra3NKWEVLUzVDSDl6SDk2SWdaaWHSAXRBVV95cUxQUWRVNmFMUEhjejZQSHNCMzV5Y1p0LThpeDN1N0tCNy1YY3lTZUVDblc3MlZSN1FJUFZDOEwxdkR4a2hSdFhPejJiV0J2T2ZUN2pyMms2eHNwczhhZ0FyMkppVmNYOEEtUG9XT3QwTk1UcTZnWA?oc=5",
-      "pubDate": "Sat, 28 Mar 2026 07:40:16 GMT",
-      "source": "연합인포맥스",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "삼성전자 노사, 교섭 재개 사흘 만에 중단…성과급 상한 폐지 평행선",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA2X0VUYUVENWVwVVlrUi11dUtWSFZJM0hoNzkxN3otZkg2Rk45VlY1WUxpek9uSXJ2WVdoc0g2bnhFck9qRjJ2TlFVTktQS214SXZCUTBqRXRqS0pteUtj?oc=5",
-      "pubDate": "Sat, 28 Mar 2026 07:19:07 GMT",
-      "source": "뉴스토마토",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자, DX부문 ‘2026년 상생협력 DAY’ 개최",
-      "link": "https://news.google.com/rss/articles/CBMiP0FVX3lxTFA4WFFWak9EVlB1Z0loR3pOT01kdkd0Qk03YVZSZEpaeUJzYkRPN05OUUFZUUFQUXFpMFJCNEtiZw?oc=5",
-      "pubDate": "Sat, 28 Mar 2026 07:08:00 GMT",
-      "source": "사회적경제뉴스",
+      "title": "“AI로 협력사 키운다”…삼성전자, ‘상생협력 DAY’ 개최",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE13RmdneGFsMktUQ0taUHdoNnRrRFhvT3JSYnVlX3BHbTljUVJ3YVBBbFN2eS1zTUhBUXl2WE5hX3JwNzNUb1V4UWl3UVAtdHhSNGdhZEpxSlZ3UHF4VGxoWGxPdk8wVlR6OC1icQ?oc=5",
+      "pubDate": "Sat, 28 Mar 2026 13:23:40 GMT",
+      "source": "뉴스코리아",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
