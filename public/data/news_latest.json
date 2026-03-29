@@ -1,7 +1,20 @@
 {
-  "timestamp": "2026-03-30T04:24:19.252252",
+  "timestamp": "2026-03-30T04:54:46.175381",
   "count": 10,
   "articles": [
+    {
+      "title": "모건스탠리, 비트코인 현물 ETF 최저 운용 수수료율 책정 '이유는'",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9VRnpLTTdnazZiblZiVkFvV3dfVEZudWctd1FHLXpqbDMtaDZJUnBTdEgyOWFLR2FSbFMxaHQxMWdzN0hsUVhwSzFZel9LdDdzeG55bzJaWS1scURPU1BvWVZtVFJJcExnWFR0NA?oc=5",
+      "pubDate": "Sun, 29 Mar 2026 19:17:54 GMT",
+      "source": "경향게임스",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
     {
       "title": "머스크의 '노동 종말' 선언… 1조 달러 '피지컬 AI' 전쟁에 삼성·현대차 가세",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQUEtRYkRnbVltXzdZem9XNXQ0QXB0di1FYmJ6T0JPRlJRVmdUendmcnpmT0lqQ0VKUkFYc2tuRi11V19MVmY3ejQ0clR6WXY2SEp5Rkc0NzhtMEM1VXJOeDY5c3NVbTQwS2N3OWlaOTVpNFNiMnhyZTRsLVp3cXZLSGNLTnpNbFBF?oc=5",
@@ -79,8 +92,8 @@
         "color": "#4ecdc4"
       },
       "impacts": [
-        "BTC",
-        "채권"
+        "채권",
+        "BTC"
       ]
     },
     {
@@ -117,19 +130,6 @@
       "category": {
         "label": "🟡 MARKET",
         "color": "#f9ca24"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[사설] 반도체·사법기관 이전이 지방선거 이슈라니",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE05dEFNSXM2Yk0zeXJhT3JJNGtBOGxHWE0wb2V1WV9CWVRmbk1CYXlVSXRHQXd6NzByXzlTZW0ybGxvekxCQVI4ZnlJNUttUXkxQTZYM2Q2RFlBT1ZneXlnRXRZSFhCcEJvMU5VYmh3?oc=5",
-      "pubDate": "Sun, 29 Mar 2026 15:01:00 GMT",
-      "source": "아시아투데이",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
       },
       "impacts": [
         "삼성전자"
