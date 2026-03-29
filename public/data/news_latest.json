@@ -1,18 +1,33 @@
 {
-  "timestamp": "2026-03-30T02:53:51.225523",
+  "timestamp": "2026-03-30T04:24:19.252252",
   "count": 10,
   "articles": [
     {
-      "title": "삼성전자, 2028년 '꿈의 반도체' 양산한다",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB6VWdmMzJ2bG5uM1pOMzhGTEI1cHhOQ3lwYjZ3MVpoOFhOdlo1Nk9MMUpLMVB2RDdaYnhUVXhuUVpka2VHclZ1d0p5R2tIRHpUNnNBZTRnVzJvZ9IBVEFVX3lxTE5UUTJrT3ptbTBoVkJrSnloa1VOcnpPdTY2UnJOMFF5Wmgxc0NkdVhObVNsSTQ0Y3hVcW9UaHNEdnoyaFpWM0k5eEFKbmZxYmZqMnprdA?oc=5",
-      "pubDate": "Sun, 29 Mar 2026 15:54:00 GMT",
-      "source": "한국경제",
+      "title": "머스크의 '노동 종말' 선언… 1조 달러 '피지컬 AI' 전쟁에 삼성·현대차 가세",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQUEtRYkRnbVltXzdZem9XNXQ0QXB0di1FYmJ6T0JPRlJRVmdUendmcnpmT0lqQ0VKUkFYc2tuRi11V19MVmY3ejQ0clR6WXY2SEp5Rkc0NzhtMEM1VXJOeDY5c3NVbTQwS2N3OWlaOTVpNFNiMnhyZTRsLVp3cXZLSGNLTnpNbFBF?oc=5",
+      "pubDate": "Sun, 29 Mar 2026 18:55:00 GMT",
+      "source": "글로벌이코노믹",
       "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
       },
       "impacts": [
-        "삼성전자"
+        "삼성전자",
+        "환율",
+        "현대차"
+      ]
+    },
+    {
+      "title": "비트코인(BTC) 이더리움(ETH) 바이낸스코인(BNB) 리플(XRP) 순...자금쏠림 구조 유지",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE42YlZJWUp1ZG85RkE1TkxNWWlXU0JLYlZxM3dhSDVtSy1Oa0RJaVFjZjlBdFZZR3hCTm94X3NBVmpkVlhzS29hRlhXTDItR1dOallveWhMXy02OHZJQVpLWGpncUYzR1JG?oc=5",
+      "pubDate": "Sun, 29 Mar 2026 15:45:00 GMT",
+      "source": "CBC뉴스",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
       ]
     },
     {
@@ -29,19 +44,6 @@
       ]
     },
     {
-      "title": "현대차 “모든 계열사 車 5부제… 에너지 절감”",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1MM2cwOWhxclo5NXNGWE5DUmFFYnAtSXY3RGF0dzcyWFN6V2pWOXZOYTQ0WThPX1E3UHQ2RUd1bVRHR2Z0UnJfZDRwdEtEdXotQlFmeGdFNXpPMXRpSzRzWnAyV0pqcEo2MkFIRUtvRkJHU3dWZVHSAWZBVV95cUxPbXNGY3RqcHY1UjVwQmZ0T0xoYjNxODdNU1hrTGYweG82bTdMaE1CbmNaRnZxQzZMQmVvSlJQZlhwUHNYMk5DSzlKTVZrYzZpV0ltcDBCQkNPU2tQN3h2d194c3JWekE?oc=5",
-      "pubDate": "Sun, 29 Mar 2026 15:30:00 GMT",
-      "source": "동아일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
       "title": "비트코인(BTC) ‘700% 신호’ 재등장?…월봉 RSI 극단 구간, 전쟁 리스크까지 겹쳤다",
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9fS2pYbTF6UEJfRnQxZlZfc3NOTktFWHRaSXlPWWRyVVBLbWl3T2tVek1Kb01NTi14eXBrSUt0SVRibFRtZzBBZlF1YlJlOVByRTdnYUJ5QTYtWG9MVS1xZjdtRGJQQ0M5?oc=5",
       "pubDate": "Sun, 29 Mar 2026 15:30:00 GMT",
@@ -52,6 +54,19 @@
       },
       "impacts": [
         "BTC"
+      ]
+    },
+    {
+      "title": "현대차 “모든 계열사 車 5부제… 에너지 절감”",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1MM2cwOWhxclo5NXNGWE5DUmFFYnAtSXY3RGF0dzcyWFN6V2pWOXZOYTQ0WThPX1E3UHQ2RUd1bVRHR2Z0UnJfZDRwdEtEdXotQlFmeGdFNXpPMXRpSzRzWnAyV0pqcEo2MkFIRUtvRkJHU3dWZVHSAWZBVV95cUxPbXNGY3RqcHY1UjVwQmZ0T0xoYjNxODdNU1hrTGYweG82bTdMaE1CbmNaRnZxQzZMQmVvSlJQZlhwUHNYMk5DSzlKTVZrYzZpV0ltcDBCQkNPU2tQN3h2d194c3JWekE?oc=5",
+      "pubDate": "Sun, 29 Mar 2026 15:30:00 GMT",
+      "source": "동아일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
       ]
     },
     {
@@ -118,19 +133,6 @@
       },
       "impacts": [
         "삼성전자"
-      ]
-    },
-    {
-      "title": "현대차, 차량 5부제 등 에너지 위기 극복 동참",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE14VWlDVkFMNUNmTnhsbkwzX2VGWjFra2ppejZSUmhjVEZWbU9Jck1EY1hBZmtiSHplX1laV21rNVo0QWJSX0QzU0x3a1JScjdpamlsdGRNZlFtM0lSeFRSQ3piMkpZMlVqNVAwRg?oc=5",
-      "pubDate": "Sun, 29 Mar 2026 15:00:00 GMT",
-      "source": "경상일보",
-      "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
-      },
-      "impacts": [
-        "현대차"
       ]
     }
   ]
