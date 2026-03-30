@@ -1,12 +1,26 @@
 {
-  "timestamp": "2026-03-31T02:34:32.850426",
+  "timestamp": "2026-03-31T04:05:01.114632",
   "count": 10,
   "articles": [
+    {
+      "title": "비트코인(BTC), 6만7000달러 일시 반납",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1JZHZUVHFEWlpJMlM3Z2NxVU1YLTQxOTV1cEpPZHp6ZEpLVml3UnJ4VDRuZlZiMUhEMlY5WlpCMEUtUk9RR04xQXRDOHJyWHdX?oc=5",
+      "pubDate": "Mon, 30 Mar 2026 17:34:09 GMT",
+      "source": "블루밍비트",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC",
+        "환율"
+      ]
+    },
     {
       "title": "새로운 ETF 신청, Strategy Inc를 중심으로 비트코인 재무 관련 기업들을 겨냥하다",
       "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQYW9Qd3lZdlVrMTlGMVYwbUw3UElONWJCcFk1Y3d4Y2tudm1faUFCVHdYcC0tMXhrOHBIYmFtaUwyUGJVX1dyOFlPOVJ5QnhPd21JRkhXRm91cHVSeml0WnhwQjFmblFMMEZtX0F4T2E5VXdoM0tHVU9EaGVBb3BwMDlMeTVkQjhXX1NDdlFPbkxHOXRLMnUyQUwybzcyMzdjRElvN1E0dkI5RDVQeE5Kd3dTNzVZQ3dMRVQyVDRQdTVSLVRTTllRdjF6bTJwRUxkTGI4?oc=5",
       "pubDate": "Mon, 30 Mar 2026 17:00:10 GMT",
-      "source": "news.bitcoin.com",
+      "source": "Bitcoin.com News",
       "category": {
         "label": "🟣 CRYPTO",
         "color": "#a55eea"
@@ -53,19 +67,6 @@
       "impacts": []
     },
     {
-      "title": "사이클 벗어나는 반도체… ‘장기 계약 산업’ 변신",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQclpzc2Y2ODNPZlRQcDBEWllaNjhLY0h2VF9jSXdQU2F3SUZfVmRocTNmYUtXbFFvTklRNmV5dWRial9uTUl2N2daY180NlFYb3ZtcDE5ZXVROS1lNGtrMWo0c0RwVnZSaElnbDJIRnpLUEp6bmhxZHVmNUZaa1E4SHo2UdIBlwFBVV95cUxPbEJ1bzMyWjNUS1NpdU5UeTJZOG1rYW9SYlhQbXNCb3VaTEltdTJUSlhFU0xDaWUxcUlBT3k5NEowNnkzUGpNaUxoY1pQSHc2cC04TnZiNEVza1BkOG40WU5UX0VSUkNJT3JTWll3X1BLMWRmLVZNN1RnbWRsSWNTMGFXcElxTG15NW9oSjF1OU8tTWNNajJF?oc=5",
-      "pubDate": "Mon, 30 Mar 2026 15:34:00 GMT",
-      "source": "조선일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
       "title": "\"비트코인(BTC) 반등 구간서 소형 투자자 매도…상승 제한\"",
       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE80dkVFWkhfRDBwTWkwUmZReXc4c2xOZ2NnQ1NwcHRmM181TFVyZEFUbmIyYWJ2U1EyOGZNOXVPeUEzT3AxeVJuN1hlR3FnTUZM?oc=5",
       "pubDate": "Mon, 30 Mar 2026 15:23:28 GMT",
@@ -79,10 +80,23 @@
       ]
     },
     {
+      "title": "비트코인 공급 수익성 50%선 하회…과거 655% 상승 전조라고?",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1MUm9Pd0tpa0M3SFNtT2FOLV8yUTdUc2dJazhIZDc2a3F1Tk9yS0FGekJQQ3ExN2xQUTdIMTgzclJtdV91cXdLdEx5anY4Y1JoMW5pbGZ3WDVqY3N5V19XdkRTWlVhVnItLWRjLU5XNHlqZms?oc=5",
+      "pubDate": "Mon, 30 Mar 2026 15:15:00 GMT",
+      "source": "디지털투데이",
+      "category": {
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
       "title": "경기도 '반도체 올케어 전담조직' 운영",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5yeWh1SkRNN0F3RXZFN0U1X19xZEV5TTAzTkduelhKSXBaWXFRNkZweWZmNG1GQmdZX3dtLTk0aktUMC1vbHppbC1reHplYXhleThDZ1EyRjRKQTBtRmdwMVlkRUJjekxEeFE?oc=5",
       "pubDate": "Mon, 30 Mar 2026 15:13:31 GMT",
-      "source": "서울파이낸스",
+      "source": "seoulfn.com",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -101,8 +115,8 @@
         "color": "#a55eea"
       },
       "impacts": [
-        "환율",
-        "BTC"
+        "BTC",
+        "환율"
       ]
     },
     {
@@ -110,19 +124,6 @@
       "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE56S2xpTWRKRjAzem5EVGpONkFpSWFfb29kR3pZMWU5OTUwM3BYOVRZZXJ3SzJ0V0h6ZG1YSFEzczRSZzFFOTVub3ByX01MZw?oc=5",
       "pubDate": "Mon, 30 Mar 2026 14:56:25 GMT",
       "source": "전자신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "NH농협손해보험, AI 반도체 업체 ‘리벨리온’에 손보업계 유일 100억 지분 투자",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA5ZE9vTmh5WElkMmx2c2dnRmd2NmZjVkRTMkswbHpHTGwtSjg5UEktaUNveERkMVNwZUdmeXVDYmdKb3VNak0xN2FrTUQ5c19KRU1pWXpjVjVINDNBQ0JmTXRiQnNOQQ?oc=5",
-      "pubDate": "Mon, 30 Mar 2026 13:54:22 GMT",
-      "source": "이슈투데이",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
