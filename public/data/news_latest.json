@@ -1,104 +1,54 @@
 {
-  "timestamp": "2026-03-30T11:27:30.169174",
+  "timestamp": "2026-03-30T11:57:56.692397",
   "count": 10,
   "articles": [
     {
-      "title": "[특징주] 우리로, 젠슨 황 \"광반도체 미래 핵심 기술' 발언 후 릴레이 '급등'",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQT1lXWDZmN3M1Ti1oelFRY1BDMV9zdVNoZ0V2S1gxOTJjZFQ4aTZiS0N0NW5uaVRJZTRiUVJib3g3Y0k4MktUSDlKNUhhMUhuLUp5Ujg5cFJ5dHFRb2R1ZTc1UlBudG9CY2dlejhmYkt2bGNSQWVVaGlzREU0Szl3V3RVblRQckE0?oc=5",
-      "pubDate": "Mon, 30 Mar 2026 02:21:57 GMT",
-      "source": "글로벌이코노믹",
+      "title": "[시황] 비트코인 6만7000달러선 회복…시장 전반 반등 흐름",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1ja0psam5UcU5kaGc0c1BXNFNwb3VSenpld2RhZzJydTZhSmVpQU15eWU1TjBMV2xoUzhiZ2QwQkU4aXZsTzV2a1RCcTM1NVcz?oc=5",
+      "pubDate": "Mon, 30 Mar 2026 02:47:18 GMT",
+      "source": "블루밍비트",
       "category": {
-        "label": "🟢 POSITIVE",
-        "color": "#4ecdc4"
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC",
+        "환율"
+      ]
+    },
+    {
+      "title": "LG화학, 2030년까지 반도체·전장 소재 매출 2조원으로 확대 목표 - 조선비즈",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPLWlRTThjWHpTUFJTRXpDVGRMdmtpbDZjM3ZqR0ZxVTAzQy1CUGY4NXAyb3hJSjEwRXphSFFJeG5KSnFzQUpIclJtUzJMQ3gxTkNLZkxXV29aLURzaUV3NXZ1SlR1N0RPLWxObi1leVY1eDVPUVVSU0I2ZTVmaGRlek9fU2rSAZgBQVVfeXFMUGxvdGd6eGhKUU9maXRkLVU2ckVocE13UWVVUVdnVVhQazlpTjVlUjZOZzh6d2NsZG1ReEhFOFZRQVkyNUZPV1BvZlh4UzI4ZGVsX3NuVzZ1M2k5MVJRWFdGeHQwamhuWUt5NVhfQzlubnFJWXJ2U1FkMGtrdy1TNXctMGdvTTNKWnZqMEJUUE4zcGc0eUpTZDM?oc=5",
+      "pubDate": "Mon, 30 Mar 2026 02:44:00 GMT",
+      "source": "Chosunbiz",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
       },
       "impacts": [
         "삼성전자"
       ]
     },
     {
-      "title": "이천시, 日반도체 소재 제조사 2500억 투자 확정…“30년 우정 결실”",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1oVGJ6amkyV1BfdDVPVV9iVy16bXg3MFFiV3NZTjlhVmJmdUc5MzRPcmY5VFZhUDVJOE00YXRQb2V3Tk0wbU9zR3lEX08tOFNy?oc=5",
-      "pubDate": "Mon, 30 Mar 2026 02:21:23 GMT",
+      "title": "비트코인 6만6000달러대로 밀려…중동 긴장에 시장 신중",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4zOEZZSllMWXpSaHFMVld1c1RRX05yWWJHckQ5UEN5M25NYWRreWpwcDZPLTZyay1DdDFKRHMxU09Wa0hQQmlGN21qdU85UWpCdEp2eGVjZEFQNzNJbDNpTXNPUWR5Vmll0gFrQVVfeXFMTjZKb3h0cmFKcDdLWVI4MW9oNVJKN1d4d25SZGJDYVJHeXRMTEFsNUNvSVVTcHRvYmVoMUx4LWpPaHlnSDJ5aE93OTRpcU5LOHZYZk95SkdLaDItYTY5Q2RWMC1Qc0owZWM1emc?oc=5",
+      "pubDate": "Mon, 30 Mar 2026 02:43:36 GMT",
+      "source": "논객닷컴",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC",
+        "환율",
+        "원유"
+      ]
+    },
+    {
+      "title": "35년동안 누적 7000대 판매… 김기양 현대차 이사 역대 세번쨰",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1yVHJQeXZKaFcyWU9rNWl3MWx5WXJxRnRIQUEtU3cySm5ZcnFBSE9EaHF6VWZsUVktbFZvZVFvcndvemV1Z2RXdkNvMkVGZ3Jr?oc=5",
+      "pubDate": "Mon, 30 Mar 2026 02:35:50 GMT",
       "source": "문화일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자 'AI 와인 매니저' 탑재 냉장고 선봬",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE53cllsci1FYXotQ05IQXNlZWQtN2FhZ3k1VEMyUmVIV29WaFFKSWpxYU50M0x6ZGUtUjl6dkpWQ3dnN3pzYndhbVhZY1ZRbFdnbHBiZVhBUDZZVFozcmkwSHZIbjI2TS1wR3dtcDZrVE5leFk?oc=5",
-      "pubDate": "Mon, 30 Mar 2026 02:13:00 GMT",
-      "source": "디지털투데이",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "케이던스-엔비디아, “에이전틱 AI로 반도체 설계 패러다임 바꾼다”",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOZmkzQTJIRkU3NVROUXVEbnhqeXFhczJQcy1GZ3d2QXVpcmxHcVdRVEJzN2FxMWw5aTI4WmVnejhOYndqdzV5ZDBVaXpOc3ZlaGdhZTJwWWFWdXNUeFVJSDRvWW1oSWVESTZ3STlsTHFRS2QyUnlzMjktMUdVNC1vTFNwTl9JUUE5QnpqdTdR?oc=5",
-      "pubDate": "Mon, 30 Mar 2026 02:10:43 GMT",
-      "source": "캐드앤그래픽스",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자",
-        "NVIDIA"
-      ]
-    },
-    {
-      "title": "삼성전자, 반도체 슈퍼사이클 '초격차' 다진다...국내외 생산기지 확대 본격화",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5zRHJNY1JfVGRmWUxsSU1KQi1RRUdVOHNaS2lUMVByMzI1YkpadWNZeVBQaE4zOW1kRTZPM2Q4aEtaQWpHbmxhUnREbGFvUi01RHhLbnZYWnlpZllkWThXZ010eGlYWUZUZkhZMmJR?oc=5",
-      "pubDate": "Mon, 30 Mar 2026 02:10:23 GMT",
-      "source": "mstoday.co.kr",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자 서비스센터, ‘예약 서비스’ 전국으로 확대",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBtTkxTVV92V3BZc1ZxY2xQYTNOSU40Q0h5OGtsQ3QxbUFzdGQzS2ZXTWFGX3NyUWk2MVRyX1dibzhxTFFhMmg0TlZzZEpUS3hKLUNOdnRUVmRzeWJVTFVWYlV6a0t3MFk?oc=5",
-      "pubDate": "Mon, 30 Mar 2026 02:08:09 GMT",
-      "source": "it-b.co.kr",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "이준석 “李정부, 4대강 보 해체는 자해…반도체 ‘새만금으로’ 수순”",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE4xT3JVemtjdGRuTkN2dFd4NTFmMGEtdmN5QjJWMS1vSVl2NHlTSVY0aFY1THBCQXFjZmtvNTZaMFpYbHN0MzQ2VEo3Zk1JSXM?oc=5",
-      "pubDate": "Mon, 30 Mar 2026 02:07:07 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "현대차그룹, 전방위 에너지 절감 착수…전 그룹사 확대 시행",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5CdnFhQjZVVEZjZm5McU50X3duUU0tcHBSUk1LUFBLUlhmZDFQQmVXQUo3a0dGUXVtUXAxUzUtS0h2MnMwcmUtZHZzZGZIQnpLRXRjWnRUQlZiTjR6VEJ6TE5tSTg3Tkh1eWJyUmdB?oc=5",
-      "pubDate": "Mon, 30 Mar 2026 02:07:04 GMT",
-      "source": "이지경제",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -108,10 +58,36 @@
       ]
     },
     {
-      "title": "삼성전자 다음은 바이오로직스...5월에 맞춰진 삼성의 '파업 시계'",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9ZeUNRN2VGTHhHem9FNVFKN2Jlc2wxc1N1VDhQX0hpRkV1VHo2aWJTejlGUS1YdVBHaC0wT2FVYjRmZ0pmYnNpelpIZVhab0VsQS01RTRoOGQtS2JKT0N3?oc=5",
-      "pubDate": "Mon, 30 Mar 2026 02:02:00 GMT",
-      "source": "스마트투데이",
+      "title": "캘리포니아 트레일러 화재로 미국 수소 인프라 취약점 부각, 현대차에 리스크",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4yb3BpTEtIS011SnlsU1JfV1hySFItUkFKNUx2bmpiS1hWS24ySTQ0V3J4emNYRHg4OEFRTTBVWXRXandzT3dfd0tRZG9OWnRKYWV1d3Q0d0pkWlRJWXhOR1pmeElJblJBYkgwaDM5RHkwTXc?oc=5",
+      "pubDate": "Mon, 30 Mar 2026 02:33:41 GMT",
+      "source": "비즈니스포스트",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "비트코인 투자 신호, ‘기관의 수급’을 주목하라",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA1WE9NcWxIREN6S09ZNHctNkhidTN3bWNScXFETlJLekFCTFN1aVdzT09GU2dTUGE0SXZBNFVDNkhCTGxETlFBV2hFT043c3B5R1Rfampn?oc=5",
+      "pubDate": "Mon, 30 Mar 2026 02:30:00 GMT",
+      "source": "헤럴드경제",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "삼성·SK, 1Q 영업익 '70조원' 잭팟…K-반도체 장기 호황 진입",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5OWjd5aFRUR29WVHRpVVpfUUROd3lmbVZINEgyUlVVMWw2SmJBekpMXzNYTF9FR0hKaXFDUWUtWThUZy1POUlqU1ktTkZaLVhsa2ZxWjByVU1HdjhkS1NjUW5iYmMwa3Rm?oc=5",
+      "pubDate": "Mon, 30 Mar 2026 02:28:46 GMT",
+      "source": "ebn.co.kr",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -121,16 +97,42 @@
       ]
     },
     {
-      "title": "LG화학, 반도체·전장 소재 매출 2조 목표",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9XQUNydGpFTWEweFJrcjRVQ01ZQ2x3b1ZMLWNxVU1lR2ZEVnVMOHJ5TjJqNkZJNUVvOXpZeUtueXNDVHJBa1IxLTZ1SEtwVktybEI3ZlVSQlRTQ2tPNVJWWU0tZ3ZkUQ?oc=5",
-      "pubDate": "Mon, 30 Mar 2026 02:00:51 GMT",
-      "source": "디일렉",
+      "title": "삼성전자 사측 \"업계 최고 수준 보상에도 교섭 중단 안타까워\"",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBrSTlsTzdNeTRLdkw5V3lOVDNDb0pLRTJtMjhuY1gweDlxUk9ZTXFWR0VmbmVad1ZERkJYTFE1QVNiaHR2Z2s1OUF4RUtDVnU2Si1sR3RmSHZqN3E1ZEk5bdIBeEFVX3lxTE9kV0pQVUZjTWxvUzg0VXNfM25PbUdZM0F5a0tfSk1lSk9wLXlfN0xacXlQUXVUZ2dtWjRwdnQ2T0M0bm5TRDh4ZmVBLXFwSkpwMk01SzJPNW4wSy1OYkJrR3lDSlZta29tSW9ZSE1rcFN3OWtvcjZvVg?oc=5",
+      "pubDate": "Mon, 30 Mar 2026 02:26:18 GMT",
+      "source": "뉴시스",
       "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
       },
       "impacts": [
         "삼성전자"
+      ]
+    },
+    {
+      "title": "OCI홀딩스, IFC서 1900억 유치…반도체용 폴리실리콘 공장 투자",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB2ek5VMmZBTkNRaEVzaTVyMFhYOGpWOXg4Q3hHeUZidFpiR1ZFOVNxR1dqeEJzRk5xRG9qM3hUaHJWZnFkejRIZ0toblAwTUdpUF9FdzUwN3UyUFVn?oc=5",
+      "pubDate": "Mon, 30 Mar 2026 02:24:32 GMT",
+      "source": "fetv.co.kr",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "스트래티지, 비트코인 매수 지난주 건너 뛴듯…13주 연속기록 중단",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE81dWhzeXlSZEFER1R4X094Qko3dnFiNXhyVTV1VWtBek9ERDVUMlQ1SkJoc2hubmcyOTJDMnJKLUxlcjF5VFQ3eTV3Rm5hb1JXSTZZN0lYM3NqRHJIbGdpaTUtdTJQVWljTWZPNnFOSV_SAXRBVV95cUxQaG14QUxEY0dPNmNKdWhndVhZek1HbDg3YWVBS1M0MXJ6b2NJc1hva3ZZWk5nem9UTHVpcUs0d3A5MW94aEQxVTBoS2xLRGJUWXdLVWZJa2M2ZXB3c2FQZkVCMGE5OVJXMFhfRmctaTdvTEdSRg?oc=5",
+      "pubDate": "Mon, 30 Mar 2026 02:23:01 GMT",
+      "source": "연합인포맥스",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
       ]
     }
   ]
