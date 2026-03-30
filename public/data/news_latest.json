@@ -1,140 +1,135 @@
 {
-  "timestamp": "2026-03-30T08:17:05.195046",
+  "timestamp": "2026-03-30T09:25:42.161351",
   "count": 10,
   "articles": [
     {
-      "title": "[가상화폐 시세] 비트코인 1억원선 유지하지만 하락세…엑스알피 2000원선, 이더리움 300만원선 거래",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5FQTlkc01vek5ybm1TY3BJbVlSMG1UNnhuN3cyVnhHTng3VURoS3ZOWGxiQVIzdThWcFV2WWJLSFBvU29PYy03TDVJeDI0cnB3Nlh4dVBvdm9jSnYtMzRfbXpxQ2VDbEx2THczRlBlMA?oc=5",
-      "pubDate": "Sun, 29 Mar 2026 23:11:49 GMT",
-      "source": "econonews.co.kr",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "금리 인상 우려… 비트코인 6만6000달러 - 조선비즈",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPWGUteENWcm9Bd3Jqc0VyejBpdk1JYV9zUWI3T1Y5Qk5fM3JfVWF0YlpfVVl4M1ZMckNLeDc0MmtiYkNuTnlaV0l2NjRSS05Gam1VU3dHOEFYNFlGV0t4M1FtMkw0SUVFdVp1OE5tM2p2clNwWlU3dTczWDA5eEt6dNIBlAFBVV95cUxOWHNKWEsyQkJyVzkyTW5zRmVrYXBsbURlSUNvd2s1LXA1WGRaUlVHV09WU2o5aFFNcjktOHVSOEtrS0xCMG96cmdsQ003V0dRTlNOR1hwY3J6bExEcGxSZ0g2anpQWDhXYnl1SXM2Zkh2YjJUVEdNdE5yaEFXd0JVdklmM0p0TUVNdzkwa0plSnNfRFlB?oc=5",
-      "pubDate": "Sun, 29 Mar 2026 23:08:00 GMT",
-      "source": "Chosunbiz",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "환율",
-        "BTC",
-        "채권"
-      ]
-    },
-    {
-      "title": "삼성전자, ‘인피니트 AI 와인 냉장고’ 출시",
-      "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPUXFwaElVcGdrVW94U0RjNllsVXJWbVJFNTNRVmJXUi13MlZQMzQtT19QSmhOMGRQeFg5SHUxX0cxMXZfczdic0NraW1ieEpJSWdEUnY1OTNtSElTRGktQWFac2NmSEs4TU9PU0h4djZ4SDNCRUVPU2FoaGFIZ0FDQmxaMlZ2VVRSOGswQ1hUYkxCMXViLW03QVZlR0ZhWnpfRzBMUTM1SmJjbFMwTFBycUQzOThFWTBqbWlrN1JUWE5iQnI2aGk2YkRlaWJPUmdiOUo1UVY3UjR4LXBOMnZBdGxMTnljREc2U3RNSVpUVFpMVVNaV05lU0tWTTJtSlk?oc=5",
-      "pubDate": "Sun, 29 Mar 2026 23:00:00 GMT",
-      "source": "samsung.com",
+      "title": "김기양 현대차 영업이사, 누적 판매 7000대 달성",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5peHZlZGxlejdXZXdaUFNzcHhXTHZtV0o1TlhOcUxPN2RybF9yeUptV1RxdzJFQ0tsVEw0MmNqNzE4dVB0M2twSzlfTmpSdzltRGQ4QS1mVWNNZ2d3bVNXbUN2cWk?oc=5",
+      "pubDate": "Mon, 30 Mar 2026 00:21:09 GMT",
+      "source": "m-i.kr",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[이원두 時事寶鑑] 한국 반도체, ‘흐리고 때때로 비’ 막을 수 있나",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5JUzNaLW5uWnhaeEw3QVR4Z0dNTkw1c1pJckdPTGxUSG5BbXRyeGFkb2lFUHRIZmJkZzZBLXIySzhfTVhic2EyTWJBdkJMOHFUbEZCLXlVeXVodmRZdUk4ekxHenk5eUdB?oc=5",
-      "pubDate": "Sun, 29 Mar 2026 22:57:55 GMT",
-      "source": "공정뉴스",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "미국도 비트코인 과세 논란…\"스테이블코인에만 소액 면세\"",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5SUWNFZXZuMG5hclJOWktRT0ZLem52bWF2d2R2NE44b3BDTjF1NlpUaVByeVdNcDh6aHgwODhOVUVEQ0c3T1cyTHZHZ1Q2eVd3THJwMFhXV2tLNG9mWnpjNmQyWEpMb2tkLWJkX2hfamRib2M?oc=5",
-      "pubDate": "Sun, 29 Mar 2026 22:55:32 GMT",
-      "source": "마켓인",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "NH證 “현대차·기아, 1분기 환율 우호적…4월 신사업 이벤트도 주목”",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1ZOTM2Ul9PQ250eDhRMmZwZ3M1RnR4YmFMeWszTXc5VHFFLUJ2Q1VvdE43YjlmZGItaFlfTUwySWl2d1pSNVhoMTJLc2FXeHhRZTNnSw?oc=5",
-      "pubDate": "Sun, 29 Mar 2026 22:52:00 GMT",
-      "source": "이투데이",
-      "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
-      },
-      "impacts": [
-        "환율",
         "현대차"
       ]
     },
     {
-      "title": "비트코인(BTC)·이더리움(ETH) 동반 반등 속 ‘긴장 고조’…미국 증시 급락과 중동 리스크 겹쳤다",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1ob19uNlZXcmYyZ19CVzBIZGpMYUZ1UHI1UWp0RmFnQ05WZEtwdGktQWFsMXoyTnoydEQ1ZkVWNEVHOWlqS3pXc1RIZjVJWVZMNjFNZlFCYzRDbUoyQmx6cm1Pc3R1cVIz?oc=5",
-      "pubDate": "Sun, 29 Mar 2026 22:45:00 GMT",
-      "source": "CBC뉴스",
+      "title": "긴축 우려 먼저 반영한 비트코인…'주식보다 안전한 투자처' 부상하나",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBaQzViV3VTWW9oZzFrRmItcEg4V2twZ2JVZU5SNWNHU0dHTnY5YlFSeG1Mb3FsY2tWSkRMR0pIUU9VdDZGbzB1R0FERVpDN0RwdjBpRmF4OC1JRU12WG42LVpCd19fTUs5OVpXVUVtME9iWEU?oc=5",
+      "pubDate": "Mon, 30 Mar 2026 00:21:00 GMT",
+      "source": "디지털투데이",
       "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
       },
       "impacts": [
-        "원유",
         "BTC"
       ]
     },
     {
-      "title": "“2026년 경제위기…주식은 가짜자산 비트코인 사라” 부자아빠의 경고",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBhbVNOSENOMlh5SmN6dEFEbnNPX2drcWQ2VFhlb212Zjc1S3lxcVVzUEVfMGVHeVJUSG5Kcy1qRTh0bC1xVmFQWllTQlhEWFFE?oc=5",
-      "pubDate": "Sun, 29 Mar 2026 22:43:44 GMT",
+      "title": "삼성전자서비스, ‘예약 서비스’ 전국 확대…대기 없이 점검",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9LVEhsNUh2Qmo2ajNmbUVDa2hrTXJiSTBkRDU5NmowVFVEMGdzb3dBaGtxbTdHVUhDZnpIa2p4TzFCcXNmc1VnSmNWb28yRFdEeGJydHhRcW9QdmFPT1dTd2dqMmo?oc=5",
+      "pubDate": "Mon, 30 Mar 2026 00:20:34 GMT",
+      "source": "서울경제TV",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "비트코인 강세 베팅 급증…과거 사례는 하락 예고",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9sbloxYy1aZUZsaWxObDlfZ2Q5dHh6amNmaEpiUVVwX01UaHZEanVzZ0N4dWZHTkVGaHh0TXBHTXlpM09XS3gxRmtBZmNzLWh3STNqTjlXRnYwRGwxNi02Q21rcXNqdWpDTHlMTnd5U25RUWc?oc=5",
+      "pubDate": "Mon, 30 Mar 2026 00:20:00 GMT",
+      "source": "디지털투데이",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "삼성전자서비스, 예약 서비스 전국 확대",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9PWVo4dEtMeExlUDR2UldOeHZiNE5LZTZLa0JaYnRHSHhWVE1CUGxCVEV6NzVYdDRDMXpBb3I2NTRZSUc3Q19rbHprNXAwcW1JSDRQUENrdVdSaHlKQk9uNU1TWnpaaU1hY2M1NzRGTi1IZXM?oc=5",
+      "pubDate": "Mon, 30 Mar 2026 00:19:24 GMT",
+      "source": "디지털투데이",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "5억 상당 비트코인 착복하고 자금 세탁한 조폭 징역 8년",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1QV3hNdlRQSzZkamtLQ084dlcxYjlwb0dhUW41Q0dyYjVBdjItVUpocjdUWGVXV1hOTWlfWWF4elpvazVCVHZMTHgxMXMtejFkZExtRXYxNl91eDQ0dF9QYQ?oc=5",
+      "pubDate": "Mon, 30 Mar 2026 00:19:00 GMT",
+      "source": "네이트",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "삼성전자서비스, 전국 169개 센터 예약 서비스 4월 1일부터 시행",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBNcUFZRmQwQVZ3eFhZQnpQYm9LT2VycnUxdE12dkphNkhNcUdHVUgtdkZZOFgzb0RVblVBYUYtakpFZWpXMktYajVHcVgyTVR0OHl5VWtCTE5CcmFLYmZwYjg4djJRN0RJSVRr0gFvQVVfeXFMTU8wcEZOcVBVd3Fjb1llblJQNktvUS1QYk5Ybk1sWkJKeTNuSkNjdDhMaDVUb1hnX2NMLTBQQmFJZFZhdXM3MDI5aDZIQ3BSQ0JfWmFtTXBZWTVvenhsWFhJb1BQaTEtTG9xYW5QaUFF?oc=5",
+      "pubDate": "Mon, 30 Mar 2026 00:18:49 GMT",
+      "source": "한스경제",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "韓개발 ‘K-라드큐브’도 탑재… 삼성·하이닉스 반도체 ‘우주 방사선’ 내구성 시험[Science]",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9aYnh2bVhkU3R4NG9tVnhTWjI4b0dSNTg1MG5HeEZXV2g0WHVSX2JmdEMxc1BpZVhnY3cwX05lYmJJaWlGS2ZiMUZ1eTNBYnNr?oc=5",
+      "pubDate": "Mon, 30 Mar 2026 00:18:23 GMT",
       "source": "문화일보",
       "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
       },
       "impacts": [
-        "BTC"
+        "삼성전자"
       ]
     },
     {
-      "title": "[시황] 비트코인, 6만6000달러선 붕괴…주요 알트코인 동반 하락세",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1jUHg5MVlJckZlQUdNRk1CdTF1YXU4SEZ2UjRzbWxmR0F6UnRFZXp4X3BXaU0xaERhaEcyREI3LXVDdUc2LTJUZmlheVFxZmVW?oc=5",
-      "pubDate": "Sun, 29 Mar 2026 22:42:36 GMT",
-      "source": "bloomingbit.io",
+      "title": "삼성전자 서비스센터, ‘예약 서비스’ 확대..소비자 편의성 ‘업’",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1JeFRRUHUtam82WURhdHRRUzZwUXkyWlJoUEIzanFGZ2VuV09vOUtNeXRheGQ3YWhfSGxjTmFMSTg3T0VpNEg1RXFvZGxlR3hlVTlJd0ZBQ3BkbkNVY2VHMjRYTHRRNzNfa2VialBwaGFiRG9LSGc?oc=5",
+      "pubDate": "Mon, 30 Mar 2026 00:16:02 GMT",
+      "source": "dailycar.co.kr",
       "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
       },
       "impacts": [
-        "환율",
-        "BTC"
+        "삼성전자"
       ]
     },
     {
-      "title": "스트래티지, 비트코인 매수 '13주 연속' 중단 가능성…76만 BTC 보유 유지",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9GQUpfd1BiM2Z4angzYkRYUEk3QWhZbnVoZFQ5SXpqcGxFV0Z0Y3BHcndXcERNZXBzaTRGREpGcXg5RlFUWDg0b3RKM3V4Rkgt?oc=5",
-      "pubDate": "Sun, 29 Mar 2026 22:38:23 GMT",
-      "source": "bloomingbit.io",
+      "title": "삼성전자 `갤럭시 링2` 개발 착수… `비침습 혈당 측정` 탑재",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5NdlRObHBEcjQ4c0hfTTVVVHJCZ015VHExWnlsREFFREMwS1pTbjdCWUYxcm0yNFRRS3pkYnhfaENMZU4zOHNOMWZZMGQzVTVHdmNfRU8zTXFrVzZRbE03ak44Q0k?oc=5",
+      "pubDate": "Mon, 30 Mar 2026 00:15:33 GMT",
+      "source": "디지털데일리",
       "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
       },
       "impacts": [
-        "BTC"
+        "삼성전자"
       ]
     }
   ]
