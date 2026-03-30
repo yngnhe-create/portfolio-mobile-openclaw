@@ -1,136 +1,132 @@
 {
-  "timestamp": "2026-03-30T10:26:35.534754",
+  "timestamp": "2026-03-30T10:57:02.786187",
   "count": 10,
   "articles": [
     {
-      "title": "LG화학, 반도체·전장 소재 매출 키운다…2030년 2조원 달성 목표",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5lMTRuQ2hJOWtNUm5sUXlDOUEtWnR5WEdFNzRrb0NOUUd0YnZUNUgwRFNVV1FiRGhYT1FsX2Zqd2oxcnNmVlBOWHBrWTlzS1J3V1lnUVJjdGw4Q2dKYXh3NXcxZWE?oc=5",
-      "pubDate": "Mon, 30 Mar 2026 01:18:01 GMT",
-      "source": "디지털데일리",
-      "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "환율 효과 덕분에 그나마…한국서 낙폭 덜한 비트코인 [매일코인]",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBycGlLYmtoM2xka003RzBCaXpqeWVVcnVfZHpQejNyR2JIRkg4UU1zWHkwbmQ5Q29vNk0tVjIwcWVNVEFDSm1kc0R0SmJQZVU?oc=5",
-      "pubDate": "Mon, 30 Mar 2026 01:18:00 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC",
-        "환율"
-      ]
-    },
-    {
-      "title": "비트코인 6만6000달러 지지 실패…투자심리 급랭",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9mdDJnMi02cUMySzZjUWFMeXhZbkI1UjBqNnZXWGRVeWM4dlZ1Zld2OUpMRHB2dlpLNThOb2Z2RkdNVkJCcGhubHdPN2tCcHB0d1gtazlkTThheE9hNEZWUHBWcXFhd0IwaE1ZRVM0WnpwTnc?oc=5",
-      "pubDate": "Mon, 30 Mar 2026 01:17:00 GMT",
-      "source": "디지털투데이",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC",
-        "환율"
-      ]
-    },
-    {
-      "title": "'본업 한계' 보험업계, 수익 구조 바꾼다···AI·반도체 투자 속도",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9Id1NvaVR3VFR6S0hpbXNVdk11X0JUUzNuRVBqSzBGOXgyZ0JqQkRfR0JWcnBQRWozNEowMVczT29mNm5mbk03NXNMRVJjRkRoeVhGLWNMa2dodTVLek5JMGw2eWVpUTFBN1E?oc=5",
-      "pubDate": "Mon, 30 Mar 2026 01:16:49 GMT",
-      "source": "서울파이낸스",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "비트코인, 6만 5000달러 선까지 후퇴…\"극단적 과매도 진입\"[코인브리핑]",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5SWnNjSU1hN0dYRk4weUZ2cldmbjRwU3BBSXp1UDVjZlh3U1FaaVFVdlgzVm9tOEkzcFpCUHhBeEZ3cVlDcWlDMnZXc2xRdWlDclBsVC1XWmp0b0lBMWNrR0k4RTBEQQ?oc=5",
-      "pubDate": "Mon, 30 Mar 2026 01:16:29 GMT",
-      "source": "news1.kr",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC",
-        "환율"
-      ]
-    },
-    {
-      "title": "이준석 \"반도체 혈전 속 4대강 보 해체는 자해…용인 말고 새만금 수순\"",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5CUWRsdXdkMUtGQWpOc2ZaaXBLajV5REhtRDFHUHBZdlo0N1F4T1l4RHg5anFyR3NrQk1JMXNySnl0aHhmYWdiWWNzTnQtdmpHSkN1d08tN2NyZw?oc=5",
-      "pubDate": "Mon, 30 Mar 2026 01:14:56 GMT",
-      "source": "news1.kr",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "이준석 “4대강 보 해체는 자해…반도체 경쟁력 훼손”",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1hbGotTjBSZk9GUFM3cUlfcmdPbDR3NkRaYnV3c3d5YUJJd29BdVJndDZkNWUwSEE3STF4UjhUd3NrZEhLWUE5akV4UjNGSTB3TExkR2hXal9XZi1zM2ZFN0QxMFFyLTA?oc=5",
-      "pubDate": "Mon, 30 Mar 2026 01:13:17 GMT",
-      "source": "강원도민일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "인하대, 현대차 미래기술과제 선정…자율주행 반도체 진단 연구",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBya3hNQW9xZFRiUjlwWGZBMXpwT1hueUxORV9KUVNmTmFEeU9EUUVjbG1oTHY3a01BcXBpV3hYYmxIRXFSTkJqM2JZcFZIdw?oc=5",
-      "pubDate": "Mon, 30 Mar 2026 01:11:13 GMT",
-      "source": "전자신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차",
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[특징주] 삼성전자·SK하이닉스, 전쟁에 터보퀀트 등 불안심리 '파란 불'",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOemVTVi1mSTVaeXh4Z0d1M1BTRzhTVDcydi01RXQ3T29rTVloSWtpT2Y3dVBLeU5QQl9rN3FJaUl0YU0yV1pFVTc2X0J3UDQxMTFqZ1hpMDl4bjczZkdMamJ3eWJHYmVVbUphb2JDNGcyQmRWNmFJVmJrekIybkhORW9tQ2wzNzdK?oc=5",
-      "pubDate": "Mon, 30 Mar 2026 01:11:06 GMT",
+      "title": "LG화학, 전자소재 2조원으로 키운다…반도체·전장 소재 확대",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQRFFpNFhuSWhGajExRzZ1WmxZMWNIZGVUYWxIOHItVzBFTkEtb2owVFAxYlpiUjV5Zk9zbUx5ZFo3YWxwcDBYWEhNVEpvWnNON1ZQcDg2amFLblBIWnJETDFpU181ckpsLWN3SE5JdUdTTjZ6czlBZmZQQTZSTlhNaEtBMkhGdw?oc=5",
+      "pubDate": "Mon, 30 Mar 2026 01:43:56 GMT",
       "source": "글로벌이코노믹",
       "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
       },
       "impacts": [
         "삼성전자"
       ]
     },
     {
-      "title": "키움증권 \"삼성전자 상반기 영업이익 100조, 터보퀀트 HBM4에 긍정적\"",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1CbDAzLUplX1RDRHdMdS11dklqZHhsZW1reHZlVUxsRHB2dllFRzM3akVhT0NtTlRxcmJwR056eDdka01fczdKanc4b1NhYVNlMWJBWDJncXZLTGdPdllrMVV1YjRqWGZXRTBCak1DcVZ5Ync?oc=5",
-      "pubDate": "Mon, 30 Mar 2026 01:10:56 GMT",
-      "source": "비즈니스포스트",
+      "title": "농협손보, AI 반도체 혁신기업 리벨리온에 100억 지분투자",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOQ25JTGZNX2VITEhlOXMzWFV0RnU3M1lBWHQ4RkltLUFGVVAxQW96cnVUenFsNV9Ha2JRQ21KZWUwakx6NWRZQ09OQUM2LWlOV1NkclFKSjFUVXR4Z3VEVFpJLURQbmVuLUJ6OHhESXB2VzZLdE11QXc5WFRrc1hPRV9lSFk?oc=5",
+      "pubDate": "Mon, 30 Mar 2026 01:42:32 GMT",
+      "source": "글로벌이코노믹",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "LG화학, AI반도체·차세대 디스플레이 시장 공략…글로벌 파트너십 확대",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1QVU8yU1UwQVBYcG13UVh4Q24tbzN2QzhuZ3J6b0FLWU5xTHJRSkhvWi0tRzAtM0lwUUUtMXF5NWVva3NGd1BuVWJHamdQeVFPX0VMR3Z4bEdvdDRXVDEtVHhMX0ZHanRXX09B?oc=5",
+      "pubDate": "Mon, 30 Mar 2026 01:42:09 GMT",
+      "source": "백세시대",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "LG화학, AI반도체·전장소재 2030년 2조로 키운다",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE94S3VmVkwyS3ZkLUNHbG10WkRNRUhwc3ZnTmVaZnUwSzhWU1B6UFNRUHR6RHhFcG1zQ0V2YmprRDkyY0w2NUlmSk1uZ3haVmRaMURhMWJCeUxXZw?oc=5",
+      "pubDate": "Mon, 30 Mar 2026 01:42:00 GMT",
+      "source": "브릿지경제",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "LG화학, 전자소재 매출 2030년까지 2조원으로 확대…반도체·전장 R&D 조직 신설",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9xYXNYdEFJTFBHMFdPaTNQWDZTdXV4R25NaW9xdEhDUWNYTDB6UEtQQ3FnUnlvaVpiSHNjLUNvVlVGZ3BMcTBZOE9Nb3pSdm5SWTNGMER3ZXNGc0ZKUzhLV2gtelYzbHVzdndJ?oc=5",
+      "pubDate": "Mon, 30 Mar 2026 01:36:55 GMT",
+      "source": "BBS불교방송",
       "category": {
         "label": "🟡 MARKET",
         "color": "#f9ca24"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "TSMC 2나노 파운드리 점유율 '80% 이상' 전망, 삼성전자 AI 반도체 수주 경쟁에 한계",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9Td0llUU9wVHpod3FudFB2QmJxbkNTWktuVUhUTng3bUZ3anlwZ1ZOYnA2b1BBVDV3cWw2aGpPWUlsLWpBMWwtWE5vQlduUnFUYlBsN3Bmb0hja0lhQlVPSERTRlNMSHZmaVBhOTJpV2YwZWM?oc=5",
+      "pubDate": "Mon, 30 Mar 2026 01:35:45 GMT",
+      "source": "비즈니스포스트",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전자 서비스센터, '예약 서비스' 전국 확대",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1IRkYwWmJ6cTFoSmhLMjFmZm1jSnZMdEpaTlFVSTUxYmMtM2pNUzJ4SU8xM09TdUJfekczdWtkVm9Idy1qMG1XNUE4aHc0S3J5ekViSVFtdmN0OEdndTkxcjhiLWp0OVdYWGxBMUZhOFc?oc=5",
+      "pubDate": "Mon, 30 Mar 2026 01:32:32 GMT",
+      "source": "신아일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전기·LG이노텍, 반도체 패키지 기판 가동률↑…캐파 확대 집중",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA2WXltMWdaNFRFM0ZIdURfOXZtSUZ3T2JSaTc2a0VET0FFMkJXM01iMVdVTl9pa0hCZ21oN1prRHZ0LXluQW1TUlhkREM0QnFrcDBLNURJdTNBNU5TU1V6btIBeEFVX3lxTFAxckFPMm9hQ3F6eUhBZ3hhWXFkZUxRRDhNU09aM3p3dnk1WmNzcWxILXlzTURYVVhmMUh1SGhySHIwOWRFaGk4WHJrNWhkQThXd3BnQ3dkcU9mQ05YUEJBMFBQMUNiazN1emkxTXNJUDRvaHZUdzRPYg?oc=5",
+      "pubDate": "Mon, 30 Mar 2026 01:32:14 GMT",
+      "source": "뉴시스",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전자서비스, 전국 169개 센터 '예약 서비스' 전면 확대",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5SN1BQV05DblZrSXVPMlM3WGZwU01oSlRoRUM3VWUwWWJBTmF3N0tyQ1RHcHB2V3FibkFNcG1qWFVxekRxNWZ2czV2ZWtjSlRMTXEzSTNtazAyZUlLTWc4U9IBeEFVX3lxTE5yT0w4QTVGZ3YzbDlObF93NU1UcGxKZHJ6UkNPTkJxdElyeGNyWmExektSeXlFNjNrWlA4Q2ZtUEZHTE53S01vdTROOUkzYnREYmItNmt2Y2ZzcVBmNHJGRXVRMDlQQUlrVmFDUDJHOVVTb3FVc0ZjNA?oc=5",
+      "pubDate": "Mon, 30 Mar 2026 01:30:25 GMT",
+      "source": "뉴시스",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "이준석, 4대강 보 해체 논란…“반도체 산업 흔드는 자해행위”",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9wRTZTOU8zQTlFaFFoVXFjTlVpN1NYQjlUMTVZbU5QdWZJMFlOcXlNZmdDQzVZWnFPeGF6cEJQX3h4Vk8tUmxxSzNHT2prcTFsaWViTHFvVkVXLVBoeFdqcEVhZlVxRURF?oc=5",
+      "pubDate": "Mon, 30 Mar 2026 01:27:10 GMT",
+      "source": "중앙신문",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
       },
       "impacts": [
         "삼성전자"
