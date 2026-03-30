@@ -1,7 +1,73 @@
 {
-  "timestamp": "2026-03-30T22:32:36.659531",
+  "timestamp": "2026-03-31T00:03:08.564973",
   "count": 10,
   "articles": [
+    {
+      "title": "뱅크오브아메리카, 견조한 반도체 설비 투자 전망 및 AI 수요에 WFE 추정치 상향",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9qWkJXTkQ3TGZhZEk5dnlWSkM2Umx2OEx5LTFlczhtSmVXdHlTbmpGT0VpbWthY0hleFlhUFpaZmtjY3lQYnpzdS1Vb1M5UFA2eVhhYWo3WjVjX0ZqZVlUbnVSNEFnd0YxSzFabnhGTGs3WU5t?oc=5",
+      "pubDate": "Mon, 30 Mar 2026 13:57:00 GMT",
+      "source": "Investing.com 한국어",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "NH농협손해보험, AI 반도체 업체 ‘리벨리온’에 손보업계 유일 100억 지분 투자",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA5ZE9vTmh5WElkMmx2c2dnRmd2NmZjVkRTMkswbHpHTGwtSjg5UEktaUNveERkMVNwZUdmeXVDYmdKb3VNak0xN2FrTUQ5c19KRU1pWXpjVjVINDNBQ0JmTXRiQnNOQQ?oc=5",
+      "pubDate": "Mon, 30 Mar 2026 13:54:22 GMT",
+      "source": "이슈투데이",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "박영진 \"♥아내, 비트코인 500만원에 팔아..1억 될줄 몰랐다\" 후회(말자쇼) - 조선비즈",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNTmZBck4yVlRISmM1elFsclFyUEZjdG01TFRHUFNrbDhWaTBtLUt0QmMyZ2djYXVwTUdMb2NRYlI0NkdpT0ctSG1mckRpTzR6THN2OFFLVUxpSkwwMzE4Rm9yaXFuckZodVppWmtxQjVNN2hXQXpFWk1NWnVwSEQyenFwaC1jRzktZGVyZFVfNGZhRW_SAacBQVVfeXFMUDVObFV0RGVGZndqZHFGbGpuelNaY19GdTlKWmJpRmltMWJ6TWtDR0RoYkZXNklWTlJSZHVLb1IxOFVvMjBNeFJpQlQ3ZXkzeHhqQ3FOc1FaQTA2T2FRdGZrMlpoaWJpbmlvREpPa005QmdqYzBvLS1URXdWZldhNHdOR040MEJ6MzRFYmkxaVBXQ1FxTmQ2cVdaMDVZd090RXFRUG5FaHM?oc=5",
+      "pubDate": "Mon, 30 Mar 2026 13:51:00 GMT",
+      "source": "Chosunbiz",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "K반도체 인재 양성 요람 ‘서울반도체고(마이스터고)’ 2027년 3월 개교",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5wV29nNk14dHd4OG1hUnBYR1BLUmkxNHJHTEk2VWNOZHVNTkRwdzhOTURZS1VOVnZrU25maV96WWRMUTdPSGY1WEhsQmI0MlVWRXI4OUFOT0o5UVIyYkRkaFJfZmd1ZV9a?oc=5",
+      "pubDate": "Mon, 30 Mar 2026 13:50:20 GMT",
+      "source": "서울자치신문",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[시황] 비트코인 6만8000달러 일시 회복…김치 프리미엄 -0.14%",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5KT3FlTU9aZ0tBZWwzUW1kSmtJX3MzaHY0c2RaMDNnd3pCLUY1R0NxNXF1cGUzZ0FHRldMRUZZeTdiMXQ4UGhBLUJWRU90ZE9i?oc=5",
+      "pubDate": "Mon, 30 Mar 2026 13:27:14 GMT",
+      "source": "블루밍비트",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC",
+        "환율"
+      ]
+    },
     {
       "title": "비트코인(BTC), 6만7,800달러 회복… 숏포지션 압박과 금과 동조 흐름 강화",
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE10UExqZ0lETzByd3lhRHNSNTgxLVppNEo0czlzUnNoWDQ4UDR6YXA5SWFjOVI2VmtZUUFLZFpQM2JxNXFYRjNTZjZEMmFjN0pZYnNSNHZfUEE1Q1N2UG10dXFuQ0kwbFNl?oc=5",
@@ -26,8 +92,8 @@
         "color": "#4ecdc4"
       },
       "impacts": [
-        "BTC",
-        "원유"
+        "원유",
+        "BTC"
       ]
     },
     {
@@ -44,10 +110,10 @@
       ]
     },
     {
-      "title": "모건스탠리, 비트코인 현물 ETF 상장 승인…규제 절차 마무리 시 거래 개시",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE44TWpjMUF2d0JSQm5mRmdQSDJrY2ZVOFprZFpZT3lYcWRsbGJqcHNlVXktMVY0LWdLdjB0cHlSczR3V1JHcHNfa1ZCQ1gybHM2?oc=5",
-      "pubDate": "Mon, 30 Mar 2026 12:35:21 GMT",
-      "source": "블루밍비트",
+      "title": "우선주 11.5% 배당에 ‘돈가뭄’…스트래티지 1년 만에 비트코인 매입 중단",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1ZNDFWTjdlOWx2bmtsU0x3S21ubGkwdFZ6TWFSUVVlYTlZMERqTF9LaWpDTVVtOXZXUmlNN1Q4TmhoMVVFQ09lRHh6TGRfR3ZkNXpBZUtES0FaYUFKV29XbVp1cmx1VXp4TVk2M2RhYmlWblU?oc=5",
+      "pubDate": "Mon, 30 Mar 2026 12:44:31 GMT",
+      "source": "마켓인",
       "category": {
         "label": "🟣 CRYPTO",
         "color": "#a55eea"
@@ -67,72 +133,6 @@
       },
       "impacts": [
         "BTC"
-      ]
-    },
-    {
-      "title": "AI용 메모리 이어 자동차 등 산업용 반도체까지 ‘품귀 도미노’",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5GQ2xtMHZVQmdMbkVUNTgta3dLSW9uYVB5dmVKZWVLYjktQ2VGYXR5TnlMYnBtRTdORWxMUWVLRXNQSWd4dW1ud3c1RHo4OVlUT3gtcnlpdU1lUdIBX0FVX3lxTFBWa1pkbkZoRGlVWnFfSFRXdFhnNHFpdDAtYnlsa2hGRHA2TUdzdGY2YURwZU1TdExfQ0NPVlBpWERyWGtITjM1ZXFSeXBDYWJZNVVWMWt5X3VkZjQxMmtj?oc=5",
-      "pubDate": "Mon, 30 Mar 2026 12:16:00 GMT",
-      "source": "경향신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "트럼프 \"이란 새 정권과 협상\" 발언에…비트코인 단기 상승세",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFB3TnV1bDFVb0NFRTg2dUZhZVl0eEcyeWVFdmFIbjRLZ05WcGZsNFp5N0l5WVdjMkctQ2w4MlFacFBON1hOYWFsakZraUd1Zi0t?oc=5",
-      "pubDate": "Mon, 30 Mar 2026 12:13:03 GMT",
-      "source": "블루밍비트",
-      "category": {
-        "label": "🟢 POSITIVE",
-        "color": "#4ecdc4"
-      },
-      "impacts": [
-        "BTC",
-        "원유"
-      ]
-    },
-    {
-      "title": "경기도 ‘반도체 올케어 전담조직’ 가동",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBTa0VKeWw5ekFsbzN3dlFKVnRoVTFweGg2amtscWxzdHpUMy1IUGYyZV9jM1RGWkplWHBoMVYxRlozQjZveGdic3FkRE1DalE?oc=5",
-      "pubDate": "Mon, 30 Mar 2026 11:50:53 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "비트코인과 이더리움 반등이 동력을 잃어가고 있다: 크립토 데이북 아메리카스",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPUWw1WDZDTHBWVHNVakV5R3hodGo4dG9mWUFnRkpZR2lqamVnNUJnUzRJRDhFOHdGUWJzRlBwRVFldTBST1piUFA0ZGlzb0pkMmttMkI3MHZaSjVCMzg1elFmbHF6aTJGZHJ5b3VYWWNQaGd3TXdDc1VqZlVxeFQxNHFBOGhPUUVtc1dVTzBwZWlzSzgwejhZUw?oc=5",
-      "pubDate": "Mon, 30 Mar 2026 11:25:45 GMT",
-      "source": "coindesk.com",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "`반도체 덕' 충북 4.4% 전국 최고 성장률",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1xVXhHdUdEenRBNTdYV3FxY3NQY2tWZW4wSnhZSlFXSVF1aTZXd0Z0cjVGWFhOU18yb2ZFWUI0d0pxRTZicjBhT25XMThxX2hVdExSWXhfWlN3RmdKdEpTZmp5bXg2VThX?oc=5",
-      "pubDate": "Mon, 30 Mar 2026 11:07:00 GMT",
-      "source": "충청타임즈",
-      "category": {
-        "label": "🟢 POSITIVE",
-        "color": "#4ecdc4"
-      },
-      "impacts": [
-        "삼성전자"
       ]
     }
   ]
