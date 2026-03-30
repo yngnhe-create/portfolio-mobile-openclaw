@@ -1,7 +1,88 @@
 {
-  "timestamp": "2026-03-30T10:17:04.338212",
+  "timestamp": "2026-03-30T10:26:35.534754",
   "count": 10,
   "articles": [
+    {
+      "title": "LG화학, 반도체·전장 소재 매출 키운다…2030년 2조원 달성 목표",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5lMTRuQ2hJOWtNUm5sUXlDOUEtWnR5WEdFNzRrb0NOUUd0YnZUNUgwRFNVV1FiRGhYT1FsX2Zqd2oxcnNmVlBOWHBrWTlzS1J3V1lnUVJjdGw4Q2dKYXh3NXcxZWE?oc=5",
+      "pubDate": "Mon, 30 Mar 2026 01:18:01 GMT",
+      "source": "디지털데일리",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "환율 효과 덕분에 그나마…한국서 낙폭 덜한 비트코인 [매일코인]",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBycGlLYmtoM2xka003RzBCaXpqeWVVcnVfZHpQejNyR2JIRkg4UU1zWHkwbmQ5Q29vNk0tVjIwcWVNVEFDSm1kc0R0SmJQZVU?oc=5",
+      "pubDate": "Mon, 30 Mar 2026 01:18:00 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC",
+        "환율"
+      ]
+    },
+    {
+      "title": "비트코인 6만6000달러 지지 실패…투자심리 급랭",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9mdDJnMi02cUMySzZjUWFMeXhZbkI1UjBqNnZXWGRVeWM4dlZ1Zld2OUpMRHB2dlpLNThOb2Z2RkdNVkJCcGhubHdPN2tCcHB0d1gtazlkTThheE9hNEZWUHBWcXFhd0IwaE1ZRVM0WnpwTnc?oc=5",
+      "pubDate": "Mon, 30 Mar 2026 01:17:00 GMT",
+      "source": "디지털투데이",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC",
+        "환율"
+      ]
+    },
+    {
+      "title": "'본업 한계' 보험업계, 수익 구조 바꾼다···AI·반도체 투자 속도",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9Id1NvaVR3VFR6S0hpbXNVdk11X0JUUzNuRVBqSzBGOXgyZ0JqQkRfR0JWcnBQRWozNEowMVczT29mNm5mbk03NXNMRVJjRkRoeVhGLWNMa2dodTVLek5JMGw2eWVpUTFBN1E?oc=5",
+      "pubDate": "Mon, 30 Mar 2026 01:16:49 GMT",
+      "source": "서울파이낸스",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "비트코인, 6만 5000달러 선까지 후퇴…\"극단적 과매도 진입\"[코인브리핑]",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5SWnNjSU1hN0dYRk4weUZ2cldmbjRwU3BBSXp1UDVjZlh3U1FaaVFVdlgzVm9tOEkzcFpCUHhBeEZ3cVlDcWlDMnZXc2xRdWlDclBsVC1XWmp0b0lBMWNrR0k4RTBEQQ?oc=5",
+      "pubDate": "Mon, 30 Mar 2026 01:16:29 GMT",
+      "source": "news1.kr",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC",
+        "환율"
+      ]
+    },
+    {
+      "title": "이준석 \"반도체 혈전 속 4대강 보 해체는 자해…용인 말고 새만금 수순\"",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5CUWRsdXdkMUtGQWpOc2ZaaXBLajV5REhtRDFHUHBZdlo0N1F4T1l4RHg5anFyR3NrQk1JMXNySnl0aHhmYWdiWWNzTnQtdmpHSkN1d08tN2NyZw?oc=5",
+      "pubDate": "Mon, 30 Mar 2026 01:14:56 GMT",
+      "source": "news1.kr",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
     {
       "title": "이준석 “4대강 보 해체는 자해…반도체 경쟁력 훼손”",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1hbGotTjBSZk9GUFM3cUlfcmdPbDR3NkRaYnV3c3d5YUJJd29BdVJndDZkNWUwSEE3STF4UjhUd3NrZEhLWUE5akV4UjNGSTB3TExkR2hXal9XZi1zM2ZFN0QxMFFyLTA?oc=5",
@@ -12,6 +93,20 @@
         "color": "#8b9dc3"
       },
       "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "인하대, 현대차 미래기술과제 선정…자율주행 반도체 진단 연구",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBya3hNQW9xZFRiUjlwWGZBMXpwT1hueUxORV9KUVNmTmFEeU9EUUVjbG1oTHY3a01BcXBpV3hYYmxIRXFSTkJqM2JZcFZIdw?oc=5",
+      "pubDate": "Mon, 30 Mar 2026 01:11:13 GMT",
+      "source": "전자신문",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차",
         "삼성전자"
       ]
     },
@@ -38,99 +133,6 @@
         "color": "#f9ca24"
       },
       "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[애널픽] AI 수요에 '전력반도체' 부상…\"티씨케이·테스 주목\"",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE0xZUF4NWxrZnVyNHpONEU4WFl4TWFCdkJoWVBZSHM3UEtzaDBOVVcwYnZEcHNNVlpzRkdtTXpGRlU4VjhLSy10NFVnek9iRXU5Zlh0SFVqLWY?oc=5",
-      "pubDate": "Mon, 30 Mar 2026 01:10:12 GMT",
-      "source": "뷰어스",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "LG화학, 반도체·전장 소재 집중 육성…미래 성장 확보",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1LM3VTdUI2bHZfc0NiVG8wU3lSdEdCX3FFYjZKb013c2M0MG5zVm9sb29VajR0Qnl4MFlMV2puRDk5STMzOG5uMEIwUm4tRTVTSl9XNERB?oc=5",
-      "pubDate": "Mon, 30 Mar 2026 01:09:50 GMT",
-      "source": "DealSite경제TV",
-      "category": {
-        "label": "🟢 POSITIVE",
-        "color": "#4ecdc4"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "현대차그룹, 전 계열사 ‘에너지 절약 총력전’…차량 5부제 확대",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA0V2RWRnFDSXBILWdWLTNVbENrX29vOVU1WDA3NFBnWUZTdWxkTkRWM0M1R1B6NlhBNXdJRHByRXRfclNXRTY5UEFXeUlLNXB5bTBtdmpibkhjdGdBYjliVmE4YUd2dzRWcHc?oc=5",
-      "pubDate": "Mon, 30 Mar 2026 01:06:38 GMT",
-      "source": "모터트렌드",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "LG화학 \"2030년 반도체·전장 소재 매출 2조 달성할 것\"",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1PQlBOX1FPdGZzUklTdDJESTgwbHVKOFBKekhtX0JoMDR2Y244T21lRFRlWHJJUUlMLUtjSjh4VlBXUHROWW1RSXAycXpaeHJUMXdNN3ZTRFowbTk1YXBOTFB0WE0?oc=5",
-      "pubDate": "Mon, 30 Mar 2026 01:05:50 GMT",
-      "source": "m-i.kr",
-      "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "손목아지? 골드만 “비트코인 3개월 뒤 상승장”",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1oWEVtME9SRWNVOFQwakxKYS1YaVMxNUhtRTFod1pqRUdiRS10OVFoODlLUmc5Y00yV1dvZ2taaGRoNGtxaS1xQ01rd0R2UlpB?oc=5",
-      "pubDate": "Mon, 30 Mar 2026 01:02:45 GMT",
-      "source": "문화일보",
-      "category": {
-        "label": "🟢 POSITIVE",
-        "color": "#4ecdc4"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "중동 불확실성 속 '터보퀀트'에도...KB·키움, 삼성전자 목표가 유지",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1BaFY0Z2JvWS1PaWlOX2FselB6Uk44SGRRRXNYNG5xcTVWV2lFTnoweHhoS3RnX2g2Tjhqa1k1a2MxTmFHMFVjVUVaTXhfc3R5b1hCZ25kWjlIUDdQY0J5NWgwTy01N1YyaVE?oc=5",
-      "pubDate": "Mon, 30 Mar 2026 01:00:00 GMT",
-      "source": "금융소비자뉴스",
-      "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
-      },
-      "impacts": [
-        "원유",
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "OCI홀딩스, IFC로부터 1.25억달러 투자 유치…반도체 소재 사업 확대",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE0wYXBjakRudGY1RzdVVE1fUGZEOVdxNnF4emtURFRrLUc3Q01ESWJUSXBFdVRRblVsNFQ1UGFRN09SbTIweXVlbHZ1dFl1QQ?oc=5",
-      "pubDate": "Mon, 30 Mar 2026 00:58:50 GMT",
-      "source": "전자신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "환율",
         "삼성전자"
       ]
     }
