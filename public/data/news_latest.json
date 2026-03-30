@@ -1,10 +1,75 @@
 {
-  "timestamp": "2026-03-30T14:17:04.370432",
+  "timestamp": "2026-03-30T14:30:09.092612",
   "count": 10,
   "articles": [
     {
+      "title": "키움증권 \"삼성전자, 1분기 영업이익 43조 ‘서프라이즈’ 전망\"",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA5S1FPRTFqYTVMNHlCOFViWUhYclJaSU9PanhBdV9GN2E1Q1UxdWJjaXJRbW4zdTU3SWczZEtteXBqWlBUa2d1OGRXMnVkZ0E0QVlreGpLODlnX096dENPRklKekQ?oc=5",
+      "pubDate": "Mon, 30 Mar 2026 05:23:28 GMT",
+      "source": "PRESS9",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전자 “업계 최고 보상 제안에도 노사 협상 결렬”…파업 위기 ‘고조’ - 조선비즈",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQTlBSOVpSd0ZjOU5MRGpNM0VMdkxRN21nV2QwV1B0T0s4QUJBWnozem5fTk1ILVFNZmF4MURWaHhqbUhHZ3NmMDBWWHZ6Y2hlZDhMVWZIUEdYWGFxY2tLNnozUlNWZkNhWGxhZWdkNlpvbzZmb3dQcUd2R2lwRVFkWG530gGWAUFVX3lxTFBMUHp1clRBY1h4eThEaXhmbGlIWW14djdoamNxMEpnV2VRU1ZXRERIaXlmaFpXN3UzdkRSWG5tUU5mZHd3alU5NW5XMFVncXIxNGF0Nk92VGhFUWNyOVVrOGJJQlhCRlNHYmNhY2NxOHNyVUtGTERpcXJQaWhpSFVQUG1PYmM1QzdjUFJVaklUN1M3NEFmdw?oc=5",
+      "pubDate": "Mon, 30 Mar 2026 05:22:00 GMT",
+      "source": "Chosunbiz",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전자, DS 성과급 상한까지 깼지만 결렬…노사 쟁점은 '배분 비율 제도화'",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9xT08zSVZ6b1pxV21CMWctTmhJaXFFUVFnZTZIOTBqOW5LUTFKZUQ2S2tyTjRpbTYtWEk4YnBVNEN2UnloWEJVR0xqYVhfQQ?oc=5",
+      "pubDate": "Mon, 30 Mar 2026 05:18:39 GMT",
+      "source": "전자신문",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "서울 첫 반도체 마이스터고 올해 신입생 모집…3명 이상 다자녀는 같은 일반고에 배정",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5qMDVWVnZsUDFkc3BRdy1uSDhZcjNvdzM2NTM1NU1KWE8xSVJIbDBNVHZZc2Zoa0lGRE04Y0NfY3FadzdjT3R0R3k1RzFtbjF4T2R0OEh3?oc=5",
+      "pubDate": "Mon, 30 Mar 2026 05:14:06 GMT",
+      "source": "중앙일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "AI 반도체, 슈퍼사이클과 과잉의 경계에 진입했나...'익숙한 불안감'",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9EeERqaFNrU3JpVjkzbEY4em1TcWV1U1JINXJMVnFaUVlscE9XYXJBZzh6MUgwMFMxS0REamRMaEpCMlBLNnBwWTlPQVd4X2g3cl9CVld5Q2dzMHlaandRREh6VktpX2ZIcGhXWU5GbUo?oc=5",
+      "pubDate": "Mon, 30 Mar 2026 05:11:30 GMT",
+      "source": "오피니언뉴스",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
       "title": "[FTA 활용 성공 사례] C사-반도체 장비",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQdlVYVmtXMENQeU1sbi1oaTUzVnJCY3EtTXdIci1ZTENUR1ZrNnMyb2dzb2pUOGl5MU5EUTZPM29jbWVqMXU2QkZMT3dMcHlEOURlcUI1eW8zOUMtTjBrZW1UMVNZYV9wa2VzX01OU2JYM0hzMndYTkdxTEZ1UURsLTJfeUo2cTVDcGJHeEVaS1FiWGdHQlp0aXpiZWtZaWxJVVVpSldpcXhRaWc3a2dvQ3cxZUxfWXhqejlYb1dWTHpHNldaU0htMThxOC0wWUlkYnlpLUZR?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQTHgtdlVGN0ZONElxSFpDNE5GWmN2MG8wSUF1Smw0VElWWFozN0E2Y3FSYWs4UEZLMHBtbGc1QVpEbWQ2WVcyamYzQ2VHOWtjTmhTTlBuem5OWk9ZYXFOeHJ0Y0pUazNvd0NuVExfTzZBbTZDNzdTWkhXUkJGYXRmMHFyVV96bHRHTHp2VXppMDBNYUpseWo5OGxJQjJzcE11VWRzeXB1OC1BNktjRWdFb3pZbE1ndTNtSmZrcGQ4OWdDUGltWDN5VWJQWnBvaDRHd04tcmRn?oc=5",
       "pubDate": "Mon, 30 Mar 2026 05:11:10 GMT",
       "source": "한국무역협회-KITA.NET",
       "category": {
@@ -13,6 +78,21 @@
       },
       "impacts": [
         "삼성전자"
+      ]
+    },
+    {
+      "title": "[성공예감] 중동 전쟁도, 반도체 시장도 결국 ‘금리’를 봐야 합니다 - 김학균 전무 (신영증권 리서치센터장)",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9YOWdpREg2OU9ZM2NhbzUwaU1NWWU3WlplZFpoUS1Iano0aTgwTU1NTnNLZ2g3Q2szSXY0V3BCOGdSN0M1dTM4NjlLQ3pHNV9MZ05MM2lqUlp0eVU?oc=5",
+      "pubDate": "Mon, 30 Mar 2026 05:07:00 GMT",
+      "source": "KBS 뉴스",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "채권",
+        "삼성전자",
+        "원유"
       ]
     },
     {
@@ -42,90 +122,10 @@
       ]
     },
     {
-      "title": "한미반도체 곽동신 회장, 30억 자사주 추가 매입…\"장기 성장 자신\"",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9JeGtXZmFmZmw0eGlSREhBOGk2M1c1QWZ0V3dic2xXNkt0bzItM0NFZTk3c3YzdzU2QWxqaUE4LWF6Y0xTMmFTUjlySjAwci02TXZ5eUtNcUlydjR1NzJ5Ti1xZGp6QmxvejJsRTlYZno?oc=5",
-      "pubDate": "Mon, 30 Mar 2026 04:54:16 GMT",
-      "source": "연합인포맥스",
-      "category": {
-        "label": "🟢 POSITIVE",
-        "color": "#4ecdc4"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "비트코인, 6만달러대 박스권…트럼프 호재도 못 넘은 ‘금리 장벽’",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBxWEVlcUxGU3lJUmdNemJqRm1IMG9IY2RhZmdHTmQ0ZUFOUkFibi1lUHV3MGx6ajhtazhCTEMzUDZaSThoUTlZdTlTaTBEX05EeEMzOG9VRjJFT01XREhRNFZha3JjRG96bVA1elZR?oc=5",
-      "pubDate": "Mon, 30 Mar 2026 04:49:17 GMT",
-      "source": "아시아투데이",
-      "category": {
-        "label": "🟢 POSITIVE",
-        "color": "#4ecdc4"
-      },
-      "impacts": [
-        "채권",
-        "환율",
-        "BTC"
-      ]
-    },
-    {
-      "title": "AI 매니저가 보관부터 관리까지 해준다…삼성전자, 인피니트 와인 냉장고 출시",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9nRktoVWpfalNidnBnZXBXVGZKeHprS3hxNzVKQ3B4NmlqZ203VDVWdXNuaE05d2Zld2FHTzFWZkFQV2xOSG5zZWd3UzJwc2V1UzEydHJhRnZNUQ?oc=5",
-      "pubDate": "Mon, 30 Mar 2026 04:48:00 GMT",
-      "source": "CNET Korea",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자, 조건부 특별 포상 제시에도 노조는 “싫다”",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5ucy05ZEt4MThPdlk0RmlLemZ1dzhkcGduUkloQi1rb2wwTlVVNDJneVZBd0N4eGFYU01JSTdCbXFmZWlCYk1KTGN5VWU1SWN4Xy12SEM3M1NMeHcxVFByZWJ3ellzWnVMOXFIeTFvUW9KWThtRU8tYWpEYzA?oc=5",
-      "pubDate": "Mon, 30 Mar 2026 04:45:37 GMT",
-      "source": "글로벌에픽",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "한미반도체 곽동신 회장, 30억 자사주 추가 취득",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9WWDRWczdmMnNvYWVhaXdNOFRGME5UX1EyM0pXVHJWcmFETDBrcXhDemI2RjZEOEd4RWxCaFFKWHpRa1pERjJvRVotTjdGMERyVllmLU9RZktudXp1Qk9VRy05MHdZM1pKMkE?oc=5",
-      "pubDate": "Mon, 30 Mar 2026 04:44:35 GMT",
-      "source": "더스탁(The Stock)",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[AI 스톡킹] 전세계 반도체 주식 흔든 터보퀀트",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9JalphOGlGYmlNZVdrV2V4UUdRX2ZNMkFONkNBYzFNQkRmQTZpNWxsMEd6VVhydHVhX3JvYUplck5GUll5TDU3eDIxN04xM1o2bVM4QTlJcF9LWm5lbXIyTXpQWjZHeXZFNi1z?oc=5",
-      "pubDate": "Mon, 30 Mar 2026 04:40:46 GMT",
-      "source": "newstheai.com",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자, ‘예약 서비스’ 확대",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5sNVY3QW05cEtNQXhKVXl2QzFoTGtaWnRqQ25VWG5aSWt0S3RmMDZIZG1iODVaXzNYVmFITHZXQm5nMkRtcC1kQ1ZocWszVFJUbVhJVWowMEZwa2NWOFF5TkV3VjlMSExxOFlTMQ?oc=5",
-      "pubDate": "Mon, 30 Mar 2026 04:36:34 GMT",
-      "source": "newswell.co.kr",
+      "title": "[Tech & Now] 삼성전자, '인피니트 AI 와인 냉장고' 출시 등",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBKdVAxSmtPQTg0UExIRzloeXBnY0JRb2E4bm02SkNOQlNyWDhwNFRZRnZ2TktfLU5JN0pEbnNzZU5WRzZ0SVBIdUNhZmUtMWhiaTRUc2ViblpSM2NPR1NuMDExUGpCWEEz?oc=5",
+      "pubDate": "Mon, 30 Mar 2026 05:01:25 GMT",
+      "source": "ebn.co.kr",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
