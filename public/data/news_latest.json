@@ -1,18 +1,32 @@
 {
-  "timestamp": "2026-03-31T00:03:08.564973",
+  "timestamp": "2026-03-31T00:33:36.166802",
   "count": 10,
   "articles": [
     {
-      "title": "뱅크오브아메리카, 견조한 반도체 설비 투자 전망 및 AI 수요에 WFE 추정치 상향",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9qWkJXTkQ3TGZhZEk5dnlWSkM2Umx2OEx5LTFlczhtSmVXdHlTbmpGT0VpbWthY0hleFlhUFpaZmtjY3lQYnpzdS1Vb1M5UFA2eVhhYWo3WjVjX0ZqZVlUbnVSNEFnd0YxSzFabnhGTGs3WU5t?oc=5",
-      "pubDate": "Mon, 30 Mar 2026 13:57:00 GMT",
-      "source": "Investing.com 한국어",
+      "title": "경기도 '반도체 올케어 전담조직' 운영",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5yeWh1SkRNN0F3RXZFN0U1X19xZEV5TTAzTkduelhKSXBaWXFRNkZweWZmNG1GQmdZX3dtLTk0aktUMC1vbHppbC1reHplYXhleThDZ1EyRjRKQTBtRmdwMVlkRUJjekxEeFE?oc=5",
+      "pubDate": "Mon, 30 Mar 2026 15:13:31 GMT",
+      "source": "서울파이낸스",
       "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
       },
       "impacts": [
         "삼성전자"
+      ]
+    },
+    {
+      "title": "“하루에 2억 달러 이상 증발” 비트코인 ETF, 지난주 최대 ‘자금 엑소더스’ 발생",
+      "link": "https://news.google.com/rss/articles/CBMi1AJBVV95cUxOWjRJZUhkN0FwMEhMdjllSFlhdHdlWFNHd1oyUmY2TERseWp4Y3I1SW9nNXN6TXp6SnQ4dERqOEhrczh5dkpIclBjSWFnRHZ1ckF6NHJzSTdmWWJhandQM2MwRGVVZndiT2xERm5XRXNQTFh6ampIbzZvMlBsMEpuaThfOEVFVDVWZy13RElYWDVPQXNLMk1mS2FxaDV1d3lYbVIzX3lXempxdU1mVWVvaUUyUnhwVzhkQmdHT1A0UmdIUkZTLXZSaTlBTU9MWERSVUQtZExndE5qaE1RRWJOQ0VsR19CY3RNajFjLWdEQXVlMldTeVBnVDA4UHNheml2bEg5NmJ2QjU5ME15OVMwUnNlWHMtNkE1MEhwbm1KWG5MeDZkdnNZdlNkbVMzZ0ViWURaeGlDS19MRTJzUzRKYjQ1b0dTQlNGdmJuSk5RWWFvcktX?oc=5",
+      "pubDate": "Mon, 30 Mar 2026 15:10:03 GMT",
+      "source": "Benzinga",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "환율",
+        "BTC"
       ]
     },
     {
@@ -26,19 +40,6 @@
       },
       "impacts": [
         "삼성전자"
-      ]
-    },
-    {
-      "title": "박영진 \"♥아내, 비트코인 500만원에 팔아..1억 될줄 몰랐다\" 후회(말자쇼) - 조선비즈",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNTmZBck4yVlRISmM1elFsclFyUEZjdG01TFRHUFNrbDhWaTBtLUt0QmMyZ2djYXVwTUdMb2NRYlI0NkdpT0ctSG1mckRpTzR6THN2OFFLVUxpSkwwMzE4Rm9yaXFuckZodVppWmtxQjVNN2hXQXpFWk1NWnVwSEQyenFwaC1jRzktZGVyZFVfNGZhRW_SAacBQVVfeXFMUDVObFV0RGVGZndqZHFGbGpuelNaY19GdTlKWmJpRmltMWJ6TWtDR0RoYkZXNklWTlJSZHVLb1IxOFVvMjBNeFJpQlQ3ZXkzeHhqQ3FOc1FaQTA2T2FRdGZrMlpoaWJpbmlvREpPa005QmdqYzBvLS1URXdWZldhNHdOR040MEJ6MzRFYmkxaVBXQ1FxTmQ2cVdaMDVZd090RXFRUG5FaHM?oc=5",
-      "pubDate": "Mon, 30 Mar 2026 13:51:00 GMT",
-      "source": "Chosunbiz",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
       ]
     },
     {
@@ -64,8 +65,8 @@
         "color": "#a55eea"
       },
       "impacts": [
-        "BTC",
-        "환율"
+        "환율",
+        "BTC"
       ]
     },
     {
@@ -78,8 +79,8 @@
         "color": "#a55eea"
       },
       "impacts": [
-        "BTC",
-        "환율"
+        "환율",
+        "BTC"
       ]
     },
     {
@@ -92,8 +93,8 @@
         "color": "#4ecdc4"
       },
       "impacts": [
-        "원유",
-        "BTC"
+        "BTC",
+        "원유"
       ]
     },
     {
