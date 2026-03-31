@@ -1,7 +1,99 @@
 {
-  "timestamp": "2026-03-31T11:38:40.758635",
+  "timestamp": "2026-03-31T12:09:10.129348",
   "count": 10,
   "articles": [
+    {
+      "title": "[OCI홀딩스 성장전략] ③반도체·첨단소재 중심 조직개편 '승부수'",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1tanF6RWx1TUVkV0xzR2RZS2ZTQUVWd1lDdUFsQ09EMExvUzYxd1Y1eU15MU1uQ20zYnhZRzJMVUhQMHZJZDktVHVjQVVhTk1DazhfcmI3SzAydw?oc=5",
+      "pubDate": "Tue, 31 Mar 2026 03:00:43 GMT",
+      "source": "fetv.co.kr",
+      "category": {
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "어플라이드 디지털, 3월에만 23% 급락···과도한 부채와 비트코인 조정이 발목",
+      "link": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxOdTR1WkZnRFlTYTZ0dEZYOFA0bmxqMDF1RURwOTdpRVUzOXU4U1hISXlpWUl1X0lwX1ItenN6eE5KdnFnVGQ1TXRIRkkwZHpyTThvcE1GWWxMX2t3UHlEc3luelQ4MWxDUGZZUDdsWDlrR0tYV296U19xTDAtU1hWeU93MEUweXQyaFF5NDQwbDhtQWtnQW94LW9DVmRfcGNqNnNBdXRHbmRxaXlRMzV3T2FTMlY4X000WExmUDJEc1NiMkxzMG1ENW8zdmtISEhjZmhzXzhYbmVGQlFFaGVJYWN2M05oR0xKV1ZFRVRpZmh1Q1BGeWRMTzktaFh0M2U2UWtVS3IzdEY2cHRTS2pSUFFOQkZycC1sa1RmV3p3SE5NRmMtTzFyVjVkdDRsYTFtUzEySjNSN3NWbmw4ajBTWEd2dw?oc=5",
+      "pubDate": "Tue, 31 Mar 2026 02:55:43 GMT",
+      "source": "Benzinga",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "미래세대 망칠 반도체산단 선거 악용[포럼]",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE81WDN2c05CUVhoUThmT1Y1SjdJUHljSnNVMndtRUxvelEtQUUxSTVYSWxfS1VHa2thV3R2WVJTR0Q5cktkREI2NWFCRVlDZURJ?oc=5",
+      "pubDate": "Tue, 31 Mar 2026 02:51:50 GMT",
+      "source": "문화일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "‘터보퀀트’ 쇼크에 중동 전운까지… 삼성전자·SK하이닉스 ‘하락’",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOYkZYOTZGcWJuaVFrZUVQWUhWRC02aWl4NjcwQnZZd1RtV3hVV0VlTEtBVWpLVWdfR2xiYmliRUhmc2FHQWhXc2xhSGxiTWlSeThiSHFrVjJ0bTVURmVsU2lYRVViNkRCVXhCRHZiTVRoUlNtYXVST0FFZ1BnVWFRVF9wRUc5Tkd1?oc=5",
+      "pubDate": "Tue, 31 Mar 2026 02:42:24 GMT",
+      "source": "글로벌이코노믹",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자",
+        "원유"
+      ]
+    },
+    {
+      "title": "[경인뷰] 삼성전자 ‘인피니트 AI 와인 냉장고’ 출시",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE90bUFrZU5qSC1IOFNBYVhwNG9BemJ4XzNYS2l3TEx6dFlxWXg0Q0M1QWtCeFNIU1JnOGdtZFlUYnJSYUZ4aDh2VUJxaDZicDlaTGNSQVMxQWU2V1JFZlFEVHJR?oc=5",
+      "pubDate": "Tue, 31 Mar 2026 02:38:09 GMT",
+      "source": "경인뷰",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[경인뷰] LG화학, 반도체·전장 소재 매출 2조로 더블업",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBFMFdMYlNqaHR3al8xUUYzTlBWTW1sSUJpdE9iak1ueFNfQ3Awc2luak4yS0RyeFpfS0ExeXRjQ2lqdHpwU3R3MFBYb3F0cWtrOTNXTm5SaHF1MnNNWHkzNUVn?oc=5",
+      "pubDate": "Tue, 31 Mar 2026 02:36:22 GMT",
+      "source": "경인뷰",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "비트코인 횡보장 지속…원인 '커버드 콜' 지목됐다",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5GUk53a0xpd3Vac1JLSE5SNzY0cHlWd1FjdE8wSmZnRGZOMzQ4SVlQb0V3ZWVicWEyclE2SHBrdVVRaTBwdEZtTTNKMm40bkJrS2c0Y003UlJLZl9ZNVRpM1RHUG11elp6Znc3WWRtYnRHeWc?oc=5",
+      "pubDate": "Tue, 31 Mar 2026 02:36:00 GMT",
+      "source": "디지털투데이",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
     {
       "title": "메모리 이어 아날로그칩까지…반도체 가격 줄인상에 中 조용히 웃는 이유",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9SdnN6U1Z1a1NWbzJKbXRURHkwZXJiM0pTUGE2QjRTdWhXVnFlckRjUUlTREFEbU9KSllXM01ER01jOFl2ZWRLbFRRc3VtS3AyWkc3OUZTd05idmswbGh4ellZTEpZcmFZN1k4Vy1wVnplLW8?oc=5",
@@ -17,9 +109,9 @@
     },
     {
       "title": "비트코인 투입 연산량, 6년 만에 분기 하락…약세장·채굴자 이탈 동반 악재",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1lMnVyZmpRNEU3cVdFVXRtTG9uMHFQT0t3b0tkbm1meWF0N0tBTTFJMGFSUnJZU25rQ25VREVGVjJmN042SDVfRVRneEdndkcyQlE?oc=5",
-      "pubDate": "Tue, 31 Mar 2026 02:27:14 GMT",
-      "source": "매일경제 마켓",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBTSVlKSkZ3ZndwSURlR1BxR0JrMEhibkc2TERpbDUzd3hoaWNQcDlCajVQSVU3d0xpNTRyWFBOZDdnVGZKOXY1cEpTb0x3YlE?oc=5",
+      "pubDate": "Tue, 31 Mar 2026 02:30:00 GMT",
+      "source": "v.daum.net",
       "category": {
         "label": "🟡 MARKET",
         "color": "#f9ca24"
@@ -39,97 +131,6 @@
       },
       "impacts": [
         "삼성전자"
-      ]
-    },
-    {
-      "title": "반도체 덮친 터보퀀트 쇼크 … 삼성전자·SK하이닉스 HBM 역할 커진다",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1kQzJ2Q1ZPVFBIbHhtdjVHcWV4aVNpN1d6WHdxWGQ5MnlRM0tHWDBkUmhuYWpRMjNHTjVMOG5VcG11ZkltSGZ2REF3M0g3MkctS2VkTmpfS2VYMkNEbFplSHpRLXRZMldKRkVZdzc4cVdCOVJyYUl0OVZPYw?oc=5",
-      "pubDate": "Tue, 31 Mar 2026 02:23:01 GMT",
-      "source": "뉴데일리 경제",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자, 14조 자사주 4월2일 소각…충성 고객에 배당 늘린다",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1zVHQzMWZ6bTBqY3M3Z2gyaEJxV0swdWNSeUxIaEJZYzJKbnc5cjJabTBFUUE1OXNqZ2diWTRNX3I5dlliTUFYbjBlSFo5aTdyMzdqemxwLTloSFFZWVdOb05kbzF6UFR3a0pONm5n?oc=5",
-      "pubDate": "Tue, 31 Mar 2026 02:20:48 GMT",
-      "source": "mstoday.co.kr",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "'250만대 돌파' 현대차, 브라질서 '최고의 협력업체' 9곳 선정…공급망 혁신 가속",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9YcUV5V21uTldvMk82LWF0OURGbjZMS0tDdjN3Qmk0blo2aUtKdDhNeG42N3kyWTNZYlp6OGhVa1JYX3pKc2E0Z2dLRU9DeVgzeElMQkt4dC1pR0xQVDVGSTB3?oc=5",
-      "pubDate": "Tue, 31 Mar 2026 02:16:23 GMT",
-      "source": "더구루",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "삼성전자, 5조3455억 규모 자사주 소각 결정",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBTd0RPa0lsR1hQUkIwaGpGWGVSbjdPdER0NkdlVzc2TTF2d3RhT0RURno4WnluenRrQ1NfRWhvVy1XU2RvX2Q2T3NtMS05ZVlrMExmQk53QWMzcWdURUtj?oc=5",
-      "pubDate": "Tue, 31 Mar 2026 02:08:02 GMT",
-      "source": "fetv.co.kr",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "美 상원, 비트코인 채굴 인증제 추진…'마인드 인 아메리카' 법안 발의",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8wSTl0Y0R0RkJSUEpaNk9JSTRwMUdlbk1YbDlwYzAyMkF3MmNMeTZZSS1GN18tLWZNbHRxMjFaOXpQVzd6UncyeEdsa2wwU19Cbi1ER0g3ejgyeTBmZ2xabVhWZW80ZW1TSThMbVNEVkNHMTg?oc=5",
-      "pubDate": "Tue, 31 Mar 2026 02:07:00 GMT",
-      "source": "디지털투데이",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "반도체 38년 만의 최대 증가⋯2월 산업지표 일제히 반등",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE82ODNGUjNqSk1wZUJnT3RLb1B3WWdjYnBkRERyYnRsTFFDWGlDN0NyWnZpUzI5bTVCb0ZwWmlQQklkNnhISXNlYnZkRjNaUVNubnVNT0R6dFI5SU8ydUE?oc=5",
-      "pubDate": "Tue, 31 Mar 2026 02:06:01 GMT",
-      "source": "포커스온경제",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "현대차, 日서 온라인 보상 판매 프로그램 개시…'트레이드 인' 본격 운영",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1OM19GelpJSURWVzV2Y0V0VnBvSDZBeEY0M3hFRzJVM1FSdmREcWNkTUdrREpvelE5dENlQ1U0N1EwQ1pGWUVuMm1GYUotT2pBc0RzOWFjQWpsZ3JQVHJEQ0ZB?oc=5",
-      "pubDate": "Tue, 31 Mar 2026 02:05:43 GMT",
-      "source": "더구루",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
       ]
     }
   ]
