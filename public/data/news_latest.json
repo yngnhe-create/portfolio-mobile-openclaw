@@ -1,12 +1,39 @@
 {
-  "timestamp": "2026-04-01T06:16:53.717074",
+  "timestamp": "2026-04-01T08:17:04.336999",
   "count": 10,
   "articles": [
     {
-      "title": "인천시, 반도체분야 기업설명회...15개 특성화고 학생 300명 참석",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBXdUxnbHdGRklWM2lUbE5rbTZKdF9MRlVaZkxmTFo2aUktMTJXWUZZaS16Ni1RRjNOWDcxbjhSZ21qLTF3SkpnbjJfbWZGVmFxTDJOTzBqZ2VCdktRZXh5WkxtMnVMajFKNXc?oc=5",
-      "pubDate": "Tue, 31 Mar 2026 21:12:00 GMT",
-      "source": "미디어인천신문",
+      "title": "현대차·기아 공장 가동률 2년새 10%p 뚝…관세·전기차 캐즘 등 영향",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFByYVFXdW1Hcmw5OGp4QTAwV3o0RGl2enlFTFNUck10LVV0M2ZOZ2RUemJMaFVPWE9CaDI0WlFrdE16QVBtSFF3X1JaNGt4cG5o?oc=5",
+      "pubDate": "Tue, 31 Mar 2026 23:08:41 GMT",
+      "source": "문화일보",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "현대차",
+        "테슬라"
+      ]
+    },
+    {
+      "title": "\"메모리 수요 폭증\"…삼성전자, 올 1분기 사상 최대 영업이익 예고",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE50VEpJLVRnNjI2U2Fzc2R5TTBuLXhjUF9QRzNGRFUzcXM2MVAtSzdYdEdza2tnUzB5aERfYXVra18zeEFLMXR0eDhvRzZxWXcxRUloRDdLQWJKOVhiaFZGZWVrUnN6dUE?oc=5",
+      "pubDate": "Tue, 31 Mar 2026 23:00:02 GMT",
+      "source": "청년일보",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전자, ‘갤럭시 북6’ 국내 출시",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQT2YtQmpwanE2V1JSN2w3bEpZdEtjWFNMSDcyMFo1YkRydnA2eUg1OHpfZUJ0LTdxRm1LbTJsOGtQaWJYWHdVZElPakFDUDFUWUM1Skw5eUczeldXVXJjcmRuUU45VTlTanl5ZEJVWUtTbFVtZEQxTzVwdG1HSzhMQS1wbnI4Q1lnd05EaUJ1a3V2aTV2TzVEWDMzV3dRdDZVNXRqRmpJUjhvNlRJOEFLWGxTYlhIdmZGc29Jenp1enBJTkh6bi1rYXJYeGZEal9KOVNfeHhrbks?oc=5",
+      "pubDate": "Tue, 31 Mar 2026 23:00:00 GMT",
+      "source": "samsung.com",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -16,76 +43,36 @@
       ]
     },
     {
-      "title": "현대차·기아, 유럽서 中 전기차 공세에 고전… 아이오닉3·EV2로 반격 - 조선비즈",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9fRzA3WEFDUzhiaXNZR1NJbUFTSHlnWlRJVzdOcHEyTXBlOF9OV2dTazNMT2VYS2lEcWJObHhLUXMxc1pwOWhwaWVTeEdtWGlkdHNsd2VUQkhCWExwQ3Rid2U1cF9TUDh6VVFlb0x5Y25haG5VT0RXM0xMZDl1OEXSAZMBQVVfeXFMT2lpTDR0TUJEd2o5YlFCZHpUckR5dWs4T2N2bjVkLU1RMHg4WVZSUVhxejhkUlc4b1hlMDY3MjBER3JKWEplbnZnYU1xSVhSWTY5bmRGWWpzV09wb2dnTXB2R0otYVdGalEzNlk1WHRkTXBhMG9tMkh2YmlSM2Q0OGdKV3Y1eGE1MFdUQkdENVhEMDhB?oc=5",
-      "pubDate": "Tue, 31 Mar 2026 21:00:35 GMT",
-      "source": "biz.chosun.com",
+      "title": "삼성전자, 英 콘월 지역 주거단지에 고효율 히트펌프 솔루션 대량 공급",
+      "link": "https://news.google.com/rss/articles/CBMixgJBVV95cUxNS01FRW8zX19TQ0tLZFU0djdFdlB2WUZmU0hGSDdFNW9UaTZpaGM5aFZDYjFqVEFkUHN3Y2ZhNGhHVXNpak1aamNPbTRfWVUyMGN6SE9iNjE5YlA0VXUzc3BHc2V5OV9seS0tMG5JRlFxbW95QjNRd2ZiR0w1bjdaY1BOLUJSR1BHMWhDamRraGxjQ2N0enFyZzJveFhvTjFqSzAyMVBGZG5HQXpyZTBXdHo5R3pMbF9UT0FicEhVOW9aemZpZWk0YWhINmFJWk14OEFyZlZUbHVHeXI0bi1XdTBpVmRVbGUyRlY4MUJBa05yOVhVTndGcXo3YVkwVmIzNEd0UFRuZGNHaVEtUEttM25TZ0J6bFBmalE4MUJDZ01MMDBDM2p4S1lHY3d6RGNzSDZ4QkltSXVYRzZzaFN0ZE1TZ01EUQ?oc=5",
+      "pubDate": "Tue, 31 Mar 2026 23:00:00 GMT",
+      "source": "samsung.com",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
-        "테슬라",
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "\"똑똑한 소비자들은 다 안다, '진정성'이 브랜드의 진짜 경쟁력\"… 김주미 현대차 상무",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1pVFFiZnV2UC1WaHVoeFowZlVYOHBxUXp3WnQ1a0w2RjkydWJQdzBiX1BKTHJQS2FmNktVemNYVC1tcjBjVzZlVjVRS3FxX3AtV2JJMUJsLWFKZF9McFlndG5EMEthUFZjQWJLQWt3?oc=5",
+      "pubDate": "Tue, 31 Mar 2026 23:00:00 GMT",
+      "source": "브랜드브리프",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
         "현대차"
       ]
     },
     {
-      "title": "엔진 부족에 라인 공회전…현대차·기아 생산차질 불가피",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNYm5Nbl9NcHJjc044ek1LRV9ES3dHUFFYVlNmcWNiVnd1OGdFUWo1WXJmWnlwdnlCLXlRUTRUSHZEZEpPbklzenpFbHFjYWdiZTczTVpmc0ZaMFYtQnF4X1luSS1laXI5VTc1WUtQSHJqVEdsVHYwVE9VTFlHeHp5bA?oc=5",
-      "pubDate": "Tue, 31 Mar 2026 21:00:04 GMT",
-      "source": "edaily.co.kr",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "(반도체 하청노동자의 눈물①)풍비박산 한가족…동생은 백혈병, 누나는 위암",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9sY2RySDVzOFVRRVltQldMNVZMT3lLbmVvLUtBOUpSbjNSSjF1VUpnbUxGbC1hSzNXSUZzbzhkMEhhOWFQa1ppcFhycjZnMTY5WVktelV6cGZqMGRsYmZHaw?oc=5",
-      "pubDate": "Tue, 31 Mar 2026 21:00:00 GMT",
-      "source": "newstomato.com",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "(반도체 하청노동자의 눈물①)유해성 모른 채 가장 위험한 업무",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1zMVllZ01aaEFQdW5YRXNxVi1sM3REZlY4SkFSbEZSTGtQZEtOSi0tMzBXQVdGLVhlbUFKMmZxY05iZklDSTBGNTNZVTBSQ1pHTmNUNnJyNHBVSVRyUG8tRQ?oc=5",
-      "pubDate": "Tue, 31 Mar 2026 21:00:00 GMT",
-      "source": "newstomato.com",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "‘AI반도체 기판’ 잘 나가는데… ‘나프타 리스크’ 변수",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBQWTd0T3dlSTBSRlpUc3lpc3pKMHRWSFo1YWUweE5VN1FvcEdRZ0ozNzZ0UTh5b25oejN4bnJUY0dEMFlTblVURzRSTUl3dHM0NWtRWUI0bHY5OFBDWVppczF6Z0pRWmZuRVpCcmlYREvSAXRBVV95cUxQa1JoVzBDRnNPZ24zMWQ0dGJBLWhzdXMybWw2aDF5MmNzWFoxdjRzcEVrU1M1WXVHLW8yMG5iODkzdmFxdzBRVG44XzB0RmZmWWVOMTYxWFhndC1qc0N1OEltWHJReWN5b1N4c3gwa25IRGQ3Qg?oc=5",
-      "pubDate": "Tue, 31 Mar 2026 21:00:00 GMT",
-      "source": "IT조선",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "비트코인 시세…이더리움·리플·솔라나 가격",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBXMExwTmI1R2F4NmI0Ti1hTll3WXIxYjFEMDlsb1VOdlQ4LWVGOEFla0hPcS1JYnBTclFJeEZWUHhWWDdvMUg2X25uVXdJNWM?oc=5",
-      "pubDate": "Tue, 31 Mar 2026 20:57:25 GMT",
-      "source": "v.daum.net",
+      "title": "“코인 지갑 비번 까먹어도 걱정마”…머스크도 양자컴퓨터 논란 참전",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBJNEk0VkNsQy0zVDhWS1BtWS15R2RXSHoyR29mRnBfSU1iUUVDdHZpSHIyYWFBQzNwaGtFa29DMVVlWi14MDZ3LVVRSXdDU0lsRDUxRnVmRm5EQUdJRHpsWjhid2RNVXh1amJ5ci14OHdlMDg?oc=5",
+      "pubDate": "Tue, 31 Mar 2026 22:49:02 GMT",
+      "source": "마켓인",
       "category": {
         "label": "🟣 CRYPTO",
         "color": "#a55eea"
@@ -95,43 +82,57 @@
       ]
     },
     {
-      "title": "\"비트코인(BTC), S&P500 대비 6개월 부진…반등 전조 가능성\"",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBSN3BIQXM5LUtxaWNxdXlZRl9ZamJNVGxuTmpFZXJpLWVldzNfQWtuSV8zck4wVUlCZ2tPTmdvT1VXcjFjeGYyU0g5RFpuSFFz?oc=5",
-      "pubDate": "Tue, 31 Mar 2026 20:52:48 GMT",
-      "source": "블루밍비트",
+      "title": "[07:42 가상자산] 비트코인, 이란 전쟁 종료 기대감 유입에 상승",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE91OU8tMlFqeDZUUG5ZMnBucV91MjZRcHJrY0tGbWt2R3h2Y2wtY2pPUGQ2LW9FZ1c0cGdseXlRemNjVUhxeXQ1N2dzbDBXVGN0WXFHTmZXNlZRM0g1RjBxRFpnS0taYll1eThHZWtsZ2U?oc=5",
+      "pubDate": "Tue, 31 Mar 2026 22:47:39 GMT",
+      "source": "신아일보",
       "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
       },
       "impacts": [
-        "BTC"
+        "BTC",
+        "원유"
       ]
     },
     {
-      "title": "수출 기업 좋다지만 반도체 자동차도 위험 [1500원·100달러 쇼크]",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5JNnBZT2FMVlFkazFyYk1fTFpNOXFLVjVwLWR6NHBIQTVIV01UNWJTb0dQa292Mlk5cWN3MWt5X0JqekpLRGhYbWExTTQ4MGc?oc=5",
-      "pubDate": "Tue, 31 Mar 2026 20:52:02 GMT",
-      "source": "v.daum.net",
+      "title": "하나증권 “현대차, 자율주행 로드맵 본격화…엔비디아 협업으로 기술 격차 축소”",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE03bHpPNU1RRlJZX1pZMEx3S1BtSmhuaHVTeGRuWG53Y0ZzWklrTURzLWJRbTUySU1WaWhmYWQxd2lHbmpRRlN5ZXZyTi13MkJpY2VZQw?oc=5",
+      "pubDate": "Tue, 31 Mar 2026 22:46:00 GMT",
+      "source": "이투데이",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
-        "삼성전자",
-        "환율"
+        "현대차",
+        "NVIDIA"
       ]
     },
     {
-      "title": "수출 기업 좋다지만 반도체 자동차도 위험",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBHU3VYYk5nbDRzZVk3SGdqOExfaHRLU1NoSmJsMFptRnM1UXJpay1qZ0RLX2JGTml4a05CVmRsZ1hHOWhIN2JyYkhzRFF4bi1MdVMxaTljdVFyNVN3a2JjeVRWMmFXMTFwbnc?oc=5",
-      "pubDate": "Tue, 31 Mar 2026 20:52:00 GMT",
-      "source": "뉴스웨이",
+      "title": "AI 반도체 전쟁, 승부처는 '2나노 공정'이 아니었다…TSMC·삼성 엇갈린 패키징 전략",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOelN0QWRnY1JabmU1dmtsdE04ZU95UWhfel8zS3NmZVhYN2tfQVdnVlFKTTNkX1plN0Q4UDk3RThXOE5fcWE4cWZrWW1JYkNiUS1UNE5fWS1yZW9lNG9kdXVCa2NnLWpRbWo0RTR1YXM2T2xhNnVSZ2pfcGVuYmFPaGVZaU5tWjdP?oc=5",
+      "pubDate": "Tue, 31 Mar 2026 22:42:42 GMT",
+      "source": "글로벌이코노믹",
       "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
       },
       "impacts": [
         "삼성전자"
+      ]
+    },
+    {
+      "title": "[로봇특구 만들자] 로보틱스 '드림팀' 꾸리는 현대차그룹",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1Da2ZQSzZpNGNUUWI0STZQWUNzU0NfU2lQdEMyaUdoQmdNc0dBNHdUd1Y2M1B1eThFVjRWZjM4TldwNVJHemxiSXp4ZEljNFN2RHZjU3RIblM?oc=5",
+      "pubDate": "Tue, 31 Mar 2026 22:30:17 GMT",
+      "source": "dealsite.co.kr",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
       ]
     }
   ]
