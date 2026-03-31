@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-01T04:15:56.070571",
+  "timestamp": "2026-04-01T04:46:25.465507",
   "count": 10,
   "articles": [
     {
@@ -82,19 +82,6 @@
       ]
     },
     {
-      "title": "\"美 비트코인(BTC) 현물 ETF, 순유출 전환…기관 수요 부진 신호\"",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1OZVNlcHZtQXVkWVk4X2JQQjY4NV9JTkNoLWREVU9WWXZQaFJpSVlaMXlMT2NvMGwxRFo5TWkxam9WdnV3Qmh3OGFVWTJuOEE2?oc=5",
-      "pubDate": "Tue, 31 Mar 2026 16:01:39 GMT",
-      "source": "블루밍비트",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
       "title": "장기계약 호재 속 내우외환 K반도체 흔들리나",
       "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB3RDRNbnhVd1phc2VMLWQwMEV1N1lZVHZZdUhWQlNnUnk3c2xqVThMRjlMM3dTQlVkS3VHeGVkeVdPVjl6bjJ1aWNqdmI1ZlF2OWk5c2dRVjk5LVljMmpRSXNtQUpKYkxqbzBjYUtuNUluWkFCZDNGamVSWQ?oc=5",
       "pubDate": "Tue, 31 Mar 2026 15:51:04 GMT",
@@ -111,7 +98,7 @@
       "title": "전북도-현대차, 새만금 9조 투자 이행 점검…지원체계 강화",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1wU3d0cVoxRGE1SnlpLXdqWU93M3NnQmN2RE56eE5YaVJfZmdaV0JPTS0tMElYb3dxemRFRzVKRjRTcFBlcjJUNnhwX1B0b3hqQlRNZXFkakR4aGRNRGxaYV9aTnU?oc=5",
       "pubDate": "Tue, 31 Mar 2026 15:20:21 GMT",
-      "source": "서울경제TV",
+      "source": "sentv.co.kr",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -132,6 +119,19 @@
       "impacts": [
         "환율",
         "BTC"
+      ]
+    },
+    {
+      "title": "위약금 물어도 한화 밥은 안 먹어(?)…한미반도체, 삼성밥 먹는다",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBsamdOSFhzZ3A0YWN4STFld0FpYVpGRWp6Q1pwMlo5VDF5TktnMzdNMEJ6NXFkM3V6bE9pd1NYenlXSFU4NXZ5Q1BjMDNHekd3QU81b1hWck1oOGx4T2RWaDEtV3J2WC1oc19uTQ?oc=5",
+      "pubDate": "Tue, 31 Mar 2026 15:07:00 GMT",
+      "source": "한경매거진&북",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
       ]
     }
   ]
