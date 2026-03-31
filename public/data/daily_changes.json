@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-03-31T18:12:21.257008",
-  "count": 40,
+  "timestamp": "2026-03-31T21:12:49.987938",
+  "count": 39,
   "stocks": {
     "삼성전자": {
       "name": "삼성전자",
@@ -256,22 +256,15 @@
     },
     "BTC/KRW": {
       "name": "BTC/KRW",
-      "price": 102021225,
-      "pct": -0.42,
+      "price": 101495601,
+      "pct": -1.38,
       "chg": 0,
       "src": "coingecko"
     },
     "ETH/KRW": {
       "name": "ETH/KRW",
-      "price": 3116514,
-      "pct": -0.15,
-      "chg": 0,
-      "src": "coingecko"
-    },
-    "SOL/KRW": {
-      "name": "SOL/KRW",
-      "price": 125803,
-      "pct": -1.66,
+      "price": 3107785,
+      "pct": -1.21,
       "chg": 0,
       "src": "coingecko"
     },
