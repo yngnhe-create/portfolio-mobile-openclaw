@@ -1,26 +1,79 @@
 {
-  "timestamp": "2026-03-31T12:39:37.743662",
+  "timestamp": "2026-03-31T13:10:06.974282",
   "count": 10,
   "articles": [
     {
-      "title": "[2026 추경] 반도체·증시호조에 초과세수 25조…국채발행 없는 세입경정",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9IVVZXeGR2Yk5kaVpMUkotbmNaaWFMZ3dZVEJDZWR5dmFwUklPTTBoak5sc3I2MzdyOXZNNC1EOE92RjJuVnVEajZBS01QemhhM2VzMFhheEptUFHSAWBBVV95cUxQU1FuSmNZRjVVQWVRdm5iQVlrQnFaZ2tGcGlHOE85akVwcF9FajV4ZGpXSFdvRDlmYmk0ZUJNbzhSSHhEbzNhTlJjOVVSdFZoXzV6bGt3Q3JVV1lXZW9rdUI?oc=5",
-      "pubDate": "Tue, 31 Mar 2026 03:34:34 GMT",
-      "source": "연합뉴스",
+      "title": "코리아넷뉴스 - 반도체 생산 28% 급증···2월 산업생산 2.5% 증가",
+      "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOVXowU3BqSzh1RHZXYk5NTUJFUVZBVEZWZDE4Qk5IM081NWtTRUVPT3hQR2I3RXNwS3VBNm9mM19sQ0I0Y2EwTndBYy12NFBORDdwdWltYUtsMThTOTZ3NzliOWQzR1dhQVN5SEZKSXFIUzZSQ0FNbHlqOHpYR1JMSmh1d1ZPcDhuNHRWUmw2SnUxVV92NEg1dFVrSDZra1hYdlJyTkJDNHFVMXFiWDdVTjYwVTRaTUx3VkI2VXJDSWQwaTJfUnpFQTZCNlhxM1lLd3BqMzdYTzl2UGZqazg0ZEhLQ0U3eXVNS0R0TXRNT0ozbEs5Tmc?oc=5",
+      "pubDate": "Tue, 31 Mar 2026 04:05:18 GMT",
+      "source": "문화체육관광부 한국문화원",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
-        "삼성전자",
-        "채권"
+        "삼성전자"
       ]
     },
     {
-      "title": "삼성전자, AI 가전에 업그레이드된 ‘빅스비’ 적용",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0xZWlSYzNwakNJQ29xanRrUmFHWnZHM2xqaTNIczlKZWpsbk40V2M4UWNhM0E0bUhPVER3aHQtZHFPTkFGaVNNczRUUHVTbDBpVHFKMVBNV0Jwb1RwOVlrbjhR?oc=5",
-      "pubDate": "Tue, 31 Mar 2026 03:19:10 GMT",
-      "source": "경기신문",
+      "title": "삼성전자, 퍼플렉시티 결합 '빅스비' AI 가전에 적용",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5PSGFTM25BZmgwNVlXTlRucEJWWUZDRkx5RW16NlFILW5tdXluNzlvWGN0SGlvRTRCZWN3VjQ1YnNDS2VtZHhqTGl5dF9GMF9DNGI4c05ER1VIUQ?oc=5",
+      "pubDate": "Tue, 31 Mar 2026 04:03:00 GMT",
+      "source": "CNET Korea",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[TV조선] 이정환 교수, AI 메모리 기술과 반도체 수요 영향에 관해 코멘트",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5pVVp0eFdjSmZOZkxLOHg5WUpuZW0yN2JXak00dXMtQzZFWnpZTlJJZzdtbEx1bzRLSU1zcm15MW5ua0FjSEMzaGJsSWhYTEpUTktMcXNwcnhzUjI2M0UxYXIyZGppNFRxWWc?oc=5",
+      "pubDate": "Tue, 31 Mar 2026 04:01:00 GMT",
+      "source": "뉴스H",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "반도체, 증시 날개에 올해 세수 25조 더 걷힌다..국채 발행 없는 추경, IMF 이후 7번째",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPY19aNWI3OWRVTVNYd0ozSjZxaU9pbmY5WkNGLXBBY1hMT3VaRXRIeml3ekRJc0NVbGRycm5FTHNjdGk4NENxMUFHS2pwQmo4dmVnVDg5aWh3b3MwNFpwQXl3SFZoY3FDV2FmU2UtczRRNWZqYWlHbkp2cVZwQTFNaElwX0V6aEs4ZGVSVmhR0gGiAUFVX3lxTE1xeFZmRGI2ZVJ0TkthUjREbFVQZW1TVzd0ZGg5WWRhUjZlcFdSU2pSTEJQU0I1Tm1pWjVCakdhajdWZXQwTWlSWGNNNnhRSFNPVG94WlFuOGRIdi1IV1FtV2tTNmxtQmJ2OE4wOGVCVjVab2gycXhyajlTdm1JcUpZSnNIdzF0UFg2WjlqcWxSLWdPS3NvRHgtVDI3Rml0MF9DQQ?oc=5",
+      "pubDate": "Tue, 31 Mar 2026 03:40:00 GMT",
+      "source": "조선일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "채권",
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "\"엔비디아·AMD협업 삼성반도체 비상\"...평택 전월세·매매 들썩인다",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5TbjhWWm5YaWZ0cWhzQ2ZBTlFvaUxXQTQtRm1zZlZPWWdKamN2NXFNQm5oaUJSclJqWnhCZHpmdDBTLVg4U3BpN3Jra18tVnl3Y2hOWXVKU0did9IBXkFVX3lxTE42NGNqcGFXbVIxZGNYTFcxbGlESXNvczVtczFPQTc1c0pGbldHM0szWWFMcy10S0xjMVprb2I4N09kMTMzZF9pWHJtWFpkMTEtYUZfUENrZGN6Vlh0TlE?oc=5",
+      "pubDate": "Tue, 31 Mar 2026 03:38:14 GMT",
+      "source": "파이낸셜뉴스",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "NVIDIA",
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[천안 24시] 천안시, 삼성전자 협력사 대상 ‘K-반도체 거점’ 세일즈",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8xdjM4TENrYWIxWFBndHNXSlFtcTQ3am5XcEhlV2hMWnFmQ1RieTY5LWVYcFMxeGg0X1V6eHJ3TzhTeHlPdjh0S1RnUjlJTTQ?oc=5",
+      "pubDate": "Tue, 31 Mar 2026 03:36:53 GMT",
+      "source": "v.daum.net",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -79,59 +132,6 @@
       },
       "impacts": [
         "삼성전자"
-      ]
-    },
-    {
-      "title": "‘터보퀀트’ 쇼크에 중동 전운까지… 삼성전자·SK하이닉스 ‘하락’",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOYkZYOTZGcWJuaVFrZUVQWUhWRC02aWl4NjcwQnZZd1RtV3hVV0VlTEtBVWpLVWdfR2xiYmliRUhmc2FHQWhXc2xhSGxiTWlSeThiSHFrVjJ0bTVURmVsU2lYRVViNkRCVXhCRHZiTVRoUlNtYXVST0FFZ1BnVWFRVF9wRUc5Tkd1?oc=5",
-      "pubDate": "Tue, 31 Mar 2026 02:42:24 GMT",
-      "source": "글로벌이코노믹",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "원유",
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[경인뷰] 삼성전자 ‘인피니트 AI 와인 냉장고’ 출시",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE90bUFrZU5qSC1IOFNBYVhwNG9BemJ4XzNYS2l3TEx6dFlxWXg0Q0M1QWtCeFNIU1JnOGdtZFlUYnJSYUZ4aDh2VUJxaDZicDlaTGNSQVMxQWU2V1JFZlFEVHJR?oc=5",
-      "pubDate": "Tue, 31 Mar 2026 02:38:09 GMT",
-      "source": "경인뷰",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[경인뷰] LG화학, 반도체·전장 소재 매출 2조로 더블업",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBFMFdMYlNqaHR3al8xUUYzTlBWTW1sSUJpdE9iak1ueFNfQ3Awc2luak4yS0RyeFpfS0ExeXRjQ2lqdHpwU3R3MFBYb3F0cWtrOTNXTm5SaHF1MnNNWHkzNUVn?oc=5",
-      "pubDate": "Tue, 31 Mar 2026 02:36:22 GMT",
-      "source": "경인뷰",
-      "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "비트코인 횡보장 지속…원인 '커버드 콜' 지목됐다",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5GUk53a0xpd3Vac1JLSE5SNzY0cHlWd1FjdE8wSmZnRGZOMzQ4SVlQb0V3ZWVicWEyclE2SHBrdVVRaTBwdEZtTTNKMm40bkJrS2c0Y003UlJLZl9ZNVRpM1RHUG11elp6Znc3WWRtYnRHeWc?oc=5",
-      "pubDate": "Tue, 31 Mar 2026 02:36:00 GMT",
-      "source": "디지털투데이",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
       ]
     }
   ]
