@@ -1,10 +1,34 @@
 {
-  "timestamp": "2026-03-31T14:11:00.387747",
+  "timestamp": "2026-03-31T14:17:04.406704",
   "count": 10,
   "articles": [
     {
+      "title": "현대차, 안전 논란 잠재우고 피지컬AI ‘가속’",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8wMmVFemtIdTlyelY3czR6UFdPMTVrRjNWTVNCNDN0d2NZZHdGV2Y2VzRrR3JjelRwSDUyTW1iMDFPbzVRazRXRGtwUDlDMzV0Ti1YaE9CRjF1aDBPVFp0Vw?oc=5",
+      "pubDate": "Tue, 31 Mar 2026 05:10:26 GMT",
+      "source": "뉴스토마토",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "리벨리온, 국민성장펀드 1호 선정...6400억원 확보",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE4tMkluVmpTVG5kQWlvc0tCY1VnQjhmMTFkdDl2N2NTeXFoTGhncEEtSWY1ZFpWd3lrenBiWXB3SnZZeE84R1pjWjlERm1taXZadlpacHNwQ3UxUDBqUkI0d1cwaFpQQQ?oc=5",
+      "pubDate": "Tue, 31 Mar 2026 05:09:10 GMT",
+      "source": "디일렉",
+      "category": {
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
+      },
+      "impacts": []
+    },
+    {
       "title": "카타르 헬륨 70% 의존 韓 반도체, 공급망 비상...삼성·SK하이닉스 6개월 시한부",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9rNU9FQTJEZFdsWDBsblc3bTdwekt2OEdMTkViLWhhSEtuNVh2QTFJWEF4S1JKTFpRQnpZbU84MGpRbHVzcTh6YlJVY0xjTFpmSFJoZ0FhQWJHbmlpTlk5Q09zaUk3Nzg?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5oR19vWVpHZjV6ei1mTTM5Z1RMVXJRaWJMY0tBeEx5b1J3NHpEa3hUZXNtTktLd2VTMFlYenhMa2x3ejVCZXRNYnhZNjFIODM4NlE4MFNLUTNnVjJHcGpKZ29yRHZ4S0lL?oc=5",
       "pubDate": "Tue, 31 Mar 2026 05:00:00 GMT",
       "source": "테크월드뉴스",
       "category": {
@@ -78,10 +102,10 @@
         "color": "#f9ca24"
       },
       "impacts": [
+        "현대차",
         "원유",
-        "환율",
         "테슬라",
-        "현대차"
+        "환율"
       ]
     },
     {
@@ -108,33 +132,6 @@
       },
       "impacts": [
         "삼성전자"
-      ]
-    },
-    {
-      "title": "[TV조선] 이정환 교수, AI 메모리 기술과 반도체 수요 영향에 관해 코멘트",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5pVVp0eFdjSmZOZkxLOHg5WUpuZW0yN2JXak00dXMtQzZFWnpZTlJJZzdtbEx1bzRLSU1zcm15MW5ua0FjSEMzaGJsSWhYTEpUTktMcXNwcnhzUjI2M0UxYXIyZGppNFRxWWc?oc=5",
-      "pubDate": "Tue, 31 Mar 2026 04:01:00 GMT",
-      "source": "뉴스H",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "美 비트코인 현물 ETF, 6959만달러 순유입…약 1067억원 규모",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5lTHprb01yWHhxWHNNd1A5MWpwUWhxRE9kcWVzdzhVNUozMjhucno1bmF6VWtGX19pVTY3RWFzQ0xxMHVfcW9QcFd5N2haejlN?oc=5",
-      "pubDate": "Tue, 31 Mar 2026 04:00:35 GMT",
-      "source": "블루밍비트",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "환율",
-        "BTC"
       ]
     }
   ]
