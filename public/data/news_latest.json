@@ -1,7 +1,20 @@
 {
-  "timestamp": "2026-04-01T02:14:51.331975",
+  "timestamp": "2026-04-01T02:45:27.410325",
   "count": 10,
   "articles": [
+    {
+      "title": "프랭클린템플턴 \"비트코인(BTC), 연내 신고가 전망…중간선거 변수\"",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9TSkxkYkdjZktCelUzNE1MaXlySnozazdwMGIzak1WZmNPb29rNjJEUklEMEdsZ1FLM3F0dTVrNXBhWFdlNW5ULS1JclZFV0ZG?oc=5",
+      "pubDate": "Tue, 31 Mar 2026 17:13:23 GMT",
+      "source": "블루밍비트",
+      "category": {
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
     {
       "title": "비트코인(BTC) 수수료, 2011년 이후 최저…온체인 활동 둔화",
       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9SNnBVTllrOTktYUt3dmR1NWJzTFdqNHRMUks4T1JHYnRoczVTVWcwTzRuZDlPcUo0WUQ2bVZzTW5tMHBqVG4wd2ZyNVgtTm9f?oc=5",
@@ -90,8 +103,8 @@
         "color": "#a55eea"
       },
       "impacts": [
-        "환율",
-        "BTC"
+        "BTC",
+        "환율"
       ]
     },
     {
@@ -105,19 +118,6 @@
       },
       "impacts": [
         "삼성전자"
-      ]
-    },
-    {
-      "title": "비트팜스, AI 전환 속 보유 비트코인(BTC) 전량 매각 추진",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE4wejN0WEZMUFFTTTQzY1pVZU9WajdqelhPZDE0Uk5vVWpZSnFJcXlkRGYxeXN1TTJjZE1wUElaSVRBRWUxM3JXaTMwNFNnVEJ4?oc=5",
-      "pubDate": "Tue, 31 Mar 2026 15:06:51 GMT",
-      "source": "블루밍비트",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
       ]
     },
     {
