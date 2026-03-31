@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-31T13:10:06.974282",
+  "timestamp": "2026-03-31T13:40:35.176690",
   "count": 10,
   "articles": [
     {
@@ -39,6 +39,20 @@
       },
       "impacts": [
         "삼성전자"
+      ]
+    },
+    {
+      "title": "美 비트코인 현물 ETF, 6959만달러 순유입…약 1067억원 규모",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5lTHprb01yWHhxWHNNd1A5MWpwUWhxRE9kcWVzdzhVNUozMjhucno1bmF6VWtGX19pVTY3RWFzQ0xxMHVfcW9QcFd5N2haejlN?oc=5",
+      "pubDate": "Tue, 31 Mar 2026 04:00:35 GMT",
+      "source": "블루밍비트",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC",
+        "환율"
       ]
     },
     {
@@ -119,19 +133,6 @@
       },
       "impacts": [
         "BTC"
-      ]
-    },
-    {
-      "title": "미래세대 망칠 반도체산단 선거 악용[포럼]",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE81WDN2c05CUVhoUThmT1Y1SjdJUHljSnNVMndtRUxvelEtQUUxSTVYSWxfS1VHa2thV3R2WVJTR0Q5cktkREI2NWFCRVlDZURJ?oc=5",
-      "pubDate": "Tue, 31 Mar 2026 02:51:50 GMT",
-      "source": "문화일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
       ]
     }
   ]
