@@ -1,7 +1,35 @@
 {
-  "timestamp": "2026-04-02T00:55:06.792737",
+  "timestamp": "2026-04-02T02:25:37.718309",
   "count": 10,
   "articles": [
+    {
+      "title": "비트코인(BTC), 6만9000달러 일시 회복",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBGR0hyQWhQMUVnajNZdk5oOVdsRXpDeTJjeXFsUWlhMnd1QmVLWF9HMTM1QnloUkZXWWZ2d09CcU1MdWtLQ1BDekt2OEtEV3FX?oc=5",
+      "pubDate": "Wed, 01 Apr 2026 17:05:55 GMT",
+      "source": "블루밍비트",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC",
+        "환율"
+      ]
+    },
+    {
+      "title": "엔비디아, 美 AI반도체 설계업체에 3조원 투자",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE83Q1poTU95Qks5YmxOaU1nNHluYmVzeU5Xb2E2NnR3NmMyMFRsalNzMmZqSy1JLXZiWTF4YUJkZmhxM3podWVUQlVNSkpnWWRuS2Eyb2RKU3FzajNiVVBobk82a296enQyYkhfRm5aT0g3VTR2UHfSAWZBVV95cUxPbk8wdDZoREVUMTNLV0RFQWNsREFNTTlyOWk4ekZUSkgzTmNDYWlpOC1zeUpSUEN5YXhWRnA5alU4cjVldTdmUlkxWVAtR2ZuMUtWcWkzRmpLb05fcnQ0b0VnZjRXeXc?oc=5",
+      "pubDate": "Wed, 01 Apr 2026 15:30:00 GMT",
+      "source": "동아일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자",
+        "NVIDIA"
+      ]
+    },
     {
       "title": "삼성전자 ‘갤럭시 북6’ 출시… AI PC 공략 강화",
       "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE0wbGxmMlY4dlBYMHVDUWNvSVByc3RlbnNYc0w0a09BV2g0YUF6YTFCbEdWRlZnT3dsLVY0N0hyVVl0MlIzUHhFYzZQeVlGZ3djcFJIQWhjakxoQXJEWGo0RDhGa25NUnF4bUxWcllCT0FLNmV2YVN0bEh4cw?oc=5",
@@ -29,6 +57,19 @@
       ]
     },
     {
+      "title": "인천시교육청, 직업계고 학생 대상 반도체 기업설명회 개최",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBwclVMMmc5aFlzTnZWMUZiS0lVUUo1VHU2OW80a0prR1FMa1pRMWtjUjV2emx0eFN6Ql9yd1dqMENtTXJ0eF9xeDRPSHJ6ZC1jS3o0NzBXX3dVUTh5NlgtbE5Ydml3bzN5OUE?oc=5",
+      "pubDate": "Wed, 01 Apr 2026 14:57:50 GMT",
+      "source": "경기도민일보 미디어",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
       "title": "[경제]이란전쟁도 못 막은 수출 신기록...반도체 151% 급증",
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9jZ0p2bFE2TWFaN2FLdHR1SDYxemk0VnkyNGpYdHlObExwR1dUUGZhbFFHVU5tTDVQTk5QQUdqalEzNE9sTU9mbVk5VzhaSjBobF9hcmZyLWc4d25CSlpGUHhZamR1V00wV0IyRF9xSQ?oc=5",
       "pubDate": "Wed, 01 Apr 2026 14:23:00 GMT",
@@ -38,8 +79,8 @@
         "color": "#ff4757"
       },
       "impacts": [
-        "원유",
-        "삼성전자"
+        "삼성전자",
+        "원유"
       ]
     },
     {
@@ -92,45 +133,6 @@
       },
       "impacts": [
         "BTC"
-      ]
-    },
-    {
-      "title": "與 경기지사 2차 토론…'공약·반도체·기본소득' 격돌",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9YQnV1Sk9ySnFQbzUtOXhVdTBOWFRJeVNHdTZCVXpZaFZrX1NXVHIxRkY0Y3FBV1dOMl9Ubk1YZU9DTXc2VFRzQzJKdGVDUQ?oc=5",
-      "pubDate": "Wed, 01 Apr 2026 13:13:52 GMT",
-      "source": "전자신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "양자컴 우려 커지자…비트코인 개발자들, 보안 업글 추진",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9fTmRPY3pIbTgtZ3hDT1BDQlBMRjFXUlhoZTBRU0xyWXBhUjUzZF81SDA2SVBBTGdpRUFscEo4QlIyV2dhSTZxd1VscmtNQU1BS1lrTkxJR1VlalhHTDRqVWtfbU5PZTZROHQtc3V6ZTRUUXM?oc=5",
-      "pubDate": "Wed, 01 Apr 2026 13:08:50 GMT",
-      "source": "디지털투데이",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "[반도체·전자제조공정로봇 컨퍼런스⑥] ’전기전자 로봇자동화, 왜 어렵고 어뗗게 성공할까?‘",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5nenc3cnkxQ0k2ZWxZWmJfWkNBZDBpa1VlcHV1OUhwNnpUcjFtZVl2a1NRSDMweFhFRTNQRGhKN2d0YXZrOXVuS3JfclUtbktIMTB6RkZ2M1BWeGExMGRXTFZOZnFhRjlkSmRYWA?oc=5",
-      "pubDate": "Wed, 01 Apr 2026 12:49:42 GMT",
-      "source": "로봇신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
       ]
     }
   ]
