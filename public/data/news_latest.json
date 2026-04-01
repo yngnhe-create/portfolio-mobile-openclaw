@@ -1,21 +1,7 @@
 {
-  "timestamp": "2026-04-01T12:17:04.239389",
+  "timestamp": "2026-04-01T12:20:08.642029",
   "count": 10,
   "articles": [
-    {
-      "title": "美 비트코인 현물 ETF, 1억1731만달러 순유입…기관 자금 유입세 전환",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9VZjhYQThUUzFLRDRZVUhuTWo4VUotNmQ4aV9LODhheVY3c3FrQkNvV21JUThqSVhxNDRERGtETjVDUTFFRk1COXdzTHY4TzlV?oc=5",
-      "pubDate": "Wed, 01 Apr 2026 03:08:27 GMT",
-      "source": "블루밍비트",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "환율",
-        "BTC"
-      ]
-    },
     {
       "title": "인천광역시교육청, 반도체 분야 기업설명회, 신설학교 3개교 설계공모 당선작 보고회 개최",
       "link": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE1EUmdUZ2hYdEJIcHctTk9TVGlIMmlVaUZpZndyNExiaXg0WWJQQXNCQW5HN1FhSTNJWC1pRW9hYw?oc=5",
@@ -79,8 +65,8 @@
         "color": "#ff4757"
       },
       "impacts": [
-        "원유",
-        "삼성전자"
+        "삼성전자",
+        "원유"
       ]
     },
     {
@@ -108,8 +94,8 @@
       },
       "impacts": [
         "환율",
-        "원유",
-        "삼성전자"
+        "삼성전자",
+        "원유"
       ]
     },
     {
@@ -122,8 +108,8 @@
         "color": "#ff4757"
       },
       "impacts": [
-        "원유",
-        "삼성전자"
+        "삼성전자",
+        "원유"
       ]
     },
     {
@@ -134,6 +120,19 @@
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전자, 고용량 폴더블폰 10만원 가격인상…결국 원가부담 소비자에 떠넘겨",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9SWnhQYUc2RzRRRUJ1TncxNGRTMDItekR2YVN4OEhyTlcyYUQwdEwxM3E0Qk5ZUjlld3kzbW5BMkxhR19sNE5CYXBCbEY0UGhGLWo4VVJJY3FBeG5sNENGSmlfZUROVHYzNlhrYl93?oc=5",
+      "pubDate": "Wed, 01 Apr 2026 02:35:59 GMT",
+      "source": "mstoday.co.kr",
+      "category": {
+        "label": "🔵 MACRO",
+        "color": "#0984e3"
       },
       "impacts": [
         "삼성전자"
