@@ -1,229 +1,177 @@
 {
-  "date": "2026-03-23",
+  "date": "2026-04-02",
   "top_picks": [
     {
       "type": "Top",
-      "company": "메가스터디교육",
-      "opinion": "Buy",
-      "title": "국내 교육기업 대장",
-      "broker": "LS증권 정홍식",
-      "target": "60,000"
+      "company": "LG이노텍",
+      "opinion": "BUY",
+      "title": "사야 할 이유가 더욱 명확해졌다",
+      "broker": "현대차증권 김종배",
+      "target": "390,000"
     },
     {
       "type": "Hot",
-      "company": "비에이치",
-      "opinion": "Buy",
-      "title": "밸류에이션의 재평가 시작 : ①애플 폴더블폰 ②피지컬 AI",
-      "broker": "대신증권 박강호,서지원",
-      "target": "35,000"
+      "company": "LX인터내셔널",
+      "opinion": "BUY",
+      "title": "석탄 가격 강세와 물류 운임 상승 수혜",
+      "broker": "하나증권 유재선,성무규",
+      "target": "66,000"
     },
     {
       "type": "Best",
-      "company": "티엘비",
-      "opinion": "티엘비, 공장투어 후기 (추가 증설 결정)",
-      "title": "SK증권 박형우",
-      "broker": "목표주가\t\t의견없음",
-      "target": "60,000"
+      "company": "LG이노텍",
+      "opinion": "매수",
+      "title": "1Q26 Preiview: 비수기를 압도하는 실적",
+      "broker": "SK증권 박형우",
+      "target": "385,000"
     }
   ],
   "portfolio_reports": [
     {
-      "company": "DL이앤씨",
+      "company": "두산테스나",
       "broker": "",
-      "title": "나는 상한가를 처음 보았다",
+      "title": "다른 것을 다르게 볼 수 있어야 한다",
       "opinion": "N/A",
       "target": "-",
       "current_price": 0,
       "upside": "-",
-      "summary": "나는 상한가를 처음 보았다"
+      "summary": "다른 것을 다르게 볼 수 있어야 한다"
     },
     {
-      "company": "건설",
+      "company": "두산에너빌리티",
       "broker": "",
-      "title": "퍼지는 온기 (주가 코멘트)",
+      "title": "시대가 필요로 하는 기업",
       "opinion": "N/A",
       "target": "-",
       "current_price": 0,
       "upside": "-",
-      "summary": "퍼지는 온기 (주가 코멘트)"
+      "summary": "시대가 필요로 하는 기업"
     }
   ],
   "company_reports": [
     {
-      "company": "하이브",
-      "title": "성장의 물결 위로, SWIM",
+      "company": "유니테스트",
+      "title": "쨍하고 돌아오는 해뜰 날",
       "opinion": "N/A",
       "target": "-",
       "broker": "",
       "is_sector": false
     },
     {
-      "company": "DL이앤씨",
-      "title": "나는 상한가를 처음 보았다",
+      "company": "SFA반도체",
+      "title": "기다림 끝, 이제부터 시작",
       "opinion": "N/A",
       "target": "-",
       "broker": "",
       "is_sector": false
     },
     {
-      "company": "삼양식품",
-      "title": "간담회 후기: 수요보다 공급이 변수, 성장 방향성 유효",
+      "company": "넥스틴",
+      "title": "다가오는 대륙의 기운",
+      "opinion": "N/A",
+      "target": "-",
+      "broker": "",
+      "is_sector": false
+    },
+    {
+      "company": "하나마이크론",
+      "title": "하방 막고 상방 열어",
+      "opinion": "N/A",
+      "target": "-",
+      "broker": "",
+      "is_sector": false
+    },
+    {
+      "company": "이오테크닉스",
+      "title": "준비된 자가 잡는 기회",
+      "opinion": "N/A",
+      "target": "-",
+      "broker": "",
+      "is_sector": false
+    },
+    {
+      "company": "두산테스나",
+      "title": "다른 것을 다르게 볼 수 있어야 한다",
+      "opinion": "N/A",
+      "target": "-",
+      "broker": "",
+      "is_sector": false
+    },
+    {
+      "company": "반도체와반도체장비",
+      "title": "후공정 전성시대",
+      "opinion": "N/A",
+      "target": "-",
+      "broker": "",
+      "is_sector": false
+    },
+    {
+      "company": "산일전기",
+      "title": "좋은 대안",
+      "opinion": "N/A",
+      "target": "-",
+      "broker": "",
+      "is_sector": false
+    },
+    {
+      "company": "두산에너빌리티",
+      "title": "시대가 필요로 하는 기업",
+      "opinion": "N/A",
+      "target": "-",
+      "broker": "",
+      "is_sector": false
+    },
+    {
+      "company": "대한전선",
+      "title": "체질 개선 기대감이 반영된 주가",
+      "opinion": "N/A",
+      "target": "-",
+      "broker": "",
+      "is_sector": false
+    },
+    {
+      "company": "효성중공업",
+      "title": "가장 쉬운 선택지",
+      "opinion": "N/A",
+      "target": "-",
+      "broker": "",
+      "is_sector": false
+    },
+    {
+      "company": "LS",
+      "title": "알짜배기 자회사 덕 좀 보자",
+      "opinion": "N/A",
+      "target": "-",
+      "broker": "",
+      "is_sector": false
+    },
+    {
+      "company": "LS ELECTRIC",
+      "title": "새로운 시대의 주인공",
+      "opinion": "N/A",
+      "target": "-",
+      "broker": "",
+      "is_sector": false
+    },
+    {
+      "company": "HD현대일렉트릭",
+      "title": "여전한 대장주의 품격",
+      "opinion": "N/A",
+      "target": "-",
+      "broker": "",
+      "is_sector": false
+    },
+    {
+      "company": "한전기술",
+      "title": "여전히 반영할 기대감이 많은 상태",
       "opinion": "N/A",
       "target": "-",
       "broker": "",
       "is_sector": false
     }
   ],
-  "sector_reports": [
-    {
-      "company": "기계",
-      "title": "공개된 중국 로봇 대장 유니트리의 어마어마한 숫자들",
-      "opinion": "N/A",
-      "target": "-",
-      "broker": "",
-      "is_sector": true
-    },
-    {
-      "company": "화장품",
-      "title": "K-컬쳐: New Era, 글로벌 메인스트림으로",
-      "opinion": "N/A",
-      "target": "-",
-      "broker": "",
-      "is_sector": true
-    },
-    {
-      "company": "제약",
-      "title": "Weekly Bio Insight",
-      "opinion": "N/A",
-      "target": "-",
-      "broker": "",
-      "is_sector": true
-    },
-    {
-      "company": "양방향미디어와서비스",
-      "title": "인터넷/게임 Weekly",
-      "opinion": "N/A",
-      "target": "-",
-      "broker": "",
-      "is_sector": true
-    },
-    {
-      "company": "전기제품",
-      "title": "기판 산업 Update: 티엘비 공장 투어 후기",
-      "opinion": "N/A",
-      "target": "-",
-      "broker": "",
-      "is_sector": true
-    },
-    {
-      "company": "양방향미디어와서비스",
-      "title": "IBKS Daily [인터넷/게임]",
-      "opinion": "N/A",
-      "target": "-",
-      "broker": "",
-      "is_sector": true
-    },
-    {
-      "company": "은행",
-      "title": "메리츠 Financial Daily",
-      "opinion": "N/A",
-      "target": "-",
-      "broker": "",
-      "is_sector": true
-    },
-    {
-      "company": "IT서비스",
-      "title": "Meritz Overnight Tech",
-      "opinion": "N/A",
-      "target": "-",
-      "broker": "",
-      "is_sector": true
-    },
-    {
-      "company": "화학",
-      "title": "여수 화학산업 구조조정 발표",
-      "opinion": "N/A",
-      "target": "-",
-      "broker": "",
-      "is_sector": true
-    },
-    {
-      "company": "일간 계량분석",
-      "title": "Data Talk #10: 국내 시장 복귀 계좌(RIA) 도입",
-      "opinion": "N/A",
-      "target": "-",
-      "broker": "",
-      "is_sector": true
-    },
-    {
-      "company": "판매업체",
-      "title": "소비재/플랫폼 Weekly: 올리브영, 숫자로 증명한 독주",
-      "opinion": "N/A",
-      "target": "-",
-      "broker": "",
-      "is_sector": true
-    },
-    {
-      "company": "건설",
-      "title": "퍼지는 온기 (주가 코멘트)",
-      "opinion": "N/A",
-      "target": "-",
-      "broker": "",
-      "is_sector": true
-    }
-  ],
-  "naver_reports": [
-    {
-      "company": "필옵틱스",
-      "title": "[NDR 후기] 천천히, 꾸준히",
-      "opinion": "없음",
-      "target": "",
-      "broker": "iM증권",
-      "current_price": 0,
-      "change_pct": 0.0,
-      "upside": "",
-      "key_points": [
-        "동사 TGV 장비의 최대 고객사가 1조원의 유상증자를 결정함에 따라 설비 투자에 대한 관심이 확대됐다. 이번 NDR에서 투자자들은 최대 고객사로부터의 잠재적인 수주 규모와 유리기판 상용화 시점에 대해 질문했으며, 이에 대한 동사의 입장은 다음과 같았다.",
-        "① 최대 고객사향 수주 타임라인: 조지아 라인향 TGV 장비 수주는 2Q26 전후로 결정될 전망이고, 최대 6대의 수주가 예상되며, 출하 시점은 2H26으로 추정된다. 동사는 고객사와의 기존 협력 관계에 근거하여 벤더 교체 가능성은 낮으며, 동사가 선정될 가능성이 매우 높을 것으로 강조했다.",
-        "② 상용화 시점: 소재 공급망에 따르면 최대 고객사의 유리기판 램프업 시점은 ‘28년으로 추정되며, 동사 역시 비슷한 의견을 제시했다. 이 경우 기술 개발 속도는 미국 반도체 업체가 빠를 수 있으나, 실제 양산 속도는 동사 최대 고객사가 앞설 가능성이 높은 것으로 볼 수 있다.",
-        "한편, 올해 TGV 샘플 고객사 4곳이 추가될 예정이다. 한 곳은 그룹 차원에서 유리기판 양산을 준비하고 있는 글로벌 반도체 기업, 두 곳은 글로벌 유리 원장 업체다. 이외로 유리 가공 업체, 반도체 소재 업체, 일본 패키지기판 업체 등 공급망 전반으로 고객 저변이 확대되고 있다. 특히, 올해를 기점으로 글로벌 3대 유리 원장 업체를 모두 대응한다는 점이 중장기 레퍼런스 확보 차원에서 긍정적이다."
-      ],
-      "is_mine": false
-    },
-    {
-      "company": "현대오토에버",
-      "title": "Corp.Day 후기: 로봇/SDV가 수익 모델의 구조..",
-      "opinion": "Buy",
-      "target": "510,000",
-      "broker": "유진투자증권",
-      "current_price": 0,
-      "change_pct": 0.0,
-      "upside": "",
-      "key_points": [
-        "\" 1Q26 실적은 안정적인 성장세를 유지할 전망. 지난 해 대미 관세 영향으로 저가 차종의 내비게이션 소프트웨어 탑재율이 하락함. 가격 경쟁력 확보를 위해 엔트리 레벨 모델용 내비게이션 개발 중. 또한, 4-5년 간격으로 진행되는 차세대 내비게이션 업데이트가 올해 고가 차량부터 진행됨. 내비게이션 소프트에어의 성장세 회복될 것으로 기대. 모빌진(mobilgene) 등 미들웨어 고성장은 신차 싸이클과 연계됨. 올해 초고성장을 기대하지는 않지만 높아진 기저에도 불구하고 두 자릿수 성장세 지속할 것. 엔터프라이즈 IT 부문과 SI 부문은 과거 대비 수익성이 많이 개선됨. 고부가가치 신사업들 대기하고 있어 고성장세와 수익성 개선 이어질 것으로 기대됨",
-        "\" SDV 관련 사업은 그룹의 SDV (Software Defined Vehicle), AD(Autonomous Driving) 전략을 지원하고 표준화된 미들웨어를 모든 차량에 장착하는 것이 목표. 모빌진 클래식 전 차종에 투입되고 있고 현재는 제어기 당 매출액이 발생하는 구조. 하지만, ADAS 제어기는 적용 차종과 탑재",
-        "된 차량 대수에 비례해 매출이 발생하는 구조고 편의 및 바디 제어, 주행 성능 및 안전 기능까지 제어기 추가로 탑재되면서 추가 매출 발생할 것",
-        "\" 동사는 그룹사의 SDV/로보틱스 사업 고도화됨에 따라 비즈니스의 구조적 변화기에 진입하고 있음. 2026년 연간 안정적인 고성세를 유지하는 가운데 2027년부터 초고성장기에 진입할 것으로 기대됨. 동사에 대한 투자의견 매수와 목표주가 51만원을 유지함"
-      ],
-      "is_mine": false
-    },
-    {
-      "company": "네오이뮨텍",
-      "title": "First-in-Class를 향한 두 개의 길: ARS와 CA..",
-      "opinion": "없음",
-      "target": "",
-      "broker": "한국IR협의회",
-      "current_price": 0,
-      "change_pct": 0.0,
-      "upside": "",
-      "key_points": [
-        "■ ARS 치료제 개발을 통한 단기 상업화 모멘텀 가시화 구간: NT-I7은 Animal Rule 기반의 ARS 치료제로 개발이 진행 중이며, 미국 정부 전략비축 시장 진입 가능성을 바탕으로 상대적으로 빠른 상업화 경로를 확보한 점이 핵심 투자 포인트",
-        "■ Endari 매출 가세를 통한 외형 성장 + R&D 레버리지 확보: 2026년부터 Endari 북미 판매가 반영되며 상장유지 요건 충족과 현금흐름 보완이 가능할 전망으로, 이후 NT-I7 핵심 파이프라인 성과가 가시화될 경우 밸류에이션 레버리지 확대 가능",
-        "자사주 소각에 따른 재무적 효과 결국 주가에 반영 전망"
-      ],
-      "is_mine": false
-    }
-  ],
+  "sector_reports": [],
+  "naver_reports": [],
   "sector_opinions": [
     {
       "sector": "반도체/AI칩",
@@ -287,20 +235,20 @@
     }
   ],
   "new_reports": [
-    "[하이브] 성장의 물결 위로, SWIM",
-    "[기계] 공개된 중국 로봇 대장 유니트리의 어마어마한 숫자들",
-    "[화장품] K-컬쳐: New Era, 글로벌 메인스트림으로",
-    "[제약] Weekly Bio Insight",
-    "[양방향미디어와서비스] 인터넷/게임 Weekly",
-    "[전기제품] 기판 산업 Update: 티엘비 공장 투어 후기",
-    "[양방향미디어와서비스] IBKS Daily [인터넷/게임]",
-    "[은행] 메리츠 Financial Daily",
-    "[IT서비스] Meritz Overnight Tech",
-    "[DL이앤씨] 나는 상한가를 처음 보았다",
-    "[화학] 여수 화학산업 구조조정 발표",
-    "[삼양식품] 간담회 후기: 수요보다 공급이 변수, 성장 방향성 유효",
-    "[일간 계량분석] Data Talk #10: 국내 시장 복귀 계좌(RIA) 도입",
-    "[판매업체] 소비재/플랫폼 Weekly: 올리브영, 숫자로 증명한 독주",
-    "[건설] 퍼지는 온기 (주가 코멘트)"
+    "[유니테스트] 쨍하고 돌아오는 해뜰 날",
+    "[SFA반도체] 기다림 끝, 이제부터 시작",
+    "[넥스틴] 다가오는 대륙의 기운",
+    "[하나마이크론] 하방 막고 상방 열어",
+    "[이오테크닉스] 준비된 자가 잡는 기회",
+    "[두산테스나] 다른 것을 다르게 볼 수 있어야 한다",
+    "[반도체와반도체장비] 후공정 전성시대",
+    "[산일전기] 좋은 대안",
+    "[두산에너빌리티] 시대가 필요로 하는 기업",
+    "[대한전선] 체질 개선 기대감이 반영된 주가",
+    "[효성중공업] 가장 쉬운 선택지",
+    "[LS] 알짜배기 자회사 덕 좀 보자",
+    "[LS ELECTRIC] 새로운 시대의 주인공",
+    "[HD현대일렉트릭] 여전한 대장주의 품격",
+    "[한전기술] 여전히 반영할 기대감이 많은 상태"
   ]
 }
