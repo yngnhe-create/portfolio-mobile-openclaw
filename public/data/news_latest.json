@@ -1,26 +1,66 @@
 {
-  "timestamp": "2026-04-01T10:18:21.053224",
+  "timestamp": "2026-04-01T10:48:49.216300",
   "count": 10,
   "articles": [
     {
-      "title": "현대차그룹, 신규 EV 충전 요금 프로모션 실시",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1UYW5FS25IR3M2V2lkWUJudlRJM3pXeVl3YTZwX1EzQWdBbDJGT0hjUUdwbXlFekczZ3B1d3FoRExxTGxHVF9RaDJOYUN3RzhEREhHZTI2dENwZ2g3V3M0?oc=5",
-      "pubDate": "Wed, 01 Apr 2026 01:13:14 GMT",
-      "source": "fetv.co.kr",
+      "title": "‘반도체의 힘’ 3월 수출 사상 최대 861억달러…48.3% 급등",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1taE4zM1RxYjFfMzBuY3YyQ3E3VzJuSlhhQ0tZU3JDcEVoZmpGTjhNUlE5M2dHaFdPWENPcVZ2ZGsycE4xOTJELV9obDgxaDNSVUlDQy1Ka29wOFFCbk5WbTdHZVROalFEaFJ1WkhROU9Ndw?oc=5",
+      "pubDate": "Wed, 01 Apr 2026 01:46:55 GMT",
+      "source": "인더스트리뉴스",
+      "category": {
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
+      },
+      "impacts": [
+        "환율",
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "\"구글 터보퀀트에 반도체 급락 과도…메모리 아껴도 피지컬 AI가 더 쓴다\"",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1va1BMUzIyRFJ4MjFwQ0xObU5tQ3VMNGNEb0xFRXdvdzFkT2NtN3lZc1ZnaXdEZHhWUVpFel9qaU9oa3FidTJ6bkR0RHE4dzhwTzFodjVWMlVtc2VNQ3Fxdjh5bTZBOXEtbVFRS2lYYnU?oc=5",
+      "pubDate": "Wed, 01 Apr 2026 01:38:44 GMT",
+      "source": "연합인포맥스",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "반도체 질주에 신기록 대행진…3월 수출 861억달러·48%↑(종합2보)",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1pelVnYmlBTFBpcFdYLWRxblRMMFVyMXk5eUN0Q3pfREtXTVNRbzRud3ZlYXlCMFV0bUFQMVl4cGRoX3JpSDZmaEZtV0ZvTzBieVpXQmxUN0FfRmNMT0ZyTEl6QmlKRS1HX2hPbXk5dVo?oc=5",
+      "pubDate": "Wed, 01 Apr 2026 01:37:25 GMT",
+      "source": "연합인포맥스",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
-        "현대차",
-        "테슬라"
+        "환율",
+        "삼성전자"
       ]
     },
     {
-      "title": "마이크론 목표주가 하향 나왔다... 반도체 정말 끝났나?",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1OVFdsQjZDbFpiTHJnVjJJTFdMOWV0UmNQekJISnZMbmtKZF81ZVNmU2NFaFMtQXAzbVpvNlUxR2l6Y0tQeE1uMXNBbWVsNG5vX1V4NDJMMEZ0N09mZ2swUmtMWk5xWDVVWGFTRnV1dDPSAXRBVV95cUxNcmJadFFMQmdyeW8xZVR1X091U2lWeXVCUEZNTllyeVFqd0dRd2FNMUl5VHQ2bzNhNzlGUnV1OHZyaTRoNlowNlNVbkRfZWE0UVFWVXhlOXh3NUNlVW8xNGlYY19rRXQxMmZJMWdpcUpQamtmeg?oc=5",
-      "pubDate": "Wed, 01 Apr 2026 01:00:32 GMT",
-      "source": "연합인포맥스",
+      "title": "삼성전자, AI PC '갤럭시 북6' 국내 출시",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE0xS3Zvem5PcktUZUN2SVZKZ0lReUhZZWFYWlZJRlpONmQwSzZZX0Zfc3kyd3padkpQSE1qNlIzLW83cXFvRmdpT25uOWdNWkkyWEdaNDVqY2RaT1FWNXNDdzloTWdRbHR4ZWlGaEtoWVRuSlHSAXdBVV95cUxONGFVTndVTlFqY19WV3o5dDdkQTdaSk1PVGM2cXMxaGNWOEgyQzROd184UmpGUlI2Y3pIdEJJNHJMVTFpLUxHOEZnZmxwQ25BV1U4Z0g1aTJ3T01kOTdQcVVIVUFsR01ONEtGdlV3QUFEZzM5U2ZxVQ?oc=5",
+      "pubDate": "Wed, 01 Apr 2026 01:37:01 GMT",
+      "source": "스트레이트뉴스",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "K반도체 '피크아웃' 우려에도…높아지는 실적 '눈높이'",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE84Yl9jeXhrUlk5aHZ3aXhnTDBQei14U3M1cTZ3bkpNeHdidUFfUTE3V215WkE3Vlhka2pfX0dtaG1IUkoxSTV6eU1IaERGT2ZBRnhSNnBlN2Q0a3ZwRDRmSNIBeEFVX3lxTFBmZjF5OHdwNVptaTA0MkpQMlZiclRrWmVJN3d0ZVlxN1RwVmFRVVpfbzZ4blpPa0pKV0NhS0x6c1lIaHBuTTREaVEzZy1VdXJkSnZTNVdyeTVJNmxxd2NZeGpibExaTkhyOTlqc1VUM0RFQllDOVA3VQ?oc=5",
+      "pubDate": "Wed, 01 Apr 2026 01:35:54 GMT",
+      "source": "뉴시스",
       "category": {
         "label": "🟡 MARKET",
         "color": "#f9ca24"
@@ -30,10 +70,10 @@
       ]
     },
     {
-      "title": "삼성전자, ‘갤럭시 북6 시리즈’ 풀 라인업 완성",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB4M1RDRm9aODlROUVsTTlyYUlNLTh5SHdlSWpkLTNwczRuOExxMkZtbXZmdTg4Unp2Q1pvZXNPM1VIMTloeVhSbW5iR2s3VTYtaWU2ZUktVzlEdVJ6Q3RtUEJZdUk?oc=5",
-      "pubDate": "Wed, 01 Apr 2026 00:59:24 GMT",
-      "source": "매일일보",
+      "title": "삼성전자, AI PC '갤럭시 북6' 출시",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9SUTIteFdGeFJCRWlVNDdzVlROSy1zM3ljU2YyTzZLaGpkRGpncXBZX0RDLTdqeWpfZlkzLUNsVVNpcy1jVnRwLXVjeXZEQV9abkdOQVRwYVRacTA5aEJ6Y0JpZlRCQQ?oc=5",
+      "pubDate": "Wed, 01 Apr 2026 01:34:42 GMT",
+      "source": "디일렉",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -43,10 +83,24 @@
       ]
     },
     {
-      "title": "삼성전자, 英 콘월 주거단지에 고효율 히트펌프 솔루션 대량 공급",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBuRWlteXQ4UDZlSmZwNVRiSlhEX0swNlRZS185cnFsb1hfVGpQd2Rnc3p1anJfTHpoTy1aQ3pfZmxDMXZ2RjNyc0dfVS16QQ?oc=5",
-      "pubDate": "Wed, 01 Apr 2026 00:58:48 GMT",
-      "source": "전자신문",
+      "title": "반도체 호황에 3월 수출 861억달러…사상 첫 800억달러 시대(종합)",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBxNGtKWmJmeUZWYk01Nzh6M2s0TzQ1TVpkcFgwNmNwMGlJUWd3YUJncGhkdlNObEE3RDlQRVBBSk45OEo3cXM2MUQ0NG1tejA?oc=5",
+      "pubDate": "Wed, 01 Apr 2026 01:33:07 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "환율",
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전자, 英 콘월 주거단지에 히트펌프 공급…저탄소 시장 공략",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5ua0FVdTAtLUZSbVN4aWstMlU1djV6OEs4Uk0yd3VlQzBnREZkUGpzYnJSNzZtMzFJOFJoU216dHFJZmdMbHpzeHNjRkJQUk8wUzJ2MHV3?oc=5",
+      "pubDate": "Wed, 01 Apr 2026 01:30:01 GMT",
+      "source": "중앙일보",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -56,82 +110,30 @@
       ]
     },
     {
-      "title": "삼성전자, ‘갤럭시 북6’ 출시… 49TOPS AI 성능으로 시장 재편 선언",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1xWXdueVZYblpBdW9DSXJtU0V2cG9lZzNwVEhsWlhhRXJaWkdURy1nczJHdVZrOVRCNzlSMm13MWpRTWtqekVZT0tTX0hjYW5GNWhLWkM4VGFnalFtOU82ejBodi12aDA?oc=5",
-      "pubDate": "Wed, 01 Apr 2026 00:55:33 GMT",
-      "source": "인공지능신문",
+      "title": "반도체 호황에 3월 수출 861억 달러‥사상 첫 800억 달러 돌파",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9GZ1RUYVh1UkJmQ1NBc3dwUEsyOHZyZ1BHSVJxMnNGOGRlMzYzeUl0NWRRT0pFNXVRaTdlb01fNFFiVTVERmNlME1YWWJncDQ?oc=5",
+      "pubDate": "Wed, 01 Apr 2026 01:30:01 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "환율",
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전자, 영국의 '폐광'에서 '에너지 표준'을 캐다",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1fN0dVX1UxX0lESzFBai0wbG9uOVlON2FCUGxRbVN2MkxWUkdDUklUNFZtSElmYWpiTldFWUs5YVE2Rmc4T0NFMVNCR3dJa3dTcjVRTUFvdVFOdnhYVjRMamFOU3FyRlpVdTE3dHM4cEg?oc=5",
+      "pubDate": "Wed, 01 Apr 2026 01:30:00 GMT",
+      "source": "오피니언뉴스",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
         "삼성전자"
-      ]
-    },
-    {
-      "title": "현대차그룹, ‘웰컴 199원’ 프로모션 시행",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1uUUNQeXFJSUhCUmJNV00wOU9fT0ZKNU9wTmgtQUpPVGdrTmxFcHhNeFdJZ2htOWozXzhhZmxKa3FydmpZei1RUkE0S21SSkZzY2lQSWxfZnFDaXh5eU1aZjZnc2pEV01zeVlCaw?oc=5",
-      "pubDate": "Wed, 01 Apr 2026 00:54:16 GMT",
-      "source": "서울와이어",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "SK가스, 현대차와 포터2 LPG 구매 고객 대상 상생 프로그램 진행",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5QWVdkOE9rUDk0anBLelJyMXhGVEhnck40bGRPbWRXaWFxZUlJRVZES3M0VG1XbFlqdlF4RWQ2T0xrbVVzOEJRZlJGM0dwQQ?oc=5",
-      "pubDate": "Wed, 01 Apr 2026 00:53:50 GMT",
-      "source": "전자신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "[게시판] 현대차, 북중미 월드컵 기념 시승 이벤트",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5id0hsNEZjVU5ZR3lpbllEZjMzZFVQWGgxOTFWU3N0VWlpamlvTS1SVFY2ZjZrSENSS3lDSEhwUHRrNzJ0MWpWMG5xb2x6THdpQzUySHJHbnlSMXhyX0d1OUZtTWY2UWV2eHJfMlFLMGhGWDVG?oc=5",
-      "pubDate": "Wed, 01 Apr 2026 00:53:26 GMT",
-      "source": "연합뉴스 한민족센터",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "반도체 호황에 3월 수출 861억달러 ‘사상 최대’",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9Vb1BPbUV6NGZEdFV1YWhqVlBGa2xYSDFKLXQ5al9mYW92T0VoaTZJLUllYlIyYjBOSF9QempXQlNSSEU3bXNXNmhmWVR6dm1OVTdWbzdwWV9LV1NieFJkeG5KUHEwLTY3alQtZGV3?oc=5",
-      "pubDate": "Wed, 01 Apr 2026 00:51:07 GMT",
-      "source": "jeonmae.co.kr",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자",
-        "환율"
-      ]
-    },
-    {
-      "title": "구글이 던진 비트코인 양자 리스크…양자 저항 코인 'QRL' 40% 폭등",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1yZ0tEMlk1QW0yNU16NEcxZXo0N1R5TmhEQmFzdzFBV1NMZDZmbFFhWTdlQ3EydGlFUWhmLXVQb2p0bVd3OW1FdnR2WE5JVDYyMERIcHFwUk9ZOVVkbkdFYmtCNm5NV2lwb190WENjNjVuRTA?oc=5",
-      "pubDate": "Wed, 01 Apr 2026 00:50:49 GMT",
-      "source": "디지털투데이",
-      "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
-      },
-      "impacts": [
-        "BTC"
       ]
     }
   ]
