@@ -1,17 +1,85 @@
 {
-  "timestamp": "2026-04-01T11:49:42.006589",
+  "timestamp": "2026-04-01T12:17:04.239389",
   "count": 10,
   "articles": [
     {
-      "title": "ETRI 50주년…통신·반도체 등 산업 파급효과 누적 494조원",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0xS1FYTE5WX3ZldjBfZ1BnQnEyazZFZkktSXg5Rkt5SFRHNGJIeDBIRnpLelFBWjhwOHIzeGxtNlUyQ0ZXaG5LaEJrYk9qcG9UeGVlNQ?oc=5",
-      "pubDate": "Wed, 01 Apr 2026 02:46:00 GMT",
-      "source": "동아사이언스",
+      "title": "美 비트코인 현물 ETF, 1억1731만달러 순유입…기관 자금 유입세 전환",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9VZjhYQThUUzFLRDRZVUhuTWo4VUotNmQ4aV9LODhheVY3c3FrQkNvV21JUThqSVhxNDRERGtETjVDUTFFRk1COXdzTHY4TzlV?oc=5",
+      "pubDate": "Wed, 01 Apr 2026 03:08:27 GMT",
+      "source": "블루밍비트",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "환율",
+        "BTC"
+      ]
+    },
+    {
+      "title": "인천광역시교육청, 반도체 분야 기업설명회, 신설학교 3개교 설계공모 당선작 보고회 개최",
+      "link": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE1EUmdUZ2hYdEJIcHctTk9TVGlIMmlVaUZpZndyNExiaXg0WWJQQXNCQW5HN1FhSTNJWC1pRW9hYw?oc=5",
+      "pubDate": "Wed, 01 Apr 2026 03:05:00 GMT",
+      "source": "사회적경제뉴스",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "인천광역시교육청, 직업교육 혁신지구 반도체 분야 기업설명회 개최",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9RUlhqUGpxWEtYRzRqZUlsTTZ6Q0kyNWgzM1pKRFVCTTFoSGhEMVpvTmdNa0toR0lncDF0a0tFcVFVWHNLREFlMFVWdS04czk4WXE0V09za2xuMGpGZ2ZCMlhqQWJULTg?oc=5",
+      "pubDate": "Wed, 01 Apr 2026 03:02:40 GMT",
+      "source": "경인신문",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "ETRI 50주년…통신·반도체 등 산업 파급효과 누적 494조원",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1aVWlaMGVKazdPc3VOcmliOUNjLXBmaWlkZkdkbUxrdmtVZUZHekhZOTdJTXhVWVlWdXlxU2FTbnJiYjhnTEpPYkpNU2c1Q0U?oc=5",
+      "pubDate": "Wed, 01 Apr 2026 02:47:44 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "'반도체 호황' 수출 사상 첫 800억 달러 돌파, 전년비 48% 급증(종합)",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1KRTZsQmJseExPZGdabzYxR29vdUZUVkdHSVB1cGFqVTF5T2UzRV90N21kQnE0Tk52MmFjWTJ6VzY3enpRZ3I3YnZDdjF0M2JRaXptaFNqUHh1RUZaMlFZ?oc=5",
+      "pubDate": "Wed, 01 Apr 2026 02:46:45 GMT",
+      "source": "news1.kr",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "환율",
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "3월 수출 사상 첫 月800억弗 돌파…반도체 사이클, 중동 전쟁 충격 상쇄(종합2보)",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA5d2g2a3ppaGZZREU2T1ZTcTE1QlpneVBEeTR3a2pWRUlNY19VODdhazVkaFU0Y2JHaGVBSTk3WGxzeVdDYkM4TFVRZ1dsX1lQR0lkaThsUG5YSUZuMTNCWNIBeEFVX3lxTE83ME8zRHl1NXRTYXJhRG1WSVNnSW5qaW5OaEV6bGxscFIwYkFvb0FBdGJrYnlZTHc5VFNES0hnOFRwOHA4OUJURG1xaGFrb01JNWsyNlhuNmU0ckVneEx6ZklQU0pHdXZfVGFINDFoY3hqM0VWNFZsMg?oc=5",
+      "pubDate": "Wed, 01 Apr 2026 02:45:36 GMT",
+      "source": "뉴시스",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "원유",
         "삼성전자"
       ]
     },
@@ -30,6 +98,21 @@
       ]
     },
     {
+      "title": "이란전쟁에도 수출 8백억 달러 첫 돌파...반도체도 신기록",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE85ZDI4OHVxeXVMUjZNenVmOGM0QjJtMWp4T2lWRHhScVdDZGQwVjlaMkJwUGl0amh2WmpqUGwxRHh1SlBoWXNWMnpHcmpkTUdQd095OENHT2gtMU5manc?oc=5",
+      "pubDate": "Wed, 01 Apr 2026 02:38:00 GMT",
+      "source": "YTN",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "환율",
+        "원유",
+        "삼성전자"
+      ]
+    },
+    {
       "title": "삼성전자 주가 장중 9%대 급등, 이란전쟁 종전 기대감에 반도체주 반등",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE84bjB4RzBoQnF4eTdoY05aMEhRNjBKRklEYjB4bEF1c2RULU84ZUhIbVQydUMwbWtCUC1YMVFGbGJDZzFwa2w1eHF5Rnd3M0h1R1lwbFd6bFJsZy04am9ZYUVtUXc1MU5uemVUNk9sTUJhOG8?oc=5",
       "pubDate": "Wed, 01 Apr 2026 02:37:54 GMT",
@@ -39,8 +122,8 @@
         "color": "#ff4757"
       },
       "impacts": [
-        "삼성전자",
-        "원유"
+        "원유",
+        "삼성전자"
       ]
     },
     {
@@ -54,86 +137,6 @@
       },
       "impacts": [
         "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자, 고용량 폴더블폰 10만원 가격인상…결국 원가부담 소비자에 떠넘겨",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9SWnhQYUc2RzRRRUJ1TncxNGRTMDItekR2YVN4OEhyTlcyYUQwdEwxM3E0Qk5ZUjlld3kzbW5BMkxhR19sNE5CYXBCbEY0UGhGLWo4VVJJY3FBeG5sNENGSmlfZUROVHYzNlhrYl93?oc=5",
-      "pubDate": "Wed, 01 Apr 2026 02:35:59 GMT",
-      "source": "mstoday.co.kr",
-      "category": {
-        "label": "🔵 MACRO",
-        "color": "#0984e3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "이상일 용인특례시장 “정부는 용인 반도체 전력·용수공급 속도 내야”",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0telRJRDJEcnhFVlNiaTRZTVA3Sndocnpubk5tUGliTjFhZlBtVmJ6UG4wZnFDT0tUMElScjVQX1ZQdHJsUGY3X3hVeTZENjFaQnp6cGlkRjJDNWlFajR2ejBoY3Q?oc=5",
-      "pubDate": "Wed, 01 Apr 2026 02:32:08 GMT",
-      "source": "매일일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "현대차,58년 만에 노후 울산공장 일부 재건축 결정",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1XTkJnTWxfMUFxdjd6TTl3OEdCUDFaSWVYX25XU3VWTzlKd0ctUmtaOXBINFk2cWNRb3Vwa0FnR2FTNGhWTmRGVFNtNlNqY3NRQnJwLWVRd0dheUdKRWtSdllUelRfNFdmdGpNbERR?oc=5",
-      "pubDate": "Wed, 01 Apr 2026 02:30:35 GMT",
-      "source": "mstoday.co.kr",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "반도체 호황에 월 수출 첫 800억 달러 돌파…중동사태에 석유 수입은 감소",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5wbGRCQlBXUkh5c3RMcWYzWi1MWWFtQ2hGOXZhdDdISlVQLXNQZjZZM0I3V0lZZHFoOUlsbW1IMDJyWEItVkhGU0thY0ZaTlgxaTNxLVp3?oc=5",
-      "pubDate": "Wed, 01 Apr 2026 02:27:03 GMT",
-      "source": "중앙일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "환율",
-        "삼성전자",
-        "원유"
-      ]
-    },
-    {
-      "title": "[경인뷰] 삼성전자, AI 가전에 더 똑똑해진 ‘빅스비’ 적용",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5IRk1LaFZzSm1UZTJDTDg4azFkM3NHYjFoR01fbHd6Tkh0ZG1GYTAwUmRRMllfeHE0bzV0Qm52bFJPcnVzV04yYnpxRDM3anFWVDI5SnhoemhKWWhMQ2N4LWl3?oc=5",
-      "pubDate": "Wed, 01 Apr 2026 02:21:18 GMT",
-      "source": "경인뷰",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "피렐리, 현대차그룹 ‘올해의 협력사상’ 수상",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1EY0Q4NlROeEpSNjNNZUZ3bl9sT3BmYTY2bnZMYXFVQ3NGcEY2X2l5UFJwWmpzVHd2NjBHWEROUlU5VHJoeEo4YmpLUUI3dkp4ZjVFb3AzVW9FN1E?oc=5",
-      "pubDate": "Wed, 01 Apr 2026 02:21:00 GMT",
-      "source": "오토뷰",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
       ]
     }
   ]
