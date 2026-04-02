@@ -1,136 +1,137 @@
 {
-  "timestamp": "2026-04-03T06:08:34.522156",
+  "timestamp": "2026-04-03T08:17:04.753380",
   "count": 10,
   "articles": [
     {
-      "title": "엔비디아·마벨 ‘광반도체’ 동맹…AI 칩 넘어 네트워크까지 노린다 [갭 월드]",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB1a19BLUl4dGhnRFYtZnY5S0NlRWlOcnBpUXNQbXQ4QzRoY29YUFRQWDF4X0tLSEJ5UFl1QnRkdEM2QzFFdzU5MmFEcmhnUmpNQXfSAVNBVV95cUxQLUhTYW9YT3picWpoOWV5R2RWalF2QWp3cDNZaUMxcUtobWRjWUl3NXdQOHdFTlVzSmFqODd3SE56LVpCaVI1d2VTWTNvdGtRODlSVQ?oc=5",
-      "pubDate": "Thu, 02 Apr 2026 21:00:04 GMT",
-      "source": "서울경제",
+      "title": "[가상화폐 시세] 비트코인 1억원선에서 소폭 상승…엑스알피 2000원선, 이더리움 310만원선 거래",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9sREwtN0ZhQ0d6X2MwQlcxWWM2S19pVVpqRkxuTExlNUVSNU1rZWpCWmJFWXJEMHpBekp0SUdtRzJGTTdFdEM3QlhxVk8ya0xBMnNiNWFvQmEtX2xjd01PeFVXQTlCa0hydEdxdGl3?oc=5",
+      "pubDate": "Thu, 02 Apr 2026 23:13:34 GMT",
+      "source": "이코노뉴스",
       "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자",
-        "NVIDIA"
-      ]
-    },
-    {
-      "title": "(반도체 하청노동자의 눈물③)지원엔 ‘열심’, 안전엔 ‘무심’",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE90SE9lNndRanlDdHlnOTA4WlJLbGlQc1g2ZUNJUVMxcUZkenduQVpqejV2NWljU3Eta1haMGFHVEc1UlJGaVJIY3Q1Y01DWGVCcGVlSUtfQ1BzOEhLSEM1Rw?oc=5",
-      "pubDate": "Thu, 02 Apr 2026 21:00:00 GMT",
-      "source": "뉴스토마토",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "(반도체 하청노동자의 눈물③)9년전 산재 승인 간소화 제도…현장선 ‘문턱’ 여전",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5BMnpFMTJaSTZQLURqajd5TnVfbnRIbG5tN1hYdjNlVDIwcUlOa0s0Ql9rZHA4UEdMS1phUVAzSk1jWFRwSnVpTV9YZG9WSnRjNDJtSVVQSlVOMnJLckh1Wg?oc=5",
-      "pubDate": "Thu, 02 Apr 2026 21:00:00 GMT",
-      "source": "뉴스토마토",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전기, AI 반도체 기판 증설 가속… 2년 연속 1조원대 집중 투자 - 조선비즈",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQNDlOcFYzZnk5UU8wYmxRRElTZG95VG9yYU1jN2ZZUk14cWNUV1F1V2h2Ml9rVTB4RXlsbHRQSG5oT1dhdTVnTXNRNElfOFNPT0ZyOXEwQ19mODR4alp6Mk5rYjhVX1NiZXVIYkJuRWdlbGFxeUhYcnRyUk85aFBPMXhn0gGWAUFVX3lxTE01WTNPSnowSGdXNUh2S2hsN3g3bG9BTXAyT1BuREM3VUJ3MWVEZ3J2TlppYVBEYWc2UEZyYkwxM0RvNEx1eDdTTGJreTh3WFQycWJocWNxRUhzNXBZTndCeF9wOUpOWWlJMXpaMUUyUlNPWGw1UlZZTUR2NGVLQ1FCdlduOFpUemFDUGlHVllBWlZ0VXY5dw?oc=5",
-      "pubDate": "Thu, 02 Apr 2026 21:00:00 GMT",
-      "source": "Chosunbiz",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "\"지방·수소·로봇 다 갖췄다\" 현대차 새만금, 후속 투자처로 부상한 이유",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE53WUpQZ1JCcXNEalY4ejlfWXZkcllnWE5PUGRGVklzTExjUzhaRFh4WlVNNk52RDlXTTE1aW5KNEQtWUZnLU9raFNPZlVRWkJva3lyakFCS1ctY3dKM2x1dw?oc=5",
-      "pubDate": "Thu, 02 Apr 2026 21:00:00 GMT",
-      "source": "아시아경제",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "[삼성전자: 축제 속 폭풍전야] ①분기 영업익 40조 ‘미답의 고지’",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5Cd2FGdzZOYW9NZEFVZDlpVU9mNWc4UFBXb3RPQ2xwVUdhQnhUVFFnZVhtQVBUZkxSSlM0OUJ0VTFwSlVqMVNyNUhDbGZBbklVZHpwNklwUjRlWXZBaG80dFVWMnp5bzJrYVhxZ21oTHVNVzRi?oc=5",
-      "pubDate": "Thu, 02 Apr 2026 20:45:00 GMT",
-      "source": "대한경제",
-      "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "Riot Platforms, 1분기에 1,473개 비트코인 생산",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE42ZnlBejlNNENDSjVQSWlyTEU1ck9kREx1LW9OZk1LWTQzbEhrM1ZKOWM0UnJ1ZXdabTRZWkZVb3lsWXU1TmM5NmhjUFNpVllKa1I3RG5TQnZTejhRb1ZtbXhNamZMdjgyaDRhY3lCSDg?oc=5",
-      "pubDate": "Thu, 02 Apr 2026 20:30:00 GMT",
-      "source": "Investing.com 한국어",
-      "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
       },
       "impacts": [
         "BTC"
       ]
     },
     {
-      "title": "美대륙서 영향력 키우는 현대차그룹…새 성장동력은 '픽업트럭'",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5VTDVNeEZ6LTlHMmw4VFo4cmc2MXN3UG5paklqd280TzVnSWZqS3NCNVhUSU5BYmp6QUVUeG90clY5bGU2dzk5aXA3QUhzNk5xc2xLVXpmQ25ZM09PbUNTU9IBeEFVX3lxTE9HZkhiYW5EcGQ5bUduRWtVbTNoa1lWbDZJdlFINFFEeU5rWEg5eTdMcDNudHBEZUV6RzZyTFVYVEpDWkdfZURscVRtd2JPVVhhRWxfajViVVBSbDd5WnBRSG1uNGNLVm1RTG9qU1JmaG9hMjhvbGlGbg?oc=5",
-      "pubDate": "Thu, 02 Apr 2026 20:30:00 GMT",
-      "source": "뉴시스",
-      "category": {
-        "label": "🟢 POSITIVE",
-        "color": "#4ecdc4"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "트럼프 때문 아니다?…비트코인 폭락의 숨겨진 패턴",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9YZmcxaEJjM0l6bG9VWW9kVjRaZm9HeEFvYTJHa3JQV1Rod1cweXBzcWU0TU9sTUhaRXVFRmFJbE83NVVyOFp3YmxVTTBadk42Z3NtZUZlYlZsd0RDOGkyV3pXVGE5b2FPMElzdVRZREJqbHPSAXdBVV95cUxPU0VpX0hpNHNiUTJKOGtYeDkteDJwbm1PeVJiLWtSdnVYRnV6emhpYVFKR0NzRmFrX0xlaE1hc1FDNDdtN2ZLTlZmV1RrMDZfdFhwaGU5RUIzM3MyQjJYQllacWhQU3haNlFHN0ZtdlRYRndUMDkwTQ?oc=5",
-      "pubDate": "Thu, 02 Apr 2026 20:05:14 GMT",
-      "source": "핀포인트뉴스",
+      "title": "전쟁 폭락장에도 반도체는 간다…증권가는 ‘삼전·닉스’ 목표주가 상향 조정",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5VWkNIYVVGMWExWm5ZZ3J0T0xVOWIzU3E1MHFta25DMDRNeThma2ZIS055cG1WUG1wczFqdkhrT21ERVVjcFNmY1dEU1NvVjA1X25pOXZHTTlndmtRRndYM1Fn?oc=5",
+      "pubDate": "Thu, 02 Apr 2026 23:10:00 GMT",
+      "source": "이코노미스트",
       "category": {
         "label": "🔴 HIGH IMPACT",
         "color": "#ff4757"
       },
       "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "한국첨단소재, ETRI와 광통신용 초고속 반도체 연결 기술 이전 계약",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5sNk8tOV9lZDFNTzlwUXJ6WUxDM1p6VFZoVURDcEtaRnExcEVnaXBTdElzWG1kU0g5VW5BMGY1MGl0Vi10TFBQSl9iYmlvYWFraTA4ajA2dlVLbDdjQmx3b9IBeEFVX3lxTE03Q1dSSzRUTnpHYjcxUi1JcERDVFRhMnppbTRiZTdEdUNHc0JfV2JTUkFleFNtUGp4VFpfb1hZVnlvWGZGNnQ4a1ZmOEt1aEJLQ3QtZDdwZ0NxamxqWVh3VG4wcjltczUtU29PWWY5TTFsekZuR25rZw?oc=5",
+      "pubDate": "Thu, 02 Apr 2026 23:09:40 GMT",
+      "source": "newsis.com",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "서클, 1:1 비트코인 담보 ‘cirBTC’ 출시 예고…“기관용 랩드 BTC”",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBlZmQ4SU80ZllBakdZMTdBQVFEejRCejFfM1NtTk5aN0V2RzhfejJJQmNNUkViN3VSczN4Ukdha0k4bDVzSmRwX3BUZW1NeF9LcERGTVNsSlJzOXB2WDdfM2lhSHZDMjI5RDNoSU44dmpXT3M?oc=5",
+      "pubDate": "Thu, 02 Apr 2026 23:03:05 GMT",
+      "source": "디지털투데이",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
         "BTC"
       ]
     },
     {
-      "title": "“지금 사야 하나”…스탠다드 차타드의 비트코인·이더리움 천문학적 상승 시나리오",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE05OTRkNnRoS0JFeHduaVFTdkk1dHQtalhqV1dIdHZGaFByeFN2VkRiNll5VGNHWF9rSVpBZmRUTzI3QU8wM2JJeERQMG40alpkbzdBSHltbmwtNDQyel9oSGJtNUpCTm1mRm5ZbXg2V2ZfQWfSAXdBVV95cUxNU3JpS0dCWndaT2RiYVp5ZGJHWlI0RU9fTTVZM0ZRQkhWbTZMZ0pneHBzMFA5QXdCWng0emUxYWhESktyZlZWVTRQRFNuckEtLUUzN0ZMU0trTzVGb0wtX3lQUFJnNXFiQ2czT2lFci1NVUt6a0ViWQ?oc=5",
-      "pubDate": "Thu, 02 Apr 2026 20:02:26 GMT",
-      "source": "핀포인트뉴스",
+      "title": "[HYPER] 인체와 기계의 양방향 소통을 위한 BCI 반도체 칩 기반 기술 연구",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1nQ0xRZVAwd2hRcmx0Y1BhWW5pWERwaUlyWFZFdU1iVzhMQUQwZl9yUXM0anVpNEtwSGEtc29mSjJjelBBRFAzSGFMSG1lTGNyUEFzVm1JUmhDcnRqSHlIVk9zTHZUaGZQVnpF?oc=5",
+      "pubDate": "Thu, 02 Apr 2026 23:02:29 GMT",
+      "source": "뉴스H",
       "category": {
-        "label": "🟢 POSITIVE",
-        "color": "#4ecdc4"
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
       },
       "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전자·삼성바이오, 동시 파업 움직임에…양사, 생산차질에 수주 '빨간불'",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE02N3F6UnRuRDladFZpblBESDM1V25MYUdLUE5kck1RQlNzYXFLMXFtcWVqM2RyQ3F1Zy15aUs4Qm5sMXBhVDJ3d0Yya01YQnBwQXdSeWFvUW1TemNUYU84TnQ5Vmx6YW8?oc=5",
+      "pubDate": "Thu, 02 Apr 2026 23:00:02 GMT",
+      "source": "청년일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "용인반도체 클러스터 ‘지역 갈등’에 표류 위기?···송전 반대·분산론 정면충돌",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8td1ZGNEQxMEZjanJveFNmTzIzLWpmdVNpTWZoVlppZXZWY08yWFRhYU5QejNvS1M5WGFNU1dQMTNKd1hia0JSc1JqeTlXMU1RVGxZZFRVQzhxd3Y4WEhlWXlQV3ctcEdXd0hYdWRmQTjSAXRBVV95cUxPOFNJVWZuVVpVZDVVc3I3ZzBlV0FkTWNwVkRVYmwwYnhfT2FUWDZEMVB1aDhDX0RSYmRHV3BxUFdMZmRLcm82Q25hWlRQa0YxLUFTYmxCbW96VERhTWFKRFh5elBnbHA1ZE1jR1JuZWZWaFNmbw?oc=5",
+      "pubDate": "Thu, 02 Apr 2026 23:00:00 GMT",
+      "source": "이뉴스투데이",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "비트코인 ETF에서 1억 7,400만 달러가 유출되며 자금 유출세가 재개됐다",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQTFNwM1dZVk8ycVdDY1pqb3VsNzNueDlDWnd3X0JVdTAtTzdfVmI4OVAtY3NMTndhd3JxdVVvYmxZN1c2WngyaTlrcHdKUERWWnp2UnFsSUFtc1dIMU9fcUgxWFR3eE5xWllYekhRYk1lTVdOckRuQlNUU2pRYUtUbXFTM1ZZRDZTWHdHZlp1NFJvTWJuTUFOd2k1SVhpQUpPdFhQRDkzajhQWm1PSTVKVlhVREk?oc=5",
+      "pubDate": "Thu, 02 Apr 2026 22:57:35 GMT",
+      "source": "Bitcoin.com News",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "환율",
         "BTC"
+      ]
+    },
+    {
+      "title": "[차이나 브리프] 중국 반도체 펀드가 처음으로 투자한 AI 기업",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE8wWHVoM1JqVHhyd195MEswd2pLQnQ2U0tiZzd6NmRkXzhPdFFod0drTmN2TU5uUEpXSlJkdGdVaGhVUmV5MEM1aWlWQXh6anRGblY5a3ZsRkVhbmNIbUhhVjVBangxQQ?oc=5",
+      "pubDate": "Thu, 02 Apr 2026 22:49:57 GMT",
+      "source": "디일렉",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "\"이란발 헬륨 우려보다 더 문제\"...반도체 업계 이 소재 없어 난리라는데",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5wdU4wN05HR2NLdEF5aEtkU2Z3ajBzaUs1aGJ5V1VQOFdhXzBVWjBCMEhVaVUwR1ZoZHY2UTViUzEzeVpDcXpBVENVUVdtVlBrMk1zUFRXRWV2WkZ3N2c0bThiTjJEdw?oc=5",
+      "pubDate": "Thu, 02 Apr 2026 22:48:27 GMT",
+      "source": "디일렉",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "원유",
+        "삼성전자"
       ]
     }
   ]
