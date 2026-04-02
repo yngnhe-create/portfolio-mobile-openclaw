@@ -1,136 +1,136 @@
 {
-  "timestamp": "2026-04-03T04:38:04.966744",
+  "timestamp": "2026-04-03T06:08:34.522156",
   "count": 10,
   "articles": [
     {
-      "title": "[속보] 트럼프 발언에 비트코인 한때 6만6000달러 붕괴",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5wbXQ3Vy1kWTM2MDlVTHVybU5fT18yakkzSm1xY3d3RHRRTndUR3pfNVNhWFVfdHMtcmljQ18zQWVyTWlBRkU5RDZIbXNZaE1lWFg0NTRYbHY?oc=5",
-      "pubDate": "Thu, 02 Apr 2026 19:18:33 GMT",
-      "source": "뉴스1",
+      "title": "엔비디아·마벨 ‘광반도체’ 동맹…AI 칩 넘어 네트워크까지 노린다 [갭 월드]",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB1a19BLUl4dGhnRFYtZnY5S0NlRWlOcnBpUXNQbXQ4QzRoY29YUFRQWDF4X0tLSEJ5UFl1QnRkdEM2QzFFdzU5MmFEcmhnUmpNQXfSAVNBVV95cUxQLUhTYW9YT3picWpoOWV5R2RWalF2QWp3cDNZaUMxcUtobWRjWUl3NXdQOHdFTlVzSmFqODd3SE56LVpCaVI1d2VTWTNvdGtRODlSVQ?oc=5",
+      "pubDate": "Thu, 02 Apr 2026 21:00:04 GMT",
+      "source": "서울경제",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자",
+        "NVIDIA"
+      ]
+    },
+    {
+      "title": "(반도체 하청노동자의 눈물③)지원엔 ‘열심’, 안전엔 ‘무심’",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE90SE9lNndRanlDdHlnOTA4WlJLbGlQc1g2ZUNJUVMxcUZkenduQVpqejV2NWljU3Eta1haMGFHVEc1UlJGaVJIY3Q1Y01DWGVCcGVlSUtfQ1BzOEhLSEM1Rw?oc=5",
+      "pubDate": "Thu, 02 Apr 2026 21:00:00 GMT",
+      "source": "뉴스토마토",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "(반도체 하청노동자의 눈물③)9년전 산재 승인 간소화 제도…현장선 ‘문턱’ 여전",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5BMnpFMTJaSTZQLURqajd5TnVfbnRIbG5tN1hYdjNlVDIwcUlOa0s0Ql9rZHA4UEdMS1phUVAzSk1jWFRwSnVpTV9YZG9WSnRjNDJtSVVQSlVOMnJLckh1Wg?oc=5",
+      "pubDate": "Thu, 02 Apr 2026 21:00:00 GMT",
+      "source": "뉴스토마토",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전기, AI 반도체 기판 증설 가속… 2년 연속 1조원대 집중 투자 - 조선비즈",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQNDlOcFYzZnk5UU8wYmxRRElTZG95VG9yYU1jN2ZZUk14cWNUV1F1V2h2Ml9rVTB4RXlsbHRQSG5oT1dhdTVnTXNRNElfOFNPT0ZyOXEwQ19mODR4alp6Mk5rYjhVX1NiZXVIYkJuRWdlbGFxeUhYcnRyUk85aFBPMXhn0gGWAUFVX3lxTE01WTNPSnowSGdXNUh2S2hsN3g3bG9BTXAyT1BuREM3VUJ3MWVEZ3J2TlppYVBEYWc2UEZyYkwxM0RvNEx1eDdTTGJreTh3WFQycWJocWNxRUhzNXBZTndCeF9wOUpOWWlJMXpaMUUyUlNPWGw1UlZZTUR2NGVLQ1FCdlduOFpUemFDUGlHVllBWlZ0VXY5dw?oc=5",
+      "pubDate": "Thu, 02 Apr 2026 21:00:00 GMT",
+      "source": "Chosunbiz",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "\"지방·수소·로봇 다 갖췄다\" 현대차 새만금, 후속 투자처로 부상한 이유",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE53WUpQZ1JCcXNEalY4ejlfWXZkcllnWE5PUGRGVklzTExjUzhaRFh4WlVNNk52RDlXTTE1aW5KNEQtWUZnLU9raFNPZlVRWkJva3lyakFCS1ctY3dKM2x1dw?oc=5",
+      "pubDate": "Thu, 02 Apr 2026 21:00:00 GMT",
+      "source": "아시아경제",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "[삼성전자: 축제 속 폭풍전야] ①분기 영업익 40조 ‘미답의 고지’",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5Cd2FGdzZOYW9NZEFVZDlpVU9mNWc4UFBXb3RPQ2xwVUdhQnhUVFFnZVhtQVBUZkxSSlM0OUJ0VTFwSlVqMVNyNUhDbGZBbklVZHpwNklwUjRlWXZBaG80dFVWMnp5bzJrYVhxZ21oTHVNVzRi?oc=5",
+      "pubDate": "Thu, 02 Apr 2026 20:45:00 GMT",
+      "source": "대한경제",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "Riot Platforms, 1분기에 1,473개 비트코인 생산",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE42ZnlBejlNNENDSjVQSWlyTEU1ck9kREx1LW9OZk1LWTQzbEhrM1ZKOWM0UnJ1ZXdabTRZWkZVb3lsWXU1TmM5NmhjUFNpVllKa1I3RG5TQnZTejhRb1ZtbXhNamZMdjgyaDRhY3lCSDg?oc=5",
+      "pubDate": "Thu, 02 Apr 2026 20:30:00 GMT",
+      "source": "Investing.com 한국어",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "美대륙서 영향력 키우는 현대차그룹…새 성장동력은 '픽업트럭'",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5VTDVNeEZ6LTlHMmw4VFo4cmc2MXN3UG5paklqd280TzVnSWZqS3NCNVhUSU5BYmp6QUVUeG90clY5bGU2dzk5aXA3QUhzNk5xc2xLVXpmQ25ZM09PbUNTU9IBeEFVX3lxTE9HZkhiYW5EcGQ5bUduRWtVbTNoa1lWbDZJdlFINFFEeU5rWEg5eTdMcDNudHBEZUV6RzZyTFVYVEpDWkdfZURscVRtd2JPVVhhRWxfajViVVBSbDd5WnBRSG1uNGNLVm1RTG9qU1JmaG9hMjhvbGlGbg?oc=5",
+      "pubDate": "Thu, 02 Apr 2026 20:30:00 GMT",
+      "source": "뉴시스",
+      "category": {
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "트럼프 때문 아니다?…비트코인 폭락의 숨겨진 패턴",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9YZmcxaEJjM0l6bG9VWW9kVjRaZm9HeEFvYTJHa3JQV1Rod1cweXBzcWU0TU9sTUhaRXVFRmFJbE83NVVyOFp3YmxVTTBadk42Z3NtZUZlYlZsd0RDOGkyV3pXVGE5b2FPMElzdVRZREJqbHPSAXdBVV95cUxPU0VpX0hpNHNiUTJKOGtYeDkteDJwbm1PeVJiLWtSdnVYRnV6emhpYVFKR0NzRmFrX0xlaE1hc1FDNDdtN2ZLTlZmV1RrMDZfdFhwaGU5RUIzM3MyQjJYQllacWhQU3haNlFHN0ZtdlRYRndUMDkwTQ?oc=5",
+      "pubDate": "Thu, 02 Apr 2026 20:05:14 GMT",
+      "source": "핀포인트뉴스",
       "category": {
         "label": "🔴 HIGH IMPACT",
         "color": "#ff4757"
       },
       "impacts": [
-        "환율",
         "BTC"
       ]
     },
     {
-      "title": "현대차, 중형 픽업트럭 ‘볼더’ 콘셉트 공개..바디 온 프레임 적용",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9HOGtKaEljLXZ5dDBocTBINHpLaGEwQ1h4RHFwUmVkWVBWbTlCTk0xa3YxTDV2TEM1X0dfRkpKeklBTWZGVzZBTjZqanVPUjVvOTVIbldILUxLV1pjNXV3ZVhCVHdlbVUxM3RESHg3QUNJRzVBREE?oc=5",
-      "pubDate": "Thu, 02 Apr 2026 19:13:33 GMT",
-      "source": "dailycar.co.kr",
+      "title": "“지금 사야 하나”…스탠다드 차타드의 비트코인·이더리움 천문학적 상승 시나리오",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE05OTRkNnRoS0JFeHduaVFTdkk1dHQtalhqV1dIdHZGaFByeFN2VkRiNll5VGNHWF9rSVpBZmRUTzI3QU8wM2JJeERQMG40alpkbzdBSHltbmwtNDQyel9oSGJtNUpCTm1mRm5ZbXg2V2ZfQWfSAXdBVV95cUxNU3JpS0dCWndaT2RiYVp5ZGJHWlI0RU9fTTVZM0ZRQkhWbTZMZ0pneHBzMFA5QXdCWng0emUxYWhESktyZlZWVTRQRFNuckEtLUUzN0ZMU0trTzVGb0wtX3lQUFJnNXFiQ2czT2lFci1NVUt6a0ViWQ?oc=5",
+      "pubDate": "Thu, 02 Apr 2026 20:02:26 GMT",
+      "source": "핀포인트뉴스",
       "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
       },
       "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "현대차, 수소전기버스 누적 판매 3천대 돌파..수소 상용차 시대 앞당긴다!",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1oMTF1TWdaNl9MTUxUb1JKWDhqMTNoSUJWcnZTQ1hKX1kteG00cWk0bFBpallPcWhIQkh4YjJ0UDBTT2pUNDRKTXQ1eVRfRnRUOUI4NHlFQkIwLUs2RG83WndaVjFnTmhweHZuWXkzTlNrelJoMWc?oc=5",
-      "pubDate": "Thu, 02 Apr 2026 17:56:45 GMT",
-      "source": "dailycar.co.kr",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "7년 연속 글로벌 시장서 ‘왕좌’ 수성한 삼성전자 게이밍 모니터..왜?",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5sQ0dfcngyV0xfVVozMDg3YlFsdzFqTENnZTFYa18wbzNKZkVIenI5OWpUUEk2Y3pjbmctNXJjZHFMMjF5Mjd5WUxJaUlCcjA4ZE9ILWtvUFRpcmphcnlBcGM5LVdPVHhoUlVWV3g1UTA5UVFtNmc?oc=5",
-      "pubDate": "Thu, 02 Apr 2026 16:40:41 GMT",
-      "source": "dailycar.co.kr",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "아르테미스 탄 K반도체… “방사선 내성 증명해 우주시장 잡는다”",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5NeURBRGpRZ3dwRFkwX21sZ2lBel95dUZEaWZ0Q2lBd3FWdGo1RWczb0xoTUVpb0JVMWI5SEJfNkFaNXdzRjF0QU1qZEN2eHAzLWM1eGhwdDB4Mm1BdnpqNXBwMUdtTXY4VWp6MGdpUlJZbWNnNFVjYThIaw?oc=5",
-      "pubDate": "Thu, 02 Apr 2026 15:47:51 GMT",
-      "source": "서울신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "현대차, 픽업 트럭 ‘볼더’ 콘셉트 세계 최초 공개",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBOSkJwbHgwTHBJYm9iWk5DdzY3TjJNLTdMeEpITE9QSjkxOFUzSS1WcE45MnM3QXB0LTF3dHJ5UFkxSTFaNzFtUmJyYlozZlk?oc=5",
-      "pubDate": "Thu, 02 Apr 2026 15:32:26 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "코스피 상장사 영업익, 작년 25%↑… 반도체 투톱 빼면 11% 증가",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAyRmZjenVNckhMV1FqenphcDkzVENXY25QdTQzbURaX2tfNnJjRGhZa0s4Si1JZVQzLXF5eFp5Wlp3RV9VZXF0RFFkWWtwbmJDWHRUbnUxclU4ZEtsTUdqbHdPMHlLRW5ZY0FRWmNVVGRIVnhUNlHSAWZBVV95cUxNZnloOFZxZ2t4b1JfX3N3dlNuN2daMHBfR0l1TmxrMlV3OWZhNklkTWlTVjRsVy1USlBNZXZINE9sbFdabzVNYm9IX3ZQaE9lQW15ZUIyUzB0WHpOX0p2VkM0UFp1WUE?oc=5",
-      "pubDate": "Thu, 02 Apr 2026 15:30:00 GMT",
-      "source": "동아일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[이상렬의 시시각각] 우리는 반도체를 지킬 수 있을까",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9WaVo3SkcySk1yVVIwRktlcjk2UmNxWkRDQWZFS0Q0ZC04MUYyV1Zyd2p1dnlTUFFTenpoZXRLdk01SktKNmNvdDFaZWhiRDhSQ1E5NjJB?oc=5",
-      "pubDate": "Thu, 02 Apr 2026 15:16:00 GMT",
-      "source": "중앙일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "‘하브 라인업’이래서 늘렸구나…현대차 미국 판매 신기록",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBJeVZUYzBMQWZydmpQOUpTNXJnY1FlUVdKWDdjU1JUenpILTdGRHQ2WkxWZEhZMDhsUUV1cXRRVGZVM3NyM0VZRV9xVFpDa1NZTkNBZTdR?oc=5",
-      "pubDate": "Thu, 02 Apr 2026 15:02:00 GMT",
-      "source": "중앙일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "노바쎄미, 국립공주대에 반도체 패키지 테스터 기증",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5Vbkp3aG5FU1NzUDBEWkIwVUprRGpfM0NNZ1h2MDdtdTNscmxPSUtZaC11akIzUEt4akJsNzEwZkp3QWxJRklRcS1yeHlFMGhGODBXSkttRVNkaUJGNGNtZGhDYV9xZUQxbU5hNDU2Mk1CWmc?oc=5",
-      "pubDate": "Thu, 02 Apr 2026 15:00:49 GMT",
-      "source": "세종시민일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
+        "BTC"
       ]
     }
   ]
