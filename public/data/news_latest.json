@@ -1,38 +1,53 @@
 {
-  "timestamp": "2026-04-02T18:17:04.528830",
+  "timestamp": "2026-04-02T21:04:23.560648",
   "count": 10,
   "articles": [
     {
-      "title": "현대차·기아, 美 올해 1분기 최대 실적",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8tOXhrUHRFMGtObGVMLXdEX3NqaVhDNlNkSTczS2NzLXB0SlBobE85djdqV0EwZHlJRlkzNjBhTUM1SGVjZE5GMDBtZllOV3BoZm1FTElQYmpVd29Lem1LcTRhN3lRbXlGZG0w0gFvQVVfeXFMUDFEUzJIVDNya2lMM050WXp4TTRreUU4RUhRVGlNMWJOQ203UnZmVGRvT0pmTkQ2b3EtVVh4TWRrU3RQZEZBdWRfSHZGelFvd2c4eHJWY1R4b1Z6eENYWGRLLTI1SFNWbzF3bmJCWXI4?oc=5",
-      "pubDate": "Thu, 02 Apr 2026 09:06:32 GMT",
-      "source": "한스경제",
+      "title": "배경훈 \"추경, 빚 없이 반도체 세수로...민생 안정·청년 창업 정조준\"",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9fTWk2UGNXM2dEdzRmNnV6cm9VcFh6QnZWa1F5dDk3TDhLZGZJNEwyQ3lhbmwteWlCLVhXQjhVY1hUZXZBakNkcmQzQl9yM0JZaXMtTlNR?oc=5",
+      "pubDate": "Thu, 02 Apr 2026 11:19:01 GMT",
+      "source": "지디넷코리아",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "트럼프 \"극도로 강하게 이란 타격\"…비트코인 6만5000달러 지지선 시험대 [강민승의 트레이드나우]",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1CRTRSOUxJWUR0RzFRTFBPWTF1U2hxSER5SHFESERqY1ZZZ2Z3bkFHUXQyTk9ZalRYMGtpOTY0bzQ2Qk9MNjlkZE1qV3RFaWh2?oc=5",
+      "pubDate": "Thu, 02 Apr 2026 11:04:37 GMT",
+      "source": "블루밍비트",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "환율",
+        "원유",
+        "BTC"
+      ]
+    },
+    {
+      "title": "반도체가 이끈 코스피 실적…작년 영업익 ⅓이 ‘삼전닉스’",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPU0pTZ0tNanA5N2JfVVdVUmdqSHdJSkdSSmF3bldKTHNwRWluYmRnRnVxZjk1RzNQbEtMTUttaXlpWWQ4dVFqSDV1OUt1MWVIU0l3X0RaekM0eEF6QWlkU2l3SnRtWHl2QlhKb2tBY1dWOEc1T2dXUG5aWm1yVGhublcwMHdJM3QyZDlzMlFR?oc=5",
+      "pubDate": "Thu, 02 Apr 2026 10:36:00 GMT",
+      "source": "국제신문",
       "category": {
         "label": "🟡 MARKET",
         "color": "#f9ca24"
       },
       "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "용인시, 국가브랜드 대상 2관왕…도시브랜드·반도체 선도 1위",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9nNWx0TzBxVkRzQUJlWnc2LUhfT0dVM09zNTJmNXMxZmVWekxoTEY4OC1GZkY3UTVPMkMxQ1VPU3VsMTJVUXN3QzJQQ09WMW1hQ2c2OU1yOG5md0NYNUVmVdIBeEFVX3lxTE4wSzR6YVVTTmJvdnljUk5Ha213NG1aeTlDSGdFeFlOQVhDV000Zl9saWNwM0UxZHNQYWlZSHlGdzdDM2JqWXZWVmNYSk9nclVDTnpROUM1UDNuNlVpeEJTa1JJSF9LOHlYT0RLLXA5NWtxQ3lCLS1tdA?oc=5",
-      "pubDate": "Thu, 02 Apr 2026 09:03:07 GMT",
-      "source": "뉴시스",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
         "삼성전자"
       ]
     },
     {
-      "title": "현대차 아이오닉 6 N, ‘세계 올해의 고성능 자동차’ 수상",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5aWEVkRVpISWNhcE15VDNsLW9TalJKRUtHNWE3NGI4bjhFMHp1RlJqbDJreDhKYTBKNWZSeno4WHpfWGY4R0V1NzU4YVFfSlE3ck82QnBhTTNKZk5vSnRMOUZn?oc=5",
-      "pubDate": "Thu, 02 Apr 2026 08:55:00 GMT",
-      "source": "이코노미스트",
+      "title": "현대차, 글로벌 IT 조직 소집…SDV 전환 가속",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1wc2RUaWJBbmlHOXNSWVo0amJ2V0ZaT2J6Rnd0bXpCM2RDY3Z6TFpBQnBWV1VoYUY2T2I3eGNoaHFZckg5d3ZOa0ZqeUxmRVE?oc=5",
+      "pubDate": "Thu, 02 Apr 2026 10:26:06 GMT",
+      "source": "v.daum.net",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -42,23 +57,34 @@
       ]
     },
     {
-      "title": "오로스, 1나노급 반도체용 계측장비 연내 공급",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE8yeWYyVkFsMEQtOW81UEtmeThWeDM0Z0dwUkdEbVBtREtKOE9iaUJabzA0Um9sR3Y1QUVNd3JFZEdiWHk3RXF4SXVQWG1BVVpPMFZBUUtkVUVHZUlnT18yNENGbUotZw?oc=5",
-      "pubDate": "Thu, 02 Apr 2026 08:46:13 GMT",
+      "title": "현대차 콘셉트카 ‘볼더’ 공개",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPRlFRUk9KV1BZdGtnbmg1dzRZWEgyS2tUUndyNUVqdnI3NEM1dEZuMU5URzlSbExianU3RVQ4V1k4bm5OcWRsMU9oaUFaNFFNSWR2R0ZPUTg4Y3phaTY4V1MxOXI2cHo2N1YtWERzaWZFd01FVVktU2xidnlHN0VzU1pPQ0llNWVIWlow?oc=5",
+      "pubDate": "Thu, 02 Apr 2026 10:13:00 GMT",
+      "source": "국제신문",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "딥엑스, 롯데이노베이트와 NPU 협력 확대",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1sVmozekxoUUI2NGtzbU9JM3pRdnRTUmhqUnhIcUVHT2xUd2VBNmloRUQtOE1YbDB3SU16YV9INXZWdmx2RkRRVk50bUlLQ0dWaXRxdXIwc1lkZURDaGp2Q2hWT2ZxUQ?oc=5",
+      "pubDate": "Thu, 02 Apr 2026 10:08:39 GMT",
       "source": "디일렉",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
-      "impacts": [
-        "삼성전자"
-      ]
+      "impacts": []
     },
     {
-      "title": "'반도체 투톱' 빼고도…상장사 순이익 두자릿수 증가",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBpb2p1Z0tMeGlhMHQzT2d6TGV5QlExV2lKeHQ2dnVkMFVFTnVoU3JEeE1YUXg5YnFMdUo2SE9nWkh5Q1E3WkFuQzdPYXNDWmt5VURNVFdaa3NYQdIBVEFVX3lxTE85emVndVFtd3BidHVmQW5tRURpclFzMlA0dGgwd0RMaWhNTGdXeGR5cjI0ejVvSDVwTVdYX190Sjg2UjFKaThGV29iQjVLRkpmQk4tdQ?oc=5",
-      "pubDate": "Thu, 02 Apr 2026 08:45:27 GMT",
-      "source": "한국경제",
+      "title": "[헬로스톡] 4월 2일 주목할 종목: 삼성전자·SK하이닉스·비에이치·삼성SDI",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5iQ0ctWHBybXpTNW4yYXYzX01aYVc5Z1ZPWFZ2cTJ5NzZCeXNTMThhaVU2aFJOZ2ZxSThISUlXY1lCd0xZQ2V5NHBmVjMwR0ZBOXhiYVNJRjd3ZmludmlB?oc=5",
+      "pubDate": "Thu, 02 Apr 2026 10:07:51 GMT",
+      "source": "헬로티",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -68,68 +94,42 @@
       ]
     },
     {
-      "title": "(토마토칼럼)반도체 호황이 빚진 것들",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5xM0FsaWY3NkJLVGg1WUVLX0xCYU1VdmRJS0FyQ1dQbzVtOTlrdGltaWZ0dENsSzJfUGwxV25xN0xHTWF1RlpoSWpzd21ZaVhEVE5JRXFFNzctOUxqUnFPOQ?oc=5",
-      "pubDate": "Thu, 02 Apr 2026 08:36:37 GMT",
-      "source": "뉴스토마토",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "공멸 부르는 삼성전자 노조의 과욕",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBhUHVVenRSeUlwbXcyUEpKSHpVNnowbUgzWnl3NVhMLUttZnBFZ2VuNms2V1FaX2JBV3IxTXNCVWpsQTVxanBVNG4zbVZHRkREX1RZOFBUOVJiQdIBVEFVX3lxTE1aMUlyU2ZWa2lvbmRCMVVxSDRaZWpPeGVnQUNJTVZKV0lqZ1Rhd1RWYWJTeC1Lb1RILU1JZlI4aHA0RVhoTW14ZEVQamJFOUFkVVpKTg?oc=5",
-      "pubDate": "Thu, 02 Apr 2026 08:32:52 GMT",
-      "source": "한국경제",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "‘정통 픽업’ 볼더 띄우고 손흥민 앞세웠다⋯ 현대차, 뉴욕서 북미 공략 가속",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9HYXNhTGRYMGU1QVBtbUlZMTVOM01PdDV4N1lLVldRVnFzM2FCN1pIc1FrY2lEWk9GU19mNnZxQ2JOc2o3NUYxVERnNEhZOEtzTWFlMnJpYXhuUQ?oc=5",
-      "pubDate": "Thu, 02 Apr 2026 08:29:00 GMT",
-      "source": "브릿지경제",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "美 특허 공격 남발에 반도체 기술유출 우려···“기업·정부 방어망 키워야”",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9UeHhZZTdSNnhvVDV4Tkt6TDE3NVlqc3dqajY2SE5wNFVLbzgwVDNEQ0F2WU9HU1BuVDBOYVJrWm02NW5fZWlfQzRvTkk2MkxOMTFUUXB1OEZDQUY3N296eGtCak1YOFhMejVYaF90Y0RuQdIBdkFVX3lxTE5xNHlfVWxxTEZUaUZhZTNBdXRHeXNhTmloNXpFOTJBMVpib21oa2pwb1B3dC1uNjE5TE5qOTZaY01LQS0yanhrMnduNmN6TGN2cHIzQUkwZm91NWJyOFFGaEF1ckdkc3R5MVA1OXNVcE5tT0V1cGc?oc=5",
-      "pubDate": "Thu, 02 Apr 2026 08:26:04 GMT",
-      "source": "시사저널e",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "비트코인 ETF, 디지털자산기본법 지연에 '안갯속'",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5YWkJvQnFQbWd6OHN6U1dIcjlTWk55X3g0ZTdhTlBnTEVUU3BKNmpNc0Y1U3o5UDZNRllPak9iSF9XTS1GYjVhVGpUc2gzNW9ucWNhb1pXUlB6d9IBVEFVX3lxTFBKOTIwOWVKYVdXX3RBOTZzd0p6V1NGc25FS1VqS0c0MGNpbzlMLU9qdmU1MDNGRDM0ZUs0RWRCMUxVTGgwNlFFX191ZkVJVHdJcXNXVQ?oc=5",
-      "pubDate": "Thu, 02 Apr 2026 08:25:40 GMT",
-      "source": "한국경제",
+      "title": "채굴업체부터 DAT 기업까지…美 상장사 비트코인 매도세 심화",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1QNVFuZ2dYUE5XWmcySHRfMkw0dURlRktIZ2dPYWxjeTdpaHRiaHNobjd6TUFOYXFOaGR1c01FWUxHZ1duVk4tOEhJMkZBMTY5?oc=5",
+      "pubDate": "Thu, 02 Apr 2026 10:06:59 GMT",
+      "source": "블루밍비트",
       "category": {
         "label": "🟣 CRYPTO",
         "color": "#a55eea"
       },
       "impacts": [
         "BTC"
+      ]
+    },
+    {
+      "title": "[기업] 현대차 아이오닉6N, '세계 올해의 고성능 자동차' 수상",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE43cDFzdjlMZFZlN1lDMVAwTkF4emtIdFpIYkNoTGEwMm1ZcVJkVTVsZEVfWlVxZFQ2clg3a21LX3F5NG9RQzRzTUZiS2xYU2xBOFpYMHJNc3BEWFhwSnc?oc=5",
+      "pubDate": "Thu, 02 Apr 2026 09:51:00 GMT",
+      "source": "YTN",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "현대차, ‘픽업의 성지’ 북미 공략…뉴욕에서 콘셉트카 ‘볼더’ 공개",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1OQm9zUExYbnJoTGN6aWlFVHFVdFVBeWdZbXNkeGpJUjIwUEdwQXpJVzV6MFNaZldZczU0eUNEWGlQUzZ0ODc0U0Z1YnN1MWh1QUQ0ZUZ6eHJOXzliMkk2a3lCUzg1TlRKVllaOU05cDNmcFRu?oc=5",
+      "pubDate": "Thu, 02 Apr 2026 09:42:00 GMT",
+      "source": "서울신문",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
       ]
     }
   ]
