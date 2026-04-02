@@ -1,19 +1,32 @@
 {
-  "timestamp": "2026-04-03T04:07:33.279553",
+  "timestamp": "2026-04-03T04:38:04.966744",
   "count": 10,
   "articles": [
     {
-      "title": "SUV 밀고, HEV 끌고… 현대차, 美 실적 역대 최고",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5kQnlScVdFejFoUlhaeXMyamNSSW5yRElZdTB0X2Q0OGwyTzJESFVOMEx6djJ1VWUtMDZRTzg4WnlFYzdXN0lCX0VJTUxlUFhvMVJrVTJNRHhkV1ExRnpXSEdIWGlUaXlOYTBBYw?oc=5",
-      "pubDate": "Thu, 02 Apr 2026 19:05:00 GMT",
-      "source": "머니투데이",
+      "title": "[속보] 트럼프 발언에 비트코인 한때 6만6000달러 붕괴",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5wbXQ3Vy1kWTM2MDlVTHVybU5fT18yakkzSm1xY3d3RHRRTndUR3pfNVNhWFVfdHMtcmljQ18zQWVyTWlBRkU5RDZIbXNZaE1lWFg0NTRYbHY?oc=5",
+      "pubDate": "Thu, 02 Apr 2026 19:18:33 GMT",
+      "source": "뉴스1",
       "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
       },
       "impacts": [
-        "현대차",
-        "테슬라"
+        "환율",
+        "BTC"
+      ]
+    },
+    {
+      "title": "현대차, 중형 픽업트럭 ‘볼더’ 콘셉트 공개..바디 온 프레임 적용",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9HOGtKaEljLXZ5dDBocTBINHpLaGEwQ1h4RHFwUmVkWVBWbTlCTk0xa3YxTDV2TEM1X0dfRkpKeklBTWZGVzZBTjZqanVPUjVvOTVIbldILUxLV1pjNXV3ZVhCVHdlbVUxM3RESHg3QUNJRzVBREE?oc=5",
+      "pubDate": "Thu, 02 Apr 2026 19:13:33 GMT",
+      "source": "dailycar.co.kr",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
       ]
     },
     {
@@ -118,19 +131,6 @@
       },
       "impacts": [
         "삼성전자"
-      ]
-    },
-    {
-      "title": "트럼프 기자회견 충격…비트코인 1억원선 붕괴",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPaTRzYmItbjRQMjdobGMxWEdZc0d4S1pyZURfRmc1ZVFLVXlqWERLWERZak1hUjBjc1RDRndjRTc0Sk90VGExNGFNbGNuanVsX2ZwWFUxdWc4WG1DX0VRLTk1RWxtMGhpQnVHc0hPdTJNZUFza1VzcDdKWFN6VzFYaw?oc=5",
-      "pubDate": "Thu, 02 Apr 2026 14:46:35 GMT",
-      "source": "이데일리",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
       ]
     }
   ]
