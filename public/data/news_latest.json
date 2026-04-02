@@ -1,7 +1,72 @@
 {
-  "timestamp": "2026-04-02T14:17:04.681997",
+  "timestamp": "2026-04-02T14:32:55.502886",
   "count": 10,
   "articles": [
+    {
+      "title": "구글 \"비트코인 해킹? 9분이면 가능\"…양자컴퓨터 악용 가능성 경고",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5JSWh6UVRpWVE4Y245X3oxTXBBVEdjTE1sNUlRbEdabXZWYUZfZkdWeV9YcVctcmV2Nm1RZWwwOWFMV2FxR2ZLTUlQYjFQSUlSREJKNXpnWmNwZVdVdUJMWQ?oc=5",
+      "pubDate": "Thu, 02 Apr 2026 05:27:54 GMT",
+      "source": "아시아경제",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "삼성전자 게이밍 모니터 7년 연속 세계 1위, \"3D∙OLED 선도\"",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE92aExxOGNkaGFJa3ZSX1dRLTVrdjNFUlFUeGczNjFMaEZvVUZTWHhKbGc2T0Yya0FacmF6VHU5TTVkMFdKQkVaSHlWWVozWmtDZjFqQTRwZk9tOElnN0d6dG1JY0VKVmpxZnEtZGtuVkVXNHc?oc=5",
+      "pubDate": "Thu, 02 Apr 2026 05:24:42 GMT",
+      "source": "businesspost.co.kr",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "반도체 전문가들, “AI 시대, '실리콘포토닉스(CPO)' 주목해야”",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9jdVhjTXpyWUoyY0ZTMmpNaElWV08zTnVYMVVDaU00ekF5eG9vYjhXNEYwWWFOQURQbzh2OFpNc3JGb2FYM29PLXZJa25NQQ?oc=5",
+      "pubDate": "Thu, 02 Apr 2026 05:18:31 GMT",
+      "source": "전자신문",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "현대차그룹, 북미서 ‘픽업·전동화·럭셔리’ 3각 공략",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5GZzAzbFBKcDJ2VHhBOFYxbW1wYzQ1bFpndXVRUVRIQlh0ZFdnZS1ZYWhtdk8zcDFuS3VOeFc4WndZTTM2Rkk2aEhzdmFiQ1ZZOHBoQV9QYnRINEwwV2JpTkxIako?oc=5",
+      "pubDate": "Thu, 02 Apr 2026 05:18:16 GMT",
+      "source": "매일일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "삼성전자, 게이밍 모니터 글로벌 점유율 1위… 7년 연속",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5fVVY0SnVLNk55emhLbXJTVGpVNU1oNk9TQnJlU1llQ05pRXB6ekMzdnkxV2RCbTB3bWd4ckFXeHl1bTlRV2c2ZEtlRkczN0xoZ1ZxcHpoeWtHcnZhUndoY0FVdjdCQlNGdHM4YQ?oc=5",
+      "pubDate": "Thu, 02 Apr 2026 05:11:33 GMT",
+      "source": "서울와이어",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
     {
       "title": "현대차 아이오닉6 N, ‘세계 올해의 고성능차’ 선정",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5yTi1HRmRYWEx3Mk1yZ3hYOF9jWkJKZkJackU1ajlObGR1c3RnY05ndGtiU1JXdWhlYlF6LUpuQXFfVlNXaHY0bmtUcXBiMWZDb1ltWWpCeWFpUm9ZNHB2Q1NOY3k?oc=5",
@@ -65,71 +130,6 @@
       },
       "impacts": [
         "현대차"
-      ]
-    },
-    {
-      "title": "'반도체 투톱'이 견인한 코스피 2025년 실적...착시 현상 주의보",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNWktVQy1SeEc5TkFPcXFkUTh2dWRkTzFpbENjR2NpT1MyVUlTNzA3OE4yS2hIMW9DNDRrODlLTlA2SG91UkM2VkpqcjA1TTROQTllYVRNWEFSMlV6dURZOWpiVGxoOXZsWjRYTzNFN2dOQmI5a04tRGdCaFVDU2JzTXFmSEp2czlv?oc=5",
-      "pubDate": "Thu, 02 Apr 2026 04:40:55 GMT",
-      "source": "글로벌이코노믹",
-      "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "MLPerf v6.0 벤치마크 공개...AI 추론 데이터센터 반도체 성능 경쟁 본격화",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFAxYkNCTm1rOWxIdW1HeGxjTUdjanYxMi1MNXJGdjFTUVpNdV93WXhHUW9UdmtFWW4ySV9YczAtamk2SDVOaTlPRGRHSE9penUwTzl2VXFHTGNtNGlWbGdta0Joc1B4QUI3djRYLWZtT0dBRnM?oc=5",
-      "pubDate": "Thu, 02 Apr 2026 04:40:00 GMT",
-      "source": "디지털투데이",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "용인시 반도체 클러스터 진입로 보개원삼로 전 구간 임시 개통",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE54N3VlU19CZGg2YWhlNUp0VkdYcmUxV3ZPTHZqQ2Q0N2V6ZktYVE5uMTJXRTFHcDRnYlBGZlJWQ1E5Q0RmWmRtbUVfYlpfYmxHRnBudHpJRUtsQ3BMclBiWmo3ZW9kYk5ucWMzUUw1SQ?oc=5",
-      "pubDate": "Thu, 02 Apr 2026 04:38:00 GMT",
-      "source": "기호일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "반도체가 끌어올린 코스피 상장사 실적…이익 30%대 급증에도 ‘쏠림’ 심화",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1fMmNrX3NiQWxPYjBBZjB1YVJ1VzM5eDNXek82Nk9WX01kNmU1Z2luQVJ2UDA0UXZWWjdTcG9tRW9ibEZydmpPR0tmRjVLTHM?oc=5",
-      "pubDate": "Thu, 02 Apr 2026 04:35:00 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "베트남 반도체 인력: 교육 및 국제 협력을 통한 기회.",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTEJZMV84N0Jybks4MmliMFpJVWNMckZoRGNrT1NieFNfR3MtNmczM0Jvb2VoT0NtbTlpM0VORkI2a3FTNHpyYkxzM2UwcnBXcG41ei1mQ0tUajVQX0pLYmNzOHJCN0M0NVo5NXFfSVl2cnNlRjlGZDg1UG9WWkJLdGh3b0tNWXA4Q3FGazZKV29qLTcybElv?oc=5",
-      "pubDate": "Thu, 02 Apr 2026 04:30:15 GMT",
-      "source": "Vietnam.vn",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
       ]
     }
   ]
