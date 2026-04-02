@@ -1,7 +1,21 @@
 {
-  "timestamp": "2026-04-02T12:17:03.924234",
+  "timestamp": "2026-04-02T12:31:03.564313",
   "count": 10,
   "articles": [
+    {
+      "title": "한경협, 국세청장 초청 간담회…삼성·SK·현대차 등 참석",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE4tM3N6NHI0eEJlVTNKTXd3OWp3bXAwZmdvVXlMa05ZdjV5RXB1UDhkYzMxUXY0ZHI2OHZmT3lfalFXY3ZyWkxhVW9Oa2lQOFcxOUFzTzlqT0JHXzVqNWQ3cXFuaGE?oc=5",
+      "pubDate": "Thu, 02 Apr 2026 03:23:45 GMT",
+      "source": "한국세정신문",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자",
+        "현대차"
+      ]
+    },
     {
       "title": "전남도, AI·반도체 미래 첨단전략산업 발굴 본격화",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9jd1JpYkVEcjZ1czFDRzNiZVFVNlFoQ0EtWm94MWJsV0VPMEhoRXdQOUttS3c0OGZFTkJZcVRYRWNkQ0Nma21qUkpQTFhWTkY1VHpjeHlnT20wMGJSckxqeExqamhJWjhPdGptcQ?oc=5",
@@ -84,7 +98,7 @@
       "title": "메모리반도체 업황에 '구글 터보퀀트 우려 해소' 분석, 삼성전자 SK하이닉스에 청신호",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE43Y0lBaDdaSXUtSlNzbjdKczBWdUFtbDNaN1FUaDRSbmJqMHFJT3VWb0JzUDlzUEJGUElXTWxlLURjQVJZVGJ4bGZCX0ZGdWFBaGViT1lTeUoxSjZmZWluQ3N5MWhXVVR6S01nYTBHcUxfd3c?oc=5",
       "pubDate": "Thu, 02 Apr 2026 02:55:34 GMT",
-      "source": "비즈니스포스트",
+      "source": "businesspost.co.kr",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -110,26 +124,15 @@
       "title": "맥글론의 섬뜩한 경고 \"하락폭 줄어든 비트코인, 그래도 1만 달러까지 내려간다\"",
       "link": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxPeVVDQTdsaGszUndLcTMyQk50bl9lUWJQQlI3YWV3TXdJLU5YWEQyVHQwejNadlhBRGdTRlJOTFo2LXpYZ01tME04alBpUWRKd1hTd256YjE1blloRmpWbnZLVjV2aXhwR1lrSGN2MDI5RHpSOXZ3UHVJYWJoSUN0Tll1X21Cd01lUDhqSWlDdS1WVVgzQ2IzU3BSODRBVVJTS1hvbFhwYlpxTDQ3Y0RCWkhiajlUbE8tVTM5Ym9IbWJ5aGlob2xYdDhyazBuc05CNU14aDlPTmJLcGZfaFdyWEhjeW1MQ3cybzZuQll0alBhX3puOGFEcmgzWDh3S19uaXRtTU1wVzgwcnNZZ1ZEdUxibnZkQ193cERFRm9IYldveWo4V3dQWWxOaUV5WjBodENsZExzdHZLRlhJQlBhc2daZy1EV0V4TTNSRjZFZzRuZ3BHdUE?oc=5",
       "pubDate": "Thu, 02 Apr 2026 02:53:42 GMT",
-      "source": "kr.benzinga.com",
+      "source": "Benzinga",
       "category": {
         "label": "🟣 CRYPTO",
         "color": "#a55eea"
       },
       "impacts": [
-        "BTC",
-        "환율"
+        "환율",
+        "BTC"
       ]
-    },
-    {
-      "title": "퀄컴, 중기부와 국내 AI 스타트업 사업화 지원",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBTcmNQM2kwVUg5MDIwS1NRQVltSDc5MTVwQlVKa1FVdkRyNldvNTFvUE1rMUhzMzhUSHZyUlk1dXNzdmNYSDN5enVYdGhYMHE0ei1jV1JTZEhSNHc4VngwUzNVanFOUQ?oc=5",
-      "pubDate": "Thu, 02 Apr 2026 02:48:42 GMT",
-      "source": "디일렉",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": []
     }
   ]
 }
