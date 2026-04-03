@@ -1,12 +1,64 @@
 {
-  "timestamp": "2026-04-03T13:13:05.085720",
+  "timestamp": "2026-04-03T13:43:34.874359",
   "count": 10,
   "articles": [
+    {
+      "title": "삼성자산운용, '삼성전자·SK하이닉스' 채권혼합 ETF 오는 7일 출시 예정",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE40bmF3ZWtWNkFSSkozQlNLVU9iajBfbWtDQXJIN3I3ZEFxTHQ0M1MyQVlrSkI3S0p6TzNwREQ1SHhJTy1Tb0RLZkJOXzFydWIwV053NFdNYTY0RF8xcHlHRTZ3MUE?oc=5",
+      "pubDate": "Fri, 03 Apr 2026 04:32:56 GMT",
+      "source": "PRESS9",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "현금 확보 vs 비트코인 집중, 어느 쪽이 맞는가?[엠블록레터]",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1taXpxRHMydFF2eTFmMU1LWmllaTNOYWxfcnYzTHZrVkloVUtMMlQ4WkV3MUM2MlpvTE5KVngyOWJUOU4yS1IwWFZBWVpaTWFYOHc?oc=5",
+      "pubDate": "Fri, 03 Apr 2026 04:19:33 GMT",
+      "source": "매일경제",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "韓-프랑스, '글로벌 전략적 동반자' 격상…AI·양자·반도체 협력 강화",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5BLUhJSTBjc2xkVV93MDVJUHVGdTdacVItWnNscUY4WWtyOGtJMjRESU1UdDk0NzJOVGVSZFZidGVfamM2U3F1eDA4cF9XZw?oc=5",
+      "pubDate": "Fri, 03 Apr 2026 04:16:18 GMT",
+      "source": "전자신문",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[Biz&Law] 삼성전자, 美 레이저 빔 프로젝터 특허소송 합의 종료",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1mN3U1ZTFneGJyeWNnQUJncHhkLTVEdE0taDRXUFFsNUxqTXI3Mmc1LW9ScW1LSjlvUWU3UmdSTkhORVRqTUstR19QYmlGa3NSU3RXNk9HMkFyRkR0SGQzWloyWVRjcXdDZklOOA?oc=5",
+      "pubDate": "Fri, 03 Apr 2026 04:12:23 GMT",
+      "source": "서울와이어",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
     {
       "title": "김동연 “경기도 5대 경제권으로”…방산·AI·반도체 중심 재편",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1LZk9FVEdEUzV5WllOWHJWa2xQS2VjemJKdzUwdEJ2WExGajE0RnhhZUN5WkV4VzNHbGdReUg5dkxiWW1xSW5oT09UZ0luRy1PYWZmYjh4SnRTaDQ?oc=5",
       "pubDate": "Fri, 03 Apr 2026 04:07:00 GMT",
-      "source": "kyeonggi.com",
+      "source": "경기일보",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -25,8 +77,8 @@
         "color": "#a55eea"
       },
       "impacts": [
-        "환율",
-        "BTC"
+        "BTC",
+        "환율"
       ]
     },
     {
@@ -59,7 +111,7 @@
       "title": "'싼타크루즈 실패 잊어라' 현대차, 북미 뉴동력 '픽업' 재정비",
       "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5sX1JjNm5IQmlHRUJRZ2JnRnBodEF4YXBQanlHR1B3THhrMWdjMFAtTVN2a05nZGJwbWl4T0tSay1DQi1RdDI1ZHBrUk9EbGZJTUJWQTRfNkJab0RBN2w2cEU3T0ZKX0s2cmRTVi1rZF9jUzdMZHdzWFNqakI?oc=5",
       "pubDate": "Fri, 03 Apr 2026 03:59:36 GMT",
-      "source": "한국금융신문",
+      "source": "fntimes.com",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -69,69 +121,16 @@
       ]
     },
     {
-      "title": "반도체 상장기업 2026년 4월 브랜드평판...삼성전자, SK하이닉스, 한미반도체 順",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9JbnBVOXdlQVpEUmZMWXhad2dzYURMRS1UYlA5UlgxU1ZlUTljVHRTUmNZWUlLMWpSREkybzNQN1l3RlJBdTlpT3VybUpqWkNWWXdMY25vdGtmZnNOOWl2RDljMlFNUzQ1LUREdHI5RTlGUQ?oc=5",
-      "pubDate": "Fri, 03 Apr 2026 03:44:44 GMT",
-      "source": "에너지신문",
+      "title": "안산시, 청년창업펀드 2호로 로봇·AI반도체 기업 유치",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBhZjIzeXBkOXdjaDNaNGd2b01IUTRPR2ZrUkhrQkJTd1lkN21wU0NOWS1va1lpYTJjdkJ1R1J0WV8tanFuQ3hiTlJpZXd4UUtWQ0M1VHFlcmZPeDZfX2ZaSUxNaWlBR000?oc=5",
+      "pubDate": "Fri, 03 Apr 2026 03:48:55 GMT",
+      "source": "뉴스피크",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
         "삼성전자"
-      ]
-    },
-    {
-      "title": "용인특례시, 반도체 클러스터 진입로 ‘보개원삼로’ 전 구간 임시 개통",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9RRmdKMm55SUpHV1pkamxxa1dIR29DNGhkNkhpb1RZSEFEeHQxNjVDYWQ0Qy0xdkNlLUo2Z3F5Z3g5UWRva1ZnaC05bUI0d0s1ZVl3MldST3VoS25VUnJ2d1p3?oc=5",
-      "pubDate": "Fri, 03 Apr 2026 03:31:50 GMT",
-      "source": "경기신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "박왕열, 마약 131억 유통… 경찰, 비트코인 94개 추적중",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFA1dVJYT1NycFZyMmktUEZBU1o3N052ZTJMc2xfRUtBLWduTXNtX3dFZkd4YnBvSTU3Y2VST21wMk1fSjN6UkdlbWZzX3JXbS04?oc=5",
-      "pubDate": "Fri, 03 Apr 2026 03:06:30 GMT",
-      "source": "문화일보",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "김동연표 경기신경제지도…핵심은 방산·K컬처·반도체·AI",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5WZ2o5LU5wZXRQOHh5MkNJUG5GYzhRdkpQejlneER5aWIwNXdQTkRjUjFNTTlJdFBEWW01LVJYUGNUQlNHQW4xWFJncXRSMkN0dUJEeU1BSk55d2xyVUpIQtIBeEFVX3lxTE41bnFDTFNSZU93OEkxSDBVTm9nTFRKTUdCcG9CX0Exb012NGxTSm5US1Z6TXBKWWQtc0hZSEZQSDJiR29xa3Bwdm9oSkZGdXZ2WDhZNmVPSlNDcnNjeWV2ZFpTSU9SbHVvSU5sVzctTkxPYXp5VUZWXw?oc=5",
-      "pubDate": "Fri, 03 Apr 2026 03:06:12 GMT",
-      "source": "뉴시스",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "K반도체·디스플레이 ‘유가 쇼크’… “필름·적층판 등 원재료값 30%↑”",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFA5NnBZSUxSd0FoUEhteVRlZldSdVhHWmd3TFE3UThpV0pwOEJTSXpQMmwtb0Q1SkF2aV8yVXRpdDc4amZnTXdwTTZqWDR5Y25W?oc=5",
-      "pubDate": "Fri, 03 Apr 2026 02:55:06 GMT",
-      "source": "문화일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자",
-        "원유"
       ]
     }
   ]
