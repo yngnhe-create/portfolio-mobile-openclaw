@@ -1,7 +1,20 @@
 {
-  "timestamp": "2026-04-03T21:16:55.183392",
+  "timestamp": "2026-04-03T22:47:27.246296",
   "count": 10,
   "articles": [
+    {
+      "title": "성남산업진흥원, ‘2026 ICT 융합 협의회’ 출범...K-반도체·AI 메카 도약 박차",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5RdzA2SURNc3VJbGVla1hOcERlU3JRT1BuYkdtRExGdjhiVkZGYTlwU01raTVESDQyNlhzT01CWFpPdzNFLVFvNFkyUzBmQ21PT1RieVJXYlg2RWw2RlJUZG1QaFN0b0tjSGM4?oc=5",
+      "pubDate": "Fri, 03 Apr 2026 13:34:27 GMT",
+      "source": "투데이경제",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
     {
       "title": "삼성전자, 상생협력 데이 개최…전영현 \"동반성장 이어가겠다\"",
       "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQeGRuSDF1cHRiZW5ETmZSN25pR0hmQncyUzVNekFmSmxWOFlVamlTUW9YeGZnSG5ELTlTMHE1SGZwNk1XSFFzcmJoM0gwZ2lQeXMzYkh2M1l0Uy1pdkQxNWpDSmlsbm12YkpwRFdZTXk2QnlfTFI3NWxTVUVNalhZRml4Smx3UQ?oc=5",
@@ -16,10 +29,10 @@
       ]
     },
     {
-      "title": "삼성전자 DS, 64개 반도체 협력사와 '상생 협력 DAY' 개최",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5TYVJEX0dTdFhuUFpqeUFvZWZaZ01ieHAxVHVQbmY1LURrQ3lKWG54bGRGUGl1WGY5RGEwS3JHOGg4Y0YtbEZtUFM3Ny1odw?oc=5",
-      "pubDate": "Fri, 03 Apr 2026 11:16:30 GMT",
-      "source": "전자신문",
+      "title": "산업통상부, 프랑스와 핵심광물·반도체 협력 강화",
+      "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE01OF91a3V0OFI4bzhZWWVmbnd3OEo2dkR1bDdfTmh1RllQdlQxRFZoNkJ2T1JQNTVkSGlpTVpmQkRRZVBG?oc=5",
+      "pubDate": "Fri, 03 Apr 2026 11:32:00 GMT",
+      "source": "케이에스피뉴스",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -29,10 +42,10 @@
       ]
     },
     {
-      "title": "佛 마크롱, 이재용 등 韓 기업인들과 릴레이 회동…반도체·수소·AI 등 협력 논의",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9zSF9VeEVpdDZmbjhsZGpaWUhobG9EdExsMndaQUFvYnRBSm4yTmJKdXZQTzFFbm1WZjkyV0ZKam5pNTRGdHF4ejVtN0tWOFBHUExsanBn?oc=5",
-      "pubDate": "Fri, 03 Apr 2026 11:09:38 GMT",
-      "source": "biz.heraldcorp.com",
+      "title": "삼성전자 DS, 64개 반도체 협력사와 '상생 협력 DAY' 개최",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5TYVJEX0dTdFhuUFpqeUFvZWZaZ01ieHAxVHVQbmY1LURrQ3lKWG54bGRGUGl1WGY5RGEwS3JHOGg4Y0YtbEZtUFM3Ny1odw?oc=5",
+      "pubDate": "Fri, 03 Apr 2026 11:16:30 GMT",
+      "source": "전자신문",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -111,19 +124,6 @@
       "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE16VERZX1Rlb3N5Q1NxQnJqazZObGdsYlFjV0c0UnVLbVVtdktvemdSazRiOFdYTVVsNEI3QnJVeTIwekhldms2SlRJa0FwVG9GM0J1NDZqMjE?oc=5",
       "pubDate": "Fri, 03 Apr 2026 09:31:40 GMT",
       "source": "Investing.com 한국어",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "비트코인 '1만弗 쇼크' 오나",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBacVJLSGRLZXY2QmYtRHRTbXF0YThwQTZEcUZ3VU1Kc2J5R2ZRbXZaNFR3QmlxQ2NnR1RrSFFLN3haRTkyR3lSXzVwbnk5ampuZnFDZ2NWd1ZGQWFNOFBRMnpyZmRZb0NERThr0gFvQVVfeXFMT3A5M0N1cjc3a0VkMkVuWTN1Q001TFQ0U2Y1OThmMVRycTljWHYwa0k1YjVOd3ozcXQzS0lXeFhMd0hES1pxSkl0UHN0RVloNll3d2cxQS1YaGhDYXVFcG9aVU9KaUxXeEE3Vk8xa2t3?oc=5",
-      "pubDate": "Fri, 03 Apr 2026 09:30:55 GMT",
-      "source": "한스경제",
       "category": {
         "label": "🟣 CRYPTO",
         "color": "#a55eea"
