@@ -1,12 +1,25 @@
 {
-  "timestamp": "2026-04-04T00:17:58.508535",
+  "timestamp": "2026-04-04T06:18:34.339926",
   "count": 10,
   "articles": [
     {
-      "title": "[포토] 미소 짓는 이재용 삼성전자 회장",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE55R0gyZ2lPeFgxWGtpZEZEcGduS0dsajJTSURhTmFuMGxjSnF0THpjQ3dDaTY4VlhPZHd0Z1MxSWpVMHdOc1doVnh0UG5xVjZPeC1OTmI3Wk9HUzVQbldZYksyaG9DZ1luemc?oc=5",
-      "pubDate": "Fri, 03 Apr 2026 14:59:00 GMT",
-      "source": "천지일보",
+      "title": "[주간증시전망] 반등한 코스피, 지속성 시험대…삼성전자 실적에 주목",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9BMWR2SDA0eTlOaFNiRUFYQ21zZmh1M0wzUkFRZmxDc0swb21vWWNzVWlHYWlmQ192TkxlRkxRUms1NENpSXFad1hQQzVwMG8?oc=5",
+      "pubDate": "Fri, 03 Apr 2026 21:00:27 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전자 탈(脫) Arm 신호탄…오픈소스 기반 SSD 컨트롤러 독자 개발",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBycmVCT3BkdjRmVktzX1JoUHZwSDl3RnAycGk0TkNaUHg5REw2QjRualdqX2xHdHd1eldyUm1CMDhPLWRsOFhGMXA5bFNfdw?oc=5",
+      "pubDate": "Fri, 03 Apr 2026 21:00:00 GMT",
+      "source": "전자신문",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -16,35 +29,74 @@
       ]
     },
     {
-      "title": "[포토] 한-프랑스 경제계 미래대화 폐회식 참석하는 정의선 현대차 회장",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1zM003NS1FaFpBUkhjaUdlbTFKLVlOYkV6UmJudVFRWEduY1QzdTBsOUJzcHB6ZUhlUFN4X2RMU1NXdTRWOVAwUWlESFkyLUFZcm9UQmpmWlJqUk9qbGRJTUNUNDRJQUZIREE?oc=5",
-      "pubDate": "Fri, 03 Apr 2026 14:59:00 GMT",
-      "source": "천지일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "추미애 경기도지사 경선후보, 용인 반도체 클러스터 용수 확보를 위한 하천법 발의",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBvdWNLSmd3QnNzY1lLRjhlMzZrdmc4MFAyazYzU3FwUGkwLVdLQnAyNFNrejJHZEdVcFFwWVlTWjZKNFczMHNRcHdUX25uTW12elU1bE9OdHdkNl9nWEdXdA?oc=5",
-      "pubDate": "Fri, 03 Apr 2026 14:52:14 GMT",
-      "source": "한국글로벌뉴스",
+      "title": "이재용·정의선, 佛 마크롱 만났다…반도체·수소 협력 확대 기대감↑",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9kblNWLUg2VmtQaWFza1hMQmo2NEpaMXZIS1ZfVy1uQ3BvQkFhYk84QS0yTGdrOVd3eFZBaFpScHJWLXdBamR1RTRUN2dlQkhCNFpaUy1KYUdQRHgwNkhrYtIBeEFVX3lxTE5Cbl85X3RQeFhsMkFCVktERTVPVWgwdGdiM3A4RHBNNWEzSnhZc3YwQThsenlQaGQ3bnNSN2Y3bFZ5MzBKVjl5cl9qRXlPUXN4S3JMUGZhTUtFVHRNbGs1cmg5aVpIaGtEb3l6X290T1VUOV8zQ3I0Nw?oc=5",
+      "pubDate": "Fri, 03 Apr 2026 21:00:00 GMT",
+      "source": "뉴시스",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
         "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전자 분기 영업익 ‘50조’·LG전자 ‘역대급 매출’ 잭팟 예고",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBWUGNiZ1JDLWx3NmZFUTF3c1lfZ3JqMHU4Yl9wcHBqUzk1OG1NNHp1bWZiMlRRbHRxLUZPR0gwMV9TV3NSQVhOMzNjbm9abU9TY3ZISFhxazk4aXgxQVZVVS1saVhOWXc5eU9iYW8wUkvSAXRBVV95cUxPQUVhanJKR2hleXNyLTVwSmU4cnI4bzgxbWM5S2JCa3RWb19fV1liNzlxOFJVTU40Q25GbWE3eEZ3VGtRUHZVMVpQN0x5TG0wUWo5ZWVWbmV5REwwb1ZUdWVSd2t1WEFJT2tBb05GUXRlcjFnWQ?oc=5",
+      "pubDate": "Fri, 03 Apr 2026 21:00:00 GMT",
+      "source": "IT조선",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[인터뷰] LLM 추론 특화 AI 반도체 설계 회사 하이퍼엑셀… 이진원 CTO “GPU 대신 비용 절감형 LPU로 승부” - 조선비즈",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPaERTQTZVeVc1bW1yRG50dHNraWZFREVmdWhiM0tzRHI5ZHk0U2pHSmY1dG80UzhiNVRXeV92VlJUaUVITkJzeUxZREY2MkVWTk03a0ZvbmNGYTJMb3pZS1RENUhPbjZ1b0k2STFuY2JYeXVCcW93YWpsR1NPNDdCS1930gGWAUFVX3lxTE5uOElwTFlnZXN4TExXTGVTR0xZU19GSUxRVjIzZFJzeUpHMVVQRUVrUmhyNlhRV1B0bzE3Qzc3cGJRbzE0RHI2V3BvcUo1OVZlWDhGNDRHaGRxd2lZZVhhZm5KN0pWeXRFSkNPYnN4N3ZhQXhMM3VWOS1JUS1IYi1nNTREMjRLdmIwVVNUMy10aHJDdXZ3UQ?oc=5",
+      "pubDate": "Fri, 03 Apr 2026 21:00:00 GMT",
+      "source": "Chosunbiz",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "반도체 호황에 부품도 ‘훨훨’… 삼성전기·LG이노텍, 1분기 장밋빛 전망",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB5RUFkX2ZIbGwxUlNtTTFpcVFlOFZURHdnMC1aMWROcEx1S1JldEpwSTF6aTZVTGlpTFoyVmdyd1Q5UmhuMkt2WHFUeGhWTXpwVzRhSWxUanZQX1dCNmU0NFNTajJnckZPY1BOcU1vUjjSAXRBVV95cUxNVHp3R1d2blVfOFlNa3llVHFsOWZGUlNWb1lsT21DUGtvZ3p4OXVPalkzOVFkUHZ1VXdjM3VFMFdnazJURkF6Mm9vWDhIbHpGTVoxX2xXS3p1NkhpdzRvWmY0eWVTZHhWU2tJclV3UGdoOGxIUg?oc=5",
+      "pubDate": "Fri, 03 Apr 2026 21:00:00 GMT",
+      "source": "IT조선",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "블록스트림, 비트코인(BTC) 사이드체인에 양자컴퓨팅 대응 서명 도입",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1uLXhWd3oxUFNlbWRVWGJJRjBmSndZaVpxU0VJQUg2TzBQUnJmc3UzajBjcWFIV01wcE9oVUprU244YnpuWFRkYTNpZmo1eGY3?oc=5",
+      "pubDate": "Fri, 03 Apr 2026 20:18:49 GMT",
+      "source": "블루밍비트",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
       ]
     },
     {
       "title": "삼성전자 DS부문, ‘상생협력 데이’ 개최..“반도체 생태계 강화 총력”",
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE51R1pkNTBoano0Vl9aNC1VU0xEZnVkYkVnNWtna0xlVmJ0QXhFQWZJaGJicEZ3bHVrRlpYZnJtcVNjOXJOUE9QM0dfMDFHS3VyeDhfdXhzR1dFQU9FeTlGVGhGREs0Tk1MYWZySzE4cUlNcDc1WFE?oc=5",
-      "pubDate": "Fri, 03 Apr 2026 14:09:12 GMT",
+      "pubDate": "Fri, 03 Apr 2026 20:10:29 GMT",
       "source": "dailycar.co.kr",
       "category": {
         "label": "📋 GENERAL",
@@ -55,81 +107,30 @@
       ]
     },
     {
-      "title": "오늘(4월 3~4일) 암호화폐 시장 동향: 비트코인 ​​폭락세는 끝나는 걸까?",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPZHFDMDVRSTN3dkViSjN3S3pob3VCNHpQWWl3Y094YkR0SldVWXZ5M1RuNmNGOTZkMEJFdzBGYW1RdHRJUEZ4aWVRbkNmcXkyblRwQkItaDRNb2oydmFGbVdSeFJuNE5LQ0h4dTZDVV96YTJzd3haYXcyNTc5NUZZYjlVLVl0YXVyWi1rQzN2VWpXNUJp?oc=5",
-      "pubDate": "Fri, 03 Apr 2026 13:56:26 GMT",
-      "source": "Vietnam.vn",
-      "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "성남산업진흥원, ‘2026 ICT 융합 협의회’ 출범...K-반도체·AI 메카 도약 박차",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5RdzA2SURNc3VJbGVla1hOcERlU3JRT1BuYkdtRExGdjhiVkZGYTlwU01raTVESDQyNlhzT01CWFpPdzNFLVFvNFkyUzBmQ21PT1RieVJXYlg2RWw2RlJUZG1QaFN0b0tjSGM4?oc=5",
-      "pubDate": "Fri, 03 Apr 2026 13:34:27 GMT",
-      "source": "투데이경제",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자, 상생협력 데이 개최…전영현 \"동반성장 이어가겠다\"",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQeGRuSDF1cHRiZW5ETmZSN25pR0hmQncyUzVNekFmSmxWOFlVamlTUW9YeGZnSG5ELTlTMHE1SGZwNk1XSFFzcmJoM0gwZ2lQeXMzYkh2M1l0Uy1pdkQxNWpDSmlsbm12YkpwRFdZTXk2QnlfTFI3NWxTVUVNalhZRml4Smx3UQ?oc=5",
-      "pubDate": "Fri, 03 Apr 2026 11:32:52 GMT",
-      "source": "글로벌이코노믹",
+      "title": "미국의 정치적 혼란과 급등하는 에너지 가격 속에서 비트코인, 6만 7천 달러 선에서 등락",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPaHFBSUluWU5QbG0xWG1waDBycEl5UG13bjRBV3hwYk5lbFk3YkozM3hPaDRJNmVZYVo5ZGtFeTJ5Z3JaeC1NOXpFUVVxeGpUaWM1bmZYUHRkV29TRGpKWURxTHY5eGI3S0ZNM2xYWHRJMGN4cUY5SnNobDBma01SejBjTzVtWm0yZEF2ay1PZkRQU1c1RnpYWTQ5ZWNxMnUwdGFJREkycFZtQ25xMUI2S3ZHZjV4dW5wUFZuNTNRcnNJN2ZwTnNqS2E3Vy1yTldwc0V4TTlmbkFIRDBMZFRuVw?oc=5",
+      "pubDate": "Fri, 03 Apr 2026 18:57:17 GMT",
+      "source": "Bitcoin.com News",
       "category": {
         "label": "🟢 POSITIVE",
         "color": "#4ecdc4"
       },
       "impacts": [
-        "삼성전자"
+        "환율",
+        "BTC"
       ]
     },
     {
-      "title": "산업통상부, 프랑스와 핵심광물·반도체 협력 강화",
-      "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE01OF91a3V0OFI4bzhZWWVmbnd3OEo2dkR1bDdfTmh1RllQdlQxRFZoNkJ2T1JQNTVkSGlpTVpmQkRRZVBG?oc=5",
-      "pubDate": "Fri, 03 Apr 2026 11:32:00 GMT",
-      "source": "케이에스피뉴스",
+      "title": "피델리티 임원 \"금 투자자, 다시 비트코인(BTC)으로 이동\"",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5oQWZjQ2FEdnhSSUNwNTFYd2EyUnZxanBQZkF0a2FURW9lUjhPRjdFVXlqcTZicjMtajNrcHloOFc4YklKLTFSQmhaNTNTMjVX?oc=5",
+      "pubDate": "Fri, 03 Apr 2026 18:47:12 GMT",
+      "source": "블루밍비트",
       "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
       },
       "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자 DS, 64개 반도체 협력사와 '상생 협력 DAY' 개최",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5TYVJEX0dTdFhuUFpqeUFvZWZaZ01ieHAxVHVQbmY1LURrQ3lKWG54bGRGUGl1WGY5RGEwS3JHOGg4Y0YtbEZtUFM3Ny1odw?oc=5",
-      "pubDate": "Fri, 03 Apr 2026 11:16:30 GMT",
-      "source": "etnews.com",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "佛 마크롱, 이재용 등 韓 기업인들과 릴레이 회동…반도체·수소·AI 등 협력 논의",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9zSF9VeEVpdDZmbjhsZGpaWUhobG9EdExsMndaQUFvYnRBSm4yTmJKdXZQTzFFbm1WZjkyV0ZKam5pNTRGdHF4ejVtN0tWOFBHUExsanBn?oc=5",
-      "pubDate": "Fri, 03 Apr 2026 11:09:38 GMT",
-      "source": "헤럴드경제",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
+        "BTC"
       ]
     }
   ]
