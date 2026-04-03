@@ -1,7 +1,73 @@
 {
-  "timestamp": "2026-04-03T11:41:33.453440",
+  "timestamp": "2026-04-03T12:12:05.011027",
   "count": 10,
   "articles": [
+    {
+      "title": "박왕열, 마약 131억 유통… 경찰, 비트코인 94개 추적중",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFA1dVJYT1NycFZyMmktUEZBU1o3N052ZTJMc2xfRUtBLWduTXNtX3dFZkd4YnBvSTU3Y2VST21wMk1fSjN6UkdlbWZzX3JXbS04?oc=5",
+      "pubDate": "Fri, 03 Apr 2026 03:06:30 GMT",
+      "source": "문화일보",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "K반도체·디스플레이 ‘유가 쇼크’… “필름·적층판 등 원재료값 30%↑”",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFA5NnBZSUxSd0FoUEhteVRlZldSdVhHWmd3TFE3UThpV0pwOEJTSXpQMmwtb0Q1SkF2aV8yVXRpdDc4amZnTXdwTTZqWDR5Y25W?oc=5",
+      "pubDate": "Fri, 03 Apr 2026 02:55:06 GMT",
+      "source": "문화일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자",
+        "원유"
+      ]
+    },
+    {
+      "title": "안산시, ‘청년창업펀드’ 2호로 로봇·인공지능 반도체 유망 기업 2곳 유치",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1kdlZkSElwTUhjeGF1YlVhZFFiZWN0SHlrRGNxLTRXWm9XOGRWeTgxSWRIY3B3aFNWN1hlV1ZBakJWRUduR25jWjJQSGJWYUJHblp4c1BhSF9WdXM?oc=5",
+      "pubDate": "Fri, 03 Apr 2026 02:54:00 GMT",
+      "source": "KBS 뉴스",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "비트코인 ‘올인’이라더니 전량 매도… 지니어스 그룹, 부채 탕감하고 극적 흑자 전환",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9mc0g2MnZEN3lVMEs3NXJJRnZEQTdBQWdCMFhYTHMwRUhPZWtzTzMzNDExeTNjLU1wLVFnMGZibUJveWtTa193UUdmNmdhWV9LazJ1ZkVlUWQ0Sl9hdmF1SlhlTVcyUG9xNG81Vml0TldFQktRX0E?oc=5",
+      "pubDate": "Fri, 03 Apr 2026 02:50:19 GMT",
+      "source": "블록체인투데이",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "삼성전자 ‘노노 갈등’…DS로는 임단협 과반 통과 어려워",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9lSk5Jckx0dkRhUkd5SkZNQ0JGdTQ1XzMtcm5VMUhJb1Jibi1RTjJtLUtpVEhtbENTLXlJcGNjampEb1RhUWl6X3ZuRGJ0OW1oNEpCYnZnLXBmXzFWR1U2VjZBQ3NTbzZmM0dtVklQVHRUTkV1?oc=5",
+      "pubDate": "Fri, 03 Apr 2026 02:40:31 GMT",
+      "source": "부산일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
     {
       "title": "[다음주 경제일정] 삼성전자 1분기 실적·한은 금통위…美 성장률·CPI 주목",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBSVEkzY0lDbk93R09zelhCZVAwMzRLZVhQbjhfQnBvcEFLMGxNODhRUnh3amp3eEdibWd4b1RXNW9QVThOSVV4UWk4a1cyYlk?oc=5",
@@ -10,6 +76,19 @@
       "category": {
         "label": "🟡 MARKET",
         "color": "#f9ca24"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "현근택 \"용인 반도체 이전 절대 없다…임기 내 삼성 1기 팹 가동\"",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB1TlYyTE9weFdicHhWc0JCVFhJZHpjUnc4MnBBcWt0MThHbzR4WVAzSDhyZmdXdVZkTG1fcThsMEVOS2diNHdZOXdmdkktMDN4MHFHT2hB?oc=5",
+      "pubDate": "Fri, 03 Apr 2026 02:28:20 GMT",
+      "source": "뉴스1",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
       },
       "impacts": [
         "삼성전자"
@@ -45,93 +124,13 @@
       "title": "[AD]현대차 ‘볼더’ 첫 공개…미국 픽업 시장 공략 신호탄",
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5Xb1RJZzF2Y1djdmdqODdJQTYwR1BWWFgxOGNDT0otc09BcEQyRTVOX1F5a052WHdWWDdNcWFSbndQREk1TFpCWlRWME8yNGg5aW1uR190VUhSR1o0ZVREcjV0UTFIaDVM0gFrQVVfeXFMUDNWMEJGSUJsekY0UThNVXkwVmtxWkQzTkpVT2lGX1d4M3JDOFZxcHZxYTlyR1d1WjZBZTE4Vl9YREhhUXhpVkdOMHFzUHhVQ2Y1di1YVGc0T3cwd1hUOEVNazQzbkxZVzhaMnc?oc=5",
       "pubDate": "Fri, 03 Apr 2026 02:20:04 GMT",
-      "source": "nongaek.com",
+      "source": "논객닷컴",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
         "현대차"
-      ]
-    },
-    {
-      "title": "'1조달러 시대' 내다보는 반도체 시장…\"글로벌 투자 확대·기술 경쟁\"",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB6RjA3dXVmRWlETjdiYlJfdHBNLWVlRDZFUWJHS3dpZkRNY0dMVU8ydHZIc3dhSXgtOGxteXBsTHVXNWl5N1dxSlA5MEhrQ2JmaWFJWHhNbV9CNjZqQk1zSQ?oc=5",
-      "pubDate": "Fri, 03 Apr 2026 02:19:43 GMT",
-      "source": "뉴시스",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "환율",
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자, 美서 2나노 인재채용 확대…올 하반기 신공장 가동 채비",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1NZmQteDliV2taYk90d2FfOWFGUkx6cmROS3A0cXdRLXFFb1o5ejk0WHNMdEtXNjNxQlJueW4tVGdLTHAtaU83b3Q1NGh2ODNNY21DZmdqQzItekU4TnpLUtIBeEFVX3lxTE1RMlVxT2xTZngyT0Z5bTdDaDMwWmkxTWwzR1plM29GbFFUeXh5cDBSb05VUGplZDNxOHB6OUJKbE5XbGJYN0RfR01nTkZjWDcxMjNHbnZRWDM0REdfM1dqR004c3h6N21jWjNscm1BVUhSUDVsTWRhdQ?oc=5",
-      "pubDate": "Fri, 03 Apr 2026 02:14:57 GMT",
-      "source": "뉴시스",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "현대차, 2026 뉴욕 국제 오토쇼서 ‘볼더’ 콘셉트 세계 최초 공개",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBXMHNOb3I5SGxmb1J5V2N0LUQzRTJjNjd6c2c0YmdQOTQ3d0tLclZTVHhTblQzcEVNMHQ5Qkd3ZUw2Qjk5ZnNyQk95a1FhcWxxNlRMXzdGSW1yNm04cTRxZjJjLXJWWUZmb2c?oc=5",
-      "pubDate": "Fri, 03 Apr 2026 02:14:37 GMT",
-      "source": "모토야",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "\"현대차, 엔비디아와 AI협력 주가 재평가 진입\"…\"네이버 주가 하락 과도\"하다면서 목표가 하향 [株토피아]",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFAtMngzREhjNnJLaHVNMERZN2tNSjBJaExYbDNGSS1MYnh3TmUwVVc2SW42WUlPb21qYkQ4Vnh5WGRKT1YwMFRQaVJaV01wak0?oc=5",
-      "pubDate": "Fri, 03 Apr 2026 02:11:01 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
-      },
-      "impacts": [
-        "NVIDIA",
-        "현대차"
-      ]
-    },
-    {
-      "title": "현대차, 수소전기버스 누적 판매 3,000대 달성",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE50NnI4ejdBMGJ3N2hlZEx4a2drN3hYdG1SSVNBMkM4SHJsWll4aUlPSnRYbWpqSGo0bnpxWGxqNFNBQi01U3AxOTFkTjV1MDRNZF9VWkFVSFNjUldVMEJhdUN3YWlRUHlxRmc?oc=5",
-      "pubDate": "Fri, 03 Apr 2026 02:08:07 GMT",
-      "source": "모토야",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "[금주의 이천시] 반도체-이천시 30년 동행, 또 한 번의 도약… 테크센드포토마스크㈜ 2,500억 원 투자 확정 外",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5Pa3RzWlZqUXRPTEhUNVVBOEp3UlkxUDhrZU5BYmpxZURzTENBY0Y4c0JYWkZtd1g2WlBTcFZkODNQelVyMmVDX0dmQ0oxYm8?oc=5",
-      "pubDate": "Fri, 03 Apr 2026 02:00:10 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
       ]
     }
   ]
