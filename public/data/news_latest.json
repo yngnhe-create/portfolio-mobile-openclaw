@@ -1,7 +1,20 @@
 {
-  "timestamp": "2026-04-03T12:17:04.711534",
+  "timestamp": "2026-04-03T12:42:35.082316",
   "count": 10,
   "articles": [
+    {
+      "title": "용인특례시, 반도체 클러스터 진입로 ‘보개원삼로’ 전 구간 임시 개통",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9RRmdKMm55SUpHV1pkamxxa1dIR29DNGhkNkhpb1RZSEFEeHQxNjVDYWQ0Qy0xdkNlLUo2Z3F5Z3g5UWRva1ZnaC05bUI0d0s1ZVl3MldST3VoS25VUnJ2d1p3?oc=5",
+      "pubDate": "Fri, 03 Apr 2026 03:31:50 GMT",
+      "source": "경기신문",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
     {
       "title": "박왕열, 마약 131억 유통… 경찰, 비트코인 94개 추적중",
       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFA1dVJYT1NycFZyMmktUEZBU1o3N052ZTJMc2xfRUtBLWduTXNtX3dFZkd4YnBvSTU3Y2VST21wMk1fSjN6UkdlbWZzX3JXbS04?oc=5",
@@ -38,8 +51,8 @@
         "color": "#8b9dc3"
       },
       "impacts": [
-        "삼성전자",
-        "원유"
+        "원유",
+        "삼성전자"
       ]
     },
     {
@@ -60,6 +73,19 @@
       "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9lSk5Jckx0dkRhUkd5SkZNQ0JGdTQ1XzMtcm5VMUhJb1Jibi1RTjJtLUtpVEhtbENTLXlJcGNjampEb1RhUWl6X3ZuRGJ0OW1oNEpCYnZnLXBmXzFWR1U2VjZBQ3NTbzZmM0dtVklQVHRUTkV1?oc=5",
       "pubDate": "Fri, 03 Apr 2026 02:40:31 GMT",
       "source": "부산일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "'트럼프 입'에 요동치는 삼성전자, '20만 벽' 갇히나",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBvVWVfT1hoWmc5RmJzUEhwWURDRGRXVVJxRmRGRm0xcHRQSTZGcndTenBra0VrTVdvUEpqOEtSSXFMM19DOS1YU1hDdUNVcGdqSHFOOElBa2R4Z9IBVEFVX3lxTE9JRmptMUxpYkJwQWdxWGxobldOSURrRjJ5SnM5QnhzaGF6SElSWm5EX1F6LVppSE9KV1RxWmYybGFCaDNEMFBrSk9TTkdnbGRGVllDcA?oc=5",
+      "pubDate": "Fri, 03 Apr 2026 02:31:37 GMT",
+      "source": "더팩트",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -105,32 +131,6 @@
       },
       "impacts": [
         "삼성전자"
-      ]
-    },
-    {
-      "title": "서클, 래핑 비트코인 'cirBTC' 출시 선언…'디파이 담보물 시장 정조준'",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBoc0tiVTdFVHZHMTh0TzQyRFdIa0o2VWcxWENsVE1DSVUwM0gzek1Hb0RELUx1aTRLTktscHlYYngyLTkwelo2QkpXY3ZpNUJsTWN1bTQ4TmZLWi1FRW9aMnJ2VGRnZ9IBakFVX3lxTFBSSWNqNUpJenRaaFl5aEJkOWRqUnRYOU8yUGg4MFVhUDExY0RfN3RFTUhFYjVEUnFxR05sek1CR0dnZnhlNHhTLUtVYmhRU3FFMG1EUlRTU0pjS0VBc1VPa1FhbDRRRGNLS3c?oc=5",
-      "pubDate": "Fri, 03 Apr 2026 02:21:44 GMT",
-      "source": "테크M",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "[AD]현대차 ‘볼더’ 첫 공개…미국 픽업 시장 공략 신호탄",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5Xb1RJZzF2Y1djdmdqODdJQTYwR1BWWFgxOGNDT0otc09BcEQyRTVOX1F5a052WHdWWDdNcWFSbndQREk1TFpCWlRWME8yNGg5aW1uR190VUhSR1o0ZVREcjV0UTFIaDVM0gFrQVVfeXFMUDNWMEJGSUJsekY0UThNVXkwVmtxWkQzTkpVT2lGX1d4M3JDOFZxcHZxYTlyR1d1WjZBZTE4Vl9YREhhUXhpVkdOMHFzUHhVQ2Y1di1YVGc0T3cwd1hUOEVNazQzbkxZVzhaMnc?oc=5",
-      "pubDate": "Fri, 03 Apr 2026 02:20:04 GMT",
-      "source": "논객닷컴",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
       ]
     }
   ]
