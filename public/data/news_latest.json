@@ -1,7 +1,115 @@
 {
-  "timestamp": "2026-04-05T00:20:09.837158",
+  "timestamp": "2026-04-05T06:20:43.206226",
   "count": 10,
   "articles": [
+    {
+      "title": "삼성家 12조 상속세 이달 마무리…이재용 '뉴삼성' 체제 본격화",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE8tVkxRX3JtRlBMdmRoNlIwektmU3R5RlM4NUt0Snlvc2NSZ3FXRDBOM3N6Nks5eDVwNnNNc0FSSExEd3RIN0V2ZW5haUF2M0p1MExiSHRUOVY0aXdzYklGamlNWFZZRGxpMklBSmlGR1E1dFBN?oc=5",
+      "pubDate": "Sat, 04 Apr 2026 21:03:00 GMT",
+      "source": "연합뉴스 한민족센터",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성·LG, 1분기 성적표 나온다…'반도체 효과' 속 사업부별 희비",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBvOG05X1RZNUQzZk1CSXpVdWpqWV9sMzg5ODRNaXBhNnZoeEhKVzNXbEt0c3RUT184cXZzcm5XT1lUNE5EN1pzT1BMbGVQMW4zZ29R?oc=5",
+      "pubDate": "Sat, 04 Apr 2026 21:02:00 GMT",
+      "source": "news.nate.com",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "이란 리스크에 널뛴 코스피…이번 주엔 삼성전자·물가·금리 주목",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFAxeXI4eFNHS3drZXdZb244TzN1Z0ozREV6dFdOenhCM2xUTm4wU0Q5Yktka2dKbGp2MU1rVTktVVZzNW9tOF8tQmlSWlAxSXBDNkVF?oc=5",
+      "pubDate": "Sat, 04 Apr 2026 21:01:00 GMT",
+      "source": "news.nate.com",
+      "category": {
+        "label": "🔵 MACRO",
+        "color": "#0984e3"
+      },
+      "impacts": [
+        "원유",
+        "채권",
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "K휴머노이드·반도체커버드콜·삼전닉스·美AI전력 [이주의 상장ETF]",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8wWGtyVGRkWVc3X2xObnB0VTFUdEc3anEyZ3R0OVRxUjhGOU9lQVA0SmR3WnNRXzR5enRFaEFEcUVidTlKNGhiZE5HdmR0SGlFbk5mWFN2WVhWa09XeVRZYnJlZkRpU3dlVHg2NlRYRnXSAXRBVV95cUxPS21sTGV2MS04UFBqeTNYNndrZDdsSE0wUDZMWkFtXy1CSE90QVNWWHFBN2ZvX3NMeU1HQmlQYmNkNV9IRmJkeHQtTkxTMk1XTW9IQzVOQ2VnWjVhU0IxUlBTbjdGVGxKNFRubmI2RmZ1VkpSZw?oc=5",
+      "pubDate": "Sat, 04 Apr 2026 21:00:00 GMT",
+      "source": "IT조선",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "트럼프, 이란에 48시간 최후통첩…비트코인 6만7천 달러 선 유지",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQRHQ2cjZRN3A0ZzVya0EwSmtyVThDcDhtR3BmMjFUUXVZOWpHeGZPeTJJdjJMMnNTdzVoSjl4VURuLUJqbmF6Q2F4U0NYXzFqQkxLMTZ4QlotclFWSWpBOWlpTEJhdkhwQ0RDYWlyaFZwa05SVXlfelNfbzVaS2hZNzlhbXNDYkxVaEN4RVYtRTZlY1kwX04xTGt0c182cXhYR2dWQmpIX0E?oc=5",
+      "pubDate": "Sat, 04 Apr 2026 20:23:31 GMT",
+      "source": "Bitcoin.com News",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC",
+        "원유",
+        "환율"
+      ]
+    },
+    {
+      "title": "중국 반도체 자립의 핵심 열쇠, SMIC[차이나는 중국]",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE93RzVKb3VqaXJXUktxbE1ZcWE3NWFaSHl2cHlja0J2U3NFQW12NFdqX0JkX2VpTmZQUENsVDFSbGNob2lkbkpwWUJsM2IyTGlRZ2Qw?oc=5",
+      "pubDate": "Sat, 04 Apr 2026 19:00:00 GMT",
+      "source": "news.nate.com",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전자, 협력사 스마트팩토리 전환 전폭 지원",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBKZkhXdHJiRFhnVTBTSm1jM1lVWllvQURnNlVoakVYaTBNQjM2RTcxUEsyZzhJQmNSS01kbGU3bW5DTG5QelFvdXhWV2hjUXM?oc=5",
+      "pubDate": "Sat, 04 Apr 2026 17:47:45 GMT",
+      "source": "sisadays.co.kr",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "성남산업진흥원, ICT 융합 협의회 가동…반도체·AI 경쟁력 강화",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9TLU51NXhGQ1RXeVc3cDFSU2xUOFdka2hSMVkzc1JNdHBIZ1lTRlBFZmZBTEdlT1B4LXBya0pMdC1mV1MtbmhzZE5VWEJBdw?oc=5",
+      "pubDate": "Sat, 04 Apr 2026 15:59:53 GMT",
+      "source": "전자신문",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
     {
       "title": "비트코인 7만달러 아래 박스권 장기화…상방 돌파 vs. 약세 심화",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9aeDZLRUpwTU15cGRxalVBczdiSGdCOFpueGVYdGhneTlIQU8xeUtmTm5pQ3ZPWlpWN1N5NXZqUlYxQ3RjcHBYQW13MHg0NVN5MjYyVVF5XzBSY053cGVIRmNlTXExSTRhNUtCZ0NCNXp1QlU?oc=5",
@@ -18,117 +126,12 @@
     },
     {
       "title": "\"누가 요즘도 비트코인 합니까?\" 실적 부진이 영향 끼친 네이버·두나무 합병 연기",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBtbWZ2ZUJOVVl0RWVmUnNxeWxGTXhueXRfaXhZVVdCVnhwVFZkd3BuelF2b09QdEMxZjFFMWZ5Y29wYlNFYTFIUUgtT3FfTHN6ejZ3S0pnR2hyUEZORkE?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB4SEYyN3JxdUxqSWl3UUh6N3ZUdUcyU0hNMEctVVJ2bUltczhnaGRSeGZJNXp0ZmhYYVlKNDZwY3ZlZEEtVy1hb2ExVjlYbnQ4cTN4YVdkZ1BDNDhiMjFRR3JEZw?oc=5",
       "pubDate": "Sat, 04 Apr 2026 15:00:03 GMT",
       "source": "더구루",
       "category": {
         "label": "🟡 MARKET",
         "color": "#f9ca24"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "트럼프 대통령의 ‘석기 시대’ 발언, 잠자고 있던 비트코인 고래들의 움직임 등 – 이번 주 주요 소식",
-      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNX0w1Z1hpOTllM0d1Q3E5aVhKdEJwZWlPM0RLWXJPc0N0Ylc3M1FyS0x2eWN6ZFoyRWFIVUtRVXhpaUl0cFl3eW1zSl9MQmVWV3MzQXgyamQ1MXhNQkpUQ3RuamUyaGF4X0NGVWVtODJQT0sxNWF2ZllHRVVkb3Q3RTNFaDNITi11eTJQNFJBM09va2RqYkIwZEVNbEFmcFZHNWQ0WUVJam9vWE9uQUhyVC05ZEp0R0MzaFV3U3Y4MmZOeVhrWU0xd1EtUWFDbmJxVTByWWNObnJDZy10cDV2MQ?oc=5",
-      "pubDate": "Sat, 04 Apr 2026 14:50:11 GMT",
-      "source": "news.bitcoin.com",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "\"반도체 실무 인재 양성\" 한국공학대, '반도체특성화대학지원사업 설명회' 개최",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9Id25VSzRydlQwbHFjNDVWdmNTWnJJcDVJYWd5Nno5SEk5ZU1Lb2RPSWlIdENkdzFCVnU5aHVfbUw5ZVJPV0tQX0U0RzhaTmRIUDhRVVM4SlZGU3U1THFFV3luV2d1b2Y3SFE?oc=5",
-      "pubDate": "Sat, 04 Apr 2026 14:49:48 GMT",
-      "source": "컨슈머타임스",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "한국공학대, 반도체특성화 설명회 열고 최대 700만원 장학·실습과정 전면 소개",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1LX2p0Y2VZRnFjVWhnQlRncE5NRU5hQTNOeS1NS0xlX3BaMVNNbVBKaW5xcVNJakwwLWJ5RC1hdktfTWpiNjQzRFJ3Wlh0UQ?oc=5",
-      "pubDate": "Sat, 04 Apr 2026 14:36:08 GMT",
-      "source": "전자신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "지금 훔쳐서 나중에 푼다는 해커들…퀀텀시대, 내 비트코인 지갑은 안전할까 [더테크웨이브]",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8tTXdCRW1vcmNFNng0RGRiOTBOXzhJaVg4NHl3X3prcEtIcGpSa1NJZGJ4aEhadjFxb0JRS2p0OE1OeklVN3VKTmo2MWdGUUVGeW1B?oc=5",
-      "pubDate": "Sat, 04 Apr 2026 13:25:00 GMT",
-      "source": "네이트",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "비트코인, 약세 기조 지속되며 6만 7천 달러 선에서 보합세",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQU0F5Q0FiQWdFSGRiV1BNSjVZVEpWb0U1aTNWcTVLa1dXN3B2TGFGR1BtZHh5Sl9NMkdodUlUZkpDTmMyWHB4VXdFSDJtbUp6cHJqQWlaZHBCYWszX3hfOEhtMHE2M2tTZDV6Z1RPa1ZFLVB0ZHJGeGRpRmlacUM1TW4zLW9BUndnT0o2RWU1SVdKUVl3aHFBbjc5WU1uck8tc1E?oc=5",
-      "pubDate": "Sat, 04 Apr 2026 12:57:00 GMT",
-      "source": "news.bitcoin.com",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC",
-        "환율"
-      ]
-    },
-    {
-      "title": "내부 수급 말라가는 비트코인…ETF·스트래티지 매수에도 순매도 못 막았다",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE40VUpaZkM0cEpEbWR3UFBTSnFPN3M4VEZ3QjQwWTdEVHUzc05GLUNuVTBZd2lBYlJhdTNqcjlza2djMHlHZFpSemlHUjUwVVFhMWFuc05iZ1JTNEhiVVlBQzhRaEJaemJ0ZDNOQ1luc2U2b2s?oc=5",
-      "pubDate": "Sat, 04 Apr 2026 12:49:01 GMT",
-      "source": "디지털투데이",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "구글 연구진, 체인별 '양자공격' 취약 구간 정리…비트코인은 송금 중 위험",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE96ZFVWcUpuOEs3Vi1yRzJXcmptSTMwalBLOEhrZGJwOHFrS3FGTWRhSTJHT1hmWjU4WEV3VVJueEEzVHlNSHRqdFJ1ZDZiaEJKNGVV?oc=5",
-      "pubDate": "Sat, 04 Apr 2026 12:05:00 GMT",
-      "source": "네이트",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "구글 연구진, 체인별 ‘양자공격’ 취약 구간 정리…비트코인은 송금 중 위험",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1ubEFLZXZzU0Q2clFsYi1tU2RSTHhyNHljTEVFX1VvZzJ0UmdUaVlGa09DOEhFeWlzdXVzUEpQeEo3M2sydlhweklsRHY3WTRyd2V0M1c0TndZSDhmdncyQnM4Q21CdEF4REtrWGtxd0t0NDQ?oc=5",
-      "pubDate": "Sat, 04 Apr 2026 12:04:09 GMT",
-      "source": "디지털투데이",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
       },
       "impacts": [
         "BTC"
