@@ -1,7 +1,20 @@
 {
-  "timestamp": "2026-04-06T00:52:44.595656",
+  "timestamp": "2026-04-06T02:23:14.551104",
   "count": 10,
   "articles": [
+    {
+      "title": "'업무 복귀': 마이클 세일러, 비트코인 대규모 전략적 매수 재개에 대한 기대감 고조",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOWnhUb1Y4eWhVT3hkVHZYSkpLaHZhWm1LUUJtaUFvNm1RQ0NrMHNfZ3hVZUhmQ2tCQWdKV2FTdzVieUxTLVRFaUk4WnRHcjc3YXROZlpXRVZCOGF2MjZWVW5tcnd4all4aFYyMlEwT2RFUWQ0MXM0VU1CR015RXBDLVFsVVZjT3VUT01Bcm8zUjVDcEFObHMzODVlSjhFZl9IUUpjbExjVlVIVV9faUdMeFRMQjV4SW9YMGF6YTFvTzFVZ2s?oc=5",
+      "pubDate": "Sun, 05 Apr 2026 16:24:28 GMT",
+      "source": "Bitcoin.com News",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
     {
       "title": "삼성전자, 내일 실적 발표… 영업이익 50조 넘을까",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNYnJqT3FZcU9XWHpNai0teE51SGZQVldQX0lSRjF4QTg5WkUwM1JrODU2cnBSczBQVFdaZmMwWGRaZExCcW9NaUxaRGFkZjlDZXZNb0N5amVGYmIzcHE2X3IxX1Y0NzRXU2NneEUtTG1fdmhHcEJoQ3c3bmJrZTRBVm9VVdIBlwFBVV95cUxOaUxhSWEyM0tMNUNCUlZ2VHVJTmJnV3dJdzkzVjd5QlVfSnRwa1NBVGZiTFkyWXp2eXhhV25tb2FmNWN0TjIxT3AydHBkQmtLOWZtS0FJSFBLYk5KX2E4eTV2RFdJeUdrUm5QZWFPQ3ZuSGotUFNHRFpkSWxnS3Z5MWlmWm44aUp1cVFPQ2ViUzhSeTNLUWZZ?oc=5",
@@ -16,8 +29,34 @@
       ]
     },
     {
+      "title": "삼성家 ‘12조 상속세’ 이달 완납… 이재용, 반도체-AI 공격투자 주목",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE13SXplR0M5bmNVX1pMZ2xFQ3pMdmFZbnlXdmlCWHRwcDNEWmFYRlVwRDVTXzRNQlZRRWxWRGVSNmtpYU1GRjZWdGRnZGtIYnNsSVlEVV9XY3M0T1B2NjkyWnlKQTZnLTR5SVhLX2FIWHNwNVM1MXfSAWZBVV95cUxPMDYyZzFLbWtYUVhzZGFWV2FKTnhUY3lvdG9fd2w0R3p6Q0pWNjdFb183N0hwQjIwaFNHVzZ4SDFjRzg5YUphcXVqSEd4bjlxbGFkYzNZZ2FSUW1UMk1HN2hvQTJ5VkE?oc=5",
+      "pubDate": "Sun, 05 Apr 2026 15:30:00 GMT",
+      "source": "동아일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
       "title": "‘더 작게 만들기’에서 ‘더 잘 엮기’로… 반도체 이젠 ‘아키텍처 싸움’",
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBkYTlnNllWcGdyQ0V3VzI3VGU3NlRRTkZ5ZHRRaEd3cVJ4c1IxZnA5Z0phUkk2VF9jVktrNTdaTGNpWGRBM01TYkJhaWE0X2syRGZsZ1VnNE5LVURwald6dG10ZFkxbFJoanlrdVpZZ9IBZkFVX3lxTE9DWW1CSGhzWE9ZM0Z0Zlplb3FqU3JqTVZabndjUllKMWd2OWhmM1I3dkdZTzJPUktOQ193TDVfOHZXMGxYZHVKLVNsd25BUS1ESVU0VERNeFlpYWFIWGUwSFh2QUhsdw?oc=5",
+      "pubDate": "Sun, 05 Apr 2026 15:30:00 GMT",
+      "source": "동아일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "올 한국 수출, 사상 첫 日 넘어서나… 1~2월 반도체 업고 추월",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1Ub202REo2dzJ3cktmSzZmOVZ0YjRCS3RJRzl0Znl1TVY4aDZ2elZ6VG9USzhRaDJqd2xFMjNseG1HVnlPWW9BSjYwNmUyazB0ZFY4cU1vcW5rTENVY0s0TmVyaVFyZ09fcm9NTmZXejdCNGlPQUHSAWZBVV95cUxQcjBOZnZRME00YS1RcHd5TkdHTHh3clJYSzlFVndvTjdINzJJN24zRXlab0hTbUczRmUxcGdMQ0poOUwzeEExSmlBSU4yalhRRGRybnZUa3FySnRPVS1HLUhpZ1BTMkE?oc=5",
       "pubDate": "Sun, 05 Apr 2026 15:30:00 GMT",
       "source": "동아일보",
       "category": {
@@ -55,6 +94,19 @@
       ]
     },
     {
+      "title": "현대차 ,차량 구매 및 보유 경제적·심리적 부담 크게 낮춘 ‘이지 스타트 프로그램’ 진행...차량구매 최대 300만원 할인!!",
+      "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5OSm9yQnhBU1g1VW5nWWJZeHAwaVN6aVlpRHV4bDNGRFJpTkMxbl9wc05ZVzZQTmN1NjlZaTlqLV81UlAweHd1aEV3?oc=5",
+      "pubDate": "Sun, 05 Apr 2026 15:02:00 GMT",
+      "source": "국민뉴스",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
       "title": "현대차 ‘이지 스타트’ 혜택, 인기 차종 확대",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5LQy0wMDF1SUJiSnZKa0s0X25MNGcxbTBGSEZZYVp5NmRsUjJkcHF5OExaanJnRVF3ZHVnLURtclE0YkNhZHBnQ2xkcFd2RzlRTjRUUldFVXlIX2lBa2tEVXJtemV1RGZJd0FvQw?oc=5",
       "pubDate": "Sun, 05 Apr 2026 15:00:00 GMT",
@@ -68,19 +120,6 @@
       ]
     },
     {
-      "title": "서울반도체 와부읍 아동 위해 미래 꿈나무 장학금 전달 > 뉴스",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBsUnkzRFlkU294VngwWjYtckpjeXZuR2E5cjJsenlnci1HbzFCZGxiSk12UWdoMUE5Y25JVHJhdDRFNXZvX1VBSVhabWI2ODJvNWdROUxweDRDM21JREdET0FaS1R6N2FVUWJxc3RiS1Q?oc=5",
-      "pubDate": "Sun, 05 Apr 2026 14:44:00 GMT",
-      "source": "더코리아",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
       "title": "투자자들, 적극적인 헤지 움직임: 비트코인 풋 옵션 거래량이 콜 옵션 거래량을 54.87% 대 45.13%로 앞질러",
       "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOMmRWcUFySnJwOEpaV280aWF4SU5nN2F5VkxPM29MSlQ0bTh0RnlvbUZ2UFRvTS1NZ2VQb1VsclZXbTlxc3FCZkNPZ1podUlqUWV5SXhSWncxZWNqcThtRmthYVROWnlfTkoyMG5RcUJZdVkyeWh4ZGZvcEM5ekhxQ2FHUGo4SHZiOVhrSWtDTEx1NVFtMjFLbW8tVG9XVTlMTVlfSkJwMWprMTIxd0ZSWU01ajhHR3gxcXJySGkzTXAtRG11U1V1Y2RvcnBVZ0ZOc1B1d2kyd3FVM3cxWHRGM2w2OU9ibnplejQyQ2dxbHUzUQ?oc=5",
       "pubDate": "Sun, 05 Apr 2026 14:33:10 GMT",
@@ -91,45 +130,6 @@
       },
       "impacts": [
         "BTC"
-      ]
-    },
-    {
-      "title": "현대차 ‘아이오닉 6 N’ 월드카 어워즈 수상 “고성능차 시장 판 바꾼다”",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAxN0pGSmwxN1BSR3Vzc19PaU1aQzk2ei15ekpJczFRYUFOZ25vcDM5aDYzMkI1RlhSejBhQmsyY1ByeTBxMzlhN3B0SWFZWTNHSm5JVVpPenpxaWY2bkl2bzBXbUVQb3A3MWxZ?oc=5",
-      "pubDate": "Sun, 05 Apr 2026 13:55:15 GMT",
-      "source": "마일드경제",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "한국 AI 메모리 붐, 삼성전자와 SK하이닉스 전략 전환 촉진",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBPRVd3UFU3ZHEwR3RyMEtmYTVzTTIwUERtNGFRT1UwblNUXzhFQnBhQ0NHOXl2WU1HSWZpMWswLWg2b1BFN2pRWVdiLWZIaHZ1MXl3QjcySE1TYzFVZW5ZOTBSQ3NkU2dRT1E?oc=5",
-      "pubDate": "Sun, 05 Apr 2026 13:35:00 GMT",
-      "source": "Investing.com 한국어",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "현대차 2026 뉴욕 오토쇼서 차세대 픽업트럭 볼더 콘셉트 세계 최초 공개 > 뉴스",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8tNFdIeGx4bHpLN3E4bkJRaGt0QTVyQURqQW0yaVk1U3AyRUk1VXpnWGxYVjBWOWt5bk5meWlSNV9kYlJCemRiMjdRaTgtMGdTX0VaTnY0TzlSZ2tpMGx6Rk5MSGhrTHZESy16eFE3YzY?oc=5",
-      "pubDate": "Sun, 05 Apr 2026 13:33:00 GMT",
-      "source": "더코리아",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
       ]
     }
   ]
