@@ -1,66 +1,64 @@
 {
-  "timestamp": "2026-04-07T04:36:49.407578",
+  "timestamp": "2026-04-07T06:07:20.425133",
   "count": 10,
   "articles": [
     {
-      "title": "[단독] 현대차그룹, AI 규제대응 TF 신설… 첫 수장에 진은숙",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE12bjNZQWpDRHF3eGJyTVRsMUEyTkVseVJpa1NoSXZldmxIN1lnZHZCMFlBaDBMZWlsUTJkUGgtZVhXcDFpc1dOUWlELV9uUQ?oc=5",
-      "pubDate": "Mon, 06 Apr 2026 19:29:49 GMT",
-      "source": "dt.co.kr",
+      "title": "[10년 전 그날] 삼성전자 1분기 영업이익 '깜짝실적'",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5Nb04xTzJiNEttcW93ZG1YTG1ra2tGVkxybXctb3QzZ25Kd2JJVFRJajRCbS0zTUZfbFIwbkxlMnNJTEUzOU9mYWxQVy1rZjdVeHlGWUVCZ285X2hrXzNsOERWS1ZHakZtOTdhYzBR?oc=5",
+      "pubDate": "Mon, 06 Apr 2026 21:00:00 GMT",
+      "source": "전국매일신문",
       "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
       },
       "impacts": [
-        "현대차"
+        "삼성전자"
       ]
     },
     {
-      "title": "지정학적 불안 속에서도 비트코인, 7만 달러 선 회복… 전문가들 “시장 취약성 주의해야”",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOajBMNU1zVlh3djZVUVM0T0YweTVUSkphRk5nLUd0azZSeVdiVVYwcXNncUZZNURHek9pNHVITDdXbWhIak5ic2t4OVNqRmJ6cmx1NVFfYlNlQUZKRkt6eEJWV0NjQndhMlhqWXZfeGlhX3VrQ0lLZ1ZxTWJKVjFseTJzcHE3Z2pEMG9uVHFHdTVvR3B0cFNGbkt6Tlc5NXBsWmNvUXotSS1xaDIyaDdJTllOMGRHZG1iLVlPSmdkV2cwLW9NeUJqLVljOERfaVhTanpV?oc=5",
-      "pubDate": "Mon, 06 Apr 2026 19:26:51 GMT",
-      "source": "Bitcoin.com News",
+      "title": "삼성전자·LG전자, 오늘 1Q 잠정실적 발표…역대 최대 성적 '유력'",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1udjB2aWlqN3ZzTGVOei1lMjZEeTRicHp6VlBVYlI0cW5LM0RjMWNvRHg2R2ZXcHpvVjVQMWtiRnI0TUhfQXF6MTY0Vnd1MFgtNEQ3WE1kZzc1NnBTbWp3Rzh0X1o?oc=5",
+      "pubDate": "Mon, 06 Apr 2026 21:00:00 GMT",
+      "source": "뉴스1",
       "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
       },
       "impacts": [
-        "환율",
-        "BTC"
+        "삼성전자"
       ]
     },
     {
-      "title": "크립토퀀트, “개인 및 채굴 매도세가 기관 비트코인 수요 압도”",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9GZlhCNWxHbzBlbUNhRVAtdmc5bHlCTXlVRWp4b1lYbnFQOHUxdGpnNlo5UEtPWGVZX251VUo3QnFvT180bFEzVGZXNHZybFE5SkZaM1VrQTNmbEprZDhXTFlRa25QLVVxNXAtQw?oc=5",
-      "pubDate": "Mon, 06 Apr 2026 18:50:02 GMT",
-      "source": "경향게임스",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "“중동 전쟁·구글 AI 쇼크… K-증시 ‘이중 충격’, 반도체 흔들리나?",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNQ280Y3RnbEp2REFiOWRkakNlT2RGeUJqdGlrZHk1cUdwM0o5THJtQ1JzMlZwN0l2Sk1XU1dxYndwYzhxUUhiN2JQTWxvSFo1aEZLU1lPa3pWNlZuV3hobUROMjh4VzZOU3RVZkUybnVhaUdEU0FRTnh6RE1GaVVpV0dTYWRzaTg2?oc=5",
-      "pubDate": "Mon, 06 Apr 2026 18:25:00 GMT",
+      "title": "“반도체 70년 설계 금기 깨졌다” 위아래 뒤집은 삼성·TSMC 2나노 ‘후면 전력’ 패권 전쟁",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOLUZqdEFHTmp3a1JLUWxaLWpWdnIzRDhrQkhmbk0tRURSUFVKaFNOMkNaaFNCZ3dDeHdTNy1kanVTcFZ3ekJ3Z0RNSFF1ektsTF80QWhRejlKcnZxdW55ZTBvR3poN0lRaEVlSmhSMmY3Z1psWkExU1IxYXItTnlxLUJCSVhMWUV3?oc=5",
+      "pubDate": "Mon, 06 Apr 2026 20:58:56 GMT",
       "source": "글로벌이코노믹",
       "category": {
         "label": "🔴 HIGH IMPACT",
         "color": "#ff4757"
       },
       "impacts": [
-        "원유",
         "삼성전자"
       ]
     },
     {
-      "title": "150조원 쏟고도 자급률 20%대… 중국 반도체 ‘멈춰버린 10년’",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPbE1IUWlDTEFOMW00UDVGYkxGRXpGVERTVzRxWnVsNTRvZFhWNWIyQjJibjBPQ2dmQnZJeFNqRm9ObVlMX1dfYnhwcU5kck9kdFBzMDQ0d0czMFc4SGxkMkdTZzBJOU5QQUs0djgxMUU4WmxtYVJlcWV5LXVzaEZFZzBDR2c3a2NG?oc=5",
-      "pubDate": "Mon, 06 Apr 2026 18:00:00 GMT",
-      "source": "조선일보",
+      "title": "삼성전자, 오늘 1분기 실적공개…영업익 50조 돌파할까",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE44VTZZVExsNkxYLTIwU0gzUzlQUzdtRjlWX3cwdEF5Mmd2ODBaRXFrV2M0dHJmMktFVVhGM2NTRHNmTTMzYktrVWUxQ2kyM0k?oc=5",
+      "pubDate": "Mon, 06 Apr 2026 20:54:11 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "아산시, ‘AI지원 광반도체 핵심 부품 제조 기반구축’ 사업 선정",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBvYk44RDZSUmJIeDVtOTJTQngwWHVjX0FBUmdELWNXbGV0Wm5GU29wV2dUTjl6NGM0SUtqdVZVR3hVVW1SUm00T2tnc0ZPR3M4UUFBV0RfMXR1UWFlSFdNYmIycEdSTUg3MEs4M1Zn?oc=5",
+      "pubDate": "Mon, 06 Apr 2026 20:46:39 GMT",
+      "source": "전국매일신문",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -70,10 +68,10 @@
       ]
     },
     {
-      "title": "[굿모닝 멤버십] ‘반도체 굴기’ 외치던 중국…5년 지나자 조용",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9DLW1XTnk5YmZyWUItaGYxbEtJdVJVZGtzNGY1YzMyRzlRZjJWRG5PLUJnTllFSWJZenZNbXRLczBfRDhOYlNRU2lfX0RPcU1rZEdjMHMweTlPMkpPZktWOUc5NkRNSFJnRmd4cExpUEcxVmFxUFhwSG9R?oc=5",
-      "pubDate": "Mon, 06 Apr 2026 18:00:00 GMT",
-      "source": "조선일보",
+      "title": "삼성전자 오늘 ‘영업익 50조’ 기대감…트럼프 악재 뚫어낼까",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9yVFpFZHUzaFdSXzFrRnBzVFJTRXViZFNVRTZsNm5XS0NVeEZNaHg4RHJRLWxPclNDNkd1OXgtSm4yUlVYN204azRIY0xkeHc?oc=5",
+      "pubDate": "Mon, 06 Apr 2026 20:43:01 GMT",
+      "source": "v.daum.net",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -83,56 +81,53 @@
       ]
     },
     {
-      "title": "글로벌 위기 속 비트코인 수익률 안전자산 압도",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB1WF9WRC1zbC00TE9UUnNwMlp6ZU91MGx3Q2pLb2IyYVNtZmNIUDBkcFctQnlxVjFGa21uMGY2UFBPSGhScWVfUE9SMWFZTTIzbHQwdks2d3ZyV1dEd3ZxWHhtSEtFUHU5dkFMcA?oc=5",
-      "pubDate": "Mon, 06 Apr 2026 17:15:17 GMT",
-      "source": "경향게임스",
+      "title": "\"中, 공급부족 틈 타 맹추격…D램 공정 초격차 설정해야\"",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE14NWliYzZtXy1zQ21ONU82TmFTZlhYRS1QWWZXNjZILXVONFc3ZFE5ajFSRFpkR1FKZTF4Qkt5SXpackZtRkpBX2NsbEJMa2FlR0V6Mi1aeFVBS1h2Q1ZNd0pFdmdCLWFMS0VlZjY0MjhLczQ?oc=5",
+      "pubDate": "Mon, 06 Apr 2026 20:30:04 GMT",
+      "source": "마켓인",
       "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": []
+    },
+    {
+      "title": "“석·박사 인재 육성”…정부 ‘반도체 대학원대학’ 본격 추진[Pick코노미]",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBrQmFJbWtjeldjaU1RVDMxNlZBbjFUZmpKU0lVMGtPQTRmcWFOZ2JqNk50T3ZCRWhmSlhPMUdEWGpTUkpwQ1cwMTFoanpSWHg3dEHSAVNBVV95cUxNWUVzVklJLVF0SDBpS2tzZ0t3Y2c4ajF3YjN2UnhmU0wtQWVRTnE4ZXJGaTRFUnMxTFV2d3NzazBZbFNnMzNBeUtBY0xSRk9nMGQwaw?oc=5",
+      "pubDate": "Mon, 06 Apr 2026 20:30:00 GMT",
+      "source": "서울경제",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
       },
       "impacts": [
-        "BTC"
+        "삼성전자"
       ]
     },
     {
-      "title": "비트코인-통화정책 관계 역전 ‘선행지표화’",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5nNUtjb3hNelpWR1k1QVJqWVZTbDFUTk5YM1pnaTF2VFRrMHFCV1RhMkNyMk1sT29NOEE1Q01peE5BYzlodjhnM2hDaUlfVDRNUFZacTU5WXlWeC1DR2x5VzN1bE9LaDdKVm1DRg?oc=5",
-      "pubDate": "Mon, 06 Apr 2026 17:10:14 GMT",
-      "source": "경향게임스",
+      "title": "“양자 컴퓨터가 문을 따기 전에 자물쇠를 바꿔라” 미 상무부, 전 세계 반도체 설계에 ‘강제 명령’ 하달",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNZ0lsQUExTVFDZlJKalF2TEFZMzVtWm5SQmt1bkhtdmtNOWNWVFE2VEI3TkxSZ0kwYWJVU0JWVUtJYWMyUzFhTkVCeFphRk1RSGJJYWRZLVpNcF9zMkViN2g4RXBzUFh4d3pwN0Nxd1M3MGUxS3NqMG0tbElVSjRVcXFzcWVtOFRN?oc=5",
+      "pubDate": "Mon, 06 Apr 2026 20:27:02 GMT",
+      "source": "글로벌이코노믹",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "비트코인 시세…이더리움·리플·솔라나 가격",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB2SEtzYmNsRE02azRjaGFxa2NncHBSbkpkUC1GeXAxSFZ5VWExU0Q4N0cydzNtNzMxWXlfcGF3eWVkY2ExaVhId1BjazlYODg?oc=5",
+      "pubDate": "Mon, 06 Apr 2026 20:12:38 GMT",
+      "source": "v.daum.net",
       "category": {
         "label": "🟣 CRYPTO",
         "color": "#a55eea"
       },
       "impacts": [
         "BTC"
-      ]
-    },
-    {
-      "title": "삼성전자 실적 기대감, 코스피 5400선 재탈환… 환율·금값은 ‘불안불안’",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9MTmVkQmZFdW1VZzhXb21fRE5Hd3NhNDh0QTRqcVp2N3JaUEVBLWRlekM4c3pqWUxRcTNEOUVISTlWOUREREdTZGQyWmhWS3F1Z1JoQXdZNXU2QlR6cHJVWWJOQjJCQlkwdVkxbkotTThiQ1lXMlB6SER3?oc=5",
-      "pubDate": "Mon, 06 Apr 2026 16:00:42 GMT",
-      "source": "서울신문",
-      "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
-      },
-      "impacts": [
-        "환율",
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "현대차그룹, 4대 정책금융기관과 새만금 9조 투자 실행 가속",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9QZHJDb0k3OHhfY2p2WXVCa3Z3Z2xsVjhLWkttQU8tejIxeHkzQ0ZRUlJ0LUpBSkYtNVVXZWkyWnptdTNmcHFGSjkyR0ZRbUtyWmktclV6ZmJvMXN4TVBJVF9FcXFnbzhxWjNqRVFMQ3ZUN2ZrWGNpbFQwTQ?oc=5",
-      "pubDate": "Mon, 06 Apr 2026 15:59:58 GMT",
-      "source": "서울신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
       ]
     }
   ]
