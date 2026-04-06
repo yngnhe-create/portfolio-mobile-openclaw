@@ -1,7 +1,111 @@
 {
-  "timestamp": "2026-04-06T14:17:08.203078",
+  "timestamp": "2026-04-06T14:31:35.582307",
   "count": 10,
   "articles": [
+    {
+      "title": "삼성전자, 1분기 실적 발표 D-1… 영업익 40조원 돌파 유력, 50조원 전망도 - 조선비즈",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQeWt6eS1udHRIVEp4T0N6RU1rcEM4SjBQZXI0eFFEZzhJWjF5dFdhYWcwbHBBN2Iwa2VxYU5lSC1fWkF3SHJiQ1FKc081TklPS0RSWFUtbkNjM3NuTEZaWURaandkNnJIa0VxbG1JSjlUMkNfcDd2THVwMmpTWlZUVF9n0gGWAUFVX3lxTFBxTDYyV2g1NldFR1QzYktMVl9ON2xna2h1TkZCY2pKZUo1UmYxbEdhLUVsSURUMnR4bzBNMGNkN0lqN3gzbnc1cEFJRkQ3Nk5WcFgtMzhlNDhLOEFQUHozcUdaNEhTdmJsVGFvcGlwbGdoa1llS2VOc2p6d3l1SEMxUWZLTzNNOF9NamlnaXYxd21odFQzZw?oc=5",
+      "pubDate": "Mon, 06 Apr 2026 05:27:00 GMT",
+      "source": "Chosunbiz",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[포토] 현대차그룹 새만금 프로젝트 관련 현대차그룹-정책금융기관 금융지원·협력 MOU",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE94bFBCQW81T3A1bTNLTy0xRlh4My1SaWJRdWZLVDR5UVNoTEc0TFo2R0ZueFNJOHhfVWhnUlh6NF80M252SW90UElJSURwUQ?oc=5",
+      "pubDate": "Mon, 06 Apr 2026 05:18:46 GMT",
+      "source": "전자신문",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "美 침체 속 현대차·기아 '1분기 최대 성과'… 하이브리드·SUV 견인",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE45NWZIdGtGVTNjSmliY2VKWkRHdG5SLUdfUHJqLUZ0RmFnQ1lQQk5mUTJ4X3g1OHNvYUVZRW1WNnBEQTJxbGZHWVNJbnZBRzhaN01nTlhfZXNOTndwbDFwU2Fkd0lZaVJUUXl3Yg?oc=5",
+      "pubDate": "Mon, 06 Apr 2026 05:17:09 GMT",
+      "source": "서울와이어",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "충남, AI 반도체 기반 구축 착수… 아산에 제조 인프라 조성",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8zRDNscnRtbDlZNjE1WHVTMnl0V2h0QWFlMzBxTjQ5NTIySnoxX1NtX2V5RVhBWmpQdUZhTmhnWV92V1pPMzgzOXhJU3lNbEk?oc=5",
+      "pubDate": "Mon, 06 Apr 2026 05:15:29 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "마이클 세일러 \"비트코인 수익률 낮다?…2020년 8월 이후 최고 성과 자산\"",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE85b29ta3ZDOEJxLXRxcmpHdVYzZDhGdUJGNHVzamZCUTBvVUtURFpnVVZoTTUycTIyN0x0Nnhza2U2SFEwSGV3N0RmeDlHd2UtVU4xZ2s4SEdqdXZUZzhaRVFZdkNPTHZ5RC1QcEkxWnRvb1E?oc=5",
+      "pubDate": "Mon, 06 Apr 2026 05:15:00 GMT",
+      "source": "디지털투데이",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "현대차, 자회사형 장애인 사업장 ‘현대무브’ 설립 - 조선비즈",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1NNnRPSWNXTVNfWVgxYXl1QktTWWxRZEQzaFhCNk8yN2JSMklMdHBaQUxESG1xZnktcm9HaDVBOTh0YVVqaUZrdHZTckZHdElvNWhwM1ZZaFI2WElrUEpIZVM5ZlA5Q2NuS1VlOEp2S0NQQ3I1c0k5X241UjR3OUnSAZMBQVVfeXFMT1hYSDU2VmE2b3YzVGNselNjVUVjSkM0dWtLLWpnSmNzWGZ5SWdVRE9JTGlYVzZnTFJOQW1TeU95X2x2a2lLUTlnMlN1UXJfM19pSEg3eXBnYkg5Xy1Md0k4Mi0xNkxzTVVidEs1VFE2VlB4MG5USGY4bjV2REdya01OT1VGaXZmbXVFSTA3N2VMRzdn?oc=5",
+      "pubDate": "Mon, 06 Apr 2026 05:13:00 GMT",
+      "source": "Chosunbiz",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "작년 1천대 상장사 매출합계 2천조 돌파…삼성전자 부동의 1위",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1CMV9sMmZUY3VQeXMyNjktdUlhXzFnOEdGekRYQWlKejBzQzZYc190RTdRMjZkU0VRRVJadkFXSWZmN0p5NG55VFlCRDNBdWVPYVpyU0FKV09jSVlmWmdfMWZaZ0lLUW93?oc=5",
+      "pubDate": "Mon, 06 Apr 2026 05:12:04 GMT",
+      "source": "한국NGO신문",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "생성형 AI로 차세대 반도체 메모리 물질 후보 발굴",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNSlRma2YtM0NnNVkyOHBGZ2Z3V01fblhCV2M3TVg2RkJlbjFwZmRRNlF6eWtzWW9mb1JZR0dHMWw0UWdiMjFhbXpaNkF5M21pNmlfdXYyb1g2QlliVEdQRXhsaGRYQWtKMWhyNmhrZzlkbEw5ZHVRam52cmFITkxkRzduY1NCcXVIWDQ4S0hn?oc=5",
+      "pubDate": "Mon, 06 Apr 2026 05:12:00 GMT",
+      "source": "국제신문",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
     {
       "title": "현대차그룹, 9조 규모 새만금 혁신성장거점 구축 \"가속\"",
       "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9IS0JGRndXMUhyejRVTXY5bnpqUnM4bXUtTnJxSGxmTUcxME1NU0dEeUdtX1ZBTzN2WTVuZzlJYU51YThMdm8tdm9RVXFvZm55Y1NxQVNJaGJsOGpzNzBv?oc=5",
@@ -19,111 +123,7 @@
       "title": "삼성전자·SK하이닉스 1분기 합산이익이 100조?…주가는 눈치게임중",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNLU5qdjNuTlNkYmJfczhYcmlxU2pYbF82c3JQamlnS25YU2RHa1g0NmM2aldEN01WVmloLTQ5bGhKdVk5NmtsWnMzNFFKZURMd3MzYTh3ejBOd1NuLVJNUEFJMGtacUJRS01iUUpxX2xKY3U4aDhPUWJVem84WGdwZkFqNA?oc=5",
       "pubDate": "Mon, 06 Apr 2026 05:11:00 GMT",
-      "source": "investchosun.com",
-      "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "'현대차 새만금 9조 투자' 정책금융 지원…국민성장펀드 결합 검토",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBmT0FFaDZaV1pvU09jaks1TVBHbldncmlKOU54ZEhwSlJLeGhTUnBRRml2bFRfRldkbmtvSFUwV2YtS295TFhJNVQwcVl4eGprX3Y1RGxwQUJBMWtPbE52Q9IBeEFVX3lxTFBuMUNLQVhTSThWSzgwNWpleGlxckRMX1pNUVJZWnR2bVBVdUdtVnJnekRwMTdLWnh2ZmJaZFRNclhjUVRLVEp5ZktDU2dzYlpUbzhpWmQtYnMwNUowaXZPT2hqRlp5T2h3dHdqTmwxemxxY096MlJTdw?oc=5",
-      "pubDate": "Mon, 06 Apr 2026 05:08:48 GMT",
-      "source": "뉴시스",
-      "category": {
-        "label": "🟢 POSITIVE",
-        "color": "#4ecdc4"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "현대차그룹, 정책금융기관과 손잡고 새만금 구축 가속화",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5Zb0E5Z3l6ZXh3dDNaR2ExQ0dTVWxEbWhsNFpLdUpZTHJpRDBqQ0xlT3JrendaQ0hRemRxSk0zTUlZZWx5RFVHVVpMczdIeF9zY1NzUzEyMUpzbE5KbU80NWE4OWh6dlROck9JQQ?oc=5",
-      "pubDate": "Mon, 06 Apr 2026 05:08:29 GMT",
-      "source": "서울와이어",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "전북대 반도체특성화사업단, ‘실전 취업캠프’ 운영",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBXTjF6amxtV2gxb0VxUXp6TkswMk1NM1VNaFU0ZEFId1ZtM1hfbEJlTXI5dm15V0NuRUozVFZiY2xRNkZKbjdJYkQ3UUpZcnFRRG8yVVRsTmFxZW9OM2VBYUw4R0RLTm8?oc=5",
-      "pubDate": "Mon, 06 Apr 2026 05:08:26 GMT",
-      "source": "교수신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "현대차그룹, 정책금융기관과 새만금 혁신성장거점 구축 가속화",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBZX05CdEsyWHRuX25DTDd0dE5kNlJsT3hkSTV6WmEwV3JtZ3pZVklRSnFDTS05YXU1UXp3MUVSckdpd0NiZl9qR2l1dFk4OVBDY0twaGJZZWxSeVMxUEh1c2xDZnE?oc=5",
-      "pubDate": "Mon, 06 Apr 2026 05:06:53 GMT",
-      "source": "PRESS9",
-      "category": {
-        "label": "🟢 POSITIVE",
-        "color": "#4ecdc4"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "떠난 외국인도 돌아올까…역대급 실적 발표 앞둔 삼성전자에 기대감↑[투자360]",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9sSXZGSDlDbHlvakNiSjl3c3luZFZQWTNwMGg2SkFmQjdEdWNLUnM0bkRSMS1OV2tTZ2N5TjN3SmQwbXRveGdiS1ZLQVJpYmFtc2RwanB3?oc=5",
-      "pubDate": "Mon, 06 Apr 2026 05:06:22 GMT",
-      "source": "헤럴드경제",
-      "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "현대차, 뽀로로·타요·잔망루피 디스플레이 테마 3종 출시",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9LWXJwNHpMZ2x4S3ZkeXZoTjREeHlrQV96YWhUaVE3TDk1NURxVVJpdHlGaEVmb2tnT3pTTkpxdFhuZGhTUUpnaFIwdjluX2xua2NnTkxKZHAxdTN3QWFtbldB?oc=5",
-      "pubDate": "Mon, 06 Apr 2026 05:05:10 GMT",
-      "source": "경기신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "현대차, 아마추어 레이싱팀 ‘TEAM HMC’ 10년 연속 후원",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBGLWJ6SGJsR2k3aS1vcjJ5TC03ZXpRRjBvdEJvOW9XekI3NFlHUHZ3T0ZBMFQ5SGV3OE8xRTRCVW80WC1BaWZYVFgzRHc3YXZ4QmdNbUpnQ2hjb1dPaUF4YUdQLTc?oc=5",
-      "pubDate": "Mon, 06 Apr 2026 05:02:08 GMT",
-      "source": "CNB뉴스",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "삼성전자 국내 1000대 상장사 매출 비중 11.4%…SK하이닉스 매출 31조 늘어",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNZWRDTy1OcklheUw2QWc5eDY4Z3N6bzZlSlJJeUtSSERhU1ZHSVh5akczcEpjejhJbEtQRWozQ0xFOFJyckhBNVN1YzVaeDJPSnBZNFdLZHJ1UnRiU05EVFY1T29VU2hMaFoxVzZZVlNuV3lVaUlncjlWWlNSdjZob2dfOUUxUUpJRkNZ?oc=5",
-      "pubDate": "Mon, 06 Apr 2026 05:00:00 GMT",
-      "source": "국제신문",
+      "source": "인베스트조선",
       "category": {
         "label": "🟡 MARKET",
         "color": "#f9ca24"
