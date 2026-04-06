@@ -1,7 +1,20 @@
 {
-  "timestamp": "2026-04-07T02:05:15.306660",
+  "timestamp": "2026-04-07T02:35:46.104102",
   "count": 10,
   "articles": [
+    {
+      "title": "글로벌 위기 속 비트코인 수익률 안전자산 압도",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB1WF9WRC1zbC00TE9UUnNwMlp6ZU91MGx3Q2pLb2IyYVNtZmNIUDBkcFctQnlxVjFGa21uMGY2UFBPSGhScWVfUE9SMWFZTTIzbHQwdks2d3ZyV1dEd3ZxWHhtSEtFUHU5dkFMcA?oc=5",
+      "pubDate": "Mon, 06 Apr 2026 17:15:17 GMT",
+      "source": "경향게임스",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
     {
       "title": "[단독] 현대차그룹, AI 규제대응 TF 신설… 첫 수장에 진은숙",
       "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE12bjNZQWpDRHF3eGJyTVRsMUEyTkVseVJpa1NoSXZldmxIN1lnZHZCMFlBaDBMZWlsUTJkUGgtZVhXcDFpc1dOUWlELV9uUQ?oc=5",
@@ -25,8 +38,8 @@
         "color": "#f9ca24"
       },
       "impacts": [
-        "환율",
-        "삼성전자"
+        "삼성전자",
+        "환율"
       ]
     },
     {
@@ -65,8 +78,8 @@
         "color": "#8b9dc3"
       },
       "impacts": [
-        "삼성전자",
-        "원유"
+        "원유",
+        "삼성전자"
       ]
     },
     {
@@ -92,8 +105,8 @@
         "color": "#8b9dc3"
       },
       "impacts": [
-        "삼성전자",
-        "리츠"
+        "리츠",
+        "삼성전자"
       ]
     },
     {
@@ -119,20 +132,6 @@
         "color": "#a55eea"
       },
       "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "비트코인 7만달러 터치에 숏 7100만달러 청산…강보합 시험대",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE12RkpuWFpGM3B2YWtVQkdtUWloWmIzbXd3RzI1dlQ4eXZUcEpGajRaN3pVNFplMmVxWTQ4LWpTQk9mdzdpZFJEYzFwakx3eFFId2JrRzRCaC03ekJFTW4zd0ZFUEk0UFdacGZPVEVtdW5JVzg?oc=5",
-      "pubDate": "Mon, 06 Apr 2026 13:11:33 GMT",
-      "source": "digitaltoday.co.kr",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "환율",
         "BTC"
       ]
     }
