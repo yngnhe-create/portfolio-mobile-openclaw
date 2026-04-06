@@ -1,19 +1,32 @@
 {
-  "timestamp": "2026-04-07T00:04:13.842247",
+  "timestamp": "2026-04-07T00:34:43.419634",
   "count": 10,
   "articles": [
     {
-      "title": "비트코인 69,000달러 돌파에 암호화폐 관련주 상승",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBrNmdOUUozcmxYaXJFNnhzUkNocDNncXRHMHJscGp6Tl84MlJlMXBvaExkSEhBUE5BMnl1V3Byai14Yk9zT2hRbGpBalV1TndIZURpYmkxMTViWnA1djdnakE0WGpBY3k2VXMyd0dCeVBEYVBjS2Mw?oc=5",
-      "pubDate": "Mon, 06 Apr 2026 14:17:00 GMT",
-      "source": "Investing.com 한국어",
+      "title": "건설연, 전통 SOC 넘어 첨단 인프라로…반도체·AI·SMR 기술 혁신 이끈다",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1vWnlDOGt6NUJfcFN3Um9XSUJjaU1FTmh0Unp5Ym1qUGI0R1p4RHdXQVVfdWNZd1ZJMXQ5TWtmMjdvbHdINjJZWkp4Vi1Va2Vzd2hOejdRdjFNdGQxdDRBMTVHNGFycFQ0b0tERNIBcEFVX3lxTE5RZ0gxVl9GcDhzb180VGpfTGNCQk9pcHFkWGlwaDRSTm90RUswZHBaVlA4YkRrMFIwZk1jRXUxakJBbkdDcDVTOElyUkc3V0o2RHpNbzRyTm92VTRjTkM4UUp6OTJUQjJkQWtRWFloYWQ?oc=5",
+      "pubDate": "Mon, 06 Apr 2026 15:07:13 GMT",
+      "source": "전기신문",
       "category": {
-        "label": "🟢 POSITIVE",
-        "color": "#4ecdc4"
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
       },
       "impacts": [
-        "BTC",
-        "환율"
+        "리츠",
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "현대차그룹 ‘새만금 9조 프로젝트’ 정책금융 4곳과 협약",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9KejE4TjZUdnhYcE5lZy1zcXNhWU9vSkJoRElTWC03V2QyUHVET1RlVDh1R2Jmd0NyRlMwSU9vemd5U0VBUW41aFZFTlpYU1ZPOFZCSmJR?oc=5",
+      "pubDate": "Mon, 06 Apr 2026 15:02:01 GMT",
+      "source": "중앙일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
       ]
     },
     {
@@ -53,6 +66,19 @@
         "color": "#8b9dc3"
       },
       "impacts": []
+    },
+    {
+      "title": "실시간 Bitcoin - 비트코인 가격 차트",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE16VERZX1Rlb3N5Q1NxQnJqazZObGdsYlFjV0c0UnVLbVVtdktvemdSazRiOFdYTVVsNEI3QnJVeTIwekhldms2SlRJa0FwVG9GM0J1NDZqMjE?oc=5",
+      "pubDate": "Mon, 06 Apr 2026 12:12:09 GMT",
+      "source": "Investing.com 한국어",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
     },
     {
       "title": "스트래티지, 비트코인 4871개 추가 매수…총 보유량 76만6970 BTC",
@@ -95,43 +121,16 @@
       ]
     },
     {
-      "title": "이언주 “호르무즈 대체수송로 확보 시급”…에너지·반도체 ‘동시 위기’ 경고",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9ERUUyOG81OFVQdkwycjMzN3BENVRuWjhEWGRGQnAzN3FlbEt0VktoSHRPSUpJc2NabTFybGxfODFBMEtUSVIyR0dLZXFkYllRNURRRC00TUdXdE8tUkhPWHp2a3N2dDI5cTBsSA?oc=5",
-      "pubDate": "Mon, 06 Apr 2026 11:08:10 GMT",
-      "source": "경기포커스",
-      "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
-      },
-      "impacts": [
-        "원유",
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자, 美 테일러 공장서 2나노 시험생산 착수…TSMC 추격 ‘분수령’",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1UY2hiVmQ4VWM5MUR3dGI3SHJrTnNxLWFHbmJkbG50X1pmVWU4NGRrWlZlVVJtbWFubzFTakJLUEtyV21QLWdlczRsWVNKWjc4bUFQMk1QbFR2QUVzTTlxemVVUDhmWFU?oc=5",
-      "pubDate": "Mon, 06 Apr 2026 10:52:39 GMT",
-      "source": "choicestock.co.kr",
+      "title": "공장 재건축 놓고 현대차 노사 갈등",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE13ZE9kVzdVc1MzWnB0VnhIQ1BNY19hYjhBQm1NN2M1OC1lbnhYck9Zanp3TFMyT3UxLTFzNmxfSDVLZDRVS1hDVXo4RlJhRHAxQnZDbDN3MDNhaUdIVlVXc2dfZEhYbDVaMmFqd3Jn0gFyQVVfeXFMTjNONGg1S3p1OUV5Z3hyUmdCZ2pWcXp0SWJjMjRsYzNOc2JnQnFaa2NSU0tCRlo4NFZZdXdmWmlfTHdBVVlEcXpWUEdfMGFBSXlZMFNsQ2RfUjR3VnlocXlKV0hsWnRuTWZIM0QtRnY4OTFn?oc=5",
+      "pubDate": "Mon, 06 Apr 2026 11:10:00 GMT",
+      "source": "울산신문",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "이언주, “용인 반도체클러스터 국가산단 차질 없다”…정부 일정 공식화",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBXX3ZHeVpGV1RBWk9GNkxsVS1ERTc2VVBYQnhaVjFwdUlpVDFXN0RPYTJGajJ1M0k2b1FhZUgxVFRrcURlTE9UbHZsalA1ZEhhcEc3c1M5cE90M1RFQThIYUEyN25qVnZBRFpmVw?oc=5",
-      "pubDate": "Mon, 06 Apr 2026 10:44:08 GMT",
-      "source": "경기포커스",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
+        "현대차"
       ]
     }
   ]
