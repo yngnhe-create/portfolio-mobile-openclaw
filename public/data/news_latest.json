@@ -1,7 +1,33 @@
 {
-  "timestamp": "2026-04-06T18:02:35.902492",
+  "timestamp": "2026-04-06T18:17:04.964170",
   "count": 10,
   "articles": [
+    {
+      "title": "삼성전자, 1분기 영업이익 50조 ‘터치’하나",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQSU83VmNQenVIcXpwdmdiWGxCYldlakloRzQ5VHVTVVZaOU5jcy1vUVA4eTA5RGVTem95RXdURzEtbVh6a0sxUXU2bW45cnVtcUoyUE9BX1B6a0c5QVBUdGNZdDJiZF9nYkNVZDFVcmVPYnNndW0xWkVhRjFEdndIak9fSHJUUQ?oc=5",
+      "pubDate": "Mon, 06 Apr 2026 09:13:51 GMT",
+      "source": "글로벌이코노믹",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "제너셈, 인도 반도체 시장 깃발 꽂았다... 대형 고객사 3곳 확보",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFAtU1dCQjVrdTJNZFp3T05fejVsRFBsQW5xZ0VqS2Nuei1pNExuZG4zS2FobS1aRkpWQWR6a1pvOHdmaHNreVI4MHhJT0Q4cTVSUDJSU3JTWDRkSktfajU0ZmFzSktOQQ?oc=5",
+      "pubDate": "Mon, 06 Apr 2026 09:05:50 GMT",
+      "source": "디일렉",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
     {
       "title": "여야, 대정부질문서 반도체 공방…“과감한 투자” vs “수도권 집중은 리스크”",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5ObDRtcjlMMFprSjZTSWNnTXpaWnN5QWprRms0M0p2OWJqZHJjVkhfSjEwbmpla2tMSmZJU285Z01HaE42d1Y3OUw2VGJtR0xoLURlRHliWUhwZTA?oc=5",
@@ -104,32 +130,6 @@
       },
       "impacts": [
         "삼성전자"
-      ]
-    },
-    {
-      "title": "현대차그룹, AI전환 대응 TF팀 신설",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1PVndvcHQ0RmppdmNrOHVqTERoaW1qY2lXeUhUYWdSVnNtQkdabEZiT3VZYklfX3hBUF9HWTFwenBtaFU2d2I1VVA0VGhxRE9hZEE?oc=5",
-      "pubDate": "Mon, 06 Apr 2026 08:26:08 GMT",
-      "source": "매일경제 마켓",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "현대차그룹-정책금융 4사, 새만금 프로젝트 가속 추진",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9CU0JZUjEzVWtZTVNzVVdaWEdJZFRrVkdfVl9kT1dlajNjcDVxc3VEVTRiSm9tMDRhZTlIaW5WMEI1cE1mVG5yS3NpOVB2LWFjTVNDemdvaE1oR0tjaWxMZG15R3JrYUoxTnptSzR4dw?oc=5",
-      "pubDate": "Mon, 06 Apr 2026 08:24:43 GMT",
-      "source": "이코리아",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
       ]
     }
   ]
