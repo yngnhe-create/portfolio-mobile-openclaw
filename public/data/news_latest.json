@@ -1,12 +1,79 @@
 {
-  "timestamp": "2026-04-06T18:17:04.964170",
+  "timestamp": "2026-04-06T21:03:08.335823",
   "count": 10,
   "articles": [
     {
-      "title": "삼성전자, 1분기 영업이익 50조 ‘터치’하나",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQSU83VmNQenVIcXpwdmdiWGxCYldlakloRzQ5VHVTVVZaOU5jcy1vUVA4eTA5RGVTem95RXdURzEtbVh6a0sxUXU2bW45cnVtcUoyUE9BX1B6a0c5QVBUdGNZdDJiZF9nYkNVZDFVcmVPYnNndW0xWkVhRjFEdndIak9fSHJUUQ?oc=5",
-      "pubDate": "Mon, 06 Apr 2026 09:13:51 GMT",
-      "source": "글로벌이코노믹",
+      "title": "\"중동 긴장에도 시장 차분…비트코인·이더리움 반등세\"",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9RUTI0ZHVUMVUyZDFXNEo4MDc5c1k5NV95RmVNaWoyRkRRdkpsLTBmR0Q5YVdvVmtKTDNJeHJZNVRNaXVtODZGQ29kYjRPeTdX?oc=5",
+      "pubDate": "Mon, 06 Apr 2026 11:47:04 GMT",
+      "source": "블루밍비트",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC",
+        "원유"
+      ]
+    },
+    {
+      "title": "이언주 “호르무즈 대체수송로 확보 시급”…에너지·반도체 ‘동시 위기’ 경고",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9ERUUyOG81OFVQdkwycjMzN3BENVRuWjhEWGRGQnAzN3FlbEt0VktoSHRPSUpJc2NabTFybGxfODFBMEtUSVIyR0dLZXFkYllRNURRRC00TUdXdE8tUkhPWHp2a3N2dDI5cTBsSA?oc=5",
+      "pubDate": "Mon, 06 Apr 2026 11:08:10 GMT",
+      "source": "경기포커스",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "삼성전자",
+        "원유"
+      ]
+    },
+    {
+      "title": "\"비트코인 현물 ETF, 3월 5만 BTC 흡수…지난해 10월 이후 최대 유입 속도\"",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9KR3FoZ2tkcWFJTVR5aEFFQko1aVJQYjZITUlnSzZFMXdUY0xCd3VfMGJfLWxqOWZkYzBKNEExMVlSbFZpS0gxOTVTeld3cWlT?oc=5",
+      "pubDate": "Mon, 06 Apr 2026 10:56:12 GMT",
+      "source": "블루밍비트",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "삼성전자, 美 테일러 공장서 2나노 시험생산 착수…TSMC 추격 ‘분수령’",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1UY2hiVmQ4VWM5MUR3dGI3SHJrTnNxLWFHbmJkbG50X1pmVWU4NGRrWlZlVVJtbWFubzFTakJLUEtyV21QLWdlczRsWVNKWjc4bUFQMk1QbFR2QUVzTTlxemVVUDhmWFU?oc=5",
+      "pubDate": "Mon, 06 Apr 2026 10:52:39 GMT",
+      "source": "초이스스탁US",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "이언주, “용인 반도체클러스터 국가산단 차질 없다”…정부 일정 공식화",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBXX3ZHeVpGV1RBWk9GNkxsVS1ERTc2VVBYQnhaVjFwdUlpVDFXN0RPYTJGajJ1M0k2b1FhZUgxVFRrcURlTE9UbHZsalA1ZEhhcEc3c1M5cE90M1RFQThIYUEyN25qVnZBRFpmVw?oc=5",
+      "pubDate": "Mon, 06 Apr 2026 10:44:08 GMT",
+      "source": "경기포커스",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전자 실적 기대가 이끈 코스피…5,400선 회복",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9iaEFMU3NmS2diY3dwX1BYbGs5dXZJbFFXN2F6ZkpHYjgtOEpIc2ZLQ01kQXBYa2pOQlMwRklvcHhqb1l6dE9hMF9MNVkxZ0thaEFFczRaRHpxSnpzdFRkSmNRUFlVTWQwMVdmcmI4ZWZVV0M4?oc=5",
+      "pubDate": "Mon, 06 Apr 2026 10:42:22 GMT",
+      "source": "연합뉴스 한민족센터",
       "category": {
         "label": "🟡 MARKET",
         "color": "#f9ca24"
@@ -16,35 +83,36 @@
       ]
     },
     {
-      "title": "제너셈, 인도 반도체 시장 깃발 꽂았다... 대형 고객사 3곳 확보",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFAtU1dCQjVrdTJNZFp3T05fejVsRFBsQW5xZ0VqS2Nuei1pNExuZG4zS2FobS1aRkpWQWR6a1pvOHdmaHNreVI4MHhJT0Q4cTVSUDJSU3JTWDRkSktfajU0ZmFzSktOQQ?oc=5",
-      "pubDate": "Mon, 06 Apr 2026 09:05:50 GMT",
-      "source": "디일렉",
+      "title": "현대차 미국 39조 투자… 하이브리드·GM 동맹으로 전기차 캐즘 정면돌파",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE51bUE5X1lud3BGY0JhZmtyYWx2TzJJUElWMjV0SzYzMHdqNjU5UUhiUTgxcG82TUpXanFCTjAyeVktLUpKa1BvQ0dTMUQtYkZQTTF4Wjg5SHlmR1IydlZvQ0w5dllJcW8?oc=5",
+      "pubDate": "Mon, 06 Apr 2026 10:22:35 GMT",
+      "source": "초이스스탁US",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
-        "삼성전자"
+        "테슬라",
+        "현대차"
       ]
     },
     {
-      "title": "여야, 대정부질문서 반도체 공방…“과감한 투자” vs “수도권 집중은 리스크”",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5ObDRtcjlMMFprSjZTSWNnTXpaWnN5QWprRms0M0p2OWJqZHJjVkhfSjEwbmpla2tMSmZJU285Z01HaE42d1Y3OUw2VGJtR0xoLURlRHliWUhwZTA?oc=5",
-      "pubDate": "Mon, 06 Apr 2026 08:52:00 GMT",
-      "source": "경기일보",
+      "title": "현대차그룹, 새만금 9조 투자 사업 본격화…정책금융기관과 협약 체결",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBabGgydWdlSi1IS29zenh0MldhYVBfQXE0cmRLTndLajJQb09yZk9tMS1TUnhyNTZfWmRLNld0eFlNNkRXMnppRkxPSVpXaTg?oc=5",
+      "pubDate": "Mon, 06 Apr 2026 09:57:00 GMT",
+      "source": "v.daum.net",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
-        "삼성전자"
+        "현대차"
       ]
     },
     {
-      "title": "현대차, 임원에게 보유 자사주 5만 458주 지급…\"책임경영 강화\"",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBCVnAwLXBsU3YybGQ1R3VibWNOYlRtcURhQTEzOV9zLTI3emtqZVh1VnlSZGtpODBzS3VYQzNFQzlxRzNqWE5pTm9OanEyaTdhZTZqNjNFYXpUQlpXTG9Gcw?oc=5",
-      "pubDate": "Mon, 06 Apr 2026 08:49:02 GMT",
+      "title": "현대차그룹, AI거버넌스 TF팀 신설…수장엔 진은숙 사장",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBwYkhfMkRDWTZyVm15SlZ6eWViTU1uejlWSWFESDd2VjBTOXFoSTRvUkxFVFQ3aW5mNk1qbFhRcGNaZWhqUy1lWG8weV9fRDA2VWpQWDgzNjVYcmQybnBFTw?oc=5",
+      "pubDate": "Mon, 06 Apr 2026 09:52:19 GMT",
       "source": "뉴스1",
       "category": {
         "label": "📋 GENERAL",
@@ -55,75 +123,10 @@
       ]
     },
     {
-      "title": "현대차그룹 9조원 새만금 프로젝트, 정책·금융 4곳 지원 업고 속도전",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB1b0x3aUg0azlpc3MyaGF1NUZhNnN0WUJTMkpDdUJPZzdraHZuZy1TTmZBLWZyLTkyQWNfaFVNMmlBYUh4TnBsRGVJV0w5UTNkczFUekp5U25qcUVvZ2J4THpnbEVLTlU?oc=5",
-      "pubDate": "Mon, 06 Apr 2026 08:36:13 GMT",
-      "source": "팍스경제TV",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "충남도, 수산·AI 반도체·환경 등 미래 성장동력 '확장'",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5ZXzVnV1BscnFuWkdQa2JvRDl6ckZYLU11VzZlUFdNZ3duU3Rwa0hnQ2ctQ2VTRXl1WVduU2c3YmFUR2ZGYUE5M094YjRMV0QwTjhpcWlVZ2w2WU9jZU9sOGZNMWlGeWk2NG9sdQ?oc=5",
-      "pubDate": "Mon, 06 Apr 2026 08:34:23 GMT",
-      "source": "농수축산신문",
-      "category": {
-        "label": "🟢 POSITIVE",
-        "color": "#4ecdc4"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "현대차그룹, 새만금 로봇단지·AI수소시티 ‘금융지원 생태계’ 구축",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1GanVFOXFwdEZraTB3X3RYZGttLW9zbm1KMDloLTVxRDctUVptWW0ta1RVVTdtVFExTFl2bmF5bUxZM0FhbjA1WE5xVjA0UnBlNUZHcU9aUDZPWjQ?oc=5",
-      "pubDate": "Mon, 06 Apr 2026 08:33:04 GMT",
-      "source": "에너지경제신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "금오공고, 삼성전자 공채 최종합격 15명",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9lbU5wSV91c0wxVEFvZHpRdTNoZjhlVmNqTl9QMHF0U2l3QTk2ejJRLVBvejhuT1F2Uk1KdFRGaHpGWE1jSTRLMlBMNmRoNk5WYjhZYWRRTkZiWUdiSmx1bGtweGtyMTBVLVE?oc=5",
-      "pubDate": "Mon, 06 Apr 2026 08:32:43 GMT",
-      "source": "서울파이낸스",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[비바 100] “반도체공학회, 산학연 허브로⋯ 전문가 참여 기반 강화”",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9mSmVVT0VsOU1aWnFpMEpWcFFDMmg5VDlCUm43RHFScVlDWTJnVERRdjd1R2ZXc1dqTk5jVVFnaXdobGxnM1FKVGwxQlMxb3pUM0NjSVZ5YnRpZw?oc=5",
-      "pubDate": "Mon, 06 Apr 2026 08:31:00 GMT",
-      "source": "브릿지경제",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "1000대 상장사 매출 첫 2000조…삼성전자 24년째 1위",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1QcVFldWZpS2pSYzRPTHdZRUo0dkZCbjVVNXI5dllLaGlvdmpZREVuUk5tUk9oUTFJNEtwaFMwQ3V6V0htbEd6eklBMGt0UDNCaHBvYWtzakswaVBoREw2QXFjUWI0anVYekd4OGM5SG0?oc=5",
-      "pubDate": "Mon, 06 Apr 2026 08:30:08 GMT",
-      "source": "신아일보",
+      "title": "[주간증시전망] 삼성전자, 실적기대에 19만원 회복…1분기 영업익 50조 터지나?",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5RTEhOSGxiZWF3czQ1Z1ZSTjUyTXNWVkN2czByd2lFUnhmXzBsQ3ZjQWFXYzlkUXFYX3d1TVFfVnRvVWtTdmxOUlBWal9nWU0?oc=5",
+      "pubDate": "Mon, 06 Apr 2026 09:43:12 GMT",
+      "source": "v.daum.net",
       "category": {
         "label": "🟡 MARKET",
         "color": "#f9ca24"
