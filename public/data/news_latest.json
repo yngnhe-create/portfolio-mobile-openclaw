@@ -1,7 +1,46 @@
 {
-  "timestamp": "2026-04-08T00:57:00.308611",
+  "timestamp": "2026-04-08T02:27:30.334592",
   "count": 10,
   "articles": [
+    {
+      "title": "CleanSpark, 3월 비트코인 생산량 및 재무 활동 보고 By Investing.com",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9SMndnTUFIMEdiUUJSNU1CaUoxUW1pTGllWHVnRUFiWmdwM21RZkt0bmNSNWUwZHlfbzEyS01DM3hoRXlqdUEwc1ptX093Z0xlbW9vV2Fia0Q3LWpENHV2REx1WUpoWW1HNEg5d3ljWTY?oc=5",
+      "pubDate": "Tue, 07 Apr 2026 17:22:00 GMT",
+      "source": "kr.investing.com",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "인텔, 머스크 AI 반도체기지 '테라팹' 합류…주가 장중 4%↑",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAzR2hVeFdpS0l6ajZxdUIwTFRRUld6M3ZUUFFwU25BNkNYcE9zQjZ2S1FfRTc2dUE4aDM1bklrLTVXVmZYQWxNUVYzNjk4UXhud3lzRmFkS1Jyc2PSAWBBVV95cUxOZndfSmlGbTdGSTBoTVNNYUtFOUlLTzJrVzVJNmVIb0Y2cmUweVgyT25vai1qOFd2c2JJQjdaNk9LaVFpcTMwei1XLWdkYjRfem1WUUczeWMzYUxDaDZaUFY?oc=5",
+      "pubDate": "Tue, 07 Apr 2026 17:08:29 GMT",
+      "source": "연합뉴스",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "비트디어, 비트코인 채굴 효율 신기록 달성… ‘실마이너 A4’ 시리즈 출시",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQVW1DR3FQRG45QV9NcnJmckFrYUxCQkMxR1U3MWY3eDNBY1d4ckFYRXNhTGlGNDNUUlFqWS1qbUc0OFI5QUhyUXFyaDlBMFZMT05PUzRaRUZLNUR3eE9XQ05ZQkJ6Z19YS2Nmako2M2ZVWFA3TkF6aXVZYlI2MVBwVk5sdllIdHY3UG1GOGhPcV9PWmxETXJyX1RDc1BVa1FkVHhPSTNIamVwZmVhS3c?oc=5",
+      "pubDate": "Tue, 07 Apr 2026 16:42:21 GMT",
+      "source": "Bitcoin.com News",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
     {
       "title": "[사설] 기업사 새로 쓴 삼성전자 영업익 57조…경제양극화는 경계를",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9NODVjLS1LN2pPeXUwWF9NMjlQM1NEMFViQllmUTZJMGxiOVRRY2d3MDhNS2ZoSklpcnkyMFdnTkRaUG9aT2RJVERibVJDR2dqby1aM3FR?oc=5",
@@ -71,7 +110,7 @@
       "title": "[사설]1분기 영업익 57조… 한국 기업사 새로 쓴 삼성전자",
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE83dWQwb1FXdFgzbndGa0xfWlh0Yl9nczRoajhmbF9NQUNEWmZ5aUxSQnBQYkF5dW5RX1ItMUNrWW1kaG53MmxZb05YLTVBUzRfa3hsNFBKWFRPQnJGZFlUVnpMZGVVVlRkdWluVjkwZi1CZFdHUmfSAWZBVV95cUxPM3pGLTVocktDQnVROVBFU2VkYWF0c1R5cFgyQmU5VGl6bER5S3NVZlNrMENVdmRpS19XYnNZTXJ4RElDajRVQTBnQ1ZoZDNWREFGbER5anRfMFhycnB1X1pzOGY1OUE?oc=5",
       "pubDate": "Tue, 07 Apr 2026 14:30:00 GMT",
-      "source": "donga.com",
+      "source": "동아일보",
       "category": {
         "label": "🟡 MARKET",
         "color": "#f9ca24"
@@ -90,48 +129,8 @@
         "color": "#ff4757"
       },
       "impacts": [
-        "원유",
-        "BTC"
-      ]
-    },
-    {
-      "title": "'신기록' 삼성전자, 코스피 시총 비중 25.7%...6년 만의 최고치",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE56M1Zpb0plUGxzRmtQZEx1UU1uRDkzclhHT1FRTXAtVEJFMlQyMFltN09JV2xncURqRW9VeDdrc1pzX2R4NTllZ2c4ZzJMUUpEZHB2bWt2UlpvdGlCc1E?oc=5",
-      "pubDate": "Tue, 07 Apr 2026 13:52:00 GMT",
-      "source": "YTN",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자 영업이익 '57조'...반도체로 신기원 열었다",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE0yRUwwX19jQTNLZ3ZOQV8wc2Q4eXNwRDk3VGd5S1Z5a0U2VHFaZlZwalI3UEVhWVRQLUpNUnktV05oMGhpaVZOWjNBNzZMdUEwc0tuVDhjSkluOEQySVE?oc=5",
-      "pubDate": "Tue, 07 Apr 2026 13:51:00 GMT",
-      "source": "YTN",
-      "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "비트코인 고래, 2000만달러 이상 BTC 바이낸스로 이체",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1fa2JHR1JabWZJeXYtVTJyY0pKQ1hqUlBWT0NTVGlGMEdHZDQ0Sy00Z3hialJIa0RnbUp1SjJSWEhrTkl5ekktQnVvOVJTYzdyckp5NEo4SnJDNkd0cEFEczBhZ1Q4eUxVTkhHMmt6Wkg3ZkE?oc=5",
-      "pubDate": "Tue, 07 Apr 2026 13:26:45 GMT",
-      "source": "디지털투데이",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "환율",
-        "BTC"
+        "BTC",
+        "원유"
       ]
     }
   ]
