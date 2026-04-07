@@ -1,7 +1,20 @@
 {
-  "timestamp": "2026-04-08T02:27:30.334592",
+  "timestamp": "2026-04-08T02:57:57.030310",
   "count": 10,
   "articles": [
+    {
+      "title": "스마트머니, 비트코인 하락 대비 강화",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5XSUZrZG9xSWlqNzBNS3JsQjl4dktfdlJ1UFhfR2JyMnhQX2FfT3paTTdSQ3QxcVhOWERwNEg2N2dKUWd1VlhWZFh5WUVlZ3lZZm16RjEwbWE5SGlsWTE1X1drVU5aQ042WVNZeQ?oc=5",
+      "pubDate": "Tue, 07 Apr 2026 17:47:37 GMT",
+      "source": "khgames.co.kr",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
     {
       "title": "CleanSpark, 3월 비트코인 생산량 및 재무 활동 보고 By Investing.com",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9SMndnTUFIMEdiUUJSNU1CaUoxUW1pTGllWHVnRUFiWmdwM21RZkt0bmNSNWUwZHlfbzEyS01DM3hoRXlqdUEwc1ptX093Z0xlbW9vV2Fia0Q3LWpENHV2REx1WUpoWW1HNEg5d3ljWTY?oc=5",
@@ -117,20 +130,6 @@
       },
       "impacts": [
         "삼성전자"
-      ]
-    },
-    {
-      "title": "이란 전쟁 이후 비트코인 반등…SW ETF는 약세로 엇갈려",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1sWmtyU3oybHluMnhzYjlOZzU3X3JMc2FrWmgyak5wRDExbkIxOC1nZWZFay1qc0dsQkZGZzRoSG9ZQ25LSDNZcC1LQ1YtTGsxQ1lZUDRTb1ZXVWlma0ZORzVCYUk2Y0ZJaHJtM19WX1F3RE0?oc=5",
-      "pubDate": "Tue, 07 Apr 2026 13:54:00 GMT",
-      "source": "디지털투데이",
-      "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
-      },
-      "impacts": [
-        "BTC",
-        "원유"
       ]
     }
   ]
