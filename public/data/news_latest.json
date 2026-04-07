@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-07T10:09:11.596950",
+  "timestamp": "2026-04-07T10:17:03.836070",
   "count": 10,
   "articles": [
     {
@@ -10,6 +10,19 @@
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전자 1분기 영업이익 57조 '깜짝 실적'…올해 300조 가시권",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5PRFhvY0QyLVNOWkt0MjVjYkNwR0pVMkhHSTRLbVctYWkxMzU0SXNyNzJYTi1hZXV4djI4b1JzX19qWEIxc1hTZ19jS1hHQzlRZW9Pb1ItYzJpM25QMlhtVEtmaWx4OEZvRWQyVA?oc=5",
+      "pubDate": "Tue, 07 Apr 2026 01:02:35 GMT",
+      "source": "ESG경제",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
       },
       "impacts": [
         "삼성전자"
@@ -118,19 +131,6 @@
       },
       "impacts": [
         "NVIDIA",
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자, 다시 쓴 韓 기업史…'36만 전자' 가나",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5laWd5dTdzNTdxZG9aTERkWUxKNTlaYm1kNUNON3B3TmEtZjNETWctYlpoWDhlR2VPRnJVZkxmUGM2M2Nibm9KS000VU5IbzEzR0lsb1NCTzZOZFdQS2VoRUpHYTFwazBqbnotblA3djJoZw?oc=5",
-      "pubDate": "Tue, 07 Apr 2026 00:48:26 GMT",
-      "source": "오피니언뉴스",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
         "삼성전자"
       ]
     }
