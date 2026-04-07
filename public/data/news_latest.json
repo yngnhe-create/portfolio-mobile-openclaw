@@ -1,12 +1,25 @@
 {
-  "timestamp": "2026-04-08T00:26:33.889263",
+  "timestamp": "2026-04-08T00:57:00.308611",
   "count": 10,
   "articles": [
     {
-      "title": "[사설] 반도체 수퍼 사이클은 경제 체질 개선 위한 골든타임",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxONkdhQlFIRnNxVDhfM3RnSi1PNUFfYVJfaDdDeFhRU1VJQXBkdnFfNV9jdFJnd3VmR3o3YlYwOGtzNWRJTHFrSGFiRGJfajhBb0ZvQndROEdFLVo4aUdBa2cyeXpEVzExZ21zOGNQVlZxQjY3YUJpM2Y1RFUxai1yUGpLZHRKZ9IBmgFBVV95cUxQb3ZwWDZ5bS1zWXk5ZTBxc1ZXV3J0VGI5Q0JfZlRKeDlIeFR0YWhzTDM1ZTVNZmxrRDNkeUlBSFllYlZTZGN1dVkyR180SzNucTM1Y3VwTUhTU01xRXNJLV9UM1J1SlpEVThqbUhMb0Z0UFREVHdaSTVVdkMtQktkbHJ6bjhLbldzY3BjdWJ5SzhRU2EzVVRQdzZ3?oc=5",
-      "pubDate": "Tue, 07 Apr 2026 15:00:00 GMT",
-      "source": "조선일보",
+      "title": "[사설] 기업사 새로 쓴 삼성전자 영업익 57조…경제양극화는 경계를",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9NODVjLS1LN2pPeXUwWF9NMjlQM1NEMFViQllmUTZJMGxiOVRRY2d3MDhNS2ZoSklpcnkyMFdnTkRaUG9aT2RJVERibVJDR2dqby1aM3FR?oc=5",
+      "pubDate": "Tue, 07 Apr 2026 15:24:00 GMT",
+      "source": "중앙일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "57조, K반도체 초격차의 힘",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBiU05OV0hnSW5iMlRkdjhSMHFEM1F6WUFXMkx0N2hWdDBfNXZsRmgwY25LTzdJMzBhZ3FFZHhiVmc3cVBNbzR3TXdOYXJpblJ5bS0zQ0R3?oc=5",
+      "pubDate": "Tue, 07 Apr 2026 15:22:38 GMT",
+      "source": "중앙일보",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -58,7 +71,7 @@
       "title": "[사설]1분기 영업익 57조… 한국 기업사 새로 쓴 삼성전자",
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE83dWQwb1FXdFgzbndGa0xfWlh0Yl9nczRoajhmbF9NQUNEWmZ5aUxSQnBQYkF5dW5RX1ItMUNrWW1kaG53MmxZb05YLTVBUzRfa3hsNFBKWFRPQnJGZFlUVnpMZGVVVlRkdWluVjkwZi1CZFdHUmfSAWZBVV95cUxPM3pGLTVocktDQnVROVBFU2VkYWF0c1R5cFgyQmU5VGl6bER5S3NVZlNrMENVdmRpS19XYnNZTXJ4RElDajRVQTBnQ1ZoZDNWREFGbER5anRfMFhycnB1X1pzOGY1OUE?oc=5",
       "pubDate": "Tue, 07 Apr 2026 14:30:00 GMT",
-      "source": "동아일보",
+      "source": "donga.com",
       "category": {
         "label": "🟡 MARKET",
         "color": "#f9ca24"
@@ -77,8 +90,8 @@
         "color": "#ff4757"
       },
       "impacts": [
-        "BTC",
-        "원유"
+        "원유",
+        "BTC"
       ]
     },
     {
@@ -115,20 +128,6 @@
       "category": {
         "label": "🟣 CRYPTO",
         "color": "#a55eea"
-      },
-      "impacts": [
-        "환율",
-        "BTC"
-      ]
-    },
-    {
-      "title": "스트래티지, 2026년 1분기 비트코인 미실현손실 145억달러 기록",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9YNWhMQTd5TEdydV9DM0J5dG80YVlmc0J3c2UyVTkxaVdHZ2o1bXB4UlpueWllV2p6aVphSkJUcXNWaUdNeGVnNTM3T2cwWmJOS0VJdURYZ1hVdEp4bm9hLUxLQmtPRlZSMHhiWm14Ul9Sdlk?oc=5",
-      "pubDate": "Tue, 07 Apr 2026 13:23:56 GMT",
-      "source": "디지털투데이",
-      "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
       },
       "impacts": [
         "환율",
