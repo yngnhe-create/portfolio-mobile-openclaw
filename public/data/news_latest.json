@@ -1,7 +1,21 @@
 {
-  "timestamp": "2026-04-08T12:32:33.165781",
+  "timestamp": "2026-04-08T13:03:00.676631",
   "count": 10,
   "articles": [
+    {
+      "title": "[속보] 2주 휴전에 비트코인 4% 급등, 7만1000달러 회복",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFAzbUI2MERPZTU5eG1wSWRKVkpRNmplNzRTZ3hxQ01iWi1Gd1hQR1hUVUdreGFfZ1dKcHZpT3c2ZzltTTNPZ21BWmpvQXY3bHRjQ3dQU1hUVHc?oc=5",
+      "pubDate": "Wed, 08 Apr 2026 03:27:43 GMT",
+      "source": "뉴스1",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "BTC",
+        "환율"
+      ]
+    },
     {
       "title": "美 비트코인 ETF 1억5900만달러 순유출…그레이스케일·피델리티 중심 이탈",
       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1vUjNtTFBDOTM5NHBwSW9YMlQwSjNsQ3VncWd0QVNOMU1hME9sNmtmRG9peXhzdTdIdU5JcWQtT041NXJNZnFJcGx2dl9kSzhX?oc=5",
@@ -120,19 +134,6 @@
       "impacts": [
         "BTC",
         "원유"
-      ]
-    },
-    {
-      "title": "돌아온 외국인, 반도체부터 담았다…코스피 1.5조 순매수",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBTZVpHV3kxZVBjRFh3X0RvZHpkSllGRkhTQ0c5cHpzTDRmUmxoRkxoRlloMFduN0t1a2FQS3pxZDhfMGtrN19MM1R4cHRRbzMtSzdRSFJtdVFmUlozU0N1NGJHZXZ0Q0tobjFPcVdNVnU?oc=5",
-      "pubDate": "Wed, 08 Apr 2026 02:42:48 GMT",
-      "source": "연합인포맥스",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
       ]
     }
   ]
