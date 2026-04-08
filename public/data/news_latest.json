@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-04-08T08:17:04.733145",
+  "timestamp": "2026-04-08T09:29:48.238462",
   "count": 10,
   "articles": [
     {
-      "title": "한울반도체, 지식재산처 주관 '2026 글로벌 IP 스타기업' 선정",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8zRkh6WFRKckR2N3RhZGl5bGk5YURfZ2xVbE01bXMyRmZ3MkRrN195RnZTVUc5ZTFOSkJ4a3ZrZ3hOb2o0bHJVMmhESmxnRUNCaC1vV0tudDU5RjJscThSYWpfc1RfMGdK?oc=5",
-      "pubDate": "Tue, 07 Apr 2026 23:13:07 GMT",
-      "source": "mt.co.kr",
+      "title": "박수현·안장헌 원팀 선언...“아산을 세계적 AX·반도체 거점으로”",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA3MW12M3ZHQVNfTlAxQzJOeEhQS0FWZXVkM1owY2U5R1hhYzJSVjNwLW5SRWpuelpFel82STg5TXR4dnZUYmlJc3QwQlV0enRMZFpkZEFySC14aF92SHNHQXc2eEdJUW1mRzhHWG45OEY?oc=5",
+      "pubDate": "Wed, 08 Apr 2026 00:19:17 GMT",
+      "source": "로컬투데이",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -16,89 +16,37 @@
       ]
     },
     {
-      "title": "SK하이닉스, AI 메모리 효율화·고집적 반도체 구조 中 특허 대거 확보",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBpeXFZeWVIOEd6elpSb01pNUZSRTlpYzR3S25NRE1aeURYQ24zemJNOG5LX25vMG9zNmpXcFRmcGg5dU5fRHJWOExicFN0aUFtd3BSRjFnMmRpZmxTdl9aYktlTU5Kdw?oc=5",
-      "pubDate": "Tue, 07 Apr 2026 23:10:42 GMT",
-      "source": "더구루",
+      "title": "엔비디아에 'SK하이닉스 HBM4 승인 지연' 변수로 지목, \"삼성전자가 선두\"",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5FLU53WHNvLWxJQjEyMmtjTUpvNFdWa0VFdnZRbFM2eHNIeE1RYmhhc0UwRUh2SDFxcmVpQ294Q1M0MnE1WURXNWZ0QThWOWhvVkVKdnJNQUVnbGl0ZFpIWlludnIyZUNLYXFqMzN2Z0tlcG8?oc=5",
+      "pubDate": "Wed, 08 Apr 2026 00:18:44 GMT",
+      "source": "비즈니스포스트",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자",
+        "NVIDIA"
+      ]
+    },
+    {
+      "title": "코스피, 장초반 6%대 급등…반도체株 강세",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1SQmhwUVFoSmRuTFVkZ2lwSWFtVGRzOHVTMWkzNWh6WVJ4Qk5TUjRBOXNvTjlvbExlUWR0ckN2Z1JpVnU5ZVdyNUp4U2MwVUdjUVlTYjVhVHhPZUZJQ1o0NzRzeXQ?oc=5",
+      "pubDate": "Wed, 08 Apr 2026 00:17:39 GMT",
+      "source": "MTN 머니투데이방송",
+      "category": {
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
       },
       "impacts": [
         "삼성전자"
       ]
     },
     {
-      "title": "현대차 아이오닉 6 N, 세계 올해의 고성능 자동차 수상[재율 아빠 국산차 업계 소식] : 네이버 블로그",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNR1hhWVRsWWszRXd3WUtYbjNHSFBBbDk5dWtESmV3NHRNQ0dZV3I5LXhQTTM5OHZITVhjNkxUT21KcDBzUkZ6V2puZTdBMVlOT1I4bUNOa0RNRG9vU0xRNjRQNUZCck5abExJb2k3QS1qMlZHbDVtQ21TYWgySktvb0JITHV1SjZMODA4Qg?oc=5",
-      "pubDate": "Tue, 07 Apr 2026 23:10:16 GMT",
-      "source": "Naver Blog",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "비트코인 ETF, 연휴 이후 강력한 반등세 속에 4억 7,100만 달러 유입",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQeU9Lb3JwZ1JBSkxxMUp0MEp4elpQbGFSck1FWjZXeDZFNy1rYV9XZi1DZjVDUXBoeDJGZ25MOTZzcDR0bVREOXZIeDA3RV9BVWFROVNxaC1qYmtWbGVVQjFXTFlQOW9OUzdQWGN6SHl2Q3BFVk9WbVFFcExyeE5BN2JUaUpCTTFQQUlsejJMT2xacDFJUHBKNFFwMDJmS04tMS1ISUlLOXgtajRnS2c?oc=5",
-      "pubDate": "Tue, 07 Apr 2026 23:06:13 GMT",
-      "source": "Bitcoin.com News",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC",
-        "환율"
-      ]
-    },
-    {
-      "title": "반도체 광풍에 경상수지 35조 흑자…역대 최대 기록 갈아치웠다",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE12VGJXeUhueDluc0JHWlk4U2RMMFpiYzM0a21pUE55Q3otYW1CYzlmZUZJczYtNm9ESzVPMTRFVlRCdUdoWnpoNkJ6d2pIdmdkYUdoeHd0WGhCMFIwNGVTcW1tb1VIQTg4OC1V?oc=5",
-      "pubDate": "Tue, 07 Apr 2026 23:05:30 GMT",
-      "source": "dtoday.co.kr",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "노근창 현대차證 센터장이 본 삼전…\"3분기 영업익 100조 가능…뉴노멀 시작\"",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBQYmNISGgtREtEb2VGRHZUSDQ5bHkwSnJqTE1pb0NSSWRlc093MmdnRTFSU0N5T1NlanV0XzF3Yk53OVE3Z0FDNVlvc0FaS0dGeGdWZWR0dlVORmttd05NSHRIME9QNjVDdUZSbjYtY2Q?oc=5",
-      "pubDate": "Tue, 07 Apr 2026 23:05:03 GMT",
-      "source": "연합인포맥스",
-      "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "인텔, 머스크의 초대형 AI 반도체 생산 프로젝트 합류",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBKOWJxbnpjN2JzRVpUR2FkT1h2VmVzVTk0VWpCTmJic01EaHMwMy1EYkJveENsUnJiejdySUU1WWRWY2hhRHcxU1hsb2FvT185NHfSAVNBVV95cUxQVi0yYmg4UTRVazU0U0MtbWV4T2Z0WHdHOFVJa05kSmpwTXJtTFBJRUNhRU1rTTI5YjhpOXViQlhWdmNyeXVQSEJNLUJOV21RYU5uMA?oc=5",
-      "pubDate": "Tue, 07 Apr 2026 23:03:35 GMT",
-      "source": "서울경제",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[속보] 트럼프 협상 기대감에 삼성전자 프리장 6% 급등 … SK하닉 9%↑",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5mSnJDMGVSbDNiSkhPQmIzZ3VucXdhRU1oS3lZWEZHVkZEOXczd3c0dG9DNmF0c3ZLd0o2Z0tld3BJWXcwOE9Ub01qMkwwYndYTS16R3FuUWgzTV9Lam1mMU51VlE4b2dkTlI0bjVaaHVNZjdLNWFOUmdOTQ?oc=5",
-      "pubDate": "Tue, 07 Apr 2026 23:01:23 GMT",
-      "source": "뉴데일리 경제",
+      "title": "코스피 5.9% 폭등한 5820선 출발...삼성전자·SK하이닉스 '급등'",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNazhUa3FYZU5aUlpJSVlkeURXTlZPNzVtUzhkRGZyOTZ4bS12TUhmMnNRZUl6cFdfNGdKYjJFMV83cFpDc1Mtby1qbTNTcVR5R3NFS0lHR3pXT1JBX3VPLW5KaFAyQlBteG1CVm5GR0E0cHB2cGhaVTZEY3dfZFdRb0NjNVNsb2Nx?oc=5",
+      "pubDate": "Wed, 08 Apr 2026 00:16:53 GMT",
+      "source": "글로벌이코노믹",
       "category": {
         "label": "🔴 HIGH IMPACT",
         "color": "#ff4757"
@@ -108,30 +56,81 @@
       ]
     },
     {
-      "title": "\"반도체 너머의 알파 찾아라\"…고환율·비용쇼크 버틴 '매크로 저항주'는",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9lMkIwU3Fud1VNY1hMbkJPYmVOc0doekFnV0duaEtKaHpzR2kxRGtrYTZBZksyS2pROUdQX0ZFcHpPYktxMzFvaTdNcWV5cWVLaFdDYXFWbVVTb294TW5BOVJoYUZZNmFMNUo4eFZxaEE?oc=5",
-      "pubDate": "Tue, 07 Apr 2026 23:00:20 GMT",
-      "source": "연합인포맥스",
+      "title": "삼성전자, TV·사운드바 14종 ‘탄소저감’ 인증 획득",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB3UjJpWEo0Sk5RVllIZ0NxSFdIc0h5NENacjNURlBUZTVCbERoNVNLbXBVN2xLclJFczlidXJFRUh6UDhWZ1hvaFA2cTQybGJEZUNaeFRKQTI0MmJHZDBLeE5sQW4?oc=5",
+      "pubDate": "Wed, 08 Apr 2026 00:16:43 GMT",
+      "source": "서울경제TV",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "앤시스코리아, 중진공·태성에스엔이와 AI 반도체 실무 인재 양성 '맞손'",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBJdV80WmdsME1sa2E4R1RzT2RjbnYzcEJydkszdFRaVWI4SVNncHE2bGprNHBjM3gwQ1d2cnlzS2J2aldORmp2T0w2OFE4VVdwNElrTk5zS0ZCZ19DZkFMVXZfTVdDZw?oc=5",
+      "pubDate": "Wed, 08 Apr 2026 00:16:10 GMT",
+      "source": "mtnews.net",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[특징주] 삼성전자·SK하이닉스 급등…경상수지 ‘사상 최대’에 반도체株 랠리",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBmQS11SldicW1QUU1LbS1sWVRSbUlLQjd6OFJHNkY4RFNNVS1xVmxBa0JJb0VxdGk4TlJBTXdSUUNPTUhKVWdYdnlKd3pkWVg2R3Z1RVBpSEUtYzZ2dnpCZ2xwSmE3Q0xPd1IzUQ?oc=5",
+      "pubDate": "Wed, 08 Apr 2026 00:13:42 GMT",
+      "source": "서울와이어",
+      "category": {
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "한국폴리텍대학 반도체융합캠퍼스, 반도체 특화 고용센터 협약 참여…산업 맞춤형 인재양성 협력 강화",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1lZE1jVkhVX3U1YXgtS3FYaTV4dklqaHRPa0pxY2N6SEg4UVZwd2lESXZESTNiVlIzNFRud2N2NUtLQVZ5dGZnVjN6bXlfOWFMenFKempHQ0N4bUNWVXFwanZvRGplUGxDM3c?oc=5",
+      "pubDate": "Wed, 08 Apr 2026 00:12:28 GMT",
+      "source": "dtoday.co.kr",
       "category": {
         "label": "🔵 MACRO",
         "color": "#0984e3"
       },
       "impacts": [
-        "환율",
         "삼성전자"
       ]
     },
     {
-      "title": "[비트플래닛의 베팅] 공공 SI 흔들리자…비트코인 승부수도 '불안'",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBiQ0g3NWZLV1NyNk54NDBzU0FFb2I5TGFselkzUWVSZ2FBdVFfcEhvOWRnRlQtMmE2QnlyX0tjaHh1TC05LTBnUGJGOFhCejA?oc=5",
-      "pubDate": "Tue, 07 Apr 2026 23:00:19 GMT",
-      "source": "dealsite.co.kr",
+      "title": "‘코스피 오늘 어디까지 갈까’…5% 급등하며 개장해 매수 사이드카 발동, 삼성전자·SK하이닉스 강세",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE15Rzd2STREbHJsRGtsU1pHMGNPdXJJanRvOW9fRks2SkktdEhNWlZFRGoyZHp0TW1TVUtYOFY4M190VUgyUl9TbWE5dHdhV1c2?oc=5",
+      "pubDate": "Wed, 08 Apr 2026 00:11:35 GMT",
+      "source": "munhwa.com",
       "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
       },
       "impacts": [
-        "BTC"
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "반도체 호황에 경상수지 ‘역대 최대’…2월 35조원 흑자",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9QV3U4c0g5RDF6UlZadFdXWU5GdFVYRFRRQUx5R3Q5bUpwTEtxMEpXT25kYi1tR0VmSVRidl8xTHhwOV9aMkhGQ0E4aENtZEpEMG5qQldRU3g4RlpuckNFMUlWZ2U4OUxENFVhOWNwdXVhZw?oc=5",
+      "pubDate": "Wed, 08 Apr 2026 00:11:29 GMT",
+      "source": "인더스트리뉴스",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
       ]
     }
   ]
