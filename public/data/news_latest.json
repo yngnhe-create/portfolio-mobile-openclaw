@@ -1,7 +1,59 @@
 {
-  "timestamp": "2026-04-08T12:02:06.196305",
+  "timestamp": "2026-04-08T12:17:04.400706",
   "count": 10,
   "articles": [
+    {
+      "title": "그리어 USTR 대표 “한국 대미투자 지연 해소… 복제약·반도체 초점”",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBlaVl5MUJMTG1zSVlfOUphQ2loOFladWF4Mmg2QTJhem16NF9qVHhsR0UyelktVEtRZWMzX1NDTE9CQ0Z3MEE3Qm0xanY3QlVf?oc=5",
+      "pubDate": "Wed, 08 Apr 2026 03:02:55 GMT",
+      "source": "문화일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "화신, 신용등급 ‘BBB+’ 상향…현대차 동반성장·수익성 개선",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9VR0sxdXJOZmxYRlNpVXBLSG8xcWNoQ2hLYWw1c3EtdXNZMVh4TWs5ZUV2MTFSN2FmOTA0cjFuT3lJRC1PXzNJLUU0Z0NKNi1YN21WbWl6M3RzaS1jMXpQcDE4Q1FXU2hmVVAwOUF2Ulc1QQ?oc=5",
+      "pubDate": "Wed, 08 Apr 2026 03:00:04 GMT",
+      "source": "마켓인",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "기억과 AI연산 동시 수행 반도체 소재 개발…대한민국 과학기술인상에 심우영 교수",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE52ZFVuTTRYNTJoNlZVck83U1FmQ1VCdnhKQnBQOHVmNWRxdFlrOGtqTFdUSlhWM2w4ZnF0UVF1ZXdDd01Ca0dPRVM0TWJUSzRHZW51WQ?oc=5",
+      "pubDate": "Wed, 08 Apr 2026 03:00:00 GMT",
+      "source": "동아사이언스",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "\"AI 연산 효율 높이는 반도체 신소재 개발\"…심우영 연세대 교수 4월 韓 과기인상",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBQMm10YU1uLWd3U3ZuekxQd3hwS2pMUjVXYmd4cVpQVEw5MVBob3N4NmZVREctRkZzWWI5YjNxMnpoMVdMQzdHbGh1cTA1YkFhVFVGNk5ud3pTMWhRc1lmSdIBeEFVX3lxTE9RZEpDOXBYcWRkR0Z4MmNCblczaE5ubGVoV3N2NHBWaGVrcmdCRTlQSFZFSUFvSC1EaWowckRwa0NvTWVnT09fd1BucllTdVdrN09zdUNKY1BoMG12ZEJ0YVIxNEN0Vl8yaHNoYjJMWFdSYzFmN0tqWg?oc=5",
+      "pubDate": "Wed, 08 Apr 2026 03:00:00 GMT",
+      "source": "newsis.com",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
     {
       "title": "2월 경상흑자 231억달러…‘반도체의 힘’으로 역대 최대",
       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5WZHRkd0VrSzZ6RDVCdXJxYm5FR3dMVVU5ZHRFckRKTm9WQ2FtMEtrWmZqYkFDSGNCX3J5czZyMl92X1RzR0xZUGp0Z2hRRl9y?oc=5",
@@ -12,7 +64,20 @@
         "color": "#8b9dc3"
       },
       "impacts": [
-        "환율",
+        "삼성전자",
+        "환율"
+      ]
+    },
+    {
+      "title": "2월 경상흑자 232억弗로 34개월째 흑자…'반도체 호황'에 역대 최대(종합)",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBzR3VpazhFaUVLWk14WjRsVW84M1BFd3BhSDhCd2llUU5GQXlEaW5nQ1BTaTBzOGRlQmdkLXhpbEVhRG5ienZsVnhSVlowZzNfNFFBNDZ1SE5SNFk2Y2RZbXZfMXFTOXhXNllUbklaOEw?oc=5",
+      "pubDate": "Wed, 08 Apr 2026 02:52:45 GMT",
+      "source": "연합인포맥스",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
         "삼성전자"
       ]
     },
@@ -52,8 +117,8 @@
         "color": "#a55eea"
       },
       "impacts": [
-        "원유",
-        "BTC"
+        "BTC",
+        "원유"
       ]
     },
     {
@@ -67,72 +132,6 @@
       },
       "impacts": [
         "삼성전자"
-      ]
-    },
-    {
-      "title": "김의겸·김재준 정책 공조 선언…\"현대차 9조 투자 성공 원팀 구축\"",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBvOTZkVVdQc2dTaDRMZUZXQ3NieXVkR0p1dlJQVDlhaXlJUHlPYlBWZlhsWjVmZUNkVjdkZmYyUEJPRmtIU0o1ZmxvTV9XWUctSndoSQ?oc=5",
-      "pubDate": "Wed, 08 Apr 2026 02:40:38 GMT",
-      "source": "뉴스1",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "“반도체‧AI 융합인재 키운다” 「부트캠프 AI융합과정 운영대학」 선정",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9HZmNYNlZTeXpCdG0wSkF0YVQzU1A5U1lkNFlYT3Z5bktDRWRBX1ozNXlvcDhBRUlJeXpBLWpQaTFGX3h0NU10RUZrek00bkNtVnA3cnBlejRXcjM2bWx1VWFBYXY5dGR3V1VNcmt3?oc=5",
-      "pubDate": "Wed, 08 Apr 2026 02:38:40 GMT",
-      "source": "단국대학교",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "돌아온 외국인…다시 반도체 랠리 20만전자·100만닉스 재가동한다",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBrMEFVZUxCdGQ2bjVlV2p5aVZiWDlzS0s4QnNrZGE0aXBkdW5scUNoYWwtM3RzMGxlTmwtcm1hSjlvZllKRGtNX2xTaTRXeDhlOU9LM0NjNksyNmhyQnhZRWh2YWlLUmJjRzBIaw?oc=5",
-      "pubDate": "Wed, 08 Apr 2026 02:36:18 GMT",
-      "source": "중소기업신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "“비트코인, 단 몇 분 만에 뚫린다” 노벨상 물리학자의 경고···대응의 골든타임 ‘5~10년’",
-      "link": "https://news.google.com/rss/articles/CBMiywJBVV95cUxPcDl0SHBRbVUtVWFOYXA4ZUlCZ1Zna1VYY0V2bDh2TTExYzVGUmtFR0xrOGZ4TEF0Zm9FdVBQdldDMkNxaW85RzIwNDl2RmxhSnFkLWtSa3J5cXU4UTVDc09tcmNSVU9fYXZ1eUkwSWp0MEtVMll4b3NaUmZZRElXWTRJSDNWRk82MGVaeGx5MnVoUkFPOE1Xd0paQjhuMjdjdldvbWVEU0k2MHZoNWJLRThHZ2lfTkNtOFpMN2RXR0hHd3FfSXEtbkFPZzZYWFZhQXQwTVRmREwzWDZwXzZMbmhqOG5Yd1Q5RXk4VWhhY2lTc3VycmZCem9Hbk03NkE2cEVlNHd6TllERTZTbms3YllEa05GdURxcmRoQUtyMmplbncyTlRRLTdsUWZTM21EbHZQQlc3STNFeGVpNVl3Z1NSR0F4ZDRFcE9n?oc=5",
-      "pubDate": "Wed, 08 Apr 2026 02:31:15 GMT",
-      "source": "Benzinga",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "비트코인 사기 기승...2025년 美 피해액 114억달러 돌파",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5fMk5JazR4aFBIeEJZMm5aZVdwbDNiWFdzajZvN05NWkZoMUt0OWZDMGJRZVBXZS1ON0FTbVY1djNRQXVPamdaN3RZX3JPZmRRN1V4WTRkUlNmd0FmeUpJOTRrWEV3ODdHUVdHOEZEczBVN3M?oc=5",
-      "pubDate": "Wed, 08 Apr 2026 02:30:09 GMT",
-      "source": "digitaltoday.co.kr",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "환율",
-        "BTC"
       ]
     }
   ]
