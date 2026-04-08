@@ -1,26 +1,39 @@
 {
-  "timestamp": "2026-04-08T21:05:23.157436",
+  "timestamp": "2026-04-08T22:35:38.415107",
   "count": 10,
   "articles": [
     {
-      "title": "비트코인 매수자들, 6만~7만 달러 구간서 약 85만 BTC 매집",
-      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9pT1FxamtoMlF3M0pYdFE3eTZHRDFzekQyMW5FQlQwQTRCdGtZVGw1UW9udEVjbzhMWmhpQXE5QzIzalBpeVZ4MQ?oc=5",
-      "pubDate": "Wed, 08 Apr 2026 11:49:49 GMT",
+      "title": "이란, 모든 유조선에 통행료 부과 방침…\"비트코인으로 징수\"",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBBTTNCakY2UlNuR09lLTJYR3RQTkZNQmQ4ZUJUUnhydm9QX1hsUkgyZ2JGSm9GbmZMMk1GU1RNWGV6UGpqSGJaZGlUV3luNVRn?oc=5",
+      "pubDate": "Wed, 08 Apr 2026 13:22:59 GMT",
+      "source": "블루밍비트",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "원유",
+        "BTC"
+      ]
+    },
+    {
+      "title": "모건스탠리 \"비트코인 채굴 기업 가치, AI 수요 대비 저평가\"",
+      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBPUmFLTXFuZ3RYT2dfdkdzRndvQl9STDF5TVpkak82UDZNQ3R6bDh0SVljZTMtb0twX0hsVERjWTA4LWFjRVR5Vg?oc=5",
+      "pubDate": "Wed, 08 Apr 2026 13:19:25 GMT",
       "source": "코인니스",
       "category": {
         "label": "🟣 CRYPTO",
         "color": "#a55eea"
       },
       "impacts": [
-        "BTC",
-        "환율"
+        "BTC"
       ]
     },
     {
-      "title": "'아담 백' 누구인가···비트코인 창시자로 지목",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1IOWhWNWZGbEFNQlI0ZFh2cHVBSWJicHhPUlRPSVBZVGYtUGtleFc4b21nUndnUU5aWXJuTF9GLW5IcmlnRkp3cU51azVyOXVIU2kzVnFXSllyVkdmVHhsbFA2ZWNUWkpGTEE?oc=5",
-      "pubDate": "Wed, 08 Apr 2026 10:59:00 GMT",
-      "source": "뉴스웨이",
+      "title": "NYT, 비트코인 창시자로 '애덤 백' 지목…업계 반응은 회의적",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1RNVkyUFlOS2lGNV9mbHJVYXlMUFdJRGdsUWNSMmo2Tm5DOE9GNzFrd0NEZnVfU3JBV2hwWnllRWlwMXpOcDBrMFJGOWc3MEJ0?oc=5",
+      "pubDate": "Wed, 08 Apr 2026 13:04:25 GMT",
+      "source": "블루밍비트",
       "category": {
         "label": "🟣 CRYPTO",
         "color": "#a55eea"
@@ -30,10 +43,24 @@
       ]
     },
     {
-      "title": "불리쉬, 3월 월간 거래 지표 발표..비트코인·이더리움 중심",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA5NlpWWFB0c3lqaDlEMjY3ZXc4bVNnb1BXamdMTjdnaVoyNW5rZ3laNnN3aEJRdFIyLXBoOXlpT2w1WUJJcDdCQ2VTellmQ0RfUlE?oc=5",
-      "pubDate": "Wed, 08 Apr 2026 10:47:20 GMT",
-      "source": "매일경제 마켓",
+      "title": "오늘(4월 8일) 암호화폐 시장 동향: 비트코인이 72,000달러까지 급등했습니다. 상승세가 계속될까요?",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNdFpkbGVUZWh6VmRNdUlnZThrOG4yQlZXc1IwR2gtUnl4dnhETktxc1BURi13eHhIWFhPc0FGZ3dhdXR2aEtDYTAyaGROZlM5ZG5SRVZ6emRtMkFZdkdSSkVqZUJ6Q2dXYTlSY3FLNEhZNG9PNV9sMmo5aG1HRWNTN2lOTkcxNkpxSnZFWmlTcG9xMVlPTHh3NDhxSlJiWDNCZmlyR3ZtcVA?oc=5",
+      "pubDate": "Wed, 08 Apr 2026 13:04:11 GMT",
+      "source": "Vietnam.vn",
+      "category": {
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
+      },
+      "impacts": [
+        "환율",
+        "BTC"
+      ]
+    },
+    {
+      "title": "비트코인, 양자 컴퓨팅 위험 관리 가능 - Bernstein 분석",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB6S0hpcGV6cWZWWllTa3ltRXZzTXVEcElETjdMS2pPWnBRRkl2WjBHNFd6UzMyMFE4U0FkWjQyS25HaFBreThIMlRMZ3dvcl8yMkRySWpPbDVhZmszZ1Bqc29fRmM4REhjX3BIVHlSdl8wNFlF?oc=5",
+      "pubDate": "Wed, 08 Apr 2026 13:03:00 GMT",
+      "source": "Investing.com 한국어",
       "category": {
         "label": "🟣 CRYPTO",
         "color": "#a55eea"
@@ -43,95 +70,66 @@
       ]
     },
     {
-      "title": "스트래티지 'STRC' 우선주로 자본 혁신…비트코인 매집 가속화-BTIG",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFAwR05PY3FvTS1Cc0wzM2t3cHJweG5KVEZ0WmQ5U2Z1ekJFa0JYeDhZcUhVM2FpQ1FuX0NtWUtBS3NiX2FqU3RWWnJxb05oT0FPSktuc1JQTFBHdjFkRHVveGk0SncyZjl2TDJDWV9vMWtscTA?oc=5",
-      "pubDate": "Wed, 08 Apr 2026 10:42:11 GMT",
-      "source": "marketin.edaily.co.kr",
+      "title": "비트코인(BTC) 상승세 지속…리스크 완화 유지가 관건, 8만 달러 여부 촉각",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB3WjE2OFFsYUVEb2E1RnV3aVlvSUQyZU9kTWNQeXhXTElFcFF5X2owUDdCRHRRek5kNVgta2o3dUhzUXh6d1hROVRrbEdsd0c5cXJKQjRGaHBiSVF4bTBfQS1wT2pvc2xL?oc=5",
+      "pubDate": "Wed, 08 Apr 2026 13:00:00 GMT",
+      "source": "CBC뉴스",
+      "category": {
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
+      },
+      "impacts": [
+        "환율",
+        "BTC"
+      ]
+    },
+    {
+      "title": "이란, 호르무즈 해협 ‘통행 절차’ 공개…비트코인 통행료·무허가 선박 격파 경고",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1DNDN3dll6c2ozWlE2MGx3YUxpcENsRnotb3U0clRaQmE5bGJlbGtFWUsyYWRfWXA1d1ZmXzFsbS1MQ19Vbk51VHRZQ3p2aVVDTnIxbWZGVGd6d1YtWmJqcHpTS0tFUE0tR1E4U1VR?oc=5",
+      "pubDate": "Wed, 08 Apr 2026 12:55:58 GMT",
+      "source": "asiatoday.co.kr",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "원유",
+        "BTC"
+      ]
+    },
+    {
+      "title": "와이씨켐, 턴어라운드 가시화 속 주식분할",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE54R1NwcjlHNEtrVS1lUzg3Ti1rUFZydlJ0RWlxMk03bW9ELURRSG4wYjRZcjFOWXk1RmFCUEdhZmNPcC1mZjlYR3JQQ2F5NmhfeTN2WGZrS3liQy10enBmNDVIUTJoUQ?oc=5",
+      "pubDate": "Wed, 08 Apr 2026 12:55:09 GMT",
+      "source": "디일렉",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": []
+    },
+    {
+      "title": "파네시아, 국책과제 수주...AI 가속기 링크 컨트롤러 개발",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1ldmprWjVheUtRak55VS1QZnJvc21qalJ6bUp2Sk9wV2JKYzJXa2Q0VkxMSFloRnprdm5hNEgyRDNBYVNDVmZySUUtbGRLLW1wRVcyendMSlQ0SzY1a01meUFuTF9PUQ?oc=5",
+      "pubDate": "Wed, 08 Apr 2026 12:45:59 GMT",
+      "source": "디일렉",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": []
+    },
+    {
+      "title": "모건 스탠리, 비트코인 상장지수상품 출시",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE83a3F0dlJ3WkJacWtNNXRSdUhvME5WcDQ0T09GaWYweGlCWUFfUWItSFEwaDdNZmF3bUlhQ2pjRmUxSVZKSkFrT0tZSUlldEF2dmxxeUVGUnJUZmFOWk9DOTBXbEdjb3JKZ3MtTDdTeHQ?oc=5",
+      "pubDate": "Wed, 08 Apr 2026 12:38:00 GMT",
+      "source": "Investing.com 한국어",
       "category": {
         "label": "🟣 CRYPTO",
         "color": "#a55eea"
       },
       "impacts": [
         "BTC"
-      ]
-    },
-    {
-      "title": "3월 수출 800억 달러...반도체는 238억 달러[숫자로 본 경제]",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBBU09kVFh0bXcybE12ZXN3eV9jS1lRcXRuS21FUVBnWnU5QlJCd3JtbFZ5YXU2cXBtdVVCUmZVRlhBenZyeFN4ZjR1bGxjeTQ?oc=5",
-      "pubDate": "Wed, 08 Apr 2026 10:33:01 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자",
-        "환율"
-      ]
-    },
-    {
-      "title": "“반도체클러스터 호남 이전 위헌… 용인 토지매입 서둘러야”",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9JUEV4cVRFTy1EZmMxckZVNXNiSktHakhRYlNwR29VTDFlcndMczF1VFlmRGFzTDNDTnpaWlFyVG1XTWVWM1ZEN1JwQWhsQWxvaFE?oc=5",
-      "pubDate": "Wed, 08 Apr 2026 10:30:17 GMT",
-      "source": "경인일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자 2026년형 TV·사운드바, 독일 TÜV 라인란드 ‘탄소저감’ 인증 획득",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE14cDFWbHFmR3lSZ2N4ZVZIZHpiNUF3N25rUXlhUlRPbWFHM2xoa3JsOHRoQ056THpjXzI1TUZuVzRNVkE2RHB5SHJ1SG1YRVI2alR6dUtnZkJHem41QUUxdFdHd01TQQ?oc=5",
-      "pubDate": "Wed, 08 Apr 2026 10:23:52 GMT",
-      "source": "이슈투데이",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "한국 기업 사상 최대 실적 낸 삼성전자, 그룹 시가총액도 1600조원 육박",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFAwcUZWVUhxMWpPc1k5ZDQyNDJ6aXpfVmpmNV9YMDh1Mkl6eVl0R0ROekJ6TWZOVHRDSWpFcVVOT29Fc0lZblNjTGkzcV9LX2dCektZcm52dGpKTDFicUZfbk1sZlJ0bjJFSzctbUNwSdIBc0FVX3lxTFAwUjRZSjltR3l0WGFqd3pETElDYng3LVlYR0QtWTMtR0s3bUtoLTA0YlkxU0RMVHZFcGtUV3Nobnd5X0FCaGsyZTdnczAyakhyY01ON05RcXd3WFJBOGlfUmJXdXJEY0pOZXFhVnVoZWFuUUk?oc=5",
-      "pubDate": "Wed, 08 Apr 2026 10:21:04 GMT",
-      "source": "여성신문",
-      "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "“오늘이 최저가” 노트북 가격…반도체 초호황이 오히려 독",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBTaVBYc2tFYVV1ZnQzNGYzekJpTFhMVTVnaGVPcDh3VFZPalBLenkyanBnODlKZWxkR1BDYzNUYXlpVjhZc19OVXRfQ2hjbnRFampjbk1EM0o4VmR3LXZ5N01KdGV3bFNvcHc?oc=5",
-      "pubDate": "Wed, 08 Apr 2026 09:59:00 GMT",
-      "source": "한겨레",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "2월 경상수지 흑자 35조원 ‘역대 최대’…반도체 수출이 견인",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5JU3UtWVZYWUZ4bVNHRjhXUTc4THkzWU1CWGZZTl9pa2JoU2hjd1ZwWVlsdjRGN2lUemJNMkRQRV9EcFNldVR6Y1lyaEdtR1AyYjJKSk1XeC1UekgybDEtSnpkZ3FSWnc?oc=5",
-      "pubDate": "Wed, 08 Apr 2026 09:57:00 GMT",
-      "source": "한겨레",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
       ]
     }
   ]
