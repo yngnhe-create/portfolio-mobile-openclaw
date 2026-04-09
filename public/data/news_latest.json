@@ -1,77 +1,39 @@
 {
-  "timestamp": "2026-04-09T11:08:44.979960",
+  "timestamp": "2026-04-09T11:39:12.368344",
   "count": 10,
   "articles": [
     {
-      "title": "비트코인, 지금 들어갈까…'매집 구간' 진입 신호 3가지 포착",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBITDd2TEF1NDBvYm4zWV92WnZHd011eEVBS0FWWUc0MFB0R2VLYkdaT29oNktFRW54em1rOEs0SWs3bTdtLTFtT0tyVURraFp6eTlUTnpfY252R0tsZG5yb3N2Y3dCLUFXTzhRWkxmS1FNV3c?oc=5",
-      "pubDate": "Thu, 09 Apr 2026 02:01:11 GMT",
-      "source": "디지털투데이",
+      "title": "반도체가 밀어올렸다…해외IB, 韓 경상수지 전망 ‘줄상향’",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB5RnFwTXVhNUR2UEc4LXR5SkNjVVUyNVRmSGVYNTNFQUZaRlRaTHJvTDdnMXdOcU5ZTnhzaTR3aWJtakZIcnJOMDIzZURoMzFGUjNWZG1DbWpEY29lbDdBd3dxVQ?oc=5",
+      "pubDate": "Thu, 09 Apr 2026 02:33:01 GMT",
+      "source": "에너지경제신문",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "“통행료로 비트코인 내라”… 이란, 휴전에도 호르무즈 통제 강화 - 조선비즈",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPTW1TUFA2REZpUU5IbTdEMW12QjMxQWg1WDZsVzdaVkpERy1tdE9weVlWLXJjOFJBb09Zc3ZuVmJNNlBEU01MSGMydWcwWmdnU2dyRFpObnJoRVBqekZLajdKclNDcUhnNGZ3WXJHMEJuMmtSNElDWkt6aDJ0ODRSeGRONjU0eVhUWVNZV2xZS01mcDV0ektaNVdrUU1nZ9IBsgFBVV95cUxQbUl1WENFeFp0Mkc0eTN0RVZtdXNZS0pIaC1sSGlJR2JkYkdoV2Y3MUxma0kzcVVJQldjNmJBeW9EZlFIT0czWUR6TEJXOVByeVJ5Yjdsc2JtWnphSmx2WWRBWnFQdGpUVGZfLWxPYU1GRThSd3ZGR3RhZGdqb0FJdXBCRmp0Yll0NGhOc2xoeHo1YjVPYU9UTzFHMEU4VGo5dHpmUTl6QWVwY3dJNll2S0pB?oc=5",
+      "pubDate": "Thu, 09 Apr 2026 02:27:00 GMT",
+      "source": "Chosunbiz",
       "category": {
         "label": "🟣 CRYPTO",
         "color": "#a55eea"
       },
       "impacts": [
-        "BTC"
+        "BTC",
+        "원유"
       ]
     },
     {
-      "title": "비트코인 창시자 ‘사토시’, 아직 생존?···NYT ‘영국 암호학자가 사토시 유력 후보’",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBORHJkMGxza0NzN0loVUp3SWZPZ2NWcU5VcnRBYjYzSE5GYlBOUUpwZ19fY0wwLVptTlRrT0FKNHpNTzg5Umk2cEZfekxVbXRfTVdkVWxaVXMxUdIBX0FVX3lxTE9xM1VuWUtXUFpiUVpiRW5qZmJOczh3SzJtN3VMQnJBWjdGQ2ZaLThTZ3k5cmJ0bllGOTRIZ2VQUHB1RkxRX041cXAwdDJDT0YyTjhXUXN2ZTF1akNkZ0dB?oc=5",
-      "pubDate": "Thu, 09 Apr 2026 02:00:00 GMT",
-      "source": "경향신문",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "마이클 세일러 \"비트코인, 이미 바닥 찍었을 것…양자 위협은 과장\"",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBKenc3cmZxT2VuQjZmQUMzc196S01XRnBpMVhzQ1JKaTIwSE1EOXdYeXVxSnJKNldxWlRnZ0pmTmZwMXd4WnFOYVVIczJyNVRKWlEzeWpLbW9lYThOVzM0WEliVWd5dHRET2wxU01HcHhnUVU?oc=5",
-      "pubDate": "Thu, 09 Apr 2026 02:00:00 GMT",
-      "source": "디지털투데이",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "[이주의 모빌리티] 현대차, 친환경 스마트 수거차 실증 사업 착수 外",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBEamkxVm9kNnBMakVTb0xEN3I0SmF1RHpodGp5X0ZsRjRwdmd0Um9FOEZQS1pkMWh6dUZEU2xJNlE4c1poX3Q0ZnNKdzJIcUE?oc=5",
-      "pubDate": "Thu, 09 Apr 2026 01:58:19 GMT",
-      "source": "딜사이트",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "모건스탠리 비트코인 현물 ETF, 상장 첫 날 504억원 유입[코인브리핑]",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBoTGtnNTBOYlRtVVZPcW03eGhoNDdCOW9xOUJ1VmNJQkdnZ210NWZwM1NzVFJ1Z3RWQW1PTGNYbGdaU3VFZEJUQ0NUUFdNNno1bG40TWtTWm5ZMlM1LThzX0gyTV9YQQ?oc=5",
-      "pubDate": "Thu, 09 Apr 2026 01:48:32 GMT",
-      "source": "뉴스1",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "2025년 반도체 장비 시장, AI 투자 호조에 15%↑...韓·中·대만이 견인",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBYVUk4ekttYmEwTEVCY1UwZllhMjBqYktsWkt5NU5udWl2cWlfSlJrcmZWcTZCR1hiQ1hRdmhnSnRVVV82R084R0F0SHFteW4zejF6enNNWFQxTmJsWUxqU0RqRVhUZEZj?oc=5",
-      "pubDate": "Thu, 09 Apr 2026 01:47:32 GMT",
-      "source": "테크월드",
+      "title": "'티타늄→알루미늄' 삼성전자 갤럭시 S26 시리즈, 모서리 곡률 '7R'의 비밀은",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBfZUNPN2FZckNWamhDWlVUMFpiSzhhQ2VYWWMybFZtYlNLS2ZpU2d0Y1NOUTcwUlF3ZXhzQU5HVGtnMzR4WTBsVGc3SDZfaHQwRUpqbndReHFCSUJjaWw5Um1JRQ?oc=5",
+      "pubDate": "Thu, 09 Apr 2026 02:21:43 GMT",
+      "source": "더구루",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -81,10 +43,10 @@
       ]
     },
     {
-      "title": "'130조 원' 비트코인 창시자 17년만에 찾았다",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9MWmVpVlFra3ZFUGNNWkpINmZ0a2llb0xJUDhZRnUxOXItaUlURkpoeHc5dXlLWDJfcXJNY09sZlRuckl0ZjljZU1ONXJBTmRlNGZINlhka01zQUJUZm8xWFc4T1pZU3RTVWc?oc=5",
-      "pubDate": "Thu, 09 Apr 2026 01:44:40 GMT",
-      "source": "퍼블릭뉴스통신",
+      "title": "마이클 세일러 \"애덤 백, 비트코인 창시자 아냐\"",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE84QzFlNjZwWWU3YzZhZnlQQW52Zmt0QkRsOWdsdlZILUhXcXZkUC13cUFzTFJWNGpwRFUwYmpKRUhQXzYwdlNSeDJMUkFXWENkVG9hOG5B?oc=5",
+      "pubDate": "Thu, 09 Apr 2026 02:21:07 GMT",
+      "source": "지디넷코리아",
       "category": {
         "label": "🟣 CRYPTO",
         "color": "#a55eea"
@@ -94,9 +56,35 @@
       ]
     },
     {
-      "title": "숙명여대-램리서치코리아, 미래 반도체 인재 양성 맞손",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE91YmxzNnVOY1NpY0htVXFaMFlWeVp2Q1dMZnljU2pEaU9QTG0zY2JmVk9wbnNZX3IyTEtBUGhfV2d0b3ZFSVhxSk4xSGpvcDVHT1B1Vm5RcUdVdw?oc=5",
-      "pubDate": "Thu, 09 Apr 2026 01:42:46 GMT",
+      "title": "숙명여대-램리서치코리아, 반도체 인재 양성 MOU 체결",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4yS0wtd2RfT2lNN0sxU01mdVZHX0JCbk5ac3V2RU1RbDIwMDk1SG0tSkpoOXpuajF3UVlKaV94UVU3ckVtQS1HVkgzVjJwX0lmeHBjVmJNdnY0SmljRWV6V9IBeEFVX3lxTE0zUDl6eUtJWlVKbFF0dE56LVFic3NMM3BKLWtFWERldGt4WTY1U0ZoVndpd2NDN1lUZ0FMWTJ4X3FNc2JzenhnejFUcndWM1ZXUHlUeFRGZkJKeFptTVBKTU93emFRenNBRXpTYzhSbjBNYmJONE1XWA?oc=5",
+      "pubDate": "Thu, 09 Apr 2026 02:20:59 GMT",
+      "source": "뉴시스",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "'54층' 현대차 GBC 지구단위계획 결정…2031년 준공 목표",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5FTkYyXy1KVTF5bjNLd1lFd1F5Q1QtVWJfbll0TFk2VTNma2VmT0pQbThZQ1JNSW1uMmloSVIwYWN1Y2NMS2xERkN6N19vc3BfNXhOMWptdElGb3M?oc=5",
+      "pubDate": "Thu, 09 Apr 2026 02:18:37 GMT",
+      "source": "뉴스1",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "\"휴전 맞아?\" 코스피 1% 약세…삼성전자·SK하이닉스 2%대 하락[장중시황]",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1JTUFfVFJobjRaYVc0U1BBX1Y0ZVNCUjlRMHdTcU5iZUxLaUp1M3Nrc2NudTY4WHd3b2VjeFNhSXFiRlBZTnItZEhmcy13TFF3Z3RlOTJyRnR3am1YdHFB?oc=5",
+      "pubDate": "Thu, 09 Apr 2026 02:18:12 GMT",
       "source": "뉴스1",
       "category": {
         "label": "📋 GENERAL",
@@ -107,22 +95,35 @@
       ]
     },
     {
-      "title": "현대차 GBC 개발계획 변경안 통과…국제교류복합지구 조성 속도",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9QUUVTLUlDU1BpMlhVbWNHVXlSZ19KWFZsQkRneFdxV2padnowZlVsbG1GSXpqTS1LcGZjMXVVeWZjNE5VeC1PUkd3eU9mYTNiMkdSN1I5Y0djVXRrMnhjY0lNeGRnNEFURGFVWWRJTlc?oc=5",
-      "pubDate": "Thu, 09 Apr 2026 01:41:42 GMT",
-      "source": "오피니언뉴스",
+      "title": "'美 반독점 소송' 애플, \"삼성전자 내부자료 받아달라\" 법원에 요청",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBpNFBhLW9xVGU5RDJRdnMyX0xDMjZ4R2hpMEx5ZllHMm96ZUdoSmR3RmNYX1BzSnFESDQ4SGlxdFpGUDRLWGp3bTN2Z3RwZXdOanNfY1QyamY3TnZvRE03Z2F4dDI?oc=5",
+      "pubDate": "Thu, 09 Apr 2026 02:16:14 GMT",
+      "source": "PRESS9",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
-        "현대차"
+        "삼성전자"
       ]
     },
     {
-      "title": "\"비트코인 창시자는 애덤 백?\"…당사자는 '부인'",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBTdVZLamFWMzVicHdSZ1BQUWlnaEJWZVp4aHFDTnQ5OG00V1hRNzRneE1CMGVvWHMwVzhVc2ltZ0V2QlFTdnZlaVZrbE5RZjhHZG16OWhwM0xScG91R1g0UNIBeEFVX3lxTE5RZzJ4clBUTVFNdEVmcl9zSkRtaHNVMnZQSzRxWWxSZzByQURSRWx4WlM5bFJRTThNcWpFYWstSkduUnNhRjVPdVhvYkZCclRXZHMyMmNSaTgtaHluVV8yUllvRHR5NURHV21aOUtHUUFUYWd2emJlOQ?oc=5",
-      "pubDate": "Thu, 09 Apr 2026 01:40:25 GMT",
+      "title": "애플 삼성전자에 '영업비밀 공개' 요구, 미국 반독점 규제 재판서 증거 활용",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5OMl9yV3hJYlhMWkotd3FzWkdDOXBSc1RNcjNpS0NjNmtkR0FYVzM5ajZoQkd3NGtPa0ZGOUZWS3I1UUQwcTJ3ZG5YTzJEeGViUERMQzRyYld6TXF6Zm5zRWRSUXcwUnBIbGxWdG1ha2VLNWM?oc=5",
+      "pubDate": "Thu, 09 Apr 2026 02:11:37 GMT",
+      "source": "비즈니스포스트",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "빗썸, 회수 실패한 '오지급' 비트코인 7억원 가압류 신청",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9TRUg4azB6WFhsb3huNGpENkdlMXZ4YjhqWXpzZFE5aGU2cVhtNlV3Q2NrMVd5NEd5d1lqX3dJTXJFOEEwRXhKdzdVRi1VMDM0TUZSOWJMVFJFR2l6MVBMadIBeEFVX3lxTE9LaHJsWlZwUUlVSDh3ZmtwOVN1VkhKdkFyRXZrWWpFc2ZuWk1UT1JpTzNONjMyZmVoNUxkTGx0X0V5ZFpwelRnc1pjS0Flc1I1VWhBZy1vQWhtdUJJMEI1Z0tBeTZhY2tqaDB3dzNNLUJiUmdBN3VnUA?oc=5",
+      "pubDate": "Thu, 09 Apr 2026 02:10:36 GMT",
       "source": "뉴시스",
       "category": {
         "label": "🟣 CRYPTO",
