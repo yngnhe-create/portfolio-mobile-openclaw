@@ -1,18 +1,84 @@
 {
-  "timestamp": "2026-04-09T22:43:52.299398",
+  "timestamp": "2026-04-10T00:14:21.884136",
   "count": 10,
   "articles": [
     {
-      "title": "‘21만 전자·100만 닉스' 탈환...반도체 수퍼 사이클 언제까지",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNcEo4WGt4bzJEWTlaM3o0OVRtZFJrRlRlLTRuSVdHLW9ObkwzMkdmMlk0MDlRZ2wyS29LQ1lxX0VLVVJSaUZNUWtrdkxLOE5YaUs1cGZuUkJoS3N1ZTVic2oyeEVYb1puMlJBLVRTNFpqNC0taWEyeE53aVM3X2dCRkEtWdIBlwFBVV95cUxOMEFUS2VGRXNhb0ZfWWJlTy04YXFZMnRYRWNKZzJ3VDJneGF5ZmlYS2s3VlQyb0VEQmtQNWVVdkFKRDhmd1J5azRKcVYteGp2bHA5TkNyc0MyaW01a3ZwOWFtZnFpU1NUQy1HeEhNeWducXNObHhBa0NBR1pSU2hwaVE4akN1MElWVkdmRGhEd2ZvUFBRQ1Fv?oc=5",
-      "pubDate": "Thu, 09 Apr 2026 13:23:05 GMT",
-      "source": "조선일보",
+      "title": "비트코인 옵션 시장서 상승 베팅 확대",
+      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBXYk1ZZ09JZlJtS0hqUWdFUlJJeGUwZUJ2d21nU2dwU3EtYVVJOGM4SXdtMU43dUNtTUgzMUxlS0tNN3l3TUFjWA?oc=5",
+      "pubDate": "Thu, 09 Apr 2026 15:05:51 GMT",
+      "source": "코인니스",
+      "category": {
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "비트코인, 핵심 저항선 아래서 정체…다음 흐름 두고 전망 엇갈려",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1ra0Izd1hUQ2pjT3V3UHo4SjZNNGZmdHhMWVpxZ2o4RFpNMDNYMEFkZm1kZUVqcWVMUlVJTm5iUmdqUnpUbkRPemJzSGtKWS1fY3dJUm5DWlNxMEE3ZWV3WC03OGg5RkYtTXd0UE9fa21SLWs?oc=5",
+      "pubDate": "Thu, 09 Apr 2026 15:05:00 GMT",
+      "source": "디지털투데이",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "“현장 목소리 들어라”…반도체·자동차 수출길 챙겼다",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9GYThpUmt5OG9SV1lCV09aekJKSU1mWmtYWjlDMFhpWTlaX2F4MmROX0NrNDUtQ2NKTjNXUExxZTg1T1JnSnI4c1hsTk5LVlpyRmNvRzdn?oc=5",
+      "pubDate": "Thu, 09 Apr 2026 15:01:00 GMT",
+      "source": "중앙일보",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
         "삼성전자"
+      ]
+    },
+    {
+      "title": "현대차, ST1 활용 ‘친환경 스마트 수거차’ 실증",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBJaW5adW0zd183eDFOTml2cmZQcjdwaXptZHJoMU1JLUxGa05BNGZpZ182d1BDUW1XbmpZOTloV3lJbUp4OTd4MHhESjZtZVh4TmVkbUVodjZRQ1QzdElJNjhaQlhqRTRWbFFZSg?oc=5",
+      "pubDate": "Thu, 09 Apr 2026 15:00:00 GMT",
+      "source": "경상일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "반도체 리드 타임, 여러 부문에서 급증 - Baird 보고서 By Investing.com",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB5SEdsd0UyTjV4YXpub1FKVkhNdWk4eXRia1A1NEZPSE5GQTQ3NUhQWjcxTk9RRXRfankyeURFRGNDN1padjJfdG12Z1pCb1N3M1hEV0lZX0pYcVU5Q0JkbXFVYTVuLXlOSkY5M0tDZG1KUlk1cHJj?oc=5",
+      "pubDate": "Thu, 09 Apr 2026 13:58:00 GMT",
+      "source": "Investing.com 한국어",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "“이란 휴전, 증시 바닥 신호”…비트코인·이더리움 동반 반등할까",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9DaGVRN3VydmFqZG1sak5GaWhreHJGRjZZbjZtM0RydzhWZ2VjUFJ1MlJOendWdkMzU0VSTXd2RURLd3ltbldLdzN6b0FQem5YRDBVQnctcjJ4VEhocXctSmFMRWNxeEZSNzltZlhYV1JIOU0?oc=5",
+      "pubDate": "Thu, 09 Apr 2026 13:55:00 GMT",
+      "source": "디지털투데이",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC",
+        "원유"
       ]
     },
     {
@@ -25,22 +91,8 @@
         "color": "#4ecdc4"
       },
       "impacts": [
-        "환율",
-        "BTC"
-      ]
-    },
-    {
-      "title": "블룸버그 “삼성전자, 베트남에 40억 달러 규모 반도체 패키징 공장 투자 계획”",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1pVWVOZXhtM251YktucVIyX3pRYVpoV0pDUWxUcHpQRkU5U3k3eHM3R2dYMjMxVlVZM0FNaTlFNEhuRUhwNERXSl9oTGtHNkppZ29nVmZ0a2doUdIBX0FVX3lxTE5wdFRRa1ktRjktSy1lRHVNNzE0UjdFdmQwS1dCdHk4Smh4ZzVDamhNVzZVRXlLYkFTSS0wdmZIMm5WR1pnZWZJYkRreHYzSXpKVjlLMEhmOGhEYXhGdWF3?oc=5",
-      "pubDate": "Thu, 09 Apr 2026 13:21:00 GMT",
-      "source": "경향신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "환율",
-        "삼성전자"
+        "BTC",
+        "환율"
       ]
     },
     {
@@ -66,8 +118,8 @@
         "color": "#a55eea"
       },
       "impacts": [
-        "환율",
-        "BTC"
+        "BTC",
+        "환율"
       ]
     },
     {
@@ -81,59 +133,6 @@
       },
       "impacts": [
         "삼성전자"
-      ]
-    },
-    {
-      "title": "리츠드슨 일렉트로닉스, 반도체로 실적 견인…주가↑",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFA0cnpRaHhMX09RdlJFVnltZ2Z5TWV2cElSSE42Q181MzBETWpBOGxmUTkwYXRfa0k2M20yTXpfak1HNk1oX1FWU2hlV0MwY0Z3OHkyR1UxTDVTVWJ1dHhFS3g0am5YZ0VvMGJwZmZYTU1qYVk?oc=5",
-      "pubDate": "Thu, 09 Apr 2026 12:28:59 GMT",
-      "source": "마켓인",
-      "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
-      },
-      "impacts": [
-        "삼성전자",
-        "리츠"
-      ]
-    },
-    {
-      "title": "이천시, 폴리텍과 손잡고 반도체 융복합교육센터 개소식…인재양성 시동",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5nU0ctMndXWjF3c0t5V2VmMVlVUml0LUZsdnZJdllpb1NpbkxCWFRic2twQ0Z1cUZaaDN6QkRpazU0U0xPa25oajVuSzA4Zw?oc=5",
-      "pubDate": "Thu, 09 Apr 2026 12:28:09 GMT",
-      "source": "전자신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "용인시, 반도체 산업 중심 도시 전환 가속… 인프라 구축이 성패 좌우",
-      "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE94dlZFMXllSkZDX3ZMWTB6bjNDNG44a2hmd0RLbXVhZk9ka0V1clFlTWpHTVpmRnJoWktZTWxHelpOelU?oc=5",
-      "pubDate": "Thu, 09 Apr 2026 12:20:00 GMT",
-      "source": "경기in",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "4월 9일 암호화폐 시장: 비트코인이 다시 급등하려면 이런 일들이 일어나야 합니다.",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQNHdhM2w1QUMxajV6Mk51d3NSNWxGUEMwUFhNM1doRlRFX1NGZ0tsUVNnV0RxcDBMaWxYeUNmbkxhN0k5dThJMjdjcFFWd1BoeXFlZ1AyZnFCVFJ4X0poLTlJT2xaRkEzOGhuTkdFbFBnM3NMNlg3eFM5MTZLN0FPNzJyajRxdUxpY01OajJiRy1GdjhlOFJNVTVDOEh6ejVSRWU1ZkFORnM?oc=5",
-      "pubDate": "Thu, 09 Apr 2026 12:18:03 GMT",
-      "source": "Vietnam.vn",
-      "category": {
-        "label": "🟢 POSITIVE",
-        "color": "#4ecdc4"
-      },
-      "impacts": [
-        "BTC"
       ]
     }
   ]
