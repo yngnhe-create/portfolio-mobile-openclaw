@@ -1,105 +1,67 @@
 {
-  "timestamp": "2026-04-09T09:07:44.630250",
+  "timestamp": "2026-04-09T09:37:59.572124",
   "count": 10,
   "articles": [
     {
-      "title": "현대차, ‘ST1’ 활용 친환경 스마트 수거차 실증사업 나서",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5RVjBNSnBwMVJTdTd6bzBnZTFpZHFnck83UHZYYmpkaUg2UnV5MG9kdzIxNi1UYXRqZ251ejRrekM1d0swTW4wSVd2cUxFamR2SkJRM19n?oc=5",
-      "pubDate": "Thu, 09 Apr 2026 00:03:21 GMT",
-      "source": "헤럴드경제",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "\"비트코인 창시자 사토시는 영국인 아담 백\"-NYT",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9PQjJHYkNXdUlOZFlvRzVPNjNzbEhZYjYzaHdtZ1BFRzR4NjRMaHc1aUFHM2pHT3VqaVlsVjllX25nbWZTOEdiYU0tSVRYYkZqRF9xYi1tTno?oc=5",
-      "pubDate": "Thu, 09 Apr 2026 00:02:12 GMT",
-      "source": "뉴스1",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "현대차, '친환경 스마트 수거차' 실증사업 나서",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9NcjFVLUx1RFpING84SnJvUXRwNWF0NGVCTTVTNE13QUdRZVhuY1I3TU5kVV9peXVMZ0c2LTVoWmF1QUFpdDNmVU5xT01tVVQtWG9qZW1fMW5HQVNKcjBiWdIBeEFVX3lxTE5zdHE2TFFsYlhpQ1dFcWRMOG4tWWY5WGU0LTBGblFweW5LVW1yTG82NEVpR3BBTTdxaVpGR0J6cFNjQ04yUy16NXRpbE0xX2xjUWUxOW8yOW02c25kNHA2YWJxX2xOZllkWVl5TEdJMERJTi1kRGVYSg?oc=5",
-      "pubDate": "Wed, 08 Apr 2026 23:53:13 GMT",
-      "source": "뉴시스",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "현대차 정몽구 재단, 한-아세안 전략적 협력 이끌 미래 인재 육성",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE4yZHI1UEdYcGVQeDRkdEdLdWczX0xRV1E0UTJMUU5qM21GbGNSUnNGOEJPd05OTEhOWXlFN2VpMTV0TEYxbDlZOWZGV1IxbnlYS2dWeDR1YW81QXpaMmwxaDRfZHdVR3BRTVIwYlNFSQ?oc=5",
-      "pubDate": "Wed, 08 Apr 2026 23:52:46 GMT",
-      "source": "이코노뉴스",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "비트코인 1억592만 원대 하락, 호르무즈 해협 재봉쇄 가능성에 변동성 커져",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE45eXNaVmVCYi1fdTUtSnFKMm1QM0V2REpFWXBsYkVjcTI5SVlBcjlDcG8wN0RzZDlaTTdiNGdZNGV1Uk5yM0xNeDdhWXBBVFE5QUItelN0MnpYbVhrU3ZXbWN5S3RQUjhJNmZ1SGZ0MXJNUkk?oc=5",
-      "pubDate": "Wed, 08 Apr 2026 23:52:35 GMT",
-      "source": "비즈니스포스트",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "원유",
-        "BTC"
-      ]
-    },
-    {
-      "title": "호르무즈 꽉 쥔 이란 “비트코인 통행료 내라…무기 실었나 일일이 검사”",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9ycHNUQUYyRE9PTXU5bGUzc2x1VTVjTy1VcEJlRTl5VWp5SU5CVW1NQ0kxM0ZfV05NM3BzamoxRWFXS3NXZl9KSC1iVFB3QVZwbElkUjBn?oc=5",
-      "pubDate": "Wed, 08 Apr 2026 23:50:36 GMT",
-      "source": "헤럴드경제",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "원유",
-        "BTC"
-      ]
-    },
-    {
-      "title": "휴전 소식에 급등했던 비트코인…1억500만원대 유지",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBGRFJpZ3RPM2VCQXRNQ3dvUE9GdnpfNnN0YjY1V1JYRXpLVjk5RnY1eHJOZEJxXzNKb3Q5WWtBQl9yZG1vMkR2eUV6ZVFfRDFYMl9KdjVKMDFGelFMQ2dMONIBeEFVX3lxTE1ldUF4NThXUlBRNTYtMjdRTlRTdjRRWUNCbzNJQzlyN0k2VnBtaWZUbXlpa0lFTlNDb2FTekpJejljVjJuU296Vi1mWHpaQXFPNm5URVduZXJvTVJHbE5lRVRjTU1sNEkya2pTQnlLNk5jZFRkTXVMMQ?oc=5",
-      "pubDate": "Wed, 08 Apr 2026 23:49:55 GMT",
-      "source": "뉴시스",
+      "title": "비트코인, 9만 달러 가려면 ‘이 선’ 뚫어야···상승 랠리 향한 ‘마지막 퍼즐’은?",
+      "link": "https://news.google.com/rss/articles/CBMitAJBVV95cUxNTGplQzB3dGtTWEZueGxZWjNMdzlkRm81NXJlb3VmSDBkMkstZjdIVU5sMjZvNUhLZjZkVWU5djNISTZpcE5pandXalR2V2xZT0FsWHBaOHJidTVqak1UbnN0RXlQYzZVdXFFQU5Sc19mVlFSX2p1QVFhNEdETW4tZEFId3hKczEzdWlZVi1LWEUzM3JkSXcxUFQyWEp6SU1Fc1JxRE1mcUVhU1IxTXRvSzJBRDR5RmRWUGpnZHNob2hyZXFROUhGanVMejhxNlpwdG9ZZ1ZVcUF4RnRXbzJBY1RSUmpyOU1NUXU5bThWNndfLUtWdlByXzdoZEpvaUtIX0xDcUFMYURRMjVBSE9SSnNVTGxlY2huRUdFYzNPc2ROSHh1UHVCc1RYbHNhR1BHRUk0SA?oc=5",
+      "pubDate": "Thu, 09 Apr 2026 00:33:45 GMT",
+      "source": "Benzinga",
       "category": {
         "label": "🟢 POSITIVE",
         "color": "#4ecdc4"
       },
       "impacts": [
+        "환율",
         "BTC"
       ]
     },
     {
-      "title": "4월의 주도주가 나왔습니다 반도체, 자동차 다음 섹터는?",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5ySThhWW8yV0lQVk5Bb1ZuVk5MTUdVaGFDbFJkZHBHS0JNMUdxZi1GdkJzZ3ZpU2JPQWRwaTFsQ1hTTURLUk55c2xDLUpzX18ySWs2V1Q5ZFpGZlQxbUVJcDFnSTViZkhIUVY5c2lwRXHSAXRBVV95cUxPckE0RmI2ZmJ6QmFqUTUtLXRiaWVWS2loQV92N0tjamYzYnJXY3hCR3YxZjJjamI3QVFBQXhRcUtqR2l2bWV5MUd0YTdaNFdxX1YwWXB4Q1l1aHRiX1M5ckk2UkRkbzdWX3BLSE5oelFxSjF0VA?oc=5",
-      "pubDate": "Wed, 08 Apr 2026 23:47:51 GMT",
-      "source": "연합인포맥스",
+      "title": "\"이란, 호르무즈 해협 통행료로 비트코인 요구\"",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5ya0tlZ1d5NnlBUDQ2Y2hyN01NYzZZb2c1bVhXdXJNdmlLWFBlMEVPVVFTeUxhTHlRUFczR1NtdS1GWkdiM2NqWDlqWTdzUkl3Z0IxTjVOUmctMkFrZU1KcWh0VENRNHZwQ1hwTmdCVW1aUQ?oc=5",
+      "pubDate": "Thu, 09 Apr 2026 00:30:00 GMT",
+      "source": "디지털애셋",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "원유",
+        "BTC"
+      ]
+    },
+    {
+      "title": "\"무난한 데뷔 성적\" 모건스탠리 비트코인 ETF, 상장 첫날 3060만달러 유입",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE84cjAyajlNNXJ1dENnOGR1RTlDbF9KLUVfV2F2WlZ2WlRMY0lrWUhNY3cybXV3am1hN2VER1NFd0FIOFJyVUVSQTdYZHE1LTc2cTZCMUZrZWppejR5eGpzNWpvaVJfcFQ3MVlPZk5aWE5QUQ?oc=5",
+      "pubDate": "Thu, 09 Apr 2026 00:30:00 GMT",
+      "source": "디지털애셋",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "환율",
+        "BTC"
+      ]
+    },
+    {
+      "title": "국민연금, 반도체 랠리에 웃었다…1분기 주식 평가액 78조원 폭증",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE55ZmM2cURtNXJsUHVMLUFjczRaQko3eUhCWEM4RUVhNGdTMm9id0ZCcUkwd3MtUUNGNHBaaDVfU082UDNvYk9ta2p0WXdZSFU?oc=5",
+      "pubDate": "Thu, 09 Apr 2026 00:26:56 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "홍라희, 삼성전자 주식 3조원 어치 매각…상속세 납부 마무리",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5uOWJNUWVYSDcxSjBPVVEtLUMxOUNzNVpGcHhxUVYzZ0E2UUZtWDd0ekU2YU1RcE9xR2NvSTNzQXI3V094THBKVDVRcFhWZHJ2SGdtNnlBaUQwS19heVp1QWUzUnZ5OHhwZzRhMUpXUmJhdw?oc=5",
+      "pubDate": "Thu, 09 Apr 2026 00:25:41 GMT",
+      "source": "인더스트리뉴스",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -109,30 +71,68 @@
       ]
     },
     {
-      "title": "\"달러 패권에 도전장\" 이란, 호르무즈 통행료 비트코인 결제 공식화... 잭 말러스 \"준비통화 진검승부 시작\"",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1FUkJrUjM2ODd5am9GbDJNX240YlpFOVlfcUd1aGxReUtkVS1HY1FkWjhLU0VzTW1JbTg0WGFPYmd4LWhwRU5EaWdIdjBEbDRQNXhDR0pWS2F5VUZsSmFDbWJCWnp4TUJ0TXQzVGpMWFA5eXpRelE?oc=5",
-      "pubDate": "Wed, 08 Apr 2026 23:47:28 GMT",
-      "source": "블록체인투데이",
+      "title": "현대차 ST1, 성북구 달린다…친환경 폐기물 수거 실증 돌입",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBreV9kc3d3MXRDZ1lCVWpISG9GazJKZ0FreXJMZF9RM1Y2WjA3YmVkMzUyYk9xQjNhVFMwYXYxYS1OeE5uQWI1VWlfSkMyWmpvaGJmVExOUUlXY2lIRURkMURn?oc=5",
+      "pubDate": "Thu, 09 Apr 2026 00:24:00 GMT",
+      "source": "이코노미스트",
       "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
       },
       "impacts": [
-        "원유",
-        "환율",
-        "BTC"
+        "현대차"
       ]
     },
     {
-      "title": "비트코인 네트워크 활동 급감…크립토퀀트 \"장투 고래만 남았다\"",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1GaEpPSWNyc0FtRVltWmFzeHhxaWpWQ1dzRE5tMDFndjJ3X09tZE14U29kMzd5Zl9Cd1d1V1BzLXF4U0JxUkhlZy1RczEwR0xPUTByYlVqdlRyZV9ZUk5BZnFua0s1aWUteXJXbEJuS05hUGM?oc=5",
-      "pubDate": "Wed, 08 Apr 2026 23:44:13 GMT",
-      "source": "디지털투데이",
+      "title": "삼성전자·SK하이닉스, 차익실현 압력에 동반 약세[핫종목]",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5yeEhVR2NZM01vdktRcFp3WTZMQlpaRkpVMVp3V05XdDRQYWZaRmtkUGlXYUZOWS1QVFpDR0NPUzgzZjJ6dllPem91eVBqbUdrUVpsY1BpTExLcFE?oc=5",
+      "pubDate": "Thu, 09 Apr 2026 00:21:39 GMT",
+      "source": "뉴스1",
       "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
       },
       "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "한미반도체, 2세대 하이브리드 본더 연내 출시",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBVQnFBMlJJRHc2VTFTYjlqZWQxS1Jpd2tCVVFvUDE5Unl1d3ViLUFsNS1VWFdpN0NWV2d4YXRDbzRZdVVsMnY5VExXaloyVUFlczVDNDVzUk43MXRIazVDSdIBeEFVX3lxTE1sM1FnRzJWQVQzRUs3dl93b0hDSDZyeWJLaUZ4anFKZGpWNkZHRjlCcWd5c21CN1lST2tXczhiMDROMFZESjJhakxPbE5xYTBud0ZMTWJmNEJyZzdzVjJSRmtTZWRycUpxREFFQi1ET1hJaFpmcU85NA?oc=5",
+      "pubDate": "Thu, 09 Apr 2026 00:19:36 GMT",
+      "source": "뉴시스",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "홍라희, 삼성전자 지분 3조 블록딜… 상속세 재원 확보",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBZTDJWaEdsQWhMWGJqTGNXNV84S1JfT2s1dE01ck9Nend4T3duU1JHR3VjZUZNRmpqZW4zVkJIWUV6dWdVRGd1SEJyWDVXbFFPVGIxRHVtQzg3UHgxTnQtNFgyUVViaDRBd3E3WA?oc=5",
+      "pubDate": "Thu, 09 Apr 2026 00:18:05 GMT",
+      "source": "서울와이어",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[넥스블록][데일리 크립토 무버스] 비트코인 7만1000달러대 숨 고르기…디크레드 8% 상승",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5xSEtnSXBwOWx1RWRCNmJGY2ZnR2o4dmJWY2FzUWNacUlHSGh0SVRsanJUejFLaHlqcExxdzhIcENpM1dNV0wzLXh2Z2lhMEV3cE1ISQ?oc=5",
+      "pubDate": "Thu, 09 Apr 2026 00:16:00 GMT",
+      "source": "이투데이",
+      "category": {
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
+      },
+      "impacts": [
+        "환율",
         "BTC"
       ]
     }
