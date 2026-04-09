@@ -1,7 +1,33 @@
 {
-  "timestamp": "2026-04-09T13:10:31.068433",
+  "timestamp": "2026-04-09T13:40:58.051033",
   "count": 10,
   "articles": [
+    {
+      "title": "[가상화폐 시세] 비트코인 1억원선…엑스알피 1900원선, 이더리움 320만원선 거래",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1kc3RiRXkxY1pKY3J6ODFwbkZaVENFVjA3ZWc2UjN2OXBsZW1BLWxHQzZEZGpkZVcyQjluejE2Uld6dXVMOURMVmRuajFFcXRndFl2WFRxTTliSVJCVXZnYUU4ZWY3MkMxRWtuM0hfYw?oc=5",
+      "pubDate": "Thu, 09 Apr 2026 04:27:32 GMT",
+      "source": "이코노뉴스",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "현대차, 수소차 '넥쏘' 日 판매 개시…보조금만 최대 '3000만원'",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9OUUZVQlNUWkVoMTZ3SUF4Sk1PZ0M1c2pwVW50YTNnNWNBb19Zc1ZKSmJOTVIwSHBNZVEyamhYRUd6cUo2M19sYmNrNDZwUTJYbXhpNVo4WUVnaXNwbU5qT2FQcw?oc=5",
+      "pubDate": "Thu, 09 Apr 2026 04:26:01 GMT",
+      "source": "더구루",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
     {
       "title": "SEMI, 지난해 글로벌 반도체 장비 규모 200조...한국 38조",
       "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBxc2tpMGd6cUE2X3gtMkQ2NTM5YW9nUXp0Q3pyYjZYMkJCcVdHUzNqOVdteE9remEyUUlzemo5YXowN0hZcnFGaDZaYm83R2RXNURxVER5YzVWOVhyb3puOW94MkU0QQ?oc=5",
@@ -29,21 +55,8 @@
       ]
     },
     {
-      "title": "포트폴리오 비트코인 비중 얼마나?...피델리티 '7.5%' 찰스슈왑 '5.6%' 블랙록 '2%' 추천",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5oNnRuRkNhZDJ3M0pxUlFzc3BPQmZDZk5QTi11a01ieEk4RzVkSXlEY25naklNaE1xc3lUalJIUDM3RDNLdk9vaUhTZGdYMloybjdLTGlBc2ZlVHJBYVVMQzdxNWN1OHZ4bG4zaWZTQzVBQQ?oc=5",
-      "pubDate": "Thu, 09 Apr 2026 03:45:00 GMT",
-      "source": "디지털애셋",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
       "title": "홍라희, 3.1조 규모 삼성전자 블록딜…호실적 덕에 흥행",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5oejZ5WVJBc0pocnVlcUdkbmtHLWpQaVY4X3VqZ3hGcHg1ZTZObk5YMV9zSC1zc05HWmwzSE5vUkVqbl8tYVYxOEFlTkpvd28?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE8yWWRjd0dJb2gtZS1nalAzZElGSndOMlZwNGg2djdjdUpkZUVCMUNQRUFWSEpPdV9ORkUyRjJua1dkaEl0ejBrcGpNaU5TSmF5OG40bDFyVXo?oc=5",
       "pubDate": "Thu, 09 Apr 2026 03:41:26 GMT",
       "source": "딜사이트",
       "category": {
@@ -90,8 +103,21 @@
         "color": "#a55eea"
       },
       "impacts": [
-        "BTC",
-        "환율"
+        "환율",
+        "BTC"
+      ]
+    },
+    {
+      "title": "비트코인 실패한 ‘화폐 3대 기능’…스테이블코인, 지급결제 왕좌 노린다",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB5LUIxRHo3Q2tnV19JMmlqN2tWbUM2am5yNVRUcmVldFR6c2Y0NVlROUszdWVLM2VpRjNaRGIxcW1Ud3djYjBYbUw2eDFWWUE?oc=5",
+      "pubDate": "Thu, 09 Apr 2026 03:03:00 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
       ]
     },
     {
@@ -105,32 +131,6 @@
       },
       "impacts": [
         "BTC"
-      ]
-    },
-    {
-      "title": "비트코인 창시자는 일본인 아닌 영국인?…‘이 사람’ 지목",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9xSk8tVEk2Nld3NERRaldfTUc0emRlLXpiOGYwNFhfQjUwS2JxMGtvQzQ5MlVhUFFzcEdKdzNtdXYtTWhwVkFrRXRwSm8wV0hwaGROR3M1eU9jOEdFaXk1SWlULXVkYTluX0E2MU1kNk0tWFHSAWZBVV95cUxNbTNlZGJ6ak1hdHVFZ21lcDNwWnMtTFlXanRhRFYwOFE1VUdMZFRjSjk0UTBCRjBGeGpQUTREcmlLQ2VEVkFiWjJiakh3d3JMMlR2emdQdmhNQlhGSUhOdmVRck04aUE?oc=5",
-      "pubDate": "Thu, 09 Apr 2026 03:01:57 GMT",
-      "source": "동아일보",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "삼성전자, 3조 블록딜 여파에 약세…상속세 리스크는 해소[특징주]",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1uNU04ZlRNMVlHSlZLRldQbGNCTVpsVFJCTkJyVDRNLXJPbG1BU0kwdHlyajY5UkJpc3ZuMWZuVkJrUlZFU0M4WnRuYzEyNHM?oc=5",
-      "pubDate": "Thu, 09 Apr 2026 02:58:03 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
       ]
     }
   ]
