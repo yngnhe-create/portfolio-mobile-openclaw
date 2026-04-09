@@ -1,7 +1,99 @@
 {
-  "timestamp": "2026-04-09T14:17:04.613537",
+  "timestamp": "2026-04-09T14:41:52.926546",
   "count": 10,
   "articles": [
+    {
+      "title": "숙명여대, 글로벌 반도체 장비기업 램리서치와 반도체 인재 양성 MOU 체결",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5hazFXcVM4cTA4UzZibjYxaUU2Q3BLb3JSVl9QcE5zaGt3MzJpeVhtVW5pcmtBOXB0ZEd1YjBmRWxydjIwam1jdG92aVJLNk11T3NkRllNMkdWUTBuR3V4VmU0TUhlT2s?oc=5",
+      "pubDate": "Thu, 09 Apr 2026 05:30:24 GMT",
+      "source": "교수신문",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "“반도체 후공정 허브로”…괴산 첨단AI분석센터 개관, 산업 확장 가속",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9BQ1M2UHJNOE14RVBpa2padDVfRjVZOFNrRnoyU1hQNXd3VjcxczFTeTRPdTU0XzRxbTNGYlRYVjNBeFNQR0ctYmI0NEp6Zw?oc=5",
+      "pubDate": "Thu, 09 Apr 2026 05:30:00 GMT",
+      "source": "전자신문",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "현대차그룹, 구글·엔비디아와 '동맹'…자율주행·로봇 주도권 쥔다",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1ROF9nVnpDMGo0cG9hUkRRdE5oU0hCaGNoY3B2VUt1UkpKYjF1SkptaUlQbmU3Q2FDSm43VWEwZXV3M3dLMjV1Sk0welhIcWh5V2k5Y0pCTmVORHdZdU8tUw?oc=5",
+      "pubDate": "Thu, 09 Apr 2026 05:28:34 GMT",
+      "source": "뉴스1",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "NVIDIA",
+        "현대차"
+      ]
+    },
+    {
+      "title": "“차세대 HBM 선점” 한미반도체, 2세대 하이브리드 본더 연내 출시",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE8tNkxCMEQ1TDh0WDU3ZDdYOFNoM2JWY3FPTXdiX0JySWFpVmVPMmdyN3lLTk1WRTRWYmFSR2tjakx1VWg5azY0V1c1WE85eUli?oc=5",
+      "pubDate": "Thu, 09 Apr 2026 05:23:53 GMT",
+      "source": "문화일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "한미반도체, 2세대 하이브리드 본더 시제품 올해 출시",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1WTXludGUxZkRaeUp6LWpTU2NvZE1ieldCSFRGZGRmdXMxSXVLWXpuQ01NeUVmZzJXSzRfOGZkcG8wRHBMRVJwX2pWOERxRG03SkFnUUlpeUpWSzA?oc=5",
+      "pubDate": "Thu, 09 Apr 2026 05:19:00 GMT",
+      "source": "경기일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "현대차, 5월 인도 전 모델 가격 인상…원자재 등 비용 상승 탓",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBoQld6emY5UWNhNVhTVnloYUFsdWVFcGJMTTA3Z040Vk9oa3VWdTgydnhlZFZfTHI0dXFsUXhvRE5ScEQyajJnOXduMmM5TzJXbUdKb01VdXZ2RkxGTkNEVEF6ZDFMdw?oc=5",
+      "pubDate": "Thu, 09 Apr 2026 05:16:50 GMT",
+      "source": "더구루",
+      "category": {
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "용인 반도체클러스터 공사장서 항타기 넘어져",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBxVVVPdFdQRV9RZ2dNZ1lqZ3ZSTnpPQzJFRTUwb0RiRjFfZXg5RFFUZDJzQS1idzZob1pCcXFPaXR1bkF2MmxVdkJCZ093bzB5bWJQd0Y5S3NUOWfSAWBBVV95cUxOS1N0aDJ4Wm1GVDNiTXpDeDhJYlpYZUxMbWhRYmVvY3pJTVRuZDg2b3F4U3JUbzVieWEwWHJVak9qejNGdjdMNDlKLXJjUkRmVFNoMUlBeklEMU84THlkVjg?oc=5",
+      "pubDate": "Thu, 09 Apr 2026 05:13:55 GMT",
+      "source": "연합뉴스",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
     {
       "title": "괴산군, 시스템반도체 첨단AI분석센터 개관",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBXWVRIT0lGSTVoRFlScXpKMFVOVElYRVptYWNhNHdBZVdYSlFQT2VQejVaYkRjdjA2SmhBazZyYlR2M1I5R1NvRHVuUjVPMWpBUnUybHlBOFdiY1pUVFVTTVRRZ0g5MVcwNzB4Yw?oc=5",
@@ -29,107 +121,16 @@
       ]
     },
     {
-      "title": "‘49층’ 현대차 GBC ‘삼둥이 타워’ 지구단위계획 결정…2031년 준공 목표",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBkWHNOV1B1bk4zQXd6MnRES3VrNkJpYWlVbGM4Q1A2TDBFVWdTd0ZrZXJ1a3EzMUFyeWFyV18yTDluLW5pSkpaVmttN2t4WlE?oc=5",
-      "pubDate": "Thu, 09 Apr 2026 05:03:06 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "\"반도체 영업익 55조, 가전은 원가 압박\"… 삼성전자, DS-DX 사업부별 갈등 격화",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBBQUNoNXpuSklNU3VoVGxpSTc1ZmJTTW55aFBYWTMwcEJzbFJKMDdGSUJVMUVMMkpsVnkyNnloeFFBaW9OV01PeEdFR0gtQ29Fc1VqVE9HRG1TMVY0dVVoSVp6QzF2U2FScmJWSm9WaG1fQQ?oc=5",
-      "pubDate": "Thu, 09 Apr 2026 05:02:23 GMT",
-      "source": "인더스트리뉴스",
+      "title": "삼성전자 갤럭시S26∙버즈4 디자인 \"현대적 조형에 사람 감성 담았다\"",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFB2YXl4dTl6WlFUVDNuUWxVWk9jWEw4Z0E0MHJXTUlmRkIydHBOMHRSX1BWWVRxNEZRU1JGOWxld2ktMXJEZDVIRFBHeDVvcnJ5QVNHemlaVFo3dUN0OFBRVF9rU3R5bWdKUkpOUWEtdmMwUQ?oc=5",
+      "pubDate": "Thu, 09 Apr 2026 05:06:13 GMT",
+      "source": "비즈니스포스트",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
         "삼성전자"
-      ]
-    },
-    {
-      "title": "한화세미텍 “특허 침해” vs 한미반도체 “일반적 기술”",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9TNVdIYXRKdmd3RlRKVEVIOUF1Njd4WDRMSmZpVVc4bGx0aFhhc2lTN05RY0RuMTZwRjlTVVBDQzFuVTlCNmxVRTFHYnlCbGdLelEtNW51ZlBiNzVmTDFGSHJ0OGx0dVNmdWMtVmd5M2V2QdIBdkFVX3lxTE5SLWd1TzdkRmE5YzJBakR1VEJPcG13NkdmS1Jvbk1hZG1TQjFpTHhRb0xBRzJvS0pqVUhPMi1Yc0dQSkM1R0Zqc0VEZ0x1RGNlNkRVUFh0NGt2dHp6MXFJQU1teTZHMEx0RlhIalNSSHE0bnZuMXc?oc=5",
-      "pubDate": "Thu, 09 Apr 2026 05:01:39 GMT",
-      "source": "시사저널e",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "경기지방고용노동청-수원시, 반도체 포함 50개 기업 채용행사 성황리 개최",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE85Sk4tU0Y2V29yOGJCT0ZtUjRaOEpnck1xa1R4VFFzTmR1bk1MVVhKTTZvRXZ3a0NPandtVHhrc2xtNnNqOW80Qy0xVzBJSWkyTUE?oc=5",
-      "pubDate": "Thu, 09 Apr 2026 05:00:00 GMT",
-      "source": "경인일보",
-      "category": {
-        "label": "🔵 MACRO",
-        "color": "#0984e3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[신상품]KB자산운용, 'RISE 삼성전자SK하이닉스채권혼합50' ETF…반도체·채권 균형 투자",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9CZDNxSmVYYVAwZ3I1Zm1rYkxZOHB5VGhhNVlNblpPa1VFTHNQejJhZ3BUZktXRS1IVFNtQ1U0S20zQVpJQ3dzN2xEM1d1dTVTRzd6NnRXeVZFano5bTFqUnBZNXk?oc=5",
-      "pubDate": "Thu, 09 Apr 2026 04:58:03 GMT",
-      "source": "PRESS9",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자 모바일, 2분기가 '진짜 고비'…적자 전환 우려도",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8xb1YyRFlnbFkzUFF1bzJTdUZOeWkxZ0M2T0hTUHJaa1YxSEdxWGtESFJQX1RMTk5rcDl1VXFEVWYwS3JvSTMwMG9rb3dxQzQ?oc=5",
-      "pubDate": "Thu, 09 Apr 2026 04:57:44 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "'부드러운 갤럭시' 삼성전자 \"최적의 착용감 제공하겠다\"",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE52a19SZFoyU2hFcEM3LWdHczBTT2l4VUxGQlZfQUR3QnFDdGtrLXlJRldDdnhFaTdiWVFIelRMVG82anFwQnJ3Tk4tUE5BdEFlVDhmeUJrOWNYcEdfbmFlS1dIRHNIa1FVWE1TLVQ1RUUtWjA?oc=5",
-      "pubDate": "Thu, 09 Apr 2026 04:49:35 GMT",
-      "source": "디지털투데이",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "국토부, 현대차 공장 방문… '로봇 공존' 제도 마련 시작?",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE41VTZvUTN6VlprU0R6d0llVldNUXpQSGxaNzVKVDFIbUtvQWEza2pHVUtmN09Yb0R6VEp2ZllyRWJ6Z2ZMSTNyRC13OVhYUUJua09XeXNEM3VKdzFRVGZiaVR2QTY1TE5VREZDcw?oc=5",
-      "pubDate": "Thu, 09 Apr 2026 04:45:22 GMT",
-      "source": "서울와이어",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
       ]
     }
   ]
