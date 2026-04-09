@@ -1,7 +1,33 @@
 {
-  "timestamp": "2026-04-10T04:16:17.964606",
+  "timestamp": "2026-04-10T04:46:44.441824",
   "count": 10,
   "articles": [
+    {
+      "title": "“비트코인 창시 ‘사토시’, 英암호학자 가능성”",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBLNWpRMFg3OG8xa0ZPdzFwN3J1RV9iWksweWxHSWtTTm9QU1hiWkpFYTA2NzAxdzItamhORVhLbGladDhrWmxSbWdXSzcwdllVbVVGbE9laF9ZakpTeWtqN2Y3YWpBX2E1Uy1ZSmFnSmhpM3lU0gFmQVVfeXFMTkxmaUlhdFBNQnZubF9raDV2eklkVTd4REFXMFdtVkk4WmpxZ1JiV3h2U3V2OUNsd05fRTZPZHg4UnFLd1FhZElSczZiaHRuTm1ZaEphOXE2MWRKemtiRU00cnBIUE1n?oc=5",
+      "pubDate": "Thu, 09 Apr 2026 19:30:00 GMT",
+      "source": "동아일보",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "현대차 ST1 활용한 재활용품 및 폐기물 스마트 수거 시연 행사 개최 > 뉴스",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1vOFJLVDBuV3MzQ1NZdUVhbWFQWW8xVEhYckxZT21BM00yT2hFdE5qRDl6U2xmVDBSWkhvWFBYaUN2NkZfLUYxSFV1ZkVUQWM3bnlHS21JTW5fTHZQZEhTaUpoLUhIaXRMSEJweUUwTlI?oc=5",
+      "pubDate": "Thu, 09 Apr 2026 18:51:00 GMT",
+      "source": "더코리아",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
     {
       "title": "'美반도체' 트럼프 꿈 이뤄지나…인텔, 테슬라 이어 구글과 협업",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5iZllrbjlrb2JsLTl5UVVCZTFnWEk2OHRMZ05DUV9uTkF4QXNCTWt3UTVFb3YzX19iazJVdmV2TXc0NGxMTkhjaUhJaDFlb3NxeVk5LS1QSkRZMFXSAWBBVV95cUxQYzUzMFlmQ2c0SElKbHFzdXJmdzlJZk5UNnlvZlhIRG90ZUV2WDBMaFlHNWludXhLMm5Ec0lDek5aN3RQR1JCSm5BaDRGdHoyMEhlX2tReGZRa0hPS1hGcVE?oc=5",
@@ -12,8 +38,8 @@
         "color": "#8b9dc3"
       },
       "impacts": [
-        "테슬라",
-        "삼성전자"
+        "삼성전자",
+        "테슬라"
       ]
     },
     {
@@ -80,8 +106,8 @@
         "color": "#a55eea"
       },
       "impacts": [
-        "BTC",
-        "환율"
+        "환율",
+        "BTC"
       ]
     },
     {
@@ -109,32 +135,6 @@
       "impacts": [
         "테슬라",
         "현대차"
-      ]
-    },
-    {
-      "title": "\"비트코인(BTC) ETF 성과, 금 대비 부진\"",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE0wWk9YZlhXTzlWWENNT2Q5UlVDR3p4SUZ2ODlHSzlVa2lLOFRvQkNEemNGb003YWl5MmphRzNlZzZQamlHaGpab2hrUUhGWF9Y?oc=5",
-      "pubDate": "Thu, 09 Apr 2026 15:14:16 GMT",
-      "source": "블루밍비트",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "비트코인, 핵심 저항선 아래서 정체…다음 흐름 두고 전망 엇갈려",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1ra0Izd1hUQ2pjT3V3UHo4SjZNNGZmdHhMWVpxZ2o4RFpNMDNYMEFkZm1kZUVqcWVMUlVJTm5iUmdqUnpUbkRPemJzSGtKWS1fY3dJUm5DWlNxMEE3ZWV3WC03OGg5RkYtTXd0UE9fa21SLWs?oc=5",
-      "pubDate": "Thu, 09 Apr 2026 15:05:00 GMT",
-      "source": "디지털투데이",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
       ]
     }
   ]
