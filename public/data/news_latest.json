@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-09T12:17:04.639610",
+  "timestamp": "2026-04-09T12:40:04.552014",
   "count": 10,
   "articles": [
     {
@@ -43,19 +43,6 @@
       ]
     },
     {
-      "title": "비트코인 실패한 ‘화폐 3대 기능’…스테이블코인, 지급결제 왕좌 노린다",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB5LUIxRHo3Q2tnV19JMmlqN2tWbUM2am5yNVRUcmVldFR6c2Y0NVlROUszdWVLM2VpRjNaRGIxcW1Ud3djYjBYbUw2eDFWWUE?oc=5",
-      "pubDate": "Thu, 09 Apr 2026 03:03:00 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
       "title": "마이클 세일러 \"비트코인, 지난 2월 바닥 찍었다\"",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBpWlN5SDJZQ3VBM213M0xUQVRCQTFvQ1ZiQ0NkTi1uS21SNENqVU1JZm1uMmxQQkhUOFJQUk45VVVUX0pRa1pXWnA0V05ON1I3WU5FM2NmMlpKQUp6N3hIajVGZjJ0dldKS00tdmtFOUfSAXRBVV95cUxQNzE5cDBJVGRZNHI4OVJtMWdhUG5nMWxzeGxCR1NFTGs5ZWRqc3NQazNsR3dzZ0EyejRVb2dSNEJ6dnlIdlJTaVJRMjFWVXBsQ1d1eFJGenNZQ041UFBWQnJqV2Q0S3g2OEpwRU9GbWdoTXlrSg?oc=5",
       "pubDate": "Thu, 09 Apr 2026 03:02:28 GMT",
@@ -73,19 +60,6 @@
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9xSk8tVEk2Nld3NERRaldfTUc0emRlLXpiOGYwNFhfQjUwS2JxMGtvQzQ5MlVhUFFzcEdKdzNtdXYtTWhwVkFrRXRwSm8wV0hwaGROR3M1eU9jOEdFaXk1SWlULXVkYTluX0E2MU1kNk0tWFHSAWZBVV95cUxNbTNlZGJ6ak1hdHVFZ21lcDNwWnMtTFlXanRhRFYwOFE1VUdMZFRjSjk0UTBCRjBGeGpQUTREcmlLQ2VEVkFiWjJiakh3d3JMMlR2emdQdmhNQlhGSUhOdmVRck04aUE?oc=5",
       "pubDate": "Thu, 09 Apr 2026 03:01:57 GMT",
       "source": "동아일보",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "NYT 인터넷 싹 다 뒤졌더니…베일 가린 '비트코인 창시자' 정체가?",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9aVkNkWkUxUmRTTERFcnZrbzFUVmt0b19vYkl0X1BETDFVeE0tMXZ5N09jUFoya0dyYXBjUHh3MmQyQ283S0t0OFR4XzZxa3R0T2w0QW8yZlZSd0pXdjhLSDFSUC1idw?oc=5",
-      "pubDate": "Thu, 09 Apr 2026 02:59:27 GMT",
-      "source": "뉴스1",
       "category": {
         "label": "🟣 CRYPTO",
         "color": "#a55eea"
@@ -118,8 +92,8 @@
         "color": "#8b9dc3"
       },
       "impacts": [
-        "NVIDIA",
-        "삼성전자"
+        "삼성전자",
+        "NVIDIA"
       ]
     },
     {
@@ -133,6 +107,32 @@
       },
       "impacts": [
         "환율",
+        "BTC"
+      ]
+    },
+    {
+      "title": "화웨이 R&D 투자 “하루평균 1136억원 쏟아붓는셈” 삼성전자 추월",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE56OGctT0RLUXZPT2JkN3BTLWVJRFNYMjluNUJvWnBDc0pHWWdjaWxrUDJ2aEFxbWk3TGJZRzN4SE15Zldhck9ySkV1aEl0OGh4?oc=5",
+      "pubDate": "Thu, 09 Apr 2026 02:49:40 GMT",
+      "source": "문화일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "빗썸, 오지급 비트코인 미회수분 가압류 나서나… 분쟁 본격화",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1VRmhGckd1bHJHdVg4emZORmdDaFBRNDFRX0FCRlphWk91OUF4cVVmVUZnYzBfVEtoV3E4OHBOYk1HR0pxOGFUbzhNbVZER3VRdU1QQ2RWZ1BzemNKMWlJRlhWV0kweHZ0ZTJYUDJvaHpSOWvSAXdBVV95cUxQQU5tN1hvc09iODBub05fWFZBTk5qSFdYR3ExU2NfOWNoU1JlQ2U1bUJUU192UUJOc1RnNS1RTTRCc1RubzJWWXBUUjVHOEFQOHhxMVI5UUVPakdOYXk1djZGQmlyNWdXTHZhRmtCakhDQ1BsVFlaNA?oc=5",
+      "pubDate": "Thu, 09 Apr 2026 02:45:28 GMT",
+      "source": "핀포인트뉴스",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
         "BTC"
       ]
     }
