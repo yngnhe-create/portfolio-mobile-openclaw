@@ -1,7 +1,20 @@
 {
-  "timestamp": "2026-04-09T12:09:38.377447",
+  "timestamp": "2026-04-09T12:17:04.639610",
   "count": 10,
   "articles": [
+    {
+      "title": "메모리 가격 급등 여파…삼성전자, 노트북·PC 조달가 30% 인상",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1SekdfUjU1bkNIbHdBc09peTFpZGxBcHV6QnB6bWJEV3VMZmRtdXgzS0hCT3hsN1pDOUFZX0FmY25ZeW90RTJrNW1FVlFpRnJreVpNUVZSSWZESWx0TjV3c3FHMU4?oc=5",
+      "pubDate": "Thu, 09 Apr 2026 03:07:59 GMT",
+      "source": "뉴스1",
+      "category": {
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
     {
       "title": "현대차 ST1, 서울 성북구서 '친환경 스마트 수거차량'으로 변신",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5pOENMTEdPZVdMZ3BUWjcwMFlTRWxlT0xJSENxUUpJVHBtT3I0TGcyTnI1b2w1M09KcXZMQk9EVHVhMm5pUFMybVNScnVBTTR4Rm1lSW9UMFdxa1dD?oc=5",
@@ -13,6 +26,20 @@
       },
       "impacts": [
         "현대차"
+      ]
+    },
+    {
+      "title": "모건스탠리 비트코인 ETF 상장…첫날 3천400만 달러 유입",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE93ZmdTMW5JV2dQZXhnUW1LTTdIbzA3LWxOU1VsYy1zVEUyWTFwbUNMRE1ReGoxSjNPd19lNGc0UkQ3SGR5WHY5NjZ3Zm93dkFMbWNHYzhyQndEbDFRVEloOEp1TVMyamU3bjlKNTVqLTDSAXRBVV95cUxQN1U4U0ZlRk1LSmZkWXhaS3RXV3NMMW1laUhaTUE5dDlydXg0Q2dHREp3SkRPczhzR1FfWUZ3U3BnQXZldjhtSjVjRWtTbmtaTXdTOGYtV2k1UElXa3liZVR0dEZBVEo0VjN1UnF2UDU2cEdBLQ?oc=5",
+      "pubDate": "Thu, 09 Apr 2026 03:03:35 GMT",
+      "source": "연합인포맥스",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "환율",
+        "BTC"
       ]
     },
     {
@@ -91,8 +118,8 @@
         "color": "#8b9dc3"
       },
       "impacts": [
-        "삼성전자",
-        "NVIDIA"
+        "NVIDIA",
+        "삼성전자"
       ]
     },
     {
@@ -105,33 +132,7 @@
         "color": "#a55eea"
       },
       "impacts": [
-        "BTC",
-        "환율"
-      ]
-    },
-    {
-      "title": "화웨이 R&D 투자 “하루평균 1136억원 쏟아붓는셈” 삼성전자 추월",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE56OGctT0RLUXZPT2JkN3BTLWVJRFNYMjluNUJvWnBDc0pHWWdjaWxrUDJ2aEFxbWk3TGJZRzN4SE15Zldhck9ySkV1aEl0OGh4?oc=5",
-      "pubDate": "Thu, 09 Apr 2026 02:49:40 GMT",
-      "source": "문화일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "빗썸, 오지급 비트코인 미회수분 가압류 나서나… 분쟁 본격화",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1VRmhGckd1bHJHdVg4emZORmdDaFBRNDFRX0FCRlphWk91OUF4cVVmVUZnYzBfVEtoV3E4OHBOYk1HR0pxOGFUbzhNbVZER3VRdU1QQ2RWZ1BzemNKMWlJRlhWV0kweHZ0ZTJYUDJvaHpSOWvSAXdBVV95cUxQQU5tN1hvc09iODBub05fWFZBTk5qSFdYR3ExU2NfOWNoU1JlQ2U1bUJUU192UUJOc1RnNS1RTTRCc1RubzJWWXBUUjVHOEFQOHhxMVI5UUVPakdOYXk1djZGQmlyNWdXTHZhRmtCakhDQ1BsVFlaNA?oc=5",
-      "pubDate": "Thu, 09 Apr 2026 02:45:28 GMT",
-      "source": "핀포인트뉴스",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
+        "환율",
         "BTC"
       ]
     }
