@@ -1,91 +1,51 @@
 {
-  "timestamp": "2026-04-09T14:41:52.926546",
+  "timestamp": "2026-04-09T15:12:19.203565",
   "count": 10,
   "articles": [
     {
-      "title": "숙명여대, 글로벌 반도체 장비기업 램리서치와 반도체 인재 양성 MOU 체결",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5hazFXcVM4cTA4UzZibjYxaUU2Q3BLb3JSVl9QcE5zaGt3MzJpeVhtVW5pcmtBOXB0ZEd1YjBmRWxydjIwam1jdG92aVJLNk11T3NkRllNMkdWUTBuR3V4VmU0TUhlT2s?oc=5",
-      "pubDate": "Thu, 09 Apr 2026 05:30:24 GMT",
-      "source": "교수신문",
+      "title": "반도체 매출 2000조 시대…‘삼전닉스’ 더 빠르게 질주한다",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8wY2FXRWFaWk5ZMWZjNWVXVzEtVmYtby1EdzBCeE82M19TX2tLVlVGQi1JNjdXdnd3eE5Eb1NBSWFJZGF2MmMxYnB6MldlVHM?oc=5",
+      "pubDate": "Thu, 09 Apr 2026 06:05:27 GMT",
+      "source": "v.daum.net",
       "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
       },
       "impacts": [
         "삼성전자"
       ]
     },
     {
-      "title": "“반도체 후공정 허브로”…괴산 첨단AI분석센터 개관, 산업 확장 가속",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9BQ1M2UHJNOE14RVBpa2padDVfRjVZOFNrRnoyU1hQNXd3VjcxczFTeTRPdTU0XzRxbTNGYlRYVjNBeFNQR0ctYmI0NEp6Zw?oc=5",
-      "pubDate": "Thu, 09 Apr 2026 05:30:00 GMT",
-      "source": "전자신문",
+      "title": "발레니우스, 현대차그룹과 합의...유코카캐리어스 자본 구성은 현상 유지",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9yNWgwV0REc0JsWTFQLTk2VXk2Y2czQkNhRkhWTU5zcFRLeG9RQkFmNXp4Vld5Ni1hQVdYMlZiUWxlOWduelE2VWFHMUcyVnFPZ19ZRllWMmZuOHlNb2pId3dsd0d3VWlBTDJUSlMzbTZCNkE?oc=5",
+      "pubDate": "Thu, 09 Apr 2026 06:04:23 GMT",
+      "source": "쉬핑뉴스넷",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "현대차그룹, 구글·엔비디아와 '동맹'…자율주행·로봇 주도권 쥔다",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1ROF9nVnpDMGo0cG9hUkRRdE5oU0hCaGNoY3B2VUt1UkpKYjF1SkptaUlQbmU3Q2FDSm43VWEwZXV3M3dLMjV1Sk0welhIcWh5V2k5Y0pCTmVORHdZdU8tUw?oc=5",
-      "pubDate": "Thu, 09 Apr 2026 05:28:34 GMT",
-      "source": "뉴스1",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "NVIDIA",
-        "현대차"
-      ]
-    },
-    {
-      "title": "“차세대 HBM 선점” 한미반도체, 2세대 하이브리드 본더 연내 출시",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE8tNkxCMEQ1TDh0WDU3ZDdYOFNoM2JWY3FPTXdiX0JySWFpVmVPMmdyN3lLTk1WRTRWYmFSR2tjakx1VWg5azY0V1c1WE85eUli?oc=5",
-      "pubDate": "Thu, 09 Apr 2026 05:23:53 GMT",
-      "source": "문화일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "한미반도체, 2세대 하이브리드 본더 시제품 올해 출시",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1WTXludGUxZkRaeUp6LWpTU2NvZE1ieldCSFRGZGRmdXMxSXVLWXpuQ01NeUVmZzJXSzRfOGZkcG8wRHBMRVJwX2pWOERxRG03SkFnUUlpeUpWSzA?oc=5",
-      "pubDate": "Thu, 09 Apr 2026 05:19:00 GMT",
-      "source": "경기일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "현대차, 5월 인도 전 모델 가격 인상…원자재 등 비용 상승 탓",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBoQld6emY5UWNhNVhTVnloYUFsdWVFcGJMTTA3Z040Vk9oa3VWdTgydnhlZFZfTHI0dXFsUXhvRE5ScEQyajJnOXduMmM5TzJXbUdKb01VdXZ2RkxGTkNEVEF6ZDFMdw?oc=5",
-      "pubDate": "Thu, 09 Apr 2026 05:16:50 GMT",
-      "source": "더구루",
-      "category": {
-        "label": "🟢 POSITIVE",
-        "color": "#4ecdc4"
       },
       "impacts": [
         "현대차"
       ]
     },
     {
-      "title": "용인 반도체클러스터 공사장서 항타기 넘어져",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBxVVVPdFdQRV9RZ2dNZ1lqZ3ZSTnpPQzJFRTUwb0RiRjFfZXg5RFFUZDJzQS1idzZob1pCcXFPaXR1bkF2MmxVdkJCZ093bzB5bWJQd0Y5S3NUOWfSAWBBVV95cUxOS1N0aDJ4Wm1GVDNiTXpDeDhJYlpYZUxMbWhRYmVvY3pJTVRuZDg2b3F4U3JUbzVieWEwWHJVak9qejNGdjdMNDlKLXJjUkRmVFNoMUlBeklEMU84THlkVjg?oc=5",
-      "pubDate": "Thu, 09 Apr 2026 05:13:55 GMT",
-      "source": "연합뉴스",
+      "title": "현대차, ‘ST1 스마트 수거차’ 성북구 실증 돌입…PBV 기반 도시환경 혁신 시동",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9pUk9ramRTUDA5YnMzcEp1bXBMQ1NBNm5xNldwbGh0Q2JjREc4WWladEVMcGpSSUI1aE1iQjJtR3prSW92RU1qQzIxbU9YVTdsb0xVMVRKdFpmOW9nNVViZ2duQVE4N1U?oc=5",
+      "pubDate": "Thu, 09 Apr 2026 06:00:14 GMT",
+      "source": "투데이e코노믹",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "삼성전자, 갤럭시 S26·버즈4 시리즈 디자인 콘셉트·개발 과정 공개",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE45d1FGaXE4UHB3cEpycjBIV3MzeVFvT2lzeGRudHNIQ0pmeVBqTWJWVDZ4WXl2c1dJNVA3V3o0QXBlWmRXaUF1VVNrbURQd0E?oc=5",
+      "pubDate": "Thu, 09 Apr 2026 05:57:30 GMT",
+      "source": "v.daum.net",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -95,10 +55,24 @@
       ]
     },
     {
-      "title": "괴산군, 시스템반도체 첨단AI분석센터 개관",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBXWVRIT0lGSTVoRFlScXpKMFVOVElYRVptYWNhNHdBZVdYSlFQT2VQejVaYkRjdjA2SmhBazZyYlR2M1I5R1NvRHVuUjVPMWpBUnUybHlBOFdiY1pUVFVTTVRRZ0g5MVcwNzB4Yw?oc=5",
-      "pubDate": "Thu, 09 Apr 2026 05:10:25 GMT",
-      "source": "중도일보",
+      "title": "\"비트코인 향방, 유가가 결정\"",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBKTEplcWJ4VW5zMWRCRE41MmlKQWhzMlk1Y0trNEhCWTN2RXB4RTcxRzY0ZVk3UTZlWHNyWExOQ0l2QnR6cU5DMERRQlhiT1VhNDVFdmQ1QU01TmdQaXJBZjNwajRsTUU2T2d3?oc=5",
+      "pubDate": "Thu, 09 Apr 2026 05:57:14 GMT",
+      "source": "한스경제",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC",
+        "원유"
+      ]
+    },
+    {
+      "title": "대만 반도체업계, '원전 재가동 찬성' 처음 밝혀",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5UeDJQNFpIX19YSl8yQVZCN1A4WWRvRVdLWGlKSkxEak8zWk1XZkkwOFF5dzF4NWMtMTlJZWNDWEVWdVVZSlExQUJuM3JRM3c?oc=5",
+      "pubDate": "Thu, 09 Apr 2026 05:57:06 GMT",
+      "source": "v.daum.net",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -108,10 +82,23 @@
       ]
     },
     {
-      "title": "美, 반도체 장비 수출 강화 움직임…삼성·하이닉스, 기회와 부담 교차",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBKbEJrSDU3RkFZS3JNaHhjbTZlQi01TWUyRXFWNjRzQTZRSXZjdUIxZXhMWjNlY2JQZmJ4RDNvQThtQ0pjdXFfdTE3bEtjb0lEWXcxZGI2QkVVZ0FibF93RtIBeEFVX3lxTE5DMnk1S1lhenVhQXhtVXl2VWgteGdhdU9WaHh3dmRnM3JmTUNUckpJNDNILUpxLVJheUd0b0FTemdvdlNoQlU0d2prUGdWMWwtYzZ1VVQ2c3hPbEt1SU9aeTFIaEU5WmZKb3FyRWU1WGVOek1FREJpaw?oc=5",
-      "pubDate": "Thu, 09 Apr 2026 05:06:13 GMT",
-      "source": "뉴시스",
+      "title": "NYT가 베일에 쌓인 비트코인 창시자로 지목한 사람은?",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBnSHJHZ0NESWxtU3V5UkxCbmpRdUlIaV94Q1VNNGRaczFERXBmdkZxOGt2RUNGYU9ITlA0UE5XZi1lbmpjN0luenFxMHVGdUE?oc=5",
+      "pubDate": "Thu, 09 Apr 2026 05:53:01 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "미래에셋증권, 1.5X VIX 선물·반도체 레버리지·인버스 ETN 상장",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8tYnJVSFpGSzBSWDJ4QVZmeC1JRDdLMEZLSWcxOFd4a3N5YmVSdGpRdU9idlNQTlJKSnZtZWJpRl9nOTI5MFpFMU44dUNJcTlGSVNJTTJkWFZFX0szOWxzRzIzbVRiUTgzZF9FRQ?oc=5",
+      "pubDate": "Thu, 09 Apr 2026 05:50:13 GMT",
+      "source": "중소기업신문",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -121,16 +108,30 @@
       ]
     },
     {
-      "title": "삼성전자 갤럭시S26∙버즈4 디자인 \"현대적 조형에 사람 감성 담았다\"",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFB2YXl4dTl6WlFUVDNuUWxVWk9jWEw4Z0E0MHJXTUlmRkIydHBOMHRSX1BWWVRxNEZRU1JGOWxld2ktMXJEZDVIRFBHeDVvcnJ5QVNHemlaVFo3dUN0OFBRVF9rU3R5bWdKUkpOUWEtdmMwUQ?oc=5",
-      "pubDate": "Thu, 09 Apr 2026 05:06:13 GMT",
-      "source": "비즈니스포스트",
+      "title": "영남이공대, 글로벌 반도체 장비기업과 취업 연계 강화",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFA4dU5SY0VTbDlPbFdvYkRCejE1aVItOFhKODd4N3dkYVN5enBNUENoSkF2blI3Sk9weHMxTTdHUlE3TG9WSS1yUmFOYVhxRVU?oc=5",
+      "pubDate": "Thu, 09 Apr 2026 05:39:40 GMT",
+      "source": "v.daum.net",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
         "삼성전자"
+      ]
+    },
+    {
+      "title": "현대차그룹, 멕시코 '전동화 허브' 구축 가속⋯기아 6억 달러 투자",
+      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE55VkxGdEE0MmlfYnFNWWxiMHlDd2lZWF9jSGhQd2FIa0hLdFpsQU5RVFhXN3kydldIajIyV2Jyc2MydWU1RDEyLXluRTM?oc=5",
+      "pubDate": "Thu, 09 Apr 2026 05:36:05 GMT",
+      "source": "아이뉴스24",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차",
+        "환율"
       ]
     }
   ]
