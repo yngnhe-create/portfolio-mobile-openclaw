@@ -1,7 +1,34 @@
 {
-  "timestamp": "2026-04-10T00:14:21.884136",
+  "timestamp": "2026-04-10T00:44:47.996394",
   "count": 10,
   "articles": [
+    {
+      "title": "홍라희, 3조원대 삼성전자 주식 매각",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPbTVlazBrV09BSDM0MFVZaHoxME43Vi1vSlUzMlNha1BkS2haLTJpVHRkb2pJa29CREJKNjR5eHdNdXJtN2MyeHBEeEFwQ1JwTlFwblhXRHB0TzNDakRDR2lFd2hRSjJKRlh4dk5nS21leXpkbnBTLUd2cFl2bnViUkg3RHdpenZoLVlBaGx3c9IBowFBVV95cUxQVzhyRVpweHZ2Um5zc0lCbGdZeEdEY0liMm9wWF95UmNIWVlFeUstTEQzMG1hNXB6M0I3Qm11VkxzZEctclQxVVRMY0wyVVV4QWotdTRQbE8yaHllV0VXcXJYdFQzR1FPd0dBY2J6RFBxbW9wTUN0N1NleURQSzdsQ3FqNW0ybHcyQXBMMTRmeGl3ZVU4SEhtWWFaV0hZSFdPVlhr?oc=5",
+      "pubDate": "Thu, 09 Apr 2026 15:33:00 GMT",
+      "source": "조선일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "‘수입차 무덤’ 일본서 韓 현대차·中 BYD ‘소형 EV’ 격돌",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBVVzBwejV2VGVmaXcwNFp3RDZzdTJpbFRIdUFHa2lfdm53Q25LSmpVSzhJOVduWXpkakFfd29ScWt5UmRYR3RPbEp5Q1F3TDA?oc=5",
+      "pubDate": "Thu, 09 Apr 2026 15:24:57 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차",
+        "테슬라"
+      ]
+    },
     {
       "title": "비트코인 옵션 시장서 상승 베팅 확대",
       "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBXYk1ZZ09JZlJtS0hqUWdFUlJJeGUwZUJ2d21nU2dwU3EtYVVJOGM4SXdtMU43dUNtTUgzMUxlS0tNN3l3TUFjWA?oc=5",
@@ -77,8 +104,8 @@
         "color": "#a55eea"
       },
       "impacts": [
-        "BTC",
-        "원유"
+        "원유",
+        "BTC"
       ]
     },
     {
@@ -91,8 +118,8 @@
         "color": "#4ecdc4"
       },
       "impacts": [
-        "BTC",
-        "환율"
+        "환율",
+        "BTC"
       ]
     },
     {
@@ -106,33 +133,6 @@
       },
       "impacts": [
         "BTC"
-      ]
-    },
-    {
-      "title": "모건스탠리 비트코인 ETF, 첫날 3060만달러 유입…블랙록 이어 2위",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5way1fMHA2NW9sUFpTcFhydkZ6NnZsenFhdnY1bFNqWTNuR1R3RFJqM2s2VUpaZkRwTzFjLXJ3Q3lpWGxydTFnU01KdWVndjhkMy1hS2tmMDlsVHRPeXN0cy1ZNHN3YU5maDQtZzVVcU9PMW8?oc=5",
-      "pubDate": "Thu, 09 Apr 2026 13:02:04 GMT",
-      "source": "디지털투데이",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC",
-        "환율"
-      ]
-    },
-    {
-      "title": "홍라희, 삼성전자 주식 3.1조 원 매각…상속세 마무리",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1LZHUxUnBENks3Q0NhWGdCaGM0aDBMa3FpLUROX2VUVlJnTmhTdmtPV2ZSSGFFVVBGWGtxOU9HOVVHU3liSjNNZThxQ2dfWFE?oc=5",
-      "pubDate": "Thu, 09 Apr 2026 12:39:14 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
       ]
     }
   ]
