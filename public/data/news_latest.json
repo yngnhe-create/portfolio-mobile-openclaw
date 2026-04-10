@@ -1,138 +1,140 @@
 {
-  "timestamp": "2026-04-10T08:17:04.481162",
+  "timestamp": "2026-04-10T09:17:40.260554",
   "count": 10,
   "articles": [
     {
-      "title": "[알림] 'HBM을 넘어서' 첨단 패키징 핵심기술 : 차세대 기판부터 모듈까지",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBaVFZ5RUtsdVBTZXhBZUhiTndyRjBTTzRDLTdWd2xtYmVLdzRvQy1hRGo5NXMzSC16a3NOLWlKZ0JNdUNQajNtNG1rYU1CMFh2azFjQThDcGl4Wl93TmhjUnI1THZFQQ?oc=5",
-      "pubDate": "Thu, 09 Apr 2026 23:12:27 GMT",
-      "source": "디일렉",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "리플(XRP) 1.36달러 비트코인 7만2563달러·이더리움 2219달러…미·이란 휴전 기대 속 자산 시그널",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBnbTE0WTJrVTlMOGYtUnlDVFAwOE5qOGpBZmlXanVHZVdoRmdvVExnQ2M0QU15SHVETURCbzk3OXZJYnJDSFNqR25oMzB3VTU4SWZzN1dvbFU1eU9HTHBMeDYyQW5RN2dZ?oc=5",
-      "pubDate": "Thu, 09 Apr 2026 23:10:00 GMT",
-      "source": "CBC뉴스",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "원유",
-        "환율",
-        "BTC"
-      ]
-    },
-    {
-      "title": "09일 코스피 시장 공매도 금액 상위 종목. SK하이닉스, 삼성전자 등 - 조선비즈",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOdHJNdjNHYm82MDE4bk0xVFZCMVM4RER3OXMwM1QtOFJwNTEwTjBxZXkyUFN0T0ZsUm1aZThQc1JZTFdDakQ2MUw0azFRSlZMM1BhTkpSUmZ4dU9JTUpIWnlKcFRiOVBJSUxJSVZTSDN0N2hxQ2U4MldRSXQya2d4OTdCRdIBlwFBVV95cUxNNVRHTjFYb3FkV0lKMHZJWjRUNmJWNjdfY21rSjVvNXN2SWlhU01qWnJzbzFuM0RkOFhkMlo5RXJRZnpIalhkTnNVcm9ZbVRrMUxhTnE4VHlZUTFUSk9Mb3A4RjZoY1IwbVY4U2sxa0FYLXdMWlU4OWJLUUZjOGZqdFpVWmdWQnl6Zm5GWnB0bEROZHE5Rm80?oc=5",
-      "pubDate": "Thu, 09 Apr 2026 23:07:56 GMT",
-      "source": "Chosunbiz",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "한국폴리텍대학 이천시 반도체 융복합교육센터 개소",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9JMngxNDNTS01kY3ljbHFMXy1nZ1QtT2JKcFNuVVNqdlVRTy1MOWxDZjQ1ZVYtUHI5aVVOaElHWDR1a0VfeFFSQWMwVTlEU2tXVUdpamF3cC16X1AyZmVOem1VQkNSbU41?oc=5",
-      "pubDate": "Thu, 09 Apr 2026 23:06:31 GMT",
-      "source": "igoodnews.or.kr",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "비트코인, 7만2000달러 하회",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBwRkNvSUhiamptTmJ0Vnp1c0FsUUZacmI2ZGUtTVdOLUJmNkNVbk1iRnQ0eE1BYWZGcktSc1h1NXRLRTJjSTIyZ1JCeXF2ODlk?oc=5",
-      "pubDate": "Thu, 09 Apr 2026 23:04:27 GMT",
-      "source": "블루밍비트",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "환율",
-        "BTC"
-      ]
-    },
-    {
-      "title": "검경 비트코인 분실 재발 막는다…공공 가상자산 '콜드월렛 격리' 의무화",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9FNXp1M2w5cG0wVlV1R2V2NWsybFJqQldBTXVpNFZGV2tQOWpjOGhPTVJTcWdxT21XTUtKaXNCSUk1TFdBX3Q5UzRObUktMks0Ym9rbQ?oc=5",
-      "pubDate": "Thu, 09 Apr 2026 23:00:00 GMT",
-      "source": "뉴스1",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "[기고] 시간을 담는 그릇: 연금, 비트코인이라는 낯선 그릇을 만나다",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBoWGxrOXZaMmhhN3V2QVY5YU93UkpvVU01eFRLZXNpSllCcDFwVmR6OGNGa3drXzVRZHFyZlBoRzBKc0VMM2lUMWNabDJvREx0NEFYZUdjRS1CbWlFWnNqNnNQY2pCSlBDWEdDbW5OcG8?oc=5",
-      "pubDate": "Thu, 09 Apr 2026 23:00:00 GMT",
-      "source": "신아일보",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "[N2 포커스] 삼전·닉스 '초집중' 투심 잡자…반도체 ETN·ETF, 투자필수재 부상",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBTV29LZHlxV0xneTNzUTBZTjA2c3dCNjdfcnJNTDQ5Nl9scHo4d19XdlllQmxSNGMwX0c2ZHhsZXZCcVZZbmhrczQyd2dEY3ktWkY0SWNqNWlsQ0lCdHc?oc=5",
-      "pubDate": "Thu, 09 Apr 2026 22:58:00 GMT",
-      "source": "뉴스투데이",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "‘62만개 비트코인 오지급’ 빗썸, 끝까지 버티는 ‘7개’ 회원 계좌 가압류",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5YUTZJbW1GMFgzTFRnZS1FTHhTcEFsVmZTY2dBOEVWLXdjN0xiTWF5S1F3QU9Xd0hDN1A4a2hnWjJ6VXhfX24yWEFWdGMxM3J1UjJmck53NXdEQktLMENrUDZIYnY1UWh5SDRJYlBQUGE3TDhPdnfSAWZBVV95cUxPaFFsRjJMV3hhUlpnY3dDYlNVb1Rnc0FmT2JQNW5oMzdkUDJTb1NpM0JvY3BEZ3ZZdXhwQ0J4Ync5dURINzBPU01fZjJEbmZaU2xOa1N5QTBEMXBwVVEzWUthZkhFLVE?oc=5",
-      "pubDate": "Thu, 09 Apr 2026 22:53:00 GMT",
-      "source": "동아일보",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "[07:40 가상자산] 비트코인, 중동발 지정학적 리스크 완화에 상승",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1yODdqTUhkeE9MZUFoME50dG1fM1RzT3RWdWJINTFpbWY0V0h2dm9SaUl2cDU0cXQ4bTlNQzhtUElYQkJDSjhfVzdITUFaR0EtVFVkTDVlS0VYbjV4TEk0X1RaTGxMVGRlalQ0akZQUUc?oc=5",
-      "pubDate": "Thu, 09 Apr 2026 22:49:21 GMT",
-      "source": "신아일보",
+      "title": "비트코인 추가 상승, 유가 안정이 관건…호르무즈 변수 부각",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5XU2dqYjNzX0JXWWVBekVZNUdtdGZXR0F0ak93QkU1eC13aWdqODY1a2p0WTdVVmJhQ1hoT3E5clJ0YnFwQzJRbTZhZU14NTh2dzZSSzJIWXVzUnFCUEJCekRNaUZDU1VkVG9UbDFPUWU3RDQ?oc=5",
+      "pubDate": "Fri, 10 Apr 2026 00:15:31 GMT",
+      "source": "디지털투데이",
       "category": {
         "label": "🟢 POSITIVE",
         "color": "#4ecdc4"
       },
       "impacts": [
         "원유",
+        "BTC"
+      ]
+    },
+    {
+      "title": "부탄, 비트코인 319개 또 팔았다…어느새 보유량 70% 감소",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE14R2NlTW5GLTF4LUVXeXFYZlhBa3NpcEVNb1l2N1MyTGZzQnBLaVdCZGdlby1aRVZBbmtTWEFvLXJpelhUbXBlcjZSaVIzdGRJbUtLVFlJMDdwUXFhdHcwWkRjalRrTnZremRoeXpmd3otQ3c?oc=5",
+      "pubDate": "Fri, 10 Apr 2026 00:15:22 GMT",
+      "source": "디지털투데이",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "현대차·기아, '브레이크 테크 서밋' 개최…미래 기술 방향 논의 - 머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0zYzVibDRsVkstank4dl9oWENiS21YRm5RMnVNVm1GRmtIMEZzZUNUcFM2alFNRTl2OUFkclJlR0Z0NTYzVThXRy1BbkxoVjdPZC13X3lVSk96YmRNMldyckc5eDZSOTNVSTY1ZNIBckFVX3lxTFBRRTZMZUxHaHFlMWctUjB6d1U2a2hiTFJQY2F4V2I5SFFSM20yMnY3MjdWNEx5Y0J5cTlDNXV1YnFaNEJmWlJkcjlRaGkzRHpiX2tCVGtSa2hZWXJJMG5OX25qeWlGOGZvSWhtQks3TDVRQQ?oc=5",
+      "pubDate": "Fri, 10 Apr 2026 00:13:56 GMT",
+      "source": "머니투데이뉴스",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "현대차∙기아, ‘브레이크 테크 서밋’ 개최…차세대 기술 발전 공유",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBWb3lJMzB1LWcyN0VzQXRVWFJPOWlYbGNiS0FVTGFlTHoxN1I2Q1JiaUJkb1cyUFh4YndTX1oxdjFwSC1hczZWVWktejhrY0ZuMzR0bEd3?oc=5",
+      "pubDate": "Fri, 10 Apr 2026 00:09:06 GMT",
+      "source": "헤럴드경제",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "ADB, 중동 전쟁에도 韓성장률 1.7→1.9% 상향…\"반도체 호조\"",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOaEJJZVpEanNOMWxWRWVreTdPcm9HbS1rRFVOOHdlb2JyV0dwTWhmWVJFNm5uVkplZjUtbjNrZlhXR1BVbWlBVXRWRTZULTVxLVZBWUY2UEN1WE1CZmdYTVpoNTZjR0lGZ0d2T2I1MXhYVF9ob05XQlk5NEtfYzk5WW12ZUxjTEJpZk80?oc=5",
+      "pubDate": "Fri, 10 Apr 2026 00:08:00 GMT",
+      "source": "국제신문",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "원유",
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "\"반도체 완성은 우리가\"… 네패스아크, PMIC·DDI 솔루션 공급 확대",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE0yLWg5SUtYX3dqZFlLTVN5cFJ1cTFGQkJEeGgyd2EtUFdKRU43VFo1SDhhRlZJR0x0WjF2aENubC1Ua05vZXd2dzZ5MkY5MnpsS2xOVUVzSEYwMFFJU1VLWjFLWDNUMVJvOUN6anh4djBzdEU?oc=5",
+      "pubDate": "Fri, 10 Apr 2026 00:07:25 GMT",
+      "source": "핀포인트뉴스",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "국제정세 요동에도 채용 훈풍...반도체·조선·뷰티 큰 폭 성장",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBYMG05bHFFN3FWLXpFS0RHN2pERjFLT1ZvRkJGdjlQNmtBRzkxM0hEZ1ZxSVg1LThQWG0tOUYzeG1Mc1U3bksyQS1Wc3FOSVU?oc=5",
+      "pubDate": "Fri, 10 Apr 2026 00:07:24 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "비트코인, 美-이란 휴전 합의에 7만2000달러 웃돌아…유가는 상승폭 반납",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFAyWjNFaDcwcnJFTmxYZU5FWEFNY05Wa3RpNUFRMzVyMmY4a3FZT0ZYOWZEZ2NmeFVTYXdJVlJrRFhCWkRIejhQTjhXTHZWQTJuZktpdjg0dmRCdUhGdVRSTjlpd2lMZ2tFSzBiQXhPR0FMQ3c?oc=5",
+      "pubDate": "Fri, 10 Apr 2026 00:06:45 GMT",
+      "source": "디지털투데이",
+      "category": {
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
+      },
+      "impacts": [
+        "원유",
+        "환율",
+        "BTC"
+      ]
+    },
+    {
+      "title": "비트코인, 기름값 빠지자 꿈틀…금리 인하 겹치면 8만달러 직행?",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBkMzJ1UGV0c1lkREd4bHlGVFdxY1QzU0d2R0NKbkNFSXBpdXpfOXNhOXhWcWJmWVV2dDFjQVJ2U0FxbzN4NlF6bkNCUDB6UGlROGozLWZjY1lTdDJzUDZSYXBoT0tZVXlGOENyall5a1Z3ekE?oc=5",
+      "pubDate": "Fri, 10 Apr 2026 00:06:17 GMT",
+      "source": "디지털투데이",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "채권",
+        "환율",
+        "BTC"
+      ]
+    },
+    {
+      "title": "\"빗썸 너네 잘못이잖아\"…'오지급 비트코인' 7억 반환 거부한 사용자들",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5uSW8tVEVPSl9VSWVleXdjZDloU3I2Tk1fakg3VDJSODR3d0ttT0dvTFhNQmE4cVpIek5qc25TSkRVRHp2NDM4dkxQemhydl9FSzdj?oc=5",
+      "pubDate": "Fri, 10 Apr 2026 00:02:00 GMT",
+      "source": "네이트",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
         "BTC"
       ]
     }
