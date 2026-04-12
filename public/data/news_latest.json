@@ -1,11 +1,24 @@
 {
-  "timestamp": "2026-04-13T06:01:28.735105",
+  "timestamp": "2026-04-13T08:17:05.751298",
   "count": 10,
   "articles": [
     {
-      "title": "57조 버는 삼성전자, 그런 기업 대하는 한국 정치 수준",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBJUFNTVkNWOGFxZ3VuaTFXOWlrQ0ZzSUhIVlQyeHBLOVk4MTF2UDdUMHNuRnJZSkp0Sm9wS0w3NU50emdLYng2RUdKbExKNVIySzEwSVpCQzhSd0lLX2E0VDJsemNyNGtQRTNmdTYxZTV1SVVOZzVjNw?oc=5",
-      "pubDate": "Sun, 12 Apr 2026 20:50:00 GMT",
+      "title": "[가상화폐 시세] 비트코인 1억원선에서 상승…엑스알피 1900원선, 이더리움 320만원선 거래",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5YUm0zLWJYcUx0N1JCaVU1bkVaUnB3cnZxeThwaHhiWTFnbEVvU1pGOGwtRlBHUjhUTk5VYm1GTUVIQmJidXAtdHRzaGhCN2YxRTdmNHBLb203VldlRU4yTGxaUlp5ZlNNbVNYbWlodw?oc=5",
+      "pubDate": "Sun, 12 Apr 2026 23:12:08 GMT",
+      "source": "이코노뉴스",
+      "category": {
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "외국인, 왜 반도체株만 팔았나…\"업황 우려보다 변동성 부담\"",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE03WEwwMVFoREgxVXVmdlJ5Q0p2R0JDSFBxZDF4V3ZPcTk4WHppVUhNS0d4TVhkeWx0RjZ1WjRPb2d5Zm9UcmVDT3ZmbldvOVpzdGlV?oc=5",
+      "pubDate": "Sun, 12 Apr 2026 23:09:00 GMT",
       "source": "네이트",
       "category": {
         "label": "📋 GENERAL",
@@ -16,118 +29,108 @@
       ]
     },
     {
-      "title": "이효석 “삼전·닉스, 1분기 이익 유지만 돼도 주가 2배로 오를 것”",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOLXVRRHRDanpNbmpnaDZXVC1qMzVGRWltQzY2MlNSZC1HdWNWdGxYa1RvQ3hqdlBwUHdieVdlMjRNb1hQWWhxdXhFSVZXTVc4ZzdyV0M0OEpKZGc4WTFmNXNaSmpidzRNbkVVVVpIVXV2YTQzWGMxTjQ1Y1hhelE5UdIBlAFBVV95cUxQVDNaTENQanhoUFhTdURyR1libnIzQTl5cUdKeUgzSFZQQV9uU2I3TlpzSWVkY2owVjlJeWRMWmJjcDdiYWROUmFQM0Q4NTR3TzhDdGZwRWs0TTlZTGR0dl8wYV91MDc0aFQyUHVrSU04OWliQWZRLTIzWE9aXzZIcHExcjlSeDdiQ04zeks0UzQzY29p?oc=5",
-      "pubDate": "Sun, 12 Apr 2026 20:37:30 GMT",
-      "source": "조선일보",
+      "title": "아산, 삼성전자 반도체 투자 유치 ‘청신호’",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE42dzFFYl9mTERsbjVxb0lmSGdvbUJLNHNQUEd5b2lHbHBNc2tSVy1iZGlsOHVidWhfdFpmWFh6aTRXZmFHazFPNUJHSWQzeUJIdkFtMzQ5WS00SVkyUy1yWHpVQS14Sk1uQW9j?oc=5",
+      "pubDate": "Sun, 12 Apr 2026 23:05:20 GMT",
+      "source": "헬스경향",
       "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[속보] 호르무즈 봉쇄에 삼성전자·SK하이닉스, 프리장 3~4% 하락",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE14VEhNdVZiMGMtR09OTDlxNmZGR2dyM1RoVmZIWXM3Q09kbjNuemVTbzlKVkNZSWtjeXBwTkNFa2hBVHRXNmFuYjJ2cTFjY0Y3dUM2TkFseHRiQllGLWgwZE9yUXR4Q2hJbDJuWjZJck1aVlNyT0FGOW5pOA?oc=5",
+      "pubDate": "Sun, 12 Apr 2026 23:01:15 GMT",
+      "source": "뉴데일리 경제",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "원유",
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[디깅노트] 삼성전자, 1등 DNA 사라진 위기의 순간",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9yRm5WM3hXUEphbmVLZWZQQWlidGJ2M2Q2U082bVNFYWRLc3dYbVdQQ251eHlMTEVtdXVldXBlcmtZdWJNVldvY01PcnpJNXM5eGpN?oc=5",
+      "pubDate": "Sun, 12 Apr 2026 23:01:00 GMT",
+      "source": "네이트",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "“약관 동의하셨죠?”···현대차, 렌터카 진출 이면에는 포티투닷 데이터 수집",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9PaHRMS0prYnFtdk5nczlzNTlDTVhSUUk5NGo1MVI2NDNCbllhZFZ1aGd1QURSUmo2QzBuT3NIb0ZRbUx3dkJXcDM5TERrVTdYUVZGTlNPN2huZWtxQTVtRHlQLUYyRFlIaEtTTmt5YnXSAXRBVV95cUxOQXBUWWdxUjhTRzgxZ0ZUY2hWRWdncWY1MnN0U0dmaUdfRDZqQTE4NkNWc3E2bkNVSXllemJhaFJuS0VaS1AybTVFMkpFWnZWZ1h0ZkNSU3JuLXA1Z1lscmkzZWp0LWEwWkRmeWQzYkFndW5GRg?oc=5",
+      "pubDate": "Sun, 12 Apr 2026 23:00:00 GMT",
+      "source": "이뉴스투데이",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "반도체 이익 급증에도 외국인은 판다…\"멀티플 확장은 시기상조\"",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOeGN5SmRYX0xXRDl5RmQwYi1vazB3U0FuVGpHeFNkcXhTVzEweVpQdU1odkRFYkQ2Q2pFbTNOcWV4LXJzTVpZWWFqYU9WeWxDVVcxVWdjWndIdTdoRkp3WlFJenlhZlZTMW1jRzRiY1ZyVERkb3BvcjBlWFNqd1NEbw?oc=5",
+      "pubDate": "Sun, 12 Apr 2026 22:59:04 GMT",
+      "source": "이데일리",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "사토시의 침묵은 깨질까 [헬로, 크립토]",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE15NFFjUlpzQUd4UnAtdmNpMHBiT3VDZjhERWxEU0VJMF9mSnJLRktpdi1hbkV2cGdvMHVwZzhyTmhjMGFHcTlxc21FSjE5UWR3a1JTTEhzMFdSbVJGT3NsTlJQM0d6dw?oc=5",
+      "pubDate": "Sun, 12 Apr 2026 22:53:00 GMT",
+      "source": "한겨레",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
       },
       "impacts": []
     },
     {
-      "title": "비트코인 저점 임박…온체인 신호 포착",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5jZ2tqM0RlVXpjUDhycW1qR3gtclY2TG9mWGQ4ZUJPMDZQTUpTQktMRm00TnpfcGdRdlNPcVVTUXdYbThIdmlMOW1HSENQa0RsYnlSaUJIQWJqT1BnTjZTVktjWERrYXdxSklVR1k2bURhMzZVWW9lTg?oc=5",
-      "pubDate": "Sun, 12 Apr 2026 20:34:27 GMT",
-      "source": "BeInCrypto",
+      "title": "[모닝 리포트] 달러 약세 기조…삼성전자·하이닉스 외국인 자금 유입 기대",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9hVDUwMk5DRXBqSDl4N3lhei1UeWF2RXliZzZSVEtUT2lmTS04bHpUMG5nUVFza09NME5oTm1EaGZNME5DMzZsRlI1YUFhamxQTEVmR0FuTl9WUUVS?oc=5",
+      "pubDate": "Sun, 12 Apr 2026 22:51:00 GMT",
+      "source": "뉴스핌",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "환율",
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[07:40 가상자산] 비트코인, 미·이란 휴전 협상 결렬에 약세",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBUVmJCbjdfZ1lfLUkwd0prUzdhemdLeFpQZjlOYkJBOURMNUpFRS1DZFdHZTVhVXJ5R2FHZU1OZGpoX0dsRzRkVDk2bVZrUUdLVGhFNzlCNUY5V1JxUFl0a3VNUXV2YWNnUXcxZWdMNlM?oc=5",
+      "pubDate": "Sun, 12 Apr 2026 22:46:14 GMT",
+      "source": "신아일보",
       "category": {
         "label": "🟣 CRYPTO",
         "color": "#a55eea"
       },
       "impacts": [
+        "원유",
         "BTC"
-      ]
-    },
-    {
-      "title": "아산시, 삼성 반도체 투자 유치 박차",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBiNlZIZTV4Nkg5ZXBSWUNJQk9aSm1USHNEODg5WmNjSUxReXd2ZDBTeHFyem5ZenZwOXYtNGRpZk1CT3ozS1hUSGVLWEN5Y3Y0XzZrcVN5UG1jcDRqWDkzUW14bTBQTVpGZUxUMURR?oc=5",
-      "pubDate": "Sun, 12 Apr 2026 20:19:08 GMT",
-      "source": "전국매일신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "비트코인 시세…이더리움·리플·솔라나 가격",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1reWN4a291YmctczVfZnlsVHN3dncyTVZrUDVaV0JULS1Qc1ZsT1hFYlFEVzNJZWR4WnRfbmt0d2FBNmFzWk1nejkxdUcxNTQ?oc=5",
-      "pubDate": "Sun, 12 Apr 2026 20:12:35 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "[이슈분석] “반도체 다음은 우주?” 스페이스X·아르테미스2호에 투심 몰린다",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1xZmVxWjBEdFBtbVZSb1FzTFprYjRhbWJzb3hBa0dPcm5WdFlaWHgxRXNkbV9iZjdHaDRRZlZZV3Q4bkQzVUxCNGJMQkNQbFE?oc=5",
-      "pubDate": "Sun, 12 Apr 2026 20:04:54 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "\"삼성 이익 1~2년내 세계 톱\"…반도체 거물의 이유있는 자신감",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBjdm1jSjJucXBwRkdzUTZEMDBadF9ydDhpR2hoNXptdUpyTGRBZDhmUkgzOFFNdS1lNDhwUDIxRUVOTzA4OVdzTThpOEh2aGthUUxB?oc=5",
-      "pubDate": "Sun, 12 Apr 2026 20:01:00 GMT",
-      "source": "네이트",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "“삼성 이익 1~2년내 세계 톱”…반도체 거물의 이유있는 자신감",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5RVkgtMDdmVE1Hd1pvTjdNbnNzUktkX0p3bXJEajZtQjhtZFZiaFo3MEhwQ1JNV1l4blJaVmNMazRQWDdkNVZQVThHUkpnazVSZjdreE5n?oc=5",
-      "pubDate": "Sun, 12 Apr 2026 20:00:01 GMT",
-      "source": "중앙일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "구글 ‘터보퀀트’ 논쟁…AI 효율 높이면 메모리 반도체 수요 줄어드나",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOcFRKUU5Bb1dMVmNvelZlMjJuU0VZNE9jVW1DdDlCRXJLSUtONnc0Nld3RlV6SUs1aFI0VnY2bXE1X25tQXBuWjhJcVpXVmhVT0hjeHE2WHVnQVpUU1pOdk16c3ZoVVVDWWt0bV9GSHJ1RmVSeWFxSkxTRUlkRTEzZzhBRF91dDkz?oc=5",
-      "pubDate": "Sun, 12 Apr 2026 20:00:00 GMT",
-      "source": "글로벌이코노믹",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성 파운드리, 반격의 서막 [D램 넘어 삼성전자 ① 파운드리]",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1oeVYzVzlJdWlzcXh5MGVGYVVOZlJ5cEhnUE9tdjlVNjU3T2lrU0FjQThvTlFsQXRhYWxRNU54dkVvMjJkSFhPYTdrUVYyZGFlNnJkTmYyUlpZV2xEa0V2VUFmQUZBWGJQSjV2dmdGWW9HbEpxZ0JPWEgxSlE?oc=5",
-      "pubDate": "Sun, 12 Apr 2026 20:00:00 GMT",
-      "source": "한국금융신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
       ]
     }
   ]
