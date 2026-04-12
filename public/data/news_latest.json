@@ -1,7 +1,34 @@
 {
-  "timestamp": "2026-04-13T02:29:59.210541",
+  "timestamp": "2026-04-13T04:00:33.433070",
   "count": 10,
   "articles": [
+    {
+      "title": "이란 ‘가상자산 쉐도우 아스널’ 11조 돌파… 한국 반도체·금융망 ‘불똥’ 경계해야",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPN3I3YlhzeWVFZm5ZQjlVVENvOTF2aUdMYkVLRnZuaG5XN3dWVHhuOE96Zm1MdEs0MGlfY2NCODE3V3NtQS03RWpyY05nRzI1SkdacmVMdGY5Q2xpV2x5VE40QkxxaHJMamN5TmstZFJaOEsxdGVuV1pNOXkxV3Z3NFgtMzVrZEZR?oc=5",
+      "pubDate": "Sun, 12 Apr 2026 18:35:00 GMT",
+      "source": "글로벌이코노믹",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "삼성전자",
+        "원유"
+      ]
+    },
+    {
+      "title": "경기도, 반도체 인재 양성 박차… 교육 인프라 공유 사업 참여기관 모집",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE52SURXYkhxR29scjh0NkpjYU9EWjltNE9EbU9LT2g1ZXVHYlh6STRELW9pS0h1dS1tUm5oQ0tmMmhIeFZxdFowVG9LeGcwOWt2ejNKWHJRbHZReXg3azFFajR4RDBOR014bGpkM1BR?oc=5",
+      "pubDate": "Sun, 12 Apr 2026 17:15:12 GMT",
+      "source": "더리포트",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
     {
       "title": "비트코인 ETF, 4.7억 달러 유입…시장 신호는?",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5WM0VWa2NFTnU1eldSdi1xOXFfSm14ekU2bFJXb2VOY0RnOFdjdU9aay1qTExtdDlKVFNma3lqU2RvaVF2T05CdV9QV3BjRjg?oc=5",
@@ -12,8 +39,8 @@
         "color": "#a55eea"
       },
       "impacts": [
-        "환율",
-        "BTC"
+        "BTC",
+        "환율"
       ]
     },
     {
@@ -79,8 +106,8 @@
         "color": "#a55eea"
       },
       "impacts": [
-        "환율",
-        "BTC"
+        "BTC",
+        "환율"
       ]
     },
     {
@@ -107,32 +134,6 @@
       },
       "impacts": [
         "삼성전자"
-      ]
-    },
-    {
-      "title": "‘국제금융 전문가’ 송인창 “비트코인 박수 칠 때 떠나라”…韓 광풍 경고장",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE96R1hlU0ZlWnAwSkFGSXRPTTFWOEVzdWRBLXJXbmdGY1c2akpyQ2QwLVV4TW1ZQjMzZ0cyN2VsTkM1ME1xb0swVGFmbGYyaWVBZGh2cnp3?oc=5",
-      "pubDate": "Sun, 12 Apr 2026 14:37:25 GMT",
-      "source": "헤럴드경제",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "오늘(4월 12일) 암호화폐 시장: 비트코인에 대한 상반된 견해",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNb3UyOTlqR2NJUHZhdl81NW1wZTJQaUQzelpsTHZRVlE0bHRZUlZ3OTkxcHBTeDV6eWp2bkxQdVdpWmtqMmhoWVJuREFEWkhDQnMtSWZlOGtwY0ZCcC1kQVNXOVVOYjN5WS14V2xSa2JDRXdmWFVhOVFVLWIzTXBIYl91cko4dzVFNlRoQ0F5eVVwVzQ?oc=5",
-      "pubDate": "Sun, 12 Apr 2026 13:30:28 GMT",
-      "source": "Vietnam.vn",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
       ]
     }
   ]
