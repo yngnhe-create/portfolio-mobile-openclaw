@@ -1,7 +1,48 @@
 {
-  "timestamp": "2026-04-13T00:59:30.159367",
+  "timestamp": "2026-04-13T02:29:59.210541",
   "count": 10,
   "articles": [
+    {
+      "title": "비트코인 ETF, 4.7억 달러 유입…시장 신호는?",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5WM0VWa2NFTnU1eldSdi1xOXFfSm14ekU2bFJXb2VOY0RnOFdjdU9aay1qTExtdDlKVFNma3lqU2RvaVF2T05CdV9QV3BjRjg?oc=5",
+      "pubDate": "Sun, 12 Apr 2026 17:06:05 GMT",
+      "source": "환경감시일보",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "환율",
+        "BTC"
+      ]
+    },
+    {
+      "title": "용인 SK반도체 건설현장 노동자 집단해고 당해...\"SK에 사태해결 촉구\"",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8wSVBRcmNDcElUcWlRcURJQi1naW1DUGRKQVF4LUN3R2JjcjB2RXJpTUozV09XbUQ2UllrQktTVFpENm5FTU9xbXprX25XVm5kbkxkcEw3ZXkwTUZEWEVnTkFGMm1obENhQXc?oc=5",
+      "pubDate": "Sun, 12 Apr 2026 16:24:30 GMT",
+      "source": "경북구미신문",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자",
+        "리츠"
+      ]
+    },
+    {
+      "title": "“반도체 수요 확장세, 내년 상반기까지 이어질것”",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9rR1prdHQ2OXlFa2lWdUdWYTJHYk5GS0xZNkdXUFB4dFl2TFhjd3VJc0NDVHVlZm5CMDYyc29lX0RXUVJUX1h0ZVA4b0FwT3N3T2V0UkVMbVlBU2FlZml4V1VRWXU2VGV0OFVpeWFKUE5MZVBFc0HSAWZBVV95cUxQVmNSLTh1RWotM1F6aE5YbHdUWlZxdXJFeHNnV05mbHBGaUFkMDVzRkVYR3ZoQ1BqV0dEMDVVWTI4NjBza05jck1IWE84UUdGckJpYmNNMkpjM0NIb3BuWFJOcnJZV1E?oc=5",
+      "pubDate": "Sun, 12 Apr 2026 15:30:00 GMT",
+      "source": "동아일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
     {
       "title": "김영록 “반도체 중심 첨단산업 재편 지역 주도 재정 시대 연다”",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1OZ3kwcWR6aTRnS2xuLUlnbzVISHlGbXhYZjlnVF90V1ZHREdwU0ZlMGRMY0Q2NmthTk9tS1E2T3o1YmtqOEY2N1RKZ3otYWE2ZlBvcENrcmQ0TlhRWnlES2tROERmWVhVN2c?oc=5",
@@ -38,8 +79,21 @@
         "color": "#a55eea"
       },
       "impacts": [
-        "BTC",
-        "환율"
+        "환율",
+        "BTC"
+      ]
+    },
+    {
+      "title": "[섹터벌 분석① : 자동차/모빌리티] 현대차·기아, 실적 눈높이 낮아졌지만…‘로보틱스·자율주행’ 몸값은 치솟는다",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9fVmotOFZ2RENmTXRDa1d4N2hFSWVLRXE1cDJ6d1BySTFUMFByV2FwNlYyZFhNVzZnY1V1RkF0NnhNN1RKQzhnNW9IWU9FN1FWb1lBM3hhRG5vQjZIWFJ4Y0JqRXdYRVVWajA0cmNkX3nSAXRBVV95cUxPb3BVX0RBbXlvalpzMGRVUGJDNkQ2VFBMNV8wZWQxY28wRk1INTdiRUp2cnNPRWpYUFh1UXo4dmNyb01CUnlRS0V6T292bUhpRzFSYTRGdEQxLXg4TmF6czBScE9MSG80TW9OeDVxU2FKd0RaRg?oc=5",
+      "pubDate": "Sun, 12 Apr 2026 15:00:00 GMT",
+      "source": "더페어",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
+      },
+      "impacts": [
+        "현대차"
       ]
     },
     {
@@ -79,60 +133,6 @@
       },
       "impacts": [
         "BTC"
-      ]
-    },
-    {
-      "title": "삼성전자, 에어컨 생산라인 풀가동",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9EUWtxSDRZY0NObjhfTGtxbGxjZjZmY21LdklPZlg5Nm9JRi13SzhuUjhRbklEcEhRVFptZDBEaDlJM1Q1aDdVY01qZy03TWFpYWpCbkg1THZRcVI1RmlPS1hzXzZMZw?oc=5",
-      "pubDate": "Sun, 12 Apr 2026 12:51:57 GMT",
-      "source": "익산열린신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "미국-이란 회담 결렬로 비트코인, 7만 3천 달러 선에서 주춤… 시장 숨 죽여 지켜봐",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxObmYta1hTc1MxNHVVRDhtT0FMT1ROeWtYbUxaY3FtMFRsWUVhZDJGalNINEVDZm9Ebjc0M3dTMWw0Wk5DYVprV2NtUFJITkhKSWJOd1p3SHFUYVpSajNDNnpFUEdLTEdIUWNZaDhFV09rT0lYYXlQWkdvMENFMm0xUWFMLXBkTUVab0JmWHdEeFhtMU0zVndRR0dVUEJFNUVrRU83cVA5STFWS0F5d0xwd0VSRzF5VVFWZFczSGN4YWFoVE14WnM0WVp4dEI?oc=5",
-      "pubDate": "Sun, 12 Apr 2026 12:17:45 GMT",
-      "source": "Bitcoin.com News",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC",
-        "환율",
-        "원유"
-      ]
-    },
-    {
-      "title": "\"무더위 예보·신제품 인기에\"…삼성전자, 에어컨 생산라인 풀가동",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPU0hVb1VYc1E5aC1nbTFUS3NYTE1NMFVTTmNyaU9DX3oxcVBMXzJ5eTcxcnp5ZzJSYVBNMEtrb2MwLWYtLWcyamlnV21mR0gzMG1Zenk4WEFodm9wZnpqNVRKQ3R6MTVSWXMzSkt4dUlvMlJWdmpicHFjSFFxQ1FVXzdlSDJIdw?oc=5",
-      "pubDate": "Sun, 12 Apr 2026 12:15:36 GMT",
-      "source": "글로벌이코노믹",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "한은 “AI가 이끈 반도체 확장세, 내년 상반기까지…관건은 그 이후”",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBVeTBNSG1EQTYta0hSbTZ0TzV0MzItQlpabW1lTTAxRGhVdW9IeEJPOXVrMGUxaG5NLTduQW1qVFlyVE5HbjBHVkxGUThubGRkQ2NMN2JJVlRDZ9IBX0FVX3lxTE04ZWZSZWRicDBwYVdmQ0NlUVd3em44NVQ0Skx2eWVEaE5XSko2RS1DSklIUC1iLThXVXdVdERIblEzb25wb2w1aWcyOUJZWjBod2xUUm5mM0EzN0F2ZGxv?oc=5",
-      "pubDate": "Sun, 12 Apr 2026 12:06:00 GMT",
-      "source": "경향신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
       ]
     }
   ]
