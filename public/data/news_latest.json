@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-04-13T11:34:29.839549",
+  "timestamp": "2026-04-13T12:04:57.970565",
   "count": 10,
   "articles": [
     {
-      "title": "삼성전자, 혹서기 대비 광주 에어컨 생산라인 풀가동",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5wNlpiZHhpM3hlVlJ3SUo4ZE16dkNUajFmVUQ5RnF4c0tDV01kRHprLTg3eWdVb05TMHJUZGJ5NGI2OWZrZURhQkt1RVI5YV9QR0trOXBVV05pVmZfODJXczZBT3o5QU3SAWtBVV95cUxQNERzODdVWkZYemdrRXpCT0ZjaFV0ZUJHSGotaEJXNGwtdVJsMGYwYlc5SldfOG1ZbjNkTlhLdXhyT0Zhbk9FRXlzMmZuZ2RtQ1VzcnVWdnc4MjVmaGFfN1dBbVVCUVZFVVM3QQ?oc=5",
-      "pubDate": "Mon, 13 Apr 2026 02:22:54 GMT",
-      "source": "이투뉴스",
+      "title": "4월 대한민국 엔지니어상에 박종성·정인화…반도체·통신 기술 혁신 성과",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBOc29fSnQwalp5M21fZmhHWFVZUkZVRUZ4eXZ3MDZTSUtqTXZ3YTJzYkxUVThveDdQNnUwdVgzSGNkNkhaWjlvUmpfbHhoeENXN0N4dg?oc=5",
+      "pubDate": "Mon, 13 Apr 2026 03:00:00 GMT",
+      "source": "동아사이언스",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -16,10 +16,38 @@
       ]
     },
     {
-      "title": "SK하이닉스가 남긴 선례…삼성전자 드리우는 '노조 리스크'",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9KUHpxN3lpZXVFX1V6RXNTU0JlbUYtMDcwY1VNQ3dlbHIxbkFzbUtlalF3ajNuS3hHaTZjVGYtLWt4cXBrakZ1Q056YUZnRV9kdzB3anpINUFRMmFOcWNkZGYtUmNmV0wxdm1OTm9tYVM?oc=5",
-      "pubDate": "Mon, 13 Apr 2026 02:22:33 GMT",
-      "source": "연합인포맥스",
+      "title": "빗썸 비트코인 오지급 사태, 한은 \"가상자산에도 '서킷 브레이커' 필요\"",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4xSzZpVzFEdnJGM3RtVGFjcExtYVliUk1SWUoxR05vbkZ5NTBEREU4MEt0Y2RfdVd4ZnJiYk9GRWNmLXgzbHAtaGVHUS1hOWxuYnM3RkcxNEQwd3I5R3pZaw?oc=5",
+      "pubDate": "Mon, 13 Apr 2026 03:00:00 GMT",
+      "source": "아시아경제",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "비트코인, 호르무즈 봉쇄 여파에 7만달러선까지 하락…유가 급등 영향",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1RS29JQkdTaXV5ckhQaElHcUlnSVpScW9rQld3R0o5YW1aQ1habzlXSW1ESkt4aUVKQXhxcWxxTVJKYmQ2eFVlYzFidURSLVhX?oc=5",
+      "pubDate": "Mon, 13 Apr 2026 02:54:57 GMT",
+      "source": "블루밍비트",
+      "category": {
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
+      },
+      "impacts": [
+        "원유",
+        "BTC",
+        "환율"
+      ]
+    },
+    {
+      "title": "미국 중국의 반도체 장비 반입 더 옥죈다, 삼성전자 SK하이닉스에 '최적의 타이밍'",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5Hc1R3c2c0Q2VyelpOYS1YZG5kazVqcTlfbzlXVVRqb2Vzdzk0ZElPODdGcE9CenFoNzFBWENHWUxpN2pMWl9KZTZoLWZDX3o5MFdjRWdybW5FQm9FTjdVMUFwOUtoZEJOQU9Kd1owTzkwWE0?oc=5",
+      "pubDate": "Mon, 13 Apr 2026 02:49:38 GMT",
+      "source": "비즈니스포스트",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -29,10 +57,10 @@
       ]
     },
     {
-      "title": "씨앤지하이테크, 삼성전자와 381억4906만원 규모 반도체 장비 공급 계약 체결",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE05QnBHRFlvaE5KMWlxMWpNNW9QRF9yZjNKNzFPcFk1MlVpcTVuZ0dDZkExZC1DbXY1YzNFS3I1MDRzaFloYXlBRUVuNTVEck5faGFOSWd2M25vZ2VvODI2aHJ1QVd1U0NHMFl5RGk4SmVnWEE?oc=5",
-      "pubDate": "Mon, 13 Apr 2026 02:22:01 GMT",
-      "source": "디지털투데이",
+      "title": "한미반도체, 한화세미텍 TC본더 특허 소송에 '강경 대응' 방침 공식화",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB0Q085cWcwbUMzOVlhS2VSNXhUaHpiUmQxOVhBSkUzVWhHbGttNUFfaGVKajRncHZuVEVTTVpkbkc0RjNBWmlPdlRHanhjVWZHaWhJVFN6S2szdHJrbTByNVpIc0JKbmF5VnBzRDNQQmNYREk?oc=5",
+      "pubDate": "Mon, 13 Apr 2026 02:46:29 GMT",
+      "source": "비즈니스포스트",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -42,9 +70,35 @@
       ]
     },
     {
-      "title": "[파워인터뷰 화제人] 박준규 에이디테크놀로지 대표 “차별화된 반도체 설계 역량으로 글로벌 경쟁력 강화”",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9SYVdOa1ZVR0V2ZllEYzNPVDg1M0FrTVNneHU4SFRMTElYTGtaWTFQd0c2RlZhZ3NrWVAxLVdvNmNrQllHZm1VYnphM3RvN2M?oc=5",
-      "pubDate": "Mon, 13 Apr 2026 02:16:46 GMT",
+      "title": "“조동길 체제 반도체 베팅 통할까”…한솔테크닉스, 증자·차입 총동원 M&A",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9jVXR5Z3hQWm5HNGpQLU0yRURxYWVpZDBZS2FjNFVaeHJxODBERnJya29nX0xZalNfaktQa3pSSnU5RU15b3EyMnltLTNaeFh1eHBCc19DWTYwODJQQkZ4bk41RkE?oc=5",
+      "pubDate": "Mon, 13 Apr 2026 02:46:01 GMT",
+      "source": "디지털데일리",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "현대차, 미국에 ‘38조’ 선물보따리...정의선의 파격 '승부수'",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9hcF9Udzd6TXNSbDVvN1pQMnMzT1IxREZRcmhYcnV0VF9nZjNxUWtMRG1SSFdSTnlZWmRrYkl1dlZ1TENZdXpuMnh6NFNoY3cwS0hGYlpLV01jdVJ1V0Q1M2FXRDdTalVJZEc2bQ?oc=5",
+      "pubDate": "Mon, 13 Apr 2026 02:39:00 GMT",
+      "source": "한경매거진&북",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "신소재 개발·공정 시뮬레이션 AI로…‘반도체 PR〈포토레지스트〉’ 황금기 열다",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE50ZktZMGZzYWRfeXRVX3M1UXI3OUstVW1XOGY0TTRRei1lZFRLOTczWXI5Zm56LTVleWlJTkxBazEtRWxSVm9QX2N2WEZoQms?oc=5",
+      "pubDate": "Mon, 13 Apr 2026 02:38:58 GMT",
       "source": "v.daum.net",
       "category": {
         "label": "📋 GENERAL",
@@ -55,10 +109,10 @@
       ]
     },
     {
-      "title": "4월 1~10일 수출 36.7%↑…반도체 152.5% 급증(종합)",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBxajRBcTJfUFZPU21kWklxX21fbHRxN3h5WjR6VGZ0d1lJQW5pTXFHaTFCVWdsdGg2SFl3Zjl1QTVscXVrcDZ3UGViM1M1bzNZb0VLZ3IwbmlYRHR3UFhGVm9CdHl2NU40UjZqUnhtOGg?oc=5",
-      "pubDate": "Mon, 13 Apr 2026 02:11:38 GMT",
-      "source": "연합인포맥스",
+      "title": "AI 반도체 딥엑스, 日 피지컬 AI 시장 공략",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9TdV9jWHU4N3Uyc2tHTjdBVUtOZk1qNDhuVVJvVDg1OTQ0WFJoSzctM3MzaUhTN3I3VUoxUnRIVVhnMnhpOThPTDJWdXJ6Q1hLaWxRNFVrNUZiS2FlanRr?oc=5",
+      "pubDate": "Mon, 13 Apr 2026 02:32:02 GMT",
+      "source": "뉴스1",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -68,70 +122,18 @@
       ]
     },
     {
-      "title": "기본소득당 \"새만금 반도체·전기차로 전북 산업혁신\"",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBONHdadGswLTVPTHFXSDVkdUthazQtdXlBQXI2LUpuOEZqSDNOb29STUFUWTV1WGxyWERxWGR1cXM4T194LWxwbkhZTTFDVEJmaGItZkdnbkp4cE9nZTBvctIBeEFVX3lxTFBlcHJXREt4bTZoQy1WeVY4V2VoRzBJbFI5X1lEWDVtYTVMWDNfWDJvR0R4cFB4ckMzQnZ2RDFfT3otWVYxRFd1SzFCazdjWFpfMGo4U3lTZGY5eFg5LVp3TDU4MGFaYVJyLVJTSVNldUJEQjBEQl91Yg?oc=5",
-      "pubDate": "Mon, 13 Apr 2026 02:07:14 GMT",
-      "source": "뉴시스",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "테슬라",
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "아산시, 반도체 투자 유치 탄력…삼성전자 투자에 청신호",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1kNzlrSE9TZFVSSkRrV1RQcjRHY1c0eHk5VmM5QkF0Nk5QN25XTzI5MGVOZGdOYm1iNDFicFlfeEJmYjZsMG0xT3RXMEhhUDFYN1UyeXVQNVRDdFNqeElBRkQyU2Q0LUE?oc=5",
-      "pubDate": "Mon, 13 Apr 2026 02:05:43 GMT",
-      "source": "충청탑뉴스",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "4월 1~10일 수출 36.7%↑…반도체 152.5% 급증",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1aYjdmQURPR1VTRTE4cmg1Y0JhSzNVU3FQd1JrUXRlRk1kNE94Q3VHdFE3TjBnUTFfNUEwak5aRGRDS3BkZWdWV1RKOVFqS0pfejZSdzgtZ2ZoLVlWSGk2eUxMc2JVNkZvWEowVjBmUVTSAXRBVV95cUxQdk8xeHAwM0d1LU5NNnRMczEtczgyRTZ2d01VMlBLSlB0VW5wU2ZzSE5rYnpPYVBybV8xZVg3akR4WU5vMk9hRWtQT3BWWWdUcUpMcURJdnJyTGhQdTZhVFA3STh3VUpzLXhfX3kyZS1KM0plLQ?oc=5",
-      "pubDate": "Mon, 13 Apr 2026 02:01:05 GMT",
-      "source": "연합인포맥스",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "\"비트코인, 88,000달러 갈 것…지정학적 불확실성 극복\"",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAyWUFTMFV3NGstbUpkVmtFcS16SG5scmw5QndpWXhGaEkwZmpHdkhUeFEyRkhfdXRPT2J4SWpic0w1OWVRdkZ6RXZybl80SDh0dm5tUlJFS3lWZlk1VTZXb2RyVzhmZmRkUEpLM0JzclY?oc=5",
-      "pubDate": "Mon, 13 Apr 2026 02:01:03 GMT",
+      "title": "트럼프 호르무즈 해협 봉쇄에 비트코인 7만1천달러 하회",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0yX2dEbGszZEJuc0hucmdRSHJOMnpSRmlpd2tPM1JLdWhYa1NMZXg5NnREQ29HbTNFYjRlVzU3ZWVWWVJRRkJFaUg1WFdCOXA2aGU5QlUwWVFyb0l3cVlLekZiak16MzU1a3pjaU0xOTbSAXRBVV95cUxOWXRpNlZPQ3J2SzlQRV9hUENvV1NTMldUdlhxSGtjWF9pRng4eThLWTFfWjd2NHZEa19Ra1JXMW9mZDdLSWNQTGFjOVdWZlJOZzBqM1gzeVlwWDNhaVJReVMybmFhVXktenV2ZXdlMHlfa1pQQg?oc=5",
+      "pubDate": "Mon, 13 Apr 2026 02:28:21 GMT",
       "source": "연합인포맥스",
       "category": {
         "label": "🟣 CRYPTO",
         "color": "#a55eea"
       },
       "impacts": [
+        "원유",
         "BTC",
         "환율"
-      ]
-    },
-    {
-      "title": "“현대차, 이익 감소에도 ‘목표가 70만원’…로보틱스가 기업가치 바꿔”",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA1Qm9FSlM0NlVzbUM4b1lySGJvRDExTzczMjJlR3gxTTRfRkNYckdEempkMGhLY25PRFd6RGh2c0diQmdsb3A1Z0kyMFpLWmhCSWNHY3pqaElIQQ?oc=5",
-      "pubDate": "Mon, 13 Apr 2026 02:01:00 GMT",
-      "source": "브릿지경제",
-      "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
-      },
-      "impacts": [
-        "현대차"
       ]
     }
   ]
