@@ -1,121 +1,12 @@
 {
-  "timestamp": "2026-04-13T09:02:00.370837",
+  "timestamp": "2026-04-13T09:32:29.326432",
   "count": 10,
   "articles": [
     {
-      "title": "반도체에 힘주는 한솔그룹…900억 유증 통해 윌테크놀러지 인수",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9PVXd3VmhzLWRnZW9mVXM2bVhqSFVUZGJ3R3RzcnRuU0FidC1zemJmenBLTldraThYUW0wcXdwbTYyZE1heXdBUkFEUU42Nlk4ank3ZHRnQ2w3TlZEUnBxNWpiLWo?oc=5",
-      "pubDate": "Sun, 12 Apr 2026 23:57:23 GMT",
-      "source": "매일일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "현대차, 1분기 시장 컨센서스 하회 전망-유진 By 인포스탁데일리",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBXNFdmMWJOQ0tyajJBUDhtSUlIUlpLMGxjeEdSRmszeVkySHN6Y1NHam81czN2dnRGbFFWejZxa0RKVGw3Vnd3UDVxVHNHeElNS1NzRjZTdUMzbk1MQkVOVm1CSUNUc3hrYVlaS1lLa1I?oc=5",
-      "pubDate": "Sun, 12 Apr 2026 23:57:00 GMT",
-      "source": "Investing.com 한국어",
-      "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "미국-이란 협상 결렬… 비트코인, 중동 전운 재확산에 7만 2,000달러 붕괴",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE15ZkJqZUU5MEpxeDJiMkZNdWZyRGxLbU4xWW9wX0hBdmVJNkxUbjJqZ2JYbUh4anJLd19qUml3ZzJCc1RwTnNhM29iVWFWcTdtRlptbUcwclExQmt1MlJ2anVPN3pVb0EtRDk0VllGUmRvUVFsMXc?oc=5",
-      "pubDate": "Sun, 12 Apr 2026 23:55:00 GMT",
-      "source": "블록체인투데이",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "원유",
-        "환율",
-        "BTC"
-      ]
-    },
-    {
-      "title": "\"삼성전자, 아산시를 최우선 투자처로 선정해 달라\"",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5XSEdVbkphOFNWUXBRLXJ1Y1hUWTVzWEFvLUJDZy1Wa0s2bW5rVU1XTWNwN2FNU0hHZ3A2OTdtTnR3ZV9uRWlzSTdYLWF1b3BzcndOakVLZURHRVEzcmh5MEg1bHE?oc=5",
-      "pubDate": "Sun, 12 Apr 2026 23:52:07 GMT",
-      "source": "중도일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자 노조 \"성과급 40.5조원 달라\"…주주는 분통",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5UbmUwZkVoeDRWQ21IS0tydTQzMlQtM2x4Xzg3NWtUV1ZwZUducmJkT2VLb3dva1BZUXA5aWNvbzYxSnlaN3ZtVTZGTVc0R2dhNUVZ?oc=5",
-      "pubDate": "Sun, 12 Apr 2026 23:49:00 GMT",
-      "source": "네이트",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "‘역대급 더위’ 예고에 삼성전자, 에어컨 생산라인 ‘풀가동’",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5peWZuc2hjNGtxT0VjQTF0QnhWOEo5LTlBeFJqZ3VmczY2MUZhVTYwYkFlZFdTUkVWWktkVmdBRFlxRHd2QVBlcXFTWmRPMFp2N2h0bVFfQWRoaGdlUnpYbw?oc=5",
-      "pubDate": "Sun, 12 Apr 2026 23:48:18 GMT",
-      "source": "뉴스토마토",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "비트코인, 美·이란 협상 결렬에 7만달러선 또 위협 [크립토360]",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5rQ2tMZTdVRUtJNHVnSzNHSjE3ZlVnNEZmanNDbFdJWEpORjJ2c09xdzdkZlgxcUQ3a1N0aC10WkI5dHQ5SjFMYzB5QUZPNzRWZGZTWWpR?oc=5",
-      "pubDate": "Sun, 12 Apr 2026 23:45:12 GMT",
-      "source": "헤럴드경제",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "원유",
-        "환율",
-        "BTC"
-      ]
-    },
-    {
-      "title": "비트코인 1억560만 원대 하락, 이란 전쟁 긴장감 높아지며 상승분 반납",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE44OTBlNkx6bVVpLU9uS0RmY0Z1T29iazYwMmg3VUVMWDkwR0IzYzVQZDVwODZ5ZEtudlhDclI2WnVIdjl2LUZ4Q2ZwT2kwRzM4cnczOGYtQUhvWHFQZXpuSGVuOEhmaEdMT3dyTDNVQTJXUlU?oc=5",
-      "pubDate": "Sun, 12 Apr 2026 23:45:09 GMT",
-      "source": "비즈니스포스트",
-      "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
-      },
-      "impacts": [
-        "원유",
-        "BTC"
-      ]
-    },
-    {
-      "title": "유진證 \"외인, 반도체 파는 이유?…中 반도체 성장 영향\"",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBvUmQ2WEp6NUJaQnNqeWUyVnFZU2JfdHVrNWVJdjZQLVVvWE5qdjhmdDdCY0tzdkEyc010Q0ZXSnk3Rll2dTA5REFIbVJCNkR0TzdTaWlZSW9tamJ3cUtz?oc=5",
-      "pubDate": "Sun, 12 Apr 2026 23:43:47 GMT",
-      "source": "뉴스1",
+      "title": "한솔테크닉스, 윌테크놀러지와 주식매매계약 체결…반도체 분야 신성장 동력 확보",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPY3h3LWFwR0E4ODVVRS1Ya212a2M4QWlydmEwSG5OSnl1V09mTFpfaE9yOExoaVJQZGk4WUp0V1NiUWVtbUJPeWNRNHRFMWFDa0F4ekRHX05GRUN0TGx2djBLVmx2OFNKWXdUR3AwZ3NxdThHSktBMWtxeUgxRmRScmVaOW5hV3VMWWl3?oc=5",
+      "pubDate": "Mon, 13 Apr 2026 00:28:58 GMT",
+      "source": "글로벌이코노믹",
       "category": {
         "label": "🟢 POSITIVE",
         "color": "#4ecdc4"
@@ -125,16 +16,124 @@
       ]
     },
     {
-      "title": "아산시, 삼성전자에 반도체 후공정 생산시설 투자 요청",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9nZ2Z0LVdLanBncmFqSFhmUWNlWGJPY0M0OXJrLXZvMVVlWUgzRk5kRjFaanNtWFZhV2k4VzRMLXlBMEFfYkRWOExLcHE2QjI5eG5F?oc=5",
-      "pubDate": "Sun, 12 Apr 2026 23:43:00 GMT",
-      "source": "네이트",
+      "title": "삼성전자 노조, 영업익 15% 성과급 요구…45조원 규모",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5veW16elk0aVlrbEN4SGMybzZ3cG9CZW1EaXJUUjJfdG9MYkd2WkFEaE9vRFJIRTFKOTM5bTcyQWF1Z0YzTTBhMVV6V1Bib29Da2lhOVdwaHEzNlR2a2Uwa3FROS15UWtOa1dDNQ?oc=5",
+      "pubDate": "Mon, 13 Apr 2026 00:25:00 GMT",
+      "source": "스페셜경제",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
         "삼성전자"
+      ]
+    },
+    {
+      "title": "4월 1~10일 수출 252억弗 ‘역대 최대’ 경신… 반도체 견인 - 조선비즈",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxONVp0TzExbjlBSXM3bDZ4Y0JzdXk0SkdGNmZyLWxsNzMzUjVzc01wVk12bEVKS3Zqc2thSmJHMHctaFViU1l0cnVwMFpTWWlGdDZSd3NtMGJ5Y3VTNTY2dEZvRTFfd1lNYUlQajR2SHlHTnJDWkUzV1EyTVIwNHIyV29EcHBBZ9IBmgFBVV95cUxQb2h0d2kzNVJFenEybEtnTFhkSXpoemFYbXljenB3ZUNCNk5vcjROMnVzTHEzaHdQazktcFhqNlV6ckVQcDZXWjZoX3YwYS1oeUlVd1NCUnhoNE9vRVc5S1pCTG9Nbkt0dWtMLXJqZ2VaUTNIdUJiTWUwb2c0amh6WWdLU2hFdUNsNXFib1NkTFZuZEFoY094dU1R?oc=5",
+      "pubDate": "Mon, 13 Apr 2026 00:24:00 GMT",
+      "source": "Chosunbiz",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[장중시황] 코스피 1.7% 하락한 5750선 출발...반도체·건설 약세",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQM2JVN2hLaTlWeEtORUhfbU82Wm10ZmpNWjJ6OTdDQkY3VV9qY0JyY1A0NVBnUTQtV0pWUFpoMm1fOEw0NG10ZmhsSGdNbjN2cnNPeW1mUTJxV2NLWEdnX2Q4UXRDb2t5MHBaMWQ2T3lBZXk5MmV1bEVNWlA1dFVLWm1VRVFMY0d2?oc=5",
+      "pubDate": "Mon, 13 Apr 2026 00:23:38 GMT",
+      "source": "글로벌이코노믹",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자",
+        "리츠"
+      ]
+    },
+    {
+      "title": "4월 초 수출 36.7% 증가한 252억달러 '역대 최대' … 반도체 152.5%↑",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5jam5mem9DdktMMl9qalB4U1o2OGRPWWc2bDFYUTFEZ3RmNUZEWlRFUUNoSEhidTVzU3B1N2M4VUFCMUFVeU1mdm5QN29mMlJ2dWdaTXRFSkJOejl0c2xGcHd4NDBLclZmRVA4R3Zldk94X1YxekxmQ0tFNA?oc=5",
+      "pubDate": "Mon, 13 Apr 2026 00:22:46 GMT",
+      "source": "뉴데일리 경제",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자",
+        "환율"
+      ]
+    },
+    {
+      "title": "‘반도체 벨트 효과’…평택·동탄·용인 부동산시장 활기",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBPVVExcFh5ZVhEYmZKTDIxRTZDVGJoZVp0UWNrYXk0bjBuS200WmEtTkt4d0dsbGRyY3ZaYVFDVjRuTndNOHc1c1d5LWI5M0tvUW9YQTBwRXlJZzVVUWxMemRLNHU2bkk?oc=5",
+      "pubDate": "Mon, 13 Apr 2026 00:22:30 GMT",
+      "source": "팍스경제TV",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자",
+        "리츠"
+      ]
+    },
+    {
+      "title": "한솔테크닉스, 반도체기업 '윌테크놀로지' 인수…900억 유상증자 실시",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBsLWxfTGtSTEFFcFYwWHdZN0pfUnNZUy1JOVRJRWs3bDN2SU9Hd3BQMndHWFVsQUswc25INHRRU0VuSDBQZ0dNOXA0MVllYlpQREpzaDBsTU9YZUl4WXREcWVRWWk?oc=5",
+      "pubDate": "Mon, 13 Apr 2026 00:21:50 GMT",
+      "source": "MTN 머니투데이방송",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[위클리오늘] 삼성전자 노조 \"영업익 15% 성과급으로 달라\"…45조원 요구",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9HelRmd3A4WEg0WHdHbEtrRkVzSFNQT0V4YnhXU2U1LWVzME9vU01lYTJ4dnQxZTFiTVlSeVdEWVBWRnJsbnhDWUJzYTdmTmxYVTRyeDZxZlNGeVZWUVB5SVR4NTFuVE9Yb2l2YTZn?oc=5",
+      "pubDate": "Mon, 13 Apr 2026 00:21:01 GMT",
+      "source": "위클리오늘",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[넥스블록][거래량 톱 코인 10] 비트코인 1억 473만, 이더리움 324만 7941원",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5fcWNoMmxGZ0hFaFpQS2lxc3hnRXE2MFRVNjhtem9FT0YyLTUtTWN1NU84c2I4aWFOU1FEdXloSDNVeHJpSm9GcmkwUXhlWE9Ub1VBag?oc=5",
+      "pubDate": "Mon, 13 Apr 2026 00:21:00 GMT",
+      "source": "이투데이",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "\"기관은 사고 개인은 던진다\"…비트코인 7만 달러 횡보[코인브리핑]",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBYbk1ZcG5ueXk2T0poVlZTWTdldEpXMGl0NlJkcmJNSU8wYkZydUxsRlZmUk1sMmhJVGluRzlUcEhxMXg4b3FXX255OEJMbVFudlk5MUpBUW1SNl85RjJQMnp6dGFDZw?oc=5",
+      "pubDate": "Mon, 13 Apr 2026 00:20:52 GMT",
+      "source": "뉴스1",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC",
+        "환율"
       ]
     }
   ]
