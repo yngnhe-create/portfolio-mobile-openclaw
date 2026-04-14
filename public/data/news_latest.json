@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-14T10:13:59.435425",
+  "timestamp": "2026-04-14T10:17:05.148066",
   "count": 10,
   "articles": [
     {
@@ -46,6 +46,19 @@
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5UdmFWNEhYNC1GQ1BTUzJKOTNKQ2ZadDVZOHFVYVl6ZFJWTEx0UVJ4ak1KRE1jMGJ6SzhhSUpDeDdXRDZKdmQwcExXQk9qSHBwOGV6c216c3lIQQ?oc=5",
       "pubDate": "Tue, 14 Apr 2026 00:57:06 GMT",
       "source": "서남투데이",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "국민연금 국내주식 3배 급증… 절반은 삼성전자·SK하이닉스",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9tR05nSEtFUDhQRC1kVkVPS1V2bEZ5WFVjbWdLb2NMZUpYYUw4SV8wRnBfWGJMVXlWYk9TVDVtTUFJTVNYNE5wV0l2dklVMlRMakJFVU1YeE1mSDJTZnZXNXQ0bG1KSTBPUnN3?oc=5",
+      "pubDate": "Tue, 14 Apr 2026 00:56:51 GMT",
+      "source": "hdnews.co.kr",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -104,8 +117,8 @@
         "color": "#a55eea"
       },
       "impacts": [
-        "BTC",
         "환율",
+        "BTC",
         "원유"
       ]
     },
@@ -120,19 +133,6 @@
       },
       "impacts": [
         "현대차"
-      ]
-    },
-    {
-      "title": "김민현 한미반도체 사장, 부회장으로 승진 - 조선비즈",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQeTlNVWgwbVY4MFVGUXg2Z3Vjd1MtVWJ5dVJCSXJkbC00NWl0OElqV1pINUVBQU9ST2dacGVycE52SjdBUG5HSnk5WXhwU19jNXFFMjlpem5pVUFUdFVpWE1FSkZzSzFMZWxBRTZZZXhHNlJvTHdDcENwMl9ydHFGZmJn0gGWAUFVX3lxTFB4T1o5QVN0WU5OcVhLdElaRGRSQUdmb0VIMXl5dGFyT0pRTWxUYUJQT3ctYUFWbmg0RGlyUF9ObW0xTDdsSmZSZHVkLVd2RER2cGI4VUdmSjRNNW5ORHp4dUlHWDR0Q19VdzdIZHMzdG9PS3ZsNWU2WXFwdFZ4eFNqZmVoSHJrcFpJdzJyLU56LUJOQkZqZw?oc=5",
-      "pubDate": "Tue, 14 Apr 2026 00:48:00 GMT",
-      "source": "Chosunbiz",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
       ]
     }
   ]
