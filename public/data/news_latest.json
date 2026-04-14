@@ -1,19 +1,31 @@
 {
-  "timestamp": "2026-04-15T00:20:32.279465",
+  "timestamp": "2026-04-15T00:50:58.189347",
   "count": 10,
   "articles": [
     {
-      "title": "비트코인(BTC), 7만5000달러 일시 반납",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBtU2g0aUk1TkJ4S0N2RmlxY0hvSlZIbjcxTl9vaVpoMTRiclFUWVBkU1ViQ3kxYWVGWTdSUC1rbUZoUUR2RXBHNUs2OHNXTTdh?oc=5",
-      "pubDate": "Tue, 14 Apr 2026 15:11:47 GMT",
-      "source": "블루밍비트",
+      "title": "IMF, 올 韓성장률 1.9% 예상… 반도체 호황에 1월 전망 유지",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9oY2RkYkFQaTQ5dklqc1ltT1ZxOG9xV25rYXJCcWdlMmJpMkYyVDhnMUlxdnBBRW1GcFhORDVDR1ZqdmY0VDhMclVQcmJ2aVgwdkZ5X2FKdy1RNU10T1ZJWHZCZFFNd3BlMXRtM0ViZnppVUlQYXfSAWZBVV95cUxQbllZY1NVWGY0X2JnMjFDTTJYLWNHeDl1UDhqUUFJeDZVc1FLa09odEpHSDBwdnh4UGhMcGFpTlFDOFhrQlZlREFqZ1BhVTdwRFBqWTZwZDN0b19aR2VybmE4OWZ0aWc?oc=5",
+      "pubDate": "Tue, 14 Apr 2026 15:30:00 GMT",
+      "source": "동아일보",
+      "category": {
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "글로벌 불안 커질수록 XRP·비트코인 뜬다…금융 전문가의 장투 전략",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9laldYQ0MzUEx4RGFob0JNekhocXVWd3NrbVVzNXdmYmVrZ2UxYzJzZGJzTExBVENIOHNPbTNtMjExcGNieUpMQld5azFDMVlGM2R5cExOcmxNZWlBSUpuMHVReW43bV9vd05kOVNUR01fdUU?oc=5",
+      "pubDate": "Tue, 14 Apr 2026 15:15:00 GMT",
+      "source": "디지털투데이",
       "category": {
         "label": "🟣 CRYPTO",
         "color": "#a55eea"
       },
       "impacts": [
-        "BTC",
-        "환율"
+        "BTC"
       ]
     },
     {
@@ -40,20 +52,6 @@
       },
       "impacts": [
         "현대차"
-      ]
-    },
-    {
-      "title": "[시황] 비트코인 7만6000달러 일시 돌파…김치 프리미엄 0.28%",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBFSFFHVVFVNTBaX29xZElvRnA5Y3Bpcjcyd21zR1hPY0VYNTR2NG9WX2pKcmNxQjIyQ3ZYOEh0Nzd5bjV6MVk0dTdlbi1fdDZo?oc=5",
-      "pubDate": "Tue, 14 Apr 2026 14:37:49 GMT",
-      "source": "블루밍비트",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC",
-        "환율"
       ]
     },
     {
@@ -105,8 +103,8 @@
         "color": "#4ecdc4"
       },
       "impacts": [
-        "BTC",
-        "환율"
+        "환율",
+        "BTC"
       ]
     },
     {
@@ -132,8 +130,8 @@
         "color": "#4ecdc4"
       },
       "impacts": [
-        "BTC",
-        "환율"
+        "환율",
+        "BTC"
       ]
     }
   ]
