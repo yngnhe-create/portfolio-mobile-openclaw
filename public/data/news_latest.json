@@ -1,7 +1,33 @@
 {
-  "timestamp": "2026-04-15T04:22:23.100624",
+  "timestamp": "2026-04-15T04:52:49.189757",
   "count": 10,
   "articles": [
+    {
+      "title": "가상화폐 업계, “비트코인 매도 압력 감소”",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE05YXV2WS0tNUJUNGYtR1RQOFlWZXhZWHktbjRBMUdneHV0dDNTN0dOcXlkclYwNVZGVkFOdWx4RDdxMTBPcVBkZjZTU3M2RDBNSXF6RlA4QkhaeFJaRFJDNUZ2UmFVV0ZPb001WQ?oc=5",
+      "pubDate": "Tue, 14 Apr 2026 19:36:18 GMT",
+      "source": "경향게임스",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "종전 기대감에 비트코인 강세…1억1000만원선 회복",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9YVGtfTUNLeUF6eVVERTVTZzd0WGJLdHRGTkhUd0w2VVNGYlJLc1E3dzlEcFVhQlFId2tBazA2MjVZWXMyeDFxZldiVDkwT3lIaFBN?oc=5",
+      "pubDate": "Tue, 14 Apr 2026 19:25:00 GMT",
+      "source": "SBS Biz",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
     {
       "title": "SK하이닉스 성과급만 13억? '반도체학과' 인기 폭발 [퇴근길 1분 경제]",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1VRUVIMUdqZWoyaWVWdW1Bazg0b3RLb0o3X3plbVdvZHZJaTRURXd2LTlNZjFEZER1WjNlNUF1SXFiV0RGeFlGM3hEVVVsXzNfSjJlaTR3QzFyUdIBVEFVX3lxTE9oeDNwS0NqRHV0YkVid2JscWphcmMyNTVtWTJUdXd6MzQ1ZWx4R25oaG1RbGQ2T2c4UzBqbGdDUWVBbWFJZ3lXRHEyb2hmQUk5aDZjSA?oc=5",
@@ -25,8 +51,8 @@
         "color": "#a55eea"
       },
       "impacts": [
-        "환율",
-        "BTC"
+        "BTC",
+        "환율"
       ]
     },
     {
@@ -78,8 +104,22 @@
         "color": "#4ecdc4"
       },
       "impacts": [
-        "원유",
-        "BTC"
+        "BTC",
+        "원유"
+      ]
+    },
+    {
+      "title": "블랙록 비트코인(BTC) ETF, 1분기 9억3500만달러 순유입",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5TMXg2RHV6Zk9RUkFleUtpMjZGaTFjWU1lOWZsTWplSUZnSkZ3MDJmMDNpQ2lKT05xdnZvX0xiWEJxMEdZRVFzOVdhQmh5VENs?oc=5",
+      "pubDate": "Tue, 14 Apr 2026 17:19:02 GMT",
+      "source": "블루밍비트",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
+      },
+      "impacts": [
+        "BTC",
+        "환율"
       ]
     },
     {
@@ -90,45 +130,6 @@
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "반도체 설계 전문 '팹리스' 혁신거점, 제3판교에 둥지",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1OeE5sOWNoYXdOampGUWlRQ21mZUtjQzRMUmRKRW1yajJYOE15eFpneU43T3JUR3k5WFdvY2plMTVVdmhBbDRGV1RPT1lCYm1DbVh6dGI4bURlY2xYa1E?oc=5",
-      "pubDate": "Tue, 14 Apr 2026 15:58:00 GMT",
-      "source": "YTN",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "반도체 실적 따라간다‥'육천피' 다시 눈앞",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE90TlQ1eTRfemVhd25IRVFObVNqRnU1bzdZTXpUMXVfMEhScFJ4UjVUWV9MNVVaRFgwdHNTMjliNVd3ME55MHBUX19XbnZwMG5ha2dfN0x4dUxOVzZzVENDd000bE42Vk5jSlhael94SXpSQnNoTFpEdtIBeEFVX3lxTE5RQ01xLVRlRV9lTXM0VDB2b0c2ZzltbXNxdmVuUG9aRG1ZWlVlMFVjS1BwcmNRVEpFMV9fcjVlRkh1bkkwTE1weEVwaXVhNXZRNE9FUTVHdmtsWEstVm5hNml6Y2pQQTdKWDJiLUNNSlV0OW5MN3FvOQ?oc=5",
-      "pubDate": "Tue, 14 Apr 2026 15:40:00 GMT",
-      "source": "MBC 뉴스",
-      "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "IMF, 올 韓성장률 1.9% 예상… 반도체 호황에 1월 전망 유지",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9oY2RkYkFQaTQ5dklqc1ltT1ZxOG9xV25rYXJCcWdlMmJpMkYyVDhnMUlxdnBBRW1GcFhORDVDR1ZqdmY0VDhMclVQcmJ2aVgwdkZ5X2FKdy1RNU10T1ZJWHZCZFFNd3BlMXRtM0ViZnppVUlQYXfSAWZBVV95cUxQbllZY1NVWGY0X2JnMjFDTTJYLWNHeDl1UDhqUUFJeDZVc1FLa09odEpHSDBwdnh4UGhMcGFpTlFDOFhrQlZlREFqZ1BhVTdwRFBqWTZwZDN0b19aR2VybmE4OWZ0aWc?oc=5",
-      "pubDate": "Tue, 14 Apr 2026 15:30:00 GMT",
-      "source": "동아일보",
-      "category": {
-        "label": "🟢 POSITIVE",
-        "color": "#4ecdc4"
       },
       "impacts": [
         "삼성전자"
