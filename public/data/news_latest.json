@@ -1,25 +1,53 @@
 {
-  "timestamp": "2026-04-14T13:47:06.708035",
+  "timestamp": "2026-04-14T14:17:04.958872",
   "count": 10,
   "articles": [
     {
-      "title": "현대차 노조간부 44% “완전월급제”…임협 의제로 부상",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE93NWlVd2pfR0JXbV9vUWxnRTBBZDRJQ0NVeHNrQk5UZjR6MURuVEJxM3VNWVA4WUlRZV9xMlRmWUN5Z1NDTjNBdVFYOEhhN3hFa2VLSmdn?oc=5",
-      "pubDate": "Tue, 14 Apr 2026 04:43:27 GMT",
-      "source": "중앙일보",
+      "title": "비트코인, 현물 ETF 유입 재개에 상승…7만4000달러선 회복",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1QTkEtZk1xckFJMFJyd0pmOGtXMFAxS2JGU3JuS3NNSTlRQTJaSFFpcEtReXkyeXBVZl9DT0N5a1F4ZEJtTkNrcmYtNXVIUQ?oc=5",
+      "pubDate": "Tue, 14 Apr 2026 05:10:33 GMT",
+      "source": "전자신문",
+      "category": {
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
+      },
+      "impacts": [
+        "BTC",
+        "환율"
+      ]
+    },
+    {
+      "title": "김장호 구미시장 예비후보, 구미국가 5산단 ‘반도체 팹(FAB) 유치’ 공약",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9KSUMwRTNueE14NkdURGo2VTNiZ1RPVzJiczBMMzlfcEhsZ3BDdlFWVi1VaGVkUUdLNWw0Y1lIZWkzTWRCMDhZZXVmdmpKQU5MTmVTT2dBQlFVdFNQM0ZSUHVHUQ?oc=5",
+      "pubDate": "Tue, 14 Apr 2026 05:08:04 GMT",
+      "source": "매일일보",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "현대차 아이오닉5, 토요타 bZ 밀려 1분기 美 베스트셀링 전기차 '4위'",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBTWUlHQ3lSNmxuZkFGbm5MM0tDTUdFUFFjc2lPbENoemtyNDNBWmZPaGxwbGhiZWtuOE1Yc05ZcUQ2WUhubVJKbjdoeExLbVdHWmkwdlg3RHl5ZGJ5WjJsZTNDMA?oc=5",
+      "pubDate": "Tue, 14 Apr 2026 05:01:31 GMT",
+      "source": "더구루",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
+      },
+      "impacts": [
+        "테슬라",
         "현대차"
       ]
     },
     {
-      "title": "ICT 수출 435억달러 '사상 최고'…반도체 300억달러 시대 열렸다",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1IcEtLQ3NrWDJZbllmRjY4MXF4UlZBcDFtUEQtd3JCbXJmbXRsTGMwWVp3VmIyczJ1ZkZ5UDdFUEI3akhEQnpocUVTUjVkQQ?oc=5",
-      "pubDate": "Tue, 14 Apr 2026 04:42:51 GMT",
-      "source": "전자신문",
+      "title": "AI·반도체 훈풍에 ICT 3월 수출 435억달러… 사상 첫 400억달러 돌파 - 조선비즈",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQNGU2Smk5TVRVTHpSMGd4QUNzcnVXbWtwYk56QVItMEU1MGtwam12aWpaa1g3T2YzM1ctS1FBRnd5NVBneVl4Uk9ScnNyS2VhY21TWTRQSVpncWhZdW5OWVpOcU95amdIeFZZZXpLalI2QTJmUUJIMC04NXVsMjVPX3Z30gGWAUFVX3lxTFBnaUowYlB1R0JkZ2ZWWXJYREg2dTVMV3dVNS1Db2xzTm0yN0NrWFFkV2RuMWJRbWwxRTZWNlVSenRBZHNNWjdyYUYwd3FyXzNOWmh3SEowN3ZPU0lsZ1dUWW9wek55M3phRFlPczY0X1BqeUJOR0JXYlZFOUF1QkJmWk9kMEpGRVotUVRUYkc4WjlaRTRGdw?oc=5",
+      "pubDate": "Tue, 14 Apr 2026 05:01:00 GMT",
+      "source": "Chosunbiz",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -30,20 +58,49 @@
       ]
     },
     {
-      "title": "ACM리서치, ‘플래니터리’ 제품군 포트폴리오 구조 발표",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBGUW42YUliR0x4WkpySGFqU29tWmwtT2c3ODhlczFuUEhRYWY5V1ZoYWpZbjRCNzFQWUFIQXBRXzJfenFyd0tGbVJ0MlFUdVN6OEt4bjlHcjh2VXpvWUxQVm94b2JQT29y?oc=5",
-      "pubDate": "Tue, 14 Apr 2026 04:40:00 GMT",
-      "source": "테크월드",
+      "title": "\"이란과의 장기전, 아시아 반도체 공급 차질 부를 것\"",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0tVndhS0NQdEpBLUotakN4dnB6bVhJUHVTcUVYZHh4TUdSeU1RY1JrSE1lNTdZSXRiRjhBek5VYnFFa0ZQM193c1ppY204SGtsMVNkUFdwUk1PNVNQZUp1dm41clN5UTNfSnQtbVVFY3nSAXRBVV95cUxNN2UzdzU0WllDYWJxdVBTeGNuR0w2dGlyNzEtSXRHSnMtSXBTZ2RhV2ZtQm8tdjhfX3VXbk5DcVVHTC12bzlCYmpmUXQ3RjBQUHlQUGlTN1J1aUVnODVTNW5KZk9pdWdTY0swM1lyRnBsNVIyNg?oc=5",
+      "pubDate": "Tue, 14 Apr 2026 04:58:54 GMT",
+      "source": "연합인포맥스",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
-      "impacts": []
+      "impacts": [
+        "원유",
+        "삼성전자"
+      ]
     },
     {
-      "title": "어플라이드, 첨단 반도체 공정 위한 차세대 증착 장비 공급",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9OaWhzTVJLRUVXdFQwTGNvRGVWdW1QWndhbmhrY2stbDdsVl9fU25qLVI2OTUydU5pZjZyTDNBZVZfOXEzTTJYTl9wRXZrZw?oc=5",
-      "pubDate": "Tue, 14 Apr 2026 04:38:14 GMT",
+      "title": "비트코인·XRP, 글로벌 거시경제 위기 속 현금 대안 자산으로 부상",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNTDd2clFWUWg5VGs4LWZBV2Q4YnNLUTZQTWdNdHdlYVVxeFFCUjNLLS0tbEp0dXZmUllOYmdMLS1oVHFLcE5yMGlZbzl5NW5mcGxaMWxtc1AtajMtbER2M0ZSOVBtaVVUUmdWeUdDMEhmQ2FqWGhUd2t5VkJiRTVkYmxFVG1ZWXZZ?oc=5",
+      "pubDate": "Tue, 14 Apr 2026 04:56:38 GMT",
+      "source": "글로벌이코노믹",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "반도체 실적 확인한 코스피···30거래일만에 장중 6000선 재돌파",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA3bGNXeFl3MFF1VVNPZGZHSEhMRzBMUlRDWFM3Rkl5M2FNc3JWRG8wU3NadnI3MENpdlVmWG5MZFJlZkdMOWNrTFEyMUY0NW1zVWtmX2NMVGNuN1gwN3BDNjUtcmJaNzZoUkE?oc=5",
+      "pubDate": "Tue, 14 Apr 2026 04:56:06 GMT",
+      "source": "서울파이낸스",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "산업부, 반도체·배터리 등 8개사 사업재편 승인…2500억 투입해 체질개선",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBLM3pLdjhuQWdpbUVLSWhDclNTdEFYS0w1RGZ5a25oX1czUGRkQlF2NDhIbmM0LVctNWN3LTM3RHhNdWpLMFh3d1RyeDJ4UQ?oc=5",
+      "pubDate": "Tue, 14 Apr 2026 04:55:35 GMT",
       "source": "전자신문",
       "category": {
         "label": "📋 GENERAL",
@@ -54,75 +111,23 @@
       ]
     },
     {
-      "title": "네오셈, 자회사 NEOSEM TECHNOLOGY INC. 반도체 검사장비 공급 계약 체결",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE43cklWanlDd2Z6eGxzRTZ6ekNTeFVDTV9zTVFGTGRidnpGR0ZUcm9ILTNhQUNYLUV6WWM2eFpCZ0pZTXVkbVJTZlQyTFBTYnRmeGV6UVBoZ1huMlRrNWhUU1NXT0xLVGhYck80M3NVYzMtQms?oc=5",
-      "pubDate": "Tue, 14 Apr 2026 04:31:01 GMT",
-      "source": "디지털투데이",
+      "title": "\"비트코인, 지금이 바닥이라고? 천만에\" 벤자민 코웬의 냉혹한 진단",
+      "link": "https://news.google.com/rss/articles/CBMi1AJBVV95cUxQLVhVV3N6WGhXd3Y1d1JUUkxhaFZndWZuZEJjaURodXFhNHRJR2VsT1ZGRmZCbWlaR3RXTk5SdnVuTzJ3VjVYQlpDSlhzbmN2U0lrdUk3SndWV09XZW1NUy0zNzZsRTR0Q1VsVGVFdUFULTVOMHlTZkIzZzNwcTEyQ3E3UndOVUVOVzJDWHpVbllCbkNnTGU0Tmk1bldZcFYyNGRWWHdaaEQtb3hnbUF4RDFEVG9zRHE5MzFNSy11TnVjd2FMR0RVRHhkanlEaE5fMHIybWV6cFhhcnhWNE03SlhGdktidmNKS2l5Z3BmS1FKQkpZSHVZQnF0Y0JfRlVPZ2paakw3aWZrTXJlTkpPQVRaQ0c5VWd0SXFhYnlHS1YtRkVXY3U1WEtTVGZGSG91RWN0VTdXR1RJd1hwdFJXdUtXZDlpRTc1c1ZQdXpQR0RxZ1lU?oc=5",
+      "pubDate": "Tue, 14 Apr 2026 04:52:30 GMT",
+      "source": "Benzinga",
       "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
       },
       "impacts": [
-        "삼성전자"
+        "BTC"
       ]
     },
     {
-      "title": "아이티엠반도체, 애플 보호회로 사업 중단",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBHX2RwVG45V2VETzBMazRnQUVfN0IwSXFhZWF1MHdwbXlnanFVSnRRNmN2YjFjMVZVb0dud2VaaXVZR3hZTGZqcjVoNGRXMHFqdGRqLWNIWldtM0RISGtlMVd1SWZ2dw?oc=5",
-      "pubDate": "Tue, 14 Apr 2026 04:02:14 GMT",
-      "source": "디일렉",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "반도체･배터리 분야 등 8개 기업 사업재편 승인",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9ZOW5SdjFDRFM2eFhjYjZITnppWkw5bUtiMjFvS2k0RDN5SDJnTHk5SEFBWGszLVRfTHdaaHg3WmJ1U1JtZUZaVDZ5R3JSRFdFd1A5RW5GTU03NW5QcnU5N1Z3TFhxS296SzJLZlF5djNLZw?oc=5",
-      "pubDate": "Tue, 14 Apr 2026 03:44:16 GMT",
-      "source": "에너지신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "잿더미서 반도체·AI까지…SK그룹 창업사 AI로 재구성",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5EYW9KUHFVbjZ0TEgxdzdZcnBzM3NkZU9wMGt4Z1lLNXpLbkJQalVpS0VvdEdoNDlNWXRjcVNsMFNlNGI4YnZ6akJuUkJXLVJFSFZNV1NZWnRka3ZtSjlNUnZCTjdzWGVjVld3Rw?oc=5",
-      "pubDate": "Tue, 14 Apr 2026 03:34:00 GMT",
-      "source": "한경매거진&북",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "\"2028년 출시 목표\"...현대차, 차세대 정통 픽업 트럭 개발중, 게임 체인저 될까? : 네이버 블로그",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQMnN4c0ZDc2VoRVZCcFVrUzE2ZFdGdmVWYWtKNFJHa0FFN2w4b0hlbmV6aGZVcDd5aEdORnhfYUlBSVpHVTNpTmR6aFdYNXh6VXJIcThFRndiSkVCbGN5WUhWLXpJdkZ5V281ZjM1Y2c5aXFJVzRzeXRMbGFWbXpvTFNsSG56YU5ZNXBUMGNQckNHRDNwOEJLag?oc=5",
-      "pubDate": "Tue, 14 Apr 2026 03:21:38 GMT",
-      "source": "Naver Blog",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "현대차그룹 “로봇-인간 연결… 끝없이 모빌리티 혁신할 것”",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5KN0hOVzJnM2ltQkNiN0J4bHo5Q0dqNE1iRGZsNFhESks4bmhhU1lNZVBCa2ZsSkw1WHU2SXlMR1U3VjY5RHdRSDFMY0VLZ2VW?oc=5",
-      "pubDate": "Tue, 14 Apr 2026 02:54:38 GMT",
-      "source": "문화일보",
+      "title": "현대차 노조간부 44% “완전월급제”…임협 의제로 부상",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE93NWlVd2pfR0JXbV9vUWxnRTBBZDRJQ0NVeHNrQk5UZjR6MURuVEJxM3VNWVA4WUlRZV9xMlRmWUN5Z1NDTjNBdVFYOEhhN3hFa2VLSmdn?oc=5",
+      "pubDate": "Tue, 14 Apr 2026 04:43:27 GMT",
+      "source": "중앙일보",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
