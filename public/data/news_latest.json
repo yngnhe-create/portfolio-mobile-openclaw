@@ -1,91 +1,39 @@
 {
-  "timestamp": "2026-04-15T10:24:34.563014",
+  "timestamp": "2026-04-15T10:55:01.210253",
   "count": 10,
   "articles": [
     {
-      "title": "삼성전자·하이닉스 본격 사들이는 외국인…반도체랠리 본격 재시동",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE02V0xRZmV0cXFzQzJwYXdwcUFxdElzdi1kNmJ2RWZYZWIybFdUOVNZYXRmU0JRN3YtTllvTTZZTFhyalNzcXNaNWY5cV9ING1aN2dTZmo4VjUwcnVGeUFWdFVR?oc=5",
-      "pubDate": "Wed, 15 Apr 2026 01:18:25 GMT",
-      "source": "매일신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[조간브리핑]\"미·중 AI 격차 사라졌다\" 무한 경쟁 시대···반도체 장비주·로봇 투자 등 'K-산업' 요동",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1VdEl2Qk1sNWU2QUNlc1lCOEFmLU8yMUJxS0dOZnlHVVhpSk5TVWRTQ2ptalFtRWZ2cUFDbU52dG1Tcnl1OFZ6ekNucVFxbE9MVFlWTHB5RHVHRjZnbm9BNzI0S2licEp1Qnc?oc=5",
-      "pubDate": "Wed, 15 Apr 2026 01:17:36 GMT",
-      "source": "헬로디디",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "전쟁 공포 지우고 반도체 축포 터졌다…코스피, 단숨에 ‘육천피’ 안착 [투자360]",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5BWE42RWtBOTZvOXFUZVEwWEhjS1FuZjJ3eE9XNVUyVXhadkQ4T0Z0ellINEJmWksxSWxTbDZiSnFHSzhVbTRvVXFuNWJVU0k1b1k3VXVR?oc=5",
-      "pubDate": "Wed, 15 Apr 2026 01:16:31 GMT",
-      "source": "헤럴드경제",
-      "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "에이디테크놀로지, 주문형 반도체 ASIC 개발·공급 계약",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1wdkItZnBCNjJPd1lHQ0ZGY0x1TTY4c2wxNThaa0tyLXNQak9kY2N3ZTlHdWw1NUlPMG1IakF2WnEzc083Z3BpN1B4TkthTXVlN1J4Wmt2WlozbnRjQXZxTmp0clRlaFVE0gFsQVVfeXFMT0c5WV9kV3BiT0hlem0zRlFhX0YzRFZwbjB1SjRzWHlLaFd1TGNsQVNLTzNPc3JpYTRaVi14UXRYNW1pRnJiQlJkc3VWdmtuTTNBd2V2bm1rRTN3YTUzMl9mOXE0U3R3WURsempH?oc=5",
-      "pubDate": "Wed, 15 Apr 2026 01:14:26 GMT",
-      "source": "블로터",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "현대차 정몽구 재단-유엔개발계획, 아·태 스타트업 육성 협약",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9EVkJzNlFNeGZqRHJIbF9jNm1hV1pHN3doTWZ4b3MyZ3NPcFZ1Z3AyS24xQS14R3c1LWJxd3JPb3NCYzNyMnlXR2p0MlAxcHNHakVPanZiWXh1OVFFSU84X2xvU0FnM3BP?oc=5",
-      "pubDate": "Wed, 15 Apr 2026 01:12:57 GMT",
-      "source": "뉴스워치",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "[크립토 브리핑] 美·이란 종전 기대 속 비트코인 1억900만원대 횡보",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9QUkRhUTRuREJfXzFKZW5oaUx3ZUtySzB1WHZNS0xVVkZfV01mMVZtczUxbGdjSElaWlVTWDBHNzVrQnFnclYwdjRqRXNFZklvY1FuYUtNNVo3VHdqa2czaE5FRm5Id9IBakFVX3lxTFBTWnRBb3BWVGZ0WjJwX3dDaThBRUpWUnJ5VjJmR09GUXEtN3NCUHotSWlncmN1emNPaC0zeTgxOVdiMnRyXzRzVTFDR2poZW51aXZoa0JldENoODBfSEh0RWNIVXByYWNvWWc?oc=5",
-      "pubDate": "Wed, 15 Apr 2026 01:10:25 GMT",
-      "source": "테크M",
+      "title": "비트코인 7만 5천 달러 터치···랠리 이제 막 시작되었나",
+      "link": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxQU0xYQzRzOWZJTWEzbV9ENUNxcmkwUGJPbHlwczBBS010MzFpRWpQeFplZ3ZQN3JHaExScmowVnpMcWFWU3cyZFhZM2xTVlV0VWdjMzBuajZTRHFQVjIwSjZndW5GczdPeGUyekpfYlFqcEJWNWdyakJxdmh6VjdtQ2YzYWh4VEc0NUJFb3NWVTdJV044RE9QdkdJb29VLUtFXzBJeXNRRDlTLUJIeW9PYzI5NWdCVC1ENG9BTnRqRUppbE5INzV6V3kySzFLT0tfd3lhNnVFc2RYNjNkWHpyRFpYSG5McEZUdDNIeUlKYUNlOWd6dW1qNG1SMHNEZ09QRk5yTlJPb0ozaS1LaWxpeC1JNGdvWm0yaXIwUEd1LUtwQk85WVFzUkZwX3lHM2RCV2V4S09KdV9FbTM1YUY4X1p3?oc=5",
+      "pubDate": "Wed, 15 Apr 2026 01:52:01 GMT",
+      "source": "Benzinga",
       "category": {
         "label": "🟣 CRYPTO",
         "color": "#a55eea"
       },
       "impacts": [
-        "BTC",
-        "원유"
+        "환율",
+        "BTC"
       ]
     },
     {
-      "title": "KBI동국실업, ‘분리·재활용’ 크래시패드 양산…현대차 전 차종 확대 적용",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE96VUsxMjRtZEs0cy1VTTdZSGdMeVFKTkE3OGxoOTdOLWZsWlV6TGYtcmF5X1dkS2Vva1JKVkpLTldoUmxId2ZyZGVhR1JLQ2RmVzNJUURGN0VlQ04yMUREWkxnWjdRU2J1Wk9QWQ?oc=5",
-      "pubDate": "Wed, 15 Apr 2026 01:10:12 GMT",
-      "source": "페로타임즈",
+      "title": "하나운용 반도체 ETF 2종 상장…“삼전닉스 집중투자”",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBmamlNTHFmMGxxN3FXa1UtSmZIcmpQbHpQaTBMMjExX0U5V3pYdzNFaWtneDcyOFBodzk0eW4xZ3k5X3hwNXdRVFJ0bEg2REdsMEd6YXlndGp4a2s5dWFwYQ?oc=5",
+      "pubDate": "Wed, 15 Apr 2026 01:46:34 GMT",
+      "source": "동양뉴스",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "현대차정몽구재단-UNDP, 아태지역 임팩트 스타트업 육성 협약",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5ycHV2VHpsTjVqY0hrVkxpUVd4NFZwQi1GTDNDcXllSnByUjAxS0hOU2NWblZ6N2VnUWc0Ml9OeFJOMVJWSDlkVjh6d2Ewa1VaOUlxTVFmdzQzeXdDMTNxM19fRTVuNk53SUE?oc=5",
+      "pubDate": "Wed, 15 Apr 2026 01:42:25 GMT",
+      "source": "더버터",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -95,39 +43,93 @@
       ]
     },
     {
-      "title": "KB증권 \"삼성전자 2분기 영업이익 77조 전망, 외국인 최선호 투자처 부상\"",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9YWFpWSTBhWHFNVmNnR1ZRV2lFNFdNWjBPOHFJSTh0bTk0YVNlNFBLTTV2V1lUYWgxNzZfUlM3bV9XN2drMmN3dUl0ckw1SHRoT0g1MWl1NTZpaDMzTkMyeWRHazl1MUdXLVdPUGVCaFlkaFU?oc=5",
-      "pubDate": "Wed, 15 Apr 2026 01:09:03 GMT",
-      "source": "비즈니스포스트",
-      "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[강세 토픽] 반도체·디스플레이 - 클린룸 테마, 신성이엔지 +4.95%, 에코프로에이치엔 +4.36% - 조선비즈",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOVGdlUEtaZ28xbW1XMG9wVGY1NVl1N3kwSHZjaUR6QkRSc1hoX19QYUQzRHN3aElvUUxwbVVQSmttLWpDOVI0cG5aSUxjNE10cG1NazU5VXpGRmNjQ0dlRVhlbFpzYVVVNVRtLTNXV3A2cHRYZ1RZcUxuNkpOQTJjYlhHb9IBlwFBVV95cUxPS21MYUJMMGI4X2Itc2QxQ2ZRUGxzTlJaUHpfUk04ckVuQ2dvVGVLRjJ3Y2Z6b3BWcnFrTE1zZTAyWHVjUXlOa3IzQ2FMUEkzTWZrY09jLTEzM2hHb0JKdWhFV280cFhEMV8zMV9qcHp4b1lJZ21NQzl1MGhaUmc4TUR3cFVyRjRrSmo0bWJobWhsY1FzUHA0?oc=5",
-      "pubDate": "Wed, 15 Apr 2026 01:08:00 GMT",
-      "source": "Chosunbiz",
+      "title": "3월 수출 866억 달러 '역대 최대'...반도체 호조에 49.2%↑",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5UcTZxcXBkVkYteWc4aE5CVGJyZ3JiclZQVzQxbWs2aXRLU2ZUOFZTd3M3NWNVLTh6M0RRVElGa2pjN3pLeDRJNlkzWG9rUVlxRHRKYktBSWZRWXpaa2dJYjZ4eGJablVGLTJr?oc=5",
+      "pubDate": "Wed, 15 Apr 2026 01:35:33 GMT",
+      "source": "BBS불교방송",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
+        "환율",
         "삼성전자"
       ]
     },
     {
-      "title": "메모리값 급등에 반도체 웃고 전자업계 울고 … 슈퍼사이클 기대 속 수요절벽 경고",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9Bb25BV0N6UGtUeGpFUnA1Mi1TeFcyMGsxY0RJRmNlQjljMndmWFN1R1FSR0RoUlF1WmJldW5xV0lwcnptR2xyOG5qWnp6dDRFdG5UTUpCcEplSlNpTmhRWU5BekQyenFVbFFnWWtzajY1RFBIWmtNS2ljNA?oc=5",
-      "pubDate": "Wed, 15 Apr 2026 01:06:40 GMT",
-      "source": "뉴데일리 경제",
+      "title": "반도체 랠리와 이란 평화 기대감 속 한국 코스피지수 사상 최고치 근접",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5wbFF0OWhlaF81Y096VVVOWno2cFRaT2FqVUc0MXNxQWxybkItRDZqbFB4bS11WGs4azNSem93d3A3Q2pleTM1Nm5yMUFFVTBicmFnak1tdEkyVFhuTWhFRy1WUDdmc0Z3Z0c0Tkp3MXY?oc=5",
+      "pubDate": "Wed, 15 Apr 2026 01:35:00 GMT",
+      "source": "Investing.com 한국어",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "원유",
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "현대차, 독일 영업조직 전면 개편…아우디 이어 포르쉐 출신 베테랑 연이어 영입",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE55RzRBaVB5aEtEa012WHpZczRNb0hNX0t6alNvZWJfV0VvdFNFbzQ0X3pmWjBsTWhlaW51TEw5TnhjQ2NLTnNnOXJYNUhtVmRFOElpUk9abkxpSlB3OWowYXp4bw?oc=5",
+      "pubDate": "Wed, 15 Apr 2026 01:33:27 GMT",
+      "source": "더구루",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "현대차그룹-구글 협력 가시화…AI 입은 4족 로봇 현장 누빈다",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBpV3M2NFZzUVhISzg4SmtEQnBLb2gzLTIyLWNkS2ZiQ2R6aFRtUGRUV3JENy1qLXZfcGhlQmg4OWdYQzlRYkVlX3BkdERRN3M?oc=5",
+      "pubDate": "Wed, 15 Apr 2026 01:33:24 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "병원·아파트 서버 해킹 뒤 비트코인 요구…카자흐 총책 검거",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5pcFFtZWJuM09iTkJhN1E4MUJnTU5fa045c3VIeW9SQXlGbDA0ekhnODlPMW43SEwwd1VtLXhNRmt2ZnM2Ti04YzdiM21nZFB5LVNfaFVibF92MFI1enI0Y3c2SQ?oc=5",
+      "pubDate": "Wed, 15 Apr 2026 01:33:00 GMT",
+      "source": "한겨레",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "'117만닉스' 52주 신고가…삼전도 21만원대 반도체 대형주 강세 [신Go가]",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0tdVo0SmN0ck1uT2FNcjN2US1icmk0cHF3SG1NX3BURnJIZWhjaGtKQ2tyRk01aS1tZ3JSYXhrV2dfQUpCcTFlZGVvRHFHSWVQaWQzX2dKZjd1R0x1SlRfZVdn?oc=5",
+      "pubDate": "Wed, 15 Apr 2026 01:31:00 GMT",
+      "source": "이코노미스트",
       "category": {
         "label": "🟢 POSITIVE",
         "color": "#4ecdc4"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "돌아온 외국인, 이달 5.8조 유입 … 반도체·방산 쓸어담아",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE05aVNPajZVbGN6NnBRWWJSZmp5ZkRfS0drNERpbkEyZlE5LUh0X21iVl9mcUdxSU9NSjZiMWt6LUpiYWo2WmhYMnZWVGJMTzliWE1GV0hrX0lPaUhUTVZkUFZyS2JpWVlYeTVmWnhoWXRoWU9SaWpVdDVLcw?oc=5",
+      "pubDate": "Wed, 15 Apr 2026 01:28:53 GMT",
+      "source": "뉴데일리 경제",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
       },
       "impacts": [
         "삼성전자"
