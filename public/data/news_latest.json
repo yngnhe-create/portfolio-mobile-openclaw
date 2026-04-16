@@ -1,12 +1,25 @@
 {
-  "timestamp": "2026-04-16T08:17:04.613471",
+  "timestamp": "2026-04-16T09:04:25.130187",
   "count": 10,
   "articles": [
     {
-      "title": "'AI TV 대중화' 선언한 삼성전자, 독일서 '유럽 테크 세미나' 개최",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5KQkhnRXZoUVByQ3ZyY1J0VTF1OEFiR2Rydm9ZbmlpSXYyYlFYR1ZPNHIwQ3NTaFhadzhJZXR0cmdYeE44R2gwZERMcDV4b1d5NURaRHduTTBXekdSbGhFZE94TUU0dTlGWGYxb21iR0ZNbHg2?oc=5",
-      "pubDate": "Wed, 15 Apr 2026 23:15:53 GMT",
-      "source": "아시아경제",
+      "title": "상용화 원년 맞은 K-AI 반도체, 매출 성장 '껑충'",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5oQVhwc1ZhVGtxSFBfakZkdFdfSEFFa0lrN1ExME5uR1FZOTBjTE9OcmRxWUQzUkI3eXkwWWtjcno0MkVuNGo4NmxHaUhhNkhtZ3NKY21B?oc=5",
+      "pubDate": "Thu, 16 Apr 2026 00:03:19 GMT",
+      "source": "지디넷코리아",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전자, 유럽서 'AI TV 대중화' 시대 개막 선언",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE0td01RU0Z4UGtNRVBLZ1hGQnJTQ0tDMk5tUXRoNEl2cW0xRUhZVnNWOU1saWhXSS1ncldqWmc4RGhGMExDaFNzeTJfeHVyWDZmVmNoTjVhVms?oc=5",
+      "pubDate": "Wed, 15 Apr 2026 23:59:47 GMT",
+      "source": "더트래커",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -16,10 +29,10 @@
       ]
     },
     {
-      "title": "삼성전자, 헬스 생태계 확장 시동..‘갤럭시 워치런’ 열어",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5ld3ItRl91VVFoMzZKZmtfRnM4RWdmRDNnbk1vbUFHRnpsVnFucGpVR3FrWkphM0RNZUNJdmNIX0QwRGNka0dOVG1pcFc3RV9PeFE?oc=5",
-      "pubDate": "Wed, 15 Apr 2026 23:12:52 GMT",
-      "source": "한국정경신문",
+      "title": "[삼성전자 보도자료] 삼성전자, 스마트싱스 업데이트 통해 나와 가족의 일상을 돌보는 경험 강화",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0xM0JUWFVreXdlc0RCckpfRlA1cGpwWXdWNGZ6VlFRV1JtN1N4ODFjOHRSYzhSZXgwMV90Ri1JaC0xY3BELV9zMlA0OEQtLVU?oc=5",
+      "pubDate": "Wed, 15 Apr 2026 23:58:24 GMT",
+      "source": "v.daum.net",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -29,39 +42,36 @@
       ]
     },
     {
-      "title": "비트코인 7만5000달러대 회복…9만달러 재돌파 기대감↑",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBIbGRGTW1qZW01T2dBbWxwaTBlZnczMzJqUWRpb1ZBUEwzTU1rd2lNcnNIdWcxVzYxYlBDNDFLcDJjVDZDbDRKZmpQWElFR3ZyamZqTnFFckItSUY4YTdJcXdoanE0XzNITlFmQkVjclNTN00?oc=5",
-      "pubDate": "Wed, 15 Apr 2026 23:12:31 GMT",
-      "source": "디지털투데이",
+      "title": "비트코인 옵션매도로 월배당 받는다…골드만삭스, ETF 첫 출시",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA4MUVHR0tWcm93MzdwNm9LbnZzRlR5cEF0amNYblJ4UDNHRy0zal8tLUtqWkxjSTVQQkhFeThNWHJ4MTBLdE03d2FVblAySzJYR2c?oc=5",
+      "pubDate": "Wed, 15 Apr 2026 23:58:18 GMT",
+      "source": "매일경제 마켓",
       "category": {
         "label": "🟣 CRYPTO",
         "color": "#a55eea"
       },
       "impacts": [
-        "환율",
         "BTC"
       ]
     },
     {
-      "title": "[아주경제 코이너스 브리핑] 미·이란 종전 기대에…비트코인, 7만5000달러 회복",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5iZmtmWlFHRnRrS0FkSDlkcl9sRWNiajM0ZUgzY2dsd195WjMwN0tsYk1nb2lkZ3k1WkM1N0ZYWGEtc2hodndlRkFNUlVQZ2ZFbEFmdndraGxkZ9IBWEFVX3lxTE9xLWdCclN3YkJkYjVQNkpRanpydXpTV0R0dXdLeGdjRUdDcGQ1WUExcjJ2ei02cXJjRlFjaWV1a3AyN2VUS3hyN2dBMXpzYlJ1X2EzN0k4d0M?oc=5",
-      "pubDate": "Wed, 15 Apr 2026 23:11:25 GMT",
-      "source": "아주경제",
+      "title": "[넥스블록][거래량 톱 코인 10] 비트코인 1억 1025만, 이더리움 347만 4980원",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE81UTZPc0Rjc0sxdUlyQ0xRdFB2Mjl5MVNQUlMyZGJGWFlEQWFBUnQ3ajMydTY3VlJRdHFGMHhtWDZmak9PMzNpcFBqenJLTXpXNV8xTg?oc=5",
+      "pubDate": "Wed, 15 Apr 2026 23:58:00 GMT",
+      "source": "이투데이",
       "category": {
         "label": "🟣 CRYPTO",
         "color": "#a55eea"
       },
       "impacts": [
-        "환율",
-        "BTC",
-        "원유"
+        "BTC"
       ]
     },
     {
-      "title": "15일 코스피 시장 공매도 금액 상위 종목. 삼성전자, SK하이닉스 등 - 조선비즈",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOaUg3Y3ZkRnR3VS0yemhYUExFWWI5VjVHRXBXY1dXbTlZcWlCdWZXOG1sdU1rcXNoZEF3MHdBX1lITGhfTWtlZllMZzUyd2dzdlNDYldrT3ZZNTFPRjZseGR2ZV9PS0ZvQ1g1eFV0ajFxYk5DamgxTFdzV211NW9uTWphWdIBlwFBVV95cUxNeGI5R3p3VUF6VXhmYUFzRWQyWUpVSlg3YUZPMEdmbGhYUEtDYnI1VFlkZWdYMk5Vc3lfMnYzS0RKMGYyMkVGRkhidkxmOVR3R0FEVk0ySjh4TG1Ja0RfdE8wc1hEbnBnTVJMdEZGaXo1RHdfSUZ3NnNscnoxeU9QbEtMMkRRNUdCQ3AwS2F1eVNyYU4zcTY0?oc=5",
-      "pubDate": "Wed, 15 Apr 2026 23:06:00 GMT",
-      "source": "Chosunbiz",
+      "title": "삼성전자, 독일서 ‘2026 유럽 테크 세미나’ 개최",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE13ZTRTSW9YcFFVZDdTMHYtcDVxR0p3MlBNemtfcjEwM0JzV2lRTEdKZ2JjMkYyMWI1WUxJUjRfeUlDQTlUQ1VEQ1QzVWlDdk5PbkJPUlJ4UEo?oc=5",
+      "pubDate": "Wed, 15 Apr 2026 23:55:37 GMT",
+      "source": "뷰어스",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -71,67 +81,56 @@
       ]
     },
     {
-      "title": "삼성전자, 독일 프랑크푸르트서 ‘2026 유럽 테크 세미나’ 개최",
-      "link": "https://news.google.com/rss/articles/CBMivwJBVV95cUxPakRtYTlfWXhuc2dUQW11aGpuaGx0WVFFWGswQVNqb2p3aDROM0g3MVNFc1RVRlVyRmZvS0hjOHMtVmt6eEdqYThNYnBWb3RiUXRHZTQyZmlMV3k2N3puN0U0RVdhLWFHQmV6SU94YVVWdEtIQ3FyZXU5cU94TkF1UDU0dzctLXdSc3JaZTN5bGhQbkJPeUl0UkdZQmF1YUtmZzlFemJaLWlCaUY0VU9RUW5KNnV2UmxfaTdKclNibDZGM2E0S09VSHM4SThPbDFBNi1rQmE0YkNUdEdXODVxWjdpRUUxZkZaeGdpTVJDN2tiNGhWNkpZSDljZ0MwcGVaMUVZNS1rMUtaakRkMV9vM0ZEZEc1eWwxSlJCTkZGNDhCLVZTSE5JV1haNUZTN0hteVNTN09mVm5TUlpuN2Rr?oc=5",
-      "pubDate": "Wed, 15 Apr 2026 23:00:00 GMT",
-      "source": "samsung.com",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자, 스마트싱스 업데이트 통해 나와 가족의 일상을 돌보는 경험 강화",
-      "link": "https://news.google.com/rss/articles/CBMixgJBVV95cUxNeE9Lc1hrNVlvQklTU3Zjci1scGE0eDY4RnFNRXJHSmhfU09UWEJVdEE3VzBJTUNrR3VONDI3S293VDVPVGtlb1l5bVFFZi0weHpsZjhYY29BczdvZDI5LVcxYVh3X2VPRFEwN1dFVjdId0JfMnVmMGpVUW56S2hpYkZQS3VxZXlhWktDaUlfekZvUHJsZnlQYVRZTXZYbWN5b1g1ZHlKeEx1OHZKU1BzblpGeVVlUmlyNThjXzhWWkVIdWNoSE9HWm43RlZXRkp4RWJTNjJuX2s0ZFoyWXlMa2lMOVZPNVdTWU9HbERoa1g4WjRFQ0w5ZGlvOG1tcEFHamdCLS1lMjFKRFpUeUtEMFhGd0ptVkxZTVNJRVJWdEhVZlBqZTZzSDFuUTBHSEZoeXF6T3F6QU5MLWFfNlQ0dFRJTUF3QQ?oc=5",
-      "pubDate": "Wed, 15 Apr 2026 23:00:00 GMT",
-      "source": "samsung.com",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[乙의 전쟁 ①] '한미반도체 vs 한화세미텍', 전면전 막 올랐다",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8zVzM4czk2d2cyaml3LUJHZW1US1dhSV9mWjIwS2lHeF9pY2lFTzZnMGpXVVA1ZjdKTkZJbDlJY2h2dG1CY3lmai01a2NnakdXTUV5QmlyNWVELWZ3bEN0U3ZocUdnMGg3QUE?oc=5",
-      "pubDate": "Wed, 15 Apr 2026 23:00:00 GMT",
-      "source": "서울파이낸스",
-      "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "UNDP 서울정책센터-현대차 정몽구 재단, 아시아·태평양 임팩트 스타트업 성장 지원을 위한 파트너십 체결",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB5NWFCX05tS3czVUNQRVpTQ3NBc2RxWnVCRFZzcG8xLUdoQ19ZWGxpM09SOGJwZXpwQkhVd3ZTRmFtbVRFUXlscmp4b0I3eElydWpMVEpjRExJa09GZU83dExYZlcxY1BSSGpv?oc=5",
-      "pubDate": "Wed, 15 Apr 2026 22:50:20 GMT",
-      "source": "미디어데일",
+      "title": "비트코인 1억1036만 원대 상승, 전문가들 \"오름세 돌아설 기반 다지고 있어\"",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBHLTBMMEZHQkFuVjRzSUtIQlAxaFB5Wk5uNFVKREFpNGFzRVYyQ0NCNFBwazc0VThmdFJlaGZIczV6YmVNREZTMlNfeDJQdVR1dmFkZFR4UV9JZWtnNE56LVhmVkNXX052Q3FzYUlIdTMxNUE?oc=5",
+      "pubDate": "Wed, 15 Apr 2026 23:55:29 GMT",
+      "source": "비즈니스포스트",
       "category": {
         "label": "🟢 POSITIVE",
         "color": "#4ecdc4"
       },
       "impacts": [
-        "현대차"
+        "BTC"
       ]
     },
     {
-      "title": "리벨리온, KT에 차세대 칩 '리벨100' 공급",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5GMVR3Q09EbmZHV210amVxX0p4RXA5YUdyLVNsUVpjdFFLYnpIOEhHNW82S3E1T19ZaGZ3aG1sS3VaSVlHekY0MzlfVkJrbWd2SlVxMHJTeG4wTmR5MWRJVzc5Zklmdw?oc=5",
-      "pubDate": "Wed, 15 Apr 2026 22:49:29 GMT",
-      "source": "디일렉",
+      "title": "[넥스블록][시총 톱 코인 10] 비트코인 0.8% 상승... 이더리움 1.35% 상승, 리플 1.88% 상승",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9YZUloNzZ2TEU5R0MyLTZ0SG55ekdUbU9ZdV9VUVJTMlowaWtjaW5ZcU1xa0pBUm9ta1Y0TE1kUXAtVkVSby1JUFNZOHZ0UUtsenFraw?oc=5",
+      "pubDate": "Wed, 15 Apr 2026 23:52:00 GMT",
+      "source": "이투데이",
+      "category": {
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "[가상화폐 시세] 비트코인 1억1000만원선으로 상승…엑스알피 2000원선, 이더리움 340만원선 거래",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1FOE1vb25odmZUMXBKbFRWd2xSWmlqT3JHTUVjdjU0b0xfaDhPZ3NpaTd6QlRlaEFmQVFJTFRnN2FLa3dHS1l6cVloY1hVS2JUbU9qdlM2WVNsNHcxSUtPYWQ5WjZ3alVGaklpOG9n?oc=5",
+      "pubDate": "Wed, 15 Apr 2026 23:51:22 GMT",
+      "source": "이코노뉴스",
+      "category": {
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "[전망] 정의선, ‘로보틱스 아메리카’ 지렛대 삼아…현대차 승계 퍼즐 완성하나 By 알파경제 alphabiz",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5hTjUtSGpyNFNOeVFkQzBkRzRyeFlYdWk1c0RSQS1obXZPWVdiRUxyelU5WGFvSjJFSW9hcmNTbHVHTWhDX3JpdHZmZ1FCT1lpanRlWUFtTndCRlpJbGhYdmt6U1FrZGQ5RHFCcnpsZDQ?oc=5",
+      "pubDate": "Wed, 15 Apr 2026 23:48:00 GMT",
+      "source": "Investing.com 한국어",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
-      "impacts": []
+      "impacts": [
+        "현대차"
+      ]
     }
   ]
 }
