@@ -1,78 +1,38 @@
 {
-  "timestamp": "2026-04-16T10:35:52.278458",
+  "timestamp": "2026-04-16T11:06:22.427528",
   "count": 10,
   "articles": [
     {
-      "title": "‘영업이익 10%’ vs ‘연봉 50% 상한’…반도체 성과급 공식 전쟁",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBBbkFSQWkwNmFiRnBsM056elppRXRfM1NHWWdwcFdJbExnZ1pYWHdxdXJ6WXBtMnRwZ3FsTWNPQWlIakxUWU9ENlJnZjN4QW44MzRYUUN2NzJ3Ymh5dm5vejVaSElsbWtPUkNFOQ?oc=5",
-      "pubDate": "Thu, 16 Apr 2026 01:32:04 GMT",
-      "source": "mstoday.co.kr",
+      "title": "인텔 주가 창사 최대 51% 급등...시총 1000억 달러 증가",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBKS0xMM1gwX0pxNFFWUkdpaFFacm5rem80MEtpclFyd1lQVGtRZWRGaV9wak9aMjZHS0RyMnJ4LWI2UThZbGdCSTJNeEpWUW84aUpYSlptdWZDak9vS3ByOVB3T3BuaVdw?oc=5",
+      "pubDate": "Thu, 16 Apr 2026 02:00:00 GMT",
+      "source": "테크월드",
       "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
+      },
+      "impacts": [
+        "환율"
+      ]
+    },
+    {
+      "title": "ASML, 반도체 업황 개선 속 연간 매출 전망 상향…TSMC·삼성·SK하닉 증설 기대",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9XbGNZWkVXWnFJZG1NcUlaYkNnaGhFU3RfYVdQcW9QSXJYR0lnejBzM1B4SmM3S0RnRmtidDJ3NDZob3c5ODN0UHVSaFJrVWJpTHAteURqb1ZibVJ6eXk2b0c3RW1sSzFXQzI2RHptLWozeGs?oc=5",
+      "pubDate": "Thu, 16 Apr 2026 01:57:33 GMT",
+      "source": "디지털투데이",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
       },
       "impacts": [
         "삼성전자"
       ]
     },
     {
-      "title": "삼성전자, 스마트싱스 업데이트로 ‘패밀리 케어’ 기능 강화한다",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9GYWlxOWFWQW1NbE1ncjMxc3BrV1dWSnlMTmxHWTA0bWZQbC16dDdYeWk2TmNMbm5VekI3WHRrbEFYZGdzQ1pBUGkyWW5BSmhZY1hOSjg4Zzh3OFhodXlSaHFDcW53SmEwOE5fdnV5SFJEak5xaHlLRUktQQ?oc=5",
-      "pubDate": "Thu, 16 Apr 2026 01:31:40 GMT",
-      "source": "elec4",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자, 에버랜드서 ‘갤럭시 워치런 @사파리’ 개최",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9yNGxTMXRYbHZXeHpPQTVQY3BvXzFiNU5Qdlo2TUd0YnR6QXpCNlRzTi1SOWZYdDZaeURXT3JlMjJKN0wtbk5LQUNvVWlhb0pFZGZxZXQ5OUtaemZNYjE4ajk1XzhCRkt3WlFEWjFR?oc=5",
-      "pubDate": "Thu, 16 Apr 2026 01:26:38 GMT",
-      "source": "elec4",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "빗썸, 신세계포인트와 제휴…이마트 쇼핑 시 비트코인 적립",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1xcVRGcjVOYzhZLXZjcjhXekxiUnplMTZKSnd4RTZQWVlsQ2xBVXlTRjVxSFl1Mjk1MHBGcHRXYm5lVExlZVhBR1pQbmdrQUx4c3ZIblJRREY3V0QyLURZZnNzWHdRU0lmUWpzXw?oc=5",
-      "pubDate": "Thu, 16 Apr 2026 01:25:10 GMT",
-      "source": "seoulwire.com",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "현대차, 삼성동 한전 부지 신사옥에 ‘체험형 과학관’…정의선이 직접 유치",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8tZjVIbnJoYlhtY0x4STFHcUZwS25TWnlJcXVYSUZiMG9kV1p3V3doQlIwcTVvbnhJRVFjWEFRdHE1OVl4SDFZUy1uZVV2REEta0N4d2FPS1pxcGotc1dESVFGLWtVTFVjNkpwQ0E2a3J5Z1A2ZVRLQ1k1dHBPUW8?oc=5",
-      "pubDate": "Thu, 16 Apr 2026 01:24:00 GMT",
-      "source": "조선일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차",
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "현대차, GBC에 ‘세계급 과학관’ 짓는다…미래 인재 양성 전진기지",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE14NTJDZ29ER3RXQXpiLUJKdVliVTZRLWNpejFzYmJXVk11MFd0XzlTcGw2M0Rtd3FULXoxVjJFelRaRUJHZWxpN25VZ1pndFdkT3pVN0ZncXhkU2ljSVBRaXFzeTZGWVFGS1Bv?oc=5",
-      "pubDate": "Thu, 16 Apr 2026 01:22:50 GMT",
-      "source": "hdnews.co.kr",
+      "title": "현대차, 'SDV 자산화' 움직임 활발...상각비 45% 증가",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1CTGxUUThRaWNlbGZRUjZzbklWSlpEbTg3X1RlTmVoN0FnMDRrVXhUTHRfZFpNTnAzMWZndTZ5MC1CYUNRUzIwcUw5cUNpRGtGVU91VUhhY3NqNjZQenBRdHRNRjVaTHFT0gFsQVVfeXFMTzhiRUVhem9wODJlR1ZLV0NKSWwxNnV4eUtRUE1XaFZ6OGhZcHR3MXYyUno3WVlsdjRDaUkxc2xFNS1hQ1BySUF0NTZfM3c1ZkszWVAxZENmSXFzY2tLcUZzaXRCMFN6R0dLaEtk?oc=5",
+      "pubDate": "Thu, 16 Apr 2026 01:54:30 GMT",
+      "source": "블로터",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -82,23 +42,10 @@
       ]
     },
     {
-      "title": "JK머트리얼즈 세종공장, ‘인허가 고지’ 넘었다…반도체 소재 양산 가시화",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBpOW9MejFWc0xOQmlCcEtBMnl5ZFZIdTFNSHJOcWJ6T1V2Tks4bkZGUFBHX2lfRXg0Y0xXM0E0TlU3aXU4dUpVb204X1pqM1E?oc=5",
-      "pubDate": "Thu, 16 Apr 2026 01:20:00 GMT",
-      "source": "톱데일리",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "장보고 비트코인 적립… 빗썸·신세계 맞손",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5IZEswYkROWnB0b1pxZmlqaUlwQnY4SlhPb2tYNkV0dlZKeXZ1NFhEdWNQRkZwVXh3d09SWkRsX08tTVBUOE1nU05GakdnTDI5RnpyLUQxVkRiRnF0V3JSTjU0Zm9KRFBLSExhV9IBb0FVX3lxTFA2TWZ6c0s1QlJjb0dvaHcxaFYwbVJkR1RZN0J2aFYzbUFyVFR6NGtVdEh6R19ILVFHazRVUTU1enNOME5Hd2FJRFc2eTVkYUlZbG9tYVZrUXNtOWpzSE5vRVhEeFBhS29yQ2hVT1RqTQ?oc=5",
-      "pubDate": "Thu, 16 Apr 2026 01:17:47 GMT",
-      "source": "한스경제",
+      "title": "빗썸-신세계포인트, 비트코인 적립형 쇼핑 제휴…이마트서 최대 10만원 혜택",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9SckZFZ1RzamQyOHdFMUFZcHFTUkdrNEdGTk1ZZ1VETXR5cmFtNk53YTN4Zm1TNzdETG8wTVI2QTc5cmcxOU5FS0hNalh4Zw?oc=5",
+      "pubDate": "Thu, 16 Apr 2026 01:53:26 GMT",
+      "source": "전자신문",
       "category": {
         "label": "🟣 CRYPTO",
         "color": "#a55eea"
@@ -108,10 +55,10 @@
       ]
     },
     {
-      "title": "총파업시 생산차질 최대 30조 … 삼성전자 노조, 성과급 40조 부른 이유 있었다",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1tcnZrY1FTZDEyMEE1cEtCU3Z1U3hLZ3hXb2wyRUFhS19VQXhMRnc3SFAtLTFUMlVwVGFSZzBiZ2VWQ09DNlFMN2VZUjZ4ei1yZTJyeVByVmg4d2pxc1pSdjY5aGVzWXVvMGc5eFdBaXBRZVJGRVI3LUhVRQ?oc=5",
-      "pubDate": "Thu, 16 Apr 2026 01:15:14 GMT",
-      "source": "뉴데일리 경제",
+      "title": "삼성전자, 유럽서 ‘AI TV’ 전략 공개하며 경쟁력 강화 나서",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9NRGFOMGE4Y1lEMVU4M2hybFpvbVN4WDFFZW92NXBNZkdhMW9QaVR1ZDFGQmtxU0RjNUVSOVlvV3lVSnZQQU1wWndtaFUyQkpqMjdfTURIUmNuX3Zud2loMW1tRkhTOEliN2UyQkhn?oc=5",
+      "pubDate": "Thu, 16 Apr 2026 01:51:44 GMT",
+      "source": "elec4",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -121,10 +68,63 @@
       ]
     },
     {
-      "title": "TSMC 설비 투자 전망치 더욱 높아져, 삼성전자 인텔 추격에 '철통 방어' 의지",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9ic1RuN2hCN3hvNUcxaXFZQ1pob3FGZGFMS1Uta1dOZUhXcmFQVW1vUktxcUc5SnA5dGRnYnRKbkxpSjVYVHhpYXJnSVp6cTE0VmU1azRDYm9ra0FDd3oyblFsa01tZXNiTGtHTkx4OFdSb0U?oc=5",
-      "pubDate": "Thu, 16 Apr 2026 01:12:22 GMT",
-      "source": "비즈니스포스트",
+      "title": "삼성전자, 독일서 AI TV 전략 공개…유럽 프리미엄 시장 공략 강화",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5CQWJVRWJpMXBxNzZoYzZtN0lNRzVES2Vwd19zS0UteVRyMW1RNzJYVUtidFhyaWlXdXpWVU1QY3BzSTh3VEJNb2pJb2N2bW5QLWFycEVIOGVWTTBpSFQ1RThZenpYODlzRVVzV25nTFJKdDhJbUxz?oc=5",
+      "pubDate": "Thu, 16 Apr 2026 01:49:35 GMT",
+      "source": "이코노미트리뷴",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "“교육의 장”…현대차그룹 GBC에 ‘체험형 과학관’ 설립",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5TOVZEQS13LWtleG1rWkM2UG5JU3lwblA2VFRlaE9kOVZhRWNpQnF3TGY5TDRyQWdGSTRUd3M2bnhBZmhjVGFKNXY5dFNsQUFLQ2J1V3FfNGtJRDlZUlJ6Sw?oc=5",
+      "pubDate": "Thu, 16 Apr 2026 01:49:01 GMT",
+      "source": "뉴스토마토",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "삼성전자, 독일서 '유럽 테크 세미나' 개최",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBfNXpfblRiQzBlcEN3TjEzZUxRbVRhMElzb1FRV25IV04zYm14clQ5V2pzSklTNld2NHN4MC16SEIyWXZ2NWxFbWo5d1lCRXkxNm0wLS1GTUZVSWt6U25RSlhxREZkUXVjT252Zg?oc=5",
+      "pubDate": "Thu, 16 Apr 2026 01:46:53 GMT",
+      "source": "중소기업신문",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "고유가 시대 하이브리드카 대세인데…“피지컬 AI와 본업도 하이브리드합니다” 현대차 주가 6% 상승",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE54RkJEWU9kMTcySFB2bTRqWllfMmZyU1c0am00aGNlX3RNcWhJd0hrRzVYMHFQTXlsTDhwU2tmYTRKOXowWFZLM01HcUlaQTNMN1E?oc=5",
+      "pubDate": "Thu, 16 Apr 2026 01:45:16 GMT",
+      "source": "매일경제 마켓",
+      "category": {
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
+      },
+      "impacts": [
+        "원유",
+        "현대차"
+      ]
+    },
+    {
+      "title": "삼성전자, 프랑크푸르트서 AI TV 공개...유럽 공략 본격화",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5pRklweDY5N1gzYlBsVzg4ZmY4bExGeHF5cWlsNjZIMUJwM2JXVWhyR3FVUjEwZThQMnpTbU9zSWhlTWt4YzNmcGpNYnVMMTMwVk1BNTZjdE9pRzB2NWJ4NFRrMnNkNlQ3aXNVOFR6elJFUFU?oc=5",
+      "pubDate": "Thu, 16 Apr 2026 01:44:28 GMT",
+      "source": "오늘경제",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
