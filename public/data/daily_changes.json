@@ -1,33 +1,33 @@
 {
-  "timestamp": "2026-04-16T14:39:27.534159",
+  "timestamp": "2026-04-16T15:09:55.201612",
   "count": 39,
   "stocks": {
     "삼성전자": {
       "name": "삼성전자",
-      "price": 217500,
-      "pct": 3.08,
-      "chg": 6500,
+      "price": 217000,
+      "pct": 2.84,
+      "chg": 6000,
       "src": "naver"
     },
     "삼성전자우": {
       "name": "삼성전자우",
-      "price": 148800,
-      "pct": 2.9,
-      "chg": 4200,
+      "price": 149100,
+      "pct": 3.11,
+      "chg": 4500,
       "src": "naver"
     },
     "파마리서치": {
       "name": "파마리서치",
-      "price": 312000,
-      "pct": 4.52,
-      "chg": 13500,
+      "price": 310000,
+      "pct": 3.85,
+      "chg": 11500,
       "src": "naver"
     },
     "현대차3우B": {
       "name": "현대차3우B",
-      "price": 248500,
-      "pct": 2.47,
-      "chg": 6000,
+      "price": 249750,
+      "pct": 2.99,
+      "chg": 7250,
       "src": "naver"
     },
     "현대차우": {
@@ -39,9 +39,9 @@
     },
     "DL이앤씨우": {
       "name": "DL이앤씨우",
-      "price": 97700,
-      "pct": -4.68,
-      "chg": -4800,
+      "price": 98500,
+      "pct": -3.9,
+      "chg": -4000,
       "src": "naver"
     },
     "두산": {
@@ -53,44 +53,44 @@
     },
     "네이버": {
       "name": "네이버",
-      "price": 219000,
-      "pct": 3.79,
-      "chg": 8000,
+      "price": 218500,
+      "pct": 3.55,
+      "chg": 7500,
       "src": "naver"
     },
     "삼성SDI": {
       "name": "삼성SDI",
-      "price": 476500,
-      "pct": 1.17,
-      "chg": 5500,
+      "price": 477000,
+      "pct": 1.27,
+      "chg": 6000,
       "src": "naver"
     },
     "LG에너지솔루션": {
       "name": "LG에너지솔루션",
-      "price": 414750,
-      "pct": 1.65,
-      "chg": 6750,
+      "price": 415000,
+      "pct": 1.72,
+      "chg": 7000,
       "src": "naver"
     },
     "엘오티베큠": {
       "name": "엘오티베큠",
-      "price": 14070,
-      "pct": -0.57,
-      "chg": -80,
+      "price": 14140,
+      "pct": -0.07,
+      "chg": -10,
       "src": "naver"
     },
     "현대건설": {
       "name": "현대건설",
-      "price": 178900,
-      "pct": -0.11,
-      "chg": -200,
+      "price": 179200,
+      "pct": 0.06,
+      "chg": 100,
       "src": "naver"
     },
     "세아베스틸지주": {
       "name": "세아베스틸지주",
-      "price": 69200,
-      "pct": 1.47,
-      "chg": 1000,
+      "price": 70300,
+      "pct": 3.08,
+      "chg": 2100,
       "src": "naver"
     },
     "코람코라이프인프라리츠": {
@@ -102,58 +102,58 @@
     },
     "SK리츠": {
       "name": "SK리츠",
-      "price": 6630,
-      "pct": 1.07,
-      "chg": 70,
+      "price": 6620,
+      "pct": 0.91,
+      "chg": 60,
       "src": "naver"
     },
     "신한서부티엔디리츠": {
       "name": "신한서부티엔디리츠",
-      "price": 4340,
-      "pct": 1.76,
-      "chg": 75,
+      "price": 4320,
+      "pct": 1.29,
+      "chg": 55,
       "src": "naver"
     },
     "이지스밸류플러스리츠": {
       "name": "이지스밸류플러스리츠",
-      "price": 4260,
-      "pct": -0.12,
-      "chg": -5,
+      "price": 4255,
+      "pct": -0.23,
+      "chg": -10,
       "src": "naver"
     },
     "ESR켄달스퀘어리츠": {
       "name": "ESR켄달스퀘어리츠",
-      "price": 4477,
-      "pct": 0.27,
-      "chg": 12,
+      "price": 4470,
+      "pct": 0.11,
+      "chg": 5,
       "src": "naver"
     },
     "KODEX 증권": {
       "name": "KODEX 증권",
-      "price": 28960,
-      "pct": 0.05,
-      "chg": 15,
+      "price": 28925,
+      "pct": -0.07,
+      "chg": -20,
       "src": "naver"
     },
     "TIGER 코스피고배당": {
       "name": "TIGER 코스피고배당",
-      "price": 27400,
-      "pct": 0.81,
-      "chg": 220,
+      "price": 27402,
+      "pct": 0.82,
+      "chg": 222,
       "src": "naver"
     },
     "TIGER 미국테크TOP10 INDXX": {
       "name": "TIGER 미국테크TOP10 INDXX",
-      "price": 31520,
-      "pct": 2.55,
-      "chg": 785,
+      "price": 31570,
+      "pct": 2.72,
+      "chg": 835,
       "src": "naver"
     },
     "KODEX TRF3070": {
       "name": "KODEX TRF3070",
-      "price": 123370,
-      "pct": 2.06,
-      "chg": 2490,
+      "price": 123210,
+      "pct": 1.93,
+      "chg": 2330,
       "src": "naver"
     },
     "INTC": {
@@ -256,23 +256,23 @@
     },
     "BTC/KRW": {
       "name": "BTC/KRW",
-      "price": 110528401,
-      "pct": 1.48,
+      "price": 110521432,
+      "pct": 1.34,
       "chg": 0,
       "src": "coingecko"
     },
     "ETH/KRW": {
       "name": "ETH/KRW",
-      "price": 3472575,
-      "pct": 1.68,
+      "price": 3472948,
+      "pct": 1.61,
       "chg": 0,
       "src": "coingecko"
     },
     "샤오미": {
       "name": "샤오미",
-      "price": 31.6,
-      "pct": 2.27,
-      "chg": 0.7,
+      "price": 31.7,
+      "pct": 2.59,
+      "chg": 0.8,
       "src": "yahoo"
     }
   }
