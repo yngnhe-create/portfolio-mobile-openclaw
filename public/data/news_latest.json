@@ -1,7 +1,33 @@
 {
-  "timestamp": "2026-04-16T14:09:04.465055",
+  "timestamp": "2026-04-16T14:17:04.757661",
   "count": 10,
   "articles": [
+    {
+      "title": "일론 머스크 \"인공지능 칩 AI5 설계 마쳐…삼성전자에 감사\"",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9mQUVhaVhlMlJPa0ZWLWhKVE5xUHBGVzZfbDAzeUdRM3JjSllvLW9wU21tYmVnTGp2TDRpeUhNM2xhTjV2b1U2dHR2Mm9nbnQ5bGI2VEttQzBseDkxSWRuS2Zmc1JNbzZ4ZmFIS0N3?oc=5",
+      "pubDate": "Thu, 16 Apr 2026 05:12:04 GMT",
+      "source": "mstoday.co.kr",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "\"시트레아, 비트코인 보안 직접 활용 레이어2…기술 검증 마쳤다\"",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE4wT1pxMzRuWVRmWU9yQ2hFU0dMbUtfM2tXTGdWMk9QV29zNTVfdWx2MXNRZkkwVktnaXZ5UGtlNElWc2J1Q0FBbDFCa2FDR3M?oc=5",
+      "pubDate": "Thu, 16 Apr 2026 05:05:02 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
     {
       "title": "[이슈&논란] 비트코인 개발자들, 양자 컴퓨터 위협에 사토시 시대 코인 동결 제안…소유권과 보안 사이 '줄타기'",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBWampsaTVXVGpUSFpRSE51MHdZWDBiMlU2RGkwdUVjX18xRjB2N2dOeDAxSEVSR09LY1EzbFg4RU5vVWxlZ2NtR2lxQXQ0NzdjWXV4c01USnBsS19USTNscQ?oc=5",
@@ -94,19 +120,6 @@
       ]
     },
     {
-      "title": "삼성전자 300兆 이익 나누기",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1raVRMMS1qakZfZGRDU1JjWndxSmZFeEN2RXRRZE9icjJsakRVVHNRZzI4Zm5NQ1FuNE5XVG9pbVllYndPaHRreEJfVG9KNk0?oc=5",
-      "pubDate": "Thu, 16 Apr 2026 04:47:07 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
       "title": "황산값 폭등에도 ‘버팀목’…고려아연, 반도체 수급 책임진다",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5yVkQtY290MDBWdTRqZUsybjZLRFRCcTNTNGN2OFNOVFc1VlF2T2hVaEVlM2hGUWI2M1dBTmxCRFRsQ0ttZ05zRktha2Nwb2hCeGl2NjhURE1SNUlVVWF5TQ?oc=5",
       "pubDate": "Thu, 16 Apr 2026 04:46:55 GMT",
@@ -118,17 +131,6 @@
       "impacts": [
         "삼성전자"
       ]
-    },
-    {
-      "title": "\"갤로퍼가 부활하는 건가요?\"…난리 난 車 '대반전' [모빌리티톡]",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5tdjFZTzR5RlZ2c0NNTlBLWWZwaGQxU29fb2Z5OGxLSkhsYW5xM3RlaW41VGVCV2JvZ29aRlZhT3dUOUoxMUZreWpsd2xYSG4xcUFMYjI0eWMwd9IBVEFVX3lxTFAxeG1FbDduajBTalo2MjNiRnhGaF9qdHdFdXlHRWZsdzJPNmdoNGk5QlphTFJvSnBPaXR3MzZIYUdPV05TWUQ1cFRTWXpwRDFPd2VfNw?oc=5",
-      "pubDate": "Thu, 16 Apr 2026 04:31:00 GMT",
-      "source": "한국경제",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": []
     }
   ]
 }
