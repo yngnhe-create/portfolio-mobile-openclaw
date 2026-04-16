@@ -1,77 +1,11 @@
 {
-  "timestamp": "2026-04-16T15:09:58.872107",
+  "timestamp": "2026-04-16T16:17:04.557964",
   "count": 10,
   "articles": [
     {
-      "title": "삼성전자, 독일 프랑크푸르트서 ‘2026 유럽 테크 세미나’ 개최",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE16RHdUTFIxMmx4UlMxdU5PTDVaSGM1S0lUSC05ZTJ6WEdBb3kwQThsVWNLYlhadk15N19kZnoya2tkSXF2aWIzeDEwUS1QSUt1c2hhbjU5UU1zNUlBeVkybGszWFBpUQ?oc=5",
-      "pubDate": "Thu, 16 Apr 2026 05:57:43 GMT",
-      "source": "이슈투데이",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "현대차그룹, 위아 방산 로템으로 이관…계열사 역할 재정렬",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5ndkNqeG5iV3NXMGttakREbl84dkJSWEtMTmpIMEg4ZFpDcWJtZG8tTWxhX0tYcTRXX3F0Tm90UWNIdjRWdVRYbWdVVDZwTHlSYzlsZW9LWHhhanhnNXhSTmx2R3NMZkRNRFNRMnB4X01uaDTSAXdBVV95cUxNb0hja2ZxaE5RUzRoZEkyYjM5TTVHV1FqdFBvbnRvTm9LR2tlc2xReUJ4cVQzRWlaMi1meDdJb2lOLXhSTEl4NzY0allweTBIcGxXYWJDRlJNS3ZDbE8tNk9aeTRJVnE4ZjVIUmRLLUROdUs1VnJmUQ?oc=5",
-      "pubDate": "Thu, 16 Apr 2026 05:57:40 GMT",
-      "source": "스트레이트뉴스",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "머스크 “자체 인공지능 칩 ‘AI5’ 설계 마쳐…삼성전자에 감사”",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB3U2pZQXFIalk1TDZFc1Qzd2FJM040S0IyUGl1RlNQRFB5MGMzVE42TklLWFc1VDk0ZEo4T2czV2NaWnptTmh6TVJTbzFYOHM?oc=5",
-      "pubDate": "Thu, 16 Apr 2026 05:53:02 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "비트코인 오늘 시세: 지정학적 우려 완화 속 75,000달러 돌파 By Investing.com",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9INldtUzVzUFdoVzVwMXJiY0VqYURnaTRHSTlKOHgtdlNoM1lJeFAtcmhIWHhiWFJyTlFvYnBIaHJHY1B3SzJ1QzlUbnJQWWVkOFpVeGY2dEIxakRZMWF5blptdHNEMEdWOFZOaVBzWUp0Q3c?oc=5",
-      "pubDate": "Thu, 16 Apr 2026 05:50:00 GMT",
-      "source": "Investing.com 한국어",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "환율",
-        "BTC"
-      ]
-    },
-    {
-      "title": "일론 머스크 “삼성전자에 감사”…SNS에 공개한 차세대 칩 정체",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA1ZGpISVNQM1o4RWMtcmVDR3BPelVEUVJ4NUNJZHU0eWRfaGI2b2t2M25qT25zTXE5OUpMbjBST2Vuck03RV9YdXh2Mi0waTZzZXlGN3VlQkFlN1piLVdVMXVCTm51dWhBaUtEZVlWZ9IBZkFVX3lxTE8zZmdBRE1NQVpMemRlRHJPbUJZbVI1UmpPODhoUHdSOFRrUDF5WUFLNzVDRzFrZWJDam9EaGZQLS1qTEpoSGJ1YnJHWHhyU3JVM1pXdUdzRXVTYXZUbEwtX2xYc3hJQQ?oc=5",
-      "pubDate": "Thu, 16 Apr 2026 05:40:00 GMT",
-      "source": "동아일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "\"성과급 45조 달라\" 요구에 삼성전자 발칵…\"왜 너희만\" 부글부글",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9SZHI4R3hvSXkxSENCZC1tOURFZGZMak4xa3pxMHJjZWp3ZC05T0J5bm10NDRkd1kyaXA5NmFHeUl2bF80UUlvWnUwSmtPTDBiX25QdVRlc3lrOFNjSEJ4aw?oc=5",
-      "pubDate": "Thu, 16 Apr 2026 05:37:56 GMT",
+      "title": "삼성전자, 임직원 개인정보 2만건 '무단 수집' 직원 고소",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1EMUlKT29yQTl0ZXlCSGRDS0dmV1BiVzZUMWpoLXJCb3F3cldFMnpZS3k5aC1ZUllxalVyeGpGQ0NFdVhtSXBXT0poeTFDZWhxalJpX1BNQ01aNEpNMFh3aw?oc=5",
+      "pubDate": "Thu, 16 Apr 2026 07:09:21 GMT",
       "source": "아시아경제",
       "category": {
         "label": "📋 GENERAL",
@@ -82,10 +16,10 @@
       ]
     },
     {
-      "title": "[강세 토픽] 반도체 - 후공정 장비 테마, 덕산하이메탈 +29.93%, 피에스케이홀딩스 +8.47% - 조선비즈",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPLXNTZ3RXNFNRTXdmZnRJY3d2WUdQbzBtbzVtZEtKY2dRRjdjcmk4M2lDT3UzMW9yb2lwUk5BS3hFa21PX05nRzNINFp2Q2JETm1FOE1yeko3UnFORzU3czZMUzE3X2FFN2dIRzhrWDJwQ0lEYllLTTNOOG1mVHplN1l1UdIBlwFBVV95cUxOU3kwelRrNDk4YjRWMUUyZUFCVEJsVnhkSHI2UHF6V1NlQVpwd0tkTTdnVlo1bFl1TUhBUjNsUENaV1NYNmxHc3BvMVYwc1dSY0VGVXBmdkFwLUlTakx3M0ZfdFh2RGM1TlBZNmcyZ3lEancyT1kzSGhDWlE3RmxzUFozOGRicHFfeWxOdjFrYlhaSUpXVEZZ?oc=5",
-      "pubDate": "Thu, 16 Apr 2026 05:37:39 GMT",
-      "source": "Chosunbiz",
+      "title": "삼성전자, '임직원 정보 수집' 직원 고소…\"1시간에 2만건 조회\"",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5FWVFzTGMxdy1hNG9BOEZZNDctdUlfdmZ3dnRQQ2hfcGtxLU53TlBLa2ZEbzlLbm9SUkZHRHU2b09EWVNoV0xVVHNDc1ViMjdDaTRzYTRhWkZQOFXSAWBBVV95cUxNakNYRnlQZzJ4N09DR25Bc2ZnRXpjZzRROW1PNWh6dTl1RUpWVUpBZWhaUnE4UnU0RTJDVFNBSjhxWkJrUVMwcTNyVXVfQ1h3SUl5SFgydWlGa0FKUWs4eFI?oc=5",
+      "pubDate": "Thu, 16 Apr 2026 07:07:21 GMT",
+      "source": "연합뉴스",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -95,22 +29,9 @@
       ]
     },
     {
-      "title": "머스크 1경 9천조 원 '테라팹' 승부수, 삼성전자 파트너인가 적인가",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNMUtKMWNGOUd0YXdWZnc0Q01Qa3lDcUtqZW03RnhpVnpUMmpLV3RKSk1KSXpWVm1ucDN5elhaTlRzSURfdzJaelgxMjNXQXphSUNJRzlUenBrdHZ4SWFpSnVpZEtrWG9VZ0RnQWM3LU52emotcUhKNDBWanJVZElINXk4TEZZTlFF?oc=5",
-      "pubDate": "Thu, 16 Apr 2026 05:32:41 GMT",
-      "source": "글로벌이코노믹",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "\"협력사·지역경제 어쩌나\" 노사갈등 고조 속 '숨은 피해자' 우려 [삼성전자 파업 리스크②]",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBrSEp4eEZzeFFLc0JBQ3E3cU9vUDlhTU0xS0hyWDcwTEpCNEoxSDZwMEFtalY5dmN0ejRVR0tzV3B5T0pkaEdBeDBrWlZNSFFFMjE2WEp2bEpKN3FnbU1XaNIBeEFVX3lxTFA3aUlnTF9DMGppZkxhNHZURUdaV2FkMW5CMnMwa2JmUGJtSTN4U0VZR3VjUkMtN1JBQjdwdHFwRWphRmxxb1NwdUNpY3RwN0hvY1ZwR20xZkxRWW9PMEFDTmNvSHp3WVdmSE1OU0F6QnlEUC1XZ2d3LQ?oc=5",
-      "pubDate": "Thu, 16 Apr 2026 05:30:00 GMT",
+      "title": "삼성전자, 사내 개인정보 탈취 의혹 직원 고소…\"1시간 만에 2만건 조회\"",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1pRkJyWG95dnE0QldMbmoxRGxZcllEMVZXTHFZTXc4VC1kTTFQS2hxWXVMLWZSeDlqSDRHXzd5cndmNi1TdFVHazkyRUo3akhtTnkwWDFCdmZyZUlGSEFfRNIBeEFVX3lxTFBFOFphdU1YcTBuZlZWQWpGbXJnQjFZczk5MXN3NUVKY21oelVYRWtXMHpjZEZ4Q2d0eWhkTDZXMVJTeDM2U0hPa1ZsVTNWZUdVRkNPLVotUzI5UmUzWlFTVGwySUhVdk1lUUdRd0lIeERXcy1SY1dHUQ?oc=5",
+      "pubDate": "Thu, 16 Apr 2026 07:06:49 GMT",
       "source": "뉴시스",
       "category": {
         "label": "📋 GENERAL",
@@ -121,16 +42,95 @@
       ]
     },
     {
-      "title": "현대차, 디지털 트윈으로 품질 확보 ‘지름길’…기간 절반 단축",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA4YkEwbkdkalRZcEhFVWplQ0FlWVV0UXk2NTlVVkVsd1JSZWVBVDgyREFEV0hKUnl5aURQN1pUakxtbHMwTjg5VloyNGlxNWt6NGx5SE1vQUhmTE9ielBBODlwLV8?oc=5",
-      "pubDate": "Thu, 16 Apr 2026 05:22:01 GMT",
-      "source": "디지털데일리",
+      "title": "삼성전자·SK하이닉스 투자 확대에 'EUV 수요↑'…'슈퍼乙' ASML 매출의 절반 韓서",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9iZ3ZkRlNnMWpTM0hGVzRIbEdZb0cxZENkeXRYR3l1VWowQmZFT0ZVT25BVHVrejdhYTg4MmpRU25YZWtNT0JGc2xqSXFld2pqWC15YlNrQVVBb0I2R0hFTg?oc=5",
+      "pubDate": "Thu, 16 Apr 2026 07:05:27 GMT",
+      "source": "뉴시스",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[데스크라인]삼성전자 파업은 아니다",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE55ZzdDNWRES2lDZ29Xcmp4elIyTlNjTDVSTlJKT0RJVmVNU0VYUWI2ZjRnWWl6bzBVay1maE1mM3FpVUoyOHpOcFpRYmFvZw?oc=5",
+      "pubDate": "Thu, 16 Apr 2026 07:00:00 GMT",
+      "source": "전자신문",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "美·이란 재협상 훈풍에 코스피 6220대로 반도체 주도 실적 기대…삼성전자 3%↑",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9zUkpPdmhfcHJTeS0tOHZHZElrNU5JM1dXcjdTX2Q1UzJqdUx6UHc3TnRUc1U4ak1KU1EydjhFdWp4VDZPLTdZWk1tRmtYVzhQR1RxdlF5RDVFbzUwRnRNcFAyVmlWSzBSXzFZQQ?oc=5",
+      "pubDate": "Thu, 16 Apr 2026 06:58:45 GMT",
+      "source": "중소기업신문",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
+      },
+      "impacts": [
+        "원유",
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전자 “불법 파업 막아달라”…위법 쟁의금지 가처분 신청",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9rTzlUMFgxZnFXZk1pWFpOX3pGa3pYZ1MzZURRNVA4MGxsZFpHVUJBcDV0cWQ1SUVNVUFXa2NJLXNQa1g1OTlXVlJlZ0FGRnJ0Z1RBLTk1S1h4U0V4aXUwWFZUZlVnaHlOeWtJQWRLTGQxNDRWT0HSAWZBVV95cUxPakg0eFc0SFk0elJVaUNqaktGd0lYY21yRzhuMFpLQjlNYWhWZGhYN0hmSTZGRE0zYm1wSllNSjJTQnV1Smhad29zbXgxYVZNNjc1TmpEdDlfWkFjX2ZfczVDZm5acmc?oc=5",
+      "pubDate": "Thu, 16 Apr 2026 06:58:00 GMT",
+      "source": "동아일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전자, ‘노조 위법 쟁의행위 금지’ 가처분 신청",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1NdlVMeVJCTEx6a3psS3BZY2ZsUEplTEhWX0Via0hoQ2NVM1dicXYxZS1GTUxGWHlVcFcxYzk5b3dXT3BNUm9rRElKWnVFbW1MNGNsOVhpclliMjBibzNZR3lNcUw0bWl0WFpFRGs2RHphbzlyVkHSAWZBVV95cUxPblJkMkx3aG5XQzI1b2V3a21peURFM1NVZnNXaUVIcUtwTDNYWmRGZzdOQ2pKUjZleUlhaW1acXN2SnE4QXdxXzFiVi1PNlVoLXJNeThFODJHbFlLMk9DdEVGYmc3NVE?oc=5",
+      "pubDate": "Thu, 16 Apr 2026 06:56:25 GMT",
+      "source": "동아일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "현대차그룹, 익스플로라토리움과 체험형 과학관 설립 협약 체결",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1UQ0dpV0dxWEtMRUcydWhRS1UwdUVhZy1VYmY0Y0NGTm9tc3dIZWdHLTVEamxvb2p2Y1RGSy04TzJkazhRYmhLWXFqRzVmRkZsZnFMOU1MNDJ0aV9MODNrbHh3?oc=5",
+      "pubDate": "Thu, 16 Apr 2026 06:51:13 GMT",
+      "source": "경기신문",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
         "현대차"
+      ]
+    },
+    {
+      "title": "삼성전자, 독일 프랑크푸르트서 '2026 유럽 테크 세미나' 개최",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB3V2Fxdi1LMHBRaHRPVGJEREltSldoR1ZHN19lcm93WHlrcjRqMVBxMnJ5M0FFZU9BaktQY01ZWV9ZZk9SNU54SW9iN0pwTzlsMF9GcGtQNWhoYVVXd0RYT193?oc=5",
+      "pubDate": "Thu, 16 Apr 2026 06:49:49 GMT",
+      "source": "경기신문",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
       ]
     }
   ]
