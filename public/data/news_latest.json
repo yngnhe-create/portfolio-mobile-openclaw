@@ -1,7 +1,60 @@
 {
-  "timestamp": "2026-04-16T22:41:40.548517",
+  "timestamp": "2026-04-17T00:12:08.533414",
   "count": 10,
   "articles": [
+    {
+      "title": "오늘(4월 16일) 암호화폐 시장 동향: 비트코인은 어떻게 움직이고 있을까요?",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQSktwbHl0MmhTanBMZGk5THBsX1lyeUNmWldFbHoybV9pVVlyQ3lZZWtXckYtb1ZMekpCR2w4S2xUUndsSHZUSFhncnIyUmZxd2RmWExRWHhfenBUZksteWV5SWl3Z1ZHLVdsRlZlU2U0WmxBSWRwZEk3cV91LTNMZTB3cG5wMUtQelJZUDVHNElVMWVtVDBv?oc=5",
+      "pubDate": "Thu, 16 Apr 2026 15:03:05 GMT",
+      "source": "Vietnam.vn",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "현대차그룹, 강남에 체험형 과학관 세우는 이유는?",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1VUGswRkhUTTVGVlIwX1lUdlJfZ0tMRmczb2pHbzN1TWRhZVlYOC1PcURYbEhPX0w0bk9UekQ4TUJPLXF2cGlxdnRWOXhJYWdWV3F5dWhn?oc=5",
+      "pubDate": "Thu, 16 Apr 2026 15:02:00 GMT",
+      "source": "중앙일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "[시황] 비트코인 7만4000달러 상회…김치프리미엄 0.12%",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE01QWNoeGIwVm9WSnp5bTJadHNJSlk5R2lZUWMzcWt4QklhQmZVd3hUU19oTGpwdjVUVzJaY29BSW1zaXN1Zm4zUFFfUEIzd2hL?oc=5",
+      "pubDate": "Thu, 16 Apr 2026 14:47:03 GMT",
+      "source": "블루밍비트",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC",
+        "환율"
+      ]
+    },
+    {
+      "title": "비트코인 강세 점수 40 회복…시장 반등 신호일까",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE11b0RGV1NYOGg3eFZmUDJCVXhoY0RjOUp4WXNBdkNmV3Y2eWdYREtiaGZkWUV1MENqQ2lyLW1LbjAxNWxpOFpDUG9qUDRjVmNYZC1EdlFhdmdVSC1neXVXczg3QTlDT28zSkp3cEZ5cmc2SHc?oc=5",
+      "pubDate": "Thu, 16 Apr 2026 13:25:36 GMT",
+      "source": "디지털투데이",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
     {
       "title": "모건스탠리 비트코인 ETF ‘MSBT’, 출시 첫 주 1억달러 유입",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBfLVcweU1HWlVPVDdaejFXRUR5N3RJdFEybGVqeW4yVHQ2ZTdGRk1TRnBjQ0d6ZWx3YmIxT2JnWVVySERIYmJKcjNDUTRXOFBmNVQyeFNWX3paZHU2Vlp3Z1JoQnBISGk2V2s1YTRfLXRHeFU?oc=5",
@@ -71,58 +124,6 @@
       "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTFBKenYxaFB0dWlxeW5ZTnlIQ3p5Zmt1eWdqSUZ1ejQ4VkxETmlRaWhxNXpzV3ljdlptQ1VWWUFDTUh4U3M?oc=5",
       "pubDate": "Thu, 16 Apr 2026 12:50:00 GMT",
       "source": "경기in",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "현대제철, ‘현대차그룹’ 계열사 첫 사용자성 인정 및 교섭단위 분리…한화오션도 사용자성 인정",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9KX0dEQm1VRS1xUjNZNTlrUm9NRGlJOXhzUFIwb2xIYmkzaGx0UjAwMjZFYU5TUjVMbDYwMDU0WWpMa0FyNkl0bU83WXNIeUxoaW9KWkdOZnBud9IBX0FVX3lxTFBSdmZKOGhJU0ZjZ3l5RnJEbTMyLWVZWVpJaFFaOVlHeFZ1OUxTRnE1S2V4b1c4bVh0TU9WbjhBVmtybHJGSHlsVnFlN1A1U3J3MU9lc3V6MU0ycnFZcGJ3?oc=5",
-      "pubDate": "Thu, 16 Apr 2026 12:41:00 GMT",
-      "source": "경향신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "삼성전자 \"노조 불법 쟁의행위 가처분 신청\"",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1yMk04c3VHaTR1VWtFcVg3d094MHJMdk1DM1dhNjh1a1lFUlJvNnVrdWU5cG84TkRrWWJrXzQ4VHlLWUJqbzhWZE9SWWtQcE1OOWVwZlpqQ0VtSlQwZ1hrQndzV1FGd2M?oc=5",
-      "pubDate": "Thu, 16 Apr 2026 12:35:19 GMT",
-      "source": "연합뉴스TV",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "\"위법행위는 금지!\" 기싸움 본격화‥삼성전자 파업 초읽기?",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5WV193alR5ZXVEbzVXQUhEMG9WS1dxSC1ldGtpR1FHRy1VZHZJRGFsWThkZl81RHdPcjJsc2loVkxqcmhPYVdGYjdZSTliSmdCdVB3NGxmYml2QVZHXzU4bUZ1M1hWdW5ibkdIUzh2WEI0Rk1EWDhHY9IBeEFVX3lxTE4tdmJCTTZCbzUwVnV3azI3dmRFOElQdE1ZNWUwQl9ya3BxM1o4MGhVTFkzS0dVblJ5VFJKbnBFc1dnQU10N1phVVpPTUkxNTRBcHJpTUI2QmN1M3VKNWNBXzB2SFc5OHQtMFlEZWVJR2tIakwzYVoxdQ?oc=5",
-      "pubDate": "Thu, 16 Apr 2026 12:28:13 GMT",
-      "source": "MBC 뉴스",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자 \"위법 쟁의 막아달라\"…법원에 가처분 신청",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9tei1iVGFRZENmd1JmRERqNDNhUFV4UFRkMS02VlZRMXNDMEJCd1lFWXBIN2tpbzhQTUlKaDBiNTNHX0pTa2ZodzRBWWtBZFE?oc=5",
-      "pubDate": "Thu, 16 Apr 2026 12:27:12 GMT",
-      "source": "v.daum.net",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
