@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-16T18:10:28.667421",
+  "timestamp": "2026-04-16T18:17:04.734315",
   "count": 10,
   "articles": [
     {
@@ -25,8 +25,8 @@
         "color": "#8b9dc3"
       },
       "impacts": [
-        "원유",
-        "삼성전자"
+        "삼성전자",
+        "원유"
       ]
     },
     {
@@ -34,6 +34,19 @@
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE15UWFabWU1M1ZSdkdySVRFQ2tlNUlCeHJUZFZjY1FYdUhTMVdEU1pzMUtOMzlEc0J5WVlSNUkzNUJTUGVzT0NlQmJDdVVjR2FiOWpULTU2ZC16SHZKQnVIOElxZ182M25mNnc?oc=5",
       "pubDate": "Thu, 16 Apr 2026 09:01:00 GMT",
       "source": "한겨레",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "\"위법한 파업 막아달라\" 삼성전자 가처분 신청",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5EZzVyWWxrRzB2LXQyMEtqOTllZGJKMU40cXhQMHdpQXZUcGVUcFladzNwanUzQWMtN01TckZkZXdqejhKMjBubGgtcnRGb1U?oc=5",
+      "pubDate": "Thu, 16 Apr 2026 09:00:13 GMT",
+      "source": "v.daum.net",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -52,8 +65,8 @@
         "color": "#f9ca24"
       },
       "impacts": [
-        "원유",
-        "삼성전자"
+        "삼성전자",
+        "원유"
       ]
     },
     {
@@ -67,19 +80,6 @@
       },
       "impacts": [
         "삼성전자"
-      ]
-    },
-    {
-      "title": "현대차 노조 “협력업체도 순익 30% 성과급 달라”",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9FNGE2MFFiYWxTQ2dzdmYyMmNUTW4wRk9GOGhoTDlzdnFnVDBKMW1KaDZCRXVfbEh6a3daWVg0RmpUZktTcV9xbVM5cUZ3OVk?oc=5",
-      "pubDate": "Thu, 16 Apr 2026 08:48:15 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
       ]
     },
     {
@@ -122,10 +122,10 @@
       ]
     },
     {
-      "title": "‘아틀라스’ 의식한 현대차 노조, 완전월급제 요구",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1vejNwelNpaWVweHk2SzZNZk0zVU5QWVVPaVFLRGlwV05UZy1lemxqOGJLNmg4VFBsbVNTdFl3TC1rLV9PV2c2R1VxYk5tSE5iM1NMMU9lZGVDUEZGMjg1TE56clQ?oc=5",
-      "pubDate": "Thu, 16 Apr 2026 08:36:33 GMT",
-      "source": "매일일보",
+      "title": "현대차 노조, 상여금 800%·완전 월급제 요구안 확정",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1LcF9BdUt6TUhxU2NGWGZBWlg1UjVuVmF2LVg4SjRKV1VrSFBqdkk2eXFnOWc2ZFhxUDNoWHpwQnZDYUdFU1JOT013dmRRcHdHVTVhdkM5RlBJTmxLWG5KZTFvNDh2UE0yQmJITDZvdU1QNF9K?oc=5",
+      "pubDate": "Thu, 16 Apr 2026 08:43:31 GMT",
+      "source": "부산일보",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
