@@ -1,33 +1,7 @@
 {
-  "timestamp": "2026-04-17T02:13:01.659048",
+  "timestamp": "2026-04-17T02:43:27.893169",
   "count": 10,
   "articles": [
-    {
-      "title": "호스킨슨 \"비트코인(BTC) 양자 대응안, 최대 170만 BTC 동결 초래 가능\"",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1uNWZpbGV3NjA3T3RWVGdwQ2Vkeklfb1pLRktCWEdHdWlCUHZ5SlBaZ3NaeVp0ZHZHcUMxRld2THE2ckRaTXhrSVdETjJYa2Mt?oc=5",
-      "pubDate": "Thu, 16 Apr 2026 16:48:33 GMT",
-      "source": "블루밍비트",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "'폴란드 가상자산 거래소' 존다, 4500 비트코인(BTC) 묶여…출금 중단 위기",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5MdWd1S2ZBd055emRvX2NoXzAtc1YwVGhSZWFQdEg5NTg4OVNJVFg3ZHFULWpKY2FvbTN0UmRRVmY2QXVka1RPRE4wenFsdDYt?oc=5",
-      "pubDate": "Thu, 16 Apr 2026 16:21:47 GMT",
-      "source": "블루밍비트",
-      "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
     {
       "title": "플라텍, 램리서치 반도체 부품 특허 무효화 실패",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB3MVM1Z1REYV9sOHoxeDVEZDEwMjRRMUNsYjVPazFDU3BaNDFaT2FObFYwX01fQ1c0UGV1cmFOczVLZWczck1IWG12aE1kNGM?oc=5",
@@ -77,8 +51,8 @@
         "color": "#8b9dc3"
       },
       "impacts": [
-        "현대차",
-        "삼성전자"
+        "삼성전자",
+        "현대차"
       ]
     },
     {
@@ -125,6 +99,32 @@
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5oelVFSjdocDBZbE1FZkZ3NEdVTk8wY0RqUXNxeUhEQnNBam1iaWJHS3ZIU0JZaTlURVRiYm1KWlI5emlUaENNcU5abHlEdjEtbzFYWkpxak94aEFzYXRKR0w1dXN6emfSAWxBVV95cUxQOWc2OGhwWEItdGNKc0lrNVU3SlZ2ZVJ2SUVKeGdQM3B1QWpuT1M2T2JGRFAxYW1DX1JDSWkxTVJtYjF0cVFaZmVUVXh0dXkyLWRPVHlHWmFmTjhjaVF2blJxUE01bkYyRThuUUw?oc=5",
       "pubDate": "Thu, 16 Apr 2026 15:14:00 GMT",
       "source": "국민일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "오늘(4월 16일) 암호화폐 시장 동향: 비트코인은 어떻게 움직이고 있을까요?",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQSktwbHl0MmhTanBMZGk5THBsX1lyeUNmWldFbHoybV9pVVlyQ3lZZWtXckYtb1ZMekpCR2w4S2xUUndsSHZUSFhncnIyUmZxd2RmWExRWHhfenBUZksteWV5SWl3Z1ZHLVdsRlZlU2U0WmxBSWRwZEk3cV91LTNMZTB3cG5wMUtQelJZUDVHNElVMWVtVDBv?oc=5",
+      "pubDate": "Thu, 16 Apr 2026 15:03:05 GMT",
+      "source": "Vietnam.vn",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "현대차그룹, 강남에 체험형 과학관 세우는 이유는?",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1VUGswRkhUTTVGVlIwX1lUdlJfZ0tMRmczb2pHbzN1TWRhZVlYOC1PcURYbEhPX0w0bk9UekQ4TUJPLXF2cGlxdnRWOXhJYWdWV3F5dWhn?oc=5",
+      "pubDate": "Thu, 16 Apr 2026 15:02:00 GMT",
+      "source": "중앙일보",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
