@@ -1,7 +1,20 @@
 {
-  "timestamp": "2026-04-16T12:17:03.823064",
+  "timestamp": "2026-04-16T12:37:45.224575",
   "count": 10,
   "articles": [
+    {
+      "title": "‘고맙다, 반도체’… 한국 올 GDP 대비 부채비율 2.3%P 개선",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFB3VEd1S21SREF0bi1WdjYtUEhSaG5TRjBjclJtTHlRRUxoSVR1RGkwZHhkeklGQWExTjdfc0dsY2RpX2VmOU1HZ0l2cF95bHMz?oc=5",
+      "pubDate": "Thu, 16 Apr 2026 03:20:10 GMT",
+      "source": "문화일보",
+      "category": {
+        "label": "🔵 MACRO",
+        "color": "#0984e3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
     {
       "title": "美 비트코인 현물 ETF, 1억8600만달러 순유입",
       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9XM2xDdG4yT3MwVkwycGxqenMtRFMtM1ZpbzRHdWdkSEJzbGRtZFFlMVM2Sl9RQUJJUVJ4QVpIUVRfdWVpQmxfS1lTVVk0dnJO?oc=5",
@@ -12,8 +25,8 @@
         "color": "#a55eea"
       },
       "impacts": [
-        "BTC",
-        "환율"
+        "환율",
+        "BTC"
       ]
     },
     {
@@ -118,20 +131,6 @@
       },
       "impacts": [
         "BTC"
-      ]
-    },
-    {
-      "title": "\"삼성전자, HBM4로 엔비디아 점유율 확대 전망\"",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBNNnJfdlFKMFN6MmxNOFBkbldxVElhTnVNbkNBZFN2R2ZHYl9Za0tDOGpHU3hSUFhmVnYwVWFsOHVlNER0QzBnRkxGOVU2LXc?oc=5",
-      "pubDate": "Thu, 16 Apr 2026 02:24:57 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "NVIDIA",
-        "삼성전자"
       ]
     }
   ]
