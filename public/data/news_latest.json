@@ -1,117 +1,77 @@
 {
-  "timestamp": "2026-04-17T09:15:24.509030",
+  "timestamp": "2026-04-17T09:45:50.715714",
   "count": 10,
   "articles": [
     {
-      "title": "현대차, 인증중고차 보증 확대…'워런티 플러스' 출시",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE52WVlYV0N3NnJkdHBvMWRsYk9JMXNxWUYxS3RMbG42SkszN2lwX0E2X2JINjdBd0pBQzRhVWo0QVJ2VTlyMDJkRVZQeGs2VWQ1a21UUFo5bF9oWHprWjhNTNIBeEFVX3lxTE5hM2x0YWVESVA2b0pYV2ZnclZGSW9yel85ejdDelZtVEtWWFNMOVpNRENzWm1nOFpUZnJsQ3VheDlLNVcycU4tUWU4WG9jeGpBandGdWg2amtVRVRPVVJjREQtT0ZTN2pVb2t0TWpvTnNibHNkaWFvVw?oc=5",
-      "pubDate": "Fri, 17 Apr 2026 00:06:08 GMT",
-      "source": "뉴시스",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "현대차, 인증중고차 ‘보증 연장 상품’ 출시···신품 부품 무상수리",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5iWDZrcHFaREFITWNBS0l4MXpHUkxQRm1jT0ptNjBLdUZjZHl2MlB3TVRoSVFjMXNxSnlwTXNtbm5nSU9nUjdKNzVkQUxadUpHMmFWOHcwd05ZWi1JcXlnaHFoVUg3alkwWDZBR0JjSW3SAXRBVV95cUxQZlE2b2tMUGJXcjU0dDRpUjB3c0RUVkd4MzZmbHZVQlRDRk13M1dtampCZHV1TWZlMGhoUUZXNnRfZThnRW4yNGxKdXN2VHN4REVqTHhkck1vTXhsb1FfcFRFTVB4MUVGZUZ5Wmdhb1Y0WENmYw?oc=5",
-      "pubDate": "Fri, 17 Apr 2026 00:05:26 GMT",
-      "source": "이뉴스투데이",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "삼성전자, 총파업 예고에 가처분 신청… 노사 갈등 정면충돌",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBVT3g0d3ZRVU5yV1JMblUybWdZRjJKclBaWHN4NThqbTBWV3pvLW13M2E2WnhjXzRnVnd3VlpscldjazVLVDRoX1F3ZFhraDNaSERucFU2Rkw1VnFNQ05WUHF3WUVUc0VwUU5TLQ?oc=5",
-      "pubDate": "Fri, 17 Apr 2026 00:04:02 GMT",
-      "source": "seoulwire.com",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자, 에버랜드서 삼성 헬스와 함께하는 ‘갤럭시 워치런 @사파리’ 러닝 이벤트 개최",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB3dTJNUTV6LVZhMXhFZjRmMXlHVEFocDNJNEVPWDd5X1BETXF3dHFYTHFVcGZrdFBNc2RQUTA2TEJfZzFCci0wNkJfSGptaW10NlFZWWRSdWtGanFvRVJFa0ZZSjVVLWdzOFFBb1BrRTdwTVU?oc=5",
-      "pubDate": "Fri, 17 Apr 2026 00:04:00 GMT",
-      "source": "세종시민일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자, 美서 AI 가전 공개…‘홈 컴패니언’ 앞세워 북미 공략",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9jOE14TEcxN3ROb1YzT3Z4U1hiVVUyNnAwZ3RTbm04UWQ5U2J0Vkt0UFlQb3JIQ3V3MER1Q2pCbHNaNEZxb0NaUTB3OHNGM2d2c2daQW9hS2o5TGV3cVRDa0ZGU2g?oc=5",
-      "pubDate": "Fri, 17 Apr 2026 00:02:54 GMT",
-      "source": "서울경제TV",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자, 美서 가전 신제품 소개···AI 기반 홈 라이프스타일 제시",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5aY2wzMS1ld2Fhc2hBYkRFblN3ZEd4RkhhbEd3TEpFUEVtWUFIbjhMdzBOZjVsdk1XVEVsNGFaTTJ3SWdQZFVrRV9lNS1zT3FpcTNMRjN2R042ejlFNklLSkVhX0xKQVVMUGc?oc=5",
-      "pubDate": "Fri, 17 Apr 2026 00:02:44 GMT",
-      "source": "서울파이낸스",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "공매도 세력, 증시랠리에 손실↑…한미반도체·현대차 등서 손실 추정",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1LUGowWTA1TDBmOURYQVdMUHNwTmFRRnV1QXAweGdubThqTERoZEI3bE9fQkhUdWpwcTFOSGlWWmJpMTFxclZmc2o4T1M4SVlEZHlnektSdVJEX3d6eEJVeQ?oc=5",
-      "pubDate": "Fri, 17 Apr 2026 00:02:18 GMT",
-      "source": "동양뉴스",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자",
-        "현대차"
-      ]
-    },
-    {
-      "title": "비트코인 반등에도 기관 복귀는 글쎄…7만8000달러가 저항선",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1aY3UyTnljUGFtaGxxOWRsWm14LV9hbzlvbktPOWpNWUZqVTJ3QmxMVGgxN0FxdU0xSGxqRTNRVnNhTElQa25ZdzJTNC1jOUlRUU5kd3VRU3hmS1F4dU9xbFpCQ1Job09VZFRiQWtsTFdDSk0?oc=5",
-      "pubDate": "Fri, 17 Apr 2026 00:01:55 GMT",
-      "source": "디지털투데이",
+      "title": "반도체 선물부터 AI 결제까지…스테이블코인 활용처 넓힌다",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1peFJYWTRqMFhVX0JPNUI0VWZnZWNwc2FRZ0w5MEsxaVVLRUVyRUtCUWxnX2wtSkhBaW1ZQVhKNjhNcm5wN01vbm9NSkl0bkdxY1EwNWNmbno?oc=5",
+      "pubDate": "Fri, 17 Apr 2026 00:36:37 GMT",
+      "source": "딜사이트",
       "category": {
         "label": "🟣 CRYPTO",
         "color": "#a55eea"
       },
       "impacts": [
-        "BTC",
-        "환율"
+        "삼성전자",
+        "BTC"
       ]
     },
     {
-      "title": "비트멕스, 잠자던 비트코인 선제 동결 대신 '카나리아 펀드' 제안…방식은?",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBIbjgyYllvTXZEU3JicWJTemVzMGV3LWhRQm5TZERVVkpIQWw2djE1TzJlTzNwZVlhUkZDeHV3b084eWoyREQyM0FJS1Rfamhudzl3V3hNNG05VGx0MkczVzJMYU94UmhmZWt5RU1nLXZWNVU?oc=5",
-      "pubDate": "Fri, 17 Apr 2026 00:01:14 GMT",
+      "title": "이번 주말 치킨집 불날까…삼성전자 오늘 배당금 2.2조 쏜다",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1ZQnRSTmRLN01ONHl3YlF3RXJSTUlseHhscjQ4TUVGWllwbHR6alNFRnV1WTNxbXQyNHZVdU5TTk5vcmNkX0UzYlJaVU5uemVrUHRYaDUxbTd4d9IBVEFVX3lxTE96dXgySG5yeFVIaUFfWnNndE54RXF5dUVIc1RRR1l3b3dpRkV1dURHX3FSVDNVUXRvdG04Q3ROM0tlMnJIYklfUm42NHA1Y2pvWXZGbQ?oc=5",
+      "pubDate": "Fri, 17 Apr 2026 00:33:57 GMT",
+      "source": "한국경제",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "'인도 진출 30주년' 현대차그룹 \"현지 사회공헌 확대로 양국 가교\"",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9lNWUxMmxZa3VsUEpLQUxkdXMxRFNqZzYxazE0ZUNkUXpKdDAzU29lM0I4ODliQXcwSmV4NW9NeXV6R3NBZldRaHJJQ2pMRXJ6NktORC1VeGlfSTdQb2pnZQ?oc=5",
+      "pubDate": "Fri, 17 Apr 2026 00:27:16 GMT",
+      "source": "뉴스1",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "삼성전자, 미국서 ‘더 브리프 뉴욕’ 개최…북미 맞춤형 AI 가전 공개",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1LWkg2NTdqT1BzUjlUTHNhYkxWOGxhZlpKWkZMSGhfbEtRRG5mRnhfSlZSZUJDWDQ0NWQtOFhrcmFsSmhkYjlZcFplTlVhaUVDRW15VDdfVC1XcV9XZFZv?oc=5",
+      "pubDate": "Fri, 17 Apr 2026 00:26:49 GMT",
+      "source": "데이터뉴스",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "\"중고차도 순정 신품 수리\"…현대차 '인증중고차 워런티 플러스' 출시",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE94UTdIR0NKQ3Q4dkR6enlISms4dDVVcUxXbFZ6TnVObFlmdGJSbkNDTXpLb3VRRTE1Y0ZVQW9rcmQ2LUZrLWU3R0luTnhjMDduTVllbkluNktZeE9JaDIwTA?oc=5",
+      "pubDate": "Fri, 17 Apr 2026 00:26:01 GMT",
+      "source": "뉴스1",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "스위스은행 시그넘 \"비트코인 현물 ETF 자금 흐름보다 기관 편입이 핵심\"",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE04OVV3Y3otNWZRRXQ5ZFpsNHVTTnZwLWhadThMUExaa0Utd29WdlZTMFNJNG1UaFBQYVFObTVXUlFJQkpodEdYY1Ntd3NoQVIyLXpERXJiRXNmTlpIVC1SNzNGV0VzQWpSMDlwY2x4eExURm8?oc=5",
+      "pubDate": "Fri, 17 Apr 2026 00:25:00 GMT",
       "source": "디지털투데이",
       "category": {
         "label": "🟣 CRYPTO",
@@ -122,13 +82,54 @@
       ]
     },
     {
-      "title": "“진정한 AI TV의 완성” 삼성전자, ‘더 퍼스트룩 서울’서 AI TV의 대중화 시대 개막을 알리다",
-      "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxOb3I0WFI2ZDZqemhITkhOZWlpVzk2eUgyLXdNa0U5aXVYSUVPVzlvQjlXdlZWZS1YYnplRFpsSExlMW95NFlXRlV5VEN5SkVHWXBUWHJhWDdRczlJdWJLUTM3TlRYMVhSS1JtTHFOMTVqX1VuWlJyTjdDUExVX1FVVzlpNjZfUWtETEpSQXZjRXJDZFNHNmlvNW5vVkR4a2tmTDFJRnVxem0waUl5cF94TDZhLW5FaEZhTUtURXJIeEhqV3c3TWp2Y1FoalB1aFpMRFpGUUxVT19EeFg0empkeVpENXA5VmJnN3F1eEJXVlpVRW5UZ2JhOEpJLVVfSENmTTJQS1FQQ2I4OFBJTS1yQTNzOTFuVjN5eVBMcg?oc=5",
-      "pubDate": "Fri, 17 Apr 2026 00:00:00 GMT",
-      "source": "samsung.com",
+      "title": "삼성전자, AI 인식 기술로 가사 부담 줄이고 삶의 질 높인다",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8yNV9KaVBjaW1xU3lwakFIM1dydHlOcURPeThfejFJVzlMaDNnN09yUTIxbnVRblRhUERWcXN0Yl85SWItNnRZMkQ1LUYyckJOWFNWQ3VFal9NRExidVU1WlVOb3I0OTdsUFAwS21R?oc=5",
+      "pubDate": "Fri, 17 Apr 2026 00:23:10 GMT",
+      "source": "elec4",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[넥스블록][데일리 크립토 무버스] 비트코인 7만4000달러대 강보합…사이렌 157% 급등",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9ZQUxfSjhwOHl3UnhaVUtuSDRZWUFEbTYtelRvb19hTTlLMmxEN2pEeW91WHotbDdBRVgxTkhGSGJSUXZHWGdmTFdnMWpONjk3VG55YQ?oc=5",
+      "pubDate": "Fri, 17 Apr 2026 00:21:00 GMT",
+      "source": "이투데이",
+      "category": {
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
+      },
+      "impacts": [
+        "BTC",
+        "환율"
+      ]
+    },
+    {
+      "title": "[장중시황] 코스피 0.5% 하락한 6190선 출발...반도체·건설 하락",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQRmdBMzVmYXU4SHNHb0lFZy1xV3ZtOXpWemtncUdGSEJSWVR6aVFvSnNJTmhTbGMzVENzbTQzb0d4OHFPWk4zRmNXZ21zLTB1eE1HbmRkeUNaNDhmT3BMQ3puUE5ZbHFEa3VKaGxyY1dpLUJZaVFpMmtCSW5yNW0xNTlrQU9WSXYx?oc=5",
+      "pubDate": "Fri, 17 Apr 2026 00:20:43 GMT",
+      "source": "글로벌이코노믹",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자",
+        "리츠"
+      ]
+    },
+    {
+      "title": "실적은 TSMC 5배, 몸값은 '절반'...K-반도체의 역습",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE12WGlER3FLZmtkbWVhSzBYNEU4NGlFV2NiSVNrUkg2Rkd2RFROVG9tTkl5RTc5RnowbmtFTEZ6cmpPLUZuOWpQUEhZdmlsRm1fR3N0Vmo0alM1N1lGbmRVczd3UmpONVR3RlVr?oc=5",
+      "pubDate": "Fri, 17 Apr 2026 00:20:33 GMT",
+      "source": "퍼블릭뉴스통신",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
       },
       "impacts": [
         "삼성전자"
