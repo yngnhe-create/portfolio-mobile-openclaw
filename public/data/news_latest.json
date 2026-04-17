@@ -1,25 +1,26 @@
 {
-  "timestamp": "2026-04-18T00:22:46.404801",
+  "timestamp": "2026-04-18T06:23:14.875782",
   "count": 10,
   "articles": [
     {
-      "title": "비트코인·금 같이 투자해야 효과 UP…금 5%만 담아도 효과 뚜렷",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4tNVRvZ2NPYy04enJKTnpGeWNyanBJcTF3d0NraFNSMDlwTzJtRGRNUnUybFd4dHk3VE1XMTlfdnZNSHNFU00zM2hMNUdDdnRMZXVHUl95YmNJTG9jWG1XSk8zenpVYzRubzlPYVBJcTRJd1k?oc=5",
-      "pubDate": "Fri, 17 Apr 2026 15:15:00 GMT",
-      "source": "디지털투데이",
+      "title": "[속보] 비트코인 3% 이상 급등, 7만8000달러 회복",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1MMllmT0tRTElTU3UxMXlCYTBEUm9ySGR6MWpWNmdTTkc4Y1dqeUtzOG9ITEhlYmdLdEo2WWlKWDVXUDZULVJlb2J4Y1hnYnBhTW9NSkt2WUs?oc=5",
+      "pubDate": "Fri, 17 Apr 2026 21:02:40 GMT",
+      "source": "뉴스1",
       "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
       },
       "impacts": [
+        "환율",
         "BTC"
       ]
     },
     {
-      "title": "[사설] ‘하루 1조 손실’ 협박하며 파업 시동거는 삼성전자 노조",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNdXNoMEN4SnhmVktLdEtQNWRIaHJHNEdQSmJoejRmRnpIakUtRDNuU0xfUUhRYjFYYll4VVBhem9pdE4yc0U5SkZiX2Zya1BLaExzZEdaNERDUkt3d0tUWkNVZjFXekEzNjBxNkRZRURPVk1LWjBabzdrdE9BVjJSYnNYNWozUQ?oc=5",
-      "pubDate": "Fri, 17 Apr 2026 15:10:00 GMT",
-      "source": "조선일보",
+      "title": "[삼성전자 성과급 딜레마①] '반도체 투톱 치킨게임'이 쏘아올린 파업 리스크",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4xY3FEaWl3azlFVFVBOGFaY0ZYUmMtZGw5ZjI5YmRBWWdURmtVN05LZGZ0dlFWUnFYc0k2dFptRVVqU1pkMncxWm8xWHVNMUtqVWZzWWdsVFE3QlpYS2h5Z9IBeEFVX3lxTE1Vd2xfRFRWV1JnYnNIYW9CX284WkxDbjBfNGE3eHA3cHdKSHVONm9iN3djalVLZ1pKTVdBX0xPZXpzUmhMU0FKeWtjbzJlcUNXalNnYUN5a01Vd3Q5YjQ5RzBoZGhsUzl0RWp6LTlEeU1jTDE4Vjg0OA?oc=5",
+      "pubDate": "Fri, 17 Apr 2026 21:00:00 GMT",
+      "source": "뉴시스",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -29,24 +30,24 @@
       ]
     },
     {
-      "title": "비트코인, 2개월 내 12만5000달러 간다…역대급 숏 스퀴즈 신호탄",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFAzUEdLbGtSQ1dyQWtTOF9kTnF2czNkM1VLYndpa1ZHQWxEZTl4emdMeTdHTmVQX21PLW1Sc0lRR3RnY1NfLWdXZVVHdkVfaFJJQkYzVmNZWEs3a25HWHRaczIxSEVabzBxckZ4Z3c5V2JBaVk?oc=5",
-      "pubDate": "Fri, 17 Apr 2026 15:05:00 GMT",
-      "source": "디지털투데이",
+      "title": "현대차, '그림의 떡' 中 전기차 시장 뚫는다…'아이오닉' 정면 돌파",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE02QUF1NnNNYzgtVlJsV2hnRlBwTDRYcG1tU1k1TUh3bGVWbmtKb2wzTWpNMEU1bV8wX0I5SzFWRGdkN1BfODBtcV9mSE05R1Q4cWpha051c9IBkAJBVV95cUxOT3B6YTExYVFrSGZ4SjdVczJ6bGZnMjAtY3g3RzVjaGtCTVZydGY3X1RCQk9sUGh2NUNicjh6TURkRzFiMUVYQTJDRC1QbThyYzg3YWR5OGNjZjV1aFVHWVEzTkZZTllYNDgxRG9ISFd6S29BaHN2aE4tV0EteUViMzNpZTI1cE80d3ZlcnJ4TVNDRUZDc21FbUtRdGktcHMtaVgwSGoyUGEwdVZtWGVFZGdkN3RCb2k0NjkyWkdGQVpMMF9HVE9IVl91enFOc1huRGJhX0QtM0w3eGNwQW1OeDhNUHZEa2lpNlE4Ri1YVVlxMmlRazF2WnYyNTdMM1hlZ1VuekFsZ3VXQWk2M2dFVg?oc=5",
+      "pubDate": "Fri, 17 Apr 2026 21:00:00 GMT",
+      "source": "데일리안",
       "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
       },
       "impacts": [
-        "BTC",
-        "환율"
+        "테슬라",
+        "현대차"
       ]
     },
     {
-      "title": "[사설] 협력업체 성과급에 완전월급제까지, 도 넘은 현대차 노조",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE53a1d0aWtLQmZ2em5GWUR4cE5GdF9sejVYMzdzbGdOVUp0Smk0Vjl3dTl4dnJJb3hqOXlCOWRROE8xbG1lRk9FTl85TEsteFpFX0HSAVNBVV95cUxNS092OVMzY1F6Y2J1bks1MW9fNEdzYk5kZTdGeEhTcTk0MjJwRFQzZnUxWWVIT3Q5OVd2dkVMN2ZuNk13LWhGRGlNMWFSclpGcVFPYw?oc=5",
-      "pubDate": "Fri, 17 Apr 2026 15:02:00 GMT",
-      "source": "서울경제",
+      "title": "매트릭스, 텍사스 '스틸하우스 솔라' 상업운전...현대차에 전력 판매",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBhSzFZQzY3Rlo5cmFlNUZHWGU2Y2JrMFFBdVRLSFU3MVNhTVk3dTU1TDExNnFoMmpPMXJqM0NGQWk4TzdKZHVwdENDOVd6ODVfVVR4SjdWQm1QazM2VVRnaC1wd29qWXRaRFE?oc=5",
+      "pubDate": "Fri, 17 Apr 2026 20:13:15 GMT",
+      "source": "AI타임스",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -56,10 +57,34 @@
       ]
     },
     {
-      "title": "\"7500까지 곧 간다\" 다시 힘내는 코스피, 외국인 복귀·반도체 호황에 재평가",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5OV1AxdWx3NkJPMWJDSm1DM0Z3QnVmdXpaWnZ4NXpPVHFrdlZOT0Q1RnRvbVNUSVh4TEhEUUpUOVJVUmY5d0h0WVZlS0pvU2Zic1BRVlJkQ1IwclU3M0E?oc=5",
-      "pubDate": "Fri, 17 Apr 2026 15:00:24 GMT",
-      "source": "더구루",
+      "title": "[속보] 비트코인 급등에 스트래티지 12% 폭등",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBKcm9jYmRkMUNHSVkzc0piUW1xbnBUbTNOVElrZllzMURBNy1xUGdfX01waWtUM1J1VUdsZ09LRXhHTThQWVJmZUE1Z1RLbDZoX2VpMldqUzg?oc=5",
+      "pubDate": "Fri, 17 Apr 2026 20:04:45 GMT",
+      "source": "뉴스1",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "대만 TSMC를 끌어들인 일본, 한국의 경쟁자로 떠오를까",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9qTVNmVFBpXzdONjRCV0h3bE51dUx3RWtRNnJvWm5pT3ZGZHhjQV93VnF0cm5zRVQ3T2dBOTJ6cE85UnlTZFNROWtSTFNwMXlTM1huSzhNaUJYR3hfV1J2VUhYRFJYMW0xVEpyUDBWOHkwNkZ0V1dBVw?oc=5",
+      "pubDate": "Fri, 17 Apr 2026 20:00:00 GMT",
+      "source": "조선일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": []
+    },
+    {
+      "title": "“반도체 섞어쓰기 시대 열렸다” 젠슨황이 쏜 ‘싸구려 낸드’ 역습",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE51cVJPMkZlNElNc3pZdDVUNk9Bb3pVbGRaQkxPWGxQd1VrR1N0OXM3MHcxalhlU1FQVVNpWFBRZGJRMnZZOVJPSGZrYk9kQk5mSTRiV1Jn?oc=5",
+      "pubDate": "Fri, 17 Apr 2026 19:00:00 GMT",
+      "source": "중앙일보",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -69,38 +94,10 @@
       ]
     },
     {
-      "title": "비트코인 급등에 암호화폐 관련주 상승, 2월 이후 처음으로 75,500달러 돌파",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBFOVlrSGtSWUYxXzZZanlpMlIxSkE1QkxOMTNjaWxac2JXSjBVbEhYLThEcTZDcGlQLWZQcnBNbk5lZzRJTXhKRjJGYzEwNkx6T29HaFNwYVJMSDdZRTJSM181dDF2LTJ3cHE4YW5yRkhIYzJPekdr?oc=5",
-      "pubDate": "Fri, 17 Apr 2026 14:35:00 GMT",
-      "source": "Investing.com 한국어",
-      "category": {
-        "label": "🟢 POSITIVE",
-        "color": "#4ecdc4"
-      },
-      "impacts": [
-        "BTC",
-        "환율"
-      ]
-    },
-    {
-      "title": "비트코인 vs. 금: 이란 충격 이후에도 안전자산 논쟁은 여전히 불분명",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5WTkdaRGd5TzFEVEJRdUFZMGJfZTFKTHdlUHZ5VXh5aTBoRHBHVFZ3NUFUYmRTLVV2djlZdUU1ejRudjhyNmpjQ1NUVjJ1d0hkd1lLbjZNck54dHdleTFvLWlmcVp3V29xZDZBZERpOA?oc=5",
-      "pubDate": "Fri, 17 Apr 2026 14:27:00 GMT",
-      "source": "Investing.com 한국어",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "원유",
-        "BTC"
-      ]
-    },
-    {
-      "title": "비트코인 반등에도 시장 심리 '극단적 공포’…차익실현·거시 변수 남았다",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBkZFk3UmpXZmJmdGRQelljTUwtR0plOHd2OHd4bUhyTzI5WVNpRUpBLU91ZXViQ25YbXZIcmZrZWpDbjlCUVhXT1JtUkpBQ01uRXFmN1l0b1FqUmVvTENTSkVTYkZ3M2hTdEQ2dDRWTWdEVUU?oc=5",
-      "pubDate": "Fri, 17 Apr 2026 14:04:00 GMT",
-      "source": "디지털투데이",
+      "title": "\"비트코인(BTC) 채굴업계, 양자 컴퓨팅·수익성·AI 경쟁 '삼중 압박'\"",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1ERzRmMWlhRC1FRHE4VnhLaVk4T2pKYzZ4Y2RWYjdIaGcyRVpRMG05M09qVGtQRUM3ZmtBQUdxUXl4WHdGNm5QMGRYazZfQnpV?oc=5",
+      "pubDate": "Fri, 17 Apr 2026 17:33:34 GMT",
+      "source": "블루밍비트",
       "category": {
         "label": "🟣 CRYPTO",
         "color": "#a55eea"
@@ -110,29 +107,29 @@
       ]
     },
     {
-      "title": "전략 주식, 비트코인 랠리 및 모멘텀 거래에 힘입어 12% 급등",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBoaGNYQkpGNzBuLTRGS3lLbjB3RlJaR3o2YmZjM1o3Ym5yV09HMWxDYXlQX3hrS1N0eVRJWHlaWkhXcGxwdFVob3B4THNiWGM0YlNkVTRoVmhWWGw1SzlfV1dSdGFoT291VTdRckU2S0p0UE9RSndr?oc=5",
-      "pubDate": "Fri, 17 Apr 2026 14:04:00 GMT",
-      "source": "Investing.com 한국어",
+      "title": "\"K-반도체·디스플레이, 특허로 지킨다\"... 지식재산처, 현장소통 강화 나서",
+      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9QUW9pMjZCb3d6NXlHRFM2LWdHYVQ1NDlkbUNJMDRJR2JMcVJGMV9MRkVhRy0tRlBRTzJmR1U1N2tkeEpNRm9FaQ?oc=5",
+      "pubDate": "Fri, 17 Apr 2026 16:50:00 GMT",
+      "source": "특허뉴스",
       "category": {
-        "label": "🟢 POSITIVE",
-        "color": "#4ecdc4"
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
       },
       "impacts": [
-        "BTC"
+        "삼성전자"
       ]
     },
     {
-      "title": "비트코인 바닥 신호 아직 미점등…50주·100주선 교차 안 나왔다",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1CMk81Mk1vMnN5RzVlM0xPQkpZZnllalpBdVVIWEVyaFIzYU1TM3ZiLVl5QndnQzF1UW81SF9WeVNOSmNHRU1maXA5QlZqekdyQW4zV3dFZXlCaHVtVVF1V3FnRlVsUUk2SmdrYXRUTGRWVFE?oc=5",
-      "pubDate": "Fri, 17 Apr 2026 13:26:34 GMT",
-      "source": "디지털투데이",
+      "title": "내달 총파업 예고한 삼성전자 노조… “회사 최대 30조 손실 가능” 으름장",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9DTDI4UFNRZTNZRGdKY256U1hwTGF0ZHo1QjJaYWZZdXExc0JvTlBxNlhxSW9qSGN4TkJTQUx3cEwyeW9XcEhFWlNYUjVITUZDZTJzNEkxbkVjZVFrZmRWWUk5dnd0QXU2bnRwTjlMdmFPTlVabFHSAWZBVV95cUxPX194eWRDVWNrZld5OUJWOEozMFVNQlNTWFZmVWZSWXU5VmJmYndNSHB6ZEtfMmRJRGpudFg5QnNGcDQxZlJVelJVT2hsWVEtT0ItV3ZLUENfamdyY3BMalA1akhPMmc?oc=5",
+      "pubDate": "Fri, 17 Apr 2026 16:40:00 GMT",
+      "source": "동아일보",
       "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
       },
       "impacts": [
-        "BTC"
+        "삼성전자"
       ]
     }
   ]
