@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-17T18:17:04.451546",
+  "timestamp": "2026-04-17T18:21:20.923408",
   "count": 10,
   "articles": [
     {
@@ -49,6 +49,19 @@
       "category": {
         "label": "🟢 POSITIVE",
         "color": "#4ecdc4"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "'삼성전자 2배' ETF 출시 임박…분주해진 운용업계",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9aZHZwcXBEMEd1UDZUOHpUUHpsWHRVMVFkaTdhbk9RSFU4ejZ6SElEbXNUODBKaWxYMTY5cjdueTlHNHBCV2cwNWdUZTVpVmJFNHQ2anBXODQ1azlJdkhmX2FPV0Q?oc=5",
+      "pubDate": "Fri, 17 Apr 2026 08:50:03 GMT",
+      "source": "서울경제TV",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
       },
       "impacts": [
         "삼성전자"
@@ -117,19 +130,6 @@
       },
       "impacts": [
         "현대차"
-      ]
-    },
-    {
-      "title": "삼성전자, 노조 총파업 앞두고 ‘불법 쟁의행위 금지’ 가처분 신청",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9XSFFMWFFUSmZzR2xCcnY2OUZpVUJpNVVzdmpqbFVPX2FmcFV1NmtRMlNfYnI2c0MwVldVYkdxb2RjR3NWWEoyaU9iRXlseTBBam9sN1JR?oc=5",
-      "pubDate": "Fri, 17 Apr 2026 08:32:55 GMT",
-      "source": "중앙일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
       ]
     }
   ]
