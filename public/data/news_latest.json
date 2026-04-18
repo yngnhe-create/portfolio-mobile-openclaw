@@ -1,103 +1,26 @@
 {
-  "timestamp": "2026-04-18T06:23:14.875782",
+  "timestamp": "2026-04-18T12:23:28.500651",
   "count": 10,
   "articles": [
     {
-      "title": "[속보] 비트코인 3% 이상 급등, 7만8000달러 회복",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1MMllmT0tRTElTU3UxMXlCYTBEUm9ySGR6MWpWNmdTTkc4Y1dqeUtzOG9ITEhlYmdLdEo2WWlKWDVXUDZULVJlb2J4Y1hnYnBhTW9NSkt2WUs?oc=5",
-      "pubDate": "Fri, 17 Apr 2026 21:02:40 GMT",
-      "source": "뉴스1",
+      "title": "\"바닥 찍었다\" 마이클 세일러, 비트코인 10억 달러 베팅···폴리마켓은 회의적",
+      "link": "https://news.google.com/rss/articles/CBMizwJBVV95cUxPQi04QjVwUDhvMURWQjNvYmdqeFAxc1Vhb29OUXo2X1VhbnZGSC1mTmlVMllKZlNpTWJvNU5ISUxSZW9CNUxtNU10Ulo4aWJOQW9UZE5uR2cwX25MZTVYajRxLUdQTXpqTHVGblpsaTh6bDYzUERURXlYbGZZbFRWUHZXN3lIdFRGSEV0eXFrX2hTRERSSjJYSGpEc2Y5aUZYT19EaVRyQ2V0UUVMUVVnNnZNT0VMTnMtNHNuNzFwLS1IVWtfYWJwTVJFREUtS1JFSWZJcE9nN2Z3Y0JtYjloWjhnem5zaDAyYkRlUGlHSnpmWG9wZDgzdHotajVsakZzbzVkdmVwMUlySUhIS3VrMW5VNjFMTjY0aFdBTTJBWHBQdW12MzlScUlJOVBSNVh4d09yVkVKU2xLNmFranpONzlXeGQ3X21ma2Z2OHpPTQ?oc=5",
+      "pubDate": "Sat, 18 Apr 2026 02:57:39 GMT",
+      "source": "Benzinga",
       "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
       },
       "impacts": [
-        "환율",
-        "BTC"
+        "BTC",
+        "환율"
       ]
     },
     {
-      "title": "[삼성전자 성과급 딜레마①] '반도체 투톱 치킨게임'이 쏘아올린 파업 리스크",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4xY3FEaWl3azlFVFVBOGFaY0ZYUmMtZGw5ZjI5YmRBWWdURmtVN05LZGZ0dlFWUnFYc0k2dFptRVVqU1pkMncxWm8xWHVNMUtqVWZzWWdsVFE3QlpYS2h5Z9IBeEFVX3lxTE1Vd2xfRFRWV1JnYnNIYW9CX284WkxDbjBfNGE3eHA3cHdKSHVONm9iN3djalVLZ1pKTVdBX0xPZXpzUmhMU0FKeWtjbzJlcUNXalNnYUN5a01Vd3Q5YjQ5RzBoZGhsUzl0RWp6LTlEeU1jTDE4Vjg0OA?oc=5",
-      "pubDate": "Fri, 17 Apr 2026 21:00:00 GMT",
-      "source": "뉴시스",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "현대차, '그림의 떡' 中 전기차 시장 뚫는다…'아이오닉' 정면 돌파",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE02QUF1NnNNYzgtVlJsV2hnRlBwTDRYcG1tU1k1TUh3bGVWbmtKb2wzTWpNMEU1bV8wX0I5SzFWRGdkN1BfODBtcV9mSE05R1Q4cWpha051c9IBkAJBVV95cUxOT3B6YTExYVFrSGZ4SjdVczJ6bGZnMjAtY3g3RzVjaGtCTVZydGY3X1RCQk9sUGh2NUNicjh6TURkRzFiMUVYQTJDRC1QbThyYzg3YWR5OGNjZjV1aFVHWVEzTkZZTllYNDgxRG9ISFd6S29BaHN2aE4tV0EteUViMzNpZTI1cE80d3ZlcnJ4TVNDRUZDc21FbUtRdGktcHMtaVgwSGoyUGEwdVZtWGVFZGdkN3RCb2k0NjkyWkdGQVpMMF9HVE9IVl91enFOc1huRGJhX0QtM0w3eGNwQW1OeDhNUHZEa2lpNlE4Ri1YVVlxMmlRazF2WnYyNTdMM1hlZ1VuekFsZ3VXQWk2M2dFVg?oc=5",
-      "pubDate": "Fri, 17 Apr 2026 21:00:00 GMT",
-      "source": "데일리안",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "테슬라",
-        "현대차"
-      ]
-    },
-    {
-      "title": "매트릭스, 텍사스 '스틸하우스 솔라' 상업운전...현대차에 전력 판매",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBhSzFZQzY3Rlo5cmFlNUZHWGU2Y2JrMFFBdVRLSFU3MVNhTVk3dTU1TDExNnFoMmpPMXJqM0NGQWk4TzdKZHVwdENDOVd6ODVfVVR4SjdWQm1QazM2VVRnaC1wd29qWXRaRFE?oc=5",
-      "pubDate": "Fri, 17 Apr 2026 20:13:15 GMT",
-      "source": "AI타임스",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "[속보] 비트코인 급등에 스트래티지 12% 폭등",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBKcm9jYmRkMUNHSVkzc0piUW1xbnBUbTNOVElrZllzMURBNy1xUGdfX01waWtUM1J1VUdsZ09LRXhHTThQWVJmZUE1Z1RLbDZoX2VpMldqUzg?oc=5",
-      "pubDate": "Fri, 17 Apr 2026 20:04:45 GMT",
-      "source": "뉴스1",
-      "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "대만 TSMC를 끌어들인 일본, 한국의 경쟁자로 떠오를까",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9qTVNmVFBpXzdONjRCV0h3bE51dUx3RWtRNnJvWm5pT3ZGZHhjQV93VnF0cm5zRVQ3T2dBOTJ6cE85UnlTZFNROWtSTFNwMXlTM1huSzhNaUJYR3hfV1J2VUhYRFJYMW0xVEpyUDBWOHkwNkZ0V1dBVw?oc=5",
-      "pubDate": "Fri, 17 Apr 2026 20:00:00 GMT",
+      "title": "머스크 父 \"일론·킴벌, 비트코인 2만3400개 보유\"...2조6000억원 상당",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQYUNtekhJLUNNTXJJeHoyVWNfVFVRcVBPVl9tVlNaV2tyRkxWUXl6VmJueGdVRlZKVTMzOUJSbEFocGkwR21YOE5iS0Vxd3dYT1dSQnVtT1VCMTBIbUhiUXQ3cmtQNG1kWUZ1VkpFeEZKTDFCVHlYVUExYjItMWtnb3AxenlTVWMxQlVB?oc=5",
+      "pubDate": "Sat, 18 Apr 2026 02:26:00 GMT",
       "source": "조선일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": []
-    },
-    {
-      "title": "“반도체 섞어쓰기 시대 열렸다” 젠슨황이 쏜 ‘싸구려 낸드’ 역습",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE51cVJPMkZlNElNc3pZdDVUNk9Bb3pVbGRaQkxPWGxQd1VrR1N0OXM3MHcxalhlU1FQVVNpWFBRZGJRMnZZOVJPSGZrYk9kQk5mSTRiV1Jn?oc=5",
-      "pubDate": "Fri, 17 Apr 2026 19:00:00 GMT",
-      "source": "중앙일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "\"비트코인(BTC) 채굴업계, 양자 컴퓨팅·수익성·AI 경쟁 '삼중 압박'\"",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1ERzRmMWlhRC1FRHE4VnhLaVk4T2pKYzZ4Y2RWYjdIaGcyRVpRMG05M09qVGtQRUM3ZmtBQUdxUXl4WHdGNm5QMGRYazZfQnpV?oc=5",
-      "pubDate": "Fri, 17 Apr 2026 17:33:34 GMT",
-      "source": "블루밍비트",
       "category": {
         "label": "🟣 CRYPTO",
         "color": "#a55eea"
@@ -107,10 +30,65 @@
       ]
     },
     {
-      "title": "\"K-반도체·디스플레이, 특허로 지킨다\"... 지식재산처, 현장소통 강화 나서",
-      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9QUW9pMjZCb3d6NXlHRFM2LWdHYVQ1NDlkbUNJMDRJR2JMcVJGMV9MRkVhRy0tRlBRTzJmR1U1N2tkeEpNRm9FaQ?oc=5",
-      "pubDate": "Fri, 17 Apr 2026 16:50:00 GMT",
-      "source": "특허뉴스",
+      "title": "비트코인 7만8000달러 재돌파·알트도 들썩…전망은?",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5IRFluYlVtOXRmcmVtcDVlYU5fWTk4UzJ6bVRIR0M5MlNHcnJ1c2NJR3lKVFFwLU9DR0xlQUVPLXE0VS1hMmtGdExwRXJmeE5pYjNZ?oc=5",
+      "pubDate": "Sat, 18 Apr 2026 02:22:00 GMT",
+      "source": "네이트",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC",
+        "환율"
+      ]
+    },
+    {
+      "title": "중동 완화에 코인도 ‘리스크 온’ … 비트코인 7만8000달러 회복",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5xcUM0TWtQc1ZtUjhWRm10dkJEaFZpR0hZN2szbnBhY3lKM2Q5OExPRGxmWVI2ZUplaDR4V3VNSU9XREZ2LTVQS3pmZXpSZHprWUVmRGdMNDM2SGF5VzU4eFpiVFB1TW02S3JVSWRLUkYwdVZnV0h1TVBHRQ?oc=5",
+      "pubDate": "Sat, 18 Apr 2026 02:16:58 GMT",
+      "source": "뉴데일리 경제",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC",
+        "원유",
+        "환율"
+      ]
+    },
+    {
+      "title": "“머스크 형제, 2만3400 비트코인 보유…2조5000억원 상당”",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5GcGFkODlUUkl6SEZqZ3FaZEJmZGtjYmRRZ3FuNjJ3eHBkR0F3a3dSay0zWXFiX3pIZWV5THNSSldhWnpCbld3TkxQVWhSdFl6?oc=5",
+      "pubDate": "Sat, 18 Apr 2026 02:01:44 GMT",
+      "source": "문화일보",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "비트코인·이더리움 박스권 벗어날까…두달만에 최고가",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBxQ25uUDEtTjdPMmQyVUhKcVlTWFdZNGlTVlBERV9WZV92TDR1aU9maU81bUVaZEtNQXhxLWktVkFNMDJOQVhqY2NYa1g5eGM?oc=5",
+      "pubDate": "Sat, 18 Apr 2026 02:01:32 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "삼성전자 노조 “총파업 시 회사에 최소 20조 손실 가능” 경고",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9pNEI3MTEtM01qeVg2WkxfWjV3Y3JZQl9NREQ2VWt0QkIyamFUdTZranNFTUd1Z2hmRGRXZ0tCX1k3aTJsQVp2UENjNU4wTWVrZDZ3cmY1bVTSAVRBVV95cUxNNDhZR01BNjE1dl9fZElPUUI4LWFoZlpVOTJjZFgxT0lzVGlMSmlYRWlUeWFyVktyakVSUTJSYngxdGd2bE1IWjlfVHZNUVBrS1JfMXI?oc=5",
+      "pubDate": "Sat, 18 Apr 2026 01:47:00 GMT",
+      "source": "세계일보",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -120,10 +98,38 @@
       ]
     },
     {
-      "title": "내달 총파업 예고한 삼성전자 노조… “회사 최대 30조 손실 가능” 으름장",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9DTDI4UFNRZTNZRGdKY256U1hwTGF0ZHo1QjJaYWZZdXExc0JvTlBxNlhxSW9qSGN4TkJTQUx3cEwyeW9XcEhFWlNYUjVITUZDZTJzNEkxbkVjZVFrZmRWWUk5dnd0QXU2bnRwTjlMdmFPTlVabFHSAWZBVV95cUxPX194eWRDVWNrZld5OUJWOEozMFVNQlNTWFZmVWZSWXU5VmJmYndNSHB6ZEtfMmRJRGpudFg5QnNGcDQxZlJVelJVT2hsWVEtT0ItV3ZLUENfamdyY3BMalA1akhPMmc?oc=5",
-      "pubDate": "Fri, 17 Apr 2026 16:40:00 GMT",
-      "source": "동아일보",
+      "title": "로빈후드 노리는 미래에셋·슈퍼앱 진화하는 토스·…금융권 코인 사업 속도[비트코인 A to Z]",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE10M3RZNEZGSjhsRW5JSGtWa3dnSVNWbU8zTUhnb3NHN3hEbjVUVkVQdlBQdlZfUWVnSW1NeGdyb0xKRldieEl3bEJWVXJXMUZySHZlX0RQeFNMbTZ1ZU5vY0RDdFo3cHU0eThncQ?oc=5",
+      "pubDate": "Sat, 18 Apr 2026 01:45:00 GMT",
+      "source": "한경매거진&북",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "비트코인 7만5000달러 돌파···호르무즈 해협 재개방에 '반등'",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAxUHdlNnZuWndqOXpacHJLWWhRUTJETHNHTHZyRHRnYnhQd2FjR0pTTXpET3JqNDR1Tmg1TnNwUWEwNS1nUEdjUm1Gbzg0WGdERllkaTR1Q1RTT1JjNFBNWW1ZVWVWNHRGMEE?oc=5",
+      "pubDate": "Sat, 18 Apr 2026 01:40:51 GMT",
+      "source": "뉴스웨이",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC",
+        "원유",
+        "환율"
+      ]
+    },
+    {
+      "title": "충남반도체마이스터고, 충남기능경기대회 통신망분배기술 직종 '전원 수상'",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE15b01HZ0FOX0dLNFlEeXMzdnJMYkMxNHk4V3dnN0d1dFNFOVhMQV9EN1lPZ3VQdWZxUmg2MmVvT2ozUFZYbm9RME4xdmo2YjA?oc=5",
+      "pubDate": "Sat, 18 Apr 2026 01:33:02 GMT",
+      "source": "v.daum.net",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
