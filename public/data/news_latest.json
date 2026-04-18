@@ -1,26 +1,51 @@
 {
-  "timestamp": "2026-04-18T12:23:28.500651",
+  "timestamp": "2026-04-18T18:23:43.067899",
   "count": 10,
   "articles": [
     {
-      "title": "\"바닥 찍었다\" 마이클 세일러, 비트코인 10억 달러 베팅···폴리마켓은 회의적",
-      "link": "https://news.google.com/rss/articles/CBMizwJBVV95cUxPQi04QjVwUDhvMURWQjNvYmdqeFAxc1Vhb29OUXo2X1VhbnZGSC1mTmlVMllKZlNpTWJvNU5ISUxSZW9CNUxtNU10Ulo4aWJOQW9UZE5uR2cwX25MZTVYajRxLUdQTXpqTHVGblpsaTh6bDYzUERURXlYbGZZbFRWUHZXN3lIdFRGSEV0eXFrX2hTRERSSjJYSGpEc2Y5aUZYT19EaVRyQ2V0UUVMUVVnNnZNT0VMTnMtNHNuNzFwLS1IVWtfYWJwTVJFREUtS1JFSWZJcE9nN2Z3Y0JtYjloWjhnem5zaDAyYkRlUGlHSnpmWG9wZDgzdHotajVsakZzbzVkdmVwMUlySUhIS3VrMW5VNjFMTjY0aFdBTTJBWHBQdW12MzlScUlJOVBSNVh4d09yVkVKU2xLNmFranpONzlXeGQ3X21ma2Z2OHpPTQ?oc=5",
-      "pubDate": "Sat, 18 Apr 2026 02:57:39 GMT",
-      "source": "Benzinga",
+      "title": "르노코리아, ‘현대차 32년 베테랑’ 조원상 영업본부장 영입",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9kaVFJY0hTaUJHd0FaN1dUVzk0Wk9EMW5vYU1WLTIxQjFZWVZiU1kzMVZ5RjVyYkZHLVZ6UDRZRDNJcGxVT012RTZqczQwd2RsOEVuUVBjUnF2azJsQ0JPS0R4YjV6UVFuaUHSAW5BVV95cUxQTnpwSllkZldCMGl0X1RrNUdUM2taNXdObjZzd1BKOGJSMVJSYUUxNHY3R0RnWENtNTY4SHdhUEt2TTh4cU1TNkQtVjZrRWZwZUZPT1FoS3JmZXpsck5pVy1lZnAxRXBWWmY2VHNBdw?oc=5",
+      "pubDate": "Sat, 18 Apr 2026 08:56:22 GMT",
+      "source": "지피코리아",
       "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
       },
       "impacts": [
-        "BTC",
-        "환율"
+        "현대차"
       ]
     },
     {
-      "title": "머스크 父 \"일론·킴벌, 비트코인 2만3400개 보유\"...2조6000억원 상당",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQYUNtekhJLUNNTXJJeHoyVWNfVFVRcVBPVl9tVlNaV2tyRkxWUXl6VmJueGdVRlZKVTMzOUJSbEFocGkwR21YOE5iS0Vxd3dYT1dSQnVtT1VCMTBIbUhiUXQ3cmtQNG1kWUZ1VkpFeEZKTDFCVHlYVUExYjItMWtnb3AxenlTVWMxQlVB?oc=5",
-      "pubDate": "Sat, 18 Apr 2026 02:26:00 GMT",
-      "source": "조선일보",
+      "title": "'2030 코스피' vs '5060 반도체'…확 갈린 '연금 ETF' 투자법",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBlXzZITGFZSEdOUXVTeXZIQlhjV3FfNWRYMXhTam1SbmFTZm9qV3ltZl92dS1VWmRKNWVteEVRX3BIOVlnNDBwcGc0LU9PdjhGTWk4?oc=5",
+      "pubDate": "Sat, 18 Apr 2026 08:31:00 GMT",
+      "source": "네이트",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "반도체 기업 위안제, 중국서 가장 비싼 주식 등극",
+      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9SZ3Z1Zi1JSXM4cU9lc3VXS1Z6V1BQaUZYblJVZV9sZklJelU4VEFZaWhNUTFEZG5COTNnOXZETzRkOHZkRUR3eWdEeWs?oc=5",
+      "pubDate": "Sat, 18 Apr 2026 08:23:05 GMT",
+      "source": "아이뉴스24",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "머스크 父 “두 아들, 비트코인 2만3400개 보유”",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5WSGhnaXlSdy1YQmVBZlQ5ZEdkZUZFMTRZQUhwLVhiMEdsWVlFQXE1ckhrbFV1Q1psRTJmcVVhaVRSY3hNUmt2cUs3NkpleFk?oc=5",
+      "pubDate": "Sat, 18 Apr 2026 08:22:14 GMT",
+      "source": "v.daum.net",
       "category": {
         "label": "🟣 CRYPTO",
         "color": "#a55eea"
@@ -30,112 +55,83 @@
       ]
     },
     {
-      "title": "비트코인 7만8000달러 재돌파·알트도 들썩…전망은?",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5IRFluYlVtOXRmcmVtcDVlYU5fWTk4UzJ6bVRIR0M5MlNHcnJ1c2NJR3lKVFFwLU9DR0xlQUVPLXE0VS1hMmtGdExwRXJmeE5pYjNZ?oc=5",
-      "pubDate": "Sat, 18 Apr 2026 02:22:00 GMT",
+      "title": "삼성전자 ‘30조 손실’ 파업 초읽기···노조, 평택사업장 4만명 집결 예고",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1ra25GSnlpakd0TU9rWjJWbXI2MHFRN3NVTHVOTGpGTFVEeXBkVFV4ZzcxV2o4VnlRS3dqRTFXR3JWaXVycjZWei1rdHFPWTh1V0Jsc2lCcjBsUUxLQ0ltQXZIcXRrY2FJbDYxWDN1TTHSAXRBVV95cUxPWWpmMGxWaEloUU9QYkl5R0NQMnpNLTZ1UzhKNHBrdHdIdmpGeEg4U0tiZ3ZORmgybXN3V2drUzZabk5sRFJUTWpJZktlZVRQWTg5dUx6NWJuWHFFeVZXSWR5Qm5LWHJfLWlWd09mUmtwMk1IMA?oc=5",
+      "pubDate": "Sat, 18 Apr 2026 07:59:33 GMT",
+      "source": "이뉴스투데이",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "비트코인, 이란 호르무즈 개방에 회복세…78,000달러 찍어",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9SczRLWXJqYkV4QVFueDJoSVFzNjB6YXZOaGFkRzliano4UlRMQy10OUZMOE9TN1J6TjF5YllsUWFJRTIzYTdKMjd1YWo0S2x0MDI5MW42WEFTcUp5QS1jZHEzbjdzRXA5X0tsODhGU2jSAXRBVV95cUxQR3k2T2tqLXVJYXhNRk83N08zVGVTcFZXZVhrdnNkQ21sZWxYaGtPenJaRFZMRl9NRks4dWNOR25wMnEzdHhSSXZmazgzcUdGT21MbWc2STVtRUdoVVVsUFlGVVJVOURSOUkzYjdhWDczQzc2cA?oc=5",
+      "pubDate": "Sat, 18 Apr 2026 07:54:52 GMT",
+      "source": "연합인포맥스",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC",
+        "원유",
+        "환율"
+      ]
+    },
+    {
+      "title": "AI 붐에 중국 ‘가장 비싼주식’ 마오타이에서 반도체 회사로 바뀌었다",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE94ekNDUVkyZkQzNklYRVBpdm8zZk9CYlk5clgwSC1xQ0lXYjBLQnhNSnZOM05PbC1KRzR6bU92RklON0dUcTVxdGd6NnVUZW8?oc=5",
+      "pubDate": "Sat, 18 Apr 2026 07:53:46 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "AI 바람 타고 中반도체 위안제, 마오타이 꺾고 '최고가 주식' 등극",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1kbl81d1ZnZWRVdW1jSmJINjlMZlVNN3p4VEVNaHdpcWZjWFBuNXQ3SXdDNG1XSHhRZmVUMEkyeVV2RlZ6XzBnNEFLeWdPd1JMeWpGVFZmV3hWcGZER3JYbUUybDRTU1ZacHpvMVk1TEd1Slk?oc=5",
+      "pubDate": "Sat, 18 Apr 2026 07:48:08 GMT",
+      "source": "마켓인",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "\"머스크 형제, 2조5000억 상당 비트코인 보유하고 있어\"",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1fZE90OXF4MTlscGVHcGowZVFmSEVNN3MwTWJRVVNjN0V3ZzNQSTJNWE85VkZralMwbDQxTU9jUEl5UE5nb3o4V3diSWNuQlRkVUFB?oc=5",
+      "pubDate": "Sat, 18 Apr 2026 06:55:00 GMT",
       "source": "네이트",
       "category": {
         "label": "🟣 CRYPTO",
         "color": "#a55eea"
       },
       "impacts": [
-        "BTC",
-        "환율"
+        "BTC"
       ]
     },
     {
-      "title": "중동 완화에 코인도 ‘리스크 온’ … 비트코인 7만8000달러 회복",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5xcUM0TWtQc1ZtUjhWRm10dkJEaFZpR0hZN2szbnBhY3lKM2Q5OExPRGxmWVI2ZUplaDR4V3VNSU9XREZ2LTVQS3pmZXpSZHprWUVmRGdMNDM2SGF5VzU4eFpiVFB1TW02S3JVSWRLUkYwdVZnV0h1TVBHRQ?oc=5",
-      "pubDate": "Sat, 18 Apr 2026 02:16:58 GMT",
-      "source": "뉴데일리 경제",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC",
-        "원유",
-        "환율"
-      ]
-    },
-    {
-      "title": "“머스크 형제, 2만3400 비트코인 보유…2조5000억원 상당”",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5GcGFkODlUUkl6SEZqZ3FaZEJmZGtjYmRRZ3FuNjJ3eHBkR0F3a3dSay0zWXFiX3pIZWV5THNSSldhWnpCbld3TkxQVWhSdFl6?oc=5",
-      "pubDate": "Sat, 18 Apr 2026 02:01:44 GMT",
-      "source": "문화일보",
+      "title": "“머스크 형제, 비트코인 2만개 넘게 보유…2조5000억원 상당”",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5FTlJVeGtoR01KeTAyUTgzQjctYlRRQTZIOGg0VzRXV0J1ZWN1NnZwX2dQdjF0eUprLXRYcW9TMEgwZjc1UGg0Q0p6YjYyV2RCQUw5V3dB?oc=5",
+      "pubDate": "Sat, 18 Apr 2026 06:54:04 GMT",
+      "source": "중앙일보",
       "category": {
         "label": "🟣 CRYPTO",
         "color": "#a55eea"
       },
       "impacts": [
         "BTC"
-      ]
-    },
-    {
-      "title": "비트코인·이더리움 박스권 벗어날까…두달만에 최고가",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBxQ25uUDEtTjdPMmQyVUhKcVlTWFdZNGlTVlBERV9WZV92TDR1aU9maU81bUVaZEtNQXhxLWktVkFNMDJOQVhqY2NYa1g5eGM?oc=5",
-      "pubDate": "Sat, 18 Apr 2026 02:01:32 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "삼성전자 노조 “총파업 시 회사에 최소 20조 손실 가능” 경고",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9pNEI3MTEtM01qeVg2WkxfWjV3Y3JZQl9NREQ2VWt0QkIyamFUdTZranNFTUd1Z2hmRGRXZ0tCX1k3aTJsQVp2UENjNU4wTWVrZDZ3cmY1bVTSAVRBVV95cUxNNDhZR01BNjE1dl9fZElPUUI4LWFoZlpVOTJjZFgxT0lzVGlMSmlYRWlUeWFyVktyakVSUTJSYngxdGd2bE1IWjlfVHZNUVBrS1JfMXI?oc=5",
-      "pubDate": "Sat, 18 Apr 2026 01:47:00 GMT",
-      "source": "세계일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "로빈후드 노리는 미래에셋·슈퍼앱 진화하는 토스·…금융권 코인 사업 속도[비트코인 A to Z]",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE10M3RZNEZGSjhsRW5JSGtWa3dnSVNWbU8zTUhnb3NHN3hEbjVUVkVQdlBQdlZfUWVnSW1NeGdyb0xKRldieEl3bEJWVXJXMUZySHZlX0RQeFNMbTZ1ZU5vY0RDdFo3cHU0eThncQ?oc=5",
-      "pubDate": "Sat, 18 Apr 2026 01:45:00 GMT",
-      "source": "한경매거진&북",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "비트코인 7만5000달러 돌파···호르무즈 해협 재개방에 '반등'",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAxUHdlNnZuWndqOXpacHJLWWhRUTJETHNHTHZyRHRnYnhQd2FjR0pTTXpET3JqNDR1Tmg1TnNwUWEwNS1nUEdjUm1Gbzg0WGdERllkaTR1Q1RTT1JjNFBNWW1ZVWVWNHRGMEE?oc=5",
-      "pubDate": "Sat, 18 Apr 2026 01:40:51 GMT",
-      "source": "뉴스웨이",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC",
-        "원유",
-        "환율"
-      ]
-    },
-    {
-      "title": "충남반도체마이스터고, 충남기능경기대회 통신망분배기술 직종 '전원 수상'",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE15b01HZ0FOX0dLNFlEeXMzdnJMYkMxNHk4V3dnN0d1dFNFOVhMQV9EN1lPZ3VQdWZxUmg2MmVvT2ozUFZYbm9RME4xdmo2YjA?oc=5",
-      "pubDate": "Sat, 18 Apr 2026 01:33:02 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
       ]
     }
   ]
