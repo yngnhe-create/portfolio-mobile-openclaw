@@ -1,120 +1,94 @@
 {
-  "timestamp": "2026-04-20T06:23:32.354140",
+  "timestamp": "2026-04-20T08:17:05.087875",
   "count": 10,
   "articles": [
     {
-      "title": "\"페인트 떼고 반도체·2차전지\"…삼화·노루·조광 '첨단소재' 전환 속도",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBiMFU3amlTS2VPRThGRElaZG5PNUVJbUp3LVNsaXVocFpibGU0TGE0bWlXMERmZHRDa05HYU4tQXp4VnBCMjEtNHBzam5ONWdhdWVxSVhSYktEZmlV?oc=5",
-      "pubDate": "Sun, 19 Apr 2026 21:10:00 GMT",
+      "title": "현대차 정몽구 재단, 제12회 계촌 클래식 축제 개최",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1PX21RLVRWTEFhRGE4QVZzcUNpdWM0RWd0dFpNQkRib0J2UTlmZFM5OWhGYkExOVlFUTJ3RVJtNTNwbnFBX25wTElTWHF5LWpXYUp0M0lmdmRRaTNKY2lhWk8xelA0dm81ejZCZjVn?oc=5",
+      "pubDate": "Sun, 19 Apr 2026 23:11:12 GMT",
+      "source": "이코노뉴스",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "삼성전자, ‘EHS 히트펌프 보일러’ 국내 출시…“기존 보일러보다 효율 4배”",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBndE1nOTM2am1TV1hoUVRKVWI1ZHJhNzhhOWFFbEU2NVdjY0lxc2VfdE1OYUduOHdOSHY0NDNBQWxPQ3RhQzNpUXQ3S1daQXQ4RWJxcGs5c0hLWWVWbWlsTVNiSlE?oc=5",
+      "pubDate": "Sun, 19 Apr 2026 23:09:11 GMT",
+      "source": "서울경제TV",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[오늘의 투자전략] SK하이닉스ㆍ현대차 실적 기대감↑ VS 호르무즈 재봉쇄⋯ 전고점 재도전",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1EM2h2WUJjekl1Yk03UEdiRWsxankzQXlqZ1ZndnE4akNBbWlQNElWSlRfdWNndHdlN3Z2WEd3Y19TOUU0ajRLR3Utb0QzVmdxRmF6cA?oc=5",
+      "pubDate": "Sun, 19 Apr 2026 23:08:00 GMT",
+      "source": "이투데이",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
+      },
+      "impacts": [
+        "원유",
+        "현대차"
+      ]
+    },
+    {
+      "title": "KCC·LX글라스, ‘반도체 유리 기판’ 승부수… 코닝·쇼트 등 글로벌 벽에 ‘고전’",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOa2JOOWZ5TW5JeVRaMXk3WUVtSGtIbmhiNjFBd0NPVW1xWk9mSUZ5bEJjLWtCWFB3Tkd0aHBwcllTanhUR3VIYVItZE8wTFgwNm5XWXZLNTg0UEEyRkoyQW0zak5xN3BuTTRIU0JxYzdpTmp6aDBwSmFlUkJDVWd5T2JvTkFvdV9Z?oc=5",
+      "pubDate": "Sun, 19 Apr 2026 23:06:24 GMT",
+      "source": "글로벌이코노믹",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[증시키워드] 실적 발표 앞두고 투자자 시선 집중⋯삼전 이어 SK하닉ㆍ현대차 관심",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5QWFh5M1AwelhsUnF4aURTZUZmOHctVVVicWJNQVNfdEs5RTg0UEVKeDU4dkEwSlliS2dOcmVKMzRENTNidFg2Q0kzMWU2MGxQUHNWMw?oc=5",
+      "pubDate": "Sun, 19 Apr 2026 23:06:00 GMT",
+      "source": "이투데이",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "삼성전자, 2026년형 TV·오디오 신제품 체험행사 'AI TV 위크' 성료",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9VckYybGVfbjVSaUt3VWVIQUhSdFQzSVJwRTd5MGFQdllIVm14ZzJjZml1MFVKVVpTNWhzcnljNjhTVGRlcXI0c3BIMXdtODFENUFTZ2RabnczYWladWpxZDZOZkk1eTh6Y2NuOTBfWFZteVHSAXdBVV95cUxNd2Z5LXh0TUNXd0lRdTFNZ3R6UlZ4ZUJ0a3N6ZVhQNmNKS1pjRUFRSzNBVFpQZm04Uzl2SXE0djVfU0lEZldiMmNkR3NhYWtRcGlPdU9MQUpFbUR0S3FvTlNzcDRFOUE2U0FPOHBSQWdWYUtFLUdBVQ?oc=5",
+      "pubDate": "Sun, 19 Apr 2026 23:05:02 GMT",
+      "source": "핀포인트뉴스",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "미국 이란 선박 나포에 비트코인 7만4000달러도 붕괴(상보)",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBOM0RlNlBtSDByTWotS2xnZnhsQmZuLXJDY0tVVnJBbFMxcFNlZS0zT2lNVzUzS19VUHQwY3FjZWNtZWg1ZjVoZnRHdVBxRVZPeWp4UnpqZmI?oc=5",
+      "pubDate": "Sun, 19 Apr 2026 23:00:45 GMT",
       "source": "뉴스1",
       "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "한국 경제가, 반도체 때문에, 대만에 ‘이만큼’ 밀린다고요?",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0xRXgtTXpQM3lqOC16LTNYNC1sUEZYcllIZjNZMGdYTHJKYktKUkdNT2dOUkFxckl2TW94eFliZmFGR3FGMWJ4T2otWkhIbHM?oc=5",
-      "pubDate": "Sun, 19 Apr 2026 21:03:32 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자, 플랙트 광주 투자 한 달째 표류…현대차 9조와 비교",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBBZnJBVkRERy1YR2ExYjI4ZmZQeHdGNUwwZzVwb0ZSMnVhWDZBZjY0Wk1qd0xTN3E5ejhCdm1uOGkxb003TVAweXFxX3pIMzA?oc=5",
-      "pubDate": "Sun, 19 Apr 2026 21:00:17 GMT",
-      "source": "딜사이트",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차",
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[인터뷰]현근택 \"용인 반도체, 조기 가동이 핵심\"…'이전 없다' 단언",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA3bGpRdDlKSkVYUHl5cVVZOUFCRFozOUhORW42enkxSkNMd3YtNDhxN0FwdzBSME5GX1p6UFBxdTFlZl9Wd21WcmJHNnhxeS05allhTE1B?oc=5",
-      "pubDate": "Sun, 19 Apr 2026 21:00:00 GMT",
-      "source": "뉴스1",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "\"셔틀 서는 곳 뜬다\"…반도체 호황에 용인·평택 '셔세권' 부상",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5OVUlURERvZzQ0dXFMLUY1N3g3UDkxb1R6VHJlU1dSTTRrbmhVbmpxYW1YYnU2OUNBUXU0NWsyMTEtUnI3U3B3SWRVQm5MRXcySFBEWmJ2UE9ZdnFjZUVWcNIBeEFVX3lxTE1BdnZ5alFPaEhUYVpLWUczcl9kalBsTnEyQU1la0xhTkJJMzRGSGlXUk1GMDBMdHlJZ1Q4Nm8xeDI0Q1pQa2ZyMExHZVA4SHlERzhHRVA1QXdfb2w4VURGSWFZWEZHMGVwUS14QWE2TmJ2SmV4RXRCTg?oc=5",
-      "pubDate": "Sun, 19 Apr 2026 21:00:00 GMT",
-      "source": "뉴시스",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[박종면칼럼] 대한민국 흔드는 SK하이닉스·삼성전자 성과급",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4wTVRQRDByWnU5M3BWYlB6QW1MYmxqa0s4T1VwNkE1WnFkaTFWMU14OUwzRlNpOFRaQXVzTDJFUzlsNXNRSXF5WkpTcVk2MmN1cWJUajljTDBsM2RjTHl3a3hVbzZWWGRD0gFsQVVfeXFMT2JRYVA5bVlQM2kwQVRqbWVVT1JJMlNzX3RaTm1XaFZNMHBYMV9TbmIwMS1kcGl6RVNEMWM1T25yRjdwaW9OR2NwUzM5XzQ1bGVSY0ZHZWU0Z09tbzU0dVgxWUFrc0lMWENiTWlG?oc=5",
-      "pubDate": "Sun, 19 Apr 2026 21:00:00 GMT",
-      "source": "블로터",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "움츠러드는 스마트폰 수요에 삼성·LG디스플레이 ‘울상’… 반도체 호황의 그림자 - 조선비즈",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOUTZaQWpvZHNHVFZYd0s2Zm1UY25FYm5PSFpPWDdmNDlfLUs1STJpLU5wdDdUZk1tcDFvUy1STEc0VXRObk95d3JNSlE0bUhFemRPWDBDSDBoUE41MFp0M2NCXy13VFV4ZzRLZElHaWh6X2JEUnB4UzlMZjFZVUYtWUt30gGWAUFVX3lxTE85Ri1EZ2xWTTU3d29IUVRLRXVheUdZRDBkVk1aUlBRa3M3akFTS2lsMWdjYU9uaGMtMlVSQ0hIMWFUVjk4LXY4NUNkLXhmZDk3dTRtM1E0WWlRVXBrdkp4aU5lUVFKLUViNC0yTWhhNGxXbEFEWm1PODk0Z0ZuS01HcXJmR0laRkowdmlfSG9SYVJxbFV1Zw?oc=5",
-      "pubDate": "Sun, 19 Apr 2026 21:00:00 GMT",
-      "source": "Chosunbiz",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "다시 반도체 사들이는 외국인... 증권가 \"더 간다\"",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5uVF9WRkZId1h3bHBoUVpudWhmLVN6UDQ5eEhLVnVsQ3lCek82SWxHdGgtQlJfT0JZRm1oOV9ZN3dCMEtmbkdhMXBYUm4zRjJIQ1lxcHdyd2tFQdIBXkFVX3lxTFB1VmVzeXdLQTZQTk41dnNIUXFwdHQxbXdCUEZYSE1JcEg2WVRja3g1NUxFa1JJLWNDWU9iLWtsMktIMFVmcTEtWFFuQTBySWFJN2djaGlnVjhrUVZUMXc?oc=5",
-      "pubDate": "Sun, 19 Apr 2026 21:00:00 GMT",
-      "source": "파이낸셜뉴스",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[속보] 중동 긴장 재고조, 비트코인 2%↓ 7만5000달러 붕괴",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE8wdGJrcE1pa0ZfNWxsU2NCY3BueDIwYklyaHVYRWtFQnc0YlkyQlhZUXlLMzh4akUtaUNnaHNWcnlobHRZZkJPUlU2VXByTE5aQ21MdUhYQmg?oc=5",
-      "pubDate": "Sun, 19 Apr 2026 20:49:33 GMT",
-      "source": "뉴스1",
-      "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
       },
       "impacts": [
         "BTC",
@@ -123,10 +97,36 @@
       ]
     },
     {
-      "title": "동학 개미 스승 박세익 “코스피 주도주, 반도체에서 ‘이것’으로 바뀐다”",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQS25kLUlMeHJ4U2tNRkF0MVczUXN3d1ZUVkVBVUtqOWZPd185cXlmQlMycnBpdlJGc1pmWDVPVFQzX0tadWhYYWxHakRFVnVhZnpEMjlyUGRUaTdFU0lTYWs4WW82ZGQ4Y19ITlhZeUtTTXB1cTNRRXYxM1JtOE5hQg?oc=5",
-      "pubDate": "Sun, 19 Apr 2026 20:40:07 GMT",
-      "source": "조선일보",
+      "title": "삼성전자, ‘EHS 히트펌프 보일러’ 국내 본격 출시",
+      "link": "https://news.google.com/rss/articles/CBMimgJBVV95cUxPa0Z1UENXcFM3NEhuZl9QMEduLWVpcnJzNV8zRlpGQlpndXVOMmNIaDFON09MX0NPU0psU1NSOWNVel8wNkVuREF6ODh6anFRcFQ3QWpnV3lVOEdoY2trMWlPbi1jVlZUNUxITW5lc3hqNzV6Qldyd2EyNTVRaW94cmlHYXRWWDh1VXdDWVBKdzFPbWF3M3ZqOHdka2NIYjJSUTFsLTUwaDByV1lQMWs3RHNFN2hDWFlCQUd6VC1TNzd4T0JfZHQ1dnV6M3A2aDhfc0ZxT2lJZ0pJYzllaUJZVElqcjdScGFtYVBtNjVwU09GZENxeWdDRWM3RXZHU0RMUlV4UFgzX2pDZmgtMGlaYWZiNE96NjlmNWc?oc=5",
+      "pubDate": "Sun, 19 Apr 2026 23:00:00 GMT",
+      "source": "samsung.com",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "현대차의 렌터카 ‘M&A’ 퍼즐은?···롯데렌탈 인수설 ‘솔솔’",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBBMWE5S29uTTE1ZnFpeEtyTWtjT2FXZEVOOVJzNEVkVVMwa2NDVmYya3o2c19HdG5UQVhQRWF4ZV9uc0ZPSThZNFd6UThfRVNyLTVpcXFTcnJRMW9SbWpQc1EySGU3bTc0bWxWa3hHQkLSAXRBVV95cUxPb1ZGeEdoRTVCdFItUUNmalhDTDlzVmJOQWFoaDFzRkJFbVBRSHFQSHl1Sk41a2JNbjUzamJoT25YR29ya3RfM3dMbjFYMFRwOEpJNkxNSEZmeV91dGs1LW9SbUsyZGU4M0hZUUp0clp1eFltMQ?oc=5",
+      "pubDate": "Sun, 19 Apr 2026 23:00:00 GMT",
+      "source": "이뉴스투데이",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "[모닝리포트] 2026년 4월 20일: 삼성전자, SK하이닉스, 삼성전기, 삼성SDI, 한화솔루션, 삼양식품, 카카오페이, 원익IPS, 에스원",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5pQjczRDlKbGk3Y0JETVRaQ3lMNVdpUHJxVEx1QXZFTTh2aXRUM2VGakpuVWEwRG50Sm5DZ3ZUdnNlN3dVZkd4WkYxTm8tRTBSdjllTjJlRnJFczNRMURTbWpkSGpjRGhuZjF6WWo4d25OckJxN2F4OQ?oc=5",
+      "pubDate": "Sun, 19 Apr 2026 22:48:00 GMT",
+      "source": "네이버 프리미엄콘텐츠",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
