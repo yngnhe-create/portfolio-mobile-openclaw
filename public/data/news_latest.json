@@ -1,7 +1,46 @@
 {
-  "timestamp": "2026-04-20T00:52:32.072497",
+  "timestamp": "2026-04-20T02:22:44.168071",
   "count": 10,
   "articles": [
+    {
+      "title": "비트코인 네트워크, 난이도 2.43% 하락 및 해시프라이스 13.65% 상승으로 안정세",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNT2dsTDl3NG5Yck9tZkxVcTBwdXNmV1F3aDFNSzdObUo1eUc1VE5CZ1gybGFJR1dwbXB1MGVzTHhxajhraDdoaG1RY291Zmc5WkNnZEZZSERSeWZtUURKajU0TWNJZm5JRnlxZ1YtVWFJN0Q2VTFmVExiejlNR241TGxjR1FjaUZnWnEwN3BsdFI3UFVlT1MwbnNUdS1IazRaV2NGY3B4Sm9rbmhfRU9TS3JRXzRySUdkWVFLQkFR?oc=5",
+      "pubDate": "Sun, 19 Apr 2026 17:01:51 GMT",
+      "source": "Bitcoin News",
+      "category": {
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "미국 비트코인 현물 ETF, 3개월 만에 '최대' 주간 유입액 기록",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8xVl8ta0lLLXJmT2NBbVpaQmdyajNkREUxTUdmY0JyYzNHR29sbzlmLVRPeVFsNzg3cW9URDlnVTc0ck5fV1VSYTNuTTFXWkpnVFhEMlVtWTNvSThHdElkRTdTUEFBYzVURjQzWg?oc=5",
+      "pubDate": "Sun, 19 Apr 2026 16:56:33 GMT",
+      "source": "경향게임스",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "30% 막은 현대차부터 10% 받은 하이닉스까지…이익 나눔의 역사 [홍길용의 화식열전]",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE05dFFjVGotNDFvZFpUTWF1cFp3bDVMQ1B4eS1uaVpOSkRncHYxNVp5azRzYnVVdHBXQTZNYWhIT3ZEVUtjSS00ek4tNElBTHBIRlFzem9B?oc=5",
+      "pubDate": "Sun, 19 Apr 2026 16:25:59 GMT",
+      "source": "헤럴드경제",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
     {
       "title": "현대차-기아, 인도서 올 1분기 역대 최대 실적",
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9Hcmd6OXhEZlEzc0JadGxHdy1hZDZKUk1kZ2xhdUJCNWRkX2JPekNCS1dGZkxqdEhzTVNROHUyNFhQYUduWFF2dDlNaWR1aUNwVV9EZEM3Ni1VOXIwbnRDR0xVUjlLWF90aGlKMi1fUFhpRE40MFHSAWZBVV95cUxNTU5DRTEzV2h4cjlwZmtxYVphWWtEY09rSUpsQmhRU1ZWVnY4TlJia0pSQW9MazhDM2xZS3RBbExJWS01WG44TG5hV3BDMS1wRmQ5dndwbWd5aUxWT0N1SW9VTUVyZ2c?oc=5",
@@ -85,45 +124,6 @@
       "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9CYzliTlJqNjJpdEphMHdrWV9sbkRQUGp6YlRXT3V4WGREUzEtR2cyT3ZVR1pFVVZqdmxSTDdiYmxibW41aUFiWXR6LWNLNVk4RUVVeWdZQi1XQm5QVjFDaG9wcnRrT0ItaEdPRlVvSEUzeWMyWEVEVW9peTg?oc=5",
       "pubDate": "Sun, 19 Apr 2026 15:00:00 GMT",
       "source": "한국금융신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "[천정 뚫은 반도체지수 ③] 반도체 슈퍼사이클 기대감 고조",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBzSXhtV3J3U3JGUlotQ2FYbFpLR29pNXlyblQ5c3Q2aHVIY2I0aHNQVzNfUFFWSEJucUlwREtJWDVpdURsZnZ6VjY4UTl3UkdYZFJPb1YzNEdaM3VGbHc?oc=5",
-      "pubDate": "Sun, 19 Apr 2026 14:56:00 GMT",
-      "source": "뉴스투데이",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[기고] 삼성전자 노조 파업, K반도체 공급망 신뢰를 흔든다",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQVUxqcDNvRDk5QlBMTmt1X0NSd0I2SVZWRHVaVmxmRnZqaXV0WHpoOEs5SHh3VVBFdmY3X2VQanE4dHY2c2ZteGw5TzZZS2pYVkx4M0NWeDdueGRGdU1rWjFjMDB0ZE52Xy0weDdYUFp4YUFVSjZKeG1MVEd1TkN1NUxiRlhLOXktcmc?oc=5",
-      "pubDate": "Sun, 19 Apr 2026 14:36:00 GMT",
-      "source": "조선일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[사설]현대차 노조도 “순이익 30% 달라”… 미래는 누가 책임지나",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBkM0E4MUxOR2ttTmo0bi1aRVhoNjVrSV9RNldocmVWWFE1M21CeVk1dFpyZWxkYWFFN0RDNE8xeFFYTS1hbV9uNlhwb0xOVlh6OE5URXJxclY0UjJvVTZvUGxhUlJpVG5wdFFmQ0dwaW5qNS16Y3fSAWZBVV95cUxNa2xPTGM5cG5OLThUTnZvZkFZVG5TQTBpdFF2eWU4VGNETTI0ZlhmemwyVjR3aVRpZUUwaTl4WVJNS0V3YjJOMDVxUWVrd3ByZVRLTVZYRE8xS0dBT0RRN1RqQTZRWWc?oc=5",
-      "pubDate": "Sun, 19 Apr 2026 14:27:00 GMT",
-      "source": "동아일보",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
