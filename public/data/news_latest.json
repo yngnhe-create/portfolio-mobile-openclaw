@@ -1,26 +1,12 @@
 {
-  "timestamp": "2026-04-19T12:24:29.178178",
+  "timestamp": "2026-04-19T18:22:06.666160",
   "count": 10,
   "articles": [
     {
-      "title": "“4년 주기 안 끝나…연준 유동성 공급에 비트코인 곧 오른다”",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNakpsY0hFNUxTQ1JmeHlzcHhkTTlFUEdUeU05RloyT01BSzB1bVA2dHZKU2hVc2JFdlFMdGdCaHhCNkdwYzREODV4dTFwdElEVWZLU0RRRDlZNFVZRGtEODBpQndsbDRqV0dSTjM0QnhQb0dCX3FkSGhnVncyNjZ0aQ?oc=5",
-      "pubDate": "Sun, 19 Apr 2026 03:21:41 GMT",
-      "source": "이데일리",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "채권",
-        "BTC"
-      ]
-    },
-    {
-      "title": "삼성전자, 'AI TV 위크' 성료…2026년형 신제품 소개",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5PUjktcVF0QV9kNFJrM3VSXzhkUThncHdjQjBSNmVDTnRIemd5NzlndnN3MVRJT2VIM1FiWlpxWjdYRW1KWXFFQVREYTZHbFRoek9jOFdLQzR2cE9ma3QwdUFR?oc=5",
-      "pubDate": "Sun, 19 Apr 2026 03:13:00 GMT",
-      "source": "이코노미스트",
+      "title": "[카드뉴스] 삼성전자 창사 첫 ‘과반 노조’ 출범...5월 총파업 시 “최대 30조 원 손실” 경고",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9tQXpadlBESnltOU0ySDdVYlVRUndLODNXRno4aUROOVItWmpRWHJqeENaelFjbWhBYk5Rcmc0V2VOSjJNZVNGV1d6SlhicHVZVG9kV0pydE8wUl9kUk1pbzdTcDFHSFMtcURGWDZEQ1hoS2ZqZnc?oc=5",
+      "pubDate": "Sun, 19 Apr 2026 09:15:40 GMT",
+      "source": "인포스탁데일리",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -30,62 +16,10 @@
       ]
     },
     {
-      "title": "자석 진동으로 신호 주파수 '딸깍' 전환…저전력반도체·뉴로모픽 등에 활용",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE00Y3BrOTJRT1RlRUo5MVYwRFVreEZlanpQU2otWFFCM1NHWVFHZkRHTjlYZHh6amtxejFWREcyTTFsYXR2Y3AyekxLUFNuT2s?oc=5",
-      "pubDate": "Sun, 19 Apr 2026 03:01:32 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "리벨리온 AI 반도체 '리벨100', 글로벌 오픈소스 AI 추론 모델에서 성능 입증",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBOVENTTlRBekZFbkFuUVJpVGhwYVMzbDBsWTdON1p5bXFkR0I0Y09Sb0JhdzNLcEVHc1p2djZKY1czUWE4MDlPVm9mWDV1Zw?oc=5",
-      "pubDate": "Sun, 19 Apr 2026 03:00:00 GMT",
-      "source": "전자신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "‘전자’ 대신 ‘자석 진동’ 이용한 초저전력 차세대 반도체 기술 개발",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE01ZmdVTWdlemh3TGFWb3RsVkVuM0R1YUlWQml2dmxldE9CczJHQ2ZpUm9ZaDI0cVVxNGNEWkhBRE1GbmpNcnpQZnhEWnFFWnFrV1d0alFOZERSMnoxY3EzbnlpUEhfZG8?oc=5",
-      "pubDate": "Sun, 19 Apr 2026 03:00:00 GMT",
-      "source": "기계신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "기관 '삼성전자'·외인 '두산에너빌리티'·개인 'LS ELECTRIC' 1위 [주간 코스피 순매수- 2026년 4월13일~4월17일]",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA1OXJBVmVWeFZQY1kxdkhkUGlURFRpRGM0MENkWEF5M2lCY0JrNXB6TXhyWXNNVTJ2S0ZNWEtLSDRqd3ZoZGtnOWRYeGhxNnM1NFBJdUc3Y1JlTWpzLWtQdmc3OGQxZmZxZG9mcGo1LU5zWFBMbTh4X3hTRWg?oc=5",
-      "pubDate": "Sun, 19 Apr 2026 03:00:00 GMT",
-      "source": "한국금융신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "현대차·기아, 인도서 1분기 최대실적…25만대 돌파",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBFZWRYbUFZOVg5NHFETEdKdXcxakc2Tm04RGxWQVB4VFlSTVI5VFhyRFVmQzlpeVdEaXFJa1VicFZablVQTFdYbW1fbUhIallfZ1c4TURlVEtjRGMtUHZJeHJuc3I?oc=5",
-      "pubDate": "Sun, 19 Apr 2026 02:54:35 GMT",
-      "source": "서울경제TV",
+      "title": "현대차그룹, 인도서 1분기 역대 최대 실적",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9jdjl0TFh1ZE9BYW5tMWd4aWV3a3hpOXE2M0ZvRmpQOFJkUE5sUzYyX2ZuNkxJNUg2X2hxdURpYzl6cFdxREQxZE1TSmFIbFUxbTFvUml3YnYzZ9IBVEFVX3lxTE9oeGxZREliN1lKQTBnZWgxQ0RpUk9mQjVrTkJEMGxORnI4Vl9RN3FIb1ptTFRoR1NkQnc5dFBtbjE3a0thWEFqUk5BZjlzRnR0VnpHbQ?oc=5",
+      "pubDate": "Sun, 19 Apr 2026 09:08:04 GMT",
+      "source": "한국경제",
       "category": {
         "label": "🟡 MARKET",
         "color": "#f9ca24"
@@ -95,42 +29,109 @@
       ]
     },
     {
-      "title": "“비트코인 2조 보유” 머스크 부친 폭로",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9TRTc0NnFEOE5GS3lJTTNZOFBVam94NXljWDNoTEsyZmtaejZRR25LM2trNWc3ZE1PSE9RVzZGTDhveDBxTkI5c19FX3EzeWs?oc=5",
-      "pubDate": "Sun, 19 Apr 2026 02:49:02 GMT",
+      "title": "유영하, ‘대구 대전환 5대 정책’ 발표 “삼성 반도체·분원 유치로 경제·의료 혁신하겠다”",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5xU0NhS29Nb1ZjQjd5enY2Y1d2Tng4VHA1cXpRUWlNbGJEUnFYTGRvUnRMbTkxbTVqUXJZeXNCaVZMSlNHSFg2SWk4SnhEYk0?oc=5",
+      "pubDate": "Sun, 19 Apr 2026 09:05:15 GMT",
       "source": "v.daum.net",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "반도체株 집중매수…LIG디펜스도 담아",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBVQUhpNzQ5Zlo4VFljX1VNTm9HUFhjTDVvbXA4SExMcUpSYUNEZjlTa2ZkTDdDMHYtd0NSb0RrWG5Tc2tWbmwtQnRRZ1NzU2dQd3Z2bU0zRVN4QdIBVEFVX3lxTE5OLTZRNWFwRERLVW5sRVY4a2tpTDhxTkVCQVFQT3VYS0pCREswN0tzVXJwYUcxTVFfVm8xN2h4dE5nS3lBa2U5Vk5mNWxDQXZwOWtUaQ?oc=5",
+      "pubDate": "Sun, 19 Apr 2026 08:41:20 GMT",
+      "source": "한국경제",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "2030은 '코스피' 5060은 '반도체' ETF 담았다",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBBQzh5SVRSVXFPQUx1UklicUpLVUwwMHFYclBLczlzbklPLUh4MVRJVi1fbV9CVVhuTUZCcVEybUZPVVB6TUZVOWk3Q3ZSX3lv?oc=5",
+      "pubDate": "Sun, 19 Apr 2026 08:40:18 GMT",
+      "source": "블루밍비트",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "SK하닉 10% 성과급에 \"우리는 더 달라\"…현대차 노조, 30% 요구",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQYzRaWDJrSGRCSExqdG5JcjRjWFpLYzRIQTJnbjVRXzJQYjBjNWhkRV9KLWpjcEZQZWJrblJFR2dMNjBua0dFR3Y0ckprcGJyUE1Fd243QkpmM25pVGJZdGtoMUx4YWNjLTFtdVNlb0FxczctaTVtaU43emEtcXFENHNLQnB1UVRYRldUeFJR?oc=5",
+      "pubDate": "Sun, 19 Apr 2026 08:40:00 GMT",
+      "source": "조선일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "삼성·LG·현대차 '돈되는 특허' 집중 … 5년새 IP 생태계 급변",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5YVml3MmdDOUpQNHcySUttcEROS1UzMDRrNkhGdXRwdFdJcG1iVjlVWmtVelBoM3VjSUVRLW4tcFRrc2pHMFBxcGNqemlTeWc?oc=5",
+      "pubDate": "Sun, 19 Apr 2026 08:39:01 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차",
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전자 노조의 파업 위협…국가경제와 국민정서 고려해야",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9Cck80b1N6YXE3YUlhUGh6ZnZWd2FlN2l5ZUVxQk9zVjNUN3lWX0gxNVpzbkl4MFF3NW9MajZIVUw4U0NJM1BoOFFjY0w0a3NST2h5SjdraUJUZ9IBVEFVX3lxTFAxWjA0cWlwcEhuRlpkMkkwbEp5c3VpWnJVTHA2X1BRMWdqMmhqaFlNY3FuNC1Db3ZYdkJKZE1PS0xzcWd3MGt6Z25rd015VXBsMGFodw?oc=5",
+      "pubDate": "Sun, 19 Apr 2026 08:33:13 GMT",
+      "source": "한국경제",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "비트코인, 한달 만에 7.5만달러 재탈환",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBRTVJienpIZUJRM1dqZ05DdEJidXN4OTBlWkZEb2h6VVpORy1CRDh4NjNiUW00T2FkalE4YVJRd0hCTms2dGZHc2NROW9JNU1UY0tiazlGWWZSUdIBVEFVX3lxTE9xMnpyT1FWdTRZTnRISnVQeExjVU9Ndm10LXh1U1RBSTBrazVDLThXNFZuYThHMnV2aVJDQU9neFhNS3lSdzJNMC01Q21wNHhPWTRfTQ?oc=5",
+      "pubDate": "Sun, 19 Apr 2026 08:29:12 GMT",
+      "source": "한국경제",
       "category": {
         "label": "🟣 CRYPTO",
         "color": "#a55eea"
       },
       "impacts": [
+        "환율",
         "BTC"
       ]
     },
     {
-      "title": "삼성전자, 2026년형 TV·오디오 신제품 체험 행사 성황리 종료",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOT0F6cmh2RGFaaWRtdC1LazJIS0JCT2hqYXdFWklvQzJZLWVBTmVIMmtTT3VvVXYzdm5HbUZuX0xMQ3NjY0JCeEVPQWRLTjlqaWtxOE4taENPbzVnZldyZVA4ODBwQ0NXRi1zN3hOVDI2Q0lmLXZlOGFtSVd4RzlPRzBad0g4dw?oc=5",
-      "pubDate": "Sun, 19 Apr 2026 02:47:33 GMT",
-      "source": "글로벌이코노믹",
+      "title": "현대차, 중고차도 순정 신품 수리...서비스 강화",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1mYjVVZ2JlNGFwVWkxNkQzMzBGd2Q3SWxrd1JxU1J3Z0N3Sm1TYm81b0prLVltaHY4alc3SmFUTi1TTGVHTkVpQnBpSC02X1E0Smd3YlMxN3B2NFQ1VDJPa19VR3pZZXdLQ3fSAW5BVV95cUxQdTZzRHlKQ1hJeU5ZOFdGYmFGWnB0UVh6cjBxSGNkWnBkSzJ6MGtWU0tGdmdBemhyank3a3BjX3M4eUpxXzBWU1l2XzFMamt0b19qdzAyZVJFZXJzZjJKLWNUOHNWMU9JRVRqZF9mZw?oc=5",
+      "pubDate": "Sun, 19 Apr 2026 08:25:22 GMT",
+      "source": "울산매일",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자, 'AI TV 위크' 성료…신제품 체험에 고객 발길",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE84eVVhckNQLTU3RWItQ2hqTlpGSEFEZUVLYUxEYkNhSGd3UmY3SjYtWXlkQW40dE5HOFYtLUVIanRQYXlUOGd0YW5DWUwyZE5haFBta3AyMFVHWmdz?oc=5",
-      "pubDate": "Sun, 19 Apr 2026 02:42:00 GMT",
-      "source": "뉴스핌",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
+        "현대차"
       ]
     }
   ]
