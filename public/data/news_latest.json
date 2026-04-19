@@ -1,7 +1,33 @@
 {
-  "timestamp": "2026-04-20T00:22:20.159203",
+  "timestamp": "2026-04-20T00:52:32.072497",
   "count": 10,
   "articles": [
+    {
+      "title": "현대차-기아, 인도서 올 1분기 역대 최대 실적",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9Hcmd6OXhEZlEzc0JadGxHdy1hZDZKUk1kZ2xhdUJCNWRkX2JPekNCS1dGZkxqdEhzTVNROHUyNFhQYUduWFF2dDlNaWR1aUNwVV9EZEM3Ni1VOXIwbnRDR0xVUjlLWF90aGlKMi1fUFhpRE40MFHSAWZBVV95cUxNTU5DRTEzV2h4cjlwZmtxYVphWWtEY09rSUpsQmhRU1ZWVnY4TlJia0pSQW9MazhDM2xZS3RBbExJWS01WG44TG5hV3BDMS1wRmQ5dndwbWd5aUxWT0N1SW9VTUVyZ2c?oc=5",
+      "pubDate": "Sun, 19 Apr 2026 15:30:00 GMT",
+      "source": "동아일보",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "현대차·기아, 잠재력 ‘무궁무진’ 인도서 1분기 역대 최대 실적",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9xbklEYkpSTGstZkdsRmpsYm0xTmVwc2JWSzhTWFdrMHJHVnV1dC1Nd21Scl9mWTlnbTZqV0NmZ0hRR2o1Q3NacUt5b2EtbzQ?oc=5",
+      "pubDate": "Sun, 19 Apr 2026 15:21:02 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
     {
       "title": "[이현상의 시시각각] 반도체 성과급 유감",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBMY19BcUlEbk1KZ2xuQTFuWEN6bUZsTVJLV1NXMGI4RHY1SzhoYWVVVmtYMU45ZG5yNkpkejBiNXBmc244VTlDMFZmYkI5TDl1OUVtX2FR?oc=5",
@@ -16,10 +42,10 @@
       ]
     },
     {
-      "title": "[김동호의 일본 읽기] 반도체 총력전",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5YY2xFNS1Vd2g5aTcta1BxNzBQLXU1VHI4aFFhNHBjYkdPaEFMVlVxSkg5ck5jRWdSQXRoQnhWcWQtcUpRb29mQjFBUjlIM0k?oc=5",
-      "pubDate": "Sun, 19 Apr 2026 15:03:44 GMT",
-      "source": "v.daum.net",
+      "title": "[사설] \"메모리 반도체 호황에 취했다가 대만 하청 국가 된다\"",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQYkdSSkZtbDJhQnJZcFRJR09sMzg0TVlWSDFkYjNEUVZJbzVLNTJodkVUemdBaF9ZcGw3YXJ5WXBtVUFnYS1oUHFmUHpxMGF3bjMyUzBWU25ndk9mTzVhS2hJZi16V3hyc2Q2alhLdFZ1a05KNGJSSW1MeXFoRnV2NGo4T2xkZw?oc=5",
+      "pubDate": "Sun, 19 Apr 2026 15:20:00 GMT",
+      "source": "조선일보",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -29,16 +55,16 @@
       ]
     },
     {
-      "title": "XRP, 비트코인·이더리움보다 나은 이유…'실용성' 두각",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBOempfa0NZWWpUQ0gwV3FnQ1N6dGZwUzFTeVk1RGJaZHBFdTc3ZHJHQ0dkdVYzRmVqaFFPWEcyZEhlNUpoeTVpU1pQeDk1ZzhBaEtuMG9HYzdFS3FTQmRPMDBFendTYjd2c1J6R1hacXdFcnM?oc=5",
-      "pubDate": "Sun, 19 Apr 2026 15:01:00 GMT",
-      "source": "디지털투데이",
+      "title": "[김동호의 일본 읽기] 반도체 총력전",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBpdTh2bnJsRUNybXA5bENwZUxHdjVnVVFIampqWnA5dktJRlJwSzhJdDQyakVGakQtUFM1QlltY2t5Q0pZNHpMWnREdkhadTltYmdQOTB3?oc=5",
+      "pubDate": "Sun, 19 Apr 2026 15:02:00 GMT",
+      "source": "중앙일보",
       "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
       },
       "impacts": [
-        "BTC"
+        "삼성전자"
       ]
     },
     {
@@ -94,42 +120,16 @@
       ]
     },
     {
-      "title": "[FOCUS] 삼성전자, ‘혁신의 오스카’ 에디슨 어워즈 휩쓸었다… 금상 2개 포함 총 4관왕",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5hdzQwbVN6eENYM3NIc2lKMEU2eHRNUXgwdVFHb3VNaDg2aGFXMzR6Zm9QN2ZfcGRlQlk0clFLdktMeUREMUFiOERnVDdJMkkwVEhqSWpPbjBmbzhFeU1wUzFaTHppazRGS1lXZQ?oc=5",
-      "pubDate": "Sun, 19 Apr 2026 14:23:16 GMT",
-      "source": "데일리비즈온",
+      "title": "[사설]현대차 노조도 “순이익 30% 달라”… 미래는 누가 책임지나",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBkM0E4MUxOR2ttTmo0bi1aRVhoNjVrSV9RNldocmVWWFE1M21CeVk1dFpyZWxkYWFFN0RDNE8xeFFYTS1hbV9uNlhwb0xOVlh6OE5URXJxclY0UjJvVTZvUGxhUlJpVG5wdFFmQ0dwaW5qNS16Y3fSAWZBVV95cUxNa2xPTGM5cG5OLThUTnZvZkFZVG5TQTBpdFF2eWU4VGNETTI0ZlhmemwyVjR3aVRpZUUwaTl4WVJNS0V3YjJOMDVxUWVrd3ByZVRLTVZYRE8xS0dBT0RRN1RqQTZRWWc?oc=5",
+      "pubDate": "Sun, 19 Apr 2026 14:27:00 GMT",
+      "source": "동아일보",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자, 역대급 실적에 '역대급 배당'...대규모 주주 환원 '배당' 지급",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9SNzdkd3RHYVVMOVhQaHI3NWY4NUZ6dDBtRGhxOHFleVJsemZHM2RKSXE0SGlub1JPdmVVMjMwMVJGZU45cVlCZFBkejY1SGNnNFB2dXN6MHdId2JzUGtFZG5Zb0NCeWRjRHc?oc=5",
-      "pubDate": "Sun, 19 Apr 2026 13:43:07 GMT",
-      "source": "경북구미신문",
-      "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "고조되는 삼성전자 노사갈등…안전 우려에도 노조 결의대회 '강행'",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQZENOV1NjcnJEcTZoaFI2N2s4WlY0WDI4aXEtenBOZmJuVzhwN0pDRTNFMzU4VHQtQ0NnNGFhQ2pMem1hT1lZakJnSVBhN1VURkQwRy1lMWxLZmp1T25Ja3U0cTZjcWVhSFBtM3pZU3ZjMUxwdkFoaFJOU085bERKTlk3Rjh4Zw?oc=5",
-      "pubDate": "Sun, 19 Apr 2026 13:42:05 GMT",
-      "source": "글로벌이코노믹",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
+        "현대차"
       ]
     }
   ]
