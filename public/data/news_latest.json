@@ -1,7 +1,20 @@
 {
-  "timestamp": "2026-04-21T02:27:46.850934",
+  "timestamp": "2026-04-21T02:58:00.391306",
   "count": 10,
   "articles": [
+    {
+      "title": "\"비트코인(BTC) 단기 하방 압력…유동성 개선 시 상승 재개 가능\"",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE90aW5wTk01b1RRbmxKNTJzaFBCUl9QX2VwamdRUWNhWDdiSS10WlI1MmhLMmRTanczbEd1eElMZzBrSW1UUVhHTHAyVWQ2d0NH?oc=5",
+      "pubDate": "Mon, 20 Apr 2026 17:52:29 GMT",
+      "source": "블루밍비트",
+      "category": {
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
     {
       "title": "비트코인 ‘펀딩 비율’, 2023년 이후 최저치 기록",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE10dmNyMm9MNFgtN3ZvdXVfRkdKWlZUbkNDQ0xmLWVkQlNpSHdhZ3hZVFlqYVFWZGRpREItRHBya1ZLektQRXpGSlFBMm9hR2ZVOGpjVjZxQzZHNXVaNGFUSHNQQjlvSjhPZ3FSZQ?oc=5",
@@ -16,6 +29,19 @@
       ]
     },
     {
+      "title": "실적 찬물 끼얹는 반도체 노조…증권사들, 이익 하향조정",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFAwY0VxUXRmTWVPaUpzOFpLMDlIeGgyc0htNVl3bEhiQmIxZDJ2NEJkSjR4bmZmRzBGeWMtNURhRnVWOEhMZ1dFNmpHMFVlQQ?oc=5",
+      "pubDate": "Mon, 20 Apr 2026 16:26:38 GMT",
+      "source": "dt.co.kr",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
       "title": "대우건설, ‘용인 반도체 국가산단’ 배후 주거지로 우뚝",
       "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9xc19QaUhfeUUyQ3JRNVpPZmRlSjZSY1RidExuU3VZalJMcWtQVnZDbkdTQ1djeXFPcWRKS01RNGV1WnFka0VQNHJ2MUNDVXNIblpMempZMm5tdkZET19kTjdGWlptQlprUE1aY3BpWlJLYmZPX1JQMA?oc=5",
       "pubDate": "Mon, 20 Apr 2026 15:53:03 GMT",
@@ -25,8 +51,8 @@
         "color": "#8b9dc3"
       },
       "impacts": [
-        "삼성전자",
-        "리츠"
+        "리츠",
+        "삼성전자"
       ]
     },
     {
@@ -107,32 +133,6 @@
       },
       "impacts": [
         "현대차"
-      ]
-    },
-    {
-      "title": "반도체 계약학과 1세대…내년 500명 현장 투입",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE0tbGVHZERkWUtIeGtwRFBXQWN4bVFCN01YdXd1Rk1wOEh3WmFJUEZzYnE2aVlrZ1FDS0NOdTFoTzdMNmhPY0c3U3RJbm42dw?oc=5",
-      "pubDate": "Mon, 20 Apr 2026 13:52:47 GMT",
-      "source": "전자신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "李대통령 “인도의 AI, 한국의 반도체 결합하면 막대한 시너지”",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1UYzIydjRSSjBNZEVuX1dnaTNTbVZFSFlNYmVJdnk2NDNKX2N6WGh0eE5Pb3ZCQXpQYU5hYWZKRXJUUFprTWlVU2ZTU1NXY1phbEhCbEZB?oc=5",
-      "pubDate": "Mon, 20 Apr 2026 13:34:37 GMT",
-      "source": "중앙일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
       ]
     }
   ]
