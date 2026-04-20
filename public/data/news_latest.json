@@ -1,7 +1,33 @@
 {
-  "timestamp": "2026-04-20T10:17:03.943625",
+  "timestamp": "2026-04-20T10:24:10.418545",
   "count": 10,
   "articles": [
+    {
+      "title": "10년 방치된 美 좀비공장, 비트코인 채굴장으로 부활",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5DTHItTkw0a3ViVExIQ3BQdmVodURHWl9ZcGtDQTM4bnd4aTlGWHlPc1k3TlY3NU93ZGE0MlI1S2RvWUNvSUtfRDVENzdXTktvSEZLcWE3WktmQkdyaHZ0RXZjOElHdmtZTWtsUy11OA?oc=5",
+      "pubDate": "Mon, 20 Apr 2026 01:11:02 GMT",
+      "source": "리드경제",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "삼성전자, 공기열 기반 ‘EHS 히트펌프 보일러’ 국내 시장 공개해",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9zb3A0cVA4ZGhiRm0yZlNOYlo2eVNKdmV4Q3ZVM1FwWmhmTmxOV2FZYnR1Mm93dF9nZmN6bl9JUUZzNzBFcFdpcDNITlJOS2p6MmxhQmJBSW1aV2tqYUxRRFRzTXRTR21ja0VTLUF3?oc=5",
+      "pubDate": "Mon, 20 Apr 2026 01:10:47 GMT",
+      "source": "elec4",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
     {
       "title": "김민석 \"새만금 메가특구 첫 실험\"…현대차 9조 투자 ‘조기 가시화’ [종합]",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBldjZWQTNKUGtjN1Q5UGwydDNvWGg0SlpRd2s5TW1pQUdvR0pJbWNWM05ac0FvdW03dWYzM20yU2pfcGV0cVFoRmV0cm5yT2s?oc=5",
@@ -25,9 +51,9 @@
         "color": "#4ecdc4"
       },
       "impacts": [
-        "원유",
         "현대차",
-        "테슬라"
+        "테슬라",
+        "원유"
       ]
     },
     {
@@ -107,32 +133,6 @@
       },
       "impacts": [
         "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자, 'EHS 히트펌프 보일러' 국내 출시",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5PZ0d2OGc4MzVYODhkOW1jNDV6OXdRVmNBS2xneFhEV2N1YTZlZ01mRVh4OFJBYzllWGRibjlMbkZ2RGxIR2tCRUZaRXVWc01VaFRhY1pnNEJWbDNSRl9yaGhKenRTTVBiRVE?oc=5",
-      "pubDate": "Mon, 20 Apr 2026 00:38:57 GMT",
-      "source": "청년일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "김 총리 \"현대차 투자는 꿈의 시작…새만금, 5극3특 대표 선도모델로 만들 것\"",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBPXzctNE9MMVFIX25uTWxZdGhqLW9VbVpSLTdXLVIxd2JiN1FKY3NMSThCMVY4UlF5Y2REOUdzaTZ5cUk5QVdaQUt4M3VUMnNadElTMDk2dGJmNFlGWElXRNIBeEFVX3lxTE5XWTlKZ3c2a0pTSUZWdV9vMDkwWlNKWVI3aWxUWjVOTzFCUXlwTUlndjBXQ0xVQVpxLUtSV1ZUMXk5MER0WGVoQm9NNGp5RUdwT20wT2pwbXlEeC1ndXY5eUhyMVBuOUNZaDFnNEJwU1hYQnQ2MC1rMQ?oc=5",
-      "pubDate": "Mon, 20 Apr 2026 00:38:40 GMT",
-      "source": "newsis.com",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
       ]
     }
   ]
