@@ -1,10 +1,37 @@
 {
-  "timestamp": "2026-04-21T00:57:33.312420",
+  "timestamp": "2026-04-21T02:27:46.850934",
   "count": 10,
   "articles": [
     {
+      "title": "비트코인 ‘펀딩 비율’, 2023년 이후 최저치 기록",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE10dmNyMm9MNFgtN3ZvdXVfRkdKWlZUbkNDQ0xmLWVkQlNpSHdhZ3hZVFlqYVFWZGRpREItRHBya1ZLektQRXpGSlFBMm9hR2ZVOGpjVjZxQzZHNXVaNGFUSHNQQjlvSjhPZ3FSZQ?oc=5",
+      "pubDate": "Mon, 20 Apr 2026 17:02:38 GMT",
+      "source": "경향게임스",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "대우건설, ‘용인 반도체 국가산단’ 배후 주거지로 우뚝",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9xc19QaUhfeUUyQ3JRNVpPZmRlSjZSY1RidExuU3VZalJMcWtQVnZDbkdTQ1djeXFPcWRKS01RNGV1WnFka0VQNHJ2MUNDVXNIblpMempZMm5tdkZET19kTjdGWlptQlprUE1aY3BpWlJLYmZPX1JQMA?oc=5",
+      "pubDate": "Mon, 20 Apr 2026 15:53:03 GMT",
+      "source": "서울신문",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자",
+        "리츠"
+      ]
+    },
+    {
       "title": "현대차그룹, 실리콘밸리 우수 인재 모시기 나서",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOX3lrWE0yVzJDUXNfRm1MY1dyVkhzRWZ5WE84d0dKTTdDWVFNdUU4b0tzS21iWkt2WFN4QjlLLVB0YTlLbmVpSlFpUmUyaWNsSFctQmNDLVdBQlpZd2RNN0ZnQjZlM0NXbElSbXF3ZkNyRnc4LUFnUUlNMWlhMEo2c3lPOHNFZ0YyUktxZFZ4UnNBNDR5aHfSAWxBVV95cUxOTlQtTVhmdzB3NXhqdnhQZUZjZ3pqUXRfZktpQW5oVVN0RnJVTmFTc2Y0T0lSWExKR1VHeHpRU1RLU3RwN0pRSllrQ3V5a1cwOVVPREw1VU9QcXFPRE1DYkYzU2VLM0VpRHpLbTk?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9UbTR4MDdMel9XWFpOd2VmOTdncGx6NWhaUF96WGdhcFdncHBvLUMyc0kwbDZxZFJ2TGExU2lNQmV3QUo5dTBkV1hyREV1T21tYktmRWxvcG5rVnoyRzMtZGhfdFF1RWvSAWxBVV95cUxOTlQtTVhmdzB3NXhqdnhQZUZjZ3pqUXRfZktpQW5oVVN0RnJVTmFTc2Y0T0lSWExKR1VHeHpRU1RLU3RwN0pRSllrQ3V5a1cwOVVPREw1VU9QcXFPRE1DYkYzU2VLM0VpRHpLbTk?oc=5",
       "pubDate": "Mon, 20 Apr 2026 15:47:00 GMT",
       "source": "국민일보",
       "category": {
@@ -39,6 +66,20 @@
       },
       "impacts": [
         "현대차"
+      ]
+    },
+    {
+      "title": "[美특징주]스트래티지, 비트코인 하락에 동반 약세…중동 긴장 재부각 영향",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPeUxlVktWcTJmcHRnSTZROURoQ1hzaF9RY19BYWxFSnhBdHllc21kMUVwTnZyWnZBNmF3RkVhYVdPTlJsT0FmWFVKWDFiU3p4cEl1Zi1CWEJHRW5rSnM2b01xUFc3bG5PTkJ5ZVpEb0ZFNDNUWXhwV1hNRnUyaGl0bA?oc=5",
+      "pubDate": "Mon, 20 Apr 2026 15:23:08 GMT",
+      "source": "이데일리",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC",
+        "원유"
       ]
     },
     {
@@ -92,46 +133,6 @@
       },
       "impacts": [
         "삼성전자"
-      ]
-    },
-    {
-      "title": "오중기 더불어민주당 경북도지사 예비후보, \"구미, 제2의 반도체 혁명으로 경제 심장 다시 뛰게 할 것\"",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE85bl9PR2daNFlRMTh0U2tWcW5vNEN4QnpIQm1QRG5kZ0M0UVR1U1gzU1Z0bHE0SnotRng5TkVod01jUlZiSUFNZ2tXRFJjQncwdGM5VXlnMGV3aE12c3c?oc=5",
-      "pubDate": "Mon, 20 Apr 2026 13:21:36 GMT",
-      "source": "구미일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[분석] 비트코인, 흔들려도 무너지진 않았다…'지지선 수성' 재정비",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9qM2NONzRQeF9MRU82S2lyVjRMZm14WXFmVzNINUZkYzE5Rm4xc1NPUXBMeldhLWdqc211ZXdZRTJHMTNZckZxakFwQWJYcmE0NXZ6WF9ZUUFQQzQxLXMzZC1EY1QySDl2blNuMlZMNEZTbVU?oc=5",
-      "pubDate": "Mon, 20 Apr 2026 13:00:00 GMT",
-      "source": "오늘경제",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "“7만 8천 달러 뚫을까” 비트코인, ETF ‘뭉칫돈’ 힘입어 박스권 탈출 시동",
-      "link": "https://news.google.com/rss/articles/CBMixwJBVV95cUxQcS02YjBjcFhkdGJUZ0pzYWs3LTRqS1pOSGF2U0lnbnhxdUVnU05seW40X25xVWd6cU96NXJzcFJta056QnJ5Rm9zVE8zMHprT3poTXR5Q19tN2EwYk9DV1NrYndCaVFvVzFnWGsxRndVMGtFckZUdDNlazdEdElscXRyQ2ZzdVVERnNjWV9pbmk3WW43Nk5Ec3otOWZQSUhxNWxJTXlNR1JWUktKcXNUZWlNR2Z6M0Y3Mkx1NzY1YjdnTmx4TWtMU2ttaGFXZHI1T0thb0pncjhOeEJoLWVnS1I4bXJxOGxfcUo5QnFLc04zeGxpcEdDSkhmUjJQZ2ZVN3o5OWlVdjBadFhER1dnRDMyVENrRFViX1BPY1lfekkzaUxlVWFabzFRLXkwYWdwNWY3UFJvd2VQWTd4WER2c0QyTnpJR0U?oc=5",
-      "pubDate": "Mon, 20 Apr 2026 12:49:41 GMT",
-      "source": "Benzinga",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "환율",
-        "BTC"
       ]
     }
   ]
