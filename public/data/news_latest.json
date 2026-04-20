@@ -1,22 +1,24 @@
 {
-  "timestamp": "2026-04-20T13:25:25.434146",
+  "timestamp": "2026-04-20T13:55:37.699831",
   "count": 10,
   "articles": [
     {
-      "title": "[성공예감] 1분기 실적 발표 때 투자자는 “이걸” 봐야 합니다 - 김학균 전무 (신영증권 리서치센터장)",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBOZUJpU3lDM3lwQk5WTjdtZ0I4OXJNQTQ5Rk9tc3Ixb3FxdXAwelVGVkM2UDJTaThyTTk3Q0ZOR0NieDFSUTZBc1VCOWJmaFU?oc=5",
-      "pubDate": "Mon, 20 Apr 2026 04:13:32 GMT",
-      "source": "v.daum.net",
+      "title": "현대차, 美 고성능 튜닝 시장 정조준…N 퍼포먼스 파츠 대거 투입",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9Nc3RWREwzX3ExQ05aMmFpYi1QUENzR2I2d0Y2X0FsS2oxYlBfU3M0bG90NlFybXBUclJONnVFVzE5bjlBY2tIdWsxOVRQRWNiWkg4R1BmNVJIU1pKcWEwdw?oc=5",
+      "pubDate": "Mon, 20 Apr 2026 04:52:43 GMT",
+      "source": "더구루",
       "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
       },
-      "impacts": []
+      "impacts": [
+        "현대차"
+      ]
     },
     {
-      "title": "삼성전자, 공기열 기반 'EHS 히트펌프 보일러' 국내 시장 출시",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5TMGVrQVREZUhCbkJ5RzZ4cnBrQWpCRVRtTnViUnZxZkVLemhzaDlNa3BRbG90NmFjUGNrOXlwV3oxMWk3aGhQaFE4eGoxUQ?oc=5",
-      "pubDate": "Mon, 20 Apr 2026 03:38:51 GMT",
+      "title": "반도체 계약학과 1세대…내년 500명 현장 투입",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE0tbGVHZERkWUtIeGtwRFBXQWN4bVFCN01YdXd1Rk1wOEh3WmFJUEZzYnE2aVlrZ1FDS0NOdTFoTzdMNmhPY0c3U3RJbm42dw?oc=5",
+      "pubDate": "Mon, 20 Apr 2026 04:49:02 GMT",
       "source": "전자신문",
       "category": {
         "label": "📋 GENERAL",
@@ -27,10 +29,49 @@
       ]
     },
     {
-      "title": "‘1페이지 자기소개서’ 도입..현대차, 하계 채용전환형 인턴 모집",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE8wempvX21mM2lTeFgwSHNFa0FlZnMxV0pncFcyc3NPWWVZcXp6b2pIUk9zRnA1U2NWM1RNVzFPWkFCRktnVkR1RnMzU0k4Nm9WeWdBRjZQV1pOdl9EM2psU19zd1J4cGpsbC1DdXBTVVk3MGhEWUE?oc=5",
-      "pubDate": "Mon, 20 Apr 2026 03:34:19 GMT",
-      "source": "dailycar.co.kr",
+      "title": "삼성전자 '노조 블랙리스트' 이번주 중 고소인 조사",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1qMDdhVlRqYV9ZUWNHbVUzQjNXRThtcWFsekVaakJncUtpc2ZDRU5ZR0Y2VEZCdmRqdVB6RWoyZTFSSVVBUUNFdDgzRXBidGkyYlZMX2FKMXhCSjN5UjRYT9IBeEFVX3lxTE9MRTRoSlJMT3JQT1BrOXpyTEFZU1p2OWJ1N01lTWV5Y2w3ZWhISmoxZ25kT29mRndETy1FaU52aElEdlIzX1FiaU5KZmRvdUYxSnUyNkthNTlVcUZwVS1DeDZ4NV9mRnU5TlFmUUdUSV9xamdVNl9ZdQ?oc=5",
+      "pubDate": "Mon, 20 Apr 2026 04:47:04 GMT",
+      "source": "newsis.com",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "\"디지털 금 VS 위험자산\" …비트코인, 변동성 확대 속 올해 하락 요인 우세 전망",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE95ODRlQ2FSS0lGTFVaMDduVE1heTlMQk1YQWVJV2RiUW1FVmpnaVpmOGFnZnV6LVc3WF9XVWtpOS1sS055SlZkN2NXaHpFS2ZTcTV2M3Vtc2dyRktEZDY0?oc=5",
+      "pubDate": "Mon, 20 Apr 2026 04:42:53 GMT",
+      "source": "kjtimes",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "삼성전자, 'EHS 히트펌프 보일러' 국내 출시",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOU3ZJWk9faUl4Wi11bExMYTVFUUZ1VXUySWI3aTAzM3NxRkdqTEpfNmwxb0VCc0FCSUd4S0RFUjhyZDFCNXJfd1J0SWljVVdUcUJTekZud1c4UnNsaGZMOTJGWmh1QnU5LXNPcDdfdDhvcjdNLUZNbTdPOEVHYjU1bWxSb1VaQQ?oc=5",
+      "pubDate": "Mon, 20 Apr 2026 04:42:13 GMT",
+      "source": "글로벌이코노믹",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "현대차, 하계 인턴 모집…채용 연계로 인재 선점 나서",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOUXc4TGtyMDg4blJVWkNFQnFaWHduX0t0NzI0TWhLSTdtaTZOWmcxWmNiSjhXdXF1ZndaZnJPX1V6TFRMc1o4a2JUSzFzODNoY2xRRXVXZzBZd3FmQVhRZ2NMdEVyNDNMT0d6SmhHSWMtOU5PSzhRdVB3T3ZBM3hLY2JnOWg5UQ?oc=5",
+      "pubDate": "Mon, 20 Apr 2026 04:35:00 GMT",
+      "source": "글로벌이코노믹",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -40,10 +81,10 @@
       ]
     },
     {
-      "title": "삼성전자 '노조 블랙리스트' 의혹…경찰 수사 본격화",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBZbk00R1N6WFBjaTRpa01nVHBoWTd6S1dNRjQyanJEUWRlZ3hnRGs1WTd6c19IQUNvRk02TlJlZDJTUnpvbUxCekE2QnlXdnlZREdLXy1R?oc=5",
-      "pubDate": "Mon, 20 Apr 2026 03:11:45 GMT",
-      "source": "뉴스1",
+      "title": "[6.3 지방선거 이것이 정책] 오중기 “구미, 반도체 중심지로 재건”…경북 경제 대전환 공약",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5KdmlNQlNkOXBoZ3JZUFl6bWVKMGREMEpMVWpGWGFYQndzWUg5SUxyUnlzUW5uU2dRaF9ETnB3Q0tNamNmbDBlYmRNdjE1eVU?oc=5",
+      "pubDate": "Mon, 20 Apr 2026 04:30:03 GMT",
+      "source": "v.daum.net",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -53,10 +94,10 @@
       ]
     },
     {
-      "title": "[강세 토픽] 반도체 - HBM (고대역폭메모리) 테마, 엠케이전자 +14.93%, 한화비전 +7.94% - 조선비즈",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOR1ZUM3RPejh4WmxrTXB5Y0ZkWnFkSUhFUkZqdVRKcWdqazhTUlNzWldtTjZuOW9aVmVoS0k4TTI5NWtQX1drZmZyRm1aQ254bTRkODQzRkFvRUlzbnpVYTVCU2JxVXdvWmJ1dFh1ZlJEQnc3T0JnWVMwV2RsTFZFVmxYUdIBlwFBVV95cUxPOEgwak1PZTRhMXV5TXgzTVVMdTg2ekRiUEJYLWtNUWlFSjBmN25IQ29LY0JkQzk4cGVDVXlFdEc3c09xNXdsZzN5X2pUVTUzQ3JFc1VpVkpNZ3ZTVFdiR0VPcTFSQ3JJekxoVXRBd0NVNFRkUXlaRk9RaWR6SFV6WXdNMzJpMDZNMGZwMG41dEh4UWxXRW9r?oc=5",
-      "pubDate": "Mon, 20 Apr 2026 03:11:00 GMT",
-      "source": "Chosunbiz",
+      "title": "오중기 “구미, 반도체 중심지로”…포항과 ‘혁신 동맹’ 제시",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9Hc0luUURiaDFnRVQxRkpEODQ2QnBwOFZ2RHRORFMwU1djUG1qOU5DeXNCWEtla2FkUVFXd1JlNnc3NlVwcERGaC1aU19LOHhzaFcxUmRRS3Q?oc=5",
+      "pubDate": "Mon, 20 Apr 2026 04:29:23 GMT",
+      "source": "경북신문",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -66,10 +107,10 @@
       ]
     },
     {
-      "title": "\"성과급 논란의 본질은 공정성 아니다\"…삼성 반도체, '보상 체계 전환' 시험대",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1PbzYwSDFMdkQza1dhSWg4M2JJUU1OYkR2T0RxZUhqMHBNb0ExcFdmRTZmQVpkTXppMW5fSXR5UXZyTHNpRldVdUNVMGVsckFyeXVGemxvTnpKN2Q2TFkyaDk2dThrbUxMRlVzMnhR0gFyQVVfeXFMTzl4dTVQSndub2xMS2FQOWhzd0I5VHBzSVVha01iUzZwbGlTTzJhSmN0UGozZkNQLXdkY0hRcFBrTldQOHpUejhuQ1RxdDVtV2dlX2ZTVW5LWnU1aGNtNEc2TV9XcXFMOWI4RnBOY3FhMFln?oc=5",
-      "pubDate": "Mon, 20 Apr 2026 03:06:09 GMT",
-      "source": "폴리뉴스 Polinews",
+      "title": "용인시의회 김병민, ‘반도체 연금술사’ 비전 제안",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9NT2RUQnA1eEctWG16QmNiaml2OHQzVjBqU1hoRmV4aVBLRFdkejN2RTdwcVhsSjQ4LUdlMGVqOTlvcS1vY0JYSWZ0N25DUXkzSTJJZ2JWbkdGc2NIbTFwY0hTeEpyNWZEQ2FXQQ?oc=5",
+      "pubDate": "Mon, 20 Apr 2026 04:28:25 GMT",
+      "source": "용인시민신문",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -79,55 +120,16 @@
       ]
     },
     {
-      "title": "초호황 DS·비상경영 DX…삼성전자 '한지붕 두 회사' 딜레마",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1QbVhjV01UQzBTM2VqNHFCVzZNTl9ybE1CanZSQmI4bGJqelkwd0RtOXFqZ3kzZzE1RFQxSXJKRkFqWXNFVGl0VWRSZngtdktjZFUtZVJQblI2d2lNUEZRZERTcXI?oc=5",
-      "pubDate": "Mon, 20 Apr 2026 02:57:21 GMT",
-      "source": "뉴스1",
+      "title": "현대차그룹, 인도서 1분기 역대 최대 실적",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5adFc4LXNWZ0tieUJtSzd0VjhTV3FYQkJXUVBXbTJNMmZBVHpGZW5uLVVFTkJ1dVZHTmlKUDZYWm9Odi1VRTNfSjNWX2hQOG55VjFDZm9pQk10WmlVd0s3SA?oc=5",
+      "pubDate": "Mon, 20 Apr 2026 04:24:33 GMT",
+      "source": "뉴스토마토",
       "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성·SK 덕에 외국계 반도체 장비 업체들도 고성장",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5KSHU2bndnRHZab1Z5ZHgxMl9tZkg2MEtXai0yZVNOSTF5MHM0RE1PNEN0Zno4MTRhZ19IUTVLd2o2bll2bzgta1p1Q1l5ZTZacTh1Mmt3?oc=5",
-      "pubDate": "Mon, 20 Apr 2026 02:48:13 GMT",
-      "source": "헤럴드경제",
-      "category": {
-        "label": "🟢 POSITIVE",
-        "color": "#4ecdc4"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "현대차, 하계인턴 모집…실습 거쳐 하반기 정규직 전환",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9SRW1vc2I0MU93QkprRVY0VGVwMGVRMUhTb21Xa290OVNkOGVwRk1IUmNocy16R3FFaGpxejBnWDNoVWE4QlN3Z1ZmOGc4aUZudmJ0WGViQmJleXVmTk9wM2M5ZDI?oc=5",
-      "pubDate": "Mon, 20 Apr 2026 02:47:35 GMT",
-      "source": "매일일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
       },
       "impacts": [
         "현대차"
-      ]
-    },
-    {
-      "title": "반도체에서 생성형 AI까지…'무어의 법칙' 어디까지 유효한가",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE15bDRIazVJd3IyOU9FNDRITHI0bXNFUk9HRUZaX0RUWUZFLW84TE5KZGMyRHVZU2xJZDMxRXllRHFwWGVHbUZ3Sm8zam5ZQ2R6bmJMc0NXOHBXVWtIWWhCaFpiUzFYVWN3Ykl5WnBVckk5T2M?oc=5",
-      "pubDate": "Mon, 20 Apr 2026 02:46:59 GMT",
-      "source": "디지털투데이",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
       ]
     }
   ]
