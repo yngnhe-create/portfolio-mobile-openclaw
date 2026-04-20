@@ -1,7 +1,87 @@
 {
-  "timestamp": "2026-04-21T02:58:00.391306",
+  "timestamp": "2026-04-21T04:28:13.885374",
   "count": 10,
   "articles": [
+    {
+      "title": "실적 찬물 끼얹는 반도체 노조…증권사들, 이익 하향조정",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFAwY0VxUXRmTWVPaUpzOFpLMDlIeGgyc0htNVl3bEhiQmIxZDJ2NEJkSjR4bmZmRzBGeWMtNURhRnVWOEhMZ1dFNmpHMFVlQQ?oc=5",
+      "pubDate": "Mon, 20 Apr 2026 19:27:10 GMT",
+      "source": "dt.co.kr",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "찰스 슈왑, 비트코인(BTC) 교육 콘텐츠 공개…거래 서비스 도입 임박",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1jV1daWk5hMjJPc3dGWE5tc1h2R0RHSUw5eVRRd1ZERjktUE9JZF9ha1ljREx2cG52eWE5amJwdk9uRVFSYTF2N1VRaHlQaGsy?oc=5",
+      "pubDate": "Mon, 20 Apr 2026 18:59:48 GMT",
+      "source": "블루밍비트",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "스트래티지, 2024년 이후 최대 규모 비트코인 25.4억 달러 매입",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9IaW9oNVplTE5nS3hJY2w1bUZLN1l1UndWTHdaV1VlSUZGNTQyelMzaHhCYUdhb1Y3b3pPbDhVbEw4QmxuMFRmVUs3WDFCWUJsMGVQQ3hFakZzbVpFNVNheDlVOFZjamFQYXRPemllMUlSWGhudUlR?oc=5",
+      "pubDate": "Mon, 20 Apr 2026 18:57:00 GMT",
+      "source": "Investing.com 한국어",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC",
+        "환율"
+      ]
+    },
+    {
+      "title": "비트코인 양자 대응책 두고 '갑론을박'",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1LSFpIT29VVjl5VzhlWU94aGY1RncwQy05c2JhVFZmZm9Uc2tnU3E4LWl2U0lvZjhSZkhOaThqb19keGViNE9PbUJJLXh0RzhjQmFRazEwaVVqbnJobUl6UEpCUzRyWjA0MHd5MQ?oc=5",
+      "pubDate": "Mon, 20 Apr 2026 18:46:22 GMT",
+      "source": "경향게임스",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "오늘(4월 20일) 암호화폐 시장: 비트코인이 중대한 기로에 서 있습니다.",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUjd1b0pkVzg1TkdiQmJ1YkF0ZmREd2V2V2JvZGkzZEVUMkNDV2tQcHZzUjVvRnF3UWhFakNHTDloTXVPa0hhcXphZ2RWenFYX0RzLTJVc25ieFhYNkFmU2s4WGU5eWJFckMyV3VuRU92blNHWFNsY0ktNlBHVGxNZUtxVHBNR1ZUUzJnT2N2RXpFODRjN3ZmRWxxVkY?oc=5",
+      "pubDate": "Mon, 20 Apr 2026 18:28:17 GMT",
+      "source": "Vietnam.vn",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "비트코인(BTC), 7만6000달러 일시 회복",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5UT3pHVk9lbi1TUkt6bUdYMzNXdDdRZlJIenBzeGhCaVVMTWFyV2ZqYVR6SzFMMmlqWmcxeGFlcEk3Rl9TdlpUN21UTV9lTW9Y?oc=5",
+      "pubDate": "Mon, 20 Apr 2026 18:05:59 GMT",
+      "source": "블루밍비트",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC",
+        "환율"
+      ]
+    },
     {
       "title": "\"비트코인(BTC) 단기 하방 압력…유동성 개선 시 상승 재개 가능\"",
       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE90aW5wTk01b1RRbmxKNTJzaFBCUl9QX2VwamdRUWNhWDdiSS10WlI1MmhLMmRTanczbEd1eElMZzBrSW1UUVhHTHAyVWQ2d0NH?oc=5",
@@ -29,50 +109,10 @@
       ]
     },
     {
-      "title": "실적 찬물 끼얹는 반도체 노조…증권사들, 이익 하향조정",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFAwY0VxUXRmTWVPaUpzOFpLMDlIeGgyc0htNVl3bEhiQmIxZDJ2NEJkSjR4bmZmRzBGeWMtNURhRnVWOEhMZ1dFNmpHMFVlQQ?oc=5",
-      "pubDate": "Mon, 20 Apr 2026 16:26:38 GMT",
-      "source": "dt.co.kr",
-      "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "대우건설, ‘용인 반도체 국가산단’ 배후 주거지로 우뚝",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9xc19QaUhfeUUyQ3JRNVpPZmRlSjZSY1RidExuU3VZalJMcWtQVnZDbkdTQ1djeXFPcWRKS01RNGV1WnFka0VQNHJ2MUNDVXNIblpMempZMm5tdkZET19kTjdGWlptQlprUE1aY3BpWlJLYmZPX1JQMA?oc=5",
-      "pubDate": "Mon, 20 Apr 2026 15:53:03 GMT",
-      "source": "서울신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "리츠",
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "현대차그룹, 실리콘밸리 우수 인재 모시기 나서",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9UbTR4MDdMel9XWFpOd2VmOTdncGx6NWhaUF96WGdhcFdncHBvLUMyc0kwbDZxZFJ2TGExU2lNQmV3QUo5dTBkV1hyREV1T21tYktmRWxvcG5rVnoyRzMtZGhfdFF1RWvSAWxBVV95cUxOTlQtTVhmdzB3NXhqdnhQZUZjZ3pqUXRfZktpQW5oVVN0RnJVTmFTc2Y0T0lSWExKR1VHeHpRU1RLU3RwN0pRSllrQ3V5a1cwOVVPREw1VU9QcXFPRE1DYkYzU2VLM0VpRHpLbTk?oc=5",
-      "pubDate": "Mon, 20 Apr 2026 15:47:00 GMT",
-      "source": "국민일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "반도체 효과… 삼성家, 국내 주식 부자 1~4위 싹쓸이",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNaVZOTnB3clQ2N0FKcGdTbng3RmZWR044d0NuanczZU84TGh5RmR5ZmdUV09nNHprbEdWejRpUFVOQ0Rpa3pHTGdrbFZ0ZEJ3d3BFMWs1VEd5dFUxZmtMWXEtUUlrRjNQendsMElpdDFTVkhHLWY0elZSYUxfYUFDRA?oc=5",
-      "pubDate": "Mon, 20 Apr 2026 15:36:00 GMT",
-      "source": "조선일보",
+      "title": "삼성전자 ‘45조 성과급’ 노·사 대치와 분배의 정의",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE83RHNEMWk3NDJXamI3amp5TlNLTHhjcFE3bnJYaHdUZWZXS1hVbFpnMEctNExuRDg2NUEyLUlJczhIeGhseERPQUZMRnNDYzQwRGRLSUg5Sko0MnRLY0wzVWptUmVGa2d1WkHSAW5BVV95cUxNVWp6RmtGZGgzYVB6bTlZSkZYQU9RRktEaWpoMGRIZ1VFT0tGbzh0Q0Z6aUlhSnI2MHFWaGZZVW9ocE1IVUF2aW1qWWg1OXA5OEVOY2xJNUZjdlB2eXBseEFFcGxEWm44elNSY0tudw?oc=5",
+      "pubDate": "Mon, 20 Apr 2026 16:25:50 GMT",
+      "source": "공공뉴스",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -82,57 +122,16 @@
       ]
     },
     {
-      "title": "현대차, 美에 “중복관세 적용 말아달라”",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBQR1N2ODhOWVV5TklnWk4xNkExdzJDY3psQlhBblZ3UTBwZjNzWjNoczhpb21kMGxYWGR4MGF0V0xWYWFzVXo0b2NsNFJXLUVlTUIwZ1NKc3RmWmlocHRibmxOM25nWFdyOGdxR0lWNWZQRFlEY3fSAWZBVV95cUxQeDBrb29HR1VVZWdRM0FYVW5NQmsyMmdnMXo1T2toSXRSRGpwUzQxMEp2Um1kT1hTTnNMdlE2LVNBWGhMNHRQcU1xTEFqWUpQaUZseTJ6d0lvY19aTmRCV3M2MUZpSUE?oc=5",
-      "pubDate": "Mon, 20 Apr 2026 15:30:00 GMT",
-      "source": "동아일보",
-      "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "[美특징주]스트래티지, 비트코인 하락에 동반 약세…중동 긴장 재부각 영향",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPeUxlVktWcTJmcHRnSTZROURoQ1hzaF9RY19BYWxFSnhBdHllc21kMUVwTnZyWnZBNmF3RkVhYVdPTlJsT0FmWFVKWDFiU3p4cEl1Zi1CWEJHRW5rSnM2b01xUFc3bG5PTkJ5ZVpEb0ZFNDNUWXhwV1hNRnUyaGl0bA?oc=5",
-      "pubDate": "Mon, 20 Apr 2026 15:23:08 GMT",
-      "source": "이데일리",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC",
-        "원유"
-      ]
-    },
-    {
-      "title": "[인터뷰] \"전쟁보다 유가\"…박희찬 미래에셋證 대표 \"AI 투자축은 반도체·인프라\"",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9OOGszLTExd1pWWWFzamhtWkxVTmgxSGlXU3lzN1IxME5zZGM2NVZNLXBZUGVOWkktNmk5c1BmNzc4QzZpV1NjVUV2NFFTR2c?oc=5",
-      "pubDate": "Mon, 20 Apr 2026 15:02:53 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
-      },
-      "impacts": [
-        "원유",
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "현대차그룹, 실리콘밸리서 글로벌 기술인재 확보전",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNN2dOenJveFZoWC0zMFNzX3BKQkpLSXE3WTBaZ09xVDRSci1qc3NRLVdyNVhxcGdob3Q1bGJyMFJjNVNWcEdXVDV0X3BaVFpOdTZLNXFMck1xWHRDY1pLVWpDdTRGeTlLT0R6LVhDZlF5NGxtMFpVTTRnLUxWVDFZNFhCN012UQ?oc=5",
-      "pubDate": "Mon, 20 Apr 2026 14:38:45 GMT",
-      "source": "글로벌이코노믹",
+      "title": "반도체 계약학과 1세대…내년 500명 현장 투입",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE0tbGVHZERkWUtIeGtwRFBXQWN4bVFCN01YdXd1Rk1wOEh3WmFJUEZzYnE2aVlrZ1FDS0NOdTFoTzdMNmhPY0c3U3RJbm42dw?oc=5",
+      "pubDate": "Mon, 20 Apr 2026 16:01:12 GMT",
+      "source": "전자신문",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
-        "현대차"
+        "삼성전자"
       ]
     }
   ]
