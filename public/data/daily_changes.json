@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-04-20T18:26:23.706845",
-  "count": 40,
+  "timestamp": "2026-04-20T21:26:36.860331",
+  "count": 30,
   "stocks": {
     "삼성전자": {
       "name": "삼성전자",
@@ -156,60 +156,11 @@
       "chg": 630,
       "src": "naver"
     },
-    "INTC": {
-      "name": "INTC",
-      "price": 68.5,
-      "pct": 0.0,
-      "chg": 0.0,
-      "src": "yahoo"
-    },
-    "NVDA": {
-      "name": "NVDA",
-      "price": 201.68,
-      "pct": 1.68,
-      "chg": 3.33,
-      "src": "yahoo"
-    },
-    "TSLA": {
-      "name": "TSLA",
-      "price": 400.62,
-      "pct": 3.01,
-      "chg": 11.72,
-      "src": "yahoo"
-    },
-    "AMD": {
-      "name": "AMD",
-      "price": 278.39,
-      "pct": 0.05,
-      "chg": 0.13,
-      "src": "yahoo"
-    },
-    "AMZN": {
-      "name": "AMZN",
-      "price": 250.56,
-      "pct": 0.34,
-      "chg": 0.86,
-      "src": "yahoo"
-    },
     "LLY": {
       "name": "LLY",
       "price": 927.03,
       "pct": 2.55,
       "chg": 23.04,
-      "src": "yahoo"
-    },
-    "MSFT": {
-      "name": "MSFT",
-      "price": 422.79,
-      "pct": 0.6,
-      "chg": 2.53,
-      "src": "yahoo"
-    },
-    "GOOGL": {
-      "name": "GOOGL",
-      "price": 341.68,
-      "pct": 1.68,
-      "chg": 5.66,
       "src": "yahoo"
     },
     "RTX": {
@@ -219,25 +170,11 @@
       "chg": 0.57,
       "src": "yahoo"
     },
-    "PLTR": {
-      "name": "PLTR",
-      "price": 146.39,
-      "pct": 2.54,
-      "chg": 3.63,
-      "src": "yahoo"
-    },
     "ARTY": {
       "name": "ARTY",
       "price": 58.65,
       "pct": 1.73,
       "chg": 1.0,
-      "src": "yahoo"
-    },
-    "HSAI": {
-      "name": "HSAI",
-      "price": 23.25,
-      "pct": -5.26,
-      "chg": -1.29,
       "src": "yahoo"
     },
     "NLR": {
@@ -247,39 +184,32 @@
       "chg": 0.51,
       "src": "yahoo"
     },
-    "GRID ETF": {
-      "name": "GRID ETF",
-      "price": 183.31,
-      "pct": 1.85,
-      "chg": 3.33,
-      "src": "yahoo"
-    },
     "BTC/KRW": {
       "name": "BTC/KRW",
-      "price": 110511050,
-      "pct": 0.28,
+      "price": 111173474,
+      "pct": 0.33,
       "chg": 0,
       "src": "coingecko"
     },
     "ETH/KRW": {
       "name": "ETH/KRW",
-      "price": 3392822,
-      "pct": -0.11,
+      "price": 3411538,
+      "pct": -0.16,
       "chg": 0,
       "src": "coingecko"
     },
     "SOL/KRW": {
       "name": "SOL/KRW",
-      "price": 125186,
-      "pct": 0.68,
+      "price": 125764,
+      "pct": 0.03,
       "chg": 0,
       "src": "coingecko"
     },
     "샤오미": {
       "name": "샤오미",
-      "price": 32.46,
-      "pct": 1.44,
-      "chg": 0.46,
+      "price": 32.32,
+      "pct": 1.0,
+      "chg": 0.32,
       "src": "yahoo"
     }
   }
