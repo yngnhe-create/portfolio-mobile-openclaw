@@ -1,7 +1,21 @@
 {
-  "timestamp": "2026-04-21T04:28:13.885374",
+  "timestamp": "2026-04-21T04:58:27.282276",
   "count": 10,
   "articles": [
+    {
+      "title": "포스코 ‘인도제철소’ 22년 숙원 이뤄… 삼성-현대차는 R&D센터",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9NSEE1OVo2TUZZOGduQVVoN25VaC0zVkFJQmtuUlZQZFMxME5UbTc5OEo5OHNuVS11a3JSb0ptcU1GWUdqM1VuaDZJelhMZ3pibmRLWU1HU2ZLTmJ3UEdUVkJQR3VScUFfY3M3aThJM2dQWHQ1WExj0gFmQVVfeXFMT1k1Rjk4RGIxdHBSYlBrSjJvMDVFUHNSN21NWGtweUgtWUdVSVNmSXk1MGFfcTlPdG0zbElPa0x2d2Qtek1CUTZDTEVHSzlMTDZuU0ZPc2FBQldGYlBsMjNnUnVTc0lR?oc=5",
+      "pubDate": "Mon, 20 Apr 2026 19:30:00 GMT",
+      "source": "동아일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차",
+        "삼성전자"
+      ]
+    },
     {
       "title": "실적 찬물 끼얹는 반도체 노조…증권사들, 이익 하향조정",
       "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFAwY0VxUXRmTWVPaUpzOFpLMDlIeGgyc0htNVl3bEhiQmIxZDJ2NEJkSjR4bmZmRzBGeWMtNURhRnVWOEhMZ1dFNmpHMFVlQQ?oc=5",
@@ -13,6 +27,19 @@
       },
       "impacts": [
         "삼성전자"
+      ]
+    },
+    {
+      "title": "현대차, 아이오닉 3 공개..플레오스 최초 탑재",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5DbzlJQzl4eVpFcjRYZkYxVnVoSDVhV245R1JwaGVTX2xsMTR4alY5YV9IeVRwZ2NJYkZGS3ZoN3IwS2RrM2FJRTJnZ0dVSmdqS1B5aUg1VEdBUlJsbWVTT2JvR1g?oc=5",
+      "pubDate": "Mon, 20 Apr 2026 19:01:17 GMT",
+      "source": "탑라이더",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
       ]
     },
     {
@@ -38,8 +65,8 @@
         "color": "#a55eea"
       },
       "impacts": [
-        "BTC",
-        "환율"
+        "환율",
+        "BTC"
       ]
     },
     {
@@ -78,8 +105,8 @@
         "color": "#a55eea"
       },
       "impacts": [
-        "BTC",
-        "환율"
+        "환율",
+        "BTC"
       ]
     },
     {
@@ -106,32 +133,6 @@
       },
       "impacts": [
         "BTC"
-      ]
-    },
-    {
-      "title": "삼성전자 ‘45조 성과급’ 노·사 대치와 분배의 정의",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE83RHNEMWk3NDJXamI3amp5TlNLTHhjcFE3bnJYaHdUZWZXS1hVbFpnMEctNExuRDg2NUEyLUlJczhIeGhseERPQUZMRnNDYzQwRGRLSUg5Sko0MnRLY0wzVWptUmVGa2d1WkHSAW5BVV95cUxNVWp6RmtGZGgzYVB6bTlZSkZYQU9RRktEaWpoMGRIZ1VFT0tGbzh0Q0Z6aUlhSnI2MHFWaGZZVW9ocE1IVUF2aW1qWWg1OXA5OEVOY2xJNUZjdlB2eXBseEFFcGxEWm44elNSY0tudw?oc=5",
-      "pubDate": "Mon, 20 Apr 2026 16:25:50 GMT",
-      "source": "공공뉴스",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "반도체 계약학과 1세대…내년 500명 현장 투입",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE0tbGVHZERkWUtIeGtwRFBXQWN4bVFCN01YdXd1Rk1wOEh3WmFJUEZzYnE2aVlrZ1FDS0NOdTFoTzdMNmhPY0c3U3RJbm42dw?oc=5",
-      "pubDate": "Mon, 20 Apr 2026 16:01:12 GMT",
-      "source": "전자신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
       ]
     }
   ]
