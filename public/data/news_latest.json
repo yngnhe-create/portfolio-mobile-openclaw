@@ -1,7 +1,47 @@
 {
-  "timestamp": "2026-04-22T02:33:07.354688",
+  "timestamp": "2026-04-22T04:03:20.693278",
   "count": 10,
   "articles": [
+    {
+      "title": "워시 발언에 비트코인(BTC) 하락…\"금리 인하 기대 약화 영향\"",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5rQ1U0Y1hzbGNEUV9KLXd2dUNFamduT0JZOGhlMU9iV2lySnFjS1RXdGdJU182R3RiM1VEOEowakdvRjNIcnNsQWlTV00wYnRi?oc=5",
+      "pubDate": "Tue, 21 Apr 2026 18:34:06 GMT",
+      "source": "블루밍비트",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC",
+        "채권"
+      ]
+    },
+    {
+      "title": "[사설] 반도체 호황도 경기북부에는 상대적 절망",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE00Y2JQSHEwdkFhTnR3U3JlYkVmVmhOMlV2Y1JVRHl2d3VuZWNaVi1yRGFnQUdZNzlhZHBWdndrY2RPRFJMUGVBSW92V1dtNWs?oc=5",
+      "pubDate": "Tue, 21 Apr 2026 18:05:30 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "기관 ETF 자금 ‘비트코인’ 시세 하방 방어",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1CdEhnRVhfeUZ5NnlfRnN3TTdxTUZxUXpaUTJyT2oxZE1DOUFlWjBrTVpLYXZ4RDVWUFJtRTcyd1ZLNmxhbzJoR3ZKWDlKSFg3ZlhXYkN2VEFiZDdMbGtfN01GMlpWMFY5aFk2UQ?oc=5",
+      "pubDate": "Tue, 21 Apr 2026 17:47:31 GMT",
+      "source": "경향게임스",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
     {
       "title": "삼성전자를 보며, 박정희·이승만·리콴유를 떠올린다",
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBueFVaekVpZUhjT01aUGZFSEFBajFEYUpIa2paY2V1YmNnRmg2RFIzc0F5MEpYbU9LTXpFR3JfRFg3S3RGYTQ0aFBnZ0pfaWlmdmZldk9MdEM0UWdKUXlQNFVDOHFJakRlZGJIWV91V0NpZw?oc=5",
@@ -85,45 +125,6 @@
       "title": "[기고] AI 반도체 시대, 초순수가 국가경쟁력이다",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPR1FERDB5a1d6cjdKUDlpajVGeVplOHF3ZjlBSGVuMGMxZVRZbGJ4dTlsVF9TdE81MGt3d1BCdFlROEJGSjRIZHFsOFhqdmZxZm5JbkJBcTcyV25zUFRHT3Y3WHlRSWxmUWpTdVVaS2xHdlJWVGNTTTR3bDhEWEpqU1VURHM2UFM4bXdwcDk5ZTNobktzYUo0?oc=5",
       "pubDate": "Tue, 21 Apr 2026 15:34:35 GMT",
-      "source": "조선일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자, 갤 S24까지 AI 신기능 업데이트 지원",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNX1IzcUdkNEE0QlgzM3NhYmVvWV9OM1V5NUZDajRZMUo0LXNSM0NWWU1MX2tFQTM4b3JSSV9DTF9uSGFCd3JfZUpzNnBtSzdPZ2MzWmNZVDlCemNhSW4tUWktUGxCb043TzZZYWxNRWFGM2VGalc0V3I4V3pIUjVVRG42WQ?oc=5",
-      "pubDate": "Tue, 21 Apr 2026 15:34:00 GMT",
-      "source": "조선일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "\"내일 출근했다간 노조에 찍힐라\"… 삼성전자 직원들 줄줄이 휴가원",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQNXFZcUFEbjZoMlkwTkE3N0FUZ2p0YlJ0WVBkSVVJQkZqMWtydXpQYTFQVldPeWROdE9QcXlaZ184NHhqMFlJSXJhRThQZG8wSE9Eak5qTzRhMXRNTnV5MkFaWVVNWnN3N0ktQ19QNHFTSkZqWFV4WEpOU2dvMzgzclRDc3ZlQmZKSWZ1OE5tZw?oc=5",
-      "pubDate": "Tue, 21 Apr 2026 15:33:00 GMT",
-      "source": "조선일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자·하이닉스 ‘2배 베팅 ETF’ 내달 22일 나온다",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOWFJnM3RVRVZ4N2ZSam5VbnhxWGZsbEllQUU4eW9IZlBzaWZmdW1ZZG84M05BQ2h1clBEZmhvdWExSzk0X3BuUHZLX1dPYmVtZzI0Z0RkUzlvVkIxdXBVam9GZGU5NzRWbGgxTWVfZHFxQzAyR2s5eE9CV0pJUDBtZVZhX1FkMEJua0w0?oc=5",
-      "pubDate": "Tue, 21 Apr 2026 15:31:00 GMT",
       "source": "조선일보",
       "category": {
         "label": "📋 GENERAL",
