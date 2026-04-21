@@ -1,7 +1,20 @@
 {
-  "timestamp": "2026-04-22T02:02:53.887289",
+  "timestamp": "2026-04-22T02:33:07.354688",
   "count": 10,
   "articles": [
+    {
+      "title": "삼성전자를 보며, 박정희·이승만·리콴유를 떠올린다",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBueFVaekVpZUhjT01aUGZFSEFBajFEYUpIa2paY2V1YmNnRmg2RFIzc0F5MEpYbU9LTXpFR3JfRFg3S3RGYTQ0aFBnZ0pfaWlmdmZldk9MdEM0UWdKUXlQNFVDOHFJakRlZGJIWV91V0NpZw?oc=5",
+      "pubDate": "Tue, 21 Apr 2026 17:12:42 GMT",
+      "source": "미래한국",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
     {
       "title": "삼성전자 ‘밀라노 디자인위크’ 참가",
       "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE83OGdKano2RW9QRV9pZkdybFNWR3h0b1JUZXYwbGd3MjVQaUZ5TjdOMGxjNkdXSlB0MGJzS3hhdUVDejFtZFJqYkJuQmd6QnQzMUllbElVVkdIUDFuQnVXNGdFZldaWTFhTzMxMXVXbU00SWxZV3BDT29Zaw?oc=5",
@@ -51,8 +64,8 @@
         "color": "#8b9dc3"
       },
       "impacts": [
-        "현대차",
-        "테슬라"
+        "테슬라",
+        "현대차"
       ]
     },
     {
@@ -118,20 +131,6 @@
       },
       "impacts": [
         "삼성전자"
-      ]
-    },
-    {
-      "title": "현대차, ‘인도 맞춤형’ 3륜 전기차 만든다… 8년 협의 결실",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBQem5mcUx2UEhLX3Zad3VqQjVFRnoxZWdqbTZua0F0VS1KR3Zsa191WGFuUTVZSWNvT1Z4djdFcFpPaFhCRkFMQ1VSaUlBMWlIalVtX2pDcTBub1N3U2pLT0IyYXpfcTZ2QzVYX3BJek1naHNqbFHSAWZBVV95cUxQcEttdXdMZlpEdlo2RkNTQm9wZEcyaVVmYkx3bVdnSER1QnZqQVFvV1FlemJOYTBzWllmRWVkZkRDT29DcF9mWmZ0M0xXS0FrM2E5d0hpV0N6anJGTEkxT0phZ2ZSMUE?oc=5",
-      "pubDate": "Tue, 21 Apr 2026 15:30:00 GMT",
-      "source": "동아일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차",
-        "테슬라"
       ]
     }
   ]
