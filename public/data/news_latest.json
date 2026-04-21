@@ -1,18 +1,100 @@
 {
-  "timestamp": "2026-04-21T11:29:49.054093",
+  "timestamp": "2026-04-21T12:00:02.920333",
   "count": 10,
   "articles": [
     {
-      "title": "[비트코인 지금]CBDC·스테이블코인 공존…‘디지털 통화 투트랙’ 현실화되나(종합)",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9lVVVZaXgyZjBmOVJ6THRra0VWclJXc05NekI1XzQtaFRHTUo0Yy1fSnFRRlJHaWZTc2pMeXZFbGJ2VWIxeFdpSl85M2JvVTF4V1MwazJpWDFablh1MHg2VA?oc=5",
-      "pubDate": "Tue, 21 Apr 2026 02:26:37 GMT",
-      "source": "아시아경제",
+      "title": "‘반도체 슈퍼사이클’의 힘… ‘고유가·노동이슈’ 악재 뚫고 랠리",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9XSms1Q21kZVBFRUNTZzM5UGFrS3U0Z28ybUhqam91NTVPamNjMVhidWtlYU5uaGx5VWRPdF9UZXJMUUJCM0JPczQ5ZFhseWtj?oc=5",
+      "pubDate": "Tue, 21 Apr 2026 02:57:55 GMT",
+      "source": "문화일보",
       "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
       },
       "impacts": [
-        "BTC"
+        "원유",
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "반도체 힘입어 4월 1~20일 수출 49.4%↑ ‘역대 최대’…원유 수입 3개월째 증가",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1IRUxhbnBrUm5tY0FpYktiNTIwMDI0b1ZWbFY5dkpsQlhBb0ZiLWZiakk1bW9Wb05fVUZ5U3huRDZ6bXJFSGNXbHA2MWFRczRYcXlSUmpR?oc=5",
+      "pubDate": "Tue, 21 Apr 2026 02:55:00 GMT",
+      "source": "중앙일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "원유",
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "현대차가 8년 공들인 ‘인도 맞춤형 EV’ 비전, TVS와 손잡고 본궤도",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8tX3lDTlRTMzgyZzFEeGk2YkhTNW5ZYTRuMHdGQ3dLNE1MeGtacnBiRjFMZTBfYW9jV0lZYXQwZ09pZEZyMDNOekphbDZLZUE?oc=5",
+      "pubDate": "Tue, 21 Apr 2026 02:43:02 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "테슬라",
+        "현대차"
+      ]
+    },
+    {
+      "title": "이란 전쟁 속 반도체는 호황…수출 신기록 쓴다",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBMOWFXQUNZSDFKNm9yYjBJaTdLZ0VIZ3RkTGJwVnczMEVRZ2w5eVE2eHNVem5XLUdpNG82cXVLX3FBbVZnZlZNNmxYeldiclk?oc=5",
+      "pubDate": "Tue, 21 Apr 2026 02:42:05 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "원유",
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "티오리, 삼성전자에 AI 해커 ‘진트’ 공급",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE44cl9ETnMwS21pZUlDOXl5ZHBxbWg0UlhJa1U2VUpuMXVYbFNOazhPN0E5cENMNXhjTUZkcVNVSXhEV2ZncTJQTnZqdDVJR1QzRFB1ODB4V0tHYTVNdHFMSzJobVhkUEhsTEU2SjR0Z0U?oc=5",
+      "pubDate": "Tue, 21 Apr 2026 02:34:00 GMT",
+      "source": "보안뉴스",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "무뇨스 현대차 사장 “미 생산 확대 계획…비용 절감 노력 필요”",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5DelF4UDRkTDdlWXRiMnV5a0xKRUwtLUV2NWlxMjF6aU5lVVVpdHU1ZFdhNHZjSzBjMkVCX0V5X0hPaVJpd2k2VHNwQjlHeGh0YWxTV2sxMDRWUlpVZDlTOA?oc=5",
+      "pubDate": "Tue, 21 Apr 2026 02:32:50 GMT",
+      "source": "뉴스토마토",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "이르면 5월 22일부터 삼성전자·SK하이닉스 레버리지 ETF 나온다 - 조선비즈",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNcGg3ZFZKTDE0WC16V3NjYjV6eTB5Zjl1SXRsQllJYVpGWVgwaGU1RVhsVXF3aTBVNEZFT0JiQ0hOcS1HemRnZkNkcWs1VDFaTkpaTFZFclhsQmZmRWxhcFZNTUZMYTN5Umo2ai01QVVhUldFMlVRNHlIU3cybDZoQXlub2lKZHNP0gGcAUFVX3lxTE1VR0JXRnZHZThMSktkZ3poZl8td0Q2NDJtNXdudHhDaTI1TVJza3VpRks1S2l5aTdWVC14UDV2a1pGZ05wTnpFZGQxb3drWVN1T1RheFlqbTFhWkJaNmZDYmJGUVdzbWI1ODNmUVZRcjNWNXZ4akxKcTItS2NJek9LdlBSWUVaQnVMd09QYUpyVW5yWlA0c0R4V3N6Vg?oc=5",
+      "pubDate": "Tue, 21 Apr 2026 02:31:00 GMT",
+      "source": "Chosunbiz",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
       ]
     },
     {
@@ -25,115 +107,35 @@
         "color": "#a55eea"
       },
       "impacts": [
-        "BTC",
-        "환율"
+        "환율",
+        "BTC"
       ]
     },
     {
-      "title": "KB자산운용 '삼성전자하이닉스채권혼합50 ETF' 순자산 1조 돌파",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBtcVpYclE0bUlobVJ6LW9kMGRTc2tnWmdkaWJwMEZLWjVYaGJ2X3FzU3lUUW53MWpFWklLdURZNUZ0VGY3V3EzTHgzcFVCaV9sNVlnNmVYVGRveEN3SWh2dFNsQUpnRThxa0Z3aQ?oc=5",
-      "pubDate": "Tue, 21 Apr 2026 02:19:41 GMT",
-      "source": "중소기업신문",
+      "title": "반도체로만 182억달러 벌었다...4월 수출, 벌써 500억달러 넘어 ‘역대 최대’",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE16dy1FS2I4LUdtUWV2Yzh4akcwSUxYQTBpcXBFOWNFMDFuR2dscmdEc2tYamlBdk5MTUlnTHhjU1I5Wm0wN1ZwWEhUemNPUjFoOEE?oc=5",
+      "pubDate": "Tue, 21 Apr 2026 02:22:24 GMT",
+      "source": "매일경제 마켓",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
+        "환율",
         "삼성전자"
       ]
     },
     {
-      "title": "HBM 이어 '소캠2'로 전선 확대…삼성전자·하이닉스·마이크론 '3파전'",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB4cGFQSGkwVmhZbkxuYk1pX0tueF8xcWRlaWliRVRqTURyUWoxVzhYRDh3clBwLWY4TFowd3J3b0dicUVCSm1WSXZ4VmJud2NsS3A2QUlCNm1uSFhwMUJOZg?oc=5",
-      "pubDate": "Tue, 21 Apr 2026 02:16:10 GMT",
-      "source": "newsis.com",
+      "title": "현대차, 아이오닉3로 유럽 노린다…1회 충전시 496km 주행",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB4QW1QbDN5QnVGemNvTUhWU1hmZnNtR1AyTmExOUx4dkcxZTcyZmxNOGNMUVk4MkM3eXphOGFqNnRTd192RHR4NFdUcF9IVElaZ1E?oc=5",
+      "pubDate": "Tue, 21 Apr 2026 02:22:00 GMT",
+      "source": "노컷뉴스",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "정의선-인도 총리 8년 약속 결실…현대차, 인도 '3륜 EV' 시장 연다",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5LS0xFenZuQk9HcTM1aTV1ZFdIaTBEUXp2VkFnVGlJV1Y3YzdDRUFQdkU2aEhjaDg2MDJ6ZXI2WmdkRWRRZEFWSmJwSUlEdmhiNE9VcXhzU2w5a1BjTUFRb3RCcW05QzF6MjJYb0VSUDE?oc=5",
-      "pubDate": "Tue, 21 Apr 2026 02:16:06 GMT",
-      "source": "연합인포맥스",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "테슬라",
         "현대차"
-      ]
-    },
-    {
-      "title": "美·英 매체서 호평 받은 삼성전자 OLED TV… “독보적 기준 제시” - 조선비즈",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQR1JQVUR1SUFmQU51dEktQVVwck9OM3BPXzVtR3NoNk5EQXN3ZmFSaHlRVlpzbVBQR1RwLVkxcnE2cmRFaHBXbHhHVC05VXB5YXN3Z0dXQXVCU0x4OEdRYm5sUFN3cnV0UW90Tk1nc0JPWk5JbnBfSDFaMmlCTGRKVjJR0gGWAUFVX3lxTE1QSkpleUNqcWFMdHJhNFlTSFJES25zQnV3aWVueS0wSWI3N042Snp5LXQ1WFNjajNDRmp5TWI4Wkc0LXpBYmZDTVNYa1htQUpvb3duZF9vQ19UaHE2dU5iVXZPX1hEbkc1MGRxSjdKMEd0T28wSnUwQU9LdHYwV0JLem5GdmFKWkhvRE9iY2M1TmQ5MHhOdw?oc=5",
-      "pubDate": "Tue, 21 Apr 2026 02:14:00 GMT",
-      "source": "Chosunbiz",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "상법 3차 개정 자사주소각 의무화...삼성전자 최대주주 지배력 20% 붕괴",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOWU01WTJsMzdEY2Q1RHoyNnVhQ3BqS2xKSU9nbnFKbUt6OURqLWVTY1dRMU0zTmpJMkxWQWhrMW51djdnb05pN0paa1RwUFFQU25HM2s4QlhjaVgwYzJFbVR5R3NtMlhxdldkRWlrZTB0ZGVNSEFSWnh6bzRuZXpuYldVQmYwYUJwYXlr?oc=5",
-      "pubDate": "Tue, 21 Apr 2026 02:08:00 GMT",
-      "source": "국제신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "스트래티지, 비트코인 25억달러 추매…역대 3위 규모",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAtNWVnakxEV09tbk1ub1RwUEpaYmI0Y0p3ci1Ebk14MTc2Y0pUY190RTEtM2VDdUMzcXNwdmxCQ1ZrTzJnZWNDWUtTSEtwVU9JSlZmaVBFdV9ZTkIwVmFBemRGR3ZhcXd5YjdLSHlwdEXSAXRBVV95cUxPT1l0a0hZcEpncXR1amZveVlDdFJSVE80TnlyeTFHOFhxZDBJX3VvYy01M0QxWHZxMzBwNGRmYnBzUlBfWnoyTjMwR210SFFxd2RFSjJIM2NUZXV2cXZwSFVhTFFaek1BQXJRdGdkMXhGem5feQ?oc=5",
-      "pubDate": "Tue, 21 Apr 2026 02:04:31 GMT",
-      "source": "연합인포맥스",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC",
-        "환율"
-      ]
-    },
-    {
-      "title": "정의선 회장-모디 총리 '8년 약속' 결실…현대차, 인도에 '3륜 EV' 시대 연다",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAwYkZocFR2eW0yRy00LWl3R2xBQkhCR29UejNTUzJ2SG1UVzZKQl93TkxXLVRTZm9iZXNRMEVwamgxZzBGOHowQm5HVEdZeE9CRmVQQmtyQkdSY2lLdEtIRzgwcTJydWlwbHZlNDhmWEs?oc=5",
-      "pubDate": "Tue, 21 Apr 2026 02:04:05 GMT",
-      "source": "오피니언뉴스",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "테슬라",
-        "현대차"
-      ]
-    },
-    {
-      "title": "삼성전자, 밀라노 디자인위크서 120가지 ‘디자인 자산’ 전시 - 조선비즈",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNRnp5b3Z5Qmp2enBxeFg3YVl2TXQ3bngweUExYW5OUDNMZEtGNzhzQnp1dnFMMl83VUNwUlZTUnM3b01sM3pwUVpjcWhhMnpucG54UnJrYUs2ZFBqOTduTC1WWHp4RHFPc0Z5V1JJZEthM2h5ckFDSjh2NWNLQmRpa21n0gGWAUFVX3lxTE5KYmg4NzZrelNrWnhEQkd6RkF2M2FiYm1FVHV2elhqbHdTdEtoTmJVRzc2V3hfYlNnVVctbHUzdXpmcUhSbzUtcEgxR1g1b3JWT0oxc0lJczlueDdmVWNtSVEtNmFpTmtxOUZvYUhpYXI4bmRER0ljUnk1bnk3dmVaSlJHazBtQ2p2cUxJanRpc05jZUNZQQ?oc=5",
-      "pubDate": "Tue, 21 Apr 2026 02:04:00 GMT",
-      "source": "Chosunbiz",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
       ]
     }
   ]
