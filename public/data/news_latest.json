@@ -1,12 +1,25 @@
 {
-  "timestamp": "2026-04-22T00:32:40.093687",
+  "timestamp": "2026-04-22T02:02:53.887289",
   "count": 10,
   "articles": [
     {
-      "title": "[사진] 전쟁 이긴 반도체…코스피 6388 사상 최고",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1kWC11UW1yb3ZSb01ya0VUelNfOUZxV0JYS1lRZTJvcUFzSm5LMGJOOU9SZFpvV0NYU092NDJULXNaUEVNd2ppNDVGQjhjMDM2UlhLSTJR?oc=5",
-      "pubDate": "Tue, 21 Apr 2026 15:26:47 GMT",
-      "source": "중앙일보",
+      "title": "삼성전자 ‘밀라노 디자인위크’ 참가",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE83OGdKano2RW9QRV9pZkdybFNWR3h0b1JUZXYwbGd3MjVQaUZ5TjdOMGxjNkdXSlB0MGJzS3hhdUVDejFtZFJqYkJuQmd6QnQzMUllbElVVkdIUDFuQnVXNGdFZldaWTFhTzMxMXVXbU00SWxZV3BDT29Zaw?oc=5",
+      "pubDate": "Tue, 21 Apr 2026 16:05:31 GMT",
+      "source": "서울신문",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "반도체 빼면 ‘얼음’… 상장사 60%는 전쟁 전 주가 회복 못해",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPTFc5UkVQd3lOWE55aW5yZW9Xc0VWZm5QQzdzaGhlYlRXME5LMjY4Qk9Od09zSENWZmcxOFVpQXV2WE9aRUl2c19kYkFQNlVPVUs1Zzk0TlpwbVR1RXVZV0ludmJnUXE1cGNQZWlOWFd6VmVwSEtUX2pBNWtYV09fcg?oc=5",
+      "pubDate": "Tue, 21 Apr 2026 15:51:00 GMT",
+      "source": "조선일보",
       "category": {
         "label": "🔴 HIGH IMPACT",
         "color": "#ff4757"
@@ -16,23 +29,10 @@
       ]
     },
     {
-      "title": "모습 드러낸 아이오닉3…현대차 유럽 공략 선봉 나선다 [biz-플러스]",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1UY0hoWnFrbm5XcUI1a0hSbUx1RUlDMXJyd3NsczJtSmVkMUtKZWtsMXU2YTFtcnRFRXdzZlZRNjdnQ3JwSWpmdjFwMTd2a0oxcVHSAVNBVV95cUxQdHA2THJMTzFPWUllcHV5M21yMWVvakprSGJzQjZnMzNkVjZ1dWtZTmZONFJlSUlxWndwSTVydjRfT1RfZ0NVXzRyOW4zNy1YWnZubw?oc=5",
-      "pubDate": "Tue, 21 Apr 2026 15:02:18 GMT",
-      "source": "서울경제",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "평면 자석 첫 입증, 70년 난제 푼 韓 연구진…'차세대 반도체 소자' 길 열리나",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBJMlNDY1NrZWJENWw4RkRycDlwZVV3Nm0wYTNQeWhuUHFvSm5KT1ZLazBIb1dSR1N5cWNTMVpKRllzZkEtSVVuRzFyaHd1TGJmdm9ndDFB?oc=5",
-      "pubDate": "Tue, 21 Apr 2026 15:02:01 GMT",
-      "source": "중앙일보",
+      "title": "‘억’ 소리 나는 성과급에 ‘반도체 셔세권’이 뜨겁다",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQbm5RVGNQU0poMXUwbmloTXFWMHlnNTNBTl9HdHlHQWJzRklGQUczNW5uV2hxTmVWa3oxNjRlX2o2SGpiRnJTY1o2NzhIV3gxazMxZENuN1N6Wm9DV0NXMExaa3V5aHNVVDAxeHRJUFAyTEJGbHQxZEc1bmhDSW5vcXFvLVY1aWQtV3pjYjZYNVQ?oc=5",
+      "pubDate": "Tue, 21 Apr 2026 15:46:00 GMT",
+      "source": "조선일보",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -42,10 +42,10 @@
       ]
     },
     {
-      "title": "현대차 ‘소형 EV’로 인도시장 입지 다진다",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1YN3p6WUc5Q3NfWXNwZEZKVWtuMXl4cjdCVEhGWmNJdk1vNFMzTzJoZDdrZDJxTlJ4cW9xeGk2eGlhUTBiSE1uRTdjUGVjdmpxQWJHcDQyR1NUZmhVbEF0cnNSWE9ERjBqQ19IYQ?oc=5",
-      "pubDate": "Tue, 21 Apr 2026 15:00:03 GMT",
-      "source": "경상일보",
+      "title": "정의선·모디‘8년 약속’ 결실… 복잡한 인도 도로 현대차 ‘3륜 전기차’ 달린다",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5Tb1c3cVQxOGdIMkhoUF9TTHFrUFNRNWdHbjNLLWhGUXlELUlrQWc5SzMxWERSOFJfN0hBcTRLNF9GVEo2anFkbkRkZW5yOTQ?oc=5",
+      "pubDate": "Tue, 21 Apr 2026 15:44:13 GMT",
+      "source": "v.daum.net",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -56,75 +56,22 @@
       ]
     },
     {
-      "title": "울산시시·현대차 ‘미래차 소부장 특화단지 지정’ 맞손",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1iQXJ1NDQ0WWdQMXc1cFdEZVJSYmdOcHFlVUs4cnVaS09CUjFWQ3VXZnBsMUtOUmRaMWJyOW1Nc2pQNTd1RnJ3YmRkaHNMeGlHVHAzeGF3dHFZalA3Q0N5NXdBNks0UDM5ZVdsRg?oc=5",
-      "pubDate": "Tue, 21 Apr 2026 15:00:03 GMT",
-      "source": "경상일보",
+      "title": "퀄컴 CEO, 삼성·SK·LG 경영진과 회동",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBSS1JvekR4TUNJdlpLN2tQLXNyRUxsOHlfazZmekZRMXFXcnVxRnlaRkhzRVBSZFZ5bEt4ZVp4OUtkdjF3Q3VqcXhMYmp1TEk?oc=5",
+      "pubDate": "Tue, 21 Apr 2026 15:35:09 GMT",
+      "source": "v.daum.net",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "현대차 ‘아이오닉3’ 이탈리아 밀라노서 첫 공개",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE90U0FaZ211OG1LeEhyTmFTOExVaWM4S3FId2NsTUZSR1lQMXFlX0t1R1k0Rmw5aFotSXlPVHZIbXpGZ2NVUlhRdnNybzhQSHRTdDVQbmpLcjVmdGdCN3hHSVRjQlhQd0VZRE1RYw?oc=5",
-      "pubDate": "Tue, 21 Apr 2026 15:00:03 GMT",
-      "source": "경상일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "현대차, 유럽 맞춤형 '아이오닉3' 글로벌 첫 공개",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1iM2x3X0FpSC1kRW9lbnBkNTk5dDNLcElZVkIwS3RMSUtrTFA0M2FaZERZSjR1bGcyRWJSX1YyQlp0a2FVOW9DYVNORjc3QWNHdkdOZkRFTWE5cXFMRTl5clZHUDh4Wm9LOTRTdQ?oc=5",
-      "pubDate": "Tue, 21 Apr 2026 14:54:01 GMT",
-      "source": "워크투데이",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "“반도체·전력기기·재건 주도 실적랠리…지수 상단 더 열어라”",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5sc0I5X2FWTFUtSWQ1b2tmUUlUcGFxY0NlMy03dmxnXzdmT1BheVEzMUpUbEpWMDFhRjY0bWhiaEx3ZHRrTFdORk5VN0xQY2x1YnfSAVNBVV95cUxOcWY1UXBMMTNqdUVueXp3VllCanFjS25heUZoZ3o0MGFSY2ladDNRaHJMcnpZRXp5SzhOelJsTlczVzI0VUV4eHROaDVKSVlqSFRFYw?oc=5",
-      "pubDate": "Tue, 21 Apr 2026 14:35:24 GMT",
-      "source": "서울경제",
-      "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
       },
       "impacts": [
         "삼성전자"
       ]
     },
     {
-      "title": "이란 전쟁의 진짜 폭탄, 반도체 필수 원자재.",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNLXNKQUJrWFRFOUlOWG15WEx1c2N0U0NlWmQyZnNoeFpRdU1OeWJLUFhDNFotWG1kOVdCV2hKckZySlBhMFdkSnVVR1V4ZEUyMDA5RTdPaXlLZjlIc3dWVlJPS1NEY1JkZXA1a1Nyd2dNQlJlWTcyM1RCWF90aU1TWldfdw?oc=5",
-      "pubDate": "Tue, 21 Apr 2026 14:35:00 GMT",
-      "source": "네이버 프리미엄콘텐츠",
-      "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
-      },
-      "impacts": [
-        "원유",
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[김정호의 AI시대 전략] 인공지능도 ‘평생학습’ 시대, 반도체 수요가 폭발한다",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPeG9BTks2ci1TSGl2aVowdDBvVm1wUFpGUC1BdncxZWxHNXRQR1Q3bDhfVF9rZFQtYmVBbE1ReTRQZDQ5dzV4WmtaQ2NnWlpxLXVXOExJUm5YeWVsMkI1c1Z0SzR4Ny1lYXVjSXFPanZhd05iLXloNkp0a1M0b2hlMnFIcFFTdkN5ZG5OV2xYdkc?oc=5",
-      "pubDate": "Tue, 21 Apr 2026 14:32:00 GMT",
+      "title": "[기고] AI 반도체 시대, 초순수가 국가경쟁력이다",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPR1FERDB5a1d6cjdKUDlpajVGeVplOHF3ZjlBSGVuMGMxZVRZbGJ4dTlsVF9TdE81MGt3d1BCdFlROEJGSjRIZHFsOFhqdmZxZm5JbkJBcTcyV25zUFRHT3Y3WHlRSWxmUWpTdVVaS2xHdlJWVGNTTTR3bDhEWEpqU1VURHM2UFM4bXdwcDk5ZTNobktzYUo0?oc=5",
+      "pubDate": "Tue, 21 Apr 2026 15:34:35 GMT",
       "source": "조선일보",
       "category": {
         "label": "📋 GENERAL",
@@ -132,6 +79,59 @@
       },
       "impacts": [
         "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전자, 갤 S24까지 AI 신기능 업데이트 지원",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNX1IzcUdkNEE0QlgzM3NhYmVvWV9OM1V5NUZDajRZMUo0LXNSM0NWWU1MX2tFQTM4b3JSSV9DTF9uSGFCd3JfZUpzNnBtSzdPZ2MzWmNZVDlCemNhSW4tUWktUGxCb043TzZZYWxNRWFGM2VGalc0V3I4V3pIUjVVRG42WQ?oc=5",
+      "pubDate": "Tue, 21 Apr 2026 15:34:00 GMT",
+      "source": "조선일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "\"내일 출근했다간 노조에 찍힐라\"… 삼성전자 직원들 줄줄이 휴가원",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQNXFZcUFEbjZoMlkwTkE3N0FUZ2p0YlJ0WVBkSVVJQkZqMWtydXpQYTFQVldPeWROdE9QcXlaZ184NHhqMFlJSXJhRThQZG8wSE9Eak5qTzRhMXRNTnV5MkFaWVVNWnN3N0ktQ19QNHFTSkZqWFV4WEpOU2dvMzgzclRDc3ZlQmZKSWZ1OE5tZw?oc=5",
+      "pubDate": "Tue, 21 Apr 2026 15:33:00 GMT",
+      "source": "조선일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전자·하이닉스 ‘2배 베팅 ETF’ 내달 22일 나온다",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOWFJnM3RVRVZ4N2ZSam5VbnhxWGZsbEllQUU4eW9IZlBzaWZmdW1ZZG84M05BQ2h1clBEZmhvdWExSzk0X3BuUHZLX1dPYmVtZzI0Z0RkUzlvVkIxdXBVam9GZGU5NzRWbGgxTWVfZHFxQzAyR2s5eE9CV0pJUDBtZVZhX1FkMEJua0w0?oc=5",
+      "pubDate": "Tue, 21 Apr 2026 15:31:00 GMT",
+      "source": "조선일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "현대차, ‘인도 맞춤형’ 3륜 전기차 만든다… 8년 협의 결실",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBQem5mcUx2UEhLX3Zad3VqQjVFRnoxZWdqbTZua0F0VS1KR3Zsa191WGFuUTVZSWNvT1Z4djdFcFpPaFhCRkFMQ1VSaUlBMWlIalVtX2pDcTBub1N3U2pLT0IyYXpfcTZ2QzVYX3BJek1naHNqbFHSAWZBVV95cUxQcEttdXdMZlpEdlo2RkNTQm9wZEcyaVVmYkx3bVdnSER1QnZqQVFvV1FlemJOYTBzWllmRWVkZkRDT29DcF9mWmZ0M0xXS0FrM2E5d0hpV0N6anJGTEkxT0phZ2ZSMUE?oc=5",
+      "pubDate": "Tue, 21 Apr 2026 15:30:00 GMT",
+      "source": "동아일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차",
+        "테슬라"
       ]
     }
   ]
