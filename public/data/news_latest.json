@@ -1,7 +1,34 @@
 {
-  "timestamp": "2026-04-22T04:03:20.693278",
+  "timestamp": "2026-04-22T04:33:33.485919",
   "count": 10,
   "articles": [
+    {
+      "title": "인도 누비는 현대차, 3륜 전기차로 가속 - 머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5ubmpMN0lUSlZWbjBZNFNsMjl3OWZSUXpPcTFHQktOekdGX0JoQmIya3lJcTMxR05iOFVVdWo4ZnF4R2FwUk5GM2VaUUR0VXlNZ1VlcmJKY0l5NWRvQks3QmhzWDJxX2VjTVA2ZdIBckFVX3lxTE1mUDlBRE9jajVSMWRLMDVuZG1laHBBR01oRHh5VkxabVlvTHdpRTZzUlFUS29LYVN5YlJIc0JKQ1VSR091aW5fM2RNMjAyd3dqZzNHN1ZWZjJjZ181eWpIQ3NsWHltaGxWZnhqN1B2V2lzQQ?oc=5",
+      "pubDate": "Tue, 21 Apr 2026 19:23:00 GMT",
+      "source": "머니투데이",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차",
+        "테슬라"
+      ]
+    },
+    {
+      "title": "비트코인 채굴 업계, 운영 부담 지속 전망",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE96bFdwX3FzbzhnYW01TmtJRWJaNndNdkpfZHIwckRMc25Td01MWTVCc01zSFEyNmc5c3NZSGdPOXZ1R2gtbmREYjg5dzhkQ2d2WHo0UVg0a0VSc1RESGVRdEtSR0ZFU2VNZ0VUWg?oc=5",
+      "pubDate": "Tue, 21 Apr 2026 19:03:28 GMT",
+      "source": "경향게임스",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
     {
       "title": "워시 발언에 비트코인(BTC) 하락…\"금리 인하 기대 약화 영향\"",
       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5rQ1U0Y1hzbGNEUV9KLXd2dUNFamduT0JZOGhlMU9iV2lySnFjS1RXdGdJU182R3RiM1VEOEowakdvRjNIcnNsQWlTV00wYnRi?oc=5",
@@ -104,34 +131,8 @@
         "color": "#8b9dc3"
       },
       "impacts": [
-        "테슬라",
-        "현대차"
-      ]
-    },
-    {
-      "title": "퀄컴 CEO, 삼성·SK·LG 경영진과 회동",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBSS1JvekR4TUNJdlpLN2tQLXNyRUxsOHlfazZmekZRMXFXcnVxRnlaRkhzRVBSZFZ5bEt4ZVp4OUtkdjF3Q3VqcXhMYmp1TEk?oc=5",
-      "pubDate": "Tue, 21 Apr 2026 15:35:09 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[기고] AI 반도체 시대, 초순수가 국가경쟁력이다",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPR1FERDB5a1d6cjdKUDlpajVGeVplOHF3ZjlBSGVuMGMxZVRZbGJ4dTlsVF9TdE81MGt3d1BCdFlROEJGSjRIZHFsOFhqdmZxZm5JbkJBcTcyV25zUFRHT3Y3WHlRSWxmUWpTdVVaS2xHdlJWVGNTTTR3bDhEWEpqU1VURHM2UFM4bXdwcDk5ZTNobktzYUo0?oc=5",
-      "pubDate": "Tue, 21 Apr 2026 15:34:35 GMT",
-      "source": "조선일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
+        "현대차",
+        "테슬라"
       ]
     }
   ]
