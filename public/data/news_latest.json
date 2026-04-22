@@ -1,7 +1,20 @@
 {
-  "timestamp": "2026-04-23T00:07:41.269316",
+  "timestamp": "2026-04-23T00:37:55.233615",
   "count": 10,
   "articles": [
+    {
+      "title": "비트코인 강세 점수 6개월래 최고…2022년 약세장 재현 우려는 여전",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE90emtHVFo5OXRKNThrdWFHMkRBZkZiTVo0Wm9TQmg4eUUyWG9oR3ZlSm5oX2lpQ3pyMkc0MmFzUUtmTnlkb2FNUGlUMm9DbUVnZm14VzRTUUt6djhWUThjTXRBaEdoSlh1OFhrN1JuNzBwMTQ?oc=5",
+      "pubDate": "Wed, 22 Apr 2026 15:05:00 GMT",
+      "source": "디지털투데이",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
     {
       "title": "금속노조, 현대차 원청교섭 상견례 시도 마찰",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAtSGdJRzJiQWY2SGxYR3F6WkVlVjhvRXdESldydUs5MFJfY0haaDJmTklaLUYtazNZMUpveHRDLWthOWpGWXMxTGFPOXd6N1VnWDVuM1VZanRZeVQ2TTVHZUhJMko3eWZrdTM4Mw?oc=5",
@@ -81,6 +94,19 @@
       ]
     },
     {
+      "title": "경북구미 금오테크노밸리에 '반도체와 로봇기술 융합 실증 공간' 마련",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE91WlA0U3lWQ18xbXR4MEZ5ZHVPN19HZjE4dEJSMHp2WVR1blk3UEhvR1RJQkR1elB0dnJhUFJqYnVKejBVQUJYZ1dUM0RXd3QwRmpDZ3A4ZE1oZXk3Wmp6bDktM01jU29xWnc?oc=5",
+      "pubDate": "Wed, 22 Apr 2026 13:36:12 GMT",
+      "source": "경북구미신문",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
       "title": "비트코인 반등에 시장 심리 완화…공포·탐욕 지수 33으로 회복",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5hakN3cVNUNzBfLWZEdUFKWENhOUxJN0ZqT0Q1VE1YSy1GY0RFRS1YSEN1WnZSOTI0Q0tRZ25ObjNGZkhDUDN1WFpqUkY0R3lYU2RHVXRNZWVGeVN6cWxfQzZpQVY5TnlHRWtwSmZLX0lfd1E?oc=5",
       "pubDate": "Wed, 22 Apr 2026 13:31:11 GMT",
@@ -105,33 +131,6 @@
       "impacts": [
         "BTC",
         "환율"
-      ]
-    },
-    {
-      "title": "비트코인, 8만달러 문턱서 공방…청산 대기 물량에 시장 긴장",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5UNk1NMGVvV0VWNXY4TWZHVVI5ai0tNEFMZFFqanNmZTVocVVrMzduWTVKWDRPa0wwRXNGR2N4WjNxX0xhRE1Wa0ZpSFZsZDI5d1RVYkdHWWhQUXRrbXhwaXNoTG1mSFJDV09yZ3paQVdveGc?oc=5",
-      "pubDate": "Wed, 22 Apr 2026 13:05:33 GMT",
-      "source": "디지털투데이",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC",
-        "환율"
-      ]
-    },
-    {
-      "title": "American Bitcoin, 11,298개 비트코인 채굴기 가동...3.05 EH/s 해시레이트 증대",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1rVE5YS0U2ZmdlVk9BTmdCNDNJMEREOHlYc2lmVlVnVURUWW4tX2ZqNkZMS21vTFhEeU5ObzFRRWVSQmpaenZmbXhuMFJ2c0Vhcy1oQ3VEa1FYa2dVNU1jdnlvQTVJTjJRcUJicl90TVQ?oc=5",
-      "pubDate": "Wed, 22 Apr 2026 12:40:00 GMT",
-      "source": "Investing.com 한국어",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
       ]
     }
   ]
