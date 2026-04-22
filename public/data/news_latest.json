@@ -1,12 +1,26 @@
 {
-  "timestamp": "2026-04-22T16:17:04.722064",
+  "timestamp": "2026-04-22T18:06:59.111524",
   "count": 10,
   "articles": [
     {
-      "title": "'30조 손실 위협' 삼성전자 노조, 23일 집결… 주주들, 맞불 집회",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB2WmNpQncwV0JmeE5VSDZVSGJqY3puVEFaclBGYUNLUnlDQ3JZRDNicHJIX2lXUWptdk9qOHJiZXplREFfb1IyV0JXenVwemJQR2JDV19pdzdCdGFpUGJGaG01YWZSa2xNRklHX28wNWs?oc=5",
-      "pubDate": "Wed, 22 Apr 2026 07:10:00 GMT",
-      "source": "신아일보",
+      "title": "한국 온 엔비디아 부사장 “한국 반도체, 칩 하나론 성공 못 한다”",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9ITDVCNlJyaUFqRWlUemE2Rk9XT3g5XzhCM0VSVXpoZEU5czFLei1zS016UG42RXpkUEFDQnk4ZFBNay01eTZWN0lfczAya2tvZ1pMaXh3?oc=5",
+      "pubDate": "Wed, 22 Apr 2026 09:00:00 GMT",
+      "source": "중앙일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자",
+        "NVIDIA"
+      ]
+    },
+    {
+      "title": "반도체 ETF, 극과극 성적표…삼성전기가 갈랐다 [코주부]",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA3aTFOaVNTR2ZNbEpkWUQwZUYya1ptOGVqa1ZQZjQ5N3VSbmY1MGR4RzNRdTFPaFEtWHN0MFhIbUs0VVFmM0laSU53Y0tUQmYtblHSAVNBVV95cUxQc1FzOVBoS3JVMG44aFVOaXZRTE51ZEVqeGoxWjMyelFiN2RkQjg5d1hEU2NLaGpaNllHckRrTmZlVFR3NVZPdmtaN0tsRmVyZ25HWQ?oc=5",
+      "pubDate": "Wed, 22 Apr 2026 08:59:02 GMT",
+      "source": "서울경제",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -16,51 +30,10 @@
       ]
     },
     {
-      "title": "비트코인 오늘 시세: 이란 휴전 연장과 기관 수요로 78,000달러 돌파",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9kaEtTUi1sYjFqSHlKRzlBOWkxNTA0b0V5VGM4R0FRTkVzcmhBYWNZZ0lZOGh6UHpNbUhCdXBCc3RVdVhjdS1LVlJFcVV5ZWR5S1VSQng2Y1FqRGJKYnNlSkczNVh0SDMxMG9HS1o4SFIzZEU?oc=5",
-      "pubDate": "Wed, 22 Apr 2026 07:03:00 GMT",
-      "source": "Investing.com 한국어",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "원유",
-        "환율",
-        "BTC"
-      ]
-    },
-    {
-      "title": "[사설] 반도체 공정용 원료 공급망 세밀히 챙겨야",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5rRzZZaXp6bzJqNk1XZWRLWHdCazRUTzA1OEF2TFhjZXNTRnhPeThDYVY3a05wMXJfc1BUSFBlbkFZZGp2bmloU3IwVDJ3QQ?oc=5",
-      "pubDate": "Wed, 22 Apr 2026 07:00:00 GMT",
-      "source": "전자신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[WIS 2026] “일상 어디서나 AI”…삼성전자, 'AI 동반자' 환경 구축",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFAwNnFCRmlXOTlwNFZraG9zQ0kwdllPdThvRlpIQjZLaElDV1hvblJFLWxoOVRCOG1POUprRi12ZGFzSGpSRUlFYVRaTlRDUQ?oc=5",
-      "pubDate": "Wed, 22 Apr 2026 07:00:00 GMT",
-      "source": "전자신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "현대차·기아, AI 인재 키운다…소프티어 부트캠프 8기 모집",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1Ldk1zT3pUaUNYbXNzLURheXNrUHRwbk1sUkJ0QlZNQjJ3S2h1VjZvNzZmMkJwNzhma25UbGt0Zlc0U0hjbzRMRHdBTHhqbUJaWGI0aUc4MEdhbHF4aU5pN2w0QlY?oc=5",
-      "pubDate": "Wed, 22 Apr 2026 06:58:58 GMT",
-      "source": "매일일보",
+      "title": "현대차, 11년 연속 ‘뉘르부르크링 24시’ 출전..차세대 파워트레인 검증",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1uVnNfdDUwZ0U2TzZkVkVtZk15dkxhZWxrbnlxMi1rek9xWVhJbHU2OEtEXzBSZVF3bEVlaWF0NWQ5Z0FTYzhuWGRUQTU5TU85LUJLdDBIb3MzUzFibW1VTlhzUXpuRzBZZWRnMVhFMXNrQ3VkM3c?oc=5",
+      "pubDate": "Wed, 22 Apr 2026 08:53:10 GMT",
+      "source": "dailycar.co.kr",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -70,10 +43,23 @@
       ]
     },
     {
-      "title": "'현지인 수장 믿는다' 현대차, 인도-중국-일본 공략 속도",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1hQ1hkeTVwb0FIbzIxdE5RcWhRS0xmeEgtd012UWp5Nlg5M0REa0dtVUg2WjJwT3QxalZYYkVPamxLZ1E3U012X1o2cXZwb0FSX1VZWDZoSVBCaXk5WmxTMHEycmpvVzFsbmlxalgxc3FUSV9vUUQtRjI5S18?oc=5",
-      "pubDate": "Wed, 22 Apr 2026 06:56:36 GMT",
-      "source": "한국금융신문",
+      "title": "\"반도체 기술 유출은 국가적 손실\"…中에 정보 빼돌린 삼성 前직원 중형",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBDYy1xUHVUTWxLYi1PVFNkNjRuLVpTd1BEZmFhdmduazY3bW1QWlNwRjQxMllkNEFoY2VYUlJSYzl1NTRDRHZBVzF5bVU0MjZnc2ZFb3E5RzNQQdIBVEFVX3lxTE5JTnYzUEtjVlhiVWpXdy1FMUlFWUFBSjh0dDNCc2xZSHBLWGx2alZ3YWdtallzYVhFdlBnRHZwTGpPVmk0ODE3c011VGdqcW1PQ25JZQ?oc=5",
+      "pubDate": "Wed, 22 Apr 2026 08:52:09 GMT",
+      "source": "한국경제",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "현대차, 차세대 SDV 운영체제 ‘플레오스(Pleos) OS’ 공개",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE4yaFB2M0c5bW0zTFFONHVTUmxyU0I0MzlHaFdranprS1VaSGZRbHFHaGFWald3Sk1tRGg5X253QU1Rc1dSZzNXZC0yUi03R3J3R2tmT3ZOdUtJelBYLUJVOVo3eWZ3OUh0MlVJ?oc=5",
+      "pubDate": "Wed, 22 Apr 2026 08:48:45 GMT",
+      "source": "다나와 자동차",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -83,10 +69,37 @@
       ]
     },
     {
-      "title": "경북도, 구미 반도체 현장에 ‘로봇’ 수혈… 산업 혁신 실증 거점 본격 가동 나서",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9JbGRBMFdFZy1SRHQ5SmFHRzFhb0xfV1k1WjktaWRXa2ZMZVVwOG81Q3ZxclhwdlJITUVuYk13XzZGaGozc3lDV0diT0NPMktQS1dtaHNQWUpuZnEzYl9JekdzNHFfUQ?oc=5",
-      "pubDate": "Wed, 22 Apr 2026 06:55:31 GMT",
-      "source": "이로운넷",
+      "title": "정의선 뚝심 통할까…현대차, 中 전기차 공략 '리빌딩'",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE42eW1BVlpwVmlPMXVyVEFVU00wSHJpdkh3aXRMcVVnVW9lRzJ1a0tKZWppb1ZKREJTUnZXQWpiV1VYWUlpekJlTGQwZThwYWVJZDA2YmZqUEhEdDcwT0NOd2xCVWQzc3UxR1VhWDRXbURxYU0?oc=5",
+      "pubDate": "Wed, 22 Apr 2026 08:48:27 GMT",
+      "source": "마켓인",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차",
+        "테슬라"
+      ]
+    },
+    {
+      "title": "삼성전자로부터 듣는 무역안보 자율관리",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1HZ3h6STJCVzlBUHA4NXdidUVLS0puX0JYRDhhSmVQQzZ1YnU4SlZBWnlZTkZIc1pSbkZTYlVjUGRKN2VvSE1qSW5FQWhaZE9DZnZrd1Yxa1dvcXpBdXZKWFFVeDA?oc=5",
+      "pubDate": "Wed, 22 Apr 2026 08:46:59 GMT",
+      "source": "한국세정신문",
+      "category": {
+        "label": "🔵 MACRO",
+        "color": "#0984e3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[Y인사이트] 뉴 스페이스 시대, 우주 반도체 신뢰성이 성패 가른다",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE00WjR3LVZzVVZzUDhwRmg5RUsxeEd1TFk1UHZWY0dTZEFRckZvTER3MWozZlhYdTM3c1BTQWRmeWl6TGd3Z1puX0NXVlFkUXFldDJ0SFpwMW9ic3ZBTXFaejZfbmdadw?oc=5",
+      "pubDate": "Wed, 22 Apr 2026 08:44:52 GMT",
+      "source": "디일렉",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -96,42 +109,29 @@
       ]
     },
     {
-      "title": "[기업 소식] 삼성전자, 新인덕션 출시…하만 인수 10주년",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAtWmtfcngyRUhiWmNfR0RUQlZNV203QVFHbDZtMUdQeTgya3h6TUN6dHpXQkVHM01VR3dpbC1qNTZPbTZUNFZxaEtMdUVFVnFlWGI3eUVTY2hDa3dqVUdiQjlCUXdwTUs0cG9hekVBSWY?oc=5",
-      "pubDate": "Wed, 22 Apr 2026 06:53:11 GMT",
-      "source": "연합인포맥스",
+      "title": "메모리 쉬어도 AI 수혜주 '풀가동'…반도체 부품·발전용 선박엔진 '날개'",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBNdjR5SGZxY0tZeDVROVR6V2xUVk1tcWJodFdlV2lxUjNPVjRsYlZwbUtZaEhOSmladFk1Q0ZldUdEQjM4TGQzajZ5a0lXT1J0Ml9DaVJ6Zjd0MUltaDc0?oc=5",
+      "pubDate": "Wed, 22 Apr 2026 08:44:36 GMT",
+      "source": "뉴스1",
       "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
       },
       "impacts": [
         "삼성전자"
       ]
     },
     {
-      "title": "‘中에 반도체 공정 기술 유출 혐의’ 前 삼성전자 직원에… 법원, 징역 7년 선고 - 조선비즈",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPd1NtbDZMYXJLLTk1ejZ4SVgxNDRsOUtmbkxsdEV2VDB2alZLazBPVENQenNxNXNfTTNvU05QRGRURXg0YUVsNHhLeWRHcEVGcEhfdFVMd0pKLWFSbVFxam9zU1NnV0tzVHl1Sllqc2hFU043aUZlR2UybzdVcVdCR1hCVdIBlwFBVV95cUxNT05QWWZRS2tPSGNOSXR0b2JrOWhyS3luZzN4dXhiSFE2aHQwSnVoS0NyTmVaaTkyN1RDTWFvWm1CNXMzX1dPMmFwY2NKeUJGWnZrNWlBZUtnQU5iS1pKYUFHaGVCUFlKS0swcWJtd09TNmoyNmJkUjBUbE8wLW5TX2lQczBNV2ZaUWJoRHFoTF9WckdZWXVZ?oc=5",
-      "pubDate": "Wed, 22 Apr 2026 06:53:00 GMT",
-      "source": "Chosunbiz",
+      "title": "[기획] 총파업 앞둔 삼성전자…노조 수용도, 강경 대응도 '부담'",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5pNXBfcDRWRG9qSWppYlUyenlVem55bXFlYm05Si14WWpaZlNOWlI3WXdEd2tLU0VyY3pTREI5OEpjcEVIRWZKRFhoaUg0Nk9nby1jUUw0XzllejlENVJBM3lZQWJJbWYw?oc=5",
+      "pubDate": "Wed, 22 Apr 2026 08:42:36 GMT",
+      "source": "뉴스워치",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
         "삼성전자"
-      ]
-    },
-    {
-      "title": "MSCI 회장 AI 선제 수용 촉구부터 스트래티지 비트코인 매집까지 이시각 주요뉴스",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE85Si1icUxEWTZCUGVCNmRwR3lkbFFEcFB5SmF6bER2RHMyVUoxenlwZlJES2ZLS0ZIYk1vRWVvRGt3Um1aaU9HTU5tQjV2UGxrMlhwNjE1emxlUVM5ck5yQTByaTN6Sk04a2VJd25vekzSAXRBVV95cUxOeGZrcUFEOG9WZkZfNTlsOE5lRzBwTkxJa2FjWTF0cWxobndZOWtINVZBMmtzR2J0Y01TLUhmcjFoWkwwNWtDdldGWnFGejNRamxNVHdsLTdIR3NKOTI5eDFzcXRSbXhZeW9nb0dvVnprenltYQ?oc=5",
-      "pubDate": "Wed, 22 Apr 2026 06:52:02 GMT",
-      "source": "연합인포맥스",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
       ]
     }
   ]
