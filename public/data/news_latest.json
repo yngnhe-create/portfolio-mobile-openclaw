@@ -1,10 +1,37 @@
 {
-  "timestamp": "2026-04-22T12:17:05.227545",
+  "timestamp": "2026-04-22T12:35:36.664661",
   "count": 10,
   "articles": [
     {
+      "title": "현대차·기아, '소프티어 부트캠프' 8기 모집",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE13TFdOU1NJZkdxQXZ2SkZGaWFpZE5acjJRbnJxY2p5YlhJZ3VlZ3d5Q1FKY0x4eHFJanV4RlF2R1I3R3JNTnhQZEE4ZVliQQ?oc=5",
+      "pubDate": "Wed, 22 Apr 2026 03:29:20 GMT",
+      "source": "전자신문",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "비트코인, 저항선 7만 8천 달러?···찰스슈왑 애널리스트 \"실제 저항선 더 높다\"",
+      "link": "https://news.google.com/rss/articles/CBMivwJBVV95cUxOTXpaQldfc3QzQlV2b0NxZ3lFZmxER1ZxWExDX0dGM1JTWV91OTNuc1ZMamZ2cjhVYTRuekMtWFU2c054ak5FUThMY0F2VDRwX2tuRWt1ZktocW9QcnYweHFkdENqSFdINU00SW4zSDJCREt6eWFBcDh1M3BlX05FSGNtSFdsZ2d1TUdscWhsQU5lNUZyY2NxZFp5WnlaSE5TdEFqOWI2em5RVS1wbVRycHowcEs1d1FKbnN4dFJFVXlzQWM1MXEwVEZDOGtyYS1jMHE3dVZaY1QtZXdwRnVNdkZmbTJEdUpfLW9zZm5WNGJ2aG9FSUtxbm44MFpZTjUxUEtScHdERTB0UnlBS3gxeU9vSUE4RVc3eGdoQ0x3U3FvbmVVZHUwc1FmMkpkX1hFaHpFUG82Qm1fUWNVc3pj?oc=5",
+      "pubDate": "Wed, 22 Apr 2026 03:23:06 GMT",
+      "source": "Benzinga",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "환율",
+        "BTC"
+      ]
+    },
+    {
       "title": "전쟁 장기화로 중동에 ‘발목’…현대차 현지화 전략 ‘안갯속’",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1EZTNZS2gwOHBDa1BvSld0WWJVLW9fb0pPb3hkVDRBTlotLTlFNldieUtpb1hyZVE1UzZkc0x5alNlLUlEVnIzUWZHdy1rOElkcDJDOF9oU0hEdTZlWkhv?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4tMHAzSlJzUnJESjM5RTJDMHl3UHhZVXJWNWt4TTNqSGZBMUdmSUdTVmJmSUNDUDkxYmRRZTEwNTE4TlNBUkhYazBlVnN2Y2JrWnRGeE5mb2oxekRGcVo5Xw?oc=5",
       "pubDate": "Wed, 22 Apr 2026 03:06:38 GMT",
       "source": "뉴스토마토",
       "category": {
@@ -12,8 +39,8 @@
         "color": "#ff4757"
       },
       "impacts": [
-        "현대차",
-        "원유"
+        "원유",
+        "현대차"
       ]
     },
     {
@@ -106,34 +133,6 @@
       },
       "impacts": [
         "삼성전자"
-      ]
-    },
-    {
-      "title": "비트코인, 7만7000달러 회복했지만 … 중동 불안 속 아슬아슬 줄타기",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE52Tmk4M21OdDJEalRfV2pOV01hRk9BSGRYMGdzaTNuQ1UwQ0ZvOVJCT1pOS1BzSktBM3ZDWEZtLXA3ZlFsa0R4ckFGUEttTVExcmhvWk5Mak51SEFVU1ZKdXhqT1duUjVjYU82ZGUtR1ZoYW0xQ1Ywa2Vscw?oc=5",
-      "pubDate": "Wed, 22 Apr 2026 02:29:16 GMT",
-      "source": "뉴데일리 경제",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "환율",
-        "BTC",
-        "원유"
-      ]
-    },
-    {
-      "title": "\"ETF보다 강력한 비트코인 레버리지\"···스트래티지 BTC 보유량, 블랙록 IBIT 넘어서",
-      "link": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxPS0dTbVFrQnZHbjE1d0pvbWs2WUFSTmZpaXl6MFJoSlJMNGxyNmk4ams1N0JVVkMta1UySVlwQWp4LTJiQ0dGSWgxdWQyWTVGRF8xYy1YSjFkVTFPVmRLcnItblJlWkFxXy1DaTB4eFV3eXhhXzF1aTZxbzl1QU5QeE5QeHZ3UXVMQ2ozXy02UURRLUZHYXNRWU1hMHJQTWIzb2hDY1BSRjJQUEdhMVA4ZGxNaGxTNWZlOTdYMmlUd3BiNGhTTmxDZUU3ZUVvZzNBWW1GT3N4bDdiT1JJajVzdWFBdGRxZjlzT1c1bjV0cm1MR25WREtDTG1PMVM1d3BKY1Uxb0tfVmpGN2ltTWRpVml0d0RMMWF5X252SUFQd2VqZThDUjdoaS1RZGloRGhWTTU2dEotdnI?oc=5",
-      "pubDate": "Wed, 22 Apr 2026 02:28:04 GMT",
-      "source": "Benzinga",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
       ]
     }
   ]
