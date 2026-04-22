@@ -1,7 +1,86 @@
 {
-  "timestamp": "2026-04-22T14:17:04.287909",
+  "timestamp": "2026-04-22T14:36:31.881009",
   "count": 10,
   "articles": [
+    {
+      "title": "미래 반도체 인재, 경기교육이 키운다... 경기도교육청-한국나노기술원과 손잡아",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5NSXVUZHJnNXJfaTdfbVoyZV83NE5RbkVJT3NJcllZZ05aZm5tdWVGaU5qYVlnSUw4cGZpSXVpdkxfNVJEajZ6TXlCUnNObXdiVmlXRlJmOXhPNDNkMTdn?oc=5",
+      "pubDate": "Wed, 22 Apr 2026 05:34:45 GMT",
+      "source": "세계환경신문",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전자·SK하이닉스 임원 보유 주식 급등…‘10억 클럽’ 31명→170명",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBJLVdHc2tmSXFxX3J1WmZlRExPUnV5b0Z5TXNOX1pBOXZWNWo2NkM5UF9qMmd0bTlHUDNFeG50dTBveXFNLXpJSXpUWUJmclND?oc=5",
+      "pubDate": "Wed, 22 Apr 2026 05:30:46 GMT",
+      "source": "문화일보",
+      "category": {
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "전쟁보다 모멘텀…코스피 띄운 ‘트리플 엔진’ 반도체·외국인·저평가 [이슈+]",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1oZjFHM2ZCR2VXZU8xRk90MllCLTFUNGMwV2hmVF9qeHZveVdZdWVnU2lFRDRlbFFfU1Ntam52RnBOTVV4OEEzbDZMQjI1THpYTWN5YVpqVzFuQ0JONExRT3Vqaw?oc=5",
+      "pubDate": "Wed, 22 Apr 2026 05:25:42 GMT",
+      "source": "에너지경제신문",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[시황] 비트코인, 7만8000달러선 회복…매수세 유입에 상승 지속",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE94dmZNc3VjVGhqblhySlk1eThKQkZUSHFoU2dxX0tiZ0h5cGwtdGwyUWpKVDhQcS1PZnZ1Rlp1Yjc3UmNwLWstcFJOcjd3Skgz?oc=5",
+      "pubDate": "Wed, 22 Apr 2026 05:21:54 GMT",
+      "source": "블루밍비트",
+      "category": {
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
+      },
+      "impacts": [
+        "BTC",
+        "환율"
+      ]
+    },
+    {
+      "title": "[기획]‘수출 효자’ 반도체·車, 파업 직격탄 우려",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB0NUpSeHVta1MwbExCdDNGbzRQNEl4ekd1MlM1WWdhZm1taXZzellLRzJaOG9UWTltNm9MOS02Z1k3S0dnd0F6MC1hTHY4SUZvMmFhTXEwOHJyWURoOUlIb283OW0?oc=5",
+      "pubDate": "Wed, 22 Apr 2026 05:17:32 GMT",
+      "source": "매일일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[WIS 2026] AI 반도체부터 피지컬 AI까지... WIS 혁신상에 비엔에스알·하이퍼엑셀 등",
+      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1YOHJOajBIS3ZrVVRwckdTTHFLWkNYRTNuQUIyODJQM280OVplRGxheTlCWjY0Y09qTlJhUXREUXo3Q2hUTTJ4LWxVY3o?oc=5",
+      "pubDate": "Wed, 22 Apr 2026 05:16:03 GMT",
+      "source": "전자신문",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
     {
       "title": "비트코인, 저점 대비 20% 상승···안도 랠리인가, 강세장 신호탄인가",
       "link": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxNNEFZazZMalk5OUFlcnFNdlo2eXhlX09SQVRXOV9ybjRXV3BJQXVpZTY1VUhwcUhWcFNIckZNYXRlcE5aZkFmSEZIQjFYZDFLUUFUY1pWZTJzQUg0ejRqUTJQNHN3MTVXZlo2aFhSb09uQVFVWnJJc19yLU8zT2R3TUcxMzVtc09wZDk4TlU5UThSTTB3YVRCSnV2aHdvRWVPQkctbDQyeWJzdXRQUjZldUpuVnRiQm4yN0xBSF9lanFCVkVQTDFuV1BLVHF3OWdIa29pNElxakN5dVpqYlFHMFgzMjltZ1BTLXBLTGVFQ0E3NWd5NGd2QmRDVzJrc3dVQTVDWDh5VGpxSGpKRUNlNmNvM09vU3N5S0pZT29BUllEeVNWcWRQSTFIc09OZkMwc04tOUZXTERGR0tfOUYzLQ?oc=5",
@@ -42,88 +121,10 @@
       ]
     },
     {
-      "title": "현대차·기아 입찰 2년 넘게 담합 적발된 협력사…공정위 과징금 26억",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5jajZwUGg4SkJhbV9qcWY4cFA0emNyNkhWbU8tSE5ieV9xRVdZalh1Z2JmaHIyZFUxd2xRNm95X2hPdkhVcDdWN1hWZXFub2M?oc=5",
-      "pubDate": "Wed, 22 Apr 2026 05:03:03 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
       "title": "삼성전자·하이닉스에 2배로 건다...다음달 22일부터 단일종목 레버리지 국내 첫 허용",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5vOENmWHB6VUl2ak03OU1qM3pabXpwcEdidHZkUWZkWTdqUndxRmVTR1pSVVZjZS1EanVHaXRPakZBZW1DSE4xTlYwOVpzTlk?oc=5",
       "pubDate": "Wed, 22 Apr 2026 04:54:11 GMT",
       "source": "v.daum.net",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[포토] AI 반도체 살펴보는 관람객",
-      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9NRm5pNnJPVV85cmxxMVI3N1l5RGJVN3cyczVrQ1JVa1JNZUZGVUNBWHZySWMxUzNtQUU3elh3U2JPeTR0RGtMd2NjU0k?oc=5",
-      "pubDate": "Wed, 22 Apr 2026 04:53:14 GMT",
-      "source": "전자신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "코스피 6400 터치했지만 숨고르기…반도체 차익매물 출회 [장중시황]",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5MTjhjYmdWRHUzT2dpX3BMMWNCdnl4ZS1Dd2VkLVhXazQ2RF9jSGk1VHJHVEtSSm1pYmxYYjE3d0dldEZObUtmSUFXdmRHNGhsSGFNZnR0UG5zMXc?oc=5",
-      "pubDate": "Wed, 22 Apr 2026 04:52:11 GMT",
-      "source": "뉴스1",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "현대차·기아, AI 중심 개편 ‘소프티어 부트캠프’ 8기 모집",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5kQnBDUXYzcUxQMlF6T285T1ZNVlJHZWxQdWNfaml5VXZ5TkZGVUNCZ2Niek5rWmJ6dkZQQU1mbVZ2VHRNTkNfZ2RLanNzN1FLZmZTN0N3dHRBdFVmLVc0ckQxdnBMSGozZW4xeA?oc=5",
-      "pubDate": "Wed, 22 Apr 2026 04:51:37 GMT",
-      "source": "중소기업신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "반도체 불장에 주식 10억 이상 보유한 ‘삼전닉스’ 월급쟁이 임원 173명",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1meWpmMERhcDhvc051SHBwdHgxOVh1aVRKZnVldnFGX3NZdXFlSUY2b2hFZ2pOZG5fLWpveDhaTkZYZGhSREowRFRUNGNUbGZrdTJqY04tRi03eEw4aG1DRG1MZndOemNOcUE?oc=5",
-      "pubDate": "Wed, 22 Apr 2026 04:47:00 GMT",
-      "source": "한겨레",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[포토] WIS2026, 삼성전자의 마이크로RGB TV",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBqdWFsNi1FX1haYldJNmxSOXlnSHYzS0JST2o2bFM3UXdwdlpNWktpb09NUmEwMXpyVjB0YzVhSmF1TWpNWHZSN1hOeS1tZw?oc=5",
-      "pubDate": "Wed, 22 Apr 2026 04:38:20 GMT",
-      "source": "전자신문",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
