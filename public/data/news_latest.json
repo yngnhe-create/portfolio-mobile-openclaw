@@ -1,32 +1,81 @@
 {
-  "timestamp": "2026-04-22T13:05:49.753652",
+  "timestamp": "2026-04-22T13:36:03.831158",
   "count": 10,
   "articles": [
     {
-      "title": "이재용이 공들인 삼성 하만, 인수 10년 만에 매출 2배",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNU1FFOHFmb1U5amdkb1pmTWZwWjR3eFc0eUNPU3hhOVBhYndEaVJvY3V4ak9ZNGFQaERvdVlPZ3l0OXozOGJQRlJrdVhZbFRpUWpzRmxhQkJ6UVFEa1hxVG0taE8tZnY1UVE1UWJfSmh5UnUtZlFIRE9rcUtJTGNpcjZFb1V6QU1TN252WEdGdw?oc=5",
-      "pubDate": "Wed, 22 Apr 2026 04:04:17 GMT",
-      "source": "조선일보",
+      "title": "[이슈story] 중국發 과잉경쟁의 반면교사…현대차, '선택과 집중'으로 생존전략 짠다",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5VLU8tY0tCblpPeDgtSjk1ZGcwTkNySm9LN0FpN2ozYU9qZDk1RFYydllpYlRlVmZoSWRsSy1NV2hiVllnQXFFbml6UFVpYjZsZVlGTkkwYzFCblR3bzlmTUJiXzRXdms?oc=5",
+      "pubDate": "Wed, 22 Apr 2026 04:30:57 GMT",
+      "source": "투데이e코노믹",
       "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "지식재산처, 현대차 연구소 방문…이차전지 IP 경쟁력 강화 논의",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE14Q3pvRWZSWkcwdkl4YU1vMG9FNzMyamk5RldnMV82U0hGNWQ2VDIwc2F4ajljYTg5TDJMc2FadGVBUWpHN25uQVF0Yzc2Zw?oc=5",
+      "pubDate": "Wed, 22 Apr 2026 04:30:00 GMT",
+      "source": "전자신문",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "\"그때 반도체 공장 그만두라 했다면\"… 잊히지 않는 후회라는 짐",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1FcWZiTjRwbzBRcDRiSzFtT1RCRnRCMDFzVkx6YWhyWFJFeFFRT3VjTTlNYjQwUHcwaXQ4dUNGNUN3Nm1JOTdMUmhQUTBuN3l4NHBYeThOTUE3b0EycUF6VTRnY19RVktCbXlz?oc=5",
+      "pubDate": "Wed, 22 Apr 2026 04:15:09 GMT",
+      "source": "프레시안",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
       },
       "impacts": [
         "삼성전자"
       ]
     },
     {
-      "title": "전기차, 이동수단 넘어 ‘전력 자산’으로...현대차 “V2G 상용화를 위한 제도 개선 시급”",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1DOE45UXFBN3VqVXJNVnhfRWFvV0ZydmYtc0dWVzlVem5LUEVQWk1fSmwtUVpuX1V5dUg5WVBfVE0xR3FDQl9ObmJvdjB5Mkc2R2fSAVNBVV95cUxPMXlPMjJpMXFYc2VqWXN5Zk5yY3FoalcwTVpvaHBKbzluLWVNWXluOGlHbGItWlRQUU1aaXBwS1dQUnNiWWhXN2hfVjFpX2RuUVJhWQ?oc=5",
-      "pubDate": "Wed, 22 Apr 2026 04:01:23 GMT",
-      "source": "서울경제",
+      "title": "에이치앤에스하이텍 “SID서 차세대 ACF와 반도체 패키징 소개 기술 공개”",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1yZzVXbjVQS3VBSkVvQm91V3BJUmVUNGFTOC1kUFc2aXRJQnkxazhZeXN6MEViMXIyem5hX2FiVjA0TEl6S1VVTGhmcmhRZw?oc=5",
+      "pubDate": "Wed, 22 Apr 2026 04:07:18 GMT",
+      "source": "전자신문",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
-        "현대차",
-        "테슬라"
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "'이재용 결단' 하만 인수 10주년…매출 2배 '초일류 전장' 도약",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5GaDIySWRfZzN3SU1oaEFXbzF6ZlktSUg3ZEkxQi16MWNRZzhzNE1XMzJ5OHNzTk9pSUluSEFMcWZnakE0WmZGUzZVbXV6eXdSNHM2NGVMdFlXWGVYejlMVTMyOHA3Q1EtWVVXOG42N2JWbmJr?oc=5",
+      "pubDate": "Wed, 22 Apr 2026 04:00:00 GMT",
+      "source": "연합뉴스 한민족센터",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
+      },
+      "impacts": []
+    },
+    {
+      "title": "스트래티지, 비트코인 보유량 1위 탈환…블랙록 비트코인 ETF 제쳐",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0wMGVUQ1NxcGVUVkRCMjhRWUxualhRRlRaMU9MeWhmTmx1bUowVUdsZjUzak5yNUk4dzd1eXctLWE4aEQyQ2RnTW1LcVhvTnFmekROTjc4LVROMEd5dmNEUTZHY0NYV0VQRTJMMDlCTmw?oc=5",
+      "pubDate": "Wed, 22 Apr 2026 03:58:35 GMT",
+      "source": "연합인포맥스",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
       ]
     },
     {
@@ -56,83 +105,28 @@
       ]
     },
     {
-      "title": "현대차·기아, '소프티어 부트캠프' 8기 모집",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE13TFdOU1NJZkdxQXZ2SkZGaWFpZE5acjJRbnJxY2p5YlhJZ3VlZ3d5Q1FKY0x4eHFJanV4RlF2R1I3R3JNTnhQZEE4ZVliQQ?oc=5",
-      "pubDate": "Wed, 22 Apr 2026 03:29:20 GMT",
+      "title": "현대차·기아 등 53만대 리콜…안전띠·시동 꺼짐 등 결함 확인",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1YZUFiUTVpZzNjZUplLWRBS3VpWFZIcU10Rjd6MVhvbW5GRmJrWDhTLXNUTnR3MHBZRUYzQlVoWnhuVHpmSlc3aWpJbnZKejNudFpKTWdGTEd1UGQxMXfSAW5BVV95cUxOVzM1T1JONGxMRHNDVmh4UVpVM2psWkN3UmRXaC1rS2lvS1hMNm5MSUhjMU92ZHJGSTNoYnRJTkd1LWJ1Y2lMOHAzc19EM0dyZkRKVmZkM21waW84ZTZIRXcyU2ppLThiMGZqRXh2Zw?oc=5",
+      "pubDate": "Wed, 22 Apr 2026 03:33:22 GMT",
+      "source": "알파경제",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "현대차, '뉘르부르크링 24시' 11년 연속 출전",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE0ydElzWk5MbDdDdGVhR182RUR3OWlnX2h0cW4tal9CRFpnbDZhWjVMOHZndkhwNTVFSllHNlUwM2QyRnRJeU90VFAxX19jQQ?oc=5",
+      "pubDate": "Wed, 22 Apr 2026 03:30:21 GMT",
       "source": "전자신문",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "비트코인, 저항선 7만 8천 달러?···찰스슈왑 애널리스트 \"실제 저항선 더 높다\"",
-      "link": "https://news.google.com/rss/articles/CBMivwJBVV95cUxOTXpaQldfc3QzQlV2b0NxZ3lFZmxER1ZxWExDX0dGM1JTWV91OTNuc1ZMamZ2cjhVYTRuekMtWFU2c054ak5FUThMY0F2VDRwX2tuRWt1ZktocW9QcnYweHFkdENqSFdINU00SW4zSDJCREt6eWFBcDh1M3BlX05FSGNtSFdsZ2d1TUdscWhsQU5lNUZyY2NxZFp5WnlaSE5TdEFqOWI2em5RVS1wbVRycHowcEs1d1FKbnN4dFJFVXlzQWM1MXEwVEZDOGtyYS1jMHE3dVZaY1QtZXdwRnVNdkZmbTJEdUpfLW9zZm5WNGJ2aG9FSUtxbm44MFpZTjUxUEtScHdERTB0UnlBS3gxeU9vSUE4RVc3eGdoQ0x3U3FvbmVVZHUwc1FmMkpkX1hFaHpFUG82Qm1fUWNVc3pj?oc=5",
-      "pubDate": "Wed, 22 Apr 2026 03:23:06 GMT",
-      "source": "Benzinga",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "환율",
-        "BTC"
-      ]
-    },
-    {
-      "title": "전쟁 장기화로 중동에 ‘발목’…현대차 현지화 전략 ‘안갯속’",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4tMHAzSlJzUnJESjM5RTJDMHl3UHhZVXJWNWt4TTNqSGZBMUdmSUdTVmJmSUNDUDkxYmRRZTEwNTE4TlNBUkhYazBlVnN2Y2JrWnRGeE5mb2oxekRGcVo5Xw?oc=5",
-      "pubDate": "Wed, 22 Apr 2026 03:06:38 GMT",
-      "source": "뉴스토마토",
-      "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
-      },
-      "impacts": [
-        "원유",
-        "현대차"
-      ]
-    },
-    {
-      "title": "현대차 레이싱",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFA1eEFhVzdFeTNldXd2MngwOGtaNXNZdlVWZWhTd2NJM2wyWGVrS3hQZmEtUlU2TWJCV0pPcUtWeGV6Vkl0VnJpV0c0RzdDMEJw?oc=5",
-      "pubDate": "Wed, 22 Apr 2026 02:59:07 GMT",
-      "source": "문화일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "경기창조경제혁신센터, 글로벌 반도체 스타트업 '미 포틀랜드 진출 본격 추진'",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9kWndTZXMtYUc0Sl90Y3ItcVJQc1dSOVlONEI3eE9DM0haN2ZROElYa01JeUtYSW5CbDh6amNMWkRBbUU3SklIeUhVbzVlUTVEZTdNbVUxR2dWU21feWRudVlR?oc=5",
-      "pubDate": "Wed, 22 Apr 2026 02:53:57 GMT",
-      "source": "경기신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "현대차 로보틱스랩-딥엑스, 로봇용 AI 반도체 기반 플랫폼 협력 확대…피지컬 AI 시대 선도",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1RS2VONC1YQ3JWa25vWGtIVkgwUGJNM2lidl85dkowYktERS1XbmlMMEJDTENLQzkzcDZacFI5Uk5wNll5V0VPbkVBMUtRakw1U3ZtcDhkSnNHY0Y4eWxHUExURnd2WDktZkM2dXZ3YldscXVMRC1SVEM1X2E?oc=5",
-      "pubDate": "Wed, 22 Apr 2026 02:50:00 GMT",
-      "source": "비욘드포스트",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자",
         "현대차"
       ]
     }
