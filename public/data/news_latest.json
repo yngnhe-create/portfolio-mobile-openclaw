@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-04-22T10:34:41.779184",
+  "timestamp": "2026-04-22T11:04:55.097949",
   "count": 10,
   "articles": [
     {
-      "title": "삼성전자, ‘2026 월드IT쇼’ 참가…혁신제품 대거 공개",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE03c25yTGhsSU13WERDalF3eVhfbVROdGhfVUY5NGkwcUdMQXoyZFdPRjl0YnY3Z1pZeE1xMjFnTUZULVhqQkwyTnJoMXhjS24zZ2xTU2duT21ieHlZSEJxNkV2VlZEaTlvdEh6LW5Fbw?oc=5",
-      "pubDate": "Wed, 22 Apr 2026 01:26:15 GMT",
-      "source": "기호일보",
+      "title": "‘HBM 올인’ SK하이닉스 vs ‘전방위 방어’ 삼성전자… AI 반도체 ‘승전 공식’",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1ndEt2XzRmR0dVX25WSTV3VkhNa0tiQmNqcm15Q0ltY2RXWmV1MWlPN0hHV01FVy03dVNURG5VVExLaFhONXNqdkZ5dU9wVVN5R3VmbktOZkdKaVMwZzhlNHZGOA?oc=5",
+      "pubDate": "Wed, 22 Apr 2026 02:00:05 GMT",
+      "source": "쿠키뉴스",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -16,23 +16,35 @@
       ]
     },
     {
-      "title": "中 'HBM3' 자립 결국 실패… 지금 반도체 들고 있다면 '이것'부터 확인하라",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOZEZtWnNpSm9NYXNvX21SSjZ3RWtnbl8xVEhnM1p6b2xtZFBWOER5VWdBOG5RZmV2NTRMQ04zQlplZ1hYb1cwQUdOUUUxd29wSGd0UFJkS2lEcTRnMUx4UDhJZzl3WW9ZMVpXeE1XckhyMGk5VWU2alJBMExiZzVaRE5NOFlTLS1l?oc=5",
-      "pubDate": "Wed, 22 Apr 2026 01:22:34 GMT",
+      "title": "꿈이 실현되나? \"삼성전자가 엔비디아를 제치고 영업이익 세계 1위 기업이 된다\"",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQeUdYb0tqY2JfeTFlWTNXckVfaVJGeWpkWHYzdG8xMnprVS1wYzBsZGIzR1pTa2hWRmtLeGNUb3drazVvQWJwakJwSkxNQnhHMGNBXzJVVThWeW1iUlVDdHM2bVhxa0poLW1qdHhHLWM1a3RLdDRJaWZma25YaWVCNUJCYTdNOFZs?oc=5",
+      "pubDate": "Wed, 22 Apr 2026 01:56:31 GMT",
       "source": "글로벌이코노믹",
       "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
       },
       "impacts": [
+        "NVIDIA",
         "삼성전자"
       ]
     },
     {
-      "title": "삼성전자, '천장 후드' 필요 없는 후드 일체형 인덕션 출시",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9ad1pMQjVkeHp2SnZJX25KeTh3Rzlra3lBcDBRb2JDRGx0YUtaUU53TnNGZVNUZUpjVXlOQXMyaGpiYmFBWVpfU3pvRTN1UHNCZzNpNkxIZ2JVRkpEZWJfaXJIQjNVUTI5Vi1JSGI2ZkJ3ZW8?oc=5",
-      "pubDate": "Wed, 22 Apr 2026 01:17:47 GMT",
-      "source": "비즈니스포스트",
+      "title": "8인치 파운드리 가격 상승세…DB하이텍도 2분기 본격 수혜",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBmZG9za29MYUV5aWhhc0JUbHFZMjl5ZUJNR2FJYWRqbE9zLVFQb1J2OHd5MmVVTXptZ2R0bDFKLXBZcHU5VHFtM0M5OGdGaXlkZEh3T1Fn?oc=5",
+      "pubDate": "Wed, 22 Apr 2026 01:52:44 GMT",
+      "source": "지디넷코리아",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
+      },
+      "impacts": []
+    },
+    {
+      "title": "반도체 ‘슈퍼 사이클’에 삼성·SK 임원 173명 주식가치 10억 돌파",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0zRGV4RTBZWU95MlZxZm5FUTlTMjg0bG1oWThselJBZ2F5RjkyS1VHYkhDdC0yQ3R6M3BRd01VdjNvbjZ3OG9iRFNhRkEwTzg4WE5uc19yNm1NRmhwOExtSElZcmE?oc=5",
+      "pubDate": "Wed, 22 Apr 2026 01:47:38 GMT",
+      "source": "매일일보",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -42,10 +54,10 @@
       ]
     },
     {
-      "title": "현대차, 내구레이스 뉘르부르크링 24시 출전…11년 연속 완주 도전",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBEcENrSGpHS2Q2aUNMVTQxaHQ3R095SWZIZVBrX2plV3VXZ2xNT01vQXJvdENuUWhCd2taY0haTWJucVJsWlRvUnlpanFhU3M?oc=5",
-      "pubDate": "Wed, 22 Apr 2026 01:09:10 GMT",
-      "source": "v.daum.net",
+      "title": "현대차, ‘뉘르부르크링 24시’ 11년 연속 출전",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE0xY09rNDMwNnRWU0tvX2w4SFRlNTNDdG9fMUdPREJNcEhlUmNOMlhxaWw4NW1YNVRlVXNoSk85UmpkdHRvX2owcjM2a0pSYUI2LW5QYlU0eGdYTENybUVZazc4X0VfUV9KLXFsU3J1QVJySF9yVkdfRg?oc=5",
+      "pubDate": "Wed, 22 Apr 2026 01:47:21 GMT",
+      "source": "로이슈",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -55,36 +67,48 @@
       ]
     },
     {
-      "title": "중동 리스크에 눌린 현대차…로봇이 밸류 재평가` 이뤄낼까",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9fQkNuTFAtSUxNUDZrcUZhbG5fdEVoZ2ZwN1N0Nk5xdzA3VTloUzQ5Ti1UbHo3QmR6cDRYWEphY1loczZQMnJEdlVOMGFnYXNsRjUxSnlHdTdLTmk5SXVqRDd3?oc=5",
-      "pubDate": "Wed, 22 Apr 2026 01:08:53 GMT",
-      "source": "매일신문",
+      "title": "삼성전자, '2026 월드IT쇼' 참가… 혁신 제품·기술 선봬",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAzSGQ1MndEYnlOQlB6cUltVzc5S0FKNENTdnVWWC1mNFYtaU1SM1BWaUFrTElDcjhtSUFzYWtySGJaLWNjalVBajBTRDYtd2F2eGo4ZDBxR3AxZUozRFVrUUVneHVMa1YySkkzSw?oc=5",
+      "pubDate": "Wed, 22 Apr 2026 01:47:01 GMT",
+      "source": "seoulwire.com",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차",
-        "원유"
-      ]
-    },
-    {
-      "title": "역대 최대 반도체 수출에 이차전지 바람까지…코스피, 전쟁 불안에도 6400 돌파 [투자360]",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBvY2RzRHBjeWZNaVFFVWdMRFF6cTlBT2FJT1JsTTZzYUpTWlFXRGdDU0xUcHdmc1Z5TWV0T1hlVG1NLXc1QmFPY3U1Wi1YZFNxUmJRNlBB?oc=5",
-      "pubDate": "Wed, 22 Apr 2026 01:07:46 GMT",
-      "source": "헤럴드경제",
-      "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
       },
       "impacts": [
         "삼성전자"
       ]
     },
     {
-      "title": "삼성전자, 연기 빨아들이는 후드 일체형 인덕션 출시",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1yYlZrSUM1M081UjdLUmJyUmhLSk1LN19OQkc4Z1FtQ2Zndy1XS3lrZ1lidTc4bFozdnZxeXU1a2IyRHhNZGEtOWZDMkkta2VTcV9LRXcyVExBQkZ4R01rOE14MTFqRlhOV0pB?oc=5",
-      "pubDate": "Wed, 22 Apr 2026 01:07:36 GMT",
+      "title": "이천시, 반도체 핵심 장비기업 영진아이엔디 150억 투자유치 성과",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9JMWZzOHhYQkJ6QUZTd1JkTkVQTWg3S0hENC1xV3V2anJmc3NQWnZpZl9JMnFIRHFmMDJic2xjdnYtdDJKcGNsQWpEVS1pSVNkMkxMUnpuTzVxTGhSTHVHcg?oc=5",
+      "pubDate": "Wed, 22 Apr 2026 01:45:00 GMT",
+      "source": "gyeonggi1news.com",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "현대차·기아, ‘소프티어 부트캠프’로 AI 엔지니어 양성 나서",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1XM3JsZW1QV0tFTFJiUXBVNHVUMHMzdWpFRnJaNGNvdC1WNWtta2RoZEN5eFI5Y1JTNk5WSS1ydFR3WEltQVhJRkhyTTVIcWNGLXlMcmg1RUVPOVlYWElBeVBlVDZDZWMyeGxjQmdrRXk3djdhQm1iVm9B?oc=5",
+      "pubDate": "Wed, 22 Apr 2026 01:45:00 GMT",
+      "source": "로이슈",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "삼성전자, '월드IT쇼'서 AI와 만난 차세대 혁신 기술 선보여",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAtT3VVREM2VEJsV1lNOU5WaHg0RnFaSkdMaHFDbGVYd0h0NTJTMVpQQUstcm82SGIzWE9BNjBfdzJ4Tm1mdUxwSzk3VUdzRTgtcldhbmY0T2h5VVFEQnNuaktjVDQtMDdlRlFR?oc=5",
+      "pubDate": "Wed, 22 Apr 2026 01:43:44 GMT",
       "source": "라이센스뉴스",
       "category": {
         "label": "📋 GENERAL",
@@ -95,43 +119,16 @@
       ]
     },
     {
-      "title": "현대차, 다음 달 내구레이스 뉘르부르크링 24시 출전",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5TMW96NXlLcDNfWEhPMV9UN0lsM3RJcG5qS0hHVWZLZHFFa0lTRDhVQUVsZ3dJVVYwNzRaT1JQNUN6ODhlamdha2pZWGNhWWZDSEZwdWExekNYM3ZNbW8xaERFOVQ4Z3ZjbHgtd05acGY5dGNr?oc=5",
-      "pubDate": "Wed, 22 Apr 2026 01:06:47 GMT",
-      "source": "부산일보",
+      "title": "현대차, 11년 연속 뉘르부르크링 24시 레이스 출전",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB2empKdTNaUktxS0J4MVdzWE1EZGRyUVFDSk40SnN4em1Hb0Izd242bWdGbXdBM0h5R2FrdkdHSVlzd1NXUTBaMG1wRjJiOElpMlhwbFd6NnRxa0RIV0V5UEVwbFk?oc=5",
+      "pubDate": "Wed, 22 Apr 2026 01:36:14 GMT",
+      "source": "서울경제TV",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
         "현대차"
-      ]
-    },
-    {
-      "title": "[단독] 현대차그룹 첫 SDV는 기아 EV1 … 유럽 아닌 서산서 만든다",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5sWVowcmh1S3FGLXNONzFJNlZ0dWp3M0lJckZEcjdXRndYVFBlNERxTTJsbi1aSVhrN2tNZVp4N1R4ZXdtdzl1WldZS3EtXzJOUzdfdVphUk1ORGFQZ25jaVZNcldnSlRZeER0clBtYkJHOXJrbWpwdVpPRQ?oc=5",
-      "pubDate": "Wed, 22 Apr 2026 01:06:27 GMT",
-      "source": "뉴데일리 경제",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "테슬라",
-        "현대차"
-      ]
-    },
-    {
-      "title": "삼성전자, '2026 월드IT쇼' 참가…차세대 제품 공개",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE13Ujk1aXVoNzlKSXMwQnBLam9iZ0ZtUkI5WGI4ZW9JWGtxdWs0OTlaT0V2LTc1aHRyM2lyZTFsZ3U5MGpWRVc4N1dSQTJvNDNZb1dHTVBNVk40MmlicEVv?oc=5",
-      "pubDate": "Wed, 22 Apr 2026 01:05:25 GMT",
-      "source": "데이터뉴스",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
       ]
     }
   ]
