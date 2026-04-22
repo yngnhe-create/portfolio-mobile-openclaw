@@ -1,7 +1,74 @@
 {
-  "timestamp": "2026-04-22T11:04:55.097949",
+  "timestamp": "2026-04-22T11:35:08.731657",
   "count": 10,
   "articles": [
+    {
+      "title": "현대차·기아, AI 엔지니어 양성 나서…`소프티어 부트캠프` 모집",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBpWGpFLVVUc1Uzd0hmS0dqbmF4NU82RUNFQ1A0RElSQ3lMTG81VVVjTmxzMUwwa1BTNXhtdUxNZkozUkI5d1N2WWItTE5STG1PeEpLOHBlYW4yWUJnTFJud1hVSmY?oc=5",
+      "pubDate": "Wed, 22 Apr 2026 02:30:21 GMT",
+      "source": "디지털데일리",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "\"ETF보다 강력한 비트코인 레버리지\"···스트래티지 BTC 보유량, 블랙록 IBIT 넘어서",
+      "link": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxPS0dTbVFrQnZHbjE1d0pvbWs2WUFSTmZpaXl6MFJoSlJMNGxyNmk4ams1N0JVVkMta1UySVlwQWp4LTJiQ0dGSWgxdWQyWTVGRF8xYy1YSjFkVTFPVmRLcnItblJlWkFxXy1DaTB4eFV3eXhhXzF1aTZxbzl1QU5QeE5QeHZ3UXVMQ2ozXy02UURRLUZHYXNRWU1hMHJQTWIzb2hDY1BSRjJQUEdhMVA4ZGxNaGxTNWZlOTdYMmlUd3BiNGhTTmxDZUU3ZUVvZzNBWW1GT3N4bDdiT1JJajVzdWFBdGRxZjlzT1c1bjV0cm1MR25WREtDTG1PMVM1d3BKY1Uxb0tfVmpGN2ltTWRpVml0d0RMMWF5X252SUFQd2VqZThDUjdoaS1RZGloRGhWTTU2dEotdnI?oc=5",
+      "pubDate": "Wed, 22 Apr 2026 02:28:04 GMT",
+      "source": "Benzinga",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "하이퍼엑셀, LLM 추론용 AI 반도체로 기술 혁신 인정받아",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE56bkMwNXlyb3ZETnFzM3g2RXBVTUtQR3dYaC1DV0Q0TGV2V2hoTXFHWGFNaFFPQTJweW5pbzlRNjc2OFNWNkJzQ0xGMkdpVEpTSTR4Q19kZXpja3cxMmJ0bzNualpVY2E2TTBBUnFn?oc=5",
+      "pubDate": "Wed, 22 Apr 2026 02:23:02 GMT",
+      "source": "elec4",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "美 비트코인 현물 ETF, 하루 1183만달러 순유입…6거래일 연속",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1DT0pIeFgtcG40cVoxUVVXV2tJYks3WEhPZWE2WWRpOWYtNVRabkUyRk5oaTZ0VG1RbW13dmxSTWxfUVhOeXpieTZvamdSZXRZ?oc=5",
+      "pubDate": "Wed, 22 Apr 2026 02:18:05 GMT",
+      "source": "블루밍비트",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC",
+        "환율"
+      ]
+    },
+    {
+      "title": "비트코인 7만8000달러 또 제동…애널리스트 \"오히려 좋다\"",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE05VE9PdnBxdGJNZnVlZ3V1TEJSOWJpbzdoTTdkc1hGMFpWODRmdTZrOXRmeFNlenhQOFhIdEpDVzVFZDhPd2NibU5VeWE2akpsUWYtbXlnTjl1aEYwQlVwWHlGRjRTV0hwajVmNElfSWVLUVE?oc=5",
+      "pubDate": "Wed, 22 Apr 2026 02:05:37 GMT",
+      "source": "디지털투데이",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC",
+        "환율"
+      ]
+    },
     {
       "title": "‘HBM 올인’ SK하이닉스 vs ‘전방위 방어’ 삼성전자… AI 반도체 ‘승전 공식’",
       "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1ndEt2XzRmR0dVX25WSTV3VkhNa0tiQmNqcm15Q0ltY2RXWmV1MWlPN0hHV01FVy03dVNURG5VVExLaFhONXNqdkZ5dU9wVVN5R3VmbktOZkdKaVMwZzhlNHZGOA?oc=5",
@@ -16,6 +83,45 @@
       ]
     },
     {
+      "title": "한-일, 복합위기 속 경제협력 강화…반도체 포토마스크 1200억원 투자 유치",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9MWFVCZ2tpQUNZLXJKN3RMakxmZkZtZzMwYjh0TktBN1VoZ0xLc1luUzE0Yi15Rk1FY3hmRkJEcVRkeUp2WEh4ZXhDU09fcXFGMDJqamhTT3VUaWpHY1AtQ1lmYkI?oc=5",
+      "pubDate": "Wed, 22 Apr 2026 01:59:30 GMT",
+      "source": "디지털데일리",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "스트래티지, 비트코인 보유량 1위 탈환…블랙록 비트코인 ETF 제쳐",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE84ZTdPblVydnNOcUxnZ1VwcGh5Q1ZrYklsSlRHMTZNY0U1aGJSTUdjVUZ0RFJxYkN6Tlc5U29PbjNlVlNxTnhjQVEwWGo3RWNOaTNDX2xxclhnMi1Vbmp2ZjlueUlsdlM5NWU3cXEwd29FUQ?oc=5",
+      "pubDate": "Wed, 22 Apr 2026 01:58:24 GMT",
+      "source": "KB Think",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "현대차·기아, 채용 연계 ‘소프티어 부트캠프’ 8기 모집",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9OeTE5T0dLNndKQlJCT2dXendZU1Jpbnc5OWo1YVZpY3NLME8waWV2c1dOb2Y1WVVuR29BOXdUd0EtS1ZMTWZwYkhyLW4tck1yZ2tTNHg2Zmh6dFNIMjlxWkItaGlsdHlNM3AzNHdmY1Q?oc=5",
+      "pubDate": "Wed, 22 Apr 2026 01:57:35 GMT",
+      "source": "비즈중앙",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
       "title": "꿈이 실현되나? \"삼성전자가 엔비디아를 제치고 영업이익 세계 1위 기업이 된다\"",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQeUdYb0tqY2JfeTFlWTNXckVfaVJGeWpkWHYzdG8xMnprVS1wYzBsZGIzR1pTa2hWRmtLeGNUb3drazVvQWJwakJwSkxNQnhHMGNBXzJVVThWeW1iUlVDdHM2bVhxa0poLW1qdHhHLWM1a3RLdDRJaWZma25YaWVCNUJCYTdNOFZs?oc=5",
       "pubDate": "Wed, 22 Apr 2026 01:56:31 GMT",
@@ -27,108 +133,6 @@
       "impacts": [
         "NVIDIA",
         "삼성전자"
-      ]
-    },
-    {
-      "title": "8인치 파운드리 가격 상승세…DB하이텍도 2분기 본격 수혜",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBmZG9za29MYUV5aWhhc0JUbHFZMjl5ZUJNR2FJYWRqbE9zLVFQb1J2OHd5MmVVTXptZ2R0bDFKLXBZcHU5VHFtM0M5OGdGaXlkZEh3T1Fn?oc=5",
-      "pubDate": "Wed, 22 Apr 2026 01:52:44 GMT",
-      "source": "지디넷코리아",
-      "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
-      },
-      "impacts": []
-    },
-    {
-      "title": "반도체 ‘슈퍼 사이클’에 삼성·SK 임원 173명 주식가치 10억 돌파",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0zRGV4RTBZWU95MlZxZm5FUTlTMjg0bG1oWThselJBZ2F5RjkyS1VHYkhDdC0yQ3R6M3BRd01VdjNvbjZ3OG9iRFNhRkEwTzg4WE5uc19yNm1NRmhwOExtSElZcmE?oc=5",
-      "pubDate": "Wed, 22 Apr 2026 01:47:38 GMT",
-      "source": "매일일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "현대차, ‘뉘르부르크링 24시’ 11년 연속 출전",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE0xY09rNDMwNnRWU0tvX2w4SFRlNTNDdG9fMUdPREJNcEhlUmNOMlhxaWw4NW1YNVRlVXNoSk85UmpkdHRvX2owcjM2a0pSYUI2LW5QYlU0eGdYTENybUVZazc4X0VfUV9KLXFsU3J1QVJySF9yVkdfRg?oc=5",
-      "pubDate": "Wed, 22 Apr 2026 01:47:21 GMT",
-      "source": "로이슈",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "삼성전자, '2026 월드IT쇼' 참가… 혁신 제품·기술 선봬",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAzSGQ1MndEYnlOQlB6cUltVzc5S0FKNENTdnVWWC1mNFYtaU1SM1BWaUFrTElDcjhtSUFzYWtySGJaLWNjalVBajBTRDYtd2F2eGo4ZDBxR3AxZUozRFVrUUVneHVMa1YySkkzSw?oc=5",
-      "pubDate": "Wed, 22 Apr 2026 01:47:01 GMT",
-      "source": "seoulwire.com",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "이천시, 반도체 핵심 장비기업 영진아이엔디 150억 투자유치 성과",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9JMWZzOHhYQkJ6QUZTd1JkTkVQTWg3S0hENC1xV3V2anJmc3NQWnZpZl9JMnFIRHFmMDJic2xjdnYtdDJKcGNsQWpEVS1pSVNkMkxMUnpuTzVxTGhSTHVHcg?oc=5",
-      "pubDate": "Wed, 22 Apr 2026 01:45:00 GMT",
-      "source": "gyeonggi1news.com",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "현대차·기아, ‘소프티어 부트캠프’로 AI 엔지니어 양성 나서",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1XM3JsZW1QV0tFTFJiUXBVNHVUMHMzdWpFRnJaNGNvdC1WNWtta2RoZEN5eFI5Y1JTNk5WSS1ydFR3WEltQVhJRkhyTTVIcWNGLXlMcmg1RUVPOVlYWElBeVBlVDZDZWMyeGxjQmdrRXk3djdhQm1iVm9B?oc=5",
-      "pubDate": "Wed, 22 Apr 2026 01:45:00 GMT",
-      "source": "로이슈",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "삼성전자, '월드IT쇼'서 AI와 만난 차세대 혁신 기술 선보여",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAtT3VVREM2VEJsV1lNOU5WaHg0RnFaSkdMaHFDbGVYd0h0NTJTMVpQQUstcm82SGIzWE9BNjBfdzJ4Tm1mdUxwSzk3VUdzRTgtcldhbmY0T2h5VVFEQnNuaktjVDQtMDdlRlFR?oc=5",
-      "pubDate": "Wed, 22 Apr 2026 01:43:44 GMT",
-      "source": "라이센스뉴스",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "현대차, 11년 연속 뉘르부르크링 24시 레이스 출전",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB2empKdTNaUktxS0J4MVdzWE1EZGRyUVFDSk40SnN4em1Hb0Izd242bWdGbXdBM0h5R2FrdkdHSVlzd1NXUTBaMG1wRjJiOElpMlhwbFd6NnRxa0RIV0V5UEVwbFk?oc=5",
-      "pubDate": "Wed, 22 Apr 2026 01:36:14 GMT",
-      "source": "서울경제TV",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
       ]
     }
   ]
