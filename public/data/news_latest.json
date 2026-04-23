@@ -1,7 +1,46 @@
 {
-  "timestamp": "2026-04-23T13:11:08.772098",
+  "timestamp": "2026-04-23T13:41:22.242255",
   "count": 10,
   "articles": [
+    {
+      "title": "현대차·기아, 2026 US 뉴스 '최고 하이브리드카' 7종 석권… 3년 연속 최다 수상",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE8yNjhNLTM1TjRXRWFFMmxzS2tZWlpZMEtrUDV4ckE3T1NMaFFzUjJBYUc3MHBoUlFGRnNWR0hLWFhYemN1X3BxSU03M3laV1V5ZUEwczcwdS13MVFsWVFpaWloaw?oc=5",
+      "pubDate": "Thu, 23 Apr 2026 04:30:50 GMT",
+      "source": "더구루",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "한 화면에서 자유롭게 3D·2D 전환…삼성전자·포스텍, 일냈다",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9vaTRId3g4SF9iSzcyRFRXTlNuWV9nVUpvMmEzWjVqZXl6OHgwdVlFalNabGZCa2VQUzRWeXpoTEFISlNhdGFqWk9pQ3dOalU?oc=5",
+      "pubDate": "Thu, 23 Apr 2026 04:18:03 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전자, 포스텍과 2D·3D 구현 차세대 디스플레이 개발",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1PU1hxdEZsNkhqUVMyUnFqNy1LdDkyb0xocWVzbnJ6NVlwSE5iM3pwSEc4UnBKNkRoVV9UV0tyQ21JbHhaXzVVRkQyZXowaWxtQU56N1ZlVVRzWUdiUl84ZHlUZ0N6Zw?oc=5",
+      "pubDate": "Thu, 23 Apr 2026 04:10:21 GMT",
+      "source": "디일렉",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
     {
       "title": "이슈분석) 반도체 슈퍼사이클의 정점에서 삼성전자 노사 충돌",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9YNzk1WnotYVVBWWNLU05ZTkY3WGI5TWNDLUFOSnRzeGxmelk5YTEyU1ZrNUlqcEF6c2xvb2NUby1nY3FrNENmZEY2NWo5VWE4TzRWbl9HRk1KTU0?oc=5",
@@ -16,10 +55,23 @@
       ]
     },
     {
+      "title": "삼성전자 노조, 평택사업장서 투쟁결의대회…3만여명 참여",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBWMWhxLVpNUTF5c0lya1l4ZEFyRmc0Q1hzTS1FMjdLb0RLaGdZVmpUSWgwV2U5TDBJRDRMRzY5cFZLUE1LdUFLbDdaRFp6UmM?oc=5",
+      "pubDate": "Thu, 23 Apr 2026 04:02:21 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
       "title": "추미애 반도체에 위성곤 “제주가 전력 공급”",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1Mb2tPWGE5QmtRMHg5QjRpbjNEQktrWHVLTjlBT0IwelB1b01WQjhOekhySU9aRlViYWg0bFhJbEZ1RzUzNGxyelgyRVhKb1ZtYWFMRVdKQlVQY0hYWmZELXRwS2VWMm14bFZN?oc=5",
-      "pubDate": "Thu, 23 Apr 2026 04:00:04 GMT",
-      "source": "제주의소리",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBuR2g1ZW12eDB6UHd1d0xIUFJySXVNSFJOTFBoV1BoVkFsVE9JMmJQSGlabkZzczVqTkp2NHY1T0MyMUgtNDhDT0JUVmNwaE0?oc=5",
+      "pubDate": "Thu, 23 Apr 2026 04:00:05 GMT",
+      "source": "v.daum.net",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -68,65 +120,13 @@
       ]
     },
     {
-      "title": "SK에코, AI·반도체 스타트업 대상 공모전 개최",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE01LUNIbTBSVVZYSWJDZDBaQks0SWpvY2NpYkNONWNSU0lHMlFNb0s4SXkzeFNNMFlobW9qWmZHNkUtZWNVMDM2amVEazdUTzVvVmFZOVAwMzh1VF96bTR4dXRmQng2anY2azNGag?oc=5",
-      "pubDate": "Thu, 23 Apr 2026 03:39:56 GMT",
-      "source": "중소기업신문",
+      "title": "中방첩기관, 반도체·희토류 정보 유출 경고…\"경각심 높여야\"",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1yQi1WcGNBTWdPejNfajhRZ3NHTllyREp0bnc2Q19DVjkyejBYYmlscXdsMk1rVWxIbmdnUkIzM0t2aW1XQkZPRWloUE85bmI4cGw3UWxacERzZlnSAWBBVV95cUxOQ0dwbUUwR0VQajJpSDhSWFJEWDhBb21zeVdtUFpzUko1QU1MZUJJRDlNd0k2NUpDYmQwSmxqVlhxWDA2Y0xsMThBT0JzS09oZDdMWFlFRDY0NjhxdE1Cekk?oc=5",
+      "pubDate": "Thu, 23 Apr 2026 03:40:07 GMT",
+      "source": "연합뉴스",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "현대차, ‘더 뉴 스타리아 일렉트릭·리무진’ 출시",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0tWnEwbC1XeXlUN0NBcW5FT2Y3dEtqV3lnR1RDOUoyMFVqNjk4c0VmYlVkdGQ5VzFWOGRSSjJET2VEemdxUXI4bWlsMEJNbjVUTWpKQXBaUm4tRU9RMHVTbEhXT1Q1UHpnUlVOSA?oc=5",
-      "pubDate": "Thu, 23 Apr 2026 03:35:39 GMT",
-      "source": "중소기업신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "1분기 GDP 1.7% 성장…반도체 수출 호조",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8yc05qQl9kV05vOXR2cUdhTnU5ekx3VHlHZmctMlFDSjcwOGhhRWNzSXJaUFpUZ0FxSjE2eVFTNTF0cnZDUklZa1l1aHFWMGs?oc=5",
-      "pubDate": "Thu, 23 Apr 2026 03:31:36 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자 노조, 5월 총파업 초읽기...조합원 3만7천 명 한자리에",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFAzeEdhS0ZhT09pVzFEVzRHWEFMT0FMVUZkQ01SZTMtdVAtUXh2OWJqXzk0MEc4ZjJxd3Eta28wcGl6WXRWZjVaclpEaTd3UjZwMWNlX2RVWXB5U2I5MWc?oc=5",
-      "pubDate": "Thu, 23 Apr 2026 03:21:00 GMT",
-      "source": "YTN",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "1분기 韓경제, 반도체 호조 힘입어 1.7% 성장…5년6개월 만에 최고",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB4dkpuN2MtSUsxRjlhajlFUHQzLWpUWkNjaGJ1ZUxyMmJLTWJTem44UDQtWnhYQ1hranZFaHd3d29hOVRkbDFIVWJSWklqNGozSVBEMThaR291dmNKalBic0ZVbTgxclBVa1dfZUV5MNIBc0FVX3lxTE5YM2VqeEthQkZkWHYzYjcycnduRDFnWUpSNUpMTHJqTEIwN2JwdzkwNGdRbG5sSmIzYmJuamI5Vl9SOE9aaE1SczdrNlEyNmNnOGlOdTdGeDAzNjAwdnYxRUtFOEEtUG5SS0xrTXNSd2FDZ2c?oc=5",
-      "pubDate": "Thu, 23 Apr 2026 03:18:20 GMT",
-      "source": "시사저널",
-      "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
       },
       "impacts": [
         "삼성전자"
