@@ -1,12 +1,38 @@
 {
-  "timestamp": "2026-04-23T18:17:04.963620",
+  "timestamp": "2026-04-23T21:12:32.408091",
   "count": 10,
   "articles": [
     {
-      "title": "마이크론, 中 반도체 경쟁사 겨냥 장비 수출 봉쇄 법안 로비 주도",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQREJfOGhTZ2JJZUdjLUpYRVZ5NmRYcm1aSXBUdmhKblVMMExObEVfWVVWZUMtTnBhWTA1REZUaUF2VGZSWjM0SlVhVS04Y3BydThlY0pobEdHMldYcDVBdDFMWU1Wa29RUXdvMUtkMGxYX1ZHcjRBSUdiZ3p2cHA4cnEzMjZIWm1f?oc=5",
-      "pubDate": "Thu, 23 Apr 2026 09:09:47 GMT",
-      "source": "글로벌이코노믹",
+      "title": "3개월 만에 280%! 삼성전자·하이닉스보다 더 폭등 …뜨거운 소부장주 [투자360]",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9ZX3VwM0R0NDJGYzk4TGFKZ2hRYk9jLXBLa3YyQUxrZDVOLXhhNmRDMXl5N1dyaFY2dk1qMWdhSFpVY3dLclNlQlh0cnhLY29VNjdZWVFn?oc=5",
+      "pubDate": "Thu, 23 Apr 2026 11:40:00 GMT",
+      "source": "헤럴드경제",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "반도체 중심 수출 호조에…1분기 1.7% ‘깜짝 성장’",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5lTGk2Q3phUG1pNW9RQ3phNmNnaGk5UVJzYmVkQ0pGTmRsaERhdmNKTkRHLWxkYXZfY1VURjFkYnhKdk43eDV3LURlVUVnR1RQQmFUejFLT2VHUdIBX0FVX3lxTE5OeVgxVjRIa25zU0JycTJ4N1hCQ2l4S0x6YnctMGFJUloyUFpvTFRJSjhYX2JsMURkdXhBSDVPOFhEM3ZHd2htMnJET1RRRlJQYUpyU3U3ZE1HTHQ3cWtV?oc=5",
+      "pubDate": "Thu, 23 Apr 2026 11:39:00 GMT",
+      "source": "경향신문",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[사설] 반도체 기업 ‘성과급 논란’, 상생의 이익 배분을",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBFRHdsQjg1QU44ay15dVYxdDk4RE12WS12dGFlREdnWDlqTlJmRnFaWEVOTktBejJ1VS1fbnYyd0tGcjZMUllfRDJmNHZvVEFTcldxa1pRQ1ZYUk9BZWxYcnR4cEYyTUJQUmc?oc=5",
+      "pubDate": "Thu, 23 Apr 2026 10:43:00 GMT",
+      "source": "한겨레",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -16,123 +42,95 @@
       ]
     },
     {
-      "title": "[IB토마토](단독)하나캐피탈, 부동산 줄이고 반도체·AI에 1800억 베팅",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAtY2xSU05DbmpCSHg2cGR4clg0RlhEM2NSNDl4UEhQc0N2bzZNUGI0MnFHa2N1Mk5HM0hIYzE1NjVoOWZJbzk1NFZDSWhSb2N4YnVid1ZuQU5FX1g0bmNaQQ?oc=5",
-      "pubDate": "Thu, 23 Apr 2026 09:08:46 GMT",
+      "title": "어보브반도체, 프리미엄 가전용 MCU 'A34G43A' 출시",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBJTjhDRjVMaWhFbV9SZ2Q5dkZfU194ejBpTE5nNnlkQUs2X1FQdlBNalBxSVJyYll0XzZBQkgtTDZXa2kta3dRNWtjVnp2OFNlZ3RnNHZkakh5bEtTVl9JVHluUC1XQQ?oc=5",
+      "pubDate": "Thu, 23 Apr 2026 10:41:52 GMT",
+      "source": "디일렉",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "추미애 민주당 경기지사 후보 “반도체 클러스터 분산 안돼”",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBXQ3ZNbzktM3loWHNOM0ZnSnhxOS1ONUVlOURpcFg1LUFyMmM5aU9fUFVKLVQ5YXRiRkVsaGNwcUUzc3pSbEhWNmNtTENiXzg?oc=5",
+      "pubDate": "Thu, 23 Apr 2026 10:37:09 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전자 노조 평택에 4만 명 결집 “성과급 상한 폐지 안 되면 총파업”",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5SZGkwYldvNEdxV0xad0JRZ0RRRlIxLTZ1OFV2WEFQaFI2S0JJTF9GM3JRNjVDd2Z4aWxNV3Q2QnRSMTZNUm9URzVrSmNSVVlPWnl3N19ucW9UZllMV1RSTUFsYjg4LXVYZFlBZWU4SQ?oc=5",
+      "pubDate": "Thu, 23 Apr 2026 10:37:01 GMT",
+      "source": "기호일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "중동 전쟁에도 1분기 1.7% 성장…소비가 버텨주고 반도체가 견인",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9SMlFjY21HY1g4Y29MdEFMVU5IbnBWdEVLNXZpUi1TUDdscmRrdVRDN3haeGFwNmhvUmNlalliZ3dCaDljSFRvb1hWcENzQU1YVnU4TTRhY2k5Zk83V2tPV0w0R21wbzA?oc=5",
+      "pubDate": "Thu, 23 Apr 2026 10:35:00 GMT",
+      "source": "한겨레",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "원유",
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전자 최대 실적의 역설… 평택 집회 4만명 운집",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9fVkxkb09BemhFQ1B3bU9wWDZ5MEF4LWV0Z3pTaFV3SmhtRk12eFA2Z1BhaTJJekF6YjhzdXhJRzJ5VFFGY25BcVV4NmM1eVFfaXc?oc=5",
+      "pubDate": "Thu, 23 Apr 2026 10:29:56 GMT",
+      "source": "경인일보",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "성과급이 뭐길래… 반도체 ‘잭팟’이 만든 심리적 연봉 삭감의 정체",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPUTFNODM5UGJjYTFjcXVLZUY3WXhQTjNhT0JBdzQ3cTA0ZFM0b1NYNzhXekgxVUt2cVRvWXFGS0d0RXBvenl6amp0djBsYThlZko5VENnV3JUdi1FNVcwUGRNdHpSTVRMSW1lTGVWWFFYRDF4Z3ItZDhDNDJiVWtPMlljMGlqZw?oc=5",
+      "pubDate": "Thu, 23 Apr 2026 10:20:00 GMT",
+      "source": "네이버 프리미엄콘텐츠",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[IB토마토](합정역 7번출구)억대 성과급 시대…반도체가 키운 보상의 격차",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBQN2FMZm9XVGxMNDFhOHNvS1YtYXNtUi1OcnZYUlR5cGJmWUplcmVJM2dKcksyTk5UYjc0VWc2TDZSZzJiOW5rcHNJTFB5dWhxWVR1Ym1US29LS0JUaUxjaA?oc=5",
+      "pubDate": "Thu, 23 Apr 2026 10:10:00 GMT",
       "source": "뉴스토마토",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
-        "리츠",
         "삼성전자"
-      ]
-    },
-    {
-      "title": "“반도체 호황 업고 ‘팔천피’ 갈것…PER 저평가돼 상승 여력 충분”",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBYNzZiRF9MVC1WT0M3WFBya0d3cmx6MmNjbzhxOV9lY0U1Wk1Xc3VZYW02cGlLekZCODNYMlhKVkVheHJQLUtFNXV2bkc5N0VLVkHSAVNBVV95cUxOWlVoZHdVTjN2YW1vS01YZnF4cHdJYndQNldOamM2WGdkOTRScTdrZzBHbFFZWkxLcWpWekpKSlEzbFAwRnJ0bEM3OGZITGtmaDRSaw?oc=5",
-      "pubDate": "Thu, 23 Apr 2026 09:04:04 GMT",
-      "source": "서울경제",
-      "category": {
-        "label": "🟢 POSITIVE",
-        "color": "#4ecdc4"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "반도체 타고 韓경제 연 2% 성장 '청신호'…'중동·추경·수출' 변수 관건",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5BeXJuMTFXamxiOWR4ZGpDNGRpQlNPUldqTkx0TkFYdElLQVJRUjE1N05Pb1YtSWFtWGhZcVV0b2pSVkFFRWluNkhJRS0waV8tYkVkWg?oc=5",
-      "pubDate": "Thu, 23 Apr 2026 09:01:38 GMT",
-      "source": "뉴스1",
-      "category": {
-        "label": "🟢 POSITIVE",
-        "color": "#4ecdc4"
-      },
-      "impacts": [
-        "원유",
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자 노조, 5월 총파업 예고속…주주단체 \"파업 반대\"",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1FMVZJc3IwNTdqU2lYNVZ4bDZ1bXVvWnhMcmxyVTZUcG5lOFg5RHlsNXVQVVRZMDBWNDBxTlJvWDdiUWVaUDRoWVg2N0twQUY0S2UtOHdzTjBxMHl6Nk5VTmppLUk?oc=5",
-      "pubDate": "Thu, 23 Apr 2026 09:01:10 GMT",
-      "source": "디지털데일리",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "비트코인 다시 오르는데 … 알트코인은 울상",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1RdVM0d0dHakFsR3ZtWWhIcXZkZjR2czQtMG41WWNLSE00dkNiay1QSmJPeTFIQ0NJWkIzNmp6a0g4TktCRWYzN0dBeTdHZnJCa2c?oc=5",
-      "pubDate": "Thu, 23 Apr 2026 08:56:15 GMT",
-      "source": "매일경제 마켓",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "'반도체 기술 中유출' 삼성전자 前부장, 파기환송심서 징역 6년 4개월",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ObnFWNGJpXzN1MXgxT05RcXVycjF3cHpZYjRZTjgwSzRsTDFPaEJTM1dsM3ZjNVJycUdPMG5VUENzUVUtbDdzVUM4Mks1TEtQOUE?oc=5",
-      "pubDate": "Thu, 23 Apr 2026 08:51:00 GMT",
-      "source": "노컷뉴스",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "반도체가 끌어올린 1분기 성장률…2분기는 중동 변수",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1VTjlMcTV2eU5mX2JDc1VYa3RJNjZEZHU5NE43ODZSX3JORDlOb2NkdHF3MkE2aGFzSmFRU1BtZWtZWGNCSUd5bGhoOTF0c2s?oc=5",
-      "pubDate": "Thu, 23 Apr 2026 08:49:28 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
-      },
-      "impacts": [
-        "원유",
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "‘반도체 기술 中 유출’ 삼성전자 前 부장 파기환송심 징역 6년 4개월",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBHaFVpVXZEQUdFRVdidFBtbEY5MTkxZnQwTTRGcnkzN0ZfVVZaX0lBRmlGNmluemhmWkF5MVd4RGxWd2RETXFSdExTejBYOWg4OFVfYm93?oc=5",
-      "pubDate": "Thu, 23 Apr 2026 08:49:24 GMT",
-      "source": "중앙일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "\"정치와 완벽분리된 비트코인, 글로벌 통화되면 전쟁도 줄 것\"",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1PQzVXYXZ6dXZwZ1IxdUszc2NIWGFXbWlvTW9LQVE3YkxIdDFBTHBVeEJVQzdZWG5YUWxBa29ycHRHZzVNU2RpMXUxTWlWTTZEaXlVY1lFOUFhZ9IBVEFVX3lxTE5IcF9wT2JpVThnZDkta0ljT29NUy1EMkFvT2J4dENsVkpuelpORm50Sl9rQ0E4dWFuVERzSFNYMm5FQ3ZVN0NON0VFOEkyZjhNNEhuRg?oc=5",
-      "pubDate": "Thu, 23 Apr 2026 08:41:06 GMT",
-      "source": "한국경제",
-      "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
-      },
-      "impacts": [
-        "BTC"
       ]
     }
   ]
