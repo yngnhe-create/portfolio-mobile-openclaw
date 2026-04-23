@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-23T18:12:17.965977",
+  "timestamp": "2026-04-23T18:17:04.963620",
   "count": 10,
   "articles": [
     {
@@ -12,6 +12,20 @@
         "color": "#8b9dc3"
       },
       "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[IB토마토](단독)하나캐피탈, 부동산 줄이고 반도체·AI에 1800억 베팅",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAtY2xSU05DbmpCSHg2cGR4clg0RlhEM2NSNDl4UEhQc0N2bzZNUGI0MnFHa2N1Mk5HM0hIYzE1NjVoOWZJbzk1NFZDSWhSb2N4YnVid1ZuQU5FX1g0bmNaQQ?oc=5",
+      "pubDate": "Thu, 23 Apr 2026 09:08:46 GMT",
+      "source": "뉴스토마토",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "리츠",
         "삼성전자"
       ]
     },
@@ -69,20 +83,6 @@
       ]
     },
     {
-      "title": "현대차, 유럽서 1분기 판매 7% 감소…시장 4% 성장에도 전기차 경쟁에 밀렸다",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1Ed2dvZ1cxcHdrQmJjUkRtOE9PVUNYcnBXZk9FNFhxOERpMEVYc0VJLW9uaVR0NFRKdms0VVlSMUw2Ti1rTkhSLS1OVkZBVlE?oc=5",
-      "pubDate": "Thu, 23 Apr 2026 08:52:21 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
-      },
-      "impacts": [
-        "테슬라",
-        "현대차"
-      ]
-    },
-    {
       "title": "'반도체 기술 中유출' 삼성전자 前부장, 파기환송심서 징역 6년 4개월",
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ObnFWNGJpXzN1MXgxT05RcXVycjF3cHpZYjRZTjgwSzRsTDFPaEJTM1dsM3ZjNVJycUdPMG5VUENzUVUtbDdzVUM4Mks1TEtQOUE?oc=5",
       "pubDate": "Thu, 23 Apr 2026 08:51:00 GMT",
@@ -123,16 +123,16 @@
       ]
     },
     {
-      "title": "반도체의 힘…1분기 GDP 1.7% '깜짝 증가'",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1xQlluOEx6WlJDUE9EUFp6QmdZSnRtbmVzbWVPQmlUdjdHOG01Vm5vM1BLR2tqNEx6cTg1bzJuNTFZREt1clMtdDNtVmxLWHFfVmgyWnBQZUNid9IBVEFVX3lxTFB2SHJFUjVITEJvUFFmMFdZX2JxdHRrTGF2dHVsdG1LYkJTWE44eXo0eFowa0t2SzNvTmc2QmxMMVA3MVB0WFRCejRaUEM5UEtqcTJyLQ?oc=5",
-      "pubDate": "Thu, 23 Apr 2026 08:47:31 GMT",
+      "title": "\"정치와 완벽분리된 비트코인, 글로벌 통화되면 전쟁도 줄 것\"",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1PQzVXYXZ6dXZwZ1IxdUszc2NIWGFXbWlvTW9LQVE3YkxIdDFBTHBVeEJVQzdZWG5YUWxBa29ycHRHZzVNU2RpMXUxTWlWTTZEaXlVY1lFOUFhZ9IBVEFVX3lxTE5IcF9wT2JpVThnZDkta0ljT29NUy1EMkFvT2J4dENsVkpuelpORm50Sl9rQ0E4dWFuVERzSFNYMm5FQ3ZVN0NON0VFOEkyZjhNNEhuRg?oc=5",
+      "pubDate": "Thu, 23 Apr 2026 08:41:06 GMT",
       "source": "한국경제",
       "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
       },
       "impacts": [
-        "삼성전자"
+        "BTC"
       ]
     }
   ]
