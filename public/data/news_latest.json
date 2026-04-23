@@ -1,18 +1,44 @@
 {
-  "timestamp": "2026-04-24T04:13:54.844210",
+  "timestamp": "2026-04-24T04:44:07.913798",
   "count": 10,
   "articles": [
     {
-      "title": "신차 팔면 끝?… 현대차, 전주기 '수익사이클' 굴린다 - 머니투데이",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBxTDVYWHpyVEV4bFhhTEhRbFJnZkZaZ0Z1N0FkdlphVnpFczE4d2JzdDUtVHBjblNKM0U5SVQ4SVVsVzhtSmhaVFdNWUdvODA2Y0c3R29ZZkVFcVNNR21oNml4WERmNWUyT3R5adIBckFVX3lxTE1YakUwNjdyZmQzRUl1ci1lUWhKdElmbDl5MXVzTHhndFFNMGJCX0tqWllYS3lHNlJNZ2ZkMlM3ODZzbjFfTWgxdWoyUFRrdWNkTTNCQkh4V3BzOHBiZnJJazFNZHJtTFhKZlhxQXQ2bmhkZw?oc=5",
-      "pubDate": "Thu, 23 Apr 2026 19:10:00 GMT",
-      "source": "머니투데이",
+      "title": "전쟁 이겨낸 ‘AI 투자붐’, 반도체-전력기기株 등 강세",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5raHNOYlF2N3YwLTgycHBIU0JSLVVUalFmdmhTZEZXMDJ6eW1pUE1zYnJmNEdGQm85RGY1MEpUOHM1SDFrUlNia1l2V0loRmFKUjg0Nk1Tay1oYjQxcElSMXNJNmF6TTR2MkYzeW9JQXdSd2VwVGc?oc=5",
+      "pubDate": "Thu, 23 Apr 2026 19:30:00 GMT",
+      "source": "동아일보",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전자 노조 “성과급 45조 달라” 집회… 뿔난 주주들 맞불 시위",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1ZN0F1MVNjWlZ5ZkdoMjcyamJDMzQxUUhVS1NaN2tQNEI1VGJZS1JnMUhzczlmRGJwUTJSdkRrcWN5eS1qcXJhMmN4WnpRTGk2SFBvSkRVVFRsdC1wM3V2alFQdjRIZDFOcURXQ0lMZ2Z2amZQWlHSAWZBVV95cUxNMTF4VEdmRWVNWDRRQVdKM0dNMnE4VllJbElhNG5McnRlVGRud0hRckpPbWQzaU81MFZCMHBiNWw5SG9hUGRDUnhEX3NqRE9jLURKTHVyQWtTM2NDOHRRUnlMVGRxd2c?oc=5",
+      "pubDate": "Thu, 23 Apr 2026 19:30:00 GMT",
+      "source": "동아일보",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
-        "현대차"
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "반도체 힘 받은 GDP, 1분기 3.6% ‘깜짝 성장’",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1NTjg4ZzJNS3ZqUzNIcHMzOGw4S2tsbjVaQjlOMFRXci1GWHY4b2Q1MXJ4eXFDcDJvZW1KaXFEUWRBc0Iyb3RNZzUxc3liTUVXZnRQUTZEdEJvaWFDVVByckxIM0RjV1FxdS1qUDBrZ0pPdTVsMkHSAWZBVV95cUxQMTlXYVVjWkE4NnE4WWsxYjg2RDZsVTlKMmhsYktubHBmWVpJejc4eU9IVnBxcjdJRlZMZ3JaMk9mMmF3VTJlYks4dDNja2xlUG5aSGNub2lGNTFYd2puNHUzcG5ETEE?oc=5",
+      "pubDate": "Thu, 23 Apr 2026 19:30:00 GMT",
+      "source": "동아일보",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
+      },
+      "impacts": [
+        "삼성전자"
       ]
     },
     {
@@ -25,23 +51,9 @@
         "color": "#a55eea"
       },
       "impacts": [
+        "원유",
         "BTC",
         "채권",
-        "환율",
-        "원유"
-      ]
-    },
-    {
-      "title": "비트코인(BTC), 7만8000달러 일시 반납",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9ZZWxMcUhEb3FWbXNNRG9zd2lqS09KS1AyUTRyQWU4SWZrSXpJUkFTck9WQlFZNUFEUGM0b0FVVzRxeG55bUNpLTVlU2VmbS1t?oc=5",
-      "pubDate": "Thu, 23 Apr 2026 18:07:19 GMT",
-      "source": "블루밍비트",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC",
         "환율"
       ]
     },
@@ -105,19 +117,6 @@
       "category": {
         "label": "🔵 MACRO",
         "color": "#0984e3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "SK하이닉스 축포 쏜 날… 삼성전자 노조 4만명 ‘성과급 집회’",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5XT2E1TkF0dDhqeXpKdGN2ZlA5bHo5aGNPRVppTFBuSHl3aThDOTJGbGdXaDM5MUJpUnFYcFlVTmZIaDV6elg3N0lBV21tZ3M?oc=5",
-      "pubDate": "Thu, 23 Apr 2026 17:03:33 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
       },
       "impacts": [
         "삼성전자"
