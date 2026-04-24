@@ -1,99 +1,12 @@
 {
-  "timestamp": "2026-04-24T08:17:04.577120",
+  "timestamp": "2026-04-24T09:14:36.483565",
   "count": 10,
   "articles": [
     {
-      "title": "포인투테크놀로지, 엔비디아 투자 유치...북미 시장 공략 강화",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBER21iRExzMWExWmNBbG1HMFpNWUJNRHd6U2FBdUk5MmZLalZSRnNqM0NibTYwY3hlU05zR2g1ZDR4WGg1ajlGcGFyZFdDcFJINkhVcG92X3Rlb1RfMUZ2ajVOSjFuZw?oc=5",
-      "pubDate": "Thu, 23 Apr 2026 23:11:02 GMT",
-      "source": "디일렉",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "NVIDIA"
-      ]
-    },
-    {
-      "title": "[증시키워드] 반도체 숨 고르자 조선·원전으로…두산에너빌리티·삼성중공업 강세",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE44dFpmMkUtUnlLUnRMV0dLTzdYMkZFN1Zsa3V2NHBrZ0xFbjNoZDFReTZPdWk2cTBUWGlzV0QtRXZyYVBrcWRYRHZpU09HbVVITk5mRA?oc=5",
-      "pubDate": "Thu, 23 Apr 2026 23:01:00 GMT",
-      "source": "이투데이",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[분석] 전고점 넘은 코스피..비반도체 주도주 확산시 에너지화학, 전력설비, 증권 주목",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1rdWtqdTJhWnE3bU9CeUt5b1RvVUN0UV9paS1JTllLa1lpSHZYUzRSd1pzUlpmWmZGSXpvb0E5b3o3SGppY3UyamRXXzlTTkVzWWQxR19LaUZtYXhuZVHSAW5BVV95cUxNalNoUnRDZXNWVTYzeXp4NXRmb3FDSlpucFFTenFRS2NGWVNXbzFtZWlLazR3SWN6MHhzUF9Fb05OcFozLUF1MzJmMnRwZVJ1cmgzb2ItMVhfcUtPT0M1TXhYZ3dOWmx2bTE5bGdQQQ?oc=5",
-      "pubDate": "Thu, 23 Apr 2026 23:00:50 GMT",
-      "source": "알파경제",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[인터뷰] “다림질로부터의 해방”…주름까지 잡는 ‘비스포크 AI 에어드레서’의 진화",
-      "link": "https://news.google.com/rss/articles/CBMingJBVV95cUxNbHNQUnRrU0RZcFRsT0V5LTNkbDI3VnJubkxBWXFXLUtlcV82RzFJX0RqazhXek9sZWQ1Q2lnWjhqLWxxb2Rkcl81OFhXTk43M0Q5TzN1OUZYdWxoRElrYV9vbHZwUDdZck9VZXN2eVR4SzZYcm5hdDJxTWMyOGZLSWFzaFdETWxHYlFibTdfVVVRYjBia091Y0FVc2daVlM1alF2dHhRU2M0SE5xM2RTdkpCTWRiMVp6cGJlVTFIb05KNkFCM3BFT2RWMDRFaWNPMEE1NE00cHVxUHNuZFh3aHgyMnEyZWVsMTJ3ZDBJYmRhVU03YnVHMHNEUVBoRE1kQ29BcWl0LTVzYW5pTzdlRUJPZURoVXFTakV5ajZB?oc=5",
-      "pubDate": "Thu, 23 Apr 2026 23:00:00 GMT",
-      "source": "samsung.com",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": []
-    },
-    {
-      "title": "[차이나 브리프] TSMC 웨이저자 '로봇 논쟁' 확산",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9yOV9kd0VZRnp5cWRBRHA4ZmxaOWtuNTl6MDhqV212dkdCSE00ZnQ4bG53eGVCVkdxcjR0VVRqSW0taFNfUTBFd09hbDY4RGtRTHZPd0laMjN5bDBfdE1XQUFmSGliQQ?oc=5",
-      "pubDate": "Thu, 23 Apr 2026 22:46:28 GMT",
-      "source": "디일렉",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": []
-    },
-    {
-      "title": "[차이나 브리프] ST마이크로, 화홍반도체에서 40나노 MCU 생산",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBJT21BUTBSSGw5QVIzVjZ6ZVhmZHVNQXFySkV2bUExRnhNaDR0QUpxb2tGUTZNaDdBWFNna2kzSjdTXy1vMjVLWjkwRUZ5bjJvNFBDSHZKZERFaENScnZheDR1b2V6Zw?oc=5",
-      "pubDate": "Thu, 23 Apr 2026 22:46:20 GMT",
-      "source": "디일렉",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[단독] SK하이닉스, 韓반도체 최초 IEEE 혁신상‥'젠슨 황과 AI혁명 주도'",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9KM2dvdWRRamlKTlBQTWlaMGNGNVRlWWV3bUgzVkw5VGUtcWJKSDUyV01QUjk5ajNMcEFtSFg4Qi0wM0lvUnp5bjQzUUpFU0c2Vnk4VTRpUlhac0drYUpBcQ?oc=5",
-      "pubDate": "Thu, 23 Apr 2026 22:30:09 GMT",
-      "source": "아시아경제",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "현대차, 납·비소 오염 옛 예비군 사격장 방치…주민들 쑥·나물 캐갔다",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ma21qMVdTVGZjcFFKQnNhZG9rSUJTNGY1LXA5X1U5amVpVm1XNkZtWkdub2NTYUd5ZXpzdkU0V3VfMk4xblNzZmQzbnpyajc1dkE?oc=5",
-      "pubDate": "Thu, 23 Apr 2026 22:30:00 GMT",
-      "source": "뉴스1",
+      "title": "베트남 자동차 산업 인력 양성, 현대차그룹이 담당",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE44TVJtUlhXb1ZTWW9SX1VBUmg5ZmZTbkZzTk1wMFFZOGE2RXBZXzRmME9EOEdXa0VzenoydUxnR011ZS13NWtCVzdob3BacE1yZF9QejFISjBMaVJVT2o0QzB6cUxwdE0zeTY0?oc=5",
+      "pubDate": "Fri, 24 Apr 2026 00:09:34 GMT",
+      "source": "라이센스뉴스",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -103,10 +16,23 @@
       ]
     },
     {
-      "title": "노사 갈등 넘어 ‘초과 이익 배분’ 시험대가 된 삼성전자 성과급 논란",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE84cjByb2lIaGRYNDQxbWh5OEFjR2hUYnRBdFJ2YjhZXzZiOEl5RUxKbndIeWJkbmx0akV3VnZFbUM3eXB2bTdJTFBMUzMzSURaajNIbDZFWXRZQdIBX0FVX3lxTE1YMFJyTXcxUmVISXZJXzNjeERMcWtxeG1XVHBMMGpXTFhpNkl6T3ZndmlXeWJfSTVWdW1aVkl5dnJrQ1FfODUxZklKczlGd2piR1NER25fSThDWXNldzhn?oc=5",
-      "pubDate": "Thu, 23 Apr 2026 22:25:00 GMT",
-      "source": "경향신문",
+      "title": "대신證 \"현대차, 신차·피지컬AI 기대감↑…목표가 66만원\"",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE42U3pCbHpaSFVwakJFN3F6ZjlaWWVNSlJhSV9RNG51a3p3NWxndWYxOEY3SW9nX05PbHRxa21fcnc2dm5kbUY2ZkFiX25SbGdrc0x3NjhnaDdGYldtb3BhV9IBeEFVX3lxTE1yWHNvVHFPS28zX3ZOdlNHNmhETUJNWmhmdGtLZzROTG8tS2hGZWdDeEZhbWhBdldzdU9QMFdPVVJsclI3NHRIcldSRy1OUlA3eHhiVk5VNTJFNEhtRVkzT3VQMHN1aWNzakdoNlpWckw4N21waEFReg?oc=5",
+      "pubDate": "Fri, 24 Apr 2026 00:07:30 GMT",
+      "source": "뉴시스",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "반도체 호황 등에 업은 '에어퍼스트', 몸값 4조 돌파 [넘버스]",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBlZVhkc0ljR3lIWVo2ZGhCU0xNTFhaNG5QRUhIY0VJenZLRkVfZjBDOVNrOHlFYjJOZVZuMldXZ3NBU2NLSWFvME40QWd5ODNvbWFGUUVqTEFGZTUtYjNIMnRud09ZbEYt0gFsQVVfeXFMT29vM09NaVZINVVWV2szRlQ4NW5oMVBoNnNpeXRILWNOVmR3V3V3UU9qbFU1R0gtSXdTN21yZ1ROdVlmMUU4M2xXQ0hBSmVIUVM0d0NwYnYyNzJ0bXdJRXUzUUZ6TzBQdmNsNXJp?oc=5",
+      "pubDate": "Fri, 24 Apr 2026 00:07:00 GMT",
+      "source": "블로터",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -116,10 +42,89 @@
       ]
     },
     {
-      "title": "원주시, ‘AI 특화 시범도시’ 도전… 현대차 등 초일류 기업과 맞손",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE44eGcycklUOHJ1TG4xZ2R5YTZURFRpU2FYLXFMTm8wUFlHXzhTbnBvUkp1UkFsTVBzZjBPUmJ6b2ZhRDNWN252cEhsZmJnRVFRaHlBZFU2REs5LXhCNy02Y0FFaHM4Y1U?oc=5",
-      "pubDate": "Thu, 23 Apr 2026 22:20:11 GMT",
-      "source": "원주신문",
+      "title": "美 루미스 상원의원 \"비트코인 국가안보 활용론 지지…클래리티법 서둘러야\"",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4ybTk2UHhJWEFMeTk1cVREUkJOd2pvRmJPUEl3aEpDUlJrTU9RSTl6eDZSV3ZURzBqcEdOSFlZNkh0MFNaS010MlhiQ3hpWDhXZG4zS2hZZWVxaERZbTNmbW1iUlFYSlR5UFlNVWVNcHJKV1U?oc=5",
+      "pubDate": "Fri, 24 Apr 2026 00:06:53 GMT",
+      "source": "디지털투데이",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "'반도체 미세 발열' 꼼꼼하게 잡는다...KBSI, 에이치비솔루션에 '열영상 현미경 기술' 이전",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBaaC1KdVhSdFdqaEV1UC1LRFB4a2p3WlpzajF3ZjA1cS1kZC1LbTNTTzdWcEgxM0pjNTZuWlEzRmZpZE51WjB4MmhST0doQQ?oc=5",
+      "pubDate": "Fri, 24 Apr 2026 00:06:09 GMT",
+      "source": "전자신문",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "키움증권 \"현대차, 펀더멘털 개선 가능성 환율에 두고 접근해야\"",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPYkJGdUxZek1wa1dKWktiN0JSZUFQb2RkV0tWRXhXZE1RVFZHWGp3RDNNbWx4YXpTT3lDWGQzV3NkWnBvejZSOFYzWHM1VG01Wm5pQ3haUzdsTmdTMF82QzVzTExCTTZNY2N4eTNWOUt5X1FWTjBoNEt2d0hWWUQ4Z0g2U3RTYlBf?oc=5",
+      "pubDate": "Fri, 24 Apr 2026 00:04:50 GMT",
+      "source": "글로벌이코노믹",
+      "category": {
+        "label": "🔵 MACRO",
+        "color": "#0984e3"
+      },
+      "impacts": [
+        "환율",
+        "현대차"
+      ]
+    },
+    {
+      "title": "성 김 현대차그룹 사장, '베트남 혈맹' 탄콩그룹 회장 만나 생태계·전동화 전략 논의",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9xc2Qwc2p2aXZmWGVVZ3hIUE54akE2M1Awc2p1c1JnNW1TcV95X1c2MnF0ZEltUnVycDNHNlY2MWlKLU93LU9GbGRnRUl5clBpX3VPTlgweEIzYktqQjF1R2dxNA?oc=5",
+      "pubDate": "Fri, 24 Apr 2026 00:04:08 GMT",
+      "source": "더구루",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "한솔테크닉스, 반도체 중심 체질개선…수익성 제고 '기대'",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5GNFN3Zm9yT0FOYjhqMlJRSFprcl9IZWRFd2RYZURSVWZOUTJsQVpZUnB0NkxwbXBvUTg2WFQ4WEtUVWxmeUVrNVpBV2tnVDA?oc=5",
+      "pubDate": "Fri, 24 Apr 2026 00:01:01 GMT",
+      "source": "딜사이트",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "교보證 “현대차, 1분기 실적 둔화로 목표가 하향…하반기 피지컬 AI 모멘텀 기대\" - 조선비즈",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOUmUzdmwzRlhHLXFjNTRZMTlYRlpxSExfOG4wclF4WnBMdWx6aDVJYUFRMXZZYzZfZmxva056Mm4zUm5BQXh3UHMwNDJLSlhHWUpGZ1JnYmhMWEdGYTRPalV4eUUtUExGdzlEaHJMY255b2xtalRfOFNMMEgwMmt5TThqRzEybmhG0gGcAUFVX3lxTFA0N2xjS0o1cUdjM0doMktKTW1FZ3AyMC00blN0bzFOVVY5NFpmTDgwNWY0OWVUcTdCTVBpZ1drc2MyYnJOSEZIMmlqMjFMbWZZRmJsRzVZcm80VVFXY2M2aUhQYWU5YllZTjYyc3ZBcmdCbXJ6Y0RMcmN3NWJuWm5VWm1GUlJieTF4TVh3OHR2bjNRU21yTXRyVDRNNA?oc=5",
+      "pubDate": "Thu, 23 Apr 2026 23:58:00 GMT",
+      "source": "Chosunbiz",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "현대차그룹, 베트남 자동차 기술 인력 양성 나선다",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0wMUdodmd5WlV5bTlIUkNYRXhYU2ZyRkFYT2pLbmgtcTNFRW02dUhwRi03SDFHN0N1ZWZ1YkhUNlBMbjVNZi1Cb3RkVjNzb2w5aFk0by1tY2tvSVh4S1cwbdIBeEFVX3lxTE5QU2tfd0YzVUpJejNOQnp3cjNaOFctUWtXdVl3M21hT1dEV1lYSGFOcHNpalZFRlRPa0ZyQnNsSGdpLUowYUdzeWRaQ3ZnTkRReXdkamZpcGhLandVVWw1OXpsOTdzWWJCeWhlRGdJOFRnaFZKVEZKUQ?oc=5",
+      "pubDate": "Thu, 23 Apr 2026 23:55:12 GMT",
+      "source": "뉴시스",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
