@@ -1,24 +1,63 @@
 {
-  "timestamp": "2026-04-24T10:17:04.492812",
+  "timestamp": "2026-04-24T10:45:16.767914",
   "count": 10,
   "articles": [
     {
-      "title": "현대차그룹, 베트남서 '미래차 인재' 직접 키운다",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBkN0IxUjc0aExLOVNYWGkxbWd2YmdIV3c4XzctSU9RYjV1NTBHbUxycXNKaWdwczZPNnR4VTFxZVRaSVBsQkJfQlhheGUyWGE0SFFKTERfbVQtS29yd1pwVHdYTjV6clhUUVBNZ2JxQWk?oc=5",
-      "pubDate": "Fri, 24 Apr 2026 01:13:16 GMT",
-      "source": "오피니언뉴스",
+      "title": "주가 폭락한 사츠마 주주들 폭발…\"시총이 보유 비트코인보다 낮아, 다 팔아라\"",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5YUEJELUVHNXlyWEp1U0w2eDIxbGNEVF9UU2NhVFdZZnFCTEVsM09QM19MZEZVdHBpZGpNMUVOUGRyT1g0aGZlRGo4WHdqRHV3bGJBNTZaU1ltaTR5cEhOSEM2UDlrMV9aQXhRNzlxQVltQ1k?oc=5",
+      "pubDate": "Fri, 24 Apr 2026 01:31:00 GMT",
+      "source": "디지털투데이",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "\"기관 돌아왔다\" 비트코인 현물 ETF, 측정 전 구간 '순유입' 전환…IBIT 상위 1%",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5JcDlvaFRCRDFITHVZSGFQUk04aW5waWVSbGM1Z3dhalZSYmlpZjlWYkNSWTZjVllnUGRkQVNLeUJPNTZSeC0xZDE4RjBMTEtLR3ZqbV9QeFZleWp5OHhENTExS0RkTjItVHhlVDFucXdyOEE?oc=5",
+      "pubDate": "Fri, 24 Apr 2026 01:30:00 GMT",
+      "source": "디지털투데이",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "[장중시황] 코스피 0.23% 하락한 6460선 '후퇴'...삼성전자·SK하이닉스 '약세'",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNVl9keGlpSWY1T3JFMWMxNVBZeThhRFNsOXBpUlo4eEZLRDl1ejViaTBtMzRtd25xQWJJQXdwcF9jM01DMEdmSGdpNkhpNVVwZGdqOG05MkVneVhzY0cyUy05bWt1VGl0VUVGYWZQR0tmQkkteVFyeTh4MWU5bV9yQXVfNURTeUE?oc=5",
+      "pubDate": "Fri, 24 Apr 2026 01:29:49 GMT",
+      "source": "글로벌이코노믹",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
-        "현대차"
+        "삼성전자"
       ]
     },
     {
-      "title": "반도체 미세 발열 잡는 열영상 현미경 기술, 에이치비솔루션에 이전",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0xWGdoeHV0V0JvbDBsZVFQYWhCRUhXUlVXOEJNaWFCWklBZnp1ZG5CNXUyRnR5WXQ0Z0RBZUpiT1BScTNtZ2tDTjV6b1pyckk?oc=5",
-      "pubDate": "Fri, 24 Apr 2026 01:11:07 GMT",
+      "title": "비트코인, 한달 새 10% 올랐지만…랠리 위험 신호 3가지",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1ZOWZmREZjNEdIQ3JLYVhaUzFxQ256NzVQNG80cWJGYzQ5bVF0MWpkVDBRald5Rm5vWGtlOW1lRzBleGZKTUlKbnM1MUxmVmxOSEZOSFgwQUdWNUViUFRYcmRVYW05cnZCVURZX1FZVVpEWFU?oc=5",
+      "pubDate": "Fri, 24 Apr 2026 01:29:00 GMT",
+      "source": "디지털투데이",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "93.1%의 경고음…삼성전자 파업이 던진 '성과급 15%'의 무게",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9jUDZDQUxtbjVoUGxlT3JYcEpTbmFwTFJGRUU2ZnA0b0Naa3VLY3hpN0lvMUlYQ3loYzJ2WVBIZUlNeXlfUTFUeFJPNGQ5ejg?oc=5",
+      "pubDate": "Fri, 24 Apr 2026 01:28:12 GMT",
       "source": "v.daum.net",
       "category": {
         "label": "📋 GENERAL",
@@ -29,36 +68,10 @@
       ]
     },
     {
-      "title": "“비트코인 1년 이내 2억원 돌파한다” - 조선비즈",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPb093ei1mdF9EWmliS1dCUmFOdWVINHRBTkN4XzNUTnc0dUdZUzM4Rm5vRERfei0xSW5nNFdKWnVSczAzWjlSRlRFR1UteFBsdkwtZ292b2RmTC0yZWtaUUs5RklGN1d2VFpLNDhyQUtCMUVnNmh0QkFxYmdCdjY2ZNIBlAFBVV95cUxOUm5BVGRITnR5Nl9hLXlRWmtNY2IwaXUzUGhkUEdqekt2VXhXeV9iN3NjMWZZWTdZTHh3XzBmeVJEaXdCbDZmTWZ2cnBKVzdyTWZRWjl0TURMeE5wb2gtbHU2WW9SY29XZk5TcmVLR2hPZU1ZcFFFclQxTy1wQWlIVkJ5Z0d6OFhUT0k2NnQxUWZkdnpF?oc=5",
-      "pubDate": "Fri, 24 Apr 2026 01:05:27 GMT",
-      "source": "Chosunbiz",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "메릴린치, 한미반도체 고객사 다변화 긍정적…목표가 42만원 제시",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5GUm5leGFMOUxFbUx0VFNDZkQxLXJyUDNyYVQzRDZQRGdiWDctWXZCMUY1UEZXUVhtTkpxT1pPaGxLM0paMTRRbmFaRFVZSl8xbUZ5WEptcEd1OGROOXBOa0V3?oc=5",
-      "pubDate": "Fri, 24 Apr 2026 01:04:00 GMT",
-      "source": "아시아경제",
-      "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자 노조 4만 결집…5월 총파업 땐 생산 차질 우려",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1va3VaT0FUV1NERWVqeDVhZ0FMNVFNUkF4M0NpNzBOTUs5amxTYzFvcTlHX3F6c252ZVhYYTJuSUpDcnV6ZjEzYmlCU2tVTE1yejh1ZHJIZVJOb2VsUExRVVlNeUlob2ZFQVd3SA?oc=5",
-      "pubDate": "Fri, 24 Apr 2026 01:03:43 GMT",
-      "source": "mstoday.co.kr",
+      "title": "삼성 노조위원장 \"우리가 성과급 욕심? 이공계 인재 모시려면!\"",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5aYW1OZjhIWXpEQ2ZqSVlwZ0R0R0NtSnlibjV0ZjBoVng0ZzZQUmtnU09DLXdOMlpINFRKM3hrTUVOejlGYlU0VERoSUVWSjQ?oc=5",
+      "pubDate": "Fri, 24 Apr 2026 01:27:00 GMT",
+      "source": "v.daum.net",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -68,70 +81,55 @@
       ]
     },
     {
-      "title": "KBSI, '열영상 현미경' 기술 이전…반도체 결함 정밀 분석",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5rb3djdkNrYUhJaE9aZWJzNWxDVmcyM2Iwc1NQZC15b0R1T2ZkUFR1OWRaV3IwbVgzZTZwN1NJb2doYjc5cXNYYllqaDZ5UUdFYVcxZXUyNzVRa2M?oc=5",
-      "pubDate": "Fri, 24 Apr 2026 01:03:40 GMT",
-      "source": "티제이비",
+      "title": "반도체 지수, 최장 기간 상승세…\"AI 주도 사이클 지속\"",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE40RmRDMXczMGFhbmNhVmhRVHhNRk9HbFRCQnlTbVlqaC1xa2I5bjVjN2ZUc2xOUnZjSXAybmM0Z20xeTNGLVpqekxvRF9rczZXcmlNc3hyU3NKeVBLSHlvczV1aDJkcmJfb050cWZQYXA?oc=5",
+      "pubDate": "Fri, 24 Apr 2026 01:26:50 GMT",
+      "source": "연합인포맥스",
       "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
       },
       "impacts": [
         "삼성전자"
       ]
     },
     {
-      "title": "코스피, 중동 긴장에 장중 6460선 등락···반도체 '기세' VS 고점 '부담'",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5YQTlQZ29EUl8zU1JmR2RrNldjZ05YbENmbERSYnJlTW81eFVzYWdtNWdoNXhhNHFRQ3BQd3NvTVlIQldRenJzakZ1NThqUUtiZkkzZEVlSEV5bWVodzhBNmx5RURRQ2lSRUE?oc=5",
-      "pubDate": "Fri, 24 Apr 2026 01:03:01 GMT",
-      "source": "서울파이낸스",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자",
-        "원유"
-      ]
-    },
-    {
-      "title": "DN솔루션즈, 중국 공작기계 전시회 ‘CCMT 2026′서 전기차·반도체·항공 산업용 솔루션 선봬 - 조선비즈",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNWE1EYi1pdnJXWlE5bWk5V0loT1h3OXlQaFI2TUxNaHBuX01MMTdINzhGQU00eEhheGl3QVZ0OXFEaEZobFNUam5UWm5SeE13Wk1lbWpJdzB6cWZYS2g1WHN2TTEzMGRsYVBoVUFTY09idzRrcmpQR0dJMXZwLVJfZXgxOFjSAZgBQVVfeXFMUGNGZWt4dzRQZzlzbHJZc2gwVjhjQVRSdzI2TTZCVUkyYUNCU1k3VG0xaGhva3d3MGEwYzktRUhCNXdyM09HbDlRU1JuclFwQ3E1aW9QZUhwTHl1QXlpMEhOVkkyckdKVFVJOVBNUDQwSFJFUzM5VE5XYi1oMXFnajZfMFYzN1lzQmV2Q2ZrWUd5RFJlMW5xSzY?oc=5",
-      "pubDate": "Fri, 24 Apr 2026 00:58:09 GMT",
-      "source": "Chosunbiz",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자",
-        "테슬라"
-      ]
-    },
-    {
-      "title": "삼성전자 파업 SK하이닉스에 '반사이익' 가능성, \"반도체 생산 정상화에 2~3주 필요\"",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB6RnIyMjdsTFpOU3NwYXFGVkxFeWtfdExGVTM5Q0pMMHZ5UlBxNk9DZGVOdHdOMmZZTlhuSVpZT2REZ3JTalU4NVFRdGRvQ01DQkpQZ0o4eW9RdzJ3WG5mSGQ3aW9pLUYxTzFoTkxyckZQVzg?oc=5",
-      "pubDate": "Fri, 24 Apr 2026 00:54:57 GMT",
-      "source": "비즈니스포스트",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "코이카-현대차, 베트남 자동차 인재 키운다",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5iSkwxSlhndTUyeWpBb2xMdmJGSnlzUktKc0lhUGJkRGl2Y3MyRmgtWW94Skl5clNfYjJpY1pQcmI3NlE1QVNQT2YyYURvZWRnNkVoaFV3ZExQcnlDbGR1UUkzYTBYbUMtN0FUZQ?oc=5",
-      "pubDate": "Fri, 24 Apr 2026 00:50:03 GMT",
-      "source": "재외동포신문",
+      "title": "원주시, '현대차·NHN 컴소시엄' 손 잡고 AI 특화도시 도전",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1lQng2dTFJU3hlSHZVUHA0NmdlbVlzM2wtSS1sNXlMb3dmZks5TUpZVmFhUVplVHoySjhQOWowaS1CS20wNy1vRlZKU0NCRDRKT0luag?oc=5",
+      "pubDate": "Fri, 24 Apr 2026 01:26:35 GMT",
+      "source": "뉴스1",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
         "현대차"
+      ]
+    },
+    {
+      "title": "K반도체 '투톱' 1Q 합산 영업익 90조 육박…'年 500조 시대' 여나",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9NVG1OWHJFc2ZsQmJSVjEzYW94RGxJWnhHckRyT2M5VV9Ma2xrUjd2YmpQWVZIZURCZFhuV3Q1NlgxV3lqZlFxcHliMTl3b1FaX3FlMVRoMnpRSnpPSFlrV9IBeEFVX3lxTE04NHNyUjBDdWQydl9sa0l3Qk4wYm8xVVN6QWdWZEpFTWNCa2NsOWJJU2NyZkhwZnBxdDk2QkZpNlBZVFU2YnJWc2RodWcwRG5jVmxCMXRYQ1hBaHVKSXlPR0xjMFB4MXY2SVlLd0tpLVFGVWF2OHpxNw?oc=5",
+      "pubDate": "Fri, 24 Apr 2026 01:24:19 GMT",
+      "source": "뉴시스",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전자, '갤S26 구매혜택 제공' 패밀리 페스타 진행",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9Ocmdwbjl0RjJOTHA2NnBZNmRTYmM4WW5aOEc1dnRFekd3U0FoR0ZXdXBEYnJYLXZVTjFtcXJPSmpRY09Pa1NiQU1KYmdKZmNWQlZjcTBR?oc=5",
+      "pubDate": "Fri, 24 Apr 2026 01:23:24 GMT",
+      "source": "지디넷코리아",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
       ]
     }
   ]
