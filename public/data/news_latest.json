@@ -1,7 +1,60 @@
 {
-  "timestamp": "2026-04-27T00:50:23.668889",
+  "timestamp": "2026-04-27T02:20:37.672911",
   "count": 10,
   "articles": [
+    {
+      "title": "'이젠 코인 오르겠네' 3조6000억 몰리더니…'파격 전망'",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9MdE1IbU1CSmg2bW9MNm5CRmRfSDF2TllBMU01anBYVjdJZ2w3TkJkRC1uX3JaajZKTTVDS1g4MzJMQ2pocEhtdkJTaWYzRDZ5aW53dTJTV1lxd9IBVEFVX3lxTE9aRmhaUktMMlktc3dFV09neDdMVVJ2Yk5CSkhaZTR2VlpIcTZRVmVlN285UEZxcFpvbk9FbUlmcGxwTDg3NUczU3FtVHd3YWJlQWRUSw?oc=5",
+      "pubDate": "Sun, 26 Apr 2026 16:13:00 GMT",
+      "source": "한국경제",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "현대차-차량 상태 관리·원격 제어 등 '커넥티드 서비스' 고도화 / 기아-전기차 구매부터 보유·교체 등 全과정 고객 부담 낮춰",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPYmQ3UkNrTTRGdDloLWFNazNycFZvSU5kWVl2T0JmbFpfLURtbHQyRFotWXh6b2J2WDhIcFQ1bE9RSXMtRENTRWNRdllWaW15MjRHWU9LMkFzaHpTaU1sT1dydzI5NGl4WUNjZ2lsTnRNVldNaUdoVkloZDBPUWwtRDhUNkdmZmxYa2FXNk9B?oc=5",
+      "pubDate": "Sun, 26 Apr 2026 15:59:05 GMT",
+      "source": "조선일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차",
+        "테슬라"
+      ]
+    },
+    {
+      "title": "미래반도체 투자분석 2026. 04. 26",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9uWHlBRVY0SDNVbFhXX1JJUHF2VVNrMUhqdWtVRWFFMnZGbkx1cFNkRDlyYmVzSURjT3hFNk9yMTV6T2pyZFZVREY3a2dIVXNUZDNrUlJNaFkzOEtzY0gyM0N4eG9IX2Y0UDMwVWMyZ19XX28?oc=5",
+      "pubDate": "Sun, 26 Apr 2026 15:53:22 GMT",
+      "source": "주달",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "아이티엠반도체 투자분석 2026. 04. 26",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4yT3Q1eU9rdVV6SjlSR2I3MVRZYmhuRVlfck9pdEVXZnZNNThLMjdETWxlb1MzUkREd0JRRDgtZVFwRDU1cEtMSVJTamYzM2JNdmZGdjI5M3JaZkgzRVV3WEUwcjVVS3h3SHlQSTR4eFZUd3M?oc=5",
+      "pubDate": "Sun, 26 Apr 2026 15:53:19 GMT",
+      "source": "주달",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
     {
       "title": "현대차-고객 선호 사양 기본화 / 기아-베스트 셀렉션, 가격 부담 낮춰",
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNY3M1bWZheWZqYUF6TjFQNVBGRFQ4dzJ6bERKT2lEVmhDRWx5Y3FfN1laNk9XOEJSMGpIUTdQZkQ4WkQ5OWl0cGlQdlgzNlZWYkVILW9pN0NxZVJHd1JvZm1iSHhmVDdCYnNzQ3BraXpnUHFsbTkyR0ZkLWJvYXl5VlhSelZpT05RMUxXVnZwVQ?oc=5",
@@ -25,8 +78,8 @@
         "color": "#8b9dc3"
       },
       "impacts": [
-        "리츠",
-        "삼성전자"
+        "삼성전자",
+        "리츠"
       ]
     },
     {
@@ -80,59 +133,6 @@
       },
       "impacts": [
         "현대차"
-      ]
-    },
-    {
-      "title": "[사설] 삼성·SK하이닉스에만 있는 세계 유일의 ‘반도체 노조’",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQdlJGNUwtN1JRT1JjdmF2WEF4eUFydE02dEpvNlJxNjRrQ283Q0liRFpBMWFKYzhyUFhzZzA0Si04ZUZYWGRsTmNxbUpWdHF1RGM5b1FzQWJvR084MU9tbm4zZmZZMEQtN2k5UDBRbGpuYWo3NkUzVm82X1VKZkEwRzN5a0E0dw?oc=5",
-      "pubDate": "Sun, 26 Apr 2026 15:20:00 GMT",
-      "source": "조선일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자 히트펌프·에어컨, 유럽 소비자 만족도 1위",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE14SExMendocndrNGl0RUtLRzVPV3d2djIwTkNpMk1pYUl5LUstXzluaXl0V1ZfaW9qWWg1VTl2cF9sY2dpVGQyYVN6M2NUVXVnTEwxblU4Nm1NeVZCMkFMTzJtQzFrYVNhSWpmaVpZYkVEdms5QklZMnZzSQ?oc=5",
-      "pubDate": "Sun, 26 Apr 2026 15:17:56 GMT",
-      "source": "서울신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "현대차, ‘소형 해치백’ 아이오닉3 공개",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5zZXB1MGZsa0M2UEJ5dTd6NWQ4M1lNSFNrLWFodWNUMGY2Y3J2VEs5aVY4UkpiNDVRRldzU3F3MXhOaXJIUUNQMEtkcUllZjA?oc=5",
-      "pubDate": "Sun, 26 Apr 2026 15:13:05 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "반도체 호황의 역설…뛰는 성장률, 금리 인상 압력 키운다",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBnUnMzR2FZVWNCNlF3dUVZelJUMWVnZTlBcXVLUFR2bWxJc3FHU21xOHRBbXRsU2p0azEyaURObnRBT3BETEZaWm40LTg0TFZNa1MzcjF3?oc=5",
-      "pubDate": "Sun, 26 Apr 2026 15:03:00 GMT",
-      "source": "중앙일보",
-      "category": {
-        "label": "🟢 POSITIVE",
-        "color": "#4ecdc4"
-      },
-      "impacts": [
-        "채권",
-        "삼성전자"
       ]
     }
   ]

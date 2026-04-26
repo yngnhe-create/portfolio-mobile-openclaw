@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-27T00:50:20.109615",
+  "timestamp": "2026-04-27T02:20:33.869819",
   "count": 40,
   "stocks": {
     "삼성전자": {
@@ -158,16 +158,16 @@
     },
     "INTC": {
       "name": "INTC",
-      "price": 82.54,
-      "pct": 23.6,
-      "chg": 15.76,
+      "price": 82.57,
+      "pct": 23.7,
+      "chg": 15.82,
       "src": "yahoo"
     },
     "NVDA": {
       "name": "NVDA",
-      "price": 208.27,
-      "pct": 4.32,
-      "chg": 8.63,
+      "price": 208.26,
+      "pct": 4.31,
+      "chg": 8.61,
       "src": "yahoo"
     },
     "TSLA": {
@@ -181,7 +181,7 @@
       "name": "AMD",
       "price": 347.81,
       "pct": 13.91,
-      "chg": 42.48,
+      "chg": 42.47,
       "src": "yahoo"
     },
     "AMZN": {
@@ -200,9 +200,9 @@
     },
     "MSFT": {
       "name": "MSFT",
-      "price": 424.62,
-      "pct": 2.13,
-      "chg": 8.87,
+      "price": 424.6,
+      "pct": 2.12,
+      "chg": 8.83,
       "src": "yahoo"
     },
     "GOOGL": {
@@ -256,22 +256,22 @@
     },
     "BTC/KRW": {
       "name": "BTC/KRW",
-      "price": 115241358,
-      "pct": 0.79,
+      "price": 115224437,
+      "pct": 0.84,
       "chg": 0,
       "src": "coingecko"
     },
     "ETH/KRW": {
       "name": "ETH/KRW",
-      "price": 3463639,
-      "pct": 1.59,
+      "price": 3465036,
+      "pct": 1.57,
       "chg": 0,
       "src": "coingecko"
     },
     "SOL/KRW": {
       "name": "SOL/KRW",
-      "price": 127722,
-      "pct": 0.22,
+      "price": 127699,
+      "pct": 0.79,
       "chg": 0,
       "src": "coingecko"
     },
