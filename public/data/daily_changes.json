@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-27T02:20:33.869819",
+  "timestamp": "2026-04-27T02:50:47.706327",
   "count": 40,
   "stocks": {
     "삼성전자": {
@@ -179,9 +179,9 @@
     },
     "AMD": {
       "name": "AMD",
-      "price": 347.81,
+      "price": 347.8,
       "pct": 13.91,
-      "chg": 42.47,
+      "chg": 42.46,
       "src": "yahoo"
     },
     "AMZN": {
@@ -256,22 +256,22 @@
     },
     "BTC/KRW": {
       "name": "BTC/KRW",
-      "price": 115224437,
-      "pct": 0.84,
+      "price": 115236258,
+      "pct": 1.01,
       "chg": 0,
       "src": "coingecko"
     },
     "ETH/KRW": {
       "name": "ETH/KRW",
-      "price": 3465036,
-      "pct": 1.57,
+      "price": 3468135,
+      "pct": 1.67,
       "chg": 0,
       "src": "coingecko"
     },
     "SOL/KRW": {
       "name": "SOL/KRW",
-      "price": 127699,
-      "pct": 0.79,
+      "price": 127730,
+      "pct": 0.91,
       "chg": 0,
       "src": "coingecko"
     },

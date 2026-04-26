@@ -1,7 +1,20 @@
 {
-  "timestamp": "2026-04-27T02:20:37.672911",
+  "timestamp": "2026-04-27T02:50:51.380602",
   "count": 10,
   "articles": [
+    {
+      "title": "비트코인 시장 변수로 트럼프 메시지 부상",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1fZjBCVHQ4QkZNeVVTbHZGVG0yVnZ5aVJkbVRDNGVWblBxeUhHQzNHWXlqTmxoTFpkMHNIclZtY2ViM1pYU09XRkowMzVvZ2RiVUdmZjdsT3Vsb1htSjRYWEhZNThkcDVoMUFUZA?oc=5",
+      "pubDate": "Sun, 26 Apr 2026 17:34:25 GMT",
+      "source": "경향게임스",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
     {
       "title": "'이젠 코인 오르겠네' 3조6000억 몰리더니…'파격 전망'",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9MdE1IbU1CSmg2bW9MNm5CRmRfSDF2TllBMU01anBYVjdJZ2w3TkJkRC1uX3JaajZKTTVDS1g4MzJMQ2pocEhtdkJTaWYzRDZ5aW53dTJTV1lxd9IBVEFVX3lxTE9aRmhaUktMMlktc3dFV09neDdMVVJ2Yk5CSkhaZTR2VlpIcTZRVmVlN285UEZxcFpvbk9FbUlmcGxwTDg3NUczU3FtVHd3YWJlQWRUSw?oc=5",
@@ -120,19 +133,6 @@
       "impacts": [
         "삼성전자",
         "테슬라"
-      ]
-    },
-    {
-      "title": "中 기술 녹인 현대차 ‘아이오닉 V’… 만리장성 넘을까",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBtSjBEbDRRbFpWSXBneUZ6QWI3NEZWcnFnME5JcTc3RE1iZExoUllyWWFFVHJyV00zakpLTm5WQ2QyUkhUTnRjQ2Z6UDFydVE?oc=5",
-      "pubDate": "Sun, 26 Apr 2026 15:21:03 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
       ]
     }
   ]
