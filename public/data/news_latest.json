@@ -1,62 +1,12 @@
 {
-  "timestamp": "2026-04-28T04:56:37.851099",
+  "timestamp": "2026-04-28T06:26:51.654609",
   "count": 10,
   "articles": [
     {
-      "title": "마라홀딩스, 'MARA 재단' 설립…양자컴퓨팅 대응 등 지원",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9IWXk4T0ZxZ1RVakZrSWhuREd4WmdFeHNsM191cktRLW5JUVJodWh0V29JM2t3VXp3eXR1TnF2bVl2N3Q0VGRSVkJZMVpuQTcy?oc=5",
-      "pubDate": "Mon, 27 Apr 2026 19:42:50 GMT",
-      "source": "블루밍비트",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": []
-    },
-    {
-      "title": "\"AI 패권 전쟁\" 미중 자본 통제… 한국 반도체·배터리 '공급망 비상'",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNZEJoQmNZWHU3dVJwSFBuT091bmtoT25pZnJFLWc5b19QZFZhZXIzelhTR0Q5bHExcjRaZHpwek9qd3dnRkEzclRWdE54NTF5M1M5OU9VNXFGOE9XWTd0eThmVk9USFcyNWh2MF9HWDl1RkNXOVBWY05XdTZxOUZGRng1U0ZpTWxM?oc=5",
-      "pubDate": "Mon, 27 Apr 2026 19:35:00 GMT",
-      "source": "글로벌이코노믹",
-      "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "경기도 ‘반도체 올케어 전담조직(All-Care TF)’ 반도체 현안 해결책 찾는 협력적 거버넌스로 역할 확대",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9vMUVJaTZSSE54cmNlMzlUcXdXeXlhUWItYTJoMW15TWVBRGFMZjYwS1VYVklSVlllTXZMTURTUk9UMDZaamxiZ01QRThUU1RkVVU3THVHNk1TNEZ5bGc?oc=5",
-      "pubDate": "Mon, 27 Apr 2026 18:17:41 GMT",
-      "source": "한국방송뉴스",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[사설] 추미애, 반도체 이전 의심에 정면 돌파 나섰다",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBtOEZ4dmI1SVVSX1BMaUZ4WUdBV3lGbmstWkl0U0lDR3pYeGNLM1hycFUySW90MDFYSEx0ZzVKZUh2SHl4anFYRjlkbTBuVFU?oc=5",
-      "pubDate": "Mon, 27 Apr 2026 18:05:30 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "블랙록 비트코인 ETF 연계 옵션 거래량, '데리비트' 추월",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE81YmZzeUMwa3gwQ3ZYN09sNUtySHdQSVVuckw2Z0RjOXNLZDlMMTBIa2luT3BMQ09XdjVKN2pVLWdpRlhCNjlJeXdXQW9lck5NSUtqT2FFWEttN0V6eGNPZzVvZzR2eHdReUwzNw?oc=5",
-      "pubDate": "Mon, 27 Apr 2026 17:40:00 GMT",
-      "source": "경향게임스",
+      "title": "[비트코인 지금]\"2029년 가상자산 무너진다\"는데…진짜일까",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9NMzFYeDVqanVZdVFIN0pFUFJqYXB1M09WZEtabGY0MUFuRjcxY0hoSU5SZ2NMYTRUVjVfV1BoVzAzT2VKdHgzUWxjS2JtZVNmdWY4c1IxbXA0NjJjRjlnWFNB?oc=5",
+      "pubDate": "Mon, 27 Apr 2026 21:21:00 GMT",
+      "source": "아시아경제",
       "category": {
         "label": "🟣 CRYPTO",
         "color": "#a55eea"
@@ -66,69 +16,121 @@
       ]
     },
     {
-      "title": "김정관 \"삼성전자 이익, 노사만의 몫인가… 미래 경쟁력과 조화 필요\"",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNNHlSdDB3a3p2ZXFEQndNajZqMFNKSmt2Z29fT2dQelFzYWRGYUxXYmNmUVNqbmNYT013QlgtdnJia1hQM2lxYmZaWjUta19jdUlvREdzbndYUWlfTV9UYm1Bd29VQlF6azlMOVJsNFAwM0dtMklidUMxdXpETGRmNjV0Zjh6emZRWWJOSnJtcw?oc=5",
-      "pubDate": "Mon, 27 Apr 2026 15:56:00 GMT",
-      "source": "조선일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "김정관 “삼성전자 이익, 노사만의 몫 아냐”",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE94T01WMmtEV3E4bGtVbERBbGVLZW5RdlVKV1pOdEQ0dG5JYy1HMHpXM2p5WkFKQnhuM2xkZ2FwV2dFaXZEd1dfUkx0OElJQW8?oc=5",
-      "pubDate": "Mon, 27 Apr 2026 15:41:02 GMT",
+      "title": "비트코인, 한달새 18% 반등…ETF 자금 유입에 8만달러 '눈앞'",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1tZmtWZHlBX1REQWpvWFExdk5vT05YOHl5bkJDTWNqelFsRmNrcTgyMmJGLVMwTS00TjFIb2VtMFFnRWdvS3A4dzZvSXNsa3c?oc=5",
+      "pubDate": "Mon, 27 Apr 2026 21:10:07 GMT",
       "source": "v.daum.net",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "경기도, 전력·인허가 묶은 반도체 TF 가동",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1ZdDlWaE9zNmtfTFpBM3pyYzJNVnN5WXdwd21iVTh5WTdFM1VMbEVlZjdFQVVZMVoxNmVMT1RkLTJfNU5Hbk1LRHJRaktCalFFYjIwV0gzTWsweHgxa3JScm15M0hPUF9XVGR5T3NvQkpNODQ?oc=5",
-      "pubDate": "Mon, 27 Apr 2026 15:39:32 GMT",
-      "source": "오늘경제",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "동학 개미의 스승 \"반도체 다음 주도주는 건설·조선·자동차\"",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOQWx4ZWlGeld2MXg3Zi0xX09lUU9Ldm5HZGRfVzQwZ1pGV3ZiYnNZdE40UU9iNVV3WjREQnhXcktEZXBjZXozZnBWM2t4TDVwSE5wcTNxWHZMeGdtZ0JJUWZrbWI3R0E0QWxiU2F6SjI0TnBJbGF3QXdKblc2ZlJUNg?oc=5",
-      "pubDate": "Mon, 27 Apr 2026 15:37:00 GMT",
-      "source": "조선일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자",
-        "리츠"
-      ]
-    },
-    {
-      "title": "종전 기대감·기관 매수세… 반등하는 비트코인",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNODVyYlVLQnQwbFVlT2VHQTk0TE5vbUU4WmN2UlpNMHRnY0YtWElVVFhZLXBEWDZ0T0Q4UTdrdjNkQV8tVDZnLWwyTUhBemN1YlJnZUpSeVVkS1pqRDNHZXBIZnZWNGUwS3phSFE1VWdDSUtTWjhQVS1tRnBhdzJtYQ?oc=5",
-      "pubDate": "Mon, 27 Apr 2026 15:36:00 GMT",
-      "source": "조선일보",
       "category": {
         "label": "🟣 CRYPTO",
         "color": "#a55eea"
       },
       "impacts": [
+        "환율",
         "BTC"
+      ]
+    },
+    {
+      "title": "\"현대차, 하반기 펼쳐질 미래사업 스토리 주목…목표가 유지\"[클릭 e종목]",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE54UlF2TXpJaWNRTi1NQ2FXcTljQmlUREY4NTQ1bjdKbjAzR2gwVVFnLW83TVo1cWZCX0FXUmswSnFtZXhnV0VPNnJYemVpNVJRQ1VmWjVWWmtDdWtJd3pORUZR?oc=5",
+      "pubDate": "Mon, 27 Apr 2026 21:07:00 GMT",
+      "source": "아시아경제",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "비메모리 부진·노조리스크…삼성전자 컨콜, 관전 포인트는",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBsZEJISjR4NkhPT1VnZExGbFVEa0NZU21UR28tSjNqcEt2alFzWURHbUgtd1VBczJFWXVFdnpfU1ZSN1BKcEpiNlZVc2Y2RzRiOGpDWDc4MnZOcnZLLXFqTERaZw?oc=5",
+      "pubDate": "Mon, 27 Apr 2026 21:00:08 GMT",
+      "source": "쿠키뉴스",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "\"96층 사람 있어요\" 삼성전자 '그때'…요즘 '30만전자' 보고서 믿어도 될까",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE04RU9mdmFVVThHNE50d0NDdV92c0dXb19CMExTSXVsQ1RXdEgzMEVBS1pfVXBZZzBlcGx1OUZmNS1UQWNOWjlFZDU2cDRKWHZ2b3lfd0VOVWVpSDRYal9V?oc=5",
+      "pubDate": "Mon, 27 Apr 2026 21:00:00 GMT",
+      "source": "뉴스1",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "\"옆집은 130만인데 우리집은 왜\"…반도체 불장에 삼성전자 개미 '속앓이'",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBKVVBncGstSlBvYlBkZjlPallnUWhJR0hFUjRQYkN1YlZmTWpuSUl2MzhOWVAyTEwzMXplcTF3RmthOVZBOVcxMFN5V2dGY3ZwQVVwbG9rcTh6ZzI3Vnp1Z9IBeEFVX3lxTE5vVzlIVi1MRGZRT3kyZVFsWHZoTVFGc29Lc2ZQMk5Sb0IzRjlZN21faVR0QXRJX3BBTHNqWFNaUzM0dkxYRzJRSWV0RUpIQno5VF84U1dqR2JBaEZ0ekltdlM4ZVZpU0JibmhWdjJWQVRzMFBKYXJrdw?oc=5",
+      "pubDate": "Mon, 27 Apr 2026 21:00:00 GMT",
+      "source": "뉴시스",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "‘스마트폰 D램’도 빨아들이는 AI… HBM 이은 삼성전자·SK하이닉스 효자 상품 ‘소캠2’",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOOGxuUkZCMFNXVHNtRDFZU2ZkVVQ5NjJDYkNnZGdxczRTSHBzd2NEUHBEZFFQOGZhZGJ2UWh4WXdyUF9SR3RtQ0ZXS3B2YzBxMnd3dks3aXhMTnZRck5QT1ZvZ190dFlwUXNtTDhYay16am5GRUEzZ1NFMXVSVVQ4YTNB?oc=5",
+      "pubDate": "Mon, 27 Apr 2026 21:00:00 GMT",
+      "source": "Chosunbiz",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "\"삼성전자 파업시 'K반도체 신뢰'까지 타격\"…'코리아 디스카운트' 경고음",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE50eXZueE10NmZndEpjYnhKLWRxaEU1NHp5ajJqZnlhNGc0YWRXSGRKQzA4S25jUFNkemVock1JOXdUSGx5bkRPM1JFZXdjQm02T19KWTVLMjB0dWhUVmRletIBeEFVX3lxTE5nZ3RNcjZ3MWVWLS1YQVBVMmxKM2JDMEszcnh2OVM5VVlmU3JHbWlkS1lYaWdsd2stTUxZRGhlY0E1RzRaVXlaa2NUOTYwUkJmcjhZcnhZWUFmbGpyNUlWMkN4QUVUa3VFSko2TWJkVW1IUTI0eFkxQw?oc=5",
+      "pubDate": "Mon, 27 Apr 2026 21:00:00 GMT",
+      "source": "뉴시스",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "반도체 잭팟에 초과세수 '70조 원' 전망도…2차 추경론 '솔솔'",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1GYzVtYVgyYzBoRWN3Q1ZlVnJ0V3hzUkl4dXN6UFpEM0RoZThQNlVYM3NHZi00RlF1Z01tY2hNTk82eFpXZ2ZDb0NncWdzY05rc3JoTA?oc=5",
+      "pubDate": "Mon, 27 Apr 2026 21:00:00 GMT",
+      "source": "뉴스1",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "공실 지옥서 '월세 150만원' 원룸 대란…삼성도시 평택의 명암",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9YZ1dfWk1rOFVJYXhEejJXdHY5OHRxNnhiYXhmQ2QxRDFVNi1GMEdpN0c4bjRyTWhoaFpyR0pwUDFlT1BneGN0QmZuamdkallDMjc1S2dGdmpPVXV6UHZYWGlhRkJ1Z3Nkc3lFd05QV3N2alVMcTVSdjRvbzItTEHSAXNBVV95cUxNdFJYVzlxVm5TUXFpdzBjWncwZ0Z6SEhKY2JLMDJET0JTazQ0eXJzQ2stVXdhMVZ3dFFNaWZnMDNDbmcyZFE3Mkg1eERRY3kyMGtWWVhJa0M1bEE1eGtoM1JsMHdMaEFHUmZvbnE3X1VBYVQ0?oc=5",
+      "pubDate": "Mon, 27 Apr 2026 21:00:00 GMT",
+      "source": "땅집고",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
       ]
     }
   ]
