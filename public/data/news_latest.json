@@ -1,12 +1,38 @@
 {
-  "timestamp": "2026-04-28T02:56:10.257777",
+  "timestamp": "2026-04-28T04:26:24.336482",
   "count": 10,
   "articles": [
     {
-      "title": "피델리티 \"가상자산 시장 안정화…비트코인(BTC) 중심축 역할\"",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1XVmZIclBWZEtKMmJpa1dqSUdiT2hqdnhTNXpGY0dKc3lIaHJUWWEweEtRbEZNYUJvVk9jSXlCazR5S3pyeGc0TDhPRVEtb0Rp?oc=5",
-      "pubDate": "Mon, 27 Apr 2026 16:43:31 GMT",
-      "source": "블루밍비트",
+      "title": "경기도 ‘반도체 올케어 전담조직(All-Care TF)’ 반도체 현안 해결책 찾는 협력적 거버넌스로 역할 확대",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9vMUVJaTZSSE54cmNlMzlUcXdXeXlhUWItYTJoMW15TWVBRGFMZjYwS1VYVklSVlllTXZMTURTUk9UMDZaamxiZ01QRThUU1RkVVU3THVHNk1TNEZ5bGc?oc=5",
+      "pubDate": "Mon, 27 Apr 2026 18:17:41 GMT",
+      "source": "한국방송뉴스",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[사설] 추미애, 반도체 이전 의심에 정면 돌파 나섰다",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBtOEZ4dmI1SVVSX1BMaUZ4WUdBV3lGbmstWkl0U0lDR3pYeGNLM1hycFUySW90MDFYSEx0ZzVKZUh2SHl4anFYRjlkbTBuVFU?oc=5",
+      "pubDate": "Mon, 27 Apr 2026 18:05:30 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "블랙록 비트코인 ETF 연계 옵션 거래량, '데리비트' 추월",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE81YmZzeUMwa3gwQ3ZYN09sNUtySHdQSVVuckw2Z0RjOXNLZDlMMTBIa2luT3BMQ09XdjVKN2pVLWdpRlhCNjlJeXdXQW9lck5NSUtqT2FFWEttN0V6eGNPZzVvZzR2eHdReUwzNw?oc=5",
+      "pubDate": "Mon, 27 Apr 2026 17:40:00 GMT",
+      "source": "경향게임스",
       "category": {
         "label": "🟣 CRYPTO",
         "color": "#a55eea"
@@ -105,32 +131,6 @@
       },
       "impacts": [
         "현대차"
-      ]
-    },
-    {
-      "title": "피터 시프 \"비트코인(BTC), 결국 0에 수렴할 것\"",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE8za2Z2cGdYOTJER2w0QmhlcWVhREI0WGZwTnVjYUo5cVJSTEN2bFp1TlNsbnlHZnpRNG0xT0JuWUFGRl9nbWpNbmR4azJOSW5W?oc=5",
-      "pubDate": "Mon, 27 Apr 2026 15:29:34 GMT",
-      "source": "블루밍비트",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "“中, 고성능 칩 수입 급증”… K반도체, 웃지만 불안하다",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1qV0ZMRi02aDFRSF9ic2FXUVhHbnZ1RDdFems1VXJSSVcyQVhaYnp4LTN6c21jbXFWbzJrejBKX2pmYWxMLXR3eGRWRDFhOHM?oc=5",
-      "pubDate": "Mon, 27 Apr 2026 15:26:16 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
       ]
     }
   ]
