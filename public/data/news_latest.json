@@ -1,12 +1,51 @@
 {
-  "timestamp": "2026-04-27T10:52:26.751813",
+  "timestamp": "2026-04-27T11:22:40.740191",
   "count": 10,
   "articles": [
     {
-      "title": "이상일 “추미애 ‘반도체 속도’ 발언, 현실과 괴리…전력·착공 지연 해명해야”",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB4SjVKYXl0SUlKNW4yM0JiOEdKRkMxdjk2U1FHQmNhN255WDNPSWFmRDVFcVNZd3VLb2hjTE1HWnFsRWJ5TmVDMWJZT2RDZENRNlU5NU5obi1IYzNBVWJhUi05VmFzLVU?oc=5",
-      "pubDate": "Mon, 27 Apr 2026 01:48:21 GMT",
-      "source": "경인신문",
+      "title": "파두, 1분기 영업익 77억원…상장 후 첫 흑자",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5vZmp2dVUyTElIV0lZbHdpcl8tVXlVSnAweGhodVVlY1BMcjlYY2dQUnZaQlVHRXloZVR1VE92Vnl0V09TdnZBNDV0RUZFQU1NczlwZno5UkNuNkNxM0dwci1UeFk5dw?oc=5",
+      "pubDate": "Mon, 27 Apr 2026 02:19:53 GMT",
+      "source": "디일렉",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
+      },
+      "impacts": []
+    },
+    {
+      "title": "[속보] 정청래·추미애, 안성 집결…“반도체·교통으로 도약”",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1JLWZUSnN4OEhod285bXR4d3NER0pZMnlTMGU4NjV1QmFBaVVvc0tpTGwyb05HYmpkQmF6a0VZcE5aRXI3a0YwTlVZekJIUmM?oc=5",
+      "pubDate": "Mon, 27 Apr 2026 02:19:20 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "\"고유가로 무역수지 200억달러 줄 수도…반도체에 흑자는 지속\"",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8xR1R2UjAwN2FwMzBBZ0lhZzhqQU5OSVJQX0RKWmxpVVlTa25ON3ExZHpVVllQeU5tR2ZzbG9KcV9Xdm1FSzkySzNzZlRwVUx6c191TFpqVGFMRFFMSnNZTEJuS1R6SlNCVzlvdUx3?oc=5",
+      "pubDate": "Mon, 27 Apr 2026 02:17:34 GMT",
+      "source": "mstoday.co.kr",
+      "category": {
+        "label": "🔵 MACRO",
+        "color": "#0984e3"
+      },
+      "impacts": [
+        "환율",
+        "삼성전자",
+        "원유"
+      ]
+    },
+    {
+      "title": "국내 증시, 사상 첫 6000조원 고지…반도체 기대감에 고공행진",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1qYWd3S3dxVGFlQmFhamFuRkR6RDBIeDIwcEZ5TEhXbmhpaUVkUVkxLUhYVjEzWVUwYnExdU5hck1RYnd2MXMzNFlEelUzeUE?oc=5",
+      "pubDate": "Mon, 27 Apr 2026 02:05:02 GMT",
+      "source": "v.daum.net",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -16,10 +55,23 @@
       ]
     },
     {
-      "title": "현대차, 아이오닉 V로 中 전략 전환…전동화·현지화 승부수",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1KRm1DeHFPazNhckIxc2dndkFfWVZvemhwUkFqSDM2d1lYd0lEZ1J1NG9wdlZvTjRFd05UREV3WndzTGhNQ1QxNGhsaXZRWDMwbFlJWkp2dTRoTTVmdE55enh5Mnp4QXJnZEs4TWxUdw?oc=5",
-      "pubDate": "Mon, 27 Apr 2026 01:47:30 GMT",
-      "source": "위키리크스한국",
+      "title": "구글 '터보퀀트'로 메모리 의존 낮추기 멀었다, 새 AI 반도체에 HBM 용량 대폭 늘려",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1qWEhkSmdfNWlzMGtnczc4emR3UHVSeHo1anZreHBSLUxhVHdkcW80Z3UwMzFWTUd6WU5mRHBMLS1fUXIyQlk1YjlEczRnSFMtYUhYN2RWODJ4dG51Wl9pX0RxemtndTh1enUwY185MjluTms?oc=5",
+      "pubDate": "Mon, 27 Apr 2026 02:04:14 GMT",
+      "source": "비즈니스포스트",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "현대차 전주공장, 전주국제영화제에 ‘달리는 공기청정기’ 수소버스 지원",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE12bWdLQTZEWFJPT1RmeGpkdXJ6WGFDWHJ1V0FvRVJNazBhRjN0dkVrWXRPNVZWTUctR19kUmFVSy1pQ1hFZHNWbElWc0Z0OE84dkE?oc=5",
+      "pubDate": "Mon, 27 Apr 2026 02:04:00 GMT",
+      "source": "전라매일",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -29,10 +81,10 @@
       ]
     },
     {
-      "title": "“반도체·방산 ETF 골라 담는다”…미래에셋증권, 테마형 랩 출시",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA4S0JhUldJMUdaaHkwZ3l1V1FZNktTVk96OVUweDJoVF91bjlpU0Rsalg4bkdSV09BbmJSV19GemJnR2tRRGQ3d2VaMXNubmExc3hwS1lNZjdQYlhQNUdBM2dwdG8?oc=5",
-      "pubDate": "Mon, 27 Apr 2026 01:44:44 GMT",
-      "source": "디지털데일리",
+      "title": "쌓는 반도체시대…종이처럼 얇은 실리콘 앞뒤 모두 쓴다",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1IYmN4SzhYb3BwSEVUT0tUY1ZMbnVrcXdzZDZUWHdDR21PdjNTaktSc3A0eFlhU205bHdWVGJnRzFzWk9zVmxqRV9MRVFzZUFJckFGZ2dBUGpaQVZLdHBFedIBeEFVX3lxTFBpMmNKUFdmeGxXSmlkTkJRQjVFNWpzSUFXd3ZfbWF4bjN0SVJDMXROQ0Y3Z2JPTTRjNUtuNmNZdkxQZUxPczJ5dkYxck9ad215VUo2Rnc3a3ZudkxvZU44NVI5YmtHLS1MSWlYdjZBMFVvcmZSbXhoZw?oc=5",
+      "pubDate": "Mon, 27 Apr 2026 02:01:37 GMT",
+      "source": "뉴시스",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -42,10 +94,10 @@
       ]
     },
     {
-      "title": "한미반도체 곽동신 회장, 자사주 30억 취득",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9TVDVKUm96cThKWVY1RGVUQ1k2Y1FkN1U0RURzaEMtY1BHdGFkaEhjSm1oMXg2TEFrdDFFV2lMME1VOUZkOGJFcXdkY0h0ME13M3IzZ1R3?oc=5",
-      "pubDate": "Mon, 27 Apr 2026 01:42:53 GMT",
-      "source": "지디넷코리아",
+      "title": "“항공권·호텔·티켓을 한 번에”…삼성전자, ‘삼성 월렛 여행’ 출시",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5mRzhta0FVRm9KaUJzWlR2dTBON0N6a2tWQnExWEZzVHIxS0pxQzZsMThYeTNHVldnbXNMQjllMXpLSU96VWZEMnBVTHhMNFBv?oc=5",
+      "pubDate": "Mon, 27 Apr 2026 02:00:07 GMT",
+      "source": "문화일보",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -55,10 +107,10 @@
       ]
     },
     {
-      "title": "곽동신 한미반도체 회장, 자사주 30억 또 샀다…누적 '565억'",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1oLUFVdWpQeGdhQi1BWlBDMzJndFRjZWtEYVA2U1pIXzlwU2ZRQjdQUk0zajVqVFEzVWM1RjFjZzRHQWdqSGswVUxhTUNoeHRwY1ZfYWxBOVBiQWh1WHpzcmdLeGFXOHFZ0gFsQVVfeXFMT2twQ3YzRElnclZ2bnlTeTk3MElzekxrb1J5S2Y0aVgwYTBuZzZYQkNGdllUWVRwWmZHWlhlN0dCbEFqZUFsWm5yMDVRdDBXeWZzWDgxT1BnMzdfb2I0S0dtUEZYSjhLMmRiNC1E?oc=5",
-      "pubDate": "Mon, 27 Apr 2026 01:39:44 GMT",
-      "source": "블로터",
+      "title": "\"삼성전기가 반도체 ETF 수익률 갈랐다\" … 신한 'AI반도체 TOP2' 수익률 '압도적'",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBESWVhVzZkN1R0NWZoX3laY3AwQVBYejlwbF9iU0VJY3kwT0xIMmItcEVEd2ZXc2dEWHNHVjNqY3lZQ0R5ajI0bWlqVWluVWVXblR3d0RVc3ByaWpoVFUxb29fdDdXem9VbXFGWmdyN1d6YS16NFE0dWFRYw?oc=5",
+      "pubDate": "Mon, 27 Apr 2026 01:57:42 GMT",
+      "source": "뉴데일리 경제",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -68,65 +120,13 @@
       ]
     },
     {
-      "title": "\"반도체 미세 발열, 실시간으로 본다\"… DGIST 이현준 책임연구원 장관 표창",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFA1YmZmOHhScmJtMGU1WkFjS1BhNi1rRkYycEFlUVZqb1ZQSWZwWXR6TXgxek4yTVFJQVlRR0FScGhTM2NPRk1VLS1XUUllSmx5am9GQ2JyYko3VktVNlMzREJpWnpKVk9xZ3JF?oc=5",
-      "pubDate": "Mon, 27 Apr 2026 01:38:21 GMT",
-      "source": "BBS 불교방송",
+      "title": "반도체 훈풍에... '이천 중리 금성백조 예미지' 관심 ↑",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBteUZOdXlTZ25GYjhrVmpYRmRLbnBDSEtTWlNiVXZXTTVxM1ZLb25qazlkQjVsdTc3d2ozaUJzaTNHVkpqendCZHQ4dERicklxV2dpa3pxZ1haSkZvcVZjOVRCTUx4QlJKMkxtaEVEaVdEUQ?oc=5",
+      "pubDate": "Mon, 27 Apr 2026 01:57:23 GMT",
+      "source": "중앙이코노미뉴스",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "곽동신 한미반도체 회장, 자사주 30억원 취득 완료",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5zOW5Yakp0b3VSMG5SOXMzc1lpR1BBVm1xWFVzMk40SFNmUTFaLVZoQlJ3bTNJMWFvT3V1aVpCTUR0c01UVUJSQXBVcEJTZw?oc=5",
-      "pubDate": "Mon, 27 Apr 2026 01:35:38 GMT",
-      "source": "전자신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "휴면 비트코인 560만개 동결 논란…\"역대 최악의 폭락 불러올 것\"",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9kWmJRU3Z1UWpKWDNjdDJlc2w0NjN1YjViWWdMXzJ4a21GclVHS1FKWWtIUEtFWEpRcHIzQzBEYS1SQ2hqY3JmZ1VmTGV1UG5sUHhTOXB0NUFwem1aT19MMkNDeGhiWHN4VkEtQWhlRHNVZw?oc=5",
-      "pubDate": "Mon, 27 Apr 2026 01:31:22 GMT",
-      "source": "KB Think",
-      "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "[급등주] 서울반도체, +29.94% 상한가 기록",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBJUF8yYUlDUlR3UjlfOTBjRXlIY21pWHhzTDBoNDZSQVVTOGNlZGQtMktXZkhzMGJUbDcwODVVMUZBaU14Vk9RM3FVckhOQnh1NzJOWmNQNkpUWTBCNU10WUxwcWpFSzVxc1NPeFhR?oc=5",
-      "pubDate": "Mon, 27 Apr 2026 01:31:20 GMT",
-      "source": "전국매일신문",
-      "category": {
-        "label": "🟢 POSITIVE",
-        "color": "#4ecdc4"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "'용인 고림 동문 디 이스트' 분양, 학세권·반도체 배후 수혜 입지",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5peXI4X0o0OUFnY0hhMl9ORVI4dXY5c2FOLVoyamtKXzZ2MXg0WlJaUW9JT09mb1pxZXBkUUZYLWxfVFNZaDdvNWFoXzRhWF96aFk5N0lQaEZDZ09uY25JanZvM24?oc=5",
-      "pubDate": "Mon, 27 Apr 2026 01:29:00 GMT",
-      "source": "서울경제TV",
-      "category": {
-        "label": "🟢 POSITIVE",
-        "color": "#4ecdc4"
       },
       "impacts": [
         "삼성전자"
