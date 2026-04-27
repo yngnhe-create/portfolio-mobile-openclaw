@@ -1,7 +1,20 @@
 {
-  "timestamp": "2026-04-27T10:17:04.995012",
+  "timestamp": "2026-04-27T10:22:13.246785",
   "count": 10,
   "articles": [
+    {
+      "title": "[포토] 장동혁, 삼성전자 파업 예고에 \"대한민국 경제 볼모로 잡아\"",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5Jc3M2M3VsdGQ4VDJ0blFkZV9mOWdGODdrY1l0aW41ZW5UT1MtdmQ2MkhhTE9JSkppb3NTSFo2eGRyYzE2dVpUdzZKeGplMm9pV3hmTUsyNjRCbEVYNi10Xw?oc=5",
+      "pubDate": "Mon, 27 Apr 2026 01:15:32 GMT",
+      "source": "아시아경제",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
     {
       "title": "삼성전자, 여행 정보 통합 관리 서비스 '삼성 월렛 여행' 출시",
       "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFAzRnN4OHg2cFlLcGVCU2paZzFGMHpqZGM0MkttRm5JemlhREY2Nm5OZWNEUzdWbWk0SnNJejlJU0Q1OW1HTEN6MnZyNVNNZw?oc=5",
@@ -23,6 +36,19 @@
       "category": {
         "label": "🔴 HIGH IMPACT",
         "color": "#ff4757"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "“TC 본더 자신감”…곽동신 한미반도체 회장, 30억 규모 자사주 취득 완료",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1aZGZON3RUc3RWX05nMWoxSHMzYVFzdHdGLVl6bUhTYktFSjZXbDRkVzRlQUZHb1lBV0k2MHpSYXVkX1hGRE4teDZ4dWhJaGxXRnZtRGY0VDMxcUxRa1VQUjAzanpCU1BLaVNBVWRR?oc=5",
+      "pubDate": "Mon, 27 Apr 2026 01:08:57 GMT",
+      "source": "아시아투데이",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
       },
       "impacts": [
         "삼성전자"
@@ -103,34 +129,8 @@
         "color": "#8b9dc3"
       },
       "impacts": [
-        "환율",
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "티이엠씨, 동위원소 소재로 반도체 공정·양자 분야 적용 확대",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9PTGZMZ182N0NUYmRzOHN0TS1xejBNNUpWYXlNSGs0SFBTemtVXzloelRyN2Nsd3Z2b2hRdTZqaWZyd0x1b1g1OXpzTG5Ed1NwVzZReHZOS2V3T3lURHJRSVo2a04?oc=5",
-      "pubDate": "Mon, 27 Apr 2026 01:00:00 GMT",
-      "source": "e4ds news",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "곽동신 한미반도체 회장, 사재 들여 자사주 30억 취득",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE44c0xmYnliQzNRd3lTd1lsOGtzYmR3cExoMlBWRWRXWWFhaXU0TE9XWFdCa2h6ZFZ6YVpFYnNITy1PcTFVRjE4YzVQaENnQms?oc=5",
-      "pubDate": "Mon, 27 Apr 2026 00:59:53 GMT",
-      "source": "딜사이트",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
+        "삼성전자",
+        "환율"
       ]
     }
   ]
