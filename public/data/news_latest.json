@@ -1,7 +1,85 @@
 {
-  "timestamp": "2026-04-27T13:53:48.897438",
+  "timestamp": "2026-04-27T14:17:05.081726",
   "count": 10,
   "articles": [
+    {
+      "title": "[오늘의 책] 터지지 않는 버블은 없다, 비트 코인의 위험",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE45REFSNFVuRUtKZU5BMlNINXlCZTJpMURaSXdwbGs4VFdjYWJycnNDT3hfaURna3kwWUxsajdRWE5Nd1I4eXh5NGk3MEcycmUyUHpaMXp6Qkw3VzVyV3d1MlhrbzFuQU95YkVHSVRwc3Z3UQ?oc=5",
+      "pubDate": "Mon, 27 Apr 2026 05:16:01 GMT",
+      "source": "충남일보",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "[포토] 가상현실(VR)로 반도체 직업체험",
+      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFA5b0xpS3FiSnZoS0R2ZEFxN09Ec3ZqMDcydnhmV01QbmdTN3d6N1NkLTVtU3ZkZS0teEtHM3JQbTBpZkhMNUR2RzRUX20?oc=5",
+      "pubDate": "Mon, 27 Apr 2026 05:11:25 GMT",
+      "source": "전자신문",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "반도체 미세 열 감지 장비 국산화…DGIST 이현준 연구원, 장관 표창",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBnRVZBMjA2bVlRZGZWaUdtUUF5TVNkLW9tV2hTMWhpLVBUM1poQ0FJZDBoVkxBc1ZSWXYyTS03MDZ2SFFENlZwdmtJUy1nQkE?oc=5",
+      "pubDate": "Mon, 27 Apr 2026 05:09:32 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "TSMC '1나노 고도화' vs 삼성전자 '2나노 안정화'",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFAyc252YnNDWEpKbWZwSDNoeDdFUmRZSmxoVjJqNUtteGVPbDNkRGtTVTZmYTd0dWNJYU9UNEJ4WGVKU1BpYVA4LWU2RWZOeGs?oc=5",
+      "pubDate": "Mon, 27 Apr 2026 05:05:02 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[재계 투데이] 삼성전자, 코랄 인 포커스로 국제어워드 수상 外",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1OLXE0a2lyUk1KUWxmeHkwWW1ycmF5NXNwMC12Q19nbmpRbUJVRjBTRFVXTFMteHNrZmxFOHczUG1vLTJIMnZmVXQwX3dzM1JfbHZFNlJ3?oc=5",
+      "pubDate": "Mon, 27 Apr 2026 04:55:23 GMT",
+      "source": "DealSite경제TV",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "스페이스X·오픈AI·앤트로픽 초대형 '줄상장'…비트코인 유동성 빨아들이나",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4wWWhTWU4zTkE0R0w3LUhoLTRNLVI0Y29ZVUVxWmhRMW9zRDVXcVliOGZBMlA4a1RuMGhCdEJRNk9Ha19OWkJpR1FmMEVSbFFRVEcxekdUZFR2MTI2Y2hpZUlUYkVSMTQtRWlwMzhfYnIyLVE?oc=5",
+      "pubDate": "Mon, 27 Apr 2026 04:49:00 GMT",
+      "source": "디지털투데이",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
     {
       "title": "[특징주] 한미반도체, 곽동신 회장 30억원 자사주 취득 27%대 '급등'",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPQXNoVmZwOFNoVmp1T3ZPa3lHdXhJcGsxTnNSVnFCMUExbmJvTUdsUlEtRmFiZjh6QktuRnB1U0dFbGZpSUdBNlhWeVJ4NVBvYjNVNnNqR0ZJeVotclFXYjZ4RjFRU19rc3NHc0oyckd2QWpvRUVYSTR2RTNDQW9CVHZPNkd4M2JK?oc=5",
@@ -42,96 +120,17 @@
       ]
     },
     {
-      "title": "삼성전자 파업 땐 하루 1조 손실...“글로벌 공급망 회복 불능 수준 훼손 우려”",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA1LUtUYTBMU2c3QlFrMnJYN1VfcTRVbXpoNldHTTZ5U0cwUWxJekJxQ1RwNV80bkswT3MyV3I5QS1ERVljUEhPZ04yWEpieUtQMVcxd0lRQk5zcm92SXp3WWY1U2VxNDBHenplaF9LaWQ0XzFtcGg0?oc=5",
-      "pubDate": "Mon, 27 Apr 2026 04:33:15 GMT",
-      "source": "하이뉴스",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "AI 반도체 드림버스, ‘2026 대한민국 과학축제 IN 경기’ 참가…성황리 마무리",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1WUXBYMFZXUmRfcTMxR2VvWFFSWDRXazcwNlJINThFb05UREdiWHlzTVNsdzJfTmtmWVJSUTZlYnNKakZscEpHOExBNVdIM1ZVbE9TR3B0aUZackFYLXZBLXZ4bkc?oc=5",
-      "pubDate": "Mon, 27 Apr 2026 04:20:11 GMT",
-      "source": "서울경제TV",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[글로벌 산업 트렌드] AI 반도체·AX·피지컬 AI… 산업 자동화 ‘다음 단계’로",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE93djd6MjNsM0tLVWNGaTlkLWo3RDl3V0lfYUUtTEZCNkwtWEpLTDZic0V6VFhVYTFGSzBuM3pES1h2a01BTkI2ZXZhRG81S2w3a3o4?oc=5",
-      "pubDate": "Mon, 27 Apr 2026 04:17:35 GMT",
-      "source": "산업종합저널",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[속보] 비트코인 2% 이상 상승, 7만9000달러 재돌파",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFB3ekpjSFFjM1RaZDVOSGVnbWUzdENSdDVoZ1BiN1FxYUo4eG5jbGxOQ2UwZjlsamlrY3BNdjU1MkJsSU5XYUNzTWVXSVV5eGJUV3B4YXFVdFA?oc=5",
-      "pubDate": "Mon, 27 Apr 2026 04:14:35 GMT",
-      "source": "뉴스1",
-      "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
-      },
-      "impacts": [
-        "환율",
-        "BTC"
-      ]
-    },
-    {
-      "title": "[포토] AR로 반도체 장비 체험",
-      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFB1RjlndEZ1clozMmVZcU1iNVJQX0d5NGFXaEh1V1YyamI0c1BxVWlsVDljaE5CZV9iSENHVUpWVjRRRzFwQ3B6dmp3Z2U?oc=5",
-      "pubDate": "Mon, 27 Apr 2026 04:13:55 GMT",
-      "source": "전자신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "美 비트코인 현물 ETF, 지난주 8억2400만달러 순유입…4주 연속 자금 유입",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFA4azRjS2pwYzFGVzk0Y041aVpLdWlDQ28ybmhvaTY5SG1mT3VNNGEwVWJDX0pUaDFBVWJ2R3JMaWlnUUFOMTF1M0Y2T0JPTENB?oc=5",
-      "pubDate": "Mon, 27 Apr 2026 04:09:45 GMT",
-      "source": "블루밍비트",
+      "title": "비트코인 7만9천달러 뚫었다…8만달러 돌파 가능성은?",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1Nb0tZRXd1dzBOcXdISzFpdHVYVlRXNnpUSlY5NE5fYnVTVTFZOFFZamxRZy1mcHV2a1lNOUc4TFNzWnhmTjhONUpoWDhyQTV1ZWprWVZEcjBNYnJkNHRvRHdPM0pvT2twR280WGd3?oc=5",
+      "pubDate": "Mon, 27 Apr 2026 04:33:49 GMT",
+      "source": "아시아투데이",
       "category": {
         "label": "🟣 CRYPTO",
         "color": "#a55eea"
       },
       "impacts": [
-        "환율",
-        "BTC"
-      ]
-    },
-    {
-      "title": "삼성전자, 항공권·호텔·입장권 한 번에 관리 '삼성 월렛' 서비스 출시",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE10ZUhnUmtRcnM2MW5iTmllRkVockp5am5EVnVEeHVGQUUtM1drUy01YW9URlZiTEU3UmxRcjhfekFMNkVJWHFOR0JEQzhCVjJYM0Y4bkI1UC1TRTFMWlYteDc5ZER1Y0xEUmdKaWdaNUJwODQ?oc=5",
-      "pubDate": "Mon, 27 Apr 2026 04:08:42 GMT",
-      "source": "비즈니스포스트",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
+        "BTC",
+        "환율"
       ]
     }
   ]
