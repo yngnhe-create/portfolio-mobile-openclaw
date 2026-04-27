@@ -1,7 +1,31 @@
 {
-  "timestamp": "2026-04-28T04:26:24.336482",
+  "timestamp": "2026-04-28T04:56:37.851099",
   "count": 10,
   "articles": [
+    {
+      "title": "마라홀딩스, 'MARA 재단' 설립…양자컴퓨팅 대응 등 지원",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9IWXk4T0ZxZ1RVakZrSWhuREd4WmdFeHNsM191cktRLW5JUVJodWh0V29JM2t3VXp3eXR1TnF2bVl2N3Q0VGRSVkJZMVpuQTcy?oc=5",
+      "pubDate": "Mon, 27 Apr 2026 19:42:50 GMT",
+      "source": "블루밍비트",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": []
+    },
+    {
+      "title": "\"AI 패권 전쟁\" 미중 자본 통제… 한국 반도체·배터리 '공급망 비상'",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNZEJoQmNZWHU3dVJwSFBuT091bmtoT25pZnJFLWc5b19QZFZhZXIzelhTR0Q5bHExcjRaZHpwek9qd3dnRkEzclRWdE54NTF5M1M5OU9VNXFGOE9XWTd0eThmVk9USFcyNWh2MF9HWDl1RkNXOVBWY05XdTZxOUZGRng1U0ZpTWxM?oc=5",
+      "pubDate": "Mon, 27 Apr 2026 19:35:00 GMT",
+      "source": "글로벌이코노믹",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
     {
       "title": "경기도 ‘반도체 올케어 전담조직(All-Care TF)’ 반도체 현안 해결책 찾는 협력적 거버넌스로 역할 확대",
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9vMUVJaTZSSE54cmNlMzlUcXdXeXlhUWItYTJoMW15TWVBRGFMZjYwS1VYVklSVlllTXZMTURTUk9UMDZaamxiZ01QRThUU1RkVVU3THVHNk1TNEZ5bGc?oc=5",
@@ -90,8 +114,8 @@
         "color": "#8b9dc3"
       },
       "impacts": [
-        "리츠",
-        "삼성전자"
+        "삼성전자",
+        "리츠"
       ]
     },
     {
@@ -105,32 +129,6 @@
       },
       "impacts": [
         "BTC"
-      ]
-    },
-    {
-      "title": "[시론] 반도체 성과급, ‘더 많이’보다 ‘더 잘’ 나눠야",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE41ajF2MTA0ajZSRVR2eHk0ZkRPdmxFcXRDZVV6VldSSjJwNnRZeUxkWlR3bFB6QnprUmpfUm1IM0Q2c0NYRzB3ZVNpemlBN2c?oc=5",
-      "pubDate": "Mon, 27 Apr 2026 15:34:11 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "\"中서 출시·생산할 모든 현대차… CATL 배터리 공급 방안 추진\"",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOQnFQYmkyU1kzaGxnWGVpcGc4UU1SNVczYUdwTVllbjNDcWJucU1yUlNKV3ozLXpmYUlyOVJmR0VEbDZkbzUweHhER1NrMGl2T3lrRV9rMHNYS2djOWxfTHBBVmVHRVdjQ3NTSzlKSVc0UnQ4SjRka3p4V3g4Z0hIODUxakxpWkl1VkJwZmY3bw?oc=5",
-      "pubDate": "Mon, 27 Apr 2026 15:33:00 GMT",
-      "source": "조선일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
       ]
     }
   ]
