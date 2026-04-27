@@ -1,12 +1,25 @@
 {
-  "timestamp": "2026-04-28T00:55:42.498434",
+  "timestamp": "2026-04-28T02:25:56.260762",
   "count": 10,
   "articles": [
     {
-      "title": "경기도, 전력·인허가 묶은 반도체 TF 가동",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1ZdDlWaE9zNmtfTFpBM3pyYzJNVnN5WXdwd21iVTh5WTdFM1VMbEVlZjdFQVVZMVoxNmVMT1RkLTJfNU5Hbk1LRHJRaktCalFFYjIwV0gzTWsweHgxa3JScm15M0hPUF9XVGR5T3NvQkpNODQ?oc=5",
-      "pubDate": "Mon, 27 Apr 2026 15:39:32 GMT",
-      "source": "오늘경제",
+      "title": "피델리티 \"가상자산 시장 안정화…비트코인(BTC) 중심축 역할\"",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1XVmZIclBWZEtKMmJpa1dqSUdiT2hqdnhTNXpGY0dKc3lIaHJUWWEweEtRbEZNYUJvVk9jSXlCazR5S3pyeGc0TDhPRVEtb0Rp?oc=5",
+      "pubDate": "Mon, 27 Apr 2026 16:43:31 GMT",
+      "source": "블루밍비트",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "김정관 \"삼성전자 이익, 노사만의 몫인가… 미래 경쟁력과 조화 필요\"",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNNHlSdDB3a3p2ZXFEQndNajZqMFNKSmt2Z29fT2dQelFzYWRGYUxXYmNmUVNqbmNYT013QlgtdnJia1hQM2lxYmZaWjUta19jdUlvREdzbndYUWlfTV9UYm1Bd29VQlF6azlMOVJsNFAwM0dtMklidUMxdXpETGRmNjV0Zjh6emZRWWJOSnJtcw?oc=5",
+      "pubDate": "Mon, 27 Apr 2026 15:56:00 GMT",
+      "source": "조선일보",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -17,9 +30,22 @@
     },
     {
       "title": "김정관 “삼성전자 이익, 노사만의 몫 아냐”",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1XMzVoRzFRU2txVkdwZnI4VWtwbzljRF9mbmN0a1o4NGNZQnp4Y0U3RF9fa2FfSFRrVWloM3hWYy1WTW16R1ktVmdzeTdBU1B0aVZJSWxvbWp1S2kzX2xSUlYxVklzbU3SAWxBVV95cUxNVjJBcVAtRGNUVnYwSzhTU05kSnNzMkdIWktLekdXQ1g0MDhVc3pNajREYW1rb0s1anY5NWlwTFRRaDFFZzdjYXZtZUtTS2JGQld2TlhodWJNZU04MGp1blJPSDFUUXJsQVZnT3Q?oc=5",
-      "pubDate": "Mon, 27 Apr 2026 15:39:00 GMT",
-      "source": "kmib.co.kr",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE94T01WMmtEV3E4bGtVbERBbGVLZW5RdlVKV1pOdEQ0dG5JYy1HMHpXM2p5WkFKQnhuM2xkZ2FwV2dFaXZEd1dfUkx0OElJQW8?oc=5",
+      "pubDate": "Mon, 27 Apr 2026 15:41:02 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "경기도, 전력·인허가 묶은 반도체 TF 가동",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1ZdDlWaE9zNmtfTFpBM3pyYzJNVnN5WXdwd21iVTh5WTdFM1VMbEVlZjdFQVVZMVoxNmVMT1RkLTJfNU5Hbk1LRHJRaktCalFFYjIwV0gzTWsweHgxa3JScm15M0hPUF9XVGR5T3NvQkpNODQ?oc=5",
+      "pubDate": "Mon, 27 Apr 2026 15:39:32 GMT",
+      "source": "오늘경제",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -38,8 +64,8 @@
         "color": "#8b9dc3"
       },
       "impacts": [
-        "리츠",
-        "삼성전자"
+        "삼성전자",
+        "리츠"
       ]
     },
     {
@@ -99,32 +125,6 @@
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1qV0ZMRi02aDFRSF9ic2FXUVhHbnZ1RDdFems1VXJSSVcyQVhaYnp4LTN6c21jbXFWbzJrejBKX2pmYWxMLXR3eGRWRDFhOHM?oc=5",
       "pubDate": "Mon, 27 Apr 2026 15:26:16 GMT",
       "source": "v.daum.net",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "산업장관 “삼성전자 이익, 내부만 나눌 문제 아냐…파업 신중해야”",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5SRm9DUTZpUExMVW55MVh5OEt6WHRRZlhkdWFGcGFsTmp0ZkVENWRrX2Y2cFlybGFfNmlSNlREOWl3ekF3NkdNVEY4eTMwdVZNYnhOYlltZVdaSElKZHBzSkxUZ2hLay1FTHfSAW5BVV95cUxPeWdWcXRsd0dvRTd5S1oyYUxnV1BERlVCdmZGSFJ2SVlRZml3MUZSZnptWmZnMGlId2hPWnEtMHVrN0U0dnRnTVg4VHRBbHVyWHB6Z3dGQWpCTV9DUm5yWUo2bFVkbEIwYTA2aXNjUQ?oc=5",
-      "pubDate": "Mon, 27 Apr 2026 15:15:00 GMT",
-      "source": "조선일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "반도체학술대회 강릉 개최 확정…3년 연속 강원 유치",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5JNTJrVkEzX2dsOTF4Nk5pTi1IWnFMNkpCNzVSVnUtUWl4WXZ2SVNQNEJNTWdCaEdhSXY5S1FGdnYyb3V6N0RISTZIcEViMGs0NTdVWXczXzBEZGd4dlJlalV2eHJKa1E?oc=5",
-      "pubDate": "Mon, 27 Apr 2026 15:02:01 GMT",
-      "source": "강원도민일보",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
