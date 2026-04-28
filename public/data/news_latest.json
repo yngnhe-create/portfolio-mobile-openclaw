@@ -1,7 +1,33 @@
 {
-  "timestamp": "2026-04-29T04:03:17.428836",
+  "timestamp": "2026-04-29T04:33:30.880065",
   "count": 10,
   "articles": [
+    {
+      "title": "미국 하원의원, '비트코인 전략 비축 법안' 재발의 예고",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBsUUlxYWhkYnVPclFsdEdWTF9pRDFoc0VQQ0twd0IyZi1qbWRNMFhYakJHZ2c2dUVOZkFuRE5EdjZyUU1pX3p3TE1pbnVKbmZSQ2JIb1B4aU1WQnR0ZEhyUmltMFRLWVpyWERndw?oc=5",
+      "pubDate": "Tue, 28 Apr 2026 19:21:23 GMT",
+      "source": "경향게임스",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "“韓 반도체 분수령”, AI '전력 블랙홀' … 삼성·SK가 확보한 기술은",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPcXhFSUpGM213d1dGMC1XdEtPVGhCbUpOMjZIVGV3S0hPOUVXdHg5a0VDNDJhM0phaXpJZ0QxV29UZ09KbWFSNU1acmpoalpMRGhyZTBncjY4RFBOQ3RFa3R0RzBGUVdlVkxPYzZSTDYzekNiWGFyYTBib3ViVnhiSV9UMFNMSmU5?oc=5",
+      "pubDate": "Tue, 28 Apr 2026 19:05:00 GMT",
+      "source": "글로벌이코노믹",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
     {
       "title": "트럼프도 인정한 터프가이… 삼성전자 노조에도 돌직구",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE91RlFtajhVdmNLNXhoV05JTHBEUG44SW5IWHdySXhuV0tqMFNHRS1HRnlxMmV3aE5xSkFUc2FTZVlmRnpqUlFlTHh4Z0pZYjA?oc=5",
@@ -105,32 +131,6 @@
       },
       "impacts": [
         "현대차"
-      ]
-    },
-    {
-      "title": "삼성전자, 중국서 가전·TV 사업 철수",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQRjBkWHFOQWRBREpqS19oZ0tiUlhZUVplMHVETVpQd2ZRODl6cGRodVZVd3YwRk5XZWxJaVAySHFLbTB3anBrclZLZVVoV2EwdGpQb1lRWmNCWGJsd3lEN0I1dVMzUVJqS25mekxtSy1Ka3BfUHp1blY3R1FVdGxQSTZNTQ?oc=5",
-      "pubDate": "Tue, 28 Apr 2026 15:31:00 GMT",
-      "source": "조선일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "총파업 앞두고…삼성전자 노조 위원장 ‘해외 휴가’·회사는 ‘근태 관리 중단’",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1QalhWQlp4N3VlbVdYSGxhR3NLMWpBbVFDWG91VXJjN3hENGw3djF0VTJNclUtdkxOZTNqRkxyUVE2QTV6YWZUM0c0VTJUczQ?oc=5",
-      "pubDate": "Tue, 28 Apr 2026 14:12:55 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
       ]
     }
   ]
