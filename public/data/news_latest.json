@@ -1,7 +1,86 @@
 {
-  "timestamp": "2026-04-28T10:17:05.341090",
+  "timestamp": "2026-04-28T10:29:16.539208",
   "count": 10,
   "articles": [
+    {
+      "title": "현대차, '차=소유' 상식 깨…배터리 빌려 쓰고 차체만 산다",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9YbTNrLWxiNWg5ZS1yODFOaGFmSTBNSmlLVGhSeUwxU1J0TW44X1ZnQTlLVE9FVzVvMm52YzRlbTZCNkx1OFFzZ3NiaVFmVFNKQUZoamQ4Njl2dVZNNFpvWkdkUHg4S1VqZnRsQnhJTjg?oc=5",
+      "pubDate": "Tue, 28 Apr 2026 01:24:06 GMT",
+      "source": "오피니언뉴스",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "삼성전자, 무안경 3D 디스플레이 ‘스페이셜 사이니지’ 32형 선보여",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB2QmZCRzNqS1N2dmNPeG5xLTFMb01KMkxyQWQ2ODNhbmRUTjJlWmtyeWp4UDY3cWN3blR4eUtPQTM1azEwVzVYLXJZbVRjclh1c2Z2b1duSmRQLWF4RVhqcUNuY2w0bnVMZi1HeGZ3?oc=5",
+      "pubDate": "Tue, 28 Apr 2026 01:21:08 GMT",
+      "source": "elec4",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "엔비디아·암 ‘밸류 거품’ 경고등… ‘승자독식’ 반도체 장에서 살아남는 3가지 숫자",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPc1VMNWd6TjNmcGFiT29rUkhuTVJ5UndEZVJ0VW1EV1NyanA4blhGbE1BM3owRmFxTXB5dW9YbTJkbXRLZmdWT0Rhejg2b1VFMjNjbzMwRmNZQ0d2X0w2ZjV2dGoyZy1VWng5a1hWbGRfMGlCajJfZ3ZHZENoa3dCODdUTGZESUZE?oc=5",
+      "pubDate": "Tue, 28 Apr 2026 01:20:22 GMT",
+      "source": "글로벌이코노믹",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자",
+        "NVIDIA"
+      ]
+    },
+    {
+      "title": "\"美 하원, 비트코인 전략준비금 법안 이름 바꿔 재발의 예정\"",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1GUlFjYklkdkxCV2J6ZXItOXV2aEtkdHF0UlVHSFg3TFp3YU4tbzd2MFd3cVF4M1BNRU55SXlHT20tVDB1Uko3UTItVnRQZ19oaUZKOE5UNUtSVUp3dEY1MEdQMW5JM2szMEFWYlZxN3ZnUQ?oc=5",
+      "pubDate": "Tue, 28 Apr 2026 01:20:00 GMT",
+      "source": "디지털애셋",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "플레오스 첫 적용…현대차, 더 뉴 그랜저 디자인 공개",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9yR1BqandQSzEydmRsQVFiR2pVcUFkM3NWVmpyNXlxaDVmLUpsLUFSNkk0TUpONm03MDVfSFg2Zk12NmJpbUVxREpTcXdvX2c2TWJJa0xwSWgwdTVROEtSUmJYVGhVMEVSZHRqcw?oc=5",
+      "pubDate": "Tue, 28 Apr 2026 01:18:58 GMT",
+      "source": "ER 이코노믹리뷰",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "충남도, 반도체 후공정 테스트베드 구축",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAtN0lsR1JYamFPUXRyNWt4SEdYWFJ6a0tvbFBQLWxxR21weGVaWmgybXNpZXNWSzRQLUtBWk1rQ21FdERnWHJ2VjN5d0pybi12SWhJejFVTW1DUWQ3djhtcDBPelNONnlvVGxhdA?oc=5",
+      "pubDate": "Tue, 28 Apr 2026 01:18:36 GMT",
+      "source": "에이티엔뉴스",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
     {
       "title": "[특징주] SK하이닉스, 반도체 수요 장기화.. 132만4000원 '최고가' 경신",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPU1Zlelh4bUlQZ0RGN21ZN2hoem11TE0zQkFaR1RfNTBZdHdkX3h5SnpQOWRYSjNkWGRNc2ZMS3FJaGUzT2E3ZW83RkFJdnlkaUgxU2MyUjlPandGd2lNTnRiXzVrdmstYXllcVBuM0NSbF94c0R6REVEZUpHRnhqYkVwN2ZaaFNz?oc=5",
@@ -38,8 +117,8 @@
         "color": "#8b9dc3"
       },
       "impacts": [
-        "테슬라",
-        "현대차"
+        "현대차",
+        "테슬라"
       ]
     },
     {
@@ -53,84 +132,6 @@
       },
       "impacts": [
         "삼성전자"
-      ]
-    },
-    {
-      "title": "메모리반도체 가격 책정 '구독형 사업모델' 닮는다, 삼성전자 SK하이닉스에 긍정 신호",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9yWWdkRzFPNS1Xazg4WGxNaDdJZFNXZmRSVEFpU1ZGV1pHUXY3ZGxsUkpYMllQZVpRMGFkcFpJS2h3Wk1EV243Z19Kd3ZXcDJTcTVTVXZhVklGTEtHMlpoRFJBYV9QdVhhNDZyWEZaQVA3TGM?oc=5",
-      "pubDate": "Tue, 28 Apr 2026 00:55:19 GMT",
-      "source": "비즈니스포스트",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자, 레드닷 어워드 수상·무안경 3D 디스플레이 출시",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBlNnVvdDV6WTVIZVRxd0Qyel9TcTdiXzlRbEdBdzZiZXprc3AxVFhWSVFJaW1fS1d4X3diQTZsbXdybVo0QWY1NEVGbEtOWUpJcjd0TEgxenlUYXBUb1NGaklwd1d1UG82?oc=5",
-      "pubDate": "Tue, 28 Apr 2026 00:51:29 GMT",
-      "source": "fetv.co.kr",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "보스반도체, 기업가치 3000억 달성한 3가지 경쟁력",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5ON2RIREFLQ1ZvNkNMd2pIaDRCZGJCZVJHNk0zZXJGZmR1cVlwcVotMUliSVNLRHNfVVRaYVdHeWVicGtrMnlLcFRkLVdOY2s?oc=5",
-      "pubDate": "Tue, 28 Apr 2026 00:47:56 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자 OLED TV·비스포크 AI 가전 '레드닷 어워드' 최고상 수상",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE43LVQ0LUVKcWxob05uOVR6X1lZdlpJM25TU3dKSlVoczhvLU5jbEJ3YVo0SWduS2M1cE9iVEJJMktBVmw5RUJmQmNHWHhMcVdZZnE2NFhvaWtqQTRfYU5kUzB1UGZOVFdMYl9F?oc=5",
-      "pubDate": "Tue, 28 Apr 2026 00:47:51 GMT",
-      "source": "라이센스뉴스",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "현대차 7세대 그랜저 '이렇게 바뀐다'…페이스리프트 첫 공개",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB2cXVQbk5pSTlvRkVGM0FmN28xR2Q3YmF1cDBwSE5yMk0xNnFoeEtjbkQyclZvcVhHYm84dFQ0ZmQzbFBROEVNa3ZFZkthdElYRG1fVkhEamtDRVhoZzVyaQ?oc=5",
-      "pubDate": "Tue, 28 Apr 2026 00:47:08 GMT",
-      "source": "뉴스1",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "현대차, 수도권 수소 시내버스 보급 가속화…5년 내 400대 도입",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE51MzZLSVViSF8ydXVUTE1FdlY2MVExa1VpTHRJX2RxX2wwa0xSRzRWZFJxTXpnV1l0WmN0TnBZRnE2ZVM3YlRaVmFQdHVZeGRvNTkzQ1FQVEN5eDU4cjdlYW9pZVVieEE?oc=5",
-      "pubDate": "Tue, 28 Apr 2026 00:46:24 GMT",
-      "source": "상용차매거진",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
       ]
     }
   ]
