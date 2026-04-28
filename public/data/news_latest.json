@@ -1,7 +1,99 @@
 {
-  "timestamp": "2026-04-28T22:32:09.482951",
+  "timestamp": "2026-04-29T00:02:23.116365",
   "count": 10,
   "articles": [
+    {
+      "title": "삼성전자 ‘국제 디자인상’ 16개 본상 수상",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBOZzdYa0ljMnFLdHFod1Q5ck5mMThuZEdDbi1Pckx2SHJkQlRBWXdGUXFUdkllbDVKMVd3ekhiN1JDRGpQWjVaQ0RmTHpSbS1SOUc5Ti0wYVp1SnlHNERmbkh3YmJXbmlzR1lpeDEwejJrVE9sOGVkc0VKbw?oc=5",
+      "pubDate": "Tue, 28 Apr 2026 14:51:40 GMT",
+      "source": "서울신문",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "총파업 앞두고…삼성전자 노조 위원장 ‘해외 휴가’·회사는 ‘근태 관리 중단’",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5YZTN3ZEtYdmpiRWViaUVRcmhMOEZVQVN3eE9qVTBicGMwMEx6bTlTbEdOSVRSUDNQRWJzTWNKWkJRUGtZcUI1UkowM0FXN1VwNnZhQVBzVllUZnc?oc=5",
+      "pubDate": "Tue, 28 Apr 2026 14:12:00 GMT",
+      "source": "경기일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전자, 영업조직 한국총괄 경영진단 착수",
+      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1lNV9mRUh5TENzbmtvSG5DYXhuYkRFbzd4VHFKSDh2RC14NVp0MUlxaTlZLW8zb29uUjcyeWVrbnRlZUlrU19xaW9kclg?oc=5",
+      "pubDate": "Tue, 28 Apr 2026 14:02:34 GMT",
+      "source": "아이뉴스24",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "애셋엔터티스, 비트코인 대규모 매입에도 장기 적자 우려 부각",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA4WVNHOVJhNDR4Y1pjM05MQVJSa2lhVGNfTEFMdTA4RWVFaEk0dWJQZjlDUUhJWS16cU1zSWJnMjBnUkNOYWwtQmZPZ1ZIVXY4TkE?oc=5",
+      "pubDate": "Tue, 28 Apr 2026 13:42:38 GMT",
+      "source": "매일경제 마켓",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "비트코인, 다시 기술주처럼 움직이나…나스닥100과 상관성 확대",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFAtSTNyazJKOEtQRm5BZnJOQ1FuemlzdUl3YURVQVNyN0k2dG1OdTdrY1Y4OVk0N1l1VTJPREw1YXhTQmdsOGtwRFJkczh6RFRCaUg4cS1SZnQ4b2wxQzdxYktwWlNfaG9WamJObzlCWVAzWm8?oc=5",
+      "pubDate": "Tue, 28 Apr 2026 13:42:08 GMT",
+      "source": "디지털투데이",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "비트코인 7만6500달러로 후퇴…인플레이션 우려에 8만달러 재돌파 제동",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4xenpSWURfX3prN0o3UkFEOW5IeE1TQXJsYzUweWo2YVg4eDNaZWhXbEM2eHE1NURXLXZzMHZwaWNLWDdrZ1NZTmRNTjQ0cWQxbldEMzFqTURadEhzV3pSQVpSVHRwbU5landGSlV4Z2tWMk0?oc=5",
+      "pubDate": "Tue, 28 Apr 2026 13:37:05 GMT",
+      "source": "디지털투데이",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC",
+        "환율"
+      ]
+    },
+    {
+      "title": "삼성전자, 무안경 3D 디스플레이 '스페이셜 사이니지' 32형 출시",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNcDE5WmZlTmZjTnVDdC1icmxGd04zTDlpU2M4aHB4dVlmSVlUT0Q0Z0JqRnJzOUVqNzRIcXNOWWNtdngtU2VYYjcwZ05fM3EwSnBOa1FuNGJrazJmdExXVTdUNzJWMUxtODV5RWpoci16V1hrcVJxc3E4Qi1BRE5qZ1h0N3U?oc=5",
+      "pubDate": "Tue, 28 Apr 2026 13:34:07 GMT",
+      "source": "글로벌이코노믹",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
     {
       "title": "블록, 2026년 1분기 비트코인 114개 매입…보유량 9000개 육박",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1oUzVsdTBDc0U4dHI3X0NRRF9RUThJbFZCaEUxcVRac25GTV80b0RpTm1aNXJEMmFUbjJ1ZXJaQlVheEM3SVM3T2k1Ty1YYmduelZUb19pSlJpUFh5TGptdFB0MktsUDYxRWtxSHVpMkczRWs?oc=5",
@@ -25,94 +117,14 @@
         "color": "#a55eea"
       },
       "impacts": [
-        "환율",
-        "BTC"
-      ]
-    },
-    {
-      "title": "[시황] 비트코인 7만6000달러 일시 반납…김치 프리미엄 0.80%",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBIVHhBZXhncWxPZV9IbE10eWRZRHVuMGZpNDZEc1hCV3Z6bkxMNnZRYW5Nc1p4V2ZMTnRrUl9mQnNZUVpCQTlFODFhNjd6c1FI?oc=5",
-      "pubDate": "Tue, 28 Apr 2026 13:16:53 GMT",
-      "source": "블루밍비트",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "환율",
-        "BTC"
-      ]
-    },
-    {
-      "title": "파업 외치고 휴가 떠난 삼성전자 노조위원장…노조, 이재용 자택 앞 농성 돌입",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB3WkZwdzBMblk1NHZReGRHVElZejN0VFlzeGg3SUc1WFQxZnBVZDU1OXY1M2ljY2hKN09EVERNYnEtTkc0NUZWVmlLbE9GbTBmRWp1c0NRU2FhV04xYTFqeDVvZjRJcV9pNHRZ0gFuQVVfeXFMTlk5TGdBdDhSak03WUpGalBfTXBXWWdKVUhCVmZZZVB2UVdPMDhMZm1jTXRIVTVqVnkzeGxrTWRwNjhUa1RwWVFxbG1wQ2luWnpzS29PcVRlbnBRcUlPM3VfaU1rbFRKUlptWG55Y1E?oc=5",
-      "pubDate": "Tue, 28 Apr 2026 13:05:00 GMT",
-      "source": "조선일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "\"파업시 30조 손실\" 압박하더니…삼성전자 노조위원장 '동남아 휴가' - 머니투데이",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE95RDdCc1czZDlPQ1hhM1I0dUN3NGdaWnN2SGtMU2tVcDRzWFFYbFdlNkJqdmR1eGs0T0FXYjBjRHNsOV9IQjliVXBGTDI5ekhkeVhtS2pkQkRVWUozLWpramxfbWZ6dXJjWXB6M9IBckFVX3lxTE10RFZkNmxubGxDblEwTS1aWWZIUUhmbV9sTUw4d1ZFYXA3bmNwZjJ0OUVyUldSUXlxbU9SWWRPMkFlVFJmZ3hCT1BkdjNIVi01alpyTHF4SkduSzlLMEQ5LTlDTGd4eERRcTdudnFWMUVnUQ?oc=5",
-      "pubDate": "Tue, 28 Apr 2026 12:53:03 GMT",
-      "source": "머니투데이",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자, 식세기·전자레인지 등 외주화",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5NRWl4QVJHUV8wV1RUTjFEVGpYYkJLczVEdWZITVloWUV0bi1oa3JzSjU5QU1CUTh2Q0dVUmZZOWhoZUZDLVc5Uk9ONnR2LWw5WDU2NUlya2lCQdIBX0FVX3lxTFBJWGg4a2ViQVZXZDlzdG5LRHBIcloxd0p5UmpaQVFudVllczc1aEhpTEdBOG42TmRqQnh2RHczZWMwcEprbXpEMFJTMWtEamUyemFFRU1wRmlUVWpmODY4?oc=5",
-      "pubDate": "Tue, 28 Apr 2026 12:42:00 GMT",
-      "source": "경향신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "현대차그룹, 배터리 구독 서비스 실증…전기차 비용 해법 될까",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1FaGE3YVBLdVlWVlNHeEcxOVdISVF2aWJkWFU4WVFKMlRwX09McmthazNVYnpOdmZYY2xsemh1akdRd3BvQnhNR0ZVYVFEV1plak41bjF3SV9ISlRjZVlnRTJQMVQ?oc=5",
-      "pubDate": "Tue, 28 Apr 2026 12:39:03 GMT",
-      "source": "매일일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차",
-        "테슬라"
-      ]
-    },
-    {
-      "title": "45조원 요구하며 총파업 경고한 삼성노조위원장, 해외로 휴가",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNRWdNYm4ya19scXg1WGxCb2RIaVJYYmQwZXJyZ004cmxEa3BxY0ZzektFWG02RzZ1Y25ocTJlOWhsYndSYWhHV01rY01SWF9UNEFYWkhremhzZXo4RUVRb1I4T1F6MFRJNkFRcWxuOU1OUUsxT0Z4UmdEOEc1MlZuZ2dn?oc=5",
-      "pubDate": "Tue, 28 Apr 2026 12:28:11 GMT",
-      "source": "조선일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
+        "BTC",
+        "환율"
       ]
     },
     {
       "title": "아이오닉5가 ‘2천만원’…현대차, 배터리 구독 실증사업 시작",
       "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5nd1RVV3F2YmRib3FYT1dtQzRocTNhOVBBajRhM3djM201eVFFazFya1Eta040TE40SjIxRmxiLW9TQ05mNllzT0pEWjhOREpMU3FJeC1ueDdjZ3JFTFJ3ekJ3?oc=5",
-      "pubDate": "Tue, 28 Apr 2026 12:15:00 GMT",
+      "pubDate": "Tue, 28 Apr 2026 13:18:00 GMT",
       "source": "한겨레",
       "category": {
         "label": "📋 GENERAL",
@@ -120,19 +132,6 @@
       },
       "impacts": [
         "현대차"
-      ]
-    },
-    {
-      "title": "삼성전자 노동자 임금 인상 투쟁을 지지해야 하는 이유",
-      "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE9wa0Y3OUJEaHJCQ3R0dG9EcVFYTTlTcDFsOFh2aHBCODFKYUF5RkFZZXRqVXBRNUQzODhubkpjR3hXd3Fh?oc=5",
-      "pubDate": "Tue, 28 Apr 2026 12:02:27 GMT",
-      "source": "노동자 연대",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
       ]
     }
   ]
