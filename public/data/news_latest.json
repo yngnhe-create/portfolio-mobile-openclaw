@@ -1,7 +1,20 @@
 {
-  "timestamp": "2026-04-29T00:02:23.116365",
+  "timestamp": "2026-04-29T00:32:36.557690",
   "count": 10,
   "articles": [
+    {
+      "title": "현대차 ‘더 뉴 그랜저’ 디자인 공개",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9VZmlfaWhCbGVBU3I2R3ZlcWllWG5USnFBMUE4RXRtU1NOOTNaWkxLcDhfVlpueFE0cXI1ZEEyRnlyVFNrbzNNZG5jenpkdlZ5b0U4dnJQbjZJSmhxZUlqSUVfRU5ZQWNVcUpBOQ?oc=5",
+      "pubDate": "Tue, 28 Apr 2026 15:00:03 GMT",
+      "source": "경상일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
     {
       "title": "삼성전자 ‘국제 디자인상’ 16개 본상 수상",
       "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBOZzdYa0ljMnFLdHFod1Q5ck5mMThuZEdDbi1Pckx2SHJkQlRBWXdGUXFUdkllbDVKMVd3ekhiN1JDRGpQWjVaQ0RmTHpSbS1SOUc5Ti0wYVp1SnlHNERmbkh3YmJXbmlzR1lpeDEwejJrVE9sOGVkc0VKbw?oc=5",
@@ -77,8 +90,8 @@
         "color": "#a55eea"
       },
       "impacts": [
-        "BTC",
-        "환율"
+        "환율",
+        "BTC"
       ]
     },
     {
@@ -117,21 +130,8 @@
         "color": "#a55eea"
       },
       "impacts": [
-        "BTC",
-        "환율"
-      ]
-    },
-    {
-      "title": "아이오닉5가 ‘2천만원’…현대차, 배터리 구독 실증사업 시작",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5nd1RVV3F2YmRib3FYT1dtQzRocTNhOVBBajRhM3djM201eVFFazFya1Eta040TE40SjIxRmxiLW9TQ05mNllzT0pEWjhOREpMU3FJeC1ueDdjZ3JFTFJ3ekJ3?oc=5",
-      "pubDate": "Tue, 28 Apr 2026 13:18:00 GMT",
-      "source": "한겨레",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
+        "환율",
+        "BTC"
       ]
     }
   ]
