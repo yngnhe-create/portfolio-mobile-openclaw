@@ -1,25 +1,12 @@
 {
-  "timestamp": "2026-04-30T06:10:54.133479",
+  "timestamp": "2026-04-30T08:17:04.839562",
   "count": 10,
   "articles": [
     {
-      "title": "삼성전자, 올 1분기 성적표 공개 '초읽기'…반도체·모바일 실적 '희비' 전망",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1hRHBVYVluX2dIRGlOelBPR29oRXZsdFJVSUYxakJscmZ0LVRPRjY2d0JnTk1GVml2bjhsUUYwREpVVXNfZEZFdmRadHN2SDV5d0xod2xqTm5oLWh4ckhUWlBJOFZ5dlE?oc=5",
-      "pubDate": "Wed, 29 Apr 2026 21:00:01 GMT",
-      "source": "청년일보",
-      "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "신흥국 증시 사상 최고, AI 반도체 3곳이 끌었다",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNTHNDb25xNGtSdk50NzQzaDRQajNva1FBbXFUaE15R3UwbEE2QXUxVENLZkhJc1hIM3NEd1BZM1NRZktQb0FzendRclN0Qktaa2FRSTNjXzdkaTg0VjIwZmRFX1o4azd1VTFJeVZ5YkFvd1RaUDN4bkloNk9LNjRyOFYyanQ1S2Za?oc=5",
-      "pubDate": "Wed, 29 Apr 2026 21:00:00 GMT",
-      "source": "글로벌이코노믹",
+      "title": "3월 생산·투자 ·소비 트리플 증가...2월 기저효과로 반도체 생산 8.1% 감소",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNXy1ONDg5WnpQVXJYLUNjNGZ5aUxub3dRekVXMEpOcE5Ib0U0TTZwSVROM0pyQ3BzcmlBSmVNVThaNUx3VHo5MzhnNms3VjBPOGJaSDhHZUg0QlJlSnUtZVpoVkhqSkNEQnYwdmowdlpXbEtlb0c5aXQyUG5fZ3hGTkVFbms1ZmdBQVppVGJn?oc=5",
+      "pubDate": "Wed, 29 Apr 2026 23:11:00 GMT",
+      "source": "조선일보",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -29,23 +16,50 @@
       ]
     },
     {
-      "title": "'롱-숏'이 동시에 순위권…'반도체 랠리 끝인가' 혼란 빠진 서학개미",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE16cnp6Yk9DRkF3SXNwZ1BjTHZ5WkQ4bXVlQTJ2MmZXYUhsZFZnbHRVX3BKRW16SVpVamMxU002X3Z2YWxoLU5qQ0JCSGg4eHdJd0FOTDd3di0xbmpuSnBv?oc=5",
-      "pubDate": "Wed, 29 Apr 2026 21:00:00 GMT",
+      "title": "지난달 산업생산 0.3% 증가…반도체 생산은 감소",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5MX3FIUVFpeXJVeE41ZHNsbDBLZTJ5VVM2SWZ2d283MWxuZXNzSUt6bXF4MTlQMXhXQVFjUTNiVi1pQmp5bUdzYTJBSlVnVHc?oc=5",
+      "pubDate": "Wed, 29 Apr 2026 23:03:33 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "인텔 12.06% 폭등, 반도체지수 2.35% 급등(종합)",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFA3VFJNWUt5YWp0TnJWbkpybXpxZDVuYzBHZy1jZjl0bFF3R1hyS1BLQnZHdzhRWTZqbzlvWGJHUlA2amVZMGotcTZFdlJ1U2pyYWsxOGl2LWs?oc=5",
+      "pubDate": "Wed, 29 Apr 2026 23:02:36 GMT",
       "source": "뉴스1",
       "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
       },
       "impacts": [
         "삼성전자"
       ]
     },
     {
-      "title": "현대차·LG엔솔·SK스퀘어 시가총액 3위 놓고 각축전",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4zTE9MWXRuRVl1VkZ3cVBRYUlJZDJyVHRjQnZnak9sN3AyMWRwcURkeWVlaG40c3JYZmNkZ3g5dVFOc01qZElxRFN6VzBWNXpXODJmeU0ySnROYXk4dGp3SdIBeEFVX3lxTE5YQ0tMWmhUUDFnaEhzcHpEYUstV3N4TWg2YUkxQURVNTQ0azViR0Z5OFYyQ0FqN2xETF9EdmRKbXUtMDBWSk9DZzN2MjdkemRHakRtOE0tNVJXYjhKWjdNT2NfRFIycVJVRWdJMEdqWks0ZkI4LW9veg?oc=5",
-      "pubDate": "Wed, 29 Apr 2026 21:00:00 GMT",
-      "source": "뉴시스",
+      "title": "[속보]3월 산업생산 0.3%↑, 반도체 8.1%↓…중동사태 첫 반영",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5JajNESk9pVWxJNFF3c0xqVU1KeXlfcjVvSnNCTTFiNEZXcEpwRHl1Snh6WlN2cWxLTWJVeTlpWkhhMkJFUFU5ckVnYWY1dEdtYWfSAVNBVV95cUxONExYcFVLN3U1RG1vMDRyMkJkc29QVTFkVE1RLWdZa0I2ZVdIMjVSQkwxeDM5Rm9fNy01eE44c0RRM1Q5OElQV0xDZ0xGV0dqSkY0VQ?oc=5",
+      "pubDate": "Wed, 29 Apr 2026 23:00:00 GMT",
+      "source": "서울경제",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "삼성전자",
+        "원유"
+      ]
+    },
+    {
+      "title": "\"AI 결합한 플레오스 등장\" 현대차그룹, SDV 첫 결과물 꺼냈다",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1IUXhyYVVveURyT0I3T3lxWGROQUk5VlFKclJGYnUtZDJGOERPNlZIVEk2Vm1Xa1owNmM2RHlHYWNuWHRUem5xUDV2c09SbjNGSFdnRDNwdVFRVzFaSk53ZGhEZUIwYVdnZVlGdA?oc=5",
+      "pubDate": "Wed, 29 Apr 2026 23:00:00 GMT",
+      "source": "ER 이코노믹리뷰",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -55,22 +69,35 @@
       ]
     },
     {
-      "title": "삼양그룹, AI로 일하는 방식 확 바꾼다…반도체 소재 신성장 동력",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE15aXN3Nmt4QV9IZ0NmSkw2ZEJTLTVKMDFyU0JZY0NfMFRWZVZGWkVQQzZoMnhzaXZBNHlya081a29YQlU4bE5WbFN4V29VSXdIbTJlZ1FZZkd5X1FoS2VHU9IBeEFVX3lxTE04dzUtQVlISWFoeTJiRUF2b1kzZGdMamZsMGdhNk5TYUV3VldyR2wyNDhWaGFIbUdnVDBkc21veXRvWVRQcFlFaDdra1NOSGQ0dDJrM2NLeWpwY2R2MTNvTFpxRERMYjNNc1ZCeEpncUpqOXdFSWN4Rg?oc=5",
-      "pubDate": "Wed, 29 Apr 2026 21:00:00 GMT",
-      "source": "뉴시스",
+      "title": "[현장] \"성능·효율 다 잡았다\"...삼성전자, '히트펌프'로 난방 전기화 시장 도전장",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5ZOTdyOFVLclNDano2TmFoeUZUT3ZtN3NmcUJPVzRIdTNJVzZSQ0VocTVTV3pVenl4SjYwaXpkRlZkdWFaQVVVSUQxSWJJNk5vWVpxTmVTX29GWnFqeDVMajZhUy1QeDl6dWQ5RVh0RmdUSm8?oc=5",
+      "pubDate": "Wed, 29 Apr 2026 23:00:00 GMT",
+      "source": "핀포인트뉴스",
       "category": {
-        "label": "🟢 POSITIVE",
-        "color": "#4ecdc4"
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
       },
       "impacts": [
         "삼성전자"
       ]
     },
     {
-      "title": "에릭 트럼프 \"비트코인(BTC) 전성기 진입…10년 뒤 결과 보자\"",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9MRTZvb18yTHZMWWd0aElqcmRjT25DRHdqSUdmZERzRGhVdTN4c21lYm83dmhIRWZUcWdRcHJjN3Z5aDNIWUlfM19JM0I2bk90?oc=5",
-      "pubDate": "Wed, 29 Apr 2026 20:48:55 GMT",
+      "title": "AI 반도체 진짜 '슈퍼사이클' 탔다!",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE93TW9oajV4UVdpSHJkV0FIU0poUFVURUVDRFhEd2staHU5ejVIM2htNVRsTXlOZWZMQW5WR192cHlJdUdGN0dCS0ZuSzVZRXB5emM1NHJDM2NLUdIBVEFVX3lxTE9JTFVzOVFscEprYVJxeG9vcjM3WE83MkxqQW92WjRyNW5nYmhaNUFuZ1BwZS05MHZlWlhHQ1U0dE1HSkUtZ1lwdndoOENZU2pLVXFjdg?oc=5",
+      "pubDate": "Wed, 29 Apr 2026 22:57:49 GMT",
+      "source": "한국경제",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "\"5년 보유 시 대부분 수익\"…비트코인·이더리움 장기 투자 성과 확인",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5yWDYyZGE5YUpWQjAzdmhNXzI1b1VZNjJhbFJWT05QN0s2XzQyZW9mcTJha2hJOHRBeHAxVEl4VHBZZE92ek51NVpzWU9oa2xf?oc=5",
+      "pubDate": "Wed, 29 Apr 2026 22:39:05 GMT",
       "source": "블루밍비트",
       "category": {
         "label": "🟣 CRYPTO",
@@ -81,10 +108,10 @@
       ]
     },
     {
-      "title": "[2026 상반기 혁신특허 기술대상] 미래형 지능 반도체 생산 기반 구축",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5RQXF1bU9QMlA4aDdGUVFldk1NaGx2SWVNMnNfQVp4SEdkdXYxc3d5eE82ZTNfdTV6RTRnZ0h1aFFtbVdoZG5pZE9NNFlkM0E5Wk1qQ0R3?oc=5",
-      "pubDate": "Wed, 29 Apr 2026 20:33:00 GMT",
-      "source": "중앙일보",
+      "title": "젠슨 황이 맡긴 '그 칩'...삼성전자 '그록3 LPU' 하반기 양산 공식화",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFAtek90bnhzX0YzRDJIU3dlek05N2hhY1pvN016WU84U3pydkMtYW5ZUmRxNlJuRkM0d2x2Vmh2Vk5rZnJZWGZFQno0OFhydVNpdm4wZWVHY041Q3Zi?oc=5",
+      "pubDate": "Wed, 29 Apr 2026 22:38:00 GMT",
+      "source": "뉴스핌",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -94,42 +121,16 @@
       ]
     },
     {
-      "title": "[혁신 경영] 로보틱스·반도체로 미래 신성장 박차",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBBbE1MMmM1eDVBclpER183WExRX1I4R1Y2bkZRR0Vrd2YxYVF5MEhXeXdtZkhoS0lVc1pXQWdjNlliWTJlV2hQZlBQTW9yYlFiNW03U293?oc=5",
-      "pubDate": "Wed, 29 Apr 2026 20:31:00 GMT",
-      "source": "중앙일보",
+      "title": "과기부, 국산 AI 반도체 상용화 지원..실제 활용 현장 방문",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5ZQmlLejZzcjJxbmd2Nlp4d3pPUzFXSUZmVXNReWhjMG9jTDZYQ1NTNW9rQ3UyRldtZW9IbEk5N2N2XzgzNXAybWNueXVVRldZYXc?oc=5",
+      "pubDate": "Wed, 29 Apr 2026 22:34:43 GMT",
+      "source": "한국정경신문",
       "category": {
-        "label": "🟢 POSITIVE",
-        "color": "#4ecdc4"
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
       },
       "impacts": [
         "삼성전자"
-      ]
-    },
-    {
-      "title": "엔테그리스, 반도체 부문 급등 속 실적 발표 예정",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9tR0JfMDNnbm5HYzJrdW5mQk55NzhjZGdlVFJXRFpSaGRWV3VndDd3bjJlNTJ5ZWVqN1ZrTE0yLVZHMThqMFZKejIwYktneG1lR1BDQmhab2RKMEdHQVYzQTF6Sl9PTGVSQllR?oc=5",
-      "pubDate": "Wed, 29 Apr 2026 20:12:00 GMT",
-      "source": "Investing.com 한국어",
-      "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "비트코인 시세…이더리움·리플·솔라나 가격",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE93RE9tOGJkYnVmTlBnaG1ZejUyN19lWkx1ZFpsZUxycENvaWlvMXBFeWhqTEJpRzVmbS1zS0pEWjRpUGd3cnVObF9UZFZZNk0?oc=5",
-      "pubDate": "Wed, 29 Apr 2026 20:07:32 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
       ]
     }
   ]
