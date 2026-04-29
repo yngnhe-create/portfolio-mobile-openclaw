@@ -1,7 +1,114 @@
 {
-  "timestamp": "2026-04-29T10:17:04.818866",
+  "timestamp": "2026-04-29T10:36:23.410612",
   "count": 10,
   "articles": [
+    {
+      "title": "삼성전자, 첨단 패키징 경쟁력 열세로 ‘AI 반도체 주도권’ 위기",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5lUGNuRW5PVEhvSDR4eHBlVmZtQ01LOUF5QnNKQjI2SXkxM0VrS1ZWSk56dG8xYm00elBCTWg0WF9nM1VVVWhCVnVkUFFYTGhtSDZUbE03MjdqYWRyRmI0VDZZZnd0NzJibFp4ZHhpbmprc0Rn?oc=5",
+      "pubDate": "Wed, 29 Apr 2026 01:30:32 GMT",
+      "source": "조세일보",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "美 실리콘밸리 '한미AI반도체혁신센터' 2배 확장 개소",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE8ybEJxbUhFV2oyRENJNGdkX3BCMURnNVVhX2N0T3pqOWt2OWpNS0xfWnVUZEVGWXctTk54bzFRSFg2RERVdDA4b3g4XzVfQQ?oc=5",
+      "pubDate": "Wed, 29 Apr 2026 01:27:13 GMT",
+      "source": "전자신문",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "한국투자증권 \"반도체, 2년 주기 사이클 AI로 과거와 다른 양태\"",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPOXBpM21PU1BrSlhtQXN2MExIeHh5akliWHV4VWRUR053X1h6YUtYbVpHeEdLUXNBWGFtTTJ0TzRtMTRqOFdIYU5ZOXQyZ0VTZnRSWm1pdUxZckZ2bkxtSjI1bWtXMnFtS3BIdnZnYVhvb1NPREEza3FHV0I3WTJobTlSWUdtRzJ3?oc=5",
+      "pubDate": "Wed, 29 Apr 2026 01:26:56 GMT",
+      "source": "글로벌이코노믹",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "DB하이텍, 유럽 최대 전력반도체 전시회 참가…SiC·GaN 공정 기술력 과시",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE42RWFxYVdOckVSSTdJb2JwQkhZYTRGVkh6RjAtUnNqZ1VmYUFzU0RQLS1jTWZTSm5jYm4zeE9iejVhX2VBX1FqNjFjdXJ1Q01YdlJBc0ZRdVQ3WUw3?oc=5",
+      "pubDate": "Wed, 29 Apr 2026 01:22:07 GMT",
+      "source": "뉴스1",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "엔비디아 젠슨 황 딸 매디슨, 오늘 삼성전자·하이닉스 방문",
+      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFB2dDFwNkFRc2d2eTB4YjN3ZlhwLWVMT0hqdU9vN3haUld2ZWtyR2JsdlFWUXRKaXRpZ0ZPN2Z3M3RsaG5odUlIeHpfOXE?oc=5",
+      "pubDate": "Wed, 29 Apr 2026 01:16:33 GMT",
+      "source": "아이뉴스24",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "NVIDIA",
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "비트코인, 7만6000달러대 약세…FOMC 앞두고 '흔들'[코인브리핑]",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE03eVNQeE5ZMUhnaldkRUVFVVpPV0NBWHEzY0lpeHFoUmVaUldQWk9SeFo3dEtiRVNnV1V5d0dBSGlLVURWa2sxTFV1UktBZ2MtRWVLUHk4dGJRWkx2V1pyQ2R4YjUxQQ?oc=5",
+      "pubDate": "Wed, 29 Apr 2026 01:13:17 GMT",
+      "source": "뉴스1",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC",
+        "환율",
+        "채권"
+      ]
+    },
+    {
+      "title": "NXP, 1분기 매출 전년比 12% 증가…“SDV 전환이 반도체 수요 견인”",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBfeWpjQmtjblhjOVhCRzFqWTNpcXUzSmVpMjBndE1zMi1TSGgyYTZ3VGZLdDNJbWkyNS1Jb0pDNnFIaWxCR2dfbjI4YUxuZw?oc=5",
+      "pubDate": "Wed, 29 Apr 2026 01:12:16 GMT",
+      "source": "전자신문",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "채비∙현대차, 파트너십 체결 현대차 전용 구독 상품 5월 출시… kWh당 299원 혜택",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE92V2lLa3BBNjRNbHVpaXJtLWJuNU1qODkwTVVXb3d4dDVqU0hPdmdXQ0JQVHQwYmFEcWtTMXd6M3dYVDJ1cjVJZ0lOWHVNVjl4RWxvR2syMW5YS1E?oc=5",
+      "pubDate": "Wed, 29 Apr 2026 01:12:00 GMT",
+      "source": "오토뷰",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
     {
       "title": "\"글로벌 미래는 아프리카\"…현대차그룹-런던대, 연구 성과 발표",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5GVzB5WnZlRFV6X1NqQVk2QWhCS2RHN0ptWTdhd0FUVGV4XzhLUVRnbDU3WTg0Mms4bUlHZVBNV2V4RlBWSjZLeDZKcUtWcUE?oc=5",
@@ -20,110 +127,6 @@
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1DTkpPcnRoRV9UUllXQTFwUWo5MFhsTlJWUzNocTVLVnlyeXlkUEREZ2R4eHlIc1hCd3A1RV9FazFGZThoTV9oSl9ESDFDc1pfWEpxVngxSXdiWV9oQUtoeXl1S1Vlb2lCd1FGaA?oc=5",
       "pubDate": "Wed, 29 Apr 2026 01:05:24 GMT",
       "source": "중소기업신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[차이나 브리프] 삼성전자 파업하면 레거시 파운드리 공급부족 심화",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE82QVFZTkZKMWFaNmVaT2RXa0tyQWV6V1M3MTAwbUhOU1ktWUJtYXEtV1NYRGY2M0FBNkxmWnZXbW83ZEUxY05sTFZKWDRrbjRnS1phYkxBT21LNEFJSmQwS1BKeGc4UQ?oc=5",
-      "pubDate": "Wed, 29 Apr 2026 01:04:50 GMT",
-      "source": "디일렉",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "와이아이반도체, 차세대 HBM 검사 장비 개발 성공… AI 반도체 시장 공략 가속",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBxQlJsNktWUmZ3aFFrTVNyU0hXTV9xUmwyOXFlaXg3TzJmeFZDY1hERHFGTjU1cTBMeTdPcVhnZ0dOU2FRa093YVFrQUxqQVFlOFYtd1RYWVB5WnVKZjk5VmI3ZUxYcEwxMlVQRWllODdLQ2hkNTJSejhFdC0?oc=5",
-      "pubDate": "Wed, 29 Apr 2026 01:00:00 GMT",
-      "source": "비욘드포스트",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[특징주] 롯데정밀화학, 턴어라운드 전망·반도체 소재發 모멘텀에 강세",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1jRUJjMXotQ3JwOVRFMGpoZVJtMnhCS0lzUU9paXNZOW4zV1BpMUFpVTN4WWJwNWFNSlNfSmlLS3ZsVk5HbTBpNE10b1VZWUlkMUd4dnNCUU9QZzVyUWROMHR3TQ?oc=5",
-      "pubDate": "Wed, 29 Apr 2026 00:53:28 GMT",
-      "source": "에너지경제신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "미국 정부 중국에 반도체 장비 규제 강화, 정상회담 앞두고 '협상카드' 가능성",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBadjJfY21hQmw0WkMybHJGWTVMdVBQLThTZWdKVXlDUlBrLWplWVNXc3pNekM1X3BxcFF5MEZQckJwRl8wQmx0bG1BR1l3ZnZCVGpPWE5ocmpiZ1hvaS1QMnVUbjRMamdlV25UcFpLcjJNMGc?oc=5",
-      "pubDate": "Wed, 29 Apr 2026 00:53:22 GMT",
-      "source": "비즈니스포스트",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "DB하이텍, 유럽 전력반도체전 참가…글로벌 전력반도체 공략 본격화",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1EUWVRLW1rMnZNYVhOVk5YVkNWY2c3MjIyR3NLUkoxU3RXR2oyX0lsLVJLekljX1AtcjdFUU1xZnc4aTFoNEFuY1JZQUdZTE1sS3VZZEhmVWJiWGNpdDh6d0J2UV9SclFGbXdv?oc=5",
-      "pubDate": "Wed, 29 Apr 2026 00:52:06 GMT",
-      "source": "뉴스저널리즘",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "LG이노텍 웃게 하는 AI용 반도체기판",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB6UHJ6RzhUbTZHQ1NJdEZWekFuTW1TSFRNTFlwTVZjYnpRcXlaN0pjbG5BcmJreTJQR0E5N1d1VWVkdWxtSU9MMGlUdW44MmREclRJb3A0YTBXMVF3ZFBwRGJOMXlqcF9wTzBMUw?oc=5",
-      "pubDate": "Wed, 29 Apr 2026 00:51:42 GMT",
-      "source": "중소기업신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "현대차그룹, 아프리카 연구 성과 英 SOAS와 공유",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5fNFNkdlhLZlNtV3ZuVkx4SlVRNXdwT0tVVXVUa0ZaX0I2NUxjazRWNDBKbm9KbnJLYkVncC1JdGJXbHFENlk2SmdnV29ETFFqRnNZUVFSbFV1MkhSa1QyNUp5TFFsaDJJcmQ0?oc=5",
-      "pubDate": "Wed, 29 Apr 2026 00:49:29 GMT",
-      "source": "라이센스뉴스",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "자동차 반도체·로보틱스 핵심부품 전략적 육성",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBFdXVnR0lja25sY0EwaTB5UmxPWHpWbEsyRWljWnJlcm5oOUczcUhGRk5mYmJxQTBSSWxPRVBFOER0aTB6OWtLMkRvVE5GVFdN?oc=5",
-      "pubDate": "Wed, 29 Apr 2026 00:48:42 GMT",
-      "source": "문화일보",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
