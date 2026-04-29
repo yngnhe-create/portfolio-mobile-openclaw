@@ -1,7 +1,44 @@
 {
-  "timestamp": "2026-04-30T00:09:28.344096",
+  "timestamp": "2026-04-30T00:39:42.135238",
   "count": 10,
   "articles": [
+    {
+      "title": "미중 정상회담 또 흔들…'희토류·반도체' 압박전",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5JNUh1Nmo5MmNaVVl5SjNWMC10eFVBR3RjWG1YVEpzRmptQTZiTzhxYzNldUtfR2NvcmczRlg0RGNkdHFlOUNiVmpVQWtLMlRHNlo1azFxNG8weUh6dmlOODdjbFFBYXpOMHFWYjRRTVE2dVBQ?oc=5",
+      "pubDate": "Wed, 29 Apr 2026 15:08:07 GMT",
+      "source": "연합뉴스 한민족센터",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "비트코인 팔아치우는 부탄…\"올 10월까지 보유량 전부 매도할듯\"",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE95OFZvVTVVUGV6WjlzVkt4X0dyaTZmSmpCZFJ3U2tJNmcxTHVITmJyOG5oWUZVc1dxbU1fVzNSOUxQdU5lNzV3SU5uYjZZeDJx?oc=5",
+      "pubDate": "Wed, 29 Apr 2026 15:06:25 GMT",
+      "source": "블루밍비트",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "주가 하이닉스에 처지고 파업까지…열받은 삼전 주주",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9lVUd1UzhHdGxSTUk1T1FnZHpCWGhlZzhlWFFzUkl5bDJlY0VmV2Vyd2pUaUtDQVRzZkptNHJDMHJ1Vk5TZUZRYjJvREVwaEU?oc=5",
+      "pubDate": "Wed, 29 Apr 2026 15:05:07 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": []
+    },
     {
       "title": "비트코인, 핵심 지지선서 반등…트레이더들 8만달러 재도전 주시",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBkakJoT2FOUjRNV2ZRUEdtLTNveGttRGVhSXE5M2k1Q3hmVDhicEh2TEhGaFctZmdrVEl6R0twUTRjY1VXWWF4Y0FwT1pySTVTTnpRN3ZrRzlNYlVWY2taaG41VWl0aHExRWgxdU1SdnM3cUk?oc=5",
@@ -90,45 +127,6 @@
       },
       "impacts": [
         "환율",
-        "BTC"
-      ]
-    },
-    {
-      "title": "삼성전자, 투입 전력 대비 5배 효율 내는 '히트펌프 솔루션'으로 난방 전기화 사업 가속화",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5MUWRlNUdaRUZhV0tpOE83NUJrdmxaYThGS2ZpQUxUSVBqd2dzZVFVcFBVY01iQXlfQ2FJQmp6TWhVT2xpSDBEWTQzWnllZm5DQzhSdlVMejRYVm91bS10ZjVEVzQ2QQ?oc=5",
-      "pubDate": "Wed, 29 Apr 2026 13:28:46 GMT",
-      "source": "이슈투데이",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "아담 백 “비트코인 ETF 호재지만 기관 자금 예상보다 느려”",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5IcFc2WVBycFRvZWRxWUZ5VVRhYXp6SlczVFRhMDJBUHVvRnJBX2ZSNjVXZzYzS3BUYzVxelNTZng5TkNlTUNIYVQzNDZqSVl5d2JHcFY1MS16WWVueG5ndGI4SjBmVmZZazZrZTdDUlRiMEE?oc=5",
-      "pubDate": "Wed, 29 Apr 2026 13:11:45 GMT",
-      "source": "디지털투데이",
-      "category": {
-        "label": "🟢 POSITIVE",
-        "color": "#4ecdc4"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "부탄 정부, 비트코인 102개 추가 처분",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5jS2I5cjBjakVndHJxdFJqTVozZU02ZV9GQVNIYlVScmhYUDlVY2dxN2NmLU0xclJoYU14eERhSDU2ZTQwV0lndExGdFVYRTV4d2VjRXNyUUU4N1ZUbmp2a3lPRGFkU21RaXVpWNIBb0FVX3lxTE5fTDFrZllFeE44eE5mR0FMRGVadFhfalNPNVNyaXMwSFZRbkNjQWJEZGdpRkhmQXBydlYtN280WG9jcFYybDZrc3p1a0hMWXMzcTFQcy1sTGdISUUxUHhwdE12cXhoTEJRT2k3YWN3Yw?oc=5",
-      "pubDate": "Wed, 29 Apr 2026 13:05:52 GMT",
-      "source": "한스경제",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
         "BTC"
       ]
     }
