@@ -1,7 +1,21 @@
 {
-  "timestamp": "2026-04-30T02:09:55.927754",
+  "timestamp": "2026-04-30T02:40:12.338767",
   "count": 10,
   "articles": [
+    {
+      "title": "비트코인(BTC), 7만6000달러 일시 반납",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9lVm84ZTh5ckJPUnZOOHZaNk0ycElIdTJyeUJMb0kyRnRXYkFwNFNucHRSLURyaXBxTjhpTVhOTmItUmVIdDR5enVuTEs0Vjcz?oc=5",
+      "pubDate": "Wed, 29 Apr 2026 15:57:23 GMT",
+      "source": "블루밍비트",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC",
+        "환율"
+      ]
+    },
     {
       "title": "삼성전자 ‘SSAFY’ 첫 수기 공모집 발간",
       "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE02SS0yRWh4SUNFYW1iQ3Q1V0tFcU41TjJ6ZFVfOV9RUmkwMmo3aGJCVHphMGEtOXlSTDBpQ28zWU9SNnJLRjNyWGw0LXRyYTc0T1NjZWdydC10R0d3OXdPOUdCS2lTYllja1NYd1BnOUk0N25neWZ2cXU5UQ?oc=5",
@@ -88,8 +102,8 @@
         "color": "#a55eea"
       },
       "impacts": [
-        "환율",
-        "BTC"
+        "BTC",
+        "환율"
       ]
     },
     {
@@ -108,19 +122,6 @@
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBUc3V3U0dNS2VtS1g5ZGVFZWdwM09aU3NmTTBWYVBwd1JrMXAxeXlqNkRmRFhmRmQ4enk2NjhqNkFXOVpGTThKME5QTzBUNFNZTUhfdjljM1FlOVZWYTBrSEZlRXVpUk9kbkg1OQ?oc=5",
       "pubDate": "Wed, 29 Apr 2026 14:31:55 GMT",
       "source": "경기포커스",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "'삼성전자 가처분' 심문...'필수 인력' 입장차 여전",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBnZTZJMThqWV80TG81N2tBZW5KRFJSMndLUFZET2ZXTGItUXIxMHFMdkc4Z2JiWHI4dHFxMW9LcVZzSXNXQ1VieHg0cHJsTEtCV2Y1QjdYSzBkeC1IVWc?oc=5",
-      "pubDate": "Wed, 29 Apr 2026 13:51:00 GMT",
-      "source": "YTN",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
