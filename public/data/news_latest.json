@@ -1,24 +1,76 @@
 {
-  "timestamp": "2026-04-29T14:17:04.944104",
+  "timestamp": "2026-04-29T14:38:17.911570",
   "count": 10,
   "articles": [
     {
-      "title": "\"비트코인, 최근 상승 동력은 스트래티지 대규모 매수\"",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE4yVjJHWkJCd0daSjhMZElNeFJOVFNYeEI1aW9FNGxOTkJkLV8xLS1fYThNVGR6N0dGQmkxbGszVU1yQlVLTDlOZG05azBqcjFO?oc=5",
-      "pubDate": "Wed, 29 Apr 2026 05:06:37 GMT",
-      "source": "블루밍비트",
+      "title": "외국인 매수세 삼성전자 급반등…코스피 6700선 터치[장중시황]",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE83NUp3U0hBSDF5UWx0RU5XN05fTHhLZEUwNE1MSDlERk0yMFBGNUY1Zzlrelp3UFFydEtlRnRhcGlTNk1MS1Vhb2xYcUdpX3I1aXEwRW51a2o4NTF1YWFR?oc=5",
+      "pubDate": "Wed, 29 Apr 2026 05:27:26 GMT",
+      "source": "뉴스1",
       "category": {
-        "label": "🟢 POSITIVE",
-        "color": "#4ecdc4"
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "미래운용, '반도체 커버드콜' 순자산 2000억·'코어테크 펀드' 2조 돌파...IT·액티브 시장 선도",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQnpOWXJoZFBaeDRDRllNOWhqRjZ5SWFPdVMySW5IaUxYYm1WS3prQkFIcVdxMGk2WXUxOXhFR3F1cUhndUJlM1FOeFRMRVZ3OWJiSlR2YUtQbmgwSzhOTkRrb1ROQ1lJR1ZLNTVSSjlwakZUTUEyb1dvNGhOQThXV3NOTC02RG5Y?oc=5",
+      "pubDate": "Wed, 29 Apr 2026 05:26:36 GMT",
+      "source": "글로벌이코노믹",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "문금주 의원, “농어업 희생으로 이룬 반도체 성과, 농어업인과 나눠야”",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE80YVVfelVXYk4zUXYyaDBUa0UxQnZDX3RfSDFtN1JtTkhycWxtNmxzUmlxSEdxZlhmT08wQnBSTTRZSWh2c2tFUEZyYXdYTzZleE1CaC12ZDBHd0lBWlJMT2V0eUwtLWFqaEgzZg?oc=5",
+      "pubDate": "Wed, 29 Apr 2026 05:26:21 GMT",
+      "source": "농수축산신문",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "가상화폐 대부 \"비트코인, 아직 저점 아냐\"",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0zUk03ZkxLTk1HOUFSVzRVdUZab0NZRjFZM2lSeUQtcnRDREczUzRSWDZRYVFwNG5LOVJzUWtxWjZOZUZMd281cl8zOExER2o4YWltUnpVSWdPdVdxSjNWNExuRzIwenItY0JHeXBhZF_SAXRBVV95cUxQMEdyWlJPUjdaOUxEWWVNUUhXRE1IMlFZUl9UT3puRE1PMzVPTG5qWkJZSEtESjJ2R3FmelZ5WGoxYlloNm1xVTVVTjJVMlNyeXpESkc0WE80dzlIWlFWc3dhUFVoLVd5TGZBS1VySzhQMmZ2VA?oc=5",
+      "pubDate": "Wed, 29 Apr 2026 05:25:40 GMT",
+      "source": "연합인포맥스",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
       },
       "impacts": [
         "BTC"
       ]
     },
     {
-      "title": "삼성전자 2배 수익 노리는 투자자들…사전교육 하루만에 2000명 신청",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5aSm5xSWFtRnRqYnVDQldJUnJ4QmpDVEZ4SWQ0a1M3TVpTMDdfWTFYNUFHRjdnNEtfNWZCT3FFeU1ab1NJM3lSNFVhQlJaQQ?oc=5",
-      "pubDate": "Wed, 29 Apr 2026 05:03:30 GMT",
+      "title": "삼성전자, 오픈 AI 악재 딛고 1% 상승전환…SK하닉 보합[핫종목]",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE82VkE1OVpKSDRTRWxEalZTT3lxdHNYUEx2cGcwb0dfTGJ0WmpKRHRzZ2YxdGcweE5nTGV1MmFYbjJNU2c0MUVhajM2aHlJMGNMcGxLTUpQU2stbV8xZWhB?oc=5",
+      "pubDate": "Wed, 29 Apr 2026 05:25:35 GMT",
+      "source": "뉴스1",
+      "category": {
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[반도체 특별법, 경기도가 묻다③]수도권 입주 기업은 제외?…반도체 생태계 현실 외면한 역차별 논란",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBDQ3MwY3RtbzNXRkVfRzl0dVJRbVVIOEs4YlBWNk81ZE56elRIYldNOTFEWmpxXzZQX0FneHBTcVZWSF81ZEVrdTBZUVZ3QQ?oc=5",
+      "pubDate": "Wed, 29 Apr 2026 05:23:46 GMT",
       "source": "전자신문",
       "category": {
         "label": "📋 GENERAL",
@@ -29,10 +81,10 @@
       ]
     },
     {
-      "title": "법원, 삼성전자 ‘노조 위법쟁의 금지 가처분’ 다음 달 13~20일 결정",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAteWF0MjNiRFN2ZXpkZEVBMUZsd05pN0xyTkZpa0JxNFhnWlBldVFKaURaZFlXSk5yRWVUZWdHQ241SFV5NmJ0UWRxdzJyeU1RSWlZSzJJMHBuV0U?oc=5",
-      "pubDate": "Wed, 29 Apr 2026 05:03:00 GMT",
-      "source": "KBS 뉴스",
+      "title": "[기자수첩] 반도체 호황 영원하지 않아, 냉철해져야",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBnSnhkRUlTSjNRWC1MRWpHQlhvTlZpZU1xYjlsamtBMVduNU15VFoxeTY2MHVHT3dtem5SbGFrdTVuTlhORkR3clFTSTJxZ05RZk4xT3Z6bUY1dW0wNWJwTnByeGlnMnE4Ym4yag?oc=5",
+      "pubDate": "Wed, 29 Apr 2026 05:23:08 GMT",
+      "source": "seoulwire.com",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -42,10 +94,10 @@
       ]
     },
     {
-      "title": "[에너지경제 여론조사] 국민 70% “삼성전자 노조 파업 부적절”",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5Tc3pseU1rN1lJS3hXYTZ2cS15UkRMUmVoNFdOZWNtZUNvTHN5R2prOGJlY3B5VkpNTWR3SUNFdGQzRFdhaG4wcE5oSjd3LXQ3dDRmenpnSHU1UDY0R3pqbGVjSQ?oc=5",
-      "pubDate": "Wed, 29 Apr 2026 05:00:32 GMT",
-      "source": "에너지경제신문",
+      "title": "[현장+] “삿포로 추위도 녹인다”… 삼성전자, 고효율 히트펌프로 난방 시장 '세몰이'",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9tVm5QcHVfaFI1REhxNlk5X2VydEt3M2NTUFUyWlFMOXk2Ql95dFpzMFFmSWVZaG5PS2pkcUdoVm5GQmJOZkthUEtGVFhUYmZzRUM4VUxNSzhhTG5lLTRuTjB0aEQ5ckRI?oc=5",
+      "pubDate": "Wed, 29 Apr 2026 05:22:08 GMT",
+      "source": "녹색경제신문",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -55,75 +107,23 @@
       ]
     },
     {
-      "title": "투입 전력의 5배 열 내는 ‘극한 효율’… 삼성전자, 히트펌프에 독자 기술 적용 - 조선비즈",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQWjM3amlrUHRGM0NUQTM5WXZXLU5ZNllQU1p4Wmh0bHBraTRPUjBQdjFwdlRwbGhESlJpUzU5MFgyQXBkczdYd0YwNlVmeUduYUFBdC1MajZMc3hXUnZLaVh4eHVFVmNvWVRmZTUtaGV4ekIwakRzejJFUUVVQ1QxakJR0gGWAUFVX3lxTE9XdzVYdmhFRjRGd1B5ellmemcta1hxa3BoeHV4aXZtTUJsbTF1TmRHdlJER1ppR0xLUzloT0QxSGpMQXg3RGl0d2tUWjFKdWt3aFdZRU1FQWEwNDcyTko2NXNuTmJiVGE1a09TSlNWbHdsY0wzMExvaFV3R3IxNndFYjcyR1RuRFhUYVhsUFVFSVQ1VFdsdw?oc=5",
-      "pubDate": "Wed, 29 Apr 2026 04:58:21 GMT",
-      "source": "Chosunbiz",
+      "title": "비트코인 2026서 \"세일러 BTC 1천만弗” 목표 제시",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8zdkQxWUdQXzM0VXI5Z1VEWmU3NkZZZzRtVGdRcl94NHhfQ2RxbkIxWk5hZjIyQ01LTkVjTXB1Qzk3VDRnRXVOV2NJYThlSzh3bEpoSjN5bUY3NkxOaGtZbTdaNDh1WUlaQ1Nv?oc=5",
+      "pubDate": "Wed, 29 Apr 2026 05:18:40 GMT",
+      "source": "한스경제",
       "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
       },
       "impacts": [
-        "삼성전자"
+        "BTC"
       ]
     },
     {
-      "title": "구글 제미나이, 韓 반도체·제조와 손잡다",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBuOUlzZE10cUZoMHM0ajJjbFBCZVNYbTV6SHZFZW15aFVCRjhPbUhJRzJ6cGpVRVNyMkVDbk5vQkRmZzhaNHZBdXVDYW12RkhXYW1WR0ppSTRZLXhxb0R3cUsxWkJTNi1LczFkdA?oc=5",
-      "pubDate": "Wed, 29 Apr 2026 04:57:24 GMT",
-      "source": "mstoday.co.kr",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "현대차그룹, 英 런던대 SOAS와 아프리카 모빌리티 산업 연구 성과 공유",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE12dFhZcTBhZUlxWjlvUEozdXpwZTVVMTkzNFVwQ3g4c3ZwbWY2a3JjaHBVNjRnUjNNY2lhS0g1aDNwUUhJR3dFdGxQTzY3RHRI?oc=5",
-      "pubDate": "Wed, 29 Apr 2026 04:46:20 GMT",
-      "source": "문화일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "산은, 현대차그룹에 태양광 PF금융주선…RE100 달성 지원",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE81b1NzMmdrZUx5WmZuUzBac3E0cEZWWE5oSlJKT0prVExnSzlUN3JQVERDRkljcXBwYjlHMF9xY2N0LU90X1ZfVnVhZ1RsWnluMjF6blRnSEJ1M1VMYkJEWEZsS3JxTlFzaHhQX3Q3bjg3LXJl?oc=5",
-      "pubDate": "Wed, 29 Apr 2026 04:42:05 GMT",
-      "source": "연합뉴스 한민족센터",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "삼성전자 “고성능 히트펌프 출시…국내·유럽 공략”",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBLV2RNZjIxTTlaLUs4bmpQWEdaY3ktQlZ1Y1RsS0ZNbXVXOUxlelNOaHJhTzFRakFVSC14TF9hcUNIUC1Xc1ZrV2JfX0hSUQ?oc=5",
-      "pubDate": "Wed, 29 Apr 2026 04:39:08 GMT",
-      "source": "전자신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "현대차그룹, 장하준 런던대 교수 초청해 아프리카 산업 연구 공유",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9UV05lbExtaE9JcmV6XzBPZTFJbWs5cFhha0RrYWV4S1lCWFRXRUJtTFVfVTBwRjNUZXNQaVRTQy03REpxWExiRTBXYks3Ukk?oc=5",
-      "pubDate": "Wed, 29 Apr 2026 04:36:03 GMT",
-      "source": "v.daum.net",
+      "title": "현대차와 어깨 나란히…경북 자율주행 기업의 도약",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOTFNVcGZTcVFnSmQ4bU9LWHZlbzJBYXlncy0ySDJVOFFvUGQtWmlkQnFJTHVwbHloUTczTUc0bVVoZUFuVEVHUDVTbjBObG4tVm9zemtqQ0NGalRDZDIxU21jb3NncTVvSkswM1dtdlQtWmVEWk5POEFOWlg2LTVFNQ?oc=5",
+      "pubDate": "Wed, 29 Apr 2026 05:10:23 GMT",
+      "source": "티비씨",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
