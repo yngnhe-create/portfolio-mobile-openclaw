@@ -1,12 +1,38 @@
 {
-  "timestamp": "2026-04-30T12:17:05.077463",
+  "timestamp": "2026-04-30T12:44:32.493473",
   "count": 10,
   "articles": [
     {
-      "title": "'반도체 벨트'에 올라타지 못한 통계학 전공 학생입니다",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB1d2g2RC1nZk1CbVk3SHhweGloSHktZWh6YmRYbVJFaURVd3NjRmp3c1NpTWNRMzh5WjdMdUNzU3BmMV9iYTA0ODg1b2Ita3c?oc=5",
-      "pubDate": "Thu, 30 Apr 2026 03:08:20 GMT",
-      "source": "v.daum.net",
+      "title": "삼성전자 반도체 영업이익 54조 육박...영업이익율 SK하이닉스 앞질렀을수도",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWDJ5OWFsQmVLRER5cm8xRXR0bnBLb2tJTUZKbjZLaEg2d2dsZS1PVy0zU2VGc0szM083YktlYlJwZDkxelI4bXBXOVF2VERrU1VxOVA3LWkydUFVRjJGMXpBdEprTU1aZnYxV1MyTGhDYkI3RWw4RndWd01EY2h4SGktU0FhWjVocVBydFhRREo0eVU?oc=5",
+      "pubDate": "Thu, 30 Apr 2026 03:41:00 GMT",
+      "source": "국제신문",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전자, 1분기 영업익 57조로 역대 최대…'메모리가 다했다'(종합2보)",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5nRkRSb0drQ2hqSHd6dXlhV0xKTWRxYU54NkNWQ3BfNk5MNTJGWkhITTgzazQzaW1nWmJMSEd6QndYanNsQWQwamdiMEw4NkQxb2szYVhVNUFqMzZfaWRzOUo0WXZiYWoybl8xSThwYk8?oc=5",
+      "pubDate": "Thu, 30 Apr 2026 03:32:37 GMT",
+      "source": "연합인포맥스",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "‘반도체 질주’ 삼성전자… 휴머노이드 새 승부수",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9yNlJpZ1V6WmItcHNBQ24zbEpmbzNIdlRRX3p5MWRXcDU3TlNFN0hFY2tZcmI2Mk9jR2VZa1R4SFBoazhZVVI0czRubEFiX2hE?oc=5",
+      "pubDate": "Thu, 30 Apr 2026 03:16:12 GMT",
+      "source": "문화일보",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -16,9 +42,22 @@
       ]
     },
     {
-      "title": "삼성전자 \"가전 수익성 부담 가중…선택과 집중 추진\"",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE95VkVuVk12djJxTjZhMFl3M2lUdWVxbVRxSnFKTFZuaTdUQ3FKY2RKLXRQX2wwbTRIa2VMcDdXUTVIOWVUMlZEY0JMeUdrZ2s?oc=5",
-      "pubDate": "Thu, 30 Apr 2026 03:03:02 GMT",
+      "title": "생산·소비·투자 ‘트리플 증가’… 반도체·BTS 효과",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE45TDhUMWpvSlp5di16Wl9KT3ctNm8wQWRWVGc1dlpQU1FfUW1Nb0pXOUlUNXlKVEoyZDI4V0txZWluWEg4Wm9nWkF5MU83M2s2?oc=5",
+      "pubDate": "Thu, 30 Apr 2026 03:13:38 GMT",
+      "source": "문화일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "'반도체 벨트'에 올라타지 못한 통계학 전공 학생입니다",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB1d2g2RC1nZk1CbVk3SHhweGloSHktZWh6YmRYbVJFaURVd3NjRmp3c1NpTWNRMzh5WjdMdUNzU3BmMV9iYTA0ODg1b2Ita3c?oc=5",
+      "pubDate": "Thu, 30 Apr 2026 03:08:20 GMT",
       "source": "v.daum.net",
       "category": {
         "label": "📋 GENERAL",
@@ -81,55 +120,16 @@
       ]
     },
     {
-      "title": "반도체 호황의 ‘역설’…삼성 갤S26 흥행에도 모바일 수익성 ‘흔들’",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBOUmpqaS1lNXBRUHNsTi1qa3RXZ210V1ZsVWV3QmhMSU9Ldmw0NC10eElvNlVzNnV2Vk4wMWdJZGNnaFdoNE1nX0Nzbk5KNTM5SmlxV3Y0T0dYWXBqWnhWdw?oc=5",
-      "pubDate": "Thu, 30 Apr 2026 02:53:11 GMT",
-      "source": "뉴스토마토",
+      "title": "영업익 94% 반도체서 쏟아졌다…삼성전자 `HBM 완판` 2나노 파운드리 정조준",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5ONm5vZTVfS0hhUFY3Q0FfaTBhWGI1eVFrR0pMQ3I1eTg0SDFXMkVQc1RrcUg5TTc0SkRZRF83RnRsdmVicnF2cEg5X3VoVzZ1WXo0YXZSR1BYU2d2TTJSTlNTZUE?oc=5",
+      "pubDate": "Thu, 30 Apr 2026 02:54:47 GMT",
+      "source": "디지털데일리",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
         "삼성전자"
-      ]
-    },
-    {
-      "title": "‘사상 최대 실적’ 삼성전자, AI 호황 속 사업 재편… “2027년 메모리 부족 심화” - 조선비즈",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQT0p5MjdZQlpBNk9HQksxSG5xaFN4NmxUVFNYQUlKWkRPQ21tNXNXWmJsYnpVRFducDZMVzBJc0xlR05YNEFmQzM0MkZrQlpmaTd2N0g1NFpBU1NBYW8wNVJvZDJnS0VLeFkwakozT25ROUJ0UXlsS0tlNTQ0ZnkyZnBB0gGWAUFVX3lxTE04alhJcUxUTS0wQlBDTEZIY1JKVmd6OGxBVUprb3FxbmNDR0p3Z21pYU5WRWVKM1FwSDd4N0kwSVl5R1ZvWS05RUpabmtaVjh1ZDhlUS05dE5YQk1iTE5abzlTTW55bUxXTXFJei1ncDAxN09nMW5HSi1nZE10SDk0eklfTnR6ZVdacVlsZGxYLUNCN3cydw?oc=5",
-      "pubDate": "Thu, 30 Apr 2026 02:51:00 GMT",
-      "source": "Chosunbiz",
-      "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "한-카타르, 제조AI·로봇·바이오·반도체 등 첨단산업 투자 협력 강화",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5BR0EySl8zRldFSlVpWVFZNWtHVDNUYWgyRkRyQUJ5eW1kR3R4QnFITjgza0doZFVjOUZtS2twSElKNzktOXB6VUlZQXZ6VXBRSG5kQmpSVFQ1emRINVhnN2QzOVRjOVJyUjZhUg?oc=5",
-      "pubDate": "Thu, 30 Apr 2026 02:50:48 GMT",
-      "source": "로봇신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "현대차, ‘캐치! 티니핑’ 손잡고 내일부터‘유스 어드벤처’전시",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE0tcjhnM0ZmTTVVZ3k1ZF9wREpsREU4YnJYY1Ixcl9ILXNJWW1WWHZER2c2eEowMVJReDVvNm4teHU1Rk5TVW5tZ2sxUzdLQ3Yz?oc=5",
-      "pubDate": "Thu, 30 Apr 2026 02:50:13 GMT",
-      "source": "문화일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
       ]
     }
   ]
