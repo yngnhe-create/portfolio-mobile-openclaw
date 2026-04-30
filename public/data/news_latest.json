@@ -1,7 +1,73 @@
 {
-  "timestamp": "2026-05-01T04:47:52.485909",
+  "timestamp": "2026-05-01T06:18:05.579794",
   "count": 10,
   "articles": [
+    {
+      "title": "중국 전기차 '생존 경쟁'이 신기술 개발 자극, 현대차도 미래 콘셉트카로 맞서",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE55OUZUMmhJZ3ljM2tWek94NTBWczdvNGdkQmxYMm9UMFNUMUNoYVVpQ1BVMFFtYnEtUzFqS0pXQ2l0Z25ZSkxadEVoS0lOcEREQXdQcTltcXBZUzRvRE05X21iSkZuSmtDR1NKZU4yQkstdnM?oc=5",
+      "pubDate": "Thu, 30 Apr 2026 21:00:00 GMT",
+      "source": "비즈니스포스트",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차",
+        "테슬라"
+      ]
+    },
+    {
+      "title": "비트코인 시세…이더리움·리플·솔라나 가격",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE4xaS1nalBmTHV1R01ZQWczR3lodGNTR0FwUmJhZjRwXzE4eWxOT01MU2ZCSUM0YW03ZjhuenJZdW1QcjdPb01YU3Y3YlVIbjA?oc=5",
+      "pubDate": "Thu, 30 Apr 2026 20:17:00 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "삼성전자 노조 파업의 치명적인 문제점",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1fZnZaSGx3T0tMbzNNNkNHUG8yM015WEd1Ymt2d0ozbEJ2aXYyZ1Uxd1JZa0lLR1gxTnoxRzBjeGtic1pBcGpPLWhOWHFBQ1RaVVVUblBn0gGaAkFVX3lxTE5nMzMyeUlSQXQ2WkdLdXhtTWdIVmxKZWlRcXlkMXlseWlHUTNSTm1ZSmlMSlBod1F2M1FXMnBSTWxZcGxWRWEwZXJFYVg1LUxTVEdSVkVVMDJYdHFOczJYUGttTE5jZm96dHlEa3FjbTlqX3ZzWjRpSmY3UlJrVEs2WHpuVGMybVhhS3lUNkZLbEtvREJ6MHQ2M0JsREJkdjBEZ2RnQS1WTFRnR1ExWGNHVGdnYnpNZmtJMnZRVXZVNnF5Z3FVcktOUjZOQ3JJNXNONERSam5DSGw4NkYwXzZ2WFI2aXlUYkNqZ0xTbXR1Q280N0JkUHJ1Y1F6TE9wVkdRckJGUUpUcFZYMndzY1ktWERydnB1dGNvdw?oc=5",
+      "pubDate": "Thu, 30 Apr 2026 20:02:00 GMT",
+      "source": "데일리안",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "\"스트래티지 비트코인(BTC) 매집 모델 지속 가능\"",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9nUmFzOFM0LXVBcEtydVhvckVPbW5SZXBBdXZ6c1dGcTRSMTZkMDhGanYyZ19GS2JJVU1NZnM1bjF1RGI3S1oxVmZNcmZNMnQz?oc=5",
+      "pubDate": "Thu, 30 Apr 2026 19:56:07 GMT",
+      "source": "블루밍비트",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "트럼프 차남, “현시점 비트코인 최전성기”",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA0em5Wb3lzeTJBMzM4dDRLMjE0TFZEdWdybWhkVm8xaURDREtHYlNvNnI4dnFsZkV5UC00RUxUbVhnanNERmJvczVuZTMwblhYaG9JcWVTbTJ3b3llWWdLSFZsbnJrRURqN2RwZg?oc=5",
+      "pubDate": "Thu, 30 Apr 2026 19:53:47 GMT",
+      "source": "경향게임스",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
     {
       "title": "헬륨값 2배 폭등, 반도체 공급망 비상… 'K-칩' 재고 6개월이 승부처",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQWUxMZTMyMVdsbWZiMXFOM0hjT3E3NDBFYW50VUFseTF0c0h2QlJFMFEyUWF4QUc0ODFPS2Z0c0xSLWw3aXBEREtEVmljNWlneHYzT1VCMS0xSHZnQU5JaDFoQ1plNzktbVFqYTJEeGtVNE1HUlU2My1qa2x4VUZ1U21od3pyMXhi?oc=5",
@@ -42,19 +108,6 @@
       ]
     },
     {
-      "title": "\"스트래티지 비트코인(BTC) 매집 모델 지속 가능\"",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9nUmFzOFM0LXVBcEtydVhvckVPbW5SZXBBdXZ6c1dGcTRSMTZkMDhGanYyZ19GS2JJVU1NZnM1bjF1RGI3S1oxVmZNcmZNMnQz?oc=5",
-      "pubDate": "Thu, 30 Apr 2026 17:59:24 GMT",
-      "source": "블루밍비트",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
       "title": "李, 삼성전자 노조 겨냥한듯… 靑도 ‘삼성 파업’ 보고서 작성",
       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9qLTY5bUFITi01eFpTQk9TX3pLckE0d3JXaE5pcEVzZnM0Q19LdlBpeHhxTlFXUTFINUt5STI5UW1FbmhpbVJXbmdlZmtIQ0RrMzRjUlV1dkIzTnA0bEdXMnZXMXEzWE4xYXpEaWo2YWwzdjM3NUtr0gFmQVVfeXFMUHFLRkk0Qm8zRnFBNHVEYjJsOUpiRl9ObkdjREdYZnhsLXVHM2tiaHBWdFdNRm5LYlJ3NnpUX3dPdXlFYVVNWkExa2llT3ViYVpHYmEwTjhqZ0l0UV82S0w0N3gxN1J3?oc=5",
       "pubDate": "Thu, 30 Apr 2026 16:40:00 GMT",
@@ -72,58 +125,6 @@
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA2MlVNUFJmYUVzSkVTVWtmWHRCQTNqdnFyT3FuQnhGT0JHSUM1aVpuc0xNeGp2dnlxaUp3QTlmMm9WQU5XbjZ6bXZaTTREeGthNWJmTzB4SE15MHdteHh1ejJMWG55TUdsa09oN1NZRU9QTTJld2fSAWZBVV95cUxQSUdIeTlJMWVRN2Q5anlOaXVwdURCQXdxSnotc3VJcEVmZE0wTFplV0cxQkh6VU9fdzRaWTQ1UU1SUDRIZG5fQ2FNdUVVbDJNbFhKeWV3U3hlWEZhLTFnaU9iZGYwWkE?oc=5",
       "pubDate": "Thu, 30 Apr 2026 16:40:00 GMT",
       "source": "동아일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "차량을 스마트폰처럼… 현대차그룹, 대화면 ‘AI 비서’ 탑재한다",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBaN19TUHVoVWF6NHZ4UEJ0Tm1UQzBsWnJqdUJqcU85Z1pUVnUzcXpXbHM1Q0N6MW5fMUVHRS1XdnE3OEZHcld0OFA2YXBIVEtadkFkeDJlWjRjQjZSV043dzluaHJ5QVkwTF9Wclk1STU3SFZYUmfSAWZBVV95cUxOMDVVcTNRWjFzMjFTTktxNGtwZWRDb1NTZ0VZT2RscjB3Z2lYUlJxeW5jeENJM1VMVnhDM0s0empBaTZNTlRVSm5iMXBENTl2SWRrVWtablQyUGxha3NVOWlXX3JSN2c?oc=5",
-      "pubDate": "Thu, 30 Apr 2026 16:40:00 GMT",
-      "source": "동아일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "비트코인 품은 리플... XRP 넘어 ‘통합 유동성’ 거대 금융 인프라 구축",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5MQlpndm5VQTF2VXBocTdLRDROR2pIeEUyT2pibWdfeHR4X2N0M2ZjTGMyS2pTV0ZqeHdfRFJuWlhrZzBxNXMtY2YzVDZwT1JSM0RyOXc2ZU5YMmJLSWkybTNreHNhRjlMRUkzT28xZHMzQU9ENXc?oc=5",
-      "pubDate": "Thu, 30 Apr 2026 16:37:02 GMT",
-      "source": "블록체인투데이",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "\"만년 적자 비메모리도 성과급 대박?\" 삼성전자 스마트폰·가전 소속은 분통",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOaVJ0b2VuSUtsWUZoU01JYnBTb1hfTHpTSkFIUlIxRlZsMHBkRjFEUnV1eS1xNGJXM1NwelZsTmx6T1QtRnd5YTRPdm56MWh3dFFSeUVYSWZPUFJ0am9SU0NxVWVqOHVvaF9VTDl5YU53bV9TdUpBNzZOdmJEQlAyUFdfRQ?oc=5",
-      "pubDate": "Thu, 30 Apr 2026 15:55:00 GMT",
-      "source": "조선일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "반도체 주춤에도… 3월 생산·소비·투자, 6개월 만에 트리플 증가",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE43WHcwR2ZaSkxBcXpTaThBX0VSekUwQS0xZmJXOURYcUwwRG5kNVJqSkNfcmRpYWZlV1BEZ3N0dERLMlRiZGxDQzUyUm1VdWs?oc=5",
-      "pubDate": "Thu, 30 Apr 2026 15:21:00 GMT",
-      "source": "v.daum.net",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
