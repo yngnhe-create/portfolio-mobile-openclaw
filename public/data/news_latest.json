@@ -1,7 +1,20 @@
 {
-  "timestamp": "2026-05-01T04:17:39.284755",
+  "timestamp": "2026-05-01T04:47:52.485909",
   "count": 10,
   "articles": [
+    {
+      "title": "헬륨값 2배 폭등, 반도체 공급망 비상… 'K-칩' 재고 6개월이 승부처",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQWUxMZTMyMVdsbWZiMXFOM0hjT3E3NDBFYW50VUFseTF0c0h2QlJFMFEyUWF4QUc0ODFPS2Z0c0xSLWw3aXBEREtEVmljNWlneHYzT1VCMS0xSHZnQU5JaDFoQ1plNzktbVFqYTJEeGtVNE1HUlU2My1qa2x4VUZ1U21od3pyMXhi?oc=5",
+      "pubDate": "Thu, 30 Apr 2026 19:15:00 GMT",
+      "source": "글로벌이코노믹",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
     {
       "title": "시진핑 “반도체 기술 구걸 말라”…그 특명에 주가 15배 뛴 회사",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE56dkg1WFhEXzFadXNSUDdpa2UwM2xjcjFoSmZEMWE3SHFtYkhlQjdDWEJYb3pGYTRFV21xdVF0bTBmVnZqTEFpeWRjUDY0ZTFJRXh4WFF3?oc=5",
@@ -81,6 +94,19 @@
       ]
     },
     {
+      "title": "비트코인 품은 리플... XRP 넘어 ‘통합 유동성’ 거대 금융 인프라 구축",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5MQlpndm5VQTF2VXBocTdLRDROR2pIeEUyT2pibWdfeHR4X2N0M2ZjTGMyS2pTV0ZqeHdfRFJuWlhrZzBxNXMtY2YzVDZwT1JSM0RyOXc2ZU5YMmJLSWkybTNreHNhRjlMRUkzT28xZHMzQU9ENXc?oc=5",
+      "pubDate": "Thu, 30 Apr 2026 16:37:02 GMT",
+      "source": "블록체인투데이",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
       "title": "\"만년 적자 비메모리도 성과급 대박?\" 삼성전자 스마트폰·가전 소속은 분통",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOaVJ0b2VuSUtsWUZoU01JYnBTb1hfTHpTSkFIUlIxRlZsMHBkRjFEUnV1eS1xNGJXM1NwelZsTmx6T1QtRnd5YTRPdm56MWh3dFFSeUVYSWZPUFJ0am9SU0NxVWVqOHVvaF9VTDl5YU53bV9TdUpBNzZOdmJEQlAyUFdfRQ?oc=5",
       "pubDate": "Thu, 30 Apr 2026 15:55:00 GMT",
@@ -94,36 +120,10 @@
       ]
     },
     {
-      "title": "일론 머스크 \"비트코인 좋아하지만, 대부분 암호화폐는 사기\"",
-      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5DQVFILUExVmltd0RaNDFscDNFOGpxdHk2T0pTQ3psejdiMDhWZUpsYTk0T2VzSEYyb29RU0ZPLUdzMmI2OWVkUw?oc=5",
-      "pubDate": "Thu, 30 Apr 2026 15:54:16 GMT",
-      "source": "코인니스",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
       "title": "반도체 주춤에도… 3월 생산·소비·투자, 6개월 만에 트리플 증가",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE43WHcwR2ZaSkxBcXpTaThBX0VSekUwQS0xZmJXOURYcUwwRG5kNVJqSkNfcmRpYWZlV1BEZ3N0dERLMlRiZGxDQzUyUm1VdWs?oc=5",
       "pubDate": "Thu, 30 Apr 2026 15:21:00 GMT",
       "source": "v.daum.net",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "이재명 \"과도한 요구, 다른 노동자 피해\"…삼성전자 총파업 앞두고 '주목'",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE56SW5ZWGN6WHlPUWo3V1dhVEdaRmczb0VJUWJPVlNDaWhDSHFST3FjUkxNMF9qNnl3a2ZsUTBjR0x3dkxfcXl1VGhlaF9nX0tDUlV6aXoybG5IalFJbDVkdTNxeHFudw?oc=5",
-      "pubDate": "Thu, 30 Apr 2026 15:19:37 GMT",
-      "source": "이로운넷",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
