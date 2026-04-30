@@ -1,78 +1,39 @@
 {
-  "timestamp": "2026-04-30T09:12:53.495068",
+  "timestamp": "2026-04-30T09:43:07.183666",
   "count": 10,
   "articles": [
     {
-      "title": "중동 전쟁에도 3월 소비·생산·투자 모두 증가‥반도체는 감소",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5hZUxvNG5Xa2dBTVJQMkNsU0Z4SFkxLVJLMUE5Y1VKdjBlRlFCQ19naFBhSEdTSkpvZTdVMGlHTDhzSDJTUWJHNUNxbDJZaTg?oc=5",
-      "pubDate": "Thu, 30 Apr 2026 00:07:14 GMT",
-      "source": "v.daum.net",
+      "title": "현대차, 제조 AI·로보틱스 경력직 채용…스마트팩토리 속도",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBwQ3dPQW5STFREQWJNOEpzUVVNZlBlcW5sS0JTUXZKV1VUajFMcTd0VTRFX09oUGd6Z0I0RjZrZ1F1Z1VKeFdFR0w1TkZfOG1hTlRDSjF3?oc=5",
+      "pubDate": "Thu, 30 Apr 2026 00:39:48 GMT",
+      "source": "지디넷코리아",
       "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
       },
       "impacts": [
-        "원유",
-        "삼성전자"
+        "현대차"
       ]
     },
     {
-      "title": "메모리 호황에…삼성전자 반도체 1분기 영업익 53조 넘겼다",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1IVmpJTmpHTkJXTi1jLVd3MjNEazQ0ZUVUMFRPNnR2RUlaR2QwcFVUN3BSSnJjaUg4azA2aHRrRDJLelNQWlZfRjV2QTVDY2s?oc=5",
-      "pubDate": "Thu, 30 Apr 2026 00:07:02 GMT",
-      "source": "v.daum.net",
+      "title": "“비트코인 20% 랠리, 주범은 마이클 세일러?” 지난 8주간 72억 달러 상당 매집하며 ‘강력 견인’",
+      "link": "https://news.google.com/rss/articles/CBMi0wJBVV95cUxOTklPNXlLNzVrOUpNWG43YkVrM0FmTFhzQVZDSW9EeHphcWFZWkpiTGJ3dmtJMFgyU21uc1IzTXFUZVEyT09VclNhNGh0dkdHNkhhUng3OFN0ejRJNV9CT24tU2xxQ3JJR1BhbW1XRVZkNS1YZDV2ZDlDS1k5eGs5X2pLV1FFMWJTcmtTZmc5YVlGU25hM1NWMnQyX24tUE0tSHZ5cDVtSzBMRjNnQ0FWRUdDQUprOFkwVW91bEVHUkJBZ0kwMkVpX0pXNGN3WGplaUFUdURWeUxUaFlSdGlKWDhUWlBKQko3cFVpVXNPQnNubFV6S1Nxd1BBeXJqR194NWxTYU15dHFPNkl6ZFA2d0FkTng0dzJMM0psMUZ6QnJ4VEl3QVF4U3lDTm9QMGIwbmdDNlZ3RS1La3BQUmF0cmRhcjdDVWdyN3RydkRiUHhWVTg?oc=5",
+      "pubDate": "Thu, 30 Apr 2026 00:39:40 GMT",
+      "source": "Benzinga",
       "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
       },
       "impacts": [
-        "삼성전자"
+        "환율",
+        "BTC"
       ]
     },
     {
-      "title": "삼성전자, 1분기 영업이익 57.2조 ‘사상 최대’…반도체로 53조 벌었다",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1vNDNRZXhtUFplM3lDVHlZZGIzcFpvb1p3aXNtbmtDOVRSakgtXzBmalktMTZDWTVoRkRwOTNpVmlhQmlScTRtbjNrbzVHVkdqSnIydXhZY3FfR2FvSlpzVDFDVHk?oc=5",
-      "pubDate": "Thu, 30 Apr 2026 00:06:55 GMT",
-      "source": "서울경제TV",
-      "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[속보]삼성전자, ‘반도체 훈풍’ 1분기 영업익 57.2조…역대 최대 실적 썼다",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAyR004RWxFY182ZEt0RjFYcktlLWVsQ0hmSWV5UENSLTNnMnZDTWtWLWxtYWt2c2QtVmVxdTZNSkwzbGlLNjhDYlVkUHZzUkRFbG83ZmJVbXpfTXQtOW1SOHA1UU0wcG5acE40SVU5cUlyN2RPc0HSAWZBVV95cUxNX1VDWGJIUXpDYXNZenZzTVAyeDdValBfbDI2ejhLMnR0VGZyZG9OWnF3R191YU5uUUZzaGthaHByeVhuQ1U2blZrVUEydVVJSklUWGF3ZV9LRXZMdnpNakhQWU1UNmc?oc=5",
-      "pubDate": "Thu, 30 Apr 2026 00:06:24 GMT",
-      "source": "동아일보",
-      "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[속보]'반도체 1Q 53.7조' 삼성전자 장중 23만원 최고가 경신",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE50ZFVlbFhaT0Z4THdHdkxsYkwwa3FrTzRMNnd5VDNDOWM0MEVMazlhZU5hQjQyMlBuUnZhU3VvMmJPWm8wNUVuT3luLVpsYWREQTFDa0lEcmowTjMzZFRV?oc=5",
-      "pubDate": "Thu, 30 Apr 2026 00:05:52 GMT",
-      "source": "뉴스1",
-      "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자, 1분기 영업익 57.2조... 반도체 영업익만 53조",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBVQjluX3c4bE10RkIxeUNwT2xhZlRQcnliRnU2LW1iMDRDN0dBdXpFTHFNcFRtOEJSZzJ4OEN1d0UxNHRzdmpNNG1DNzhMcjhaYzNjdEd2ODFaUy15VnJ0YlBDVQ?oc=5",
-      "pubDate": "Thu, 30 Apr 2026 00:05:25 GMT",
-      "source": "매일산업뉴스",
+      "title": "삼성전자, 1분기 영업익 57.2조원…역대 최대 분기 매출·영업익 달성",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5jaXRtbXk1V1pXM3BVcS0yR1dmeG4zQk5NamRMN0NFSTV2MFVVOFp2YVJNNlJuVmI1OGp0TlZGbHZfT1U3cXdXQlgtQkI1YkZIS1Bydnpoai1CcF9TZXJSMS1QdE1YNVBY?oc=5",
+      "pubDate": "Thu, 30 Apr 2026 00:36:46 GMT",
+      "source": "테크월드",
       "category": {
         "label": "🟡 MARKET",
         "color": "#f9ca24"
@@ -82,10 +43,10 @@
       ]
     },
     {
-      "title": "삼성전자, 1Q 영업익 57.2조·755%↑…반도체 부문 53.7조(상보)",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1XbnIzMS1CSVRDQThfejlzZXVMcVJkS0FaQWJ5U1BWbUp1Y2xELXJTejYxN01hN09zcHo3Z1ZKdHpydzk4TUJBNFdXLVA1ZFFlQ1I3aEs2OEtqaHc1TldNbFlaRnptaE1lVEFhcTNmLVU?oc=5",
-      "pubDate": "Thu, 30 Apr 2026 00:05:05 GMT",
-      "source": "연합인포맥스",
+      "title": "반도체만 53.7조원…삼성전자, 1Q 영업익 `사상 최대`",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9CQzBlZVh0NmJDVG1JUkZ5XzY2RGdSWXlMUnlqYVVuV09Qd3h3cHVjRVFBWnI2eVJQVDBfSS10alZiNjVtWWhtT3hCNEZXU090TmZ3bHVvajZxcGg2VUNzOHJXYVQ?oc=5",
+      "pubDate": "Thu, 30 Apr 2026 00:35:44 GMT",
+      "source": "디지털데일리",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -95,39 +56,78 @@
       ]
     },
     {
-      "title": "삼성전자, 1분기 영업익 57조2328억…전년비 756%↑",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1ybWxVSnIzeVZEbzVqRUNJZ1dfMk5Hb29OWXFZWUhoT2JtUVZ3cVlVeUU5NVZ4MmdpNmZfaUU1M25jOWpqOHdyMzlqWXp3Y3BOZFRnR2FlRVo1ZWQ3RGxLeHhfNFpiSFJyM3ZWNXJ6RXI4dG8?oc=5",
-      "pubDate": "Thu, 30 Apr 2026 00:04:42 GMT",
-      "source": "디지털투데이",
-      "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[상보]삼성전자, 매출 133.9조원·영업익 57.2조원…역대 최대 분기 실적",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFAzQS1USEJOaWhtUkpOQzJDWm11NkdwVjUybmRDTEptMTQzcHBWbWctQ0ZWNWZfTVVCZmRhU2s4dG0wdnBLWFNQaHRWOEZicUE?oc=5",
-      "pubDate": "Thu, 30 Apr 2026 00:03:09 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[1보] 삼성전자, 1분기 영업익 57.2조원…전년比 756% 증가",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBuSERLeXNURlJBbERsR1k0dUVxMFhEbDkzQUFDaHNRWWYwMmtLemhBN1dOd3JZQ2VwczhJTFJfb2NKRm0zRDhVNFdsTy1Zc011ZnRmWkhR?oc=5",
-      "pubDate": "Thu, 30 Apr 2026 00:03:07 GMT",
+      "title": "케이씨모터스, 현대차 손잡고 9인승 리무진 시장 공략",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8xLUhNdFB6VHRpQXNyMDZmU0g5WWpGTzNIS3FlR0E3cF9Oc05RaXBYaF9QVWhnZWl2S1EzNlNrZ2R2TmNuTk10ekdodDM5OFdETVBRX1pn?oc=5",
+      "pubDate": "Thu, 30 Apr 2026 00:34:17 GMT",
       "source": "지디넷코리아",
       "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "[특징주] 삼성전자, 美 기술주 호실적에 확정 영업익 발표 '최고가'",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNTExjNEJ6MVZfbXN2N2pWWThycmhmZlp6VExUSFgxUnFwa0YyQk1QUkJ5ekhIMnZMWTZZV3UwNXZQYVNMcHhFMGgyOXROQUZhZW9MTHBycG0yVlZmbnVub2JFVGZaX2xoUlA4bXFoNTM5eVVQOVBiTTM3bnhUZDdFYWZKYmxzVTk0?oc=5",
+      "pubDate": "Thu, 30 Apr 2026 00:33:58 GMT",
+      "source": "글로벌이코노믹",
+      "category": {
         "label": "🟡 MARKET",
         "color": "#f9ca24"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "정의선 현대차그룹 회장, 8년 만에 베이징모터쇼 찾았다…중국 공략 힘싣기",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9ISS1falpFU0w4V3pablE3UkdUcTc3TTV4RFRWMEE1MXphMUJ6RjFuRUNHNkNtWlBkWWFpX1cwbXJBVTYzV2xHSDZENmV5N2d6?oc=5",
+      "pubDate": "Thu, 30 Apr 2026 00:33:56 GMT",
+      "source": "문화일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "차를 스마트폰처럼…현대차, 차세대 '플레오스 커넥트' 도입",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE16M2xkMVFnUjVhVU51ZGlxWFdrdUd6aC1UbHVRZ21saWRJS2pIZGJMUFZUNlk4ZXFJZ2hwQXNFMUM0MHhsZVhwUHNHV0tFeWV6WGZfVkZ6VElhYmPSAWBBVV95cUxQOXhnak8wbUFYYTBHOGNsX0lQaVo4S21XNXV2UTB2OFQtcGx2Sk1jTFN3Y0dscGVabWhiLWhVTzhVVG11QU5FeFhjVkZjM3JRQW9uX0FUSG1xcFM4ck1SeFM?oc=5",
+      "pubDate": "Thu, 30 Apr 2026 00:33:25 GMT",
+      "source": "연합뉴스",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "현대차 \"5월부터 똑똑해진 AI비서 출격\"",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9zY3M4QldiS2xPcEpadTk4UzUzbGVVbVNQN2dzOUZ6b1hVWHRqcS1nOXpXZmk1ZmJfZUgyazVhd09xbVRjbmxXaWVVYk5NSWM?oc=5",
+      "pubDate": "Thu, 30 Apr 2026 00:30:16 GMT",
+      "source": "딜사이트",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "삼성전자, 1Q 영업익 57조...메모리로만 53조 남겼다",
+      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9kREl5TXhMMTZINV9CNTNpUWFPZGlKLWs3bVVsSFZIVVpXdDFnQTVjQkdnY0lBQzlqYVBFVzZpdTlSZ0VNSGNyRVNiY0g?oc=5",
+      "pubDate": "Thu, 30 Apr 2026 00:29:10 GMT",
+      "source": "아이뉴스24",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
       },
       "impacts": [
         "삼성전자"
