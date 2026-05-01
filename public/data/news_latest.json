@@ -1,38 +1,40 @@
 {
-  "timestamp": "2026-05-01T21:21:28.137816",
+  "timestamp": "2026-05-01T22:51:42.321925",
   "count": 10,
   "articles": [
     {
-      "title": "삼성전자 노조 “LG 얘기다” 발언에…LG유플러스 노조 “비겁한 처사” 반발",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1lOXN6T0VndFVZR0k3SXlDTVN6TnIzSUVDUXpLcWQ2VkZwMlpJd3RxQ1BOZzF3WC1BakRWektGUWdpVktvVlZIQ1J4Ti1qaDZyNmFmcERVZkFQamM?oc=5",
-      "pubDate": "Fri, 01 May 2026 12:14:00 GMT",
-      "source": "경기일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "중앙화거래소 비트코인 보유량 285만개 돌파…업비트 4위 차지",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBsNVpOd3dzZ0lxVDlVVkZkV081RFFhOEkzTXdGV3g2MVFienhjaTdKOVR1dm9hNklLNWtrZkZ0Z2RLcmhOZzlZUmNnZWFKX2Nq?oc=5",
-      "pubDate": "Fri, 01 May 2026 11:35:51 GMT",
+      "title": "아크 인베스트 \"비트코인 시가총액, 2030년 16조달러 도달 전망\"",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9xTkF6YWh6dE0yY2xYY014TGFIaWxidW9JTlZoUUtOVWZQSGstUFV5b011TmRtUjhxTEptTXptdzRBdHcwalBUR2NGaWcwYmVW?oc=5",
+      "pubDate": "Fri, 01 May 2026 13:48:46 GMT",
       "source": "블루밍비트",
       "category": {
         "label": "🟣 CRYPTO",
         "color": "#a55eea"
       },
       "impacts": [
+        "환율",
         "BTC"
       ]
     },
     {
-      "title": "李대통령 ‘과도 요구’ 경고에 삼성전자 노조위원장 “우리 얘기 아닌 LG유플”",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1yQ1pJMDJEelQ5NVY5WTVXOWxBaE1JbXpXakVheW1oR1BNV2pxN1ZxZGhwc2N5QUZ5cHY1SDlTMTJ6a2RxbDdsWGpHeFcwRk5pd0hFRHhjWXFJck1UNlhkblYzYXZTbVVqYjJF0gFuQVVfeXFMUDM5NDNGTE9uUXRoTE9nbWFhYzR0RnNHRV9keVZ5SlF2SVRtNmx2eEJ6ZFRwS1Eta2ZRZ0xYRXJ5bVFpNlBmR1BoVVNBaDhFRWt1aFBNUklEdUExZmxjU2Z3cXV5Zm8yRzRST3dzYVE?oc=5",
-      "pubDate": "Fri, 01 May 2026 11:33:35 GMT",
-      "source": "뉴시안",
+      "title": "중동사태에도 2개월 연속 800억 수출 달성…4월 ‘반도체 슈퍼사이클’ 지속",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBlVUo2b0xlUjFjY24xaUVfczctQWlzcG5tZmt5aElja0NnNFB5eW8ycU5JNk56aS1TOXBCUWtERHdnSkp4b0Frc1JmMERLaU0?oc=5",
+      "pubDate": "Fri, 01 May 2026 13:23:35 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자",
+        "원유"
+      ]
+    },
+    {
+      "title": "李대통령 경고에 '폭탄 돌리기'…LGU+ 노조 \"비겁한 삼성전자 노조, 멈춰라\"",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBQM3FLLVZlQjlLSXZrQzNrdnFDbU1GSlAzdUVoRTk3aHotRDMxSkkyZVZXMmNvTFJWRXpDMy1BSjlXWnpxY2tUQUV2V3hwSk0?oc=5",
+      "pubDate": "Fri, 01 May 2026 13:16:02 GMT",
+      "source": "v.daum.net",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -42,28 +44,77 @@
       ]
     },
     {
-      "title": "중동 전쟁도 반도체 못막았다‥한국 수출 두 달 연속 800억 달러 돌파",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE91SGtrSTNFYkVlU2JQSnRYSW91SEtyLUhWMU9SUlllUnp4QkxVZVdhZ3luWlAxNTlhaU5aUFFUUlp6aHlUOUEweFBZT3FxVExRZGQtQXlURTFqQ0t2d3otNXNHeXM1dmkyZmZKNmlqUWJwazZJRktzU9IBeEFVX3lxTE82Y2laZXlGdXlCM1BTRVdJMXRSclM5cDRZN1dxZ01leGI2dTJ0UmF0ZUxIbG55WmI4TDJrVnJFY1hUUGZOam5jZzZHT29KVDgweW5jNVI2OFZrR3VkbC1YWmVuaWQzaEo2czJwS3pRVFNjZDFlSU5NZg?oc=5",
-      "pubDate": "Fri, 01 May 2026 11:30:05 GMT",
-      "source": "MBC 뉴스",
+      "title": "\"비겁한 책임 전가\"…LGU+ 노조, 삼성전자 노조에 사과 요구",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9YUnMxSHN3eWlLWXlEQURDaTQ5QmNJT2FMUFpiRGk2REdGdjBlU1FRZHRqQ0FSV1R2bEpscVJrNjVlMkN3T1ZnRWdpQ3d4RHR6RHJkTVhzX0k4anBMVnVJatIBeEFVX3lxTFAzU05CSEYyMlZVaENjbHdMMFBqblgta28xTzZrRnp2dzU1a0pOQ0doa2pZRGl6a1VxRkZxRWFSVkk4UDl1TXdRakoyUmtzdi0yUW0xRmN4LUR1Nll3Qmk2OGtPa040aE9ua1NVWU9Dbk1YS0ZKU01fdQ?oc=5",
+      "pubDate": "Fri, 01 May 2026 12:55:10 GMT",
+      "source": "뉴시스",
       "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
       },
       "impacts": [
-        "원유",
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼전 노조에 뿔난 LG 노조 “비겁하고 경솔한 책임 전가…사과하라”",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1DX0VWdWZJd3FHS3FSMnJKblA4REpKdmdSY1FtdjJfSlNicFEyYmtDWHRGX3dzY1VlaEFZdEhNZWpZVUJFc0FhdkpsR2ltczUtSzlWUjAybkNvNWVUZTlSY1ROenZYY2RIU1V3a3BnR3gtTTYwNmfSAWZBVV95cUxQQkVpN19GOC0xTlRKbDRrY0J5RTh1dVJkVGRRZG50emNwM0c0VzRESTFxN21uQkxVQjJ1bDJBV0Zod0Z3b25zaUpGcnlSajJzUnROaTVxWDZYbEdOR3BTdU8zcmktMFE?oc=5",
+      "pubDate": "Fri, 01 May 2026 12:31:06 GMT",
+      "source": "동아일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": []
+    },
+    {
+      "title": "AI 반도체 및 메모리 주식 랠리 지속될 것, Wolfe 전망",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBTdWZZWGl5Zkg3amJtT05ES0lmLTdRZHB4a0RzUzdKY3o4NkVsb0tLSXppTk1sVzgzMjI0N0dnbWVCVGFnY1JPWjRLYkhWTWtLTWhhZFJHbkVPQWZFU1Z3eWpfWHY4clFHTVBCTHJpdXU?oc=5",
+      "pubDate": "Fri, 01 May 2026 12:29:00 GMT",
+      "source": "Investing.com 한국어",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "두 달 연속 수출액 800억 달러 넘어…반도체 주도",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5uaW4wOGFlTHF1Vzc5MDhGSEFNblViLUlVR19VNmppSzdtZXZuMm1LelJVbVZUYkhWRk9UWHUtNzN2aFFGa0xUS2cwblNDQ2dhaVdtWTZ3NGs1V00?oc=5",
+      "pubDate": "Fri, 01 May 2026 12:18:00 GMT",
+      "source": "KBS 뉴스",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
         "삼성전자",
         "환율"
       ]
     },
     {
-      "title": "[The Numbers] ‘반도체로 54조 이익’ 삼성전자, 29분기 만에 매출·영업이익 TSMC 눌렀다…승부처 파운드리, ‘70 대 7' 격차벌어져",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBJV3IwS1BHa1dZRHRxTWdFbXdwdHh6RGRHZ2FaXy1TNHJvdkl4Tkh1clhmSWZpcFBfQ0VZaE4xMk1tSFpodEVNTVl1OFFCX0Q0ak55OGl6eG5uQVA3SHF1Zg?oc=5",
-      "pubDate": "Fri, 01 May 2026 11:15:59 GMT",
-      "source": "뉴스스페이스",
+      "title": "삼성전자 노조 \"李 대통령 발언, 우리 아니다\"…내부 '노노갈등' 심화",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBndEZIV2hncDZyX2VkcVhHS0ZueUJhS1BDbTJleFI0UEFuenJuaDJYZTQ0QlhjOGN5Yl9sOFpBTjgxQTJpMmdJbk4yUGN1S1ViZkVkOE1JNHMwZkdFT0dfampBeGRiU2lLVVZXaUZwVFlUTXdRM1lWWWFkcnQwVkk?oc=5",
+      "pubDate": "Fri, 01 May 2026 12:17:14 GMT",
+      "source": "TV조선뉴스",
       "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전자 노조 “LG 얘기다” 발언에…LG유플러스 노조 “비겁한 처사” 반발",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5GWUxkeC1aZlNfeEpZbGdoN2RBUnJuVHdYRk85SXlnNkVFVUc4UjBDeWxzZlVtd0Zmd25DUVZRN25Fd0oyS1pDWXR3anJDM3c?oc=5",
+      "pubDate": "Fri, 01 May 2026 12:14:56 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
       },
       "impacts": [
         "삼성전자"
@@ -72,66 +123,13 @@
     {
       "title": "이 대통령 “과해” 다음날…삼전 노조위원장 ‘우리 아니고 LG 얘기’",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE8tLWNuSDJrN0FRbTRfeHdCVXRRMUxWUDRNSzVTTi1VX3ZMNzQ4V09VTTljTlhHQW01VnpxTFpLY0ItYnBYTHhEa042dVk4ODB3ZWR5VHo3Q2RDSnFvNFh4aFVkWm8?oc=5",
-      "pubDate": "Fri, 01 May 2026 11:11:00 GMT",
+      "pubDate": "Fri, 01 May 2026 12:13:00 GMT",
       "source": "한겨레",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": []
-    },
-    {
-      "title": "LG유플러스 노조, 삼성전자 노조에 \"책임 전가\" 반발",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9oMWR0UHo3T0FvR3g2ME1aemIzb213WjNGU3NZYnNyVWs1NjUzOUtERlc2MEZoTmhZQS1ZMXFBV3RyTjFpczNsNFR4aXV1T0pyUzhmNUQ5cndNZ2vSAWBBVV95cUxNU0k3b0dFdlNZTEIwVHJFTzczMDRIM1d4bDhxRm42dHFyakMySFVSUFQtZjVKcDdvV21WYWp5RDRVLXk0MWR2MWVyQldrZGp6RVBQUkJKX3BNQkdQcDBXY0Q?oc=5",
-      "pubDate": "Fri, 01 May 2026 11:10:50 GMT",
-      "source": "연합뉴스",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "``과도한 요구`` 李대통령 발언에 삼성전자 노조 반발",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5FQUlBWXc3bmhiWWdxblVDNDUtcnVnUDR2YlVoeXVmLXNVLWI0MFRXSFhhWXhsR1Vka0dHZ3QtT1BjWWdMenVzZDFaR2tJaGgtcWpldVdIelhtWDRxU0ZsSFh1OA?oc=5",
-      "pubDate": "Fri, 01 May 2026 11:01:33 GMT",
-      "source": "에너지경제신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "李대통령 경고에도 삼성전자 노조 `코웃음`…`우리 얘기 아냐`",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBaRDE1ZWN6U0dRU3I3LVkxbDB5UW0tYjZ2QnMyaS1OdkprdERhVHJKanVmUm1QZjNPSUNCUlI3UkFFaVhZSDhRX2ZoZmJVTG11Z1JrWks0WXFzS19fUWNuNkh3?oc=5",
-      "pubDate": "Fri, 01 May 2026 10:46:09 GMT",
-      "source": "매일신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "美 비트코인 현물 ETF, 4월 한 달간 20억달러 순유입…올해 최대 월간 기록",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE0zdUp2dUg4TFBDMlEyRjRPcURDaUxwdDAzdEJ0YUt4U0t1WjdLc2JjRll6b09BMkpzTTU2RV9mcmRPWkQ3R3lITVp6STJmZEl0?oc=5",
-      "pubDate": "Fri, 01 May 2026 10:17:48 GMT",
-      "source": "블루밍비트",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC",
-        "환율"
-      ]
     }
   ]
 }
