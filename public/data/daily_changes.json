@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-01T14:20:29.308154",
+  "timestamp": "2026-05-01T14:50:43.272893",
   "count": 40,
   "stocks": {
     "삼성전자": {
@@ -256,22 +256,22 @@
     },
     "BTC/KRW": {
       "name": "BTC/KRW",
-      "price": 113691014,
-      "pct": 1.34,
+      "price": 113821808,
+      "pct": 1.4,
       "chg": 0,
       "src": "coingecko"
     },
     "ETH/KRW": {
       "name": "ETH/KRW",
-      "price": 3367289,
-      "pct": 1.13,
+      "price": 3370982,
+      "pct": 1.22,
       "chg": 0,
       "src": "coingecko"
     },
     "SOL/KRW": {
       "name": "SOL/KRW",
-      "price": 123916,
-      "pct": 1.18,
+      "price": 124119,
+      "pct": 1.24,
       "chg": 0,
       "src": "coingecko"
     },
