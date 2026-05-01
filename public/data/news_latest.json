@@ -1,7 +1,20 @@
 {
-  "timestamp": "2026-05-01T14:17:04.548890",
+  "timestamp": "2026-05-01T14:20:32.894134",
   "count": 10,
   "articles": [
+    {
+      "title": "\"비트코인, 2022년 하락장과 유사한 흐름…추가 하락 가능성\"",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1nYVFVMF91dmNUbWFaZFJvbGM4TDVsd3ZNdWZVdGZLRVRuWXpOMFZRT2VsSE01SXRBZk9oOWNXYkRmOVNaclY4T09paVBJU1hm?oc=5",
+      "pubDate": "Fri, 01 May 2026 05:17:44 GMT",
+      "source": "블루밍비트",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
     {
       "title": "오산 미래지도 꺼낸 이권재…반도체·AI 공약 들고 재선 시동 본격화",
       "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9nVUZCSWxBbVlQVnFwRDdkU0N3Y1RQbDctQm1HZTg1djZMWXRKLWxvYkZuYl9tekNMX1JobUdCMDZBSEVJR3JGaGY3ZDhrdw?oc=5",
@@ -121,20 +134,6 @@
       "impacts": [
         "삼성전자",
         "환율"
-      ]
-    },
-    {
-      "title": "현대차그룹, 거점 재편 속도…중심축은 삼성동 'GBC'와 위례 '퓨처콤플렉스'",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1wY3JkUFA5UnlpZ0k5d1p5VkdsNHZlVUdsUUJidC1mUG9XZVlnZUNyaGtPMklwZG9SWHNWSlMtVjRVSzBQNWhoS1VkdFRCMzlnTGJvU2dlUU5HakxyaC1HeNIBeEFVX3lxTE1JZUY3ZjVjczM0SHhHekpiTTRFOHNtMzFMckg3Tzg4eUt2TlFqNU5ISEY3aFJoYkZPMjhwbnZjdGhXOWJZcURUOVY1Y1g2WkZuTXNKT1pNci1IRVBRQkRETzVqVy1RZXcwRTBkWklkMDBOa0Vkb2I3dg?oc=5",
-      "pubDate": "Fri, 01 May 2026 04:00:00 GMT",
-      "source": "뉴시스",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자",
-        "현대차"
       ]
     }
   ]
