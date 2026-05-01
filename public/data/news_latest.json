@@ -1,12 +1,80 @@
 {
-  "timestamp": "2026-05-01T13:20:06.801895",
+  "timestamp": "2026-05-01T13:50:19.521812",
   "count": 10,
   "articles": [
+    {
+      "title": "비트코인 8만달러 갈까…시장 \"상승vs조정\" 팽팽",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9jM3oxRllhWGs2eV9DRnVEQ0xQU1FzS3hkVGVYcV9uaDhmLTRyVlRoWXp1cHBacktVdndVZnNFNlM0aHhkQU50alZfLWFhX3ltbUdORG1n?oc=5",
+      "pubDate": "Fri, 01 May 2026 04:30:01 GMT",
+      "source": "지디넷코리아",
+      "category": {
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
+      },
+      "impacts": [
+        "BTC",
+        "환율"
+      ]
+    },
+    {
+      "title": "반도체 173% 급증…4월 수출액 858억달러 ‘역대 2위’",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1RQ0FzSmpwS05iOUVWVXhWMjJjTTAtdnBVZk1vc1pDVW02ZGRvaW8zakYwLVhMUG8xWUpVTl9kNzRDY21Id19leGk5QzhVd0s2ZTk4SW5DZGRYWWVFcmJKMEFhOHhwUGxtZlh3NWhvQTUwN3FMOFHSAWZBVV95cUxPOXUwcWdySkg0cXp2elBvTW5Wb08yNDB6d1VxMGltdVU1NnZtWkVWMEtDdjI4Y1d0blY1VF9CbzBVNFE0RXZrcDdPZDRqSWRBUmw2ZnYwVDE5MjRETnFjZU55Q2dJcnc?oc=5",
+      "pubDate": "Fri, 01 May 2026 04:22:00 GMT",
+      "source": "동아일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자",
+        "환율"
+      ]
+    },
+    {
+      "title": "반도체가 끌어올린 수출, 두 달 연속 800억 달러대…車·가전은 부진",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9YbHpoTlYxS1FqNThleGJZcWFhTlMxNi1STEVCUlktVmtxSXJKR1V0QlctNURTVU5sRDBVcG1FNk9JRkNjQkwxcnc4aGVWZENZUEE3Yzdn?oc=5",
+      "pubDate": "Fri, 01 May 2026 04:18:29 GMT",
+      "source": "중앙일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자",
+        "환율"
+      ]
+    },
     {
       "title": "삼성전자 노조위원장 \"대통령 경고, 우리 아닌 LG유플러스 향한 것\" 주장",
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5ZTjNTQjFPd2VQb3VZV3NRVnVhZGV1OWlZd2NRSlV2VVpRcm0yUndMcXNRSzdMOHFFcUNLVHFJc1BEbDZOcmg2eVhVMVR3b3VndGEwSFJDT1ZVcHRLT1d5X20xOTRuWXNodEIyekdLOVVSUQ?oc=5",
       "pubDate": "Fri, 01 May 2026 04:17:43 GMT",
       "source": "인더스트리뉴스",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[Tech & Now] 월드컵 특수 잡아라…삼성전자, ‘AI 축구모드’ 앞세워 TV 보상판매",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE82emp2MGlRQ20xaS1OazdLVTNyb1NYU2x1ME10RjFMUVZZalV3cXFlYUIydHUxeFE2UmgyZ3VSZkRHZzZqcFkxd195WThzX3ZfeDUxemZRalZIOVk5eVBKcW9PcExfLXZ2?oc=5",
+      "pubDate": "Fri, 01 May 2026 04:13:10 GMT",
+      "source": "ebn.co.kr",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "노동절에 노조 때린 대통령, 경고 무시한 노조…삼성전자 파업 앞 불편한 동상이몽",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5oQzI4cnY5cXlMWnBXQkMtLThRRV93WG9vQWNpOFNKbXpIeGpkbFVRMlQyLTZRbTRVRlBRWXQtV0tuNFAzcFRXU25pcTlXaV8yd0pzcGtUc01UUjBvdjNGaGVPTkZXYTQ2SEtR0gFvQVVfeXFMTzFNdldKYTQ4NjJFSXdsaVRnMVNjR0ktRWRiSmRkNnBUaGlaQmlxWFpHNjN1ODBMQTZkLTBTZkY5QVVpaDFndzdYbDRvT2twOXdIZHRyZDlaNFI5R01wazJwX2xrMndab3B6NDJjRW9R?oc=5",
+      "pubDate": "Fri, 01 May 2026 04:10:21 GMT",
+      "source": "펜앤마이크",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -29,6 +97,20 @@
       ]
     },
     {
+      "title": "수출 2개월 연속 800억달러 돌파…반도체 319억달러 'AI 특수'",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1DV24yd0I4Uzc3VG5ES3hpZFdod05fcXpmNDAwaklNazR4ekVXeWxCc2JSclVOOFhuZFJDbE9GR0NrczJjQ2JJMnJLamtObWlqLW1TVjU2d3dfYmFyLUdWbGZQU09VSk51TTB0UXh3R0g?oc=5",
+      "pubDate": "Fri, 01 May 2026 04:04:52 GMT",
+      "source": "신아일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자",
+        "환율"
+      ]
+    },
+    {
       "title": "현대차그룹, 거점 재편 속도…중심축은 삼성동 'GBC'와 위례 '퓨처콤플렉스'",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1wY3JkUFA5UnlpZ0k5d1p5VkdsNHZlVUdsUUJidC1mUG9XZVlnZUNyaGtPMklwZG9SWHNWSlMtVjRVSzBQNWhoS1VkdFRCMzlnTGJvU2dlUU5HakxyaC1HeNIBeEFVX3lxTE1JZUY3ZjVjczM0SHhHekpiTTRFOHNtMzFMckg3Tzg4eUt2TlFqNU5ISEY3aFJoYkZPMjhwbnZjdGhXOWJZcURUOVY1Y1g2WkZuTXNKT1pNci1IRVBRQkRETzVqVy1RZXcwRTBkWklkMDBOa0Vkb2I3dg?oc=5",
       "pubDate": "Fri, 01 May 2026 04:00:00 GMT",
@@ -38,8 +120,8 @@
         "color": "#8b9dc3"
       },
       "impacts": [
-        "삼성전자",
-        "현대차"
+        "현대차",
+        "삼성전자"
       ]
     },
     {
@@ -47,84 +129,6 @@
       "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9KWWhaXy1tSF9LRnRlSEd5UzhWVklPQW10Z3B2SkN6dUtnYXhmQzVhZUhQSGJZWnFydUhBWF9aZ1RZVkNMVF9zTlFURkJGRFYtQkZnaFdJMjgyVG05M2RTU21mSQ?oc=5",
       "pubDate": "Fri, 01 May 2026 03:52:57 GMT",
       "source": "에너지경제신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "KEIT, 첨단반도체 신규 R&D 착수…협약·성과창출 지원사격 나서",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE0wbnNXamd2QWY1Q1hZVGJLQVBxaFJDdGI3SkVEUkxoR3hrQVVrNE5QT3kyZ2VMeEJfVDRfOW1JVDFSNVRndDVvRWxmQkJLcVhFN185TERwZnZKa1Q2UDVTM3ExX3gzam5kTWx4bzl1T0JTVXUz?oc=5",
-      "pubDate": "Fri, 01 May 2026 03:51:59 GMT",
-      "source": "부산일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자, 월드컵 맞아 TV 프로모션",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBEcUREMlJLbTlfb3MwR3ZWYzhHQlhVV2Z3U2JBZXZIV0MtNEdHZ2JKVnhBXzRWTDk0UTk4U21hV2hlQnJYY3JRblh0aVAyclZONVZkNGhQSUNTQ1luRFdUZnhsS3VsVy1yakllONIBcEFVX3lxTE9GckhxSVVzaFdLamtwWjhuRERRdUhJS1U5RmIyQ0Jrb25IR0xub0hxTWVDSHVTb1o2dHhPamo3OVBfV1lmem1TQWVFRWpEMV9zUndQMVRnSFh0RnVkdHRTckJkQUF1b0FPZmwybDJfeWs?oc=5",
-      "pubDate": "Fri, 01 May 2026 03:50:28 GMT",
-      "source": "남도일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "호암재단 기부금 50억원 중 약 38억원, 삼성전자 출연",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQMzdTTW52NWExTmVWUExVZ1YzUTlTZFE5cmdNTWVaY3c1c0FtTm43RmVTcDJ5RlpPZzRyREVvZkw5aVgxRzNpOU5WaXA0R2I0d2xhU3M3UDhQaUdWbUMyR1dRR0VGZVVMdThuaDZndlU4dmpVVVpRQy04c2lyWlA2ZlNjQTlQUQ?oc=5",
-      "pubDate": "Fri, 01 May 2026 03:46:59 GMT",
-      "source": "글로벌이코노믹",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[넥스블록][거래량 톱 코인 10] 비트코인 1억 1251만, 이더리움 332만 7928원",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE42aWNjUWRzdmdPVnBXS3JfMGQ1STJCTl8xSU9PenNWSGczVjVibEdjSTN5eC0wTkxCVXhRdnd2VlJhbHlGR1QyMkVoYkF0dGk3dmtVcg?oc=5",
-      "pubDate": "Fri, 01 May 2026 03:43:00 GMT",
-      "source": "이투데이",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "현대차, 가족 통합 멤버십 ‘블루멤버스 패밀리’ 신설..가족 단위 회원제 확대",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1GaEFZWklIUGNFMjM2cTNtWV96eGlza2VBX2lFdGhfMk56QkdWTVB3a2xvOGpLYmJfa3dGVkZXblZUMDYwVEFEQkhNaTk3cU1aSnl0ZFVManpEY2RJZXBDX2JFZTdLT0RJN0plN1llc0dlMlh6Q3c?oc=5",
-      "pubDate": "Fri, 01 May 2026 03:42:50 GMT",
-      "source": "dailycar.co.kr",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "삼성전자, LPDDR4 D램 생산 공식 중단… AI 메모리 `본진` 화력 집중",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5vdU40X0VQa2IwRS1NYWdaTUJWaGVydzQwV1MyLUR0RXRzZlFQNmZVZkNjTWZmdlNVMHAxU29HaDNuNHlqY1hhX1RseWpXRnU1N3JQYjZkWWFvSU00UkVVV2NJNEw?oc=5",
-      "pubDate": "Fri, 01 May 2026 03:38:15 GMT",
-      "source": "디지털데일리",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
