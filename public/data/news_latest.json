@@ -1,7 +1,20 @@
 {
-  "timestamp": "2026-05-01T12:17:05.215931",
+  "timestamp": "2026-05-01T12:19:39.452898",
   "count": 10,
   "articles": [
+    {
+      "title": "[단독] 삼성전자 등 계열사 10곳, 호암재단에 50억 기부…이재용 개인명의는 빠져",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE90dXk0MUNvTFdKZ0VfSUtXQzZmTFdWVFJZNHFvU0dValRKR1RTMF93YnlIbnAwVVg0TjJpR3VPRm8waldsRkNyWVNTQmtKMS1vR0U2WTFxa3laYU1uTmt1X9IBeEFVX3lxTE1WTnEwcWk1ZFh6VWttQnN4eENsZkZvWUROaDNwUTRiNlY0aUhsVU4xbG1ISUVsOXlIX1lsUUlBMU9wc243QjNlV1JoUGMzZ3NocVJfUV9IRkVTQXo2bW9RVWF0Q1lLX0tEWVFQd2FDWm9JSFFEbjVUYQ?oc=5",
+      "pubDate": "Fri, 01 May 2026 03:07:30 GMT",
+      "source": "뉴시스",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
     {
       "title": "현대차그룹, SDV 전환 가속…어린이 체험 확대·채용 공개 병행도",
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBfYjdqcEdsMnI5eVQtT1REQmp1cUxoZGJGQnhERkstNUdxNEMwWFhST1BEbHdsc0xqY1g1aGZBdnVkeE5mTmJCUTBqemI2Q3VXZU9fWllmaENJUlpkRHFjYnZCaTVFMVdk?oc=5",
@@ -25,8 +38,8 @@
         "color": "#4ecdc4"
       },
       "impacts": [
-        "환율",
-        "삼성전자"
+        "삼성전자",
+        "환율"
       ]
     },
     {
@@ -78,8 +91,8 @@
         "color": "#8b9dc3"
       },
       "impacts": [
-        "환율",
-        "삼성전자"
+        "삼성전자",
+        "환율"
       ]
     },
     {
@@ -92,10 +105,10 @@
         "color": "#a55eea"
       },
       "impacts": [
-        "BTC",
+        "채권",
         "환율",
-        "원유",
-        "채권"
+        "BTC",
+        "원유"
       ]
     },
     {
@@ -108,8 +121,8 @@
         "color": "#0984e3"
       },
       "impacts": [
-        "환율",
-        "삼성전자"
+        "삼성전자",
+        "환율"
       ]
     },
     {
@@ -122,23 +135,8 @@
         "color": "#8b9dc3"
       },
       "impacts": [
-        "환율",
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "중동 악재에도 두 달 연속 수출 800억 달러대···반도체 174%↑",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9iRGg4dFVxSHNRQktHT2hDbUFtVmRGNzBxT25mQWdEdkF0cDhoT29aVzI5R184RVlsTHo3cV80VmtZQnowQUhLOHRDdlpUT1plUkUwa0JxX0pMX19uNTJTWlEyVTlxT040UUE?oc=5",
-      "pubDate": "Fri, 01 May 2026 02:20:55 GMT",
-      "source": "서울파이낸스",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "환율",
-        "원유",
-        "삼성전자"
+        "삼성전자",
+        "환율"
       ]
     }
   ]
