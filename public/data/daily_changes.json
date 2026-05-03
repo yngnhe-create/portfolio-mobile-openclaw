@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-04T00:54:03.807296",
+  "timestamp": "2026-05-04T02:24:17.533966",
   "count": 40,
   "stocks": {
     "삼성전자": {
@@ -158,9 +158,9 @@
     },
     "INTC": {
       "name": "INTC",
-      "price": 99.62,
-      "pct": 5.44,
-      "chg": 5.14,
+      "price": 99.61,
+      "pct": 5.42,
+      "chg": 5.12,
       "src": "yahoo"
     },
     "NVDA": {
@@ -186,9 +186,9 @@
     },
     "AMZN": {
       "name": "AMZN",
-      "price": 268.26,
-      "pct": 1.21,
-      "chg": 3.2,
+      "price": 268.42,
+      "pct": 1.33,
+      "chg": 3.52,
       "src": "yahoo"
     },
     "LLY": {
@@ -200,9 +200,9 @@
     },
     "MSFT": {
       "name": "MSFT",
-      "price": 414.44,
-      "pct": 1.63,
-      "chg": 6.66,
+      "price": 414.19,
+      "pct": 1.51,
+      "chg": 6.17,
       "src": "yahoo"
     },
     "GOOGL": {
@@ -256,22 +256,22 @@
     },
     "BTC/KRW": {
       "name": "BTC/KRW",
-      "price": 115889764,
-      "pct": 0.42,
+      "price": 116009525,
+      "pct": 0.39,
       "chg": 0,
       "src": "coingecko"
     },
     "ETH/KRW": {
       "name": "ETH/KRW",
-      "price": 3427419,
-      "pct": 0.96,
+      "price": 3434636,
+      "pct": 1.01,
       "chg": 0,
       "src": "coingecko"
     },
     "SOL/KRW": {
       "name": "SOL/KRW",
-      "price": 124015,
-      "pct": 0.35,
+      "price": 124149,
+      "pct": 0.23,
       "chg": 0,
       "src": "coingecko"
     },

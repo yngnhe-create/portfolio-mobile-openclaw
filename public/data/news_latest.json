@@ -1,7 +1,34 @@
 {
-  "timestamp": "2026-05-04T00:54:07.353946",
+  "timestamp": "2026-05-04T02:24:21.202371",
   "count": 10,
   "articles": [
+    {
+      "title": "현대차그룹, US 뉴스 ‘2026 최고의 하이브리드·전기차’ 7관왕 석권",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA1eDl4ZHZoZ21zVHQxZFp5a1ZDX21lZURjYmJ4UEJKZGpEMHdZMG9Bell0R3NMV19WTjVJMGcwRXNHZDRyOFlpTEl3T0VWYkJXME12MjI5Z3QtQ3ZYaVVDN2EzdU9WcThaeWNSbGVNdkU5akZtNkE?oc=5",
+      "pubDate": "Sun, 03 May 2026 16:05:32 GMT",
+      "source": "dailycar.co.kr",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "테슬라",
+        "현대차"
+      ]
+    },
+    {
+      "title": "한국수출입은행 해외경제연구소 “2분기 수출 30%↑…반도체가 끌었다”",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBZV0R4YkprZW43VnpuTmNTcGxFUVBKVEIyWWN1TVZLaTFSVEVSNHB6dGZWZnE5SGNabHNnN3hNRVlYZ2xqV2o1RU9FMF82ZVZCVmpWSTVxbW9fVUluR05FNWxCcDlpLWN1T3U5bVpLcFRudw?oc=5",
+      "pubDate": "Sun, 03 May 2026 15:56:50 GMT",
+      "source": "인더스트리뉴스",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
     {
       "title": "\"삼성전자·하이닉스, 내년 초반 고점 가능성\"",
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPemI5cEVDYnF2T2lwSG9PeWQ4a1V4TlBHeDd0X2VpRGZVa3I1NWVkc3U0TFJudkV2WElNekZETWl3T21DaUlTU2dtZ29USkNjeDJoUkxNNDZFZlBUYnh1dC1ocE5RdFhWLU0tSjl1YU5ZanpSeVFzbDR1dWRTUXFTdw?oc=5",
@@ -18,15 +45,15 @@
     {
       "title": "[전기차 전환을 넘어 모빌리티 혁명으로 (10)] 삼성전자, 피지컬 AI를 ‘제2의 반도체 신화’ 달성의 일환으로 추진 중(中)",
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE4tQjRhTm5mTi0yX0FyQlpWX3NLeHcxV2pBOUZ1dFN6aDVseGIxbVZWLVh2OFN2TnZIWnFZSTAtLUk5WjFDMDdnQV9DXzFYNG95TC13MGV6SThBRjV6S2c?oc=5",
-      "pubDate": "Sun, 03 May 2026 15:33:45 GMT",
+      "pubDate": "Sun, 03 May 2026 15:34:08 GMT",
       "source": "뉴스투데이",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
-        "테슬라",
-        "삼성전자"
+        "삼성전자",
+        "테슬라"
       ]
     },
     {
@@ -99,32 +126,6 @@
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9xWk8xU2s4RGg2RmhHOGl0bU5ZSHc1blh1ejhWY2FGak1PODRpZXNoemNZZzNGVE92N3RMLVlwdFdJMndYUXRFSkNKcHU4QlE?oc=5",
       "pubDate": "Sun, 03 May 2026 15:06:40 GMT",
       "source": "v.daum.net",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "비트코인 점유율 60% 돌파…알트코인 바닥론도 제기",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBySk10bXNCZDBkOVNVTzRVYjhhZmc3Z2kwUjBxUTZqTHNGUUh5endxbTVxcXNTN05tVUhuVm9qMVJkVUctQ2RJTjg3d0dZMUF5U0xqRjM1aHYxZ180OTlYQ0J2Vklzd1NidU94YUk1QWxLQWc?oc=5",
-      "pubDate": "Sun, 03 May 2026 15:01:00 GMT",
-      "source": "디지털투데이",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "[조용헌 살롱] [1540] 히말라야와 반도체",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPcHlsNWdmekN3RkQ2VGZvbjhxSzRCeFlXSXN3d3IzZ0xaVUxRSmN3QWlPaFN5SUxwSDE1bTFSMWY5YTBnZ0JNdjRpUVlHdFF0ZGR6YTNSM19ZblFoTWg2cU14RjJ4YTFDdDlWNjVqSk1Rb01IZUdmWUw1ejZySVo2NEp2YUNRZHlMUzhZMEw5YnI?oc=5",
-      "pubDate": "Sun, 03 May 2026 14:35:00 GMT",
-      "source": "조선일보",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
