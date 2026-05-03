@@ -3,74 +3,106 @@
   "top_picks": [
     {
       "type": "Top",
-      "company": "두산에너빌리티",
-      "opinion": "BUY",
-      "title": "가스터빈 수주 증가",
-      "broker": "하나증권 유재선,성무규",
-      "target": "165,000"
+      "company": "삼성전자",
+      "opinion": "매수",
+      "title": "메모리 천하의 주인공",
+      "broker": "IBK투자증권 김운호",
+      "target": "350,000"
     },
     {
       "type": "Hot",
-      "company": "삼성전기",
-      "opinion": "Buy",
-      "title": "중요한 건 꺾이지 않는 마음",
-      "broker": "메리츠증권 양승수",
-      "target": "1,020,000"
+      "company": "삼성전자",
+      "opinion": "BUY",
+      "title": "갈 길이 멀다",
+      "broker": "하나증권 김록호,김영규",
+      "target": "330,000"
     },
     {
       "type": "Best",
-      "company": "대한전선",
-      "opinion": "매수",
-      "title": "(실적이) 어안이벙벙",
-      "broker": "SK증권 나민식",
-      "target": "61,000"
+      "company": "F&F",
+      "opinion": "Buy",
+      "title": "내수 회복, 중국 선출고 효과로 기대치 상회",
+      "broker": "DB증권 허제나",
+      "target": "100,000"
     }
   ],
   "portfolio_reports": [],
   "company_reports": [
     {
       "company": "POSCO홀딩스",
-      "title": "어? 아르헨티나 돈다",
+      "title": "바닥을 확인한 2차 전지 소재 사업",
       "opinion": "N/A",
       "target": "-",
       "broker": "",
       "is_sector": false
     },
     {
-      "company": "SK이노베이션",
-      "title": "공급 충격의 누적이 시작됐다",
+      "company": "F&F",
+      "title": "국내와 중국 모두 좋았다",
       "opinion": "N/A",
       "target": "-",
       "broker": "",
       "is_sector": false
     },
     {
-      "company": "HD현대마린솔루션",
-      "title": "독점 네트워크와 장기 계약으로 수익성 레벨업",
+      "company": "한온시스템",
+      "title": "1Q26 Review: 유럽 전기차 성장 재개",
       "opinion": "N/A",
       "target": "-",
       "broker": "",
       "is_sector": false
     },
     {
-      "company": "케이에스피",
-      "title": "엔진 밸브 1위, 선박에서 AI 데이터센터까지",
+      "company": "해운사",
+      "title": "준비된 자에게는 혼란도 기회",
       "opinion": "N/A",
       "target": "-",
       "broker": "",
       "is_sector": false
     },
     {
-      "company": "조선",
-      "title": "AI 데이터센터의 새 전력원, 선박 엔진",
+      "company": "포스코퓨처엠",
+      "title": "신규 수주 가시성이 높아지는 중",
       "opinion": "N/A",
       "target": "-",
       "broker": "",
       "is_sector": false
     },
     {
-      "company": "주간 시황",
-      "title": "2026년 4월 5번째주 정리 및 이번주 주요 이벤트",
+      "company": "한온시스템",
+      "title": "유럽 중심으로 회복 진행 중",
+      "opinion": "N/A",
+      "target": "-",
+      "broker": "",
+      "is_sector": false
+    },
+    {
+      "company": "삼성전자",
+      "title": "메모리 천하의 주인공",
+      "opinion": "N/A",
+      "target": "-",
+      "broker": "",
+      "is_sector": false
+    },
+    {
+      "company": "엘앤에프",
+      "title": "유럽산 모델Y 7월부터 20% 증산",
+      "opinion": "N/A",
+      "target": "-",
+      "broker": "",
+      "is_sector": false
+    },
+    {
+      "company": "삼성중공업",
+      "title": "걱정할 필요 없다",
+      "opinion": "N/A",
+      "target": "-",
+      "broker": "",
+      "is_sector": false
+    },
+    {
+      "company": "삼성전자",
+      "title": "매분기가 최대실적",
       "opinion": "N/A",
       "target": "-",
       "broker": "",
@@ -78,80 +110,137 @@
     },
     {
       "company": "LG에너지솔루션",
-      "title": "북미 ESS CAPA 역량에 주목할 필요",
+      "title": "매 분기 성장 예정",
       "opinion": "N/A",
       "target": "-",
       "broker": "",
       "is_sector": false
     },
     {
-      "company": "강원랜드",
-      "title": "1분기 실적 선방, 관건은 리노베이션 영향",
+      "company": "산일전기",
+      "title": "나도 이제 BE 벤더",
       "opinion": "N/A",
       "target": "-",
       "broker": "",
       "is_sector": false
     },
     {
-      "company": "DL이앤씨",
-      "title": "SMR 모멘텀에 더해진 높은 주택 마진",
+      "company": "유한양행",
+      "title": "하반기 성과까지 마지막 기다림의 시기",
+      "opinion": "N/A",
+      "target": "-",
+      "broker": "",
+      "is_sector": false
+    },
+    {
+      "company": "자동차",
+      "title": "미국의 EU산 자동차 관세율 25% 인상 영향 분석",
+      "opinion": "N/A",
+      "target": "-",
+      "broker": "",
+      "is_sector": false
+    },
+    {
+      "company": "삼성전기",
+      "title": "가격 인상의 조건이 만들어지는 중",
       "opinion": "N/A",
       "target": "-",
       "broker": "",
       "is_sector": false
     }
   ],
-  "sector_reports": [
+  "sector_reports": [],
+  "naver_reports": [
     {
-      "company": "일간 경제",
-      "title": "[Daily Forex Live] 트럼프 ‘프로젝트 프리덤’ 가동, 고유가 & 강달러로부터 자유선언",
-      "opinion": "N/A",
-      "target": "-",
-      "broker": "",
-      "is_sector": true
+      "company": "슈피겐코리아",
+      "title": "글로벌 온라인 채널 기반의 모바일 보호 액세..",
+      "opinion": "없음",
+      "target": "",
+      "broker": "서울평가정보",
+      "current_price": 0,
+      "change_pct": 0.0,
+      "upside": "",
+      "key_points": [
+        "■ 프리미엄화와 온라인화가 진전되는 시장으로 브랜드·제품 대응력이 경쟁력을 좌우",
+        "■ 보호필름 성장과 주주환원 강화가 두드러지는 가운데 기존 주력사업의 안정적 확장 전망"
+      ],
+      "is_mine": false
     },
     {
-      "company": "일간 시황",
-      "title": "투자 키워드_전략",
-      "opinion": "N/A",
-      "target": "-",
-      "broker": "",
-      "is_sector": true
+      "company": "엑사이엔씨",
+      "title": "반도체·데이터센터의 내부 클린룸·시스템실..",
+      "opinion": "없음",
+      "target": "",
+      "broker": "NICE평가정보",
+      "current_price": 0,
+      "change_pct": 0.0,
+      "upside": "",
+      "key_points": [
+        "■ 최상위 발주처와 협력 관계로 안정적 수주 기반 확보",
+        "■ 데이터센터 시스템실링 등 신사업으로 중장기 외형 확대 기대"
+      ],
+      "is_mine": false
     },
     {
-      "company": "일간 시황",
-      "title": "Time Fractal_ 거래대금 상위 기준 장중/시간외 특징주",
-      "opinion": "N/A",
-      "target": "-",
-      "broker": "",
-      "is_sector": true
+      "company": "국일신동",
+      "title": "동합금 황동봉 제품 기반 비철금속 소재 전문..",
+      "opinion": "없음",
+      "target": "",
+      "broker": "NICE평가정보",
+      "current_price": 0,
+      "change_pct": 0.0,
+      "upside": "",
+      "key_points": [
+        "■ 전방 산업 수요 회복 및 고부가 소재 확대 기반 성장 기대"
+      ],
+      "is_mine": false
     },
     {
-      "company": "GS건설",
-      "title": "높은 마진에도 예상보다 컸던 주택 외형 감소",
-      "opinion": "N/A",
-      "target": "-",
-      "broker": "",
-      "is_sector": true
+      "company": "알엔투테크놀로지",
+      "title": "세라믹 소재·부품 기술 기반 고신뢰성 기판..",
+      "opinion": "없음",
+      "target": "",
+      "broker": "서울평가정보",
+      "current_price": 0,
+      "change_pct": 0.0,
+      "upside": "",
+      "key_points": [
+        "■ 전장·방산·통신향 고신뢰성 세라믹 기판 수요 확대",
+        "■ 지배구조 재편으로 경영권 불확실성이 확대되며, 사업 재편과 신사업 방향 전환이 진행되는 중"
+      ],
+      "is_mine": false
     },
     {
-      "company": "일간 선물옵션",
-      "title": "Derivatives Report",
-      "opinion": "N/A",
-      "target": "-",
-      "broker": "",
-      "is_sector": true
+      "company": "오에스피",
+      "title": "유기농 기반 프리미엄 펫푸드 ODM 전문기업",
+      "opinion": "없음",
+      "target": "",
+      "broker": "NICE평가정보",
+      "current_price": 0,
+      "change_pct": 0.0,
+      "upside": "",
+      "key_points": [
+        "■ ODM 기반 안정성에 PB 브랜드 및 글로벌 진출로 성장성 확대"
+      ],
+      "is_mine": false
     },
     {
-      "company": "일간 시황",
-      "title": "KOSDAQ Market Index",
-      "opinion": "N/A",
-      "target": "-",
-      "broker": "",
-      "is_sector": true
+      "company": "율촌",
+      "title": "정밀 인발강관 기반의 고부가 자동차용 소재 ..",
+      "opinion": "없음",
+      "target": "",
+      "broker": "서울평가정보",
+      "current_price": 0,
+      "change_pct": 0.0,
+      "upside": "",
+      "key_points": [
+        "■ 자동차용 정밀 인발강관 기반으로 고부가 제품 확대와 글로벌 공급망 다변화를 추진 중",
+        "■ 고객 승인과 정밀 가공 역량이 경쟁력을 좌우하는 시장",
+        "■ 해외 거점 확대와 심리스 신규 진입을 기반으로 성장축 확장 시도 중이나, 단기적으로 투자 부담과 자동차 업황 변동에 대한 관리 필요"
+      ],
+      "is_mine": false
     }
   ],
-  "naver_reports": [],
   "sector_opinions": [
     {
       "sector": "반도체/AI칩",
@@ -215,20 +304,20 @@
     }
   ],
   "new_reports": [
-    "[POSCO홀딩스] 어? 아르헨티나 돈다",
-    "[일간 경제] [Daily Forex Live] 트럼프 ‘프로젝트 프리덤’ 가동, 고유가 & 강달러로부터 자유선언",
-    "[SK이노베이션] 공급 충격의 누적이 시작됐다",
-    "[HD현대마린솔루션] 독점 네트워크와 장기 계약으로 수익성 레벨업",
-    "[케이에스피] 엔진 밸브 1위, 선박에서 AI 데이터센터까지",
-    "[조선] AI 데이터센터의 새 전력원, 선박 엔진",
-    "[주간 시황] 2026년 4월 5번째주 정리 및 이번주 주요 이벤트",
-    "[일간 시황] 투자 키워드_전략",
-    "[LG에너지솔루션] 북미 ESS CAPA 역량에 주목할 필요",
-    "[일간 시황] Time Fractal_ 거래대금 상위 기준 장중/시간외 특징주",
-    "[강원랜드] 1분기 실적 선방, 관건은 리노베이션 영향",
-    "[DL이앤씨] SMR 모멘텀에 더해진 높은 주택 마진",
-    "[GS건설] 높은 마진에도 예상보다 컸던 주택 외형 감소",
-    "[일간 선물옵션] Derivatives Report",
-    "[일간 시황] KOSDAQ Market Index"
+    "[POSCO홀딩스] 바닥을 확인한 2차 전지 소재 사업",
+    "[F&F] 국내와 중국 모두 좋았다",
+    "[한온시스템] 1Q26 Review: 유럽 전기차 성장 재개",
+    "[해운사] 준비된 자에게는 혼란도 기회",
+    "[포스코퓨처엠] 신규 수주 가시성이 높아지는 중",
+    "[한온시스템] 유럽 중심으로 회복 진행 중",
+    "[삼성전자] 메모리 천하의 주인공",
+    "[엘앤에프] 유럽산 모델Y 7월부터 20% 증산",
+    "[삼성중공업] 걱정할 필요 없다",
+    "[삼성전자] 매분기가 최대실적",
+    "[LG에너지솔루션] 매 분기 성장 예정",
+    "[산일전기] 나도 이제 BE 벤더",
+    "[유한양행] 하반기 성과까지 마지막 기다림의 시기",
+    "[자동차] 미국의 EU산 자동차 관세율 25% 인상 영향 분석",
+    "[삼성전기] 가격 인상의 조건이 만들어지는 중"
   ]
 }
