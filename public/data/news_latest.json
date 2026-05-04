@@ -1,7 +1,48 @@
 {
-  "timestamp": "2026-05-05T00:31:09.741033",
+  "timestamp": "2026-05-05T02:01:24.011686",
   "count": 10,
   "articles": [
+    {
+      "title": "삼성전자 비반도체 노조 “공동투쟁 이탈”… 21일 총파업 앞두고 개별교섭 요청 계획",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE85QTRzYnRKalJrOThlYzdoMERCQkFUS3BBUU9Gb1NLWUcxakRDMTBnTHAxeVh6SWtqQ0NDNzJ5VElIaktUeTNSN0JOSnl3Q2NEVllzU1NRSmhiWGhUUExvLUN5Rlk4R3dYQklMcFdjaDNXMjM2WFHSAWZBVV95cUxNa0RUZlpHNVJyR0VjNjF2b3lOMkVNUEhsQ2RYWGNSai1IOEJUTTBTdVdQa09wRFpnUUEwcUpDRDRTMjFYaDdpVEFSYVlLX2F5NXlFOVJfRUROT2xIR2cwZFROZ3ZNTkE?oc=5",
+      "pubDate": "Mon, 04 May 2026 16:40:00 GMT",
+      "source": "동아일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "“동생이 잘나가네”… 기아, 4월 국내 판매량 현대차 추월",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9SRGpXRldRTUhHc0RFUHhFcGU3WlA4SndPbWlySWxEQkh4MWxMb0tLaTVxRmtYRkpYaTF5eVpmTUR3MXhhaHdFMU5jMXVBMkU?oc=5",
+      "pubDate": "Mon, 04 May 2026 15:54:16 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "[마켓인사이드] 이란전쟁에 짓눌렸던 비트코인 모처럼 8만 달러 회복",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBDR2dEZDFtcndQYXY5c2JEZ3k4bzBmUzNPdUx2SThuYlZsejZJYlgyMDZOS1ppbWczRk1DR3E4MDh0V1hYc3VVemVqM3BTakxuUjk4WHpYNUtRQzFkWFE?oc=5",
+      "pubDate": "Mon, 04 May 2026 15:35:00 GMT",
+      "source": "뉴스투데이",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "BTC",
+        "환율",
+        "원유"
+      ]
+    },
     {
       "title": "삼성전자, TV수장 교체… 개발자 아닌 ‘마케팅 전문가’",
       "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFAwY2pmSVVPWW82eHJYTG5aM1FjREV3WldDWExCSEMzVmtMNDhzYS1razZPSkRfSXBiekFRaEU2VDFhYldrWGQwMmJZeDZpU1g0Y3A2Nzk0UUlGRWZaMlJTZ0twN2pXaTY4SUtaOWlZRC0tTnVWM2ptSzVWNA?oc=5",
@@ -38,8 +79,8 @@
         "color": "#a55eea"
       },
       "impacts": [
-        "환율",
-        "BTC"
+        "BTC",
+        "환율"
       ]
     },
     {
@@ -65,34 +106,8 @@
         "color": "#a55eea"
       },
       "impacts": [
-        "환율",
-        "BTC"
-      ]
-    },
-    {
-      "title": "K웨이브 미디어, 비트코인 전략 철회…AI 인프라 투자로 전환",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9FdEhNSzJHcm5FN2Qwa2xnek9LclpHandldnM1ZmRYbWlMQWhPV3UtT19VSEFsYWxyeVNPNnFwcXJ0TGhZcHhwZnctQnE4aG9h?oc=5",
-      "pubDate": "Mon, 04 May 2026 14:48:52 GMT",
-      "source": "블루밍비트",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "삼바 노사 '빈손 협상'...삼성전자 비반도체 노조 이탈",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5MLU0xYVZsekE1TjY4djJha2MwVUlVeWhhZTVzR3RhV09Ya2hobXJVUXdpelRHdW5CRDFBdks1U1o2YjBBY2xHVUZRQW1sWlRpeV9sTTd3ZS1LbWtVbHc?oc=5",
-      "pubDate": "Mon, 04 May 2026 13:32:00 GMT",
-      "source": "YTN",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
+        "BTC",
+        "환율"
       ]
     },
     {
@@ -110,21 +125,8 @@
     },
     {
       "title": "반도체처럼 되면 좋겠는데…삼성전자, TV 수장 전격 교체",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1XOVdEeGJhcDZfWHpuWmJsanNfdTNvTHZ2V0FKQ1FqZE1EcXNJRzN1clJPNDBXSDZUZWdqTVp1dk43bXhoeGFZYmJNVDByRUFxNDFORTd2eXh1Z9IBX0FVX3lxTFAzazVkbm9TSHJFekYzdXk3YWJzSHJJZ2RiTk9VeWdzeVdldDF2MGgtMnZCU181ZWdmTDk0U2dTX1ZYWjlIdDFaX3JMTGY2aVp1ZWtKZW5jLUtiM2otbmRJ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1XOVdEeGJhcDZfWHpuWmJsanNfdTNvTHZ2V0FKQ1FqZE1EcXNJRzN1clJPNDBXSDZUZWdqTVp1dk43bXhoeGFZYmJNVDByRUFxNDFORTd2eXh1Zw?oc=5",
       "pubDate": "Mon, 04 May 2026 12:39:00 GMT",
-      "source": "경향신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자 노조 “반도체 분야 의견만 반영”…‘노노 갈등’ 공식화",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5pQjBpeVVrUzl3TkU2YVlCTl9nTk1ZdmlzcmNqcG1tVW8yWE5iYm1pbnN3TVFxMUpwRENPa3JYUWFiZnphenVpdDNJaVc1U0xaSWZpVEkzcUwxZ9IBX0FVX3lxTE1WN2RibUtpa0Zld0FISEx5dDM2YlZ2RFgwY3ViZzNENlp3LWpSNG8zbk9DaXNZR3V3VF82czBZM2NjLXV0VmxoYTRkdnlYU2RfR2gzMk9LNEpXQzMyVFo4?oc=5",
-      "pubDate": "Mon, 04 May 2026 12:37:00 GMT",
       "source": "경향신문",
       "category": {
         "label": "📋 GENERAL",
