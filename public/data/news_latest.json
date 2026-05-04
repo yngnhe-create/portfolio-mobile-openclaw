@@ -1,12 +1,25 @@
 {
-  "timestamp": "2026-05-04T09:57:24.587446",
+  "timestamp": "2026-05-04T10:17:05.443115",
   "count": 10,
   "articles": [
     {
-      "title": "삼성전자, TV 수장 전격 교체 … 이원진 전면배치·용석우는 보좌역으로",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE04cjgtWWJETmt6dElSZU5WeWtjdkNBa0FRb0xVVVVFel9BcElscy0zcDVVNFRodUl0cG1tLXdiUHp0WjV1dFlGeFRrQ20ydmo3cTJCdnBSa1ktWDM5RHVBOGRBOA?oc=5",
-      "pubDate": "Mon, 04 May 2026 00:55:02 GMT",
-      "source": "매일산업뉴스",
+      "title": "현대차, '현대 N 페스티벌' 2026 시즌 개막…'나이트 레이스' 첫 도입",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1hdjFkcmdOSlVJSEJSUmFzeHRzeEFhdklaUXN1LU8xMUJXNGhuXzdocWhHWWhCWDdIbDZNUzBEZE5GTVd2amVBM01nT2lPOHAzUWltMHM0d3lFR0FUdjZ4dmxPMVA0RWtwU2xz?oc=5",
+      "pubDate": "Mon, 04 May 2026 01:10:43 GMT",
+      "source": "파이낸셜신문",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "부산, 전력반도체 승부수 띄웠다…국비 200억 확보 ‘글로벌 허브’ 가속",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9fMDBSWjVndnlla3RGeS1mT1NwX214aTd3RFFVeE9sOVQxemw5dllrYzF0anZobnVvdVlUcVluX3V4bHZTZmNvaWFiRm9HVU9qMk40c1JxT0VpRU9ZenNsOFJ4M2Z3TWd3enFadl85RQ?oc=5",
+      "pubDate": "Mon, 04 May 2026 01:10:16 GMT",
+      "source": "부산경제신문",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -16,62 +29,88 @@
       ]
     },
     {
-      "title": "부산시, 차세대 전력반도체 글로벌 허브 도약… 산업부 공모 2건 선정",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1qLWUweVJZR2REa0dnbWwxUlVwdXFFUXVWaGtqYVNhUEJaWUlFc0lxdXpOVFhzd2pxUjhuelppOFRaSUd0RG1BNXpNQ0t5TklnVEx3UU5kR2VMT1lmeENQSVlIdXV4Zw?oc=5",
-      "pubDate": "Mon, 04 May 2026 00:55:01 GMT",
-      "source": "기계신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "한미반도체, '세미콘 동남아시아' 참가...2.5D 패키징용 TC 본더 소개",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBsN0VJMXJaRUNmTTl6UTAxclJWbThydFIzN1ZiNGZRT05ZRWhiVmg3OEk5YmZiQWVHVXQ2TFlOQzZEakNEUWFGampwVFp1SDNycVhUeUhR?oc=5",
-      "pubDate": "Mon, 04 May 2026 00:52:20 GMT",
-      "source": "지디넷코리아",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9hVVgtRHN2QlhQWFUtRHFaN096MWVPaGtPODZrYXdJZ2NfM1ZuX2dxRURfbU80ZVFUZ2Uya3k1cEUzV0UwYVYwYzV5dGtkNzdGYWxqcTA3ejM5UdIBVEFVX3lxTFAtSlhSaUNLX1k1OGZRNU05TjNlN2pSdnZablZpTGhpXzJiS2VsTU5jMmRWSHFIZzJ3WTZ0TTM2TUtQcWdpaFJMUF9wZDBYamtrNW8xUA?oc=5",
-      "pubDate": "Mon, 04 May 2026 00:49:55 GMT",
-      "source": "한국경제",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[인사] 삼성전자",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1FX2ItQmlLWlBUQTAxZ25MWmhLbTZOZWJvczJuMmtjdmxkVTdsY29aM0h4Z29NbG85V1AwU1FtWUEwcDhkaHA3emd5alJEWHMyaXQ4em9n?oc=5",
-      "pubDate": "Mon, 04 May 2026 00:46:32 GMT",
-      "source": "지디넷코리아",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자, 극심한 노조 리스크에도 주가 상승 출발",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0xMjNQX3V6ZFp2aUk1NTFnTVQzazItdmtta2tmSlp1Wjh3Wm1ZdGJLYl9BNlhyTjRzZkp3X0cxSkpwdnVEN0pCUDhob0RtVVZVYmhhTVgwUXd3eTBZTnBZNU5LeVQ?oc=5",
-      "pubDate": "Mon, 04 May 2026 00:46:05 GMT",
+      "title": "한미반도체, 2026 세미콘 동남아시아 참가…2.5D 패키징 장비 공개",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1CZS14YVhsRTJuMjBodDV4YTFTdEpYWjJEaDNzZVppaDhZaWRBaVE5V2xaWmNXbTQydkEzOXBHT01rMzR0T0RJdTE3NFBSV0Z6TVZLLVQta2tHeVNyVVk1azEwQXE?oc=5",
+      "pubDate": "Mon, 04 May 2026 01:10:00 GMT",
       "source": "디지털데일리",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "현대차 ‘N’의 진수…‘현대 N 페스티벌’ 2026 시즌 개막",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5hZm01dS1XZHZVU0ZhUzJwMXBicy1Cb084OTdJcVdZQWdYalVPbXZFWF84MThEaXRqay1mRWhIdlQtcEotaVp2cUxIYURMTFRZRzN5NTVSU0RKOEhqMElPbUJWWHZhOF9DNm5tQzRTVERJSFF4TVlqTzMtOE4?oc=5",
+      "pubDate": "Mon, 04 May 2026 01:07:35 GMT",
+      "source": "한국금융신문",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "삼성전자, \"DX부문 재정비, 사장단 인사 단행\"…이원진 영상디스플레이사업부장 선임·용석우 보좌역 위촉",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA0N3I1TWVxQXR2d0ZZUmhKTHEwYlVSVlVFSUVmNUdVMUlCYjZjU0ppc0lFWkxqR2FSN3ZEVy0xd1ZXRlR1NFZzRmh2cDJFX1BFSmVVS1ozQzhyaDctMXdsMllHMU5kNkU?oc=5",
+      "pubDate": "Mon, 04 May 2026 01:06:33 GMT",
+      "source": "인공지능신문",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전자 TV사업 리더십 교체…이원진 사장 임명",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE81bmtfUXVjV1dvblUzd2kxbGV5WnRGeHV3SDJXdl8wT3hQTF8xMFFWbGFHcmFOS0xSUUV6WHlubnBNRXNkT0lqbm9Ia0RocXM0eFZ4UmlYUTc5VkplM1BDeVE0Y2lXSHI3OV9V?oc=5",
+      "pubDate": "Mon, 04 May 2026 01:05:51 GMT",
+      "source": "뉴스저널리즘",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "한미반도체, 세미콘 동남아 참가···2.5D TC본더 시리즈 소개",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9UYmpjX1BRcHYzVzU5ZWN5U3BIcFFlZ3BEVWRBSXowRlhRdEhxbUh1TWFPZDI0OGpmODN0U0hLcWxYU3hYZF8xbzktb05ZZ0J5UENYc2Qzbm1pVWFZNUdLTnNLbjlLYllORHc?oc=5",
+      "pubDate": "Mon, 04 May 2026 01:04:52 GMT",
+      "source": "서울파이낸스",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "\"반도체만 챙겨\"…삼성전자 노조, DX 소속 직원 '탈퇴 러시'",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5VVkJGdGhlZUFSZ0Y4WFZvMVZXRUp0WFVPT1gzWnl3bS1Nc0RfQXY0Q2Y0aGdvMy1TNHV4TWhHbmJNWU9EQ3J5WG1FNjN1cTU5MWFIZWxvOElXX202TE53QmdLT1o?oc=5",
+      "pubDate": "Mon, 04 May 2026 01:02:15 GMT",
+      "source": "MTN 머니투데이방송",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[장중시황] 코스피 2.4% 상승한 6750선 출발...반도체·철강 강세",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPZ1dhRTVDbHg0engyeGdibmxrMXNoY2Y3d0QyQ2tnZDExdHc4ekMyN3VJUURhbmg1Y0xRUVJOQkxPNllMNWJQMWJfM1ZPUkV4Y2kzUElmZnF1cnotRXlRenc5NEJ3aFhXMVFlaVlUUXNzazhLM3ZMd01falpzRnVxNlRrLTVqZWpm?oc=5",
+      "pubDate": "Mon, 04 May 2026 01:01:28 GMT",
+      "source": "글로벌이코노믹",
       "category": {
         "label": "🟢 POSITIVE",
         "color": "#4ecdc4"
@@ -81,55 +120,16 @@
       ]
     },
     {
-      "title": "삼성전자, TV 리더십 교체... VD사업부에 이원진 사장",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE03cFNvY1c0TFlhYVhaaURXMzFKTjJzM09lVGtZR2RLLTEwbi14TlBITHd5U3R2M0s2dl9jQUhPdWVUa255ckI3QjMxN0ZiSG9INWZTOXJNOVNWUUtfWFpFYVNoNTJoVVBFQmZR?oc=5",
-      "pubDate": "Mon, 04 May 2026 00:44:40 GMT",
-      "source": "디지털포스트(PC사랑)",
+      "title": "[부산 변호사 한변의 리얼상담실18] 비트코인, 지금이라도 사야 하나",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5kOE1TemF6UzNxZlFTbWJ5Z1BFXzVqaFJmY0ppR1ZEMFRZZ1U2dk9jNHBXa3lrS0Z0RFQwZlR3MHR6aHN2MjN6WERjbEJ6V0FmTTVQcl9yM3VPdjA1eE1nNDlwQkhscDY4Tkkw?oc=5",
+      "pubDate": "Mon, 04 May 2026 01:01:08 GMT",
+      "source": "civicnews.com",
       "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
       },
       "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자 목표주가 하향 리포트까지 나왔다…노조리스크 가시화 [투자360]",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5ILXk1bkh4RjFQTlZXSzNJVE5HSmp0U2dHSlNIaVdSYUJ0d2RRTDE0QXpMM24taVFyY0sxdnpXWHJWYVd3R3hqUkNIZWVJOFpKcFRUMTNn?oc=5",
-      "pubDate": "Mon, 04 May 2026 00:44:16 GMT",
-      "source": "헤럴드경제",
-      "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자, 신임 영상디스플레이 사업부장에 글로벌마케팅실장 이원진 사장 발탁",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5UUGhmSXAzM0NSeVotM0FseW16WHRJeTBpTHlkRFI1N1VtYTFETXc2aVlmbjY5Q0VHT29paFQtLW9Mb3BYUXF2WDFsTldPalFfRGUzVzlQMlpRT3AycFNJanp0Zlg1dmIyWDZ5THBTRW1pQQ?oc=5",
-      "pubDate": "Mon, 04 May 2026 00:42:06 GMT",
-      "source": "인더스트리뉴스",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "내년 메모리 공급부족 심화…한화證 “삼성전자 33만원 간다”",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5GN1d3TzlsUVlmOEF1ZzgyeDZJUlJiN1EyRkhMbk9jM2o1V0JqWUdrVjVJaGliZ1J5cTJ0UndMLWVkLUJfd1Y2cTBIUndKS0twZ0lmVVVBQVZaQQ?oc=5",
-      "pubDate": "Mon, 04 May 2026 00:41:00 GMT",
-      "source": "브릿지경제",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
+        "BTC"
       ]
     }
   ]
