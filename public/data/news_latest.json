@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-05-04T13:29:03.385280",
+  "timestamp": "2026-05-04T13:59:17.207933",
   "count": 10,
   "articles": [
     {
-      "title": "[재계 투데이] 삼성전자, 삼성 AI TV로 '바꿔보상' 프로모션 外",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9ieGRBZDdib2ZoQWQyc1lPcVlWVDM0akV3VFN1SjhOSVVQcXcxSHJsTnJIaGpfNklmNVdUbFZNQ3c1UVFlMjV1T0FIZ1o2ZUdkMElrN0xB?oc=5",
-      "pubDate": "Mon, 04 May 2026 04:15:15 GMT",
-      "source": "DealSite경제TV",
+      "title": "2026년「고신뢰 반도체 상용화를 위한 검증ㆍ확인 지원」사업 기업 지원 프로그램 2차 공고",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5qLWp4UzFpWmktT1pER0l2Y1VEcmJJdS1oZXhmV3ZpcWhuanZrV2NIT01qZGVmaU1sRTNQZlMyUkFfWWhCLURWNV9jbVBzYVdFeUYyMXJyODhVM3o0SzBV?oc=5",
+      "pubDate": "Mon, 04 May 2026 04:57:19 GMT",
+      "source": "벤처스퀘어",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -16,36 +16,90 @@
       ]
     },
     {
-      "title": "모건스탠리 \"美은행, 결국 비트코인 직접 보유할 것\"",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5UcEhZaDI5R1k5MFVsLXR2SWtrbE9IRkRzMUxUNDA3UGxxQlZHM29sRjFkMW14ZzNqUS1MX2ppSlhCb2tfQzVaRExlZzRveGNqRmNxcTQtZnF5ZWpSaDBVcDNvOTJNRzJ6UGltX1pIcjnSAXRBVV95cUxQb0ZkVkVvNjF0cWZ3S0JFU3Q2NFpxREMwc1JSUUZEazlNZ01Ta1lTTzhVb0x1MmFxWVQ4R2tranVjZnZsN3VGb2xyMHphLUhldjZFSUtOVVZEZVNxM1BXSjk2Y0NweGl1UUZITlEtU01sTWFaZA?oc=5",
-      "pubDate": "Mon, 04 May 2026 04:04:51 GMT",
-      "source": "연합인포맥스",
+      "title": "현대차그룹, 美 판매 소폭 감소…친환경차는 48% 급증",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9MNndBX001dU1lOUI2Z2dpRGlreTF5OHlMUmpZcVc3blllbTljc25ncFRsTUhVeHJGbWxOR0UxMnlrSzF5a09NNmFRSWcwVnQ3TUwtZFdTQnZ3dzhLa3Z1UEJJVEs?oc=5",
+      "pubDate": "Mon, 04 May 2026 04:54:50 GMT",
+      "source": "매일일보",
       "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "삼성전자, ‘비스포크 AI 콤보’ 글로벌 광고 전개...‘악마는 프라다를 입는다 2’ 협업",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE56ZWxpUHVVZDB2SHZqVDlKckZieFBxNnVaVVdudGdENDJlWVRiQUMtdUw2YWZLM09mbTktbWQ3dlBSMGliMjczUlBISlNmSXpueWV0TGVoalhhelhBbnc?oc=5",
+      "pubDate": "Mon, 04 May 2026 04:54:11 GMT",
+      "source": "한국재난안전뉴스",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "현대차, ‘현대 N 페스티벌’ 2026 시즌 개막",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1MeUhZQzh0WmZIcU5RbVdNMWVnOW83R2tGUU9fRjE3alctdS02WkxFOEdMNlBPS2FnOGFWZUFsbEJiREprMnNpNlUtTVk4M3hqV01zVV92RzM1cTQ5WWRxU21ZVkdLdXQ2WW1ZRg?oc=5",
+      "pubDate": "Mon, 04 May 2026 04:45:01 GMT",
+      "source": "중소기업신문",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "비트코인, 8만달러 재돌파…미·이란 긴장 속 상승세",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1wcWRpOF8ybWxYRUZnQk5vbFBubUNGQWRwcDQyTUdadklRX3hGclUtZ1dyRW80SlVuWGVHTzVNLUkycXFZbFZyakc4NVRZOVJW?oc=5",
+      "pubDate": "Mon, 04 May 2026 04:38:46 GMT",
+      "source": "블루밍비트",
+      "category": {
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
+      },
+      "impacts": [
+        "BTC",
+        "원유",
+        "환율"
+      ]
+    },
+    {
+      "title": "[Biz&Law] 삼성전자, 스마트폰·웨어러블 레이저 센서 美 특허침해 피소",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9IalZrXzVtZGZucFA3Q1liQ000Q1lkYVZUdE9rNHp6dXlhRkVpZ08yNnhUSGUyVjdjdFc5NmxYcFJxb2N6RFZSS0VPYm40YUp5WGdxRkVpR1NNd3FFRkVBTjQ4eDNXbldPbHN3Vg?oc=5",
+      "pubDate": "Mon, 04 May 2026 04:30:53 GMT",
+      "source": "seoulwire.com",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[크립토Now] 스트래티지, 1분기 실적 발표 앞두고 비트코인 매수 일시 중단",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1BVlBlNzhQRE9uYkRUUUZ3UndndFJuNTVCSlhSMFpFR3ZhRVpFQ1AwWHdVa2Q2WHVwZ1V4VVhwejNjZkRaQ2ZJUTlFOTk1d3ZjNDJWNUN4STl4azRhNkkzWm0zTkxpZTJi?oc=5",
+      "pubDate": "Mon, 04 May 2026 04:30:00 GMT",
+      "source": "매일경제TV",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
       },
       "impacts": [
         "BTC"
       ]
     },
     {
-      "title": "삼성전자, TV 사업 수장 교체···이원진 사장 임명",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1JNVpEZTFHS0RsaXgxcW9LQWhRdlVMSVgxWmFRelFPbTRTeFBiT2dXZHRHSlNmM3ZRdzQ1cXVvckd1TUlOdi0wbW9icGRWcG1vS1pLdVhTSG8xNVVsUGphRi04Q19ranJRMnc?oc=5",
-      "pubDate": "Mon, 04 May 2026 04:00:08 GMT",
-      "source": "서울파이낸스",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "비트코인, 8만달러 돌파…거시 변수 속 반등",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1MZHZScVhzUnM2dndqbnBhU1VuMFh6M0ZGNl9XTkxpaDlUTS1NUU82cHQzNDN5UVdMTjA3V2F5WWRYZTRHOU10bTljUU05M0JNSTFFN0N1VE5CRzlnNjQ0ck43VHZXclptdG5QOFpR?oc=5",
-      "pubDate": "Mon, 04 May 2026 03:45:55 GMT",
-      "source": "아시아투데이",
+      "title": "비트코인, 80,000달러 돌파…亞 증시 위험선호 확산",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9aaUhIRTg5VXZBbGlEMVZ5WkEtdVFIeUlLS19tRW9QV1hYNjQwdkczaWNjeUdCMmtCQlVJeHFKUU5Ed2lDM3pXZGc2OFpWcUZJS2h2X2xaYkROeW9sRGxzWFNnVkJuamxOUENnX3A0QzY?oc=5",
+      "pubDate": "Mon, 04 May 2026 04:28:15 GMT",
+      "source": "연합인포맥스",
       "category": {
         "label": "🟣 CRYPTO",
         "color": "#a55eea"
@@ -56,23 +110,10 @@
       ]
     },
     {
-      "title": "현대차·기아, 지난달 美 판매 16만대 전년비 2.1%↓…하이브리드는 ‘역대 최대’",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9FRTJyaDczU3pSemJ6YXJINEVPc3VGckk1OXI4SlRSVURPM1BTd3F2SDl4YzEydm1DelFQeVlETkQ2b3UyNXA3ZjVwSUxHQm9YNHJ1VTQ2WlNMWnpxU1E0RGZvNA?oc=5",
-      "pubDate": "Mon, 04 May 2026 03:45:04 GMT",
-      "source": "에너지경제신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "코스피 사상 첫 6,800선 돌파…반도체 강세",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE93V3RrWFV2MEJZVk1RekUzbnZxVDYzMkFVV1BpOUozSmk0dlZlQXJoMnRVdGVhekdaeG5hNkxlYUhTN2g1UFhxdHNfZzNoNnU2UGRobi0waHM4QlE?oc=5",
-      "pubDate": "Mon, 04 May 2026 03:16:00 GMT",
-      "source": "KBS 뉴스",
+      "title": "삼성전자, TV 수장 전격 교체…中 공세에 쇄신카드",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9Pc0JOSGRuQWZmUEZpQS00ZlpwektzTnl4M3VPRjFXeWU2ZWdCT0F6enh1aXlSUzhzRkk1UnRWcEV3Z1hYZVJvd2ROYzVZTTZlTTNoQ2kwY0tLc3FjM3duTjNVUzc?oc=5",
+      "pubDate": "Mon, 04 May 2026 04:26:47 GMT",
+      "source": "매일일보",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -82,52 +123,13 @@
       ]
     },
     {
-      "title": "부산시, 산업부 전력반도체 공모 2건 선정... 국비 200억원 확보",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1qNnRuNk8yWFdYUm94VFBURWJrakZkWjJKQnhSazF2Q0xXT05rcmZqZnkwU1Q5Y2Q1aUFwczVPMzMzTTdqc05kX2l3bXloS3E0NEtydjZER3EwMTBBRThFeVRfNDdSdTRmNFkw?oc=5",
-      "pubDate": "Mon, 04 May 2026 03:12:00 GMT",
-      "source": "BBS불교방송",
+      "title": "[재계 투데이] 삼성전자, 삼성 AI TV로 '바꿔보상' 프로모션 外",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9ieGRBZDdib2ZoQWQyc1lPcVlWVDM0akV3VFN1SjhOSVVQcXcxSHJsTnJIaGpfNklmNVdUbFZNQ3c1UVFlMjV1T0FIZ1o2ZUdkMElrN0xB?oc=5",
+      "pubDate": "Mon, 04 May 2026 04:15:15 GMT",
+      "source": "DealSite경제TV",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자, 새 TV 수장에 ‘구글 출신’ 이원진 전격 발탁",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5FXzFHMlB2ckJLSUJXZUZEN25qYS1uWjhzVWozQ2RpX2s5VWFVS1JEbnRyYV9LeVdOS3JndWtfNi1fUVJUOGJqYWwwSWktcUh5NlpoMVJpcmpENlNyRFdWMGkwa0hJS0JYQjFJM3gzaUYwMmZLRmfSAWZBVV95cUxNcEpUbVJqQS1zUU9MN1Q5NG1lQXNxZ0FJN09KbEJWR1U1MFNGMnNyd1ZYLVdXZkZ4UmMzQXpjSjBpYnA4U0RaampZN0FaY0Iya3Y1WU82bDQtYVlRcWtZMkxnZWJYZ3c?oc=5",
-      "pubDate": "Mon, 04 May 2026 03:08:18 GMT",
-      "source": "동아일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "45조 성과급 요구 삼성전자 노조, '취약계층 기부 취소 릴레이' 파장",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5kb1FpYTZXejBxeHp3WUlFb0ZHM2VTQjF1Z1k1OTVFcFoxRGhndmdYWlF2MGJCclJqX2czZFFzYnVXNldTSXpCc0tLZWRMQVlod0xTd3NNQU55RHdMbDJGQXlpUGU?oc=5",
-      "pubDate": "Mon, 04 May 2026 03:00:22 GMT",
-      "source": "뉴스1",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "경기민심 ‘당보다 삶’… “주가상승 추미애 선택” “반도체 아는 양향자 필요”[6·3 지방선거 ‘현장 리포트’]",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9LRGVLYmFMbkR0MXl3WEI3aXE4MW1yRC1zcFAwS3U2S1Q4SXhKaUhNNWEwNmRnQnlTOHhKS0Y1eUtnNUF1bEFtSTJKb0VwOS11?oc=5",
-      "pubDate": "Mon, 04 May 2026 02:58:14 GMT",
-      "source": "문화일보",
-      "category": {
-        "label": "🟢 POSITIVE",
-        "color": "#4ecdc4"
       },
       "impacts": [
         "삼성전자"
