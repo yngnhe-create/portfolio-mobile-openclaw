@@ -1,38 +1,90 @@
 {
-  "timestamp": "2026-05-04T09:27:10.782348",
+  "timestamp": "2026-05-04T09:57:24.587446",
   "count": 10,
   "articles": [
     {
-      "title": "[분석] \"비트코인 상승에도 바이낸스 고래 입금 증가…대형 자금 움직임 주목\"",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBuNEd4aG1mS3VpOGtqckhTYU5xT0t0cGhUTkthZG9DbDA1REFPSEUydmpJRmdZelg4VDF0WHdQbm9kMFdiNjFIWGt4U0V5bEdx?oc=5",
-      "pubDate": "Mon, 04 May 2026 00:22:57 GMT",
-      "source": "블루밍비트",
+      "title": "삼성전자, TV 수장 전격 교체 … 이원진 전면배치·용석우는 보좌역으로",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE04cjgtWWJETmt6dElSZU5WeWtjdkNBa0FRb0xVVVVFel9BcElscy0zcDVVNFRodUl0cG1tLXdiUHp0WjV1dFlGeFRrQ20ydmo3cTJCdnBSa1ktWDM5RHVBOGRBOA?oc=5",
+      "pubDate": "Mon, 04 May 2026 00:55:02 GMT",
+      "source": "매일산업뉴스",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "부산시, 차세대 전력반도체 글로벌 허브 도약… 산업부 공모 2건 선정",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1qLWUweVJZR2REa0dnbWwxUlVwdXFFUXVWaGtqYVNhUEJaWUlFc0lxdXpOVFhzd2pxUjhuelppOFRaSUd0RG1BNXpNQ0t5TklnVEx3UU5kR2VMT1lmeENQSVlIdXV4Zw?oc=5",
+      "pubDate": "Mon, 04 May 2026 00:55:01 GMT",
+      "source": "기계신문",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "한미반도체, '세미콘 동남아시아' 참가...2.5D 패키징용 TC 본더 소개",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBsN0VJMXJaRUNmTTl6UTAxclJWbThydFIzN1ZiNGZRT05ZRWhiVmg3OEk5YmZiQWVHVXQ2TFlOQzZEakNEUWFGampwVFp1SDNycVhUeUhR?oc=5",
+      "pubDate": "Mon, 04 May 2026 00:52:20 GMT",
+      "source": "지디넷코리아",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전자",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9hVVgtRHN2QlhQWFUtRHFaN096MWVPaGtPODZrYXdJZ2NfM1ZuX2dxRURfbU80ZVFUZ2Uya3k1cEUzV0UwYVYwYzV5dGtkNzdGYWxqcTA3ejM5UdIBVEFVX3lxTFAtSlhSaUNLX1k1OGZRNU05TjNlN2pSdnZablZpTGhpXzJiS2VsTU5jMmRWSHFIZzJ3WTZ0TTM2TUtQcWdpaFJMUF9wZDBYamtrNW8xUA?oc=5",
+      "pubDate": "Mon, 04 May 2026 00:49:55 GMT",
+      "source": "한국경제",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[인사] 삼성전자",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1FX2ItQmlLWlBUQTAxZ25MWmhLbTZOZWJvczJuMmtjdmxkVTdsY29aM0h4Z29NbG85V1AwU1FtWUEwcDhkaHA3emd5alJEWHMyaXQ4em9n?oc=5",
+      "pubDate": "Mon, 04 May 2026 00:46:32 GMT",
+      "source": "지디넷코리아",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전자, 극심한 노조 리스크에도 주가 상승 출발",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0xMjNQX3V6ZFp2aUk1NTFnTVQzazItdmtta2tmSlp1Wjh3Wm1ZdGJLYl9BNlhyTjRzZkp3X0cxSkpwdnVEN0pCUDhob0RtVVZVYmhhTVgwUXd3eTBZTnBZNU5LeVQ?oc=5",
+      "pubDate": "Mon, 04 May 2026 00:46:05 GMT",
+      "source": "디지털데일리",
       "category": {
         "label": "🟢 POSITIVE",
         "color": "#4ecdc4"
       },
       "impacts": [
-        "BTC"
+        "삼성전자"
       ]
     },
     {
-      "title": "새만금 현대차 투자 ‘전부 수용’, 실천이 신뢰의 척도다",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1oUmh0S0VnS21GcUJXQTk0QTZNcGItNndpVFB0aUlSTl9ETWdlaTR4cGlJOGJpZGFWdTVvQjJSRkNyM2FuRGpnMFlFS1Z5N25PUlFWbFFySHdncGVpRUdROS00WDdxMER3cGdr?oc=5",
-      "pubDate": "Mon, 04 May 2026 00:21:10 GMT",
-      "source": "위즈뉴스",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "삼성전자 TV 사업 수장 교체...이원진 사장 '턴어라운드' 임무 맡았다",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBBNlMxdGtIZ01RVm5sakVoaHcxM2Y5dDlOM09tYmpmcnhHMVlIVlZ5MGd1M01tZElMQUZoR1ZKTm9sbU1acUp3ajJCR3RTZw?oc=5",
-      "pubDate": "Mon, 04 May 2026 00:18:38 GMT",
-      "source": "전자신문",
+      "title": "삼성전자, TV 리더십 교체... VD사업부에 이원진 사장",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE03cFNvY1c0TFlhYVhaaURXMzFKTjJzM09lVGtZR2RLLTEwbi14TlBITHd5U3R2M0s2dl9jQUhPdWVUa255ckI3QjMxN0ZiSG9INWZTOXJNOVNWUUtfWFpFYVNoNTJoVVBFQmZR?oc=5",
+      "pubDate": "Mon, 04 May 2026 00:44:40 GMT",
+      "source": "디지털포스트(PC사랑)",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -42,10 +94,23 @@
       ]
     },
     {
-      "title": "삼성전자, TV 사업 새 수장으로 이원진 사장 임명… 용석우 사장은 DX부문 보좌역 위촉 - 조선비즈",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOTmVSUlhWX3lqRHB0bkxTbllUOWFjOHR3VURSM0YtTFNwTVZ6dUJ4WlJKbTE4Um5pWVR2Qjk5THFTWVhweEw5WkM2aEU2SGd0V2dpQmZCdFBNNDkyTHdRc2czaXJ3alN0ZEM3UF94THU1WGFiOTRqZDhYdk1RbDl0Mmx30gGWAUFVX3lxTE1QSklMUDhmWmlWbFkzSklBOUs3RFU3eG9mbnBsWFM4WjA3NFlMMjA5c1RxZ2liVHR2dUF2VnFvRGstZ01YYkRhbl9hNU5VcDdhMmxETmFBUHNUb1ZlTlFNbGhlRTEtbHVBdFFiQUZFTnRCdkFUWlJpTkVpTTU5eDctM3Zuel9BV3B0eUJPNlZHZEJoYmVvdw?oc=5",
-      "pubDate": "Mon, 04 May 2026 00:18:28 GMT",
-      "source": "Chosunbiz",
+      "title": "삼성전자 목표주가 하향 리포트까지 나왔다…노조리스크 가시화 [투자360]",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5ILXk1bkh4RjFQTlZXSzNJVE5HSmp0U2dHSlNIaVdSYUJ0d2RRTDE0QXpMM24taVFyY0sxdnpXWHJWYVd3R3hqUkNIZWVJOFpKcFRUMTNn?oc=5",
+      "pubDate": "Mon, 04 May 2026 00:44:16 GMT",
+      "source": "헤럴드경제",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전자, 신임 영상디스플레이 사업부장에 글로벌마케팅실장 이원진 사장 발탁",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5UUGhmSXAzM0NSeVotM0FseW16WHRJeTBpTHlkRFI1N1VtYTFETXc2aVlmbjY5Q0VHT29paFQtLW9Mb3BYUXF2WDFsTldPalFfRGUzVzlQMlpRT3AycFNJanp0Zlg1dmIyWDZ5THBTRW1pQQ?oc=5",
+      "pubDate": "Mon, 04 May 2026 00:42:06 GMT",
+      "source": "인더스트리뉴스",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -55,78 +120,13 @@
       ]
     },
     {
-      "title": "삼성전자 노조 성과급 논란, 해외에선 어떨까",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9wdE1LN3VmaDZNWGhvT1VWR05TaTRZdHhaVUNxN01sTHNKejNZcjRjREpQS1UyeEVndzlTcmh2QW9JOTdQQTVJaThaYk9jZ3EyZm03Z1hkVVhuOFZZOGV2T1ZEUG9YOXJvR2c?oc=5",
-      "pubDate": "Mon, 04 May 2026 00:18:21 GMT",
-      "source": "hidomin.com",
+      "title": "내년 메모리 공급부족 심화…한화證 “삼성전자 33만원 간다”",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5GN1d3TzlsUVlmOEF1ZzgyeDZJUlJiN1EyRkhMbk9jM2o1V0JqWUdrVjVJaGliZ1J5cTJ0UndMLWVkLUJfd1Y2cTBIUndKS0twZ0lmVVVBQVZaQQ?oc=5",
+      "pubDate": "Mon, 04 May 2026 00:41:00 GMT",
+      "source": "브릿지경제",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "‘비트코인 서울 2026’ 1기 서포터즈 모집",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB2ZGdYUW9WRDk2UndOcU9yMm1TTVZ0TXJNUWdxWVduelhSZThyUDFSLVNDcDFjUldQSWtXT0hqLVoweDRpSEVuUGMxMkF4TlRRMnfSAVNBVV95cUxPQzF2c2V5S2tLaENpRE1Ca0dHS2hkRzRBbW9wTjhNWGhSVjJNVV9tUDdoLWplR2RodHpVYk03ODJfaWpRVEtzc0l1RW92NmFvbmlnaw?oc=5",
-      "pubDate": "Mon, 04 May 2026 00:18:06 GMT",
-      "source": "서울경제",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "[속보] 삼성전자 사장단 인사…영상디스플레이사업부장에 이원진 사장",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5MZHVCdnh4TjVkdFBFYnFJMDc5c1F3aGNqbWVDMlBveFo5b3RpOWlPWVB0ZG9xaFNPNTczN2dzNzJueFltR0hRZUNNM0RYRjJtV2laMVNMd1ZuRExEaEZFMEZHNlo?oc=5",
-      "pubDate": "Mon, 04 May 2026 00:17:42 GMT",
-      "source": "뉴스1",
-      "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자, TV사업 수장 교체…이원진 사장 전면 배치",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1qcHBWVnBJMnhaeFIwSk40SkFDcGphZkFwYUdveThta0RiNFNzS1dOdENWemJWZXo5UWVsT3B1eG5Xb0tteDFBVTFMUDhCYkk?oc=5",
-      "pubDate": "Mon, 04 May 2026 00:16:34 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[속보]삼성전자 TV수장 교체…신임 VD사업부장에 이원진 사장",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1lN1RMOXA3aUI5dFJGX21wVlV1RWtHa2RYcVJPaHF2ZHR4MDNBZmJyZDFLMk94OTFveng0UzdMNEJyWWU3WDBzVnlFUHhKcUZXc2VIMHlybXJrUdIBXkFVX3lxTE83RkRzQTE4WnFiSElRWkpFMWhmdF9oMlRXM1JrR1VkMnY0SnNrWmhnUjdtWVk4OU9TSmtyY2JvSWFSei1YUkc1cmxXN052ZnZuUmlqOFB3LVE0U0hrcGc?oc=5",
-      "pubDate": "Mon, 04 May 2026 00:14:45 GMT",
-      "source": "파이낸셜뉴스",
-      "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[속보] 삼성전자 영상디스플레이 사업부장에 이원진 사장",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1nWm9JcjZ1Qzh5b0dkYl83S2tQQkRGdG4wY1p5RVVTQVpadEFFellkTDVtUkF6eXhUWktXVWVBcE44cDZRVXJGNWdUbl8yeHFWMlgyQzZ0OHlPTE3SAWBBVV95cUxNd19LV2hfV1BBcTFBUzJEYjltZGRBakpYM0huNGFJSWw0ZWRCQUowLWFNcUJRVWJlamRLM2djcmtMZFFIanNnQmp0d2tBN0paS29FaXhBdVRucmxyT29vVGk?oc=5",
-      "pubDate": "Mon, 04 May 2026 00:14:29 GMT",
-      "source": "연합뉴스",
-      "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
       },
       "impacts": [
         "삼성전자"
