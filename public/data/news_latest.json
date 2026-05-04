@@ -1,12 +1,52 @@
 {
-  "timestamp": "2026-05-04T12:28:35.722571",
+  "timestamp": "2026-05-04T12:58:49.370001",
   "count": 10,
   "articles": [
+    {
+      "title": "비트코인, 8만달러 돌파…거시 변수 속 반등",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1MZHZScVhzUnM2dndqbnBhU1VuMFh6M0ZGNl9XTkxpaDlUTS1NUU82cHQzNDN5UVdMTjA3V2F5WWRYZTRHOU10bTljUU05M0JNSTFFN0N1VE5CRzlnNjQ0ck43VHZXclptdG5QOFpR?oc=5",
+      "pubDate": "Mon, 04 May 2026 03:45:55 GMT",
+      "source": "아시아투데이",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "환율",
+        "BTC"
+      ]
+    },
+    {
+      "title": "현대차·기아, 지난달 美 판매 16만대 전년비 2.1%↓…하이브리드는 ‘역대 최대’",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9FRTJyaDczU3pSemJ6YXJINEVPc3VGckk1OXI4SlRSVURPM1BTd3F2SDl4YzEydm1DelFQeVlETkQ2b3UyNXA3ZjVwSUxHQm9YNHJ1VTQ2WlNMWnpxU1E0RGZvNA?oc=5",
+      "pubDate": "Mon, 04 May 2026 03:45:04 GMT",
+      "source": "에너지경제신문",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
     {
       "title": "코스피 사상 첫 6,800선 돌파…반도체 강세",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE93V3RrWFV2MEJZVk1RekUzbnZxVDYzMkFVV1BpOUozSmk0dlZlQXJoMnRVdGVhekdaeG5hNkxlYUhTN2g1UFhxdHNfZzNoNnU2UGRobi0waHM4QlE?oc=5",
       "pubDate": "Mon, 04 May 2026 03:16:00 GMT",
       "source": "KBS 뉴스",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "부산시, 산업부 전력반도체 공모 2건 선정... 국비 200억원 확보",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1qNnRuNk8yWFdYUm94VFBURWJrakZkWjJKQnhSazF2Q0xXT05rcmZqZnkwU1Q5Y2Q1aUFwczVPMzMzTTdqc05kX2l3bXloS3E0NEtydjZER3EwMTBBRThFeVRfNDdSdTRmNFkw?oc=5",
+      "pubDate": "Mon, 04 May 2026 03:12:00 GMT",
+      "source": "BBS불교방송",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -91,46 +131,6 @@
       },
       "impacts": [
         "현대차"
-      ]
-    },
-    {
-      "title": "현대차 ‘르르르’와 함께 ‘가정의달’ 다채로운 행사",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5EUXhCTTItVm54c09aTjhvNExXR0dNUnpMeHhYOWVXalZORVZBMWZFdTNhQ3Ayck02SXMweVBSckcxa3BnV1BuNG9lQ3g0Wkt5?oc=5",
-      "pubDate": "Mon, 04 May 2026 02:43:07 GMT",
-      "source": "문화일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "[시황] 비트코인, 3개월 만에 8만달러 회복…주요 알트코인도 동반 강세",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE13ei1OdTFRQmZySm1DdExKTjlPd3JvYjE0cUdFUy05TDdqZnZneFlqV2s3blRqc1Q5NDJack53VENieDIzdmhPdWtaVWdSRWVh?oc=5",
-      "pubDate": "Mon, 04 May 2026 02:41:26 GMT",
-      "source": "블루밍비트",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "환율",
-        "BTC"
-      ]
-    },
-    {
-      "title": "삼성전자 TV 수장 교체 배경엔 철저한 ‘손익계산’… 성장판 닫힌 사업 대수술 예고 - 조선비즈",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQU2FseTA5UTNqOXVfLU96WXV6c1ZqNlIxUWw5M1VRZ1AwLWhpWnEzQnNZamNkcVBTZ044YjV2WGhoeDZkaWxFX3c1d1ZSZjBuaFNmTEk2VlRVUkxZYnFZV2NYekZJMkZVS3A0bnZIWjg2T3JOa19jU1ZpRnJiOWM1c2ZR0gGWAUFVX3lxTE55ODJXclluU0M4ZGtieHFPdmxwWHlJUHhxT0I2MVEyR1ZMbGhNZEFBbHNjVkNaWFBib0tRN1JzZkhtdDZPY1ljOWtLYk9SUVhYRC1qSVFwRzl6OGJ6VmRiYVpGQnRTa1gxSm1sTi1SR3NubFVuY1VHTWZrNzJOdjFNQWt0anZ5LTVULWx3bUNRc3BNQVVwQQ?oc=5",
-      "pubDate": "Mon, 04 May 2026 02:33:00 GMT",
-      "source": "Chosunbiz",
-      "category": {
-        "label": "🟢 POSITIVE",
-        "color": "#4ecdc4"
-      },
-      "impacts": [
-        "삼성전자"
       ]
     }
   ]
