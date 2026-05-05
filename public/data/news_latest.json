@@ -1,15 +1,55 @@
 {
-  "timestamp": "2026-05-05T12:35:56.684165",
+  "timestamp": "2026-05-05T13:06:10.464251",
   "count": 10,
   "articles": [
     {
+      "title": "비트코인 8만달러 재돌파에…3억달러 넘는 숏포지션 청산 발생",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBrVW14WUdRMUx5WFJnNlBINi1LV3pUbHktS1FxNXdrdWw3cXlyazhiT2EwR09FU2lDUDItOE0zeGJUc3JKUWhlaHRlMlBxRjFSYUNXYmtMblgzMGppU0FKbkxkdFB4bHFBaWpVeG1mZkrSAXRBVV95cUxQMi1GX3l4TUUwMHNHYk9Ra2kxcE9NdEpmdGl4N0M3ZVZOdFk3SXBfcWZqR1g1Q0lxcEJqdUxxQUxXb01XM1ZBbG9GWGZ4cENaRU9WanRTOUVjc0RjOXFGdTNpX1FGU2d1T29USFl3WWtqeUNQVA?oc=5",
+      "pubDate": "Tue, 05 May 2026 03:53:15 GMT",
+      "source": "연합인포맥스",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC",
+        "환율"
+      ]
+    },
+    {
       "title": "수개월 걸리던 ‘통신 반도체’ 설계 단 하루 만에 끝낸다",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9SMUhKYm41NkNRQ3R5bG4tWWJacjNYUXNtZ2dNSDJCc0tEUHhHbHhwN3VxMWlmMWF4Tk9RUFRuaWgxOHdMMW9YcUtPRDBCbEg2Vlpvc1cxYUo0VTdfOUFuSFo0b0pRdw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA2cDZPYXZYcXJtUHg4eDlqX2dBVXZzX3Y2Um55TGdvMm1kcE5TWGQ2aExBYVIwU2NXcDhiS3dEb2hYOGtBRWU3dF93SFp0NVNhNW5ZWUptb2FYVXBOZGR5OE1KWjh0NEE?oc=5",
       "pubDate": "Tue, 05 May 2026 03:30:36 GMT",
       "source": "기계신문",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "워트 \"내년 7월 삼성전자 P5에 THC 반입\"",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBLYXIzcWpZWlZoNDYtQ0VUTlR3MVpWdGpxaEh5N3BWeHJoRDU3N19SdGtxSFVhdmh5ZUJELWdfYVFRanRUQkhSRVMwTWtyX0Zwa2RET1dR?oc=5",
+      "pubDate": "Tue, 05 May 2026 03:30:10 GMT",
+      "source": "지디넷코리아",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[위기가 기회다] ② 용인 일극에서 분산으로”…반도체 팹, 왜 지금 구미인가",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBoSXhjUXNZRGJPRFR1YUR6M25rbFNCYVl1Zk5JSWhTZ1JNMEJyeVBZbEhDSTlSM3dqdV95SkJFYS0teHA1WGd1YVVyaTNQZXliSFQ0RFVkdWt5SGhabnN5cmtGbEhlSEdB?oc=5",
+      "pubDate": "Tue, 05 May 2026 03:20:49 GMT",
+      "source": "대구일보",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
       },
       "impacts": [
         "삼성전자"
@@ -38,8 +78,8 @@
         "color": "#ff4757"
       },
       "impacts": [
-        "삼성전자",
-        "원유"
+        "원유",
+        "삼성전자"
       ]
     },
     {
@@ -65,22 +105,8 @@
         "color": "#8b9dc3"
       },
       "impacts": [
-        "원유",
         "테슬라",
-        "현대차"
-      ]
-    },
-    {
-      "title": "\"한국, 중동 충격에 성장률 -0.9%p 급락…반도체 효과 반영 전\" [ADB총회]",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB3V2ZpbWhDc2N0V3VVeTFIVW9tVkp4bExqcHZiWjZveWRZNXF4c1RySVVUQ2gyV3EyQ1V6VUFDZUx6dmdoTE5pUGVNRjFYN0F6OFFwMWY3c9IB-wFBVV95cUxNWW5vVXpmMTViaFRFaEt5VUxlaDRrOVJvY3J5RXc3Z3p6WWxBXy1BZ29QTGRnX2lDUUVYMGhjQzhyVzRoV2FkaFZzdlVQU1Bpb0JycHNOY25UQVRSVWM4bU1lVDU2MDNDY2J3bk5FTTZ3RnJfTExsTXFKY09RbFp6clNPRGFack5qZ2R4YmdxOWg5ZEk2bmpna2VjWUNTd2dRZm95LXZLM1JIN3l3bzRaSnBfSWNQR21YNEJpTV8zUUpWQ3EzZDQ2Q01sa1JMVXpMWUdNbXBLSDdPMW50Y3ItdFRVN1NLNjFNOUxacXRqWDFWUUdXTFJ0S19RTQ?oc=5",
-      "pubDate": "Tue, 05 May 2026 03:00:00 GMT",
-      "source": "데일리안",
-      "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
-      },
-      "impacts": [
-        "삼성전자",
+        "현대차",
         "원유"
       ]
     },
@@ -102,32 +128,6 @@
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5pRVFMUnl3ckJyR2JhM093RDd5anJwTHBzcXNWem5lRkpiNFNkYmdvdm1JWkhDcnpicktkQ0cwVDdNdk9qOVd1TVROMWxIbHc5dk51WkFtcjhES2xRWEJoRkpFaDJOU0V6Mzlici1R?oc=5",
       "pubDate": "Tue, 05 May 2026 02:50:00 GMT",
       "source": "mstoday.co.kr",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "수개월 걸리던 반도체 설계, AI가 ‘단 하루’ 만에 끝낸다!",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8yNmEwWVN5elhjVXUySGRzVTBKYzhZLVZjU3YtLVBLNTkxOU5RN3hsMEFPZi1vOG1tWnFYZmpnZ2V1bC1QdndQLXVKNnNCQUQ2bVhwYTVuNGVvQnNETEc2a3psTjJqeWxtemhMNtIBcEFVX3lxTE5VWGhxRFdieGNzeWVDSDQ3T1cwN1UtVUFKNGpBMi1GNVRySFhzZTQzSlFLdGRYTHd3b2tGMU8tdEgwNGI5UHIxUUhPbHhBaUhCV1I0WEs5RlJXSUloemlWZFNuNE9SS3Y0WmRVemxGbDE?oc=5",
-      "pubDate": "Tue, 05 May 2026 02:44:00 GMT",
-      "source": "전기신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "총파업 예고에 뿔난 삼성전자 주주들 \"파업 시 노조원 전원 손배소\"",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5DNUZtOVo4TDRXYXFRaTVGUkcwQjRuMnpRSl9aSVBWMFNab1V0djZjUUo3QlJrcEJKa2ZlSjM1Q3M5S0hUUlltbHdfcUZ0Vjg?oc=5",
-      "pubDate": "Tue, 05 May 2026 02:40:04 GMT",
-      "source": "v.daum.net",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
