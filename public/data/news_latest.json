@@ -1,7 +1,21 @@
 {
-  "timestamp": "2026-05-06T02:08:30.518679",
+  "timestamp": "2026-05-06T02:38:43.843777",
   "count": 10,
   "articles": [
+    {
+      "title": "가상화폐 업계, 주간 이슈로 '비트코인 9만 5천 달러' 주목",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5nemIzYTFyTUNPR0ktNXNKWnhpYUFXNy1iSTdXbVpsZ3ZhVDltVjRDQjNTd3FuZFV6dE9hb09vdkIxVFlyUmZFTS1rd0xJSFd4NnBlN043RlpLcHRQaldLSHNCcTFYRnhDcnVOMA?oc=5",
+      "pubDate": "Tue, 05 May 2026 17:01:45 GMT",
+      "source": "경향게임스",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC",
+        "환율"
+      ]
+    },
     {
       "title": "2026년 4월 30일 국내 증시 하락 전환…삼성전자·SK하이닉스 레버리지 ETF 도입",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFByMkRSa08weWpZX2FZNXZjYVl0NS1iZEwzWkt2T0U4MGVkRXNKZkI0YUdMdUFJajBib3NxV2FiYUFFUC1UZ0pnMV92MF9YX3R3WnUzLUhpdk5MWkE4amhvMWtJYkRnNGs?oc=5",
@@ -55,6 +69,19 @@
       ]
     },
     {
+      "title": "“파업 시 노사 모두 설 자리 잃어..대화로 해결하자”, 신제윤 삼성전자 의장 호소",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBLWHFaVnBUejk1RW80TndoSU5hNGFrbDAzSHlqTG1rSl9HRzVXVXg5S1JHTm51THo4dkFRSVVmcm5FX3RSNnlUS1IzeTNWakY2LWQyQkVLUGljMk1UYUZJalJsR0tDT0liTC1jMGRqYkFJUDl6Q3c?oc=5",
+      "pubDate": "Tue, 05 May 2026 16:31:27 GMT",
+      "source": "dailycar.co.kr",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
       "title": "삼성·SK 역대급 실적 이면의 위기…K-반도체 목줄 쥔 미국의 '4중 그물망'",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE12ZVpjbG8yVldMSjR6TFRzQ3ZOMVhnZ3FTNnZPa05MUzBFM3BvdUpyMDhqZFJPX19HQlJkZG9VTk05NG51MHU0TGdtSlZsUXBLZkxMMk4tUkVJTDRvNUVoWTk3NXdMUWxQY1E?oc=5",
       "pubDate": "Tue, 05 May 2026 16:15:30 GMT",
@@ -101,34 +128,8 @@
         "color": "#8b9dc3"
       },
       "impacts": [
-        "현대차",
-        "테슬라"
-      ]
-    },
-    {
-      "title": "AI 칩 품귀에… 애플, 라이벌 삼성에 협력 타진",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9zVkpMSEdvSU9QQk5MemsyT1gwdFQ4bTJVUndjb3o5bTd4UF9GOUt0aEZ2ZTZfLUhnY3FYX3YwYS14cENnaVBCMjlKcmZUNEE?oc=5",
-      "pubDate": "Tue, 05 May 2026 15:32:24 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "개미들 반도체 하락 점칠 때, 큰손은 나스닥100 3배 베팅",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBMYmY5THp1Z0Z4OG5VaURIa2VMeklNYUNBSDA1cTJYWmJtZS1YTXc4TnNvcEo3SHc5ZUliNm1ReEhxaFd0cVNDU2dfNFlZd21IanFWNm9oM3o5QdIBVEFVX3lxTFBXVFp3M0taR1RBVlBjVDVRZV90RVZDSXJQSVJYZy1KR3ZtUWhoQjRVeUhXQTlGeG5tTkJMOFZEWjhrbmQzSkJBM21CTmNhOGhvMjBuMQ?oc=5",
-      "pubDate": "Tue, 05 May 2026 15:24:00 GMT",
-      "source": "한국경제",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
+        "테슬라",
+        "현대차"
       ]
     }
   ]
