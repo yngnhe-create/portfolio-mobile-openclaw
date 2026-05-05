@@ -1,12 +1,27 @@
 {
-  "timestamp": "2026-05-05T18:17:04.988232",
+  "timestamp": "2026-05-05T21:07:34.986659",
   "count": 10,
   "articles": [
     {
-      "title": "신제윤 삼성전자 의장, “파업 땐 국가경제 타격” 경고",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPc2NoYktudDhrUGUxVDdZbXlQbDI3ajFhbG84Vkk2OUhlc2dZUnYzb0ZTMVNscE9ERDkybjdnZWhtTmpuSW5GRkNqM0dLXzJlaFJEbVpnUWN4MWhMQ2dYdEtiRXNyejNWdjV4TGlpMjBiakVMR3ROOHRFY2lPLXpWYk1pUFkydw?oc=5",
-      "pubDate": "Tue, 05 May 2026 09:04:36 GMT",
-      "source": "글로벌이코노믹",
+      "title": "\"8만달러 돌파한 비트코인…금리 인하 기대 약화에도 상승\"",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBhT0dyV2tIQ3JCT2hicng2RzlrQ0lQVmxJb1lhT2k1X0R3VEF6cEpTVVRodHJQMUZFdG5IV0drcUNXUFpvVUE0UnRhV1ZNRENx?oc=5",
+      "pubDate": "Tue, 05 May 2026 12:05:01 GMT",
+      "source": "블루밍비트",
+      "category": {
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
+      },
+      "impacts": [
+        "BTC",
+        "환율",
+        "채권"
+      ]
+    },
+    {
+      "title": "신제윤 삼성전자 이사회 의장 \"파업하면 타격 심각...대화로 해결을\"",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBaQzllRDlhTnpyeUJnaWNNSlBFSFVzUmdLSk1iYl80ZkZtRks2d3RvdzJTSlExcTdmVnVFWnFyYlNOTlhJRjRpa0tLZ0d2bk4wUHBha2NR?oc=5",
+      "pubDate": "Tue, 05 May 2026 11:43:44 GMT",
+      "source": "지디넷코리아",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -16,10 +31,36 @@
       ]
     },
     {
-      "title": "삼성·SK하닉, 실적 고공행진 이제 시작일 뿐…“반도체 공급부족 더 심화된다”",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOV0dKNEpKcVNSa3FtSUJqWGg2WmYtOWRDM1pHUmZ2OXJldkw5QTZTclhURERCNlpRYjF6QjBRU3FKelFqX0pmYlp6T3laWVdVazJnbFBTLVJWd2wyT0txYlUxVERTb2RtVThCVXZsYVdVdERrbGdWLXp6eklmMTlGTmFFQ2c?oc=5",
-      "pubDate": "Tue, 05 May 2026 09:04:10 GMT",
-      "source": "글로벌이코노믹",
+      "title": "현대차 '아이오닉 V'로 대륙 공략‥중국업체들은 차례로 반도행",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5WZmtGczRUb0ZzemRaSFBPZjBMNWZwUHEtZF9jajZZUkEybGJ3Y3oxSDZlU0ZQcVlJNnBvRjI5ek11SzlWRHladHZwMmZ5Um8?oc=5",
+      "pubDate": "Tue, 05 May 2026 11:43:12 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "법적 대응 예고한 삼성전자 주주, 고개 떨군 이사회…“총파업은 공멸”",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9RM2s2Z1k0RWxSajdLbDVFOGYyazBYWmF3aFdLMktEeGhSMDRUSEFZcExwMllydWlSZlRiY2lTYlhfMURxb0dMbS1fOERoOTlmVDJkZ2g5d011YkNTZ0Eyd0E1aUFZV0taNlU00gFuQVVfeXFMT3BmdjgyTllDT2FBdmJHVVoxVlg1ekJ5bEpnM0c1dmtPR2JsSzhJVmlfaGxXVG9MbmVFWDV3RTFfWmpBUkhndURNWEJEZTVOZG9PS19kRjFTcE5kX3RmMFk0dktfWXUyR0F4c2JfYWc?oc=5",
+      "pubDate": "Tue, 05 May 2026 11:25:45 GMT",
+      "source": "뉴시안",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "온세미콘덕터, 반도체 사이클 회복에도 매출 성장 미미…점유율 하락 우려-베어드",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9zbGlWVTdHLXVaNkYyRXZIal81bVFDRWhVdkxrb1pQMWM1QU9SZVRIQ00tRXpOZi0tNkJwTjk0cnFxWWhneVpyTkl1RXdfQTByTHNqX0lLWm9YNmR1UWVQTHFQVHdmem5EVHl6MG9wV3RBNWs?oc=5",
+      "pubDate": "Tue, 05 May 2026 11:13:28 GMT",
+      "source": "마켓인",
       "category": {
         "label": "🟡 MARKET",
         "color": "#f9ca24"
@@ -29,23 +70,10 @@
       ]
     },
     {
-      "title": "\"현대차 얼마에 매수하는게 좋을까?\"…한경 '에픽AI'가 매수·매도 타점 찾아줍니다",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE43QTJ4XzUxX3lGdktTTXNlcFFORmF1cmxJY3ZTTkZQeW41MVNMUzlVNFJkXy1SU1pacTU4al9lRlpmTkpJczF6ZWF2bUYyQXpFNnFraXlKU2NVQdIBVEFVX3lxTE9JV2JYSlRweVpVb0wxQjhRMmVKNFZVTWc2NXVULURFTDBUSmNMVi1URDRnSzFxQ2x2NV9EM0ZWRE9GZVpSV1ZfX01kRFAyUF82R2M1Qg?oc=5",
-      "pubDate": "Tue, 05 May 2026 09:00:07 GMT",
-      "source": "한국경제",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "삼성전자 주식 아이 선물로 최고",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB3UmZsZzZVZC1zQWZ6SVdrb1JWU1lSczhVYk8zcnhBelUtMVBxbDMtODFWRXRmSF9mUVFaMzF3SWFCYTF2QjQ1QkhJbjFuSnhkMGtyT3JIbUE0NzNvUkZGSFpCSnZ2SHlwaTNkWG5XV3BBVXJL?oc=5",
-      "pubDate": "Tue, 05 May 2026 08:45:28 GMT",
-      "source": "부산일보",
+      "title": "애플, 칩 생산 다변화 위해 인텔·삼성전자 접촉",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4yLTlKdU5UeXVTRUpIRkFuQlRPY2Q1b0dQbjFsc054dlNyYTlwMkN2WEZZUWt1T1lDVzJvaG1nYy1jMy1LN3RhWVlaSGY5YmJqSXp0elNsNVphR2c2REJrNENoUjBoalc0TmxpdF83MVJ4Mms?oc=5",
+      "pubDate": "Tue, 05 May 2026 10:54:17 GMT",
+      "source": "마켓인",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -55,81 +83,57 @@
       ]
     },
     {
-      "title": "현지화 전략 통했다… 현대차·기아, 印 연 100만대 돌파 청신호",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAzM0lKMms2WkVyc0tpZGZBX1JfZ2VfWTdHNUJLQ3lacWwtLXdVNjZnUUFtSmJyaWV4MUpwZ0VnSmFfQ2FuZ2o4SWt2WmJDX19qWlFlYldHbGN5UDlTc2Q4UzVyQXM5eWtGSURESld3?oc=5",
-      "pubDate": "Tue, 05 May 2026 08:39:52 GMT",
-      "source": "아시아투데이",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "[논설실의 서가] 부동산·美주식·비트코인 통해 富 이루기",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9wWElCLXE1c3hCU3BPVE1XNlZ1ZjVGUlpUVVRkaEh6d2czSEtKOV9xZjE5OXFaVlhKdUU4NWhuXzgzLWc0Ri03QmRjSlJLV3c?oc=5",
-      "pubDate": "Tue, 05 May 2026 08:33:46 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "리츠",
-        "BTC"
-      ]
-    },
-    {
-      "title": "삼성전자 노조 총파업 D-16···노사 대화 재개 여부 ‘분수령’",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBVcG10aHlmM3NGMEwwWi1Jbl9BZ2pMZjU0dmU5MlJXR0ptdVZ0UEJEYXM0YnU1a1pOSmFpQm9wdHJYVHIzcV85blltZ2l1WTc5WFJiUEhNWGd6dFcwR0JseHV6a09MaUlMbi1vSW9OQUJGZ9IBdkFVX3lxTE5uQmZ3VmhXOGt5ZmFsS3plMVBIN3pEQk5yTzg1NndRUXluV2t3N3hnRE1fYW1YVjNJc3ZnUVVvWjhmQjdQVmx6dWQ2WE9nTVlsVUdZaUY3R0pYd3pnOUtVYkFTSGh6UXRMejRwMnI2aGFORmRDU2c?oc=5",
-      "pubDate": "Tue, 05 May 2026 08:26:03 GMT",
-      "source": "시사저널e",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼전 주주들 \"파업으로 손실 땐 노조원 전원 상대로 법적조치\"",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQVDY2Q1lwUzhMOEpwaWlUMzlqV2NIX1hYRjRvLV81WGFMbHl0bzVfdTlyZkx4MmhjZ1dqdlFjMkxBMjVHRV9JWFdSVHdFSTZQZzlsam5vOFdIckRLQVd2UHY3cU9GRzhUY0l3V0VsWTNUTXF3OU5SRi1LM1RUNnRrRy1kOA?oc=5",
-      "pubDate": "Tue, 05 May 2026 08:16:36 GMT",
-      "source": "조선일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": []
-    },
-    {
-      "title": "코스피 7000 눈앞…삼성전자·SK하이닉스 다음 ‘돈 몰릴 종목’은?",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE44VU13U0hWNy1JWGtnT21pZEExSjdLTTJoRXhZX0tPZV90MXljaE5RcUxKRlFSZlJqOF9vbUpmaUhnT0otQ3p0bVAwaHJWT0k?oc=5",
-      "pubDate": "Tue, 05 May 2026 08:15:33 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "알리바바 AI Qwen이 바라본 5월… 비트코인 10만 달러·리플 1.7달러 예고",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxObkhhSlVuN3c2aVRpTHZPZ3h2eTFTX2hpZzg1NjktWnZvTWZEbjBtWVZ5TV8yVUJ1OTJzWlVwX0dQOTBUSnl4WTVXSHJWT1FCTEdHYzlNNmpXS3Nxc0JucWlqVFZMMlRoM0w5bTh3NWNZeGJEMmQ1MWpIVDdoRUNPRENmVGM4NDM3ZFp1RjZRSkUydU12YmdVemRSc0ZkMVRGa0dtTHN4NnBhYXZEOGV3eVJPM3hwdw?oc=5",
-      "pubDate": "Tue, 05 May 2026 08:07:22 GMT",
-      "source": "Cryptonews",
+      "title": "석유 대신 비트코인…암호화폐로 버티는 이란 기업들",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE53Vlc0LVdTcVpWNm9vUWFPck9tMGp3QmV2YUhRMkpqdklFbEROVHZLSlJSZUU5dkFRNUloYktacXVwbnE3c3d4WGpwSy1jd182UHJrLVBmSVJSN1BGd1FmbWJNTVFYMWpZYWJjRVVrVTZGODg?oc=5",
+      "pubDate": "Tue, 05 May 2026 10:54:06 GMT",
+      "source": "디지털투데이",
       "category": {
         "label": "🟣 CRYPTO",
         "color": "#a55eea"
       },
       "impacts": [
         "BTC",
-        "환율"
+        "원유"
+      ]
+    },
+    {
+      "title": "\"중동전 충격에 韓경제성장률 0.9%p↓…반도체가 버팀목\"",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBWN21Cb1FmYXozX0NJUzBvbzI5ZTFkSFZsTGVFT25sMVpybWV2cTVXWHJGUUhxQmRETDQxMDF0d0RTeDM3MXFFUEI5Wi12c00?oc=5",
+      "pubDate": "Tue, 05 May 2026 10:43:01 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
+      },
+      "impacts": [
+        "원유",
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "장난감보다 삼성전자?…미성년 주식계좌 9배 증가",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE02dFFyZUFPX0FXT0l4dUtLbjJpOE9hQjNGLUptTGpaa3FoTjV3MnI3X0M0ZHhrTXFHZ284QW9wYmtLRDRyR0h4YUVJbHlfa3k3NVJvaFdSVV9Zck16S3fSAWNBVV95cUxPUkVHMV9BWGpVNDhCOUgxVldiYTQ5VUwyUGd5THE3LVNvLW9MRGx5d2QxLTBSQXFPWm84cnp5bElfNk9JTUhIemtNQ1hST2lKTFUxbVFNa1ZEYXZvd2tVdm5ScjA?oc=5",
+      "pubDate": "Tue, 05 May 2026 10:42:00 GMT",
+      "source": "채널A",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전자 이사회 의장, 총파업 우려…\"최악 땐 노사 모두 설자리 잃는다\"",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9nOFJRMjBBTjNnSlhOVVU3ZDh2Vm5hYm45RTVBUFJwSmRGdTc0dnpCZzJSazY2N01pMGRSc2VOVHFQb3FRNkhxek1MQS1JUGJvenVzeHhyZ2F1VjRwVHFWNFBMNllQYkVk?oc=5",
+      "pubDate": "Tue, 05 May 2026 10:32:45 GMT",
+      "source": "한국NGO신문",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
       ]
     }
   ]
