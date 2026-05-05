@@ -1,7 +1,48 @@
 {
-  "timestamp": "2026-05-05T12:05:42.606850",
+  "timestamp": "2026-05-05T12:17:05.261963",
   "count": 10,
   "articles": [
+    {
+      "title": "ADB 수석이코노미스트 \"중동전쟁 종료에도 고유가 지속…韓 반도체가 하방효과 상쇄\"",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9JYXZaTHZFQlRJOFluZV8yOHFNbmJfcDl6a0RhRFNVSGJzWnFsdlBOREtDNndkb3c5QlFSS2I5b1hTa1J6RnRfTXQ4aTJKcGp1TzhYUXVR?oc=5",
+      "pubDate": "Tue, 05 May 2026 03:05:01 GMT",
+      "source": "지디넷코리아",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "원유",
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전자·SK하이닉스 해외 주식예탁증서 목표주가도 상향, 바클리스 \"메모리 품귀 지속\"",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9KTmRVTmJqZGFXa1lMNkpWMlg5OWlTa2FQdXJpTENoX0dtaFpiekNEVG9IQVNKaG92eUNpbU4xWTJPZGR5czVqQTBlM1dRMzl6OGpEVE1ETXBmak01QzA3dVlDcUZabHNPQkVxbzFISzBEZnc?oc=5",
+      "pubDate": "Tue, 05 May 2026 03:04:54 GMT",
+      "source": "비즈니스포스트",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "ADB \"중동사태, 韓 성장 0.9%p 하락 압력…반도체가 일부 상쇄\"",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB3QUtmS0tlNzFsVkZ0UGxBTTNRc19WbENWSFdkZG1JZEVfOWVIbVAtY09rRGtLdHJpRDVVY0QxUFFycU1oS1ZhRGZwNU9KVFk3RVE?oc=5",
+      "pubDate": "Tue, 05 May 2026 03:00:01 GMT",
+      "source": "매일경제 마켓",
+      "category": {
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
+      },
+      "impacts": [
+        "원유",
+        "삼성전자"
+      ]
+    },
     {
       "title": "현대차·기아, 4월 내수 전기 승용차 판매량 '역대 3위'…\"고유가 시대 EV 확대\"",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4xMUJhdDJkMUd4Q0NZaUtnbW1MZHVOTjlHVEtyamZGZElSbjJmY1BKeW1YM1VCa01PN2hoS0kyRmFUdTkzSk1OZXZrRXRlOGtweEkya2dOQW1pQkN1YkRkLdIBeEFVX3lxTE9ia2ZsWko5U1ExMXN4aWFVMnR3VGRiR0ZZV3ZnQWJXVzkzZUdtMmdNWmoyOVF5Vm9NdjktTmdjLVNYcmViTmpJRkcyUmtFaHpVNEJFWHJVX1JZQnlGNTFFWG5aQl92VXBhYW9FNThZVVI1bGtDckU5MA?oc=5",
@@ -12,9 +53,23 @@
         "color": "#8b9dc3"
       },
       "impacts": [
-        "테슬라",
         "원유",
+        "테슬라",
         "현대차"
+      ]
+    },
+    {
+      "title": "\"한국, 중동 충격에 성장률 -0.9%p 급락…반도체 효과 반영 전\" [ADB총회]",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB3V2ZpbWhDc2N0V3VVeTFIVW9tVkp4bExqcHZiWjZveWRZNXF4c1RySVVUQ2gyV3EyQ1V6VUFDZUx6dmdoTE5pUGVNRjFYN0F6OFFwMWY3c9IB-wFBVV95cUxNWW5vVXpmMTViaFRFaEt5VUxlaDRrOVJvY3J5RXc3Z3p6WWxBXy1BZ29QTGRnX2lDUUVYMGhjQzhyVzRoV2FkaFZzdlVQU1Bpb0JycHNOY25UQVRSVWM4bU1lVDU2MDNDY2J3bk5FTTZ3RnJfTExsTXFKY09RbFp6clNPRGFack5qZ2R4YmdxOWg5ZEk2bmpna2VjWUNTd2dRZm95LXZLM1JIN3l3bzRaSnBfSWNQR21YNEJpTV8zUUpWQ3EzZDQ2Q01sa1JMVXpMWUdNbXBLSDdPMW50Y3ItdFRVN1NLNjFNOUxacXRqWDFWUUdXTFJ0S19RTQ?oc=5",
+      "pubDate": "Tue, 05 May 2026 03:00:00 GMT",
+      "source": "데일리안",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "원유",
+        "삼성전자"
       ]
     },
     {
@@ -22,6 +77,19 @@
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBTR1AxaFNxbkxyUW1zU1FVZWhnMmtlNVIzazd2STk2eHIzTFpaa3ZzUDhLRFdEbmx4R1RMd2JIaWw4aVNQUEZac3dmSjg4cUU?oc=5",
       "pubDate": "Tue, 05 May 2026 02:51:00 GMT",
       "source": "v.daum.net",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "어린이날 선물도 ‘대장주’로...자녀에 선물한 주식 1위는 삼성전자",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5pRVFMUnl3ckJyR2JhM093RDd5anJwTHBzcXNWem5lRkpiNFNkYmdvdm1JWkhDcnpicktkQ0cwVDdNdk9qOVd1TVROMWxIbHc5dk51WkFtcjhES2xRWEJoRkpFaDJOU0V6Mzlici1R?oc=5",
+      "pubDate": "Tue, 05 May 2026 02:50:00 GMT",
+      "source": "mstoday.co.kr",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -61,72 +129,6 @@
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5sbTFobTJ3QllZbmVJRWlOMndKSS1Ual9QeFktVHgyREowM09PNHlyLVhhY0tvREZlMlBIWU1oRmxOZDBqSFVZYUpfTkgxZC1KNGdUUEIybnM1ZlAwSnM1QjVDVkVFZEI2cDZN?oc=5",
       "pubDate": "Tue, 05 May 2026 02:36:12 GMT",
       "source": "라이센스뉴스",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "美 비트코인 현물 ETF, 5억3219만달러 순유입…3거래일 연속",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBzMW1SR3lnYlZBSW5lVXh6UGRiUDZtc1FqRHZ3SUNWbGJEc0lteHF1Z205YzRIWHNoeU5xLXk3UVFfMUZzWVZjLTdDOEl2WWJ2?oc=5",
-      "pubDate": "Tue, 05 May 2026 02:35:51 GMT",
-      "source": "블루밍비트",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "환율",
-        "BTC"
-      ]
-    },
-    {
-      "title": "수개월 걸리던 반도체 설계 ‘하루면 끝’…AI가 다시 쓰는 반도체 설계",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE55Z3F4MkNxZ0lpRXF3NWF5c18tU01LZjNOTnBCM18tMXdNZXpMalVYZWlKdlM4RnE4ajlNQ3BrZGZ6aDYweUNtUGtPU281bTA?oc=5",
-      "pubDate": "Tue, 05 May 2026 02:35:46 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "\"장난감 대신 삼성전자\"… 0~9세 주식계좌 두 배 늘고, 평균 잔고 1000만원",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQSmVWRTl4Nk9oNTVVZTl1b09NRGlaVU1LSVd6QlNFZk9PMTM5MzBvTkE0YjlkUlZxWjBMMUtjQkN2N01zNVI4aUFmSm44RktrNnQxQUlVcmFiQXRsTDh4UTZ2R0E2MkJmRFlSbW9wZGlRdVU2ODBXRDVVd1Z6c1hSX25fNTJQdTh2eHRn?oc=5",
-      "pubDate": "Tue, 05 May 2026 02:34:00 GMT",
-      "source": "조선일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "UNIST, 수개월 걸리던 반도체 설계, AI로 ‘단 하루’ 만에",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE96WklFS1pUNDVqTFphNGJLcmJ0d2F5a3dGblBtTEZHZWRfaW9qTFMxZUpCeXJneERXZ1AxQndfRTFkWEJWNktrUXJWazV2bTBPc2dxZ2RsakF5V0ZDV2pzYXlSS3doRXZDeXRXSjktMNIBc0FVX3lxTE83YjZWb3RsZTFJUkJ0ZDcwNE03NXljaFFjVGRIcHR0U19KdXFQcTZ0aVd5OEVDQ1BJZlBOLXgxbko3eEV3enRJT0llWGZ4eVBMckVRYXI0eWI2YmRfRi1JWDJLTVNyN19yYkpfZ2lhRzMwVWM?oc=5",
-      "pubDate": "Tue, 05 May 2026 02:28:35 GMT",
-      "source": "뉴스웍스",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "“어린이날 선물로 삼성전자 사달래요”…부모가 자녀에 선물한 주식 1위는?",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9ORndlMFNUM21wc09pTzVfTE1wRE1wVHBKeGdyR1ZFazl4WjBvZnIwWjRJUW0wa2d2ZmNYUGlnV2FodjFWbE5LeXllY0wyVjhIdlZ2cHNPcGtMQdIBX0FVX3lxTE5iSUN1ZFJWMUx2cDFQTUNlZ3FWZklhaFpxejhfLXBzRE84M09IaUNTREUyMGF5UWlQXzVLSmRsTnpPbmZ6d0p6NVdhakVDV1ZPeDlVMFBuanNkRXVMTV9z?oc=5",
-      "pubDate": "Tue, 05 May 2026 02:26:00 GMT",
-      "source": "경향신문",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
