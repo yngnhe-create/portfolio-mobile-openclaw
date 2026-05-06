@@ -1,7 +1,74 @@
 {
-  "timestamp": "2026-05-06T12:17:05.135918",
+  "timestamp": "2026-05-06T12:43:08.792432",
   "count": 10,
   "articles": [
+    {
+      "title": "현대차 임협 본격 돌입…노조 “성과급 30%·AI 시대 고용 보장” 요구",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1ZTURaT25yUnNzWTdrbTlXWW1wNjlTTlp3Z3ZQNENMRkd5Vjl6UFVMNUNId1RyV1BtMjJ2NmVDelMwM3ZRQkdIc1k5WHJsb3V2TWtGNTZn?oc=5",
+      "pubDate": "Wed, 06 May 2026 03:30:00 GMT",
+      "source": "중앙일보",
+      "category": {
+        "label": "🔵 MACRO",
+        "color": "#0984e3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "삼성전자, 시가총액 1조 달러 클럽 가입…TSMC 이어 아시아 2번째",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE84ZjV6UzhGcmFrUEpESS1NX2ZIbFRwVzNoYU5WaDhsNEVvSjZRai1pckZ3T1Z5YjFNalo0eE1lX05iSUY4RmgwME1KNDYtcFo0eGF5RDJrRDdyOTVkSXpaQXVvQW5TeEpuUnJEYVBMalY?oc=5",
+      "pubDate": "Wed, 06 May 2026 03:24:00 GMT",
+      "source": "굿모닝베트남미디어",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "환율",
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "현대차, 바다숲 보전 캠페인 ‘이름 없는 숲’ 발표와 지명 부여",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5zSXFMVEZEcS1hZHBoREFHX3YtSzB5bktJcU5zSHB2eElmS1dKVTlpY1dlQjhSLVBIMHo2WDJ1UWZWNV85WVFYaGdMd2UtbjlyaERCM1UtcWxZZ3dhc29FQTBGZlNWRll2cmlJcA?oc=5",
+      "pubDate": "Wed, 06 May 2026 03:21:39 GMT",
+      "source": "교통뉴스",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "삼성전자, 시총 1조달러 돌파…'트릴리언 클럽' 합류",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1OMWVMMWZGUG92UWEtWmstemFMRE54VmxUTmdza1I0YXU5YWw4bjREYVpmVWxZVk9iQVFySzJIOERaVkdtbDctQ1hISTB1VXgwSnZxSnI1dHc3ZDNDOUFkddIBeEFVX3lxTE1KbHQ5dWZHM1NRR1JGNWQ2Wi1Jb0M4VFNMZ2NQaTk4OU53cHY5Q3JjSlRrMWFaQlZpeGx6NGladlFETVU3NUxlTG1pRkh5QlYwSGlVRjVkZlNOTG9kUXRYTHRXV2kwTmJCZUhLRTBvYkZXdzM3TGZPcg?oc=5",
+      "pubDate": "Wed, 06 May 2026 03:20:44 GMT",
+      "source": "뉴시스",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "환율",
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "스트래티지 \"비트코인 절대 안 판다\" 전략 철회…이젠 필요하면 매도",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5YWVFpbjZqajZjbUY2aGRmby1QbzlWaEtpWmx3cmtzVHdFeHFzaDZ5Q2dURUl6WFhLZUREclZnR2tPZTdqR2VUYTVscmF6bC03bWVqWjQxUnJBRkZlcEZHZjJnLXBlbmxZSno1NW1XVEzSAXRBVV95cUxQbEhmbm1mT3N2aUlqc0d5dmlfckx1bWlUVzlSaWJ4TmVPdm1fVHZnUEtIR2NBVkVXQ2hLdklKTmtqQU52VVRjNExab2ktTHNGVG03T0RLNUtKR29sVlpZTXlGVUxiM25zbmtsRmpKZURIT3dzTA?oc=5",
+      "pubDate": "Wed, 06 May 2026 03:17:41 GMT",
+      "source": "연합인포맥스",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
     {
       "title": "반도체 타고 ‘꿈의 7000피’ 찍다",
       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE13eDgzdHkwUEViTUw2c2I1dFhmSGxCUE4zak5fYVJPQ2JjZW4yaV9FblJVNElENG92OTJsOWM3bWk5Yi13d1Z0d3JnOE13RkZx?oc=5",
@@ -51,8 +118,8 @@
         "color": "#8b9dc3"
       },
       "impacts": [
-        "삼성전자",
-        "환율"
+        "환율",
+        "삼성전자"
       ]
     },
     {
@@ -63,71 +130,6 @@
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "유기반도체 도핑 반응 자유자재 제어…차세대 유기소자 상용화 길 열렸다",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE83Wkh6bHdxc3FTRnpzMzEtQkcyX1BOdnNaRnRzZ2N5Mnd4dFdGcnF3Y1Z1Um5HT0pKQkdRX2lBbWdPa3JqemtwMGZPWWNjQQ?oc=5",
-      "pubDate": "Wed, 06 May 2026 03:00:00 GMT",
-      "source": "전자신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "\"노사 모두 설자리 잃는다\"…삼성전자 이사희 의장의 호소",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBxLTNXR1JYejBWMFpDU2pRdnRMa3A1S2ZtMXpLdGkwQmlaeHQzU2JQUzJEZUg1RW5fTnN0Y3NrdzdkRndGbFczWUI1Rk15MkU?oc=5",
-      "pubDate": "Wed, 06 May 2026 02:57:07 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[양현상 칼럼] AI 반도체 패권의 진짜 승부처",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBnT01WYnJXUGRCVFdDTTNYXzRHMHpINWltbjBzX0tyS25qS0MzNkNrOE9UcnctYk0yOGxPR05hLW9lbVB1bzk0Zi02eUhPNS0wdzF2eWg4aXUzQV91VHVubjhoQlNKbHBRSGc?oc=5",
-      "pubDate": "Wed, 06 May 2026 02:55:00 GMT",
-      "source": "AI타임스",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "인텔, 베트남에 반도체 생산 장비 기증",
-      "link": "https://news.google.com/rss/articles/CBMisgRBVV95cUxQVFA2clVTUFMzTmNIdDVHUFhKdkhZNXh1OXNCYl9EZmNOeERwSE5KRGxXazFsTFh4QkhWbS1lNTBvck54cXpMXzBOS0lZcXlIU2tfbXA4a1A1cmV1cHYzVnlOTlJ1QkN5ZjB5VW1TeHJEOWlWWmk0WEk4UnpaQUFOZm5za2ZyUVgwbE53WWRlN2ZQakxhcnFtTFFMamo0cnpENzFuZ3lIbDN6VDE0dTRFNEFPaUtvb081NHlFTEgtX2NrZkJGSHdIS3NvRUZ0VjZmVlgyVWNMYk0xZHRyWDRxTzYwNUNtVE43TjNWbHBVbjZPLVU5NnMtbjh5ZmpCN0V6b0ZPTVh5YzhmWEk2a3V0NUp2YnBjQUlsaUlxeDlfV2xGbnY2WVl1ZVVCM1J6ZDJXaDNNbDVYQlV1QU9jX2NYTi11dlF1dWpkLUk3c0tLcXBWYkJWY3F5OGx3aFdiTVBsNThXYW9ISk40UnIyM09xTEhrYlJoS3FoWGV4R19DZDgzS25LNC1xbG1temhCMUpucGtFYjk4elNvU0FPcjFWOWN2VUgtUWoxaEx3NHcyZHBTM0IwdGRYRENBT0t5c2FDTWNkLWJrejZLOWRUX0RYdXViRlBSdTNKNkxRam5kamJ1eE1qb0dQRjhxT1Q1dGZGeDJIbkl3WHhkQUxFS0IyQVZ3b3o4Y1Rib2ZIcmlKT2JEbjRhSVRKREFkaUQwUmI1eTN4dlZpVjVDb3NHY1Y2MWZn?oc=5",
-      "pubDate": "Wed, 06 May 2026 02:51:00 GMT",
-      "source": "Thông tấn xã Việt Nam (TTXVN)",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "'노조 리스크' 뚫고 솟은 삼성전자…첫 하향 리포트 무색한 질주",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE95YXg3Y3RsWDV0bDNOQU9xOE1pNTYxd1IwNndvUktDeV91OF9WbmtZdXo2TFVLRU1zNUpLRU9DQUwxbHRmSkI1blJFdllhVHc?oc=5",
-      "pubDate": "Wed, 06 May 2026 02:50:18 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
       },
       "impacts": [
         "삼성전자"
