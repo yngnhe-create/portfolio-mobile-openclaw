@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-05-06T14:17:04.638851",
+  "timestamp": "2026-05-06T14:44:03.275578",
   "count": 10,
   "articles": [
     {
-      "title": "[글로벌 산업 트렌드] AI가 끌어올린 반도체·스마트팩토리·피지컬 AI의 ‘동시 호황’",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9aVE5GaEpuV2RPT1dVWDFYZE5FZFJOTHhISzFsQ1N3SkJKcnREZV9BYzhRM1BlNTJqdHNkMVVSMW5TNDhsTnNsbkJMcnZHZ2VjcXhn?oc=5",
-      "pubDate": "Wed, 06 May 2026 05:11:12 GMT",
-      "source": "산업종합저널",
+      "title": "[기자수첩]삼성전자 총파업, 대통령도 노조도 말린다",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBSX0JYRURZWkoxVzNoY1BYdXFHbTBpY1A5Y3BoQW43SUFXSHJjTmU1eWw5TWFZT1lDRTRsWHZkUXFSZzEyN0tkNFNMNzUxY2NQOTBEQzhaY2tmU3RENS1UQ2Nlejc?oc=5",
+      "pubDate": "Wed, 06 May 2026 05:34:29 GMT",
+      "source": "매일일보",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -16,10 +16,10 @@
       ]
     },
     {
-      "title": "디퍼아이, 과기부 AI 반도체 사업 연이어 선정…'차세대 엣지 AI' 글로벌 진출 가속",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE03Ny1Xcm5WekZiZzJxQU5RbmFKc2tEY2JPd2l6dHF2cUYyYWk4TGhzM1dGdE1rS0NBWUtwRFhTVlVkQ1lIWklTTWEtU1RlUQ?oc=5",
-      "pubDate": "Wed, 06 May 2026 05:10:44 GMT",
-      "source": "전자신문",
+      "title": "반도체 시민기자 이봉렬 “삼성전자, 자사 공개 비판 이유로 퇴사 압력”",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE00eGZLNVZCck1BQ3JBdmt5OG9wcFk4UTJxZENCazhOOGlDZHVwMW1wS1RpdlNwZXNka1dvRXlqb3BGVlpQTjlkc21yQnl1VDI5X1hjVGxpMm9faUlzS0VLOGdoMzJvZ3otN3F1NQ?oc=5",
+      "pubDate": "Wed, 06 May 2026 05:33:00 GMT",
+      "source": "한겨레",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -29,36 +29,75 @@
       ]
     },
     {
-      "title": "[코스피 7000] AI가 밀고 정책이 끌었다… 삼성전자 1조달러, 한국 증시 ‘체급’ 상향 - 조선비즈",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOYlRXR3hHdlc3cUZDWHp0bU9ocENxZ3pMT054R3dMN3dVd3FjM2p6NTNlYmYyTlhkU0RZUFhablRyVGtJS3duLXRhTzhsNWNOSHhVU3U3T1laN0Q1YzN1NWRRdWxfOGFZeW1OTjFhckZNR3Z4NmJLY3ZhTERBM181aUlPTkM0enpG0gGcAUFVX3lxTE5FcE5lUnBFaUNZSnlSaEZGcm80cE5yUDRkQ3FnZFJaaXdjN3FCc1ZVNEtKcnpvQ3NYOG1JcWtYTXQtci02QTVEdmtfTVoyVHU5WE5naWJCMVlCSER0ZU5RVjZJT2hocnQ3RGdodFJ2eUl2SUlkSFZjdGxtSkRqZ05HWUhXRVdfaXBWamdZWmFyLXRaeHU2UE9MOGdkeQ?oc=5",
-      "pubDate": "Wed, 06 May 2026 05:07:00 GMT",
-      "source": "Chosunbiz",
+      "title": "“비트코인 8만달러 넘었는데”…코인판에 개미가 없다 [코인 레이더]",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB3M19zOWRNekIzNVpZUXJGT0QwdFp5Zng5RGhubVd4cDI2MW16cU5UdFJOMzFTUDZLSmh1UC02TE9hMXZFQkI4V2Y5SkVmZldEQzBfWEFYODJRMTEwNTd0QVBUaGc?oc=5",
+      "pubDate": "Wed, 06 May 2026 05:31:10 GMT",
+      "source": "디지털데일리",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "환율",
+        "BTC"
+      ]
+    },
+    {
+      "title": "신한운용 ‘SOL AI반도체TOP2플러스’, 50일 만에 1조 ETF 등극",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFB6T1RsUnozNjNqNW9NTm9GYXdCcmpXdDNscFUwbFgwZEs4MkxvOTUwNGRiaUJCTFNvSGNvb29SYmtfSG5ZeG1LdFc0VEtWNDBIaEsxUEkwT3VabGhpeUpXbWFwYUhjdEszcDc4VkFGbU1OZw?oc=5",
+      "pubDate": "Wed, 06 May 2026 05:29:33 GMT",
+      "source": "인더스트리뉴스",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전자 이사회 의장의 읍소 \"지속 가능 성장 위해 화합할 때\"",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9VdXhlMWNkbUJIei1kRDR6NXp5MXczRFc5ejQyeUd4by1nT1p2SHNTVVg2czh6M2NEdVR2blJFNHdtV0drYXNUUnJTMnBFWTZpZWpaRzczSnNQa3huTFpIT2R6R1JPMTV0SFVsTTU5ZElFdw?oc=5",
+      "pubDate": "Wed, 06 May 2026 05:22:55 GMT",
+      "source": "오피니언뉴스",
+      "category": {
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "김영록 전남지사, \"반도체·농업 AX로 전남 미래산업 대전환\"",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9BcDdfTmZ6ajNfc2dKdHQ5eFdjSlZ0NmxOd01JOHFIMXpXWVhVdFF4b2JZQnlOc1E4cHVsXzhCU3Q1dk5ZN1pJWHZsazdIUWdmRnV0RGk3ckxwZHY3Zkh3a3pidzdIYVlIWVJlQVVYSjk5ZG8?oc=5",
+      "pubDate": "Wed, 06 May 2026 05:22:35 GMT",
+      "source": "LG헬로비전",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "매출 500대 기업 35곳 '물갈이'…SK하이닉스,반도체 열풍에 7→5위",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9NeU51QS0xNjJTM1lTSjVOSmxYSUZOVXpkRHF0SDA2MEpmVjZlQmRHWkZmcTlZV0hvSWpIdHc0dDBNS2t2NkJySVJFM3JIUy1BZ29QZzk0ajB6UFpBdXJTX1ROeEk4Vm9xZ0FEVFBn?oc=5",
+      "pubDate": "Wed, 06 May 2026 05:19:24 GMT",
+      "source": "mstoday.co.kr",
       "category": {
         "label": "🟡 MARKET",
         "color": "#f9ca24"
       },
       "impacts": [
-        "삼성전자",
-        "환율"
-      ]
-    },
-    {
-      "title": "韓 1Q 수출, 日 제치고 세계 5위…산업부 \"반도체 초과수요 내년까지\"",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1mV0txZFhsYW5zZUwtX1lFcnNmY05sdTFIcmJ5VDJhMzVsRkxHeXZNZmtfTlRJcWJyR2Y4NFhhR1ZfRmRQTDZpajJCLWVtMlpZdVQ4bmZpTmZ1ZzdydlFxX2RCMGs4ZzQ1YWdERjJQQXI?oc=5",
-      "pubDate": "Wed, 06 May 2026 05:06:57 GMT",
-      "source": "연합인포맥스",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
         "삼성전자"
       ]
     },
     {
-      "title": "“오산이 반도체 도시로 급부상한다”…이권재 후보, 오산 지도 새로 그린다.",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9wSFBQbmhqT19ONVIyV2dkOGZ5NXpJMDRxV1A2dzlCN0FONnY1c2pNSWhVQlZ4QThQUEMwRUpoSVJJdnJiU28ycFJ5eGY5ZnM?oc=5",
-      "pubDate": "Wed, 06 May 2026 05:03:33 GMT",
+      "title": "[셀럽의 한 수] 사상 최고치 코스피 이끈 반도체 투톱…5월 전망은?",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1nQUNudDhrOFVYVThtNTlKSFFhSW15VTRaa1dsOW12dVVJb3FuTFdQM3NFWGV2cUVSYVd1blhFTWZsUHRLeFBPZDhDMXpyY1E?oc=5",
+      "pubDate": "Wed, 06 May 2026 05:16:22 GMT",
       "source": "v.daum.net",
       "category": {
         "label": "📋 GENERAL",
@@ -69,71 +108,30 @@
       ]
     },
     {
-      "title": "구윤철 \"중동전쟁 장기화에도 반도체 호황·초과세수 급증 우호적…물가 예의주시\"",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAzTjFPUVlaVDdtWDkyeGZ4cl9rbG5NSDFHZ2t1dDdUeURnQzRmeWRseFRiT1g1bnR6Nkx2TzVBZVVic0hCN01KUk9RYXdvb01nQ0lMZFFxU3pxRUpNQ3p1WkJ6cWg3ODJoY1lwcEdJbnQ?oc=5",
-      "pubDate": "Wed, 06 May 2026 05:00:24 GMT",
-      "source": "연합인포맥스",
+      "title": "삼성전자, '시총 1조' 달러 클럽 입성…아시아 두번째",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1ib3FtXzd6NlhVNDJleS1TbVExNm9pZFlKVFp4eFpFeGJRNzgxcnVCY1JQamNxam9PdFo0aTB3YnhqWGNkbUVneURmU0RpS0tIM1pBeS1kcEVhRnl6R05qRjBxM25qZW9j?oc=5",
+      "pubDate": "Wed, 06 May 2026 05:16:00 GMT",
+      "source": "ebn.co.kr",
       "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
       },
       "impacts": [
-        "원유",
+        "환율",
         "삼성전자"
       ]
     },
     {
-      "title": "올들어 주가 '9배' 올랐다…반도체 뛰어 넘을까",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE54R2l2cTJGT2pHRFNmaXdIUWN5NVRMSjV4U2tGX3lCazVMdmowdkhFRVlncXJLdF9ONHgxOXJpTG56emhnZGhVRV83NG9SOVRFSUplMjhZa1A3Z9IBVEFVX3lxTE56MUpFeGZ1U0pDTm5NYUFQVVBUWVFzZkgwbGdYblhNUFhISG9UbWNYYTMxNW5XNEYyd2ZfaWRfTW1xcmRFWVFHRTdKSjNQallfNnIzTw?oc=5",
-      "pubDate": "Wed, 06 May 2026 05:00:04 GMT",
-      "source": "한국경제",
+      "title": "\"노사 모두 설 자리 잃는다\"...'반도체 볼모' 삼성노조 파업, 책임은 누가? - 머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBhOXM1YmtJWmEyYmloVHUzWEszbmotLUtVMkNlZ3NCZ1VJUUZqYVpJaUtnOGJtV1g3TmR0Rmo5dk1hZHd2UHRoaU1RTnZHc2cyR05FSDVCOXhuU2FLV3RvOU5neGo2eW10b3drYdIBckFVX3lxTE1LdFFlUnNRSVFaRGk1Tm9VbmhITTVUMHVjcE9NeHV3MnVPMkF4TWt6Q0ZMZzV3ZTBadXI5VERyeXFtRXBpWWxHeV9mZURFUnRiY05ydW8xYk9aTTNlODlqRVJpTEI0dlBOUFA3bHdjaEp4Zw?oc=5",
+      "pubDate": "Wed, 06 May 2026 05:14:19 GMT",
+      "source": "머니투데이",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
         "삼성전자"
-      ]
-    },
-    {
-      "title": "현대차 공장 투입 앞둔 '아틀라스'...기계체조도 '거뜬'",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE0xYkFiSzR3d05STFFxWk8tX2hRckxuNlAyd0dadVlpOGtkWC1kLXh6ZnRMVXRpYVNVTzl3ZnZJMjdXdUFmV2VIdkhtOTA4N19CTWFid2hyZTlXeU9iZ0ZCU1hiOFR1aldwejNJ0gFuQVVfeXFMT3FuWjZiX2NOMEJIWWtLZGs0Q1lyZ2hGLXBPRUttUG1GTTcxZV9SSzBJRFdiZUNXTkpZNDVSa20zaHZBalJRZUhGR0dWZzBaWkw4MVJYNGlIM212UzVpWnFaZV9taWY4ejRMM24tSFE?oc=5",
-      "pubDate": "Wed, 06 May 2026 05:00:00 GMT",
-      "source": "조선일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "삼성전자, 아시아 두 번째 '시총 1조달러' 돌파",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5yZ25JZldHMDZ6T3RTMWdGVFZ2aHR6Vlowa3FSZUJMWGZ2UFZzSHQxUDJEbTV2VUxsbnduck1pYmozVjhDWm82THhqekgtdFVXOFFNTXZueGNfMkNtaU1rREc1OE1nb2NuaTR6RA?oc=5",
-      "pubDate": "Wed, 06 May 2026 04:53:52 GMT",
-      "source": "seoulwire.com",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자",
-        "환율"
-      ]
-    },
-    {
-      "title": "삼성전자, 시총 1조 달러 넘었다...월마트 제치고 세계 11위",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9UWE94X2EtemNfVnJ3bHl5bWJSNFh1bjd5WHcyZHd6YTFLeDZ6Tm5iSDBINzl3Y2R4MTB3c2FZZEpBMlUxYTJUZHlZSjJsN2VxLXVHSFJR?oc=5",
-      "pubDate": "Wed, 06 May 2026 04:49:14 GMT",
-      "source": "중앙일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자",
-        "환율"
       ]
     }
   ]
