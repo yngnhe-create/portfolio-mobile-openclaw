@@ -1,91 +1,26 @@
 {
-  "timestamp": "2026-05-06T14:44:03.275578",
+  "timestamp": "2026-05-06T15:14:16.959234",
   "count": 10,
   "articles": [
     {
-      "title": "[기자수첩]삼성전자 총파업, 대통령도 노조도 말린다",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBSX0JYRURZWkoxVzNoY1BYdXFHbTBpY1A5Y3BoQW43SUFXSHJjTmU1eWw5TWFZT1lDRTRsWHZkUXFSZzEyN0tkNFNMNzUxY2NQOTBEQzhaY2tmU3RENS1UQ2Nlejc?oc=5",
-      "pubDate": "Wed, 06 May 2026 05:34:29 GMT",
-      "source": "매일일보",
+      "title": "삼성전자, 아시아 두 번째 '1조달러 클럽' 입성",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9mZm9hcGt2X2NMNWV3SDdaQjUyczc5S3BoQllWRUEyRlZyT0FoSXZlR3dzSWZYVjZLakdZNXdNenpIN3BaZmxqYlZWTzAyblB1bUp2R1VpbUdZT2FfOEE?oc=5",
+      "pubDate": "Wed, 06 May 2026 06:05:13 GMT",
+      "source": "포커스온경제",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
-        "삼성전자"
+        "삼성전자",
+        "환율"
       ]
     },
     {
-      "title": "반도체 시민기자 이봉렬 “삼성전자, 자사 공개 비판 이유로 퇴사 압력”",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE00eGZLNVZCck1BQ3JBdmt5OG9wcFk4UTJxZENCazhOOGlDZHVwMW1wS1RpdlNwZXNka1dvRXlqb3BGVlpQTjlkc21yQnl1VDI5X1hjVGxpMm9faUlzS0VLOGdoMzJvZ3otN3F1NQ?oc=5",
-      "pubDate": "Wed, 06 May 2026 05:33:00 GMT",
-      "source": "한겨레",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "“비트코인 8만달러 넘었는데”…코인판에 개미가 없다 [코인 레이더]",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB3M19zOWRNekIzNVpZUXJGT0QwdFp5Zng5RGhubVd4cDI2MW16cU5UdFJOMzFTUDZLSmh1UC02TE9hMXZFQkI4V2Y5SkVmZldEQzBfWEFYODJRMTEwNTd0QVBUaGc?oc=5",
-      "pubDate": "Wed, 06 May 2026 05:31:10 GMT",
-      "source": "디지털데일리",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "환율",
-        "BTC"
-      ]
-    },
-    {
-      "title": "신한운용 ‘SOL AI반도체TOP2플러스’, 50일 만에 1조 ETF 등극",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFB6T1RsUnozNjNqNW9NTm9GYXdCcmpXdDNscFUwbFgwZEs4MkxvOTUwNGRiaUJCTFNvSGNvb29SYmtfSG5ZeG1LdFc0VEtWNDBIaEsxUEkwT3VabGhpeUpXbWFwYUhjdEszcDc4VkFGbU1OZw?oc=5",
-      "pubDate": "Wed, 06 May 2026 05:29:33 GMT",
-      "source": "인더스트리뉴스",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자 이사회 의장의 읍소 \"지속 가능 성장 위해 화합할 때\"",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9VdXhlMWNkbUJIei1kRDR6NXp5MXczRFc5ejQyeUd4by1nT1p2SHNTVVg2czh6M2NEdVR2blJFNHdtV0drYXNUUnJTMnBFWTZpZWpaRzczSnNQa3huTFpIT2R6R1JPMTV0SFVsTTU5ZElFdw?oc=5",
-      "pubDate": "Wed, 06 May 2026 05:22:55 GMT",
-      "source": "오피니언뉴스",
-      "category": {
-        "label": "🟢 POSITIVE",
-        "color": "#4ecdc4"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "김영록 전남지사, \"반도체·농업 AX로 전남 미래산업 대전환\"",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9BcDdfTmZ6ajNfc2dKdHQ5eFdjSlZ0NmxOd01JOHFIMXpXWVhVdFF4b2JZQnlOc1E4cHVsXzhCU3Q1dk5ZN1pJWHZsazdIUWdmRnV0RGk3ckxwZHY3Zkh3a3pidzdIYVlIWVJlQVVYSjk5ZG8?oc=5",
-      "pubDate": "Wed, 06 May 2026 05:22:35 GMT",
-      "source": "LG헬로비전",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "매출 500대 기업 35곳 '물갈이'…SK하이닉스,반도체 열풍에 7→5위",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9NeU51QS0xNjJTM1lTSjVOSmxYSUZOVXpkRHF0SDA2MEpmVjZlQmRHWkZmcTlZV0hvSWpIdHc0dDBNS2t2NkJySVJFM3JIUy1BZ29QZzk0ajB6UFpBdXJTX1ROeEk4Vm9xZ0FEVFBn?oc=5",
-      "pubDate": "Wed, 06 May 2026 05:19:24 GMT",
-      "source": "mstoday.co.kr",
+      "title": "반도체 훈풍에 1분기 수출 역대최대…일본 3번째 제쳐",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1tVU5fb1FnZDRmVzRFUUlqTGxKcFJsTXJvckNBU1J0TlFXazd2SWRocWYtZkRySEx0M0JIZk4wVnM1a2pzTUpIdnQzMlNGek5ZQ2ZhaVU3QzdqbUtjdTRzOFo2ZS1mbUFKeXR0VUgtUXo?oc=5",
+      "pubDate": "Wed, 06 May 2026 06:03:55 GMT",
+      "source": "신아일보",
       "category": {
         "label": "🟡 MARKET",
         "color": "#f9ca24"
@@ -95,10 +30,24 @@
       ]
     },
     {
-      "title": "[셀럽의 한 수] 사상 최고치 코스피 이끈 반도체 투톱…5월 전망은?",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1nQUNudDhrOFVYVThtNTlKSFFhSW15VTRaa1dsOW12dVVJb3FuTFdQM3NFWGV2cUVSYVd1blhFTWZsUHRLeFBPZDhDMXpyY1E?oc=5",
-      "pubDate": "Wed, 06 May 2026 05:16:22 GMT",
-      "source": "v.daum.net",
+      "title": "1분기 수출 2199억달러 역대 최대...반도체 초호황에 글로벌 순위 ‘톱5’",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5Yd19LYWFiWDRPenZFdzc0ZWR1TjM4aG1STk9PS3BSS19kOFFhY3RNcUg5akczamFQNHhFa2xHRlhQTWE1Y2lhTjRqXzVLZDV1UVl6TUtrMFVHNG1VUFRJS0NLelh4WWI0ZW05dl9n?oc=5",
+      "pubDate": "Wed, 06 May 2026 05:59:25 GMT",
+      "source": "mstoday.co.kr",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
+      },
+      "impacts": [
+        "삼성전자",
+        "환율"
+      ]
+    },
+    {
+      "title": "메모리반도체 '칩플레이션' 빅테크에 부담 키워, \"가격 인상분 소비자에 전가 불가피\"",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9nUmEzcEQzYU5JMVlDcGtzZ0tqRWM4YW5rUjRENmJlRVkwT3k5Y1dGUXlNQ1FaUTVRMFV5amFpWTNRR1Zlc1NvVjZjLXBlc2xycVFTN3pSUmxJaGtQczZpUmFhVXBjejg3Y2M4XzV2VjR3Tm8?oc=5",
+      "pubDate": "Wed, 06 May 2026 05:55:59 GMT",
+      "source": "비즈니스포스트",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -108,30 +57,84 @@
       ]
     },
     {
-      "title": "삼성전자, '시총 1조' 달러 클럽 입성…아시아 두번째",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1ib3FtXzd6NlhVNDJleS1TbVExNm9pZFlKVFp4eFpFeGJRNzgxcnVCY1JQamNxam9PdFo0aTB3YnhqWGNkbUVneURmU0RpS0tIM1pBeS1kcEVhRnl6R05qRjBxM25qZW9j?oc=5",
-      "pubDate": "Wed, 06 May 2026 05:16:00 GMT",
-      "source": "ebn.co.kr",
+      "title": "‘1조달러 벽’ 넘은 삼성전자…글로벌 시총 판도 흔들었다",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1KcFdIRkNIbjVUQ3MzTTMyUXpjSXdPV3pBZkFWLVU4MVBZMU1hUlQ1R2F0ckY4QjZranI3UjFmbUlvZ2xGZF9LR1VXVGNLYUVZandIUUhLRjJ2N3lXanBCd290cXVRaEtTZEdjQXN3?oc=5",
+      "pubDate": "Wed, 06 May 2026 05:53:50 GMT",
+      "source": "이지경제",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
-        "환율",
+        "삼성전자",
+        "환율"
+      ]
+    },
+    {
+      "title": "“비트코인 절대 안 팔아” 82만개 모은 그 남자...결국 백기 투항, 왜",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE01d1dpdUZSVEdMdVU5X0xVS1JsdEdBN2ZZX0xwWUNvUzNTR2txNFBUaG9TMlJWZFJ3cS1KQmtGdFl1OEdtemY4Q3lMdDRrS0l0VzlIRzJhZXhiYkVrYWdUY0N6QS0zakpVX01xM3dNTQ?oc=5",
+      "pubDate": "Wed, 06 May 2026 05:51:18 GMT",
+      "source": "서울신문",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "반도체 자립 속도내는 中…\"올해 실리콘웨이퍼 70% 국산화 목표\"",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5JNVJiUlhCdG5jX2VjWDNPVjlSSVZCcmJiOHRaekZzb2N6M0xhZ21iZ0xhblhJVUFjNjY2VFkxOUJ6U3J4eElZdHdUMng2eFZObTBSUGlyNm5fQ2fSAWBBVV95cUxNTkVSb0F0QUhBbUdYMUgzSGRycTl0cEVoRVRyTWhQaGxrQzdDOXRQUm82NDMzQ292ckJIejVoZ3MtRDZtLXFZcHpFQWRLeXdzTHFzb3JOVEU4b09uc0lXWlU?oc=5",
+      "pubDate": "Wed, 06 May 2026 05:50:14 GMT",
+      "source": "연합뉴스",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
         "삼성전자"
       ]
     },
     {
-      "title": "\"노사 모두 설 자리 잃는다\"...'반도체 볼모' 삼성노조 파업, 책임은 누가? - 머니투데이",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBhOXM1YmtJWmEyYmloVHUzWEszbmotLUtVMkNlZ3NCZ1VJUUZqYVpJaUtnOGJtV1g3TmR0Rmo5dk1hZHd2UHRoaU1RTnZHc2cyR05FSDVCOXhuU2FLV3RvOU5neGo2eW10b3drYdIBckFVX3lxTE1LdFFlUnNRSVFaRGk1Tm9VbmhITTVUMHVjcE9NeHV3MnVPMkF4TWt6Q0ZMZzV3ZTBadXI5VERyeXFtRXBpWWxHeV9mZURFUnRiY05ydW8xYk9aTTNlODlqRVJpTEI0dlBOUFA3bHdjaEp4Zw?oc=5",
-      "pubDate": "Wed, 06 May 2026 05:14:19 GMT",
-      "source": "머니투데이",
+      "title": "비트코인 8만달러 재돌파…상승 베팅 되살아났다",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9MUmJxVHpLT3VyT0dra2tSQ2NXbW9meVFPZWRuR2F0MVdEemk2WFRPQUNWSFFxMFBOZEM4R0d1Ql9LMFVEWjdjelJXZWthVUFLUkl5OGZUYXdmQWRCQXBva1Zrd000VmhpWWtZQg?oc=5",
+      "pubDate": "Wed, 06 May 2026 05:48:42 GMT",
+      "source": "mstoday.co.kr",
+      "category": {
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
+      },
+      "impacts": [
+        "BTC",
+        "환율"
+      ]
+    },
+    {
+      "title": "코스피, 삼성전자·하이닉스 앞세워 단숨에 7천...'멋진 신세계'",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBQMjZhWE1ETDdmY1lPNkhpWkhNeUVjeTBFZS1MQmZ3LWUzQzF6Y1FxVHhLU3RCcUN3VHhVM1RBUUxxejZ3b0s2OVlzRzJpODFtN0JERnJ6S0Q4cVBESzA4?oc=5",
+      "pubDate": "Wed, 06 May 2026 05:42:49 GMT",
+      "source": "스마트투데이",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
         "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전자, 시총 1조달러 돌파…'트릴리언 클럽' 등극",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9YUjhSbWNodklkQUs2RERaMjZYWktYQlZlT1paT3k5d1E3SVRtWWNnRnN2VDlIVkNxUTcyWlJNeEp6YU8weXU2NmJ6eEJSejd6T3hkVUhuSWl6TjBRWXhQNUZxNXFsczZjOFAyRlNn?oc=5",
+      "pubDate": "Wed, 06 May 2026 05:41:52 GMT",
+      "source": "mstoday.co.kr",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자",
+        "환율"
       ]
     }
   ]
