@@ -1,12 +1,25 @@
 {
-  "timestamp": "2026-05-06T08:17:04.103379",
+  "timestamp": "2026-05-06T09:11:26.458660",
   "count": 10,
   "articles": [
     {
-      "title": "[특징주] 삼성전자·SK하이닉스, AI·반도체 모멘텀에 프리마켓서 급등",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1YdnF1YXlSWHhYUW43X29KUzNrQnhjcVZPRDh3ems4UXZKUkVLYll6NEpwNnRoVldRZlk3Wnlralp3UWRjME9wYzNBYnRXNFZPVHdtZlFJUjh5WXJv?oc=5",
-      "pubDate": "Tue, 05 May 2026 23:15:00 GMT",
-      "source": "뉴스핌",
+      "title": "[속보]삼성전자 25만원·SK하이닉스 160만원 돌파",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBuMEJ4eU94MkVteDdlNTY1YWlBVTFBeDZLNThuOVBKR09fWk1Gc1JOWGJFSkFGSV9kSEtHQU5zWGlKSnhPR0xyYjJmMDMyRDNTNkc5MThNMnAyS29DbmU0QQ?oc=5",
+      "pubDate": "Wed, 06 May 2026 00:08:27 GMT",
+      "source": "아시아경제",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "코스피, 장초반 7300 돌파...삼성전자 11%·하이닉스 10% 급등",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1KdFpTMVF5N0FsdVo0YVdILXdVbjNhMUJ5RzY5clhKMWpHb1lVUlREdEljSmtJb3VYTkVDNDVORnZZNllxWnVxaHhkaFhnenkwbEQ5RHNrRGE2dEc0RjN0NUJqTE8wdVA0enVWZlRGek8?oc=5",
+      "pubDate": "Wed, 06 May 2026 00:07:55 GMT",
+      "source": "오피니언뉴스",
       "category": {
         "label": "🟢 POSITIVE",
         "color": "#4ecdc4"
@@ -16,113 +29,103 @@
       ]
     },
     {
-      "title": "[가상화폐 시세] 비트코인 1억2000만원선…이더리움 340만원선 거래",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9MRTVPWHdEZUhLVzZPUWd5dElrS2RCRGtXRHI3dUx3MDVqdW5MMXFIZE5yR012eGdkUFRBa0lmcGtvRXN2dUtZOFVJUVJZcjVfMnBzSlNiYVYtUHlEOXItckhWRVd4QXYyakplbXRZcw?oc=5",
-      "pubDate": "Tue, 05 May 2026 23:07:09 GMT",
-      "source": "이코노뉴스",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "삼성전자 반도체 '사상 최대 실적'…전영현 부회장 '기술 리더십' 쇄신 적중",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9nZjAxa1BEemNNM2QyNW1CNVo5c1dHazFINGdOX3lqX2h2MXlRYkFMUU81MC1lWUZBdS1rdlRLSW5SM0FxVE5EbzdNc21td0xTR0tiMkJLOW85UE1oTWo1dFZ0R1JMVFk?oc=5",
-      "pubDate": "Tue, 05 May 2026 23:00:01 GMT",
-      "source": "청년일보",
-      "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[07:49 가상자산] 비트코인, 클래리티 액트 통과 기대감에 상승",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE85UzZUa2stQkJ6bHozTnJGb3gyVDRlMGJMZm1vYVZXcVlWVjhHdkEwSmdSb2dOYjZ4NFJSVGw0eHhyVDgxOEl1bFVaSzBGV3h4M3pEcGxtWkNMYlRQbTBQR1NBUWlwc1RGTDZvNjFLUm8?oc=5",
-      "pubDate": "Tue, 05 May 2026 22:55:49 GMT",
-      "source": "신아일보",
-      "category": {
-        "label": "🟢 POSITIVE",
-        "color": "#4ecdc4"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "고유가 이긴 반도체, 코스피 랠리 흐름",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1uS0tJYmsxVkY5enR5UnhtVm1KaUVvTmgxbHJ5cjMtYUVmODUycUtVMzZoWjZxQmdqMWxjR2MtMXpRQWt2SlZTRWxwNlZfWDQ0aEpYbkIxWVAtNnFsUkRIcmtUN1dnY2FQ?oc=5",
-      "pubDate": "Tue, 05 May 2026 22:51:36 GMT",
-      "source": "fetv.co.kr",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "원유",
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "마이클 세일러 \"회사 이익에 부합할 시 비트코인 매도 가능\"",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5nWEwtYkVhUUNOY09Tb0ZvMmYtNUROWXBvclAybThkVHc1SEVZdVBtd1JsbFJqVVVMN25ZSHlXRnpfZFZJSF9Ick52R2RUQ3Nj?oc=5",
-      "pubDate": "Tue, 05 May 2026 22:49:21 GMT",
-      "source": "블루밍비트",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "[차이나 브리프] 엔비디아, 중국 GPU 시장점유율 감소세",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE95R0pockU0UENIU2g4bDQwT2xKaGdheXJjMm81NlUzN2ZrQjRYLUVCUHpQTjBaYTNXbnc4QWViR2hjQ2Q3bU1rMGVTZGNYNl9oUGw0NmdfcXhubHNQS2ZJOHBwOFpfUQ?oc=5",
-      "pubDate": "Tue, 05 May 2026 22:44:47 GMT",
-      "source": "디일렉",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "NVIDIA"
-      ]
-    },
-    {
-      "title": "[차이나 브리프] 난야, 1분기 매출 사상 최대",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5nUXVqM1dIaEJPSTlLZW53cXdYZW91SmR6SHRZUXRqVGhWQ0xwUnBsZlQ5bGhiY3N0cTZNUHZieDBMRVVrZkRyeDlPb2I2clQyeXF5bHJYNl9ZdFExc1RfTHRqZnNDUQ?oc=5",
-      "pubDate": "Tue, 05 May 2026 22:44:39 GMT",
-      "source": "디일렉",
-      "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
-      },
-      "impacts": []
-    },
-    {
-      "title": "기름값 충격 덮은 반도체 흑자…코스피 랠리 이어지나",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5OQ0ctN2dmekRaYlh5Ym01UGNKSTFiYWdHMkFnV09Hc01NUGhfb3g0bXFRTHR6V0lDRHdEaC1KVFBZX2tRQWZ6QlZvQlJMbXAxTUh6YWNmRHNVQjNkVGdnUlpSNmF1UElqakVXaWFxczZvN0U?oc=5",
-      "pubDate": "Tue, 05 May 2026 22:40:15 GMT",
-      "source": "마켓인",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "현대차 1위 지켰지만…자동차 브랜드 관심 10% 급감",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5KME9FWWw2Z0UwdTlOZHRzNUNZZmxHNXNuUk5LdkdNU2hYNVpocG93WWdHQ09oLW9fdFdOX2xBY0FRTlJZVzRkaExfaWFqdGpJTnFZajAzVHFXd2ZNV2JhWXNiYjhFbFBvQkhBZ1BIb3ZzMmfSAXdBVV95cUxORW15T28ySi0zRU1EcUhoZTZqVFJNOWhwMWprUm5yUV9CZFdJYlNvVTJVWkxZV0pTMU5NM1FiR1RQdi1KRXZwSVZuc0NxYW5MLS1FZXZDVEdxNjMwcTdtRzg0M0R5R0RxVWJRVVZPZ05DSXNELThDNA?oc=5",
-      "pubDate": "Tue, 05 May 2026 22:37:26 GMT",
+      "title": "반도체 업종 9% 폭등 AI 사이클 본격 재가동...미래반도체 오로스테크놀로지 네패스 '앗~뜨거'",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5ndFhvWkJjYjY0am91bG1WNTdfWGZEWTRjd2ZHaXJqM0FvOHYwOElVaDhWUi15cVNxTHRJajcwcmxoa1VYMjd3alJYcWZPVU9zVHZaMzJoYlNCYkxReEJiX0Jka1FIRE9kTGg1cjc2V0t2SkHSAXdBVV95cUxQM3hHZzJ2QllaQlBEZmoyS2R3WU5NMHVxVzJhRUVraUFWZ3JmdERYc1pOa1E5TGoxdXNGa3RLcXNFN0JzQjgyV2J2XzRyVy1HblFKa1k2M2hYRlJPVjVzbnNqUDFJazExeHVnWXUwaWd0OUhySTNKZw?oc=5",
+      "pubDate": "Wed, 06 May 2026 00:07:50 GMT",
       "source": "핀포인트뉴스",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "아이티엠반도체, 0.00% VI 발동 - 조선비즈",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOa2xaMEp6LWZGN3lKQjNOVHc5eDZ3YVQtMGxYR1dEMmppYzZpdFozcGhWUzUtNGZLdHBDX04xYm5hUFlCMDZqY2RmZE1uM0NYdFlmMFRhU2pSclNjZTY5WGdDcUpManBmZGhQNUdIY3pJVThCRzlFTlZBSlZYREoxOXBFc9IBlwFBVV95cUxNQkFMMXpNYXZndnB4TUp5aWFkbVRiOHZsa2hMSFgySHVtalVncTdZYlRXMU5SZDE4azhwcmd2QzNfWElveWE5eUdiSVowbmVCdjlBWmFMYkpQWUpad3ltSi1RX1FRRTAwbzNuWTlVdWZMQmNqSlFZUU1jakdZUTNIYnJiQi0tZVBLQWM2OFE3dVUwUGtPUHlv?oc=5",
+      "pubDate": "Wed, 06 May 2026 00:02:00 GMT",
+      "source": "Chosunbiz",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[속보]SK하이닉스 9%대·삼성전자 8%대 상승 출발",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBqd2lZdU41OC1wSkVnTmhoN202N01YYV9icDVoR0Y1aUZ5M3A2ckhjbWNVclZBMks1UXhvaGI4bFZ1LVlubDFTdFl4NXBBVGl0R2JqU1dBVWdsVXVPNi1hSNIBeEFVX3lxTE9TRFBHR3Atb2hTaDYzSVgzYjFCZ3hKNGV6VHBrNXpHaEE0WjlGS1J1cXp0MTlZTVNBNFhKVEFCcGZ1c0hwVlVkUVBqcEE3Rm8tMmRDUXg1b0xiSjlrTXNkSm1VSTNHVzJ5MWwtMHN4Tlpkd0ZvSk5zLQ?oc=5",
+      "pubDate": "Wed, 06 May 2026 00:01:27 GMT",
+      "source": "뉴시스",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "비트코인 핵심 EMA 탈환하며 랠리 재점화, 8만 6,000달러 고지 향하나",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1vTmNPcWQyYnl2cmUtUmxXZWZtd3ppZXZCdEZXOUFWWEhIajJiS294Vm9YdVdxRXI0dk4zMTNRelFXUUlFUmhlY2dDQnR2NEU2dlFBTmZMaDY2WHVKcVYxR0dPOFFUTXJwbGxRRG5kWE82by1sVkE?oc=5",
+      "pubDate": "Wed, 06 May 2026 00:00:00 GMT",
+      "source": "블록체인투데이",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC",
+        "환율"
+      ]
+    },
+    {
+      "title": "현대차그룹, HMG 드라이빙 익스피리언스 2026 시즌 시작",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBOdEhuQ3FDaDJZaG1uUUxTR0FRelBQajVRb0NVS3NaVjB6WGx4NlBid0ZFcXduQnJ4eEdET3JtdldkMzVhVFpTVDgwTQ?oc=5",
+      "pubDate": "Tue, 05 May 2026 23:56:37 GMT",
+      "source": "뉴스1",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "비트코인 8만 달러 박스권 돌파…美 클래리티 합의 효과",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9CMzR3Y3JFR2hLUUluRWw5dFl1ZUt3LWtndTNNM0pGOXFiTndQLVU5QTJmcDhucFVhSENTdmh3aVE4R1h1UzRXZWM4WDRLVmhPOXFYMTNuWV9qdmlpNUxlWDh6M0xISWc?oc=5",
+      "pubDate": "Tue, 05 May 2026 23:53:21 GMT",
+      "source": "jabon.co.kr",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC",
+        "환율"
+      ]
+    },
+    {
+      "title": "교보證 \"삼성전자, 메모리 호황 지속…목표주가 33만원 제시\"",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE04ZkV4a0FJZ0xoWEx3VmNHd2dzNXJ2bGp1X1EtX2t3bjR0MjNkY2cybGFkY2c4dmotOGIwWVlHVlVfOXhfQmFwdW8yUVJCQjJFaW5SbDVuaWJ3cGk2VFdtTdIBeEFVX3lxTE9fdklSajlpckxkVzU5cVhxRDFBYzBVTTZMcWJNUmZKMnRhLXZkLW0yTFU2akxQNDVTRXVBMDdWVVc2Rzk5Qk5IVHdCblZiQUE0MFQ3ZXpZMUpMWkFkZlRqdUE4OG1JWHVsYUc2YllCbTJOT3BtRkNqUg?oc=5",
+      "pubDate": "Tue, 05 May 2026 23:50:42 GMT",
+      "source": "뉴시스",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "현대차그룹, 태안서 'N·타스만·마그마' 통째로 푼다",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5mWUNSME03ZlJsN21GemhXdmpMMEMtcXlYazFzb0lfalhNZ0Y0WllwUjZSUHJ3aEtaREowQktQVUM3RUliRnhJX1RDQm1sWWxUaVA4enJTa2VuQ05CNGZHOW1uNnllQVE?oc=5",
+      "pubDate": "Tue, 05 May 2026 23:49:58 GMT",
+      "source": "jabon.co.kr",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
