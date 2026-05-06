@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-05-06T10:17:04.634021",
+  "timestamp": "2026-05-06T10:42:08.838417",
   "count": 10,
   "articles": [
     {
-      "title": "수퍼게이트, 대만 소클과 반도체 칩 설계 협력…파운드리·프로젝트 연계 확대",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBLQUw4SVNUYi1oSFhzdkNTSHRRUDFsZW93d2xRMmdtR1ZWU1A5RHlMd0VERFk0MXRDNlBCbnlNRFJHcjV6aEZZTmMyRklOOWhrTTZxZVcwSzFaS01INjdOVTZn?oc=5",
-      "pubDate": "Wed, 06 May 2026 01:14:03 GMT",
-      "source": "디지털데일리",
+      "title": "NEXX 인수한 어플라이드, 첨단 반도체 패키징 포트폴리오 강화",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE43Zy02MUotMjFiNjlOMTZybUFsYTZoTjZDZkNOMGVTbjdDNUZOVEluanMtdGQtNm9rdU1iV3FIcDBhOVZoaF9WandRbnh1QQ?oc=5",
+      "pubDate": "Wed, 06 May 2026 01:36:09 GMT",
+      "source": "전자신문",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -16,64 +16,102 @@
       ]
     },
     {
-      "title": "[The Numbers] “28년 만에 형 제쳤다” 기아, 현대차 추월…EV·하이브리드 효과에 쏘렌토·카니발·스포티지가 효자",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1oSFRzNGp6MDdzeHFqLWdyVGViUnZaYTZ1VW56Y3MtSnZxVWtWOWFWRzZlNGVaaTRhV3R6cl90cXczd3dGd0lZV0VqZ1lFMDBHT0VWMHhORHBEeEJybjdHUA?oc=5",
-      "pubDate": "Wed, 06 May 2026 01:13:24 GMT",
-      "source": "뉴스스페이스",
+      "title": "모빌리티 체험공간…현대차그룹, HMG 드라이빙 익스피리언스 2026 시즌 개막",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9nVl9UektlTkxmemh4N0R1MEt1eGZHdFZUdGUxZ2FqeERXVUlpMGgtS2FqaUJjWVVyNlNiVWRuanNLNFdBMm0xOVJKdGZULWY0cGRaM2dPQlU5OW9la0EwQWhGQzQtZlE?oc=5",
+      "pubDate": "Wed, 06 May 2026 01:35:59 GMT",
+      "source": "서울STV뉴스",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
-        "현대차",
+        "현대차"
+      ]
+    },
+    {
+      "title": "코스피 사상 첫 7000시대 열렸다…삼성전자·SK하이닉스 불기둥",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1RUlNlaVhYZWZkM2RMMGxTWkotQTZaeVUtR0psZF9YSXB3eENLUjhVY1ZkcmV5LW52czRqNm5POTZkSEtidnJWR19SN2RxOGhuclNEdmE3UHJyZw?oc=5",
+      "pubDate": "Wed, 06 May 2026 01:35:00 GMT",
+      "source": "경북매일",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[서울데이터랩]코스피, 장 초반 7199.47로 급등…반도체 대형주 강세",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5aTGljX3JkMmNnY3AxSmhZNGZGS0YwSzU1TmRvRlJfTzlqSmJlQkpjZlRqamlKSWk1SmVnN3ZEbkx6Y0JuWWJHcXlJTS15TzBQR2ZUVk5SWldXUzlhWTA2UWpnYVhKX2ZlZlZCTnFBRVhLNFppLTk3cmZiMUFyUQ?oc=5",
+      "pubDate": "Wed, 06 May 2026 01:29:49 GMT",
+      "source": "서울신문",
+      "category": {
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전자 '애플 파운드리 수주' 가능성에 대만언론 적극 견제, \"첨단 반도체 가능성 낮다\"",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9uUHN4YlBGNlgtQjN3clp2RzY1ZVhyWGx6aXcwajU1bk5VdGxRNDBwOFRaX0x3ZWprMTNycktQMDFEZnJGajl4eEZ5Nkc3NVJ1UTAxMUVuVC1LVGUwRjdtQ3RIVTF4R3ZaR0t1T2U1NkZwbGM?oc=5",
+      "pubDate": "Wed, 06 May 2026 01:25:55 GMT",
+      "source": "비즈니스포스트",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "반도체ㆍ전력ㆍ증권 랠리로 달성한 '코스피 7000'...외국인 매수 집중",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNb0x1Q29UQkd2U0huMkRFcGwyV3dYQjNGaFN5QjBMSzBURGpIYWRuZ19nS3k0ZEdvc0JsUURNUEUxQWxiNWVDLXBfUlMyWTliUDRTZE1ZQU9Sal9QTEp5YnBzcWFMYmtzTHNWR3hMZDFTU0RGT193WTdUZ2xTdzhKT194RQ?oc=5",
+      "pubDate": "Wed, 06 May 2026 01:25:00 GMT",
+      "source": "인베스트조선",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "한국기업거버넌스포럼 “삼성전자 EVA 기준 폐기하고 RSU 도입해야”",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9rR0JmSWNLNlUzbHhMS21Tc1RsZld4R09USXprVzJicDNTSk1GT2QzaGxuNlRrVEk4UGZWZ2diRlN1MEI2aE52VVg1b1RRQQ?oc=5",
+      "pubDate": "Wed, 06 May 2026 01:22:08 GMT",
+      "source": "전자신문",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자",
         "테슬라"
       ]
     },
     {
-      "title": "어보브반도체, 고전압 전력반도체 및 센서 공급 확대로 미래 성장 동력 확보",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE11WklJUTh5MmhQdG5lZDRaS3F4NzVteXhBckVGTTkxZmkyZW9HQktuSmZxNmdyay1hMUcybG5qRmRNRnVYY0xrYm5Rc0J5alVpaXpjSV80OU44N3Q1RVlfeFkxLUNGbUcxZnc4RzV2cDE2bnfSAXdBVV95cUxOZUp6bm9jZXN1WS1DbkFydGNIWkJDVUc5MHhISl94OUJBQ1dzczE3cXRJUGhJc2laLWFEY1VaSy1rLU85eFJOZ29RdGxONjVkc25SLWdPR3o2N3Y5dGdvMS1zbUR0ME1uQklubTZkY0VTdmJFYnRKNA?oc=5",
-      "pubDate": "Wed, 06 May 2026 01:12:32 GMT",
-      "source": "핀포인트뉴스",
-      "category": {
-        "label": "🟢 POSITIVE",
-        "color": "#4ecdc4"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "코스피, 반도체 랠리에 사상 첫 7300선…'25만전자'·'160만닉스' 신고가",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE95amZlWHRPS3JxMHhSY0NVVWVNam0wREZjOV9ES1N3eURuc0hnMmxlWEhZSXNORzVKeDJoYml4RFN4clZManlmcFo1Z1Nfb0drLXliMm13bElld2t3TTZPVEtTeWRvMG9v?oc=5",
-      "pubDate": "Wed, 06 May 2026 01:10:51 GMT",
+      "title": "전력반도체 효자됐네…DB하이텍, 1분기 영업익 전년비 21%↑",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1TcktyQi1OaUY1SlNoNzNQNHpDdWkwODhqWlhFSEZyeXRlZERJUE9GT2YxSWlfanVIV2pOaUN6aGJzVmJwNzQ1QmZkTmNRVHlkNmpvTzNzVFcwQk5paGJ0eUFEVnJGU01z?oc=5",
+      "pubDate": "Wed, 06 May 2026 01:20:15 GMT",
       "source": "녹색경제신문",
       "category": {
-        "label": "🟢 POSITIVE",
-        "color": "#4ecdc4"
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
       },
       "impacts": [
         "삼성전자"
       ]
     },
     {
-      "title": "\"AI·자동차 반도체 잡는다\"…글로벌파운드리, 1Q 영업익 1.8억달러 기록",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBrUFluQlhtV1luQUp0TmZIOWVTOTlrYVQ0djRqckhzNi00WkZqR1B5R0plUXUwTnVoWW95eEVQMGdxTGFQbEZGUjg3OF9DS2JZNmUzU19DbFBXcTkwOHY1WHhncWs?oc=5",
-      "pubDate": "Wed, 06 May 2026 01:10:51 GMT",
-      "source": "디지털데일리",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "환율",
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "코스피, 장중 7000선 첫 돌파…시장선 “반도체 쏠림 경계”",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8tcWJIVDhHcm90RXh3WHZoSnVFcUJaalZlMGxKejJEOG9JY1g2d2ZuaDNCUmRIVnZGMUd3UUNKQnowam1pZ2NWem9EcEVPYWFYN1RJMzRVV2V6T1NsTFZkLVNRUTBGSDYydmNxRGdvWjE?oc=5",
-      "pubDate": "Wed, 06 May 2026 01:08:36 GMT",
-      "source": "위키리크스한국",
+      "title": "삼성전자, 첫 시총 1500조 돌파…SK하닉도 160만원 넘어 [종목+]",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9QMVJ3QUZqLWtleXVxT0w0SUpNMVlOaWFvdWR6a1FpLTNmUnhQODFLQ2l1TlhUaHVjVGUxMzh3bkN4a285OW01UzBVU2huVElk?oc=5",
+      "pubDate": "Wed, 06 May 2026 01:14:25 GMT",
+      "source": "블루밍비트",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -83,50 +121,10 @@
       ]
     },
     {
-      "title": "지난주 가상자산 투자상품 1.2억달러 유입…비트코인 8만달러[코인브리핑]",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5jcTZtSXpVb1F0LWlST2hxSDVfa0VZcWlial8ySjFBSktTR1BGWFQ5c3o4U0toT2lWQU5CWWdIOTlrR3NSdkRuZnNPYUoza0xEYm0xTU9MZHpaWVBORjY1eW9wNWVhUQ?oc=5",
-      "pubDate": "Wed, 06 May 2026 01:08:02 GMT",
-      "source": "뉴스1",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "환율",
-        "BTC"
-      ]
-    },
-    {
-      "title": "코스피, 사상 첫 7,000선 돌파…반도체 랠리에 7,300선 안착",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE0yYUJQYldJeXh6QlJ3NXpoWlRSZUxfbWxVeDVZMXBMcS1laGRmWk96OXpCenYzRC1TWWZIZXJPZFhtd3hSbXpqMlVJbW94YmtwMU1lU3ZxekRycVNqelE?oc=5",
-      "pubDate": "Wed, 06 May 2026 01:07:00 GMT",
-      "source": "뉴스투데이",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자·SK하이닉스 동반 급등…‘26만 전자’·‘160만 닉스’ 돌파",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9WUHJZUFpFRy1iZHloaktpZ3Z5RG15N0piOEJxRzVDdzJSekJ2bklUcEdVTWRYNnBUdmpZc0hWMVFCY25ER1BOcGNHXzBCOWM?oc=5",
-      "pubDate": "Wed, 06 May 2026 01:05:32 GMT",
+      "title": "[코스피 7000] 반도체 폭풍질주…'26만전자·160만닉스' 뚫었다",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1RbjhZTHdGTVlyQnIyakZPWlZ3NUxZdUFsZG1pakFSYmNnVElRUWUwVG4tN3o0ekZRdVFpUTdWQ3BDX0tGZXRXV29udXJhZkU?oc=5",
+      "pubDate": "Wed, 06 May 2026 01:14:09 GMT",
       "source": "v.daum.net",
-      "category": {
-        "label": "🟢 POSITIVE",
-        "color": "#4ecdc4"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "'시스템반도체 파운드리 기업' DB하이텍, 올 1Q 영업익 637억 21%↑",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1KVm5IU1V5cGdnbG1QWUo0Wi00TEE2MzdjdW56VXBhYnNaNlhJWm82X2N2V1ExZWs4MUtZckNCUmVpc0xQZHdENFpieG1nakduRzA4UDZqdHVwTUlHSWFUdtIBeEFVX3lxTFBDbDhkbW9OMFAyN2lJTjQxV1BGQ1ZsOGJhTG1mOEkxZ1dJM2duMDlhUVFJX2hmMDkyXzJVWTlhWDJFWW9adFFaMC1FcTJQT3FBbE9YUEYtT2NrWnVSRC1CR24teTlBZmNOelhIX3poenN6cHNJQXRwQg?oc=5",
-      "pubDate": "Wed, 06 May 2026 01:04:11 GMT",
-      "source": "뉴시스",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
