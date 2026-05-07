@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-08T02:21:06.705661",
+  "timestamp": "2026-05-08T02:51:20.170085",
   "count": 10,
   "articles": [
     {
@@ -7,19 +7,6 @@
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBkemlKZm01YmIzNGFSSFlBak1Ld0p5UklNOGE5ZVp5S2NvdDVJWFl2RXhhVTVOeTBGZGp1WlJ1SXoyUHhRaGdPdGEzbkNfejA?oc=5",
       "pubDate": "Thu, 07 May 2026 15:55:02 GMT",
       "source": "v.daum.net",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "‘사회적 연대’ 없는 삼성노조…노동계도 “성과 배분 고민을”",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBVci1YRVRwWGJrckxUMTJfSUpIMmZsT1hIem5RU0E5cGRKTVFxMHNxdGZrbFkzMHVJejlCTjIwbXlJRnQxX003b0dhTElpcEZxQkRBVjJmeVJONFZOandzMUh0dFQ?oc=5",
-      "pubDate": "Thu, 07 May 2026 15:54:00 GMT",
-      "source": "한겨레",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -90,8 +77,8 @@
         "color": "#a55eea"
       },
       "impacts": [
-        "환율",
-        "BTC"
+        "BTC",
+        "환율"
       ]
     },
     {
@@ -130,8 +117,21 @@
         "color": "#a55eea"
       },
       "impacts": [
-        "환율",
-        "BTC"
+        "BTC",
+        "환율"
+      ]
+    },
+    {
+      "title": "[오늘과 내일/장윤정]‘명분’도 ‘연대’도 잃고 있는 삼성전자 노조",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBvR2UtUThKdjdqWGlHVGlQTks4MkVBMEZxR3l5NHJYT3pBampVVnp1Ukc0eHBIV2cwRlBQU2JLcktQeFZZM1plT0RJaWU0M3I3OUJtcEtGc08yNlJrYk94R1I3ak1zb05QMnRRUXoySVo0OVh5MkHSAWZBVV95cUxQdWo2Q3pZREpsMmp6SlpyU1NBZFJHS2tIb3kzc21aRk1OTGtGSzdETHB6VHVaZzV1QWp4NVRJYm54RUxqZkd5Z3d6OXRHS2p5R1BySjJnTTFTeTFaWWpVWndXYnRIY2c?oc=5",
+      "pubDate": "Thu, 07 May 2026 14:12:00 GMT",
+      "source": "동아일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
       ]
     }
   ]
