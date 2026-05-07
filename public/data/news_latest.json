@@ -1,7 +1,60 @@
 {
-  "timestamp": "2026-05-07T22:50:23.845854",
+  "timestamp": "2026-05-08T00:20:38.727831",
   "count": 10,
   "articles": [
+    {
+      "title": "[오늘과 내일/장윤정]‘명분’도 ‘연대’도 잃고 있는 삼성전자 노조",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBvR2UtUThKdjdqWGlHVGlQTks4MkVBMEZxR3l5NHJYT3pBampVVnp1Ukc0eHBIV2cwRlBQU2JLcktQeFZZM1plT0RJaWU0M3I3OUJtcEtGc08yNlJrYk94R1I3ak1zb05QMnRRUXoySVo0OVh5MkHSAWZBVV95cUxQdWo2Q3pZREpsMmp6SlpyU1NBZFJHS2tIb3kzc21aRk1OTGtGSzdETHB6VHVaZzV1QWp4NVRJYm54RUxqZkd5Z3d6OXRHS2p5R1BySjJnTTFTeTFaWWpVWndXYnRIY2c?oc=5",
+      "pubDate": "Thu, 07 May 2026 14:12:00 GMT",
+      "source": "동아일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "반도체 초호황 ‘낙수효과’ 내려면…연대기금·이익공유제 눈길",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBNTXlNcTRzYVBaZFpvNkZXVUZBZ09lQjV1MnFjSExVblRFNG5KaHpjOUVhX21fUl95dGFDWWtneHJMTDVOeFpSUWRhUXdCM2d5REhPSHYyU3VycUZVOXRXQzV6ZHo?oc=5",
+      "pubDate": "Thu, 07 May 2026 14:08:00 GMT",
+      "source": "한겨레",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "“비트코인, 하락장 끝났나?” 캐시 우드가 전하는 2가지 희소식과 ‘뼈아픈’ 1가지 경고",
+      "link": "https://news.google.com/rss/articles/CBMiywJBVV95cUxQcDlIOFoyOE5NdUFrNWdld3RZNy1KY2gxazMzQlliLS1COHVBd1llcF9GTkR6NzFobEtqeS1QWkduc3VHeWV5dHRFWUFYbENBN1lzMDZyOGxFU09MN0pMQ3dhN21Cb0Q4Tng3Qjl2Z1gtd2cxWG1LQ3M3VEdYd3N5MFk2emZmY3hTMnJsR2tucG56UjhNYU1QMnNWMEhoaWpDamtON3BGY2g3VlRVanN3aHIwRU14dUl5V3FDZEU5T3ZyUzNDeU9udHh1QmxqcHdUMk53N29WRHJmYnJxMDlyOFdsS0hua3lxVXFNQ2tDeUI0Z3k4MG9ZZXFWNWd4N2pPU1J2V2hRWUNpNW9jTERnVWgwYUpSNjF1RXp3NTVmelZpV2FKYmxXZ05FMk8wVl96aG5YVjVtS1VtY3p6amFvZkVCcnJRbHNNZDdV?oc=5",
+      "pubDate": "Thu, 07 May 2026 13:54:22 GMT",
+      "source": "Benzinga",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "“비트코인 8만 달러인데 왜?”… 트럼프 가문의 ‘아메리칸 비트코인’이 4,500만 달러 손실 낸 이유",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPZ3NIeVRHRUloM0VadzVsNzF5Y0JXeFU4Zjh5Y293R3pSZjgtbVhyUnFKaXU0aG9oSlQ1QVJyUk5XTHU1ZFJfb2RSOTlzWTNmbzFLT1BONEZQZ0wzMUFYbzhNZTc5d0ZmaV9uR2Y4clRIRGdrV0FFaWpsaEFsQy0tSFZRbmNZQTFWNWxZQ2U5VnFWQ1Vzcm1DVl9UUEk5WENSMHVLdWtESzNxR29NeW5VQmx2VzhvcVRjdlpOR0RPTjg0Z3ZkYXJrRlQ3dXJVQQ?oc=5",
+      "pubDate": "Thu, 07 May 2026 13:38:53 GMT",
+      "source": "Cryptonews",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "환율",
+        "BTC"
+      ]
+    },
     {
       "title": "블랙록 \"비트코인, 포트폴리오 다각화 수단…전통 자산과 상관관계 낮아\"",
       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5XZjdOd0ZLN3VSZDJmTGlUT0ppejdBalE1dEFIOWY0WE5tS0lGdFBERkVUaDNEcVNfZXFHSFlUNE55VnQ1eHZ1THJmS09SZUQ5?oc=5",
@@ -42,10 +95,10 @@
       ]
     },
     {
-      "title": "‘우리’는 없고 ‘끼리’만 있다…노동 전문가들이 본 삼성전자 노조 ‘분배 투쟁’",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBfcEJYblpoVUVTRmhSeW91T1JUWFBFVXptbnc0bTZwQ1JtQ0JUS0loZC1GbWI4R2JYZzdmVFNmR29jU1B6UWdUcUxkQ3JydEV5WldxX1I3Zy1Fd9IBX0FVX3lxTE83anprSXlJX25tanY3Z0ZobmU2RFVIYWhHRmZPdnFpYzZ0WmFnX3RsR3QxWEFOX290cjlLY0E5TWFyU0FhTWNzX09GdExDZlVlQXViQ1p0VEx1UmFlZ2Zn?oc=5",
-      "pubDate": "Thu, 07 May 2026 12:57:00 GMT",
-      "source": "경향신문",
+      "title": "‘5천만의 반도체’가 벌어 올 1200조, 어떻게 나눠야 하나",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBEVVJ5UU1pdnJtLU45MkF0SWZwUGx1VnhOOFR3Z3pyY01oSE1wOER5UkJEZlE3bmtDVUVOZ1NoMGVZSEN6UmU0ODVrOXlJMXNob2NZcFpWbWhXWXJ2T0pzNWgweXNBSTU0OV9PZm51dEJGdw?oc=5",
+      "pubDate": "Thu, 07 May 2026 13:03:00 GMT",
+      "source": "한겨레",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -55,10 +108,10 @@
       ]
     },
     {
-      "title": "삼성전자, 국내외 가전 사업 개편…\"수익성 부담 가중\"",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBDZDJWd3lIVHYtS09mWm5jQU1wMDVBdUR6aF9MM2dPbDBvX2NXQ1BJN1BXbFpoZ1UyVkZXbFdZTXJINVBGSV9jN0tOUURScVRkZFdBWWFfaFZndE1wTjlBRHoxbUo1aW43?oc=5",
-      "pubDate": "Thu, 07 May 2026 12:34:00 GMT",
-      "source": "매일경제TV",
+      "title": "삼성전자 '최고의 순간' 아직 오지 않았다…\"여전히 저평가\" [종목+]",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE82anJVUmtkWEJjTkcyNVRicklDYU1WQVVmcG1wdHBFN05LZm96eS1pdjBYU3VXMjVQN01FMXlNd2o2RXhZV05MeFVYM2IzRkVqYjQ3WWFXaUpaZ9IBVEFVX3lxTE1tRVd5a3d4d2t2RWFuNVRfd01TSzhnd3hTbVNFdVJSN1QtMzQxZ2ZIQ0oxaVpJZlp2amJrU0hGdUxweU9uQWJIbEl4NzRHTXhENFNydA?oc=5",
+      "pubDate": "Thu, 07 May 2026 13:00:02 GMT",
+      "source": "한국경제",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -68,62 +121,10 @@
       ]
     },
     {
-      "title": "“삼성전자 눈부신 성과엔 정부·협력사 협조 있어”",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9rdHlHRWpTMVkwMnZUNEdaTWFfM1VFcWRFMVNUU0g5cHloWnBMS0g2T2U5Njk2MXRpa3ppcDFMLW5qMXlXcnJVM3dsTnRXNy0yVEthcWhnYmVMUdIBX0FVX3lxTFBRUUlyUXBfemhfSXlKakptakRYZHgwLS1COGdieWxJcUQ2amo1c3kyUWtIZnpZVGU0YWcyOUFGY3lLUXVIYUY3RXc2M1NPbmpZaDNMOGlOdVBmVjZ5OExF?oc=5",
-      "pubDate": "Thu, 07 May 2026 12:30:00 GMT",
-      "source": "경향신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자 경영진 “열린 자세로 협의할 것…미래 경쟁력 손실되지 않게 해달라”",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB6LWVDR0ZvazczelI0VmVNMnhReHpzcWNaNkZMSWVFU0w1amI1OGFXa0JwNFI3Qkp1UW1Ba0VGdEZoRFhWb2ZjRmktaTJoaDFSZE1CZmktMjdvQdIBX0FVX3lxTE9wZHoxTVVUZ2Z5a1ZQcmtYS0dtNFZoN05PVlRXaGpCQlNsN1JpQTAzNjJPY1VfbUpDMFgtSWp6WllUeVRDWjdJSFNxM2ItQkNBME1QZFMxSDh4RmZlSjEw?oc=5",
-      "pubDate": "Thu, 07 May 2026 12:30:00 GMT",
-      "source": "경향신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "육군, ‘갤럭시 전술폰’ 개발 본격화 …삼성전자와 AI·모바일 등 첨단기술 협력 MOU",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9lQVI1eERxVnQxZUZJTVphVFZRYVpCb2FqbUg5d0JyUnZOUTlRVFhDSGZjX0hLRFl6ZEp5TWdaaW9xVnFaY1lKZ2pwS19HaEJM?oc=5",
-      "pubDate": "Thu, 07 May 2026 12:18:43 GMT",
-      "source": "문화일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[포토] 현대차 더 뉴 2027 마이티·파비스",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBFQU9ibUdWbXpfOTVXYjZmZzJjeVFyTFFfZWVrTktsZU0xTFUtR1o4ZkhfV0hQWWEyRE5kNEZkQWFPTTBDVUtrTXZmSHRPVkVvWXBrMHcxSGNvLUxEcDVmMTNoOXdjQW1jdEZvaE9NRmrSAXRBVV95cUxNNUt4VEs3VVZPWXJ6T2g0dnVfWndYZ0NPOE1Ec2JJOFJXa3NKclo3b0Y4NjRrLUE1b3BQS0o2SmZpVzNhanFCcTJvQWxFUTlIVGk5OEdWNG8yR3VVSHJ5eHd2aTEtcFJ5SUZENU9kYWNmaU9yUg?oc=5",
-      "pubDate": "Thu, 07 May 2026 12:18:00 GMT",
-      "source": "이뉴스투데이",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "성일종 국방위원장 대표발의「국방반도체 육성법」 국회 본회의 통과!",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1QU21HQWt2ZkhRaU9CRjYtVkdYX0hNQTJhM2JmeEE0TEtDS2pidFpUSDljblljTzU3bFJnMGdHUklxVXJPTzVsamstNXAtc1FJd3R2WkZYQ2dsYkhpNDJQY25pcXpBQ0dNZ1lZ?oc=5",
-      "pubDate": "Thu, 07 May 2026 12:12:27 GMT",
-      "source": "충청메시지",
+      "title": "[분석] ETF 판 흔든 ‘반도체 톱3’ 전략...삼전닉스·한미 집중 통했다",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9RRXlnWjh1bkZINk9FUzFudUVVZ2tRYm9weDJfNlV2SG9meUhiaUFhUW5qN2VJQXVUQ1ZnSVJScnluTm1QVHZORlhnRnVJN0VHcFZ4TERHRGlMdkxIRjQtUWVydE1oWGlxOTI4ZlVjcThXNWc?oc=5",
+      "pubDate": "Thu, 07 May 2026 13:00:00 GMT",
+      "source": "오늘경제",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
