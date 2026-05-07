@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-05-07T13:18:43.096076",
+  "timestamp": "2026-05-07T13:48:56.934484",
   "count": 40,
   "stocks": {
     "삼성전자": {
       "name": "삼성전자",
-      "price": 265000,
-      "pct": -0.38,
-      "chg": -1000,
+      "price": 265750,
+      "pct": -0.09,
+      "chg": -250,
       "src": "naver"
     },
     "삼성전자우": {
@@ -18,37 +18,37 @@
     },
     "파마리서치": {
       "name": "파마리서치",
-      "price": 334000,
-      "pct": -0.6,
-      "chg": -2000,
+      "price": 333500,
+      "pct": -0.74,
+      "chg": -2500,
       "src": "naver"
     },
     "현대차3우B": {
       "name": "현대차3우B",
-      "price": 255500,
-      "pct": 2.0,
-      "chg": 5000,
+      "price": 256000,
+      "pct": 2.2,
+      "chg": 5500,
       "src": "naver"
     },
     "현대차우": {
       "name": "현대차우",
-      "price": 256500,
-      "pct": 1.58,
-      "chg": 4000,
+      "price": 257000,
+      "pct": 1.78,
+      "chg": 4500,
       "src": "naver"
     },
     "DL이앤씨우": {
       "name": "DL이앤씨우",
-      "price": 97900,
-      "pct": 5.16,
-      "chg": 4800,
+      "price": 98100,
+      "pct": 5.37,
+      "chg": 5000,
       "src": "naver"
     },
     "두산": {
       "name": "두산",
-      "price": 1833000,
-      "pct": 2.4,
-      "chg": 43000,
+      "price": 1823000,
+      "pct": 1.84,
+      "chg": 33000,
       "src": "naver"
     },
     "네이버": {
@@ -67,51 +67,51 @@
     },
     "LG에너지솔루션": {
       "name": "LG에너지솔루션",
-      "price": 476000,
-      "pct": -1.24,
-      "chg": -6000,
+      "price": 479500,
+      "pct": -0.52,
+      "chg": -2500,
       "src": "naver"
     },
     "엘오티베큠": {
       "name": "엘오티베큠",
-      "price": 15890,
-      "pct": -1.79,
-      "chg": -290,
+      "price": 15880,
+      "pct": -1.85,
+      "chg": -300,
       "src": "naver"
     },
     "현대건설": {
       "name": "현대건설",
-      "price": 166000,
-      "pct": 1.41,
-      "chg": 2300,
+      "price": 165700,
+      "pct": 1.22,
+      "chg": 2000,
       "src": "naver"
     },
     "세아베스틸지주": {
       "name": "세아베스틸지주",
-      "price": 69100,
-      "pct": -2.68,
-      "chg": -1900,
+      "price": 69200,
+      "pct": -2.54,
+      "chg": -1800,
       "src": "naver"
     },
     "코람코라이프인프라리츠": {
       "name": "코람코라이프인프라리츠",
-      "price": 4395,
-      "pct": 0.0,
-      "chg": 0,
+      "price": 4405,
+      "pct": 0.23,
+      "chg": 10,
       "src": "naver"
     },
     "SK리츠": {
       "name": "SK리츠",
-      "price": 6100,
-      "pct": 1.16,
-      "chg": 70,
+      "price": 6120,
+      "pct": 1.49,
+      "chg": 90,
       "src": "naver"
     },
     "신한서부티엔디리츠": {
       "name": "신한서부티엔디리츠",
-      "price": 4320,
-      "pct": 1.89,
-      "chg": 80,
+      "price": 4355,
+      "pct": 2.71,
+      "chg": 115,
       "src": "naver"
     },
     "이지스밸류플러스리츠": {
@@ -130,16 +130,16 @@
     },
     "KODEX 증권": {
       "name": "KODEX 증권",
-      "price": 31880,
-      "pct": -4.99,
-      "chg": -1675,
+      "price": 32040,
+      "pct": -4.51,
+      "chg": -1515,
       "src": "naver"
     },
     "TIGER 코스피고배당": {
       "name": "TIGER 코스피고배당",
-      "price": 27700,
-      "pct": -0.04,
-      "chg": -10,
+      "price": 27745,
+      "pct": 0.13,
+      "chg": 35,
       "src": "naver"
     },
     "TIGER 미국테크TOP10 INDXX": {
@@ -151,9 +151,9 @@
     },
     "KODEX TRF3070": {
       "name": "KODEX TRF3070",
-      "price": 148660,
-      "pct": 0.25,
-      "chg": 365,
+      "price": 149370,
+      "pct": 0.72,
+      "chg": 1075,
       "src": "naver"
     },
     "INTC": {
@@ -256,22 +256,22 @@
     },
     "BTC/KRW": {
       "name": "BTC/KRW",
-      "price": 117427605,
-      "pct": -1.19,
+      "price": 117416866,
+      "pct": -0.88,
       "chg": 0,
       "src": "coingecko"
     },
     "ETH/KRW": {
       "name": "ETH/KRW",
-      "price": 3375029,
-      "pct": -2.54,
+      "price": 3374550,
+      "pct": -2.21,
       "chg": 0,
       "src": "coingecko"
     },
     "SOL/KRW": {
       "name": "SOL/KRW",
-      "price": 127787,
-      "pct": 0.42,
+      "price": 127771,
+      "pct": 1.03,
       "chg": 0,
       "src": "coingecko"
     },
