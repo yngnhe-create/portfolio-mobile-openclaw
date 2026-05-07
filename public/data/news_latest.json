@@ -1,7 +1,74 @@
 {
-  "timestamp": "2026-05-08T00:20:38.727831",
+  "timestamp": "2026-05-08T00:50:52.825113",
   "count": 10,
   "articles": [
+    {
+      "title": "비트코인(BTC), 8만달러 일시 반납",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9FaWRKZ19HT3pNemppTHgzczkzc3VBbDZ0MS1BMDBsNldxY3JnMVg2TzNqdkZybXFMYUh0WDdzSnAtX3ZZS1BOaUtJVHNxWmNh?oc=5",
+      "pubDate": "Thu, 07 May 2026 15:23:34 GMT",
+      "source": "블루밍비트",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC",
+        "환율"
+      ]
+    },
+    {
+      "title": "반도체 vs 비반도체 노노 갈등 격화… ‘삼전 투톱’도 대화 촉구",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9ZMjc2WWVvNEYzNWprVDBLcnUtdy1oQlNENzJmMnp1VENNdXZ6Y0FRMldjaW14RFBXSnNPaDFYRkNsMkRIZmV3YlVFSFh6ZUU?oc=5",
+      "pubDate": "Thu, 07 May 2026 15:05:15 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "‘SK 반도체 펩’ 전남광주가 적지다",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4teTRwWjBWNm5ielYtUTBXVzlYVDJVb3FEMGVtSTJkczNWdWRYVzgtZUQ5MVhTTHBHZTVNNEhvQ29yd25pMHQtZC0zR1ZxcEFtLThFa2JhX0FCUk8xRU5fWWlUbDlCZnpjTXc?oc=5",
+      "pubDate": "Thu, 07 May 2026 15:00:00 GMT",
+      "source": "드림투데이",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "비트코인, 8만5000달러 돌파 시험대…핵심 지표 나왔다",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBuc05Ba2lhQ3ZxdElDRWw5ajB6RDV2M2d5ek9lM2thYUZLekJ2SXFLZWNrbGxVZjduTE51ZXJ4VjU5STNWYXNBdGJhcWpZdzJNb0E5TGptT09SbHVhckRveHBCYkJSejhXOWxyV0E5cTM4V1U?oc=5",
+      "pubDate": "Thu, 07 May 2026 14:52:00 GMT",
+      "source": "디지털투데이",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC",
+        "환율"
+      ]
+    },
+    {
+      "title": "99%수입 국산 무기체계 국방반도체 우리 손으로 만든다",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBObGJ6UlBHWmhheVp1MTBWczVFQWp0WHFfWWZhamsyZWR0SmVfMHRGdGFWOEwxdUVMM2ExcWpDUGVNQ2RVbktZZklTM2ZQRUNNSy1zd1lrOE1vazBMZ2VsWtIBeEFVX3lxTE9HYmtuX0RaRU83ZUZ3enpBMG1HQjRuUlF0aWlhSkxTbVBfc1IxNktiNmhKZ2dIaEhCb2ZNNDVDTHZtUy1PRHFZbjRCX1A1bkVQT2ZQSGtCY1pZeFRpYW44NGdBc3g3VjItSFZmUFJxa0toLWdXRDRKeA?oc=5",
+      "pubDate": "Thu, 07 May 2026 14:31:03 GMT",
+      "source": "뉴시스",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
     {
       "title": "[오늘과 내일/장윤정]‘명분’도 ‘연대’도 잃고 있는 삼성전자 노조",
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBvR2UtUThKdjdqWGlHVGlQTks4MkVBMEZxR3l5NHJYT3pBampVVnp1Ukc0eHBIV2cwRlBQU2JLcktQeFZZM1plT0RJaWU0M3I3OUJtcEtGc08yNlJrYk94R1I3ak1zb05QMnRRUXoySVo0OVh5MkHSAWZBVV95cUxQdWo2Q3pZREpsMmp6SlpyU1NBZFJHS2tIb3kzc21aRk1OTGtGSzdETHB6VHVaZzV1QWp4NVRJYm54RUxqZkd5Z3d6OXRHS2p5R1BySjJnTTFTeTFaWWpVWndXYnRIY2c?oc=5",
@@ -51,8 +118,8 @@
         "color": "#a55eea"
       },
       "impacts": [
-        "환율",
-        "BTC"
+        "BTC",
+        "환율"
       ]
     },
     {
@@ -66,71 +133,6 @@
       },
       "impacts": [
         "BTC"
-      ]
-    },
-    {
-      "title": "이 대통령, 네덜란드 총리와 통화…“반도체·AI 등 긴밀 협력”",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8zeFpaQ2wtNUV5MjZwaXNCZWw1TXRQZGJldDhzSlJla1VNWVNoT21TdXBoRmhtRkYwSHA1WGd2WThQekF5MWlXUlBucnF0d3pMR3VJMUYtaVlQQQ?oc=5",
-      "pubDate": "Thu, 07 May 2026 13:10:00 GMT",
-      "source": "브릿지경제",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "이재명 대통령, 예턴 네덜란드 총리와 첫 통화... “반도체 동맹 강화하자”",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE93OUhkUXVnTTdQLTI2SmlWczlxdUk0MW1OeEFmMmF6dE5XaU03RDNSUDF4R19peWxLdWRYTEFobDZrTEJOVm5tSjU1OVdHLXc?oc=5",
-      "pubDate": "Thu, 07 May 2026 13:09:30 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "‘5천만의 반도체’가 벌어 올 1200조, 어떻게 나눠야 하나",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBEVVJ5UU1pdnJtLU45MkF0SWZwUGx1VnhOOFR3Z3pyY01oSE1wOER5UkJEZlE3bmtDVUVOZ1NoMGVZSEN6UmU0ODVrOXlJMXNob2NZcFpWbWhXWXJ2T0pzNWgweXNBSTU0OV9PZm51dEJGdw?oc=5",
-      "pubDate": "Thu, 07 May 2026 13:03:00 GMT",
-      "source": "한겨레",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자 '최고의 순간' 아직 오지 않았다…\"여전히 저평가\" [종목+]",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE82anJVUmtkWEJjTkcyNVRicklDYU1WQVVmcG1wdHBFN05LZm96eS1pdjBYU3VXMjVQN01FMXlNd2o2RXhZV05MeFVYM2IzRkVqYjQ3WWFXaUpaZ9IBVEFVX3lxTE1tRVd5a3d4d2t2RWFuNVRfd01TSzhnd3hTbVNFdVJSN1QtMzQxZ2ZIQ0oxaVpJZlp2amJrU0hGdUxweU9uQWJIbEl4NzRHTXhENFNydA?oc=5",
-      "pubDate": "Thu, 07 May 2026 13:00:02 GMT",
-      "source": "한국경제",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[분석] ETF 판 흔든 ‘반도체 톱3’ 전략...삼전닉스·한미 집중 통했다",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9RRXlnWjh1bkZINk9FUzFudUVVZ2tRYm9weDJfNlV2SG9meUhiaUFhUW5qN2VJQXVUQ1ZnSVJScnluTm1QVHZORlhnRnVJN0VHcFZ4TERHRGlMdkxIRjQtUWVydE1oWGlxOTI4ZlVjcThXNWc?oc=5",
-      "pubDate": "Thu, 07 May 2026 13:00:00 GMT",
-      "source": "오늘경제",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
       ]
     }
   ]
