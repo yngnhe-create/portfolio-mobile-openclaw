@@ -1,7 +1,20 @@
 {
-  "timestamp": "2026-05-08T04:21:33.905321",
+  "timestamp": "2026-05-08T04:51:46.999376",
   "count": 10,
   "articles": [
+    {
+      "title": "45조 성과급 요구 삼성전자 노조에 정부·주주·학계 잇단 쓴소리",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE43aW05bkhnbjZFWXJtME13UFU4LXpBUFMxb0k5YVBORkN0UlFIWENmS3FUdW1PY05KSk1pMjJmbDNnNF83TklJRDdwQWtxVy1GT3dWUWJ5d2dNdmtQUlZfY0ZmR0JUQQ?oc=5",
+      "pubDate": "Thu, 07 May 2026 19:24:59 GMT",
+      "source": "디일렉",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
     {
       "title": "\"2000년 닷컴 악몽\" 재현되나… 반도체 '과열 신호' 딱 5가지",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQQS0ydWtSdC1SV3BVZGRCMDJ2aUlXMjIzcTdaQjhzMzlRQnU1QmFsUDl4WmJaemNtS2s1cFJxYk55VTdsdEFoNGRKQWE1bFFLYUxqRV9PVkpnajZwVFdPNHAwSXc0SktYUEp2cnVkdEJ2cmFvcnhSYlNxWS00UWpfWWg2MWl1X0lQ?oc=5",
@@ -16,13 +29,13 @@
       ]
     },
     {
-      "title": "톰 리 \"비트코인(BTC) 3개월 연속 상승 시 약세장 종료\"",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9MSmhTRkdhRmpzdk4tc3RQU2NPcGFDVGJidzJiZ2MtMjM4LVFHUEJib2dfUW5FTldWOXNQSjJQYzJRMlNlZ3BkclJfNWhsQkp3?oc=5",
-      "pubDate": "Thu, 07 May 2026 18:13:02 GMT",
+      "title": "\"비트코인(BTC) 선물 시장 숏 포지션 쏠림 심화\"",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9ZYlA4UDVMUXIxTjAxNzlZRDJHNXVoX3Q2MjZINTJPUnc2YTVRYjQ1Yzd5aXFwcWd6WnpjSnl4ei1vZlM4RUJta1NOTGhselFF?oc=5",
+      "pubDate": "Thu, 07 May 2026 18:08:07 GMT",
       "source": "블루밍비트",
       "category": {
-        "label": "🟢 POSITIVE",
-        "color": "#4ecdc4"
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
       },
       "impacts": [
         "BTC"
@@ -39,6 +52,20 @@
       },
       "impacts": [
         "BTC"
+      ]
+    },
+    {
+      "title": "JP모건 \"스트래티지 비트코인(BTC) 매입 속도 가속…연간 300억달러 전망\"",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE8wNGFxYmc4cE5Ba2JEZjhCVmVIVVZXNlR1NnFkUll3NmY0Wm1HRHFiNHkwZXFzanBLenJWbDFtcE9HU1FrOC11bjJYanptRkdm?oc=5",
+      "pubDate": "Thu, 07 May 2026 16:02:22 GMT",
+      "source": "블루밍비트",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC",
+        "환율"
       ]
     },
     {
@@ -68,6 +95,19 @@
       ]
     },
     {
+      "title": "SK하이닉스와 삼성전자 성과급 논란의 본질은 ‘이것’",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBjYmllZzlKZ0o0RHNFRUlVWHp4ZjhtblhtWVFoTmIwVFNQdWlSRDFoWHNoa3BCZURyTkRQZTNKSm95Rm1zSHVJRzI5aHZUQzJXZWJDeFBnRExLanBkcVNKTzJ0UW5OVDdhV3c?oc=5",
+      "pubDate": "Thu, 07 May 2026 15:37:32 GMT",
+      "source": "시사IN",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
       "title": "반도체 장밋빛 전망에 고민 커지는 개미들 - 조선비즈",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQV3h1NXp4WVhfbUFEUU1aQ0JETmwwLVlQZGxpcUlzem9rb0RXOWZHRjA5c1VETmlEa2h6emNwXzBndzNsVUdnZWRSN3dXRTR2bWthSnFNUHktNTZwUlNXWVRYVFBDTnpZai1iUnE4cGV6SWNxdV9tYzBqLTVWNEsxSTNyd0JyVG1M0gGcAUFVX3lxTE1iYlhmRGZ1dWViemdERGFZd1RxVDlFdDhJUl9OdllEcE1hWnFNVXpYRTlTeEpVTTdXd0hxazg4NmhZUUI3ZUpreUdtMnEybi01aG9KX2QtOFlOSGpwMk5HOU1IYkdWU0ZpeFZwWDZLNXV1Wm1SYTc1TUpuYmszVElObjdQNWJwX2dwbGJzWlNoZGljUVF2bmUwY1RzUQ?oc=5",
       "pubDate": "Thu, 07 May 2026 15:37:14 GMT",
@@ -85,46 +125,6 @@
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOYU1ZWTJmaWFHem1qYWVvcFdvMlNXWVZXaHVuQkNkSE9oNnBxQ3phd2lvQnMzdW03U25KYllYNjg1TG1yZUNKNWVSZjloVlpSMUFzZ21qek11TGQtLTJXY2ljTWthOEo5ZkNNejUzcXh2S193MEZlblZjSEI2RXRBMzhDNDl2OE1PbGJxSnlkZw?oc=5",
       "pubDate": "Thu, 07 May 2026 15:33:00 GMT",
       "source": "조선일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "비트코인(BTC), 8만달러 일시 반납",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9FaWRKZ19HT3pNemppTHgzczkzc3VBbDZ0MS1BMDBsNldxY3JnMVg2TzNqdkZybXFMYUh0WDdzSnAtX3ZZS1BOaUtJVHNxWmNh?oc=5",
-      "pubDate": "Thu, 07 May 2026 15:23:34 GMT",
-      "source": "블루밍비트",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC",
-        "환율"
-      ]
-    },
-    {
-      "title": "‘5천만의 반도체’가 벌어 올 1200조…‘공정 배분’ 화두 던졌다",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBEVVJ5UU1pdnJtLU45MkF0SWZwUGx1VnhOOFR3Z3pyY01oSE1wOER5UkJEZlE3bmtDVUVOZ1NoMGVZSEN6UmU0ODVrOXlJMXNob2NZcFpWbWhXWXJ2T0pzNWgweXNBSTU0OV9PZm51dEJGdw?oc=5",
-      "pubDate": "Thu, 07 May 2026 15:06:00 GMT",
-      "source": "한겨레",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "반도체 vs 비반도체 노노 갈등 격화… ‘삼전 투톱’도 대화 촉구",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9ZMjc2WWVvNEYzNWprVDBLcnUtdy1oQlNENzJmMnp1VENNdXZ6Y0FRMldjaW14RFBXSnNPaDFYRkNsMkRIZmV3YlVFSFh6ZUU?oc=5",
-      "pubDate": "Thu, 07 May 2026 15:05:15 GMT",
-      "source": "v.daum.net",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
