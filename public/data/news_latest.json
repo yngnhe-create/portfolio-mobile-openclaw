@@ -1,24 +1,51 @@
 {
-  "timestamp": "2026-05-07T18:19:55.397393",
+  "timestamp": "2026-05-07T21:20:09.833149",
   "count": 10,
   "articles": [
     {
-      "title": "현대차, 상용차 풀라인업 동시 개편…“더 강하고 더 똑똑해졌다”",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE8wTk9hWVVDanRFSTVJdmJhM2RwNllSQ05pdjZkeUNFbHNqRHdOQUJKMWJ1aklvTW5FVjU3RVlMaTdVN2dUaWRzdWpBM0xJOHB2ZnNXQ2t2aFczY1hWUWJWaVZBZ3o5VkUzeXJvQVotMlNTZw?oc=5",
-      "pubDate": "Thu, 07 May 2026 09:11:53 GMT",
-      "source": "인더스트리뉴스",
+      "title": "반에크 \"비트코인, 5년 내 100만달러 도달할 것\"",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1qVHlwLU0tNFVxZmg1eHhJZ1dUVHY3ODd5d3RBMkNld0JxWDBJLWNVWkc0bEdHZzZWSTlYMUM2WXNpbkQ1MXJLS1V0STA4Rk51?oc=5",
+      "pubDate": "Thu, 07 May 2026 12:00:03 GMT",
+      "source": "블루밍비트",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC",
+        "환율"
+      ]
+    },
+    {
+      "title": "‘반도체’ TSMC 질주…대만 증시도 ‘최고치’",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE14VElnS2ZwQzZhRFN3VmY4VlpMT1NFZGVsOWFIYXpxUE9DbjhIdlFoa0w1dTcyeno2cVJxWkNhNGdXc2U0UkIweElMZFdkbUtqUzBpRlpseVNmZ9IBX0FVX3lxTE9xQUs1YWxnMXdUUGtfd3Q4M3I3UFo1R1VrRjJna1lXTURqSzBISzlFR1hwbnVnUjlxSkg1YUM4YTI2b2N6UnpUa2g5d082bzFfOG5ISC1wWS1Wdk5xNVVv?oc=5",
+      "pubDate": "Thu, 07 May 2026 11:59:00 GMT",
+      "source": "경향신문",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
-        "현대차"
+        "삼성전자"
       ]
     },
     {
-      "title": "노동부 장관도 '삼성전자 노조' 겨냥...\"정부·협력업체 있었기에 성과 내\"",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE95MDBnZzBUMHkta2Y5SVNJeEJwWnlIMnB6X1ExTk5OSTgyc1lFX1luZ3pPZU5IbkxScHRXb05XWDMwWm9HRkRaSW50OVNDa2kwR1BUNloxQjBHTTJIN0RVcmN5MlNKbTN5eGVv?oc=5",
-      "pubDate": "Thu, 07 May 2026 09:00:00 GMT",
+      "title": "‘사회적 연대’ 실종된 삼성노조…노동계도 “성과 배분 고민을”",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBVci1YRVRwWGJrckxUMTJfSUpIMmZsT1hIem5RU0E5cGRKTVFxMHNxdGZrbFkzMHVJejlCTjIwbXlJRnQxX003b0dhTElpcEZxQkRBVjJmeVJONFZOandzMUh0dFQ?oc=5",
+      "pubDate": "Thu, 07 May 2026 11:44:00 GMT",
+      "source": "한겨레",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "李대통령, 네덜란드 총리와 통화 \"반도체, AI 협력 강화\"",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQMlJ0bDRyRy1XQkFpcUtDZjNpVXdRaUVZc1VBZnZwcWhEQWlxa3ltanFQRmlzOUNHV004YkxjSi01cjZNdVF4QmI5WGkwZHUwVGtRWUx6Y0Z0RFk2UDNsWFFIVjV3VkZyeERLU2ZhTUlmMW9qaEJTblhlU3FsQ2FCdGNjcGhHMVhXaHdDYlBCcGs?oc=5",
+      "pubDate": "Thu, 07 May 2026 11:38:00 GMT",
       "source": "조선일보",
       "category": {
         "label": "📋 GENERAL",
@@ -29,88 +56,10 @@
       ]
     },
     {
-      "title": "김성환 만난 현근택 \"용인 반도체 산단 전력공급 협조해달라\"",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5LRmZaQWdoT01vNkRCQWlhMVRTSDYyYjdraUtWd1Y3SExSWUNYN3JhR05GZWpaem5fekxrMjJSMlVSazBLNmVUdF8wQnJtZmxhVkFvUTR3RU9oYmtNcG5GNG91NXh6Y3pzMEhTNVBWSFc0bU0?oc=5",
-      "pubDate": "Thu, 07 May 2026 08:44:20 GMT",
-      "source": "마켓인",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "반도체부트캠프사업단, 국립경국대 류성준 교수 초청 특강 개최",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE0yb1ZyM2JHYTFKeWtwV0tvR21pRnRjRXd0OXJVMmNkQlFLTGxLb2NaOC1TYjNQajQ0dDI3Yy10S09JTXlUVS15alZVTm40QXBJbGFlOEJ4d2FrZUlkMm5MaXFHZ1pROEM5ZlItenUwcw?oc=5",
-      "pubDate": "Thu, 07 May 2026 08:44:01 GMT",
-      "source": "경남대학교 대표",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자 파업 초읽기…정부가 또 중재 나서",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAxN0c3U01WMTY1QzZXVU82QkVfQzZCbm1weXJyNWJHWlI4OG1mZ295ckg3elpiNWoyT2o4RURNZ1BTWU1wdWt1dHczbG9aZEV5WS0tell1YXYzZ9IBVEFVX3lxTE1JSWNWQlhmZzI4VUdkOEplVTVubEJYMHZIN19qZ3dfNUhzbVpadkxPVW9ZZ3JrejBZQjJJang0b3dhWG1rNXczMlVjX0Njc0dIM2g1Mg?oc=5",
-      "pubDate": "Thu, 07 May 2026 08:40:39 GMT",
-      "source": "한국경제",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "현근택 후보, 김성환 장관에게 “용인반도체산단 전력문제 선제적 해결” 건의",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBzX0ZOYnk2MTlyX2ZjWXozVW9XUFRkMVpuSGxBQktqT0ZWdTFTTXBNWTV2RDVIbkcwbmYxdVl6ak1sMmplT1dOajBxclQ1MXFWbDZEVXpaRC11VFprU01aRWdSa2Y?oc=5",
-      "pubDate": "Thu, 07 May 2026 08:36:45 GMT",
-      "source": "매일일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "신성이엔지, 반도체 수주 확대·태양광 회복 기대… 2분기 ‘실적 개선’ 기대감",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE44dVVUNXdwV3JaSjZIbFBzQjRfaHR4NVlWQVN6V3F0bnh1d00tYS1rZGRGSzc5X2E3YnpIRnFlejJQSDlITHZDYWlENTNINUtjekNQakVUZ2lVcDF1bDdQdGZUdG9QNnBzd2xDZWxTMUw?oc=5",
-      "pubDate": "Thu, 07 May 2026 08:36:39 GMT",
-      "source": "솔라투데이",
-      "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "K조선 '슈퍼사이클', K반도체만큼은 아니지만 '돋보이네'",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE54alpCN0JaeFFvckd2QXhWU3Q4N0wxdTBoZkRTcVlIUFg0Y2o4a3ZTR3Q1b1cycElIOS1HME1oUUNXWmJlODJ5VDRiQ0NxOXBzWDZPVGxlLURyMzVXWUROTXd3?oc=5",
-      "pubDate": "Thu, 07 May 2026 08:36:00 GMT",
-      "source": "이코노미스트",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "현대차, ‘마이티·파비스·엑시언트’ 상용 대표모델 3종 동시 출시",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE82NHhmM2YzcHUycXZJWk0wUkdQZjFVZ2xXWmM0eGxiOTI5WmNZSnhmS0JxY2cyeGhlcW5KdEtrS3hxNkZzYU9CbmZEcTF1cUoyWUh5UlNDcHVJR1FIVlA2OVBpTQ?oc=5",
-      "pubDate": "Thu, 07 May 2026 08:34:40 GMT",
-      "source": "에너지경제신문",
+      "title": "현대차, 상용차 3종 신모델 출시…편의성·내구성 증진 및 가격 인상",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFA4N2lZdmxhTll1elNtOWQzWWpwTjZVTlM0VUNtN0thX0lUaVZTcVczak5BRGdFRHg3UzRyNGptZzhLNlBSMlRFRVIwbS1KZk5BV0w1VEljS3Z0c2tJRnJXMjhFdXJoT0tPNGU0?oc=5",
+      "pubDate": "Thu, 07 May 2026 11:30:00 GMT",
+      "source": "라이센스뉴스",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -120,16 +69,67 @@
       ]
     },
     {
-      "title": "머스크, 美 텍사스서 우주용 반도체 생산 기지 건설… 최소 80조원 투자",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxObkRLTTczVThxVlF1TjVIbmlWa1BYdTNGcHQ3Z0owb280VWlPWjBDc1pVT1pBbGp5eldtcFI4R3BTNlZ5clVFLWw2eVpDWUxReDFyMVg2VTFmNGp0ZTdyYUFMY2pKVzZmcERpYkk2U2E5SVRtMmpDU2lEMGVwSFJsaUhn?oc=5",
-      "pubDate": "Thu, 07 May 2026 08:31:00 GMT",
-      "source": "Chosunbiz",
+      "title": "\"매일 1개씩 무조건 산다\"…엘살바도르, 비트코인 9000억원어치 매집",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9mbnE0N0RKdzR3YUJ3aVVLenhXcTNrWVFGMVl2enB3UEozZGRLaS1aY2RDU2RhTmFXby1femlMTkFDMlFIZDNxNkMxZF9HOU95c2JaY0w3X0dEMElzRC1QZtIBeEFVX3lxTE4yV2Z4cUJDamJhVDMzV2FMcUJmT2RTZXRBZDc0RHNwbEpJVmNiMkRYUWRjM05uTlpYRGIzd2E2R2JFSV9SaEhDbWlMZkcxSk5icUJhSFhsMnZjSWh1NXZhSnpVOG5Pb1BxZlBzcUtycFNQVjU5SkRZVw?oc=5",
+      "pubDate": "Thu, 07 May 2026 11:27:52 GMT",
+      "source": "뉴시스",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "이 대통령, 네덜란드 총리와 첫 통화…“반도체·AI 실질 협력 확대”",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0xQk9fNkNPRnVWZkM2OGwxZmw5aXRPbGJUcVBNR2o2MXRkSE5QcWc4eVJXUVZ1MHN2OE1Eb1dqTGpDNDAyM25qckl1cW1Nc1l1RXF6ZXI0TUdmU2c?oc=5",
+      "pubDate": "Thu, 07 May 2026 11:26:00 GMT",
+      "source": "KBS 뉴스",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
-        "리츠",
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[포토] 현대차 “더 뉴 파비스, 9단 자동변속기 적용···효율성 높여”",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5RQVZNSkc4SDcyUVFBX0dQUlFxYW5GSm5XSHBfQU85c21zSG94bGV2QlBvVFVORVNqV3FzRlFIc3Z3RGVxcTROVnc4V043TEh5a0loRVk2RHBCUWlXS3BXaHM1OEdId25abGhQN2lxRjfSAXRBVV95cUxOOVp0NHIyX1R2Zm93UHlCQ2tQcGVPajV2R2RhbFBILVI4bDkzaV91OFVJZXJWUy1uZ3B5ZWsyeU56OU5oLVc1cEVOWGs0OVhiRUlDYXc4R2ZDY2cwcTR0OXhnWWlweFEzZzZtWHh5eVNVcDZ5cA?oc=5",
+      "pubDate": "Thu, 07 May 2026 11:23:00 GMT",
+      "source": "이뉴스투데이",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "[포토] 현대차 “더 뉴 마이티·파비스, 그릴 크롬 라인 통해 프리미엄 이미지 강조”",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5zNGJTXzhsVjJ5VktHX05tNVNORl9mTDhOVjZTTGtfcTRELUxnTEtDWFl5WHBiSmhkV3BkcUpHNllhVEFNNDh6YXVmMnViZk9CazFyN1pNeDlXUldYdGl3Zmx0aWwzWlMzWVVwSUQ3UFXSAXRBVV95cUxQTkdlZzlDRHQ2N0VPTkNRNXpIa0NRUWFpTFp5b29HTFBaa3FzSzREUUtqTkZaWVRoWTBwZkx3YVU4UDROa1g3OTZsaTZSSWpGSXBhc1RhTWlPRmdBeHF6dzJFTmNmVk1mZDN0NmFjWGhDUWFnLQ?oc=5",
+      "pubDate": "Thu, 07 May 2026 11:01:00 GMT",
+      "source": "이뉴스투데이",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "5천만의 반도체, 초과이익의 길을 묻다",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBEVVJ5UU1pdnJtLU45MkF0SWZwUGx1VnhOOFR3Z3pyY01oSE1wOER5UkJEZlE3bmtDVUVOZ1NoMGVZSEN6UmU0ODVrOXlJMXNob2NZcFpWbWhXWXJ2T0pzNWgweXNBSTU0OV9PZm51dEJGdw?oc=5",
+      "pubDate": "Thu, 07 May 2026 10:52:00 GMT",
+      "source": "한겨레",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
         "삼성전자"
       ]
     }
