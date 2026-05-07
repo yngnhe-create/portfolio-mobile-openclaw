@@ -1,12 +1,52 @@
 {
-  "timestamp": "2026-05-07T14:19:14.055116",
+  "timestamp": "2026-05-07T14:49:27.409482",
   "count": 10,
   "articles": [
     {
-      "title": "코스피 7000 뚫은 날...개미는 전력·반도체·인버스 담았다",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9XSXdKaXFFWmF5azUzSGpiLWpYWkZkVzdHUUo5UTJaREVBbU1mWmlSYXl4MlUtaTI1MUZVcmN2d1N5cnM4ZTYzOUo1TEZvdHhMbWw1V0dTUmpSd9IBVEFVX3lxTFBocmVoSU5xRVpiWG55OVFyNkRrLXdOSGlDdzNyb3d0NWtqSl8zYmZ5NUJDbUY3eHVfWUxsNFVFcTZzVFQteTJYeE1oLUVhSFRlU3MxVA?oc=5",
-      "pubDate": "Thu, 07 May 2026 05:00:30 GMT",
-      "source": "한국경제",
+      "title": "'1일 1비트코인' 사 모은 대통령 집착에…무려 7643개 보유한 '이 나라'",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBuUVZ4THJ2QW9QWFZvRks4SWtLdDZBa1FHTjJ6Q3hCaHh1TlNmOTBBRm04aENtMHJSRTc3VE9NYVoxUkpFcHdmUk5TT0padw?oc=5",
+      "pubDate": "Thu, 07 May 2026 05:41:59 GMT",
+      "source": "전자신문",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "日 닛케이지수, 사상 첫 6만3000엔 돌파… 반도체 훈풍에 3500엔 폭등",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdmd2d2pXWjVndC1ubFc0ODk5a0IwMEJ6dDlQWUotUEdsTjQ1ZmNMeHVIaGpNMHF0WmZNQndvWGU4VUVlRk9mdElENjZmRjRhTG9SajdzdkFSX0w0S0ZyLWtNQ0Nxa2h6NUk2ZUUwTnByOS1TS0FwSlZhWlhiRjE1NHZWcDNqdDlD?oc=5",
+      "pubDate": "Thu, 07 May 2026 05:41:06 GMT",
+      "source": "글로벌이코노믹",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "글로벌 전기차 판매감소에도 현대차그룹 22% 증가…성장률 1위",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5UMnR2dVg5Um9nRzlDS3kzeTdQNV82RjEtZTBwcnVTUW1PYTVuQWN1TUFZU3JQdjVNNm9tUzE0a0x1WmxjTDhNQTNuRWlObGU0RDFSUGpKYzVaZ3l1anI5OEY5UWVoSjdjZWVTUDlR?oc=5",
+      "pubDate": "Thu, 07 May 2026 05:32:55 GMT",
+      "source": "mstoday.co.kr",
+      "category": {
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
+      },
+      "impacts": [
+        "현대차",
+        "테슬라"
+      ]
+    },
+    {
+      "title": "성균관대 정소희 교수팀, 차세대 적외선 반도체 ‘III-V 나노결정’ 합성 원리 규명... 자율주행 센서 혁신 앞당긴다",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1vWTdfMmk4OTFQYTRUVDlONmEtVWphenZGUVAzOHh3VjNzMHoxdzNucjEyRGJCaUxfamllWjVvRE1nZmFHLWRJdHgyckhjVjNpaXQxTlEwSFROZlJESTlOS0VEcE5QZXM?oc=5",
+      "pubDate": "Thu, 07 May 2026 05:32:40 GMT",
+      "source": "교수신문",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -16,10 +56,10 @@
       ]
     },
     {
-      "title": "삼성전자 '노노갈등' 격화...\"가전부문 무시\" vs \"추가 의견 수렴 어렵다\"",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1sQ292Q2dQMmZMaTUxTGpTR3htSjdyclU5bnJZMENoa2k5OHdqZ1RWMEp1MVcwSVJJSnFTaXRpZGlqY0cyTlRzQV9fWU9nTVNFOTdic2U5dk42VTNhU1E?oc=5",
-      "pubDate": "Thu, 07 May 2026 04:56:00 GMT",
-      "source": "YTN",
+      "title": "삼성전자 중국 가전 철수에 현지 매체 의기양양, \"중국 브랜드와 경쟁에 도태\"",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE10UDdhRE5iNzVHbUFSNVlVdlN3anU0YWRCTGpUVWhsWDJuTWNobGpPRW1iakJXQ3l1T0xoT1BHei1tUU96ako0MlF6Vk03c3FvOU9jUmlCRHNBOXRjUjZMVUgwYzRpQnFPOWFqcFFDNHNmRDQ?oc=5",
+      "pubDate": "Thu, 07 May 2026 05:30:40 GMT",
+      "source": "비즈니스포스트",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -29,9 +69,61 @@
       ]
     },
     {
-      "title": "“대구에 제2 반도체 클러스터 조성”… 추경호 “용인 포화 전 국가 거점 선점해야”",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB6bWdPOXlWRFQxWnNuVWV0Sm5OUEtUVkNEVU5YNUgtQzdJcFNyeXNIMjBxam5rVkp3YkdZUE1EOHBQVjNkaGg1Wk9mdjVlWW8?oc=5",
-      "pubDate": "Thu, 07 May 2026 04:55:03 GMT",
+      "title": "[재계 투데이] 삼성전자, 'K-히어로 패밀리 페스타' 실시 外",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5hOVhmNnVkb1FXY1lRMTVRczQ5Y29TelVsbjhUWFlLYmNZaEVlakJVVHJWZVVqM3hzM0lrWG9Hd3ZOdkNBTVh0ZmVkOXNyc0piZFVhbVFR?oc=5",
+      "pubDate": "Thu, 07 May 2026 05:30:06 GMT",
+      "source": "DealSite경제TV",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "손경식 경총 회장 “AI, 반도체 등 신산업서 한·중 기업 힘 모아야”",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9CQzk3VFdENXBIc2RTMnB0R2Vvcnc5MXRiMmQ2R1p6TmFVb3pXY01uaGUtLTA0NjRvbUdQLU1XaTdRVTk4VkJLZ2VDNVNZdw?oc=5",
+      "pubDate": "Thu, 07 May 2026 05:30:00 GMT",
+      "source": "전자신문",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "박찬대 “K-반도체 멈출 여유 없다”…삼성 총파업 예고에 `대화·타협` 강조",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1tMkEwLXR0OEgxNGcweXBNY1ZsTGRKcTc0c0dUZmpvQmtsQ1BGVDlUX1h5TW9yQmNOUi1EWXpERTNXWDZyU0RNUHFEWGZJclNUYW5OalZwanlYTUxsU0U5a09ranA?oc=5",
+      "pubDate": "Thu, 07 May 2026 05:27:31 GMT",
+      "source": "디지털데일리",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "\"PLUS 글로벌HBM반도체 ETF 리밸런싱…낸드·메모리기업 편입\"",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9nZFpKU1dERUI1TEt0UFpvRms3aWs2V3pUNjhFUGEwTzFZbjdhTXMyQlZQc216eDFYeE1FUmdTMHdoa1ZZdXRSNnhCN1hzTWhxeHJPTUpsdDhjeGpPUkUyaEJqb0RVZHMwQUV6bw?oc=5",
+      "pubDate": "Thu, 07 May 2026 05:26:36 GMT",
+      "source": "중소기업신문",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "외국인 통합계좌 출격…K반도체 더 담는다 [마켓딥다이브]",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9Wc0RIeW96NHlmUUp0bmdQN0RKOUlGTUtPSXV3cVJpR0N3UjNNTjhhU0JYc05Qa2dmNFdNVFpfSjhGWEFwY1RtMTlvb0NpRXc?oc=5",
+      "pubDate": "Thu, 07 May 2026 05:22:06 GMT",
       "source": "v.daum.net",
       "category": {
         "label": "📋 GENERAL",
@@ -39,97 +131,6 @@
       },
       "impacts": [
         "삼성전자"
-      ]
-    },
-    {
-      "title": "“반도체 다음은 전력망”⋯ 美 AI 대란에 K-전력기기 ‘슈퍼사이클’ 탄다",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1XU1F6eUhMcmZ4V1hUZFg1dXFMUTlnems1amFQOUxpR3NTYV9NWHBRQWYxZFNKVmdTTUF5bS15bDBfaVRKQ3Y1NFFvQVpUSkJOWVE3bDM4OXlsUQ?oc=5",
-      "pubDate": "Thu, 07 May 2026 04:55:00 GMT",
-      "source": "브릿지경제",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "‘슈퍼 호황’ 올라탄 K-반도체…설비 투자 풀가동",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBCUW13WVZJRjFLYU1ZT0hfeHNfaEJsWGZkTUdaOVBxVEE4SUJyRFBrUTRvRzRJaEg1b0xJSnJmTTlwcVRuYkJzdVNiVE1ZSHd1cHJKRjFBWGMxMnE3RFhER0RSRFA?oc=5",
-      "pubDate": "Thu, 07 May 2026 04:53:41 GMT",
-      "source": "매일일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자 대표 \"미래 경쟁력 손실 막아야…책임있는 자세로 임할 것\"",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1mYnJ2UHpwVjZlOTQ1VUdudnIxODZKa3BEUXBzZDNmUk5hOVFLRFhMSXRiSFlTVHlFNmhXZzBZdlNPcjFYX095cWkzaE9PUEFiMmdOMjNqemdHUEw2bWR6dUxzUUk?oc=5",
-      "pubDate": "Thu, 07 May 2026 04:50:25 GMT",
-      "source": "뉴스1",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "현대차, 상용차 라인업 3종 선보여...디지털 경험 강조",
-      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9rZGpQY1FLT3NmZmgwbnBhMFZfUW51RFZiODBxc3FlaFpmU082a1Vrbno4Qk5JaFVMWXpWUk12R1pGZWE4M3dUYUpQa0Y?oc=5",
-      "pubDate": "Thu, 07 May 2026 04:49:02 GMT",
-      "source": "아이뉴스24",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "명분 잃어가는 삼성전자 노조 ‘성과급 요구’ 파업",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE94NEZnTTlTZmFEZ1BMU2FZYy1lWWF4OGFZUEI1cGdZUFNSRnhuV3RNRldTOXhtN3dWNVdkbkp2dDJEc0ZCeWlNVC1MNk1DZTRkR09DYlhTdXU1eEV1NHc5amxfcGhScEF4Ri1yZw?oc=5",
-      "pubDate": "Thu, 07 May 2026 04:47:00 GMT",
-      "source": "베이비타임즈",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "파파존스X업비트, ‘비트코인 피자데이’ 세트 출시… 1,000만 원 상당 경품 증정",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9Mbml6SW04SXZLcjJEYnNEV1JFMVlSWXQtX1RTUFhSb1ExX3ctZHQ5bDcwdlNuMFJ6am40dGNFRnhYZk5GUDlFbmt1VjZxX25oRGFSVXdjSWJ3YVZtVy04ZVlidm0tbTVfcEdWeUhyZXY?oc=5",
-      "pubDate": "Thu, 07 May 2026 04:45:14 GMT",
-      "source": "블록체인투데이",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "“매일 1개씩 샀다” 비트코인 집착한 엘살바도르 대통령, 7000개 모은 근황",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1NQUJCQ1J6S21JMFJnZUpBek1xamtxTXQyeERoVmZCWjNvNVB2emdoUkotdzR5WGdyYmxqeDNtbmpkWnh5eWFicDAzMmhSbWJuNHRSdjVWVU5qbThIVm50UmJoLUc5Vk5uSC01YzF1YlNsZnlaZ1NYcklmSlo?oc=5",
-      "pubDate": "Thu, 07 May 2026 04:44:45 GMT",
-      "source": "twig24.com",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
       ]
     }
   ]
