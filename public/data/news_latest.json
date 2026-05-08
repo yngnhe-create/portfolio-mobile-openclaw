@@ -1,66 +1,26 @@
 {
-  "timestamp": "2026-05-08T08:17:04.635682",
+  "timestamp": "2026-05-08T09:22:13.909515",
   "count": 10,
   "articles": [
     {
-      "title": "오케스트로, 112.5억 규모 국산 AI 반도체 클라우드 R&D 사업 수주",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5wVlNEdHBSMnl1cjlGektCeV9oaTdudi1EWUl5TThwSEE0MnJFT0pORXROQ2pBbU1CUEV6LXVEczVfQkRtamlpRjVhZFhxb2c?oc=5",
-      "pubDate": "Thu, 07 May 2026 23:13:42 GMT",
-      "source": "와우테일",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[가상화폐 시세] 비트코인 1억1000만원선에서 하락…이더리움 330만원선 거래",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBBZWxMUjU5dzFOY3JrQnJubXR4RW1IRE55ekFKdFNCZnQxVDZ0UlFkaEFhZ18zaFlfNXFyMEVkSVFmU2hDZFFLSHBuSkpJUFRaZW5jS2VTT1JzcjJTQzlPUEkxWTNTbzFXdjdQNC1lQQ?oc=5",
-      "pubDate": "Thu, 07 May 2026 23:12:20 GMT",
-      "source": "이코노뉴스",
+      "title": "비트코인 옵션시장선 '연말 11만5000달러'에 베팅…과열 신호는 제한적",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9Gd2p2aFJLWFJCRWs3NjdPQklJckdndVo0Sk16eVo2d0xhV1EyVTJRQWljQ2VkaURMM29XTkU3Zlk0QlZSMG0yWTU1SzZpMFBq?oc=5",
+      "pubDate": "Fri, 08 May 2026 00:16:32 GMT",
+      "source": "블루밍비트",
       "category": {
         "label": "🟣 CRYPTO",
         "color": "#a55eea"
       },
       "impacts": [
-        "BTC"
+        "BTC",
+        "환율"
       ]
     },
     {
-      "title": "[속보] 3월 경상흑자 373.3억달러…반도체 등 수출 호조에 역대 최대",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9rWnJSZU90R19uZWZRbWZtVzJfZ21jRFFHV0VyNFBGblNzd0xTS2VINnNzQmQ0X3NRazU0Z3pwU0JyMlRteVpsdVRZMnp0ZnhS?oc=5",
-      "pubDate": "Thu, 07 May 2026 23:11:28 GMT",
-      "source": "블루밍비트",
-      "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
-      },
-      "impacts": [
-        "환율",
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[속보] 3월 경상수지 373억달러로 역대 최대…반도체가 견인",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1kcjFjSURHOGJnUjJiYVA4bWRRaHRqRk5sYmdhN3dsSlAzbzZmWjRfUWlJWXIwUUxuMGVUYmZOWVVfdU1VaUR6ZEFvTDVTWlE?oc=5",
-      "pubDate": "Thu, 07 May 2026 23:03:23 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
-      },
-      "impacts": [
-        "환율",
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "‘반도체 호조’ 3월 경상수지 흑자 54조원↑…역대 최대",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBkcXhuR2NmMFIzQmtGMGtEZTJ3RktXcXZ6T2ZLa0VzY25qYkRFN3VxQURzWHFNbDZhNEVsTWdNd2FVYWdERUctOXZMcFc3a0JENFdRZHFDaVdSQdIBX0FVX3lxTFAzRXdfRWd5VWp5RU4yQV9ZbGJkWTNmRm1LXzVCcTlnT1dzMFpvYWRIb1lKMFpKZmoyRXFSM3FpVDJHMW55NFNWN2wyY3RocWVHVVdwdlJTa0c5SkFEUkFv?oc=5",
-      "pubDate": "Thu, 07 May 2026 23:03:00 GMT",
-      "source": "경향신문",
+      "title": "세계 반도체의 도시, 고덕 산단의 범죄 예방은 우리가",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBvcHdRZVlXUDJ2eGdYTG0zNGlNekJ2NzV3MkZtY1M5SERtYnlsZWhjRWFvazczMlllNF9UenZ5N1VDR2hpTVdkenRYckhIdV82TmdVSDRzaUdPTkQ2aG9CNGFpaVJud3F6?oc=5",
+      "pubDate": "Fri, 08 May 2026 00:14:58 GMT",
+      "source": "경인경제",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -70,10 +30,24 @@
       ]
     },
     {
-      "title": "삼성전자, 8나노 eM램으로 차세대 車 반도체 승부수",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBkSW1mSXhyaWVUM05tamdvN3FNb1l2Qi01Z1ZDNXVFMmtqMXZLLTU3anJ4dTBOSDNMMVEyWGt0VmhXQjRBWWFOS2l5MnYzT0U?oc=5",
-      "pubDate": "Thu, 07 May 2026 23:02:02 GMT",
-      "source": "v.daum.net",
+      "title": "반도체 수출 호조에 3월 경상수지 373억달러…두 달 연속 역대 최대",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9ia3JLNEZWc25MemduMEZfZUJKMlRxUGlPdFNVTFlyN1A5cU0xU3lIN0dySktGSXZxMzNiSGU0UmROWFZuTi0tdkdhOFdWRVk2M1RyUWpDaDBqMDBPSklmcXNCUkt0MEczNUF3UmtmVHZfdw?oc=5",
+      "pubDate": "Fri, 08 May 2026 00:11:44 GMT",
+      "source": "인더스트리뉴스",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자",
+        "환율"
+      ]
+    },
+    {
+      "title": "국내 국방반도체 연구개발 지원 및 국산 제품 우선 구매 · 사용 등 법적 근거 확보",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBrWDVLUG1mQkYyOGZXQkd3RG5vZnRnQzZQNFBDQUlhS19vdXdXWS10SWRWQy12ZVI4S213bm5PZUE4QmhYalBab1BON0MzMG5UVEVGQWNiTjRZZXhYdHVNMDFWbTZpTTk2ZHNwY0h1d2RtSmvSAXdBVV95cUxPTmRSRmhGbFZCX1NfWlUxTkFCTlYyMmpZNWFja2g3SFp0eEJXQzhIaXpDak80OGkwMGw5RDI0SlFpMXlQeUF4YmZ2RWFwdkVfU292VERaVWI5OTBRRzBjOFB1MmxORzBRTXBRdXdqVnRhaHEteU41RQ?oc=5",
+      "pubDate": "Fri, 08 May 2026 00:10:40 GMT",
+      "source": "핀포인트뉴스",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -83,10 +57,38 @@
       ]
     },
     {
-      "title": "삼성전자 노조 ‘1인당 6억’ 논란",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5JVEl0Uzc1cnFYaGF1aTJWQU1LOWZxZmkyYXp4TlJDX2F3ZEk5OXBsMW1TOGU3QkoxUkFOeVNqTWxLTlRnOFI1bjJZaVRXeXlHTGhBdG9RRFFhQXJmYi03azln?oc=5",
-      "pubDate": "Thu, 07 May 2026 23:01:47 GMT",
-      "source": "일요시사",
+      "title": "반도체 수출 150% 폭증 … 3월 경상수지 373억달러 '역대급 흑자'",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1Iend5Tmo4bFVjc2FVczl5cWhnRXd5S1U0cU5kLVFaWGdwbVpsZHl4NjBQTkJzWXNsX0dsUGJDakNvYW1HRlRybUF4cGNEdVkzc3pkVnI4OWhBcVpHVjVWUlQ1TFcyaHJKb0NtM2hsY0VQWVAxQ2NYQ0pfMA?oc=5",
+      "pubDate": "Fri, 08 May 2026 00:09:59 GMT",
+      "source": "뉴데일리 경제",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자",
+        "환율"
+      ]
+    },
+    {
+      "title": "반도체 훈풍 3월 경상수지 373.3억 달러 '역대 최대 흑자'…전년 동월比 3.89배↑",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPMHRRUnQwdmp4QktHdTZfdEsyejF1TkdwZFFCT1YySFRMZlgyOTJ5emo2TG42MGxlWVZsSElGVWFraEdoejJ6ckdOcHVHaG1Bc0U5Y1JQU0hXMUI5U1FvYVJlTUhLb1VyTWJCNlFVZXhpTXpnd0VHYUtxLUJtU0JGdG1BbEU?oc=5",
+      "pubDate": "Fri, 08 May 2026 00:09:31 GMT",
+      "source": "글로벌이코노믹",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자",
+        "환율"
+      ]
+    },
+    {
+      "title": "\"기사 오타인 줄 알았다\"…삼성전자 1개사가 일본 100대 기업보다 더 번다고? 日 커뮤니티 충격",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPUWdEZVhaZGVHbERsc2ZzRnZlel9Zd3pZOWExdk9yeFNXWXZXWk44SEhxXzZmSHJ4Mms3ZEFaZDJkdjVvdW42Tkh2c2h0N0trWWNKNmlPdFZCQ2lfLUw4UXB2WWo3eW1ZZmhsbTRia0FoQXhXSDlETVBPSXZvc185cQ?oc=5",
+      "pubDate": "Fri, 08 May 2026 00:05:00 GMT",
+      "source": "조선일보",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -96,41 +98,39 @@
       ]
     },
     {
-      "title": "뉴욕증시 일제 하락…중동 리스크·반도체 차익실현에 투심 흔들",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1yTWRBNDdkS2tHdjlWYW1ZMDFLN1JnYldzSjRpLWdmdzJJOGdwcUhYZ3pGamJQbzRrTjAzX1hYbWJ3VUx4T1BFWUpoMGZhUml4em1uRS1uYm90d212dGxrc2NldEQyZjZDWF800gFuQVVfeXFMUFVXd1FXb0JsbkJLNmZpNER3a0c5RUE1ZmtEdm9idEpYY2VXUnhXSUx0UGVKYVB6bm1XaEVROURnY2lON3A3VVVJSkxBMkpFY1J1ZkFBOHVSMFlhbWNYNUNVVkxvZ2lCWkYwOW9SMWc?oc=5",
-      "pubDate": "Thu, 07 May 2026 23:00:53 GMT",
-      "source": "뉴시안",
+      "title": "하나증권 \"반도체주 상승세 지속, 관심주 SK하이닉스 삼성전자 한미반도체\"",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFAtYXFSZ0NpaElWS29XZU1Bc19NbTVNbkpGeTFfd0pZTGxJS1hZV3ZwaFhzMGRZeFBTYkY4RUpaUkhsUkVwbWFnXzdFZUxyVHBfSGxRdjBNQWhKMml5QU1oUllsZnB4TGExMmZGbm5paUFBOGs?oc=5",
+      "pubDate": "Fri, 08 May 2026 00:03:16 GMT",
+      "source": "비즈니스포스트",
+      "category": {
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "SK하이닉스, 반도체 공급 확보 위해 IT 기업들 제안 받아 – 로이터 By Investing.com",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5XbEpUbHlfOWIyeUJDU2ZoUEdlVjU5MnRrZ2J3NDVEVzlidnE4UlBNbFEzWEZHM0FfLXJKV29hakduRi1lWF93MVpCRGNPVTVtcy05SE5peGxpQU01V2xXLTZSSVl5V2dYVE1EZGNGWEZFczV2bXYw?oc=5",
+      "pubDate": "Fri, 08 May 2026 00:02:00 GMT",
+      "source": "Investing.com 한국어",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
-        "원유",
         "삼성전자"
       ]
     },
     {
-      "title": "[분석] 대망의 코스피 7000, 고유가를 이긴 반도체",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1odkNreVFJUEh3T2g5Q2ZtME9DUUJMY2lKaWlzZVlYYkg1V0xuRk91NWs0SXctbHNianpKdVJlUkJ5MVJrdmFTMmlvNFlBNkl3dWNEaHlkRGc1RlRaanfSAW5BVV95cUxQTFIyalN6Z3FFLXVQbE5xUjFEalR0YTVsLXYyb2Q0MWZtTWNtWkJfbGhpZmxFS2hKUlZsdEpYcjFXZmM4bkVfaHFXOTZiNmIzTmtZZ24wVVhQV0d6NER4ZVJ0THpiRG41Rk9CT19KZw?oc=5",
-      "pubDate": "Thu, 07 May 2026 23:00:41 GMT",
-      "source": "알파경제",
+      "title": "신성이엔지, 1분기 수주 203% 급증…“반도체·태양광 쌍끌이 기대”",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBRSVZoemZ2NHNCd0phci0tUzM4Y0NYWEhLYU9rS0RiUXRFUUdxeE5wYW0xS1I1UERuaVptLW10UVRXZlROZDRYcEFTV2xmVWQ1ZWpnUXdYVHhLM3N1LVE?oc=5",
+      "pubDate": "Fri, 08 May 2026 00:01:32 GMT",
+      "source": "기후에너지데이터뱅크",
       "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "원유",
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[인터뷰] ‘가구’가 된 세탁기, 사용자 취향에 녹아들다… ‘레드닷 어워드 2026’ 최고상 빛난 삼성전자 DA 디자이너들을 만나다",
-      "link": "https://news.google.com/rss/articles/CBMirgJBVV95cUxQZTNJeExqUTlfMXFxR3NIdV93X0FjNTRSU1k4UEZFRGcxVVlxRkN1NHJtNm00ZmRIbzMzOTR1emRNR2NUOTZPVkdUQkdGVVJfVm1jdmZ0TnNCWHdmQmFxUHZOMERwdEJtYzBKQTNBaUJkeXY3MTROd1NBQ0Y3czRSRHRRYTQ0dkVBU0k1YmdQaFVsS0huMXRCM1pzWElYeWFwbmtpc3lOSWpsQm1MaTNocjA4c0F3Ql96TlN1MjZkdndxT0dBbjhwc2RpNjBXNEdmQWxjeHNCa1ZGRUk4Ry11Z2IzYjhFVGtmcGJLb2JvTkpjZmJVN1o0OENEcmh4VHpjLUpaanYzUm9GUjZnM2hVazQzMGFWNjlxVXJtYXgwUFcxNXZfblhsOHpXZzFpUQ?oc=5",
-      "pubDate": "Thu, 07 May 2026 23:00:00 GMT",
-      "source": "samsung.com",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
       },
       "impacts": [
         "삼성전자"
