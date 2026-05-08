@@ -1,7 +1,72 @@
 {
-  "timestamp": "2026-05-08T22:55:46.960313",
+  "timestamp": "2026-05-09T00:26:01.303730",
   "count": 10,
   "articles": [
+    {
+      "title": "반도체 수출 호조에… 경상수지 ‘35개월 연속 흑자’",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPeXdkM0ZVS3M2YVZfWXhuS2luNHZnNENvM3llWGthYjNPb3RRSEFLSUd4eDFoSXpEcXpHRnZ6VWpOaEd2TVgxS3lkRUlPNll2Q0N3VGtrMXNaM3NMTWwtbzNLcnpDV09pdVhIRllfcWdjd0VZTUZOMkZwdHVtYzRIUU5RbUdvUdIBbEFVX3lxTE9HaThqRmt6S2tCRURMbUNtczdhUVBLX29LWnlOSW92MHBPcUhObWdSaDFxTzBtalRHb0VudWc2TXBUNXRTamZQZjlKU3NTQWptY3ZWZzUyRUlTVzB6cTVuWkRGdkdvVnE5Yk55Yw?oc=5",
+      "pubDate": "Fri, 08 May 2026 15:04:00 GMT",
+      "source": "국민일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "애널리스트 빗나간 삼성전자 실적, 폴리마켓은 맞혔다",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBZR05ZVGdNWGdxU2duR1JxQzhnZ3RHRS1VeXhCM1V0ZDhhUzNWbDNTM3VMQ0tQZTdvMXRaS1JadDlUclhjb1h4REVfME52QWRSOG9TZ05n?oc=5",
+      "pubDate": "Fri, 08 May 2026 15:01:01 GMT",
+      "source": "중앙일보",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "김용범 \"반도체 호황에 세수 역사적 규모…예산 방향 바뀔 것\"",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBCcnF5ME5kamFoazU5RGdLN2RQZERFTVRWTmV5RXJTMmVMd2xwSV9NUUduY25IS0FUUDFaOEtGWmYtbkpUTHpRUjVzRWQ5U3M?oc=5",
+      "pubDate": "Fri, 08 May 2026 15:00:25 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전자 초기업노조 \"사후조정 절차 돌입\"...노사 협상 재개",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9uTmJtcFVuS0tJc2RnYjlwQWo4U1lLQWFpSFNweXkzcWdEckdrYWZmMHdRdllMM3RybURPS2g0VTBJRGVSd2tYNmo1V0lDNlk5OXRIZ2l6SUJiMEdLQ0E?oc=5",
+      "pubDate": "Fri, 08 May 2026 13:50:00 GMT",
+      "source": "YTN",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "'7,500 턱밑' 코스피...로봇·관세 판결에 현대차그룹 급등",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBMbGt5VGJabVZ6UkNTUm5CVHhBSjhfSjkzN0NSVnViOG1qNUh0bHFvbXU4cGdIS0gtMUNoS0d4SGM0dXNxS1k2N190ZFBSS0hJc3d2SVBiajFjTnQwRjlkdXduMjl5UDBwVnlUY3VRbw?oc=5",
+      "pubDate": "Fri, 08 May 2026 13:45:00 GMT",
+      "source": "YTN",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
     {
       "title": "비트코인 현물 ETF, 5거래일 유입 종료…8만달러 하회에 흐름 반전",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1PVDZVazRuN0UzenI5ajh6aHZxazFxQkIxRFNKXzFnVGhNcjJvTG9qVXlxbC1kdkV1STN1T2tvZmIxLXoyWW1nNkZXeThUSjZIVkpnRjJXOUpJQjl1a2lybVMxWC1PQkM4R2o3LXJ6NDVEOFk?oc=5",
@@ -12,8 +77,8 @@
         "color": "#a55eea"
       },
       "impacts": [
-        "환율",
-        "BTC"
+        "BTC",
+        "환율"
       ]
     },
     {
@@ -56,82 +121,16 @@
       ]
     },
     {
-      "title": "삼성전자 노사, 다시 대화 테이블로…‘사후조정’ 돌입",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0yX1RQYkg2anhTYktxVFIzM19BUTR0WUpuc3NWNzQ3djN4ckQ2Q1BzSUFMYXR2elJOd3FYenFGRnZtU1R1ZHlLeUoteEJCN3M?oc=5",
-      "pubDate": "Fri, 08 May 2026 12:46:19 GMT",
-      "source": "v.daum.net",
+      "title": "\"안 팔길 잘했네\"…현대차 효자 된 '로봇'에 개미들 '환호' [종목+]",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9PT2UtQVdSUXpOTnU5eTlHNHNDV1lWWWx5LWcyeTBLeWhvMjNCd3dsWmpDb3k4Q2VoOU5kZ1Fwc3ZYb19EaVdhNzlKT2dSMlRNWHd1VDFCaWlzQdIBVEFVX3lxTE90R2VKUnE3b0pkR0hPYlY1M1ZXdFczREhtOGhYM25zcmV6ZG1ySC02VV9rUERWdmNDOUR1SEVCOVVXM0JWZHdYME5JOHNlNnBqQ3AzQw?oc=5",
+      "pubDate": "Fri, 08 May 2026 13:00:02 GMT",
+      "source": "한국경제",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "Antelope Enterprise 19만 달러 비트코인 수익 보고, 자사주 매입 승인",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1SMlBvckV4OGlYM0pLVzVHcHU2VFBOcVZJM2U0bGlHNHJVMHp6VlB6NXlwdjR4STZlNTZJcEdoWVZuZkxBNGUwSFFuNUdGbktDMGN0YWg3X2VsMHNBejBlQmdMYVMySVppTDdCRF9HdnM?oc=5",
-      "pubDate": "Fri, 08 May 2026 12:32:00 GMT",
-      "source": "Investing.com 한국어",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "환율",
-        "BTC"
-      ]
-    },
-    {
-      "title": "삼성전자 노사, 총파업 앞 대화 재개…″사후조정 진행″",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBYRFYwRWNKOGtCYlU0dG1TRVRMWFJhZmZlWS1wTHZjY0dIeWhhVEVPLUJNc0VTMXBZUGhTR25aaUgyM0ZqR0xCejhNa243WXV4b3F2TVQwYkZrWldUTUwxdlpzNFk?oc=5",
-      "pubDate": "Fri, 08 May 2026 12:22:22 GMT",
-      "source": "연합뉴스TV",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[주도 섹터] 현대차그룹 로봇 랠리+ K-뷰티 호실적… 순환매 장세 지속 (2026.05.08)",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPVDhnLUFCZFNsdy0tNEpmLTUwTVp4X0FZMkl1c1Ezc2JrY3k4d3otU2lSaE1EQ1MyVmYwaFlrVnZTcDZ3Q1RzNFRBTm81LTRSd2F6NDhtYzM1X0R6SS16WlIzVVNJSTdRZ1pZSENsS001T2ExT0F1WkNoeDEwVmJ4aUd6aXRrSkRiNlE?oc=5",
-      "pubDate": "Fri, 08 May 2026 12:19:00 GMT",
-      "source": "네이버 프리미엄콘텐츠",
-      "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
       },
       "impacts": [
         "현대차"
-      ]
-    },
-    {
-      "title": "반도체 패키징 시장 900조 돌파…연평균 20% 성장",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5LclRINWtTUktXa3FzRW1UdGY2eWU1dlE1VFVobEZJdkZ2eElFZjlXUWl2ZzhwVFVvNm1KZWF2NnlXZ2lmQ2w0M0l2NVdTenVLODJ1WDFZczB6R2pHTkhVSlNJX3hkUQ?oc=5",
-      "pubDate": "Fri, 08 May 2026 12:05:36 GMT",
-      "source": "디일렉",
-      "category": {
-        "label": "🟢 POSITIVE",
-        "color": "#4ecdc4"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[이로운시선] 삼성전자 노조 총파업 갈림길…'반도체 초과이익'은 누구의 것인가",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE43bVV6blBNeVN1RWlSejF5OEJaTkdRbHJpR1hkZlNZdDlRQTdNT21DR0lOZjFzS0J4aGhMY1NMdmg2c3N6WHdweENONHItcFFXczg3UEd0NGQ5THZiQzYxeS13Z1FhZw?oc=5",
-      "pubDate": "Fri, 08 May 2026 11:41:28 GMT",
-      "source": "이로운넷",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
       ]
     }
   ]
