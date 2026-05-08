@@ -1,7 +1,20 @@
 {
-  "timestamp": "2026-05-08T10:17:05.528723",
+  "timestamp": "2026-05-08T10:22:46.152460",
   "count": 10,
   "articles": [
+    {
+      "title": "\"나라 돈으로 9000억 베팅\"⋯비트코인 7643개 쓸어 담은 '이 나라'",
+      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1qYXJhcV92V2xiRGJUWF9aZ2trZFNzTHNzTF9YRWZpSl9jb1FkcUg3STZDZERhUzRUSG5GVm9wYXJzRElmZEk1aVFwVWg?oc=5",
+      "pubDate": "Fri, 08 May 2026 01:15:54 GMT",
+      "source": "아이뉴스24",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
     {
       "title": "현대차그룹, 노무 대응 ‘격상’…최준영 사장 전면 배치",
       "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1sbW9NSUh1YlBqWjNVTzBmajVUNnVuek1IVVFiVmZ0bUdzZkxNMWpTWnRaaXlzc2hVcG04OHNaNjlQUEVwUzR0LUJDRHZzUXc3cnZEdDRSZ0FrUzc1QXZka1lB?oc=5",
@@ -27,19 +40,6 @@
       "impacts": []
     },
     {
-      "title": "현대차그룹, 정책개발실장에 최준영…\"노봉법 시행에\" 노무 담당 조직 사장급 격상",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9Xa2E3OE1Id1JwbzRUcmhaZ2phbmdoN0MwY1g0eVpwMWU4MjdIMjVmaE41Mm5meXVXTlJkTlJ0d1VTM3l4Y0l5TmJ4S0FkRENfLVRBY0huX0tOai01cERfNNIBeEFVX3lxTE53TDRQOHRMYnpTZmVFVFFSV2dVTUZUR2F3bC1ZTThkS0ZWZklsaWtMNUNzbGZiY3ZlWGY1TnpuMXExZkVWTGxvdVowT1VIdV9pZEV2ZlBpdjhvcW1yR2Rpa2RjLTlqUXFhRFdRTVJHTFJ5cGpUT2JiWQ?oc=5",
-      "pubDate": "Fri, 08 May 2026 01:08:16 GMT",
-      "source": "뉴시스",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
       "title": "[특징주] 레인보우로보틱스, 삼성전자 미래로봇추진단 조직 확장 '급등'",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNDdfZWh4REYtTDZUMlF0eWZYY1lmWXl6WWc4dFVCdUZPUllTeHdpXzktSGlTU2xqWTdzWjhkNlFEQ1JZN3BDT1YtQVRZV1B5UzVDQ3pjMlQtNVE1X0ZiZWFiWkt6Y3RXRW8tZHpMb2QxTGZ5ZUZxQmRQdmtmNTJ6aXBVWHRNbVh2?oc=5",
       "pubDate": "Fri, 08 May 2026 01:06:58 GMT",
@@ -62,9 +62,9 @@
         "color": "#a55eea"
       },
       "impacts": [
-        "BTC",
+        "환율",
         "원유",
-        "환율"
+        "BTC"
       ]
     },
     {
@@ -90,15 +90,15 @@
         "color": "#8b9dc3"
       },
       "impacts": [
-        "삼성전자",
-        "환율"
+        "환율",
+        "삼성전자"
       ]
     },
     {
       "title": "[속보] 현대차그룹, '노무 사령탑' 정책개발실장에 최준영 기아 사장",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA0NGdSQW90ZWkwRXdzbHB3UEhvVG9Vb2M4UHhGY2FJNEFZS1QyLUJLSXpRVUwtX2dyWHo3b0UwMGlKNk9hOHNseFFETlJueWFmQlRXWmRSX0g5LXc2emFaVNIBeEFVX3lxTE92NUFwOGVVVHFrUU41N3BIQ2dLeWppRHhzY0k4cHI2dzBheXl6amNtREtyeHJWX0xNZEthX01CT2ZKMU9BTGlfb0psU09ZYkJYTFZiQm5HUWlXdXM0ckFGc1pMQ1B1Vmo4TElTQ01LZG1tYzFfcHlqcw?oc=5",
       "pubDate": "Fri, 08 May 2026 01:02:48 GMT",
-      "source": "뉴시스",
+      "source": "newsis.com",
       "category": {
         "label": "🔴 HIGH IMPACT",
         "color": "#ff4757"
@@ -108,26 +108,26 @@
       ]
     },
     {
-      "title": "마이티부터 엑시언트까지, 현대차 상용 대표모델 3종 동시 출시",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPSTU3bEhGc2kxYWtHT0taNUw2THF3M1ZCV0FGbHR0aU5NdjU4RUtkSHh3VHMtYlZROGJBazY4ZlRfcFJULXJZeVNRVjZ4d1lKNjE5VFZVdXdiMVZRanBhZ19lb2ZEbzZPMFpHcXlMb3VsblNUVnlfR2lBbXpLMkcwTEtNVXUxTF9CNy01c1dJcV9UV3NlWlE0Q2MzVXZvd09yVlo4?oc=5",
-      "pubDate": "Fri, 08 May 2026 01:00:16 GMT",
-      "source": "Hyundai Motor Group",
+      "title": "코스피, 외인 1조 매도에 7300선 후퇴…삼성전자·SK하이닉스 약세",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5nRTdNQWd6aVI3T0Jzb0MtaGpVUWVqOVpBdjZSelNLcDlBOHRKejVKRVZWRGo5aElKa211dlFnbERzVU50QnVsWFAyQS0zRGwyNFgwRlVnM3VXckY3SFJITHdCT2dScUcx?oc=5",
+      "pubDate": "Fri, 08 May 2026 01:02:34 GMT",
+      "source": "녹색경제신문",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
-        "현대차"
+        "삼성전자"
       ]
     },
     {
-      "title": "[특징주] 삼성전자·SK하이닉스, 美 반도체주 약세와 전쟁 영향 '파란 불'",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPU2RoSmxjQkFwODFxdTBObnFDQmdndzVPYU9HeXZpWjZHUEs3ejE0cW9QRWVOLWJRRmpQNlpCcU5ubXlxeU9CVkx0bnJhWTUtZ3JkQzRrVmN6VWhBb1NkR0ZWazVSTVJQQ2lnVy1yOFBTMGFhNEh1cTczWU1HUi1mamkxV3FzZnFW?oc=5",
-      "pubDate": "Fri, 08 May 2026 00:55:47 GMT",
-      "source": "글로벌이코노믹",
+      "title": "삼성전자 노조, 'DX 차별' 내부 반발 눈덩이…공동전선 균열",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5TUmJNRnFBSlF5dmJSSEhydE10eWZhVWZKX1MzUnFGMnY3a3VFaW1LSERKSHRzZ2NfZkMtS1MwYWl4S0pIeXhKTzNnLUt4ckU?oc=5",
+      "pubDate": "Fri, 08 May 2026 01:01:01 GMT",
+      "source": "v.daum.net",
       "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
       },
       "impacts": [
         "삼성전자"
