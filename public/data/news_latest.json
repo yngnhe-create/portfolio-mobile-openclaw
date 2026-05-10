@@ -1,7 +1,73 @@
 {
-  "timestamp": "2026-05-11T00:27:58.123491",
+  "timestamp": "2026-05-11T00:58:10.681682",
   "count": 10,
   "articles": [
+    {
+      "title": "트루스소셜 모회사 트럼프미디어, 비트코인 투자 실패로 적자",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBEUEJsVWM4Tm1RZ1E0bW9jaWpzeFFDMWk3eGhMdTdUQmNDUU94T1Z0LTN6WEQ1ZFBHWVRueGNUZTdQNUJpWXU1T1doalMyeUg4S2N6RjVtSDdJRlFicGRiTzRBQQ?oc=5",
+      "pubDate": "Sun, 10 May 2026 15:52:09 GMT",
+      "source": "조세금융신문",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "\"추미애는 싸움꾼, 난 반도체 경력 30년 일꾼\"",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNWUJjWEN0RTI5SEJjNXNNWDNUdFJ3ZkR2a2FVSzBhT2dNZHJlOE5SMmQtSmhYTGVickN6UURpSU5abnE3RWRtakhCaXVheHBaZVBCYXhRVXI2THhqTVhxUVJmM0Zvcm10QlBKTTBHZlBFQ0hQOWJPdXg3WEE0SEl0N3ZMTkpnbWZncFZubXd6bzA?oc=5",
+      "pubDate": "Sun, 10 May 2026 15:48:00 GMT",
+      "source": "조선일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "영남이공대, 진로체험·반도체 채용행사 연이어 개최",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE03bDN0bnVTM0JRTXJYYVkwTlo5UnRoeWJwX0RNTUdGX2d6bWEyU3BWVG45SVFwQVVkRlhXUFhjRkZSSk1xUkZpZHlCMVVObnBVSGtNUEJ2dnU?oc=5",
+      "pubDate": "Sun, 10 May 2026 15:45:47 GMT",
+      "source": "경북신문",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[전기차 전환을 넘어 모빌리티 혁명으로 (11)] 삼성전자, 피지컬 AI를 ‘제2의 반도체 신화’ 달성의 일환으로 추진 중(下)",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE0xNzlOTXppMTFMS3VuanJHWHdmNkU4b1lWS2hfUUFNYXdnWng4T1FaU2VsdDJ1TGdYSi0xZzdaN3BRSjFDNE9YWWhCQVRHS1p3UGh3ZmFnOFQyNTNsd1E?oc=5",
+      "pubDate": "Sun, 10 May 2026 15:45:00 GMT",
+      "source": "뉴스투데이",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "테슬라",
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[사설] 다시 마주 앉는 삼성전자 노사, 파국은 안 된다",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNOFdZOEh5RjY5bXpjUjdQVFlBUFZvSy01MHZwNktDZk9LTHJ3NmVTOGMtZkJkX3FCekJwdmQzWkdRaF8zdXl1MzNBV3c5N1VnNDJIMTBGckZZcE9fcjhnSDF2UC1yU1JXNC0zQ2JpcjFqekd1NFpsNVo0LXFEaG1kT2FMeTdjUQ?oc=5",
+      "pubDate": "Sun, 10 May 2026 15:10:00 GMT",
+      "source": "조선일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
     {
       "title": "[사설] 삼성전자 성과급, 상생 가능한 사회적 합의 모델 찾아야",
       "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPb0ZlaFFNTGtSMGpzaHg2aWROSUM4dnhxU3lheEZubTI3TlU5UnppekFKRDYybDdDYjRwV2t4V2dfbl92TllVNW1ULTUyMkNxM0V0ZndGMzJpVEQ4U3JtWExFZXhHWl9scFBVV2JpUVp5Z185enZDaWJ6T3NVZi1OTnpn?oc=5",
@@ -60,71 +126,6 @@
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBVemRkdlRtaVhmbDlLY09ZQWxXcVY3dmE3QnBCc3EybHNvWEkydFBjVzJOdUtVeWxXTTlrN1FWY0VkeENNUjFZVU14Qm1uenA4dUtZZU5udkRTUUVxWnd3cDN6OG1QanRDZ0YweWZES256OHZzV1HSAWZBVV95cUxQUE9nTW1kVkYwWG5xOVBrM1U2UjJDTy1UWmhCZ1NEXzZJTG15cWlrRGstSE9nQjMxdHBYMi15OUdqeDFNTW1seTJVVUF0b2lVY3hacGs5ZnpIRjM4SVZMVjg4dUtkd1E?oc=5",
       "pubDate": "Sun, 10 May 2026 14:57:00 GMT",
       "source": "동아일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "“돈 더 달라”…삼성전자에 이어 카카오도 노사 교섭 결렬",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9KZUNCeE0ybFB0TmotdXU5eUxTWGJRWDU2eThoQV9hczlYTm9LTWdMX1NaZXZmVGpEeUtvZFllVkdnM01xLWJsNHlsWC1iTjJfemtEWTF5VFhCUEFZYWNxN3RYNEdOa3FzNV9hUkZwNlhOcV9MemZudzJuYw?oc=5",
-      "pubDate": "Sun, 10 May 2026 14:45:52 GMT",
-      "source": "서울신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[오늘의 시선] 삼성전자 파업 위기, 긴급조정을 검토할 때다",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5ycVZmYmw2UjBmZUozX0ZTejlWTUd3aEF5X1NUNUhOcDlqQklPT2ZzSm1JTEN1YklwdktNdGRlbUxTeHhTZ200ajN4X3dQazQ?oc=5",
-      "pubDate": "Sun, 10 May 2026 14:17:43 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[국제]글로벌 반도체 주가 폭등...\"닷컴 버블과는 달라\"",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9QMk1OeXNBSGM0V2l2dXZVVlNTOUNvRlVNeFZ1WUd6dUx3SXJIYlotQlUzX3V3WTZFcnNEVE1SOTNZem0zYWlZWTZMejRJcmlUdWxEV3lQZW1qcFNzdC1CWTNHWXR3MWtPQnJxVXFrNA?oc=5",
-      "pubDate": "Sun, 10 May 2026 14:10:00 GMT",
-      "source": "YTN",
-      "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "팝스타가 삼성전자에 220억 소송 제기한 이유…\"내 얼굴이 왜 여기?\"",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1wdVBxSjdUVC1YTTljVUJPTmQ1c3RPV2VhTTVONDhDVzY0YURUTjlSUUo1MDN2TmwyOXJ3VlY1T0xjUTc2LWtHTUFjVnFhNWRBNU1GZVF6eVZJSENuc3BiVHZoYURTY2prOVhj?oc=5",
-      "pubDate": "Sun, 10 May 2026 13:50:00 GMT",
-      "source": "조선일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "대구시, 반도체·나노 실무인재 양성 확대",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA4end6RzlfRVhMSS1zUTNRWmJuXy1DS1FlSjNFMUZPbDRxb2wwSUhaUFRpMzNMMzFnVkhYN1IwSDIyTGJyX1NNd0pNV0RNWWprdlVKX243TGZpUWU2MlRZRndGSDZrVmJtSUE?oc=5",
-      "pubDate": "Sun, 10 May 2026 13:24:48 GMT",
-      "source": "천지일보",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
