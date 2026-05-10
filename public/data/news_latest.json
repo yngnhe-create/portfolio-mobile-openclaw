@@ -1,12 +1,66 @@
 {
-  "timestamp": "2026-05-11T06:29:12.568528",
+  "timestamp": "2026-05-11T08:17:03.904053",
   "count": 10,
   "articles": [
     {
-      "title": "비트코인, 미국 '클라리티' 법안 관련 조정 우려",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9obEZlM3NJTnJRVkk4X1RBX1RMZC1KUm1tRjZSQXB2RjdaU1RQcm5GS1pOVjAxaHFFdTZIeVJiMzFNYUx3Njl5b3V2Zm5qRGxiZThXaUpBNWVNTWM4cjRwaVVITDVTZVdYV2dhcQ?oc=5",
-      "pubDate": "Sun, 10 May 2026 21:18:11 GMT",
-      "source": "경향게임스",
+      "title": "[증시키워드] SK하이닉스 신고가 흐름…현대차·대한전선 ‘로봇·전력망’ 관심",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE13cG5RSXNTaWVzcXBySDVEV0VZWUQ4YlI5OEs1X2xBd2pFYkZlQjJ6VlIxLVlHT1c0WEp1OFNDX0ExSFNKVVZMdmttMmdOSWVGUk8yWVJKM1BocXZRZkZjUFJJbmJETFRsa2k0bWlmSnpRREdt?oc=5",
+      "pubDate": "Sun, 10 May 2026 23:08:00 GMT",
+      "source": "이투데이",
+      "category": {
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "키움證 \"삼성전자 2Q 영업이익 100조원…목표가 상향 33만원\"",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1xT08tWHFtZDBveWl3UWtOa0ZjdlduTm5oZ0hUZGFRa2VfbUw0THVka1V4bW04TndxaVdGM1pLOFdYLU9lSGRNaE1iR2NYMkJQSHFIZWNnWTJjZ1VxbVFr?oc=5",
+      "pubDate": "Sun, 10 May 2026 23:07:48 GMT",
+      "source": "뉴스1",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "비트코인 8만2000달러 회복…알트코인도 동반 상승",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE80b0hONmJTT3RQVzZQdFdGRXZPWnlBMkxHSTFqS01uWkN2WlJXcVNkZmdYczZHY3JjZ29Tank2c2VWcVY0S3lPUXkyZUQ4OXFNYXpqS1NTN0E2QlRlMVBHSmkteTl1SVVUNmQxWGhYeDNydTg?oc=5",
+      "pubDate": "Sun, 10 May 2026 23:04:30 GMT",
+      "source": "디지털투데이",
+      "category": {
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
+      },
+      "impacts": [
+        "BTC",
+        "환율"
+      ]
+    },
+    {
+      "title": "거시 환경 주목 속 비트코인, 8만1천 달러 상단 유지",
+      "link": "https://news.google.com/rss/articles/CBMisgJBVV95cUxPZHgyd2hNQ25MQ3l5eVFMR2sxVDNqV0M5aUh6Vi1xT292dXJOSnUzcVREdU9wNXllYmRDcVlOdnlTT3padlNNNDNsRlktWkxFWENFcGNjbzEyYjVMODZkWjBDQ0hkRFRHODdVQjMyRlA2SWRyV3l6cko5dExZdmtkUDZHWmotb0R0NFJmdFpoMW1Md1hFZWhMbEdOVnNrdDM5RHRkX2hBeDVwcl9MdGduMGQyemJvWWRVY0xsejMtOFpnN1NiOFB0QmlITmVWYTAzYTdOcGp3N002Y0liQUxndGNIVU9yYVdmN3dKNklEajR6WVZUT2Y4UmswY1d5Yjh0ck9VVW0zNENLLU9KN1VrWHp6RTFWTUFsSmhHNktJVWVfV01uM2ZoSm1aSHY1UlhWUEE?oc=5",
+      "pubDate": "Sun, 10 May 2026 23:03:15 GMT",
+      "source": "Yellow.com",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC",
+        "환율"
+      ]
+    },
+    {
+      "title": "모건스탠리 비트코인 현물 ETF, 출시 후 한 달간 '무유출'…수요 견조",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE03b1doMmJpdjdMQ0VTcXFwNWtPMWRLYWljLXJDMmRVdkJMeWN6RnhfdmlseWNSQlhnZG15c1RLcHJTRGl4REdTRGdnb2NBR3Q1?oc=5",
+      "pubDate": "Sun, 10 May 2026 23:01:16 GMT",
+      "source": "블루밍비트",
       "category": {
         "label": "🟣 CRYPTO",
         "color": "#a55eea"
@@ -16,21 +70,10 @@
       ]
     },
     {
-      "title": "MB도 추진한 '초과이익공유', 이재명 정부는?",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPZjVLQUtEUVkzdS14UmttRThyMGRSWFREU2VpRGljeVpIa1YwT0NabXd0VGJKbjdyd21OcGkybkFKU0lQbGxEV3gxUEtYSkV5RUdBYkhEM3o5UjE5bzF1QjZjanlKQmxsWU9rLWo5Sm0ydk5RQWo4Mmg1aXo1d0xCYnoxNGFDQmxFZWc?oc=5",
-      "pubDate": "Sun, 10 May 2026 21:18:00 GMT",
-      "source": "오마이뉴스",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": []
-    },
-    {
-      "title": "다시 마주 앉는 삼성전자 노조…노노갈등이 변수",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1VajlaaWNZRDdYMGwwbzJvSHN2NTgtcjlfbHJlQUhLaUo4R1dlemhycHJmRDNxOXRULUVGWFJJX1Q4WVlCbllYSm5LT2Z0RmM2?oc=5",
-      "pubDate": "Sun, 10 May 2026 21:15:13 GMT",
-      "source": "문화일보",
+      "title": "[이영기 칼럼] 반도체가 돋운 흥, 산업 전반으로 번지길",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE8td1pObmVuY3J1OTFmZHV6b29rMUpHODJFcVRSMTJnQkU4blV0MDVDSEpFejc2RGNDRGgzR2d3WVpuTmt5UWVYaWh0TWRLMTllMnBoTg?oc=5",
+      "pubDate": "Sun, 10 May 2026 23:00:05 GMT",
+      "source": "더밸류뉴스",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -40,10 +83,10 @@
       ]
     },
     {
-      "title": "삼성전자 총파업 D-10…노사, 오늘 ‘마지막 중재’ 들어간다",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1hUFZ5a1RyTGhlaEpOdnRhbmZVVm5TbmF1aEpTMFpuX1VlMmlMaDdKNGFPMzAwSzZ5Qkt2eV82b0FNblgyQUVpb0RNd1pORk03ejUwck53?oc=5",
-      "pubDate": "Sun, 10 May 2026 21:07:56 GMT",
-      "source": "헤럴드경제",
+      "title": "삼성전자, ‘갤럭시 S26 패밀리 페스타’ 확대 운영",
+      "link": "https://news.google.com/rss/articles/CBMimgJBVV95cUxPUW1peDlYSnl2VkNMcUhxY1lxMjk0SFNwclF4MnpYMUVmNDNmWkF6bXAxSnRDci16b0RDQl94Nks5ekpTNW4yVzdtWVdTS2RmeGdBN1FUU01ERzJkLWZXOXVCdUg5SjB1eVVib1ZyZzRmVHIzcUtXbkNoX1pseEtqWDctcWNuU1pfS3pWc3dGUUJ1R3ZqektZc0V3YVk4bURJcm4zMkRwbGxtV1oxbWVGUnRkbXNDWTBNWjFraVJhZTh4NzdVUkJSeE8yUWpudEVSRENsTzFpNVlkLVVmMDVkbDlZUm5JNDZKam1oVDlMb0xkU1lOSmlHeC1fZ3hEQTg5UFRxRV9TQlhGZDIzM2RONEQxUnc4OTJfNHc?oc=5",
+      "pubDate": "Sun, 10 May 2026 23:00:00 GMT",
+      "source": "samsung.com",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -53,10 +96,10 @@
       ]
     },
     {
-      "title": "[기자일기] 삼성전자 노조, ‘벼랑 끝 투쟁’ 멈춰야",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB6N0lhTC1HNGhKLTkwUFJaTk9Xa2FuWkpGTGJDS3g1QzhMVlhSdDE0bDg0Ql9UbHAxOGNteFBuQ2VVMHVYR3ZfOHZTajF0ODBEemdzQ3JqZ1FUTEpRbWxEQnRBeDhDMVo0RmVQMXZvMjFwMC04?oc=5",
-      "pubDate": "Sun, 10 May 2026 21:00:00 GMT",
-      "source": "부산일보",
+      "title": "[외신 에스프레소] 애플 칩, 인텔이 품다! 트럼프가 밀어붙인 '반도체 동맹'",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8wX293VGxIM0dPY2VOQjVpbmxpZGhiQUNsTVRWelhiQlVfUnRQSVdOLXp5OEZKcDFTdTZ3MG1SVlpza3NDdjRkOXo4NlQ1eC1mMHkzT1hqTEtKQQ?oc=5",
+      "pubDate": "Sun, 10 May 2026 22:59:26 GMT",
+      "source": "한국경제",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -66,10 +109,10 @@
       ]
     },
     {
-      "title": "[조남현의 종횡무진]삼성전자가 멈추면 대한민국이 멈춘다",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE13ZldaSEw4TnlQeFhWR0JxS1RrWVZaUmdUMVZaakRra1MwdS0yRERQa1JZRjh2aUlTUkhDOHVHVldrbF9tMDNFOC1UdWpRQ0Vob2hoenhhZTFKWHJsYXp3cnJHOA?oc=5",
-      "pubDate": "Sun, 10 May 2026 21:00:00 GMT",
-      "source": "매일산업뉴스",
+      "title": "“총파업이냐 극적 타결이냐”…삼성전자 노사, 오늘 ‘끝장 조정’ 돌입",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5UVWhpZDlBT2g5SFhoRHB1SjhLZk1YSC14TE9HcG5Rd2F6bkx5WnloZjdSLWpQdXZoRUFBY3JpS2U0VFBBUlc0QWZTQkpUakVqRUNvYnoySkNWNTdkWDl4X3RZNnNBRDJXZEd30gFuQVVfeXFMUGFzT2FhaXZtbTV6SEhTWGZTMEk3UXR4TW9fcWZjdHFoa1NuQ29wbDkwWjFjeVVtaDdQRFloUV9JSEtRZHZYZE50SGZNbzJVdk5oNTNrS3VpU3FzMnBfRVU0WDk1eWlKWGswVTJPeUE?oc=5",
+      "pubDate": "Sun, 10 May 2026 22:56:54 GMT",
+      "source": "뉴시안",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -79,49 +122,10 @@
       ]
     },
     {
-      "title": "삼성전자 노사, 오늘부터 이틀간 '사후조정' 돌입…\"총파업 D-10 최대 분수령\"",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5HWmVkQzl2RTBsaDZxUmN4XzFhMlVDUmlfNzZablVUeEk4bWE0QUhEOFNwLUxYd0JKR29OUTR1ZnNIWGxRTEJJMmZScmI0a1NxRGExb0hPRm9SZHRfckVLWtIBeEFVX3lxTE1jR19VUW8yQ0hZTlFIQWVWdjlzODVjYkV1aE0yS0xyc2lYSndlMmFBODktUWwwank2cTYzaFVkUnVpVzhPQVVIRlQ1MzkwQUNVQ2txZklNOEo5X0VVSVpCbFYwelRvZnVwbngwLWtOUmNTMmtEay1oLQ?oc=5",
-      "pubDate": "Sun, 10 May 2026 21:00:00 GMT",
-      "source": "newsis.com",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "반도체 옆 함께 오른 업종 어디…증권·유통으로 번지는 순환매 기대",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5vMkZsSThVTG1pUnJnV1lIazI5U05MVUkxaGZZQi1VaUJSTUxYOHVNQ3JTVk9lUVp3TVN6NEhOYkFPZU5rc0lEdUEyLVJqRmhSVjdncw?oc=5",
-      "pubDate": "Sun, 10 May 2026 21:00:00 GMT",
-      "source": "이투데이",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "\"자율주행 격차 못 좁히면 미래 없어\"···현대차의 '필살기'가 절실하다",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBZOHdLeGxLTmdZTEhfaWtGcVlWeEhUaWUtUlZxblB0RlFmUnI5Mi1yVlU2WEdxVnVqN2Vjc2Q1S1h3SVNUcEtRV0FJMHdTZVIzVGl4dmw2eTAxT2xSd2VDZERQc0R2d21SUlE?oc=5",
-      "pubDate": "Sun, 10 May 2026 20:59:00 GMT",
-      "source": "뉴스웨이",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "삼성전자의 황금알은 영원할까…지금은 그 이후를 봐야 할 때[기자수첩]",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBNdXl3Qjk1MTJvLVZPSFB4ZFI2RlNyVEhEUUhfZ3ljSVRoTDdON2EybF9XVnBiMlA1dkpnWFdTODE1SUJIc2pwMXFfZnVVVnc?oc=5",
-      "pubDate": "Sun, 10 May 2026 20:58:02 GMT",
-      "source": "v.daum.net",
+      "title": "삼성전자 노사 오늘 사후조정 돌입…총파업 앞두고 마지막 기회 '최대 분수령'",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8yUHZZbVdOOVo4SEdGVG5QNkpaSmFVN3VtdGFiM3oyZ3VVSFhxZjhaaFJwcnBYa1dJZVVFS0RRSEh0a2U1di12RTFFaFhXbk5WMkdnRi1tWlF0NzAzQWJ2TzZDaV9pV04tOHfSAW5BVV95cUxONlY3c2RJNlcyMjNTbU92TmpUdGw4Y1lneHhjZnNla2JQUkU5V3FTMkx3cGpEWEhiWDV5T0k5MzEtcHdUOUxnSlMwVG1UN3hQamFUQ1loZ3R2eFE2RDBQV042X0YxQVhzWVBaOWpRUQ?oc=5",
+      "pubDate": "Sun, 10 May 2026 22:56:03 GMT",
+      "source": "퍼블릭타임스",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
