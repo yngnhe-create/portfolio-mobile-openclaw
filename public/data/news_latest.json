@@ -1,7 +1,22 @@
 {
-  "timestamp": "2026-05-11T02:28:23.584362",
+  "timestamp": "2026-05-11T02:58:35.940806",
   "count": 10,
   "articles": [
+    {
+      "title": "비트코인, '중동 긴장·금리 부담'에 발목 잡히나",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE42a2xLWVJKa2g5TklIMTdGRmlacS1IdnUtMnFTMVZVSTZlOU1TRUh0Z1Z2SjhrTWhNa2dKVW1Nd0RENXdMMUIxQWxGaUJrZ0hpbmtkTl9pdU1JWmppdnRBdU05eExFdkNBQmNRbg?oc=5",
+      "pubDate": "Sun, 10 May 2026 17:31:19 GMT",
+      "source": "경향게임스",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "원유",
+        "채권",
+        "BTC"
+      ]
+    },
     {
       "title": "KAI, 현대차그룹과 K-AAM 공동개발 추진",
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4xNGpVY00yT24yVDVDVmtEV2FnRnhKSkhWa2xVYy1kZGtrQ0ZWcmk0YmZoeHYyOVNtYXh2SVZpZ2c4OE04OWJuMzZld0wtb0o2dTJLVG5KMG04R2w1SnR2Sld3NU1WVmVYU2VHeUNR?oc=5",
@@ -77,8 +92,8 @@
         "color": "#8b9dc3"
       },
       "impacts": [
-        "삼성전자",
-        "테슬라"
+        "테슬라",
+        "삼성전자"
       ]
     },
     {
@@ -119,19 +134,6 @@
       "impacts": [
         "환율",
         "BTC"
-      ]
-    },
-    {
-      "title": "[사설] 삼성전자 노조, 정부 중재서 파업카드 접어야",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBpdEdUcmpMV2VEcWVWUE9laEJyaVNhbkJyU3pjSkNBUEZIQkNZQ0ZjQXVZTFNpVy1CQmJ4WWZEUkd6N0JTMlNjVm92bGJhOVR3cHdmc2hHSWs3U0xJQzE5al9menZhWGlqcEYzbC1n?oc=5",
-      "pubDate": "Sun, 10 May 2026 15:00:00 GMT",
-      "source": "아시아투데이",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
       ]
     }
   ]
