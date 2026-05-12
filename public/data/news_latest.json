@@ -1,136 +1,137 @@
 {
-  "timestamp": "2026-05-12T09:40:46.630739",
+  "timestamp": "2026-05-12T10:12:07.618316",
   "count": 10,
   "articles": [
     {
-      "title": "'매각' 시사하던 스트래티지, 4300만 달러 상당 비트코인 추가 매입",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5acHFxbVRyakhqb3VvRHQySHJ5Y1Vna1JxMHpGUTFSelB2Zno0ZDNjdG9PZnJMVFNwUERhb0lMTTdreTZHVFE3bmpTeDZENENnTHc3Q253?oc=5",
-      "pubDate": "Tue, 12 May 2026 00:38:21 GMT",
-      "source": "지디넷코리아",
+      "title": "코스피 8천피 눈앞…반도체 대장주 신고가 랠리",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9MU2Q1aXZvVXU5ZHY4NmwyMnlKSjVPazZ3ajJsbDYzemNTZkVOVmlwSkFCV05fQ3pzYmlTdzJWOFBhdDF3dlQ3NHZMdTR0RVlEMFhSNF9aaFRIaDlsbEg2cTgyb2cyMXEyd0RLRg?oc=5",
+      "pubDate": "Tue, 12 May 2026 01:06:36 GMT",
+      "source": "mstoday.co.kr",
+      "category": {
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "코스피 장중 8천선 눈앞…반도체 랠리에 7,999선 돌파 시도",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9zRWJqTmZwdVUwYzVxYzNpQjg0SEIyNDUyTTF2UkowTUN4V2pOUktMdlZqa29uZGFlTW43MjdnQUU1TGRTWXpXX1RzLXBVeUkwN3ZJTEVSblNJTmJPdU1XYXFvTE9GelA0aTREQXp3?oc=5",
+      "pubDate": "Tue, 12 May 2026 01:04:49 GMT",
+      "source": "전국매일신문",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "'아픈 손가락' 삼성전자 非메모리 사업부, 올 2분기 '흑자전환' 성공할까",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBJWTBlTTNXMEQwTjZHX2VhM281Z3p3djJIRVBZWDN3TkR1ZkNsaXhrSWhUUXlCYWlEclhKdUh5alJkUkdWT2JzNm1teDRoVElHYXhCTXVCbFgxOFhwbHpiMQ?oc=5",
+      "pubDate": "Tue, 12 May 2026 01:04:35 GMT",
+      "source": "newsis.com",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "김용범, AI시대 '국민배당금' 제안…\"반도체 호황, 구조적 초과이윤 가능성\"",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1QOGNfMEhndWZZRVNhb0V4S3FxZmM3XzRZVlpOdWdkbzhsbHU4eC1kNzB6X2RlTktvUUJfMXdJSlNQNmdGUzE1WW93NEpJeW9uUWJqWWZPV1kzN0k?oc=5",
+      "pubDate": "Tue, 12 May 2026 01:00:07 GMT",
+      "source": "뉴스1",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "KAI-현대차, 한국형 항공 모빌리티 개발 '맞손'",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBTNmJqNlZHMU16WkluNUVlNC11U2Z6Zk9TUlVMRk9aSkdqaHdoQzZnVktESS1nbzlkaERoMFRwUDhaSlJxSXhFVFl3Qm1SZ0JialdzalR6NGJHQTNRZ2VFcExHd1NSbTk1?oc=5",
+      "pubDate": "Tue, 12 May 2026 00:58:50 GMT",
+      "source": "뉴스사천",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "[특징주] 현대차그룹株, 로봇 사업 주도 기대감에 강세 - 조선비즈",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOVGI4ejF2bklRR0I3SF9TY0JXb19ldFN3STRDaDZqcnV4RzVRR0czT2x1cTBsci12X19JU21nY25tRWQ0WkE5Slo5VW9xdUN2dXRvVVRlT0hHMmVuRDJ4WjBPS29DQjk2dHV6ZUQxZHRVbDlKVkVSRFhWdG82M1BHUGhocUk2Yld10gGcAUFVX3lxTE92WDhtejF2Y3NYWWZOU056VVBXcmNWNmVSNDRvd2ViM3BFQ1VtTGVZZEJKNnpobDZhak5TdW1jTnJnR0dzN3NjalNoM3JYbGFnSHhmcFVKakJsb1QxUGhFbzFxaTZOSkh6LVVlbTZfNnFXU1NQLWhfejEyeDBQaDBBUm13YzJZTGF6bGFnSlE3SWR2X3hUU2cyR0dHbg?oc=5",
+      "pubDate": "Tue, 12 May 2026 00:54:00 GMT",
+      "source": "Chosunbiz",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "코스피, 장중 첫 7900선 돌파…반도체 기대감에 상승 출발",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1KdF8zS1RlNldXSWE4NWtIVEdvMWt0alIzci1aUmVBSFdBSF9EaDFOc2hsblpibkN5SEVhVXR6VUkxTmloNUdiV1c0NVZMRUE?oc=5",
+      "pubDate": "Tue, 12 May 2026 00:53:53 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "현대차그룹주, 로봇 사업 성장 기대감에 동반 상승…현대차 신고가 - 머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5Md2s3QVctUHRpT2JrWlVrWUhIaF9TR3FORUZMVnpxb2w0TFdlQkFCX0p6bG5LakZxN0VXLURPYjJ6S0I5WHpod0FfU3ZkOEFqU3FndFZKalZ2RDc1ZVBaaGRGeVZPcUFk0gFuQVVfeXFMTnhIZ2dlY2F4UUVPVGkwZS1xT2ZQcUkwSVhsRkVmQWtNaFlYeVNJeldkei1sYnJsa3hKRVlUbXMzM0p6RnBVNVVvRkxpMF9lNWVyUWk4Ylhrelp6ZHRacVdBMUVDWFNnd1lsajA3aEE?oc=5",
+      "pubDate": "Tue, 12 May 2026 00:53:04 GMT",
+      "source": "머니투데이",
+      "category": {
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "'반도체기판 1위' 日이비덴, 2026회계연도 매출 20% 상승 전망",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9qTlR5ZWN0cGZQZk9MQjFKWnpyNXBGc3hYcmxhME9POHN5bDJ3a1Fta2N6WGo0UUg4b0U0NEhlTmNWMU9SVDFiSFJieFdBUUE?oc=5",
+      "pubDate": "Tue, 12 May 2026 00:53:01 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "비트코인 8만1000달러대 지켰지만…중동 리스크에 시장 '흔들'",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9Zb0pOUEdVeFBiQUs2M254MTNPY0lxVFhrU0NVZ3d1cXh4eEs5QWtZUFlwLXc4bUpMd2gtRHZ1SUVIbU9OelZiLUNoa1ctTVhlTl95bEt6SVotWEY2VGtLd0M3d0ticEYxVl8wOGZ5T3B4MTA?oc=5",
+      "pubDate": "Tue, 12 May 2026 00:52:38 GMT",
+      "source": "디지털투데이",
       "category": {
         "label": "🟣 CRYPTO",
         "color": "#a55eea"
       },
       "impacts": [
         "환율",
-        "BTC"
-      ]
-    },
-    {
-      "title": "반도체 덕에…한국 성장률, 주요국 제치고 세계 1위",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8zM0xkN3IzTVFyYm9GZkUwX1JkV1ktV2hEeDg1UXBDcC0zd29LR01Kd1JBRzB1OFJJMXVmeE90a3RyNldORWVoamtZLUhjUnRqZlZkSU9B?oc=5",
-      "pubDate": "Tue, 12 May 2026 00:36:03 GMT",
-      "source": "중앙일보",
-      "category": {
-        "label": "🟢 POSITIVE",
-        "color": "#4ecdc4"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[특징주] 삼성전자·하이닉스 오늘도 상승…‘190만닉스·29만전자' - 조선비즈",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNblNYbVU0UnJBWFBfTFlwd1BPUXVrSWVIcWFxZVQxSVl3Qld6czFsOWlncF9WV0FUS1RUQjdRZ2lBdmthMzExQU03N3A4LXMtUER4b2lYXzR2MEtLSGN6SmZpbUtNdnU5eWdEMkFxMVBSY09tMHhoR0phS1NVZnppMXNKNkc2LVoz0gGcAUFVX3lxTE1sWXNhbTVCd195ZG81VE43NXJHNS1RczB6RWJaWmhHRnpfb1A4WXBueW42STZsQ0J2R05IVjhVRU1ab3JMMkN1UHVqcFNlSnNhZXpOcUM4OWVNZlhTdm5MN2lDQ1JUVXdBUzYtMFNHQXJyeHN4eEp5djZTZGRfYmV2QUlhY1RtU2xMd1oxamFHa1pSMkk5djlIRnIyQg?oc=5",
-      "pubDate": "Tue, 12 May 2026 00:30:00 GMT",
-      "source": "Chosunbiz",
-      "category": {
-        "label": "🟢 POSITIVE",
-        "color": "#4ecdc4"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "현대차, 69만원 터치 '사상 최고'…그룹주 동반 강세[핫종목]",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE96RU9Eajg4OTRPZzBXNThWUFpTRGZRbGZuRm5yTU0zczVNOUZOU1FrWmw3VjZEUHZGSGRNNExXbGFiS2RScTdUNjd6ZWVSUXpiS0VROGhsUVVqSWJOTlVN?oc=5",
-      "pubDate": "Tue, 12 May 2026 00:29:52 GMT",
-      "source": "뉴스1",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "장재훈 현대차그룹 부회장, 금탑산업훈장 수훈…자동차산업 공로 인정",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9SQkluamhEeWtMc1dKckJacjQ2Q01oMndMTjFYemJPQWdtd01VdE1wVVRVVW1jY1dGR3hDZnRkNVdrWktjRVlFZDZiRFR0dE1mR0dLUlFMWEdZbk9tc0NjX0EzQzE?oc=5",
-      "pubDate": "Tue, 12 May 2026 00:27:17 GMT",
-      "source": "서울경제TV",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "'다큐3일' SK하이닉스편 화제…손톱보다 작은 반도체에 담긴 30년 열정 \"실패해도 해야\"",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5MLVNWZHhhRU15TWdWRXhVWURtS3lYdnhvVW1ILWNSdEYzYnFuLWhTMGVGSmRwYTJKS0NsZEpqdGVHUU1vaXRuNjlPVHZsNWdCaDU0TVRJdkl1ZDMwU2t1N9IBeEFVX3lxTE53Y1Q0SEgyaUJLaURBckV2LTI0QUUzYlpzLWFzQUZaZUt3NHFOZzJQdE5hUEVGSWNvZnZtSE5qYnpMU2tWRkh3LWh0Q2dCQ0NpQkViNUtTcGRUWTJ4RURHM0pPTjVWSU9lb2Z0bDZwOTlsdkdMRURXXw?oc=5",
-      "pubDate": "Tue, 12 May 2026 00:22:39 GMT",
-      "source": "newsis.com",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "KODEX AI반도체핵심장비(471990)",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPb2d2UGFZYjJqTkZVeDJ0SmFzTlViNTl4a3Q2dTY5UGJmeVFQZlJ0VzZBV0RUUkRlRE9HVW1NNHV5X0kwRThQRHBZSzVnU2FWdF9kVEtOY0pUUnNjQzdsNGdyVjE0T0pMdDMxN3NpVVdFMGtoWGV5M3VCZmUwTGRJQ2NmUk9fcnEtUkFod180WDNzSm44M2d1NGMwRQ?oc=5",
-      "pubDate": "Tue, 12 May 2026 00:19:35 GMT",
-      "source": "매일경제 마켓",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "SK하이닉스 3% 강세 195만원 돌파…삼성전자 강보합[핫종목]",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1KbXJieG4xY1FhSEU3eE82ZWxpcVY5OGt5d183UEI5MGFvUFFxTk9jcmJMSzJXMmVhcVNudnEtbnRGNzZnSVJpeXVaZEtfNHhRcGZUZndkeVdOVXM?oc=5",
-      "pubDate": "Tue, 12 May 2026 00:19:30 GMT",
-      "source": "뉴스1",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "光기술·맞춤형 반도체… 진화하는 두 엔진 달고 ‘AI 전장’서 빛의 성장[유중호의 미국 주식 플렉스]",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5BWERpcWR5STNLWFhSU3l1WG96YXlnX19QeDFpWW1NeEJSUE5Qa1RpLXRvc2hOeXVtdGNFb0JYWGpaZmFUM3p0ZXBVM3FyMWZv?oc=5",
-      "pubDate": "Tue, 12 May 2026 00:18:55 GMT",
-      "source": "문화일보",
-      "category": {
-        "label": "🟢 POSITIVE",
-        "color": "#4ecdc4"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[6·3용인]이상일 \"첨단반도체산단, 차질 없이 추진해야\"",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1XaEhPOV9NUjRWeXE4QldWTFN2TTdMaHVzdlp2dGV6b29rVVR5dG9JYkRoQTRaU0QzMGh4TTAteHcxdE9CLW9ubzcxQlQybGF0VWNqUjJvZjdNTDkwZEhLS9IBeEFVX3lxTE9jTkhXTkljamJ6T0xrU1pMMVh2OVBweVExWTYzcVd0eXRoUDZRU1NQZWNadDFiSHdPX1VpZmZlXzdrRmhnQldqSnlaNlVaU1hXTzVwTHlZdFIwV2hWaGE3UUFtNzNoaDh2S3FnUEpaNHBRWnl4QmVJQg?oc=5",
-      "pubDate": "Tue, 12 May 2026 00:18:39 GMT",
-      "source": "newsis.com",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
+        "BTC",
+        "원유"
       ]
     }
   ]
