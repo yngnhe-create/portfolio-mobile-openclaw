@@ -1,7 +1,20 @@
 {
-  "timestamp": "2026-05-14T02:05:39.635988",
+  "timestamp": "2026-05-14T02:36:50.447719",
   "count": 10,
   "articles": [
+    {
+      "title": "국민의힘 \"이재명 대통령, 삼성전자 파업에 긴급조정권 발동해야\"",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9OLXg1elVGZHBSN185cjhvc0ZSMXNGTnNZeUdoVWFDMXJCYWM5QUNXaHBoajRBQzh6NUd3azZ6cFNTQnFSRzZtZERWVHRFVFVjNC1YNFhoNjIxV3pPNVE?oc=5",
+      "pubDate": "Wed, 13 May 2026 17:03:00 GMT",
+      "source": "YTN",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
     {
       "title": "현대차, 뉴욕서 FIFA 북중미월드컵 특별 전시",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1mME80X1p6RGpDQVNvSGdxRTNTekpqUElKY3NFUGZjZlVjXzhKU1BTajUxWlo0WWlqYjJxZm1uaUlTR3MzaC1PVk1KYkVzQUE?oc=5",
@@ -114,19 +127,6 @@
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "반도체 수출 급증·내수 확대… 올 성장률 2.5%로 상향 조정",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOVEhCQ0ppdWVvWVhNV3d5RXRXZXoyWEpkcDl1SHBQNVdkNnBaRXp0WWhRdm1KZDc5eTEyQ1lObTFDOG9GOGpneTJLTDhka28wZUp4dWhPRjdMM3VCNmY1cXUyQ21nMFpxU3lQU2Vldzg0cnU3MlBaSTVLTVhRS2lDN1M1ZVhSYVh4UlFvOXpn?oc=5",
-      "pubDate": "Wed, 13 May 2026 15:32:00 GMT",
-      "source": "조선일보",
-      "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
       },
       "impacts": [
         "삼성전자"
