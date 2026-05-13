@@ -1,12 +1,103 @@
 {
-  "timestamp": "2026-05-14T00:03:01.536902",
+  "timestamp": "2026-05-14T00:34:18.087123",
   "count": 10,
   "articles": [
     {
-      "title": "반도체 수출규제 완화카드 꺼낼까…미·중 회담 증시 영향은? [분석+]",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE80Y3U4SWViWGV3UkFOX19NY0JYYkYtSkNCcDFWQ1RFdW93MElmbnF6NTdvUVFyX3VFbFpvSlY1RzlSaUxqMFJsQUtqV0hZcHFf?oc=5",
-      "pubDate": "Wed, 13 May 2026 15:00:52 GMT",
-      "source": "블루밍비트",
+      "title": "[사설] 정부, 긴급조정권 써서라도 삼성전자 파업 막아야",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB4NjFZSmZ6YURlcXFtb2NCSEpna0U4cl9MVXdVVjhHdUdkaW9kR0lVZnc1bTJNR2l6V29zdVVxc05yVnJoVzJtQTJzS2FXeUVtb1hONzV3?oc=5",
+      "pubDate": "Wed, 13 May 2026 15:28:00 GMT",
+      "source": "중앙일보",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "SOL 한국형글로벌반도체액티브(423170)",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxORGdndXNnSWh4WEIyWDQtSWh3cUdYcUpCVllEY1ZkMzEtcHVTcWtrQXBFbG4wa0lRZWRrZFJfTXJiX2Qtc3BjVXpkMU9YVlhMMS1mYk9FRnVRRTl6SEdmNlc2MHJ2NTY0YTFlYzlTNWZNaU91ZzdCTVJPTGZqMHdKRk9lSndiVzNIMVZDOElYa2hNLUlLbDN3?oc=5",
+      "pubDate": "Wed, 13 May 2026 15:25:24 GMT",
+      "source": "매일경제 마켓",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[사설] 삼성 반도체 파업 강행 땐 ‘긴급조정권’ 발동할 수밖에",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQMk9jLTBZYTVBR2lvZzBrUThsYVJ5ZUFNUDd2TENfZmgxTk5yZGtkRjNKS08zRWJra0M3MlRaRFFTWWVSLXREQjRSQVhkazBVQlVPOXlEQml2XzJBbkpHY01sYlI4WVB2dVNmRHU5bzJXWGcxWHMzWGNrT1JnUTEzdzNuc282UQ?oc=5",
+      "pubDate": "Wed, 13 May 2026 15:20:00 GMT",
+      "source": "조선일보",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[이것만은 꼭! - 응답하라 2026] 우상호 “반도체산업 반대 아냐⋯현실에 맞는 전략 세우자는 것”",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBjSnpXRlpFODE4NXIzb1NXZFNiMGp3RUZXNTlycURoV2QxeGJuWXFlMWJyb3IxZmJ0SS1xNW5TaTJoNGtwUXo0R3liQ205WWc?oc=5",
+      "pubDate": "Wed, 13 May 2026 15:12:03 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "반도체 들어가기 부담된다면… ‘계란 나눠 담는’ ETF 어때요",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9DamppS2p4Sjd6RFZBN1F6VkZFSmplSjBGdjZrdkdoMUUwR1lLUExqUTJPNDdjTVJtRm1vM3JvQlVoUFJ5ZmpGR2xtUFRtQnVEQ1p0WDdscWVLYmlPMjZwTVpGaW80RllKVlJzRWI4NFJCaXg1aDkxVFpB?oc=5",
+      "pubDate": "Wed, 13 May 2026 15:07:30 GMT",
+      "source": "서울신문",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "비트코인, 과거 패턴 반복 시 1년 내 신고점 확률 77%",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1aZ01xODRqVGFRQll5M19MU2lwc09WNEIzRDg4bUpSdFpzRWxlcG5ZbXBpOXRBZlNVUi1zZG94THZCcmtWTG9YUTJyTnhYZWVWSkUyX3dCS2xQWHMzNGpqQ1FUZjdaaEUyYi02ZVN4NDNiNkk?oc=5",
+      "pubDate": "Wed, 13 May 2026 15:01:00 GMT",
+      "source": "디지털투데이",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "[김대호 진단] 반도체 슈퍼사이클 닷컴버블 역사의 교훈",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxONmZEZ0s5MDdhNnVNU3NFSldYOVNVbGdUbVdYWHlESVc2NnBUWWdYenFUVUU0c3poLW9OV016MXByR2R5RjBrQW5RelRJU3ZQZnA0cWV4WVdFVGtNX3diVzNWMFBMUWdjREtpNmF2ekthRV95NkRJVHZpU1ppMlA2Z2pDLUtKTl91?oc=5",
+      "pubDate": "Wed, 13 May 2026 15:00:00 GMT",
+      "source": "글로벌이코노믹",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[해외 크리에이티브] 삼성전자, 티에리 앙리와 TV 캠페인 공개… “축구 최고의 순간은 삼성으로 봐야 한다”",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBrN2tiVnNYR0RBZHRqV3JtMGFYUWpOTl9aZFlNRl9MZTlmRFFXTjVBOGZlUHFJOWhndUZCc3VacDVreG90cXloQXpFVXBBTVgwQjAxS3F2SXNZUXp3RHVGMldGZVVrMlVNRkJsZA?oc=5",
+      "pubDate": "Wed, 13 May 2026 15:00:00 GMT",
+      "source": "매드타임스",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -25,8 +116,8 @@
         "color": "#8b9dc3"
       },
       "impacts": [
-        "삼성전자",
-        "현대차"
+        "현대차",
+        "삼성전자"
       ]
     },
     {
@@ -40,98 +131,6 @@
       },
       "impacts": [
         "현대차"
-      ]
-    },
-    {
-      "title": "뉴욕증시, 美 PPI 충격 속 혼조세 출발…반도체주는 강세 - 조선비즈",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQRjd4RGpPTFlET294N09WVGh2cU52WkZvR1lnX3Z1SFRYRjBsS3JyUE1JbnVDLU5LZnFTOXNkdWN3aEhwQ2czdmxJUklaYm0yTXh6QVZ2Q1FfSklIQUpvUW9MOXhYNEg2MHMyMG1kbnFnd2NER2JCMnY4bllPUVdELUs3RnFzVzJ2dThjMk51TGJMZko1NzB0djBkSFNEUdIBsgFBVV95cUxQTTJkR3BudXlQWXBMMnN3dkhaWjhNZTJ4X2oyN21PZmYwdWlicUE2TVRDVUQzTTItNnRmR3V6ZXdjVmZDbDB2YWtYSk93R3ZyNC0zN0VoQ3FLZjd3Q3o4bjh0SEpyNU9nUmdqMmpVUkhqb2dJMGluSkJ5dDJNczVVWTdWZFAweXFKck4zNTZyZXdPSTdfOXA3VUJvSnZ5NUN4MUNpdmJXT2w0eXZaTmMweXVR?oc=5",
-      "pubDate": "Wed, 13 May 2026 14:22:00 GMT",
-      "source": "Chosunbiz",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "“반도체가 번 돈, 누가 나누나”…갈라진 성과급 셈법",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBwUDN4REJYaWFqb2RDTTU0U3Q2WjhrQ1lwWTlCRllRNVBrQV9mVG5CNlNNTzVKQjlKRE5NRUdXNXNJM1hrZnFObWdjMGhXT1U?oc=5",
-      "pubDate": "Wed, 13 May 2026 14:13:09 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "KDI, 올해 성장 전망 1.9→2.5%…“반도체가 견인”",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAyZUJPRnFTZmlwNmlZU0dTODhBU3pVSTFQV25KclZ3a19SUG51b1E4YTNTVHFDS1dvdExwMklOR3hWdmJuVDgxY1pkcm5yX3JIVjFGMXEwMkU5dm8?oc=5",
-      "pubDate": "Wed, 13 May 2026 14:04:00 GMT",
-      "source": "KBS 뉴스",
-      "category": {
-        "label": "🟢 POSITIVE",
-        "color": "#4ecdc4"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "2020년 강세장 신호 재현되나…구리·금 비율 반등에 비트코인도 주목",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFAyWGdCVXhzUWZkSzJWNUJJSjMzd1g1T1RWZHdoQVU1Y2hQVnJzUF9Hckk0aXJNUlNlWkpSRkFrV2pyU1hXUWhWTzA2SGJoTk13MkpPUmhJMlhBQXl1bE9vV0RLMm5sOWpaX3RsN1B4ck9WTms?oc=5",
-      "pubDate": "Wed, 13 May 2026 13:58:00 GMT",
-      "source": "디지털투데이",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "美 도매물가 쇼크에 뉴욕증시 장초반↓…반도체株는 강세",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBRQWhYb3I5WVI5NmI1SUloSjJMVWRNalU4c09Fbmt0aWVGb2Z4dkMwMVJpQkFYNlFGVkFfaVJfcDJsWF9zd1AzTFhsZ0l6blk3M01tLU04dGpKOVlURGxPaTFZU2NCclV6TjhCTVVIaWJ5aFk?oc=5",
-      "pubDate": "Wed, 13 May 2026 13:54:41 GMT",
-      "source": "마켓인",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "반도체 다음은 ‘피지컬 AI’…로봇, 증시 새 주도주로 부상",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE40bmF6ZnA2TlVfUmVCeHlzMy1zQUlPLUtIU1hYLTdYT21WeXp3X2xoT3RFdVVNRlgyMXNZd1RURHUxb3ZPTE16NUI4VGNUQnRZRm1Wa05Sa3dXRkJaYzhxTTFsZThKcWMzT2JMZA?oc=5",
-      "pubDate": "Wed, 13 May 2026 13:34:36 GMT",
-      "source": "재외동포신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "비트코인 8만1000달러 밑 횡보…미중 정상회담 앞두고 대형 코인 강세",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4za29QOGdnX2tsOFVfLUhzcFlvd3d6Y29NeW9LUzQtVFNnUXh0eXlYRDlBSDRhSXBvdVJRN240WkFvUW1Dd1hSUlBLb2gxbDBQMXZJLVlmTWZsMkJoRm9tVzBIUXh0ejNSTlYzUHdjelRTazQ?oc=5",
-      "pubDate": "Wed, 13 May 2026 13:20:35 GMT",
-      "source": "디지털투데이",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC",
-        "환율"
       ]
     }
   ]
