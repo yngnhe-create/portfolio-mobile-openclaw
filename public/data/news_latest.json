@@ -1,41 +1,103 @@
 {
-  "timestamp": "2026-05-13T08:17:14.895336",
+  "timestamp": "2026-05-13T09:12:25.330992",
   "count": 10,
   "articles": [
     {
-      "title": "비트코인 8만달러대 후퇴…이란 긴장 재고조에 일제 하락",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBsOWQ3aWFjX2h6TW45alI1Q3JqY1lFazY2dDlkX1lVTHgxV3hwNTQ1XzdXQjU4QUFGcWpnUFluTGhtYjh6RUNWUzU3c0FxZHdUT2hLNHk0enNGQ1JDNE5OWlRna1ctMjFvWWVFSEx2OFJUTmc?oc=5",
-      "pubDate": "Tue, 12 May 2026 23:03:37 GMT",
-      "source": "디지털투데이",
+      "title": "반도체 랠리 이후 증시는…7월 '세제 개편안'에 쏠린 눈",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE15RnlqVjlCdEhBSVd6M0lTdE5URU5sbG1KTU5NZURweDAwLXpBSGw0THF4cTRqbGg2WUk1S3FvUml3YVBEbk1pSHpwWWpXT2l0N2JKUHlBTnU4MG5lVWJPZjRiaV9ScndPeDFnSWhFNDE?oc=5",
+      "pubDate": "Wed, 13 May 2026 00:04:58 GMT",
+      "source": "연합인포맥스",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "양자컴퓨터 상용화 난제 해결… 한양대 ERICA, 극저온 반도체 회로 국산화 기틀",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBJUFUzbW0weHQ4aVI2M0E5QkZIRW5YcU02SWpyU3NvZDF2X3ZCeHc2YW5sZ1F4VjBkcXlDaVNCeTVmVXY4NU9kSXgxY1ViLVRhTEZWV3BOcGswMURnVHlIQVcxc29QUQ?oc=5",
+      "pubDate": "Wed, 13 May 2026 00:02:47 GMT",
+      "source": "한국대학신문",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전자, 갤럭시 S26 시리즈 대상 One UI 9 베타 프로그램 운영",
+      "link": "https://news.google.com/rss/articles/CBMiywJBVV95cUxPSDB4RGI3d0dGdXY0aTVHaWU5VWdocXZMOGJRdi1QZTM2ek96cTRkX1REZlZVYWlsTzBYbDdwVE12NFUyRUJBQU1XOTRaWnNETFIxYWZLN1NpdUI1TjJEMks3TVBpSV9MSnZWYWlKcFpYcWdNZlpIRzF3RmlHQWpGbHJSRVdHR2lldkticXU1ZFJ5bVNGbDZOamNrVnlFdFQxZDFXU19CRkR6eG1QMkwyMDJuUGJkU09ZeWtzMmtENTRVeUVyYWVZVjZVaWlsdW8tZ3UwTHR3WkJFc2tWbWQtd0NCYWVlbG5TSWQ3eDNfR3k4X2tYX21SXzdNN3hRN3ExZDJ6bzVJM21oNWR6MVprRnN0eFlnX1FDSTlSXzJEQURMZTVTSmtCa3NYaHN0Qml0R1RmVHo1MmpaNy1VbDFPQTh0VFJSbUZxMHI0?oc=5",
+      "pubDate": "Wed, 13 May 2026 00:00:00 GMT",
+      "source": "samsung.com",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "구윤철 “삼성전자, 파업 절대 있어선 안돼…정부도 끝까지 지원”",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBHWWRKTXVPYXpfZEFBTW9INUMwcDhOSlVfYjZOb2ZyM0I3TUp1Tjh4WVhPbGFFVUQ1MG8yeDZaZERWQTRGVmZ1WHh2SzAxRmZqdVJ0bTVncTFibk1NVFhUN085LUVTa3ZDWld4TUxPUVZhQQ?oc=5",
+      "pubDate": "Tue, 12 May 2026 23:58:00 GMT",
+      "source": "한겨레",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "과기정통부, 국산 AI 반도체 제조·물류 현장 적용 현황 점검",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE0xTXF0ZktFRHVpSEFwdjZMWVZ5N0FMaVVuZW1aNTBLZ1VYY3hBU25JT0R0SDBGT1F2Vlo4VEJiYTExLXhBeWtpSU9qZTFvTlBBTTNoeXF5clpkcEhadkJoMks2WUExamZUT1ZF?oc=5",
+      "pubDate": "Tue, 12 May 2026 23:56:59 GMT",
+      "source": "물류신문",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "인플레 공포·반도체 투매에 발목... 나스닥 0.71%↓",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBuTWN0ak1KX1hPSlJWdXlTSjlnbV9kTmlFSmN6SXZGMkpLN1RzLS1uaUYtUTJIbF9QMjl3SVBnLThsVGpHbkRqc1pJTUlrNTc5d280YmFWLXVfVzlialRjQUJDQ3Y?oc=5",
+      "pubDate": "Tue, 12 May 2026 23:53:39 GMT",
+      "source": "매일일보",
+      "category": {
+        "label": "🔵 MACRO",
+        "color": "#0984e3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "비트코인 1억1927만 원대, 전문가들 엑스알피 강세장 가능성 제기",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5MdjRrUmdlQXdUOEwxVlk0SU9fU19jWFpvSGlXMUVaZTJ4N05sUVBYSENCWk5OeW9reFFleGxLWXRNZElPQUctYUVPWG9VdFNkYjRSZ0VYWk04YzFpSjExS0g4SEw0bGoyWjkxc3pwNDdyUXc?oc=5",
+      "pubDate": "Tue, 12 May 2026 23:51:36 GMT",
+      "source": "비즈니스포스트",
       "category": {
         "label": "🟣 CRYPTO",
         "color": "#a55eea"
       },
       "impacts": [
-        "환율",
-        "원유",
         "BTC"
       ]
     },
     {
-      "title": "비트코인, 8만달러대로 하락… 美 물가 상승 영향 - 조선비즈",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNNXVGeC1CMGFUeWkxTzZGbWRIOGpCUGJIMGhWYXFCcXZ3T1VBN0ZQOU4ydHYzSFlqMlhmNnd2Wll1SWljU2kxejlkRklQMFBPM2RVc0tBV0ptSTJuNjltWDRoRW5ha3ptZUJlU3hPWEpiam9vOU1KUGNNTFFMUUtBZNIBlAFBVV95cUxPZGd5aEpHYzdiLXJCRl8yaHJpWlN1MGJhWlBYUXN1UzRhWFUwWHhsUEY2ZWY5ZnUzRm5yRDd3YWg1aDhSSm9WLWZSXzFXNlp0UHJLdWt0VGNYQzFyTkZpdFF4U1V3cHpGNjc4UUxNRzZ4eWhhb2J0VjROOGprMWhFbFhiVXNLYURCVWs1YUdXb2pjODJk?oc=5",
-      "pubDate": "Tue, 12 May 2026 23:03:00 GMT",
-      "source": "Chosunbiz",
-      "category": {
-        "label": "🟢 POSITIVE",
-        "color": "#4ecdc4"
-      },
-      "impacts": [
-        "환율",
-        "BTC"
-      ]
-    },
-    {
-      "title": "결국 결렬된 삼성전자 노사협상…총파업 '가시화'",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNY1o1bHo1RHBoU05ZQzJxWXlIQklCUTBPOGN0RU9hX2JVMnpJZ2FFbUdzRFpUeHN4R0ZHNUg0TDFZOFItZEVtSk9RRnlnZGljZ25MODl3cl9IUjNiSUhjT3UxanhpSDRkMnkwbzdKZGZ0RWdaUlczQmg5UFAxbmtDX3Ftek1HZw?oc=5",
-      "pubDate": "Tue, 12 May 2026 23:01:54 GMT",
-      "source": "글로벌이코노믹",
+      "title": "프리마켓서 삼성전자 등 반도체 동반하락...미 기술주 약세·파업 영향",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5QQWE3dk1MYUg1Mkx1UEx6dXNNQ0tMXzhnRDREVHl6OG9lUXhoRmZla1ROVHVNQnZXUk05WW1FZ0dkcV8weDM5aEdNNUZVSDFTLUt3WW8wUy1DbTlaaWM3anJqUHFlSHYzNUtrSnEzaS0?oc=5",
+      "pubDate": "Tue, 12 May 2026 23:46:09 GMT",
+      "source": "오피니언뉴스",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -45,48 +107,9 @@
       ]
     },
     {
-      "title": "삼성전자 파업, 정부 긴급조정권 발동하나?",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1xSTgwSDJzSGFaNDNVc2NzcF9uSlVCclR6UGVvcm9PTXZtWXdXSXM4RDc4NHowUmhVeDhTLUN0UVc1R0k2aVlBTElrb3N1MGM?oc=5",
-      "pubDate": "Tue, 12 May 2026 22:51:10 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[현대차 로봇 상용화 ‘성장통’] 보스턴다이내믹스 인력 이탈 확산…‘조직 갈등설’ 수면 위",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE81eWROVTFjbkhlRFJNWEhZMmxzTGx3R2FtVmhyMmlETEU2OUJ2eFA4TUR0bFFuZGc4UDljVk44SEZtWUg5dEZWZ1l3Ti00UTB4RHBXVjY1T1pIaTF4LXFoenZfcUI5eDlpX3cwdFFB?oc=5",
-      "pubDate": "Tue, 12 May 2026 22:50:46 GMT",
-      "source": "아시아투데이",
-      "category": {
-        "label": "🟢 POSITIVE",
-        "color": "#4ecdc4"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "[현대차 로봇 상용화 ‘성장통’] 연봉 2억 생산직 대신 ‘아틀라스’ 투입…노사갈등 ‘뇌관’되나",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1VVHhndW03WW9BU2NCT1pwUGp1MFdsM3VlLWp1c0syN1VXUmNhTU4zMjdqQW9PdzQxVzhVVk9iSjVnbEFzOGNmY1BWRDdVdVpQalVheloxTVFJVjh5OGd0T29BQjAtdTBPMUhXUDNn?oc=5",
-      "pubDate": "Tue, 12 May 2026 22:50:35 GMT",
-      "source": "아시아투데이",
-      "category": {
-        "label": "🟢 POSITIVE",
-        "color": "#4ecdc4"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "삼성전자 총파업 현실화 땐 최대 30조 증발 우려",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9KX3ZBSFRaN0RCTEsybXZlUXVQWmtSemN0WTNQeTlNTS1NbGh5TFl5TWxtQUw1T3hzTklqRWsyMzhoLUZVWDJTdGtaY1g3dE0?oc=5",
-      "pubDate": "Tue, 12 May 2026 22:48:59 GMT",
+      "title": "삼성전자, 프리마켓서 4%↓…노사갈등·美 반도체 약세 여파[특징주]",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9zNTdKT3VwOC14aEFDNkZHclQwQml6SG4wMnR3dXhjWEpaY2hXSnJraXdEaE9zSXFUQkRUdVgyRnkzYlBkQl9SdGNudUdadlE?oc=5",
+      "pubDate": "Tue, 12 May 2026 23:46:02 GMT",
       "source": "v.daum.net",
       "category": {
         "label": "📋 GENERAL",
@@ -97,39 +120,13 @@
       ]
     },
     {
-      "title": "삼성전자 노사, 끝내 협상 결렬…‘총파업’ 현실화 기로",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFA0T0JRZ3ZuTFZaSEc5ZmpEMDJBQkx3X1V0bVdodEw1MllwUHVaa0ZsTHZYQ29RR1NxM1JJemdSaFpoSVdZMTFwOUNoV1dfdUZFUUo2SHZBVlhfV0VzeVhVWFNIWHU0QzRxVU1z0gFuQVVfeXFMTjBpdVpyMUdDMUVCaUJFUlJqMW1nay1NQ0o5dzVMNzNmaXkyTEh2MnJTNjJ5UjlqUWYyNUVmMEpfVVAyclFSSUJpSkNVaFpPUUx3VFpKMEE1dVJ1aGN0RW1aOWhSemh0YVU4alAwY2c?oc=5",
-      "pubDate": "Tue, 12 May 2026 22:44:46 GMT",
-      "source": "뉴시안",
+      "title": "뉴욕증시, 반도체 매도세·인플레 우려에 혼조 마감…나스닥 0.7%↓",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBRT2RfRFJ4NTVkMzU2N1Nsb3NMSHA3bEt1eHM2Yi1NV1I5UUpDVDBIRzB2aExWdkd5TENHM0FIWjl2dUtrNGVVUE42OGc3VVlaUUtzY01MVklUWjdTRjZxMjZrVkc?oc=5",
+      "pubDate": "Tue, 12 May 2026 23:45:37 GMT",
+      "source": "서울경제TV",
       "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "“반도체 팔아치웠다”…뉴욕증시, 인플레 공포에 나스닥 급락",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBzdGczUDY4Ukd2RGtMYzRYWGVGT3VhRFp1azZtNzY1Ql9JUEh4d0hGTWRWWm5zVXZCNi1NZ0Z6V0Y5TEhndE5PVW5kREFjZw?oc=5",
-      "pubDate": "Tue, 12 May 2026 22:43:50 GMT",
-      "source": "전자신문",
-      "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "트럼프-시진핑 회담, CEO 17명 동행...\"대두·반도체·항공기 거래 추진\"",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPbGFaUkRTMVRMTlJVMzFQb2twMjZ4alVSUk1ka29SNEM1azQwb0xQT1JuVzh2M01WWWN4bFBYS3VVRHZmS1c5MlRSUGk1aUZzbW8yaDIzRGtVRkpQOFV1WndOelV0Qm5wVGFLX1ZUN2hXTTdPRFlVVFdtRDV6cUJuS3ZsMGdqN014?oc=5",
-      "pubDate": "Tue, 12 May 2026 22:36:09 GMT",
-      "source": "글로벌이코노믹",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
+        "label": "🔵 MACRO",
+        "color": "#0984e3"
       },
       "impacts": [
         "삼성전자"
