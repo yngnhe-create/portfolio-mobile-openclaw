@@ -1,12 +1,25 @@
 {
-  "timestamp": "2026-05-14T00:34:18.087123",
+  "timestamp": "2026-05-14T02:05:39.635988",
   "count": 10,
   "articles": [
     {
-      "title": "[사설] 정부, 긴급조정권 써서라도 삼성전자 파업 막아야",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB4NjFZSmZ6YURlcXFtb2NCSEpna0U4cl9MVXdVVjhHdUdkaW9kR0lVZnc1bTJNR2l6V29zdVVxc05yVnJoVzJtQTJzS2FXeUVtb1hONzV3?oc=5",
-      "pubDate": "Wed, 13 May 2026 15:28:00 GMT",
-      "source": "중앙일보",
+      "title": "현대차, 뉴욕서 FIFA 북중미월드컵 특별 전시",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1mME80X1p6RGpDQVNvSGdxRTNTekpqUElKY3NFUGZjZlVjXzhKU1BTajUxWlo0WWlqYjJxZm1uaUlTR3MzaC1PVk1KYkVzQUE?oc=5",
+      "pubDate": "Wed, 13 May 2026 16:27:16 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "[사설] 파업 위기 삼성전자, 성과급 봇물 재계… 미래를 담보 잡나",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9hOS1JYThhMUdTaFd5a24wb2lpdktaUVRKOWdYMzRLX2VldjAtbGVFZjYxYzJ3T3dxV012VTlKRG1tNWxSNWtKRnlKeHFaaFU?oc=5",
+      "pubDate": "Wed, 13 May 2026 16:22:17 GMT",
+      "source": "v.daum.net",
       "category": {
         "label": "🔴 HIGH IMPACT",
         "color": "#ff4757"
@@ -16,9 +29,61 @@
       ]
     },
     {
-      "title": "SOL 한국형글로벌반도체액티브(423170)",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxORGdndXNnSWh4WEIyWDQtSWh3cUdYcUpCVllEY1ZkMzEtcHVTcWtrQXBFbG4wa0lRZWRrZFJfTXJiX2Qtc3BjVXpkMU9YVlhMMS1mYk9FRnVRRTl6SEdmNlc2MHJ2NTY0YTFlYzlTNWZNaU91ZzdCTVJPTGZqMHdKRk9lSndiVzNIMVZDOElYa2hNLUlLbDN3?oc=5",
-      "pubDate": "Wed, 13 May 2026 15:25:24 GMT",
+      "title": "피터 브랜트 \"비트코인(BTC) 아직 바닥 아니다…반등 함정 주의\"",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1ScGlxVEh0ekRyblYyd3R3ZXRyOGh1RUV1cmRyOXAtZmFiVGVWVDIwdndBdzhtNGh2NGRXWW51VWg4Y0c2MjN1U3NKVWc4elli?oc=5",
+      "pubDate": "Wed, 13 May 2026 16:20:52 GMT",
+      "source": "블루밍비트",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "반도체 파업 쇼크, 차원이 다르다… 자동차의 12.6배 손실",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNZjlhU2Z2ODEydUZGckZMc1hHN3psMHdyQ0pFN2tmTE9BNXFjeTdWaU04cGk1T1hORTNsaWd6bFg5Zl83dW5IQ3UyZ2dHTks3aHpGcHN1S2lYQzBRckpNRTl5QVJTaktBdUJuc1ZrTEdQRmJvQzd3cEdzbXYzR0xEZG9PUQ?oc=5",
+      "pubDate": "Wed, 13 May 2026 15:53:00 GMT",
+      "source": "조선일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼바 20%, 현대차 30%, 카카오 13%… 성과급 요구 빗장 풀렸다",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPbXFnamNZbFNHUTl0TUVRWjE5NFc0RnczN2swWXBOWXVCa0xRa2lheElya0Vpc1VCZTZsWmkzWjIzX3Z6RlNHVmVEbE5OMDd1dmcyZHVFeXNKcTg2WFFrRm9ad1I4cjhEZDZuZTRsM1pPN0ZiZ2xiMlZGQm15dkdJeWJSOUxIaGFsTmR0ODJ5QQ?oc=5",
+      "pubDate": "Wed, 13 May 2026 15:52:00 GMT",
+      "source": "조선일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "삼성전자 노조, 21일부터 총파업 돌입할까",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNalJJT0t3VC1HRFR5b01venpUVkJkcHpvSnZfVzVVV0l0NVFVRHJVY054VEt3TXNYNERjM0Exb0tXVnBnZUJVSzBtNlRiOWo1TXhaOTNncV9pbXJWYnNWeUUwQWc3alYzc3c5LTJ5ajhfcGZ2MllDclpKd0ZkUHFsaG52elpkd2ZINVNhNzJHLTV5SmhnNEJsU2xHT05GWkNqM3c?oc=5",
+      "pubDate": "Wed, 13 May 2026 15:47:13 GMT",
+      "source": "데일리바이트(DAILY BYTE)",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "SOL 반도체전공정(475300)",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNTUVlTkhRQ1RSWnVJdDBqZ1JPR0tNRkh2aWV0cm1qWHNTRkxnMmF6XzNSZy1GeVRuSlFMem16ems3ZkRKM3pJN3JfOWhfcHVORW5kWVBwSXcwRFZIdjB5bzJtc0pMN3cxcncyZ1pTZ0hBWmdRaU0zYWNoaFhTU0pzZWtHekF5SjhDX1FHZFVPemFxQlNSUmxz?oc=5",
+      "pubDate": "Wed, 13 May 2026 15:43:29 GMT",
       "source": "매일경제 마켓",
       "category": {
         "label": "📋 GENERAL",
@@ -29,108 +94,42 @@
       ]
     },
     {
-      "title": "[사설] 삼성 반도체 파업 강행 땐 ‘긴급조정권’ 발동할 수밖에",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQMk9jLTBZYTVBR2lvZzBrUThsYVJ5ZUFNUDd2TENfZmgxTk5yZGtkRjNKS08zRWJra0M3MlRaRFFTWWVSLXREQjRSQVhkazBVQlVPOXlEQml2XzJBbkpHY01sYlI4WVB2dVNmRHU5bzJXWGcxWHMzWGNrT1JnUTEzdzNuc282UQ?oc=5",
-      "pubDate": "Wed, 13 May 2026 15:20:00 GMT",
+      "title": "金총리 “삼성전자, 어떤 경우에도 파업 않도록 대화 지원”",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5RTUxNZEtOQXN5aHR1aDV6TW5ibGZ3c0R6UFo0eklNN1RTTHJfSWJ6NmcxbjJ6bzVWeXpCSXV3VzZoM0hBUGpSU3E1UGl4b3JY?oc=5",
+      "pubDate": "Wed, 13 May 2026 15:38:41 GMT",
+      "source": "문화일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "KODEX AI반도체핵심장비(471990)",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSTBXelE0WDZJeU8wSDBCSUFrVm9oUnd0emZadmZJM1dCN3BsTXY1NV9KMUhUeGExVzdyaE0wTWRSamRFVGZhZDRuRzgxYmZKZmZZTFVPWFhJVV83ZlMyd1Y4Qm1zdFpSZTQ3WnEwNGdObjlrNjZXOElHaFJPUU03MnZmMDVScm9zLWdCTUMzSm9oUEdMMGdmSlBMbw?oc=5",
+      "pubDate": "Wed, 13 May 2026 15:35:28 GMT",
+      "source": "매일경제 마켓",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "반도체 수출 급증·내수 확대… 올 성장률 2.5%로 상향 조정",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOVEhCQ0ppdWVvWVhNV3d5RXRXZXoyWEpkcDl1SHBQNVdkNnBaRXp0WWhRdm1KZDc5eTEyQ1lObTFDOG9GOGpneTJLTDhka28wZUp4dWhPRjdMM3VCNmY1cXUyQ21nMFpxU3lQU2Vldzg0cnU3MlBaSTVLTVhRS2lDN1M1ZVhSYVh4UlFvOXpn?oc=5",
+      "pubDate": "Wed, 13 May 2026 15:32:00 GMT",
       "source": "조선일보",
       "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
       },
       "impacts": [
         "삼성전자"
-      ]
-    },
-    {
-      "title": "[이것만은 꼭! - 응답하라 2026] 우상호 “반도체산업 반대 아냐⋯현실에 맞는 전략 세우자는 것”",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBjSnpXRlpFODE4NXIzb1NXZFNiMGp3RUZXNTlycURoV2QxeGJuWXFlMWJyb3IxZmJ0SS1xNW5TaTJoNGtwUXo0R3liQ205WWc?oc=5",
-      "pubDate": "Wed, 13 May 2026 15:12:03 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "반도체 들어가기 부담된다면… ‘계란 나눠 담는’ ETF 어때요",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9DamppS2p4Sjd6RFZBN1F6VkZFSmplSjBGdjZrdkdoMUUwR1lLUExqUTJPNDdjTVJtRm1vM3JvQlVoUFJ5ZmpGR2xtUFRtQnVEQ1p0WDdscWVLYmlPMjZwTVpGaW80RllKVlJzRWI4NFJCaXg1aDkxVFpB?oc=5",
-      "pubDate": "Wed, 13 May 2026 15:07:30 GMT",
-      "source": "서울신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "비트코인, 과거 패턴 반복 시 1년 내 신고점 확률 77%",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1aZ01xODRqVGFRQll5M19MU2lwc09WNEIzRDg4bUpSdFpzRWxlcG5ZbXBpOXRBZlNVUi1zZG94THZCcmtWTG9YUTJyTnhYZWVWSkUyX3dCS2xQWHMzNGpqQ1FUZjdaaEUyYi02ZVN4NDNiNkk?oc=5",
-      "pubDate": "Wed, 13 May 2026 15:01:00 GMT",
-      "source": "디지털투데이",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "[김대호 진단] 반도체 슈퍼사이클 닷컴버블 역사의 교훈",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxONmZEZ0s5MDdhNnVNU3NFSldYOVNVbGdUbVdYWHlESVc2NnBUWWdYenFUVUU0c3poLW9OV016MXByR2R5RjBrQW5RelRJU3ZQZnA0cWV4WVdFVGtNX3diVzNWMFBMUWdjREtpNmF2ekthRV95NkRJVHZpU1ppMlA2Z2pDLUtKTl91?oc=5",
-      "pubDate": "Wed, 13 May 2026 15:00:00 GMT",
-      "source": "글로벌이코노믹",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[해외 크리에이티브] 삼성전자, 티에리 앙리와 TV 캠페인 공개… “축구 최고의 순간은 삼성으로 봐야 한다”",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBrN2tiVnNYR0RBZHRqV3JtMGFYUWpOTl9aZFlNRl9MZTlmRFFXTjVBOGZlUHFJOWhndUZCc3VacDVreG90cXloQXpFVXBBTVgwQjAxS3F2SXNZUXp3RHVGMldGZVVrMlVNRkJsZA?oc=5",
-      "pubDate": "Wed, 13 May 2026 15:00:00 GMT",
-      "source": "매드타임스",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[The Numbers] ‘반도체 4조 순매도’ 뒤집은 외국인…현대차·두산·레인보우로 쏠린 ‘피지컬 AI’ 큰손의 선택",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0zWVBZQlBjWDNEczlQNDlxMmhDLW5HSXNyN1d5QXZGdzFHSGt2Y245bWd4aU9FWWZpUDBaQ3ltbERyYVhpenZzUGZWNC1DVk4yZ0NjbTJZRTlMUzJmT1czdA?oc=5",
-      "pubDate": "Wed, 13 May 2026 14:51:45 GMT",
-      "source": "뉴스스페이스",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차",
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "현대차·기아, 광주서 자율주행 실증 본격화…기술 고도화 속도 높인다",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0tX01ZbFZPZjNRTUU2aFZWWG1oZ1ZOdXVpR0lTV2dxTVMybC0zb3lqbU9OcEhLc2hVSWoxZDB2dEF5MlFzTkJ6YmlUUWZUcEkzSm5La2o5cnZVRmRLcFVSNGl2RQ?oc=5",
-      "pubDate": "Wed, 13 May 2026 14:45:59 GMT",
-      "source": "에너지경제신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
       ]
     }
   ]
