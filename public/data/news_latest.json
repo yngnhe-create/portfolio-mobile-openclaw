@@ -1,25 +1,38 @@
 {
-  "timestamp": "2026-05-14T13:23:19.920241",
+  "timestamp": "2026-05-14T13:54:49.395048",
   "count": 10,
   "articles": [
     {
-      "title": "“AI가 반도체 기판을 바꾼다”…내달 17일 전자신문 '테크데이' 개최",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE12alV4VFE0UXVaNzAxMVozQzRRaV9BaWg4QmRYNlBCOFVzTEtHbDJsRTVxMjFOenI0a0RWQW9RUkZjTTh3d1k1RjZTNFMwdw?oc=5",
-      "pubDate": "Thu, 14 May 2026 04:15:44 GMT",
-      "source": "전자신문",
+      "title": "나무에 물주고, 음료배달, 순찰까지…현대차그룹 사옥 '로봇실험'",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8tY2FFdXY3NFhMZGdvVjVJUndOakF6ZU84WnhNTE9RN3NJcDhTbzhSMmJhSkVab2NHdXhPY3NfRkQyamtFRWFzNmtlMVYtRkNZTjMxVGtn?oc=5",
+      "pubDate": "Thu, 14 May 2026 04:50:16 GMT",
+      "source": "중앙일보",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
-        "삼성전자"
+        "현대차"
       ]
     },
     {
-      "title": "[속보] 삼성전자·중노위 노사 재협상 제안",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5ETFhjbXNaSEVkTkk2VDBvcnNBbUs0RDcwaDVabWhPTGRUc010dXFlakxHb0JvY1hXZUdvdjJjRXVxeDdEQW14SGQ4X0N2a0pxRXJ5a19xVExUY1NYN25Za0JxNDl1akc0cUctSw?oc=5",
-      "pubDate": "Thu, 14 May 2026 04:14:08 GMT",
-      "source": "중소기업신문",
+      "title": "“비트코인으로 마약돈 세탁”…10억 규모 범죄조직 40명 적발",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBWOHVHR0ExR3FxOHJETElpellXYmxvYkp5Um5VWGFsODdKVURzc3NyRENzakk0Y1Ziby1MNzJCV1MzUnU4aG9GUnMyX0ZTUElYLVhqcmpR?oc=5",
+      "pubDate": "Thu, 14 May 2026 04:50:00 GMT",
+      "source": "중앙일보",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "[속보] 중노위, 삼성전자 노사 사후조정 16일 재개 요청",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9KVXNDMU1DOUx3WHpoRE9mRkJkMUUwdFpuVXBWM3F5OWhTWEJPLWM2bUdNLXF3b1FOd1pIN3BuSi1RMDIyVmdjT0lMSHNwQ3BzNUlqNFFIXzRPUXRwc1M2T3o2TF8?oc=5",
+      "pubDate": "Thu, 14 May 2026 04:48:00 GMT",
+      "source": "한겨레",
       "category": {
         "label": "🔴 HIGH IMPACT",
         "color": "#ff4757"
@@ -29,10 +42,23 @@
       ]
     },
     {
-      "title": "[포토] 반도체 공부도 하고 주식투자 체험도 하고",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5JRW51RU9ickhfbnZwX3NMNWxkczA4MzNOMEJRSjc1WlI0N0tPSngxNFdHRHlla25oVXVPTHNIdWxQejFrbmdkX055ZDdzUQ?oc=5",
-      "pubDate": "Thu, 14 May 2026 04:11:35 GMT",
-      "source": "전자신문",
+      "title": "삼성전자 ‘5월 21일’ 총파업 초읽기… 화창베이 DDR4 현물가 20% ‘심리적 폭등’",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxORUI0WkdsWEQ4YUxWQjZ3QVhZLVZaT04wQ2lQUGdLaUw2UDRQc0lPUDVjc2p1X19JZmxFU2xYZmo1QUNYNl84dGtycDM5elk3S052MmFSM256QkZ2TEFPeXdtV2llckVxQUlvSXdSdklodFF5a3UyNFp1cGgyaE83WHMybWE4MUxR?oc=5",
+      "pubDate": "Thu, 14 May 2026 04:47:41 GMT",
+      "source": "글로벌이코노믹",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "정부·삼성전자 “대화하자”…노조는 “성과급 제도화 투명화 없으면 대화 이유 없다”",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA5bjlHWXF2WmVYWFZUNzhEdDNUYmVBMDBQekE5eXR1VVFSUU5zdi1nZGxZU1YxLUEyb3ZjQ1NPZDc0eXVQelQ1M2dSZ0kxeGtIYWVsWm53?oc=5",
+      "pubDate": "Thu, 14 May 2026 04:41:39 GMT",
+      "source": "중앙일보",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -42,23 +68,10 @@
       ]
     },
     {
-      "title": "코리아넷뉴스 - 반도체 호황에 내수 확대까지···KDI, 올 한국 성장률 전망치 2.5%로 상향",
-      "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNLXZMTy1sd2lrVHpzR29vODhLaGthWEJ4OEZVUmdVazJIeHlKcXBHck5QWGhqdnduOXdTbVNQdmxPR2VVYVl1LUo5Rk9lRk4xejRBenZmY2xNaFIwWW04MGpvb3Z1N3hncS1XaDZMZ2Vreml2MEx1VE9tZnBXczJjVzZHTUlZa1ZpeFRaa2xnc3VKczFYSlpXMjZKNTBYRUV1UkQtTzhjaXFveFNrd1pmeDgtakxoczN1bVluRlVFZ3M4WU9BVWlfd1MwMkRRY1hHSFJROGlDbDlKN1JHWTNUVURGWW0yQVhqamszX1JNNkFWbDlRWnc?oc=5",
-      "pubDate": "Thu, 14 May 2026 04:10:35 GMT",
-      "source": "문화체육관광부 한국문화원",
-      "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[단독] 현대차, 정부 자율주행 역량평가서 최하위…SDV 공급 난항",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5KOGZxWW45cF9hU1FQYnladkRGX21OYTRhQm5GQ0pQX0MwQlViMkllOG0zTm1CZmVubkhaTjZjcnZXOUxzNXdfX1RMb3gzUnlzTUx0S2p0Sml3UmpJd0FEOVJ2M1I?oc=5",
-      "pubDate": "Thu, 14 May 2026 04:01:10 GMT",
-      "source": "MTN 머니투데이방송",
+      "title": "현대차·기아, 양재사옥에 관수 로봇 등 3종 로봇 서비스 개시",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUGhZdnZoSWFVWExmOUtNd3RBdlJMcFdKN083ZUxpN3cyd0xUYlZrNTVGdlFKWmFZcmszSFdscnk1U0FocW01RkN2WUdwUEZyMzlycnZxUmtRcEpVU3VwOFBLcVpFeGpFUDhLeVM4SUw5T0I5WlFzNVFpYi05cW9tUW43SlktbGVHLURnelEwdkxSaU5RaVFYOGlSRQ?oc=5",
+      "pubDate": "Thu, 14 May 2026 04:37:39 GMT",
+      "source": "Hyundai Motor Group",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -68,37 +81,10 @@
       ]
     },
     {
-      "title": "이란발 반도체 소재 파동 또 터졌다... 이번엔 불산",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBuUGdjQnpnUk5DdGRMWlYwei1GWkNEZU9NNDY4ZGo5VE5FbWVWX001R19DN1hPMmN6LWVwRDZFVW1UUmZ3VDU4OXBjSDMwd01DUjM5d3AybEhaeUFXSGNsdnI2ejBZUQ?oc=5",
-      "pubDate": "Thu, 14 May 2026 04:00:46 GMT",
-      "source": "디일렉",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "원유",
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "현대차 양재사옥, 2년 리노베이션 마무리…미래형 혁신공간 탈바꿈",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE13UkxydmNiV0tkZTI3TFRGb1VOR3dUV2lVSm5BYkVLQ0ZBNmtCalJUM1FLLXYyX1owTXVOZVYxTTVtZUxNUDhaTDZxTzVibzVXN1JrTFFlOExOZlB2MDJDMA?oc=5",
-      "pubDate": "Thu, 14 May 2026 04:00:00 GMT",
-      "source": "뉴스1",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "퀄컴, 베트남 하노이 신규 R&D센터 추가 개소…반도체∙AI 생태계 구축",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1PTVlyTEpQdVRXVVBCU0xud256N1ZHcVFXZ2hRb3ZCa1NZeHY2dUFJOGVmSVpBRXN0UG8zUEZnd2FoUXdsZGlrOWdlengwOUZXbk1OeDhjTkxPRlpURmgzVVNGeXNYVEJhaS01YQ?oc=5",
-      "pubDate": "Thu, 14 May 2026 04:00:00 GMT",
-      "source": "인사이드비나",
+      "title": "미래에셋자산운용 ‘TIGER 반도체TOP10레버리지’, 개인 순매수 4,000억 넘어",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1jZF90RFJTbENTZ1lUNW14bGZPT1AzTXBrNlpmSkVmaFJzb1ZxdlNkTlJjeE0wYldnQXl0aTlSZUZXY1hDX1IyVnpBaW00c1BiVzQ2NmkwdE9Ud3g2Q2lFMjdtcHBHdjZqdWY4?oc=5",
+      "pubDate": "Thu, 14 May 2026 04:37:14 GMT",
+      "source": "백세시대",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -108,23 +94,36 @@
       ]
     },
     {
-      "title": "\"로봇이 물 주고 커피 배달, 순찰까지\"…현대차 양재사옥의 변신",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9MeXdOXzNiY2NHNWpQU1BCMzM5eXczRDNJaGwyVW1TT1FwcVZ1NWdEbGZoOGdvVGFLTHd6Z29aMnJ5b1g3UFpJbjRlTUdZOHdrX2RZTW10TTBNV1dyczQyWQ?oc=5",
-      "pubDate": "Thu, 14 May 2026 04:00:00 GMT",
-      "source": "뉴스1",
+      "title": "정부·삼성전자 대화 손짓에도…노조 “성과급 개편 없인 협상 무의미”",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1GaEhWb3BLYWRlOTNOc3JYX25zX2dOekFsMm5iZWl2TldTNGFtSzV3amhYSi1UMWxaLWVhdjZ5dndJY2ZuRXUtalExZzlUZ0hDdkpEa3NhZTV2dzFYeFBXUVVJSmktRlNZb3fSAW5BVV95cUxQWEV4VVZzM2F3LVhYRVRnZ0NFMjkxb1R2cno3Sk5sRGdMeUdxQjBLQktCd0dTSFhJRE50RUg1ckFWU3UwQnVxVVlHOF9zaUhYa2R5MHNrbHMwbzZxX244YXRwcFlmR1cwUWoxMGVDZw?oc=5",
+      "pubDate": "Thu, 14 May 2026 04:36:58 GMT",
+      "source": "뉴시안",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
-        "현대차"
+        "삼성전자"
       ]
     },
     {
-      "title": "삼성전자·정부, 노조에 \"추가 대화하자\"...노조는 \"대화 이유 없다\"",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNZUdCV0l4OG9LcjdfZFFJSVFpUHd1MVppNmxpM3F6UW1YWFYzSG9Bb3BoZ0RQTmRNaWhSTFg1UXA5V3V6V0N3NVl2V193UnE3QjB2RnlIcVU1NWhWRFI2VXJlM0NmX0xDdkUwODYyMFJPRFBZc3JKWmxqUjdMUzg1S2s0WQ?oc=5",
-      "pubDate": "Thu, 14 May 2026 03:59:00 GMT",
-      "source": "조선일보",
+      "title": "삼성전자 \"노사간 추가 대화 제안\"…노조에 공문 발송",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB2eTlUekNHQjMxY3hVcHhiREc0SjZIRmRVdTJnZEduQkxzNVJlcDROZ1pXZ05CRHZuS1JtVEtZeWhMLU5xZS02Z2xCWVlrMWJLQVRUd2pwQk9mWlhNbFdESDhaUVFlSVY0V0NGUlE5bG0?oc=5",
+      "pubDate": "Thu, 14 May 2026 04:36:53 GMT",
+      "source": "연합인포맥스",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전자, EU CoC에 서명…‘국내 기업 중 첫 사례’",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFAybW9aN09oemgxUWRKME9IR1g0OVJTVW0wQmM3Uk8tSllCeVVOU25iOVpDdXhGSUFTTFgyZzJYS0FxdTFWVEp3SG51aGlWanJXQzBzNGVOTngzcV9QcTRsbXVn?oc=5",
+      "pubDate": "Thu, 14 May 2026 04:36:16 GMT",
+      "source": "경기신문",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
