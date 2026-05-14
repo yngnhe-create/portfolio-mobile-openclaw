@@ -1,136 +1,133 @@
 {
-  "timestamp": "2026-05-14T18:30:15.943064",
+  "timestamp": "2026-05-14T21:01:24.876493",
   "count": 10,
   "articles": [
     {
-      "title": "국민이 반도체 투자자로, 국민참여성장펀드 22일 출시",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE94ZUlnLXlsUzFqT1BjdDd1Zkd3LVRsNFZ0elBDS2JuTmstbWNZV3VwbTVSa1lRaVJBdDg1bTlyb0pzQjlvNEdadWJDQ2pTNnM?oc=5",
-      "pubDate": "Thu, 14 May 2026 09:23:03 GMT",
+      "title": "산업장관 \"삼성전자 노조 파업시 긴급조정 불가피\"…타협 촉구",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9ZbmhoQ1FobHMwOGttS19mN05kX1diMUp1Y0dtVkY1dkswaF81bzNSVDRQM0lwRWkzSGxOTWRyeERQbi1RUzNqaTZoM0dfaWc?oc=5",
+      "pubDate": "Thu, 14 May 2026 11:54:01 GMT",
       "source": "v.daum.net",
       "category": {
-        "label": "🟢 POSITIVE",
-        "color": "#4ecdc4"
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
       },
       "impacts": [
         "삼성전자"
       ]
     },
     {
-      "title": "“이러다 100조 날린다” 삼성전자 총파업 공포…中은 웃는다, 왜",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5sREZTMkFfN2Zib09wcUVPX1JnVlNrQ1FBVUlvU3NoTjlKQjBDVlVYelNsTmJQNFFYTE1WWEczWEpsaFJIZnVnT2JtaXlVbXdMakhqNV9n?oc=5",
-      "pubDate": "Thu, 14 May 2026 09:21:15 GMT",
-      "source": "중앙일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "반도체 호황 너머 정부가 해야 할 일",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5pX09hc3B2OVpsYzRDdGJBeHpYbkNjZC1meHJUOEMydE10QlpRaTIzWmgxUDd1VjVHTnJPczBQQk5FendtcktlWW1qUjVBQVNpRlpsdS1GQUpKd9IBVEFVX3lxTE1DMmlLNXd1Vk9uWlplUGg4ZEx2alJPR2lIVXZBdFFBLU1xbTdCNUtaaC1rWkV3dzI3eTJkczFReXdDUkJnM0pOaFozVWdXT1JXaE4xeg?oc=5",
-      "pubDate": "Thu, 14 May 2026 09:13:19 GMT",
-      "source": "한국경제",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "현대차 미래전략 담은 축구장 5개 면적 로비 리뉴얼…로봇개도 풀었다",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBRSDRubzZKN1g5TGFWUHM0YXJLTTItMUNVZ3R0Q09NRDE4WnpvTlR6OWVKRjJpcE9QVWxMZ3ZMQ1lXTWFTejBBWUxVUFpoaDJWME9aWm5FSHZWdFoyZmVVMFZTMzdPaEw1LTZmOGhYbEszQQ?oc=5",
-      "pubDate": "Thu, 14 May 2026 09:12:00 GMT",
-      "source": "한겨레",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "현대차그룹, 양재사옥 로비 새단장…소통·휴식·혁신 공간으로 전환",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPUDVQUFFxUm9CLV9obHdlNEhqSk1FZmtGWmRzVmFpMW1MMzYta1ZjMExIRUFoRUJfcjFuVmYyRmRZcWlwQnJMOVBYbW1McGhuMzZ0LUNLLTJpUEFMLUFRUW9hN1BzYlVHeUxNRzNGaHZGX0RzR0lzUkFDQ3ZmaVBYUHdqeDNpdw?oc=5",
-      "pubDate": "Thu, 14 May 2026 09:10:49 GMT",
-      "source": "글로벌이코노믹",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "[동정] 국토장관, 현대차그룹 새만금 투자 지원방안 논의",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9zU1pzUTVhTUxPekI3V0FDM0F2Zm0wNzF0TlpBZWxxTG1KZnMyc2VLR0hOQjA3a1o3TDBTYWRHTzZETmhhNUFISk83dVBCRllveTJFQWtVTzc3R18wSDRMU2s5RENJeXR5ZldXUHpxeEZHZS1u?oc=5",
-      "pubDate": "Thu, 14 May 2026 09:10:16 GMT",
-      "source": "연합뉴스 한민족센터",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "\"파업때 생산라인 안 멈추게\" 삼성전자, 반도체 감산 돌입",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQLXJHM2NXTHVTbUNnbWVMWklhSFFlN0x4N2pYaWZXOVp2VzNvZ1U1YmJhN2FWejlHR0tibC1RQVhYMFd5T1kwNktHSlJnTEpPZ0FPY0dTcGZqQzJ5aFZoSTM5VkZpWTZmUG1tNFc1aWc1RHMxUi16dG11VC1kS3l3bTJ6OA?oc=5",
-      "pubDate": "Thu, 14 May 2026 09:03:04 GMT",
-      "source": "조선일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "반도체 초과세수에 소환된 ‘노르웨이 국부펀드’, 어떻게 걷히고 어떻게 쓰이나",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5PZ1B1QU1VVS1JRWp4eVdRaDAwV183NFJUVngyc2p4YWxMX1hvRzZWUnd4X1EtdjR5QTY5Q0xxeVJlLXRUd0daQWpXeTBYcVgtQjZXYnlpNVlYQdIBX0FVX3lxTE05eWZPdFl2cDYzTlY5VWJXNm02WGE0aE1wWHk2ZndfN0pDQzZvSm1sdVkwLXE1MXRRclB3V3BHemd6bXJMWUQ1aUZHMkcxek1IRHNlZUY2QXZFRWZ5ZEtj?oc=5",
-      "pubDate": "Thu, 14 May 2026 09:00:00 GMT",
+      "title": "김정관 “삼성전자 노조 파업 땐 긴급조정 불가피···타협 촉구”",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5DS3NKeHNZdmZRblVmRXo5NUpIZktVeVFsWXpab3dLd2Nval8weW1zZnd4YThkODR0a1l0S0ZHUHI1alJyMHNYbXlrMmw1T3VXOWhoMmVqUFFPd9IBX0FVX3lxTE5aV0hEWlBUaEhQb2s3aVE0VktUUUIybEhPbFB4ZkhWYXp0R2dUa0REbktLTHdWY2c4bFJjUUZFaG8zMndtVUQxZ09iUzZVTDF2eXVYMVdwQmMxVXFfY3dV?oc=5",
+      "pubDate": "Thu, 14 May 2026 11:50:00 GMT",
       "source": "경향신문",
       "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
       },
       "impacts": [
         "삼성전자"
       ]
     },
     {
-      "title": "'포스트 엔비디아' 시대…최선호주는 피지컬AI 품은 '현대차'[주식콘서트]",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE05eG5TVUE0S2xBcWdGckh4Sk1hWkF0Wm5qS2QtUnRUd2c5ZmNydkV6VXlkbzl3X2U2LWMxTmRzajRlOF9FeDZ0X0NLbnVKV2M?oc=5",
-      "pubDate": "Thu, 14 May 2026 08:55:06 GMT",
-      "source": "v.daum.net",
+      "title": "산업장관 \"삼성전자 노조 파업시 긴급조정 불가피\"",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBYNVVUR0NUNkJUcHhBWFIwT3VydnVVX0cwNHFjUk9tZTdpb1U3bklqeHp4czItZzBEOEZ6SFFfOUxvNWpiSkhKb1dTNUdDWWVrV1NSZXM1NFlIaC1zZlg2SXZ0QmJIb0FuZllCOThuYm8yQnM?oc=5",
+      "pubDate": "Thu, 14 May 2026 11:37:24 GMT",
+      "source": "마켓인",
       "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차",
-        "NVIDIA"
-      ]
-    },
-    {
-      "title": "삼성전자, 손목 위 헬스케어 키운다",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5XQVlvVk1GMzRsYUNzZ2M3akZaaGlBWlVXRERpaEJIekE0RWtkTXNtdW5VWUQ4YUd5VndCTTJqNDhOeHNOeUtfd2s5ZWZZaFZFM0JoRERSRzFCeW5ZaE9mM1ZvNVhKdw?oc=5",
-      "pubDate": "Thu, 14 May 2026 08:54:02 GMT",
-      "source": "디일렉",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
       },
       "impacts": [
         "삼성전자"
+      ]
+    },
+    {
+      "title": "김정관 “삼성전자 총파업 땐 하루 1조원 생산 차질…긴급조정 불가피”",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9FSWVVN0piRHVLUElvOFlnaDl3c3g4U0FiVy04RmJ0dHZocVdBNGFQRFNqQVN6dGpqeS04SkM3NmdDcGZIS3BDUk5nMWdiVnl4bmgtTlJwNGJSak1YRUlRX0FReEJjRDlURXM5ZXNDUmI1Zw?oc=5",
+      "pubDate": "Thu, 14 May 2026 11:28:00 GMT",
+      "source": "한겨레",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[속보] 김정관 “삼성전자 파업 발생 시 긴급 조정 불가피”",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBSUGJqcVVGLVg0a19WcHpTbnc1RFNxOVVZOXRrTzhBMGYtNGtkWFhGZFFaYVFIV3BqeEZzWDVOYUJ0RUJrNE5oNW5teDRsOHJRUXVQT3VEa0V4U1pDY2VWQVlJNEoySTVXUWZzQmFxbw?oc=5",
+      "pubDate": "Thu, 14 May 2026 11:14:42 GMT",
+      "source": "서울신문",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "JP모건, 1분기 비트코인 ETF 투자 확대…IBIT 지분 170% 늘려",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE44RzBYZFhGRUtTNm42bUxxWG5FZDM4YVBqUVJnOGpsS3NabkNXUU9zX1RMaTBpLXo0bFh6T1VmbFU0NDJwaVN6TmZFOGMzLTB4?oc=5",
+      "pubDate": "Thu, 14 May 2026 11:11:17 GMT",
+      "source": "블루밍비트",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "노동·산업 장관, 삼성전자 노사 대화 촉구 “파업 발생하면 긴급조정 불가피” - 조선비즈",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOTUN0VlpsaVh2WHlDcHcyTXZpREtuUExqV3c1MGpqNjdUWm1kN2twcVFmRzhSNXViNVhzRktSR1hDTUt0X0YyRi1SS20wcWE4dlhOZkRFcEVfVHdTYTFkOUg4eUJ6R2dGaEgybHlSYm1Qcms1bmhrdTJDZzFwWWJmbU8ybG10QdIBmgFBVV95cUxQdWxBUF9JbUtSQWpEMkJ5M1VlUF9RaldLT2JNXzFnQnBSczhISS1RQUFUNkVQYjhvYkdlT1RRVmxkdkRmLW9IbVM3NG1sNkJvZGJocWs4R1R2QkNzdnh5ZGVVbWFtbVlwMGpvbzlpLVdfSDZ5enp2MHFybHFTNDFaT2c0ZUt4ZGZvT1VQcnIxeHlaYlVSZ0o1T2hB?oc=5",
+      "pubDate": "Thu, 14 May 2026 11:11:00 GMT",
+      "source": "Chosunbiz",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "\"삼전 파업땐 최대 100조 피해\"... 김정관, 긴급조정권 행사 방침",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPalBidl9sYkVXX3FLdExtUnNzeDNod3FLRFdHZk1oUjYzNy00V1lnMGZ5ZjlJMF8xVWJGZFhUZ0pqTVkwa2tUTTN1MWV6c2t4Z0hTVm5jc3h0X3JkZGQ2elI1eGpSVkNRcTkwMVJpMEgwVGVhQjNneDBNS0R6d2NfTkdlUjVtc0RtSi04c0t2dw?oc=5",
+      "pubDate": "Thu, 14 May 2026 11:10:55 GMT",
+      "source": "조선일보",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": []
+    },
+    {
+      "title": "김정관 “삼성전자 파업 발생하면 긴급조정 불가피”",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBWbHRQV2VIc0djenYzS0p5R19YaUpPTjFtWTNVQUlDdzJ3UlFWSEN2Y21Ib3RISXU1ZDdaZzVfNGdieXdSNVVMSlNHaU1yaU4wZGlVODJVN3Brc091amZoYVpYUDFCSDFJeEVEMWpsVDltZFVpcFHSAWZBVV95cUxOMVl6T2xIb0JQQnotazYzZ2Nqb0h2Wm44d1AwRjBzNVUzNll1TnlBcXp0ZGJPNUpkb3dfXy1ObkJRaVpUcVJTQ3RzdXN0cThYbHpSazR5Qkdmd2NxN2RsSHlHVmEtLVE?oc=5",
+      "pubDate": "Thu, 14 May 2026 11:08:42 GMT",
+      "source": "동아일보",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "현대차, ‘더 뉴 그랜저’ 출시…기아는 日 시장서 PV5 선보여",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE81TGp2S1JJVUswWnRwUHAyaFRGbGV4UWRGMFJ0cEFRd25wLTBIdTNJbmJJZmhsM0ZQTDdfam9URWZ1dFI4R0dmSVV1NjBEYzdWU1E?oc=5",
+      "pubDate": "Thu, 14 May 2026 11:06:00 GMT",
+      "source": "더나은미래",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
       ]
     }
   ]
