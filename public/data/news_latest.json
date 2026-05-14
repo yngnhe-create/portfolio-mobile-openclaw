@@ -1,12 +1,23 @@
 {
-  "timestamp": "2026-05-14T10:46:36.773112",
+  "timestamp": "2026-05-14T11:18:02.501682",
   "count": 10,
   "articles": [
     {
-      "title": "경남도, 우주항공·방산 등 지역 특화 반도체 산업 육성 전략 밑그림 그린다",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE56bk40d3BIR0pTa0dXY2w5NjZ1aUE0bFFfeWlELWZXQnFtbGZiTUJBM1VkbUVMZW5jZzRBMjU0X2IxejQwa3ZOTTVhcHdTZw?oc=5",
-      "pubDate": "Thu, 14 May 2026 01:44:12 GMT",
-      "source": "전자신문",
+      "title": "DB하이텍, SiC-GaN 사업 지연...기술·시장 '이중고'",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE93cFFnVEV5ZnhfbDdSV2pxNVJhek9kZjRLSUtfQVNwbW9BWUs3QjVLbjk5SWVBVEoybjVmcTROVkllcndEdU5DN3F1dDI3VzkyZlg3UmZNSjJXOHBxNERnaFhPNG1Ndw?oc=5",
+      "pubDate": "Thu, 14 May 2026 02:12:30 GMT",
+      "source": "디일렉",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": []
+    },
+    {
+      "title": "삼성전자, 국내 기업 최초 EU ‘에너지 스마트 가전 행동강령’ 서명",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBRRjE1Z0JyX1NhLVlSM1NMdG4tbmdhaDdYZVZacXI3dVJGLVJ5bGswVkxhQTlUQnJoV1Eta1YzTlljU1BQSzZmQlhxclZFMV9nazAwdS1STV90QdIBX0FVX3lxTFBrSnFDWTFreHZNWFN4SlNsaEVxT092cTExbXBWRnFvOW9ZTjdVTjVJZi1pemhpdm1CX3pONVhjb2Ixb3dqakVKMGJlWS1ta2pnNzNqcGVSWVEyVmJUMkRV?oc=5",
+      "pubDate": "Thu, 14 May 2026 02:12:00 GMT",
+      "source": "경향신문",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -16,24 +27,77 @@
       ]
     },
     {
-      "title": "비트코인, 클래리티법 표결 앞두고 기대심리 들썩…9만달러 직행할까",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE02Z0t4SDR0R0Y0VUxqRGRrS0VqRWJDOS10S3BTcDlWakUxZ0s1S0liWGxDMWZlcUM0RHFsT1hYSUxMNUw2aHp4ekxZai1RbDk5dU9YeTZiQjNlcEx5NmxCOWJ6aTduZVY0RDd6VWxGM2ZQcU0?oc=5",
-      "pubDate": "Thu, 14 May 2026 01:39:41 GMT",
-      "source": "디지털투데이",
+      "title": "비트코인, 8만2000달러 저항선 돌파 실패 땐 하락 압력 확대",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9Qdi1Cc3NMQTRZQk93UkgwaFpla28zVmU4NDZvaHdlRDg3cWYtcS1RdjMwU2o1TWN3Y3kzMGg2RzBEZzRJYWpHd19WcGVCWnhUME85MXN4TldiZTZyM09oeFNQTk5kcl9NdmFoMFg0WQ?oc=5",
+      "pubDate": "Thu, 14 May 2026 02:06:46 GMT",
+      "source": "조세일보",
       "category": {
         "label": "🟣 CRYPTO",
         "color": "#a55eea"
       },
       "impacts": [
-        "BTC",
+        "환율",
+        "BTC"
+      ]
+    },
+    {
+      "title": "'1000만 러너' 맞춤형 트레이너…삼성전자, 갤럭시 워치로 '통합 러닝 솔루션' 진화",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5va0ZoX2tXQWR6SUZhZ0FHQ001QjRCRGZfaGdRa1RPZ1ZIeEZPb2FyQXMxamR1RWZXS3ZHTTY0Y0RhbHoyRVp0MEx0MnJ3Um5oV09rdzZadTQxNTZZWjhoWERHSDBkQQ?oc=5",
+      "pubDate": "Thu, 14 May 2026 02:05:55 GMT",
+      "source": "더구루",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "4월 ICT 수출 역대급 성장…AI 반도체가 이끌었다",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPUjlGeW5VcWxEVkdDdXgxT2dqdUpCMEh0bG5YZTBnSXZfWmREaHRobUJsd2ZkSldpMzNqNkxhLWZpNHlNb29NNEZ6eDJFSWtNVml4LVpTNzM1LU5ZR0NzTjBsWC1ZYWt3SkdOSkxHZUU4VHJTS19wMi1YLWhaMlhkd3lJdlRZdw?oc=5",
+      "pubDate": "Thu, 14 May 2026 02:05:00 GMT",
+      "source": "TBS 서울",
+      "category": {
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "ICT 수출 두달 연속 400억달러 돌파…반도체가 절반 이상 차지",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5xeHhqTjFjbmpYREJ0eWZDeFZqMkdmQ2U5X1p4cGwwUUktRXFwc0ZYM2FYQlc0cHhfYWo5c0U1am5kV0xfSlJIalA0UkE1R01ad080XzBkbzRiSkJOM1lhSmZIb1NCblpGTWpaQjM0Mno?oc=5",
+      "pubDate": "Thu, 14 May 2026 02:03:16 GMT",
+      "source": "연합인포맥스",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자",
         "환율"
       ]
     },
     {
-      "title": "경제·금융·통화 수장들 \"삼성전자 파업 땐 韓경제 상당한 리스크\"",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOMVc2S2lIUDRqVkMxRVFMYU9TRW9UWEtPZG9ObERlR0s4LUFNU0VQNzhRVllicGlRY1FuS3F5Wnh0VlFXY3EtMHB2UmhSQlBXU2pVS0JLVmlvbVhBbU55WkNlQzBpRVhtd1BLWWFTS2xFcVRrMURGb1lERElLYXFTT0RRQ19pTFF4bk44SGZkTW96RVZKczJMUw?oc=5",
-      "pubDate": "Thu, 14 May 2026 01:38:00 GMT",
-      "source": "국제신문",
+      "title": "비트코인 장기 보유자 300% 급증…\"유동 물량 감소에 공급 쇼크 가능성\"",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBFUEdIVWpXVkxCZmlDUTZiUVJndG9RNXd6UC1PTkg0TUFzODQ0el9zX3pfdzVqOThaMDlMY2dFR1VHQmNvY2dtM3k5MnNPQnRkY0FpMlBfTFRXQml0U3pVc1l3WmdneVFFRVNKQVRoMnY?oc=5",
+      "pubDate": "Thu, 14 May 2026 02:01:00 GMT",
+      "source": "연합인포맥스",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "닷컴버블 붕괴 후 최고 ‘과매수’…반도체 과열신호에도 낙관론 여전한 이유",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9qQ3FRSzhwZFZJODQ1SG1ET1FtbnFSM21xd3VBLWhVMEdWVFVHWksyemlJY19raUxxN2szME9HLW9uSXRWZ25CMzZ1Y1A2VnZZUmc?oc=5",
+      "pubDate": "Thu, 14 May 2026 02:00:10 GMT",
+      "source": "매일경제 마켓",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -43,95 +107,31 @@
       ]
     },
     {
-      "title": "삼성전자 라인 멈추면, 수율 1%의 사투가 시작된다",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5pVTJNRl9Zd183WHR6Qi05S25RUW0tcnlYd2VsaEZTTVFhTlhSU21iUjNtTWMtbFViQXQ1ZGhfOVRNMzVfd0xGckpRRnB2THc?oc=5",
-      "pubDate": "Thu, 14 May 2026 01:37:04 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "비트코인, 'PPI 쇼크'에 8만 달러 반납…강세론은 여전[코인브리핑]",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE4wdjVaaTZ2dDdGQW1TWm1rdjhMRnpJUURaRzByeEFjM0hJVXJxeTJyMjQ0QWJmUlpITWVTQmpqZ01oVVQ1NG05MFpwVktZSF9NWFJjbWVNUC1LZ3JoSmMzeVNWaUl4UQ?oc=5",
-      "pubDate": "Thu, 14 May 2026 01:34:13 GMT",
+      "title": "ICT 수출 두달 연속 400억 달러 돌파…반도체·SSD 수출 호조",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE00OVJodUdIWVdKVEhXc01PRXFGMFBOcTJHUC02Z19mUHJYeG1SX2pDVlJ2aWxVcmJnR3ZHb2hMUkt2MWdUWDVPbWtQRkkzbUI0bWRrVA?oc=5",
+      "pubDate": "Thu, 14 May 2026 02:00:00 GMT",
       "source": "뉴스1",
       "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
       },
       "impacts": [
-        "BTC",
+        "삼성전자",
         "환율"
       ]
     },
     {
-      "title": "현대차, 글로벌 투자자 평가서 자동차 부문 아시아 1위",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9JODgxbUtSZFU5T2JGcExONTBwbmE4eXEybjVqdThSTHdETy02VFZlWGpXcndvS2NqSGN2RlpyMmVGaThsc0FVTmRTR1R5TUpyV0wzdWdCM281a2JEcWhVVUZSNkk?oc=5",
-      "pubDate": "Thu, 14 May 2026 01:33:10 GMT",
-      "source": "서울경제TV",
+      "title": "4월 ICT 수출 427억달러, 126% 증가…반도체 2.7배↑",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1PZXIyWWZMeFNGZEhLTTdpUnRXTUw1MlJWdzlLa1A2ZGFRTU9uVEhNMHh4QzRVVjFSNmZwTG9aWUJjYmNfa0NWN25NYngxR2FPTVJXRVpVQ2tvYjloY0JaLWN0NzFNTTl5dnRtWEtBRVc?oc=5",
+      "pubDate": "Thu, 14 May 2026 02:00:00 GMT",
+      "source": "신아일보",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "'패밀리 비즈니스? \"트럼프 차남 관련 기업, 中반도체사와 합작 협상\"",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9PWW1NcXJHcGdDa0Zra04zbVRBRWN1ZUEwQXdQdmxVN2ZZWlVUQ29ycHVCeFZjbUQ2QzdMSk5QUmFnNEhFLWFxWVZnYUhHc0E?oc=5",
-      "pubDate": "Thu, 14 May 2026 01:33:08 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자, EU ‘가전 에너지 행동강령’에 국내 첫 서명… “협력 확대 기반 마련” - 조선비즈",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOcHZEdlJybUZTc0ZvODFtcDRqWVk0UFZqRnpiSzAyenhTMXByS2V3WjFnRGVjVmtlNXBWR3FCRW5MYUItZ0dvS1QxQW0tY2JWVGlEcnJYc0tNZVlzVTBudUR0a0pwWWNVa1RQSVF2d0dCRDM5NW8yendRNW1IR2Zjc0hn0gGWAUFVX3lxTE9pOGk1WVJqSFdEUFVKSU8tODJUc0JlZy1EdFp3RHpYY3pPSmZ3alNrSW5HSjhQd2xfVS1LQWlmSVlHay03UWpHOU5ZLVA3Zmo4dDEzTjNQczJrZ3MxN3ZLVUNETWxBamJBZVZoQVkzUE41alJuQmZKNGMzSS1ISl9yWnU1Nk93NllZVUpJenVIYUJXbWs4dw?oc=5",
-      "pubDate": "Thu, 14 May 2026 01:31:00 GMT",
-      "source": "Chosunbiz",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "현대차, 글로벌 투자자 평가서 아시아 자동차 섹터 1위",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxObHRNTjFZa2ZxUV9aU2VyNmVzcV85dXFIU1F3VzZDX3FvYnJ1NWFGaXRaZERfczBCRFR6d2dGSExnbURIOWRNWVBhS0cxRVoyYm9xOTFZUWdwVVl3NWZISnFRa1RPWmJGa2xfRHRmMFJ6RzE2MnR4cFZiYkFVcUtOMUNRV0NOZw?oc=5",
-      "pubDate": "Thu, 14 May 2026 01:30:41 GMT",
-      "source": "글로벌이코노믹",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "현대차, 신기술 탑재한 ‘더 뉴 그랜저’ 출시...SDV 시대 연다",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE95TVBVMzU3YXF1YWswR1dWcmd2aGt3RFNkSVFfSjlHSWlWQ05sMm9mYVNaYUFnd1NTYmRqN2FZSFdqT0NlalpwNkN0TUdSLVRrcTBOeHlLdnhNVFFQdkR6U2VfRWc1d3JGLUxGbU9B?oc=5",
-      "pubDate": "Thu, 14 May 2026 01:30:02 GMT",
-      "source": "이지경제",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
+        "삼성전자",
+        "환율"
       ]
     }
   ]
