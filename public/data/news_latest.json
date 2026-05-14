@@ -1,7 +1,34 @@
 {
-  "timestamp": "2026-05-15T02:37:13.846825",
+  "timestamp": "2026-05-15T04:08:23.373773",
   "count": 10,
   "articles": [
+    {
+      "title": "JP모건 \"이더리움(ETH)·알트코인, 비트코인(BTC) 대비 부진 지속 가능성\"",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9HeHFCaDUxWHR1eDlxbF9JV1docHB3eXBOVjg4b25tYmh1NEF3TDhfdDlDdnBvWDBLSHkxZExQdTFDbWNFNXZFLVpUbC1RcFlN?oc=5",
+      "pubDate": "Thu, 14 May 2026 18:10:46 GMT",
+      "source": "블루밍비트",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "현대차·삼성 등 러 상표등록 계속…\"브랜드 지키려\" 평가",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE55RlRlVXJYSGlxYUh1dG0zbzdsOGt3OG1ZSk92MjA4ektRc0ZkVmhpOWFCdGZ6N2ZVa2xsWVNnV2NLX2tDc2pQaVhNSXdSQVJOSlF1M1NHWjNwQ1XSAWBBVV95cUxPQnhHb1M0TFNVM3JkN19mS0R3QjliMnVuR252TXpac0o5U29pNG9ZNWpXajRFNlE1SGkyZFY0ekpZNTJZeC1mNjdZTmxzeUpWYnBSMWdsSzk2eGhkSGt2S1I?oc=5",
+      "pubDate": "Thu, 14 May 2026 17:18:08 GMT",
+      "source": "연합뉴스",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자",
+        "현대차"
+      ]
+    },
     {
       "title": "반도체 수출통제 완화 땐 삼전닉스에 호재… 업계 긍정 반응",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5kR3hjY2Yyc1BKWDU4SXQ2MkpPalVPVXdoeF83c3RDNnNwaUVDMjJ0UVVNYm05dkFaczZPUVNxZ0lwS1NHYUNoVDdtVEs3ZTg?oc=5",
@@ -10,19 +37,6 @@
       "category": {
         "label": "🟢 POSITIVE",
         "color": "#4ecdc4"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "\"보고 있나 삼전닉스?\"…AI 반도체 판 뒤흔들 빅테크 '승부수'",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5ILXFrMGhpT1YxeHh0Mkk3bi15NHlIVzZud3pXTHdKdDRPRGRJU1AwSVQ0eVRzS2tnOTVFLTQ2eFUtQzRrUUVXRzU1bzYycWVDb0tDU0NvZnNlUdIBVEFVX3lxTFBwMU5jQXNLV0liTkZSWEhpNDQ1VzdPV2NsOG04VTlpYXU1dDRLU2E1U1cyQW44Q2lWY0JzcEF2R191ZkljVUx3RVBOWmdsRWhWRjA2eQ?oc=5",
-      "pubDate": "Thu, 14 May 2026 16:37:00 GMT",
-      "source": "한국경제",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
       },
       "impacts": [
         "삼성전자"
@@ -81,6 +95,19 @@
       ]
     },
     {
+      "title": "불안한 반도체 랠리",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBiYWpqNzZYcVhvYWFkRkFYeENfVFU5UWZUajVVYU9TZm5YRmtjVW10cEI2R25MV0ZnckJwQldqWFNsb21ZNGRlckZLelQtSUE?oc=5",
+      "pubDate": "Thu, 14 May 2026 15:17:58 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
       "title": "삼성전자 \"추가 대화 제안\"...노조 \"대표 답변부터\"",
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBEQnVpSFVORUMyN3FjYnBWREFJaDVOZFpQdlBld2E3XzQxajFqMXMyVUZmbmJjVmxNdlBhRFVxbVZ2N3V0MnRBUENIVlVOSEZKMkkyajlkVFlscHpEVVE?oc=5",
       "pubDate": "Thu, 14 May 2026 15:16:00 GMT",
@@ -104,32 +131,6 @@
       },
       "impacts": [
         "BTC"
-      ]
-    },
-    {
-      "title": "로봇기업 된 현대차·기아…사옥 순찰도 로봇이 한다",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB1WjR4X3o2Y3BuZ2p3eTlMaUw0M3ZIbTg3MF83aU5xXzY5QWJ6aUV4MDd1YkZZQUxIM040ZDRpdTJpcXJ0OGJZbEMwYkNUMGFFUW9mc3d3?oc=5",
-      "pubDate": "Thu, 14 May 2026 15:01:01 GMT",
-      "source": "중앙일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "현대차 대표 세단 ‘더 뉴 그랜저’ 출시",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1odktwRmlCX25EUGJYWUZ3VFhQNkwwRkpCcTZmOEYxNzZfTFlBVHlrWUdfay11d1hTTEtMdUVvRDhmM0F2ck9UbGdBejlOa1dIRmREVWI0c0tDU3FxeXNnWmh1cnZBUDI1RnNYLQ?oc=5",
-      "pubDate": "Thu, 14 May 2026 15:00:00 GMT",
-      "source": "경상일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
       ]
     }
   ]
