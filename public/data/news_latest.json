@@ -1,12 +1,36 @@
 {
-  "timestamp": "2026-05-14T22:33:09.073828",
+  "timestamp": "2026-05-15T00:04:21.078495",
   "count": 10,
   "articles": [
     {
-      "title": "靑 “반도체 초과세수 활용 검토 아냐…세수는 상시 논의”",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9TLUZWRkVybWxvMTRQOE03MmtFWGVkQWxBYVpubE5ITk1CQ2ZjTHZqOEotUEMzZHpQWkJLOE8wanJXS0RVcnNHRzBxeS03RVJt?oc=5",
-      "pubDate": "Thu, 14 May 2026 13:21:02 GMT",
-      "source": "문화일보",
+      "title": "로봇기업 된 현대차·기아…사옥 순찰도 로봇이 한다",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB1WjR4X3o2Y3BuZ2p3eTlMaUw0M3ZIbTg3MF83aU5xXzY5QWJ6aUV4MDd1YkZZQUxIM040ZDRpdTJpcXJ0OGJZbEMwYkNUMGFFUW9mc3d3?oc=5",
+      "pubDate": "Thu, 14 May 2026 15:01:01 GMT",
+      "source": "중앙일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "[데스크에서] 발목만 잡더니 결실은 나누자고?",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBBVF9zRTQ1RXZWMC1XYUtJSFMwSXdpajJUYzhnRExGdDVnNEh0Nk9UR2ZzVW1VTm9MVWtQTHh1Snp5ZHJNcU5EUjdRTFNmMnBnRG9mdzRKcGFUN0FpN3ZMb0hqVUJXNXd1SW9Sek50OG5fOGpFTGFfZ2NLZUZMbXM?oc=5",
+      "pubDate": "Thu, 14 May 2026 14:37:00 GMT",
+      "source": "조선일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": []
+    },
+    {
+      "title": "국전, AI 반도체 소재 승부수…HBM·차세대 패키징 확대",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9YWDJNdlE2Z3o4MVEzYkg4UmVEX2plZHpZaUF0Z0IzTzdGSFl4ZEhqaGF0WlRHUl9DZEpuOFZ3Y3plTlN5OENBRTlzelAyZDVETU5sTUxR?oc=5",
+      "pubDate": "Thu, 14 May 2026 14:30:09 GMT",
+      "source": "데일리팜",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -16,10 +40,23 @@
       ]
     },
     {
-      "title": "“반도체법도 ‘재벌특혜’라더니…李, 수금 욕심뿐” 장동혁 주장",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE10di1KQ3FzaGxGNlNEV0lPY1N1LUVVVWRhbXdXdk90aHVfNHhkMi1ldk9rNGVMU25yUXkzNjZLNEhqVEg1cU1sUFRPWFJjYmMy?oc=5",
-      "pubDate": "Thu, 14 May 2026 13:20:58 GMT",
-      "source": "문화일보",
+      "title": "삼성전자 반도체 비상체제…“100조 피해 우려”에 긴급조정권 카드 거론",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1rUjVrRlpfNlBiQzZDX2ZGMFJuZm5vVXVJN3FxS3pPTzluZGtyRjIxSTNqX1BNZWk0UmRyZ3FHYmd2WmhiUDIzRDJXVGdjS09IWW9nUnExZXVnRUdlWDNkZjZtY0QyajA2clpr0gFuQVVfeXFMUF9IMGlpQk5oWEhHYmpQaGxhTGxrbkxITE8temU3SVBoUWpjMElxaUgtZG03ZUtVclBHS0QtcXlscnVsaGh3VWctalNybkdlcHM2MW96WThfUWQtdVZTQXRhbHh5bEc3UmQycFhMWmc?oc=5",
+      "pubDate": "Thu, 14 May 2026 14:30:00 GMT",
+      "source": "조선일보",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "정부·삼성전자, 대화 제안…노조 “대표가 답해야”",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9NX1gyOTExSGpOMVlmdzZzdVljU1IxTnM2TTBrTmdkQVA1Nm1JYl9uZmU5bWJoUEpFMll0ZW1JT28wQ3Znb2tUX0FBUkJjMkpMeDNNbWJJbmFCLVE?oc=5",
+      "pubDate": "Thu, 14 May 2026 14:16:00 GMT",
+      "source": "KBS 뉴스",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -29,22 +66,9 @@
       ]
     },
     {
-      "title": "캐넌, 4월 비트코인 90 BTC 채굴 보고...보유량 1,826 BTC 달성 By Investing.com",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9meEJlNmViM1dpczJkbG1GZ0ltTEpBRDRXVFZ1WFI2SzE4LS1VUGF0VTJTTlFhVHZNYThGTzUwNWlJcHlzTGF3OUZHMXg3bkVJa1RIbkNxSnJGTzBPNWNsY2VzMUhCWkdDWmN6SGlqTno?oc=5",
-      "pubDate": "Thu, 14 May 2026 13:11:00 GMT",
-      "source": "Investing.com 한국어",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "비트코인 현물 ETF, 3개월 만에 최대 순유출…솔라나 단독 질주",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5oaFUyZ00zalRybmpXVm15N2xZZGFQTTc3bGJXajhlaVJYOWRfX28wR21CZDBtSFBvSzR5LUlFZmwza0l5QXY3NjlySC1NZ29QRnZ0T0NWek9ZZkhXZTl3Wkdwczh1ckxqZV9FUVpHWThBZjQ?oc=5",
-      "pubDate": "Thu, 14 May 2026 13:04:08 GMT",
+      "title": "크립토퀀트 “비트코인 하락세 재개 가능성 나왔다”…200일 이동평균선 변수",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBoWXdvYWZ5RzJmWW43UV96bFBHYzlPZk0td3FZN1BkcnBhcUU4V21vMmd5aEY2UTlTbmk2ZWxfeWwwTnQ4ekZtT2E4ZUxETnkzeFRfRndVLW81REtRZkU2NlBwZlJsWWlVV1piYUR5Z20tNUk?oc=5",
+      "pubDate": "Thu, 14 May 2026 14:10:00 GMT",
       "source": "디지털투데이",
       "category": {
         "label": "🟣 CRYPTO",
@@ -55,35 +79,9 @@
       ]
     },
     {
-      "title": "‘매파’ 일본은행에 엔캐리 청산…비트코인 ETF 넉달 만에 최대 순유출",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBiMlpia2lSZ2NMRDRkRkxxVkJ1emdhZ1NfaVlSNDdUNFlNYnJuaGpIdU05d3VYU21BY0Q3VHZKU1hQbzdKTGVLSmFSQmZJUW5jbDE3MmlpN0trWC1BMzQ2SnIyeDFPUEc3MDZDZUJJSVlobDQ?oc=5",
-      "pubDate": "Thu, 14 May 2026 12:38:58 GMT",
-      "source": "마켓인",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "국토장관 \"현대차 새만금 투자의 사전준비 완비\"",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9RS1VUM3hDck1hTzNaZkxIV0YtcHZsWVJoSEpmNUJMSEVuYzVabEs1MmlPYVEzbGdib0lKUkIxZVFMRF9yUlY5WjNDSXp1cjA?oc=5",
-      "pubDate": "Thu, 14 May 2026 12:36:18 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "김정관 산업부 장관 \"삼성전자 파업시 긴급조정권 발동 불가피\"",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE96NXd5Zm5QTnFOSGZjRHlud2dfWnNoWkJVMzVuVHdjYWdTbm54MGt3ZHVabUtCSXRnUzVIa1lwSG9ZenpIWHpNUGNaSEMxN2NvTFp6YTQzLUJiQdIBVEFVX3lxTE4ycXNiWWJ0LWtneGJ1cUc0NmRuZGU0bHBVLXVqTmIzRmJZNG5hZi1lUHJTZERmcDE0cEp6STRwWFNSQ21MRzZVaE9VSUtnWjR3c1FtOQ?oc=5",
-      "pubDate": "Thu, 14 May 2026 12:35:19 GMT",
+      "title": "\"삼성전자 파업땐 긴급조정권\"…김정관 장관, 노사 타협 촉구",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBaMldpdzlzbWt5SVB6UFFYODVuendMdjB4VVJoa3p4aUVOcHEzOThpbmpiQzlPMnhtX3pQb2k2cTdoTkFkajMwTnpSQmx6QjY0UDJZaVFWdFk4UdIBVEFVX3lxTE1HQTd2UDNMSnRjSDd1OWdqR2lBdTF4aktBRW85WVVwWDlITmwwVVNjeTF5eENJYkFyUFhiVWhIT0lqa0EzdUs1WU9pQThWUFk4NXNYNg?oc=5",
+      "pubDate": "Thu, 14 May 2026 13:50:54 GMT",
       "source": "한국경제",
       "category": {
         "label": "🔴 HIGH IMPACT",
@@ -94,10 +92,23 @@
       ]
     },
     {
-      "title": "김정관 산업부 장관, 삼성전자 파업 수순에 “긴급조정권' 시사… “파업만은 막아야”",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5QQWlrdWpUMUJjam9nUTdua1dQckZRZ3Y5akJyRjcwMUptRlhMT013MW55N1dCeXAtRk12bDFJMnJhaS1yNkhfWVdUcDhRUQ?oc=5",
-      "pubDate": "Thu, 14 May 2026 12:24:51 GMT",
-      "source": "전자신문",
+      "title": "“차는 계속 진화한다”…현대차, SDV 입은 ‘더 뉴 그랜저’ 최초 공개",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNNHZablJyLXZ2VHV0THF1Qm9LYkNKLU5BeXVaRGFNMTVkQk5qTnRxaHRYakRMRTJzbGxpa2dmaWhmX2NibXBGVElqdDJqd19nd1VUTzVhT1BwYXdnV1VYZ0h4U3RjWmtoNkpzUW1CRlQwMFhGUTgtbENZQnh1dlFYc0dzR2FaQQ?oc=5",
+      "pubDate": "Thu, 14 May 2026 13:49:23 GMT",
+      "source": "글로벌이코노믹",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "김정관 “삼성전자 파업 땐 긴급조정 불가피”…강경대응 기류 속 협상 압박",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAyYWhkdVdSWW5lVFk5dURDVzBFMHkyUFJOREhGdzVCQXRxcTBJN21KX2N2Ui01dXRwdVpwcnBRV3BSalQtOHV4RW1DLVVSXzg5ZkZqSU9oTHRWYzFsVmgwUUZFOXk?oc=5",
+      "pubDate": "Thu, 14 May 2026 13:36:00 GMT",
+      "source": "한겨레",
       "category": {
         "label": "🔴 HIGH IMPACT",
         "color": "#ff4757"
@@ -107,26 +118,13 @@
       ]
     },
     {
-      "title": "김정관 산업부장관 \"삼성전자 노조 파업시 긴급조정 불가피\"",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9ndV9EUnA0cGRIMjVDVDVZVWltTHhfMDctazlRRVJuSHlGSkVBblFhUTVWWWd4WGJ2WHVfbkt6cFZNai04N0hHSVgtWGJyMW9JeFNmQg?oc=5",
-      "pubDate": "Thu, 14 May 2026 12:22:00 GMT",
-      "source": "JTBC",
+      "title": "靑 “반도체 초과세수 활용 검토 아냐…세수는 상시 논의”",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9TLUZWRkVybWxvMTRQOE03MmtFWGVkQWxBYVpubE5ITk1CQ2ZjTHZqOEotUEMzZHpQWkJLOE8wanJXS0RVcnNHRzBxeS03RVJt?oc=5",
+      "pubDate": "Thu, 14 May 2026 13:21:02 GMT",
+      "source": "문화일보",
       "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "김정관 \"삼성전자 파업땐 긴급조정 불가피…대화 재개해야\"",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE15a284a1dQSUlJcVA0NU55d2ROSldNYTlQcE9FZ01Vc2dicm5aRVhVWlo2Tm1VT0hmV2tqNTdzaWh5SHN0a2JCblEtZmw4Q0d6ZE1wbHI4d29vRVV5czkzbw?oc=5",
-      "pubDate": "Thu, 14 May 2026 12:17:27 GMT",
-      "source": "뉴스토마토",
-      "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
       },
       "impacts": [
         "삼성전자"
