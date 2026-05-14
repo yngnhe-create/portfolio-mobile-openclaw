@@ -1,7 +1,47 @@
 {
-  "timestamp": "2026-05-15T00:04:21.078495",
+  "timestamp": "2026-05-15T00:35:22.750385",
   "count": 10,
   "articles": [
+    {
+      "title": "SOL 한국형글로벌반도체액티브(423170)",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPaGVmYW1yOWFIbjIyREhrUjZ3YUkzaC1XLWJBd1h5cHBxWGtFRnpNMUl5dzROTDNpQjhMNG9MYjd0WFNMTGZMMUFtX1FvcFY2Vk1lVktRalYzTUVjX29CLXJWODJxWGpZZmhmRnQwX184RDFWS1pQeU5SbGdrRFFKNlhfR0twTU9aZlQ5bEJXVTZFNzRLUmxV?oc=5",
+      "pubDate": "Thu, 14 May 2026 15:19:20 GMT",
+      "source": "매일경제 마켓",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "비트코인(BTC), 8만1000달러 일시 회복",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE43NEgzQ0VhX1poRFkyZnJPNThZekRvQ0ktcmUwRGNaQVpQNGZaVTFfVzVacDI0ZVU2STc4bXFnYzN5VXZ4R3k0Tkl1NkdUc2Ru?oc=5",
+      "pubDate": "Thu, 14 May 2026 15:02:13 GMT",
+      "source": "블루밍비트",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "환율",
+        "BTC"
+      ]
+    },
+    {
+      "title": "2026년 알트코인 시즌 시작되나…비트코인 우세 속 회복 신호 주목",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE0zWmdUbGFPNnF4QnlNNGxMSGozT2ttUTQ3YlRWZDVhU2l2ZWFZX3Rad2ZCb3JzZkdTbGZtYXBVWFZ4VE1xbGN2RmNraDJkdGVGUmE5Mk9MSWlUdklxaUdfT0lmSm9tZmN2ZlVha0NfQlkwYXM?oc=5",
+      "pubDate": "Thu, 14 May 2026 15:02:00 GMT",
+      "source": "디지털투데이",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
     {
       "title": "로봇기업 된 현대차·기아…사옥 순찰도 로봇이 한다",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB1WjR4X3o2Y3BuZ2p3eTlMaUw0M3ZIbTg3MF83aU5xXzY5QWJ6aUV4MDd1YkZZQUxIM040ZDRpdTJpcXJ0OGJZbEMwYkNUMGFFUW9mc3d3?oc=5",
@@ -16,15 +56,17 @@
       ]
     },
     {
-      "title": "[데스크에서] 발목만 잡더니 결실은 나누자고?",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBBVF9zRTQ1RXZWMC1XYUtJSFMwSXdpajJUYzhnRExGdDVnNEh0Nk9UR2ZzVW1VTm9MVWtQTHh1Snp5ZHJNcU5EUjdRTFNmMnBnRG9mdzRKcGFUN0FpN3ZMb0hqVUJXNXd1SW9Sek50OG5fOGpFTGFfZ2NLZUZMbXM?oc=5",
-      "pubDate": "Thu, 14 May 2026 14:37:00 GMT",
-      "source": "조선일보",
+      "title": "현대차 대표 세단 ‘더 뉴 그랜저’ 출시",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1odktwRmlCX25EUGJYWUZ3VFhQNkwwRkpCcTZmOEYxNzZfTFlBVHlrWUdfay11d1hTTEtMdUVvRDhmM0F2ck9UbGdBejlOa1dIRmREVWI0c0tDU3FxeXNnWmh1cnZBUDI1RnNYLQ?oc=5",
+      "pubDate": "Thu, 14 May 2026 15:00:00 GMT",
+      "source": "경상일보",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
-      "impacts": []
+      "impacts": [
+        "현대차"
+      ]
     },
     {
       "title": "국전, AI 반도체 소재 승부수…HBM·차세대 패키징 확대",
@@ -86,45 +128,6 @@
       "category": {
         "label": "🔴 HIGH IMPACT",
         "color": "#ff4757"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "“차는 계속 진화한다”…현대차, SDV 입은 ‘더 뉴 그랜저’ 최초 공개",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNNHZablJyLXZ2VHV0THF1Qm9LYkNKLU5BeXVaRGFNMTVkQk5qTnRxaHRYakRMRTJzbGxpa2dmaWhmX2NibXBGVElqdDJqd19nd1VUTzVhT1BwYXdnV1VYZ0h4U3RjWmtoNkpzUW1CRlQwMFhGUTgtbENZQnh1dlFYc0dzR2FaQQ?oc=5",
-      "pubDate": "Thu, 14 May 2026 13:49:23 GMT",
-      "source": "글로벌이코노믹",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "김정관 “삼성전자 파업 땐 긴급조정 불가피”…강경대응 기류 속 협상 압박",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAyYWhkdVdSWW5lVFk5dURDVzBFMHkyUFJOREhGdzVCQXRxcTBJN21KX2N2Ui01dXRwdVpwcnBRV3BSalQtOHV4RW1DLVVSXzg5ZkZqSU9oTHRWYzFsVmgwUUZFOXk?oc=5",
-      "pubDate": "Thu, 14 May 2026 13:36:00 GMT",
-      "source": "한겨레",
-      "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "靑 “반도체 초과세수 활용 검토 아냐…세수는 상시 논의”",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9TLUZWRkVybWxvMTRQOE03MmtFWGVkQWxBYVpubE5ITk1CQ2ZjTHZqOEotUEMzZHpQWkJLOE8wanJXS0RVcnNHRzBxeS03RVJt?oc=5",
-      "pubDate": "Thu, 14 May 2026 13:21:02 GMT",
-      "source": "문화일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
       },
       "impacts": [
         "삼성전자"
