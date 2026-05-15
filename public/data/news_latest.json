@@ -1,7 +1,22 @@
 {
-  "timestamp": "2026-05-15T22:57:45.676606",
+  "timestamp": "2026-05-16T00:28:55.167830",
   "count": 10,
   "articles": [
+    {
+      "title": "비트코인(BTC), 국채금리 급등·인플레 우려에 7만9000달러 하회",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1oWllFTE1EcGxSSlBBdkwxUUxkc3daOTNFNzQyX08xS2xUMy1SRERwZElJUjF4YUpjUDJCNkhfN1U4U20xRU85WHJRRXhRYWh4?oc=5",
+      "pubDate": "Fri, 15 May 2026 15:20:11 GMT",
+      "source": "블루밍비트",
+      "category": {
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
+      },
+      "impacts": [
+        "채권",
+        "환율",
+        "BTC"
+      ]
+    },
     {
       "title": "'삼성전자 노조 파업' 시민도 갑론을박...초과이윤 논쟁도",
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5Lb1I5cjVidDc3RjgxRllGZkQwX3VUQUdsVzdFcWtfZkNqWlZoVmUwUXl0OWVMa3NuTHd2bzhEN3k4Z2F4V2U2c1Q3dUs3aUxvUDdNYWp5Ml9zRUV3SlE?oc=5",
@@ -13,6 +28,19 @@
       },
       "impacts": [
         "삼성전자"
+      ]
+    },
+    {
+      "title": "[카드뉴스] 클래리티 법안 미국 상원 통과…코인 어떻게 될까",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5FYS1pU3JWc0pXUlNxdEcySVc4YmhROUtQM04yWDhoTWlaRFF3WkdVSzBpWGxTV0RYSEdzMWZ5Vm9RZWpBRUJJZE1QenNnMzdmNlFLQnB3?oc=5",
+      "pubDate": "Fri, 15 May 2026 13:35:52 GMT",
+      "source": "지디넷코리아",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
       ]
     },
     {
@@ -29,15 +57,19 @@
       ]
     },
     {
-      "title": "코스피 8000 찍더니 7500선 급락…매도 사이드카",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1PT0MwdF9lY0RhWUtKcUptaEd5MWpQOGRwZ0VlNUJ0RC1hMXNMeEw5OWZoYzFzZjdzT21HQmdOSUt3V3BLRy1ST0lpcEFCMHU5YlZ6VHdiNGc1aTE1Qm1zN0gzZm9aUE0?oc=5",
-      "pubDate": "Fri, 15 May 2026 12:13:00 GMT",
-      "source": "한겨레",
+      "title": "[시황] 비트코인, 8만달러 반납…금리 인상 가능성 급등에 투심 악화",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBVR3ZfUFVZcm9WN1RfeDVpV1Z6MUNLUktURmxLSnAyVThCQXhSRUxlSWM3ekthNlhWbjJPVGhPWHdrVFMzZFVSTzhpWVE5T1JL?oc=5",
+      "pubDate": "Fri, 15 May 2026 13:29:18 GMT",
+      "source": "블루밍비트",
       "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
       },
-      "impacts": []
+      "impacts": [
+        "채권",
+        "환율",
+        "BTC"
+      ]
     },
     {
       "title": "삼성전자 노조 “파업 이후 협의”…파업 D-6, 강 대 강 대치",
@@ -92,36 +124,10 @@
       ]
     },
     {
-      "title": "노동장관, 주말 삼성전자 경영진 면담…파업 중재 역할",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9wbXVnLXpYUHlTWXRoSU1ULVJmT2VsOThkZVNQVFBDMXNvVVIxa3kyOTN1LUFrWDhNbllSTDhMeVpqNFA0RWhZWHJKQUF1T2lqdXVkamtEQ1piQWo5Y2VRaWxyOXBwXzgxbWtGcjdfSTZPbTlW?oc=5",
-      "pubDate": "Fri, 15 May 2026 10:57:58 GMT",
-      "source": "연합뉴스 한민족센터",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
       "title": "삼성전자, 5대 매출처에 아마존…미주 매출 59.8조 '압도적'",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE94S2xOT0RUYzhsX0haWXJ4eVNJeEFBVVItTFVqT0MyNkZGeUhUSzNQVC00ZnJha3JGOEhsOER1MVI4dFEtR2FtN2QtUXFfREl1aE1OX1c2bTdrbGJEZ25OeEhnU1I?oc=5",
       "pubDate": "Fri, 15 May 2026 10:22:11 GMT",
       "source": "뉴스1",
-      "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자, 1분기 D램 점유율 38.4%로 증가… 주요 품목 시장 장악력 확대 - 조선비즈",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQRDNLU2R2NVE1dzJsOVZoUGdMZWsxdGtudVVEZEwweUVyRXNQQlNTaGJrLVlSLUVhWmNZTklSTEltUVdkZG04TWRGZlplQm9hajJKM1JXdFR1cTF5S3BmQmhpdWNjdHBfQmZYUzFrelh0VEFFbjRENW8tVWVmSXU5UG5B0gGWAUFVX3lxTFBzQmtiQU1oVmF5TDZUS2ZkZkc3cDQ2Ny1JWHVadmxvVDBvV19ISDRuUGhaZm1OZWlCRkFmRWpxQk9WNzF4ZnFhNmxwSFlTNTFJOW80RmtvdWVia2FackhhOVlkZ2sxbFlXeVZTdUgwSjRrVHB4bjliZXBtWlZ6Q21iajlUOG1wMnhZRFZpNXM2bFpRVVpFQQ?oc=5",
-      "pubDate": "Fri, 15 May 2026 10:14:00 GMT",
-      "source": "Chosunbiz",
       "category": {
         "label": "🟡 MARKET",
         "color": "#f9ca24"
