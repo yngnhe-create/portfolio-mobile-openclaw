@@ -1,38 +1,51 @@
 {
-  "timestamp": "2026-05-15T18:25:53.166445",
+  "timestamp": "2026-05-15T21:26:49.531459",
   "count": 10,
   "articles": [
     {
-      "title": "[사설] 삼성전자 파업 ‘긴급조정권’ 발동은 신중해야",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBScmE2OF9BOTM5OEV6MDJvcjNieGtmNjA5WVZHaElSSTFQbDdhUGJNQ0tVLUJXUFgxUU1uZkljUVpKVDJuMkZzQWdVYTlHSGNPX21RS0t0djM4aHVGalA1UDNtOTVJUzVFSGlfOEdnRXp3dw?oc=5",
-      "pubDate": "Fri, 15 May 2026 09:23:00 GMT",
+      "title": "20일 실적 발표…\"반도체 랠리 시험대 오를 것\"",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE0tRWRqVHFuOUdjbHhrOF9vVXZQLWFQYjZmNnF1Tmk2ek9PQlV3WF8tbV85eEl5OVVDUGlHQmJWYldCOTdmX1VDTU92RVBvYkNsbzBvQktPcTN1Vjc1V2FHZ2pSVHdEd0RDRlJzcTJDU1RXdFU?oc=5",
+      "pubDate": "Fri, 15 May 2026 11:57:25 GMT",
+      "source": "마켓인",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[고침] 경제(삼성전자 5대 매출처에 아마존 첫 진입…반도…)",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBXMWFaWmJvOW85M3h2azJMblZQTU93emEtSjBGb1YwWUh0TzlNTUtjcnVWLW5YM3dXODZjYzdpNWUzNndYNlk4dTJvM1lLdUlJTEE?oc=5",
+      "pubDate": "Fri, 15 May 2026 11:34:57 GMT",
+      "source": "매일경제 마켓",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "적자여도 삼성전자 임원 24억 상여금…‘0원’ 직원 허탈감 키웠다",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1BTk9qaWNDTkdMbW9leThxZXBsaDZIc1Y5STdmanJrNjBIYkI0MmVmMmhZVmpicFh2YUdqZ29WRWwyVnhlY0JxZTdyYllVMXRycVJBcEFCRmFoYmZobkswRlplem01Y19qYWc?oc=5",
+      "pubDate": "Fri, 15 May 2026 11:15:00 GMT",
       "source": "한겨레",
       "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
       },
       "impacts": [
         "삼성전자"
       ]
     },
     {
-      "title": "삼성전자 노사 긴급 회동, 40분 만에 ‘평행선’…김영훈 장관 중재 나서",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBDaWhXUlNaQTU1OVhobjdsX1NVcmxwbmdlNGhzdm1ORmtOQkd3VERHdDdWVlFJcWxpZEg0TXppMzFFNU9Icl9vbXppcm1FMHhXVW5CSkJwMGdJX2h6d3RLZVp0UC0?oc=5",
-      "pubDate": "Fri, 15 May 2026 09:20:00 GMT",
-      "source": "한겨레",
-      "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자 사장단, 노조 회동…\"대화하자\" vs \"제도화\" 입장차 여전",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE92eTZIRE1VYjRhdzZsSndsZUtjUDVTSmoyd2dobmw3WW5tRE1wUDZlUTBMM3Etb3J2N19CbHBqeDRObm9wYmM3anY4U2dmck9wdFR0ekpDaU53T2plQ2kwYg?oc=5",
-      "pubDate": "Fri, 15 May 2026 09:14:20 GMT",
-      "source": "프라임경제",
+      "title": "반도체협회 “AI 시대 발목 잡는 삼성전자 노조 파업… 소부장도 타격” 우려 - 조선비즈",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQMnFJT09MVzloTTdKcW41bUZvemZIRFZZaTZCdlhYUTJCWEZHY2dkZmV5QlRFMGZNc3hLVEZZQ3RCNldKdG1hZzRFRlI1M0l0NDVpTmMwN2EtSHlyd2h1cHBaVFphaUI0OG41TlVMN1Z1WnlhMXh1OXJHbEdlb0FaaDJR0gGWAUFVX3lxTE1YbUlVSFF5al85ZjhDZTBXNXR6bmhMNFpLb0dqT04wUm1lY3psZk1QX0pSdkZkMkY3WUJlekRZR0JLNmtNaGVfbXZxVko0R0R5RVE5Y1NmZUdObEFXODVFaVhUUDF4cWhVNTFkZVBsMkxvemxLNHZxTXpTdDRoR1ZSMmhHWk5EUmhiUWhSX2dqa2JIaWhndw?oc=5",
+      "pubDate": "Fri, 15 May 2026 11:12:00 GMT",
+      "source": "Chosunbiz",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -42,76 +55,63 @@
       ]
     },
     {
-      "title": "배당 퍼주다 추락한 인텔, 성과급에 멍든 GM…삼성전자의 길은",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE00endEOVNkajZoZ1ppaXNGSnY3eFYyYzFoYW5yVEJzZlBsd0tyNTFvZm1lQ0lURzB6RS1kTE1uWVVoWWRZYnJ4M2VVWjUwc1MteFppMnVqelVGUdIBVEFVX3lxTE5ZTFQxM0dCWW9raURmcjVUOWJ5aXZONXFnb3JRcjdtZWNRVEpRUUtpV0dSTDB4S0RLMGR5MHcyUzZtVWJrZ25pakZONXp2VHNYOTZFZw?oc=5",
-      "pubDate": "Fri, 15 May 2026 09:02:25 GMT",
-      "source": "한국경제",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "\"우린 40년 벌어야 받을 성과급\"…삼성전자 DX 직원들 커지는 박탈감",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFA0U09DZ1ZlaEdyMTBiSDRkeFpYeHlLLUY0WkQtLVNVc2dvRUY4Z2p3VjdsVkpoZWg2c1NETnFpQ2s2ZTByZmEzRTFBSlBiMjA?oc=5",
-      "pubDate": "Fri, 15 May 2026 08:53:02 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "내비 화면속으로 들어온 축구장… 현대차, 월드컵 열기 운전석에 심는다",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAwdXZ6TU9LQnhycl96U1dIc3MtcmQ4Z3FHbEVYWjFOeF9kNEN6Q19WRUxFc1VvT05wOEJpX2xCX3hZV2U2NUc3SU0yTGhyVEJrdnZraHg3RzZ6UWdaaElrbk4xMlpCZ1dYRS1RaElISjFDR2U5ZkE?oc=5",
-      "pubDate": "Fri, 15 May 2026 08:51:26 GMT",
-      "source": "동아일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "사장단·노동장관, 삼성전자 노조 만나…\"교섭 이어가자\"(종합)",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5UX0xOY09mcXRaUnpRMDdESlhCS09zRndNMmIycnFqUEtXRUJGVk1YTXYwQTF6M1NOQXV5QzVudUpHYlMwT1NKd2s1S09ORm5XTHJERUpVOFFlMlJFQmZ6M2Njd0MwSWNDUlRUU0x6bEE?oc=5",
-      "pubDate": "Fri, 15 May 2026 08:46:32 GMT",
-      "source": "연합인포맥스",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "피치 \"韓 성장률 전망 상방 압력…강력한 반도체 수요\"",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1PNHBDcmZoRWFPd1A2MVRoZTZCTkozdDRialB0X1Ntc05hSk9nZldRSklyQlIteFJPc08xVVJDVWxhSG5iVTY3TXdPeXpDZk10ZFVwLWFOOVBaQWRTSHpfRnJiR3hwb2R6VWxzeWJ3NEw?oc=5",
-      "pubDate": "Fri, 15 May 2026 08:44:25 GMT",
-      "source": "연합인포맥스",
-      "category": {
-        "label": "🟢 POSITIVE",
-        "color": "#4ecdc4"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "반도체업계 \"삼성 파업 땐 소부장까지 타격 우려…협상 타결 촉구\"",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1sVFdCb0RLdHFWdW1RT0lraldJTk9hWWVReGNKY3dPWFdOb2dyN29jbnJYZ2NSWVlFRlVMMGNOMF9Yam9RV2FIbUpwX3EwNXBVa0gtMExRQXJEUTNpeDhMNnpnNjU?oc=5",
-      "pubDate": "Fri, 15 May 2026 08:43:57 GMT",
+      "title": "삼성전자, 5대 매출처에 아마존…미주 매출 59.8조 '압도적'",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE94S2xOT0RUYzhsX0haWXJ4eVNJeEFBVVItTFVqT0MyNkZGeUhUSzNQVC00ZnJha3JGOEhsOER1MVI4dFEtR2FtN2QtUXFfREl1aE1OX1c2bTdrbGJEZ25OeEhnU1I?oc=5",
+      "pubDate": "Fri, 15 May 2026 10:22:11 GMT",
       "source": "뉴스1",
       "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전자, 1분기 D램 점유율 38.4%로 증가… 주요 품목 시장 장악력 확대 - 조선비즈",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQRDNLU2R2NVE1dzJsOVZoUGdMZWsxdGtudVVEZEwweUVyRXNQQlNTaGJrLVlSLUVhWmNZTklSTEltUVdkZG04TWRGZlplQm9hajJKM1JXdFR1cTF5S3BmQmhpdWNjdHBfQmZYUzFrelh0VEFFbjRENW8tVWVmSXU5UG5B0gGWAUFVX3lxTFBzQmtiQU1oVmF5TDZUS2ZkZkc3cDQ2Ny1JWHVadmxvVDBvV19ISDRuUGhaZm1OZWlCRkFmRWpxQk9WNzF4ZnFhNmxwSFlTNTFJOW80RmtvdWVia2FackhhOVlkZ2sxbFlXeVZTdUgwSjRrVHB4bjliZXBtWlZ6Q21iajlUOG1wMnhZRFZpNXM2bFpRVVpFQQ?oc=5",
+      "pubDate": "Fri, 15 May 2026 10:14:00 GMT",
+      "source": "Chosunbiz",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "트럼프, 성과 급했지만…반도체·관세 '안갯속'",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9IelVuX0FCT0g5MUx4ME8yRE9wQVMwYmRaNFhzeFBDcFhiOGVzY0pITjRVeGZFNjN3Y3RHQjhaWGlVbG1qVGN1MldKa0pqWF9zem02TTQtcmtrSUlzTjY3ZHh6bHQ0YlBOSzBrRllvQldCcWpN?oc=5",
+      "pubDate": "Fri, 15 May 2026 10:09:33 GMT",
+      "source": "연합뉴스 한민족센터",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[사설] 삼성전자 파업 ‘긴급조정권’ 발동은 신중해야",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBScmE2OF9BOTM5OEV6MDJvcjNieGtmNjA5WVZHaElSSTFQbDdhUGJNQ0tVLUJXUFgxUU1uZkljUVpKVDJuMkZzQWdVYTlHSGNPX21RS0t0djM4aHVGalA1UDNtOTVJUzVFSGlfOEdnRXp3dw?oc=5",
+      "pubDate": "Fri, 15 May 2026 10:05:00 GMT",
+      "source": "한겨레",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "'삼성전자 노조 파업' 시민도 갑론을박...초과이윤 논쟁도",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE44STRlRzFFLS1qWnFfRXYyMlAwMlRjQkY0V2YwSktXSWE3RnhMMVVHZ2FRbWdEaEFlOXR6eGxYejVTUEdjWGNKY2NIaEtLUlZob3llVWxTT0xmZVpZVXc?oc=5",
+      "pubDate": "Fri, 15 May 2026 10:01:00 GMT",
+      "source": "YTN",
+      "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
@@ -120,10 +120,10 @@
       ]
     },
     {
-      "title": "삼성전자, 호주서 테크세미나",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE96dy1DWkhHZ0xyTjNDY3dHLS1WR09ucEpvM0Z0RElrY1pjQ05TZlMxY01IZHYtUjFYSDhhMkdxVWNSTUhZVVJvdVpadkhiN2FBM0xVZG43VEF2d9IBVEFVX3lxTE9WMXBGTG5WS3g1MGhDemVPUnNHNTJPTzZUaHpHZkNDQU5PLTRzU2Q3YkYwVnRhNnlBVG4zMG1vdGszOEx5d2NWZ0dOaVhVZWVQSTNMRg?oc=5",
-      "pubDate": "Fri, 15 May 2026 08:43:21 GMT",
-      "source": "한국경제",
+      "title": "'삼성전자 총파업 D-6' 노조, 노동장관에 \"사측 교섭위원 교체\" 요구",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1MdFZBOGdsNVNGaG82TWQyanZTYXJtMFdzdzlGbXNJYS1ZUFR2S0haR3VDVV9fN1VidWFFVnJIZlhXd3hXamZxY3J2dmQ5WW9kUHRjbTNUbG9USWM1Mk8wUEd6VHdqdkxoVFdrMnFsV3o?oc=5",
+      "pubDate": "Fri, 15 May 2026 09:59:52 GMT",
+      "source": "신아일보",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
