@@ -1,7 +1,20 @@
 {
-  "timestamp": "2026-05-18T02:07:49.892611",
+  "timestamp": "2026-05-18T02:38:03.798530",
   "count": 10,
   "articles": [
+    {
+      "title": "삼성전자 노조 간부 \"긴급조정 와도 파업 강행\"",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFAtQzJwbXd1VmZ1YmJ1T3hndE9ONGt3Uk5rYjhlb2RyQS02ZjFCdVZGa0NZcDdJaENEUWJQUHVqN25RZTJzUlRVWTBBYUgwZUZjVFhxY1FlcHFjdW14TEE?oc=5",
+      "pubDate": "Sun, 17 May 2026 16:31:00 GMT",
+      "source": "YTN",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
     {
       "title": "삼성전자 파업 앞두고 학계도 우려…“반도체 생태계에 치명적 파급”",
       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE0yM2hza3ctbVgyRE9TT3FhaExiekdvQS0yYTFnOFNxREtPNng4WHFMNzEwejJ1dFh4MzFwRFZnR1lpdkMwLVRnY3Jvb2FFNHVo?oc=5",
@@ -19,6 +32,19 @@
       "title": "[기고] 비상체제에 돌입한 반도체 생산라인",
       "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQTDFtRGotbDRDTEZWa3g1NTFnclZfUGdhMDNQdDJObHpWVDg5UTE3cFJQYV80WWZoSlh0UEdZUGlFOWxkemlnbndxYTlBUmVvMUhJQ2diUDdXakVNV0RBMGwwN1lGV3p5eFRFTHBXdkVCaEdVTWZFWm8wbkxLWkRJdFlKcnFXejBGa1BIVVlPNXY?oc=5",
       "pubDate": "Sun, 17 May 2026 15:59:49 GMT",
+      "source": "서울신문",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[사설] 삼성전자 파업 초읽기, 공멸 막을 마지막 기회 놓치지 말길",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNd1d4VnVYZzFZQVhRVDBVVDBkc2w5X3hkWTBaandEaTc5My1fd3ctZktDOFJZeU5QRUs5UHF5QS1SZTctaU1lbFBWaU40c1BFYXVVYjlwT0lCakhXM0ZWOENjTldiLVFPNFk0WlRHNElqN0Y1RlJGd0FUczRpVTFsTjdB?oc=5",
+      "pubDate": "Sun, 17 May 2026 15:59:07 GMT",
       "source": "서울신문",
       "category": {
         "label": "📋 GENERAL",
@@ -51,8 +77,8 @@
         "color": "#8b9dc3"
       },
       "impacts": [
-        "NVIDIA",
-        "삼성전자"
+        "삼성전자",
+        "NVIDIA"
       ]
     },
     {
@@ -104,34 +130,8 @@
         "color": "#a55eea"
       },
       "impacts": [
-        "환율",
-        "BTC"
-      ]
-    },
-    {
-      "title": "현대차, FIFA 연계 디스플레이 공개",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9EWVoxUXBRa2tGRTVtcHJ0ZUJUOXgzLWxSaTgyWkxCaEl5bHlmcnFmcElyM0FSYmxod0p0TjZWa2NRUWhueVhmMG5YbDFSdTlVUWpCdnhwYjZVdU5yRXZfZ1FEcHZSRXkyR3dsMw?oc=5",
-      "pubDate": "Sun, 17 May 2026 15:00:00 GMT",
-      "source": "경상일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "삼성전자 노사, 오늘 교섭 재개...파업 전 '마지막 담판'",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9nXzFrZGZLazMzWklqbG92MzgzcG00Nk1ZdDRkX0w4bFI4RzBXRTJnZVk2QnJOV3Ezak4zTUpuNzJOamtKUDZzYVZBQS1NcTlXYm9pYW8tSWhTOXJNYnQ1SFBIeE9mam0xMXlKU3Y5VVlIaTQwUnc?oc=5",
-      "pubDate": "Sun, 17 May 2026 15:00:00 GMT",
-      "source": "YTN",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
+        "BTC",
+        "환율"
       ]
     }
   ]
