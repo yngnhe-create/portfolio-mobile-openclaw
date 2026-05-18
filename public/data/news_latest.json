@@ -1,20 +1,69 @@
 {
-  "timestamp": "2026-05-19T00:14:47.765486",
+  "timestamp": "2026-05-19T00:45:02.236975",
   "count": 10,
   "articles": [
     {
-      "title": "가상자산 시장 약세…금리 인하 기대 후퇴에 비트코인 7만6000달러대로 하락",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9jRldra29aMl8zSnI0ak1reVRSNlYySkp0Tl9pa3JsX2JSVkRRWlowLWFRTW5JY3R6OUhDc2liUEFnRm9fRFdhMXU2YzlCZURs?oc=5",
-      "pubDate": "Mon, 18 May 2026 14:54:50 GMT",
-      "source": "블루밍비트",
+      "title": "삼성전자 평택캠퍼스 인접 ‘독보적 입지’",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQYjI3Vy1qOEM0blB1a0s3OUJJSFUycUxVX2JSSHlWYlZER2pqOXJ0V0tROXE0TjVxaWR6c0ZLc1MyOGtzTmU1ZkoxdEJJRkUzdmhXUGQyX0MyYVBHLWxMcXR2OElKY0ZCVEpuX0RKSk41eEFHSUlrcFBsZ1JnUVB2TlpoZHhDQmVh?oc=5",
+      "pubDate": "Mon, 18 May 2026 15:37:00 GMT",
+      "source": "조선일보",
       "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
       },
       "impacts": [
-        "BTC",
-        "채권",
-        "환율"
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "분산 투자 내세운 ETF도 ‘삼전닉스’ 쏠림 가속화",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxONGlyMnBpTEZFTEZOa29wSVVvTEtsUll4dUpMT1B1X2w0UkVheVk5alV4YUZsRExFWVlZRWozS0pkYkR0bHRndUo1TTg1bWRkV1lOSU9PYkttTlBmMHdpVjhVNmRRQ2tYWXE4cUlGazducnozTl9YMGhXSy1oN3RXSw?oc=5",
+      "pubDate": "Mon, 18 May 2026 15:36:00 GMT",
+      "source": "조선일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": []
+    },
+    {
+      "title": "[사설] 대통령·법원·국민이 반도체 파업 만류, 노조 이제 자제를",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNV2I3WWhFQTF0VUV6YzJ1Q0xEXzJQZmdnbm5ubkIyUy00aUFDWlJQcHcxdko3QXhPOEIxLUtaT2hGLVo5V1I4SFJoSzVRTDFTcU5fR3dzZ29TMXMtNVIxX1RHS2ZWU255RUFSYTEyVUVFNmxMN0NSZ09id0tUa0hYWk1WUEFMZw?oc=5",
+      "pubDate": "Mon, 18 May 2026 15:20:00 GMT",
+      "source": "조선일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[사설] 금리 상승·반도체 피로…‘묻지마 투자’ 경계를",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA1US1wU1A4RFFmamVJMThuOUZXU0oxOXN4YjNXMDVaUnNvVlRRZGpxaWNMNWRZWVZXUHM0MXd0TGtNdHZtekdrQ1kxdW45UEhWb0x5Mi00TVlBMjE4cEYxRFZXTnVVSGJIWHF2MDN3?oc=5",
+      "pubDate": "Mon, 18 May 2026 15:00:00 GMT",
+      "source": "아시아투데이",
+      "category": {
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
+      },
+      "impacts": [
+        "삼성전자",
+        "채권"
+      ]
+    },
+    {
+      "title": "생산·충전·활용…현대차, 홍콩 수소 밸류체인 구축",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB1SjJrbDJDaGVjc0lsVWllNjFtUTIxNUVmcVo3OG5RbVFvSTNIWjk4YXpGcWU0c25JRmdDQmVOUjVGU2dNaFIxTXlNNkNiRWNtcXo1UlBOOElzblJSYU8xYUxzY3VHZjJlR0JWaQ?oc=5",
+      "pubDate": "Mon, 18 May 2026 15:00:00 GMT",
+      "source": "경상일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
       ]
     },
     {
@@ -58,32 +107,6 @@
       ]
     },
     {
-      "title": "“삼성전자 파업 리스크에 외국인 자금 대거 이탈\"",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE03R0lodUtnSlpTZFJSTUFJSTFnSUp3c2w1UXQtdUpDY0tBVkJMUHlHS1lySlZXeFQxa2g3M2tYMzZsRDN1amhsVHBYZktUcWJuYzRXbGRONVZWX1k5YldrTjRmV3d0WEhzNVE?oc=5",
-      "pubDate": "Mon, 18 May 2026 13:56:52 GMT",
-      "source": "데일리저널",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "“삼성전자 파업, 단순 노사갈등 아니다…대한민국 경제 뒤흔드는 초대형 리스크”",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE45Y1c3ZnNvS1NhMHU1SldvcVh2TWs0MS1DX1Z5TlVmY0lhZkZBa2xlWVNwSXV1M1ZMbnhuWE4zTWxiTkg4cV8zR0hfaWFPYmIxSENqUTFJbVdURjUyN09fTk8tT1pKR2xXSVE?oc=5",
-      "pubDate": "Mon, 18 May 2026 13:50:44 GMT",
-      "source": "데일리저널",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
       "title": "반도체 거품? 소프트웨어 저평가? 뱅크오브아메리카 수브라마니안의 반론",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1tc1VJNmRyeWZRc01mTmpfekZ0WTVMWHh2NThQdWhWckl1anlWbjYwb3ZfLTFJWkVOZG1PcGNwNWhIWFpyVFczWkE5RmZfQmRMcHBWc3NZVi1kR1c0Mi1LZUZvLUgzRXZNSnU4R3pDUkQ?oc=5",
       "pubDate": "Mon, 18 May 2026 13:42:00 GMT",
@@ -101,32 +124,6 @@
       "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5mOUgwUTB3NEZ1dDg5X0hwR3Zha1BaLUNYN2s2UUlGeExvV0tyX1NaSjZpczYtcFFMaXA4RS1wcjVGNzJ1Q1JnWEl5dkVHRDFwaHJ3Q3ltV1A?oc=5",
       "pubDate": "Mon, 18 May 2026 13:39:48 GMT",
       "source": "뉴스1",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자 주주·경제계도 “파업 우려”...'노노갈등' 확산",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBrX005SUFKQ1N5a1ZsdXJyd2Vxck9VM0hob2M4cWluTnZ1WEItTWVGNjIxb1hhMGJudzhFZkhqcW54WlJCREQtTVRhdUFTQTk5bzBuSVN1NmFSZ0dnUmc?oc=5",
-      "pubDate": "Mon, 18 May 2026 13:34:00 GMT",
-      "source": "YTN",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "중앙노동위 \"삼성전자 노사, 접점 찾아가고 있다\"",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1JTGk5WUlhNWstN0loNUNVM1hEU01WMXRtMU80QkFOa1NEVFo1VkxBangyai13QjNrVlBETXBDM2N1a05YdWViUzBkZ0JfYjZkQnhPSnJ4bDhUNUVLU3c?oc=5",
-      "pubDate": "Mon, 18 May 2026 13:33:00 GMT",
-      "source": "YTN",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
