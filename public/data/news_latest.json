@@ -1,38 +1,12 @@
 {
-  "timestamp": "2026-05-18T10:41:32.799056",
+  "timestamp": "2026-05-18T11:11:47.067559",
   "count": 10,
   "articles": [
     {
-      "title": "엑사이엔씨, 1분기 ‘흑자 전환’…“반도체 빅사이클 수혜 본격화”",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5lQ1JjTi1mNU1wM3VUejVSOGVTdHJPbmllZ1NZcjlBUDVFM242MEx5VlhDdUlPeU9jMGpoQzZOZkJBWDJCSmVqbjRrWGxrWC1xeDVrQm5aNTV3MGZBRHJaVlh5N3Y?oc=5",
-      "pubDate": "Mon, 18 May 2026 01:37:48 GMT",
-      "source": "서울경제TV",
-      "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "빗썸, 첫 입금 고객에 비트코인·피자 쏜다",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5zeHZTa0t2WmtuTHBVMFlVV090LXBMY05aTERJY1JXNW5VQk1Zd2JoODVLbk5tQjUtWGZuUEQzaWpmZF9qei1WZFpfR2JPVk9HamhzdjlFRG8zci1LbGJjazFMYTc?oc=5",
-      "pubDate": "Mon, 18 May 2026 01:36:00 GMT",
+      "title": "삼성전자 노사 2차 사후조정 시작…총파업 전 마지막 협상 분수령",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1XMTdWVFFkczNYV3hQOURnWjZpeG01TjN5Zk9penVjVmUyTlI0RllQRS1WeGd2TWFBRjg2b0FqT085SWd6OTQtSlNVOGRKbTduMnpLOVBoSGtFRkVPTnJjb0IyVFc?oc=5",
+      "pubDate": "Mon, 18 May 2026 02:03:18 GMT",
       "source": "디지털데일리",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "삼성전자, 창사이래 최대 총파업 갈림길…정부 중재 속 막판 협상 재개",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE45dW9UT0Y5R0JabHI0SUFnQmxBTjVBMThtRE5YN2d0cDljemxPdERKYjVzTzZzRHRmWm10Q1U4bTN2eHhwdXZUWFFUOVNJMUJyVGE4WUo2TWJpRzh1MUxCTFZna2F4Ym5YYlFVNHFR?oc=5",
-      "pubDate": "Mon, 18 May 2026 01:35:09 GMT",
-      "source": "mstoday.co.kr",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -42,49 +16,62 @@
       ]
     },
     {
-      "title": "대통령도 노조에 견제구…삼성전자 상승전환해 2%대 강세",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5xZkVWaHpBZlZZSzd4QUtRckotcEN1QkV5RWs0UDI3VnpSSzdERE5pN0IybjNrS2x3ZUdPNHFhY2REejh2NGFjY2IxbG1DSzQ?oc=5",
-      "pubDate": "Mon, 18 May 2026 01:29:52 GMT",
-      "source": "v.daum.net",
+      "title": "법원, 삼성전자 쟁의행위 금지 가처분 인용",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5UUUFrdmRtOFhqN3BZV1R0cUNES0RMUDRMSmRMX2pFMmUzb3pMaDBRcWd4NW5TMmV3cU9LbC1RdjVWRS1qZnExNmI0LVB4dmNyX2FiMHNvVEQtZ9IBVEFVX3lxTE10RnNhMlNHMmJFNjd4Y2hFcDRBcXFkSlRCMWtHbE14SGNMbWhWSVFhZEswWGFnWTEydnN2T01OSWt6YWxabW5JV3NPM0JQbk0xNjRrUg?oc=5",
+      "pubDate": "Mon, 18 May 2026 02:01:05 GMT",
+      "source": "한국경제",
       "category": {
-        "label": "🟢 POSITIVE",
-        "color": "#4ecdc4"
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
       },
       "impacts": [
         "삼성전자"
       ]
     },
     {
-      "title": "급락장에 현대차그룹주도 '흔들'…현대차 6% 넘게 하락",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1JR1BIVWJEb2FVVUlQVVEyc3A5dkNGeHVhTlAxVENtRUZ0NFp2ODdINGhlajZKaW1iVEJWb1FnMHVvQ0s0UmI1SG9wbm83Z2NGUFNwTE9pMU5OQmt5eFhMddIBeEFVX3lxTE04MHVGVnZmWE16SUtuS3N1Vm80M2RFaVkxWTlMTFFMQmstaHNNNnUzaXJSQVpJYjRRNFBVMWVuWmtNcDEwZllkcUtyRUVaY25ybU9tQW5rZ2p1VElIT3N3YS1ucldaeG9fVUl3RkMxTW02X29wbGdMbQ?oc=5",
-      "pubDate": "Mon, 18 May 2026 01:29:04 GMT",
-      "source": "뉴시스",
+      "title": "현대차‧기아, 인도 공과 인재들과 배터리·전동화 공동 개발",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBUVzkzaFJlMXlGN2xXS0lVWVhvbjR1cGJiaUhSVG1CTjAycVctbHRpMlJrQjc4c2dFejJLaHhOeVVTcXU1QnFpbGZuXzZ3TnZkS284UVplX2tnSlFzRkhaTXdaLTg5UWlhRmVwUkR1U3lHVXN6ZzlFZFJycWE?oc=5",
+      "pubDate": "Mon, 18 May 2026 02:00:06 GMT",
+      "source": "한국금융신문",
       "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
       },
       "impacts": [
         "현대차"
       ]
     },
     {
-      "title": "[테크데이, '판'이 바뀐다]〈1〉반도체 기판, AI 인프라 투자로 시장 개편",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5rclBzYzBNdmQ4NlFlbWdoaXFmaHp6TldHRDU5YnVyZ0otUHM2TGdfWjVPZUdoSFJYakR5NWZmRzdpbWxHYTRHdkVFUnlKQQ?oc=5",
-      "pubDate": "Mon, 18 May 2026 01:27:48 GMT",
+      "title": "경제6단체 \"삼성전자 노조 파업 시 즉각 긴급조정권 발동 필요\"",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9DWEdrVHhEbEJZb2JHLTNWR2VQMWt1MXJTZFd1amR6T0RwdGFSUHZ5MTFZbWZkNzl4aVJ2aWJ1V2cyN0FZdDc5M1VQd0RORzNWckdtczln?oc=5",
+      "pubDate": "Mon, 18 May 2026 02:00:01 GMT",
+      "source": "지디넷코리아",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "경제 6단체 “삼성전자 파업, 국가 기회 손실”…긴급조정권 즉각 발동 촉구",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9kQU01QlhYc1RTM2p6eDNDOTZtQnNOS1VOUU5fSkVOcVF2TDlLV1NjeE1aeTJLOW8yRHRQUDhKMk90R1VIanJKZjZHcXR4Zw?oc=5",
+      "pubDate": "Mon, 18 May 2026 02:00:00 GMT",
       "source": "전자신문",
       "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
       },
       "impacts": [
         "삼성전자"
       ]
     },
     {
-      "title": "[이종환칼럼] 삼성전자 노조의 욕망, 그리고 ‘개와 그림자’",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9IUENaZGRSSWtzWm4zeFVYOGFGUGNJOE5QLWdwTHlOUnpvQ1RSS1kzVXllaDFjZ0stVDVoakNxZkRNWHhFRU5samVuay0tenFVVkkxTmtwZEdPYVNnQ3RFMmpkcDRWbVZQbFNJSHZ3?oc=5",
-      "pubDate": "Mon, 18 May 2026 01:24:00 GMT",
-      "source": "월드코리안뉴스",
+      "title": "삼성전자 노조 간부 “회사를 없애버려야”…논란 커지자 “관행 지적”",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE04dE5ndF9KaHFIZWRQSjN5RmZsVElWc2tKcW1HZG5mdXdfQ2FwV2lDZnNRM2pLS1pHTE96VUl6ZmZpODFaRXM2OW1zQjRreDBxQTN4ZHh1ZGREYjdLWFhTbGMxZTVPUHBzYkHSAW5BVV95cUxOUllsancyUjRUNDZ3bkpvbExYRV9YRmF1eFFSb0tmWkV6RWQwSEF0RmxyQW1JU2dtRUhkb0VmYTVSaUJOREpsY0oxOU1vbHhfS0stQnhRZW81M1NwdDJBRGZjcFVVakFOQm1ubU1QZw?oc=5",
+      "pubDate": "Mon, 18 May 2026 02:00:00 GMT",
+      "source": "조선일보",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -94,10 +81,10 @@
       ]
     },
     {
-      "title": "삼성전자 노사 2차 사후조정 돌입… 노조 “성실히 임할 것”·사측 침묵",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE93VzNnbEs0Uk1BNU5kVTlERTV2RVpMVE1kX1d5TGRWSXFwNEx6anNtYlhmM1FEUHhZXzd0blNVNndtaXNFUjUtWmVMeEpWWDQyRkhzTnN1UzZUS0xKbGNGdnkxM18xV0E5S2c?oc=5",
-      "pubDate": "Mon, 18 May 2026 01:23:31 GMT",
-      "source": "hidomin.com",
+      "title": "경제계 \"삼성전자 노조, 파업 철회하고 대화로 해결해야\"",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9maEVBSnhPMUVzRDNhUndwNzNTaDBqUkswV3FkMkxxa1ZnakxxUy1IZmJLYUMtMTdCVEJaWk95ZE1uUXhtM0FiajNoYjJ2LUU5TXptY2VpTjVHb3liUmFoOGFCYlBtTHQ5Q3c?oc=5",
+      "pubDate": "Mon, 18 May 2026 02:00:00 GMT",
+      "source": "서울파이낸스",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -107,23 +94,36 @@
       ]
     },
     {
-      "title": "빗썸, ‘비트코인 피자데이’ 이벤트⋯ 첫 입금 고객 대상 비트코인·피자 제공",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE40bndTRUhYdWdybzJKZk1SVVV3S2RMeXM2MWIzSnpfSEhKeE5DeEJDdzgzOEQ5dHZCdkZYdWpwbzJQSGppOWFkdk5xWm5CNDMwZ3pSQ2ozeFIzZw?oc=5",
-      "pubDate": "Mon, 18 May 2026 01:23:00 GMT",
-      "source": "브릿지경제",
+      "title": "경제6단체, 삼성전자 노조 총파업 철회 촉구… “반도체 생태계 흔들 수 있다”",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE56VGhiYk9UOXVMR2lRVFE1NE91WkJTaWZpRjZDSmxzZjZWdUFaYnYwYXZKT01hbEZCUnZHSG44UW15NXdjVnBjSFphY3dwZjJSU0FsWnhzM015OGtadkRoOG54Tk16TktabWFwTUJB?oc=5",
+      "pubDate": "Mon, 18 May 2026 02:00:00 GMT",
+      "source": "아시아투데이",
       "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
       },
       "impacts": [
-        "BTC"
+        "삼성전자"
       ]
     },
     {
-      "title": "소액주주 단체 \"삼성전자 성과급 제도화, 주주 95% 반대\"",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE83SzlTTlk3NlhZcmpiclIwcjhlb0pyZHJiVlp6LWhnOEgzR2FvV1diOUV1all3Zy00SDNvcHZvbTEzU1MtelA3YmZlX3lhUzdwdEhscm9yWFhFVTRLRHZB?oc=5",
-      "pubDate": "Mon, 18 May 2026 01:22:46 GMT",
-      "source": "뉴스1",
+      "title": "[ANDA 칼럼] 역대급 호황인데 '밥그릇' 걷어차나…삼성전자 노사, 상생방안 찾아야",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBCN2UzUXdiRmlEU2JJbFdjem1Cd0t5TXA0S3Q1ajlCNjNEakxRY1Z3WUJjVnpWSnJndkFraFZ0X3RmOWdrZ2x4RndFWGMwMWloNEp2NnhHQnVDenpa?oc=5",
+      "pubDate": "Mon, 18 May 2026 02:00:00 GMT",
+      "source": "뉴스핌",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "다시 대화 나선 삼성전자 노사…2차 사후조정 절차 돌입",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNVDFwNjdWaUpkZlN2Ty1wOFV2ejNnd2pNZXFkSFlKVzdwTjZKa0dPRXJibnJEYXN4cWxpaW9VYlNuQm4xSVp1UFBIdEdmMlQyUEp6OEpkWHBmazB0Nmlzemt6QzdKTXN6anp4c2daNlZxMVpxVldkNkVNMklpb1lRNk9scGFhdw?oc=5",
+      "pubDate": "Mon, 18 May 2026 01:59:08 GMT",
+      "source": "글로벌이코노믹",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
