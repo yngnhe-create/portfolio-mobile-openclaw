@@ -1,103 +1,26 @@
 {
-  "timestamp": "2026-05-19T04:45:59.023600",
+  "timestamp": "2026-05-19T06:16:13.718893",
   "count": 10,
   "articles": [
     {
-      "title": "샌티멘트 \"비트코인(BTC) 하락에 공포 심리 확산…오히려 반등 신호 가능성\"",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1iWVRVNE5NdjN3aWpDamxRTjMtTFgwdnZESndSWTJJb1JXdTVGeGd0M1JTQXB5UXBkbUZZVTNTSG9FUXB5VWVUQ0pDUTRLR3BV?oc=5",
-      "pubDate": "Mon, 18 May 2026 19:41:12 GMT",
-      "source": "블루밍비트",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "李, 삼성전자 노조 향해 “기업경영권도 존중돼야”",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9DaEhNM1Y1NzA3U0NNek1sTlZLa2k4em9QWXZ5WFBSMW9TRk9iUU1CRGFoOFoweTdRWlI1akdpZ1JYWGRsaU1mU1lGSkhEOEVreC1lMzZDMmNPMmMwaDdaRy14Mi1vYUJtbm9TU01RZXZVZDJ2bExN0gFmQVVfeXFMTTBkSXF2YWlSSy1PQWpUMG1uVVdFUzRzM0dtc084V2VCSW9kS2pEYlctcEpLRkRFVG9CUTZPM2t5dDF1dVlWTTM3QjVLZFJGNjQwNkpaekMwWEZSTXYxMnFBRDAzUDFB?oc=5",
-      "pubDate": "Mon, 18 May 2026 19:30:00 GMT",
-      "source": "동아일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "현대차그룹, 2030년 홍콩 수소생태계 구축 정조준",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQWDlmNk5YM3NGZ2Iya0t4SHhhdWpGTGFQd1RuUDVlSjRJVlJBTGxHY0F3TjE5ZjcwRmpxVTVLTnVWZVhzZW1XSS1ZSFlZeVhZVUpvZmxaSmFPbTB5LTJhaXdRaW1jdDVabTNpa0txNlE1eHJEa2llODFvWHJxVE5rR1d0VUZ5Q1hT?oc=5",
-      "pubDate": "Mon, 18 May 2026 19:00:00 GMT",
-      "source": "글로벌이코노믹",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "“마이크론, 제2 엔비디아 아냐”…AI 반도체 열풍 속 월가 경고",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPaFB0UWZuV0JuWElsZUw4NUM1LXpNSnY3aHZEVTFUSlVaZ3FRZmFkdUxlWFk0UlA4Q1JLV2ZVRlRFX0xUR0JqMENHU2QxRmx2YzlETmMzYjJaX2dTc0U1UHRlS1JVQk9xWXNiNW53ckNuZWVQcURSZEdTVHlYeDB6MnRtTllZR3Fp?oc=5",
-      "pubDate": "Mon, 18 May 2026 19:00:00 GMT",
-      "source": "글로벌이코노믹",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "NVIDIA",
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[사설] 선 넘은 삼성전자 노조의 과격 발언 - 머니투데이",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9EZTh1VWFTUDJqRWJOMGtIOWNLY3pXaHd6UkllaF9OdjZTT2RDcEg1QUpIcXlOdFhGV1NjM0J3Nktpa0dLc3NYcTN1OG80U1ZWMnZudmZ6VE1scUtYc2E4RnE5b1B6Y05qYzZF0gFwQVVfeXFMTWRWVWltTUpUZUhfcTlvdFY1OENvRWw1TW9ZZ3lBcklxTEM2VzZEM252YkgweGhhWVNPLUpjbVJuVEF5VXppYTZtMGpCMTRIY2xGV2V3NXYwd1F4eFlZWk5TQlpkemlwM2lJUmxnbXNTeg?oc=5",
-      "pubDate": "Mon, 18 May 2026 19:00:00 GMT",
-      "source": "머니투데이",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "현대차·기아, 유럽산 관세 25% 인상에 미국 경쟁 판도 바뀐다",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOT2FBVDBsbVNnMGd5eVRnS3FpOVg4QXFpU3g4ZTdyMVVuMmE4MDR5WHBiUVpXejRXakRZbEtlQ0NjVnoyT3Fsbmt0X0hOeW5TbHdWN3pRbmVGbUZELVZrN1JNRkNtSlNOTmRTN3BXMHlueElRSGIwZDdoZGFteXViRGJ2VkpkaXY5?oc=5",
-      "pubDate": "Mon, 18 May 2026 18:30:00 GMT",
+      "title": "이란 '호르무즈 세이프' 도입 파장으로 비트코인 7만6000달러선 붕괴 위기",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNTFpodmQ2UjJ6VUNQQkN6UWJJaEctdkREdkJQbkhJVVBSRllLQS1EZV9KMWgzakt1TGUwbVM3Y0tRekt4M2lDSHU4NWlZeVZ6ZEw1QThPc3lIeU80WWM0SENPdVA2OVVSeEJGSDFwS1dNaVVIX1RNUWFOQVBmN01RaDltaXBJNkgt?oc=5",
+      "pubDate": "Mon, 18 May 2026 21:09:20 GMT",
       "source": "글로벌이코노믹",
       "category": {
         "label": "🔴 HIGH IMPACT",
         "color": "#ff4757"
       },
       "impacts": [
-        "현대차"
+        "BTC",
+        "원유",
+        "환율"
       ]
     },
     {
-      "title": "삼성전자 파업 갈등, 네 가지 시나리오…AI 반도체 공급망 흔들릴까",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNGZINm1UTjhlbnBjQkM5Sm53Vm5tWEU2V0p6U0hyQjMxSUxENEJObjhXTF9BOVY2UlBsSndvNU1JSm8zLWtsSnd0MThVRDVmbEhuV1RFb2tGd250c1F0N0VGUXdoUHQwdWtLV0lJUl9mdFFKcUxTUGtINnByMHBVaFpmN1IwcVlJ?oc=5",
-      "pubDate": "Mon, 18 May 2026 18:00:00 GMT",
-      "source": "글로벌이코노믹",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "HANARO Fn K-반도체(395270)",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxONll0bzE3TzAwenBwZ2JRR0ZwQU9OemZheko5N0ZUNF9oQkZVVGtob0phV2s2ajBhT0M4cnJtcmxMX0NkZ0MxdnhGVlU2VTU0MC03SWpXZVlQaUdEU1FoLWFrelRLeW9KeTBqdzBBTlpsZ0FlaTVwM2ozYmU1UThpMFpmREgxaHYyR1JOOVAzWjYxaW9ySXpr?oc=5",
-      "pubDate": "Mon, 18 May 2026 17:31:50 GMT",
+      "title": "SOL 반도체소부장Fn(455850)",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPWW5IeHU2YmNXMkxyWnpvRHBuYzdsUWFMSENyNVUxMnJvMzBON25HVXVZUkliYzRJS2NzVmdjMFBJQnNaV0ZOOE1iaVhFaXRnM3Brckw5Zi1wTlF1SGNKWjBtV2NWZ1JfaWtaMkhYSDEySW1MSU9Tc1Y0VTRZWUR0b21DVDF1aHFtQnd0UVUtbGhvSDdkNWUtdlVYVQ?oc=5",
+      "pubDate": "Mon, 18 May 2026 21:07:57 GMT",
       "source": "매일경제 마켓",
       "category": {
         "label": "📋 GENERAL",
@@ -108,10 +31,10 @@
       ]
     },
     {
-      "title": "‘성과급 재원·상한’ 놓고 진통… 非반도체는 “차별 말라” 시위",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9vS3RTV0h6OUlQbXFUenUtSHpMeUtlbUd0WmZYcGtTdEkwazRhVGRUajRsakRNRnJ0U2MzMEJfd1JHUjlkcVFjRDI5YnhndWc?oc=5",
-      "pubDate": "Mon, 18 May 2026 17:11:53 GMT",
-      "source": "v.daum.net",
+      "title": "삼전 출신 양향자, 평택캠퍼스 앞 단식…“반도체 멈추면 대한민국 멈춰”",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE82X0ZKcUw5VTNpY21NZUJUOGtBMmlHWGJZLVpURS1FaW1SNjU5X2RCYXVESThhMkE5U0p5ZmVReE9vU3B2Zy1XVy16eFVHQjBSZGY0REl0SEFNMmc?oc=5",
+      "pubDate": "Mon, 18 May 2026 21:02:00 GMT",
+      "source": "경기일보",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -121,17 +44,94 @@
       ]
     },
     {
-      "title": "비트코인 시장 핵심 키워드 ‘단기·큰손·8만 달러’",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9IdzAxOEtqdFVPU0hCaTFvWENWY0U5LVRSVnNTdDFFZ1M5ZXluREZSSDZiX05FdVR3dU45dDhFMFlCVTRWYllKUTNfR2g5alo0N001NWNMckl2RFV5TnBOaV9FVmY5QVVQSThxZw?oc=5",
-      "pubDate": "Mon, 18 May 2026 16:58:56 GMT",
-      "source": "경향게임스",
+      "title": "TSMC는 왜 흔들리지 않나…삼성전자 파업 위기가 던진 질문",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1ucGVLb05nNnZfRklmMXhKV3dZVU5VZms3bmktcXI0dUR6MXJibE9weV9wcjFZYno2UG5BRmNTdk81dEVvRlA4X2FaaU5HY1ROYzFhWjQ5VExndlZrZkd2S2VCcw?oc=5",
+      "pubDate": "Mon, 18 May 2026 21:00:08 GMT",
+      "source": "kukinews.com",
       "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
       },
       "impacts": [
-        "BTC",
-        "환율"
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전자 1분기 직원 평균 월급 1200만원 수준…전년 比 25% ↑",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE50dVB3TkQ5dTMtUFFqblNmTVBLT2tUUHg2d1lqb2VObFV3ZkprRC05UGNBeDVKSFdSelNxT3UtQ3lSQmN5VG8yVVloTE9aWXd5ek5WSzJSblFZb1l3eHcyQUFSeWU?oc=5",
+      "pubDate": "Mon, 18 May 2026 21:00:00 GMT",
+      "source": "뉴스1",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "현대차, 1분기 RV 매출 9.5조…\"승용차보다 1.9배 커졌다\"",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE96Q1M1dlJBa2t4b3J2QlMxTDZLbHZOSk5haHZjUkpVdVlrRXljU3Q5a1VvWXhKOHRPT0JXaks2a3V4TVgxNTN2bThnZ21ZQlQxWjNJWW9JXzFEcWNqNndzU9IBeEFVX3lxTFBDRzFfemgzNE5GaHVnME53eHBoSHVZaGxKbXdlV1ZWdloweEVyYWtfV2UtblJLejU0c05NbkVvUksyMm1yUk5jUktYd1RleEtkOTk4bGVKRng4X1FTVGw1UWJVX2JONlRSX20zRmZ4dmFKMXJYN3pScQ?oc=5",
+      "pubDate": "Mon, 18 May 2026 21:00:00 GMT",
+      "source": "뉴시스",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "현대차, 고급차 전략 성과냈다…해외 평균판매가 8000만원 돌파",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5wN0JBSGFkeUN6Qk5KRWp3ZXJQWUhNcVpDTFpMT0dRaWhYS09tTmZnNmhVRmFhdmJ4QkVldVlHN19zd1FrbVQ4ZmZFRVRsQzVHZXRKU0cxYVF3M05XM3M1N2pJZUN3VFk5ZXdpYWln?oc=5",
+      "pubDate": "Mon, 18 May 2026 21:00:00 GMT",
+      "source": "아시아투데이",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "[이의경의 시콜세상]반도체 초과이익과 손익계산서의 분배 질서",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBYTU13aUk0dk1mWFVRWTBoYTQwRFFfbXNQV0FWUHRGc0xXT3gxajJuVWNDb3Y3d0dfNi1udG04eHZoS29oNFFCN0xQVFRHeWoxTHFualZLYzVDNVJRUW0yWEhKWQ?oc=5",
+      "pubDate": "Mon, 18 May 2026 21:00:00 GMT",
+      "source": "매일산업뉴스",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "\"AI 최대 수혜주는 TSMC\"…번스타인, 반도체 전망 상향",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5teFpKSS1iRDZCalFGSDlTQ0xFZEREZGkzTVJZYldUWFNuWkhudFFVNmVLcmEwZTJSVElpQlI2TFRuZmhYZUxVNXlILThCcHdMRUpqb1dmLVlYQ1FvUFRQN2stNWRJQkU?oc=5",
+      "pubDate": "Mon, 18 May 2026 20:44:06 GMT",
+      "source": "뉴스1",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "中 메모리 거인 CXMT, 순이익 ‘1,688%’ 폭발… 글로벌 반도체 공급난 속 대박",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOSzVVT1hGSWtid09ybjJUclg5X0N2MW0zdENINDJsYUFPemNqN2NNd2JpUzFpbDZGQkZycnFhRVl1NWF1ekNKaFVsMlZ1TWpRSGVBVWk4ZUtMejUtb3pYTVpvZ2xrYXFXWmhiY0JJUmVsbXNGUTVHQ0hKVG5aaGw4NGo5aVNGNU4z?oc=5",
+      "pubDate": "Mon, 18 May 2026 20:35:00 GMT",
+      "source": "글로벌이코노믹",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
       ]
     }
   ]
