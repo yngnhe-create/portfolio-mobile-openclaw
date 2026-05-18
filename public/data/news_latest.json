@@ -1,24 +1,11 @@
 {
-  "timestamp": "2026-05-19T02:15:17.023512",
+  "timestamp": "2026-05-19T02:45:30.776992",
   "count": 10,
   "articles": [
     {
-      "title": "삼성전자 노사 \"접점 찾는 중\"...오늘 협상 재개",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBvNndwRG96RjEwNi04NXJSaFVrRUxmNmNSWWE5c0hmUFZONk9JUUhhVVAyZmlNUGkwejNOSE1vV0pDZlRYVGtwZzVMWGJiaDl5c1J1Ui15SDNlV3A1dlE?oc=5",
-      "pubDate": "Mon, 18 May 2026 16:55:00 GMT",
-      "source": "YTN",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "SOL 반도체소부장Fn(455850)",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNVkxpZ18teGlSbXBMbXJ0anZVbnllUkc0UDNBakxCX0tNM2hQOHZoM1oxWXZTUmhXSUFpeTdER1daM3dBRWQ3aktUdkRWZ2xvd0RkMjk3YnBnQXF5T2tOSmQ2NHF6a0plM1FoUHYxOGlPMjY3RUxsa0lreXZkTFAtbl81cVBRX2tyOVFHS05aR1RENmV0bjBzZWMyMA?oc=5",
-      "pubDate": "Mon, 18 May 2026 16:08:37 GMT",
+      "title": "HANARO Fn K-반도체(395270)",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNVF9lLXByc2pFTVRUWUtCLTVlT05FY01Nd0JycEJFbDNnQ3g5emUweFA0QkVNZlNzVF9RNEJpNHRWUHJCc1JJejE4dmNTenE2VnIzT2tZcmxjajJLc3BrTTZmUVd4ZFpxeWZ5blg0Vlh3S1AxWTgwcXRTUmIycWJhTXIxR0ZwVG1kX0FLN3V2bjJNcTF6cW1F?oc=5",
+      "pubDate": "Mon, 18 May 2026 17:31:46 GMT",
       "source": "매일경제 마켓",
       "category": {
         "label": "📋 GENERAL",
@@ -108,10 +95,10 @@
       ]
     },
     {
-      "title": "SOL 한국형글로벌반도체액티브(423170)",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxONTFRZldOVHRMSFVucWNyYXlGMDhuZ3A3aTAyd0NfZDVSdnJMRWpWMndLQU9KRmRiUzVPaWdRVUc0VUJDSmp1ci12SjB4QllZYjc1MFFkeU02VEF3NEJQMExycDJaQjRPcmtoVzFtN29IdFdobmluc3lDT3ZlQ2Y3OG5DNjJ2TnZ0Ulltam9WV09UVTNkSnJtZQ?oc=5",
-      "pubDate": "Mon, 18 May 2026 15:47:30 GMT",
-      "source": "매일경제 마켓",
+      "title": "삼성전자 평택캠퍼스 인접 ‘독보적 입지’",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQYjI3Vy1qOEM0blB1a0s3OUJJSFUycUxVX2JSSHlWYlZER2pqOXJ0V0tROXE0TjVxaWR6c0ZLc1MyOGtzTmU1ZkoxdEJJRkUzdmhXUGQyX0MyYVBHLWxMcXR2OElKY0ZCVEpuX0RKSk41eEFHSUlrcFBsZ1JnUVB2TlpoZHhDQmVh?oc=5",
+      "pubDate": "Mon, 18 May 2026 15:37:00 GMT",
+      "source": "조선일보",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -121,9 +108,23 @@
       ]
     },
     {
-      "title": "삼성전자 평택캠퍼스 인접 ‘독보적 입지’",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQYjI3Vy1qOEM0blB1a0s3OUJJSFUycUxVX2JSSHlWYlZER2pqOXJ0V0tROXE0TjVxaWR6c0ZLc1MyOGtzTmU1ZkoxdEJJRkUzdmhXUGQyX0MyYVBHLWxMcXR2OElKY0ZCVEpuX0RKSk41eEFHSUlrcFBsZ1JnUVB2TlpoZHhDQmVh?oc=5",
-      "pubDate": "Mon, 18 May 2026 15:37:00 GMT",
+      "title": "현대차-기아, 인도 공대 4곳과 전기차 공동연구",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5MYncyNThXXzEtdjJVNG5vbjBKS3hLLU53NlBDb3JFRzRjOVZDUkRvWno4T0xJYXpMcUxfbjRkMi1tcGxJdzd6VFkyQWJ4Wk1tTndPX19lQ3MzckJHdHdGU0gxb0tTYWdUTGNHOW4wZW5kY1FWUmfSAWZBVV95cUxObXJOdHVpbVFlYnFtVF8xc09yZ2hUVHJ6V05uMzhTV1ZqcldrR2FUNzBUbFBZMmlwRTMtUy1pNTJZTks5bXhCMGxCOVEwRmxqOWVUTnpQUjI3ZFg2X0NrZWdCNTl5ZVE?oc=5",
+      "pubDate": "Mon, 18 May 2026 15:30:00 GMT",
+      "source": "동아일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차",
+        "테슬라"
+      ]
+    },
+    {
+      "title": "[사설] 대통령·법원·국민이 반도체 파업 만류, 노조 이제 자제를",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNV2I3WWhFQTF0VUV6YzJ1Q0xEXzJQZmdnbm5ubkIyUy00aUFDWlJQcHcxdko3QXhPOEIxLUtaT2hGLVo5V1I4SFJoSzVRTDFTcU5fR3dzZ29TMXMtNVIxX1RHS2ZWU255RUFSYTEyVUVFNmxMN0NSZ09id0tUa0hYWk1WUEFMZw?oc=5",
+      "pubDate": "Mon, 18 May 2026 15:20:00 GMT",
       "source": "조선일보",
       "category": {
         "label": "📋 GENERAL",
