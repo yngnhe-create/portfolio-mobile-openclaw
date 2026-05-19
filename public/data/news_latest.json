@@ -1,12 +1,64 @@
 {
-  "timestamp": "2026-05-19T22:50:02.857437",
+  "timestamp": "2026-05-20T00:20:17.706834",
   "count": 10,
   "articles": [
     {
-      "title": "“중노위, 삼성전자 노사에 합의안 제안”",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBfQmhFcVRrOEpTR3Q0UWpObVU3WlIxSjBiTVVOZmI5VjgyLTJFcjVfS2pzNTk0QUZHNHc2bGxfX0loNUl2NDVUd3lpX0wyUXpXRWJTYzlaOTlldHVpRkZZZU45VFcwSEJ1bXNWQUFFZm5VU2lYMGE2R3FQcw?oc=5",
-      "pubDate": "Tue, 19 May 2026 13:32:36 GMT",
-      "source": "서울신문",
+      "title": "이런 로봇 2.5만대…2년 뒤 현대차·기아 ‘직원’ 된다",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5iVnBpZG1IMU5YVDdPNXdYRkRsaHdNdkdjSllIZFJhX0FaLW82UDRYek5hNkRDajBXUVNMTDY0eTY2Tm9JV3dnUnVrU1BzNTdjVE5QUFRB?oc=5",
+      "pubDate": "Tue, 19 May 2026 15:02:01 GMT",
+      "source": "중앙일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "TD 코웬, 비트코인 축적에 스트래티지 목표주가 상향",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5HMGhkSU9uaU5LejRxWEhnZUxMRlV6cGR1RkcydDBmUFdmNlk0WjBNVV9YUmN0dGJVYklKd09wR3ctc25yeFhyMW51N3hnTjBxV2JRTm1KcmxHWjh6V1U1eHFaQ2pfVG91LUEwSkR1bnRFby1M?oc=5",
+      "pubDate": "Tue, 19 May 2026 15:01:00 GMT",
+      "source": "Investing.com 한국어",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "현대차그룹 ‘아틀라스’ 2만5천여대 도입",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1qUll1bE1kM0JmalliZnkzanRCRUs3QjZLNDdvWEo1MS1mRFdjWlppc1Jpd1pGcVQzZkN1Z3NKSjJHanRtVW5VVF9jNERLSGJJOUxFMTc2a3BLQTF5SmtsTDEtUm1nMXFmWUxHUg?oc=5",
+      "pubDate": "Tue, 19 May 2026 15:00:02 GMT",
+      "source": "경상일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "스누피가 차 안으로…현대차, ‘피너츠’ 디스플레이 테마 출시",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA3RzNSVlhTSlNuaFdQbjFJV20ydlBnNnRnLWhfZDJuX1AwXzA2anhsUEZWbENLTFk1a1lRSVhIb0ZUYnJDMU1HTXQxS0YzTHAwakx1TEV1UGxLdUtHR1VmR3NGS0xMRkhlb1I1Tg?oc=5",
+      "pubDate": "Tue, 19 May 2026 15:00:02 GMT",
+      "source": "경상일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "“안성을 K-반도체 중심도시로”…김보라, 추미애와 경기남부 원팀 구축 나서",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5qSHhseVlqUl9wU1lhUjZPVUFvXzlCVWRXWFk3UE5sSTlSbU5lXzMwOERBQzZNSTdBdkEzOV9tZE1ldlVwalBxeUN1QXRPdk9uWmxEbllhSE5jZFFzQm9HU0FR?oc=5",
+      "pubDate": "Tue, 19 May 2026 14:56:59 GMT",
+      "source": "경기신문",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -16,9 +68,9 @@
       ]
     },
     {
-      "title": "'포켓몬 만들던 반도체 일타강사'…삼전 노조위원장 3년전 영상 재조명",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBYMVZRaU9BenF4UDVXS0hKT1JuN1o3M3FQd1gtZExzdk9JeFlKOUphRnpVbC1pLXUwNWJKczNQRTFTQ1FSNmhDU1pxb3g5Z2JaeXRJOE1mUWsyUGFCTGJ3WGtpT1E2ektFenfSAW5BVV95cUxPWW5JcDduUzhRaXFrZmlDa2pTeG1wN2c4c2hqU3QxRmJwMDBVQndaQ3BXMkdPMTlabG5iQVhqVGdiTi1rU1Awa2lnaG1zdjlGYW5LWnZQNTJWRmlHRmFyU053Wl9CM3VZVVZGV0tkZw?oc=5",
-      "pubDate": "Tue, 19 May 2026 13:30:00 GMT",
+      "title": "\"삼성전자 노사, 큰 틀에선 접점... 세부 요건 놓고 막판 진통\"",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOVVFoVEg5eXZyRDJ6RGR1Z3A5WUdSUERCYmNWOFpwWDBMUkc4eWE1TVRSLUI4YXhBTDNiWTg4NDNfZ2dlS1FYc1lmM3htcDVVcnRBMHRHcm9kWFI5dUhkam9sWHhsbUxvMmZrWThkYm9sRlR1UVZpaW44TWNxM0FWRkN3?oc=5",
+      "pubDate": "Tue, 19 May 2026 14:33:00 GMT",
       "source": "조선일보",
       "category": {
         "label": "📋 GENERAL",
@@ -29,108 +81,56 @@
       ]
     },
     {
-      "title": "충남도, 반도체 후공정 기술 개발 지원 본격 추진",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA0XzZ1ODU4RUtwU0xoYUU2YWU1M25HakZqMXRxTTVaZ2laaWZtZU91Y1BWR0NlU3RHak91eDJoMFdmNHRsQk9uNkdIc293b1FOUFZBQm4wWG5jMzhhWThseHAzSUlkdEp3dzU4QjdR?oc=5",
-      "pubDate": "Tue, 19 May 2026 13:28:26 GMT",
-      "source": "금산중앙신문방송",
+      "title": "H.C. Wainwright, 비트코인 디팟 파산 신청에 투자의견 하향 조정",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5LQ0RWRzRSbTJtWjZtMWRORFdZTWhudTZhenhlMnB5LTVIWUZZRTF3Z29pSmxLdS1QZDd2Wm4tSjNRNF83YUg1bGtoLWpiektDTFNqWEFOZUtBY2M5NEZYd3FEbjZnRDZtUkFvVVZLWEhpTFZs?oc=5",
+      "pubDate": "Tue, 19 May 2026 14:28:00 GMT",
+      "source": "Investing.com 한국어",
       "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "비트코인 디파이 프로토콜 에코, 관리자 키 탈취로 해킹 피해",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1jYjJKQjlUUzNQN25BY2RyRGpSSW1NZFpPdnFndkZMTERCMGZrRUNSWW9Bd1UzX3lJZ2N5b3JlZEltU1NMQmd5STVMaEVhOHB4V1FTTUpnZU5UN2t3eUN5b3EzUzZBblVISmhfcEJMbTV0SUE?oc=5",
-      "pubDate": "Tue, 19 May 2026 13:11:01 GMT",
-      "source": "디지털투데이",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
       },
       "impacts": [
         "BTC"
       ]
     },
     {
-      "title": "이더리움, 디파이 예치자산 41% 급감…비트코인보다 10% 뒤처져",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5ScmhVaFhDQmltWHJGVVVrYjhHZDJxeHFvTUFOVkxsWXlWeEVQcWNnQ2I4cVhad1BJNHJjcWZVNjg4MURLT0RMTF9udnkzT0lnU050MHo4aGYzNkQ4UHdObUFBTGpJT09vV2VlS3h1UDU5enM?oc=5",
-      "pubDate": "Tue, 19 May 2026 13:09:45 GMT",
-      "source": "디지털투데이",
+      "title": "[사설]테슬라 OK, 현대차 NO… ‘역차별의 덫’에 갇힌 韓 자율주행",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1OQndnbnRhWW9fU0s4UzBTOUEwVHUzTFo2QjV6ckx0dS1PTTluZ3JDelhXQzJUazVWNmFERktUbkUtVUc5em5hSnQxdnBrWmtWNV8zUDZaZkJrZ0xpMWVyMmNuSDRsN3J0bkVPTGJaUk1FTlpWWnfSAWZBVV95cUxPX280bEp3bC03ZVFTRUc5N25ScXd1RmxpajBHWGJYaDJMNFROU1ZDMHktZWVuRXR6c1RCZXNKM0Zrak9tbWpqZHRsU2RER0FhYXhibGtqdVdiNWxaT1doYWVBUmVRa0E?oc=5",
+      "pubDate": "Tue, 19 May 2026 14:24:00 GMT",
+      "source": "동아일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "테슬라",
+        "현대차"
+      ]
+    },
+    {
+      "title": "비트코인 ETF, 하루 만에 6억 4,900만 달러 순유출",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1CVVpLT0hXR1NTdThmWks5V3k2ZXdGTTByU0xzbEhwdG9OMjlpcEZ6QXlHdGpteVA2bkVaY1Z1bG5nQXhxZlBQUENFNDB6SFVjcUdfMzkxWHRHNzNvMzdCLTJaaHdaVkRa?oc=5",
+      "pubDate": "Tue, 19 May 2026 14:22:37 GMT",
+      "source": "애플경제",
       "category": {
         "label": "🟣 CRYPTO",
         "color": "#a55eea"
       },
       "impacts": [
-        "BTC"
+        "BTC",
+        "환율"
       ]
     },
     {
-      "title": "양향자 “도민 1인당 GRDP 1억 시대 열 것…반도체·경제 모르는 추미애, 왜 나왔나” [영상]",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1jN0xVczBGd0dUSmQwMWdYaUh3VmNDZDMtR2dXSFd0ZDFCRDNCQVp3NXA0b1VVMXg2WjZWYW5wcFJPS3Y5SnZXVzZBTW9DNGtSdWVuLXp1MTVRam8?oc=5",
-      "pubDate": "Tue, 19 May 2026 13:01:00 GMT",
-      "source": "경기일보",
+      "title": "[ASSIC2026] 센소허브, 위성 정찰 카메라 국산화 도전",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1DcU16U1RiYTRWMXhBOHg3bUhjZ1hydHdQTmRSUWpjY3l6UURIWUotSy1kTGFaSFZEblFxUy1GTnkxMXp1TGg5Ql9TdVc4YVpoaGNfUnNXOGZ1RTV1RXZkVm9LQXZWUQ?oc=5",
+      "pubDate": "Tue, 19 May 2026 14:16:13 GMT",
+      "source": "디일렉",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "'삼성전자부터 공소취소까지' 전력투구...반전 노리는 국민의힘",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1wbEVNN3ZTbE5nTVg5bFkzNjF6c1czVmQ2MjNjZnpWWkRxM00xTWN3a0YwOXlaUHhxSVZOQ1g4V0xqR2NCUFJvM3NyS244QXA5eFFFWmpMUkRKZ1h4RFE?oc=5",
-      "pubDate": "Tue, 19 May 2026 12:58:00 GMT",
-      "source": "YTN",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "산업장관 “삼성전자 파업 해결 못하면 우리 사회가 뭘 하겠나”",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE42UllBXy1mV21ERWp3cWZaSU1TdjdTU3g2Rk8zelhIY2R2NmFWV0VZS2VRSkdqUDNod1hHUkpFWGJOX1k3MkpTUG1ySEZId1pN?oc=5",
-      "pubDate": "Tue, 19 May 2026 12:56:21 GMT",
-      "source": "문화일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "“삼성전자의 금손” 최승호…3년 뒤 노조위원장으로",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5lSjJBTTJvYmtId0JIWENxSmw3ZmgteHB6bVN1VVZPUzB2MzBuOGhlQlprbkwtYVZiQm42R3lJOVhSWmhnSXQ2UC1rZ2Q2NnNCZ0JVNWlTTHdDSkxhVzRfMHl2SEhub2RhSTQxclJSWQ?oc=5",
-      "pubDate": "Tue, 19 May 2026 12:32:49 GMT",
-      "source": "서울신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[포토뉴스]추미애는 반도체 공약 발표",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9rM2VscEYwdmd1Z1lmd3ZfTi01aUFZR1ZJcElPYTlXT01jWUJQWEIzYWFWcjY2YTBQQURheEtLQXVmVFdyZ0JaTF9zaFJhdHdxZ2ViTlNkN2NacDhWNHVJ0gFfQVVfeXFMT1dBbTJlbVFlcXAtWU1sQ0F1WEpQTE4zQzVhSGtnczBhNEw4UWtwVzNYeGpkd1VGX1Q1MDVvR3hEWjdJX2IzSk5OYkRUT0dVSTBHVFlhNGt4TUJjZUhDT1k?oc=5",
-      "pubDate": "Tue, 19 May 2026 12:26:00 GMT",
-      "source": "경향신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
+      "impacts": []
     }
   ]
 }
