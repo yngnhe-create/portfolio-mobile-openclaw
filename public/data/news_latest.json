@@ -1,7 +1,20 @@
 {
-  "timestamp": "2026-05-19T18:17:05.215978",
+  "timestamp": "2026-05-19T18:19:33.587796",
   "count": 10,
   "articles": [
+    {
+      "title": "[글로벌이코노믹 사설] 전국에 부는 반도체 공약 바람",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMlF1dFJkZTh5X1dpS19TR083ZmIyeWxnMnNlYzAwM3F3NjFPRkR2Qnl1dWJmQmVyazd6X29FZWp4eEVSQmhCLTZmMzE0R2wwUDJHS25DMnFXZE1QVmp5UXJsWEpObmVKaC1FeENtMUxGR0huRDlLTWFFWENqYi1vWXppc3g?oc=5",
+      "pubDate": "Tue, 19 May 2026 09:18:05 GMT",
+      "source": "글로벌이코노믹",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
     {
       "title": "현대차그룹, 공장에 아틀라스 2만5000대 도입 추진",
       "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE03WWo4c3EtanBpUzNYSTQyR0ZrNXFkamJvVy1BODRtRktNaVJhNEFBTE1BZDhmS2liSTVKSWdxN3VaNXlxb0RidlIzRmJwY0Z3TEJPWEw1ZWxnNGJyUDN5RWdMMHZEMzRqbjFNandSU0lDZHZBZUhMOHlWQQ?oc=5",
@@ -68,6 +81,19 @@
       ]
     },
     {
+      "title": "한은 “삼성전자 18일간 파업땐 성장률 최대 0.5%p↓”",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1xNTFFeFdFYlFleFM1MmpzUUwzRXY5U3lIOEJlLVdVWHhWRXdRMzRBYkNyVURLM1JuSEdrZ0pGRG9tTWQ0OWtHbVE4cXMyZ1M4djZVNzBDb29PT0VQY0RFdXBydmljYzB0bVFLaDJWV2RXZw?oc=5",
+      "pubDate": "Tue, 19 May 2026 09:05:00 GMT",
+      "source": "한겨레",
+      "category": {
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
       "title": "사상 최대 반도체 호황에도…쪼그라든 '청년 일자리'",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1zZmlvOURBM1RvbVlCdDF2SHVlV29MNzRISGRNbDBqR0tVNnFKa0YwYWhuaDJrZjR6dndBNGpvQ1E5QXhNOWNoVk1NMUw4T2ZEOHZuVFIzZnlSdlYzc0dNVA?oc=5",
       "pubDate": "Tue, 19 May 2026 09:04:54 GMT",
@@ -104,32 +130,6 @@
       },
       "impacts": [
         "현대차"
-      ]
-    },
-    {
-      "title": "현대차그룹, 아틀라스 2만5000대 공장 투입…로봇 양산판 구축",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNeWp5VXFYeEdsZlQ3ZXNFbE5FVE95MEFQSThPeS1JejAxb3RMRXRHZGJKNmd2d25LdjR2ODdlT1VNSVVhZ2FySFl3dzl0bkZGX2h2Yi1POG9rX0lSSGp0NUxzQWttd3k5a0h0SEwwSnZKWTRmcFY4TzNpZWJGdlZwM0pFME1Kdw?oc=5",
-      "pubDate": "Tue, 19 May 2026 09:04:30 GMT",
-      "source": "글로벌이코노믹",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "삼성전자 노사, 오늘 결론 내나…이 시각 중노위",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE02NVBRbmhvYjlKcWhpUlhiVEJsbTRfUngxM2tYM3J2Q1BwUGtoVjNFWlVPS3RyN0NDWDlwR3BldnBvQmJrdHRLbTl1cGdub1hGLUw3OW9jS3NCaGs?oc=5",
-      "pubDate": "Tue, 19 May 2026 09:04:00 GMT",
-      "source": "KBS 뉴스",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
       ]
     }
   ]
