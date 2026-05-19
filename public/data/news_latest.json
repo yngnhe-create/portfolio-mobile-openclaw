@@ -1,12 +1,25 @@
 {
-  "timestamp": "2026-05-20T00:50:32.285290",
+  "timestamp": "2026-05-20T02:20:47.205583",
   "count": 10,
   "articles": [
     {
-      "title": "SOL 한국형글로벌반도체액티브(423170)",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPMmlOM09Dc2V2VDJjVWE1QWxIQk5FWW1mUEMyemZlRTNVVUVGWFdqNmpaVTlIU1VVcnBTUXd2cEZsZG1CTjNPSjltajNLZlhVZUQ1bmI4SVowa1RYZzJUY1RCUlE2eHY4SXoyUy1vVE1DckVSdExrdG1DcUhWb0ZVZ05seEI5ZnhHa2JFTFRMN3VkRW1xbC13?oc=5",
-      "pubDate": "Tue, 19 May 2026 15:41:27 GMT",
-      "source": "매일경제 마켓",
+      "title": "[속보] '총파업 D-1' 삼성전자 사측 \"20일까지 협상 끝내도록 최선\"",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1aYzlQOU1ia2dVRzlhS1ZzSTFZT2JDaTJhTWV0UzVwTG5TbEkzTFBQN0xzU3VnWHNCTWo5elB6RVNwR0ZGNW5IRW5zMWtjSjNxbEFESl84aklqWkVaeEc4bdIBeEFVX3lxTE5NSmVHSmRtS21qTUJoaVhYN1BHM2F5R2Z2Ry1fb0JXQzlyNWxqdGJRcDl0SjVNRzJqandsUHZSekFCUEVfdGVad2xQNmNtTllDZmY3TGRVU1E5OTJrWHFkckZMVVFPODFyM3ZxdUNJa25NcUNBZ0t6Tg?oc=5",
+      "pubDate": "Tue, 19 May 2026 17:10:40 GMT",
+      "source": "뉴시스",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "코스피, 외인 순매도세에 하락마감...반도체 '약세'",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE05VXluVFBxMjlkMlJaNWxhVTNMdUt4UGJTejJ0OWJ5ZC05WUtzME1zNXNySlEtRXN2T2FPRTd6MHdqX09BcG9CZ0xUWmMybThpbm9YOUx2azIwU041MXNjU2VKeks?oc=5",
+      "pubDate": "Tue, 19 May 2026 17:08:24 GMT",
+      "source": "베타뉴스",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -16,10 +29,10 @@
       ]
     },
     {
-      "title": "결국 삼성전자 파업 ‘코앞’까지 왔다",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE4wRE5WLWlhZWgwTlNmT1B1d1djeUZYaE1FVnQxZ1hUdnIwS0p6WkFUbzc2S1ZSY0E2Sk43TFJ0b1ZnRVc4RmRmd2wxTUhLWkE?oc=5",
-      "pubDate": "Tue, 19 May 2026 15:41:05 GMT",
-      "source": "v.daum.net",
+      "title": "빅테크는 질주하는데… 삼성전자, 성과급 갈등에 ‘잃어버린 5월’",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBZUEtQa1M3a0JNektVeERfNmRXMnNNYzVMcnRMa1ZHcWU5aHpwZG9xV2pWT2NUd0dPMnlQcUljVTVpVTVKajZvTXpxVkJOSzJ1d1lUY2JTZDV3Z01zcWJodC04djEtUGJDOVB4ZTZNdGtJc1lKQkRLZUdlWQ?oc=5",
+      "pubDate": "Tue, 19 May 2026 17:05:10 GMT",
+      "source": "서울신문",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -29,9 +42,35 @@
       ]
     },
     {
-      "title": "삼성전자 성과급 협상, 자정 넘어 파업 D-1까지…쟁점 막판 조율",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBWNmlFWVVjU3dYWjExSTJ2RHFOTjFXWkk0Z1JfZ19CWlJkMEVjNGVBZXI3aXNfaHZ5NG5vYmFmRmhJaWxCejZnRFl5czNqQmFrdlpVTEJlY1Z6M0dvNmVfQWZtYzk?oc=5",
-      "pubDate": "Tue, 19 May 2026 15:40:10 GMT",
+      "title": "삼성전자 '파업 D-1' 끝장 협상…쟁점 하나 남았다(종합)",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9NNVE4SVAySE1PbXNYQjJrTVE2WHN5TEZvNEx4Qi1RTWQzTFBJMktGaV9VanBfZVpMcWhBbDdtZ1NJYzlEdi1WOUxCNkpjektDd0FYRFZnNDZKWnVzOVlWYnY3cWszVzV6Skw4RWxsUW8?oc=5",
+      "pubDate": "Tue, 19 May 2026 16:57:04 GMT",
+      "source": "연합인포맥스",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "“한가지 쟁점 일치 못해”…삼성전자 노사, 20일 오전 10시 협상 재개",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE84a2I5Z2ExaXZxNGJtZTZVRTVxZ3RyeVlzVVI1b3IyVERaTktGTzl3Wi1hdVlUdVRqVmVEdTNBQzQ3NHItYnpyZ0RxRTlGM1FKb3UtWW9KbXB4VXlkQ0N5cVdmNnNuZEQ5MGN4NnpRcDRaWFBvakVpQTlRQQ?oc=5",
+      "pubDate": "Tue, 19 May 2026 16:44:33 GMT",
+      "source": "서울신문",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전자 성과급 협상 \"쟁점 하나 남아…오늘 오전 중 최종 결론\"",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB6eTVodE9fMHRaM2ZRTVpldWxlS2QxbmxCeEszMGRTNUdkZU9BZnpVTEpFVlRlMWtiLXNjb0hSUTdjLVVlaG9kanNoWUZtc05HN2tYZGlYeW52dmhxMWdyR2ZhNWc?oc=5",
+      "pubDate": "Tue, 19 May 2026 16:42:26 GMT",
       "source": "뉴스1",
       "category": {
         "label": "📋 GENERAL",
@@ -42,22 +81,9 @@
       ]
     },
     {
-      "title": "HANARO Fn K-반도체(395270)",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQTUNHZGFvUHFyZUtYRW9scUFjOGlhNGpEVEFaalVBNnhZZU9idUJsektFZGdWQ3lxSEpkWjByT0JpTnl5cmR6N2NURF9jbFNTaC1BZThPNGlvTlljMWtMZVdvbVFTTzVRcllxS3BISWlZUzg0SGYxNGZ6SHpvUW9rYzF6cGptUGNSRkZuYzVrMEZEczI5XzI4?oc=5",
-      "pubDate": "Tue, 19 May 2026 15:23:13 GMT",
-      "source": "매일경제 마켓",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "이제 '총파업 D-1'…삼성전자 최후 담판, 자정 넘겨 '막판 진통' 지속",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE84Y01pQUhQQUlMaFg5V2JwWjhfUll3N1ZjSHhMeks3SEt5NlNBU1UzZUw0NUdDWWZuTHlvMFpRcXBmbm8xS3Fyd0JZZ0R6NU5RQndzVkh4MkJJcHRqM3duY9IBeEFVX3lxTE8yTTF2dHhzR1E4S2duaWNhQm9UbHdoa1RpVXlrdkdjaFpPdmZHR051ZERsM2c3azIxZVNyazh2Qzc5M0w0ZU5kRWZCYXdyRXZPckVwcE41WWtob2MyZmg0S2Nxc1dldG5TZ2RuVEtTVVBzY2dOMFlRTw?oc=5",
-      "pubDate": "Tue, 19 May 2026 15:03:26 GMT",
+      "title": "삼성전자 '총파업 D-1'까지 끝장 협상…\"1개 쟁점만 남아, 20일 오전 교섭 마무리\"",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE51RU1BdVBzZ3l3bUZOa3hmTjlfQVRzLVpvcFJONzVCWkZPbWcxMnJWRS10X3h5ME1IZTFLRXNFQXRMVElXYzVHMHNMbXNvTjRZd19TT05PUk9tdVBTQi00TNIBeEFVX3lxTE94VlpSZGVuQzJESm4zQktyampsOTduLXMyOFpuRzh0Yjd6MjI4UkFRWXk2SElpdXN5OWpEbFVKaDBhbXBjNjI4b09VcXd1QzZmQWJWcmF6a0tMa3VlQ2pRSTZqM0FoYkRtTTd4dmlkTnJtaUIzbmhnbA?oc=5",
+      "pubDate": "Tue, 19 May 2026 16:34:45 GMT",
       "source": "뉴시스",
       "category": {
         "label": "📋 GENERAL",
@@ -68,62 +94,36 @@
       ]
     },
     {
-      "title": "이런 로봇 2.5만대…2년 뒤 현대차·기아 ‘직원’ 된다",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5iVnBpZG1IMU5YVDdPNXdYRkRsaHdNdkdjSllIZFJhX0FaLW82UDRYek5hNkRDajBXUVNMTDY0eTY2Tm9JV3dnUnVrU1BzNTdjVE5QUFRB?oc=5",
-      "pubDate": "Tue, 19 May 2026 15:02:01 GMT",
-      "source": "중앙일보",
+      "title": "삼성전자 노사 협상 하루 더 연장…“한가지 쟁점서 불일치” [종합]",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5ydkMyd0FBMWxBcDZLRGpEWnk1RUlvT0J2V01oUHhOTGZwWUVYR0RtLVFrUVhtZUZ2ZXpWdjVfekFibzRCZDBrMGN6T0hnMjA?oc=5",
+      "pubDate": "Tue, 19 May 2026 16:33:00 GMT",
+      "source": "v.daum.net",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
-        "현대차"
+        "삼성전자"
       ]
     },
     {
-      "title": "TD 코웬, 비트코인 축적에 스트래티지 목표주가 상향",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5HMGhkSU9uaU5LejRxWEhnZUxMRlV6cGR1RkcydDBmUFdmNlk0WjBNVV9YUmN0dGJVYklKd09wR3ctc25yeFhyMW51N3hnTjBxV2JRTm1KcmxHWjh6V1U1eHFaQ2pfVG91LUEwSkR1bnRFby1M?oc=5",
-      "pubDate": "Tue, 19 May 2026 15:01:00 GMT",
-      "source": "Investing.com 한국어",
-      "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "현대차그룹 ‘아틀라스’ 2만5천여대 도입",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1qUll1bE1kM0JmalliZnkzanRCRUs3QjZLNDdvWEo1MS1mRFdjWlppc1Jpd1pGcVQzZkN1Z3NKSjJHanRtVW5VVF9jNERLSGJJOUxFMTc2a3BLQTF5SmtsTDEtUm1nMXFmWUxHUg?oc=5",
-      "pubDate": "Tue, 19 May 2026 15:00:02 GMT",
-      "source": "경상일보",
+      "title": "\"적자사업도 성과급 수억씩 줘야하나\"...삼성, 성과급 배분비율 막판 ‘진통’",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5hQjYwdkd0dVhzS0Q0OFdKOVN4ajRDdG1pelJrNFB0NmQxSVRSTXBrSXNoM3BRcDJqT0VOMTUweWMxT3gyeE1tRkNCT2hHYlNTbjJuLTl3V2JqRUdOb216VzhuZjl1UkE?oc=5",
+      "pubDate": "Tue, 19 May 2026 16:30:35 GMT",
+      "source": "CEO스코어데일리",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
-        "현대차"
+        "삼성전자"
       ]
     },
     {
-      "title": "스누피가 차 안으로…현대차, ‘피너츠’ 디스플레이 테마 출시",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA3RzNSVlhTSlNuaFdQbjFJV20ydlBnNnRnLWhfZDJuX1AwXzA2anhsUEZWbENLTFk1a1lRSVhIb0ZUYnJDMU1HTXQxS0YzTHAwakx1TEV1UGxLdUtHR1VmR3NGS0xMRkhlb1I1Tg?oc=5",
-      "pubDate": "Tue, 19 May 2026 15:00:02 GMT",
-      "source": "경상일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "“안성을 K-반도체 중심도시로”…김보라, 추미애와 경기남부 원팀 구축 나서",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5qSHhseVlqUl9wU1lhUjZPVUFvXzlCVWRXWFk3UE5sSTlSbU5lXzMwOERBQzZNSTdBdkEzOV9tZE1ldlVwalBxeUN1QXRPdk9uWmxEbllhSE5jZFFzQm9HU0FR?oc=5",
-      "pubDate": "Tue, 19 May 2026 14:56:59 GMT",
-      "source": "경기신문",
+      "title": "쟁점 하나 남긴 삼성전자 노사…\"파업 유예 가능\"(상보)",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0wOE5JbkF6SDVKdVlJODZJdjVlYjdBZ0pNdHRuTTFpR2RhX2wwUHdFRjd6Tzh4R01ZS05XaVllc0dDY3YyUmtOeG91RWoyR0I2am1lYVVxU1E4UW44OWRDdDZWZFNiMnlPNktJNkVMLW0?oc=5",
+      "pubDate": "Tue, 19 May 2026 16:28:50 GMT",
+      "source": "연합인포맥스",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
