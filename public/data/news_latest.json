@@ -1,7 +1,20 @@
 {
-  "timestamp": "2026-05-20T18:17:04.863284",
+  "timestamp": "2026-05-20T18:25:11.204310",
   "count": 10,
   "articles": [
+    {
+      "title": "삼성전자 첫 총파업 초읽기… 경기도 지자체 ‘긴급체제’ 돌입",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBIZEd2RW1CdHh6aDJvRVJMQkFvRlJYX2xkV3lkQ2NXb3FGZ3dhejAxUEpDZm4tMGtFV2RTUHVNZUwtNV8tWmlieGVFOGwzbWMwUWd2MjV2T1NVUEU?oc=5",
+      "pubDate": "Wed, 20 May 2026 09:16:00 GMT",
+      "source": "경기일보",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
     {
       "title": "삼성전자 급등 부담에 파업 악재까지…외인 올해만 50조 순매도",
       "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE42eDg5cTNXSDcwcEdaZUJ0NUdGYVV0VFVhdGRkS3lPa2pYSHJfdmZTczAxallLMUV1LUprYjAyTUY2eGowY2xUbmNDOUQzelpqcDl1OWtUUEp3T3dnS0RB?oc=5",
@@ -56,6 +69,19 @@
       ]
     },
     {
+      "title": "경찰, '삼성전자 블랙리스트' 수사 속도...추가 압수수색",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB3LURTXzNESjZRMGE1YmdabzBwejJkeUFGdnB3NmZYd0xvdzhIazFDQTdPejdabTV2OXJRT0gyMVhmaEc4bXI4RDhhZ0o2dWtpMTQ2UWU4blI5X3YzS3JrTFgzb2RYSG1EcTJxSE5tdw?oc=5",
+      "pubDate": "Wed, 20 May 2026 09:02:48 GMT",
+      "source": "기호일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
       "title": "외신들, 삼성전자 노사협상 결렬 속보…\"세계 공급망 위기\"",
       "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE0wb0VGOFQwZXI0NGlDeW1YQkJwYm9OdkpveURSdmFyWHNRTFlqdjRQaUtqZ3lBQzh0WDNqUnZyZmVJYTRRY0dOa3Vucl92MTVuUmZ3Z01ULUpGVldyd0tOMzd1SUotdVRuYVJ3Um1QaHNzWVVW?oc=5",
       "pubDate": "Wed, 20 May 2026 08:56:57 GMT",
@@ -99,32 +125,6 @@
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5YQ0h3NzJ1UTllbUtEMll1UHBOOUozNDk5MWg4QjBPd0hSb21xUFR1NHEyTm50Rk9vcXpWWVFQSHRTQWtURnRJV21ERnVIYU8xOG4yanBraWtfaVlLYWc?oc=5",
       "pubDate": "Wed, 20 May 2026 08:54:00 GMT",
       "source": "YTN",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "다시 마주 앉은 삼성전자 노사, 협상 진행 중…노동장관 직접 중재",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9XOFdKMjdOZWZKajVzMjFfYjR3VFo3Qi1fUVZxNDl0QjRENVEtUktwWlQ3aUNxMjQtNVlsQl9Ed2w1ODhaVWJ4blNWUjFrRFpnbTlfUg?oc=5",
-      "pubDate": "Wed, 20 May 2026 08:50:00 GMT",
-      "source": "JTBC",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[비즈톡톡] “10년간 시설투자 83%가 반도체… MX 이익도 DS 투자로 갔는데”… 삼성전자 성과급 갈등, 사업부 간 불만으로 확산 - 조선비즈",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQRXVwTHJwTUkwQmNVQkpDS3BaV1VxTG03dHJIbE9tekdxS3pvWTNHTXctSldwWXVoWHozUnk5UmFGdk42VVRRR20xSUdnU1hXQWN3Y0hvRkc0aFVRTlVtajdBSlZlUnZKcll6Nnk4eVAwcVgzZDA3Y2NJc0pPRXg0ZnBB0gGWAUFVX3lxTE9oNEFSVTd0eng3YUY1UjJTeVBkbkR0TDE5ZWUxbDVmd2p6UTVWOVFKWnNQMXJCS2lRVU5zRGNuR012VXZtTXRDM0J2eUUwRjNsMlpmMzg0SlBZMXZQdkoxU3haZmpWOFF5bTNMVVpCT0JNSXRQYVh2Q003TU9OREUzMDZ1NVEtTWJPbVNiZXBDUFJyOFZjQQ?oc=5",
-      "pubDate": "Wed, 20 May 2026 08:48:00 GMT",
-      "source": "Chosunbiz",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
