@@ -1,11 +1,24 @@
 {
-  "timestamp": "2026-05-20T15:24:56.992627",
+  "timestamp": "2026-05-20T16:17:04.686691",
   "count": 10,
   "articles": [
     {
-      "title": "삼성전자 ‘비노조원 블랙리스트’ 의혹, 경찰 2차 압수수색",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1IWV9fcGFwT3Q4Z2h3LVk4d0RLYmx0T2N0Y3ZqXzd0ZXF0SmNxS2F3MTNCZEk3ZWNxdnFQV05ibExIb0Z5Sk5tY1h1bDVWV3JJZGxzNERR?oc=5",
-      "pubDate": "Wed, 20 May 2026 06:17:46 GMT",
+      "title": "긴급조정 카드, 총파업 막을 수 있지만…삼성전자 피해 불가피",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9JcUZxMjV0RmNVN21PVjFWUjV1bHVHdk5HZU5fLThGb095aFNER2NpWXFZRE0zRnlZMFRPRU05cTBOQUY5SHdHQ09MWUF1QWM0QUZQZkZWeG94elYtNXhmZXhiSTQ?oc=5",
+      "pubDate": "Wed, 20 May 2026 07:05:27 GMT",
+      "source": "뉴스1",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전기 1.5조 잭팟…AI 반도체 핵심부품 공급 계약",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9DTm9fU3o2VU5tQ1ZWR0p4U1dKOERQOHFRNWFzT1pHbzdqUzU3MWZIQ2poVzd6TG05aF9DWW15aUVfUXczVi14Wl9ucWprY25XUDNvQkJn?oc=5",
+      "pubDate": "Wed, 20 May 2026 07:04:30 GMT",
       "source": "중앙일보",
       "category": {
         "label": "📋 GENERAL",
@@ -16,10 +29,10 @@
       ]
     },
     {
-      "title": "中 반도체 후공정 생산능력 확대…‘노조 리스크’ 삼성 추격 고삐",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBEMlctYmt0UlFseDUzTUswaldyQ3U2aFJRY21uTWdvcXBYWUh5ZFExWVpfUHRYR1ItSnZuRV9BUHNWOEg4M00zVm9aYV9rZlE?oc=5",
-      "pubDate": "Wed, 20 May 2026 06:15:38 GMT",
-      "source": "v.daum.net",
+      "title": "[증시-마감] 코스피, 삼성전자 파업예고·외인 매도에 7,200선 턱걸이",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE85YmI5RjYwUjVEdHBFQUhpWUlFdXNNTGZ0YklOYWw0aDRnX0ExR0hGSFZXcWxQT2l4VGwxRFV2MUlBWjh2S0RhWFg1R2k5dTdzeXQtZUU5QWc4UENSRWgzZXBsdUcybHc5c1gweXYzSTQ?oc=5",
+      "pubDate": "Wed, 20 May 2026 07:04:26 GMT",
+      "source": "연합인포맥스",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -29,10 +42,10 @@
       ]
     },
     {
-      "title": "경북, AI 반도체 4천억 승부수…구미·포항 ‘K-반도체 벨트’ 뜬다",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5CWnJubDc5eDZTXzM1RFlHcHlDZE1DSE90UjVIaXZUX3M2S01UTFdUMTBhLXY5X1hscjV3UkliRHktcUhiMmtRdWY1V3E3bmtTdnh1MDNtR0ZUc1JKYWJaX0ptcTV4T2dPMHdPUVlmZw?oc=5",
-      "pubDate": "Wed, 20 May 2026 06:12:29 GMT",
-      "source": "kyongbuk.co.kr",
+      "title": "삼성전자, GaN 반도체 전략 수정...소자 대신 파운드리 집중",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1EY2hyVkY0MlpMX0JjajJnRW1lMU82NzVjYThrWDNrOXQ4ZURTR1JHRTZVVy14WWhNYkVrOURuVVZqYlNnMG02YWlyTE03a0wxVkhWMC12eGJaQktubW9DcFdQejNJZw?oc=5",
+      "pubDate": "Wed, 20 May 2026 07:04:10 GMT",
+      "source": "디일렉",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -42,9 +55,62 @@
       ]
     },
     {
-      "title": "닛케이 \"삼성전자 파업, 한국 경제 타격 우려 커져\"",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5WNDQ4QTlBejFtYzRGUmZRWXRESk5UeEIwYUZrN0JZMUgxckFuRnJkMDRzZllSQTdhRnhVT285NEhsSFFRcmRLbWllUzllYzc4cTdOc1N0SW1qUF8wdmc?oc=5",
-      "pubDate": "Wed, 20 May 2026 06:09:00 GMT",
+      "title": "삼성電 이어 완성차 노사도 긴장…현대차·기아 임단협 '강대강'",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1fNnZBRHJMcWZ5ckFSU0VoY2V4U2pIWlBEODBSSTYwSXlzeFczVlJDQXRmWEpYSzJ0WFp1OWJTdlRDZW9kcnBqd0djLWlib0p6Y29naFln?oc=5",
+      "pubDate": "Wed, 20 May 2026 07:03:32 GMT",
+      "source": "지디넷코리아",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자",
+        "현대차"
+      ]
+    },
+    {
+      "title": "삼성전자 노사협상 결렬...정부 긴급조정권 카드 꺼내나",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1wSXpnRmpDNHZhS0cycU1xcGRPZjAwZjRkT01HRXJrQk55YU5JT2RnaHltdThmbklOV2ZrZDBubFV0STZGTzVKTFZ2VFJBZ3VMdmw5LW9TcThTc3ctQWhIRXhR?oc=5",
+      "pubDate": "Wed, 20 May 2026 07:00:40 GMT",
+      "source": "경기신문",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전자 노사 임금협상 재개…노동장관 직접 중재",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9hMHNQRWU3d2pVdGJ4Tk1zUUVoZktVbi04RkE5SWhPZkl2d2I1T2p2TkwwaFhraVhoMG04NlhIMnBINVUxdS14NFVkcnZYMmVJZmpfaWhoMHBYa2PSAWBBVV95cUxNMUQzZ1U0OXZiUXdLSmZyX3VTS09zbWFTeFI1elBCcGxIVEdtWmFGaUVRM19JODIzWnZMUS1SVFZKMmZfc2gwZnlmOFBnalpjLUxaa3UyajgxeEQxWjlYVms?oc=5",
+      "pubDate": "Wed, 20 May 2026 06:57:17 GMT",
+      "source": "연합뉴스",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[속보] 삼성전자 노사 오후 4시 교섭 재개…김영훈 장관이 직접 조정",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9HNGJwbEN1U1RNX2o4bGVHX21XeUdXV3JSOGxwODVQWFJXckpiNERkQlNnRDZCYkpyN1Y1bi0yZkZkSE1EWEVEVi0xR2pXQ0NqM2lkbzZLSEY2VkJDaXhLd0hXcWg?oc=5",
+      "pubDate": "Wed, 20 May 2026 06:55:00 GMT",
+      "source": "한겨레",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전자 총파업 현실로...노사 협상 끝내 결렬",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9xTUFSeEtaWTNlbXBlcW00M1NnZ0liWERIRFlhQzZJbjZCWlBsTjhIM05zS1RnbzJiREdyWmgwQ0RZTWxadVRmeVI1b3ZNS1hEVExlazRPd2dBZ25FV3c?oc=5",
+      "pubDate": "Wed, 20 May 2026 06:55:00 GMT",
       "source": "YTN",
       "category": {
         "label": "📋 GENERAL",
@@ -55,79 +121,13 @@
       ]
     },
     {
-      "title": "외신, 삼성전자 노조 파업 일제히 긴급 타전… \"韓 수출 주도형 경제 타격\"",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOWWZrTjk4MlpDMHotUk1wQVJzaVhmeHAyeTBENG43aHR2dWNycDI1T3dqY0g1c2c3Y3Jia3pLX0V0YXkyVjgyWm1oNHhtbzJxdDNIaE9iWnVZSnNuc0Q3dXhNMjRISU5aZ0tsREhsbzJlMXJVbTk0aGZlVzAxeGtCTmZR?oc=5",
-      "pubDate": "Wed, 20 May 2026 06:09:00 GMT",
-      "source": "Chosunbiz",
+      "title": "파업이 오히려 '반도체 사이클' 호재?...한투 '57만전자, 380만닉스' 파격전망",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBqN29jOHlUb2IyR1RHWnpGbVd3R0FuWm0tMGs1ZzEtdjhtTVRrQjF2UU9WVXNMT21iTUw3ZlFpaWtuMzFfcmdjWTlFNUlSMEZVcFFFOFN1aEhmd9IBVEFVX3lxTE92dnNDRHlrMlN2dENacjlRYXlFOW55UzhsbUtLcDBuaU9adnlhYkRvSXc5UTA2N0ZralZxcExWaTlabnhyNkNaOVhFQmdrQnRiWFhyeA?oc=5",
+      "pubDate": "Wed, 20 May 2026 06:53:32 GMT",
+      "source": "한국경제",
       "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "'노조 블랙리스트' 의혹 삼성전자, 경찰 추가 압수수색",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1LWDJsQU9uUmFQZ1NlRzZzNE1TeUkwUnpJOEpzSzlYMUU1UzIzMmFIRU9DQ3ZnTFZvSXlyUTMzczlHajN2Q1Y2TzBnNGNiS3VwSW85UUpId3RpeUJGLVF3Rg?oc=5",
-      "pubDate": "Wed, 20 May 2026 06:05:01 GMT",
-      "source": "KBC광주방송",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "“이번에도 어닝 서프?”…엔비디아 실적 앞두고 반도체株 촉각",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9CTVRickJKcTFHTzl0Z052VVEzc1ZJMTVSRW9SdzNQeV9GRFd1ZXhjNW41bGJ0aUQyZE5zRDFLM2NLSXprOEpIYUE1NG40RXBqbVE?oc=5",
-      "pubDate": "Wed, 20 May 2026 06:03:06 GMT",
-      "source": "매일경제 마켓",
-      "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
-      },
-      "impacts": [
-        "NVIDIA",
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[이슈플러스] 반도체 골든타임에 총파업…삼성전자, '리더십·실적' 이중고 직면",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBGR3hzRzBXcjNSNlZuZk5TaEJ1VzIzNnZOaFdsaC11dHlGWEVVTlNVY1QxQlo0THVHX3dGdFhTV1EzZU0yQktZcjJBcUd6Zw?oc=5",
-      "pubDate": "Wed, 20 May 2026 06:01:28 GMT",
-      "source": "전자신문",
-      "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[이슈플러스]삼성전자 보상 기준 충돌 …使 “원칙 고수” VS 勞 “변경해야”",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE8yaDlqMkRxdklhanV4NGVyUzFBX0haSm9CUF9zMVYtU0RJeXVfWUhRdEtocWxwdDRpZjcteS1aXy0wS21vTDlTUElLaXdEQQ?oc=5",
-      "pubDate": "Wed, 20 May 2026 06:00:20 GMT",
-      "source": "전자신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자, '구글 I/0 2026'서 AI 글라스 최초 공개 外",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE0tbWlDbXdfQTQyOW9aSWk3bFItWXdwYU1HMldZeGpUMlJlTXVrX0sxZTBZdF85OHJJNUZLT2hXSHlMZGk0QnhVaDlTLVNWU2tl?oc=5",
-      "pubDate": "Wed, 20 May 2026 06:00:00 GMT",
-      "source": "톱데일리",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
       },
       "impacts": [
         "삼성전자"
