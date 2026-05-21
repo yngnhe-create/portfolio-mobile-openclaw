@@ -1,12 +1,118 @@
 {
-  "timestamp": "2026-05-21T10:17:04.732010",
+  "timestamp": "2026-05-21T10:29:53.185034",
   "count": 10,
   "articles": [
     {
-      "title": "삼성전자, '파업 리스크' 해소…찬반투표 가결만 남았다",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBpQW91ZzdmVVBUNjA4NTk2YlBGbEVDNGhfeDZrWEh6eG5LVG9IQ1JyZXZZeFpnS1BXc3hVa1pxajFhSGN2a1huYzd3QVdKclRBUTZVTE53?oc=5",
-      "pubDate": "Thu, 21 May 2026 01:01:57 GMT",
-      "source": "지디넷코리아",
+      "title": "\"수소는 에너지 안보의 열쇠\" 현대차그룹, 글로벌 수소 동맹 강화",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4yQkZjUVFhNktGYm8tUXV5SDBBcGJHSUhhNFpIaW1TRWZWMmJqb1RmcmZVWkJWS2dJSUd5VGFDODJHa0gxVXBmUmZIa1ppWkl4alpJWTA3cVdRWWQ2c2Z4Rl9xM1RwTVBORVVkaGFSZkg?oc=5",
+      "pubDate": "Thu, 21 May 2026 01:26:41 GMT",
+      "source": "오피니언뉴스",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "1% 초고수들, 급등장에서 삼성전자와 '이 종목' 샀다",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1aMHFtdjExdU9XNEVINVNDWUdCZnR3XzRhUTZUZ1NrTHo0elByQXJaLTl1ZWxPY1R1bVZ5c25TWlN2LUNtbWlrSTFKSEtHVzdsMGFQQ2RwcDgxUdIBVEFVX3lxTE5uZ0R0Rlcza1ZQR1lVcC1QM0FVU1VtWmZnZE0yd29PVWVSQmNlQWxlUmxkOWFPTl9jR1AzY3BXQTNTVXA5UmpyLWMwMllnU2dCTVllVw?oc=5",
+      "pubDate": "Thu, 21 May 2026 01:25:03 GMT",
+      "source": "한국경제",
+      "category": {
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전자 파업 위기 넘겼지만…고물가·금리 변수에 한국경제 ‘긴장’",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBsQU9FUnFJUzN2NlhNMFFxUzJIUzRJaVR1V1JDa1BEMlFFOEdobmRsX2I2S2p5MVlka2dfZzNOMFlqM3p2QzV1aXdrV09DYlR0b3BEUnhGcXlTSG5RRTAyUGZnQmpIVkhLNTF3Vm1n?oc=5",
+      "pubDate": "Thu, 21 May 2026 01:22:19 GMT",
+      "source": "전국매일신문",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "채권",
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "코스피, 삼성전자 타결·엔비디아 호재에 6%대 폭등... 장중 사이드카 발동",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBFWXRzNm8xQjNLMDltVFhSNkNYU2pSdlRFQzJtaHowMkhyX2xhWHJVVmlGTHVreWRLSjRHMFBBZVAySzdDVTlCMW9kdlJGSUk?oc=5",
+      "pubDate": "Thu, 21 May 2026 01:18:06 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "NVIDIA",
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전자 극적 타결됐지만…유사한 ‘파업·성과급 요구’ 확산 우려도",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBWVjc1VTNfVTl6ZWlGdzBLZWVoSXh4QWVhM1pwbnd5V1p0ZEJoMklsU3JOOGVUNFdSRlJ2WXZSR1ZoQ2dRaEZtY2hpRTZySWs?oc=5",
+      "pubDate": "Thu, 21 May 2026 01:18:01 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "與 \"삼성전자 노사 결단 환영…경제·산업 불확실성 줄여\"",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBIMTFLal9XWk5UN3dPZkZJYWVTcGhhUDNQMzBIbTJKNmwtNlZQcnFXYUVJU2pDU3FOMXZGWkpReW04MG5ab0kxTG5ydHZqZl9Bbl9lTUpINVJoVTBkd3ZHN01pTXBZSndQNFpkSTlISW4?oc=5",
+      "pubDate": "Thu, 21 May 2026 01:13:39 GMT",
+      "source": "연합인포맥스",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "\"가격 급등 전망\"...입 벌어지는 삼성전자 목표가 등장 [지금이뉴스]",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE84bVNrTmpOZnY0QUI3dEJGT0JNS1E5aWdVczJlOUgtUE5JY1AxemlTQjRsenBTeTlQakNQbTVMTHRmamd2Qzh1RUlBVWZScGRFWnVCa1JGZkZFaVAwRkE?oc=5",
+      "pubDate": "Thu, 21 May 2026 01:07:00 GMT",
+      "source": "YTN",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "현대제철도 ‘제2 삼성전자 사태 되나’",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBVUF9PcFFaS3JuazZfbkd6eVdKeUhMQi1DQ25kWjRpdUpuOGM3N3NmZzQ0Q1k3bWVLQkRIb2Nybi1vOUFUU0RDNGdpbjdXS2hFcVQ1UEV6ci1JaklUWS1WVDR0VzdnZTdKN1E?oc=5",
+      "pubDate": "Thu, 21 May 2026 01:07:00 GMT",
+      "source": "hidomin.com",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전자 성과급 6억 준다…적자 사업부도 1.6억 지급",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1KM3FjdjRaSHh5MjRmY0V3R3BlTThtWUdHT0liLURpc3VQY1pFQUwzV1BsSFdaOWZUYXBGUTRRME41RGZCYk9QNkNJT3dnWDA?oc=5",
+      "pubDate": "Thu, 21 May 2026 01:05:00 GMT",
+      "source": "v.daum.net",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -26,114 +132,6 @@
       },
       "impacts": [
         "삼성전자"
-      ]
-    },
-    {
-      "title": "현대차, ‘보스턴 다이내믹스’ 생태계 완성…부품부터 물류까지 계열사 총동원",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1GZ3pMMkZxZTRIUlczZXlxVWlCQzVMZ1BLckNna3BMYXJwOWViLUtUNkNkZkh1bjd4bUx6WEpBRno4VGZQOU4xTi1wbEE3bXFya1hmSkFIdFVjMlFscWppQjBtRm5MRTYwU1lz?oc=5",
-      "pubDate": "Thu, 21 May 2026 01:00:00 GMT",
-      "source": "라이센스뉴스",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "삼성전자 노사, 파국 막았지만 '상처투성이'…갈등 봉합 숙제(종합)",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBzdTlRdHZ0anUtNmUwTWdKY0VLSmczTHUwTWNzOExVem5LM204SnMzRXJSWVdoalFlZ3NVcVdRV1FPMnVaTFVDN3hGTmJyb2thakdqZXgxQVJ6N3VoemZIMUVVRHU?oc=5",
-      "pubDate": "Thu, 21 May 2026 00:59:08 GMT",
-      "source": "뉴스1",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[특징주] 현대모비스 등 현대차그룹주, 휴머노이드 상용화 기대 '급등'",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQanBHTm1nOHVkRnFtRUlYNldVQzNjT1pEQ0REOHNfS1VCS0JLVHpnY0lMSHlrV2pXcHlHT0xYcTlhRXRMeWsxOGtzMy1MZ05CenVjWEZSZzNGLUEyZmozU1p6SU5fN05XRE9uek1mblIzazctMHlLZWlRSXJveEtzX2xNWTBJUXBq?oc=5",
-      "pubDate": "Thu, 21 May 2026 00:58:12 GMT",
-      "source": "글로벌이코노믹",
-      "category": {
-        "label": "🟢 POSITIVE",
-        "color": "#4ecdc4"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "삼성전자 파국 피한 韓경제…고물가·금리·환율 변수는 남아",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1MamN1VXlpZmlsTHNwNWNxaFlMRVo5SzZCQklfX19lNFI2SWVCWWtsQjh2RjBOS0ZzcWhvX1ZZUG1tY2o3aUEydmdibFdVNGM?oc=5",
-      "pubDate": "Thu, 21 May 2026 00:58:10 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "🔵 MACRO",
-        "color": "#0984e3"
-      },
-      "impacts": [
-        "채권",
-        "삼성전자",
-        "환율"
-      ]
-    },
-    {
-      "title": "삼성전자 파업 변수 비껴간 반도체 5월 수출 ‘200억 달러’ 돌파",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBIWTUySHZSeS1zLVNMdUZUZzcybnZXWUxoSnNkbzZpTjBKN0N5T3QtQThQaUxfYUhrZ0NOODhYOHZodWhKelI2WUtMcUkwTVU?oc=5",
-      "pubDate": "Thu, 21 May 2026 00:57:52 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자",
-        "환율"
-      ]
-    },
-    {
-      "title": "삼성전자 노사 극적 타결⋯'100조 파업 리스크' 막았다",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBLTzl6U2pDZXRweTEtaWRMLTRkTF9WamFZbHp3UDlGVUJXQk9VSHpEc3lpYmUyYVJ0clJRek5RU3JCcjl1WnpYbWtvWFJZVW9vSnotYTVHbFVQbWRkV3c?oc=5",
-      "pubDate": "Thu, 21 May 2026 00:56:34 GMT",
-      "source": "포커스온경제",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "5월 수출 ‘역대 최대’ 순항…반도체 한달새 220억 달러 돌파",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1pdC00dmFzRllNSTRkREVPZXNmM0ZoZWNBb2VST1dWRmpqa2l3NUpmS2ZDWUJvM256aVVhTnIyWC1EUHBTaWZFaFZaWXJCeTNlRDJVcW4zcS1Pd19ZMi1WLTUtMklkdEdQMlBN?oc=5",
-      "pubDate": "Thu, 21 May 2026 00:55:11 GMT",
-      "source": "BBS불교방송",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자",
-        "환율"
-      ]
-    },
-    {
-      "title": "현대차 차세대 ‘넥쏘’ 유럽 홀렸다⋯ “수소 글로벌 표준 마련 시급”",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9sN3RGOHVFY3VQNkh4YUFvWHBfVGkzZzFwYVkzd2V5MTNZN2ZsZ0pib3RLU0J2eGpDNFhhem5nSC1vRy1QeG9hNjhQZmRMa3ZpZ2MyMHFnZ21YZw?oc=5",
-      "pubDate": "Thu, 21 May 2026 00:55:00 GMT",
-      "source": "브릿지경제",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
       ]
     }
   ]
