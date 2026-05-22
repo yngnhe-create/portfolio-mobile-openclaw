@@ -1,7 +1,33 @@
 {
-  "timestamp": "2026-05-22T12:17:04.356464",
+  "timestamp": "2026-05-22T12:38:22.572549",
   "count": 10,
   "articles": [
+    {
+      "title": "노동장관 \"긴급조정권, 꿈에도 생각할 못해…삼성전자 성장통 크게 겪어\"",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9JMUxBS3Y5MVROWW5jTDBCN0tnc2JqSE1DMnBjYjVtOERaM0x1ZVNYekFqQmMwRV9pVEQ0dklRa3p4SVZWZU5qWTdmbjk5aFE?oc=5",
+      "pubDate": "Fri, 22 May 2026 03:20:20 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[뉴스나우] '노노 갈등' 속 삼성전자 노조 투표...주식 시장 상승세",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5NMWJyVEJWS2tWMm9qNGo4blptYkpBY0t3dC1HakVUV0ZhcWpnYjZTa2tkM0lSbFUxa1hjeDIzYWpTMzlSRW54UmhkdXBaMWZWR0dUeVlMSFZaQVE3MWc?oc=5",
+      "pubDate": "Fri, 22 May 2026 03:16:00 GMT",
+      "source": "YTN",
+      "category": {
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
     {
       "title": "반도체 호황에…‘삼성·SK하이닉스’, 선거판 단골 메뉴?",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8yMHZWMEJQTE5GTFV2WTIyLXgwa19kY1B6cGQ5ZjNtY3ItdlY4ZGN1UlFHWHM4NG1acjRXSHQ1T3NnT3JGcEdGTjNFdTl5WWlUaU9Hd0pmUC1zdlk?oc=5",
@@ -104,33 +130,6 @@
       },
       "impacts": [
         "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자 노조, 오늘부터 잠정 합의 찬반 투표",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAweXd4cnBKZmg3dlRHRks1SGF5LUZOS0JkLXpYdWZHaHV5MUloSFlpNFRCTTh0VUVRbHRGXzdKWGk2bzktUEoya1lMTG9pMG1xZjlqR2RabzRBQdIBX0FVX3lxTFA5RXl0WWNlZG03dVE1X3o1SUVXMGtFT0V5WnJjMFBKUlF1ZldXMVVURWtGVGlTUmVpbV9JZmh4SEs1R1NqMVRaSEpKd212OXdzOUgzaTBSYm52TVBDZld3?oc=5",
-      "pubDate": "Fri, 22 May 2026 02:39:00 GMT",
-      "source": "경향신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "비트코인 현물 ETF, 전날 1억달러 순유출…5거래일 연속 순유출",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE94X1dLVlBMSU9DZ0g3dGRaRnVwd24zSWZ2UUU3dWFZQnlsRENvQzRnZWNYLVRXMk5iSlg3dWRpNE1hbnZhWTJmeU1QQkxpSHVZ?oc=5",
-      "pubDate": "Fri, 22 May 2026 02:34:26 GMT",
-      "source": "블루밍비트",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC",
-        "환율"
       ]
     }
   ]
