@@ -1,50 +1,38 @@
 {
-  "timestamp": "2026-05-23T00:10:37.232001",
+  "timestamp": "2026-05-23T06:10:52.665699",
   "count": 10,
   "articles": [
     {
-      "title": "삼성전자, 케냐서 '갤럭시 행아웃' 개최…A37·A57 앞세워 아프리카 MZ 공략",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE43UVhSWWZQNHcxZzJ0RlZaSnRBdjdpWEVVZ2VEWExsRWtTaEJMZlhyREpsTUNkcE9FVUEtV1p4SEtWclFudE1ZazhqMk0za0hmS29qd0xKcjNyN2huMGN3bWJoSGpQZw?oc=5",
-      "pubDate": "Fri, 22 May 2026 15:00:47 GMT",
-      "source": "더구루",
+      "title": "200일 이평선 처참히 깨졌다…비트코인 7만 6000달러 붕괴에 \"다음 정거장은 6만 달러대\"",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8yRjY0X0c2dHNjV3pnN3R2MTZvdTBLbmp3cVlpVzJKSWwzR2czQk9HQ1JTZzEzWDI0UHhPN3VjRGl6Qlo4eTI0R0RFYUZHY0M1VXhIeDFfTHdsV2RvSi1qR3dIa2NxT09nalhqeDN3aDhUaGc?oc=5",
+      "pubDate": "Fri, 22 May 2026 21:04:44 GMT",
+      "source": "핀포인트뉴스",
       "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC",
+        "환율"
+      ]
+    },
+    {
+      "title": "비코 인스트루먼트 SWOT 분석: 반도체 성장 속 주식 전망",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE0xTVJHOGtzdE9DVG9ZQTlTSWJTa05ObzlSOEdQamVybFdsQ3RSYVpUSUczb2hPT3k5VlktQkhWM280WnhsZXRJZlk2bDQtYkJqblZ2VDRCX3p0clBxSUpKOGplazlkVmpWUDJDX2I0aTBqQQ?oc=5",
+      "pubDate": "Fri, 22 May 2026 20:53:00 GMT",
+      "source": "Investing.com 한국어",
+      "category": {
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
       },
       "impacts": [
         "삼성전자"
       ]
     },
     {
-      "title": "[강천석 칼럼] 삼성전자·SK하이닉스, 運을 실력이라 착각 말라",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOTjZrY3gtZEgtNFVaYXEwN2pkSDVGcGo5ZU9uaFZZeFZVeHplbVQ2b01ha2dzeW1zQTh4SDY1c1hHc1FBQ0JjZ1JzVlNndW1adUp4a3hhbVNoTTNZVFNCUlR6VzVSMFMxb0k3M2V1NGFfcHhJYllTVjhZY1BzWFRQWkRR?oc=5",
-      "pubDate": "Fri, 22 May 2026 14:55:00 GMT",
-      "source": "조선일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "텍사스 인스트루먼트, \"AI 시대 핵심은 전력 반도체\"...투자의견 '매수'-씨포트",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9YU0JLMU5hOXN1YVdBTHptR3RyT2tHaU5KMkhJZElyNHZTZmhUR1NuLXRTeDEtYk12WUZ2QkFNUlV5MjNVWm9sc0tKS1lrYWtZRGdybTFiTnpTQ0k2QlIwd1ZLeDdzMDBoZFlGWmZ3Nkh2WE0?oc=5",
-      "pubDate": "Fri, 22 May 2026 14:21:39 GMT",
-      "source": "마켓인",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자 주주단체 \"주총 승인 없이는 특별성과급 무효\"",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1LcUFvdjQyTGRCYl9hT1A0cHU5SUdlX25yQTl3Vk5CUm5raXhTVkVLUk9OWEZEa3RQSDBMZFZCNGdicU0wRXdjdU1WeS1hMndVZEdtSUxYYkQ0eWQ0SWc?oc=5",
-      "pubDate": "Fri, 22 May 2026 14:11:00 GMT",
+      "title": "반도체 타고 대기업 수출 '훨훨'...'톱10' 비중 절반",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFA5T0M5NlVld0VCVEdRZ0d3VGpSR0xIU1JkTnFTNmVEY1VpX0tiTmtnRHBWQkJzZHJNbk4tLWhxalY1dVhNRE9JZXotN3UwZ0w0bnJGZXJPVzIzUEpJZkE?oc=5",
+      "pubDate": "Fri, 22 May 2026 20:51:00 GMT",
       "source": "YTN",
       "category": {
         "label": "📋 GENERAL",
@@ -55,10 +43,75 @@
       ]
     },
     {
-      "title": "삼성전자 DX 동행노조, 23일 '잠정합의안 투표 무효' 소송 제기",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBhQVYzNXNXVmpVM0gyaGljSVlFaXU5ek15dXQySVNGVEJoTHdiYW56dHZEajEzazdEZlNVeXIwN0J0U09tRXFnSnBTWnpnM0o1NWhyV2VwdWlQb3kzWjlPcGVJZy0?oc=5",
-      "pubDate": "Fri, 22 May 2026 13:55:05 GMT",
-      "source": "뉴스1",
+      "title": "다우 사상 최고치…엔비디아·메모리 반도체는 또 밀려",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE82alZUeG9pQWtFNkxXMHFpX0NpSE9BLVd2ckZtejZaS2QzcFlYY25fVjlwUTVaVFR6aG5zRXhvYVQwMHVlbE96SEYxZzJMZDg?oc=5",
+      "pubDate": "Fri, 22 May 2026 20:29:16 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "NVIDIA",
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "비트코인, 7만 7천 달러 선을 하회… 약세 세력, 5월 종가 하락 전망",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZnhvQmdOTm1PTnE2OHFxUkE3YWhCMVdLeVNhd0c3UGZGNXVDckt5aVZjWDFTVjh1NG9DLXpvNzJQNEZreExpLTNSNHF5N19GSlNacFk1MkRhY19GR2ZDc3JZbHFNMlZDSERUeFpMOXZMR09KUzM1SEJvWGVEQW5PcHdtZWFUTXZ1Z3FleEdVU2s4VTV3aWF3SUxTeWdiLXRuVWFmN3dlZjc1dmZFckxWSGNOVQ?oc=5",
+      "pubDate": "Fri, 22 May 2026 20:21:51 GMT",
+      "source": "Bitcoin News",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC",
+        "환율"
+      ]
+    },
+    {
+      "title": "美무역대표 \"반도체에 즉각적인 관세 부과 없을 것\"",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1kN25zRXFyMWs1bDdfZFhIc2tYNmtTZlYtY2NQLW1WZEhGdTZOYS11Y2VoNDA3b0dWTmRHaUhzZzg1ZTVrSnE0S3Jzc0ZtTl91TmJwOTlWV0VVQ1RVb3VwejkyREdKOE1qZnZHZHhUTTY?oc=5",
+      "pubDate": "Fri, 22 May 2026 20:12:00 GMT",
+      "source": "연합인포맥스",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[칼럼]한국판 '수익공유', 노란봉투법의 쓸모?",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBOVmo0UkRhWDFkeGh0amgwQzhhNHh3WUVNVjdpVmZMZ2RWbXY1aS1KZ1p4ZE1oY0YycDZOWjFaTHdlZmk1ZVpBUmhfcC1ydWc?oc=5",
+      "pubDate": "Fri, 22 May 2026 20:03:27 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": []
+    },
+    {
+      "title": "미 무역대표, 전면적 반도체 관세 \"적절시점에 부과‥당장은 없어\"",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBkQXlwUUE3UURtbXBzRkFhV1RESGdQczc0aHBKXzZFdGpocHREQnUzblBaTlRmcGNXMEd2N2hmWW9sY3NnTVgzUnVfMEdJY0tVN08yLXg0elBmOFV0eTNwbzNHZHR6Qm5Cdnd1WUNMZERwOVo50gF0QVVfeXFMTmhvak5QU21fVG5iRHBiQ3NlV1A5SV9MamxtWGp5ODliaV9fS1lCOEpKNTNPSzRUckpWMlIxemZHLTVKTmo5UWZBMHpsSnNRQVZ0ZmRTNjdaQVVOTVlIN3VDcjRKTWh2dDRXX0ljN04xUjhTQzc?oc=5",
+      "pubDate": "Fri, 22 May 2026 20:00:33 GMT",
+      "source": "MBC 뉴스",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "파업 직전 극적 합의안 도출…삼성전자 노사 한발씩 양보[삼성發 성과급 쇼크①]",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4yNldUQkJpNjRHRzViU2NZOUtCT2MyaC1xallhcFpURmpNTFFiTUd5VnRVR3diZ3FndWlicDhIcEFZcHpfR21abUMwNVYxRnNKb0hlQU5rVXFRUV9iMlFJNdIBeEFVX3lxTE1yejlKR214N2xySnNuUWRVVEJBdk9Oci1NYlFYU1hWN25TSHgwMXNCNmZTZER6Q09Odloyc0Q0M1FNSmJaUktKRmxWT1k0SGFIejUtaWhWM2JlWFRFQTE2Y2hYY2ZkcTZsT3NxTEx2ZVdodWFORlVNVA?oc=5",
+      "pubDate": "Fri, 22 May 2026 20:00:00 GMT",
+      "source": "뉴시스",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -68,68 +121,16 @@
       ]
     },
     {
-      "title": "SOL 한국형글로벌반도체액티브(423170)",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZGFHMG9YQUUtRFdJUFl3bG9iWXc4VG1qeFV0S1FHWkhfWjBzbk02dEtHcGJLU3o5TGJoN05WSy1EWW5mN1hWdldZckN0NHVYVWdiN0Z6emRmekVqTmVqMFVrbzVETU9uNTNVVnJfdTNNMjJUOFhLbzNCdWJlOUs1dm8ybUU4MktLc0RBY19RMzRoaGw0bkN0VGU3SQ?oc=5",
-      "pubDate": "Fri, 22 May 2026 13:45:24 GMT",
-      "source": "매일경제 마켓",
+      "title": "[톱 티어] '피지컬 AI 대표선수' 아틀라스, 현대차 노조원 몇명 대체할까",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9MWVdHamlFX3pmUXpWankxdmdjNUJQQ1VyaHI2MERSVnE3OG0yRzdabVEwMmhIdE5wNmR1OGp6MmlLendvTEZDTUNzUmNidV9OVWpYUzF2cXFqWnBJXzhmTk5BV0cxNlBwd0I1WjJaSFAwNTRE?oc=5",
+      "pubDate": "Fri, 22 May 2026 20:00:00 GMT",
+      "source": "파이낸셜포스트",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "코인베이스 프리미엄 월간 최저치…비트코인 기관 수요 둔화 신호",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5xazFDYmZIN0VENlAwbkd1cW9hZjFsT1hFV0lDcHF4WUFEWDd1NGgyWVlwOXdWYUpTRzNtalJjWE1iM29TYlNXYXNXQ0k2YTh1bkJaem1jMjRXYXo2U2dwLWtKZHZoWmxyYWlzZTRsOG9EdnM?oc=5",
-      "pubDate": "Fri, 22 May 2026 13:22:24 GMT",
-      "source": "디지털투데이",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "[분석] \"스페이스X IPO 시 나스닥 비트코인 노출 확대\"",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBOZXVidFlOSFpKYTU3WHdESlEyQ2pXcHk1NUNIRnlqLVFneExRN3ktV0pXdDZHdXF0WHRzS0xQTGhBaXBHOTNta2pDdXpEZ0I5?oc=5",
-      "pubDate": "Fri, 22 May 2026 13:14:23 GMT",
-      "source": "블루밍비트",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "트럼프 미디어, 비트코인 보유분 또 감소…2650 BTC 크립토닷컴으로 이동",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBaT3hobVRCdFFlcEtUZUpfdS0wTDBfVGVOekhvZlZCMk4yTnF3M1RMSlRBS1BPRXR0bWV2MlFhdzkxNWc0S3RpZ0lVYlYzbEQyNU44ZmhBMVlOR1htclhDWHdLZTJpTDV1MGdMR09wUVY3eEk?oc=5",
-      "pubDate": "Fri, 22 May 2026 13:14:09 GMT",
-      "source": "디지털투데이",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "비트코인보다 잘 나간다더니…석 달 만에 두 배로 뛰었다",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE96SFZfVmhjVnlSWDRlUHliZ2xuQXZIR00xb0xzVDJ3M0JwaElIVzJBSHNiRzhrcUg2TjlYOTNUaGpRWVBvNDVROXVTQXg5alZSQm9RekptQWNOQdIBVEFVX3lxTFB0SzFpajVqS29SSjlTT2lKcGN6R0dHR1JiSklmcm9tc0VGX2FBQllZTmhScXNmNXhidHRhS3I2Y2c4Qi1feVEwbjluU0lkZVdPalBXQg?oc=5",
-      "pubDate": "Fri, 22 May 2026 12:38:47 GMT",
-      "source": "한국경제",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
+        "현대차"
       ]
     }
   ]
