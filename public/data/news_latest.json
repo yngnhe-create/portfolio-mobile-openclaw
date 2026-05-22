@@ -1,7 +1,111 @@
 {
-  "timestamp": "2026-05-22T14:17:05.766698",
+  "timestamp": "2026-05-22T14:39:24.178053",
   "count": 10,
   "articles": [
+    {
+      "title": "\"반도체가 곧 화성의 미래\"… 전성균, 삼성 앞에서 성장비전 제시",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE42TUVzY2ZKUURaNlVxTVZ3N25zLWQ5U0s3ejAyWGtNRnVLVU9EcXZkM25IaWx2eEFpVkRtYnlXWUtsbVlSZnpWRTE3dDlZend5TThGS3FkS0c3QW1pZGZRblFRSWVwWVYzejhFZVlUVmY?oc=5",
+      "pubDate": "Fri, 22 May 2026 05:32:35 GMT",
+      "source": "신아일보",
+      "category": {
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "“AI 패권, GPU만으론 안돼”…최종현학술원, ‘동맹형 반도체 질서’ 제시",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE50N2pqVW1HREEtcWhURW1vdS0yQlhJdzl6dk1zOXV0NVlvNXlNcHUtdTVZYzhsS1VBWERkSlFlV2pHNkJjSDlFSWtiRkl0QThnZE9hTVRPRGE1aFh1Y1ZMS3lDNS1YWjQ?oc=5",
+      "pubDate": "Fri, 22 May 2026 05:22:28 GMT",
+      "source": "교수신문",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전자 주주단체 “특별성과급 결정은 주주 권한…주총 안 열면 무효 소송”",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBZcFhfVkQyOG5zN2Z5eUx1cGs4TWtHLUdSeU5RbEJqV1pTZ0tiQ3ViMTJIZXZHRWk1WDM3VTdGLU1XcXNWcmxxdVhEQUFETmxlWENpN0t1VmdUOVhZbkNjck92cDlERS1UaDdoTXY5eGdCTWdJODJ5NEU2OA?oc=5",
+      "pubDate": "Fri, 22 May 2026 05:20:25 GMT",
+      "source": "서울신문",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전자 노사, '블랙리스트 의혹' 등 민형사 고소 취하",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5uRFZBVW5nTTNiOEpxYUdxQU9SWE1QcTg3dWR4d3Y0RXBvV0lEdExNMWh5MmZFYUprUTNhM1MxRFR0UlZUU01FTi1Sd3c3VFRieUtlbU5WeUR5UWduU1Y0aGlvQlU?oc=5",
+      "pubDate": "Fri, 22 May 2026 05:17:22 GMT",
+      "source": "뉴스1",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "\"그때 샀더라면\"⋯오늘은 비트코인 피자데이",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE03Z3R3ekwzY28ySV9Zc1I2QWtNWlRkYVFBbTZVYlNaTjdDOHhnYmFDUkV1bFd2RnVveGJMekNFVnh0OU1MOGlCN05Ybjc1Q1hXbTFwaQ?oc=5",
+      "pubDate": "Fri, 22 May 2026 05:14:00 GMT",
+      "source": "이투데이",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "현대차 '아틀라스', 기대감에 주가 더 가나?",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE4xaFVzWjBhQmhhU0d0QTVwRW1XR1V3ZFE3ZHBKUjN6X2xRWXlsU0lSdUp5LW82OXFPbDZPNWlCNFY3SEFKSXNhUVJQWUU5UGs?oc=5",
+      "pubDate": "Fri, 22 May 2026 05:09:08 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "삼성전자 노사, ‘노조 블랙리스트’ 의혹 등 고소 취하 합의",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9FdllPR29DZU5YYnhsT21RTTZzcno2Ri00QzRLOXJFUnZHXzNYWnlkRHlrVTNSRmVDSENyb1pMZE1qRm9jVm83TVp5Ml82RDg?oc=5",
+      "pubDate": "Fri, 22 May 2026 05:05:53 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "주주단체 “삼성전자 성과급, 주총 거치지 않으면 무효 소송” - 조선비즈",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNNUZyZUUtLU1zNW1TbXFnS1NuczJmMHRfb1JVYTlvS2h4R2ZReUdlY29XSkYzLUNwOER3NFlid19VNDRMdm9TSnVqRXYtNDdoMUNmcGI2ajNLaDhJUVZQV0RuVTZZdVFLdnNGSmVJNzhlaWhQSy03NjZwNVNLOXA3VGRRNWNqWlBKVkHSAZ4BQVVfeXFMT3hJdWdZTVNYVFprVHUwLUVIRVE1Q2h1VHFNWG9zenZRMk5BT1g0TmI2VFQwY1pYUWpsaWRsNnB3M0xpTXJHNkl3ZzhzY19sNmJvbWE1bUZ3Zl9qNExFem1lV0ZSQ1VqVjAxVjJuM3N6cF9QcEhLN0hudjBBSVdwNG9SNHlubGM2dmpjUmZ3NmVXODZ5VW5jXzBtSHJZcGc?oc=5",
+      "pubDate": "Fri, 22 May 2026 05:05:00 GMT",
+      "source": "Chosunbiz",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
     {
       "title": "삼성전자 노조, 잠정합의안 찬반투표 돌입…‘소외 논란’ DX ‘자체 투표’로 맞서",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5LSG9td3RMOG9HMU1WOS01T0ZQalBJa011M01TbEE5TnZvZERkS1owa3M4OHp5TEw5Ml8yZ2ZZWUp4LVZ1eDFOY3NBTVUxd3RoemNyUFRzR1dHNGozYWFVY0ZyMWI?oc=5",
@@ -16,120 +120,16 @@
       ]
     },
     {
-      "title": "삼성전자 노사, ‘노조 블랙리스트’ 의혹 등 고소 취하 합의",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE80LURRcTNGVEkyMWwwTzJRMUJXOEJiQmNPcHB5T3hyQ2ROSy1vSXg4YTllSjA2QVd2UmpZMlVEQV9uVzBfdkRwS0kwZWdVZHNyZzVjYnQ0Y3lVdkU?oc=5",
-      "pubDate": "Fri, 22 May 2026 05:04:00 GMT",
-      "source": "KBS 뉴스",
+      "title": "[Biz&Law] 현대차·기아, 커넥티드카 美 특허침해 피소…\"스마트폰 연동 기술 도용\"",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAwbEVzR0ZRcU9EV3dtQTNBNFJuNzVhT0szNXBGbndBNGpEOVlnMGFnY3IycV9GazdpLTZKeXIyQnN2NGJRSng0cUJFbjlKeDVFVmFxMTZMYUlwMFI5YjBoODNWaF8tMnBvQkJJeQ?oc=5",
+      "pubDate": "Fri, 22 May 2026 05:01:41 GMT",
+      "source": "the-biz.co.kr",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자 노조, 잠정합의안 가결 여부 촉각…노노 갈등 속 DX ‘부결 운동’ 노노갈등 최고조",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1lakxONlNJdnRXUGJTUUpVYk56Y0pCQ1h0elV5VDlqbzlkclA1dzBOUGdyTHN3a0lYYWM1UkhuMTNKUHlmN1ZIVjhUb0ZobExCLXFhQU1pR2VIekdwZ0NYVmw3b05ZZWZLNFNn0gFuQVVfeXFMTUtpMEdEVHN5VTRiVUc0dXo2QlF2amxvejhTVlhqNVBNQlE0SWs2VTlCeHFyemlSeXVqUEtnOHFPSGdHUERYeUNaVFZFY18wSkt6Z3N5UWYtQl85S1M4TXl4bTdwYjM4N3BobHlKaWc?oc=5",
-      "pubDate": "Fri, 22 May 2026 05:00:14 GMT",
-      "source": "뉴시안",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자 주주단체 \"특별성과급, 주총 승인 안받으면 무효\"",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE90MS05cnAzekJIRzRiWkFTSE1JdWJlREdHWDdrbEJQanNVWUJLRXdqeXlQTDZBQWlNVG1qZWxxbzllNGtEbUNOYmZCSzNNTW8?oc=5",
-      "pubDate": "Fri, 22 May 2026 05:00:10 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[속보]삼성전자 노조, ‘반도체 특별성과급’ 잠정 합의안 투표 시작",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1MU1BsZ0tiTkNUaVlTNkFYR1lISVZyNm5aaUdSZzUtV0k4Nm16NmFtY2tUQ3RRUVhNZ0pzdWUzX29CdHNwUnpZeWIzYkVwYk5fb0JPZFFBVE9aQdIBX0FVX3lxTE9kMWRJbnJpQ3E2ZmRHT2RGYkh2U2xMLXNCUzVhNmZVN094bzNFN3RyeDZCR1oyX0ZTQ0VVS0NQNHpOaDY0NXF4VkZJTW5WVXhmS0QxeV9BejZuaW1xMzZj?oc=5",
-      "pubDate": "Fri, 22 May 2026 05:00:00 GMT",
-      "source": "경향신문",
-      "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "증권가, 하반기 '1만스피' 전망...주도 업종은 반도체·방산·증권",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1zVDBjM3laU3RCNE55Yk1zMlRlaFJ0bnNLQ0tfc2dmaEt2S216WDZackR2NVJmTTdhalBYYkdjb1g5aFVTaGZXYUxEcnhMUjQ1NXNxUEpLTU5lSERLenk0XzhuMXJRUm84NG5wV085MkQ?oc=5",
-      "pubDate": "Fri, 22 May 2026 04:55:22 GMT",
-      "source": "오피니언뉴스",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자 베트남 매출 비중 20%…글로벌 수익 '핵심 기지' 입증",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5jdUFDaTdwUmNQREYwTlRfbFJtYjBDb0Z0clVwUFV1YldFRGNRTU5vS2FYbVc4clZucW1zZEhLNU8wR3dVV3c1bUxwNDVPc0tRWDh2em15ZVRRdmFhVmVWbEdfYUQ?oc=5",
-      "pubDate": "Fri, 22 May 2026 04:54:04 GMT",
-      "source": "PRESS9",
-      "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "댄 아이브스 “AI가 자본 블랙홀, 비트코인·이더리움·XRP ‘돈줄 가뭄'”",
-      "link": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxQYUJWYjdwNW5OV1BRcU9kN1Nrc0JrMml3RjBXMzkxMHVKNDc5LTZzbjRybGZhY2tOdmxLTjhvbVM3bW55UHBEWEJPOGtfM1lzYVY2UTFwallTQXV1OFlmMVlVNTVmQ2hJVXJ4UTl1S1ZFd09FZGhiRjRzS2J1VlJ3TUJ0NXhKQ2FsUm0xcFhBQjBSLVh4MXpJQ3g5bGN3T25uLVhyZVlXT3Ewd0t2WmI4TnFJenRESzFMUG1NYTlJbWhhOE1kSUMyX0p2Qk9DYzNTbVJ1NjU4LTB0ZE1rOWNHdXpBV3RiSVQ1VXlKNWd2dmgtR0JjTnRIUFRxLTZ2bEg5Ynl6Rm5IckFSRTdqUlJwcDU5Ymg1UF93MVNHcDlmdFIwb2ZfdFVPV2dZSTB1cXQ2aU01V2F1aE00TlNxVHhna2JoMA?oc=5",
-      "pubDate": "Fri, 22 May 2026 04:53:53 GMT",
-      "source": "Benzinga",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "삼성전자, 美 소비자 모바일폰 만족도 조사서 애플 꺾고 단독 1위",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFA5YzFudUIwMlI3TjB4SHpyd2pmS2lyU3IwamhZMHNTRFZ0N2VFb3hvRnFueUJWcXhiUUNUOVBQRjBLVkZyQ194NnhjSDQ0TWdWSVJvLWNNemFPVEwzLTBFZ1hlOFREbWtmMjN1dmdGNnNuZVXSAXdBVV95cUxNck9kMDdyUndZa053cVp2ZTZraGcybjVKWmljd1pzMzdVZWZTOU8wMVgyUS1wNGhlamFwNlpIcGFpOGFoV1ZEcktQYkxFSThobkhMMzhhbmV6d08zQkUxcC1qWG13VFhoRGU1Sk5BWjA5RlNWd1Jhdw?oc=5",
-      "pubDate": "Fri, 22 May 2026 04:49:54 GMT",
-      "source": "스트레이트뉴스",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "지역 상장사 1분기 실적 개선...이차전지·반도체 견인",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOZUFwSTdITGpJSU9meVFRMzZOUG9EcWEwbVNoM2lpZk85U1lxRnB4SUMxOExEOHJnMVZkVWVxSDdCZlYwdnlPemZzMFNlRzRsVHZ1TWw5RThIWnhkb2JFVFJwVk8yRzA2MzJXS245YWlSQ3hwTnAyS3hRcDFXUEQ5aw?oc=5",
-      "pubDate": "Fri, 22 May 2026 04:47:21 GMT",
-      "source": "tbc.co.kr",
-      "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
-      },
-      "impacts": [
-        "삼성전자"
+        "현대차"
       ]
     }
   ]
