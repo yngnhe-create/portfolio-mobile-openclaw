@@ -1,19 +1,83 @@
 {
-  "timestamp": "2026-05-22T22:40:22.875426",
+  "timestamp": "2026-05-23T00:10:37.232001",
   "count": 10,
   "articles": [
     {
-      "title": "트럼프미디어, 비트코인 2650개 거래소에 이체…평가손실 4억5000만달러",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9pRjBiQ052RHN3ZGFvVXE4V0hHcGZpeHFiT1VyWlFUYUVfanNfVzJNNUo5V0pnUkwya2lTWmxlVWJWREJJekVMdWdsUVRGUHp6?oc=5",
-      "pubDate": "Fri, 22 May 2026 13:25:51 GMT",
-      "source": "블루밍비트",
+      "title": "삼성전자, 케냐서 '갤럭시 행아웃' 개최…A37·A57 앞세워 아프리카 MZ 공략",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE43UVhSWWZQNHcxZzJ0RlZaSnRBdjdpWEVVZ2VEWExsRWtTaEJMZlhyREpsTUNkcE9FVUEtV1p4SEtWclFudE1ZazhqMk0za0hmS29qd0xKcjNyN2huMGN3bWJoSGpQZw?oc=5",
+      "pubDate": "Fri, 22 May 2026 15:00:47 GMT",
+      "source": "더구루",
       "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
       },
       "impacts": [
-        "BTC",
-        "환율"
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[강천석 칼럼] 삼성전자·SK하이닉스, 運을 실력이라 착각 말라",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOTjZrY3gtZEgtNFVaYXEwN2pkSDVGcGo5ZU9uaFZZeFZVeHplbVQ2b01ha2dzeW1zQTh4SDY1c1hHc1FBQ0JjZ1JzVlNndW1adUp4a3hhbVNoTTNZVFNCUlR6VzVSMFMxb0k3M2V1NGFfcHhJYllTVjhZY1BzWFRQWkRR?oc=5",
+      "pubDate": "Fri, 22 May 2026 14:55:00 GMT",
+      "source": "조선일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "텍사스 인스트루먼트, \"AI 시대 핵심은 전력 반도체\"...투자의견 '매수'-씨포트",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9YU0JLMU5hOXN1YVdBTHptR3RyT2tHaU5KMkhJZElyNHZTZmhUR1NuLXRTeDEtYk12WUZ2QkFNUlV5MjNVWm9sc0tKS1lrYWtZRGdybTFiTnpTQ0k2QlIwd1ZLeDdzMDBoZFlGWmZ3Nkh2WE0?oc=5",
+      "pubDate": "Fri, 22 May 2026 14:21:39 GMT",
+      "source": "마켓인",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전자 주주단체 \"주총 승인 없이는 특별성과급 무효\"",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1LcUFvdjQyTGRCYl9hT1A0cHU5SUdlX25yQTl3Vk5CUm5raXhTVkVLUk9OWEZEa3RQSDBMZFZCNGdicU0wRXdjdU1WeS1hMndVZEdtSUxYYkQ0eWQ0SWc?oc=5",
+      "pubDate": "Fri, 22 May 2026 14:11:00 GMT",
+      "source": "YTN",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전자 DX 동행노조, 23일 '잠정합의안 투표 무효' 소송 제기",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBhQVYzNXNXVmpVM0gyaGljSVlFaXU5ek15dXQySVNGVEJoTHdiYW56dHZEajEzazdEZlNVeXIwN0J0U09tRXFnSnBTWnpnM0o1NWhyV2VwdWlQb3kzWjlPcGVJZy0?oc=5",
+      "pubDate": "Fri, 22 May 2026 13:55:05 GMT",
+      "source": "뉴스1",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "SOL 한국형글로벌반도체액티브(423170)",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZGFHMG9YQUUtRFdJUFl3bG9iWXc4VG1qeFV0S1FHWkhfWjBzbk02dEtHcGJLU3o5TGJoN05WSy1EWW5mN1hWdldZckN0NHVYVWdiN0Z6emRmekVqTmVqMFVrbzVETU9uNTNVVnJfdTNNMjJUOFhLbzNCdWJlOUs1dm8ybUU4MktLc0RBY19RMzRoaGw0bkN0VGU3SQ?oc=5",
+      "pubDate": "Fri, 22 May 2026 13:45:24 GMT",
+      "source": "매일경제 마켓",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
       ]
     },
     {
@@ -56,81 +120,16 @@
       ]
     },
     {
-      "title": "기관화의 역설…매크로 악재에도 비트코인 변동성 ‘7개월래 최저’",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE43ajUxYzZTUV81bUR0eVRCR2daMldaazFtQnpwa0lCekFNNjNjblpYX09xZ1F5TVF4OElCcFZWT0NPWXV3YzZzSXJOWVQ3QUtiVnR1T0d6RjBwZ3hFWV93ZHhaLWtJZjNGd1oxR3Q3VEhITGs?oc=5",
-      "pubDate": "Fri, 22 May 2026 12:20:13 GMT",
-      "source": "마켓인",
+      "title": "비트코인보다 잘 나간다더니…석 달 만에 두 배로 뛰었다",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE96SFZfVmhjVnlSWDRlUHliZ2xuQXZIR00xb0xzVDJ3M0JwaElIVzJBSHNiRzhrcUg2TjlYOTNUaGpRWVBvNDVROXVTQXg5alZSQm9RekptQWNOQdIBVEFVX3lxTFB0SzFpajVqS29SSjlTT2lKcGN6R0dHR1JiSklmcm9tc0VGX2FBQllZTmhScXNmNXhidHRhS3I2Y2c4Qi1feVEwbjluU0lkZVdPalBXQg?oc=5",
+      "pubDate": "Fri, 22 May 2026 12:38:47 GMT",
+      "source": "한국경제",
       "category": {
         "label": "🟣 CRYPTO",
         "color": "#a55eea"
       },
       "impacts": [
         "BTC"
-      ]
-    },
-    {
-      "title": "삼성전자 잠정합의안 투표율, 첫날부터 50% 넘어…DX는 ‘부결 운동’",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5DSkNSVVBWTjczUlVVQXVrNU16U0NZUlktbnRHM3FhTjFWY1RUd1ZuaGZhOTk4cXNoUzktRDlQaXZKNzNIaEQyRFROMWtDdmxyYktpV3ZvbE1lRTB4Y1kzQnk0Z2Y?oc=5",
-      "pubDate": "Fri, 22 May 2026 12:11:00 GMT",
-      "source": "한겨레",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "“내가 배당 받을 돈을 직원 성과급으로?”… 400만 삼성전자 주주, 뿔났다 - 조선비즈",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOXzJWRldiSDJwYkZEbFE0Q3M4eDVxTWxkQnlhWkU4dVBMWHV4RkhSZ09KSC00cnRRRi11ZEhCUTJBVW5PNVBDaDBiaW1sSG85MTd4NUtBcF9VSFVDZzVoX19na1JJX2w1a0dCaUpzcF9xZkJ4YmNHZ2dZWnc5eVFZdnlDNkJuZ3JQ0gGcAUFVX3lxTFA0ZU8yckNOcER6R2hNUkJGLU5ENFR2RHpsVklMVU5nbnNienFlV1lyZklfcGRIeGE4VHQyRGE5ZXlSSUdpVzdWcTlPSDdxRFN2dGxDY3VNaGE5U1EtVFJ5UjBhSUJ2RVlZeENjanpnbHZNR0Z1MDRRdEptUGpndWxvZmZqVXEzc0k0d2h1ZWUyR3JjSGNacUw3bHQxQQ?oc=5",
-      "pubDate": "Fri, 22 May 2026 11:56:00 GMT",
-      "source": "Chosunbiz",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "반도체 호황 탄 대만 관광객 몰린다…부산 상권 ‘새 큰손’ 부상",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5WaEhGdjZzUURpQnZaR1BTd2g4WWdSNllSdEZydmprb1JUQmNYUUVaNkc4VS0zQUVwejJMMzFxNEFQTTJJaUFKR1MzWDA2RzJLdTgxa2k0MUc2UGRoSldkZmxwTUJEQ1pIN0UtVg?oc=5",
-      "pubDate": "Fri, 22 May 2026 11:55:01 GMT",
-      "source": "재외동포신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[코인 시황] 비트코인은 '저변동성 박스권'…이더리움은 재단 내홍 우려↑",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE11dUw0NTM1S2w4bU1HNFIxVDZ2bWhneU1VbVd2dE82V0VfQXM0bzAxWmkxZkRhMmIybzE2c01ma1ZvQzZVdXBpLXBEeVk3RjRjcmg4Yk5LUmM5WXcw?oc=5",
-      "pubDate": "Fri, 22 May 2026 11:13:00 GMT",
-      "source": "뉴스핌",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "삼성전자, 美 소비자 만족도 지수(ACSI) 모바일 폰 부문 1위 차지",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9Od0x0SFlaS1pVNFlHcGxwUDc3ZnN6YkhLZWJETTJHUVplR3ItMHdhUFdSU1VGdGYwem45MHFWTVNzbjhsXzFiMnRVd05lV2gwMlJoa21QRDg5RnN3QW5GVTlyaV9kRTdPMUxr0gFvQVVfeXFMUDdvZHpaR2QzMFNkT1N2N1ZZeVZtQjFUdE1EbU5pczlWWE5GMUplZnJ6OVlCRDNwY3dsaGhqcUJPcGJIRHVmUS1sLXcwUUpvTzlTVEk2THA0RmVUM01yVzk0MGxCQXo2QnRSbXhjVGtJ?oc=5",
-      "pubDate": "Fri, 22 May 2026 11:05:17 GMT",
-      "source": "서울일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
       ]
     }
   ]
