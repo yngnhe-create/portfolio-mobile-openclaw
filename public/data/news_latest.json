@@ -1,7 +1,20 @@
 {
-  "timestamp": "2026-05-25T04:13:41.027313",
+  "timestamp": "2026-05-25T04:43:55.779694",
   "count": 10,
   "articles": [
+    {
+      "title": "[기자수첩]SK에코플랜트의 반도체 낙수 효과 : 네이버 블로그",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNZ25NakNkLU03c1ZyRFd5WGxMeDRoTmlOZklaOThQOVYzZ1lpUjZ3V0pCUDZkUGZLN2xvNnlXMTlOYnJqd3dDUUFQdjZGS0hqUTJXNUJ0dVBzWGg4UldFNzFIamlGWGhBNkdvVnZPM0RTUmd6RndoeTFaM0NscWdIZ2FSNjNsSHJySlNkYkp6NA?oc=5",
+      "pubDate": "Sun, 24 May 2026 19:37:58 GMT",
+      "source": "Naver Blog",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
     {
       "title": "이권재 오산시장 후보, AI·반도체 소부장 도시 위한 자문위 구성 추진 본격",
       "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9rcWdWOFR6UFVGR1dMRTI2TmZNQ21RSFdIQk5kQ245TVNVMDZkZm54NEYtNjFTZTc5WlJlMTA2UzFtTEJEUHJLV2g2TlowQQ?oc=5",
@@ -118,19 +131,6 @@
       "impacts": [
         "현대차",
         "원유"
-      ]
-    },
-    {
-      "title": "반도체 ‘턴키’ 강점인데… 성과급 앞에선 분열의 씨앗으로",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBJTmRlWTc0MHhiTWlTMnh5d0hZWWwyZ05UeXJQX1VTNnV3VWNKR3hkcU5xODVWSWhWREN1bUpiRVdIaGljZjRTbGIyX2RXVG8?oc=5",
-      "pubDate": "Sun, 24 May 2026 15:10:17 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
       ]
     }
   ]
