@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-25T00:42:54.517652",
+  "timestamp": "2026-05-25T02:13:08.611729",
   "count": 41,
   "stocks": {
     "삼성전자": {
@@ -223,7 +223,7 @@
       "name": "PLTR",
       "price": 136.88,
       "pct": -0.39,
-      "chg": -0.53,
+      "chg": -0.54,
       "src": "yahoo"
     },
     "ARTY": {
@@ -256,29 +256,29 @@
     },
     "BTC/KRW": {
       "name": "BTC/KRW",
-      "price": 116081912,
-      "pct": 1.23,
+      "price": 116443703,
+      "pct": 1.63,
       "chg": 0,
       "src": "coingecko"
     },
     "ETH/KRW": {
       "name": "ETH/KRW",
-      "price": 3182159,
-      "pct": 1.88,
+      "price": 3196272,
+      "pct": 2.05,
       "chg": 0,
       "src": "coingecko"
     },
     "SOL/KRW": {
       "name": "SOL/KRW",
-      "price": 129544,
+      "price": 130131,
       "pct": 1.76,
       "chg": 0,
       "src": "coingecko"
     },
     "LINK/USD": {
       "name": "LINK/USD",
-      "price": 14322.07,
-      "pct": 1.75,
+      "price": 14367.79,
+      "pct": 1.68,
       "chg": 0,
       "src": "coingecko"
     },
