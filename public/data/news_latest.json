@@ -1,7 +1,86 @@
 {
-  "timestamp": "2026-05-25T13:16:26.521322",
+  "timestamp": "2026-05-25T13:46:41.182300",
   "count": 10,
   "articles": [
+    {
+      "title": "현대차 후원 영화 '호프', 칸 영화제 공식 초청",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBBci1mRGJMeE51X3VWUlp3UVJYUUVmUW5Gejdzc0UyYVEtNXl4cDdrcGNzRS1WR2hicmxQZzBreEhEdEpnejlEQlBNeXhkVk9OTnVuc2wyWlJSRWUzZS14QzAzS3B2SUFW?oc=5",
+      "pubDate": "Mon, 25 May 2026 04:28:22 GMT",
+      "source": "fetv.co.kr",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "노관규 ‘RE100 반도체산업’... “순천 경제의 판을 키우겠다”",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1VZHExMjBvazVDYXU4QmZSZzB6UzlVTk1ZbmN4YVRKM2p3blpJZDRrLUxrTFROLTNJUnpXNnVkS0xNRlgzUVFwcnpQdTNlemUyMVdUVnM3Qy1kcWJ5ZGFDM2t4dmhZbFBySmM2QU53?oc=5",
+      "pubDate": "Mon, 25 May 2026 04:27:21 GMT",
+      "source": "전국매일신문",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[신간]안흥준·이효승 저서 '반도체 강국의 역설' 출간",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBmLUVlRzA4R1NESzV6VE9GbUZSeFhIV3czZ0ViWkxjb3pnbDBILWhNdlM4ZTBjZUU1a2FwWUxOT1pXQzNqNkVCbF9ISzAtdw?oc=5",
+      "pubDate": "Mon, 25 May 2026 04:25:03 GMT",
+      "source": "전자신문",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "美 비트코인 현물 ETF, 지난주 12억달러 순유출…하이퍼리퀴드 ETF는 7238만달러 순유입",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBIenN1dEJ4TFBGaEUyanN6WDdIX2diREpLLXk0MFpMaUpjS0UtcWlKVTBwQVR6ejlsbnRiU3J1UVpfRHlXWkRucTdoU0tlNXJC?oc=5",
+      "pubDate": "Mon, 25 May 2026 04:22:37 GMT",
+      "source": "블루밍비트",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "환율",
+        "BTC"
+      ]
+    },
+    {
+      "title": "AI·양자 강한 유럽, 반도체·소재 강한 한국…딥테크 동맹 뜬다",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1yMFowNVFVaE9kb2tzLUFrNkhmUjg1SW1vQ3c5WTFBellTeFVKbEFEZ1FjZnZjUEpVMm5LMDFFcDlTRWpwajNTQnRCZGotQWZQYUxkMHFOQlM5MjFsUnZ6dEdFVmQ2Tl9KS2hUdzRlV3E0Zw?oc=5",
+      "pubDate": "Mon, 25 May 2026 04:20:02 GMT",
+      "source": "마켓인",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "현대차, ‘아틀라스’ 현실화 속도…휴머노이드 공장 시대 연다",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB5bDQ0aHZWZmxDZThwYXhENUFtWXZYTlNWR0hHWUtVVDgtZDlvTEZBYUtlQ2dlYjh1YU4wZnhfX29lQ3I1eFFHR2k1LUJ4Vk5uTHpIakJiWWFCOWhUX3FCN1o5M3VkNjJKbDNr?oc=5",
+      "pubDate": "Mon, 25 May 2026 04:12:29 GMT",
+      "source": "일간투데이",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
     {
       "title": "삼성전자, 글로벌 수요 둔화 속 중남미·중동·동남아 1위 기록",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4xekVmamFJRloyVmZXSUZESnV0dnRQRGMyQlNRWUJtbVlHUHFEYzhQcnlDNlF2ZDk1aFJtVXRNS3BCRTZVNGpWdDFWUThteWFHck4wYUVFM3liZw?oc=5",
@@ -12,8 +91,22 @@
         "color": "#8b9dc3"
       },
       "impacts": [
-        "삼성전자",
-        "원유"
+        "원유",
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전자, 1분기 중남미·중동·동남아 스마트폰 점유율 1위",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE8wRk1lWlR3bjRzcmJCaWlSOFhhZGtsNzlGRTRqNHFMQl9tckpFT2psd2o1eTNiSEVKTmdPVFhUZXVkd3JBU085N19SMmIweklwQUxKbFplTDdWNHlKM2RTWXZ4NG5XSkRhdVU4VXZnMkRCbWF0MldCdQ?oc=5",
+      "pubDate": "Mon, 25 May 2026 04:07:53 GMT",
+      "source": "부산일보",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
+      },
+      "impacts": [
+        "원유",
+        "삼성전자"
       ]
     },
     {
@@ -34,97 +127,6 @@
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE42QnNYR2tFcnFlZ1JySTN6dk03Z3hnQkZNUEl2azhXdFpVNDN2NnFlbDM3S1poQk5ZZ2RQOUtxVkExczZ4Ym4xY0VwSWplWXZaaDgzM2ZDWnpZdFdlZnlER1hxQkU?oc=5",
       "pubDate": "Mon, 25 May 2026 04:01:06 GMT",
       "source": "매일일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[기획]HBM 이어 車반도체까지…K-반도체 영토 확장",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9LRDJMQ0Vwano3SlpqYjBLaEhTZG1pUUw3ZkU1cklNRHNsSGV2Yy1sa1BSZTdrQmNOUmg3aTRVdTVaWVVLS09TbFZreXVzR1hjX042U0RiZHdTSFdnYjl2S0ZqX3g?oc=5",
-      "pubDate": "Mon, 25 May 2026 04:01:01 GMT",
-      "source": "매일일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[기획]\"미래차 두뇌 잡아라\"…글로벌 車반도체 패권 경쟁 격화",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9xNE11UG5SS3hjUVk1Rm41cl9sZUhKOG8tek9IWjd5eVdHcUJoeExzOTliSEUwQTFLdU9XUDJ4cXNXS25aMVFMM2hnSktTREtUZFZNejRuMzBxM2c3VUJfTVpNX0k?oc=5",
-      "pubDate": "Mon, 25 May 2026 04:00:53 GMT",
-      "source": "매일일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "현대차 후원 '호프', 칸 영화제 경쟁부문 공식 초청",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAzRG91TUhUdUdrSFEzclA0LUVmRXE1eHNYSy1mRGVzaDlVYzRPcDVxUDZHOHlfT3VLWmRubWlBcXJ6SjVmeVRsaE5jZHNXQWZoNC1wVXJBaGh6T1FVMVJpS1I5SjVEczBqRHA1c053QWc?oc=5",
-      "pubDate": "Mon, 25 May 2026 03:49:27 GMT",
-      "source": "신아일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "[그래픽] 삼성전자-일반기업 연봉 비교",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBBT040ZzdQTG4wVlBOR3hKaHAtNXl0dlUyanRkOTRDSS1kS2I0bUxhUGVRdkVldERiOUFhbVo3VHR1SjM1SzJ4eFZUUjVqaDg?oc=5",
-      "pubDate": "Mon, 25 May 2026 03:37:55 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "‘성과급 3조’ 요구한 현대차 노조…관세·노란봉투법 변수까지 겹친 임단협",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE01SG9EMU82UHhyd2VabnUxb0JSMGlkcXUwU2dGNEo5alJiSVVNTG9PaHJNYUhneElRcm1iZnRZaDJvNVJ2VXFDZjBJTVpCbVBHUkxESjlnT05ieE1iS0YwNWRDelY5Qm85RkxNNGk0bHR1UQ?oc=5",
-      "pubDate": "Mon, 25 May 2026 03:30:23 GMT",
-      "source": "인더스트리뉴스",
-      "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "단일종목 레버리지 ETF 출격…삼성전자·하이닉스에 쏠린 투심 경고",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9jSUR2VHJpc2Z1RU9kdHNPaWdJdHk1bjNVRXF6dDVTMmRQUWFYTDgyR0NNOFNsWGxsQm1mLWlxUGg4TmtERXhqMXlJY2Y0QnR4clBXOXF2WjFfck4ySTh3bEpVeVI?oc=5",
-      "pubDate": "Mon, 25 May 2026 03:20:15 GMT",
-      "source": "매일일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "메모리만 웃었다⋯삼성전자 성과급 합의에 DX·비메모리 반발",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE13VkNnZE9pU2RPUGxnQ0ctLVdSdkNVQWdIcFZNX25lc09oc0RfRV92TENOdHZRX1VVdHkyeWU3dzFjUWozeEpqX1ZxT2s3aDg?oc=5",
-      "pubDate": "Mon, 25 May 2026 03:19:50 GMT",
-      "source": "v.daum.net",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
