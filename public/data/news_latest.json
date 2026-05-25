@@ -1,31 +1,83 @@
 {
-  "timestamp": "2026-05-26T00:18:26.832823",
+  "timestamp": "2026-05-26T00:48:41.268409",
   "count": 10,
   "articles": [
     {
-      "title": "대만 경제성장률 전망 1.8%P 상향…‘반도체 수혜’ 똑같은 한국은 0.3%P",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA2ZmxQQS1oVWttQ19EU1F2ellxZnhLWEhMZVM4dE1FVk1YVV9zQ015STY2TWU0d2FaX24yRXk3czJuSFBvLTkxbGRvY1MtMXc2UE9mZWVB?oc=5",
-      "pubDate": "Mon, 25 May 2026 15:02:00 GMT",
-      "source": "중앙일보",
-      "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "연휴주말 김진태 후보 동분서주⋯‘반도체·AI데이터센터’ 지역맞춤형 공약 집중",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE41NHVyX2lpQ3YtV3doYmFKSGZSZEJFUkJhU1hZdDBDckNhcGZkRHZBbUlVNGhaaGVVcHotbUQ4YWQ4am1XblRNTmRlcmE4V21HSVNJREs1THZVTGxneTNHRFFVYzM?oc=5",
-      "pubDate": "Mon, 25 May 2026 15:01:00 GMT",
-      "source": "강원일보",
+      "title": "HANARO Fn K-반도체(395270)",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQa3hpQnhzUFF3WmhFUDh5MjhZZUlNTkFwOEhNd0NzQjJvMmM2N0V4LThIUTlmR051QmdWZndlSUczNU1PNG5Ibm9DOHVvS2NaaUlsTFRBWlRXbkdmajdGbTBYSFBibHR2Q0JvMEZYV1NJTl90c0pEVXpRbjFiTEtYVFlRaFgwVEh4Q2I2UG5qRkhoZndwaXIw?oc=5",
+      "pubDate": "Mon, 25 May 2026 15:37:09 GMT",
+      "source": "매일경제 마켓",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
         "삼성전자"
+      ]
+    },
+    {
+      "title": "\"비트코인(BTC), 거래량 감소 속 안정화 단계…투심은 혼조",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5OblE4WlpHc1E2cnZKLThDV0ZJaWs3Ym43YnNjdXM0OV9RemlHVjB2S3ZTSllWYUtWdkhERlo0VGtFMVhXT0xiNlZxMEJBTy11?oc=5",
+      "pubDate": "Mon, 25 May 2026 15:34:46 GMT",
+      "source": "블루밍비트",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "반도체 나홀로 성장에… 韓·대만, 체감경기 ‘먹구름’",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE44WG9pYklIR2lCekpSTTVvak9pQVcxaXFOOEUxcVNVU0RPNlVRSm9CcTZJMXluejg5UVlQU1JDdVd1bFZTWThCY25Vc2drb1k?oc=5",
+      "pubDate": "Mon, 25 May 2026 15:24:18 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "현대차, 소프트웨어 중심 공장 ‘시동’… 피지컬 AI 전략 ‘속도’",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9Wb0ZyMWRaWXpBNVkzaHU2ZVEzdjNjTldVM1ItaTdFYTRpd1B1ZExRRUNqMXZrMHFZdVREWU5ZZTVTcVR0cGVjSFJMdHJvbTYxeWhQUDZ4UFNvcVM0UkpNOS1CUjJ5SVHSAWxBVV95cUxNTkI2ZTBONW1MNnNjcEE2SE96SHZ5dlB6djFPdXFoSnFSVFFHekhmbUNTQk83R0QxRzJpbUJ4bmotRHpqM2g4TUhtekVIV0x4cVhRQzdBR00tSVE5eHJ4ajVOSEZHajZlVmRGWjY?oc=5",
+      "pubDate": "Mon, 25 May 2026 15:15:00 GMT",
+      "source": "국민일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "연휴주말 김진태 후보 동분서주⋯‘반도체·AI데이터센터’ 지역맞춤형 공약 집중",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5id2tlTU9NbzAxcURlU01jTmhkYS1ZeVJOOG9Na2lrYWZPUTNnOEgySUhVam56RXdrSzBuSHd4WGtZVXowelJsX0ZUbUQ4Y1E?oc=5",
+      "pubDate": "Mon, 25 May 2026 15:06:09 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "현대차그룹, 속도내는 ‘아틀라스 체제’",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5HeU1naFc5VUpPZDJEQlJKNjZ0cW5WbE9yZVo4QzhPRkR5Mm9URG50QlRhejlZcDNkTEs4Qk5ZQnFvVzJFbUk3YmRELWNSU2JlbHJnVEZB?oc=5",
+      "pubDate": "Mon, 25 May 2026 15:02:00 GMT",
+      "source": "중앙일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
       ]
     },
     {
@@ -77,59 +129,7 @@
         "color": "#ff4757"
       },
       "impacts": [
-        "현대차",
-        "테슬라"
-      ]
-    },
-    {
-      "title": "반도체 기업 성과급만 수억인데… 공공연구기관 박사 초봉 4000만원대",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBHVWxobkZRaWpzNmFZR3VjTUpsVm9IczlEQ0ZuenFXQUZ4WENQc0dRVmwwalhFeG11RDAtYnVTY01CRFlUWlVWM0dKaTdLY1ZTa29DYUVNT2NmdUhDci1vNm1uOUF4UHhKZFpNVk9tbw?oc=5",
-      "pubDate": "Mon, 25 May 2026 14:32:59 GMT",
-      "source": "서울신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "'반도체 톱10' 실적·주가 보니 … 삼전닉스 아직도 가성비 있네",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1TVUpUZXZDVnk1VzVRalJpY0lIMjdTZVFMSnctQ3pLcHZkUUlOYnY4aVpVWFpHWWVoYW56YUJGSm14aE5HdVYtV29OcXRmZw?oc=5",
-      "pubDate": "Mon, 25 May 2026 13:53:56 GMT",
-      "source": "매일경제",
-      "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자, 1분기 신흥시장 3관왕…갤럭시 S26·A시리즈 '투트랙 전략' 주효",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFA0dGdDdlhtczdZX2ZISFJKR2lqenJIaXdfN0xoeGgwTUFwUDFrZEhJM01jdnRKQTNtelFUSEJFTDNSbjczSy03bFZycm45cWpqSVhCaW92S1VISUNvN1ZPenVVX1J0OXlvMVpVdFlJeHFwQQ?oc=5",
-      "pubDate": "Mon, 25 May 2026 12:59:06 GMT",
-      "source": "인더스트리뉴스",
-      "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "현대차, ‘로봇 신입’ 아틀라스 채용 준비",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1kUF9ZN1RHT2w3N2FYZi1xUEV6MkZvZ3VrMXZtTm5GZDFlUmVZdEo5SElRREc0cGp3TmZVczhhNW1jT295WEFXbWdfazY4YmJtanlTVXVpekNQQdIBX0FVX3lxTE9xZ2FLVkdkT3lBYnNGeTE4QXJjbTR1ZUZ4YnZwWmhnQmlaT1FfQzdtS3BvVmdFSzlERUwtSThXMW0wSG5xOGVrRE1WTVJadGxWeEJzNldQNGk2REZrYzQ0?oc=5",
-      "pubDate": "Mon, 25 May 2026 12:28:00 GMT",
-      "source": "경향신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
+        "테슬라",
         "현대차"
       ]
     }
