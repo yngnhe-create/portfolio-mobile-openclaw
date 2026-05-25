@@ -1,12 +1,64 @@
 {
-  "timestamp": "2026-05-25T22:48:11.663717",
+  "timestamp": "2026-05-26T00:18:26.832823",
   "count": 10,
   "articles": [
     {
-      "title": "\"주인 없는 비트코인 내 것\"… 뉴욕서 370만 개 쟁탈 소송",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1LM1l6MHpuOUx3a01ubURJdDRVOXc0YVBmSExVd01hQndWOVRtbHJMald5T05FM3pWcU41SERvc095Y2NIQkFxUGRzdUxveFZVREZWNnVHaC1HUFRSa25ZSVAxU3ZzOWg2MENfdA?oc=5",
-      "pubDate": "Mon, 25 May 2026 13:20:02 GMT",
-      "source": "한스경제",
+      "title": "대만 경제성장률 전망 1.8%P 상향…‘반도체 수혜’ 똑같은 한국은 0.3%P",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA2ZmxQQS1oVWttQ19EU1F2ellxZnhLWEhMZVM4dE1FVk1YVV9zQ015STY2TWU0d2FaX24yRXk3czJuSFBvLTkxbGRvY1MtMXc2UE9mZWVB?oc=5",
+      "pubDate": "Mon, 25 May 2026 15:02:00 GMT",
+      "source": "중앙일보",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "연휴주말 김진태 후보 동분서주⋯‘반도체·AI데이터센터’ 지역맞춤형 공약 집중",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE41NHVyX2lpQ3YtV3doYmFKSGZSZEJFUkJhU1hZdDBDckNhcGZkRHZBbUlVNGhaaGVVcHotbUQ4YWQ4am1XblRNTmRlcmE4V21HSVNJREs1THZVTGxneTNHRFFVYzM?oc=5",
+      "pubDate": "Mon, 25 May 2026 15:01:00 GMT",
+      "source": "강원일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "소비자 마음 훔칠까…삼성전자 첫 'AI 안경' 출격 대기",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9zWUh0ZzNnT09CT0xEMXdYNjJtT1BGdU5fWXdnN0VtUGJHVDBhYWNUZTFEVDdmTXlnWEc1V29zaVl2S19OLTAxMEI5M3g0b0c4clRGcC1UVkQwUdIBVEFVX3lxTE0zXzQ1djBjV05VMml0ZlBHczIyWllCUDF5RTVIdmlVeG1lT2Q1SzNscUNCcFY0ak5VOXhhTnpmS1JPZHM3dVB2anVWVWdtbVhvSlFiaw?oc=5",
+      "pubDate": "Mon, 25 May 2026 15:00:02 GMT",
+      "source": "더팩트",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "박민우 현대차‧기아 AVP본부장 “혼자 실패하게 두지 않겠다” [CEO 포커스]",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE44dVJpdzdHVmhEVlZGMnFBVEVjQjRKNzRuckNEMFVHNGlPWldGMEFndHRnTW1QNldTZzI1eE4zeUs2aXF2QnpvS1g1OWhZTGZET19ZVEFsT09hRkN0b2IyMVlmRlFIN1M4aDM3dExvaGFwQkI5QWUxdnQ1azQ?oc=5",
+      "pubDate": "Mon, 25 May 2026 15:00:00 GMT",
+      "source": "한국금융신문",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "비트코인 손실 보유 물량 775만개…글래스노드 \"약세장 구조적 부담\"",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBhWTZrUi16V1MyZTZERTl2TG55NW11dFBrdU1QeDB4SVNRMGswZlZGenhzOEFUVlBiNnhmQ1Eyb3E4V2NFUUdjbll2UkZFZ3pr?oc=5",
+      "pubDate": "Mon, 25 May 2026 14:45:02 GMT",
+      "source": "블루밍비트",
       "category": {
         "label": "🟣 CRYPTO",
         "color": "#a55eea"
@@ -16,13 +68,40 @@
       ]
     },
     {
-      "title": "삼성전자 노조 투표 90% 육박...가결돼도 '첩첩산중'",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9uM2VEQXR0VDFzbzZ3SXdyQ3JBN08yQjk4c2pUUTRPMThjMFRIcGxOLXlNTzZlb3pZWkdqRWgyVnVwX1ZyNW03am1VQjdfWGhpd01iWkUtbjdtNXdDU1E?oc=5",
-      "pubDate": "Mon, 25 May 2026 13:06:00 GMT",
-      "source": "YTN",
+      "title": "현대차·테슬라 ‘휴머노이드 전쟁’ 불붙었다… 중국은 저가 공세",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE0wbGh3MW5XV1kwNEdKZk1NZkNfYzh0dTNpUjVkdndNdEJmMXBtLVZlSFF2NGJwNzlXcWcwYl9QQ0NvVHd1WHhseUhoc1FCT3R5Z3AweUZoa2JGQXJ4dzMzQTZBUU9OcWhUcW5majhFekppM2RrMGlwUHdmMA?oc=5",
+      "pubDate": "Mon, 25 May 2026 14:40:04 GMT",
+      "source": "서울신문",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "현대차",
+        "테슬라"
+      ]
+    },
+    {
+      "title": "반도체 기업 성과급만 수억인데… 공공연구기관 박사 초봉 4000만원대",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBHVWxobkZRaWpzNmFZR3VjTUpsVm9IczlEQ0ZuenFXQUZ4WENQc0dRVmwwalhFeG11RDAtYnVTY01CRFlUWlVWM0dKaTdLY1ZTa29DYUVNT2NmdUhDci1vNm1uOUF4UHhKZFpNVk9tbw?oc=5",
+      "pubDate": "Mon, 25 May 2026 14:32:59 GMT",
+      "source": "서울신문",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "'반도체 톱10' 실적·주가 보니 … 삼전닉스 아직도 가성비 있네",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1TVUpUZXZDVnk1VzVRalJpY0lIMjdTZVFMSnctQ3pLcHZkUUlOYnY4aVpVWFpHWWVoYW56YUJGSm14aE5HdVYtV29OcXRmZw?oc=5",
+      "pubDate": "Mon, 25 May 2026 13:53:56 GMT",
+      "source": "매일경제",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
       },
       "impacts": [
         "삼성전자"
@@ -52,85 +131,6 @@
       },
       "impacts": [
         "현대차"
-      ]
-    },
-    {
-      "title": "[단독] 삼성전자, 챗GPT·제미나이 사내 사용 전면 허용 추진",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1QQ01JeHNqX19IVnF0a2dIUVVWS2ctWHBZeTM2TnFUOFo0QW5zUDF4ZFg4eEFGRWhaZmY0cFF3WGp0Q04yY0dDM2JDVk9WQW1teXQ3NW1VR0NHVTNqbkd1Qk1XSWM5M3V0NlFlaWZNMnFkdw?oc=5",
-      "pubDate": "Mon, 25 May 2026 12:26:00 GMT",
-      "source": "한겨레",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자, 조직 내 불균형·주주 소송…‘억대 성과급’ 후폭풍",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBVUWo4bjE1YWFob19xYkRfTlkxNk5GTkRGcGRmOGxPRmhsYllUQXZ6aENleXFDY1NNT096cVVUSjR5X01UZ3puX24tdmhSaGs4RmtMTWZabUtKaEg5RXpfbWhuX1FkQ2tPdjZQZ2IyZHVVUQ?oc=5",
-      "pubDate": "Mon, 25 May 2026 12:00:00 GMT",
-      "source": "한겨레",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "\"비트코인, 수요 약화에 7만2000달러 시험 가능성…거래소 유입 급증\"",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE82UWpROXViTGNGSXZ4SDJPaHRJQ1VRMTIzS3ZzUlFOS0R3cUhmQVFFSnRTV25RT3RndUxUYUEtcGJDcVpEQm4yRXNTWW5KeGxF?oc=5",
-      "pubDate": "Mon, 25 May 2026 11:53:58 GMT",
-      "source": "블루밍비트",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "환율",
-        "BTC"
-      ]
-    },
-    {
-      "title": "삼성전자 합의안 곳곳에 암초 \"투표 멈춰야\"‥\"주주총회 열어야\"",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9MOUZQRnNpblFDdUdfbGNxNUZ4R0J6aEprM1NLeTY2VjROdXR3NXdxa0ZVYjVxNEhtMWF5ckRRSXRRa0FFazhnRFhiWk5PNlZSZEN2Y1BNQkQ5anRETDgxWHk0SmpRbGtWazZHMEE4Zm9DcFBmNUwtONIBeEFVX3lxTE9KSFBnVmx6X1owRk5objI4eEYyT3BkZ1lBT0NWQkVTbWNySEs3Y1lOdWozWXRTZ01xR3F1RzVPZE9ldU91Wm1PbkdLNTFxVDhZUHRxWGxZbVg0QUZZRGZCQ0RwU3U1cmw1eGpSbjVjaWdCQjRhSS1rcQ?oc=5",
-      "pubDate": "Mon, 25 May 2026 11:24:40 GMT",
-      "source": "MBC 뉴스",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "비트코인 ETF 6일 연속 순유출, 2026년 누적 순유출 근접",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5xT3JjY0FzaVI1RXY4MXdOTy16NjhQb2lXNDRfRU5TN1FLNUl2dm15WnpsNUwzZUxZZGtyajFrTTNHYTZpWVVZX0NCQWJaZDBMaVlJVE00TV84bmswV3IyMzBsSHJOS1ZNblFaVGFpaDdJenM?oc=5",
-      "pubDate": "Mon, 25 May 2026 11:18:25 GMT",
-      "source": "디지털투데이",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "삼성전자 성과급 투표율 88%…계열사들 “우리도 더 줘”",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9SRWhiM3NjQWhBMVFFQkR1VUFod1BUd3hwNmlNcEZyVzhNRnZmSlU5YzJlRW10eHoyMUdxbXdmMUdtekRXY2N2eDBJdmlqSmtvUnfSAVNBVV95cUxOb193VzFqRUxTamlmYjIyeUsxelhaOER4N01KMXNnUEMyb3NmS24yVXVLMWxWaFM5MUV5bWdQN3hvSlRrNG5LazF0V0NlTnNQREtCdw?oc=5",
-      "pubDate": "Mon, 25 May 2026 11:17:05 GMT",
-      "source": "서울경제",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
       ]
     }
   ]
