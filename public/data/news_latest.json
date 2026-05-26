@@ -1,19 +1,97 @@
 {
-  "timestamp": "2026-05-26T21:23:30.351217",
+  "timestamp": "2026-05-26T22:53:46.043392",
   "count": 10,
   "articles": [
     {
-      "title": "스트래티지, 지난주 비트코인 추가 매수 공백…전환사채 15억달러 재매입",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5nSmVDczNRVkV0SmpZSHNHTGRQdzlZTjRYR09QRHhXTmptWVRWM2hLT3NLYUtDN2NCbGc1LTFkSktyWjJQTkRPcktacW5seTVv?oc=5",
-      "pubDate": "Tue, 26 May 2026 12:14:35 GMT",
+      "title": "비트코인 8만달러 회복 실패…포브스 \"ETF 유출에 급락 경고\"",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9PU2swdklrdjlzZTM5RUxwVjJfRE1ORVFTRTd2RElIbUk2SHp5TXhaemgyN21RZHVrbzZiNTl6NGd0OGJTd0laWmZyVXJrMjJk?oc=5",
+      "pubDate": "Tue, 26 May 2026 13:41:58 GMT",
+      "source": "블루밍비트",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "BTC",
+        "환율"
+      ]
+    },
+    {
+      "title": "비트코인, 7만7000달러 박스권 정체…변동성 9개월 만에 최저",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5QbG9JVEdXdlZoUS12bEtxeV8yUW1NZmRMRlVWSUdlb2M0dmpWSm04QXdNYnd5bjJzcm1kYjN0Z1F5clFPbDZpR0dSNm84dmNIZGxmaWVYV2o4OGZNOEVrTk5PNVdyTlhramJoVFYtWEgwcUk?oc=5",
+      "pubDate": "Tue, 26 May 2026 13:30:51 GMT",
+      "source": "디지털투데이",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC",
+        "환율"
+      ]
+    },
+    {
+      "title": "이상일 용인시장 후보 “반도체 국가산단 원안 추진, 후보 개인 선언으로는 부족”",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE96X3BxVkhjb2dKclQydTQxOGpJU0tfeUdWZ3hUa3g0Z3dTNld6bklGNnFwdHJoTXhfQTM3bDB6b2duRk02cnVlUUJoT0dWZWltOEg2VTVia2NSdkU?oc=5",
+      "pubDate": "Tue, 26 May 2026 13:30:00 GMT",
+      "source": "경기일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "107BTC, 비트코인 소각 주소로 전송…\"의도적 소각 여부 불분명\"",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBpbExmTDNCOXNadTZDR0lBYWRZUGwyc2gyMlRKRkc0SUIzU2FXeUJZMndLRFltUFB3SDlHTjFpbHA1ZHh0VUtsTFU0SXowNjBM?oc=5",
+      "pubDate": "Tue, 26 May 2026 13:19:01 GMT",
       "source": "블루밍비트",
       "category": {
         "label": "🟣 CRYPTO",
         "color": "#a55eea"
       },
       "impacts": [
-        "환율",
         "BTC"
+      ]
+    },
+    {
+      "title": "램리서치, 잘츠부르크 혁신 센터 설립...PLP 공정 R&D 확대",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE41QWthSnBuNUItQ0JGSGlZSkdycEI5dHV1c0hEUUplckRlNUs2TXoyYkFBTVBpOGxfdHE0YzBaaF94NjlOSHR0YTQ0M0Q2ekFtaDJnSF9wdGx4QmtkR0tVeFp4T1RSUQ?oc=5",
+      "pubDate": "Tue, 26 May 2026 13:10:55 GMT",
+      "source": "디일렉",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": []
+    },
+    {
+      "title": "[특례시]② ‘단임 징크스’ 깨질까…‘반도체 용인’ 운명은?",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5XOVZWSXV6eUxQakIzei0zaVNqMG9kM2NpdldOZDdOeWhwdHdycWVCc0hOa3NHaU5JcTdVZVVlTkRld1JaZTJya1RrclJCNWs?oc=5",
+      "pubDate": "Tue, 26 May 2026 12:54:07 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "스트라이브, 비트코인 1109개 추가 매수…평균가 7만6988달러",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5vRlF6Um9fdEh0T211ME0wX01VVDNpS2hKdWhOc1lId2l4Nnh0ekdfNU5oQXJEUGktT25KaUpfTnQtT1FmdnNLS2l3Sl9OYzdu?oc=5",
+      "pubDate": "Tue, 26 May 2026 12:24:08 GMT",
+      "source": "블루밍비트",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC",
+        "환율"
       ]
     },
     {
@@ -47,84 +125,6 @@
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA0a3JWSEZlZGw2eDlNTXJ4RmtjSHk1aDZ2ZWRWT29DQmtLOFlLeUFta3JvRjdYdHBfRWt6MkwzdWR5NWtPYjYwRjhfQkFCV1dQVnFHYg?oc=5",
       "pubDate": "Tue, 26 May 2026 11:43:33 GMT",
       "source": "뉴스1",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "중소 비트코인 보유 기업, 603BTC 추가 매수…스트래티지는 매수 일시 중단",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1JRXVwVFRrMVRDbjR6M25kX3c3TmNlZTI1eHV1UFhjSGc3ZWhhbm50Z0tCbENXX21fNklIUVVidHNxcWVwMGpvQXFpZmgxbnlr?oc=5",
-      "pubDate": "Tue, 26 May 2026 11:31:37 GMT",
-      "source": "블루밍비트",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "삼성전자 투표 종료 D-1‥DX 노조 가처분·소송 예고에 '첩첩산중'",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9yd3FEdHlrR0EwZVlOdWl1Ti10cUlJallhNlhqUVJfTm1NdGdpSjBjMlpXMmNzYmR5b09LNl9sdUJfZUppSTZLMmNsRzY4U3NjRDF2Y2tjT090bjUtVS1Lc2VjMDNZVjdEbWFLMWozOTNjZTZCeGphNtIBeEFVX3lxTE9vVTVKZ05zcFpMOUFqTmtodU4wa1YxMy1GdUhWMWlBeEItVlhIS3BnNHpBQzJ0Q1g0U1AtUU53Z1ROZlFzTm1UaW1TNGpNbGJpTmZaUXVScWNXMGs3bjJBMUl0aEFSX21TN0J3bWpfblVadm1aWFZpcQ?oc=5",
-      "pubDate": "Tue, 26 May 2026 11:28:03 GMT",
-      "source": "MBC 뉴스",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[사설] 경·인 반도체 역량 제한하는 반도체 특별법 시행령안",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9IZlBXdVlLWHJkNlpxNE9CWkxOTFU3VENUUkRudEZpcEVtV2huNzVONDNxZjBQMjVzMTNwVzNxODdpWUUzdTBkTGdKaDUzaVI0Y3c?oc=5",
-      "pubDate": "Tue, 26 May 2026 11:21:20 GMT",
-      "source": "경인일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "노조 때리고 갈등 키우고… 삼성전자 보도, 무엇을 놓쳤나",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9jRjlvRlF2OHRSQ3NIWnYwa21GS2R5SUUxRndzbklqa2FpVWlKZ0FoSlJTQVlRdExXZXBKQXBsamJRand6WTMxM1JZMmh0eUE?oc=5",
-      "pubDate": "Tue, 26 May 2026 11:03:38 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "갑자기 24만 전자?…삼성전자 프리마켓서 ‘20% 급락’ 무슨 일",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5SRGxTSVZTOFlTaDJnTlloNTdnZmp2dGVrZkdGajBaQkhpVF9yOWNWdjYwb2ticWpiSDRKZWNrRVNBTEtMLVNoZUJzYW8yTE0?oc=5",
-      "pubDate": "Tue, 26 May 2026 10:37:05 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자 성과급 논란의 두 얼굴 [하종강 칼럼]",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBYVGpnRXVDUmJNSmRzOEZpLUItXzdLOFJJbXlJRUtyWDFORktvUG9RZlVjUTBNby1qX25HWHlOMVN0UlNab0YyNXpnNklVT0Y5SU4wOGs5QXN6R1FFY3JGUkkwdHY5dw?oc=5",
-      "pubDate": "Tue, 26 May 2026 10:30:00 GMT",
-      "source": "한겨레",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
