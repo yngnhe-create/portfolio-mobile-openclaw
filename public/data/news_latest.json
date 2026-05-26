@@ -1,7 +1,33 @@
 {
-  "timestamp": "2026-05-27T04:25:11.142717",
+  "timestamp": "2026-05-27T04:55:25.432140",
   "count": 10,
   "articles": [
+    {
+      "title": "“반등에 속지 마라”…비트코인 고점·저점 사이클 유지 주장",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBqSU45bmNGR1ZPZjFaWm5qcXhrWUk3ZWJqVE5NZFZ6aks0c2taV2I0c1pXN3BUSXNnejhnQlRuc29Qd0R2ZXNZa1FzUzkwb1pkYVB6RjFhRnVSc0d3TEVTNERYaTU5UXNlNlQzNXE4OW1pQTDSAXdBVV95cUxOcHJLeWtSUzNfeWJZbnJIb21UQWxENzhtc2ZTSU11UFRmdzBmR2hIT2JLOXJnQXdMSF9iaDJrbThaUHRwRkF1b2pjZzlmMHZnRy1JY3RkUmRmaS1kUlh0a1lhcEZJeEtZU0l1LWJCZzFXaElLYktVcw?oc=5",
+      "pubDate": "Tue, 26 May 2026 19:38:14 GMT",
+      "source": "핀포인트뉴스",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "반도체 핵심 부품 국산화, 구미가 밀고 포항이 끈다",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB6RkxHQVRTUkZEYTItUzh6S2VSRE1tU2VSakRPeUZqRUJVOEsyNXpqYUQ3VTZuWTBIY3JXYllQTEE5TlFsN09uRWJrTDVWZS1ldVRsZG5fTFI0WjA4amZBQ25jajJZR2RPcGVDOEdKTEhJMEZpZGfSAWZBVV95cUxNVkg0cjNrOFRTaDdISU9iaDF0TXlyV1VYemNaWkJ2N0k4WWRLTE5lRlZHQ0pnZWtRRFJJNkpoRFhpZWdWYTBRS1lCeXFFZHJjSTI0WUhIOEdDRlRNQkRBN1dtNHhRbGc?oc=5",
+      "pubDate": "Tue, 26 May 2026 19:30:00 GMT",
+      "source": "동아일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
     {
       "title": "'43조 달러 부채·초지능 AI' 폭탄… 지금 반도체 들고 있다면 '이 지표' 하나만 보라",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNLVJrZ2hyZG9ieklxVFByTGp6d29jcTlSek1FV0Fla1hzaGRRWEhKeGsxR3JORDZMdEF1NEI3N0dUUTlzYzVOZXhCNnM3N2VQWk5sNklTUE9LOFVpb0FxTDFHNS1EdS1QVkVHVjRkSFlZVndteklKeTY1YnB6VUJhUmpqbk42c2h6?oc=5",
@@ -99,32 +125,6 @@
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9rWUk2MlNkV1l4dUxVOXFFXzBVUGlGc3k0Z1JBNFlQZDRQS05MQmNMd2ItSzJVN2lUN3dteVFfNnlxdGd4WG1OUG5nNEJwcUU?oc=5",
       "pubDate": "Tue, 26 May 2026 15:53:54 GMT",
       "source": "v.daum.net",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "반도체 투톱이 코스피 시총 절반… 한달간 상장사의 17%만 올라",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPNEg4TWNDbEV3NkdSR1NBX2IwRzlYc0JBa0E3U0hhcW1YLVRYbng1bTlyR0YyX1JlcHFzeDhYZnBnOTVIUHFTamIxNEd2czUwdENDLWNibGc5QXdqejduSEEwdkd2VHJHeG9sem9pSkRYRlh4VTRCUkpib29vWGtNam11XzRvaVZzejVUVXh3?oc=5",
-      "pubDate": "Tue, 26 May 2026 15:51:00 GMT",
-      "source": "조선일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "현대차 등 14개 종목 구성… 국내 첫 ‘피지컬 AI’ ETF 출시 - 조선비즈",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPTXJCNzg4d29BazVrNmNpTTNRT1VGQTBlRUVYUUJJSnNUTFQzTzRoQWJ2ejBmbktFaS1peTk1cHd1bnlEYjJZQk1PUTZuLTJtQmx2b0JlNjR5T2hwSmVZOWFQX0M2dW16MHFYeEdKVERNNnJNbjYyNGRaOTBJS3lPWDJ4SThpOGRS0gGcAUFVX3lxTE1qVWtTWWdsWkR2dDRpNmo2dUt3b3RVQXB2RHF0c1hsMEFzY0MxenM1eWRZUlR2VENjUGp1MjZfNkY2d2p6eDB0QUtHVEZnRjNfUWcyZWZLMF9UX25NM3drbXAwMTVUVFZKLXdPdXdUQVpFdmdwM0RuMXpBbmJENEZHb0dqY0RCbEZHX3pwTEVmamdiNmlxUWZJV2dUdA?oc=5",
-      "pubDate": "Tue, 26 May 2026 15:36:00 GMT",
-      "source": "Chosunbiz",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
