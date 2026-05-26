@@ -1,19 +1,32 @@
 {
-  "timestamp": "2026-05-27T02:54:56.714176",
+  "timestamp": "2026-05-27T04:25:11.142717",
   "count": 10,
   "articles": [
     {
-      "title": "비트코인(BTC), 7만6000달러 일시 반납",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1XYnVQYjNRVWZ1d1E3S3dVaEtMR1lGdHlIOTFLcDFGbnltMEVqSFFwdVloYlFaSndIX05tSzM0VFVBVDYwcTVOc3VOdEdkMVlC?oc=5",
-      "pubDate": "Tue, 26 May 2026 17:32:23 GMT",
-      "source": "블루밍비트",
+      "title": "'43조 달러 부채·초지능 AI' 폭탄… 지금 반도체 들고 있다면 '이 지표' 하나만 보라",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNLVJrZ2hyZG9ieklxVFByTGp6d29jcTlSek1FV0Fla1hzaGRRWEhKeGsxR3JORDZMdEF1NEI3N0dUUTlzYzVOZXhCNnM3N2VQWk5sNklTUE9LOFVpb0FxTDFHNS1EdS1QVkVHVjRkSFlZVndteklKeTY1YnB6VUJhUmpqbk42c2h6?oc=5",
+      "pubDate": "Tue, 26 May 2026 19:05:00 GMT",
+      "source": "글로벌이코노믹",
       "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
       },
       "impacts": [
-        "BTC",
+        "삼성전자",
         "환율"
+      ]
+    },
+    {
+      "title": "‘버블 세븐’ 수지의 화려한 부활… 반도체 일자리와 내신 개편이 원동력",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBsUFVkQ2lMSVI1SHZxclFEb3hSeW5GRTZraHJ2QkREYkI2eDZJdlJfTjNSM25PQldzd2dmS0VpTl9BOWNtNEdGRjVaNUZyeXpmeTk2V19maWR1a0h5UlB5LUpCUzZaTTBTaWhZUklCT19OY2pIN2h2Vw?oc=5",
+      "pubDate": "Tue, 26 May 2026 18:00:00 GMT",
+      "source": "조선일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
       ]
     },
     {
@@ -118,19 +131,6 @@
       },
       "impacts": [
         "현대차"
-      ]
-    },
-    {
-      "title": "AI·반도체 타고 일본 증시도 ‘신바람’",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPZmliT1JBRmVsYmRZSEozdHlrMG5CQWduR003dUVnZ0tFMzlnOEltX1E2X0JKVTFxNlRXelBMUXZVWGp6UWNJS0ZyZ1dVV2xTV3B0OGRNaFg0ZTcwWHMtUk5NdExZMkprVm5WeEswQXpaRkJWQVp3WGVHaG9ZYmo4SA?oc=5",
-      "pubDate": "Tue, 26 May 2026 15:35:00 GMT",
-      "source": "조선일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
       ]
     }
   ]
