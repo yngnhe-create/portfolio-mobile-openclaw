@@ -1,7 +1,34 @@
 {
-  "timestamp": "2026-05-27T02:24:37.081427",
+  "timestamp": "2026-05-27T02:54:56.714176",
   "count": 10,
   "articles": [
+    {
+      "title": "비트코인(BTC), 7만6000달러 일시 반납",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1XYnVQYjNRVWZ1d1E3S3dVaEtMR1lGdHlIOTFLcDFGbnltMEVqSFFwdVloYlFaSndIX05tSzM0VFVBVDYwcTVOc3VOdEdkMVlC?oc=5",
+      "pubDate": "Tue, 26 May 2026 17:32:23 GMT",
+      "source": "블루밍비트",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC",
+        "환율"
+      ]
+    },
+    {
+      "title": "“반도체 호황, ‘의대 대신 공대’ 계기… 기업들 돈 벌 때 투자해야”",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBrVk9hbHcwaHJoV0FNVnJOb2JSdTNMUmp6SlUyandXaXNIUVU2NXBPam0xMmdWSWhOSFFXSF9VRlozOVdxMjc4S0FXVVlud1E?oc=5",
+      "pubDate": "Tue, 26 May 2026 17:27:05 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
     {
       "title": "美 제재 뚫은 中 화웨이 “EUV 장비 없이 첨단 반도체 생산”",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9wbk1YOThoenAybWJ1bUxFTXdRTENidlpKc2U0M0FFMkpmYUt1c19pY0taVnBwSC11SFN6QkxkUXMzX08yVFZNY0RESWFVcjQ?oc=5",
@@ -98,32 +125,6 @@
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPZmliT1JBRmVsYmRZSEozdHlrMG5CQWduR003dUVnZ0tFMzlnOEltX1E2X0JKVTFxNlRXelBMUXZVWGp6UWNJS0ZyZ1dVV2xTV3B0OGRNaFg0ZTcwWHMtUk5NdExZMkprVm5WeEswQXpaRkJWQVp3WGVHaG9ZYmo4SA?oc=5",
       "pubDate": "Tue, 26 May 2026 15:35:00 GMT",
       "source": "조선일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "화웨이, 새 반도체 모델로 TSMC·삼성 본격 추격",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNc05aNkRkZ25McThFa1l3TTAyYS1qUmNQZVdHZ21UNl9yRTJ4d3k5WnZBaVVfZ1dFZUNLMUFTUXVGa0RNV2x3bzEzRXVhVWs1SEJvb3FaaDNUeDRlYmx3QjcwaGp0Rl9ReXcyQjFpdVd3SFhPcTFsV1FZSHk2VkxJTS1aSQ?oc=5",
-      "pubDate": "Tue, 26 May 2026 15:32:00 GMT",
-      "source": "조선일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "K반도체, 자율주행 뒤처질라… 車메모리 마이크론에 완패",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5wblk5djgzdGFFeU5Fc1JPckpNVldNWkdvM3BSUTdzRDFzSW0wRVcwLWNkT0JHZV9GRFF5bWdSUU1FOXRnUlQxQU5DN01sMkE?oc=5",
-      "pubDate": "Tue, 26 May 2026 15:29:09 GMT",
-      "source": "v.daum.net",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
