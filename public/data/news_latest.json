@@ -1,12 +1,25 @@
 {
-  "timestamp": "2026-05-26T10:17:04.522357",
+  "timestamp": "2026-05-26T10:20:35.241875",
   "count": 10,
   "articles": [
     {
       "title": "[단독] 한미반도체, HBF용 TC본더 만든다",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1BcDRLOUs3bkpRbjNGRDliSzZJV2xaZmpyTzRmX3J2VVphS2dDaFRvVUhaZF9jRkNSalVEOTJ3cFhnNU1pYk1CR1hEV1lhT3NvUTZzRDBSZEdBel9obDdRS2pmWEs?oc=5",
-      "pubDate": "Tue, 26 May 2026 01:11:39 GMT",
-      "source": "MTN 머니투데이방송",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE82d1dSWlV5Q1FZSl96V291cHFUa08zS1M4SG5lRlFqVG9fZzJucGt3aHFIbzhWQVZsS00yS3E2bC16MkREVWNhN1hHNVhfaWs?oc=5",
+      "pubDate": "Tue, 26 May 2026 01:12:09 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[서울데이터랩]코스피 8047.77로 출발 이후 강세…반도체·전기전자 중심 매수 유입",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1MdVNuQ3V1T0tkbUZyUzBzMEtCdFJGaXJYeFdidWxiRV9xNXozTEpDUkxDVmRhMGpDdnFvQTdoZThjZnplODRFUlI1bWFZeGQzdnI0ZmtKNU9TZFQ5ZUY3eWNqNUt2ZUZFR0pkNjgzbElqZkZoVmpLSjFRYkdUdw?oc=5",
+      "pubDate": "Tue, 26 May 2026 01:11:50 GMT",
+      "source": "서울신문",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -25,34 +38,8 @@
         "color": "#a55eea"
       },
       "impacts": [
-        "BTC",
-        "환율"
-      ]
-    },
-    {
-      "title": "'부글부글' 非반도체 삼성노조, '투표절차 중지' 가처분 신청 접수 - 머니투데이",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9Ya1h5UVhTSUJCZlV5YnctZXFXc1FPdDc2V29wMm13WDU4NHF1S3RqdU5tYks1S2ppaTV4MXJIbkZwQ0hTYTc4SDNRMlRRcVI5c0g3UlZYWWhNSWlvVndXT0o0RnlNbU1vMm5Ld9IBckFVX3lxTE03MXk1MTU1OGhzbWpvSFJ6aUVka0xoMWlUWTFyVm1FSEQ3Tzc0T05iV0pZX3hNRE1PUC02WFRzNm5fbTBteUJZUHZabmU5dVdGZ1BfeE8ya05zc1RnRmt3TnliZXBacGtnNzBNN2JEQzc1UQ?oc=5",
-      "pubDate": "Tue, 26 May 2026 01:06:44 GMT",
-      "source": "머니투데이",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "반도체 랠리에 코스피지수 사상 최고치 경신",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9WYWh6Q0hwQk5faWVVQVp5c1hINExwYmxWZmZNRV9FQ0Z2UGw2RjlvN2JkQmY3dGZwNk9qbTZncjJuTXJHZXdJeHlvdjFDaHdHZGI4b0MxSG9sYUF3SExZMmExUS1FRlQtcVB0TXlWOFM?oc=5",
-      "pubDate": "Tue, 26 May 2026 01:06:00 GMT",
-      "source": "Investing.com 한국어",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
+        "환율",
+        "BTC"
       ]
     },
     {
@@ -129,6 +116,19 @@
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "iM증권 \"삼성물산, 삼성전자·삼성생명 덕에 배당 확대.. 목표가 55만원\"",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOVE84bWlBYkdkV2ZtVHBUTFFXSjg4bXJoUzlmQTZlZXM4b01LMkNRLTBmVTYwN1BzSElXampHUWFmUzBGeGdQTVZuXzM3TFVvVzVZN01MNmRGVkw4ZnBWU0J3dHNSaWRMbExxUU05RDUtb09OQ1IyMkZBT3FjQzF6X25FR2c2RGhi?oc=5",
+      "pubDate": "Tue, 26 May 2026 00:58:49 GMT",
+      "source": "글로벌이코노믹",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
       },
       "impacts": [
         "삼성전자"
