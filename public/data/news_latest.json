@@ -1,12 +1,26 @@
 {
-  "timestamp": "2026-05-27T09:27:37.563656",
+  "timestamp": "2026-05-27T09:57:53.064257",
   "count": 10,
   "articles": [
     {
-      "title": "코스피 개장 후 8400 직행, 삼성전자·하이닉스 7~9% 급등",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBMNmcxSU5NWExLcnpza3RKUV9hNGdER0hjcnFqSm9wSmFCNHI0Zk10a0tOcFdrb3VRT28zZVZ6dF8zMjM1MkR3TTFOSTlaQUJ2RmZkZ2ZoUzhKbWtkcE1GY1E1M3BKTUdJMUxXM2FOR3M?oc=5",
-      "pubDate": "Wed, 27 May 2026 00:21:48 GMT",
-      "source": "오피니언뉴스",
+      "title": "[속보]SK하이닉스, 시총 1조 달러 진입…삼성전자 이어 두번째",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE4yWmNadW9FeW1pUl9VUk5wbG94TnZhUzR5NVRBQUJ0S1RiUjR2M3pXS0hqNU53blpCbU5mYzFXdnFNSll4WjdRdEpMWVJOankwNWZkTWdQazl5RFgyU1HSAWNBVV95cUxPTndMWjdOaDk5Tjloai1SUEMzSkIxRDJqZkRoaFZ0OHZQbmkwc2dzbWdhbFdiTTNUOHo3MTh2aUtzQzB5TUlXSUtUTHc1MDM4SXNjeEx0NEd6SDJhOXdycVlHazQ?oc=5",
+      "pubDate": "Wed, 27 May 2026 00:48:00 GMT",
+      "source": "채널A",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "삼성전자",
+        "환율"
+      ]
+    },
+    {
+      "title": "[포토] '삼성전자-하이닉스 오늘도 상승'",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9pbU5lc1JyWVlrU3ZtY2FoQW9lNzBvakEwWmVLR19QVUJPbW9Wa0ZDUHNEajJuVFR5OUk5SWlGRUMxNlVKbWJSeGtPaWNrQjBqdno0VHEwa01qSlU4cU45Wg?oc=5",
+      "pubDate": "Wed, 27 May 2026 00:47:14 GMT",
+      "source": "아시아경제",
       "category": {
         "label": "🟢 POSITIVE",
         "color": "#4ecdc4"
@@ -16,62 +30,10 @@
       ]
     },
     {
-      "title": "삼성전자서비스, 2026 KSQI '고객감동·우수콜센터' 동시 선정",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8zeDkySlBDRjRVdUpwbkxFMHE4VEFpQjJNMzFsN3gxNGpSZjBEVDdpRmJpb3ZPaUx1TFh1N0JPSExmSDA3QWRQaWdveTFrdl9WT3owWlZ3cWM2WnlCaTQ1LTFvX0FMWWZU?oc=5",
-      "pubDate": "Wed, 27 May 2026 00:19:40 GMT",
-      "source": "테크월드",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "상장 첫날 단일종목 레버리지 정적·동적VI 발동…반도체 급등",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1nQ1FJbXVIVFpBZHpXSEdnMGtYVXJYM0JWMnVrTTdyMm1pZVVpSjIxOGxTZDJVak1HMUhUc0FYeE1tZENDcEhBNXM1WFZhdnp3T09FMnkycnJNSGZMR0VNeEttdS12Q3RpSEE4SHRnMmfSAXRBVV95cUxObkN1cE4yTUZNNHQtUHhrYTFGWkN4MVFvQW5INFpWX2V4MlZpNVV1RU9rRXcwSEhEZ3RyTy1zMXAydFprYjNzbElUakI1NjhQeWpudWRIYjBZekFGSG9mamlrbHR0N1BtNDlrRHVEb1g4UTBXQw?oc=5",
-      "pubDate": "Wed, 27 May 2026 00:18:30 GMT",
-      "source": "연합인포맥스",
-      "category": {
-        "label": "🟢 POSITIVE",
-        "color": "#4ecdc4"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자 임단협 찬반 투표, 종료 1시간 앞두고 투표율 95% 돌파",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBnTWhqS2Mwcm5qLWNrRk5LTHZBb2dFdWtXVjlPbUNVNEZoRW5zNkEzeFpZaGcwSjJjdnYxS19xUHMxRTNlRHBBTjlXYlp1d2h1MFloeC13ZWl6YTJkMGNtT1JoUTE?oc=5",
-      "pubDate": "Wed, 27 May 2026 00:16:11 GMT",
+      "title": "현대차, 북중미월드컵 대표팀 응원 '어린이 그림 공모전' 수상작 공개",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBHdURtcTZYRmNlWVU0MjhkLU5TUGhFbGdMYTJrY1U5cV80ZUVIaDI3VjRwbGRYWWN2OUdjTC14MW5rbnZyVVJTMjFVWUVxZ0VCemY1Wk9rYzZFV2VLblAzMm82YkE?oc=5",
+      "pubDate": "Wed, 27 May 2026 00:44:17 GMT",
       "source": "뉴스1",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "특징주, SK하이닉스-반도체 생산 테마 상승세에 9.96% ↑",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5aRjdXTzJQRWtGRWhJUjlueFFkWlJQNHlhZ2pYTmZqeWFaVzVIQ3VMTXQtVE8xQzdyQjFYbTlIcU9VTTE0MEdnekxEcUdhbjB4akE?oc=5",
-      "pubDate": "Wed, 27 May 2026 00:13:17 GMT",
-      "source": "매일경제 마켓",
-      "category": {
-        "label": "🟢 POSITIVE",
-        "color": "#4ecdc4"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "현대차, ‘아이오닉 드론 스테이션’으로 산불 생태 복원",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBSZ3dvaEtEbjFkNllWczhpeTNSSmZCNV9DTHRRZlprYXFSeUhOUkVQeTJ6bXFjT1EzM2tnWU1heXRaWlVuNkFyYk4ycmd0RFJILUREMWZtb19USE1MN3lENzkzMU9qclU5YUpJVGdjdmYwaGlxelNWaA?oc=5",
-      "pubDate": "Wed, 27 May 2026 00:12:08 GMT",
-      "source": "부산일보",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -81,55 +43,95 @@
       ]
     },
     {
-      "title": "[특징주] 삼성전자 7%·하이닉스 8% ‘급등’…메모리 몸값 재평가",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5EYWlDTW5wVmFPRXlOY01XcXVsRGR6bWt6V0tvQ3Y1UmNablBkNURXUjhKTDNfdE9jZWt3b25DbDNib1h3REFFOFBoblk2LUIzRXNBUA?oc=5",
-      "pubDate": "Wed, 27 May 2026 00:11:00 GMT",
-      "source": "이투데이",
+      "title": "현대차, 아이오닉 드론 스테이션으로 산불 피해 숲 복원 나선다",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBHTG44akhZMmRzOGMyS1VhcmtabDRKYzNiVHZhVGxpR0d4aWZSX2RGLVdNQ3NPZXBOMUI3ZTlxYXRFQWNtSENvQ1pzdFJaSUdDRTRHSEdyeUlBQXNDYmZZZmFYa1puS216LXc?oc=5",
+      "pubDate": "Wed, 27 May 2026 00:42:40 GMT",
+      "source": "모터트렌드",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "속보 SK하이닉스, 시총 1조 달러 클럽 진입...삼성전자 이어 두 번째",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1vTUM5OGswWXhubG9qTFlSQnJWNS16MXB3cHU2bTRoS0MySFVOMlpkR0staDhNdllUSldaMFhydEg1cnpHdXV3U21wZkUwWFFLUVg5NW9LRjlkd01WU1E?oc=5",
+      "pubDate": "Wed, 27 May 2026 00:41:00 GMT",
+      "source": "YTN",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "삼성전자",
+        "환율"
+      ]
+    },
+    {
+      "title": "메모리반도체 공급량 수요의 절반 그치나, 삼성전자 SK하이닉스 '특수' 장기화 예고",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5mMGhQUllkMS03ZDJLUExDdWhPRmw3d3hRcnozdllYTmw2bmlUVUFnS0RDRGd3d3NEbTRtX0VIRUIzNEp5QnpDNklENkpndFV6SW92eUVxLVJ3ZmxER09TNDZTcC1XandWS1ZjSUpNUUdOQ0E?oc=5",
+      "pubDate": "Wed, 27 May 2026 00:40:33 GMT",
+      "source": "비즈니스포스트",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "현대차 '아이오닉 드론 스테이션' 활용해 산림복원 나선다",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB1dEo5SkNMRFByWWVhZXhwMFZjS2tJZUdGdWdZb1ViUG9XaG9oQXlYSnAzeWhsb3I3YUJnUXBIZGJsa2NVSXRsdEprQU5Pd2lYcjhqZ1ZWRzJqdGlD?oc=5",
+      "pubDate": "Wed, 27 May 2026 00:40:03 GMT",
+      "source": "뉴스;트리",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "현대차, 미국서 ‘찾아가는 정비 서비스’ 확대",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1jN2hacGltNGxXSHVIMXlpUFVId3hpSlRfaTNWb25SZ3hjTUtkTXpKOXZZT094V1dQOWxGY2NRekwzSGlMNlZDcW56UmlxR2cySUR4R3gwTW9naTlQOFpsaV9Zd1Q?oc=5",
+      "pubDate": "Wed, 27 May 2026 00:36:49 GMT",
+      "source": "PRESS9",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "DGIST, 레이저 공정으로 2차원 반도체 광검출기 구현",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9kQUdyUGdRZ2JRMWtFNV9wcVlEWnFuVFo2UEZQNWItMi1OaUx6TXhTNkFQWHZVSDVZUkREN3BubVd5eGxFcWI4NTZBUmczM0JmSEZWZVY5OVE?oc=5",
+      "pubDate": "Wed, 27 May 2026 00:34:09 GMT",
+      "source": "경북신문",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "AI 인프라 붐에 비트코인 채굴주 급등…전력 인프라 가치 부각",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBzRndscXVIVEhXbzhSQTBlMGNJNzEtckNNTXVLaUVqTWtxRUhsZjh4d3ZUd1Z6a1Q3U3ZEdDVqTFBDY3I4RzQtRnJYWFJ4TFZkYUR5VjNacElDQ0pGdXBXdDVGZXpJTVJjVzAwWXF6ZnBHa0k?oc=5",
+      "pubDate": "Wed, 27 May 2026 00:34:00 GMT",
+      "source": "디지털투데이",
       "category": {
         "label": "🟢 POSITIVE",
         "color": "#4ecdc4"
       },
       "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자 임금교섭 잠정합의안 오늘 투표 종료…가결 가능성 무게 By EBN",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9YXzJoWFJiWUZzY3I5dnlldTcyVk5tT0o3aG9HTkVtaFR1em9CRURSY1lmZTY5cU0zblZmSmdfRmp1cW1hQmNQc0JNTUxkejZRdDR6X0tWQmo0OGFBOVJCSVhiU3hVY1V2a0U1Z0E3Rm0?oc=5",
-      "pubDate": "Wed, 27 May 2026 00:11:00 GMT",
-      "source": "Investing.com 한국어",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "LG이노텍, 글로벌 빅테크에 '차세대 반도체 기판' 선보인다",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9XSWJfTjI2ZER2MHdnbDh0YUxMZnlKZGg5S1pkWHY1eVdDYjQxUXRiLUJVbXJZUFMySGdfNklMSW5oNllhSHRCbk40bm5VQlFSX3czbFZVbHdvN3pnbks3aW9wQ08?oc=5",
-      "pubDate": "Wed, 27 May 2026 00:09:41 GMT",
-      "source": "뉴스1",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자 잠정합의 투표 27일 마감… 가결 유력",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE40TkM4NGdQSkZoS2NPd09zMkFmZTU2Zk9yZVdZSFo3RVdJclo5cS1VTk5LTERWVzduMDlpZDZRV1Z5ZEoyTUV5T3IyR1ZYZzhOLWU4M3FDNjI3MWhkX1NhYVJSbFVDM0ZfV1BtUw?oc=5",
-      "pubDate": "Wed, 27 May 2026 00:08:37 GMT",
-      "source": "중소기업신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
+        "BTC"
       ]
     }
   ]
