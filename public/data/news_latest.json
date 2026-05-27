@@ -1,12 +1,25 @@
 {
-  "timestamp": "2026-05-27T11:58:52.565388",
+  "timestamp": "2026-05-27T12:17:04.578625",
   "count": 10,
   "articles": [
     {
-      "title": "KODEX AI반도체핵심장비(471990)",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQRXBlRUJZQUZ1NWJFTjhmeWV5a245bGtDcnRPRGlZbTV5a2lvbnJfbUpLbzRpQ1lNVFJZZWNBN1c4YlhOVFBfUml6VDhMWmJPWmU0bEJBSU8xQmp5a0VNdVhHZ2dJY05XNUVhU2hjVTF4dEhSbzVnWHF4U3MyeEtsNm9vMnFHZ2FPX0ZDYnpNUVR2bjI2SU1CeVl3NA?oc=5",
-      "pubDate": "Wed, 27 May 2026 02:57:15 GMT",
-      "source": "매일경제 마켓",
+      "title": "\"후공정도 직접…삼성, 베트남에 반도체 테스트공장 세운다\"",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5lcmxoSlJnZmtteEpmbDFybTY3TElBMkhTYktwaTYxMGVTd3BoejVYTnpKVWYwUjJWQ0RQMHNLcjJzZ2RwYlRLSnRBeUEzNVNYLU5TM1hZZWxzaVFtMVE?oc=5",
+      "pubDate": "Wed, 27 May 2026 03:06:09 GMT",
+      "source": "뉴스1",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[전자는 지금] 삼성전자서비스, 콜센터 부문 최고 평가 받아 外",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5nV0o4Y3JhcHBid1ZNS1dYTUJpbm9pM0NPdnBhSTJTUldvd0pMejRxVDZKNDJFaUFaZ0ZCNk5ROGhDckh2WVZ6dmljeHpxWG8?oc=5",
+      "pubDate": "Wed, 27 May 2026 03:00:17 GMT",
+      "source": "딜사이트",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -94,9 +107,9 @@
       ]
     },
     {
-      "title": "삼성전자 노조, '2026년 임금협상' 찬성 73.7% 가결",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1pMW1FRzdpSlFPM0dqRXAzNVc2aGk0Y2xfdmpRNzFVVzdQX1pQZ0lOa2lfNGRVa3VUU29FT1ZEMWxyTzdTQWx1Mlk4bmhJVFk?oc=5",
-      "pubDate": "Wed, 27 May 2026 02:40:36 GMT",
+      "title": "삼성전자 '성과급 합의안' 가결…파업 피했지만 후폭풍 우려 계속",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5aRjRuRGt0RG92NnN2SFlxUGdwNkhCcHJfREVTWDR5NDlna3BYV1BoWmxqaDlzc2ZaeFJzdW5pcmcxNTMyaVZvSE1Wd241S2M?oc=5",
+      "pubDate": "Wed, 27 May 2026 02:41:00 GMT",
       "source": "v.daum.net",
       "category": {
         "label": "📋 GENERAL",
@@ -107,23 +120,10 @@
       ]
     },
     {
-      "title": "\"성과 있는 곳 아닌 성깔 있는 곳 보상\"…삼성 非반도체 직원 부글부글",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBNeEs1cWV1aUdZOVNwb21oeE1JTUtkTE1KaUNFRnZJdmFMOVVTQ3M2VzlJOTI4aE1ZVVBYMEZYUUpSY3RTTEJPOVlQN19ENXJaaUN4UmN3?oc=5",
-      "pubDate": "Wed, 27 May 2026 02:38:42 GMT",
-      "source": "뉴스1",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "‘반도체 호황 기대’에 기업경기 전망 3개월 만에 ‘반등’",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5oOWc5MWZpMXM2Y09IdVYwbHI5YUpfQ2FtM3RXZjYwQjEtTmNFSi1rdDhFSE5xNTZGbUhCTkZ6ZXVtaUQ1Wjh6c2Q1aEZvT1lyYVlRREhhclJwRmhKXzdCYw?oc=5",
-      "pubDate": "Wed, 27 May 2026 02:37:58 GMT",
-      "source": "뉴스토마토",
+      "title": "삼성전자 노조, '2026년 임금협상' 찬성 73.7% 가결",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1pMW1FRzdpSlFPM0dqRXAzNVc2aGk0Y2xfdmpRNzFVVzdQX1pQZ0lOa2lfNGRVa3VUU29FT1ZEMWxyTzdTQWx1Mlk4bmhJVFk?oc=5",
+      "pubDate": "Wed, 27 May 2026 02:40:36 GMT",
+      "source": "v.daum.net",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
