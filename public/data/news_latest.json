@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-28T04:04:26.017634",
+  "timestamp": "2026-05-28T04:34:39.955575",
   "count": 10,
   "articles": [
     {
@@ -7,6 +7,32 @@
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE14eE1oaWRxSXZpdWdPaHUyMXJKM2dXMmgwakQ1M25JaUd2LUxlcFdIVV9kQ3c4a2U5dXhHaWF2dUVQS0RGUEdZQ2R4V3FZcEtnSXROMFh0Z2psLU0?oc=5",
       "pubDate": "Wed, 27 May 2026 18:23:00 GMT",
       "source": "KBS 뉴스",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[경기지사 TV 토론회] 추미애 “반도체 호황이라도 경기도 세수 안 늘어”…양향자 향해 재정 마련 방안 집중 공세",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE42c3BfNGlSZGt6UmxVc1F1TU9GampQc3V3T1RTNHljTDhEUXNNTmRhaWJQTUVPNFBEY2VqZ1ZkN1ZlcVBYQlUzWjFjY05LRnc3ekhjbWthaWU2QVZxVnhPOVdR?oc=5",
+      "pubDate": "Wed, 27 May 2026 18:01:53 GMT",
+      "source": "경기신문",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "미국 봉쇄가 낳은 괴물 딥시크 V4… 한국 반도체에 던진 경고",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQaXBrVkM1eGtZYWFBUGRNbUNhZHNtQUxLYTc2T3g3dXZYMlpKbFN0WlBNMUJHR1FIQjJHaXh6c0RURG16ejYyTkFiT01oVVpEeGdaQnBucEVFVFpzV29GNmJITUNDeVlxU2NacFZXZl9UMWZGZXJtdVo3c01mR1NlbWtNcGxCNzRm?oc=5",
+      "pubDate": "Wed, 27 May 2026 18:00:00 GMT",
+      "source": "조선일보",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -99,32 +125,6 @@
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5YN3pkbEFQMDA3STBONHR5b0hpVHFpRjNYRnBhTGZoa3dlVXo3THRCRE92R2JHeEREd3JPdE1zMmdHQzdSc1E4OXJyRUlFQlU?oc=5",
       "pubDate": "Wed, 27 May 2026 16:11:04 GMT",
       "source": "v.daum.net",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자 ‘그들만의 성과급 잔치’ 비판에…“5조 환원” 사회적 책임 강화",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBTbHRrQnI4Y1pmT21MbnV6eXVLTzNwSmNLbnJZdS0ybG1oTC1BYlU2cXExYnl6UXZZR0dzTVZUaERPODBRcXI3NW9XRzBDZk5EcDI3c0VGVFowM21ic2VVZmdzalFSUkZUYnFFWnZxVzdYQQ?oc=5",
-      "pubDate": "Wed, 27 May 2026 16:06:00 GMT",
-      "source": "한겨레",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "추미애·양향자·조응천, 경기도지사 토론회서 ‘반도체’ 두고 공방",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBKeXNseDdscUtraEQ2STBYdmsySW8yQXdHQVVfVEJ5aDFMaHpJUWdLV3VHUjc4a2VCajZnYlhjMUZ3eWc0MjR5M1gtamVtZkNLLUE?oc=5",
-      "pubDate": "Wed, 27 May 2026 15:59:44 GMT",
-      "source": "경인일보",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
