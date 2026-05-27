@@ -1,12 +1,90 @@
 {
-  "timestamp": "2026-05-27T21:01:46.008005",
+  "timestamp": "2026-05-27T22:33:15.166751",
   "count": 10,
   "articles": [
     {
-      "title": "화웨이의 ‘새 반도체 제조법’ 현실성 있나",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE00VkhkdmVFODdhZ0o5NjFodk5VTzE3d3haNi1YOTF5TkxFMVdnby1OZ083RThndEw1RUozRUszZFNhV2xla0h6TkUxY004SGRKN1FuVkRKbGUyZ9IBX0FVX3lxTFBTWmJyX1FJNEU1TC16cDM2OEp6N2FjSHBJRVc5Tmt2OU5XWVNaZlFLNzByNnMzZmdiQ0ZUZS1KWFl1Z2JyUGdnZlBvbGR1cGhFTFhvV0REemlIeDhjT3hB?oc=5",
-      "pubDate": "Wed, 27 May 2026 11:42:00 GMT",
-      "source": "경향신문",
+      "title": "“반도체라는 공통 언어”… 한미 대학생 글로벌 교류의 장 열려",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9fYUo5OGtBbElCTWlSeGhJcTBrdnlCazY3Y25taEZVNzd0NWxEeW5aR3g4ZFpITElueXlhdlJFLWZfR2NZSEtiM2FfYnNJQ1VDMXJiSVcxYTJ6WlNrbHo5eTNQdUF3Zw?oc=5",
+      "pubDate": "Wed, 27 May 2026 13:15:25 GMT",
+      "source": "한국대학신문",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "‘역대 최대’ 글로벌 유동성에도 못 뛰는 비트코인…전문가들도 논쟁 중",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE03ODA4SzU0NGRtd01WVWsxMEpIOFZCS2ZTNkNndUtFR3VpeFFIRk9JeEdBWU5wMXlNNlMzbF9DaUpQRWZoaDlyZE40cTVqM1F2NHlPMkt0U21Galh1cUZJbGxsQ05MTnh3dE84QjJiaFFUUW8?oc=5",
+      "pubDate": "Wed, 27 May 2026 12:54:18 GMT",
+      "source": "마켓인",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "DDC 엔터프라이즈, 비트코인 131개 추가... 총 2,714 BTC 보유",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1WQWFSalFkcUN0aDdLTWxrQjhRbUo5a3NWblVhWW9wNG9GWW9ScDByTUJZT1pDMXVYV0lkRGQ5cE53ZnZjVU1QZkMyX2hPekVYeUgxUm94RThXLW50MWhRNTltVllJWXQ1NUN6ZVZoWVU?oc=5",
+      "pubDate": "Wed, 27 May 2026 12:39:00 GMT",
+      "source": "Investing.com 한국어",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "삼성전자 성과급 가결…‘한 지붕 두 삼성’ 남겼다",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBoUGtXYlBvVGszOVFsUGpCV1lZUkk4b2FjdzBOV3lkRVoxdWlHaGVLOEtjSk4wT1pQRjV5WWtuQng4V2hoc2dVdWJoa3o3VjA?oc=5",
+      "pubDate": "Wed, 27 May 2026 12:34:18 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "용인 반도체 클러스터 진입로 ‘보개원삼로’ 개통",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBfYWQwLXBEdTFhRHVNallTQ21TbWtUdHpQczFQVjVFbEVGWi11SENvakJtQmlRM2dyd01ydFZoQnd0bmowQ2p4VUVvb1BoenZQZXZEb2xmRFF4X2RaR2pRTWMtelBkVE53?oc=5",
+      "pubDate": "Wed, 27 May 2026 12:28:53 GMT",
+      "source": "환경일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "“주식 팔아서 샀다”…증시·반도체 호황에 고가품 소비 ↑",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBvTk5Xc3pncTJZZTB5TXdxdlFPZVRsWHdTWm9udnFNaE1rMUZha2Mxa290RENIal82TTVJRTI5Z0dmSDQtaHY0MlFRYlBnSkNlM3IzTzZVVVlmcDg?oc=5",
+      "pubDate": "Wed, 27 May 2026 12:22:00 GMT",
+      "source": "KBS 뉴스",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "반도체 랠리에 코스피 사상 첫 8000선 돌파",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9VT3hjdDg2dTdDVEM0N0JsdG4wNnJ0ZUZaMExEQUh3WmN5SG1OVWZQZ3BNOWtEdDJjSHJOWjFVR0M5RTZGRnkyX01oakN0d2c?oc=5",
+      "pubDate": "Wed, 27 May 2026 12:17:34 GMT",
+      "source": "v.daum.net",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -18,7 +96,7 @@
     {
       "title": "삼성전자 합의안 찬성 73.7%…‘반도체 대 완제품’ 부문간 노노갈등 숙제",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9ESlNNQXM2QkZOc0JHWGlEVVJlVUxsaTN0RURxS3FhQzhsbXdjdjRqVEp4dkNUQnRkOF83ZnpVazd2TU8tVnhaNjh2THpGV0xwUzI5OUtNSGI3aUFGbmxmNUk4VE8?oc=5",
-      "pubDate": "Wed, 27 May 2026 11:23:00 GMT",
+      "pubDate": "Wed, 27 May 2026 12:08:00 GMT",
       "source": "한겨레",
       "category": {
         "label": "📋 GENERAL",
@@ -29,61 +107,9 @@
       ]
     },
     {
-      "title": "삼성전자, 5년간 5조원 사회공헌…정부는 사회적 대화 물꼬",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9jZS1uY0pQaWNxaXZUYk5RU2V2elJZeng2VFphdER1LUN0WDVRU3VhczQ0YkViSEpsOUdzRjdUSXJabU5Cd3N5YmhwQWJDbWN6Y1NKUkJFTmkxc2lNNl82VjRaT2VLYlppMDZDb0RQaFJvdw?oc=5",
-      "pubDate": "Wed, 27 May 2026 11:21:00 GMT",
-      "source": "한겨레",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[사설] 삼성전자 “5조 환원”, 초과이익 배분 논의 시작점으로",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE84ZENDdjRpM0VNdTkzdm5vTDdfMWllblJOLUdIY25wZ2pTdnRvYl9ZM285ODBJV1JELTlGcDdpYUV5NjdYWHFkNk9Yb3ZrMERuQlNwaUV6LUotNXQwYW9JbTUxMnI5Wm1maVE?oc=5",
-      "pubDate": "Wed, 27 May 2026 11:16:00 GMT",
-      "source": "한겨레",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[속보]SK하이닉스 청주공장 반도체 설비서 불꽃 튀어…대피 소동",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFA4Nk1SeFZuMUxKYzYyU2NxeXZ3Smdnc1hWZThqT3JuaFhERkZtVmFJbnlBWi1mRGFFNlBOY2pZUzhXaDlTMDdleXZmeVcteG9H?oc=5",
-      "pubDate": "Wed, 27 May 2026 11:14:55 GMT",
-      "source": "문화일보",
-      "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "최태원·전영현 대만 집결…젠슨 황과 ‘K-반도체·AI 동맹’ 다진다",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE96VjhqOEF6LThJNXNmTVdsZDJRSVFVdi1iOFYtYmNNR2cwdUpXVmtUUjFnNVhYZGpKWVhBY0NnaVlNQVl0Unl6MEpQRUM0UGtrUGUyeVpIWXE4VC1Ja3Exd0dHWFo4T3JNME1qWllxYU1xV05H?oc=5",
-      "pubDate": "Wed, 27 May 2026 10:58:57 GMT",
-      "source": "대한경제",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자, ‘그들만의 성과급 잔치’ 비판에…사회적 책임 강화",
+      "title": "삼성전자 ‘그들만의 성과급 잔치’ 비판에…“5조 환원” 사회적 책임 강화",
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBTbHRrQnI4Y1pmT21MbnV6eXVLTzNwSmNLbnJZdS0ybG1oTC1BYlU2cXExYnl6UXZZR0dzTVZUaERPODBRcXI3NW9XRzBDZk5EcDI3c0VGVFowM21ic2VVZmdzalFSUkZUYnFFWnZxVzdYQQ?oc=5",
-      "pubDate": "Wed, 27 May 2026 10:51:00 GMT",
+      "pubDate": "Wed, 27 May 2026 11:50:00 GMT",
       "source": "한겨레",
       "category": {
         "label": "📋 GENERAL",
@@ -94,37 +120,10 @@
       ]
     },
     {
-      "title": "삼성전자, 베트남에 2.2조 규모 반도체 테스트 공장 건설",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1mb3B2TlB0Z0RtVkh3SHJVYzdkcllDbmtDX1dwZDEzX3lSNXhJM1d5Y05HaXQwT0R4SEN6LXhEcnBEMW12azlBV3AtU2ZqRTJ3TzMxVVZLd0xQamF6WHo5NzVDZlJiUQ?oc=5",
-      "pubDate": "Wed, 27 May 2026 10:42:13 GMT",
-      "source": "디일렉",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "리츠",
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "레이저쎌, 국내 반도체 기판업체와 9억원 규모 장비 계약",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA1blV2R0xEN1BpMjdhLW9uYkstN0tveExfX1RRYllGZ1R1VjhJYWhmNGFfdGUxSzNpQ3BtQUpabGlIQVBMa0lLNmJ4M3pPTGxOYXkyUGVjc2Jub3d3M0p2bkRuc3pQdw?oc=5",
-      "pubDate": "Wed, 27 May 2026 10:38:00 GMT",
-      "source": "디일렉",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "경기도지사 여야 후보들 \"삼성전자 노사협상 타결 환영\" 메시지",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0zMVI1WV9mSG51MXRYWjhGdmJiT1RKdjM1MlZCanBOLTlVOUZLSXdBaE1rNXFNdnd4clVFVjNBMUtzWUlQMHBDNXJpZTZUTDA?oc=5",
-      "pubDate": "Wed, 27 May 2026 10:26:51 GMT",
-      "source": "v.daum.net",
+      "title": "화웨이의 ‘새 반도체 제조법’ 현실성 있나",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE00VkhkdmVFODdhZ0o5NjFodk5VTzE3d3haNi1YOTF5TkxFMVdnby1OZ083RThndEw1RUozRUszZFNhV2xla0h6TkUxY004SGRKN1FuVkRKbGUyZ9IBX0FVX3lxTFBTWmJyX1FJNEU1TC16cDM2OEp6N2FjSHBJRVc5Tmt2OU5XWVNaZlFLNzByNnMzZmdiQ0ZUZS1KWFl1Z2JyUGdnZlBvbGR1cGhFTFhvV0REemlIeDhjT3hB?oc=5",
+      "pubDate": "Wed, 27 May 2026 11:42:00 GMT",
+      "source": "경향신문",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
