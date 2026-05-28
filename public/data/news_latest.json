@@ -1,7 +1,73 @@
 {
-  "timestamp": "2026-05-29T02:41:31.817828",
+  "timestamp": "2026-05-29T04:11:46.147082",
   "count": 10,
   "articles": [
+    {
+      "title": "'시총 대전환' 마이크론·SK하이닉스 폭등… 지금 반도체 들고 있다면 이 지표 하나만 보라",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNX19aa3B1N3NaUW8wenZHTnJxUVRCZ2t6bGZiMk41YVUtVEFpdm52RkhZX2NUV2tHWUJ0azdleFBfcGpuWDJkMVV1VG13enhqdGlIT3RKMlRpb1g5Q1hXejhvaVVEVktySG5MTlZLSzJVNkZMc1hibW5VQjdmOG9HZmpaM1JKMVAw?oc=5",
+      "pubDate": "Thu, 28 May 2026 18:50:00 GMT",
+      "source": "글로벌이코노믹",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "\"최근 비트코인(BTC) 고래 움직임, 2022년 약세장 초기와 유사\"",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1wM09RQ0kxajFYTkwzbkNoYlRVelNPNlZ0c044clF1TkJHWDRqYWtDMXBtSU9uYW5JU3RoZ01SVTNPVEJZMlFudVY4bl9vVjFI?oc=5",
+      "pubDate": "Thu, 28 May 2026 18:41:51 GMT",
+      "source": "블루밍비트",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "엠버CN \"익명 고래, 3040만달러 규모 비트코인(BTC) 40배 롱 청산 위기\"",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5oYWtzVW9yamxMTUtTbWFfdGNVMEpoZkFFYTE5cG1Ub0lmc2RUVklIWFNzRV8ySmNLVlZyVkhyRFc1R2x6NVhHaHFKMUVhOW41?oc=5",
+      "pubDate": "Thu, 28 May 2026 18:29:10 GMT",
+      "source": "블루밍비트",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "BTC",
+        "환율"
+      ]
+    },
+    {
+      "title": "[사설] “수도권 반도체 배제 안된다”, 살아 있는 경기도정",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBsZTdDM1JrU1NJUlFSUmU5bVFNQlRzRGx5V2xhRHYzc0ZZaGd5MEdLS1FncEl2QmtPSC0yckYwcnhfU2djQ2kyMFhlYVROaFBuWHRaZFc5ZDJjMUU?oc=5",
+      "pubDate": "Thu, 28 May 2026 18:03:00 GMT",
+      "source": "경기일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "SC \"이더리움(ETH), 비트코인(BTC) 대비 2021년 수준 회복 가능\"",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE12cEJSaFRpVFBBcDFkUlp6cGRCUVhUSnBvQnc4bDdUdE9tN1RlV1cyWTQ4dFBLcjhZTEhhZ2pYSTVpQU9naTZUQVRZOS03NXU5?oc=5",
+      "pubDate": "Thu, 28 May 2026 17:53:16 GMT",
+      "source": "블루밍비트",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
     {
       "title": "강원지사 후보 TV 토론회…‘반도체·레고랜드·공약이행률’ 두고 격돌",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5iS2pBUGhWQ3V4Qk9YdTZEN3lOQ1JmMHpQSUNkYzZHYmxCOURBeWY2YjFfRXNuX0xJYV9uRnZlQUZiLTFDbmxsWFU5N1gtVTNLbEdXOENnb1dyOGxFWXNMUHpZYnoyNHM?oc=5",
@@ -26,20 +92,6 @@
       },
       "impacts": [
         "삼성전자"
-      ]
-    },
-    {
-      "title": "엠버CN \"익명 고래, 3040만달러 규모 비트코인(BTC) 40배 롱 청산 위기\"",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5oYWtzVW9yamxMTUtTbWFfdGNVMEpoZkFFYTE5cG1Ub0lmc2RUVklIWFNzRV8ySmNLVlZyVkhyRFc1R2x6NVhHaHFKMUVhOW41?oc=5",
-      "pubDate": "Thu, 28 May 2026 16:17:34 GMT",
-      "source": "블루밍비트",
-      "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
-      },
-      "impacts": [
-        "환율",
-        "BTC"
       ]
     },
     {
@@ -80,56 +132,6 @@
       "impacts": [
         "삼성전자"
       ]
-    },
-    {
-      "title": "현대차그룹 ‘HTWO 광저우’, 中 수소 선도기업 선정돼",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0tY2xiTHVQQ0dxbi1HQkFwVnVWQ3BfaVVZdjczMTZhTmVEejRreGxxVFhsd1lFUGJIbkJZYjVpSHdCNjlNR2JBbDhISEZtQm1CYmNmazBua0owY1dxcTRHN2V5RUExTkM5dkRabzZLSU5Bcy1hcWfSAWZBVV95cUxPaFh4R2xXbHVndFBFT1VOazE4dkRPXzh0LXFFdkpiUER5VDJoWjVRNDdQQmx2WU5LSDVPU1ktVElJeGpYZTBiMTNQN0VFQTNraFctVUxTd2tlMjFCMUNrdWxVcmNLQVE?oc=5",
-      "pubDate": "Thu, 28 May 2026 15:30:00 GMT",
-      "source": "동아일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "[중앙시평] ‘먼저 온 미래’ 삼성전자 성과급 갈등",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFA0bk01bHB0RjdHMV95azNvQUZOWEt3YklrRnY0OElhU0g2N0JnVk9QNEJ5akpmTFRVUngwWkJIX1dmX3lET2xkb1JNN1g5R3M?oc=5",
-      "pubDate": "Thu, 28 May 2026 15:19:53 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "“AI가 반도체 시장 다시 쓴다”…반도체주 올해 75% 폭등",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9GSjZyQU5qRHRXRk0zNktINDhTNG5Rdk1MZVFWNXlBVlloaDB3T3NrbVRpM2pTdFlUZUR4TkhQaWtjOFU0Znd2Nk9mOFNWYlRNWG9feUtB?oc=5",
-      "pubDate": "Thu, 28 May 2026 15:18:04 GMT",
-      "source": "중앙일보",
-      "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[이상렬의 시시각각] 누가 탐욕 가득한 노조를 키웠나",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB4QmZnNVljVWI2WERxenVWcHpEdkcyRDB6RldHMHhYbVVlR1IwTXhCdGp2U0RIQ3FqVnV2RkJwNXlmbFB4RWt3SHdzQVQ1RDQ?oc=5",
-      "pubDate": "Thu, 28 May 2026 15:17:56 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": []
     }
   ]
 }
