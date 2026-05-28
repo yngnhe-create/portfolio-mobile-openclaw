@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-28T12:08:20.505389",
+  "timestamp": "2026-05-28T12:17:04.686447",
   "count": 10,
   "articles": [
     {
@@ -7,6 +7,19 @@
       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1GNW9xRDduUEtVWllmN2ExRkszZ0x1a2hIMzRIelNNNERQLU5odG94czlLVUNFWGVFQnZkWElHcWFrUGprd0lOSDMxRzRlVnBt?oc=5",
       "pubDate": "Thu, 28 May 2026 03:00:04 GMT",
       "source": "문화일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전자, 하버드대 병원과 갤럭시 워치로 비만약 부작용 연구 추진",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9xZHN2Y3BVQXJpOVJOM3JRdHZsb05CV0JkVEM2NkREa3hYZ3YzdGZrQW0zdkZSeVp1R3FWSGdSSU1RXy0xc0w4bWVQUllaV0Z4SERKNDRWbHVGUdIBX0FVX3lxTE5wcVh6a2ZhX2hTXzFrR3l0cVhaYTZqMS1MMDU4QnNENlRMVDdwUHZKYm9Mdjl1ZnNobFV2ZnZ0UDhEQUhmVVZyQVdVdkxHaE5qbXhxcERoVU9YVEVCZTdF?oc=5",
+      "pubDate": "Thu, 28 May 2026 03:00:00 GMT",
+      "source": "경향신문",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -81,6 +94,19 @@
       ]
     },
     {
+      "title": "[속보] 신현송 \"반도체 성과급, 물가 압력 영향\" - 머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE40SlFYYUQ2cDNnaUpYbEJQeVhRRTdtNHh5RWp0cldDYkNUNGxxOGNmRG11WURoMU1zV3F2Y2FTcFdFaW0xYTd1ZzVDdF9nbGw3bEs3SHNnX2Y3elhRa18ycVpKbWM1azNVd0Jv0gFwQVVfeXFMTTBzU01xQ3RqbEpGZzdNZy02ZDcyLTJNQ0RNRVRhMFF1MGRqTmlTT2xnVXE5UzFwVmRDVnRoaks0bTZjUXdfRFBDNzFvLUY3bUFFSzdFWkx3Qms5TnlFcEoyZEVzc0FHNU16TjNsZmZOMQ?oc=5",
+      "pubDate": "Thu, 28 May 2026 02:43:53 GMT",
+      "source": "머니투데이",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
       "title": "경북, 데이터센터·반도체·방산 등 상반기 5.4조 투자유치",
       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5UOFlZTXZUeGRxLVZzNER0S0ZCRDJkRmxUbGYwTnV5MzBfU21LTXk1RW1VZ2RWNERoVXREU3pieVZwT2FuUUNBRzUwN1VUb0xD?oc=5",
       "pubDate": "Thu, 28 May 2026 02:40:28 GMT",
@@ -95,38 +121,12 @@
     },
     {
       "title": "[속보] 한은 총재 \"삼성전자 성과급에 물가 상승 압력 생길 것\"",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9JRUxMZVJpWFo3QVBtS1dySHlxR1dMS3dXdENfb0tiZGRaNnlZVm54NzFDU2tmLVNQUnRVYTFPaHhuQXRSN0tLbmg2cjBMSFBSOF9BTEJLeWV1M055RzVqZmZQV3dNTkNlNEZfY2p0UUFZNVNTbXM2djRBYTM?oc=5",
-      "pubDate": "Thu, 28 May 2026 02:40:02 GMT",
-      "source": "v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBTLUlOMXdZZDdOaS1DdVRidjVaOUVYTjBhR0tISGhiN01wSkdPekExWmJJLVZCVUVYY09OYXRMQTg5dlRINzlxVnA2XzNFMk5OZVdHeVlwUldBc0nSAWBBVV95cUxQT0x0eUlNaHpER2hteHVBTnB5NGo2TWMtX2tZdUxfYTVCMDMtcG5pRjQ3dk01SVRBT040ZVp6ckhCRl9ndW5nbXdHT015NjhhMXQtNGdEZmN1VWlOcXhJTVg?oc=5",
+      "pubDate": "Thu, 28 May 2026 02:38:34 GMT",
+      "source": "연합뉴스",
       "category": {
         "label": "🔴 HIGH IMPACT",
         "color": "#ff4757"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "반도체 글래스 코어 기판, 2028년 양산 돌입…“2040년까지 연 67% 폭풍 성장할 것”",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBUVXBxa2tkWjZzeEg2dmNrajJ0bENXc1M1ZTN5NEZoTGZ1QlZQaEQxWUNBQnc2LVNETTJzVVdXZjRjaUc1MGJYWkdtSkpkTmNURTl1Tlpra0E0NXFjMWtsdmR6bjhBblNX?oc=5",
-      "pubDate": "Thu, 28 May 2026 02:31:29 GMT",
-      "source": "테크월드",
-      "category": {
-        "label": "🟢 POSITIVE",
-        "color": "#4ecdc4"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "신현송 총재 \"반도체 경기 강해 수출 확대가 성장률 0.7%포인트 견인\"",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8wT0pISk9yOUp6WlFibzh1LTBFdHQwRFJkYXlJNHZ0ZnpvRGx1UmFnNjNxQVc5MWZXOHB5ejBQMFdsYXNNQXlnNEtXT1Rwa1E?oc=5",
-      "pubDate": "Thu, 28 May 2026 02:29:45 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "🟢 POSITIVE",
-        "color": "#4ecdc4"
       },
       "impacts": [
         "삼성전자"
