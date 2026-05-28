@@ -1,15 +1,28 @@
 {
-  "timestamp": "2026-05-28T10:07:20.719797",
+  "timestamp": "2026-05-28T10:17:05.249170",
   "count": 10,
   "articles": [
     {
-      "title": "한미반도체·ISC 급락에도…삼성전자 목표가 줄상향 [칩칩폭폭]",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBNcjBMQnY2OUlBWjRaZGNSUGQyN1VxRlM3a1hDbjFOYWEwWFBaTVhYM0YwRTJCN2lUa0Y2Y1BnY2lMNlgwenNUVU5TcF9XTVk3d3VhTTctLTBGUjF5VzRNWWdNUzFtY0dLdF9MXzN3bmF4bWlK?oc=5",
-      "pubDate": "Thu, 28 May 2026 01:03:56 GMT",
-      "source": "조세일보",
+      "title": "반도체 호조에…한은, 올해 성장률 전망치 2.0→2.6% 상향(종합)",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB3NFY2RWJYVndPS1NTMWtqdWhRODBLenk0Vm1CdmNvT3BMLWd1UTNoVWlDLTNwdFJsU2Jwb3FjTTRoYi1WbVMtcDVaZXBwSGs?oc=5",
+      "pubDate": "Thu, 28 May 2026 01:12:16 GMT",
+      "source": "v.daum.net",
       "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "韓銀, 반도체 호조에 올해 성장률 2.0% → 2.6% 상향",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5FZmVOOVM0aGlJVHdFd3BrbFREbC15N3VOQkVtWmk1YUNIeldROW52V3FQem4ybTY1NDQ5OUpSV203MjkxMGk1YnpZLWN1NVZDSE1JRDl2bjNXdVpyZzJ1TDQ4T1puX2M2TjJCatIBcEFVX3lxTE1lN0V6VFFieHJIdmJZbjkzRklONUY3cHJvRUk1TjRmR0RqYXB5VU9yVXQ5c3FENkRWcEs2UFdrc3JjRDdqNkZUWTVvbU8zNVd5a1BNWENrUGZjVktwMW5EVG44amdzcnFYdk1hN3kydUw?oc=5",
+      "pubDate": "Thu, 28 May 2026 01:11:48 GMT",
+      "source": "소년한국일보",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
       },
       "impacts": [
         "삼성전자"
@@ -20,6 +33,19 @@
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPWDNUWGlnZVRwMTZhOXJCTnZPV2JKZzJySXFTTUhtUmJqSkVGWDNLWVZsN0c0SEVUUFBBVVQ0Sl8xTEJOdWhkRXBRY292MHRraDFZUzNmRjdOUlR4enk2eEVlQWZ3VVhSczktZHRFMDExYzVEWFVISFVScVIxbFFsNEowN1BiVGpy?oc=5",
       "pubDate": "Thu, 28 May 2026 01:03:28 GMT",
       "source": "글로벌이코노믹",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "김정관 산업장관 \"올해 수출 9천억불 넘을 듯…반도체 외에도 숫자 좋아\"",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE45RU5MNWFYbS1nd3NuRFRoQ1pBeW5KTkgxbTRWajhqcWszWnVyUFB2SzZYbUdPN0tBUHZlQkFuVDAzQUMyZUhvanpRcGcxNERiUXdLaWtjd19kZFJMeUtnbUQ3ZHkyNUx6cVFMdFNuZDc?oc=5",
+      "pubDate": "Thu, 28 May 2026 01:03:18 GMT",
+      "source": "연합인포맥스",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -55,37 +81,23 @@
       ]
     },
     {
-      "title": "중동전쟁 이긴 반도체 효과…한은, 올해 성장률 전망 2.6%로 올려(상보)",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFAzcms4U05lMENvVUxseVE5XzRaNzR6eURTWWtDM3JTcHVNS0JXUGNhWTN5SGtOLThwNWQwNllXS3dwcGdGWFVqTlZFZFR0X00?oc=5",
-      "pubDate": "Thu, 28 May 2026 01:01:08 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
-      },
-      "impacts": [
-        "원유",
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "한은, 올해 성장률 전망 2.0→2.6% 대폭 상향…'반도체 호황' 반영",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5FdG55RDlWeV9ZRzVZZHg1YVI4VFdGRWg1aEpYSEkyaGFJMzRLX1p0UHdkdUpqd0VhUDR3QkVYQ09yNlNXRnJ2c2lNNVI4dnhQcWxXMw?oc=5",
-      "pubDate": "Thu, 28 May 2026 00:59:06 GMT",
+      "title": "지난해 결산배당 37조 7519억원, 전년比 16.9%↑ 삼성전자 1위",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1qSklicllaWGxsaVVmLWxEZHEwR2hsTFFzMWM3cXpPdGhKcGJLd09pQ29pN3c3dXdaTFB3MDB1bVZnT1dnR0tRS2lFTDJZRmo3VXhCTnQwaGhiejJnendV?oc=5",
+      "pubDate": "Thu, 28 May 2026 01:02:12 GMT",
       "source": "뉴스1",
       "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
       },
       "impacts": [
         "삼성전자"
       ]
     },
     {
-      "title": "현근택 \"반도체 이전? 시장직 걸고 막겠다... 정부와 싸우는 시장 아닌 해결하는 시장 필요\"",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBpSUJjNTdwaDVzeTJEcEduU0RYT3FtYlVpYkFvWGhEdHdlWkREeTIzWk1qNDZ3WGFqS2lBZi1Xd3dic3FNMkVOaUN3Nkk4bG8?oc=5",
-      "pubDate": "Thu, 28 May 2026 00:58:12 GMT",
-      "source": "v.daum.net",
+      "title": "김정관 산업부 장관 “삼성전자, 독 될지 약 될지 기로에 서 있다” - 조선비즈",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQZXZVaHF0YnFrTU9KZmtOaDlLelRiQnNtOEQxc1F4SE90N0EwcW1oZXVQTm1WdkR4M21VS2gxNklycGhkdHNidmtxZVJuZ3hhY0I0RUhxeEg5Ty1ZX3FINTkzZ2lFT2w2OHg1WmdLMm9qa0J1VXlvWk9oZndUUkFGMGxmb1B2d9IBmgFBVV95cUxPU0hiTVk4cEh2Mk9ZSzdMNFQxOHhTNTVPblA1UzRsZHdqQ3lMSG9CelRtaGdLSXRoZlQ4eWZVaGQ0SDhPSHo2R3g1T0ZnbFF1N3hGYmRtcWhqVEFVRzNuNUM4U0sxdGlhODcxVXZ0cWxwRmU1dlBxcnczU1FXZFZjZVUtVVVqbjRqWWZRRDhHSzR3eXlGSjNJOTJR?oc=5",
+      "pubDate": "Thu, 28 May 2026 01:01:34 GMT",
+      "source": "Chosunbiz",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -95,10 +107,10 @@
       ]
     },
     {
-      "title": "[대구시장 후보 대표공약 분석] 추경호 “반도체·창업으로 대구 대전환”… “80조 투자해 미래산업 수도 만들 것”",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBqUDB3S1ZlTkdwanhlMWotdDBaQks1SjdLN2NQbFkxMXlPRzJZb0dLSXN4QkU5cklpUjhLNzJDbUhmUllBT1J2TzZfTnBJTlk?oc=5",
-      "pubDate": "Thu, 28 May 2026 00:55:03 GMT",
-      "source": "v.daum.net",
+      "title": "신한자산운용 AI반도체 ETF, 순자산 3조5000억원 돌파…개인 순매수 2조원 육박",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE0xbEE2cnpVWmhUQUZNU0tYblpXcDI5YllHa2x0TjgyY3Z5cEk2RlpETUp3R21TSmRCdTFrb3lQTlg5ZmFlanhkbTRQa0N5VmZXTkpnOWlRdEFYQVZtcjY5Yl9FYzJnZjRFZGdPWngxQ2p2TktiR3BF?oc=5",
+      "pubDate": "Thu, 28 May 2026 01:00:15 GMT",
+      "source": "이코노미트리뷴",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -108,23 +120,10 @@
       ]
     },
     {
-      "title": "삼성전자 내리고 SK하이닉스 오르고…숨고르기에 들어간 반도체주",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBxcFZJNGN4Z21EeVRYRGR0WW1OaWhLRE04SjRSQ3RYWTRKQVVLWnNVWVVIVVEwZFNndmFyVWxaWWZ2cEh3WUhuRFhtU25uTlNwSWc?oc=5",
-      "pubDate": "Thu, 28 May 2026 00:53:46 GMT",
-      "source": "매일경제 마켓",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "대구·경북창조경제혁신센터, 삼성전자 딥테크 밋업데이 개최",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFA2NklYM3pQdGVqNUtzVUZ0dF90c3FDeHdQelZfNkFscFQtRHEtTW9UOXVJWVBadFRjVEVzc19oNTFtTEN6MTNBWWtjMmhydzdkaGVKeHdKOWI?oc=5",
-      "pubDate": "Thu, 28 May 2026 00:48:04 GMT",
-      "source": "경북신문",
+      "title": "“유리·구리 열팽창계수 차이 해소”…심텍, 반도체 패키징 학회 'ECTC'서 유리기판 연구 발표",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5XSFZaRTdfa0FlYnVMQVJjNlBOTzByTUFvQnkyVWRDenZMenVrdjcxeUJfTHRKbDZ6N0FYVG1acVE0RTExdjhmMjZ4c3dxQQ?oc=5",
+      "pubDate": "Thu, 28 May 2026 01:00:00 GMT",
+      "source": "전자신문",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
