@@ -1,18 +1,83 @@
 {
-  "timestamp": "2026-05-29T00:10:48.981329",
+  "timestamp": "2026-05-29T00:41:03.256514",
   "count": 10,
   "articles": [
     {
-      "title": "이더리움, 비트코인 대비 2021년 고점 회복할 수 있을까?",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9HNTQzY21JaGk1QkhyQTNMd3AtMTh5YmEzMktRSjZuX0VIWk1HaWUySXBuZVRuZllkOWQ0MjExQnBEajAtSkhSVmo0TWpjTlFqVXRjUWRwR0szVVBwU3NGYXh3UzVVaXNNTFRzaUxXS1VhMnM?oc=5",
-      "pubDate": "Thu, 28 May 2026 14:29:00 GMT",
-      "source": "Investing.com 한국어",
+      "title": "“AI가 반도체 시장 다시 쓴다”…반도체주 올해 75% 폭등",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9GSjZyQU5qRHRXRk0zNktINDhTNG5Rdk1MZVFWNXlBVlloaDB3T3NrbVRpM2pTdFlUZUR4TkhQaWtjOFU0Znd2Nk9mOFNWYlRNWG9feUtB?oc=5",
+      "pubDate": "Thu, 28 May 2026 15:18:04 GMT",
+      "source": "중앙일보",
       "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
       },
       "impacts": [
-        "BTC"
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "‘먼저 온 미래’ 삼성전자 성과급 갈등",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1GWnJUOHZlMFlmM0VodVBwSjZqWWJfSzNBR0hUYklBSUo0Y1RiZzM1aHhBMXljQ3VaZlBOZ3lQWFdaQnMtWWFIY3lON0xQNS1yZ2d6M2ZB?oc=5",
+      "pubDate": "Thu, 28 May 2026 15:18:00 GMT",
+      "source": "중앙일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[이상렬의 시시각각] 누가 탐욕 가득한 노조를 키웠나",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB4QmZnNVljVWI2WERxenVWcHpEdkcyRDB6RldHMHhYbVVlR1IwTXhCdGp2U0RIQ3FqVnV2RkJwNXlmbFB4RWt3SHdzQVQ1RDQ?oc=5",
+      "pubDate": "Thu, 28 May 2026 15:17:56 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": []
+    },
+    {
+      "title": "韓 AI 반도체에 손 내민 브로드컴…퓨리오사AI와 계약",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA3VGNVU2NvemJldkJXU3lhSDQtR29QT1pIU0NEbGhJRDZKTnBQRmFFWlJORElJNGcxZjZ6Q2NiZ0RlZVhJbDlzSjNWbEc5SlI2RGk2M05B?oc=5",
+      "pubDate": "Thu, 28 May 2026 15:16:45 GMT",
+      "source": "지디넷코리아",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "매서워진 한은… 반도체 호황·고물가·고환율에 금리 인상 신호",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5IVFBmWnl5VXZlM2d5WkZMME9qS084LVlyODY1dHFzbjVIdUpGbk1PNDc3dE41ZDFuR2NWMUdoajNaOGNMaVFvYWx6ZUYySThrZ1FEczlpU01VVzZrZ0trcmZCTlNjSDTSAWxBVV95cUxPaEVxUGJwNEFKMXZ4bEFPQXo4RVFEWWpYSkozSHNnWWMybGgxWlpleTV5cTVKS2JVSGdLR0xBc3lzZXktRWJWa0RhNEVzV3R6VjlmLUtVVkNPOEExNE52c3A5dVlWNlc5WURpSk4?oc=5",
+      "pubDate": "Thu, 28 May 2026 15:11:00 GMT",
+      "source": "국민일보",
+      "category": {
+        "label": "🔵 MACRO",
+        "color": "#0984e3"
+      },
+      "impacts": [
+        "삼성전자",
+        "환율",
+        "채권"
+      ]
+    },
+    {
+      "title": "삼성 초기업노조 집단 이탈…8000명 빠져 과반 지위 흔들",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9GMFIwdkJjNF9kQVJEdmtqR2lTMUhWczZpRmxjbE4xdVYtdzFzX0xyc1J6ejU0QWk2ek5yc1hkSlhTUnFvNXY1bXlWX25XcUhPUGM2dXQyM3JnNUl4WmVTY0NOX2RCbnVVR0pR0gFuQVVfeXFMUE9RT0FvOXJQTTNEY1A5dVh3azU0Um1hUExmYTI1bFlCTk5veWVhOEZoZmtIWER4bHVGLXVkaDBqS0JxckN2Sjdta2VremZnNFpsbDZfWHhCZ2pfT2Y3YzFqNm16M0JPR3loLWk2TGc?oc=5",
+      "pubDate": "Thu, 28 May 2026 14:50:00 GMT",
+      "source": "조선일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
       ]
     },
     {
@@ -59,71 +124,6 @@
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBMTHQzeHh5bmNWZVpvSkdUSktzR1c3WTBTMmZsaWprbDkzSTN1b09kSmt2UE9FQkE4XzV5Q2Iwb0Y4b2c2TDI5cE5lZXVEOGxFYXBya3JZZVBxeUdGU1pDMTZodjZJLTB1Z3o4Y1lhRjlXZw?oc=5",
       "pubDate": "Thu, 28 May 2026 13:53:35 GMT",
       "source": "고령자주택신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "양향자·김경희, 반도체·교통·돌봄까지 미래도시 청사진 제시",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1tb3NFVjl6RjZRZEVCcHRxazNGSUJVVjBDd25YdmFQSVNLY3Y3R3dCdE1nOTQ0UWxuVWtWTDQ3V2tlUWdHZUx6M2FNWlVScDlNVW45RUJlR2Q2cDVOaDdtSzZBTjd3TjM1dzNtblFR?oc=5",
-      "pubDate": "Thu, 28 May 2026 13:48:13 GMT",
-      "source": "뉴스타운",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "\"비트코인에 적수는 없다\"···마이클 세일러, BTC의 차별화 포지셔닝 강조",
-      "link": "https://news.google.com/rss/articles/CBMitAJBVV95cUxQNENzU21wdGhxaTl3WnNxRDd5cUpsYmZyUmFnMFJMOERsLTRWcEItZHZ1cTZfUmMyNTVGY3ZkWGpJX3cweXkzX2lZWG1EUEsyTXBFRGx6ZUZOdDdiaGtRNkR5ZmlFQ0l1RndFRlN6UGZac0tWR2VMdTdYQmVpenpMUmFUSk9rUkVJRVJVVk5mbWtMZ3hCTXFmcEsxeHF5ZlAtV3JETkptZy1yZTRUWDhfVTFCakNjZFhwMldPXzFQWGprSEVtMC05NmRDbDc3c0llVG92cS1BZ29peXlOZWYxX0VsVGtZaW0tTjFNQnBVbmc3Y0RMclVlWmd3dUhhOVdCQkQxMmFfVXJJUVZZWG9vWWRYZ1FsTTNsX05CX3NEWi1PQTJCeDYxWm8wUy1hWjBTdGNFcQ?oc=5",
-      "pubDate": "Thu, 28 May 2026 13:03:20 GMT",
-      "source": "Benzinga",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "경기도지사 후보 토론회…반도체·교통 공약 신경전",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB1dGtteF95ZFVpVTEtQ2twUzhOVzJ0SGJSTUlPb0ZPTnVteHA1QXFpdC1Dc19tWHZSMXk0SGZPdDIyU3RuOTJ6emhMd1NPWEE?oc=5",
-      "pubDate": "Thu, 28 May 2026 12:53:10 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "경기도 “‘반도체 수도권 배제’ 반대”…도지사 후보 토론 ‘설전’",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1Ba2x5cHhOTkcyMHVEb3hHYmQydFhSWG9RMWYzZ1doMVlIdDhuS1JEMVNueVdjXzF0d1dacldnWjVIeFhkZ3BoVXUxNnNVQjJMeWZSeUZNMENUYWs?oc=5",
-      "pubDate": "Thu, 28 May 2026 12:46:00 GMT",
-      "source": "KBS 뉴스",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "'이재용' 바짝 추격한 '최태원'....'시총 1위' 삼성전자 vs SK하이닉스 격차 '6%대' 추월 임박(?)",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5uMHUwNXUwbUJFSlkzT0pVa21qd0lQUnZtV2NzMExQckJwTUV5RllkNTY0aksybW83NUpMd2k5X2x3ODVkV0ZKSmJUWE51WDVZZGdaTkRoQkc2bHFxTHFOS3Zkc1ZEaUl3?oc=5",
-      "pubDate": "Thu, 28 May 2026 12:45:10 GMT",
-      "source": "녹색경제신문",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
