@@ -1,7 +1,58 @@
 {
-  "timestamp": "2026-05-28T14:09:19.988903",
+  "timestamp": "2026-05-28T14:17:05.268447",
   "count": 10,
   "articles": [
+    {
+      "title": "프라임마스, CXL 기반 ‘JBOM’ 하반기 양산…GPU 병목현상 깬다",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE96Sk5lbUVUV2psWlBNVWRiRUZWbGY5akxrTjNLaV9MNGlBdV9qUnFkaXItZnAtZVBzbzRvdXlUVUY4MFdKekVScW1sYVBlMmV3X1c2MG1ESEdOdjNpYnZMSllLZXA3akxT?oc=5",
+      "pubDate": "Thu, 28 May 2026 05:10:00 GMT",
+      "source": "테크월드",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": []
+    },
+    {
+      "title": "반도체가 끌고 유가가 밀었다…한은, 성장·물가 전망 동반 상향",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBHdnZ4ek1fT3ZoT2FRR3U4LWhrTVFCamZxMVBTMFFJcURXUWUwNVdFRFk0RjJvZDVBcXZQZ05EVWFtQUZQSFB6RDhuUTIxNWVIdEc4cGZtVHkzZDE2WERMcDJn?oc=5",
+      "pubDate": "Thu, 28 May 2026 05:07:04 GMT",
+      "source": "전자신문",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
+      },
+      "impacts": [
+        "원유",
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "경기도, ‘반도체 클러스터 수도권 배제’ 시행령안에 반대 의견…대책 회의",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1ncXFsb0ZKWWEzenhOa1MzNzJJMGJPVWlxM2tYbWhsLVg4VkFmWjdlUG5CMDAzbXBRMWM3bmdkQ2s3TW1BdEJGc1pfYUhPVGpkSE80NmFYdHYxRnc?oc=5",
+      "pubDate": "Thu, 28 May 2026 05:06:00 GMT",
+      "source": "KBS 뉴스",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "오토닉스, 반도체·2차전지·식음료 설비 겨냥...SSR 풀 라인업 구축",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE03SDNTUUt2Yy1MSV9lZDNGSFdlbUlBdERkeGNla0w5a0FpMWNBZTlBUjJSNGdxYlRRcmRweXEzV0hZbW9mVUpVUzlCNmNnS2NGUENGUHZPSFlJajJtYWc?oc=5",
+      "pubDate": "Thu, 28 May 2026 05:04:26 GMT",
+      "source": "헬로티",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
     {
       "title": "이노메트리-레이저쎌, AI 광반도체용 CPO 검사장비 공동개발 맞손",
       "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1yR01rNVhGRzB3WjNVUzU3WmNCOEpBMmxxQUVMUENVOE5URHVSdjJTbGYxTjhIYWJmX3k0SE9OV0JINGplZkdIT2gydE12UQ?oc=5",
@@ -77,61 +128,8 @@
         "color": "#a55eea"
       },
       "impacts": [
-        "BTC",
-        "환율"
-      ]
-    },
-    {
-      "title": "한은, 성장률 2.0→2.6% 대폭 상향…\"반도체가 중동發 충격 상쇄\"(종합2보)",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBhMGxMU3hqeVgtTDBJOTNLNWdib09kbTBpZVJlVGVDVVhYdW01WDFOc3RvT0FRVGczVlNrMEYtbW1mNzRNbzFfOG5idmhEOVRMUHFMWg?oc=5",
-      "pubDate": "Thu, 28 May 2026 04:44:43 GMT",
-      "source": "뉴스1",
-      "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
-      },
-      "impacts": [
-        "삼성전자",
-        "원유"
-      ]
-    },
-    {
-      "title": "주시현 현대차·기아 상무, 인천국제해양포럼서 기조연설",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBrQUJ3Q29lcllsUGZ2OGlsMUkyR3hpXzllYUJ5T3VQeG1QeWF2MGhVX3B2Y3JDOWdfa3M2RVNyLWJaSzg3SmZLRDZDTzJsU0Jvc3FXcnVqb2RKb1J6VnBMcFlLWnYtdFpUNG1Nd2hB?oc=5",
-      "pubDate": "Thu, 28 May 2026 04:40:00 GMT",
-      "source": "중부일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "[기업분석] 반도체 장비산업의 새로운 신화 HPSP",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1SOWhGUW1scFU3cjI3aUItXzByMXNlb0c3Mm10RWR2RURFWTE5eGlJa3VQNG5SWkxIZVhDZEhUd2ladV9WSi1UUGNMVzF3WDgxV25MMzNHdUllN2RJY3VZ?oc=5",
-      "pubDate": "Thu, 28 May 2026 04:39:00 GMT",
-      "source": "CEONEWS",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자, AI 메모리 훈풍에 D램 1위 굳혔다",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9USE04RWV0NjBNd2t5bmtTYXg3U2syQVpLd0Y4cFpmQkxrMFdOak40LUlRUkc1SjAtTS14UWsyQVd2cWoyQzF2ZlUxdklHQjA?oc=5",
-      "pubDate": "Thu, 28 May 2026 04:36:52 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
+        "환율",
+        "BTC"
       ]
     }
   ]
