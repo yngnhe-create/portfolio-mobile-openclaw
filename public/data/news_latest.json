@@ -1,7 +1,73 @@
 {
-  "timestamp": "2026-05-29T00:41:03.256514",
+  "timestamp": "2026-05-29T02:11:17.783944",
   "count": 10,
   "articles": [
+    {
+      "title": "엠버CN \"익명 고래, 3040만달러 규모 비트코인(BTC) 40배 롱 청산 위기\"",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5oYWtzVW9yamxMTUtTbWFfdGNVMEpoZkFFYTE5cG1Ub0lmc2RUVklIWFNzRV8ySmNLVlZyVkhyRFc1R2x6NVhHaHFKMUVhOW41?oc=5",
+      "pubDate": "Thu, 28 May 2026 16:17:34 GMT",
+      "source": "블루밍비트",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "환율",
+        "BTC"
+      ]
+    },
+    {
+      "title": "SOL 한국형글로벌반도체액티브(423170)",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPVGRlbzVaRUg2ZjY2NjFEbk1qRUtDZmNBMmhmYnlkVWNFellnYW1QMlE3MThBYTMtam1GOEdHbmU1STBPd3hjelFkaFpKT24tc3Y2b2dETVljWjlKZDB1c0ptVjViTTJVOUhKOVlELXZ3YUhNVFl6QmJWWUNRTDEwZm1HeThzWHE0SzNSMU1LVlRjemtsNEhj?oc=5",
+      "pubDate": "Thu, 28 May 2026 15:54:51 GMT",
+      "source": "매일경제 마켓",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "KODEX 미국반도체MV(390390)",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNc0x2WmtLRzFkUDZOY3dYODRHa2pRVXRWcE9ZM29SaXd3aTBtZEEwWElzSlhRWk1iVFRJaFNFdkMxOHYwNHg4bG5wODFHcV8zVnVJcXE2X0VkTlJDanMzY0VBNHNCcTlTcF9pTktzUVBhOUhOYV9fd2tUMWl2S3RYdEkzNldDZ2tVTVctSm44UlFqS2syczRR?oc=5",
+      "pubDate": "Thu, 28 May 2026 15:52:45 GMT",
+      "source": "매일경제 마켓",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "‘반도체 초과 이익 분배’ 논란에 재계 발칵",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPWjVVa2luM01STGIwTW4yczV4T2tSYk13Vlo1NnFIZWhra2NWalRETmRhYmFBYlcyeWFENjhUUVNQREJab01wUWRQcWVNemVTejVrbHJ3SHJkb3FraFBqMFZyX05GS01Sdk9NN2hXb2MtZVdxWUphU0VkVDI2Yno0RGRvcWE5cU5jTENWdmhGcw?oc=5",
+      "pubDate": "Thu, 28 May 2026 15:32:00 GMT",
+      "source": "조선일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "현대차그룹 ‘HTWO 광저우’, 中 수소 선도기업 선정돼",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0tY2xiTHVQQ0dxbi1HQkFwVnVWQ3BfaVVZdjczMTZhTmVEejRreGxxVFhsd1lFUGJIbkJZYjVpSHdCNjlNR2JBbDhISEZtQm1CYmNmazBua0owY1dxcTRHN2V5RUExTkM5dkRabzZLSU5Bcy1hcWfSAWZBVV95cUxPaFh4R2xXbHVndFBFT1VOazE4dkRPXzh0LXFFdkpiUER5VDJoWjVRNDdQQmx2WU5LSDVPU1ktVElJeGpYZTBiMTNQN0VFQTNraFctVUxTd2tlMjFCMUNrdWxVcmNLQVE?oc=5",
+      "pubDate": "Thu, 28 May 2026 15:30:00 GMT",
+      "source": "동아일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
     {
       "title": "“AI가 반도체 시장 다시 쓴다”…반도체주 올해 75% 폭등",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9GSjZyQU5qRHRXRk0zNktINDhTNG5Rdk1MZVFWNXlBVlloaDB3T3NrbVRpM2pTdFlUZUR4TkhQaWtjOFU0Znd2Nk9mOFNWYlRNWG9feUtB?oc=5",
@@ -40,19 +106,6 @@
       "impacts": []
     },
     {
-      "title": "韓 AI 반도체에 손 내민 브로드컴…퓨리오사AI와 계약",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA3VGNVU2NvemJldkJXU3lhSDQtR29QT1pIU0NEbGhJRDZKTnBQRmFFWlJORElJNGcxZjZ6Q2NiZ0RlZVhJbDlzSjNWbEc5SlI2RGk2M05B?oc=5",
-      "pubDate": "Thu, 28 May 2026 15:16:45 GMT",
-      "source": "지디넷코리아",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
       "title": "매서워진 한은… 반도체 호황·고물가·고환율에 금리 인상 신호",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5IVFBmWnl5VXZlM2d5WkZMME9qS084LVlyODY1dHFzbjVIdUpGbk1PNDc3dE41ZDFuR2NWMUdoajNaOGNMaVFvYWx6ZUYySThrZ1FEczlpU01VVzZrZ0trcmZCTlNjSDTSAWxBVV95cUxPaEVxUGJwNEFKMXZ4bEFPQXo4RVFEWWpYSkozSHNnWWMybGgxWlpleTV5cTVKS2JVSGdLR0xBc3lzZXktRWJWa0RhNEVzV3R6VjlmLUtVVkNPOEExNE52c3A5dVlWNlc5WURpSk4?oc=5",
       "pubDate": "Thu, 28 May 2026 15:11:00 GMT",
@@ -62,8 +115,8 @@
         "color": "#0984e3"
       },
       "impacts": [
-        "삼성전자",
         "환율",
+        "삼성전자",
         "채권"
       ]
     },
@@ -72,58 +125,6 @@
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9GMFIwdkJjNF9kQVJEdmtqR2lTMUhWczZpRmxjbE4xdVYtdzFzX0xyc1J6ejU0QWk2ek5yc1hkSlhTUnFvNXY1bXlWX25XcUhPUGM2dXQyM3JnNUl4WmVTY0NOX2RCbnVVR0pR0gFuQVVfeXFMUE9RT0FvOXJQTTNEY1A5dVh3azU0Um1hUExmYTI1bFlCTk5veWVhOEZoZmtIWER4bHVGLXVkaDBqS0JxckN2Sjdta2VremZnNFpsbDZfWHhCZ2pfT2Y3YzFqNm16M0JPR3loLWk2TGc?oc=5",
       "pubDate": "Thu, 28 May 2026 14:50:00 GMT",
       "source": "조선일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "경기도 광주시, AI·반도체 클러스터 추진 맞손",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1hZnYtbkFjbUUtWnNfMmd3WlpNUEdXNlp4eW10R0lmZTdmczZYMUpMLUszQVRwNzVRU0RBU0xGSFYwNmprRy1OVHFQaHlmYnZkQm50emJlN09scUNiNmhtU0l2bzAxUEQ1NF9UeQ?oc=5",
-      "pubDate": "Thu, 28 May 2026 14:28:19 GMT",
-      "source": "the-biz.co.kr",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "반도체특별법 시행령 ‘수도권 배제’ 명시…경기도, 시군과 긴급 공동대응",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4ydmtsRFZpN3NYRk4xZXRYLWJlYk5pT1Z3c1d1SWxxejZqQXFZVWJjUF92UDNsYUUtVjhFU19OeUtkeU9vQTZndkNZMmw1QnhoWkJNbzYzWEM5bkdCTjBvNXg5bWQwTjFqeG9VOQ?oc=5",
-      "pubDate": "Thu, 28 May 2026 14:05:25 GMT",
-      "source": "the-biz.co.kr",
-      "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "‘우릴 뺀다고?’ 경기도, 반도체특별법 시행령안에 ‘들썩’",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE0yOWhFd2k5YXFSZ0dDdHZ4R2oxT2hsYldqenlUYUFVYnNmUFhVVEFmMEY0WUQ3dHFqbVZrOUhLdjZPbmo3VEFyVFVNSkd2cFRzcWfSAVNBVV95cUxQYXlET0oyTnVBOFBNMjZYUVFZcDZaWkpIVDktSHVMUWN3cU1lTXZ6VVFjdVFQcTBjVThRMWx5bjFqR2Q4WnlfQ0lPQy1IbS1uci1Idw?oc=5",
-      "pubDate": "Thu, 28 May 2026 13:55:29 GMT",
-      "source": "서울경제",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[기업탐방] ㈜아이닉스(EYENIX) “영상보안 반도체를 독자 기술로”",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBMTHQzeHh5bmNWZVpvSkdUSktzR1c3WTBTMmZsaWprbDkzSTN1b09kSmt2UE9FQkE4XzV5Q2Iwb0Y4b2c2TDI5cE5lZXVEOGxFYXBya3JZZVBxeUdGU1pDMTZodjZJLTB1Z3o4Y1lhRjlXZw?oc=5",
-      "pubDate": "Thu, 28 May 2026 13:53:35 GMT",
-      "source": "고령자주택신문",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
