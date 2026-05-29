@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-29T12:14:00.758497",
+  "timestamp": "2026-05-29T12:17:05.010095",
   "count": 10,
   "articles": [
     {
@@ -7,6 +7,19 @@
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE44Z1ZxWHdkWXp3QTZHMGF6Nnh2OWtrYS15T3NZcVBJYzJBUzNYSmJNQlNZU0VIbFhqSzVXaDZpSjBxMnR2RnhfcEhaMkc2elk?oc=5",
       "pubDate": "Fri, 29 May 2026 03:03:05 GMT",
       "source": "v.daum.net",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "검찰 “반도체 소재 담합 의혹”… 소부장 3곳 압수수색",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE82NWtVSlh3X3l4LVJzTGdWN3NObEZYekFIZlhHQmJfQ0FlSm5aNmxFWEdBNEpod1hxdFJJRUlYaUhhQ3YxZXF0eVlZMkEtenE0?oc=5",
+      "pubDate": "Fri, 29 May 2026 03:01:42 GMT",
+      "source": "문화일보",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -111,19 +124,6 @@
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9SaDlZNFZKbFo2ZUVCZ0hjelpNNjRBTDZ6Q0dyMlZBXzJyZUZWOVpXWkZYWEczQVpSU21sLWdsbDkwUjc0Z0hxSVI0aEdCVGM?oc=5",
       "pubDate": "Fri, 29 May 2026 02:34:07 GMT",
       "source": "딜사이트",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "[특징주] \"제2의 깐부회동 성사되나\".. LG전자 현대차 등 '불기둥'",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNNDdLbEFUY2pZNEZUT2wteEs2cGpScFJEajhpM1Q2ZTRQVW9YQzJKUGtqLU1yWElRX2gzNzlUazlQZzBOcWR3bjZ1bktsQWUxM1pmdm5VX1U5ZHpNbVhscDU3aWNuT2VSYjUySGNvbllqY3FlNGFxd1dORFA4dkN3QUphSExrSm1M?oc=5",
-      "pubDate": "Fri, 29 May 2026 02:33:14 GMT",
-      "source": "글로벌이코노믹",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
