@@ -1,12 +1,25 @@
 {
-  "timestamp": "2026-05-29T10:43:16.849218",
+  "timestamp": "2026-05-29T11:13:31.106462",
   "count": 10,
   "articles": [
     {
-      "title": "삼성전자·SK하이닉스, 앤트로픽에 '전략적 인프라 파트너'로 투자",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5UbnpQRExTNVpzRGktUnZRSzdRcUM0OFZ0RjRCLTRwSE1ST0czQmJhcmJ2MnhEa0JKRTdvUGdWTFdyY0N0QXdSSTNHN2JvYXVjSDdTR1ctNUhoWHZ3ODRqNGkzZmZLMjkwcTBMM1lud2JwZw?oc=5",
-      "pubDate": "Fri, 29 May 2026 01:34:18 GMT",
-      "source": "KB Think",
+      "title": "특징주, 인텍플러스-반도체 기판(FC-BGA/PCB/MLB 등) 테마 상승세에 6.35% ↑",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9sZjN6aExqTDdOZUF4aDNkQ1NRc2p2STRiTXBtNGQwR3k1Q2preE5LdXRCb3VBUzhEM0p2WTNKd0szU3B3R1lIbzFOaV84V3lsZlI5THZKbDZOeXF3aGo2Tg?oc=5",
+      "pubDate": "Fri, 29 May 2026 02:03:27 GMT",
+      "source": "매일경제 마켓",
+      "category": {
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "이재용 삼성전자 회장, 사전투표 첫날 한남동서 한 표 행사",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9MSjJtYzktOGRZaE5RcWNQQzRpN0hrQnhIOHpiRVZtTm1kNkhVc05tOFRIR3lwRFdEX0Nzelg1VlphelpZQUM1MUE5dldVb0E?oc=5",
+      "pubDate": "Fri, 29 May 2026 02:03:04 GMT",
+      "source": "v.daum.net",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -16,23 +29,89 @@
       ]
     },
     {
-      "title": "패스·슈팅부터 라보나까지…현대차 아틀라스 '축구 도전기'",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5UbXVQOUU0emNPeC11aVR2OUxYNTU2MXZ4bTFXb0xaSmVmbmFVbW5HUlU3UlZsTDFsOENrWjlOOFlVcng4QTFMaGFhRU1sbXdBakxSMmR0TTM5cGVKeVZSYQ?oc=5",
-      "pubDate": "Fri, 29 May 2026 01:28:16 GMT",
+      "title": "4월 국세 55.2조, 전년比 6.3조↑… 반도체·증시 호황 영향 - 조선비즈",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQQmZpeU1VdmRCOFJUWGJjdkJYenFFdlFLRFZwSGVVY3dxTDZ0MDhNT2VjS2pKU3BLeFFFSEN0ZWNpMDhpbWdzNUVSaGZNb2ZiU2NreXlIZHBEeUxFNWZRWTdUSnRYdXZ4Q21vaVBROVNjT0RBNmF6M1pQcWhUME1DUzI0RHVoUdIBmgFBVV95cUxOUWUyT2w1ZU1zelI3ZXYtTkx1Q0VoRExUdkd0VmV6QzI3MXo1OUdUdzRtcTVNSzNveTdDRU10UzdFeFFtMnlSSHE3Mk5DRnVSUkJVQnNOdWVCQVJmNDMxeFBMRThVblBFcmFfVnBkei1BTGIzTV9FRVI3YWNsMHNyQXRGZXl3RS1LOEtZUExnamNJT2ZWSTl0eWdR?oc=5",
+      "pubDate": "Fri, 29 May 2026 02:02:41 GMT",
+      "source": "Chosunbiz",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "아틀라스, 수비수 속이고 ‘라보나킥’… 현대차, 월드컵 캠페인 공개 - 조선비즈",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8yWWtFaWVqTjBzak5IU21PX0JTT01JbXRCTF9yM3dGeDNsc2xxc1ZJWURTRF9oQ2FJUXFBM0x3RUZ1OGtmVmJNWkN2MTQyN1hmMzhFRGJZaE9tX1pJY09HVWZWX3JhZ25weGc1VnJBWEZ0VXE4clNRSXN2anhDWXfSAZMBQVVfeXFMUGI5aU5tSmI3UFBHTXIwaGpVQnlDakR5RDhQT2hWLTZhVVo3V3o3bkszeVB1Z2t2c0lXQllYUlFlRmJQQXR6Z1l5UFNxU1JkTlVHUDZIaDlBcWRrQjl2RFBYOTVxMThuOWo1a1dvS3c3YVNKTTNHRWhMMFJfVFh1SjU0UzFUeGx0UkxMc0hQZjZ0LUN3?oc=5",
+      "pubDate": "Fri, 29 May 2026 02:02:00 GMT",
+      "source": "Chosunbiz",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "“엔비디아가 특허 침해”…소송 나선 韓 반도체 스타트업 멤레이",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1sakJRbEh2MGZIazM1akV1S0VDcS1ZOGcxM1oydzJVcGFsOC1wLVF4WUN5TE5IR013bnRUMldycUppcndIZmtKRnIyR2FFVHc?oc=5",
+      "pubDate": "Fri, 29 May 2026 02:00:13 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "NVIDIA",
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "‘新귀족’ 반도체 노조…끝 모를 양극화",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBBRTUzYmFJdmxCMmVteXc4RVZUd0o1dHJIdkx5dFZJT2dxWEVwRkJ0VG11R08yaklISzVvbVJvLWdtSHFkMFRKNFppcXFtakt4MXFucg?oc=5",
+      "pubDate": "Fri, 29 May 2026 01:57:17 GMT",
+      "source": "매일경제",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "김경희 이천시장 후보, “이천, 반도체클러스터 지원체계서 배제돼선 안 돼\" ... 성명서 발표",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8xenA3VFhqaFM1ZkpKY0FMYVF1UzlqR0pTbDJqRUJZWnVLUlc3cGI0UGJOQWhfc3p1YlVISDZKMUxvb0k1VlN6NkEwVmRZNllQd09uc1I3V0dPdWg5TFIyeg?oc=5",
+      "pubDate": "Fri, 29 May 2026 01:57:00 GMT",
+      "source": "gyeonggi1news.com",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "\"비트코인 큰손 투자자 움직임, 2022년 약세장 초입과 유사\"[코인브리핑]",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1iMG4wY2t6RWx3YXRxT0t2Wk45My1PS1dmM21KT2U4R3A0ZWFXQ0JKLXUwOTRjYnVGSnZBaERyclM5SmdjbUxkX0E1WEFDbnRUTnotVEpzVHBDRnJNWTM5TG5qZXVGUQ?oc=5",
+      "pubDate": "Fri, 29 May 2026 01:56:53 GMT",
       "source": "뉴스1",
       "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
       },
       "impacts": [
-        "현대차"
+        "BTC"
       ]
     },
     {
-      "title": "20대가 16억 아파트 산다…반도체가 집값을 결정하는 시대",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8wWk5KQTRTQ01oWS1pa1Izal9sRHZVck5rVGJjbzMxR1AxWTVuLVdMLXRnNW5COHZMR0hhUTlqX3cwV3UyMVRrbENLNXFWR1RjQkRQWW9R?oc=5",
-      "pubDate": "Fri, 29 May 2026 01:27:11 GMT",
-      "source": "지디넷코리아",
+      "title": "반도체 착시에 가려진 ‘3高’ 그늘",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5rQjFCN0syTlNQaDdwNFUwRDZtVWxfSXNrRE1PeTFGVURYenRkWnV1bzFWQjczZExKSkVYNkxIX2M5Tk0yR2lfQ1dBbjZOS2Vkc0ZmQQ?oc=5",
+      "pubDate": "Fri, 29 May 2026 01:55:26 GMT",
+      "source": "매일경제",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -42,92 +121,13 @@
       ]
     },
     {
-      "title": "현대차, 월드컵 무대서 아틀라스 축구 시연…피지컬 AI 승부수",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1jcFRsbVcxbWVaZDZTTlE1X0F3a3pjZ2s2RS1GY0pDejhpWFFBZHNDV0pTcHdtbEluYURMLUVqSHk1VUdxSi1MMzhfUi1XMFQtTVZJeDNLOVBTeXBJMzFXUVdwbGxQOEo4NjJmV09BSEY?oc=5",
-      "pubDate": "Fri, 29 May 2026 01:24:08 GMT",
-      "source": "위키리크스한국",
+      "title": "기계·반도체 등 주력산업 호조로 중소제조업 생산 반등… \"원자재 급등 선제 대응해야\"",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBCT0c5N1RkNDdVWmN6TEd5MWE1ZDlFcEFycUJSWC1vYm1VYmpSa0xJS0t4QVRVRXlrcEZfUm51TVRnMHd0b1dEYkxxZkZ2eThtYTRWUnk3Q1FaS2lkdnR0bjZlRDgtdw?oc=5",
+      "pubDate": "Fri, 29 May 2026 01:50:57 GMT",
+      "source": "기계신문",
       "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "세미파이브, 삼성 SAFE 포럼서 AI 반도체용 '3D-IC·빅다이' 솔루션 공개",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1VTFFmQ0NhMUVDYTVEek91bndkallGRFhQcm8yckN0eHF3ZWhCS1g0eEJ4SzBIYmdHRThCbXV4ZXU0ejFiZExMTWxvam50QlE?oc=5",
-      "pubDate": "Fri, 29 May 2026 01:23:53 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전기 주가 장중 8%대 올라, 현대차 제치고 코스피 시가총액 5위",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBSUmdYVjZzVkdmMGRsN1l6dzhDQkZVRF83S1FKR25WUWNDMXl1ZFJDRDhib1d6bG91UGhOQWsxSFlKWEI2a05YN0lRQ3hvaXJ3Ni1RRjdiRzl0RnplUWx3MVBfdHc4YzAyeXh4ZFpGTEh6WHc?oc=5",
-      "pubDate": "Fri, 29 May 2026 01:23:35 GMT",
-      "source": "비즈니스포스트",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차",
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "라보나킥 차는 아틀라스?…현대차, 월드컵 캠페인 영상 공개",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE40YkFxOGUwZ3JlOGRjYXBkTUJsYW4wZWNTWDlZLXZnSFRtcTRFM2owSUFVMTUtNUR1Y0dhSHlxaDFJSnY4VEhoX2dDeGd4Tkk?oc=5",
-      "pubDate": "Fri, 29 May 2026 01:22:47 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "[뉴스1 PICK]이재용 삼성전자 회장, 신분증 들고 지방선거 사전투표",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8tRmpwblJHR1F1TTJkRTRrQmE5Qm5NSndocEFSMTBrTlZwWjcxVVdMNUxXN1N0bEVlZnh1bk53TWpnaHg1Q3hOc2oxWjdvU3Q4czV3a0lfN2l4V3FmTzZZZS13?oc=5",
-      "pubDate": "Fri, 29 May 2026 01:19:28 GMT",
-      "source": "뉴스1",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[증시타임] 화웨이, 새 반도체 논란…‘혁신’인가 ‘과대포장’인가",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9XYlNfZV9yMGVPS3JWUVFOdTFkQ3FFMEN6ZjZ0SXZyRzZNS0VkQXVFTG5rWmZaazNIX2ozT0FkRlhrVjBJbFgtc2xKUWZNM3c?oc=5",
-      "pubDate": "Fri, 29 May 2026 01:19:24 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "성과급 자사주 받는 삼성전자 직원들은 이재용 회장 편일까",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQYU1CbUF5U3h5SnBuSDhIZ1E0ZnBXZ1VibGZ0THNqdHZfenpUN3ZWeG9Xa19JcEttRXNJVEo1ZkxUTzN1WUg4OG5LOWp1UVZXbWJJLVh1RXpEaE5zaTFQdFJNLXc2Q3Fod2ZqUW0tVXRpWTNJLWJhWWxuRFJFS2x6a0hicw?oc=5",
-      "pubDate": "Fri, 29 May 2026 01:19:00 GMT",
-      "source": "인베스트조선",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
       },
       "impacts": [
         "삼성전자"
