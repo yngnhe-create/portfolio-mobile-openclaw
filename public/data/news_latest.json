@@ -1,12 +1,25 @@
 {
-  "timestamp": "2026-05-29T10:13:02.602879",
+  "timestamp": "2026-05-29T10:17:05.230442",
   "count": 10,
   "articles": [
     {
-      "title": "LS증권 “코스피 1만 포인트 가능하다” [줍줍리포트]",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBqZUtheFN0TnhEZ1lvci10RU9admZlTjliNnppRWRuXzBzWDZZTGZxWmFzNnJrXzlRZjI0OWJlNU1LN2t5UEYzYWJKNVZ3VUwwbEHSAVNBVV95cUxQU1J0aU9HaUpiX09ERjBKa09XeGJva0dGWlJYRzZhc1BnOTRHalR4WlMxb3JQd2QzdHdlN1NHSng3YVVFV3lwS3h6bFprb3pXM0ZfRQ?oc=5",
-      "pubDate": "Tue, 26 May 2026 04:50:38 GMT",
-      "source": "서울경제",
+      "title": "손흥민도 놀란 축구하는 아틀라스…현대차, 월드컵 캠페인 공개",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9LcUJSU0NPV256SHZDRmZhOEREWTFpTW5aemxNMDN6Ti1vOXJVNW1lOVNPTm54TEtZZVdpczF2QWVwS2RrZjAyZVJteWFvNUk?oc=5",
+      "pubDate": "Fri, 29 May 2026 01:11:14 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "인텔, Xe3 기반 아크 G-시리즈 발표…휴대용 게임 성능 강화",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBsbVdvTGxMNXc5NE9fcUxIdV9XbGlGRXFqYXh4a1R6YjRHQ3VoQXV1ekN1RUx5c2s3WkwtVmNVaGI1WU12NEdhWV9fTUJqYWp0Q0M0eERFXzBMNlJ3V3JTWlVTOWZqbk5m?oc=5",
+      "pubDate": "Fri, 29 May 2026 01:09:42 GMT",
+      "source": "테크월드",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -14,54 +27,10 @@
       "impacts": []
     },
     {
-      "title": "코스피 ‘1만 시대’ 열리나",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE8xZXM5WGQ2bU51aFJWSlQ2QjJOcTNJajN3MkU5NDhsU3dnMW8zZHBEM1pCMzVMLTRYT3o4UXIycGlSVDUyQ3d2M19XUmFoOXVkNGx0RW5yN3htX1AtNjZadmc3ZS0zUTRZSnlqb2x2a9IBc0FVX3lxTE9SeEdHc3hiS0laUGtPbVQteUJOdDhPeHdaS3JfWUN5TlgtV1hqQzN3MlZBZjNqNGRvYnMxbENaNkJIZGJ4Um13cGJBcV9Fb1h3ekJlbC10NlFxQ241NHh3OTg0cThsWldKT3FtSkgwa1h3Wk0?oc=5",
-      "pubDate": "Mon, 11 May 2026 07:00:00 GMT",
-      "source": "시사저널",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": []
-    },
-    {
-      "title": "\"주식 배울래요\"…코스피 7000 넘자 불티나게 팔리는 게",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5hTVFnSVpESTNDMzFETmRad0RaV3JXOWFRNmE2RHNrSjV2M0tVQWNXOW00LVRyMUNQa2hNN3c1akhHNURDLTRlc09ESVhucFNwR2dGUWo2cmNSZ9IBVEFVX3lxTE9sNmRzdHo4a1lqRll2aUgwM213RG5qek1IenJKSFpQY0Z6ZzVyTmNiQl8yZnJvNkt6ZFlVeFhueVhlbU5GQUJmR1RCUTB0cEh6Znd3Vw?oc=5",
-      "pubDate": "Sat, 09 May 2026 07:00:00 GMT",
-      "source": "한국경제",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": []
-    },
-    {
-      "title": "코스피 불기둥 이끌 ‘파란 눈의 개미’ 군단이 왔다",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9HeWtQY3JqdkFtRWJneFU2RkVFM3hRY3ZyMjgxS3VuVGwzTUlJTXU1YnlLZTFQdGZDeUs0YnNPal80OVFkU2lxazJpR2c1bTBIbk9DN2V0Wl92Rjd2UmhEU0xvdTUyeUNnek5EcFgxSdIBc0FVX3lxTFBUWFRCTW1JLXoyRmxzU3htYmFXb0psWjI2Qy1GVzRJZjNBd2hSLUR1TTIwdmpUc01Ia09uemtVOXhrOGxXVTBPSE9OSGljTjhCeVc0S2FSMTItMzJELWcxMWdlVF9vSEFtX0FJVlBCMjUyX0k?oc=5",
-      "pubDate": "Thu, 07 May 2026 07:00:00 GMT",
-      "source": "시사저널",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": []
-    },
-    {
-      "title": "\"국내증시 비중 너무 커졌다\"…250조 번 국민연금의 고민",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB2SzU0QlJqdmZtd3NmU1Yza1laaU95dVZJa3ZwYXhGRVhudDRnWHBIWnRzLVpYczg5YVBDdzlqNmtlQjI5WmJHT0kwT29qczQwRzZCc1pabXZkd9IBVEFVX3lxTE5aNUFabVBtLVhlcHI2VHRqUDRiNXI4cTFaaTJaT1M5N2NGZUdpTEZYQ2pJaHp0UjlkUk5vQmJTcU5Gc0pnd3ZONmxIUERnSDNNaWlzbQ?oc=5",
-      "pubDate": "Thu, 07 May 2026 07:00:00 GMT",
-      "source": "한국경제",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": []
-    },
-    {
-      "title": "K증시 무서운 랠리…삼성전자 시총 1조弗",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBGeGJIdUJfVnU2LXhRNHEwdUVsU0dQaFNscl96TzdSc0ZvR2Z1NmNQSzBWTmpxWWhGeEstUW9Zejh3eFZtalo4akN2VTlQa1VkNXdTSWtxRFBkUdIBVEFVX3lxTE9uaXpxMm05a1NGcWhfT01fRUxTVnVpemJ1R0h2X0llNHlkTFNRQXRXNmRyRHZKTm9zLWlJZXZWdEswZko0YW12bk44b2VPTDI0M1dEaw?oc=5",
-      "pubDate": "Wed, 06 May 2026 07:00:00 GMT",
-      "source": "한국경제",
+      "title": "앤트로픽 몸값, 오픈AI도 제쳐…삼성전자·하이닉스도 투자 참여",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9ZRkdxZ2pIX01lYmNOcTFXcXhrN21KMGVQTGVvcGxPcFpfUFRWemFxem9TWjdFUUl0TDdoQ212Q1Y2Vm84VmlUTWQ3TnM2dWs?oc=5",
+      "pubDate": "Fri, 29 May 2026 01:09:16 GMT",
+      "source": "v.daum.net",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -71,48 +40,95 @@
       ]
     },
     {
-      "title": "꿈의 칠천피 시대…10대 증권사 고수들이 꼽은 9개 종목",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9kcjlOM2M2a0Q2UGgtUm10ZW9tdUFOUTl2N3d3ZmdOOHBja3ZvWjEzbk9KU1Rlc1lpR3pjalNJWFZ0ZTM3a1pYa3AzNDVzNllsaEo1SzZOYWtIUdIBVEFVX3lxTFA2NFJrLURYWWxPMlRiZDlNQlZSRXdpYnV1Qm1YY0FMRHIwYkpVeU9RWUVaMVpPcXQtV1Y1bXpqVFVSUmRXZHVxUkdLejVpSDBuT2V6Mw?oc=5",
-      "pubDate": "Tue, 05 May 2026 07:00:00 GMT",
-      "source": "한국경제",
+      "title": "삼성전자, 7세대 HBM 샘플 첫 출하…앤트로픽 투자도 참여",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE52WkcyR3ppSXYzdmxXYVB6RkIyVm5VMkFaUUhZSUJwWmd4YzJBTmxJZGdkZVM4dzlyQ2NyaHhGQUZQRkRPZDk2QnkxZ2p6eWdTVlFOY1NaLTByNXU2RURicmdOdTEtUlc0VWxzckstMG5LQQ?oc=5",
+      "pubDate": "Fri, 29 May 2026 01:04:00 GMT",
+      "source": "한겨레",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
-      "impacts": []
+      "impacts": [
+        "삼성전자"
+      ]
     },
     {
-      "title": "코스피 '역대급 불장'에도 美증시만 보는 금융위 직원",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1VNUZ0VkQzTE5yeHVVMURzR0pnWDJzS21GMWdXQTNiRGFZX2x0SWtqRTlfTFlvWDExdUZkcDdQQy13Q2V2c0dvQXV4UjN4Q29zU09jYWtMdVFZZ9IBVEFVX3lxTFBuQ1BCOXhhOUlSOXdhbWdIZGEtQi11Mkh4eWF0VjNWUzJuQm94Tko3aUZWVUJJN1lHUFd2LXVNekpwZXR6cG85LWVPODVnR0ZabWIzWA?oc=5",
-      "pubDate": "Tue, 05 May 2026 07:00:00 GMT",
-      "source": "한국경제",
+      "title": "LG유플러스·삼성전자, 6G 핵심기술 공동 연구… 통신망이 '센서' 된다",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE8yWHQ0YlBwelI2WlRiUnFIV0FDQkQ2RWJ6WGZFM0FJQm1oWWNVMklFMFhuM2FERkxsSl85djZfYXVxOGVfalMxOUNFWkZOUE12Q1p5cElDSS1BekpFSDZIQl9yeDJ6Zw?oc=5",
+      "pubDate": "Fri, 29 May 2026 01:00:12 GMT",
+      "source": "이로운넷",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
-      "impacts": []
+      "impacts": [
+        "삼성전자"
+      ]
     },
     {
-      "title": "\"올해 33만전자·189만닉스 간다\"…꿈의 전망에 개미 '한숨' [분석+]",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5KY3VaeTd4bXg4U0RtV2tKQXlBUjFudDl1THRaR0tuMXdMMTNXWVgyMXJlaEhJejFGZjRDb0RlWUlnTnJyYXdHd29aU3ZQMGpaN0h2b29XcTMxUdIBVEFVX3lxTFBQZXMzZWtmVGNsOHR3WEVtLUJRLVRHU0dDNUttbjdGTFl3MXpUa1FmQW9kMWxiel80Um1IUXJSV0lCTjg0S3B0cEY3UDVrNENrdjdmVQ?oc=5",
-      "pubDate": "Mon, 04 May 2026 07:00:00 GMT",
-      "source": "한국경제",
+      "title": "삼성전자, HBM4 양산 3개월만에 HBM4E 샘플 세계 최초 공급",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5zU1ZVUV9iZUtta3ZhU3BrbVJCQ0NBUDFPZGxwU25Ud29GaXh0cFFJU3VBbDJLTnhSMDF3aGtjQW1zeEFLOE1hN3ZBNk9XZzNFY0FnREQwaE5pVzMxMm1xTjVIQm5GZTZ4RV9qWXZoNHYwalnSAXdBVV95cUxQUGxYYnBNb1RnVlV4MUIxMEFsbkhMMUhmaHVnQ0pkRmd3WGtMYWZJb01MUjRfSlJWcS1MQkNZN0ttWmxObFkwb3VJQ2dPOUd5RkVYWDhDSXpoS0U5and4S09weGhSSU5oT3JTU1NlYWJnakthS2RoWQ?oc=5",
+      "pubDate": "Fri, 29 May 2026 00:59:17 GMT",
+      "source": "스트레이트뉴스",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
-      "impacts": []
+      "impacts": [
+        "삼성전자"
+      ]
     },
     {
-      "title": "JP모간 \"코스피 8500 간다\"…\"이젠 이태원 담아라\"",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5lVFozdXh4S3RnRTVwcVNMcTJVbG1ZZHRMdXhGR3lFUUVabnlkX2Qza29lOU80eVgtWWxJMjFoMHpqQkRBWExyRlNzdUZkSmhYS0dDOHNKMXpxUdIBVEFVX3lxTE56cS1GdkFMM183TEJ3U2xnMWlYR091TmI1WmxqcGRZZ2pjaVliR0p4M0JiVFZTVG9ad25zX0luUGFlZURab09KV1Zac2FTaktZLXViSA?oc=5",
-      "pubDate": "Tue, 21 Apr 2026 07:00:00 GMT",
-      "source": "한국경제",
+      "title": "“왕좌가 흔들린다”…SK하이닉스, 삼성전자 시가총액 정말 넘어설까? [QnA]",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFByNzJadnNmTE90a3RMTHl6Q2FsM0hwa3hnTEV3WlZrbWczS2FBd3hvRTFqN3MzT1h6OWVubmN5N3ZQZy1VVmJ5d3VXTDVtbVk?oc=5",
+      "pubDate": "Fri, 29 May 2026 00:57:15 GMT",
+      "source": "v.daum.net",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
-      "impacts": []
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[속보]삼성전자, 세계 최초 HBM4E 12단 샘플 출하…“전작 대비 20% 빨라”",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9yR2ZYT1JEVjVPdVFfbE5nazZvM0l4VUhDcmY5ZlllajQ0cmFkQnROdmtFc1BObUVQVDdvd29VaTdjaXoyUVp0cDV5M2pVM0RQcVZLM3ZCVHl5bjNtUjdna0NxckVWaEFjZjZ5Zw?oc=5",
+      "pubDate": "Fri, 29 May 2026 00:56:00 GMT",
+      "source": "한경매거진&북",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "케이엔에스, 삼성전자향 베트남 법인 자동화 설비 첫 수주… 글로벌 영토 확장 가속",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0yaVctUjBrWDVfOWZPM1ByTmZtVENIZ3lnTHlwTlhwUUlkWE5KSGZtQWtzS3J2ek5rRDVPOG9BSXdsZ25XZUJTaTdGSWhOM3lKcnFjU1p6MXVRU0thSHlJYmJDbG9hc2owZXc?oc=5",
+      "pubDate": "Fri, 29 May 2026 00:56:00 GMT",
+      "source": "파이낸스스코프",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전자, 美 AI 스타트업 앤트로픽 투자…높아진 파운드리 수주 가능성",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPeEJkaGpOaTVyM3RFbW14ZG55RE1vdzROdmdjUzdDbWVueExzSXVQV3NXdDh3SmN2c1A2bVJYakNLWHlDWE1feGl3QWs1ejBTOXlGcm84N3ZMTTQ2ZUlQZ2xFSGYtQW55Y2N1b0xvRnBPQzJpanFWU3psZEswVDVRcmMwelBqZw?oc=5",
+      "pubDate": "Fri, 29 May 2026 00:54:53 GMT",
+      "source": "글로벌이코노믹",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
     }
   ]
 }
