@@ -1,63 +1,25 @@
 {
-  "timestamp": "2026-05-29T14:45:15.575232",
+  "timestamp": "2026-05-29T15:15:29.946982",
   "count": 10,
   "articles": [
     {
-      "title": "KODEX 미국반도체MV(390390)",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOb1FiRmo5VWMwQXo0NTdqYU9lZlRORFNNbWlrOVJER3h3dEkxUVpqU2Z1VnBuQmNoYTdOb0JHRWNlNWdOdG40T0lBYnFGZWVwYl9kRnMtNzJua0FPVzB2TlRBXzNvdEhCUFFQZWM5X1VYWG1nUEY2a2RDM2gza2IzbXdRLTNqQVhrNk9pMHRJQ3lsa0x3NmpyY0ZITQ?oc=5",
-      "pubDate": "Fri, 29 May 2026 05:41:34 GMT",
-      "source": "매일경제 마켓",
+      "title": "반도체 수출호황·코스피 질주에도 원화 최약세…외신들 \"대체 왜?\"",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5QYzJvQ1hvT1hLTmN6MmV2ZjM3eThNN0U5b3luZVdqaWRyTHhtVTNkbjhzcUpPUWN1b2thSTN1aEFnaldMTzVsYW4xMTAxc1RsUzZYdDU5QXVNSGRfRk9jcjEtVkNkXzg?oc=5",
+      "pubDate": "Fri, 29 May 2026 06:04:41 GMT",
+      "source": "뉴스1",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
+        "환율",
         "삼성전자"
       ]
     },
     {
-      "title": "[그룹 레이더] 현대차·두산·삼표그룹, 미래 인재부터 ESG 문화까지…사회가치 투자 확대",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5fRGJ0eXliU09idlVLa0UtZS1vV21fRmhYaC1IUWN3a3psQ0hGSUk3cFN3eHREZmtCSnpQU1VfbEs4Tkp4WEk5SmtLY21ab0NIUmhr?oc=5",
-      "pubDate": "Fri, 29 May 2026 05:35:55 GMT",
-      "source": "더밸류뉴스",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "경기도, ‘반도체특별법 수도권 배제’ 반발…31개 시·군과 공동대응",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5pdUpSbXhkWllUZVBjVWwwdlBaSjhBY2J6aWdnNk1IQmxPdHhuS0dkUGR1T0JkeXE5T2RmUUZmdEJaSU9DLTFybzJVRzI2anFfSnljejgzUVZEZXk3Q0lfcW5EWQ?oc=5",
-      "pubDate": "Fri, 29 May 2026 05:34:00 GMT",
-      "source": "한겨레",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자 DX노조, ‘투표 중지’ 가처분 신청 ‘효력 정지’로 변경···“법적 대응 계속”",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0wMDF5V0RZYkNJZGVIS0lUSHhuRHdqeVlQcDBrd0ZZdWdvOWJSb2Nra0dpbVV2LXR1My1WejZYWG9zM0hDcmhaVXFXUkIyYkdNZW4wWlhGVEJNUdIBX0FVX3lxTE5HVVR2cWc1ZW9SYUVmTXB4RnRPNHJOZGNIY1J1d3I4OG9IWG9TdmtWQjVLV2hjQzFKcEVDQkRkSS0tM2lER0ZFQ3Z5Z0tQX1lJZndOMlJPMWRHU2x3SnJR?oc=5",
-      "pubDate": "Fri, 29 May 2026 05:29:00 GMT",
-      "source": "경향신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "반도체 초과이익 두고 노동장관 '분배'…산업장관은 '투자'",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE4wRGJrcThjemducGk3VUxmZzd2X19OSWtRRnFwcjdkODY3M0NhWFdUTDdEUnV6ZHEyQXVfOHM4UEVVNWRjUXJSWDVwbXJrN28?oc=5",
-      "pubDate": "Fri, 29 May 2026 05:23:04 GMT",
+      "title": "AI 반도체 효율·성능 사전 검증…대규모 서버 없이 ‘가상 실험장’서 구현",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBPNmJySmh0Sy1VWlZnSFFmMFpRanhQazB3TXRxVUswZV85MHRhSVlMUG9MWE5rQTRBTERHZFpiSmF0Q0VzRGo4OXhGQnY5OXM?oc=5",
+      "pubDate": "Fri, 29 May 2026 06:03:15 GMT",
       "source": "v.daum.net",
       "category": {
         "label": "📋 GENERAL",
@@ -68,67 +30,107 @@
       ]
     },
     {
-      "title": "삼성전자 DX 중심 동행노조, ‘투표 중지’ 가처분 신청→‘효력 정지’로 변경",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE12VVNlTU5jbG9DQTVYMkdyT1JUTDJiSGhTaGRLSkU3Z19nVHNvMUxycU5LLTRVbWliQ09sSjZqWVNiNmxjTkJlRkE3TE1DbkxFZEdiU1VEblk2Uk0?oc=5",
-      "pubDate": "Fri, 29 May 2026 05:22:51 GMT",
-      "source": "KBS 뉴스",
+      "title": "삼성전자 초기업노조, 조합원 이탈에 과반 붕괴 위기…교섭력 약화 가능성 높아져",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1hN0pqVDd4Um1HNnlGMl9JNldDYVFzSG1JNzhxZnBUQjdMVHBHV2ZwNlc3TFlHWTVrbmNnQ19oOUs1ZE40cnd3STN6blFEZVV3cWFITzV0SkF6QVNqX25VMDBjNG51X1QxbHE5Qkh5ZDZudw?oc=5",
+      "pubDate": "Fri, 29 May 2026 06:03:06 GMT",
+      "source": "인더스트리뉴스",
       "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
       },
       "impacts": [
         "삼성전자"
       ]
     },
     {
-      "title": "손흥민도 놀란 아틀라스 라보나킥…현대차 목표주가 120만원까지",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1Ia25hWkx2VGZjUF9hSGlJd1BEU19SemVMWW1PajhoRm54RGRHZWwweG1wNk0wWF9BMHRqVHd1dGtoWXgxVWVTUXVhREVMczlVSGRNWGtn?oc=5",
-      "pubDate": "Fri, 29 May 2026 05:18:41 GMT",
-      "source": "중앙일보",
+      "title": "[속보] 삼성전자, 우선주 포함 시총 2000조 돌파",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBFRTdwUm01dk5idTM4V05sYTV3bURUM0JadWIybDFMdWF1clpMYTJIdlZWeEVsbGE4QjJ0Sk10UUFUYW03VzA3X2hmcVIwQms?oc=5",
+      "pubDate": "Fri, 29 May 2026 06:02:18 GMT",
+      "source": "v.daum.net",
       "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "기업 ESG 수요 커지자…국립공원공단, 삼성전자·현대建에 설명회",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBsS3ZFc2M2elAtR3Y2ZVloMTd5THcwOUlOVHZsMUxWVmlvTnV5cUY5UnZ5Sm9MOHVGZEEzbDgyS0x5Wm5WM0s2MU9KRXhqLUJoWnU5TG1RbEhDSGpM?oc=5",
-      "pubDate": "Fri, 29 May 2026 05:17:51 GMT",
-      "source": "뉴스1",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
       },
       "impacts": [
         "삼성전자"
       ]
     },
     {
-      "title": "마벨 \"AI 데이터센터 연결 수요 폭증\"... 매출 전망치 또 상향",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5renBPVk9WUWpabXlENFp3bzZLSkM1ZHZtNHlrZlZRUEp4REtUMnBnTnZoVjFUXzNKS1U0TXVDMlQ2NUVrQjVmdTZ2QVNPV3JVSDlURFRkWVdFTWU4VnFwTW9Ndkc0dw?oc=5",
-      "pubDate": "Fri, 29 May 2026 05:14:28 GMT",
+      "title": "[속보] 삼성전자, 우선주 포함 시총 2000조원 돌파 - 조선비즈",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQYW1BVExXa0xwVGExMV9zeGZhVVBJMkRXMGJLcEpQSE40eXlpbUMzaEd3c0NlN21nMTBuSlh0NXRla0hQY0h2UzN1LUtWNUxFZ3FMTlEyaHJ6M1lZNktTTTdEbFIxV211N0dOTDJ6WWtTb19YUS1PRTh5b3BuVldGcEt2eVY1dHVL0gGcAUFVX3lxTE8wQkFwcTJKZXFlZzlwZndUNm9RU2pMYXhfTkhRQUtuOHV2N1lmWnl1bEZsYVRXOXpXOFAtd05vRm5qUDBmb2JuWFRMVzN4X0JjS05hU2NBcUE4Q3RsYzBZR19KUENhb3FzUUZ5bmlNZnlGT3NxNWFoVWF2MzZWd2hiTEE1Vk5GMFlYQlJOU0d2M1ROWXAzRlhqV1U2Tg?oc=5",
+      "pubDate": "Fri, 29 May 2026 06:02:00 GMT",
+      "source": "Chosunbiz",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "\"부품 없어 장비 못 만든다\"…반도체 검사장비 '최악의 수급난'",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5MMzV1cmRaSzhsekFKVXBsamplNmxid0pyVEpaZWo5SGNsellUNkkxbEFIS2FOaWUzb3lDMk1VUDJvTmRRbUZ4RlRqQmo0RHJ5Z0FXMG81UkJrR3dreDVlRTktUEFOZw?oc=5",
+      "pubDate": "Fri, 29 May 2026 05:58:25 GMT",
       "source": "디일렉",
       "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
-      },
-      "impacts": []
-    },
-    {
-      "title": "비트코인, 증시 사상 최고에도 7만3000달러대 정체…\"다음 촉매는 규제\"",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9WUE9ublVjVVlCa3U1MjVMZnhJLTZqcUR2M0gwOFUydFJ4SEJWc2Nxa05tZ2tnbWVUMmJKcDlNV2hfNU9DLTl1OGxJdld3QW5u?oc=5",
-      "pubDate": "Fri, 29 May 2026 05:13:27 GMT",
-      "source": "블루밍비트",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
       },
       "impacts": [
-        "환율",
-        "BTC"
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[속보] 삼성전자, 우선주 포함해 시총 2000조원 돌파",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9ZeU9DOXZCQjdib0pYYlVpUWI2ckIyVkNQM1BReDZzZ0VPMFdxUEMzR1NLWUNGRWRXMGJsM0x4YUFneW5qMWdrWjBCbzF0VFZ6eWNtVXN3?oc=5",
+      "pubDate": "Fri, 29 May 2026 05:56:54 GMT",
+      "source": "중앙일보",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전자 6% 급등…시가총액 2000조원 넘어섰다",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8tWmNCaWNTaWtZQS04eDBjZjVMaTdUdm4zMFdORnJJSXdQbVNQV1JnbmVnZ3E5aW9YR3FENGJmWURpb1RDV1ZabjJ4R1U5akpwT1ZxYjJ1R3NWQdIBVEFVX3lxTE1UbFJmZXVUNXRQVzdpMHgzampKVnN0cE51a2VOSzFBWXotQnQ0Q0VkZUFhTUhpTG13TUhoTXRNMFE1cnRJQW43UTdieUtfTFlKWkZqSw?oc=5",
+      "pubDate": "Fri, 29 May 2026 05:56:51 GMT",
+      "source": "한국경제",
+      "category": {
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[꼬다리] 삼성전자 파업 앞에 ‘노동 투사’ 된 보수언론?",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1qNnNWS3dLZVA0SDR6bnRRaVBocHFtY1d5NFRpNmJPUjBFdVZkbkUxeWVMWTRJTE5yN3gtQXdDX1dabXpaU0VfOUF4QXFfb3hSYmdjTWlLMU50YkxCMXc?oc=5",
+      "pubDate": "Fri, 29 May 2026 05:50:00 GMT",
+      "source": "주간경향",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전자, 세계 최초 ‘HBM4E 12단’ 샘플 출하 外",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBXZzBLd3ZBVlphc1FlOXFZZktUOVBaaEtGQ24yT0VNWUJVcnRRaUhEcmR4RTdsRkQ4aEw1MDQ5T3Q0ZTZrU3VROU9EY3ZwQUJT?oc=5",
+      "pubDate": "Fri, 29 May 2026 05:46:00 GMT",
+      "source": "톱데일리",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
       ]
     }
   ]
