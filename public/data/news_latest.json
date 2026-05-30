@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-05-31T00:17:30.782165",
+  "timestamp": "2026-05-31T06:17:45.341875",
   "count": 10,
   "articles": [
     {
-      "title": "삼성전자·SK하이닉스 레버리지 ETF 6~7%대 상승…대형사 쏠림 뚜렷",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5GQjhQTHlKZWUza3hnbEhQbXVibVlsb3l5VTNCRlRrcUYtS21PZ2k3V0l2M042NUFGcW5WQmVybXRVbF93TUJydTI5NUx6Q3Z1NjBDck5mdFJJNWphVXc?oc=5",
-      "pubDate": "Sat, 30 May 2026 15:00:52 GMT",
-      "source": "더구루",
+      "title": "미국과 중국 '양자컴퓨터 패권 경쟁' 본격화, 반도체·보안·AI 인프라에 새 성장축 부상",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5pY1RpN3dTV2tBSzZobjZwUFVDM2VQdUNWN0ZGTWNHbkd6YkxYTE9vSFFRaW5CMmIxUzlCVDU5M09oZFctTTBQdHJ5azV6c3hMcWFMZHZUR0xUZmVacEFlSEZSVWN5amg4ZENPYTdPX1lHazg?oc=5",
+      "pubDate": "Sat, 30 May 2026 21:00:00 GMT",
+      "source": "비즈니스포스트",
       "category": {
         "label": "🟢 POSITIVE",
         "color": "#4ecdc4"
@@ -16,23 +16,88 @@
       ]
     },
     {
-      "title": "유럽연합, 반도체 기업에 납품 강제 조항 등 ‘긴급 개입 권한’ 도입 추진",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5zUTJzRGlkaWpSdkxWVUFxY09sTlJNMWQ1cHdQM0h6UWtjTGJHcFFNbUkzclo3a0hGbk16Q0ZRX3hyTU82eXNpcGFOSC1ZdW5LcVFndUo4WVZwQ2MxVWRFcU1jaHR2VkVw?oc=5",
-      "pubDate": "Sat, 30 May 2026 15:00:25 GMT",
-      "source": "아세안익스프레스",
+      "title": "‘피지컬 AI·차세대 기판’ 장착한 LG, 엔비디아 동맹 전면에",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8zekNEVEFpVVlOQ0N1aHp5a0xxZmllYWZNV2NZM2xIRm1mdlJOV1VpeVNuM0lvUkRJZ0FGYkFyb1lZZVFNTWVHWlhvUFd4bllESVZMdEhLQThKd1M1TmsyeTNPTkR5UUNveE1zSkRNRDDSAXRBVV95cUxNQVotbHRfY05xV1FqcnZNaXNsRDNaZ2xUdEhzRlh2bzdsVk5YcDZPV3JuU2ZQeC1fYkZSdTlOZElsQ2JjOVcyTEdaR2c5by1zS3JMWlo0WVRJU3M1Skl4M0dvQzA4ZUdkdzU1LUZUbUFmR0JTTg?oc=5",
+      "pubDate": "Sat, 30 May 2026 21:00:00 GMT",
+      "source": "IT조선",
       "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "NVIDIA"
+      ]
+    },
+    {
+      "title": "“반도체만 독식한 8000피 안방”…소외된 은행주 ‘눈물의 랠리’",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5hYjNQdUhHWG5vVzJ4U1RkdHRSNDBRdFlfOXYxSzZxYl9lVXZwNUVMQWZDaG1rLVN5cndrNkY2UGtLallQaHFWMkRpdFpEUDV5NndnNTZKWjJObFI5ZHJqcG5GdksxNUlR0gFsQVVfeXFMTzFsdkVET1pJTDZpNkhNY183blRjTFY2dVFqODVQdWtPQjk5TWxGekdyODAwOWlTZVN3ODdNb09falJScmVMRzBaWDNVQk9Rd2xVRlUzSldQSkVTMGpTV0d4a2ZiOHU0blMwRGNS?oc=5",
+      "pubDate": "Sat, 30 May 2026 21:00:00 GMT",
+      "source": "직썰",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
       },
       "impacts": [
         "삼성전자"
       ]
     },
     {
-      "title": "대한광통신·광전자·서울반도체 일제히 약세…광통신·광반도체주 차익실현 압력 확대",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1iMFpXVS1PWHdUUlJtMElCSHBYU0F1NXpvZG5fRWVGbFFMaUd4SnROQ0M2RTB6Q01FeHRfUzVmSzFRWnRWREI4SHBUdlNQSHFSYjJXbVV0dVcwdFhkUklTUlAyVQ?oc=5",
-      "pubDate": "Sat, 30 May 2026 13:58:53 GMT",
-      "source": "CBC뉴스",
+      "title": "삼성전자 HBM4E 샘플 출하…AI 메모리 효율 경쟁 속도",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBKWHJua3pkVGJJLUZWc254RHlXRHd0dXZ2MzlGYWRpYkgwMjdGam9sbm5HQWxtYUg4TWZPUFRaellnZGd1VllUbzlYLUF2MWIySEIzRHE3Y3E5MnNZMW40Y0x3UU53UQ?oc=5",
+      "pubDate": "Sat, 30 May 2026 20:36:38 GMT",
+      "source": "비건뉴스",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[주간 거래소 기관] 삼성전자 SK하이닉스 매수 지속...\t한미반도체 삼성전기 대규모 매도",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9HaHE1M2U2czhKNGpBZTRUNUQ1a05wa19taVVmVUxYUEpaOUZDWUlBVEpDU0JERUYwOUlJaTBNdFpxZGhjdTR6M3ktOEpnVksxb1p3SEZRa0xNNkJBLVRJd1BNbWhwSnpmSG8xTE5PNmFPS1HSAXdBVV95cUxQYlNEUmtlNWRGc2Rpd0owbFA3VGU4bk1ZOXhfVlVGbmp5WFNGZ3JIVVVPRklaMXFTUFJsQ3NoejJpa2xDdXZkT1ZSczE4MjFiaGtnMFA0QkFtUnNyYWRHWTgzQ3RoLU16blIzSWZtY0lWS00zUHBadw?oc=5",
+      "pubDate": "Sat, 30 May 2026 20:07:32 GMT",
+      "source": "핀포인트뉴스",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[주간 거래소 외국인] SK하이닉스 삼성전자 팔고 방산 샀다… 자금 대이동 시작?",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBpc0pvbF9QZ1RwUkhmOGpuMlRRbDY2N2pKc1k5dmpjelA1QmV4QndVb3JKZ2U1dHJoWVVRd3hqbmJyQ2ttMkNtaFJ5cFhSVWlDWV9BVk5jOUpBcFREYVpFaTF4Q1pyVWJtbW9obkhuR1owS1HSAXdBVV95cUxNWno1MHgzRjdoMUctd2QxX0cxeUdhVUJuTWxVX1pUUjZkQVhvVHM2NVVXMlNnVlhGMC1ya01mb3NQelhtQXc3azhBWHNqSHE2U2xhdm9LaHo1cmUzN25iWDhwSjgzV0NRUTZmdnE3ZWkwem1RRmZibw?oc=5",
+      "pubDate": "Sat, 30 May 2026 20:04:22 GMT",
+      "source": "핀포인트뉴스",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[주간 코스닥 외국인] 반도체는 사고 바이오는 버렸다…파두 에코프로비엠 이오테크닉스 리노공업 집중매수",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1SVXJ4SDlwcUx0TGtiZldhamhEd2RMMEZCRFp3UWVNbzBUUmNVZ2FoOWpNTUxGd21YQkNuenhfV01RcjNIMFpnQkVwRUNwUU1yWmg1QXB5YnRBcFJhdk90VUVaVXhvcTRxekJDRUwxaUx3dVnSAXdBVV95cUxOSXBqYzhrN2ZsbUhQWWRpak5wQ1EyaTBCOVRQdEZHdGtMdERlaEI1QnR1dDQ1ODJ3cjRhNFpzVHlLMlhIeWtkZ05EWjF2bEkyZ1R2RlRnTWxsM2xCWUVxbTB6NTUyck5VNVkwRUQySFVSZjlqN183NA?oc=5",
+      "pubDate": "Sat, 30 May 2026 19:57:45 GMT",
+      "source": "핀포인트뉴스",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "속도 20%·에너지 효율 16% 향상…삼성전자, 차세대 메모리 'HBM4E 12단' 샘플 세계 첫 출하",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5IT0RXRy1VeC13R1poUENqcmVpNjJ3MWtUSy1MckF6Q1JXbzdHZTA4VGdyVTdvaUtIbmJwS1RCR2o5WjRELTczZnliaGNuYVFiZGdSTXVwVUVqckMxc0I4amh0TE1XYWc?oc=5",
+      "pubDate": "Sat, 30 May 2026 19:28:04 GMT",
+      "source": "서울STV뉴스",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -44,7 +109,7 @@
     {
       "title": "삼성전자 ‘그들만의 성과급 잔치’ 비판에…“5조 환원” 사회적 책임 강화",
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBTbHRrQnI4Y1pmT21MbnV6eXVLTzNwSmNLbnJZdS0ybG1oTC1BYlU2cXExYnl6UXZZR0dzTVZUaERPODBRcXI3NW9XRzBDZk5EcDI3c0VGVFowM21ic2VVZmdzalFSUkZUYnFFWnZxVzdYQQ?oc=5",
-      "pubDate": "Sat, 30 May 2026 13:56:07 GMT",
+      "pubDate": "Sat, 30 May 2026 19:20:49 GMT",
       "source": "한겨레",
       "category": {
         "label": "📋 GENERAL",
@@ -55,75 +120,10 @@
       ]
     },
     {
-      "title": "미국, 車 원산지 규정 손질 추진… 현대차·기아도 영향권",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5UX1RJODlLY1owVThnc29fbkVoXy02bEJ6S2I3cEJUa0xHMHVVV3ppa0lXcHdMalQ1VERGOGI3WHhOM0xGSzVFU0t3eWxsVXNsUTJ4cnZZRUxfblFuSG5TWEdhVE0wU3JRY1E?oc=5",
-      "pubDate": "Sat, 30 May 2026 13:19:21 GMT",
-      "source": "천지일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "유승민, 양향자 지지 선언… “반도체·일자리 이끌 검증된 일꾼”",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5QWUpqV1JFOWNWRDdDQTE4S2pYY3ZTdzRvWmY4eG5nSnlSSzhTd1lESG5BUVl4dDR6ZXBGV2JFd2lEY2o5REg3bEdLS0hLRHEzNFRRdzNaZjhTS2JjREc5dUR3MzJSM2lYZHc?oc=5",
-      "pubDate": "Sat, 30 May 2026 13:17:37 GMT",
-      "source": "천지일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "서영교 \"이원택, 전북도지사로\"…\"현대차 9조 투자 뒷받침\"",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBJaGFSWlpmcXk1VmUwLThGY3BINFRmaWRlblVhQUpXSWQybHFsX3dVcWlubzFEM2FpQUJoQ0NPcG1va2RKOEdUVVhva2pxUllNUGc?oc=5",
-      "pubDate": "Sat, 30 May 2026 12:07:00 GMT",
-      "source": "노컷뉴스",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "서영교 국회 법사위원장 \"새만금 투자 '현대차 9조원 입법' 적극 나설 것\"",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8tVDhkODNwWF9CNnl1WmRvZk02dmR1SG13TjU1bGl4M1BvZjZ4cnFWMGx2bzZId21rT3pmcG00VW1tbUNSVG9od1dreU5DRVhBYTAtazZLem4xQmhFd3ZxNTl5emRjNUVQRDJz?oc=5",
-      "pubDate": "Sat, 30 May 2026 11:49:39 GMT",
-      "source": "프레시안",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "비트코인 현물 ETF, '역대 최장' 10일 연속 순유출…\"공포 최정점\"",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPSXE3bVF5cWQxcF9yNGVtNVpLQWZUR19mSDROZ1F4VXRNQV9vQTF4cHdYcXUxUm1pckE2bHd4ODlremI2WmZNYVlSUGVMR1ZvdDV3UzJ6T3UyaGtWUVhyQVRqaHVzd3RhcmVBQVhTVzFuMldMZkNybGVYa1Z6d0FPMg?oc=5",
-      "pubDate": "Sat, 30 May 2026 11:49:02 GMT",
-      "source": "이데일리",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "[삼성전자 'N% 성과급' 후폭풍④] 성과급 격차를 둘러싼 '노노(勞勞) 갈등' 격화",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1xaUN3Z25pYnFIMGNGcFI0UkNzUW12OU83SUhuWE5YeVRIMHBMRVdQSmg0ZU9UNm5nMWdZRkR3dktwbnpqcVd1UTQ5ODhXcHVPdU1VZkhIaHVyV3oyT2JKZHhWeXpOZw?oc=5",
-      "pubDate": "Sat, 30 May 2026 11:29:21 GMT",
-      "source": "자투리경제",
+      "title": "'AI 거품론' 시험대… 반도체 투자자 생존 가를 '5대 핵심주' 변수",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPb2dpbWJIczZTVWZ2UjBva09LVFp5NHlQbVdoT19KS1V6ektYRTNkTEZxZE5abGJLbVQtRGlVZzJaVWtpMjl4S18wZzEyWVJleENLSmZSanhpODRRXzVtMGdmSG9BQ3RkSXM5aTVDd2MzRTU1MzQ0LVd1VnlvT2ZtVHU1QThRRHF5?oc=5",
+      "pubDate": "Sat, 30 May 2026 18:35:00 GMT",
+      "source": "글로벌이코노믹",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
