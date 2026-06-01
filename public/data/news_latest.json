@@ -1,12 +1,25 @@
 {
-  "timestamp": "2026-06-01T10:50:41.181434",
+  "timestamp": "2026-06-01T11:20:55.510901",
   "count": 10,
   "articles": [
     {
-      "title": "韓경제성장률 높인 수출 호조…반도체 덕에 5월에도 '역대 최대'(종합)",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1RQWs3eUJTMHRZeE0ybkV4VGNhdmZOV2Utby1oZmZKNGdOYTQtcWJobUo5Snk2X2doWjE3eEVTSWM1SmZtMUxxa0htSEhvNGt3R2xDQ3FzRHVIdlhPc2JIcEFpeHc?oc=5",
-      "pubDate": "Mon, 01 Jun 2026 01:48:54 GMT",
-      "source": "아시아경제",
+      "title": "반도체 다음은 우주 ETF…스페이스X에 뭉칫돈",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBzc1dKWG5ld0oxX2x0V2Q0WkgzM3BGRXdRc3FNbkJ0ZTFyOVZySTVlNm5ta2I2YjVGb0JBblhBY0IwZHdCLW1fRUhvQ0Jxc3ZoWXp0NWxXVjljd3FycEtlT0lpbXM4NjlxMDFyeA?oc=5",
+      "pubDate": "Mon, 01 Jun 2026 02:12:53 GMT",
+      "source": "mstoday.co.kr",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "코스피, 장중 사상 첫 8,800선 돌파…삼성전자 9%대 급등",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE92MFlvUXpLQWt0Nm13LWs2M2xDZWJQTDNXWDM1QV8zMDNRZnJHNVFybDladmVMTENWYVBNNnotUF9CS2VOdkVKbUUtdUY3eEU?oc=5",
+      "pubDate": "Mon, 01 Jun 2026 02:12:04 GMT",
+      "source": "v.daum.net",
       "category": {
         "label": "🟢 POSITIVE",
         "color": "#4ecdc4"
@@ -16,36 +29,24 @@
       ]
     },
     {
-      "title": "현대차, 이경규와 월드컵 '차박원정대' 출범…손흥민도 만난다",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9zU2ZYMmJGTzVSMF9lNHJUU2xpVG14VGE4LUVuR21WM0JIdHNTckZKd3VVZWUwSDBjMGQzd3RXOFk4eW9HeU5oXzU1ZTNnTHc?oc=5",
-      "pubDate": "Mon, 01 Jun 2026 01:43:53 GMT",
-      "source": "v.daum.net",
+      "title": "삼성전자 시총, 비트코인 추월… 세계 13위 등극 - 조선비즈",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPRnNfaVNoUVFfX2FSc29FQ3FqLTRsdjMzSDBSb0FIT1o2NUcwVU41bENGUkxvQ3ROcWpSeEJYUkVBZmhEdzNQenRMTU1PaTN2QjF5clc4UDBiSEFrSjhtU0VfdDN0bWhBeDNNSF9BUFBMSXFqaGdjWUxGZnpYN3ZZT9IBlAFBVV95cUxQZUtNdVRUZnZWMjdjS1hjbVE5dFF5TUtTQUJ1b3Y2NVhhZDZPTm9Ha2pET0JyejJoYmg5aEVta3k1VWE2MkItczFybHpPaHBqcUlxdVNiSHd0Rm5ydWM5OHh5eHJXalVtZ0tUQ3NVcjlxMFBieGV1OFBaU2ctSUVIME45MDJ2cmlTejdCSFhzYnJuN1Z3?oc=5",
+      "pubDate": "Mon, 01 Jun 2026 02:11:00 GMT",
+      "source": "Chosunbiz",
       "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
       },
       "impacts": [
-        "현대차"
+        "삼성전자",
+        "BTC"
       ]
     },
     {
-      "title": "현근택 \"삼성 반도체 국가산단, 시장직 걸고 지키겠다\"",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9CYW1yaGlQRmg1WGlxSXpORkV3S0w1ZDVLUUd0cVhvLWdFY3BhOXEtNndDTVdmbnM4bkZDbVlsMlJOV2s3dW5id211TXRZczA?oc=5",
-      "pubDate": "Mon, 01 Jun 2026 01:43:13 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "코스피 또 최고치 경신, 8600선도 넘어…삼성전자 32만원 돌파",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBOcklNX25xeWk0UTJtSnJEX3AzOThoR0JLMm5iX2lnZFVESE1sdjRlaDBxQ1E4VjJQcTRGNDZLZlNDTDlNWGN4Nms5aHhab21EcnBnQXh5TUhPT1FYajNQR2tPdS0waUp0?oc=5",
-      "pubDate": "Mon, 01 Jun 2026 01:42:41 GMT",
-      "source": "녹색경제신문",
+      "title": "[강세 토픽] 종합반도체 테마, 삼성전자 +9.62%, SK스퀘어 +2.60% - 조선비즈",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNR1A2cm1Wbk1tS3pRWU9zNE9SR2RDQy12UG9mMHJpZHQ1OVRwOW9QUWZRRWNNQlRHaGNINkdmbDB6YVZHRm5Ra1FBTWdEZnppQVBqWlN3UWNYM1lpYmQzV1lBSGVCVzdKS2lkMV8zSzYtcHNhN3FSSDRYZ2lLVkhyV0J6d9IBlwFBVV95cUxQS0JGRlVIcmk5Z1RBeGVKVTVlbDEzZFd1R0NMWmxEYXF0dTludWhtcTNGV3hiRzY4bHVCcm15NmRSMlRKdDVlVTgzNkM2VnVXcGZVS1lwNy1JUlI4aVNqQy1kSGZhSEo3VkQyRlVISlBBTV81MmNfQnQ1TEluS3gtZ3RGVEVVT2pkTlJ0R29sVVVGTFFBZjB3?oc=5",
+      "pubDate": "Mon, 01 Jun 2026 02:04:00 GMT",
+      "source": "Chosunbiz",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -55,10 +56,10 @@
       ]
     },
     {
-      "title": "日닛케이지수, 장중최고가·67,000 돌파…AI, 반도체 매수세",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBSd09nbnZ3X2FKckJ6YjdiVF96RmRjb1pBSklfRkxYUHVETVM3djJOYnlCTzhDckQwRzFMWDFjU0QtcDllODlyUU5pTkoyWFE?oc=5",
-      "pubDate": "Mon, 01 Jun 2026 01:42:26 GMT",
-      "source": "v.daum.net",
+      "title": "삼성전자·SK하이닉스 등 개별주식 위클리옵션 상장",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5MYjBXcWN3OU1lRWxrSnk4QXQtMWU5Z3NZa1A0VnFRZjhUVERGcjVuT2pCczZKMHhrODNIdElsRElIYWpKcE9nb2JfUThUaFVLR09yTS1TSGNaRlRKeHFHUndB?oc=5",
+      "pubDate": "Mon, 01 Jun 2026 02:03:00 GMT",
+      "source": "아시아경제",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -68,23 +69,10 @@
       ]
     },
     {
-      "title": "'서플러스글로벌, 반도체 AI 수출통제 특허 취득 완료'",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE14V2l2eGttSVFYbWRjOG8zT0U3ODY2QktBM2lLSGJuOTRhZjM1cFJyMjVpX1MzanhYb1FCZVhQaHJMWFR5RUtQdDJDbWVVZDVEd2toS3pmVmZDQkVvVTdPUDdtRm4?oc=5",
-      "pubDate": "Mon, 01 Jun 2026 01:41:40 GMT",
-      "source": "에너지안전신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "877억 달러 신기록 썼지만… 더 짙어진 반도체 수출 의존",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBfRFBUM2JDTlM1dk45THFqa1lMOEdpUXVUZno0aHpTaE10M3ZaWGVOVlVWa1NJMmtaTlVueENXOE9GY1JNYl9YMFcya1lISVE?oc=5",
-      "pubDate": "Mon, 01 Jun 2026 01:40:03 GMT",
-      "source": "v.daum.net",
+      "title": "반도체 슈퍼사이클에 5월 수출 878억 달러, 역대 최대…‘연간 9000억 달러, 세계 5강 가시권’",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFByWHg2ZEp3NVVPdDdsWjN1MEtzN29tRU1FWngzMm50cGdjSlJYeHNkYUFxdkRBcFA1S3RVamdlX0dKT3hxYlRiNFlkRUx0Vjc3ZnIxZkxKSVY5b3pZWFBYNXlxaFRNODJiN3ViS3M3YmRxVjJvbnfSAWZBVV95cUxNRU5uMy1YRWhBMTg1MnVRODc2TGpJVTR2QUhaOWVzdFlLOFFmUnhnSUlXaGZKdk9Yd2V2UUZ2cDV2bFJ5X0F5RXQzcm9zOXdTbHRyTElYdFE5bTgzb2w2S2pYWXA3OWc?oc=5",
+      "pubDate": "Mon, 01 Jun 2026 02:02:42 GMT",
+      "source": "동아일보",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -95,23 +83,37 @@
       ]
     },
     {
-      "title": "[위클리 ETF] 5월 4주차, TIGER 200IT레버리지 47.28% 급등…반도체·AI ETF가 시장 장악",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE40dURiUlNtU2VSSkxmcC1IUlluZXlRaldfbU4xb3dsc0JzZDV3Qk5jSDBlSkRadV84OUZmTklld0p0Z3loTmRKUGVMV1doeDRfQ2JKbQ?oc=5",
-      "pubDate": "Mon, 01 Jun 2026 01:39:51 GMT",
-      "source": "더밸류뉴스",
+      "title": "삼성전자, 비트코인 시총 추월…글로벌 자산 순위 13위 올라",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE92SmJHNWFxMlBSOXZMQm92YTFCaDZDVzRCblBCak54aHBZN3AwaG1MR0VvWE9LV0IzYzBmWjVYM1ozWXVBcnM0RHF5RGlSWWQ1?oc=5",
+      "pubDate": "Mon, 01 Jun 2026 02:01:11 GMT",
+      "source": "블루밍비트",
       "category": {
-        "label": "🟢 POSITIVE",
-        "color": "#4ecdc4"
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "삼성전자",
+        "BTC"
+      ]
+    },
+    {
+      "title": "[속보] 코스피 8800 돌파 ‘사상 최고치’…삼성전자 10% 급등",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5ibEM3QnQ3bXhDRm5HVUdfdHRWZ3pWenVUS21wYzB3Q1o1ZkRURkdxUjVnR3kzUG4tYzlteURocVVEU1J6RjNneGFnZ1g5WlNNMDNDVHlsMDNjTHBNOG95U3d6MkdzYjA1R3V0b3UzclBENnhsdHpBc0N2Umxldw?oc=5",
+      "pubDate": "Mon, 01 Jun 2026 01:56:44 GMT",
+      "source": "서울신문",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
       },
       "impacts": [
         "삼성전자"
       ]
     },
     {
-      "title": "KODEX 미국반도체MV(390390)",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNNzJBbGhUbU9JSXFENml1aHVUVGFxNkZ5TzFZZmYwOUU2aWR3ZFRDY1hMUGxCdVBYQ2NLZGQzV3NScDJmeXpTUm12SjNnNV85a2dYaU15VnFWLWVSUExrVVY4SU5TNVBaNFlJT1prWGZrUmRDa3N4RzU4NkN2S3RULXdJa0FheHZELTRrLUNidTdnYllOSzVqcy15RQ?oc=5",
-      "pubDate": "Mon, 01 Jun 2026 01:39:32 GMT",
-      "source": "매일경제 마켓",
+      "title": "대림대, 반도체 인재 채용연계 교육 성과 주목",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE81VXhJZVZIcVVsUjZzcmowUHBNaWJKY3R1UVN2MjZDd3RVYTcyNUs5YTgyQW15TUhBR3pHWVpfZFlueHZqSTdMZWZQLWN3TXJlMkt2Y2JIUTVYUWx6T2tVdHFYeW91Zw?oc=5",
+      "pubDate": "Mon, 01 Jun 2026 01:48:50 GMT",
+      "source": "한국대학신문",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -121,16 +123,16 @@
       ]
     },
     {
-      "title": "현대모비스 인도공장 화재…현대차·기아 부품 수급 차질",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1oTE5RMFc0Vkp3bmwwMEp5bFN1NTdnNF82Vk5DZENmQXlsWUZPcW9YaEtIeldRTTNHZUc5M0xYeEdvbVVMTUY4RlluWXNkbWM?oc=5",
-      "pubDate": "Mon, 01 Jun 2026 01:39:11 GMT",
+      "title": "함돈희 “반도체 칩으로 수천개 뉴런 동시 측정”…최종현학술원 특별강연",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB3OVhaT3Z3QlhKc0RRdC1VdTlUc3dHYVBoQ2RJNWdXTHJFWUU0MktxSXFHQmdKTTZvbGhLRkpudElmWnVJNXhiQ1d6YjROcU0?oc=5",
+      "pubDate": "Mon, 01 Jun 2026 01:45:15 GMT",
       "source": "v.daum.net",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
-        "현대차"
+        "삼성전자"
       ]
     }
   ]
