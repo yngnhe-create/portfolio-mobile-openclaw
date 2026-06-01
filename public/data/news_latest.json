@@ -1,135 +1,132 @@
 {
-  "timestamp": "2026-06-01T11:51:09.340486",
+  "timestamp": "2026-06-01T12:17:05.308990",
   "count": 10,
   "articles": [
     {
-      "title": "반도체 수출만 371억달러… 작년보다 169% 급증",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE4xN1QwODNTaHluSGYyWjhPSTVBQ3V6UDN5aFNQdl8yay1BcG5DLU1hV0pjNUgtRmZUdjRJV1BtaG96ZDZWcFI3b2JzMlVfbjlu?oc=5",
-      "pubDate": "Mon, 01 Jun 2026 02:49:14 GMT",
+      "title": "검찰청 폐지·법왜곡죄 ‘위헌논란’… 반도체 호황에 ‘9000P 육박’ 성과",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9BODNZenNjZWpGclB4WEZPaTRUOVlObzJWYVpRNmVSUHptSnBsenoxSXVKeHEzSlRfalBWajNHdTBiNWtBYzNoY1JuOWMxWHVV?oc=5",
+      "pubDate": "Mon, 01 Jun 2026 03:05:18 GMT",
       "source": "문화일보",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
-        "삼성전자",
-        "환율"
+        "삼성전자"
       ]
     },
     {
-      "title": "비트코인·이더리움·XRP·도지코인 보합세···트럼프, 이란과 합의 ‘서두르지 않는다’",
-      "link": "https://news.google.com/rss/articles/CBMiowJBVV95cUxQZV85cS1yNEpWU1Q1YVFYeXJybzc3RGYtVUlJUmw5UFBWV2VfTU0wOEFpRWlQcFFha25tSkdkaTlYUHp5OUVkWFM3LUpRS2pMRlVOX2JJX19Yak9Pb2NzYVpNdUI4N0hyODg4OXZrOVN4TUdXeDIyZ1BoZlVYZVNkZ0Nsb05CNURpX3dXSEg2Xzh6Q0tuQVMtS1hpa2VUREJHTTZ1T2pFek9CbkNPWGdCVWItcXo4Ry1kM0lYSW1BaG1lTnhUSjNDWko4bVE3S1B4aUxVNUZtZzdKblg4TWkxQnFKQUdCQTZtc2xrdm15TlpDQTgzbmtZMll2bmF4TGpDbWdYa2JINjVURE13d2RoY2tnaGZNSW9GVk0tckRvVDFfclE?oc=5",
-      "pubDate": "Mon, 01 Jun 2026 02:40:39 GMT",
+      "title": "반도체산업, 수도권 배제… 경기 남부권 ‘집단 반발’",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5Ua08yM0dkUWhsVGNrZXNNVFZWQ0dabVNpdHZWcWE1YmQwaVhGb2pjeHEyaERsVlU2dHBKWjMzd3hsbFlURk9oOVpYaXhuZWpEZTBWZmRWenJnalhSWTU4RWoyRU0?oc=5",
+      "pubDate": "Mon, 01 Jun 2026 03:05:16 GMT",
+      "source": "용인신문",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "극과극 韓日노조… 현대차 “로봇투입 불가” 토요타 “생산성 우선”",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9oNVVKQ0VmdDh5X014MGpPX3M0OWVuUjgwOFdISG9YX1N3blJjZ2N4RmJQdEhOVEp6bm1HVVN6eS1OODRfNE5lamxjX3pCSVRV?oc=5",
+      "pubDate": "Mon, 01 Jun 2026 03:05:02 GMT",
+      "source": "문화일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "K반도체 ‘N% 성과급’ 대혼란 빠진 사이… 중국은 초저가 전략 앞세워 매출 8배↑",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1lWUxud1Y0ejlhX3MzMWREWmlCMkdXSE1kZGFuYktXeEJPdS15X0Rvc1Y5VEF4czFaVjJ5MktLLUlRblVSVkpVNnlPSjdPR0cy?oc=5",
+      "pubDate": "Mon, 01 Jun 2026 03:04:57 GMT",
+      "source": "문화일보",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "李대통령 “‘반도체 빼면 코스피 4100’ 에 ‘축구 빼면 손흥민 보통 사람?”",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBlNm9oT0VPeDJwZXRxUURxQmlHY25FRjFtX3c5NENaSm56dGZfTndseFpZaXRESUxrOTZSdEctb0IxRTloR2FjRE5UTTJVelc4N1BSQkt3?oc=5",
+      "pubDate": "Mon, 01 Jun 2026 03:02:15 GMT",
+      "source": "중앙일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전자 시총 첫 2000조 돌파...코스피 8800선도 넘어서 - 조선비즈",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOVk9meXR4SGFlNkg0LUhmbDZaS2duNjNVa01mUUdVSXUteVJjLVJQbldURE1ZSml0MzBLSjBZQnQ0RUUwNEZjeW9PR0NaX21kVlE2V3hmRFgwRHJSOWVkb2s5bzA4S1dZeV9UeUFicjdhTlI3ekNnajBCR0pQaE1VdlkwOXl3bVZS0gGcAUFVX3lxTE9jSDNTa2dRb1NaLUh5ZHhmM2lLSVd6UVdRRGdaNFVNUzI3TURyVTZJRHY0dmpEOTctRVJDTk9NYmZXa1ZnWkNXZnEyQ1dpUFQxWXkxbGRmMUlHYy12YjVERzl4N1RBeENaVmlaTjhld2plMWxGQS0yWldkM1RmWFNnczFjTVM1bzROZTJpeGctVWZnczNBekhYNlozVQ?oc=5",
+      "pubDate": "Mon, 01 Jun 2026 03:00:36 GMT",
+      "source": "Chosunbiz",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "이 대통령, ‘반도체 빼면 코스피 4100’ 조선일보 기사에 “축구 실력 빼면 손흥민도 보통 사람?” 반박",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE13bE9hcy1lQ0NUUWRaa1FyVGRSN0laNkRIQVNuU2VhQ2ZpVlF1TjI5MUEzVzNod0pxV3lyTmdGUzZRWWZST19RenJ5V3M3dkpPb0c3b29tV291dw?oc=5",
+      "pubDate": "Mon, 01 Jun 2026 03:00:00 GMT",
+      "source": "경향신문",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "\"코인 노잼, 주식 불장\" 비트코인 ETF, 올해 최대 월간 유출 기록···투자자들 주식으로?",
+      "link": "https://news.google.com/rss/articles/CBMi1AJBVV95cUxNM04wRUY4dDA0Zkh5bzlWS2J3VnlTanlkWWwxMzFqOU8tU3AxbHFzWk5yN0Y5MWtXODZCZzRwSHE0VGpCcmR0cDJOQ0hzODlWcWRLQ2FESjNrTVdleGc3SDRHTjVFSUpHUjg3SFcwUjdfZGpLa25Cb01OUVpBU1JfTkp4YUFmQzRvSkJnVExVaDFnb3JtUEhlRnZBQnNNOWx1UG13cjlVVnFYUkNVS21WNVBEbjBnLXlUNm94bDV1aHpEWkp1SzlxYkJtZXNnM3A1dktRcVJXa1YwcHZ0Zkh5aURjVVR1ajl4SzlpMFFhY0ZHSU5KdVE1SUx5UnJVbWk0bmhXTkZ1djNySUZRUk82MGNBNFIwbnUyeGpraVZxaDBzcVFEVzNzaW1CcjBCVjFBSjBBQjI0T1gtdndTNTlWYW5ic01MMFB5Qjl4TlEwbENUWGVf?oc=5",
+      "pubDate": "Mon, 01 Jun 2026 03:00:00 GMT",
       "source": "Benzinga",
       "category": {
         "label": "🟣 CRYPTO",
         "color": "#a55eea"
       },
       "impacts": [
-        "원유",
         "BTC"
       ]
     },
     {
-      "title": "반도체가 이끈 5월 수출 '역대 최대'...누적 흑자 1천억 달러 돌파",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1hVFdvbnQ5SENSOThudTYweFlUdDZZZXp6WlUxLTl4RXBfT2NWUElUZTVkWDFxTDZiUDFfUW1xSkJxQk1yMktvWjdYblRtUUpEYmVmVzVnWGU1TkJEZHBMQU4xQ0RuQUZJNUc1cEhfSlcwMlhLUkE?oc=5",
-      "pubDate": "Mon, 01 Jun 2026 02:40:00 GMT",
-      "source": "YTN",
+      "title": "현대모비스 인도 공장 화재…현대차 공급망 비상",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBoMDFSWTRxRVJmUHZRWGc5cnhOaElRTTdzWHdZOFRPV3UxSHd2NW1oQjJya3RGZFNjcXc4WkpqRUNUNWRpaGFKX0VhaFlpZVhNNzNjeWdmcnc1aXBleGU3Yg?oc=5",
+      "pubDate": "Mon, 01 Jun 2026 02:58:46 GMT",
+      "source": "뉴스토마토",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
-        "삼성전자",
-        "환율"
+        "현대차"
       ]
     },
     {
-      "title": "화웨이 부회장, '타우 법칙' 공개 속 전체 반도체업계 참여 호소",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBoOHRjSUt0SUJJUzRTYkhvVjk4dC1aZmM0bFVoZlg5TW9kXzVKMEppaDVrUDJJZnhQaEU1ZExydzNtdHZMRHRQSzE5TlROVlU?oc=5",
-      "pubDate": "Mon, 01 Jun 2026 02:39:20 GMT",
-      "source": "v.daum.net",
+      "title": "코스피 8800 시대에 ‘반도체 제외 4100’ 논란…이 대통령 “왜 빼나”",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE12U0ZWZ21sRzNYOWxDbGtZSXZiZFJhdS1qeDRxTktfZ1ktcXlnbWxDNDlLbG1xMmFFY0JmUHVMd2hudkpnVEFJekNaVlppMzFPRTJPSnhxWHFzVWZGRVo1anZhdFpvM0JkWVI4?oc=5",
+      "pubDate": "Mon, 01 Jun 2026 02:58:00 GMT",
+      "source": "한겨레",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "KODEX 미국반도체MV(390390)",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOOFJicnVCZGMwR00ydzJ1OW1wY0J6S3hXbW5jeEJSZFpGUkViNC1YcDFVb1lrMXlIb3hnMm1aeVVKZF9leUNXMkxYZlJ1ZEJXRXdiSzFCYktMa28yajdhMFhia1I0Vjk2Q042elByTHVlRXh3eVRKZkU3OW1RNmxfYnRBSU1YOUh2N1QxTUdCRXpObmNGeUZFUldTVQ?oc=5",
-      "pubDate": "Mon, 01 Jun 2026 02:37:42 GMT",
-      "source": "매일경제 마켓",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자-성호전자, 실리콘 포토닉스 공동 개발…AI 반도체 병목 해소 나선다 - 머니투데이",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE52MkhpeUFiWk9TdUNoQ0hUNEtFTXVXc3lKQklsQXg4RldhR0pHLVJwZGVuNmdiNzZBY1BoVWtKdjZ0VGxrTjRvSDNaa2I2OUZmOW8weHJ4TTNXVGROb1J1LUpuVUtuekJZ0gFuQVVfeXFMUHRYZllFcnBoaGZmaEJtLVlhcXhyaHN6TmZ5U3BCNW9iVlpTRUw5VzI5TmVmNXpxM3lPNHNZUjZsVDh6SnVBV1RMaEJyZC1HREtTZXJNVVc4T3F5NmQwNmloU2ZtUFJHd3dqUV9QRVE?oc=5",
-      "pubDate": "Mon, 01 Jun 2026 02:34:25 GMT",
-      "source": "머니투데이",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자, 북미 컨트롤타워 텍사스로 이전…‘원 삼성’ 시너지 강화",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1qUXhZeFltNXJtc1JxVG5SVGZLVTM2c1U2UW1XS1Z2NzhZbGFQZFFvQS1zWmUtSElwSTYwdHhPcnNoMWY4MmtKQmpYVmlkTTZseWpPYlJRYlZHM3lqYjRIYXZkaWN6dFAwVXJYaVlsRktWZ0E?oc=5",
-      "pubDate": "Mon, 01 Jun 2026 02:32:13 GMT",
-      "source": "마켓인",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[속보] 삼성전자 시총 2000조 돌파…‘35만전자’ 눈앞",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA1LXJmZHh0b016RUthME9UQmRpb0kwSUNxaGRWdTh0NVROZ0FRcEJZVlBYQ3JtbHBRTGF6UkVFa0U4TnFYa1ZyNm9FWHBkU0x5TGfSAVNBVV95cUxOSV9rNTk1NWlPNFdDS1NjNUF2UUFIeFh6dk0zNUdkZThEa254UUFYbVBjTVBkdWRROGV4RUJqVDhhTmhZUGZsT1Fya09fU0tCSkh4VQ?oc=5",
-      "pubDate": "Mon, 01 Jun 2026 02:31:30 GMT",
-      "source": "서울경제",
-      "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "중국 D램과 낸드플래시가 가격경쟁 위협, 삼성전자 SK하이닉스에 'HBM 집중' 교훈",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9pVExjUmpoNmZtRFdnSFVaek41ZXFGbGdZY2JfMThwV2RMZ0xQcGJ1RGZFSlF2LUpKbmFKeFlPUGV6dFl6aVdDSmo3R3ZWRTVJOWJRd1M1Z0ZxNkQtTlZXalYwcU42YlF4Qjlpa2ZwTk9QNkE?oc=5",
-      "pubDate": "Mon, 01 Jun 2026 02:30:58 GMT",
-      "source": "비즈니스포스트",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "미래운용, '코스닥액티브' ETF 상장…\"반도체·신성장 투자\"",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1ZMXlxZW4zbmUtdTdITktVaTE0R18tQmZMZ0tzZVhlYkZKQVN5NzVkZVBaNW1Tak1BOFFFOFRDc1B6Y0d2RU9GaXNOYlVfTjF5SnNpLU1vdFZLZU3SAWBBVV95cUxQMFE2NTNkX0YtWUdraDc4RWpYLUVqQ1FVV3FYWmhXbnpKVE1PaTRabUY0MWkwR0xPY3V0WnluR0FzOHpWczJmaE1JTnBPLXJ5STFJUjZya2VaVnc4REhCNFc?oc=5",
-      "pubDate": "Mon, 01 Jun 2026 02:28:58 GMT",
-      "source": "연합뉴스",
-      "category": {
-        "label": "🟢 POSITIVE",
-        "color": "#4ecdc4"
       },
       "impacts": [
         "삼성전자"
