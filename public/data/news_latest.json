@@ -1,7 +1,33 @@
 {
-  "timestamp": "2026-06-02T00:53:53.486645",
+  "timestamp": "2026-06-02T02:24:07.550217",
   "count": 10,
   "articles": [
+    {
+      "title": "\"스트래티지 비트코인(BTC) 매도 놓고 전문가 의견 엇갈려\"",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBTTHNDTGxQZFJBM0o3bnh0UGxhNUxaaWJyMXFTNUxteWNBanNKMW1oRjVYd2ZpQ0ZNVVVMc1ZBbEFQWFd5T3ZFVjJERHJDaTdX?oc=5",
+      "pubDate": "Mon, 01 Jun 2026 17:06:39 GMT",
+      "source": "블루밍비트",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "오일 파워 누른 반도체 파워",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOMmIteWFFRkR2WktoeUMxY3gzS0hRbXBzU21ONzd4TFktdkRZd2lWeVAyemFHYVUzNjZyT0ZPN0ljYnJoYVNKYVY0WE5MLW85S04tNGM3cU15Ym1oOUVMTVdsdElpdWVJSGdJWTJQNjhsaG0zUklCY1VueDZ3dTd0UDlaYw?oc=5",
+      "pubDate": "Mon, 01 Jun 2026 15:55:00 GMT",
+      "source": "조선일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
     {
       "title": "[사설] 반도체만 뜨거운 수출… 산업 전반의 체력 회복 이어져야",
       "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNa1BtVUJxa0RZa0RoZkkzUmNzMkt1enZiZDBuMmZnSUVMWHdpVTlDTFR3SWlMV3Vwbmg5dmlJbk41dEhrWGZEN2hESFdHN2tlMTFBUmpWUllIcDdxUEt5RWVFSFpaYjVENDFwS0E3eU1ZNzhKUEd4Z0cxYmVZVHR6dTJB?oc=5",
@@ -16,6 +42,46 @@
       ]
     },
     {
+      "title": "美, 中기업 해외 자회사에도 첨단 반도체 수출 금지",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNQ0RKTVROZFN5LVVGWkJZZ3VueHp2ODZUc3lacVBWMUN5ODVkQkRVY1hYY2dTai1WVkNEREpHMzBsSEtibFdFZFU2Q29tUF9tQk0tSWhGRklodnpLdU1kQVpLNjJVazhNaV8ydUJZWk5waFd5aUcxUEZSb3VuYndCZW5tbw?oc=5",
+      "pubDate": "Mon, 01 Jun 2026 15:33:00 GMT",
+      "source": "조선일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "마이크로스트레티지, 41개월 만에 비트코인 매각…전략 기조 변화에 투자 심리 흔들려",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9zMUw2clFKMk1uampEczQ3V1dhX1dwcnhvNGFXZExObWhzUzNVNU5ZdjRuaDhVTkkwU1A2UFFHX2xiMk51ck5RdE94X1MtX1JFaEE?oc=5",
+      "pubDate": "Mon, 01 Jun 2026 15:30:25 GMT",
+      "source": "매일경제 마켓",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "원유 몸값 추월한 메모리… 반도체 빅3 시총, 에너지 빅3 넘어",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE42WkZjMnpJN3VVd2N6NFBnNElRY3JneDNTQmlEcEh1WmJnaTd1UFE3YnEtMFJOZUh5MFI2T3pNQUlSUlMtY1hxSjJJZ1RRYm42bVA3b2JaeHU1MXZNQy0tYzNXMG5kUVNOVlZKUkh5RU80alB0UlE?oc=5",
+      "pubDate": "Mon, 01 Jun 2026 15:30:00 GMT",
+      "source": "동아일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "원유",
+        "삼성전자"
+      ]
+    },
+    {
       "title": "SOL 한국형글로벌반도체액티브(423170)",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPOTRUOUktLWlEYmFTUjJpYV9GUGZUWnFjazlJZm9mQ1FJa2ZCcUFYUmkyeGM0aVViVGZwYjMtbE8zNDJVVVA3Z29GMzdNRnJYeHd3SllubGxWdUhuRGFnNGRKZUhsNkhpUFRJaHZQMl9wQnoyeXAyRVN0bUsyOUpRSzFFekZwcWNzRWNjZlJBZ3FkZzdBRGtn?oc=5",
       "pubDate": "Mon, 01 Jun 2026 15:29:43 GMT",
@@ -26,19 +92,6 @@
       },
       "impacts": [
         "삼성전자"
-      ]
-    },
-    {
-      "title": "벤저민 코웬 \"비트코인(BTC) 하락 이유는 많지만, 중간선거 해 6월 조정은 반복된 패턴\"",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE11bFdQOWU5TERFYkViR2I1YnlYTnlIdEZkSWxGQjdMMDhLTm1tVzlvaWZrQWVLV3FDVUNuVUpicWs4S1NQMk5PNGJ4YXpVUm1l?oc=5",
-      "pubDate": "Mon, 01 Jun 2026 15:26:10 GMT",
-      "source": "블루밍비트",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
       ]
     },
     {
@@ -68,70 +121,16 @@
       ]
     },
     {
-      "title": "5월 수출 877.5억 달러 ‘역대 최고’…반도체 비중 40% 넘은 건 처음",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE14dkltVmtjbkxTenVmdzNPMXFRZUh6MXlfckRQVFV0YlQ0QnVrbDRibHo3Ui1QSjdkejNkTnRCclpXVWpTSjJNb3VuVFQ4TmIwR0V5cERR?oc=5",
-      "pubDate": "Mon, 01 Jun 2026 15:02:00 GMT",
-      "source": "중앙일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자",
-        "환율"
-      ]
-    },
-    {
-      "title": "[사설] 현대차 노조, “생산성 먼저” 토요타 春共 배우길",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1mcEtyaXZucDllRWlFa2NBaGI4V3ZPdTNIc3pIZzhZWk14ODFZTVhzOE42UWdFcDhIYW40OVhYbDkzcThHanZoMDIxdkU3WDdMRThPREJzakxLTFUxMnd3aUVZWDhaNzVnZE9DNGFR?oc=5",
-      "pubDate": "Mon, 01 Jun 2026 15:00:00 GMT",
-      "source": "아시아투데이",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "‘반도체의 힘’ 5월 수출 역대 최대…코스피도 사상 최고",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5CM3N6b2dkUmNmOHJSNzJ6MkpvLVlGN2lRX0RqVG9TZ0FDSW1MZEkwQkhkVE82cV92enVIRGxnWEprZVRUdU9NRTRkNF9TTVE?oc=5",
-      "pubDate": "Mon, 01 Jun 2026 14:48:07 GMT",
-      "source": "v.daum.net",
+      "title": "반도체 낙관에 젠슨 황 기대감‥\"9천피 보인다\"",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1MXzRpN0Rnd21rMWs3Nm9jbHpTaDlqQVU4Vm5EdW9wWXVnMDVVUWJPRFR2YUEzN1o4c2dZeFZ4c0ZBdFNSS2NBajEtMnFjS1VITUlOcEZpRnZuTlZJbG95YlVHRWtyVXctN043dW1Cc0RoaDlmekhIRdIBeEFVX3lxTE40LVlZSTEzSWFVcGVUUWxCUkhhc0UxcGdmeGJRUDlhZTVJZDVGM2NZOFh1WTAzR29EMHN0Q3dweWJDUW9xMG9oZ0JJckVaOHBtNUVQTGt5UmdMMi1aTVZWMEFxSzV1N0NOcEtidmNZU25oLTVVMEpzNw?oc=5",
+      "pubDate": "Mon, 01 Jun 2026 15:05:05 GMT",
+      "source": "MBC 뉴스",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
         "삼성전자"
-      ]
-    },
-    {
-      "title": "55억원 교육SW 기증받은 GIST, AI반도체 실전인재 키운다",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBJWm81cEFRWTFYMVo0YWlBVkZsTHU5RU5sbU42T2NFaDZLQVM2ZlFxMVZCQXl0ekNPcW52UTF6VDhUT1prNDZZMmxIMGQ0bkk?oc=5",
-      "pubDate": "Mon, 01 Jun 2026 14:30:08 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[사설]“수출 1조 달러, 5강 도약”… ‘반도체 초격차’ 유지가 관건",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBvamFlMUZlMVZKV0VBNDRDaktXWnhYTjEzZkhLc0dBbldCVEI3WUpKUzhYakNZSHhJQzljc3pjTG90SjFzZUc5MXIwWl9vYjBJS2xGTWhRaVhJdjFXY21jYnhENmE4cGZSXzZkemhRS3NXcXJMbnfSAWZBVV95cUxPWG43WWlIZnhRbjB4Rm82cG5JbFFqNnJmNVVFcUZOYTlUZzlsV2ZEdGlGNmN6T0lfWXFydmdoUXZiQ0FzS1V5S25EdjVDNTB3eDFiVkhXSi1BbjlrbUs5T2REQmtWY2c?oc=5",
-      "pubDate": "Mon, 01 Jun 2026 14:27:00 GMT",
-      "source": "동아일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자",
-        "환율"
       ]
     }
   ]
