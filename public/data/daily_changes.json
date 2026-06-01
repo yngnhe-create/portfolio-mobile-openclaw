@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-01T22:53:21.542956",
+  "timestamp": "2026-06-02T00:23:36.540895",
   "count": 41,
   "stocks": {
     "삼성전자": {
@@ -158,127 +158,127 @@
     },
     "INTC": {
       "name": "INTC",
-      "price": 107.89,
-      "pct": -5.92,
-      "chg": -6.79,
+      "price": 111.96,
+      "pct": -2.37,
+      "chg": -2.72,
       "src": "yahoo"
     },
     "NVDA": {
       "name": "NVDA",
-      "price": 219.85,
-      "pct": 4.13,
-      "chg": 8.71,
+      "price": 219.74,
+      "pct": 4.07,
+      "chg": 8.6,
       "src": "yahoo"
     },
     "TSLA": {
       "name": "TSLA",
-      "price": 425.38,
-      "pct": -2.39,
-      "chg": -10.41,
+      "price": 421.44,
+      "pct": -3.29,
+      "chg": -14.36,
       "src": "yahoo"
     },
     "AMD": {
       "name": "AMD",
-      "price": 488.64,
-      "pct": -5.32,
-      "chg": -27.46,
+      "price": 515.52,
+      "pct": -0.11,
+      "chg": -0.58,
       "src": "yahoo"
     },
     "AMZN": {
       "name": "AMZN",
-      "price": 264.7,
-      "pct": -2.19,
-      "chg": -5.94,
+      "price": 263.99,
+      "pct": -2.46,
+      "chg": -6.65,
       "src": "yahoo"
     },
     "LLY": {
       "name": "LLY",
-      "price": 1087.86,
-      "pct": -1.55,
-      "chg": -17.14,
+      "price": 1076.99,
+      "pct": -2.53,
+      "chg": -28.01,
       "src": "yahoo"
     },
     "MSFT": {
       "name": "MSFT",
-      "price": 464.41,
-      "pct": 3.15,
-      "chg": 14.17,
+      "price": 460.98,
+      "pct": 2.39,
+      "chg": 10.74,
       "src": "yahoo"
     },
     "GOOGL": {
       "name": "GOOGL",
-      "price": 374.83,
-      "pct": -1.45,
-      "chg": -5.51,
+      "price": 375.85,
+      "pct": -1.18,
+      "chg": -4.49,
       "src": "yahoo"
     },
     "RTX": {
       "name": "RTX",
-      "price": 175.88,
-      "pct": -2.1,
-      "chg": -3.78,
+      "price": 175.1,
+      "pct": -2.54,
+      "chg": -4.56,
       "src": "yahoo"
     },
     "PLTR": {
       "name": "PLTR",
-      "price": 160.94,
-      "pct": 2.81,
-      "chg": 4.4,
+      "price": 158.99,
+      "pct": 1.57,
+      "chg": 2.45,
       "src": "yahoo"
     },
     "ARTY": {
       "name": "ARTY",
-      "price": 76.09,
-      "pct": 1.94,
-      "chg": 1.45,
+      "price": 77.45,
+      "pct": 3.74,
+      "chg": 2.79,
       "src": "yahoo"
     },
     "HSAI": {
       "name": "HSAI",
-      "price": 19.7,
-      "pct": 4.22,
-      "chg": 0.8,
+      "price": 20.32,
+      "pct": 7.54,
+      "chg": 1.43,
       "src": "yahoo"
     },
     "NLR": {
       "name": "NLR",
-      "price": 131.51,
-      "pct": -1.34,
-      "chg": -1.79,
+      "price": 132.91,
+      "pct": -0.3,
+      "chg": -0.4,
       "src": "yahoo"
     },
     "GRID ETF": {
       "name": "GRID ETF",
-      "price": 191.87,
-      "pct": -0.62,
-      "chg": -1.2,
+      "price": 192.2,
+      "pct": -0.45,
+      "chg": -0.87,
       "src": "yahoo"
     },
     "BTC/KRW": {
       "name": "BTC/KRW",
-      "price": 108153016,
-      "pct": -2.71,
+      "price": 107578313,
+      "pct": -3.06,
       "chg": 0,
       "src": "coingecko"
     },
     "ETH/KRW": {
       "name": "ETH/KRW",
-      "price": 2980145,
-      "pct": -2.05,
+      "price": 2965103,
+      "pct": -2.16,
       "chg": 0,
       "src": "coingecko"
     },
     "SOL/KRW": {
       "name": "SOL/KRW",
-      "price": 121004,
-      "pct": -2.82,
+      "price": 120035,
+      "pct": -2.95,
       "chg": 0,
       "src": "coingecko"
     },
     "LINK/USD": {
       "name": "LINK/USD",
-      "price": 13493.76,
-      "pct": -2.69,
+      "price": 13408.2,
+      "pct": -2.35,
       "chg": 0,
       "src": "coingecko"
     },
