@@ -1,103 +1,11 @@
 {
-  "timestamp": "2026-06-02T14:59:27.037195",
+  "timestamp": "2026-06-02T15:29:40.230309",
   "count": 10,
   "articles": [
     {
-      "title": "세일러가 4년만에 비트코인 팔았다…비트코인 7만1000달러선 깨지고 알트코인도 ‘와르르’",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE05eVZEbzc0YWM1YzZIbW5PUVo3b0pSTHI0UVRQRDVhenEwLTVxT3Q5c2RJYm40bnZBWUduV1N0a1ZrQ1k5OG1MeHU3cHZidExZQlE?oc=5",
-      "pubDate": "Tue, 02 Jun 2026 05:55:04 GMT",
-      "source": "매일경제 마켓",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC",
-        "환율"
-      ]
-    },
-    {
-      "title": "무뇨스 현대차 사장, 西 찾아 딜러망부터 지역사회까지 현장경영",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9iaFpwUlhjNTFTYkZKOERFclpoSmh1QlA0S1FCNElTREZsS2RYUHcwcVBjZmUwSV84cWdlRjhCRWxZRzNqeTg1clV2Z0RFZ3UzMHlUSllSLWxMTmFMQW5lSFN1UVhYbzlxdk9iamR3?oc=5",
-      "pubDate": "Tue, 02 Jun 2026 05:52:43 GMT",
-      "source": "아시아투데이",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "반도체 초격차 가속화… 핵심 EUV 장비 국내 도입 기간 '최대 25일' 단축된다",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE16OTRNeTNDZUNWTFNqR3l2b1hqblQzZUNsUlNTTU84Rm9nSThCWmtXR1JBUzF3V1ZUTTNyemVMdGZWTUpacU1JT1E5dG90cjJGY19CZjMxWnlEcUQ5U2cyYlJiRmREdw?oc=5",
-      "pubDate": "Tue, 02 Jun 2026 05:45:07 GMT",
-      "source": "기계신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[데스크칼럼] 반도체 전쟁 앞에 선 K-클러스터, 수도권 배제가 답인가",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1lQXRDLUw0SUFCV25wdEJzekNJckUxSUZ2OGVFYXRWVnp0ejJxSjVOZ055NzFub251NnB4UEl2SG1remF6eGhRYjc0RzZlckpUTnFv?oc=5",
-      "pubDate": "Tue, 02 Jun 2026 05:44:43 GMT",
-      "source": "산업종합저널",
-      "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[COMPUTEX 2026] 삼성전자 HBM5 모형 최초 공개…발열 잡는 'HPB' 눈길",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE55bklvMllVclJCTGQxRUMwWlF5UlQxRk9NaUh0U2liZ01JMVNrSTVMZ3l0cGZmNHQzZVNDMzlpRlpESkFTMUNFXzE5LThQUjQ?oc=5",
-      "pubDate": "Tue, 02 Jun 2026 05:39:52 GMT",
-      "source": "딜사이트",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[컴퓨텍스 2026] 삼성전자, HBM5 시제품 첫 전시…송재혁 \"HPB·2나노 베이스 다이 준비\"",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE8yZkxLUVhfUFlwUGdfWHQxZ0RFRjdYNlRacjN0eVBTUWllZjZrdk5wYXpmMWtCQjJ2eXVOOXJJQTZaalFWelQ3TWE1N1I2RjdfR2E1S0k5ZWliSnppMzloM294Nm8?oc=5",
-      "pubDate": "Tue, 02 Jun 2026 05:38:08 GMT",
-      "source": "디지털데일리",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자, '컴퓨텍스'에서 HBM5 실물모형 첫 공개",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5ja0h2M0V6ZUs4N2RDOXZkanBPODczQlFhb1N6VjZEZkRxYmowdHlrVDZ4Z2pzRWZLamlPMXRWMU5SRFNaSFlLVFhYd3IwVG5XWHR3dUNSeHpMb1lvbkE?oc=5",
-      "pubDate": "Tue, 02 Jun 2026 05:38:00 GMT",
-      "source": "YTN",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자, 대만서 업계 첫 HBM5 실물모형 공개…“샘플 공개는 거의 양산 도달 의미” [GTC 타이베이]",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1XSkJJOEl2V2FubFdBS0t1dXdSaVlRT2lCZ18yakxVcmwtdG56VWY3a2plQkk5WW5BVGtZYjJJemM4SmVkSmI2MzFXRktTSjQ?oc=5",
-      "pubDate": "Tue, 02 Jun 2026 05:33:20 GMT",
+      "title": "삼성전자, 시총 세계 10위권 첫 진입…\"AI 인프라 수요 효과\"",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBEclVrLTExX3hNeV9Vdk1aRHZGTllJZk9GV2tsN0ZpWERkbWtHWlIzcW9SNS03QnRYMXdMT1JXZ3lYTHBKd1V2ekZKcUh3VzQ?oc=5",
+      "pubDate": "Tue, 02 Jun 2026 06:23:05 GMT",
       "source": "v.daum.net",
       "category": {
         "label": "📋 GENERAL",
@@ -108,23 +16,114 @@
       ]
     },
     {
-      "title": "[이슈딜] 젠슨황 수혜주는?…삼성전자 살까 LG전자 살까",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5USmFhbVp1aGh4YVhTQjZnSkQyMlNxNkRBdnJQcWNfakhXOGpZRjZrUk81NlJERG84TFU2a0I3aE9sT2NDSVh4dWNWdU84QVY3WmY3NElR?oc=5",
-      "pubDate": "Tue, 02 Jun 2026 05:32:19 GMT",
-      "source": "DealSite경제TV",
+      "title": "[BOK 컨퍼런스] 미니애 연은 총재 \"비트코인, 인플레 헤지·가치저장 모두 실패\"",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5peTh2VmxrT3Qzb2VyUTBFNWxELTRCUG9Hc1hoTEsyaVVOUkhWeFF1SDd6M0Q3MGxwMFpvNFJNWkwtZ091LUF2UVk1U0o4RW5UOWpDSmtQZ0NNOGFibVVMdllHQUlIc3NQcnVxa2RNUWE?oc=5",
+      "pubDate": "Tue, 02 Jun 2026 06:21:46 GMT",
+      "source": "연합인포맥스",
       "category": {
-        "label": "🟢 POSITIVE",
-        "color": "#4ecdc4"
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "삼성전자, 美 본사 텍사스 이전...반도체 중심 글로벌 전략 재편 신호",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5XSXRsdXZKNERQMy1YWHJzTVh0d040WUNaWmVLdmRseWZJazJwdVA5UHkxVDBMT3NkVm1PM1Z6eS1XUDMzQXREM21MLWJvSTZ3SVU5OWlYMnB4azRabU5nOWl5WGt6MHM?oc=5",
+      "pubDate": "Tue, 02 Jun 2026 06:19:43 GMT",
+      "source": "M이코노미뉴스",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
       },
       "impacts": [
         "삼성전자"
       ]
     },
     {
-      "title": "삼성전자, HBM5서 기술 초격차 시동…발열 낮춘 'HPB' 적용 추진",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB0WTBaYXhRMXI1czBBSzNhUk5RT25WdEszYWlqdm5vSm1ySDVGekRmY1czdDQtZG1IQlpnN2JQRTlFX0NkMy1IVndyclkxYXBzaTk4M3Fn?oc=5",
-      "pubDate": "Tue, 02 Jun 2026 05:31:41 GMT",
-      "source": "지디넷코리아",
+      "title": "삼성전자, 8세대 HBM5 모형 공개…“압도적 기술 리더십”",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE10SlJOajNCa196MWh4RjNNeC1xLWdHUlM0d0ZXQmRIRnJjNlpSTk03MHRmODZOVEVsSWF3bG1Hb3hsWk5QbDJPSXU2MlRYVkxWV2tOeGxlUUNiaDlPa3JFcTFfU1RpNVhiRG5ib2FR?oc=5",
+      "pubDate": "Tue, 02 Jun 2026 06:19:00 GMT",
+      "source": "아시아투데이",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "인티그리트, 국내 반도체 공장에 ‘로봇 AI 플랫폼’ 상용화",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE83UTZpS2w4M0RQN0FueWRvc2Fud3h3ZVJpU0ktSlBsT0pQNE51Yy1DeEprVVNYd20tcC15WURCZmV0VUpRemxlTnRicGVNSzQwUXVOdU52T0F4Z1BCUGo0ak9NZkY?oc=5",
+      "pubDate": "Tue, 02 Jun 2026 06:18:50 GMT",
+      "source": "서울경제TV",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전자, 컴퓨텍스 2026서 HBM5 실물모형 최초 공개",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE93MGxPUE9YYkQwU1lWRGlFaFUyVGN1N19neEpoWlB5N0NoUHB6QUtvb0g0S2o0cXRyUWQtdHFnQTVfNWl3YVdOVzFrZGNNMDFSQ3c1MTBOR1ZVQWZucHNFbll5ZUhUZFd6b0E?oc=5",
+      "pubDate": "Tue, 02 Jun 2026 06:18:16 GMT",
+      "source": "금융소비자뉴스",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "스페이스X 상장 임박…'반도체 자금 이동할까' 수급 블랙홀 '주의보'",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQTFhneENrY3JTYnpuNTM5M2Nld2lZTlg2WTJQX0l3RFFfMllWMXN5ekRLbUt1dXhQREwtLVhjRTVYUTY3V1QxMXVvUmN3TGFYLXlxS2ZDanV2RFdKSndmY0JRUF81OGwzX3VlNFhkdjhYY2VMVlo0TXUzTUJiRS03YkZZSQ?oc=5",
+      "pubDate": "Tue, 02 Jun 2026 06:17:00 GMT",
+      "source": "인베스트조선",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "현대차그룹, FIFA 월드컵에서 미래 기술 브랜딩 강화",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE03TlgyRF9kZDNKbzNvRHZCdXRRcmQxSnFIZHJJdUYwclFUZzlFcFpSX2ptLVBDdXdjNUQ5RUZyT0pHT0hUNHBUVkI4dFVNeEo2a0lMb3k3YVZQMXFlTi1NeDdoZlpxUk4xblByeFBPcw?oc=5",
+      "pubDate": "Tue, 02 Jun 2026 06:16:44 GMT",
+      "source": "위키리크스한국",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "젠슨 황 삼성전자 성과급 논란에 밝힌 신념...“내 직원들에 물어보라”",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1yaEc0OXV2cVBOeDM1N1g2VXZnQkxYZlA3TS1PcGR5U01taUpTMEkyS3BhWkhYU1ZuZU9ObUpyNi1jZjU4cjJxei02VGpjSFpkdEM5NDZ3?oc=5",
+      "pubDate": "Tue, 02 Jun 2026 06:12:33 GMT",
+      "source": "중앙일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[반도체로 쏠린 코스피] ④ 식품주, 라면 수출은 좋은데...내수부진에 반등 요원",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBZMzk0S1FNWm9uSUNDZFhJVEtsYVBRUnpyc1lWdS03dm5NTXNPQ2V3WUo3YzhKLWtGZlh5QmwwOUZ3R0ZEVnFVcVpaUmstYm9JSjJ2SHd6QmtabUZrTGtjcGRjZmd5MkV2R3FlX0FiQ1BlUQ?oc=5",
+      "pubDate": "Tue, 02 Jun 2026 06:11:36 GMT",
+      "source": "오피니언뉴스",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
