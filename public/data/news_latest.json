@@ -1,12 +1,26 @@
 {
-  "timestamp": "2026-06-02T10:27:21.788067",
+  "timestamp": "2026-06-02T10:57:37.131044",
   "count": 10,
   "articles": [
     {
-      "title": "지미션, 퓨리오사AI와 MOU 체결… 국산 AI 반도체 기반 AX 솔루션 확산 협력",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE04SU1wRDNjSTNKdW4xaFZiajdNeVBYODN4dTE3RVBYeG1Cc1ozd0NGcXRmTjhuX05NaFpCYnFQZHJ1YkQ5NzVob0dPdlJLY0RrZHdOTGdfVXNuNE8yMXoxT1JpZDQ3SXc?oc=5",
-      "pubDate": "Tue, 02 Jun 2026 01:21:36 GMT",
-      "source": "인공지능신문",
+      "title": "삼성전자·SK하이닉스 해외 코인거래소 선물시장 상장…투기 우려",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9WWXp5clRjc0l2dGVHVGRNNVlKUHFhSXJTaEZwdFFQTi15UUhZS0VudTFKbHN5OW1oYkE2RlhvYVlKR24xejlyRjRXd2ZYT0VZWHg5MmxnalFqUHM?oc=5",
+      "pubDate": "Tue, 02 Jun 2026 01:52:00 GMT",
+      "source": "KBS 뉴스",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC",
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전자 로봇청소기 '비스포크 AI 스팀', 월 판매량 첫 2만대 돌파…고성능에 강력한 보안으로 호평",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1mZHZhLWFkLXJvUUM0MXd4SUI0TkNFNEZnNGNLdVNGTUlqRTJjaDVnb0h0RjM5cnBtZjl6Z3ZTUEJ2d190d2w1LWNUSXBwR28zZmV6RGlFdVc3TFBlU1hrTGNrN3h6Rnp1Z2JyWNIBcEFVX3lxTE8tUzdSUUtNem1oakh0VXlacFJLbjFfdnRDRWFiUUk0SUEyYk1KN0pzUHFUQnJNMEEyNlBNUk9oSG1LNVNCQnZ6Q0l1YXRsenp1SUxIM011SUdZNFNfbHlqSW01R3pNT0lHNDhrSUxrSGg?oc=5",
+      "pubDate": "Tue, 02 Jun 2026 01:44:19 GMT",
+      "source": "전기신문",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -16,121 +30,108 @@
       ]
     },
     {
-      "title": "스트래티지 의장, 비트코인 매각 해명…\"목표는 STRC 우선주 가치 극대화\"",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1MRlFHQjlUNU1iZmNxTEdWcXMwZERIZU15QUE4RTdKYWxZMWctZlVmbDBVVjliWDR1cVFhaVY3QkJUNnYyUUFjRTRNOGVPZ1V3MW5iR3FUSmhVNmstZllfMDJVZnVBRzNPRW9ValptZmTSAXRBVV95cUxQY1pFX0UwRnNWSC1DQzBNN2J1dWxoSDNsUFUxaUJ6R2NJRFEtTndxaHdNVVBhVW9odHE0Y1ZaaWI2R1ZEcHp1Z1BiVzhVRkVfTTdZWnFEUXBiNGwtN2wwSlVIbWVWY1RiVmh3NVFsVkQ3cU1FbQ?oc=5",
-      "pubDate": "Tue, 02 Jun 2026 01:18:30 GMT",
-      "source": "연합인포맥스",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "스트레티지 매각 소식에 비트코인 한 때 7만불선 하락 [매일코인]",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9lZGhhNnBIYTR0eHNvNEdXaGkwdENlZFBpem5PT0Zwa3pMNGsyaThEbWJ5bWFlSkVfTWhlekh0TDQ3b2h5bC1pZzdFLTUzZEU?oc=5",
-      "pubDate": "Tue, 02 Jun 2026 01:18:10 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "삼성전자·SK하이닉스, 신고가 찍고 '롤러코스터'…35만전자·230만닉스[특징주]",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5Xelp3X2ZHeS1lZjFUR3dEYWtic2ZIb3JZdkxZN19JMzN3Sm1YY2lyWVVXckNqbkx4WVZJanZTaE1YbVJiNnNpNmZDajQtdUk?oc=5",
-      "pubDate": "Tue, 02 Jun 2026 01:18:03 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "🟢 POSITIVE",
-        "color": "#4ecdc4"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "한화에어로 폭발 중대재해 수사 착수…정부, 방산·반도체 긴급 안전점검",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5aVXVCUWtzMDhaWHM2LXpZQWVmTmF2TmFhdkJWNlZIVHJicndzSW9PeEZaOWYydVJjdi1iQ3V4SUE4RkZfcHpTUU5sb1pTOG5OTVpVRmJFOHlFRXFxeERpdE1kOA?oc=5",
-      "pubDate": "Tue, 02 Jun 2026 01:17:00 GMT",
-      "source": "뉴스1",
-      "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자, 글로벌 시총 '톱10' 진입…장중 테슬라 제치기도",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5ib2hXSm9OVkk4Sng5Q2hFVHZucVRMR2dmUmhjRHY0RE5VczdnT1JhQUtmejJqMTFGLXU0WUNRVlN5Slk2ZjExeUJHUXRMaUZhckZiYnZDdFZPcC1KQ1lJcDQ5VnRZbU1fRVRnOU1YUHY?oc=5",
-      "pubDate": "Tue, 02 Jun 2026 01:16:32 GMT",
-      "source": "연합인포맥스",
+      "title": "日 토픽스도 'AI 지수화'…도요타 대신 반도체주가 견인",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5ZWnNRZlpGdTRXaEdIME8zcEtEX0ZEV1VMQWpPVDJFSHhmeDZXaEJkSXVRTGt6SGFtbjQtQWdrTEowX180eHg4T2l3RWV2YTBjTzFaUDIxSVpLNjVRV1hvSkk2OUJUNF92WlNtbW5nX3Vsdw?oc=5",
+      "pubDate": "Tue, 02 Jun 2026 01:43:04 GMT",
+      "source": "KB Think",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
-        "삼성전자",
-        "테슬라"
+        "삼성전자"
       ]
     },
     {
-      "title": "현대차, 5월 인도 6만1137대 판매…가격 인상에도 탄탄한 성장세",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1HRmd5cTNtZ2dpT0g3b3JrcW9RREtXV1BHRWg0bFNwOGZHLVVrNnBqWjNZWnFQNFc2WUJPc0MzZHpQOXNSaWxOS3lxODU0blZtNGZaNmtVaXEtUFktOFRqejdjcw?oc=5",
-      "pubDate": "Tue, 02 Jun 2026 01:15:27 GMT",
+      "title": "S전자 반도체 운반차와 사고(?)…보험금만 194억원 \"집 팔아도 감당 못해\" - 머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9fTWxaZUtCUlBzc1VGdTV0d3FFOUJvbWktbXhicFduZTV6QWNvMGVDZEhObEx3dXpDUlFQWGxJdzNVUHBiTzZUWW5LRDd4Q1NjYWsxMHljbGlyRjJVLXN5Y3Q3SGdxd1FlQ2o40gFwQVVfeXFMT2dyRW5GMEF2bkpnX29OLXM3X3gwdWZFcG53ekdVNHp2OEpwdGxuV2ZmWUY5WjlmLVpWU0xIOTM4d2R1VS1kWkRVREtmREdFcF9QenB0ZGlxeVc2eEpPT3lxQ1FpeEhRWWJvT3Jrc3ktVA?oc=5",
+      "pubDate": "Tue, 02 Jun 2026 01:40:59 GMT",
+      "source": "머니투데이",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "비트코인, 스트래티지 2022년 이후 첫 매각에 약세",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9ud2UwNVlvVkJLQUxRSnlESlhlVE5RTHVpdmtodHlWa0lCSGFSTjdZUHZEcUlPOXlfLWVzODRxNVlEd2h0S0pMd3QzSEdwaGhyeThuT29FN3U0cEJjeXY1OVVHTnZBMDctckVVdWpmZW9jS2pV?oc=5",
+      "pubDate": "Tue, 02 Jun 2026 01:40:54 GMT",
+      "source": "조세일보",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "성호전자 10%대↑…삼성전자 기술개발 파트너사로 부각 - 머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE41aHJNX2dVS3FlNTdyVE5KX1J2Rzc0T1JOTDU3dnl0R0NkUC1jeExHbm9HM0UwaVhVclkydFpBakdRblJTTTlkOWkwbzduLTY2N0QyWGhBYVVWZkZGWXMzNjZKM0xfTjYw0gFuQVVfeXFMTmUxcXpmZ3pXdmlKcnNLVlNnT1F0V2E3OV9LYkx0d2Y4OFFIcktUSVFtY3FFdVdPcUwteVFVMTRnb3A5QUJvLVhFbVd1U0NnQTRGak80ci1mLWFEUnJnNGpFb2VoOUtkeUFUX3hFdkE?oc=5",
+      "pubDate": "Tue, 02 Jun 2026 01:38:46 GMT",
+      "source": "머니투데이",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "보스턴다이내믹스 아틀라스 상용화 주역, 구글 딥마인드로 연쇄 이탈…현대차 로봇 전략 '비상'",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1nSXpJemVYeGw1aFNTVXNXdEZMVExIeGItT3FVeHhRTlBwVVJESkJESnZZMmtfWXp0aE1GTVpKSHB1UkRDakhtVDhEQkVGMEhSSEg5MXM1Q0dEMGRDZ1E?oc=5",
+      "pubDate": "Tue, 02 Jun 2026 01:36:21 GMT",
       "source": "더구루",
       "category": {
-        "label": "🟢 POSITIVE",
-        "color": "#4ecdc4"
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
       },
       "impacts": [
         "현대차"
       ]
     },
     {
-      "title": "노동장관 \"반도체·방산제조 업종 긴급 안전점검 실시\"",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBaZlVPUnFMS25rTk9SODNfRjVrUnZlTlN4a0VGUElDdHJJOXhKVmxfXzZxNmo2VllZUjNGeVhxYXhEYVdORkxQLUJ5bDhLYUE?oc=5",
-      "pubDate": "Tue, 02 Jun 2026 01:15:07 GMT",
-      "source": "v.daum.net",
+      "title": "[크립토 브리핑] 비트코인 1억700만원...스트래티지 매각 공시에 흔들",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBCWmZqVFZYV1lDX1U0VHBhV0dkTkxPcjhvOTdwV2YwdXhaYVQtQ3hpeWprMk1FcjYwSFJycFRSejJZOXoyU3hJSVJWbVU0a2I3VEtoVzRZVjB4SXR4WWNpaS1Cd2ktQdIBakFVX3lxTE1WX2JOOVNyWTViU2tFNVlJcEZnUHh0R08zT0dNR3FucnFvYTRka3NxTGxrWGloaDZlNGtpQTR3UVp0UjlpdERQRDM5WFVFalF6RWVvRHI3WTZZNlR1S280cFZfUVVnaER0LWc?oc=5",
+      "pubDate": "Tue, 02 Jun 2026 01:34:35 GMT",
+      "source": "테크M",
       "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
       },
       "impacts": [
-        "삼성전자"
+        "BTC"
       ]
     },
     {
-      "title": "삼성전자 SK하이닉스 반도체 '전성기' 뒤 후폭풍에 외신 우려, \"빅테크와 계약 조건 불투명\"",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFA3NnBTUEdtbVcxNE44UFJud1dRY2dHcVljalZ1TEtDQTJHTi01RVBNNlB0MzRCX3lWRW1UVEZ3TWFsRlY5cFUzcU9oOWx5eldIYTV2ckdKNGxJQkQ3bXgzbkctckd3RzR4WEdLN1VuX0tQTkE?oc=5",
-      "pubDate": "Tue, 02 Jun 2026 01:12:58 GMT",
-      "source": "비즈니스포스트",
+      "title": "비트코인, 하락 채널 속 바닥 신호…6만 달러 지지선이 분수령",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5RMmIzYmowV0lsMGEzcERJOV9TRkpjZWJDcGpxcWVOSEFCc1BCMUVSa3NONU9ycjNpVkxtSnNNWFZiMkNyaENnMTctdlJodEpRQzNKMTRkNTBoSHZDd3dYTFM3UmRBaHBKMWo0QXpQZEc5T044?oc=5",
+      "pubDate": "Tue, 02 Jun 2026 01:30:58 GMT",
+      "source": "조세일보",
       "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
       },
       "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "젠슨 황 \"SK하이닉스 시총 1조달러 자랑스럽다\"",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA0WnBnaGhpY19qWFhQSmlfNkJ6Q1UwdXY1bUg0ZTRYWGplLXl1VUZ4OGNRcjl2OE53NFBTX040TGoydzVwOHJLUC1wakxWTW9ZelI5ZHpsZml1QXFwR2tXd3lOTnB3Zw?oc=5",
-      "pubDate": "Tue, 02 Jun 2026 01:11:57 GMT",
-      "source": "디일렉",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
+        "BTC",
         "환율"
+      ]
+    },
+    {
+      "title": "반도체 효과로 수출까지 시장 예상치 상회",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1oOXk2QnpidlgyU0U0WUtScU1lYllldnJUbFZVUzNqYVZjd1VDNWV5NFE5Yk5uVlV0NmstTkh5aFJVVjlrNmtXZ0FpWXFFWlJTV19ZUkJaaDI3RzhkUmFlTDljbHRReFJZ?oc=5",
+      "pubDate": "Tue, 02 Jun 2026 01:29:38 GMT",
+      "source": "fetv.co.kr",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
       ]
     }
   ]
