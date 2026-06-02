@@ -1,7 +1,60 @@
 {
-  "timestamp": "2026-06-02T11:58:04.165721",
+  "timestamp": "2026-06-02T12:17:04.724086",
   "count": 10,
   "articles": [
+    {
+      "title": "삼성전자, 메타 제치고 시총 세계 10위…테슬라도 사정권",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5TcFdJdWQybVdpdkNtYU1WMU9kQjQzQ1dVdFd4TnRQSUZWamNST3pXMHJUSGZKMHgwbmpMQmtQSVRkV2tEZXFFVXhvVkpuOHBRZlJVeklR?oc=5",
+      "pubDate": "Tue, 02 Jun 2026 03:10:00 GMT",
+      "source": "중앙일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "테슬라",
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "피지컬AI 반도체 딥엑스, ASUS 그룹과 양산 협력 계약",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5IOUt6OUNEcU44dFk4NnlMOTFlUDgteHhEUllRd2g1Nmp5UjZmVHZMLTk5YWNWRjJrUUJUaS16S3ZGMkJZMl85VHVtQ1JoalBEYjlwVTJ2SnVHWjhEcXdqX1U1N0lrNmxfQXBuNDdRS0lwdw?oc=5",
+      "pubDate": "Tue, 02 Jun 2026 03:00:02 GMT",
+      "source": "KB Think",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "“비트코인 안 판다더니”… 美 스트래티지, 32개 매도",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9hZklJZUMxOE1jZXlHXzJWSm41UVotM3k0ZVZTcXVVdlRBSGNYTU9wWkdjWXh6MnUzUF91UnBUNTYtNTd4S1dsaEZ1eG42by1F?oc=5",
+      "pubDate": "Tue, 02 Jun 2026 02:59:14 GMT",
+      "source": "문화일보",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "[단독]SK그룹, SK실트론 매각 재검토…반도체 중심 AI 전략과 배치 - 머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1GeE5xUXhsaURJU0NBSnVJbndkWWtzdHlra2NEdTlkQ3Y1YmVwdk41dkxJaHozWjhGREI2UEdMZFdFdEhzbnNNeThkOTc3YkJOUlRHN29DcGtwUFJRNGJieGJBd3RQMDJCMmlnQtIBckFVX3lxTE45SDBmOG9ScWpNV1laaV9FYkozVHgwOHdiWFFqRzJlRkVxUDJ4LUVkQ2htZzhieGJtZ01wS1dsNW5WNFROamZ3Zl9GMnYyN1ZTeVJzci1YdHkyOUROREhWMU9lSFYtWVVId3JFalE5REk3UQ?oc=5",
+      "pubDate": "Tue, 02 Jun 2026 02:58:35 GMT",
+      "source": "머니투데이",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
     {
       "title": "월드컵 경비에 투입된 현대차 로봇 보안견",
       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBGNjZQNVVoRWM0Y01CUXZEWURIWkluUUhTUWxYOXJrelc1aEc0bmo5OEZwZVZvZnZLRUF3dUE2Zzd1NE1zeVJZV2EwNEhTaXQ1?oc=5",
@@ -64,8 +117,8 @@
         "color": "#8b9dc3"
       },
       "impacts": [
-        "삼성전자",
-        "테슬라"
+        "테슬라",
+        "삼성전자"
       ]
     },
     {
@@ -76,59 +129,6 @@
       "category": {
         "label": "🔴 HIGH IMPACT",
         "color": "#ff4757"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[크립토Now] 스트래티지, 3년만에 비트코인 첫 매도",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1sQ3M2RmFBcXYzbmttaVlHN2RsWDZ6emRGWFZNaS13c3drcmtHc1p6eW01MWJVYzdfNjJZWnl6d3dBU0c4VU9YdlAtRVI4YTRNb3lmQmRScnhnUHhJYUppMQ?oc=5",
-      "pubDate": "Tue, 02 Jun 2026 02:34:05 GMT",
-      "source": "매일경제 마켓",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "PC로 들어온 AI 반도체, 'P의 시대'에서 'Q의 시대'로",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBPTVlNUnp2bThvcktjWjRLQVhRdHNEbWpFanZSUG9iV09SaW1RYktOblVtQzNmNEM0cHlOTVpCZ2hBdjRhMVdyMTRoX1RrbnJLbWQxSmw1SjZDRDVJWXp5VDNwUUFDZU04?oc=5",
-      "pubDate": "Tue, 02 Jun 2026 02:31:20 GMT",
-      "source": "KIPOST",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "ETF發 자금 유출 확대…7주만에 7만1000달러 반납한 비트코인[코인브리핑]",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA4ZjZQM2trU1BRdjdFME40MzZnclhRTGVHbHQ4OERDakFhcDd0cDNna3dLSEZjSWN0QVI4UEZRanJ4U19yM3Z1YjItSU5sMFZMTG5HX05hYkdZUE05OTI1ZG1YZC1JUQ?oc=5",
-      "pubDate": "Tue, 02 Jun 2026 02:28:26 GMT",
-      "source": "뉴스1",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "환율",
-        "BTC"
-      ]
-    },
-    {
-      "title": "젠슨 황, 삼성전자 성과급 논란에 “직원들 최대한 보상해야”",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1Ya0dzbHlCRmkzbUpWQ1NadVozQTlXREpCUFF3VVJCZk95RXYzVGxLNXR3Wk1vUFgwRjIxQ3NVelRDODdZd3NRVXRDbmU5RU0?oc=5",
-      "pubDate": "Tue, 02 Jun 2026 02:22:22 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
       },
       "impacts": [
         "삼성전자"
