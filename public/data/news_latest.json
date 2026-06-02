@@ -1,7 +1,72 @@
 {
-  "timestamp": "2026-06-03T00:30:54.362659",
+  "timestamp": "2026-06-03T02:01:08.733477",
   "count": 10,
   "articles": [
+    {
+      "title": "현대차·기아, 5월 美판매 나란히 증가…하이브리드 '역대 최고'",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1vYU5tYjdDQXREVEJrSlNTMU1vUjYtS3JlQ3E2WUZiUGJXUUgzWUdhc3JZNWNSTVZ3cHpXTU5FcTJDNW0yc0I2YmlrbGg2UXc?oc=5",
+      "pubDate": "Tue, 02 Jun 2026 16:43:58 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "암호화폐 주식 급락, 비트코인 3일 연속 내림세 지속",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5mLUtWQ2I4S0Y4T0V0TG9BWmJKYkk0SGtaR1pLTG9TaFpYWDF6eEdza2ViWEtrcHlmRkNsSVpUZEtnU1hSZXh1cjJCeV9WOV9zb3VURjgtbnlnMnplQ1d1YXlpbi1vT1hqalRfcDZWY0pVaDBuelZB?oc=5",
+      "pubDate": "Tue, 02 Jun 2026 16:30:00 GMT",
+      "source": "Investing.com 한국어",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "비트코인 무기한 선물 거래 승인…CME 등 거래소주 동반 하락",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE12T1dSa2dHYWZfMVJCTXhoU2phMi1ZSU92anY3NFB2eHp5RkxkclQxY0lreUV5bVhFQlZzWURZWWsxenBrY2xvM2l1LUwwR0pNRmZOMXVUUjdDNnBBdWwzNE53b2JJaE1udW5hdy1lblpWMUU?oc=5",
+      "pubDate": "Tue, 02 Jun 2026 16:16:40 GMT",
+      "source": "마켓인",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "삼성전자 시총, 메타 제치고 세계 10위…한국 증시 인도 넘어 세계 6위",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8ySjl4Rm5EY2pXYzZEWXRaakxXYXM1TWNCM2g0WjFIN3djWkRPS19pWE5OSFFMOXhTclZMRkpQejB4d3pqSVczengxWmt6a2RVUjBSanF0N0dPUlB3M3RXeUgxaDFaczA?oc=5",
+      "pubDate": "Tue, 02 Jun 2026 15:57:00 GMT",
+      "source": "한겨레",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "팔콘엑스 \"기관 자금, 비트코인(BTC)·이더리움(ETH)서 하이퍼리퀴드(HYPE)로 이동하는 흐름 관찰\"",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBqY2VXZjVBZW1sMGFWUnJPZmI1RVNMVFY4TjdEVnVORmVJVVpLMHpJZl90a29HSTFMT3NxbzRBSTlWUlVqLUNxSG5fY2NBSVpV?oc=5",
+      "pubDate": "Tue, 02 Jun 2026 15:46:58 GMT",
+      "source": "블루밍비트",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
     {
       "title": "삼성전자(005930)",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNeDJFQ0JodHMxRUdPT0F2bWFpMXN1dXpVQjVZZW1YYUlLX09FZFpWTXU1dDZPZXRaWGZBWXpuTm1hUjR2Ym0xcUZ6a1BGQnBaRGdwSVB3eE94eG5XMU9pMk9aVTFITjZMM1J2aVRWWEo1ZU5fd3dzck1meFJHWm1BMlNYN0ZxTU9OcmI4RVozOVpxX3NDbl9V?oc=5",
@@ -13,33 +78,6 @@
       },
       "impacts": [
         "삼성전자"
-      ]
-    },
-    {
-      "title": "KODEX 미국반도체MV(390390)",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNaFFCWC1sU0pHaU5wRFFGRWQ0YjJVVTJTTGNkUmFEazJxRHJyWmRKV21SSkdpbkNkNXBzZlgyOEhYSVJ2THR3TEZmRWRfMHBzbWY5QlZXWk1oMm5MSkVfZ1pNb1Boa0FfdTNWNWx1QkxCdUxtU2tzdEx2UmVVTVZiRUVOVm5ZQ2xQby1UUGxWdG1Td2tldElR?oc=5",
-      "pubDate": "Tue, 02 Jun 2026 15:06:11 GMT",
-      "source": "매일경제 마켓",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[시황] 비트코인 1억원 반납…6만8000달러 일시 반납",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5sZ2I2MVVjMFpiQ2pwYmJwZGMxMnNDeVJJQkw4bGNYaW1GTEswZjFaMWpXMjlpUGdGVjBDVDFvMXNTeExiM1lDbXh1WWs4bENK?oc=5",
-      "pubDate": "Tue, 02 Jun 2026 14:27:39 GMT",
-      "source": "블루밍비트",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "환율",
-        "BTC"
       ]
     },
     {
@@ -84,48 +122,9 @@
     },
     {
       "title": "인텔 \"CPU·GPU·파운드리·맞춤형 반도체 중심 전략 재정비\"",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1LQm5fM29sR0JtU0VnMy1RSFZxbGZ5Uk5YNWlyZ3ZqZHRWZXQtYjBMZ0wwdnVDSHdod0NqRzZHRnp2dXFVcVNBdU1LdldRMW8?oc=5",
-      "pubDate": "Tue, 02 Jun 2026 13:47:53 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자 시총, 메타 제치고 세계 10위…한국 증시 인도 넘어 세계 6위",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8ySjl4Rm5EY2pXYzZEWXRaakxXYXM1TWNCM2g0WjFIN3djWkRPS19pWE5OSFFMOXhTclZMRkpQejB4d3pqSVczengxWmt6a2RVUjBSanF0N0dPUlB3M3RXeUgxaDFaczA?oc=5",
-      "pubDate": "Tue, 02 Jun 2026 13:15:00 GMT",
-      "source": "한겨레",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "HBM5 꺼낸 삼성전자, 시장 우위 강조한 SK하이닉스… 컴퓨텍스 2026서 HBM 주도권 경쟁 - 조선비즈",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNd0pTME40YURudGhfd1FYdVlNQVFmQ05hZWlCUnd1bG1KcUY5cHJ5ckY5UW9TNkVMUUNKMzh4RWpuODlaRkdsbWZOS3MzVjZocWhQZW8ybGtrLWppbl8yalppR2FKTzc3ZFdpdVFmbFViYmdzREx6amsySG1hc3NqOS1B0gGWAUFVX3lxTE1aMWZ5eHRUTDI0MjlVbFQtUHpWQndoVzZ6VktVa29ySkJlODAzd3A1UnY2YnZ6dm03MzhXMFYtMkRmQjRNeW5iYkNvUDhtTENrRWlIa0VubjBCeDZ5eS1TazM1bkhhVUNfcmRVR3FIQmQxNFRoUFhMMV9UYzF1NlJPYkphOVhWLWF5QXgwYjN3WkVZTEhGdw?oc=5",
-      "pubDate": "Tue, 02 Jun 2026 12:48:00 GMT",
-      "source": "Chosunbiz",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "젠슨 황 “한국 로보틱스 투자 검토”…삼성전자 성과급도 언급",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBaSnA5UzFRMlZpN1JQYllXUFFOcWxQM2pZMERPUTJObmdVRWRsNGV4ZkltbnNDU2ZaWjJkN1NnRTd0elFHSEdXTWZILWhqejVlcHh3T1BnYm5sYTMxVjRESjVReW9pcXFkSTZYSTBtUTZydw?oc=5",
-      "pubDate": "Tue, 02 Jun 2026 12:19:00 GMT",
-      "source": "한겨레",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9IdnNSNGVCSlRiWTgzUDNZVFNoUjEzazBrZWs2b05pci12b1dzaVNISXBVQk1tcmJpQUtZLWFnYXhxcXk2SmctTjAwRWIxdVhiYy15QU9B?oc=5",
+      "pubDate": "Tue, 02 Jun 2026 13:46:03 GMT",
+      "source": "지디넷코리아",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
