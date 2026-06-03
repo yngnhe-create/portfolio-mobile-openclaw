@@ -1,115 +1,11 @@
 {
-  "timestamp": "2026-06-03T16:17:04.950368",
+  "timestamp": "2026-06-03T18:12:55.602258",
   "count": 10,
   "articles": [
     {
-      "title": "‘K-반도체’에 놀란 OECD, 한국 경제성장률 2.6%로 크게 높여···G20 중 상향폭 최고",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBxWFBKS3Nnb1Y0VzlDaE9HUTV0MnVCcjllQWowOVJlZ19YTTRocElELWY3aXktMFU2NDF3Q0VZTmFLcWJ6T3c5Q0dlZzE3cUFlUkljSDBTbWU5d9IBX0FVX3lxTE9LV09xNTNjbGwxZDNVX1B3MUVhREpTZFVDZXpxV2R1R1ZLdTQtb1V1NUFPVWVCb1JDVWpjYm5mNWEtaWFuU1BBOW9EQm4tc1ZhOGp2dkoyODdnQlYzR2Fn?oc=5",
-      "pubDate": "Wed, 03 Jun 2026 07:11:00 GMT",
-      "source": "경향신문",
-      "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "OECD \"韓성장률 2.6%로 상향…반도체 수요에 더 오를 수\"",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9xcFJZWG1MMThMcEdtWHJFQXRHajJxZFZUTUw4ZjZLb1N3NkgxeU1TVldlVXlZODFwOWNoRjNRbW9TSVRkUjhrc29Ja1JqOGR6RTdXSzViTzROWFVpQnVhZQ?oc=5",
-      "pubDate": "Wed, 03 Jun 2026 07:10:12 GMT",
-      "source": "아시아경제",
-      "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "\"문화예술로 고객소통 강화\" 현대차그룹, 韓·佛 수교 140주년 축제 후원나서",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE02R09hNlVIblMyUS1GSllSODdSWTlLckctV1lzQURsRGNOZ09uYzd0aHk3LVNaWFpkT1VzTTlvSnRiMF84Z0pWTzVKS1Ezc2UtUmN2ZnJiZ00tZHJOMEVfVNIBeEFVX3lxTE5OU0EtXzdBUE4zc0haaDZRamxLaXVHWHBSLUx5ZS13Q2M3SUhybnR1T3F2YllHQlZtOU1wN0k2U0xoVEtEUDFqQl95VFJUeWFsMzI3dEZ4NWpCYk9kTVphYmtQZEgtRDE1QkVlMHp3bE9Lc3VZRWlsbg?oc=5",
-      "pubDate": "Wed, 03 Jun 2026 07:08:50 GMT",
-      "source": "뉴시스",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "OECD \"올해 韓 2.6% 경제 성장\"...반도체 수출 증대·소비 점진 회복 영향",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNLTdVZEFoT1M5MTdPSjNIbXVxNTJMcTQ0SkZsdmtKRGlBNzlvb183OVNnRmhxbzNKZ3dueTREdDM4Uzk0SHNrUjZYTC1qaWhyc2pDUG5EVUxJZDVxbFFZOWFCR2VCckNrVmFKUm54SGJJTEdCZDU0RjlVakNYdjEyenRpeTl3VmJzRFpQR3Rn?oc=5",
-      "pubDate": "Wed, 03 Jun 2026 07:05:38 GMT",
-      "source": "조선일보",
-      "category": {
-        "label": "🟢 POSITIVE",
-        "color": "#4ecdc4"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "OECD, 한국 성장률 전망치 0.9%p 높여…“반도체 수출 확대”",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBMbzNxeUVsX0FPallRaTU1Y2JEXzlYQTdUd1lBN29aTzN5TWlhRDh2cE1UNzZOSE1IcHZyNFJSOHpnQkExS2NRNFFIelNSb1piNzNsYUFEcGhkdWM?oc=5",
-      "pubDate": "Wed, 03 Jun 2026 07:01:00 GMT",
-      "source": "KBS 뉴스",
-      "category": {
-        "label": "🟢 POSITIVE",
-        "color": "#4ecdc4"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "반도체 가격 상승에 원가 급증한 어플라이언스…공공 조달 가격 조정 해준다",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5IdHBod0R1OTd2ejRnTmFrUnNibzBwMWowbkhPcFlvblBzbmhQeG5PbnlIRVgyeGtLUjRKMzlORVVTZ2l5czBpN2EzMXd0QQ?oc=5",
-      "pubDate": "Wed, 03 Jun 2026 07:00:00 GMT",
-      "source": "전자신문",
-      "category": {
-        "label": "🟢 POSITIVE",
-        "color": "#4ecdc4"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "OECD, 올해 韓 성장률 1.7%→2.6% 상향…\"반도체 호황에 소비도 회복세\"",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE8ySF9VSnBHc2c5ZUhtUkRNLTlRUkJQOERYcmp3YloyRmVJOTdyVWlCU1NZNk1weEJxMVpvMmg2eXNOeUg5SHM3cjFpaHdtMTNFSGx2Xw?oc=5",
-      "pubDate": "Wed, 03 Jun 2026 07:00:00 GMT",
-      "source": "뉴스1",
-      "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "비트코인 급락 속 위험자산 변동성 확대 가능···피터 쉬프 \"안전자산으로의 촉매제 될 수도\"",
-      "link": "https://news.google.com/rss/articles/CBMivgJBVV95cUxQMS1ZUFQzREVfWW9kMlhTN3JjWkdwWHpqTXdKVVpvYldNYzhMM2ZLUGltaHN6eUg5MUFvQjRjREI2UVZsM1ItWHRNV0Y1ZTNQaEFYUWFKMFFOaUwzMW9yNjVRRnVDak5YbUx5WG5tYW9PMkQwTzFrMTFUUmtFV1BmQWpVQ0kwbWxweWpMalI2M3Y1bTNzb2ptQmJkc3pXaDBJMjJlaEtvOGJ5M2U2dlNjNVY5V3hyX1ctUy1jUkROb0ZFdFZfTlhrWWt4MEhLcVBQeU1TOUZueFUweE1sSDVKYW4wZmZtMVZvamU3MWdudnJTRVpTOXEwQ2RqR3k4cGU3ekRZMDNvUTROSUZyMUlMSzhINHhlZzdwbVdGY0ZCUmFqWDBTYXFjZk1nRE5JVzhaS29tVzl5OG15NkttSUE?oc=5",
-      "pubDate": "Wed, 03 Jun 2026 06:45:00 GMT",
-      "source": "Benzinga",
-      "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "‘절대 강자’ 도요타, 한때 3위…일본 주식시장도 반도체 열풍",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNU0VobFVqNm9BeTZEMGhwa2loV0FyS1Fob0djTi1naDZiVm1GWGliTG9fcG15MFRXRmVBd24tZUNPLXpRaVc0VlJWSFBzRUZUcWpiUVB3MnNKa3RWc1NlSGNiUi1qX3ktZ0NRcmF3T3pEYlBEU2RWaHNLdGtiaW9yT1h3?oc=5",
-      "pubDate": "Wed, 03 Jun 2026 06:44:00 GMT",
+      "title": "용인 반도체산단에선 RE100 이행 어렵다 [왜냐면]",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9zTW1zYjdDMUhSUi1YU3A2T0xtZGNFZ3ZnYUh4YlkyTGhBWXZPUDNvRWJIVmNhdmZiMEZBOEk5ZnB6TmU1Ti1nMU5lYlRoQ2ZLOU5kRkt4TFRnblJtVENDdmxDMkg2T2c?oc=5",
+      "pubDate": "Wed, 03 Jun 2026 09:08:00 GMT",
       "source": "한겨레",
       "category": {
         "label": "📋 GENERAL",
@@ -120,16 +16,120 @@
       ]
     },
     {
-      "title": "비트코인, 글로벌 자산순위 14위로 밀려",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9lMWFSWGV6V2dHTkZBSEI5WjBYdGtRZEpoVmFvM1dpVzhkOGR4ZDMwR1lOMmNjbWozYUxzbmJqMVJlNXVQX1JpaExKOWFjZ1NjTjhrSkRYb1lSc1JaalU3SDRwZnRlcFpTUGc?oc=5",
-      "pubDate": "Wed, 03 Jun 2026 06:43:21 GMT",
-      "source": "천지일보",
+      "title": "“반도체 수요에 더 오를 수” OECD, 韓성장률 전망치 확 높였다 [지금뉴스]",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5BeVNUNE9FM1U1M04wSDZTekt5SnAwcEJJQUdDLUJ0bk5pNm1PYXdQT0pVbVNmYmZlNE03OHFXREFtWEhBcFpMeHJXZDcyWWM?oc=5",
+      "pubDate": "Wed, 03 Jun 2026 08:55:55 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "현대차·기아, 美 하이브리드 질주… 조지아 생산기지 풀가동",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5yeTdmNXhFS054aWxxcnVTMFFTTEdVT1A3ZWl5RzFlQVA2ZGRSck9RUjlDbGhLRl9jNTNCUHRSZk8tTUpucE94TGJVcjIwbUxYcVpGYjM2bkhzZFFTVzJJQXQ1T2NhQmVVdjRtOTZR?oc=5",
+      "pubDate": "Wed, 03 Jun 2026 08:51:54 GMT",
+      "source": "아시아투데이",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "기아, 미국 현대차그룹 공장서 ‘스포티지 하브’ 생산 시작",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5ONk5BVUxPX2FIdDBzaDBzT0ZVdktlWFpOS3diWHFpQlBiNktQNFo2WG5IcU1uWkFOREliR2xzMDdkQ0xnNUkzcG1XYTFlUFBDQjFseE5nbWZsRjdqSlVZaGxqVlNDMVpZSFBMSUxvY3NwTTYx?oc=5",
+      "pubDate": "Wed, 03 Jun 2026 08:34:17 GMT",
+      "source": "부산일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "비트코인, 1억선 내줘…알트코인도 동반 하락",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5GNGEwa2dwTDJGVEZQbzZxVElpTV80OGVPYkk3SnItSXRpLTF3RGgzWW5Pb1FjNUVGMmVNR0lVejZlcGxpcl80UTZNMjNzd0o1R3RaeFAyaFQ4UXdjcFJtdExxY2Y1cEpYN0E?oc=5",
+      "pubDate": "Wed, 03 Jun 2026 08:30:49 GMT",
+      "source": "광주타임즈",
       "category": {
         "label": "🟣 CRYPTO",
         "color": "#a55eea"
       },
       "impacts": [
         "BTC"
+      ]
+    },
+    {
+      "title": "[제언] “반도체는 수도권에서 키우고, 지방은 미래산업으로 승부하자”…",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9RaGktZmMwWHdhWmFHcUJLYXVLTnF5bnZwUGRIX1RRNEpRcloyeEVCV1NTcVdkcUVKZE9qd2VUTDFGRmUyQXE5a3B5T0IwN0xPdWtLZnFDLU90WEZ1NTFsR3g5LTVGeVk?oc=5",
+      "pubDate": "Wed, 03 Jun 2026 08:27:28 GMT",
+      "source": "국토교통신문",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "반도체 호황의 그늘…자영업자 빛 ‘연 소득 3배’ 넘어",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE14aFpGaVQ5bDA3SXNSenZRVjBDVXUtRVFrc1M3LXRReUQ3blFrM2xpTGVveXo5X0l1azVIZ3ZOQ3pDYjJPbkNNTS1xOTQwWndGejNWYjFrU0V3elBoRVZFSFFnaG1uTFc4RlVrUi1HY3E4M3FuVXNKMGt3?oc=5",
+      "pubDate": "Wed, 03 Jun 2026 08:17:11 GMT",
+      "source": "서울신문",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "반도체가 끌어올린 성장률…OECD, 韓 1.7→2.6% 전망",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBtbHZGNzRETzdmTm5fa3M1VVVwRndaNFVuRG91UDhuVzNNOHlpNlNONkJSaTFZcWhBRC1fb3FONVpTWkZDUTZyTFNvaVJIeTA?oc=5",
+      "pubDate": "Wed, 03 Jun 2026 08:05:39 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "반도체 레이저 어닐링 공정 저변 확대…SiC·400단 낸드 적용 추진",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1WUXhqOTl5anZjVWdfeFBkdnowSnQwaHhZMTNiUDk4dkZVS3pYNXlJa0NKNk9VOE5aVzd4NTJlUHlNMG85Nkx6TG1NSi1EQQ?oc=5",
+      "pubDate": "Wed, 03 Jun 2026 08:00:00 GMT",
+      "source": "전자신문",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "OECD, 올해 한국 성장률 1.7%→2.6%로 대폭 상향‥\"반도체 호황에 소비도 회복\"",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1tREJ4V2lZbVBxakdHWHpVZFI0Z3lTNzJWMGlnVVZGU21reDBaWjZhNVFCMXNVOC13SDMzOFJ2bWxTSVFMM2xUNTRMSkxSekE?oc=5",
+      "pubDate": "Wed, 03 Jun 2026 07:52:09 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
+      },
+      "impacts": [
+        "삼성전자"
       ]
     }
   ]
