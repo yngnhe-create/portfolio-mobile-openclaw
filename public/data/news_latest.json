@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-06-03T14:17:04.430293",
+  "timestamp": "2026-06-03T14:36:55.592812",
   "count": 10,
   "articles": [
     {
       "title": "비트코인, 일주일 새 12% 급락···피터 쉬프 \"코인에 한눈팔다 주식 놓쳤다\"",
       "link": "https://news.google.com/rss/articles/CBMitgJBVV95cUxOVGFmRjdzOWxXTXdKbzd6MERSdVJXcGxwYnJpNEtYbktHVDYzb3AtSDBDMzVnb2hRS1NpNEdoUjdlWm05ZDFnR2duZG16b1oydGFrX3ZCMk1CZk5WS3J1Y0FrTy1lYTNXM2t1Y1dQYVJOazV2bDJCN0E5LVBhai1FTTNwZ2JiU0s5RW16bllaRlhNd19zTGE4akkwOVJKSzU2NmVkNDl5YjNmckxseU85Z0RHeWVCVTZ5NmZvSzlfY1lnY24tYnhhVmVFWmNocTEwR0VFdkpod1hLRmIzdEtGYnBOdTA4ZVhsNEVlc2Q5dHBTUkJvZFBVd0NKQTFqb2ViVmNIWkRwYTVzaDN0NThNY0ZpUTh3ek0zcXprT2dhZzZuOHcwRFdhZnZrdXBTenZTanQwVm9B?oc=5",
-      "pubDate": "Wed, 03 Jun 2026 05:16:27 GMT",
+      "pubDate": "Wed, 03 Jun 2026 05:15:59 GMT",
       "source": "Benzinga",
       "category": {
         "label": "🔴 HIGH IMPACT",
@@ -20,6 +20,19 @@
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPVDZoZEtCQ1hWeXRRekcxWC1OQ25tSE11OTRxZFI2Z1NQTDNscXZvUDJqRnZkMzJYSFhRaUhXeHduTEJLQnJmaVV6X3piX0ljRW1JVDc3anFvWHFXNEp0Q3dXZUpyZ0lEamFBUWRZTk5WcFhTTXdSb3dnV3cwTzdmTndjMDRzMXZi0gGcAUFVX3lxTE5iNHViLThfZFdTZms3YlZURXFOYkJVdUd2SU1hZVJ5SzgtcDNPSGtlWk4zMHRZYUFCQm1ZUzhQeGVtRGc0cEZBbGRNa2RLQ2VhOHFTWG9vallMOUZvREVVRkQtVjRjb3BVVUY2RkFoQnk1TEpUVFU1WlZsSnFiRzJ4TzI4WGlxSWZPNGpManhoMkJtRFhBU0xHNThFLQ?oc=5",
       "pubDate": "Wed, 03 Jun 2026 05:07:00 GMT",
       "source": "Chosunbiz",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전자, 폐스티로폼 재활용 소재 가전에 적용",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBVdEJBOG5NcW9Hd0tNNnFIYTdlUUw2M1Ywdk01OE9aS0VNMzRNc2ItR2dIN1B0WWYzaFdBclR3T1R3V0Uxc1VQNjRBc3hGR1RXUkdzaDlIWC04YkxhS1F0LTNyX2dJMDh4?oc=5",
+      "pubDate": "Wed, 03 Jun 2026 05:02:28 GMT",
+      "source": "뉴스포스트",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -68,6 +81,19 @@
       ]
     },
     {
+      "title": "[코인시황] 비트코인 1억 붕괴, 자금 대이탈",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1ucDR4WXhjTjlIMzY4dV9MbWMzNVZNdU5kT08wNFpXelJCZkdDQjJGOTEwbjJnVUx1UXgtNWNXSEszWGU5LW12cHU3WmNtcGl2Zy1SZTRwN1FGZG8zb2h6cFhqa3pkeWZvVl840gFvQVVfeXFMT25ZSkNVSGF4dU9fSmNLUXlQSV85d3RQR2N6YnI3dVNwSnBaaUk1OEZJTDRpMVFtYTk2cXFrOWYwbl9Hd0ZyRFFXS3ViU21OWTRlS0xQT3FXQll6THY5Q2RRWU9aUGZfWEM0VElrMlYw?oc=5",
+      "pubDate": "Wed, 03 Jun 2026 04:28:08 GMT",
+      "source": "한스경제",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
       "title": "삼성전자, 가전 포장재 재활용 신소재 에어컨·공기청정기에 적용",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE45VC1OVmx6V3hmX0FDVS0tR1lxZXRxWV9lUERWbmFUUEVjVUhXd1RvUF8tVThsb3BNMDU2YjdRU2dDOVdBNjg4VF9BaHhJTnV5d2pTcklVQUwxNmM?oc=5",
       "pubDate": "Wed, 03 Jun 2026 04:09:00 GMT",
@@ -103,34 +129,8 @@
         "color": "#a55eea"
       },
       "impacts": [
-        "BTC",
-        "환율"
-      ]
-    },
-    {
-      "title": "'유증 추진' LB세미콘, \"내년까지 R&D 인력 2배로...반도체 후공정 확대\"",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1aS2EzNlVJdlJtN3ZaenNyeWVaZnRIV3dua2RMUjVDQUd3OFJJMm96Ym1wNWZxS2g1dFFheGtlX25RMGw2SVhDaGpLcnRzTGc?oc=5",
-      "pubDate": "Wed, 03 Jun 2026 03:40:03 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "수출입은행, 삼성전자 협력사에 재생에너지 전환 지원",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE14X1FrWEVGc0Z3UHdOc1lyOTY0RWRRWFRqcFBUTHF0UFdPS3RQcmNLV2IwWVQ1OFhiSVZJREFROU9wd3JLNGQ3NnlvaTlucjVBTnlUUWhnd2V5NGZJdzFIamJXLTk?oc=5",
-      "pubDate": "Wed, 03 Jun 2026 03:26:45 GMT",
-      "source": "디지털데일리",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
+        "환율",
+        "BTC"
       ]
     }
   ]
