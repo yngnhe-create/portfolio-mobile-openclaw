@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-03T10:04:33.954544",
+  "timestamp": "2026-06-03T10:34:49.186092",
   "count": 41,
   "stocks": {
     "삼성전자": {
@@ -256,37 +256,37 @@
     },
     "BTC/KRW": {
       "name": "BTC/KRW",
-      "price": 101293289,
-      "pct": -5.78,
+      "price": 101425896,
+      "pct": -5.62,
       "chg": 0,
       "src": "coingecko"
     },
     "ETH/KRW": {
       "name": "ETH/KRW",
-      "price": 2825385,
-      "pct": -6.11,
+      "price": 2826438,
+      "pct": -6.06,
       "chg": 0,
       "src": "coingecko"
     },
     "SOL/KRW": {
       "name": "SOL/KRW",
-      "price": 113432,
-      "pct": -7.15,
+      "price": 113512,
+      "pct": -7.12,
       "chg": 0,
       "src": "coingecko"
     },
     "LINK/USD": {
       "name": "LINK/USD",
-      "price": 12719.89,
-      "pct": -6.27,
+      "price": 12739.54,
+      "pct": -6.36,
       "chg": 0,
       "src": "coingecko"
     },
     "샤오미": {
       "name": "샤오미",
-      "price": 29.62,
-      "pct": 3.13,
-      "chg": 0.9,
+      "price": 29.8,
+      "pct": 0.61,
+      "chg": 0.18,
       "src": "yahoo"
     }
   }
