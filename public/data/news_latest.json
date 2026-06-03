@@ -1,7 +1,35 @@
 {
-  "timestamp": "2026-06-04T00:13:36.941786",
+  "timestamp": "2026-06-04T00:43:50.829614",
   "count": 10,
   "articles": [
+    {
+      "title": "KODEX 미국반도체MV(390390)",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPSlNvaDlRekMzMlF0NmtFMmZUM3QxM0JYV2VZcGhtbzlMSHBsd29oaHZMVzdwNlNucVBTWWozSm53cGl3c0lhR09uRGJjT0RTR24wenVCVDFUdEROQllQaU9mbkR4TEFxblA4TGpCNFdORjhwMUNCZE1aVFctLWExYVlKUDhUdzMxZDR1eTVDSXhXb1pYaUl3?oc=5",
+      "pubDate": "Wed, 03 Jun 2026 15:39:59 GMT",
+      "source": "매일경제 마켓",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "비트와이즈 \"비트코인(BTC), 국채 디폴트 헤지 수단 채택 시 적정가 22만4000달러\"",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5lRTRHVDhkSFZDc1hhUkc4NGJSblF2OUthdW5RRzRibHdfbTM0M2Y1YmpNcUFHRHd6aWM1bmhTT0ZDaTZuRW9kM0FSRHp2anRi?oc=5",
+      "pubDate": "Wed, 03 Jun 2026 15:38:31 GMT",
+      "source": "블루밍비트",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC",
+        "환율",
+        "채권"
+      ]
+    },
     {
       "title": "전기차·우주 이어… 머스크 ‘AI 반도체 생산’ 테라팹 구상 본격화",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1vdm03SlR5WG1yc1JfRkRKV3FnWFJWR2JDWVpwMlo1UWdnYUxYUmptT3VkWkxUd3V2MHU3RXBiMnk5dlppWFFPSHUtSE1WdWc?oc=5",
@@ -12,8 +40,8 @@
         "color": "#8b9dc3"
       },
       "impacts": [
-        "테슬라",
-        "삼성전자"
+        "삼성전자",
+        "테슬라"
       ]
     },
     {
@@ -56,6 +84,19 @@
       ]
     },
     {
+      "title": "현대차, 유연생산체제 추진…올해 20개 신차 프로젝트 띄운다",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE83QlRESTFtYU5vUkdIRUM0NFZZTzBobkJtX283d1dnV0doaW5FNk1ZdGE1d2NVd3V6T2hLdkJWek56bkctUDhEcUs1NUdLNVNWdlHSAVNBVV95cUxQNlVVWFRuQU9HbHhLYU90bWdSdkFORmRnWlVySzlGX1hROWJQakZuNkRYa2Iza1RrN1BUOGxpR05SekZNTllmOVJITXpGdGJQbUpqaw?oc=5",
+      "pubDate": "Wed, 03 Jun 2026 14:39:43 GMT",
+      "source": "서울경제",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
       "title": "OECD, 올 한국 성장률 2.6%로 높여…‘반도체 활황’에 G20 중 상향폭 최고",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1ocDZneVdKeTRKdkJGdUlPOE9jd3ZlbmtKQTYzMW1JM2xoUHJiZ0tCRUdaWTI3bkU0eFdQRW9YdHdzbjFNdmhTRktORDhvNkpYQlczNTl3OC1Zd9IBX0FVX3lxTFBYTjgwdlV6UWxhblRRVl85eW56ZVA1emVDZVBZNWVLYTdSUGxua25EV0JnWEJLdWI2S2U1TnBVS0FoM3Z0VHRENnhPamdPUGx0Yld5WEhXRlVXZ0NvbHlB?oc=5",
       "pubDate": "Wed, 03 Jun 2026 14:17:00 GMT",
@@ -78,8 +119,8 @@
         "color": "#4ecdc4"
       },
       "impacts": [
-        "NVIDIA",
-        "삼성전자"
+        "삼성전자",
+        "NVIDIA"
       ]
     },
     {
@@ -90,45 +131,6 @@
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "수출입은행, 삼성전자 협력사 재생에너지 전환 지원…공급망 ESG 대응 강화",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8yem1jN01lc19rRDIzTkxqUU5ZWGVwTzBrckxLSy1odE9DQWtxbThWX2ZpcHdpLWFOZXR5cGxMS01ITEFkZmEtWG1fLTY3QjJOclVIV1hqZEdGaWpDS0hUT2NPclJJTlk?oc=5",
-      "pubDate": "Wed, 03 Jun 2026 13:59:40 GMT",
-      "source": "팍스경제TV",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "EU ‘기술 주권’ 강화 시동…반도체·AI·클라우드 자립 추진",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5mZFhqUURUQUpIRHNIYUhpQlhJOVoxV3M1ajhmVWpDcFpIRWR1aXhQZ0RjaHNFOTA4Q3RwV1dKVldkblJjNFRGYnRQUTNHU00?oc=5",
-      "pubDate": "Wed, 03 Jun 2026 13:55:25 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "OECD, 올 韓성장률 1.7→2.6%↑… “반도체 호황에 더 오를 수도”",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9KZWxWQ1J5UTc2THZWTGRGRVY4cTczSDA2OVAzMHN1ZkdodHA4Nm5pTUtOUXNzaE1FOWtKd2dTS0c2XzhFYUpzbDI0N3FNX3c?oc=5",
-      "pubDate": "Wed, 03 Jun 2026 13:37:05 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "🟢 POSITIVE",
-        "color": "#4ecdc4"
       },
       "impacts": [
         "삼성전자"
