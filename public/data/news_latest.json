@@ -1,39 +1,89 @@
 {
-  "timestamp": "2026-06-04T10:17:03.456202",
+  "timestamp": "2026-06-04T10:45:52.190868",
   "count": 10,
   "articles": [
     {
-      "title": "비트코인 ‘대청산 모드’···블룸버그 애널리스트 “다음 지지선 5만 달러”",
-      "link": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxOX3RXTHZDYXVvc0tBUGxndEx3WlQ5RXZ6bVROeG1ZeEhsVEgtNFhMUmEwWXBtMERIejJnNTdrZncxa1U1a3VnWHV2V3JYcE1kdjByTkVuSVVKbk95ODFCeW5ScGhzU2dsTGh2SVIzTm9YWS11bElrOUlCQXR4UUhJM0RLaDFralJYWGRrOXRkZUNNa29FMTYyMEJrWTFjZjRibDdZUWRPNEhNQTQ1VlpMRHUzcGZSeFVxZk5vSUdnb1lfMGhtd1RDVFpCOEVDcHRobHZ3anJyWm00TFNGRnJLZ2NpWnV6NXZvVGtWNHdpLTJ6SS1oY251WVpOSjVVZUZOUEQ5T0V5NzJvZXZLZGxZOTFyOVVSaENWWWhVWWlBek4yRDV5MTBrZFliTlBkT3lsVEVaVUs2UFExaHc?oc=5",
-      "pubDate": "Thu, 04 Jun 2026 01:15:02 GMT",
-      "source": "Benzinga",
+      "title": "갤럭시 워치로 심장·청력도 관리…삼성전자, 헬스 앱 개편",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE82UTAzbmYzY1RkbFFJN3VldE1mMUstUGUyOWUtQi1aZy13QWc2dTZOaXZvaTFWVGV5VExQR3hvUzdibUJWMXdzUjFhU2VmdVNTb0FSZUJBRHF3R0pXWS1JWg?oc=5",
+      "pubDate": "Thu, 04 Jun 2026 01:37:27 GMT",
+      "source": "아시아경제",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전자, 1분기 글로벌 TV 점유율 31.3%…21년 연속 1위",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE44NGUyYXg4QXZiMGgxRU9jS3dGSmd1QV90T1h2a3VhOUpGYW80aFJDcXRjdDRuRXV2cjU5cHBDcEpNdTR4SnJJcWpNZmpQc28?oc=5",
+      "pubDate": "Thu, 04 Jun 2026 01:35:02 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전자, 포장 스티로폼 에어컨·공기청정기 내장재로 재활용",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9sZG9TYk9KeXpPaTNQUGlJVE5MWl8wTDFiMmlMakd1TW9SQW0wMmJLTmF0RmQ3a2EzZVRyOUhaaTR1amNIWklDcUxQUU5oVTdaS2FCWE1WM0g2YVVy?oc=5",
+      "pubDate": "Thu, 04 Jun 2026 01:33:28 GMT",
+      "source": "뉴스;트리",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "한양대서 만나는 글로벌 반도체 장비 기업… Tokyo Electron TEL DAY 개최",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1xREt4TjZfNG9kUzVoSWdVQXgya1lPTGw5UXk4dm45eWdJRG5LY0dpYTVEZHpoVXdWNW00aFFIN2JWYncwN2VyN1FDQVphLWhldGhpbzNodUl3Qy1OQ2hWMndFX3NrWG41Vms0?oc=5",
+      "pubDate": "Thu, 04 Jun 2026 01:32:42 GMT",
+      "source": "뉴스H",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "'스트래티지의 변심' 후폭풍…비트코인, 9400만원까지 '뚝'[코인브리핑]",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBZR0lVN0l4bjYzNXVIT1QtVmZuZzlfdFlEQmYwaW9rdnlKek5hVFJtaVFhX3BrWEk5aWZnRy1mUTVTZVdSYkloVS15b0RuYWRSU1RPb0ZLbzR1XzRHMENWQ2tWc0tzZw?oc=5",
+      "pubDate": "Thu, 04 Jun 2026 01:31:52 GMT",
+      "source": "뉴스1",
       "category": {
         "label": "🟣 CRYPTO",
         "color": "#a55eea"
       },
       "impacts": [
-        "BTC",
-        "환율"
+        "BTC"
       ]
     },
     {
-      "title": "비트코인, 낙폭 확대에…24시간 동안 레버리지 청산 11억달러 발생",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBSelpJWTZ0cVV5UTY1Q1V4dVgwbWRET21UeXRNY1hyMW4wbjNmN2NidWduXzQ0am1zVUFHWGJWdGtQT0h5UDFhMVNvYnVUUmph?oc=5",
-      "pubDate": "Thu, 04 Jun 2026 01:10:24 GMT",
-      "source": "블루밍비트",
+      "title": "현대차그룹, 美 ‘오토테크 어워드 2026’서 ‘올해의 자동차 회사’ 선정",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1iZnBONnVOWmRfeXhsVlZRUFhyRF9IRjZTS1J2Sy01bk5TMjczYXkwYXZ6ZGN4NDIwZDRLSldSb3YtQUZFX0hVVW5jeDBoNmN2S2V5a1BXbDJFQnZhLUJsM2JTVUxZeUJVWG9lZ3VONjhGUWxk?oc=5",
+      "pubDate": "Thu, 04 Jun 2026 01:26:38 GMT",
+      "source": "부산일보",
       "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
       },
       "impacts": [
-        "BTC",
-        "환율"
+        "현대차"
       ]
     },
     {
-      "title": "최태원 회장, TSMC 회장과 대만서 회동…\"반도체 협력 강화하기로\"",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBjSlZfTVVHLUpGM2JMOXlQR3pmSEY0RXl1akxxOC1ONEVjZ25nWkc5R1pfbjVOd2NQRGdCQWpzRDFtUEw3SmFNSmVKWGxpTzQ?oc=5",
-      "pubDate": "Thu, 04 Jun 2026 01:09:09 GMT",
+      "title": "국산 AI반도체, 실증 넘어 상용화…'K-AI 풀스택' 키운다",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBYc2hsaEd3cjlfWW5VbGs5SDhDOFdWT2N5VXJ2dmE2WmczT1BFWmZNTmZpT1dWR1liWVc1ZGZNS2pBWU5OYkM4aE0wUS14Unc?oc=5",
+      "pubDate": "Thu, 04 Jun 2026 01:22:56 GMT",
       "source": "v.daum.net",
       "category": {
         "label": "📋 GENERAL",
@@ -44,10 +94,24 @@
       ]
     },
     {
-      "title": "[특징주] 반도체 대형株 숨고르기 속 소부장 '질주'…'유진테크·원익IPS' 30%↑",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9vampEZGlJZTVKSWFFc0syR3YzWTFwd0drd3NyZlJpUmRvWjg2MjhoM3RBRVgtOVBQc081YmN2S2cxM19ReFhUWGNoTWhjc25ENzBRWkFVbXZWQkE4?oc=5",
-      "pubDate": "Thu, 04 Jun 2026 01:08:00 GMT",
-      "source": "뉴스핌",
+      "title": "비트코인, 6만2천달러선까지 추락…전방위 하방압력↑",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBmUF9BblcwSm1BY3ZQQzZpM3FNdWlualNVV05Ea3ZJMGdMVkx6NWlGa3FPU1B0LXFnRHFUTU83OURsLXU5dFRtVnpiYnVoWFE?oc=5",
+      "pubDate": "Thu, 04 Jun 2026 01:22:52 GMT",
+      "source": "딜사이트",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC",
+        "환율"
+      ]
+    },
+    {
+      "title": "[KBS] 박상희 교수, 삼성전자 자사주 성과급 관련 코멘트",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBCZl9hNmsxMmhycGpQdTAyeHBUNjM0M3pTeXFucS1JWE82X09OZmFhQUpkTXhxbWFlUnZhZUFrUDZzRWpKSEc0WEhnTHpINC1LdnZWQWxLUUpRWVhOVTU3dHJ6M204ckJYRmE0?oc=5",
+      "pubDate": "Thu, 04 Jun 2026 01:20:23 GMT",
+      "source": "뉴스H",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -57,78 +121,13 @@
       ]
     },
     {
-      "title": "현대차 슬로바키아 공장 '밑그림' 완성…130만 케파·410개 일자리 창출",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1yeTJYdGhPVDNTellTRHRwNlFaTmIxQS1qeVB4ZVE3U2dYVENvSWd4NnRSQ01OUU5CXy1HdS13dk9mdWdYVlNDTHhxZTFEQ2dzUWpyYnRtX3YxaWxiLVZjYg?oc=5",
-      "pubDate": "Thu, 04 Jun 2026 01:06:45 GMT",
-      "source": "더구루",
+      "title": "삼성전자, 1분기 세계 TV 시장 점유율 31.3%로 1위",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5XRHI5Y1drQUI4eFpOeEhlZE44YjY4R2tvdzhXQnd5aFVFdW1zVm1ZMEFFLS1QLVBiX1VsTmhSTC1zS2FaOVMzWGFMUmREWWc?oc=5",
+      "pubDate": "Thu, 04 Jun 2026 01:17:38 GMT",
+      "source": "v.daum.net",
       "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "\"국산 AI 반도체 도약\"…과기부, K-AI 반도체 성장 논의",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBjQVRFODB1NGxMZmRETWUzZzZRNEZCY1o3aS1sUmxINUZDcjlwalZlZkwtVmhMMnk2RFpYYldIMVYtOElVX0w1WExIcmdGWklaOGo3MFhfQlhKTzZqNVJEZE81a2N1aE5taHplWk80S24?oc=5",
-      "pubDate": "Thu, 04 Jun 2026 01:03:13 GMT",
-      "source": "연합인포맥스",
-      "category": {
-        "label": "🟢 POSITIVE",
-        "color": "#4ecdc4"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "한미반도체, 컴퓨텍스 2026서 글로벌 AI 반도체 시장 공략",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB6M1NaSGhGMmI4ODNDMkJhWGQ0TnNTUHlpeXNqMkFobXNWR1hDTjdqQ2ZMR05yU3hKNWE5X25jelUzeHB0UTJLS202ZkM3RV80dUhxbkxB?oc=5",
-      "pubDate": "Thu, 04 Jun 2026 01:00:40 GMT",
-      "source": "지디넷코리아",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "정부 \"K-AI 반도체는 AI 3대 강국 도약 기반\"",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5sNElBVGtCclFDTHdLYi1FZEl6THdMdzVySFJmLXFnMnB5Q09LN3pPa24tUkxMbzVRWWxfdkdPQXBXbnpVaXFfdEcwVGVaV0dxNkJhdU1tcHhIWkRjbUdj?oc=5",
-      "pubDate": "Thu, 04 Jun 2026 01:00:00 GMT",
-      "source": "뉴스1",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "한미반도체, 컴퓨텍스 첫 참가…차세대 HBM4 장비 공개",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQdlFPWG5aOElCTVRDaEtRVzFxTkFSQ0RpdlZMV1dhamFsVDlEMHZuOGxPenhDeDZyTndsRGJ0bUpTU0ltY3JScXpqZThvSHVuUzVReTBfS1ZSUkQtMVA5YldKNDlTMnRrVWVidVJRZzFKcC10SGdXN0ZRd0FMejdQT01n?oc=5",
-      "pubDate": "Thu, 04 Jun 2026 00:59:00 GMT",
-      "source": "Chosunbiz",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "반도체 불장이 뒤집은 M&A 시장…SK실트론 딜이 멈춘 이유",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1SMW40X09mTERmOTl3a3FPX0dMMUI5Tzc5eTlhYjB4VC1WdFpxMlFSUnBkOVNKOUJpSkNNdXV3dXZrdDZIVmVwS3BrWk1OYXlTX3FTNDFtUTJ6REdZVFVxbg?oc=5",
-      "pubDate": "Thu, 04 Jun 2026 00:49:53 GMT",
-      "source": "아시아경제",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
       },
       "impacts": [
         "삼성전자"
