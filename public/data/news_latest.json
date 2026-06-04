@@ -1,91 +1,79 @@
 {
-  "timestamp": "2026-06-05T06:20:05.636483",
+  "timestamp": "2026-06-05T08:17:05.157982",
   "count": 10,
   "articles": [
     {
-      "title": "삼성전자·생명 배당 품은 삼성물산…건설·신사업 실탄 두둑",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBEQ3VJU2NGNGhXQV9Qek1LdnlPN05uNHdSbXBwb19pa2hhLThpNzJJdVRNLW5kMHRReW5TcUtoN0JzYjRoTkgzbGJ5WVpLRjh0RjlYMVNYSnRScTA?oc=5",
-      "pubDate": "Thu, 04 Jun 2026 21:10:00 GMT",
-      "source": "뉴스1",
+      "title": "금융+헬스케어 폭등…브로드컴, 비트코인 급락은 스페이스X 탓? [김현석의 월스트리트나우]",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE05SDlzS3hZTDIwVGg4NFVTZkh4RDJFdUtCVEZ1ODV6a2lvbkpuaGtKbmROY3FFQUdUZGMwb1NSTURFMG9qNVdRclAzcHhaT1liN1hjbWFteEppZ9IBVEFVX3lxTFBaM1poZnVIZ1ltRmtxdGc1YUVFTURHWS0wR045Tmpvb25mcVRrSm1fakl2N0N3Y3ZjSW9uX3ZnVHRrNDg0OUpfREd6ZVFzcm9NU3B6Yw?oc=5",
+      "pubDate": "Thu, 04 Jun 2026 23:07:51 GMT",
+      "source": "한국경제",
       "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자",
-        "리츠"
-      ]
-    },
-    {
-      "title": "'2나노' 승부수 던진 삼성전자…발열 잡는 'HPB'로 판 흔든다",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE92d3JLbVlRXzMzWUxjTjkzNUl1a25pTjZjRGMyVVRZenJNekw0LVRUTzhjbndVN0Rvd1ZxYXlHRFhJVUtaeFJwaXJib2pEY1RiTVhidlFpQXRxTERSODQ2V0dCT1g?oc=5",
-      "pubDate": "Thu, 04 Jun 2026 21:00:00 GMT",
-      "source": "뉴스1",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "규제·노조 덫 걸린 中…韓, 반도체 영토 확장 ‘이곳’ 택했다",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5ndkhRb2JpRS1TYks3bHpfWHZzdmtpM0dWb2lSVGtYaHdZM2wtcVBlQkJ4MUxQeW9Cb3VHUXpKRDRnd0lScTVuWjRRQ05pR0hoODl5Q0pIV01HQnhKZlVHVTNXbHlGaFhSMzF3ckxmSXrSAXRBVV95cUxQTjNHVnNnTFNhMXR4N2M0cFUzZDhXbzlKZURTTlVSNEhZZ3d6clhBUVRvX19vcVVlY3hkX3RnZFdPVTRGQjVUaGxiR2lyNllZQ2RtLUhFMXJxb0pqRlBsOWpQOEdzQU54aU9CdDdHaldpZE5BMg?oc=5",
-      "pubDate": "Thu, 04 Jun 2026 21:00:00 GMT",
-      "source": "IT조선",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "이란戰 이후 최저가 수준 비트코인…주저앉은 코인株",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9mQlBCREgyd2VsdkZTejRZWUxkN1ZCSUx1LW9uNTBtLWVBLVdraXVWM2MtRDZyRkVQcUtkTzRvbFFGYUptOGFQeTVXMUFBclEzeXh5WFlHYXROUEhtcHQ0bNIBeEFVX3lxTE1KUTRPWDdid1JRYVI5X0EtSmdOT3NoSEZSU0o1RXNjODg1SHVWVGFRNDNaM0ZlTjNGU3hFd25nZDVhblMyS3V0dDFlY3h3WGNzRnkyYTdtTXRjbjhCbWNlcThXUXllUVJwZTRPY0RMMUxzbUVDdU5LUw?oc=5",
-      "pubDate": "Thu, 04 Jun 2026 21:00:00 GMT",
-      "source": "뉴시스",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "원유",
-        "BTC"
-      ]
-    },
-    {
-      "title": "[0605주요일정]젠슨 황 CEO, SK·현대차·LG·네이버 등 대기업그룹 회장과 회동 등",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBXNWtWZWlhajlNNnhHWE81SzVoNllCVGgxQ0kxOG5jUGdEMHVHUG9SLVB6LWk1WUJSOXVjTFZidlhFWlVONGdvYjlwUlFoQl9XYWRpeWlGUDg5QmoyblBQYW9qWEVoa29fU3h3TVRpd0pRa0I5QVE?oc=5",
-      "pubDate": "Thu, 04 Jun 2026 21:00:00 GMT",
-      "source": "인포스탁데일리",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "\"양자컴퓨팅 공포에 발목 잡혔다\"… 비트코인, 개발 지연에 '28% 저평가' 논란",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxORlFVRXVEVndUZEdTa3NYcmd0eTBUMVhhUVk5eXcySzFsMGVKNzVvYVhhN1JTRnR1UXFfNVlDXzZydGNnNlpETDdyS3hnbXdQMld5djN2SGxueVp0UEJuTWh6ODZEUDFrMjl2cm5nUGZUMUNYUXJUWnZNelNXMWdDZ1pLbG13YjVx?oc=5",
-      "pubDate": "Thu, 04 Jun 2026 20:47:31 GMT",
-      "source": "글로벌이코노믹",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
       },
       "impacts": [
         "BTC"
       ]
     },
     {
-      "title": "다우 사상 최고, 나스닥은 반도체에 발목[뉴욕 is]",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB0Rzc5OHBTa2l4WVRQdE1XNXlxTFRPU1htdWdaTWdwdE1ySUVLQXRTUnZ1T1l3RF9PbXluc1ZjQUN5aE80cmVQdGJlUmQyMG8?oc=5",
-      "pubDate": "Thu, 04 Jun 2026 20:36:07 GMT",
+      "title": "4월 경상수지 흑자 282.9억달러...‘반도체 수출 호조’로 역대 2위",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE41OTNrcjFqX3pPLTZheVotdXhmN0RmbXctdVR3NDdqdW9icDZzUnZCOEFpcVlZUV9FSlNobXdDZ3VBa3VVTXFFYVpzNkVzYk0wVmVpS1B5M0tQR3lKUi1TRWtVQnBDWkpXSEFiQ3pycVVlQQ?oc=5",
+      "pubDate": "Thu, 04 Jun 2026 23:05:00 GMT",
+      "source": "한겨레",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "환율",
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "4월 경상수지 282.9억달러 흑자로 역대 2위… \"반도체 호조 이어가\"",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQT3ZCVlJNZG1KX3Byb0h2V0Q5cHJFdWhMbHNMaVBqN09ubTItRmVsaUhVOFg1LVpoR2w4RnpKYUttOVFvZXNTS0VEbkZQWG5kZWc0TFhXU3I1amxfUjJzbzBrZ1IwMnF2MU80TlRnU255ZDZ5b2p2OE1CTUZnaWZ3UUlEQmQ1Zw?oc=5",
+      "pubDate": "Thu, 04 Jun 2026 23:03:45 GMT",
+      "source": "Chosunbiz",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "환율",
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[속보] 삼성전자·SK하이닉스 프리장 3~4%대 하락출발",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9uVS1qUFJQcnBqU2dvODNCSzlxeG80NzNESVJ6VmNVelQtTTNwME9BWm12U2FFZ3pUNVZ3RVVGUVhWQk83bkJPbnN5ZGphcGZ4RUpEczVmUml5TF93a0VHVzY0Y1B1eU5RSFdzQms0ZFFVelhGNVJBbTdIVdIBgAFBVV95cUxNTEtSckgyMzFqX1MzVnc2YzAwQ0ZKVzM5UXRVbGo5cHhqS0V4TFJ3UkxaQkVQbzE3RGVINHdnSk96ZFNZMTZZRzU1c3laejJBZTZ5aVViQ2pXVTBtdGVLdDB1MS1KQXVpeExKaUthaVlaSTRQX2R3NUdJQWtBU3VHdQ?oc=5",
+      "pubDate": "Thu, 04 Jun 2026 23:03:18 GMT",
+      "source": "뉴데일리",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "반도체 호조에 4월 경상수지도 283억달러 흑자...3월 이어 역대 두 번째",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9ZZ0kyTGFoSkJ2a0I5RXBKanZmNFdtbml3MXU4czNEd1ktbkdZaU9Ecjdwa0RvTmFoQmZWbllNVUNDb21JSkpLT1ppUE13amc?oc=5",
+      "pubDate": "Thu, 04 Jun 2026 23:02:18 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "환율",
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[3분증시] 반도체 랠리 숨 고르기…뉴욕증시 혼조 마감",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9BbkNJeU9TaEphamZXRVJqSHlqemQ2SUdQdkhLaV9xQVhoVFFCdE1FaTI2eUVWUlJjd29IUjRQcEFvR1YxQkV5MkZLNXZTRjQ?oc=5",
+      "pubDate": "Thu, 04 Jun 2026 23:01:19 GMT",
       "source": "v.daum.net",
       "category": {
         "label": "📋 GENERAL",
@@ -96,36 +84,52 @@
       ]
     },
     {
-      "title": "다우 1.7% 급등, 사상 최고…AI 반도체 차익실현에 나스닥 주춤[뉴욕마감]",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE00elRTQ0d1Y1U3c2VSWEI3ZS1HelBhQ1lxcXlYbm53ekdiZ2tLdWN3WWJLTmZCYjNmbWNTOTlVYzlfQzRjelJIYUhycG03R2FYbFI1TmFqMHM0WUhibTlsOV8yYlpWS28?oc=5",
-      "pubDate": "Thu, 04 Jun 2026 20:24:23 GMT",
-      "source": "뉴스1",
+      "title": "[속보] 4월 경상수지 282.9억 달러 ‘흑자’…반도체 호조에 36개월 연속 흑자",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBWSVAyajlFb2hlM3NHM3RtMHpUd0hteHBxTHR4MFI4cHZRVDdSOURYMnE1SVl5eUNFSGEtSjdnNjhlVVg4QVN3Q21ka203UDdkelE?oc=5",
+      "pubDate": "Thu, 04 Jun 2026 23:01:08 GMT",
+      "source": "매일경제 마켓",
       "category": {
-        "label": "🟢 POSITIVE",
-        "color": "#4ecdc4"
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
       },
       "impacts": [
+        "환율",
         "삼성전자"
       ]
     },
     {
-      "title": "기가비스, 日 반도체 기판 업체에 장비 공급...94억 규모",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBuU1k1eDQxMWZBRnFwNUNMeFRsTjFId0IteDVHa1hfTDNWN1lzNHRDcGoxcGprNXBNbnRuamgwQTI3Y2JzWEJYa2xSYTA0dFZwMkg2dkY1R3F6T1JQMjY1eEg3aDNIdw?oc=5",
-      "pubDate": "Thu, 04 Jun 2026 20:21:55 GMT",
-      "source": "디일렉",
+      "title": "반도체 수출 호조 지속…4월 282.9억달러 경상흑자 '역대 2위'",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB6ck5rdE5ROWxDNDNiT1ZsMkp3YnpYNGRkenBkeW9BYnd2RnNiS3E4R1BBTDZWZ1YteE82T1RaUzZkUG1GWWtscnNDcTdkc1pQMUJZUw?oc=5",
+      "pubDate": "Thu, 04 Jun 2026 23:00:12 GMT",
+      "source": "뉴스1",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
+        "환율",
         "삼성전자"
       ]
     },
     {
-      "title": "뉴욕증시, 반도체 랠리 숨고르기 속 혼조 마감…마이크론 8%↓",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE14dmVSLUxuckhSZTVGcHZxSi1HeTRhOUJjLTVMUGpmbi1lNUhmaTVxaEV1aFdSTGo4d2ZOdHM3MEROaFBZMEJfamZ1VXBrY1pxeV9XQ2VBU01jUlXSAWBBVV95cUxNaXZvckozcktqU0RLRFJRUEl2dEtaRUdOQkk1MVVRcjVDUmExOVA5U0ViNGF6MWw0ZEl4dnNjb3VyVzFkcm84RVcwNVBjczRsSVM2ak1oZ3h5bmNDcDdIS2k?oc=5",
-      "pubDate": "Thu, 04 Jun 2026 20:15:31 GMT",
-      "source": "연합뉴스",
+      "title": "4월 경상수지 283억달러 흑자…반도체 수출 호조에 역대 2위(상보)",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBvWXQ1UjhFc1NFeWpEcG0zQXYzMWFNWHRYMVR5WlhoZ21iYzQ2MmRnaFlVUzh6UGs0aWFjaE9oSnBCelBzcWZlOGRDZjhmbVdINDVqZzFMWUVsWjVlemlnN1Bmd2VNenBVamhSNmotRXozVm8?oc=5",
+      "pubDate": "Thu, 04 Jun 2026 23:00:04 GMT",
+      "source": "마켓인",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "환율",
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전자, ‘BTS 월드투어 ‘아리랑’ 인 부산’서 갤럭시로 새로운 공연 경험 선사",
+      "link": "https://news.google.com/rss/articles/CBMivwJBVV95cUxNdU9uT2wxaXREaTMtS2Z5TEtma2tVQ3FvYnhxM3JPNE5qa3RqWG5GRDdhY2M1aHNoXzY2XzNURk1UR2JZUEl4YkxhVldSVF85SDFRM3VNM0ZWSGE4TGRxV2pNM09uVW5NX3JKcUgtSEY1a3FmSkJ6ODJhck1DUVk5UzdHTVBVNFZobkhFaHNlY1c0X28xY0M2UHpCdE9KWG50VU1zX2otMEMxWmIxVnBOMkxhOEFGRmNuZURLMkszaTU3NGVJckFUT2d2dHE0d1dWWGQ5dkdJZHNzNXhOaW5GYXUxLVduai03UkRydC1JQU1GSzNmdVYzSUI2ek9FbWVRUEhaOTVYSDJIZjhTVnlyaUpIRUxVZ3NpeVNmYTFtX0dkbTkyWGtwRWZRZXBuTkg3TTl3cmpITlNqX3lFcTVJ?oc=5",
+      "pubDate": "Thu, 04 Jun 2026 23:00:00 GMT",
+      "source": "Samsung",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
