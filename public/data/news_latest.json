@@ -1,77 +1,24 @@
 {
-  "timestamp": "2026-06-04T16:17:04.965083",
+  "timestamp": "2026-06-04T18:17:04.381271",
   "count": 10,
   "articles": [
     {
-      "title": "삼성전자, 올해 1분기 글로벌 TV 시장 점유율 31.3%…21년 연속 1위",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNdVNOM3NMOU54TkI0d0pkd1dtTkJZWkdGQXgxMnEyQm1ENWl0dm1haEFtbkRvTDQ1WkJuVl9laGJ3RWRwN1dadmZ3eGlYRGpIYlZycnpRSEFKZ29kYUhOZ3RKY3I5SE90bXhMT2hzZDk2MjBHZFVLa0JHN3hiUjJoMWFXYXM?oc=5",
-      "pubDate": "Thu, 04 Jun 2026 07:13:37 GMT",
-      "source": "글로벌이코노믹",
+      "title": "반도체가 쏘아 올린 성장과 시장의 쏠림",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAwS1JBbjc4ejFxdE5UaW5xLUhSaGdfS04yLVNqV2dCSUdwb0l4T2FIdGNQdzBLVlBRd3IwV3h3T015cmUwM21BZnBoQ1ZjMlYtaWhjb1FRbmN3QdIBVEFVX3lxTE5hVkQ0NWlmWklSUGxfNk9ydzdYZHhQM2dSVW14X2hwNklaUlpLRWh1N0lCRjl5Z1FZNVlGSUFzbG5EUXBNMVFaeTZSTkxtdllCUGpOYw?oc=5",
+      "pubDate": "Thu, 04 Jun 2026 09:09:58 GMT",
+      "source": "한국경제",
       "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
       },
       "impacts": [
         "삼성전자"
       ]
     },
     {
-      "title": "현대차·기아, 5월 美서 17만4860대 판매… 친환경차가 실적 견인",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5tMkx5ZHdRQnNsRF83VVA5cFJqeFdncXh0ZnhJcFJnSkF0NVdHbTEtUkNxMDJFZTBZTVl4MXF3bDY0dFktU0Q4TlFfYzRFUzVhcmJKRTdxbmJEOWRTSlhJUkZmZlR5eFYzalZ1ZHRNRmnSAXRBVV95cUxOYjlHRHlONUw2eURRSTNCS2pUbGFpbXlKamNMVHR2aGY5dnd1VFVwN1JOcU5ENW4tbmhoeHRnMG1BaV91a282SEJfU0JsN2VqR0xGZXJQNGxLWnNYZHpwbXdXa0dPUjZyeFVzQzFZTnYzVDAtXw?oc=5",
-      "pubDate": "Thu, 04 Jun 2026 07:07:53 GMT",
-      "source": "IT조선",
-      "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "삼성·현대차·LG·두산, 美 최대 로봇 전시회 총출동",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9LZW05V2RiV0hqN2UwMmlrN29XZkJRVUdJajJOams5UXJCZGlScmx5WXFuSmFXRFROa1ZqY0JjOXo5X1JMdXB4cjlQMFdhU0E?oc=5",
-      "pubDate": "Thu, 04 Jun 2026 07:06:50 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자",
-        "현대차"
-      ]
-    },
-    {
-      "title": "최태원 회장, 폭스콘과 회동⋯반도체 넘어 AI 시스템 통합 경쟁력 강화",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5QbnBtU05STlMxcDNZRzRXWXFSWHhrRU9ZVDNMcHB2M0VKSkpqSDBsclN0djRXdzR2ZnQwWDZlSkxseEQ3Sk0yTDV2bGV3Y2ktNXU0Vmt3TEpneTZVUGpRa1lOZ3lHNnBB?oc=5",
-      "pubDate": "Thu, 04 Jun 2026 07:03:24 GMT",
-      "source": "테크월드",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "코스피, 하락 전환 ‘숨 고르기’…반도체·자동차 줄 하락 [마감시황]",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB5R2pmNU41MTQ4Vm1RanFPQjA0QmZfY1Z0U2pxR1ZmSVl0ZFFaYmF1Q2o2S0w1SmRXd25YOHp2SE51dlJsc2V6V0k0bjRMZ19jUXFtcWdvOHVTemJHVEIzUjFMUQ?oc=5",
-      "pubDate": "Thu, 04 Jun 2026 07:01:55 GMT",
-      "source": "에너지경제신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "\"반도체 만으론 힘들어\"…정부, 2045년 겨냥한 과학기술 청사진 제시",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9qREFJOXZWZ3BxejE5TGc5aGY3V3ZMQ3NzM0NPMzI3b3dLUUs1Rk0zbHdEdzhvV3ZKVG9sSl9ydEF6UWtXa1NLbC02NmR2ZEU?oc=5",
-      "pubDate": "Thu, 04 Jun 2026 07:00:04 GMT",
+      "title": "바다의 반도체 '김', 공급망 혁신으로 세계시장 공략으로",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1tR0NMdnFGd0hnZUlDUUgzUHN0WUZyTm5Fd2RQQUFJWjlfQWJETWt2ZHIzT1FsRVB3QTRpRVJieFV6TWZ1STBWX0lPYnpRRk0?oc=5",
+      "pubDate": "Thu, 04 Jun 2026 09:00:34 GMT",
       "source": "v.daum.net",
       "category": {
         "label": "📋 GENERAL",
@@ -82,10 +29,10 @@
       ]
     },
     {
-      "title": "삼성전자, 글로벌 랜드마크서 'AI혁신' 영상 캠페인 공개",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPM3NqOGYzRDJyNzVLeVFZWHE1QUpzR0RfeTA2OG4welVWOFh1TmpWLV9UNUNYOFdGY2tCdVBkRElOVkZKYVV6Q2hOMERSQ2huWno5X1V3WVMwX1lFSzFmck8zaGlrZlp5VncyM1NXajFYbkdNbTkxMDExaVllLWpwTzZGUnBBUQ?oc=5",
-      "pubDate": "Thu, 04 Jun 2026 06:52:27 GMT",
-      "source": "글로벌이코노믹",
+      "title": "\"옮겨 붙일 필요 없다\"... UNIST, 2차원 반도체 LED ‘원스텝 제조’ 시대 열었다",
+      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9jdkhDdTh4QUZrWi1kb3U0OXlCcGJSZmQ5ejRBVEpKY1p1VUNfRzJ1eFBHcng3WnpLVHVjZ1pZMzEyUEF0Q0hacg?oc=5",
+      "pubDate": "Thu, 04 Jun 2026 08:52:00 GMT",
+      "source": "특허뉴스",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -95,10 +42,10 @@
       ]
     },
     {
-      "title": "[IB토마토]삼성전자, 신사옥 1년 만에 북미총괄 이전…DX 수익성 악화 후폭풍",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB1MFVGVkVUbjJOb0xRVmYxbUpoQkxKVHJqa2lCVk94MlJ1T0s5UUNQR0x6S09GZG1HTFQwVzF2MnpLc0p1aVhtc3pmRy1IaTVLQzUxZEpScThNQlZON0dBVw?oc=5",
-      "pubDate": "Thu, 04 Jun 2026 06:47:20 GMT",
-      "source": "뉴스토마토",
+      "title": "[반도체 레이더] SK·LG이노텍, 글로벌 영토 확장…AI 반도체 동맹 구축·기판 기지 다변화",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFAzQjg0N1ZsRHlIaUVSakpaU0FrckJ5WFNkMFMzeHV6S0tHWmhyZTAwNWVMOGY3dHhLUXpJOXdad0NRcU56QldNTjQxLUc3dDE3dGtZ?oc=5",
+      "pubDate": "Thu, 04 Jun 2026 08:51:21 GMT",
+      "source": "더밸류뉴스",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -108,30 +55,81 @@
       ]
     },
     {
-      "title": "서울 전세 상승과 원달러 급등, 비트코인 급락까지 이시각 주요뉴스",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1lUVpsU3JXLVdjWlZRM0oyZDB5eUY3b3NURmQycFl6dEFWRUtYUHhIVDg4b0w4X0VoSmV4WDJ0bHd2TFZVTFNKRTVRN0NQM2F1ei16WjdaVzk3c0dPY3ItdGQ4T2xOMlJNNVVhc3dINDDSAXRBVV95cUxOMzlGeVp4R181b2lJYWdzZVVQN21HM2tzWC1DMjE5bHNoMjA0OEZHNkZsY3NadFluQk9xYXF5WWtNcUdGSnB1c0ZaamdlcFZXX1JWY1VoU3pCNlhieDNrZDdHOVNXRUVMMUs3bEVVZVVzUUEySQ?oc=5",
-      "pubDate": "Thu, 04 Jun 2026 06:46:53 GMT",
-      "source": "연합인포맥스",
+      "title": "삼성전자, 글로벌 랜드마크서 '당신의 AI 일상 동반자' 알린다",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB6ZGFnTnpITmtPbHFFVFpTSk1YekY4UXE1TXFWRDFhUkFKdUpCU2Rublh4U0k4X2MzUGlsamZHTWlrdGV5VDROQndEWFZVR29WeUEtUlZTb2kwMXotc3NhbXBYUG9sQ1U?oc=5",
+      "pubDate": "Thu, 04 Jun 2026 08:48:36 GMT",
+      "source": "mstoday.co.kr",
       "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
       },
       "impacts": [
-        "환율",
-        "BTC"
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "SK에코플랜트, 용인에 화력 집중···반도체 인프라 전환 속도",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE91UFlhSENpM1FaMkQyeXNOWWtnVHkwOFJMc2M1SFdSdzJJY3gwbWd5Vl9mX1dUWTh0MS1uall6dUhUemtxSWJtQ2g4cE9xVG92bzl5cEZweml0MWJuUzQzTTJNRlR0SDE1b1RiSzdFQjh5UdIBdkFVX3lxTFAzaTVvdHZBZU9MTXRkc1lGUWV5dFkwQXdoOFU4V3BaZEZjanVpaWdwMjVVQl9TNHBtNEN4SG9wZUtaRjVxSkhSb0Y2WnUtdEluZk1BZjFucDF6Vjh1ekU2d1BFR2tBX0x1WVdkNmlNMlBXVVMyU3c?oc=5",
+      "pubDate": "Thu, 04 Jun 2026 08:45:55 GMT",
+      "source": "시사저널e",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
       ]
     },
     {
       "title": "[도쿄증시-마감] 반도체 약세에 1%대 하락",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE56MS1VYS1NaU9PZHFnNzRobkdwWHpZYlktbE5jVGRLNjFFcTBjX0FfRExDb2tWZTdiRFdHSFUyTS1DejdTTmNXWWdITTliNkttT19iWVZJR2c3d1htT2NQdmtOY0dGWWQ3SGpNNWFOWVU4QQ?oc=5",
-      "pubDate": "Thu, 04 Jun 2026 06:44:29 GMT",
-      "source": "KB Think",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1lYWpqQ2ZwU2c1cFNfZVZDZDU5QkswaXRqNGdfQWVTWGpiRkRIU2p6UWhGQ2FtdWhiSV93aWpCRW9HbXR2VWJxczVRU0hJSGRGWVgwMDY3R0ZXRlFzX3I0aFJkZTlmcS1XODU0b2szT08?oc=5",
+      "pubDate": "Thu, 04 Jun 2026 08:44:33 GMT",
+      "source": "연합인포맥스",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
         "삼성전자"
+      ]
+    },
+    {
+      "title": "인텔리빅스, 국산 AI 반도체 기반 산불 조기경보 실증 공개",
+      "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE04enh1TnZ6YTluVHhwNm5RSkZFblU3M3kzXzk0RUhlYThXOGlRUmpjQlkxbTNOb1FjSlRJdWVhYTJDZTZr?oc=5",
+      "pubDate": "Thu, 04 Jun 2026 08:44:00 GMT",
+      "source": "FPN-소방방재신문",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "'반도체 전문가 영입' 민형배 \"반도체 산단 위치 곧 윤곽\"",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBiRGJXUGlsQnRwLUtPMDh0cE9vbXJkb09QN2xvcVE0UGRTRkpsR1pWU25fMnJvaDV1T041M2VPT0pHT255aERlSXBKZEhfZ0diVWJwRUV6S2JhdjdQUjBz?oc=5",
+      "pubDate": "Thu, 04 Jun 2026 08:38:33 GMT",
+      "source": "뉴스1",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[운용 & Now] KB운용 'RISE 현대차고정피지컬AI ETF' 순자산 5천억 돌파 등",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE85cFktSXUwTUlMUzlyVEtNQ2FQRjNLWnAzLUVwSjMyY0tJc2M0Zzl2RGRJXzlPdXhraloxbmNsdzZSVms1UnNQTjQ4by1mY2ZYUkdGb1JsdWJzLWt3X1M4OGFtU2JWQlVI?oc=5",
+      "pubDate": "Thu, 04 Jun 2026 08:37:15 GMT",
+      "source": "ebn.co.kr",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
       ]
     }
   ]
