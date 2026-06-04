@@ -1,7 +1,85 @@
 {
-  "timestamp": "2026-06-04T14:47:40.526233",
+  "timestamp": "2026-06-04T15:17:54.876425",
   "count": 10,
   "articles": [
+    {
+      "title": "왜 이렇게 떨어지지?…1억원 깨진 비트코인 전망 물어보니",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1CRVBId2VSZnlLb1k3amVyVnBzUHVYQmxUX1EtRkdZQmptclVRNVhrNWlOOWl5MlRYdlAwZmNnRVFsQnBqWnB3TEFMRExwTmdTTGZWandjOHRuZ9IBVEFVX3lxTE5PakNvM2hsWUhwZXVUcXdKMFkzMVdmSVplZkFxbVBYREdURElENUpaQXZJTnA1RERGNVMwMmYwbWJuVHRkN0ZoOHRsVWJON0sxcTJfbg?oc=5",
+      "pubDate": "Thu, 04 Jun 2026 06:01:42 GMT",
+      "source": "한국경제",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "삼성전자, 메타와의 커스텀 SoC 협업 '이상신호'?",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1Scm5qWVNIdVhieXYzb3dxMTZ2VFBJMjViSFBoZm9rbTVYaDAwME5ITERVZGZwMF9OT2k4SC0zOWp6TDdmRmJpWkFGMkFWZU5qV1pZbWZoRE1wWjc5UlkxNEYtM1ZRSmZW?oc=5",
+      "pubDate": "Thu, 04 Jun 2026 06:00:00 GMT",
+      "source": "녹색경제신문",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "비트코인 9400만원대 하락, 가상자산 일제히 약세",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0tZVp4bUQ1RFZrVkMwa1h6eDBlcHNUMzZCa3VZOXJzZzM4TzBlYzhKTV9tUEUtSWZiQ0dvc2dfaFh2Ym80SDR5RkRadkE1MzlLcWZNOG1USFRjWXJvcXhZLU9iOEdYams?oc=5",
+      "pubDate": "Thu, 04 Jun 2026 05:54:00 GMT",
+      "source": "2news.co.kr",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "비트코인 하락에 알트코인도 '흔들'…솔라나 5% '뚝'[특징코인]",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFAwV190OEhLb2pCd0RGVG1JWjZxcm8tb3RpMGhrWFNfTjhsdEZnRk5jamI4VlROUUxlRk5qWlV1N2JIWWZ2MUNZcGR3T2lvUk1jZ2JMZ21Qa0x1SmlMV0RLeUlDdlJTZw?oc=5",
+      "pubDate": "Thu, 04 Jun 2026 05:49:14 GMT",
+      "source": "뉴스1",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "파두·한미반도체, 대만서 AI 반도체 핵심 파트너 입지 다져",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1MLTZrT3ZjSFFKSko1c0hCWjJRazdISm1PUGhGWGp4clVDTHB0QmQtdkVBWlBGUGVqRzk0YUpSSXcxZDUybjJvT3BiUEEwRHIxOFZYSGNPX0EtNFYyYV9rNDRJNmo3UUtYLUcwQXNXcHHSAXRBVV95cUxObmk5WTR6VUY0T0ZKSGF5OEcyNWpvT3g3N0ctb2gzc0p3bU9Dc0dKSEdiVVE3a2pjZGVYZlpuRzdOVDBhWHpHeHFqWlhwa0lPSlcta1d0ZGFoMGJiQllhTF9mZWZYOGU2SV9yX0ZUQ1d1NkhNcA?oc=5",
+      "pubDate": "Thu, 04 Jun 2026 05:44:16 GMT",
+      "source": "IT조선",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전자, ‘AI가 일상 동반자 되는’ 영상 캠페인 공개",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1YeU05NW51SlFKQ1RqSnBoSUZDMWcxbTJfRmJGU1gzdU9fWXNBLXF2ZXZGUVVYVkZhQ3MxeWZmTmpaU29Vd0hMZVVuWWZWMWhqQ3dJVldwZjFtUFJQbUpUZjNn?oc=5",
+      "pubDate": "Thu, 04 Jun 2026 05:43:13 GMT",
+      "source": "경기신문",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
     {
       "title": "과기정통부, K-AI반도체 성장 포럼 개최",
       "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1GaFZ5RjU0ekdSU05Ddkx1bTNKcGd1TlprZm1xSnM2LVY3NUJaWFBFNllmN0RCUzFfbHVjSzIyUV9pdzVNd3VTOGpmeWdmUWJmMDM0c2tDZUxsYkxwaDV6U1VlcFNPUQ?oc=5",
@@ -13,6 +91,19 @@
       },
       "impacts": [
         "삼성전자"
+      ]
+    },
+    {
+      "title": "주기영 \"비트코인, 장기 보유자 전환 진행 중\"",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5uYXhwVXZGcFpNNEZ3angyOFI1RzZzTHJGWUFJYk91ZXhKMUlNRkNvQnBPZ05RcE12ckZ3R0dzdkU3V2VIcmFJMWU5eEx6OWpt?oc=5",
+      "pubDate": "Thu, 04 Jun 2026 05:39:30 GMT",
+      "source": "블루밍비트",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
       ]
     },
     {
@@ -37,98 +128,6 @@
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "정의선 모빌리티 비전, 美서 인정…현대차그룹, '올해 車 회사' 수상",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1fTUdhM0M1d0dodmc2WEJPRGhZeTdQdWJuYnpaTDdXaUN2cGxjR3J0elpEdDUzUnlCX1hWc2FoWG9NZkVjUWNVeTdaSjF3akdxZGV3SlZsUXdMa1FRR0lkcGFDcVBhRzJWUlNQQU5jTHY?oc=5",
-      "pubDate": "Thu, 04 Jun 2026 05:28:47 GMT",
-      "source": "연합인포맥스",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "현대차그룹, 美서 ‘올해의 자동차 회사’ 선정",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1QV2ZaOFBTYjhpT1V2aHlzUUhCNlpqMmlZU1NndHlsRTVEOEljMEFqR05NcHZRdXFsSkFRbEM5Y1k4SFBqeHo3eWRDNFZQLWlTY1A2aA?oc=5",
-      "pubDate": "Thu, 04 Jun 2026 05:26:11 GMT",
-      "source": "매일경제",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "삼성전자, 뉴욕 타임스스퀘어서 '당신의 AI 일상 동반자' 알린다",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1zWm93NGxVOHFJWFZFLWRjZW1VYi0zWHQzekMtUzAyNlhTMkF5OFBBVldOUDdBa2ZMdDFQM016SEN4Z2RTbGJxLUc5U09GckF2dTJkT1VNVmhNWnh6c0Y4Tg?oc=5",
-      "pubDate": "Thu, 04 Jun 2026 05:22:22 GMT",
-      "source": "아시아경제",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전기·현대차, 코스피 시가총액 4위 자리 두고 AI·로봇 전쟁 [stock&톡]",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1KNFpBNGZRVW9UZWRJNEZjdzlEaUI1a09mQ3NiTWQ5MkdPOGJBeXdpdzlHWFhlT0xENzBRRlVNSWNXaTZBcGtxdlZBcFRwYm8?oc=5",
-      "pubDate": "Thu, 04 Jun 2026 05:19:03 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
-      },
-      "impacts": [
-        "삼성전자",
-        "현대차"
-      ]
-    },
-    {
-      "title": "'재미없던' 고배당 ETF에 상장 첫날 1000억…흥행 키워드는 결국 삼전·하닉",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOd0tLMFZOemV3QkR0RlZGVFVEYnNrdVYwRFdlb3FGVUxDeVQ1d0RwOElkWDhLcEpPRXNwbUlCMktwS2ExUnR0MlI4bjhoVEI3djBlN1pPTmkyUzVHMTVaajRVdWZkT1dwVDRaZlpfanBKaUFCbTRlQ3BZek15WFRPNWNUZw?oc=5",
-      "pubDate": "Thu, 04 Jun 2026 05:16:00 GMT",
-      "source": "인베스트조선",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": []
-    },
-    {
-      "title": "배경훈 부총리 “국산 AI 반도체, 해외서 3000만달러 수출… 엔비디아 버금가는 기술력” - 조선비즈",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQMElabXNNb3RKeTd1TnJMR3R1VnczV2xfWDhpaEhaci1GYWFrRFhtdERHckhvc0FoNGVPcHZIdTdPRDI1WEhPdVVBY0tiOUZWT2FQX1duQTdleFNGdVpBSFBRUVdtaGpCSl9XY3JUVFhpYm1aNVY2Tlo5RFFpX2x4MXBB0gGWAUFVX3lxTFBHYWpENE1LWEJKRkRzMFJUdmZvVEZ6UU9LU3VVMHpaalhVWUZqOWVBVGpYNGkzM1hONGpqNThjTlFVQVAwSGxtUXJwSkVMTWpXNlBXX3l1R2ZjR0dtUkhnZTNBMWc2SGhOQy1oQm5Pb2RJNlB2SmpVaTBJTUo0eVpBQ1BVdDZPM1FnOWR5YTY1RjQ5TGQ4Zw?oc=5",
-      "pubDate": "Thu, 04 Jun 2026 05:16:00 GMT",
-      "source": "Chosunbiz",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "NVIDIA",
-        "삼성전자",
-        "환율"
-      ]
-    },
-    {
-      "title": "삼성전자, 1분기 글로벌 TV 시장 매출 점유율 31.3%…21년 연속 1위",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5sUU5KUy1Qa0xOTTkwVWRiWmsyMkhhcE5yMEFzcEFiTEZDbkZ5Wjh3TGx4RG1leUd6MGp5N1c5MV8yejhVYklyUFRnbVg5el95dFFUZG94eWd2cWVvYjhyZTFuVHQ?oc=5",
-      "pubDate": "Thu, 04 Jun 2026 05:11:18 GMT",
-      "source": "매일일보",
-      "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
       },
       "impacts": [
         "삼성전자"
