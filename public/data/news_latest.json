@@ -1,12 +1,25 @@
 {
-  "timestamp": "2026-06-05T10:17:04.856926",
+  "timestamp": "2026-06-05T12:17:04.467803",
   "count": 10,
   "articles": [
     {
-      "title": "삼성전자 초기업노조, 과반 지위 상실",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE45eGFtalVkRWlyWHFwSFltRTZlVk5pOXdNbGJmZzRWc1JmdnBnN0h4VFRVS1FKbVV1dmQ2Z3lpVzJkZ0hHMkZ0YldtZUs5WjJnNW9MdTNzQy1hMmxPdnZGWGRDVU5GVzYyYXV4Uw?oc=5",
-      "pubDate": "Fri, 05 Jun 2026 01:14:44 GMT",
-      "source": "중소기업신문",
+      "title": "기술주 하락에 아시아 증시 압박…닛케이·코스피 반도체 손실로 급락",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE53MUpValRMQlFvQWhoc0wtZ0VLRFFWWmNWNWc4N1ZnLUVWbks1UW5RTkNqQ25kMWpCSUNqelpBeml5cnc2MjY1SnkxaXZfVFBhTVpuRGIyTTlPSERCXzJHQzRhQ1pBWXRPUDEzaGNQWU8?oc=5",
+      "pubDate": "Fri, 05 Jun 2026 03:05:00 GMT",
+      "source": "Investing.com 한국어",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "김영훈 노동장관 \"AI 반도체 초과이익, 협력사와도 나눠야\"",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5WQmdEODkxdEEyNnYyWkNwUmpyNG5VamxwMklpTXdzd082dDZUM2lpbE1tVGZjdzRrYXNhUDZZdEFBbTYzZTl4dFBQTC1qWXUxYzdrZ3hiUTlCZXpES3c?oc=5",
+      "pubDate": "Fri, 05 Jun 2026 03:01:09 GMT",
+      "source": "뉴스1",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -16,50 +29,23 @@
       ]
     },
     {
-      "title": "'검은 금요일' 코스피,6% 급락해 8,000대…삼성전자·하이닉스 급락",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4teEFwdEIwbmg5QlJ0Mmk0SHVJMGcwSV9kZzhPRDFkTXZkaGFCLURhRklIQWd5QzE2Ym94Q01VbW5hLTJhSUZSeTQwVUh0YmZ0TWZpOFN1bWxfQlBaQ2t5SEEySlFZeDFlQjZaQ2lR?oc=5",
-      "pubDate": "Fri, 05 Jun 2026 01:14:21 GMT",
-      "source": "seouleconews.com",
-      "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "비트코인, 4개월 만에 6.1만달러로…ETF 자금 유출 심화[코인브리핑]",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1KQnlybFBpUko5bk1EYmVPWThHYU1fdDcyTFpXbWozVm43dDkzMmp2THljaGs5Umd3Mm5IVmN0OEw5QU50UXVCUkhwZk9zUGM?oc=5",
-      "pubDate": "Fri, 05 Jun 2026 01:10:24 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC",
-        "환율"
-      ]
-    },
-    {
-      "title": "‘검은금요일’…코스닥 3개월만에 1000선 깨졌다, 반도체 쇼크에 韓증시 급락",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5vSHB5SkJNbzZEMTNlTmtOMWVXZGpJbFpZXzhUUEhTNEZLYUhuVGJzY0FhMmFWSmpNTEpFMWljZVZodmV5WkhVcERBeFJvSmcy?oc=5",
-      "pubDate": "Fri, 05 Jun 2026 01:09:35 GMT",
+      "title": "현대차 ‘축구하는 아틀라스’ 메이킹 영상 공개",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBQdnFTMmo2dVBIeThZSGVjTlZIYnJ1RncxTnNrYVFrYVMwQXA1RWktaXB5eUZLTUtla2p5MmluRWUwVkJFQXVxaDNtNjBiTlFH?oc=5",
+      "pubDate": "Fri, 05 Jun 2026 02:56:08 GMT",
       "source": "문화일보",
       "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
       },
       "impacts": [
-        "삼성전자"
+        "현대차"
       ]
     },
     {
-      "title": "AI로 돈 몰리고 코인은 흔들리는데⋯미국은 비트코인으로 집 산다? [Bit 코인]",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBhTjloYkVtUUlPQ3oxZENwSFN2MFRjVkVUVVNnZ0JDNHpoY050empYLUkzQzdIVl9iN21KaFUwSFNZTUpEZW03Wmt1bEE4QTl6MC1uZQ?oc=5",
-      "pubDate": "Fri, 05 Jun 2026 01:08:00 GMT",
-      "source": "이투데이",
+      "title": "한국서 비트코인 250만원 더 싸다…코스피에 밀린 코인 '역김치 프리미엄’",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQZGZOdG8wTUNzVHhkREJxV0lFSXZ4OHhBZGVOZ0FkVVVSMVJydUZaR0dRTnBVM0tKeEc3STluQWR1MWdqcHU0clJfT3AyYXdKZGlPbTlkTEEyOUFack5ud21mVXlhUmFDejktdDI2MUhDMDU3TWxydHE4WjlPd1RQcg?oc=5",
+      "pubDate": "Fri, 05 Jun 2026 02:52:08 GMT",
+      "source": "이데일리",
       "category": {
         "label": "🟣 CRYPTO",
         "color": "#a55eea"
@@ -69,63 +55,76 @@
       ]
     },
     {
-      "title": "4월 경상수지 283억달러 흑자…반도체·IT 수출 증가에 ‘역대 두 번째’",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1SaUprVE1iZkVLSW9yRzNDVHBpLWhmT3EwTG1UOHVfWVBDVkp6am10LVVvWG5KS3ZJUWlJdlZqYkdxbGFWT1pzcnF6bnQycEl1TTV3M1Vkb1g3UTI2dXAwbnAtNHVhODdiT1E?oc=5",
-      "pubDate": "Fri, 05 Jun 2026 01:01:56 GMT",
-      "source": "금융소비자뉴스",
+      "title": "엔비디아, 현대차그룹 등과 협력 강화… 한국 로보틱스·자율주행 산업 탄력",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5rTFBzaXc1WEpJN2F6Z3ZyeWI5NEU4Q2l4TU5IY21JMzdrN040a1I0MDYzT0tiMWdheE1EbV9tQU9yTEJyVVB1R0JqZEJubGtG?oc=5",
+      "pubDate": "Fri, 05 Jun 2026 02:50:33 GMT",
+      "source": "문화일보",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
-        "삼성전자",
-        "환율"
+        "현대차",
+        "NVIDIA"
       ]
     },
     {
-      "title": "삼성전자, 장 초반 낙폭 확대…시총 2천조 밑으로",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5jWlVHOFFrLTZxUndlMnBHODJJb2RpUDJrWkVwWWIxOFR1eDFQR0Q3a0NRclh1OGZSZDNJRWR6SzBVSzNoT3E1cmcwc3hSTkFEdkJUOXZtdXdRTkZyaW9iekU5LXM5ZTZmdTQxbmlCd0U?oc=5",
-      "pubDate": "Fri, 05 Jun 2026 01:01:54 GMT",
+      "title": "삼성전자, BTS 월드투어 협업…부산서 갤럭시 팬 참여 프로그램 운영",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFAyOEFNR1ZfOFFKZmx6aE9wRGQ5SkZwVHRtSW1TZFRUSmtqRDFDSFR2eUJjdUR0Yk56QVJZLW4tZV90N2JCYmE1VTVYMGNjdzhPdGJQenQ1RkxjcXhPUUHSAW5BVV95cUxOWHAyT1A0RS1GRjFTNklfekRVOFlRZDJrY1RfWHdlS2ZveFNMR0J0VW1fVUtCOWE5ektib3ZlSVZ3UnowZldVLUJXcXZvNTRYTXM0M2hFd0gzMVg5Mko3ZHViR05yQmRKaDI3c05LQQ?oc=5",
+      "pubDate": "Fri, 05 Jun 2026 02:35:03 GMT",
+      "source": "알파경제",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "코스피 급락·매도 사이드카 발동과 반도체 충격 등 이시각 주요뉴스",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0zRHhDS0YyZ0V2WlBrTjlsZ25BOTBhcXlVN3RMdWhXeS1QcUNjTjAtWTN2bklQcF9DclpNU1FHMmRxT2RhSHc1MWxiQ0dtWlpsbUR1aXduRFVKM05iX2g4TW9iVjZQelRUY3RQbXZnc3nSAXRBVV95cUxOQmhhVE4xVEtBa2wwUXhGUmxNb1QydWpIZXhSMmlmUzFZRlNZb2pGSFJzWElZVm83OWlfTEQ0aW9IZ05HbE1haURrcS1VaVl6SlBmZ0RNWmVPaXh4Sl91a1pEd0I5ajA5YmdJUVMtOVRrTnB4aQ?oc=5",
+      "pubDate": "Fri, 05 Jun 2026 02:33:55 GMT",
       "source": "연합인포맥스",
       "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
       },
       "impacts": [
         "삼성전자"
       ]
     },
     {
-      "title": "“보험금만 194억원”… 추돌 때 슈퍼카보다 무서운 ‘반도체 수송차’ - 조선비즈",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNUGJQWmJJWHBBUDZ5MUFlbF9wN2ttUmNMWlFpR2FGeEI1NnVndGd2R1VGTkMtWjNXSDU0c3ZpYlh6Qm81MXN4cEQ5bHp3cmRMZ0oxQ3BzNTJDU3FQZFNTdks2VDFtSGRtOWxuZTZyQUphV1ZzcnZnNUxBNUZDODlqcdIBlAFBVV95cUxOcHgzVTlmbG0zNVIyRnlhdG4xNzQ5anN6ckU3NkE1YVMxNHFCSkNlSndWTVAweHhpOURiejZxcjJZMU9NZy15QVJ2cnY4M1QtUkV4cS1RdWtDRDVOMGtXdUNqMl8zMWh2ZUszLVd4eG50SXR0UzdueXhrWkV0Y3laS2FEZkdlYzZSVE5jZ3d1V2pFTHBx?oc=5",
-      "pubDate": "Fri, 05 Jun 2026 01:01:30 GMT",
-      "source": "Chosunbiz",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자, 월드컵 특수에서도 글로벌 TV 시장 승리…중국산 프리미엄 RGB LED TV는 아직",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5SdXQ2cl9DRzBUOVh2ZzFDdWY4eHNuVldVMXFydVZ2Q0VxaUVEYVl1Q1czc3hpcXJaam1lY3EzS1JfR200UzBzeWVELVR4RWhtLXNXWTBFU3AydkZ6aWk3MXZnSTZKaEJjeTd5NdIBcEFVX3lxTE5lNU5RZFp5azZrdjVTcVVLQ3lwSlh1b1ExRjlpLWwxRFpRVkFLNHd3RkgxMThMVDlFUlpkMGd1bWxWNmNOdC1DdHVGZXZ4ZjFOUFE2SjFRUFZ3eVpOb09kZVB6LVRFRWx4VmZRTnhfaFk?oc=5",
-      "pubDate": "Fri, 05 Jun 2026 01:01:03 GMT",
+      "title": "현대차, 휴머노이드 아틀라스가 '고스트 라보나킥' 배우는 '메이킹 필름' 공개",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9IeUMyM2s1d2RVeVlDMnoxZmRTME1Oc0JCU2Y5ajZQLV96QU9KcHJNd2JQOGJpNXMxazVoMUg4Z3lKT0RaNktreENDVlNGdFdaalZZN2ZNWWppMzd0RExKZllETVBzeG1oZlphUdIBcEFVX3lxTFBEX3h6NGpHa1ZZZTg3U0JOUVR4ZmRtd1p0R25qUHNtNEJDb3U0VnBsZGxlX1lhLW1rbVZpV1g5OXRzbmNJUC1nMzA2eUNUazhNT3B2NXdBVWFXc29CWGRlM1AzR3c0SDlqM2E5RzF1ckM?oc=5",
+      "pubDate": "Fri, 05 Jun 2026 02:28:01 GMT",
       "source": "전기신문",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "[ET특징주] 뉴욕 증시서 반도체 하락… 삼전·닉스도 약세",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9nQ0RHVkRhb0U2dzQ5enVqWVBudmo2alA3VXpqME5UU25RcW16Y1JGRWVHaVRqQi1qenlZRThoa3NBT1VQWk14blZ0NndtZw?oc=5",
+      "pubDate": "Fri, 05 Jun 2026 02:26:58 GMT",
+      "source": "전자신문",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
         "삼성전자"
       ]
     },
     {
-      "title": "비트코인 현물 ETF, 13거래일 연속 자금 순유출…역대 최장 기록",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE55ckNfeURUMEpSdm1fNUw0RzlUeFIxQzdqa054YW5WS3pidGo2SUs5Q2hNUjFuVUFiWGJXd1ktT2padWlzajVGY1A5aGJINTQ?oc=5",
-      "pubDate": "Fri, 05 Jun 2026 01:01:00 GMT",
-      "source": "v.daum.net",
+      "title": "비트코인 가격 하락 부추긴 스트래티지도 '손실 구간' 진입",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9pSmJzUVd2LTM5TzNKR3VXcjZPeFJXRGRiMUxUS0duRUVjVzFMVVhxOHA3WFoxRFlBSjNPd1ZSaUpObUtJT1Z3d3ZNeV9YVzRlcmFHR25CTWFELURGVGJ3dXZGQVNzQQ?oc=5",
+      "pubDate": "Fri, 05 Jun 2026 02:26:39 GMT",
+      "source": "뉴스1",
       "category": {
         "label": "🟣 CRYPTO",
         "color": "#a55eea"
