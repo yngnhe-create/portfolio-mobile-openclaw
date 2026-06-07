@@ -1,25 +1,39 @@
 {
-  "timestamp": "2026-06-05T18:17:04.122207",
+  "timestamp": "2026-06-08T08:17:04.992146",
   "count": 10,
   "articles": [
     {
-      "title": "증시보다 먼저 '뚝'…비트코인 6.2만弗대로",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBWVXRXdG1NOTZhXzBwR2RjdXVvY1FNNGp0eE1EeGNndzRBVFlkX1lRZ0s2VHBFNzBQajhKajRMS000ZFhMTkdNWTR0RXM3UXlR?oc=5",
-      "pubDate": "Fri, 05 Jun 2026 09:11:22 GMT",
-      "source": "블루밍비트",
+      "title": "젠슨 황, 현대차 ‘로봇 실증 공간’ 찾는다…정의선과 피지컬 AI 논의할 듯",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1TNXFDTDVEY0cxVmtKQ0dSVENIYkM1eERSdDRURXFGcFAzTzItbnNoM3FZRDVOb0JMaS1pQmV6ZUxWdm03UFRzSVNNYW95ZEt1Mm5ZaFJEVWFMd25Eb0l6aUlKMGxMMDJ5RXZCekR0M0p6Zw?oc=5",
+      "pubDate": "Sun, 07 Jun 2026 23:14:00 GMT",
+      "source": "한겨레",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "비트코인 6만달러 시험대…기관투자자 뒤바뀐 심리 경고등",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFA5WlhaV0xGcU5ubGh0eUNIZEVKdl9GVjUzMC1UdExRUFE3SzhxR0JVOHBaY2NMR0VZOW1wWWk3Q2lmaEE3TnczMTN2NHZTMEZEc2xESUFMMFhNWndneTUyRUdDaWdWUmdKQ0xWdXpIMUlFUQ?oc=5",
+      "pubDate": "Sun, 07 Jun 2026 23:11:56 GMT",
+      "source": "KB Think",
       "category": {
         "label": "🟣 CRYPTO",
         "color": "#a55eea"
       },
       "impacts": [
+        "환율",
         "BTC"
       ]
     },
     {
-      "title": "삼성전자 “반도체 성과 국민과 함께”…구매액 20% 온누리상품권 지급",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE95SWJlaThjajNXWEZrV1ZHV2N0aXdTQjRELXNkZzNMcXRUdDNSWV96TnNuTFFqMldKTEViaDlMU1p3SnNrM3FXZmVsYTJ1a1ZnbTVyYjhPTmdEd1k?oc=5",
-      "pubDate": "Fri, 05 Jun 2026 08:59:00 GMT",
-      "source": "KBS 뉴스",
+      "title": "삼성전자, 전국 1000여 개 매장서 감사 페스티벌 진행",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBadHVCbGVudW9xMDZ5SWNaS1pyb0NLM1BOWjBqcWVPOW1VQ1REWjRSaW1yUURPQUFOay1NbTBDQmN1WmpBTVlXdHJxd1VaMVhoYnNXbGNnZFYyWm5QQUlFbWU4MHRpNHNJZ3hudEpB?oc=5",
+      "pubDate": "Sun, 07 Jun 2026 23:05:37 GMT",
+      "source": "뉴스후플러스",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -29,24 +43,36 @@
       ]
     },
     {
-      "title": "테슬라 모델Y '국내 판매 1위'…현대차·기아도 경쟁력 강화",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5sT1hwekx6RkZOUHFIZ0NyUm5iYjBSY2VxMkhWRnlVZkFwVHdOQ25DOU1ZMXVoVFktX2xhbjBYbnBxbFpSUnh4NFFmeDBCeExZTkE?oc=5",
-      "pubDate": "Fri, 05 Jun 2026 08:47:58 GMT",
+      "title": "SOL 한국형글로벌반도체액티브(423170)",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOTDFjeE9TZURZMG1DS3JDWWw4YU9jYm50NzdlLTBqZnpQREpqOHYyUWZxdV9MWlUtbWZZY0ItRTBFQjhVdTVteno3R3JkNFFwWXRwU3pQRWluWV9iem9mc1dQQ1BfWUhQS29jSldiQ1c4akJBVGVnX0pjOHNSaDhSc0p5WkhnTldLS1BmcndpM3hqNzZYUHloYW12WQ?oc=5",
+      "pubDate": "Sun, 07 Jun 2026 23:03:58 GMT",
       "source": "매일경제 마켓",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
-        "테슬라",
-        "현대차"
+        "삼성전자"
       ]
     },
     {
-      "title": "현대차 울산공장 H-봉사단, 주거 취약계층 집수리 봉사",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5XZmw1WWVlR2pmTG4tQ2w1N1BlQzkwcHhqZUlERmtuU09ZR2x0clYxYTdDb0pPbWlPVXVoNEZlV0k4X1F5MHY0X0tkcjJ6RFhNeEE?oc=5",
-      "pubDate": "Fri, 05 Jun 2026 08:39:17 GMT",
-      "source": "뉴스1",
+      "title": "[경영시험대 오른 김동선] 갈 길 먼 반도체 장비 사업",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBYbGVCUHluUkkxUFR4YlBTdUV6YlFpMHhUb29LNm1nMlhFVHBNS0NmSURZQUwteGVYQ1lRSHVnTnJBQTFxSGE3cnZyRXlxb1ROY2tuMlpn?oc=5",
+      "pubDate": "Sun, 07 Jun 2026 23:00:26 GMT",
+      "source": "DealSite경제TV",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "젠슨 황, 8일 SK그룹·LG그룹·서울대·현대차그룹·네이버와 연쇄 회동…전영현 부회장도 만난다",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9KM3VkazNvZlpiRENkTHhqMUw2LThQdEVpOEt3ZHdIck0wWEc2cW9qUUxVeUNIWFNHVF9Xa3JPT1hxeld5NHBDM1dObU9NbXNtOWF2ejhkQXFIYXNYdTFvV2FzOWpsQ21idThocmRrSdIBc0FVX3lxTE8tVHoya0ZZR2xvdE1BbHZlM0labXp2TEJIZTJ6bzJGR0hCU2d1dnJlM3hzWVRKeEpZTTU0WmZjSm9seF9fT2ZabHFOS081Y041c3RTUW1USHBHXzdFUUw5bXBjazR2RmpIZ0lybHVBSVgyY0k?oc=5",
+      "pubDate": "Sun, 07 Jun 2026 23:00:05 GMT",
+      "source": "뉴스웍스",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -56,10 +82,37 @@
       ]
     },
     {
-      "title": "[속보] “제품 사면 20% 돌려준다”…삼성전자, 4천억 규모 ‘감사 페스티벌’",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9RY3dweW56YjA5QXY1RlI5T01qLUpCREFhal8wc1Itcks5NG9rQnlBbFlfRVd5cDkzWEhQTktQcmM0RGpyT3hRWUNQX3dzdV9ySTBmWjh4WTRlWTQ?oc=5",
-      "pubDate": "Fri, 05 Jun 2026 08:37:00 GMT",
-      "source": "경기일보",
+      "title": "[오늘의 증시]'검은 월요일' 공포…美반도체·환율 악재에 '칠천피' 후퇴하나",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE55Q242SkpvOVVXSm9yUlJNNFRHbVk5a3NfTjdOcjA2R2QtMTNTSGZmWDlDSEtGVl9zemw1ODBqNUN0ZG44UnR2RTJHQnZ6NGstcW5pbEQ2c1AwRkJrZjNuetIBeEFVX3lxTE9Pam00WE0tbGg3eEczY1dCdFYxOXI1djRVMV9OZUpyQlg2bUhNUXJieFBtMXBlTU55WFNPN1BtaW44ZmdGR3JDVGJtT1BYUTRZdXB2OEk4dlc4V3JidWswTTNONGxabU16RV83ZEpMbXlsSkExS21Ycw?oc=5",
+      "pubDate": "Sun, 07 Jun 2026 23:00:01 GMT",
+      "source": "뉴시스",
+      "category": {
+        "label": "🔵 MACRO",
+        "color": "#0984e3"
+      },
+      "impacts": [
+        "환율",
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "【심층 진단】 영업적자에도 흔들리지 않는 재무 구조… 디엔에프, 반도체 업황 회복의 '시험대'에 서다",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1TdkxNd2twbzBqR3lENTRZOXJqYThoUUJscGVBWHh2WHZDZHdXZkxOWjI5RVVBa1dXaDl2R3Jaam9LVEcwV2VMUkpDNWE5ZFlwekF2R1FXLVJXcUtSLTNjZ0tRRXlIbjZwTXc?oc=5",
+      "pubDate": "Sun, 07 Jun 2026 23:00:00 GMT",
+      "source": "뉴스밸류",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[증시키워드] 삼성전자·SK하이닉스 급락…젠슨 황 수혜주도 차익실현",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE52aDR2cUd1OVRJLWlfMWJwLWt0YUc1Qkw4TlF5aGpBSnFSMzZtYm1MTHhLTFdoOWhGWjZZWV82ell6dnBpeDBMcjlTZ0N0UXFHbk8yRQ?oc=5",
+      "pubDate": "Sun, 07 Jun 2026 22:58:00 GMT",
+      "source": "이투데이",
       "category": {
         "label": "🔴 HIGH IMPACT",
         "color": "#ff4757"
@@ -69,67 +122,16 @@
       ]
     },
     {
-      "title": "에이디테크놀로지, 공채로 엔지니어 50명 채용",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBOa0FyRndSdzBHWGw0ZGxCREl0OHd5WUc3aWRBbW5QamZPZmh6dWp5cnFYb1hyYndVVW9oWVFWWkwzZGNmUldRRGlGaEtfRTRMRlcyS2hHclR6VnpGSjNKUVV6cm9ydw?oc=5",
-      "pubDate": "Fri, 05 Jun 2026 08:25:17 GMT",
-      "source": "디일렉",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": []
-    },
-    {
-      "title": "인텔-히타치, 반도체 공장 AI 자동화…TSMC·삼성 추격 고삐",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5NRDBDTVZLcTBZRENDWmd1ajIwV2VMX3dLYlp4Q0xkRU5UX3RCV3l1TTRlV2xxUU1ZUnZ0Ny1QTm1pVC1SVDVod2JhbFZHaUhuVzVfNDY2T05LUGJOcXMzMW5QQ2E1UXFVU2JaOWJKbTnSAXRBVV95cUxQTHZpSjRBNzJFOVZxUGZYaXNUdmdCMkFSRWN5dVFmSF9jLVU2dko4S091NWpmXzI5T3pyWVN5WHFYRTZLQXJJY2x6M3ZmZktocjlUR1lqNDE0Y0FyaDFpaHlfdzhscm1hLUNldkk4ZS1ZWGU4Vw?oc=5",
-      "pubDate": "Fri, 05 Jun 2026 08:21:03 GMT",
-      "source": "IT조선",
+      "title": "젠슨 황 마지막 일정은…LG·서울대·현대차·네이버 종횡무진",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB5dFNrVXMwQkZ1TEVEalFQa0owV3R6VmM4djZGQlFNd0M0X3k1OGgwSXRSRWFFejRYS0o1MTRhYXV0YlZMMk9PX21icC1Xb0dHbUx1MmZINUFfN0NucENYQTZJQXpfcHc?oc=5",
+      "pubDate": "Sun, 07 Jun 2026 22:53:57 GMT",
+      "source": "강원도민일보",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "스트래티지 매도·중동 리스크 겹악재…비트코인 약세 지속 [이수현의 코인레이더] By Bloomingbit",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5Jbm9QV0JVeTNvTTFFaU1ZRFdXUWNndGVOc3d3bmRkbDNnTzBuWEJtd0o3WUJLQkRsUDh0YTV3ZVluaWR2OVNHQ1N1dUdLOVpibXktOWJiaUt0dFhMWGJad2pOWUNSXzZMT2didmdvd3pSMFU?oc=5",
-      "pubDate": "Fri, 05 Jun 2026 08:21:00 GMT",
-      "source": "Investing.com 한국어",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC",
-        "원유"
-      ]
-    },
-    {
-      "title": "삼성전자, 성공 성과 나눈다…“국민과 함께, 감사 페스티벌”",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1BZmV6ckNJblpiWWRjWU9LempLTE1ydVlPV0FZcUdmV1Ftcno0eGRrN010cUJyS3haRHFUQ1pxZzJQVVNiVzdsdUQwbVlfX0wzZG91UkxnNlNlZi1jNzhTdg?oc=5",
-      "pubDate": "Fri, 05 Jun 2026 08:14:42 GMT",
-      "source": "뉴스토마토",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "\"전 국민 대상\" 삼성전자 역대급 혜택 공개 [지금이뉴스]",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBpWFNSNjVHNlpmM3BMSkcwanYyaUFlUGlqRmp1SnRULXBaTEg4RGdXd3llOEgtdFRseGRRekxJMFhMblJXSUdkWS01WTNGelhrQmpTVjUyX2JsOW9NeFE?oc=5",
-      "pubDate": "Fri, 05 Jun 2026 08:12:00 GMT",
-      "source": "YTN",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
+        "현대차"
       ]
     }
   ]
