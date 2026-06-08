@@ -1,103 +1,68 @@
 {
-  "timestamp": "2026-06-08T10:17:04.554611",
+  "timestamp": "2026-06-08T12:17:04.468013",
   "count": 10,
   "articles": [
     {
-      "title": "[속보]李대통령 \"반도체 초과세수 효과적 활용방안 고민\"",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1HR29LcVRIZ0ZJY1dId25VVDZvOG5Mb25wUFBuN25VQ3Y0VnRMb2tZNnU1ZlRHRTd6Y2YydWI2T2hVVUdHR2RsR1d1d2M5eDhWQ3VOeDRJRUpYQ1lYTWdGYQ?oc=5",
-      "pubDate": "Mon, 08 Jun 2026 01:10:37 GMT",
-      "source": "아시아경제",
+      "title": "KDI \"반도체로 韓 경제 개선 중이나, 중동 전쟁 부정적 영향 가시화\"",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPWlpualdReVpQcjJoX3hIQ3J2aW9aUy1lNWs2SzFvbDd2NWxwU2hZd1prWG53dzhBTnJFbUFKZ25TcXB2SnhScDEyRzBtLW9fbVFJRmNaSFl3Z1drWkcxV1JrZ3pUNklRUkxnQ3FTNDJwbGR6MmxnMmpJTngwVnprd0dpRHhQZw?oc=5",
+      "pubDate": "Mon, 08 Jun 2026 03:02:39 GMT",
+      "source": "Chosunbiz",
       "category": {
         "label": "🔴 HIGH IMPACT",
         "color": "#ff4757"
       },
       "impacts": [
-        "삼성전자"
+        "삼성전자",
+        "원유"
       ]
     },
     {
-      "title": "삼성전자-SK하이닉스 급락",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5KSDRNaXQ2OHNrMXBoNUFoRXVVcV9Gc2lXYkFvNjdwX0ZMX1hCTGFQcExwWG9yM3Fxa3RJOXBKSEE5TFlwNnh5OFNTWjNHLVBKay1aVzJtUEl1bVZpdy1xN1RRdHRMZzBNTklR?oc=5",
-      "pubDate": "Mon, 08 Jun 2026 01:09:56 GMT",
-      "source": "서울뉴스통신",
-      "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[속보]李대통령 \"반도체 외 차세대 성장동력 발굴·육성할 것\"",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE85Q3czVzl3YzVOSk9DM1g5Z2lVazdoc0FhVHNWeDBINkNNZ3hCNG5wS0FhWGZiWERjZGU4SUVmTzNaZTYwZ280T1JVWFZrRDc1TzlNOHJHdVpSeEJ0ZE5zag?oc=5",
-      "pubDate": "Mon, 08 Jun 2026 01:09:39 GMT",
-      "source": "아시아경제",
-      "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[특징주] 코스피 6%대 급락에 반도체 장비주 11%↓",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9pRkNLcjl0ckprcm92b1JIUEo0V19pSzhjRDJNeThtN0RmMFRkYTV5M3pYalFIMF9TQzJ5VEVyaUlWQkFUSjgwLWxSU2N2VVRQdHBnWkk3enV0Mkp3?oc=5",
-      "pubDate": "Mon, 08 Jun 2026 01:08:00 GMT",
-      "source": "뉴스핌",
-      "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "뉴욕발 반도체 급락에 코스피 7500선 공방",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9TODBad2ItUGRGZEZqeUhQb0RWd19lWUdTbEJfTFBhQ2ZMdy1Pd3dfLUJUdk5vSHNWemlVbGtmMUxzYjdZbnJaSnNVdXhVNTlpNjZMbHF1dkZCWEtNVFR6MFpiWVJ1Wm9hSnZkNw?oc=5",
-      "pubDate": "Mon, 08 Jun 2026 01:06:27 GMT",
-      "source": "mstoday.co.kr",
-      "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "주간 암호화폐 뉴스: 비트코인 급락, 피터 쉬프의 전망, 스트래티지 모델의 압박 등",
-      "link": "https://news.google.com/rss/articles/CBMi1wJBVV95cUxPbUN5S1BfVmdzaG1qdTJZMDhSYVljZ3RrbF9YQjQ2RTdjc3diVGZQeHVRX1EwSWR2dzB1MU8xQzBDS0UtZ1VzQmxpcFlmdGM1ZmhoNkQxRDBIRmZna2JLei0zekxYcUpTeGd5TTBCTktSd2U0cGxCSUFROTMwQkNwNTJsZFF6VHFZTkhFMi0zQWhZU2Mxbmh5SV8tMmNYZWlFdVF6VFh0NldVdUFheVVpR0JILU1qMWJDRTBaOFR4MmVkMUFmVTR0OWV6V1lIX2huaVZlT05vOWpOQVZGNVQ5ZXFBWWl0VnRScGowa2NTSTJ5LXlCbFBwaENzaEE4MnhqSlJ1WDZ2V3VUWHpoS28yRHpPYm5kNE53LTFjX1BEREtjMFQ5NXNKZDlWOWdkNk5FVm84cG9uQlJhLTFzdEcyM2VBYWZiVV9hY0JwdExUU2o3R3Vqa1VN?oc=5",
-      "pubDate": "Mon, 08 Jun 2026 01:03:23 GMT",
-      "source": "Benzinga",
-      "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "삼성전자, BTS 부산 공연서 글로벌 마케팅 '박차'",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5vQWpZeEU5eEpHZFJCM2FVVlU3S2h2dklHcmpFNnpPUTRKM0pnM2ZGRExuYmdfWTlldUdKU05INko4aTZBV0tEMlhaSVh0eXdpQjlV?oc=5",
-      "pubDate": "Mon, 08 Jun 2026 01:02:29 GMT",
-      "source": "경제타임스",
+      "title": "KDI \"반도체 중심 완만한 개선세…원유 수송 차질에 하방 위험\"",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5WSjhxSEpKNFlSS3Jfd3Qxdl9NTzJHeWRZdWtzcThjTHZObHdnbUk3Y0d2aVhsSFRjWU5UYkpLRVdkM0RVREtVSURIbVRjQTlBNjBCTzVsTm1tQ1lHOWVUUUh6cWt0ckZfUUdhSjI3a1A?oc=5",
+      "pubDate": "Mon, 08 Jun 2026 03:00:11 GMT",
+      "source": "연합인포맥스",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
-        "삼성전자"
+        "삼성전자",
+        "원유"
       ]
     },
     {
-      "title": "냉면 독대 이어 사옥으로…젠슨 황·정의선, 오늘 현대차 양재동 회동",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBqdjc3Tl92RUxld0E1bGNyZGdPRkZDRW5FYTM2VFhMN29qX1MtSGxoLTh4YmFPa1JUME1wMlZOamsyUEg2RktoOVlKNVNpZzZTZ0MtVm1UV3FvQjQxWDg5Y3FkMXhxSUE2?oc=5",
-      "pubDate": "Mon, 08 Jun 2026 01:02:23 GMT",
-      "source": "녹색경제신문",
+      "title": "반도체 호황에 완만한 개선…중동 전쟁에 ‘하방 위험’ 상존",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9QZHdVQ1dGcDBuTzczQWhTa2Rlamd6VmFnanBzSjJUNjNIMTlmODBQOFkzaTJqVDlyRmljSGhITlJWTjhTeGhlR0JJWnJIVVppWkRQSU1adXk0bVo1YmxIYXkxb2RZR1UzX01V?oc=5",
+      "pubDate": "Mon, 08 Jun 2026 03:00:00 GMT",
+      "source": "BBS불교방송",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "삼성전자",
+        "원유"
+      ]
+    },
+    {
+      "title": "KDI “반도체 호황에 완만한 개선세…중동전쟁 하방 위험은 지속”",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5pbzBzd19GTmswUk5iTFBIa2UzYXNKWExjemY1d0NZOHBGenFIMkwyT3lqOUFHdTk0eTdUMVRsMkJMYWR0eEliRU9tWWlsYlJyYzRJVktZWXoyazg?oc=5",
+      "pubDate": "Mon, 08 Jun 2026 03:00:00 GMT",
+      "source": "KBS 뉴스",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "삼성전자",
+        "원유"
+      ]
+    },
+    {
+      "title": "‘미래는 지금 여기서부터’… 현대차, 월드컵 캠페인 선봬",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5tbGJ2SnpJWTVYbEprcWFrZTdHN2pNWVZjM2pvTE9JRFNVaTYydUwybTlQaGV1WUFXZmhpc3NZTTk3ZkFqNWttaHcyakpHbGVU?oc=5",
+      "pubDate": "Mon, 08 Jun 2026 02:50:21 GMT",
+      "source": "문화일보",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -107,30 +72,68 @@
       ]
     },
     {
-      "title": "SK하이닉스-엔비디아, '메모리 공동 개발' 장기 혈맹… 반도체 제조도 AI로",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBnVElCc3IzaUVQeTVwNl9vRnNEU1NrcVd0LUxOUkhIcXVJc2dXcXo1ajIwVzRCeG9RdGUzX0JhV2pkY1Q2eEx6VTlnOUctMnBDM3p6My1zRmhTZHcwakpvRm5TSQ?oc=5",
-      "pubDate": "Mon, 08 Jun 2026 01:02:08 GMT",
-      "source": "매일산업뉴스",
+      "title": "“반도체 호황 성과, 고객과 나눈다”… 삼성, 구매금액 20% 상품권 환급",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBuWmFqOXpURl9PeTVWSl9wTVowM3pPYXM3VWRUTFhGaXdkOHdmUEpJajZ5RUZocjZMVENuZHJqd0VWVzdnQmpzX1dWdGhTZWdQ?oc=5",
+      "pubDate": "Mon, 08 Jun 2026 02:49:52 GMT",
+      "source": "문화일보",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
-        "NVIDIA",
         "삼성전자"
       ]
     },
     {
-      "title": "뉴욕發 반도체 쇼크·환율 발목까지…증권가의 코스피 대응 전략 들어봤더니",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5RWlZ6amlhSDQ5TTY1NVFhcE80YTV4SEZxWW9WWXdfNml2V3ZScFg0SldhOElETWx3R2dwakRJV0NQUHZPcXNTLTFudXVSY1RnYkRJWm9tenlpWnRuZDZlX05n?oc=5",
-      "pubDate": "Mon, 08 Jun 2026 01:01:10 GMT",
-      "source": "매일신문",
+      "title": "李 \"반도체 초과세수 활용방안 마련…부동산 보유세 대체로 낮아\"",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBOM2E5NFFmdy1KZWNScjdTVGl6OXB2Q2ppMW92bzY5OTNyY05DZ3VraEhoOGhaZWVMNnBBUTJFaVAxNFpNOHFCaWZKUkxhOUk?oc=5",
+      "pubDate": "Mon, 08 Jun 2026 02:49:32 GMT",
+      "source": "v.daum.net",
       "category": {
-        "label": "🔵 MACRO",
-        "color": "#0984e3"
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
       },
       "impacts": [
-        "환율",
+        "삼성전자",
+        "리츠"
+      ]
+    },
+    {
+      "title": "李 \"반도체 초과세수, 미래 투자에 활용\"…초과이윤 분배론엔 신중",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1oYUNfV2hHSE5CODVUR1dmLU51ZkloUzBLa2ZJbHFNS3gxSmNXR01RLV9BX09kYnM0MEpsZllnSTE3LUVuSVJZYjhlTlc0Rnc?oc=5",
+      "pubDate": "Mon, 08 Jun 2026 02:44:32 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전자 30만원·SK하이닉스 201만원 회복…낙폭 축소[핫종목]",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE02cEF3d2N2b240cXZzUmloNW9mWUJHMG5zMlZGX0RZcmJiejRjNU02MExYbF9aemF6ZkhmTWJGRmJ4UEFzbUcydjFWUzd3Q3RZYThrTHV2SnBYMVVIVkNV?oc=5",
+      "pubDate": "Mon, 08 Jun 2026 02:37:40 GMT",
+      "source": "뉴스1",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "\"로봇·반도체 기업에 자금 단비\"…대구도시개발공사, 120억 상생펀드 푼다",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9LNlVERk9qbEk3ajQ5aUpWY3NhckQ5WlN2RjFTblNJQ0V5UVNYSVcwbjRXVGF5cFNacUVhT05pTzdGTGVhakw5Ykg3UXQzTW8?oc=5",
+      "pubDate": "Mon, 08 Jun 2026 02:35:04 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
         "삼성전자"
       ]
     }
