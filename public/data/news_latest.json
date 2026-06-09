@@ -1,103 +1,12 @@
 {
-  "timestamp": "2026-06-09T08:17:04.391104",
+  "timestamp": "2026-06-09T10:17:05.140777",
   "count": 10,
   "articles": [
     {
-      "title": "월가 반도체 고점론 실체는…전문가들 \"지금이 저점 매수 타이밍\"",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBVTHlvallDRkdEbzFVT1JrNktDQUtRRnhrcUlZejBVVHl0cWllWWdyS1pueE9QSkdVMFlOX3ZDbmVrQWhIVnFkUjVCaUxiUGl4Q1NFT0RKbXNXd9IBVEFVX3lxTE1GMVI1YmVhTnppRGUwQnZJai1SYUUzemF3WGJkR0Z1TWtSUXA1U1Q2amlkT043RFJmUEJDd2lzRmxZWXZYbHMyMTVkeEduLS1NalAtZA?oc=5",
-      "pubDate": "Mon, 08 Jun 2026 23:08:22 GMT",
-      "source": "한국경제",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼국지 뺨치는 코인 ‘합종연횡’…거래소·금융사·대기업 주도권 쟁탈전 [비트코인 지금]",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE01eXpnNm53YVlnRDRoVFhJZ2ZaNm9fRGlFMUZLUE1wUzJXZFR0cjF6UGItU3ZubUFmaUctYjBGVnAzWldwT0hhRkx0M0xEVG0tbjUtcFdIcWVHM3UtQWhYWg?oc=5",
-      "pubDate": "Mon, 08 Jun 2026 23:06:48 GMT",
-      "source": "아시아경제",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "[뉴욕증시 브리핑] 반도체 반등에 나스닥 0.9% 올랐지만…다우 소폭 하락",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5aWjRxb2lSdTllQnR5aGZqSDBET2RYVl9KZ29BLTdjZExOYkIwdjh6M1lDVkRXd2VNNGMxTU5wYXJ3bVIxRm80UWQ5RzFFTTFt?oc=5",
-      "pubDate": "Mon, 08 Jun 2026 23:05:36 GMT",
-      "source": "블루밍비트",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "광주 반도체 FAB 유치 전략 모색 토론회 개최",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE50dEFKa2c4RnpNRlVCdHpHX2dJdFpoS04zVWsyazdzenJKa25FWFoxalc0cHB6MTJhbC16NksyTHVINVZ2Y1lvQ1dXd2NBVWYxUndHcENIanE2c0tuUlZPcGFfZF9rcVVPRmc?oc=5",
-      "pubDate": "Mon, 08 Jun 2026 23:04:57 GMT",
-      "source": "데일리저널",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[속보] 미 반도체 훈풍에 삼성전자 · SK하이닉스, 프리마켓서 6~8% 급등",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1jRUl3TGtLUndRUEc0MDZQQnFDSmZrbi05blBsTGZ0aGZSbDFNMmhuVGJSUENiY3RQLXBVZ2lQSmNFSjFrQjh3Z1REbmt6WlRPTThVUXc3SXN1S3hkNFc2U3NVY3BkZUxZcHJkcVgyM3JyT0J6SEgxRlFlZ9IBgAFBVV95cUxNX0drZUJNQ29OZUZFal9idVMyOExJMzhQeTk1UlAzazRXanM1bjVkUjZjLXJudWRzcGlXSUh0Z2JCdU05LVZjbVZORGhXQ1gyQUJ3eTMzNW9hUUk4ajNhVWhoOFMzazVVSGdzTksyajZiZU12SkZHa3Z4UDV4Z2M2Yg?oc=5",
-      "pubDate": "Mon, 08 Jun 2026 23:01:02 GMT",
-      "source": "뉴데일리",
-      "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[분석] 코스피 8000선 하회, ′검은 월욜일′..＂반도체 잡음은 단기적＂",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5lZFgwT1A3M1VybUNTR0x5YjZZTWxMTkluZFpmc1dqVFM0eEpFU2lWM2ZqTkwyb0JvUEYxOEI2UlB4UjF5cEpYRndoazFha1dtcDJsQTVEcHp4Vko2QmfSAW5BVV95cUxPR0x6SUNXS1p0UXRUWE1zWFVocTRudUdtZmt2SGFyTHhCVFdZRWZHM2RGYTNjb2EzQ19ZdEN0Z210ZTFyTV9RdndXcF90TVhFeC1tY19kci03RWQ3a2Z1M1hNVXl0eWo2Q2FrMkx1Zw?oc=5",
-      "pubDate": "Mon, 08 Jun 2026 23:00:23 GMT",
-      "source": "알파경제",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "FT \"한국이 세계 경제 승자...AI붐에 반도체·조선·방위 혜택\"",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBITlFBcktKYk5RM3JiMXllV1Bndm9UVVZBdUV5V0NOa2xoRjdGd3B4TjJqY2JtcHMyYlRsSUNFTW55X0NBVFlueklKMUdaT2J5U1d3cGpQLV9tNFdpOFhyaGxUUFYzR2RRQm0xdldiMnNNZw?oc=5",
-      "pubDate": "Mon, 08 Jun 2026 23:00:00 GMT",
-      "source": "오피니언뉴스",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[북중미 월드컵 上] 기업 홍보·마케팅戰 '활활'...\"현대차 로봇 뛰고, 스타필드서 응원하고\"",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9PTGhmUTAzME1RVURFZkZzdVVfUVpXMzR1WUNYXzBHYm4zcEpwV3c3NE1wWnVoN3ZES25ZNy1lU1c3VXJ1UVpPQ1VWVk9Wa2VJQUluRkk5U1k5RDdLeWprSDl2V0F3QU51X0U2SdIBcEFVX3lxTE56SzZHWkhCbTMwbDdKdUlRQ0JpTDhLUDF3OEVGNVYzSDNKdU1INGNRaTFXNkxjZHZlRVcwcDQyVGUwem90TXRFSW81NkF2alZlZ2RpTDluNHlQaU9hczMxWW9xTlBFVmdoSlN6R3h6ZmE?oc=5",
-      "pubDate": "Mon, 08 Jun 2026 23:00:00 GMT",
-      "source": "반론보도닷컴",
+      "title": "현대차, 아이오닉5 연식변경 출시…가격 최대 160만원 낮췄다",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9kWjRBek5HV3ltbWJqa0VkcTlRR0tmN1plWndpOERybWNOS0I1UmRWdXJRSHlDWk04U3JCbmpqVlI0dE12Y2JWenN6LWlSNF81ZnhEekNsQjRNTFVlaTczR2FxeEZLb3g1T0xBbXBGdngzcWFS?oc=5",
+      "pubDate": "Tue, 09 Jun 2026 01:13:52 GMT",
+      "source": "조세일보",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -107,30 +16,121 @@
       ]
     },
     {
-      "title": "[07:49 가상자산] 비트코인, 투자 심리 위축에 '역프리미엄'",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBYQnMteXZzSXRmZ3JtM21DOFVEMlpiYVBLRjNTME1YU256VVdaSWxEZl9sdklRd3IySW51RDhiZUVKRjVaeGQ3blFYSDkyY0k1YlpwNE9oQW9qWUtRd2ctVGd3MTQtSTk4MEQ4RUZiZE0?oc=5",
-      "pubDate": "Mon, 08 Jun 2026 22:57:40 GMT",
-      "source": "신아일보",
+      "title": "포스트 반도체 해상풍력, 주민 수용성과 국가 안보가 성패 갈라",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9Vbkp6WnQyYlFQaGtRZmxkNXRSODhuNmo0Wi1wNVFELWZLYmp6QUxtdFhDaTExNUFkOG9WT09DWnFBZjYwT1cwZlQzRmhGWGpEVktlQVhrODVqdXhoeWhrdQ?oc=5",
+      "pubDate": "Tue, 09 Jun 2026 01:12:59 GMT",
+      "source": "전기저널",
       "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
       },
       "impacts": [
-        "BTC"
+        "삼성전자"
       ]
     },
     {
-      "title": "[뉴욕마켓워치] 반도체株, 건전한 조정이었나…주식·채권 혼조·달러↓",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1CY1l0cWhWNnh2Q0VZZnVzMWhkTkNDa0p3MVU2c1J4X2FSclhyTExVczlQQU9qTFA1UWtzMVBNbmlwbmNFWmdVRlJ4UTVaU2tUTTFXOWhWdGZHbnVhbW15YmItV1ZWa3QxUVhhY1dPVF8?oc=5",
-      "pubDate": "Mon, 08 Jun 2026 22:56:11 GMT",
+      "title": "삼성운용, ‘KODEX 현대차로보틱스밸류체인TOP3플러스 ETF’ 출시…피지컬 AI 생태계 담았다",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBmamMxU0p2VmVkQ1B2UkkxOHdsOTdpT0Y3VHZJMjlWbllMWDN3S3RjVC1pdTVxNmFfSkNSQ3MxcHdBd2xMRUEzWkx0Q3Q2UFJtNm44VzNJRFQ3dw?oc=5",
+      "pubDate": "Tue, 09 Jun 2026 01:07:00 GMT",
+      "source": "브릿지경제",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차",
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "\"현대차그룹, 단순 완성차 넘어 '피지컬 AI 플랫폼'으로 진화\"-IBK투자증권",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9qSFc5T1ZqcjMxQ0RNMXpoRVFXdElfWjNIaTZnQzhpU0ZsUGJ2cFlfaHdCU3hEcl80S2VFR01KWm44X1ZocHd2b3F4RnJ2Nm10STBkVlBiM0IybU5wODBMRk5uUlY?oc=5",
+      "pubDate": "Tue, 09 Jun 2026 01:05:44 GMT",
+      "source": "PRESS9",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "“롯데카드 고객은 삼성전자 구독료 할인”",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNZXUyNjJjTXcxTWVPSXc1MVZ2cmtzZDEwYVBrUDBBeXdMc3dZMVMyMG5xNHZ3RnZKZDhEUy1zcFJremk2WkdGUHAxaDdmaWg2REJORUZub0ZPNFdIUnowbFU3TlF5RnZ2UHZ5RmxIcmczUGFmY1JqTzA0Y0RoREhHUDlKZw?oc=5",
+      "pubDate": "Tue, 09 Jun 2026 01:02:43 GMT",
+      "source": "글로벌이코노믹",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "올해 1분기 경제성장률 1.8%…반도체 수출 호조 등 영향",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBhZTBIdHBubnN4QTJKcWZMcWdOYktvSXUtMUJySEJKVS14WVhESktNbmxtMjVOb2lQaWdPelJVQkRzVXZQaTczU1lCQjZfVkdMampHRnVlamIwQQ?oc=5",
+      "pubDate": "Tue, 09 Jun 2026 00:59:00 GMT",
+      "source": "농민신문",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[특징주] 삼성전자 30만원·SK하이닉스 200만원 회복…美 반도체주 반등 훈풍",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1nMll2LWp3aW9tVzF5dVNibnV2ejQwQlBLWEp6QlBnNFZQWE9oQXAxZlZiWHRSQzFDSnVfQWl5ZDRGem5MbzVjUXV6STdsZktXdC1USGptMXUxQWpp?oc=5",
+      "pubDate": "Tue, 09 Jun 2026 00:57:00 GMT",
+      "source": "뉴스핌",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "현대차, '2027 아이오닉 5' 출시…가격 최대 160만원 인하",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9BSFdFQ3dGMnJfYWhWcDFROWhEVlZwWWtEY2Mtd0laR0ZGSkdZR2VXalR2aXM1djFQazJvUjVNQlI1LWFlMkJkNG5BaXZjMThiaXd3WVV6RV83c0ZjaWVIWWFwbnNaTXVwSW1HUHpPcGk?oc=5",
+      "pubDate": "Tue, 09 Jun 2026 00:52:00 GMT",
       "source": "연합인포맥스",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
-        "삼성전자",
-        "환율"
+        "현대차"
+      ]
+    },
+    {
+      "title": "미래에셋운용 “SK하이닉스·삼성전자 레버리지 개인 순매수 3조원 돌파”",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9rN3ZwTElDYTB6VWFod2cxMC1mTUE5VWIySzV4M0x3TlVxZ3ItZUZxQVF1bFpUWUdYMWo5RkF2ZVBmc1BxeVN3VExyNWJqdw?oc=5",
+      "pubDate": "Tue, 09 Jun 2026 00:51:37 GMT",
+      "source": "전자신문",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "현대차, 뉴욕서 FIFA 월드컵 특별전 개최…100년 축구 역사와 미래 모빌리티 비전 선보여",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE11YUNnSkh5c282YzMxbkJYeWM2Z3FROW1OcnIzeG13RDZQMHh6YUl5emt0c1VYa1dYTDRQVjNUeFVCUHQ4cHluVk9IUWszQlF1VUdhUHUzbkxRczFWbXVPeUQtZ0w?oc=5",
+      "pubDate": "Tue, 09 Jun 2026 00:49:55 GMT",
+      "source": "PRESS9",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
       ]
     }
   ]
