@@ -1,12 +1,25 @@
 {
-  "timestamp": "2026-06-10T14:17:10.604383",
+  "timestamp": "2026-06-10T16:17:04.622838",
   "count": 10,
   "articles": [
     {
-      "title": "[현대차 레이더] 현대차그룹, 미래 모빌리티 외연 확장…수소 생태계부터 게임·AI까지",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5wTVRVc0RQenJ2VndQT3E5Q3lyRXFkOHI0bzlDX1JKQ3V1QjE2elJXREdneVZVMzQ0VW5XU2tEa05YRFJCOGltdDZQY296UWJERVhkRA?oc=5",
-      "pubDate": "Wed, 10 Jun 2026 05:10:06 GMT",
-      "source": "더밸류뉴스",
+      "title": "반도체 호황 뒤 그늘…‘이자도 못 내는 기업’ 40% 역대 최대",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1pRS1xbGZ1TjdDWGE1eEYzejZCSmR4NldVMENTLS1TQmtaejU4RHdzVmoybTJMNFNicVNabnNXUjdaWFEwNXV3WFdfcC1ueV9ET2I2cVhn?oc=5",
+      "pubDate": "Wed, 10 Jun 2026 07:09:28 GMT",
+      "source": "중앙일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "아이오닉으로 월드컵 게임…현대차, 에픽게임즈와 협업",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBsMG4zNENOMV85TExfQndmZGJyMEhlN2Z0NzBpcFZxbDQ0aXVKVGVOWGxEbzNSNHp1WnV6dnJ0RkdraWV6VmJjRGx5QW5wajA?oc=5",
+      "pubDate": "Wed, 10 Jun 2026 07:09:10 GMT",
+      "source": "v.daum.net",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -17,9 +30,9 @@
     },
     {
       "title": "모건스탠리 \"반도체는 구조적 공급 부족…가격 상승세 장기화할 것\"",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5ka3lFYmdZb21jN05NS2YyYjNKWTYwb3dpelVNRHROa2xFNDAyRUN0QUJvckdFYVBlbGJtNnlKSXEyNjJrc2hza0hmaEVZeUM3OEF2T1VITHR4eFBTM21FeVZ5b3BlWEpQUkpXT3R5RHlaQQ?oc=5",
-      "pubDate": "Wed, 10 Jun 2026 05:05:08 GMT",
-      "source": "KB Think",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE84ZUZOR2RMZmlkX1dtcFRERWExeDk4X25CaTVoYWRyX2M1cm1yWEN2ZkNOSHdUWVdBVHhIOEhhUy0zNVZuVGpudXlQRTQySmh6OTBDYUE0V0lZelNrVDRXLVFLTEZUcjVfUWlmVTd6UXI?oc=5",
+      "pubDate": "Wed, 10 Jun 2026 07:05:18 GMT",
+      "source": "연합인포맥스",
       "category": {
         "label": "🟢 POSITIVE",
         "color": "#4ecdc4"
@@ -29,23 +42,10 @@
       ]
     },
     {
-      "title": "CME, 비트코인·이더리움·솔라나 담은 가상자산 지수 선물 출시",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9Qa0R6VnctVFg3YW9WZFg3bGlxWGRYQlY2aXY1SjB0c0xRd2pFc2dFUGtMcXlWZ2hablI0WWRLdVZJb1JkUDFBTjRJQV9qM2sz?oc=5",
-      "pubDate": "Wed, 10 Jun 2026 05:03:30 GMT",
-      "source": "블루밍비트",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "삼성전자, 미 유전자 분석 장비기업 ‘엘리먼트’ 1대 주주로",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1qOUUxOHJSc2FPTHBuV3FFZVNUcndoZEVmSEFjYVJ5MFVMT0d4aGhmMzIwbGZLUXFmSjYyenY4MXY5TmlEZVdQc21yWDJUR3FSOVZZTDJMcFUxUdIBX0FVX3lxTFBodVVvZzZIUktVUjc3N2xHRVVkT2FaUUVHMlJlRkdhSmFXdWJ5R1U0OHVEaTJTUG55RGNVNGhMTGEyQnpIaFd1Z0NIRUd3a3hJcjBfc0xYb2lYQnVzenkw?oc=5",
-      "pubDate": "Wed, 10 Jun 2026 05:02:00 GMT",
-      "source": "경향신문",
+      "title": "최태원 “반도체 공장 무조건 한국에만 짓겠다는 건 아냐”",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOR1pyOVpXODl5eHVqUFE1WEU5RDd0MFBfZVBmeUxwZUg4RWlUT1liUVVzQk4weUtNeERodkJxMEFnZk1LMlNWeEhkWnRoSWRiNGw1MEFVUFZhQXFJOWkwT0dCRXV0d1dBWklsUlV6RVJBTnR2LWdpbGZaX0h5V0NPekV3?oc=5",
+      "pubDate": "Wed, 10 Jun 2026 07:00:00 GMT",
+      "source": "한겨레",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -55,23 +55,10 @@
       ]
     },
     {
-      "title": "에임인텔리전스, LG전자·현대차·네이버로부터 전략적 투자 유치",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB0QVpwX2gzM1dmdWNybHYtNkZmeF81ZmlhVGp0b196VVJlTmljV0x5WmVpUmRaRHY3YmN1UmZHY1JCcThkT0V0elZoaF90RFBiUW1MMk9kazAwWkJZdFVCQWxVTm5QSlg3dnc?oc=5",
-      "pubDate": "Wed, 10 Jun 2026 04:56:34 GMT",
-      "source": "AI타임스",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "中, 대미 수출 35% 급증…AI·반도체가 견인",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9xQ2ktcThCMWZRd055ZnBFN09vaGg1X3IzNUZ0ME1FbmtkMktnNHNNZzh4RzFUT3RscldtRy1ZdlhvTndrNWJjVWxZTkdyYWIwZUppSmh3Ukx3S3AyMlhR?oc=5",
-      "pubDate": "Wed, 10 Jun 2026 04:54:33 GMT",
-      "source": "헬로티",
+      "title": "서울대 SIPC, 실리콘 카탈리스트와 韓 반도체 스타트업 육성",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE43QzRVRlI5Q2g1blVqdTUzc3FMcG1tYlJqTGxCa1lxVDJnOF9UajNZZ0dYR3B1aVVKdEdsZDhjbHpjeVBUbG12UW1tT2FMdw?oc=5",
+      "pubDate": "Wed, 10 Jun 2026 07:00:00 GMT",
+      "source": "전자신문",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -81,23 +68,10 @@
       ]
     },
     {
-      "title": "현대차 인도법인 \"모비스 화재 생산 차질, 오는 22일 전면 정상화\"",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE56ZndMQnQyaFBVTmdORDEzSTFXY2std3NhMVlYS0xrU3ZiYTQ3aGZRZlBnamFTUXo4U0JJSnFnRHd1dGJFZUZOMFlLR05UZmdDeGpTLXhmTEV6cDYteEhFbU5xbGNjYTluTkhLVUFZNUo?oc=5",
-      "pubDate": "Wed, 10 Jun 2026 04:53:15 GMT",
-      "source": "연합인포맥스",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "삼성·하이닉스 호남 투자설에 TK 긴장… 경북·구미 반도체 유치 전략 향방 주목",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5KaXQ4MW9ncHFOak1GRzBlbDBRSFZFUFVvMW5jamJPWktsSk56N0pZaUpqRGJTejBIa2ZHeGF5MldNdTF4Y2F0c0FZSjhEY00?oc=5",
-      "pubDate": "Wed, 10 Jun 2026 04:47:59 GMT",
-      "source": "v.daum.net",
+      "title": "반도체 클러스터 마지막 퍼즐… 용인반도체마이스터고가 답하다",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5Jd0hLcEJmOFBXdGNkYk4wc0pqdndkOFMwMmVLSzgtTUc2WHVuN1VmcFVkNzl6ZlpBY0ZaTkNOQTZkVVZwcE8wNlVMaFFYNVFtUWlLQW15UzZySGc?oc=5",
+      "pubDate": "Wed, 10 Jun 2026 07:00:00 GMT",
+      "source": "경기일보",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -107,26 +81,53 @@
       ]
     },
     {
-      "title": "박민우 현대차 사장 \"자율주행 승부처는 데이터…E2E 모델 고도화할 것\"",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBqZFhZVG5pNmtEWG5wVTl3WmZhZjN6dUNIYk90ZmMzcUlXLWFoZXl5MUszTGU5XzJzZWJFRGpRYnNBSFhhdXFaV3RQRFlld1U?oc=5",
-      "pubDate": "Wed, 10 Jun 2026 04:44:02 GMT",
-      "source": "v.daum.net",
+      "title": "[증시 레이더] 코스피 하루 만에 8,000선 붕괴⋯반도체 차익실현에 4.52% 급락",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9YdWkzUjU4aGQxSjlJMndSVE5CVF9JM2FLZXFIVV9JNzlaS2NybGltNVZwc2VYTXdhbnEyV3NldTV3SHNGNXJFdXFveUFOQ1NocHBCX0Q1dV9ORDlRS0E?oc=5",
+      "pubDate": "Wed, 10 Jun 2026 06:57:49 GMT",
+      "source": "포커스온경제",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전자, 호남 반도체 패키징 거점 검토…후공정 국내·해외 이원화되나",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9WanpQWDFDby1iTEJIZllJSGV6MjU5WGJyYlFLR0ltczJjd3Z2TnVzUy1Hd2lpSTlwNEROYjNyTTdBalVycUVBcWFPRDVEVThzdjhEVU4zQy1iRk9QMS1QUTA2cTMyNUhJ?oc=5",
+      "pubDate": "Wed, 10 Jun 2026 06:57:01 GMT",
+      "source": "녹색경제신문",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
-        "현대차"
+        "삼성전자",
+        "환율"
       ]
     },
     {
-      "title": "이천교육지원청, ‘어린이 반도체교실’ 운영… SK하이닉스 연계 미래 첨단인재 육성 본격화",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBNT09HNUttR1NuZDdXNmJFN3JNTUtaSldtb1M4Q1RoakJjaDFTdEFvN1RuV21RODltQmJxX3lXUEpBdDkzQ3NuTzVxU0VDRzg?oc=5",
-      "pubDate": "Wed, 10 Jun 2026 04:43:01 GMT",
-      "source": "v.daum.net",
+      "title": "삼성전자, PIM 검증 플랫폼 구축…AI 메모리 정조준",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBOWndHWkZON3ZaYVFYM1U2ZVNpNV9CdXNvaWExTHl3MkdNRnFnWkhoUzhjVEtaaHlEc3RIQ2o2VXlMSTlnZnJWejFab2NBNzJpVGp2RnhVdUdzcVlqaWFsUg?oc=5",
+      "pubDate": "Wed, 10 Jun 2026 06:55:37 GMT",
+      "source": "뉴스토마토",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "8천선 넘은 코스피의 민낯…빚투·반도체 쏠림에 급락장 재현",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1DTnMtcm5mclphTlFuelFuMVNybVZGNGRLZ2RrRHpHcDNGQmtjVlNvRk15a1RIcTU5M25GOTZxcnVPN0FvSGV3WS1xbmhRQnM?oc=5",
+      "pubDate": "Wed, 10 Jun 2026 06:55:07 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
       },
       "impacts": [
         "삼성전자"
