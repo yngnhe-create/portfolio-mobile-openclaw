@@ -1,130 +1,131 @@
 {
-  "timestamp": "2026-06-11T18:17:05.187933",
+  "timestamp": "2026-06-12T08:17:10.373215",
   "count": 10,
   "articles": [
     {
-      "title": "반도체 생산 고순도 중수소암모니아 국산화 기술 개발",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB4SFRrZnV2UjdvSmJ3U2NxcXpLaDJUYkFnSDlLd0tKekR2bm5nbkVWc09kX2RNR1hBWnpTaFdhYWgtbDN1ZzJESGhTRE5HVDA?oc=5",
-      "pubDate": "Thu, 11 Jun 2026 09:05:04 GMT",
+      "title": "\"걸리면 징역 20년\" 전 세계 해커들 돈줄 끊겼다…비트코인 1만 개 세탁한 일당 체포",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4wb0Y2UFNZb2xRbnA4aTJJbnBVUEppR2t6c3RrblVxMWpkOV9vSnBRZmdSVl9CaTZVZ25qazV1SnpsTm9UMkF0SVRweEM0X1VFdVNuZjh5SUpHUnZ6NkRCWC1DWndLLXUxME0tXzJsSlFyMzg?oc=5",
+      "pubDate": "Thu, 11 Jun 2026 23:07:27 GMT",
+      "source": "핀포인트뉴스",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "[시황] 미국증시, 미·이란 합의 임박 소식 및 반도체 급반등에 상승",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1HM3ctUzlqa2E4WGJjWVdDX2llQ2xrNVJNYk9ib2IxNHVSWlQ2T09mZW5IMmdpSlRzWUs0ZnpsWFJXbVEtOE5Bb0d2WEgxY0x4bDdNZWhBSWE4TThOY1pkVER3?oc=5",
+      "pubDate": "Thu, 11 Jun 2026 23:03:27 GMT",
+      "source": "버핏연구소",
+      "category": {
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
+      },
+      "impacts": [
+        "원유",
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "식재료 보고 알아서 레시피 추천하는 냉장고…삼성전자가 그리는 차세대 AI 주방",
+      "link": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxPQl8yanAzRHBBTlE2bnU2eFV0XzBXdHJzcDBDNzdQNXBrcDN4ZXNzM0tKZEZBODU1XzNZZGxMaUQ4N1RZcHowNXVvX09jY1hCNThCT1d2aEJiQ09yeU5KcWgyekg5SVZLcWFtQ3QxU2JybHYyMVhQVzFrTFpYcEJFa1JMQUk1VVJRNHBjN295NGJWX0tPbjZ3bVk0MVZzWkxCTXVqT3pKRnNVOGRaU01RblMydnRiTjlWSWQ3MkNBcDkyUE1zYWFmcUV5bm5VX2UxVUIyX1pkUS1tVWdYVWNtYjlGQ1VLQ0Y2VXZPNGI5NWVCNzQwYzMyRUlyWlRkR0NLbUJjeUFqYlBXOVJ2TTluRDRraFJUT3BjLW5TQktZMEVJbXlVOHZuWVJuZzJnbEtwYXdQQ3hhUzQ?oc=5",
+      "pubDate": "Thu, 11 Jun 2026 23:00:00 GMT",
+      "source": "Samsung",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "트럼프 \"합의\"…스페이스X 첫날 폭등? \"반도체 조정 끝났다\" [김현석의 월스트리트나우]",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1RU3VGTTJucjBLT3B0Yno2OWRtQV9vblB2ZE1naGpadklRZTZYbm9KazdLQVp3dVctU3kxNWtjNGpCV3BUa29hclRNN2I1NDh5cVJnaDdNTlZtQdIBVEFVX3lxTE5naHlQeHJ4RF9IZ0VZUXNSaElEZG5kcnpSS3JtaXRWdkk2UE9iRHFOczZMTEpfS1lVS1p1MzJZekYyZ2pfanRZTHBsQXJDY2VCLWFCVw?oc=5",
+      "pubDate": "Thu, 11 Jun 2026 22:58:43 GMT",
+      "source": "한국경제",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "뉴욕증시 급등…반도체 관련주 1년 만에 최고의 상승세",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5QYURBWHVkLXdPQXJvSGk2dXJVeHhQbHFKcFJLZzdha1M2ZmdnQzl0YnNZZldGV2FPNGpmZVFvNWRyaGh5dldJMDZiSTg5R1lQRnAyQm9TN2tXNkNWMTZBSUFKaHRXMG5s?oc=5",
+      "pubDate": "Thu, 11 Jun 2026 22:49:04 GMT",
+      "source": "한국NGO신문",
+      "category": {
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "구글 차세대 AI칩, TSMC 생산 병목 대안으로 삼성전자 고려",
+      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5PTlRtRUVGQjhNcDVRUkhOMFdkMTFnZTI1WmtjRWhxODVwa0JzckJqajktTGZMR09GSlhkRHRzWmpJRzZuTUdrMzlYWDc?oc=5",
+      "pubDate": "Thu, 11 Jun 2026 22:41:09 GMT",
+      "source": "전자신문",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "NVIDIA",
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "구글(GOOGL.O), 차세대 반도체 일부 삼성 2나노 공정 검토",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFAtOE5QVUl0SnFOcnV5MC0xbXVCMVk1T1lFdlZDX3FIYXdfeUF6bElhUVNac0l2OHVfVFlYUThJaXpwYlp4UXFKV0REY0R5Q2NIR0hFeGNUWXgzYVhaRmfSAW5BVV95cUxQZGhJd1R6Qm1HZE84M3dwVFZlQXQ1QXZ0WlpQLUdqQ0JEU3BSZHdfNEhmNV9Nd1JveDhkQ3FZRlRRajRQTkN1Q2xzc3FXQXlabjZzRHNnYVBlOHF1WXkxX1BISWVpdm95b1pxb2pqUQ?oc=5",
+      "pubDate": "Thu, 11 Jun 2026 22:37:57 GMT",
+      "source": "알파경제",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "데이원컴퍼니 개인정보 유출...삼성전자도 피해 우려",
+      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBkZVRZZHBOMDl5X2JXQzJ0bUNNUjF2eGcwOHFOMjhsdU4wN3pVUU1xeGl0YkhkdXBvUlZ2cjduZWZVR21fekZqVFBrdkI?oc=5",
+      "pubDate": "Thu, 11 Jun 2026 22:37:17 GMT",
+      "source": "아이뉴스24",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "“AI거품론 틀려…반도체 정규학과 늘려야”",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1DWURBa2lfcjdzNkdYVjltTUJDNTQyMnFWWU9tLVF4YUpQOWEyQ2JBNm1OYmFfaW1KX21TYmMwem5hVGd0Z0JfRU5jMVFqQWUwQUHSAVNBVV95cUxPaHFNOUNZQlM0V0d3U0dEZEhxWlhyd2JGQ1lDM1pqQWU0cC1lX2VjX3ZDS2ZyNFdZd0dabFI1UER4M0h1WWx4NWlSMWZNNi1xbHhUaw?oc=5",
+      "pubDate": "Thu, 11 Jun 2026 22:30:04 GMT",
+      "source": "서울경제",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[손병관의 뉴스프레소] 커지는 삼성 반도체공장 광주 유치설",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBvZjFYeFlaNU1WdmdfakRua1hRQzBadUFPa0E4MTlHR0xrWXZxVUF3bTNKN3NGZ1JvWGY1M2twMXNSckNHSWpNSmpIQzNhcjA?oc=5",
+      "pubDate": "Thu, 11 Jun 2026 22:27:55 GMT",
       "source": "v.daum.net",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "‘삼성·현대차·기아·LG·네이버’ 최상위 5개 브랜드가 전체 가치 74.2% 차지",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBRRGtkMHZNVTZWc2czai0tenJkcVNWMnZGV3VyTFhsbDVCcEpNa2QtUFZ5dmxhdlpqRmNRWFhUdG84a1ppR1d1bTBXYWNRLXNHUDdxaVFaZ2w2VWVGdDRtbXB0Z2ZUYWpk?oc=5",
-      "pubDate": "Thu, 11 Jun 2026 09:00:00 GMT",
-      "source": "테크월드",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차",
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "샘 올트먼, 15일 카카오·네이버·삼성전자 연쇄 만남",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFAtU1UwTlRRMlVzNWUyM3poZDFZNzJmTU9yYi1CZy1mRmliNUVGd0M1YVc4dUlIbU9yMmtxZ2RIVUF4akFzbmpXMHJSSlNFWEJVRzBlaWpXeEJWb0R3S0tHb0lidkF5UQ?oc=5",
-      "pubDate": "Thu, 11 Jun 2026 08:59:53 GMT",
-      "source": "디일렉",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자, 16~18일 글로벌전략회의…하반기 경영전략 점검",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5OODhNNkZnVlVlSF9YVGlXWEFvZWpGeHU0Qk1waDJtVHJhYlcwOWt6em1EdGtiOTJfaVBGd2tKUFlvOGE0a2gyTjY0ZkZWeENuSnU3ejUyUGxlUHQwYzZmNw?oc=5",
-      "pubDate": "Thu, 11 Jun 2026 08:54:32 GMT",
-      "source": "아시아경제",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "수면부터 작업장 안전·SDV 전환까지…현대차그룹, 사내 스타트업 3곳 독립 출범",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9KdkNwRlVmUGdJUEJxc0tSUXRCc0hlem41UHRvWHlNSWVobVZGT2Z6Z3NlWm5zOThnMzR4eVpUOXR4bFp5aC1iczlJMGQzMjVITFRhSHQwanVTV2NOTERxWTNmNFpiSDhuNC0yVUtzenU1QQ?oc=5",
-      "pubDate": "Thu, 11 Jun 2026 08:52:10 GMT",
-      "source": "인더스트리뉴스",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "탑승 중에도 실내 살균…현대차·기아, 차량 위생의 새 기준 제시",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9ZOWpBRGxpSGhxNUxDYzFzVmFCSEw4Z09MakhfYlJMbWxEMTdMeWYyZVdfOC1pM3Q4VlZQRV9HY0MwZFlUTkgxcDA5VklIeTJYd3drcUxJdzdER0V4U3ZfOWk1a2U3OFpSU181akUyU3VLdw?oc=5",
-      "pubDate": "Thu, 11 Jun 2026 08:51:51 GMT",
-      "source": "인더스트리뉴스",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "비트코인·이더리움 ETF 동반 유출…AI·스페이스X로 떠난 투자자들",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9QTEp2OTNpVERHUWthVU9DOTZJU2xPNjRPM25oSndHUXpKM3h4T18zYWc3RE9mTkNSUk5fTXRUendqSUpaZVY0SG5uVi1Ob29oYllPbzRPTjNrRU9Xczg1akZyVGl3QQ?oc=5",
-      "pubDate": "Thu, 11 Jun 2026 08:46:39 GMT",
-      "source": "뉴스1",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "ETF만의 문제가 아니었다…비트코인 떠받치던 '큰손' DAT 매수세 급감",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1MWkh2SUJwWVkzX3o3RV9rYU4wVFAzcUs2WXh4X3YxdUJhUVd1QnNrRWd2Q3dSaTZQQ20zaXVuemJ4dEtUSi01em9XQzlCenhpV2VMU2t4bUpWN2xpYWxFS0tJN1FyQQ?oc=5",
-      "pubDate": "Thu, 11 Jun 2026 08:43:55 GMT",
-      "source": "뉴스1",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "추경호 \"반도체 산업 투자는 시장 판단·경제성으로 평가받아야\"",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOVWpLaEdreTJiWWM3ZkFNdWI2SFcya1NaRnhtdi02aUd6WnUxY1RzSFNCcjZyS0lZa2NfWHNHT2VwTUYyV29zbTRRa2NoRlM4emdSendKN3ZtMXB5TDU0NTRubmd5TkVGU240ZXFCZXFWTHllU1ZLTXJuX3BycTZGdVlMVmxuZw?oc=5",
-      "pubDate": "Thu, 11 Jun 2026 08:39:26 GMT",
-      "source": "tbc.co.kr",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자, 16~18일 글로벌전략회의 개최…하반기 경영전략 점검 - 머니투데이",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE51TkJQbTdrdGx4U3ZCdVFualpfVERnUWpDMTItaHByQ0NTSjRvaV9ydF9aOFFXalhyRWZGSkN0U3JvTW56OW4wak1pVWFqY2Z1VEVaaERpTGtOM0FmRzVja1A2Wld0N3Q5MVFOZNIBckFVX3lxTE1jQmJsbGJwdkRRZkdYUUIweERkenFiNFljNnlVUU42dDJsR0pSUW0yMUJHTTVaYXk0YmJ1UDJ4X091ZjVCZTRKeHQ5U1dtUW45bkdwYXpGOWJMd1NENVFnVEZoeEVXQlc2T2gzT3BaVkk0UQ?oc=5",
-      "pubDate": "Thu, 11 Jun 2026 08:38:19 GMT",
-      "source": "머니투데이",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
