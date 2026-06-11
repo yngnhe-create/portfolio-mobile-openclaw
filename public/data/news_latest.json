@@ -1,131 +1,129 @@
 {
-  "timestamp": "2026-06-11T12:17:03.915983",
+  "timestamp": "2026-06-11T14:17:04.731176",
   "count": 10,
   "articles": [
     {
-      "title": "ING \"美 실질금리 상승에 금·비트코인 '디베이스먼트 트레이드' 타격\"",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5oQ1RXMlJyLU1xZDRVN1NZY01BdXB0cjBfMXpkYVdxOWJJdXlGUF9jbENwR1lXcS10NHhUY0F1UW5naDdnZlhuX2RMU01rREdfcUt4UlNnMm42MlFacFg5MFZJZmdXUmxPdllGQW9hSGE?oc=5",
-      "pubDate": "Thu, 11 Jun 2026 03:08:24 GMT",
-      "source": "연합인포맥스",
+      "title": "美 CPI 4.2% 상승에…분석가들 \"비트코인, 추가 하락 가능성\"",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5UaU5QbDhoNEx5R1lMZm9MaU9Hc2x5NVBzSERGRGpoTDA2Tkg3dnc5bnVZRElWNXVXUHRXYUF2dmZlYzVwLXc2WG4wT2lUVVB1?oc=5",
+      "pubDate": "Thu, 11 Jun 2026 05:12:28 GMT",
+      "source": "블루밍비트",
       "category": {
         "label": "🟢 POSITIVE",
         "color": "#4ecdc4"
       },
       "impacts": [
-        "채권",
         "BTC"
       ]
     },
     {
-      "title": "잘나가는 반도체 덕에… 6월초 ‘286억달러’ 수출 질주",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5yd1RKZmxjd0dwUmE1bjFpbk9PT3ktTlhOd3FrZmVRYXdfYldyV3N4bEN5MEdKMHlqakR5Y0NmVzBsb0dzaURIOHR2SHRpb04t?oc=5",
-      "pubDate": "Thu, 11 Jun 2026 03:00:05 GMT",
-      "source": "문화일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "환율",
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "‘오픈AI’ 샘 올트먼, 14일 방한… 삼성전자 찾아 AX 노하우 전수",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE55VmZ4MGUtU29iU0R0VjVDSkVxTWd4ZWhFenZCX2NnVWY1RWcyWkFVRjJoYkpnbUNreFVDRndPdUZnYjl4TmhaM1gwZkJaVDVw?oc=5",
-      "pubDate": "Thu, 11 Jun 2026 02:54:12 GMT",
-      "source": "문화일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "현대차그룹, 사내 스타트업 3곳 스핀오프…누적 44개사 분사",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA0bVpNMGU5VTA3RFZzNEh6cHlUczFuOTduLXJHNkdYdlpERU5UYmhoTjB3dXZnb2pnM2tSYmRGaGh6cW0zM3ZxejlRVVZLTjZsMU8zRDNURF9YOUlCQmo5UWN2S3o3TjRB?oc=5",
-      "pubDate": "Thu, 11 Jun 2026 02:53:08 GMT",
-      "source": "녹색경제신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "호남 반도체 공장, 정치논리보다 경제성 고려를[현장에서]",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1UYXJkQVZxeDJsLUJiTkVwVnNhRm1nR1FhUV9LVmg0Rl9ZWXBSZ0RSMXk4NWduNm93eVN2cG9DRG9jNkYtWTF6czc2bEJjcmJK?oc=5",
-      "pubDate": "Thu, 11 Jun 2026 02:52:05 GMT",
-      "source": "문화일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[게시판] 현대차그룹, 아동보호전문기관 종사자 지원 행사",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9zVGJGUF9tZ2dfZFVfdXVoVnpydTc1WHJURmlTU0hjeDFFdzR4cTU2QWYta3BwUEZpRlNGb1l6ZzRBdy1KdW1GYkItNUEzNkt5VDZYZ2g5dExKZ3NXVTQ2cWU4UjNHN3lZck1yNXVHeHI4XzBD?oc=5",
-      "pubDate": "Thu, 11 Jun 2026 02:46:06 GMT",
-      "source": "연합뉴스 한민족센터",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "삼성전자 DX부문, 외부 생성형 AI 3종 도입",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE0tWVB6Y25Qa2NJcFFTb1U0UlZPWGE1a1ppcXJYbXhSSzNrZURQLWZESXZEMlNLUnVESmltNDUyRXJQd3J4QjNzQlg1ZTkxNGNrbndXR2EwU2c3a1RwRFY2VnpuNkFCUQ?oc=5",
-      "pubDate": "Thu, 11 Jun 2026 02:45:45 GMT",
-      "source": "디일렉",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "현대차그룹, 사내 스타트업 3곳 분사…\"오픈 이노베이션 확대\"",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA3UGVsVktVVm5UX2JIejVad1JZUVlsN19HODZsbEpDOGM4QzlNTTMxbkFxRkxwOXJ3dUxoVmVXN3pEdHFrdXhudGZ0OURJTzQ4N29RQnVQdEtwOVBq?oc=5",
-      "pubDate": "Thu, 11 Jun 2026 02:41:39 GMT",
-      "source": "뉴스;트리",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "김용범 “반도체·데이터센터 붙을때 세져”…‘호남 반도체’ 힘싣기?",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5rc0lQTnRqdk5vMkFVYjc4OGNremtLNkpndUxfYTIxQkxPeTFjcVRGZE9hakZ1MFZ1a3hTRXhfRXRidG9oRzJaMGZMSm1Yd2dtNERaazh3?oc=5",
-      "pubDate": "Thu, 11 Jun 2026 02:38:24 GMT",
-      "source": "중앙일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[전문] 김용범 \"반도체·데이터센터·피지컬AI 묶어 AI 공급망 핵심 거점으로\"",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1YTWhJUEc2NXdFNktkSjdEckFLcjhkQm82SEwxMUpJZkloSzdJenlwQVE3V3k4X3d3cnlEbHU3Z2lVbGRUTzRGRWdwLThIc0U?oc=5",
-      "pubDate": "Thu, 11 Jun 2026 02:32:51 GMT",
+      "title": "TK 반도체 투자 소외 우려…추경호 “정치 아닌 시장 논리로 결정해야”",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1nRG9KX2ZsQ2lNOG1xU0g3SE5pbkVoZ3hEUUdBN2tVTEJnRThRN3Rfd3BiUlVFYWNza0Z4QUhleERwS3RvdXRhY3AtWFMzb0k?oc=5",
+      "pubDate": "Thu, 11 Jun 2026 05:12:01 GMT",
       "source": "v.daum.net",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전자, AI 전환 속도…샘 올트만 초청 강연· 생성형 AI 3종 세트 전면 도입",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB5WUluVE1SRk9UcG1DVGRuVW9fM3RodXRic01hR2R2SUF5MG5KV0VvY2ZSVlczRjNfdU8tMkk1d2JKRVExWUNxY0pNbTBnOEk?oc=5",
+      "pubDate": "Thu, 11 Jun 2026 05:00:49 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[전자는 지금] 삼성전자, DX부문에 챗GPT·제미나이·클로드 전면 도입 外",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1Va0tGTWpKZjBZNWZKWDJXMEdQbTVuRUNlV2IwTHAxQ2xSQ0xGczBWYjRySDREcXdWc3JOY3VnbEZRYkJLQmpuOHBHNnRWblk?oc=5",
+      "pubDate": "Thu, 11 Jun 2026 04:52:45 GMT",
+      "source": "딜사이트",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "오픈AI 샘 올트먼, 다음주 삼성전자 찾는다…'AI 전환' 직접 강연 - 머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE05UnpSVWJtbTY3cHFRRzZrOGtiSTk0cWM0cEdlbEN5QTZFM0s1MjI1czFaUEVEb3dlZ0FTVVB2YlEzaXRTSndlTjVQazNjVVJhXzVMOE5sUnRUOVJUMDV0NUN1bjl1WkVWX0xVetIBckFVX3lxTE1tdWYxRXZQSlBieDg1a2h0MlBEakl3NDVDbWhsMVhYNnNMWkNJZkpvQVg5TUVYejZYdjVnVll1ZXg5WVVmd2xkVzlqOWw4X3o5V2l1VVJUYWRpZkhBSktzdGc1anFiUjhGeUlzbkNQcGt0Zw?oc=5",
+      "pubDate": "Thu, 11 Jun 2026 04:47:45 GMT",
+      "source": "머니투데이",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "추경호 대구시장 당선인 “반도체 유치 포기 없다…안전·민생 챙기며 경제 대개조 추진”",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1Td0QxNEgwUk53dWsxN0hyZy1vaU5ud0RQeGRya0ZBQ1BRUDBlZzZjeGVaSDVBaERlZkotclQzdkRLQzZKdnRfSnl3MG1sY1E?oc=5",
+      "pubDate": "Thu, 11 Jun 2026 04:44:30 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "2027학년도 반도체공학과 40명 선발… 학생부종합전형 중심 운영",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE02X3pzWVJ0XzYwX2pGbF9VZjFrdjlaanFVVm5BVFpPaXk5bFlETDN0eUZQNXlyVm1hdDZLbHpxU3hPU3hReFhMWlprQjY1dlZKblJ0c3RaRUo1N0FHb3p2RmM2UE1WRjloYWx3?oc=5",
+      "pubDate": "Thu, 11 Jun 2026 04:36:38 GMT",
+      "source": "뉴스H",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "美 비트코인 현물 ETF, 4거래일 연속 순유출…약 3263억원 규모",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE42YzNUMTFMZTZZem1Nb1JjbHQtdXctN0NYb0ZyNV9uMWxvN1EtZ1liWDNzam96NTNES05YUC1GeXdxWjVXZi11X29hUVNWelhN?oc=5",
+      "pubDate": "Thu, 11 Jun 2026 04:23:10 GMT",
+      "source": "블루밍비트",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "\"갤럭시 XR을 만나니 헌혈이 즐거워지다\"···삼성전자, 헌혈 캠페인 화제",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE83UG5uVkpLOFJINlJIamtEMHJmdEdZem1ISWRMS01MOGVVNExsQzNtaWN0Y3VURzdidVV6QTRPZlZEYWtwQ2xWMUdvZ1Q3bFZtdGkzRklvVFo5bEVjTUdYTm5vMWkxbjhm?oc=5",
+      "pubDate": "Thu, 11 Jun 2026 04:18:00 GMT",
+      "source": "한국NGO신문",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[단독] ‘삼전닉스’ 반도체 공장, 광주~장성 ‘첨단3지구’ 유력",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1Ud25kcW42cmRZUzJrYk13N3hrWlpXQjk0SFpWeW5vam1acGFDVjlMMWdHaG03eUZjOFo5N0VnWUtaaDVBeWZYWDU5RW94SDFyRFpieGhLT0lGMkpYRGt1bw?oc=5",
+      "pubDate": "Thu, 11 Jun 2026 04:14:00 GMT",
+      "source": "한겨레",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
