@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-06-12T16:17:06.117290",
+  "timestamp": "2026-06-12T18:17:04.118973",
   "count": 10,
   "articles": [
     {
-      "title": "냉장고가 저녁 메뉴 추천한다...삼성전자 '푸드 AI' 공개",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFAzVUdscW1kVm9IRlF4dUhVOVQtdHhRNEx1Zmt0aDB6UUdKanVEa3FSblVraF95LUNreEJYNHhHeXVGSXNSbUZ5Q1p0VTRRX0JsZ3NfS0dsZ1ROTm16?oc=5",
-      "pubDate": "Fri, 12 Jun 2026 07:03:00 GMT",
-      "source": "뉴스핌",
+      "title": "[특징주] 원익IPS, 반도체 소부장 투심 개선.. '상한가' 마감",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOTmEteG5tM0dObnN4OVQ4c1BrektaSUk2aDIwcWNTNFYzRy03bG5FSjlxNzNQdW5mVU5DV0tlVzNuLXFUZEc3Y3BDVzBoVXVGUGZGWmlmVXVLdkt0bmxYVm5nRjFKS0dSN1pXT2VPMWlNeUhBXzFiUmxBbEFZWHgxb1J0VjE2UGNf?oc=5",
+      "pubDate": "Fri, 12 Jun 2026 09:10:28 GMT",
+      "source": "글로벌이코노믹",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -16,35 +16,61 @@
       ]
     },
     {
-      "title": "현대차 노조, 임협 결렬 선언…파업 수순",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBZVjRaOXIyTU5taTZoanlSdC1IQVJGT096R2o4SUlFVUk4eUhuSXJ3Z3k2VGVvRl9qZGQ1b2NNMzRnWG5oYWVlVy1mcjh0M0lmeTN4YlY3aVJGT1FRak5BYg?oc=5",
-      "pubDate": "Fri, 12 Jun 2026 06:57:01 GMT",
-      "source": "뉴스토마토",
+      "title": "\"스페이스X에 500억 투자\" 한미반도체 '들썩'",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA0OUpkeUFDUlh5NnZZamFGaGRnNEFsU3BQU0Joa20zYmg0NUt1R2FZTVhweTZ2dWk5WklFU1hIaDNKVEtLdDNRUkVEQWJHd2tTYjhZSGVqTTdSQdIBVEFVX3lxTE5XdXAyeTUySE9pRGZlaFBHS1MtZFRUeEJfcmlvcE9PR3VaMTVrcExrVk5LLWg3NWhYbnU3SUEwZFJIV1kwclZtMDBiVVNnLTBNVlJlNA?oc=5",
+      "pubDate": "Fri, 12 Jun 2026 09:03:22 GMT",
+      "source": "한국경제",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
-        "현대차"
+        "삼성전자"
       ]
     },
     {
-      "title": "\"구글, 삼성에 차세대 TPU 입출력 다이 생산 맡긴다\"",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1rZ1Bfc3VvbGxycVR2Z2ZUZ1ZrVmVQMmtDUWN5eGVaTFlVVXptNXZIMkppX3R3dkhwaDFuaG1lcWdDa3FlMFQtV2FFa2FaZE1nQnpjcUF3UXdudGxqZ25VQ1c3OEozQQ?oc=5",
-      "pubDate": "Fri, 12 Jun 2026 06:56:38 GMT",
+      "title": "외국투자자 한달여만에 컴백 … 반도체·소부장 2.2조 '폭풍 쇼핑'",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1SaGdpYWRnM1c1cGNtM0pKS1pGVTY3MUJTNzJJcDZyOVdHb2FzdEhRX0YzMjZiUkE0RHRKWEkzU05WWk0yYTMtWkJJcWN6ajFvTVE?oc=5",
+      "pubDate": "Fri, 12 Jun 2026 08:55:29 GMT",
+      "source": "매일경제 마켓",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "엔비디아가 쏘아 올린 CPO…국내 소부장도 수주 '러시'",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA3NmUwazFPY0RUNEdORDhyTWNCLW5hM2dQOS1BNVl6eWE1eXFLVFJpbUhNNmlYUkozbk1HWHhRNnJmSTZvWHB5amVEU1p0SXk4MU5xbGFDa0RCLWtTVkFnNmhZbndYdw?oc=5",
+      "pubDate": "Fri, 12 Jun 2026 08:55:29 GMT",
       "source": "디일렉",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
+        "NVIDIA"
+      ]
+    },
+    {
+      "title": "삼성전자 감사 페스티벌을 네이버쇼핑에서! ... 온누리상품권 환급에 더해 네이버 전용 혜택까지 쏜다",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1YSVBjSXVjZWVNS25qOUtKNUJnaGt5amFrWjd0WVAyRFJCcVI5dXVpYmYwWW5nZ3plV1pVd3Uxem14c3pOX2FVZWFPYkxFOUhidmpiRXhadVRkSjdOQTdyTlQxa2pNUQ?oc=5",
+      "pubDate": "Fri, 12 Jun 2026 08:53:07 GMT",
+      "source": "이슈투데이",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
         "삼성전자"
       ]
     },
     {
-      "title": "AI 반도체 호황 TSMC의 고민…웨이 CEO \"가장 부족한 건 사람\"",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9yUm1SaUFlb1dBbjVmV2paZ3VnWHl6MFhtZ2RZOUNxazBOQlBBSkdra1JCTFhFR29aTWVYRFd1REtKcU9RY3JOa05hRGF4ZzY4UV9jREc0N0xVMnpITUl4UGx0NXR2YUU?oc=5",
-      "pubDate": "Fri, 12 Jun 2026 06:54:11 GMT",
+      "title": "삼성전자 한진만 \"파운드리, 2028년 흑자 전환 기대\"",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9YTm5JYTlXTDlHM3FBb2ZkbEMtQnVFMXZBbVh4WDFGZWJTY1pJcUdtVmZqNzRILVNHUTVROUVkUFVpTHJVUy0tV25BLU91eFpNOU51MUNLM1BiejR4aUNQczFDWGo?oc=5",
+      "pubDate": "Fri, 12 Jun 2026 08:50:07 GMT",
       "source": "뉴스1",
       "category": {
         "label": "📋 GENERAL",
@@ -55,36 +81,10 @@
       ]
     },
     {
-      "title": "현대차 교섭 결렬… “사측, 한 달째 입장 일괄 제시 없어”",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9ISDB4dEdkc3ZaeTEyZGdFVDFxWVYycU9EYlY2Z2QxaG1HYXpwTDh4dHgxVGQweXNuUllRTFgwXzl5Q2VrRkhhQ1p6SWs0M0phRERRdGQwaEpvYnh0SF9DYXJFMm5hOWZ5?oc=5",
-      "pubDate": "Fri, 12 Jun 2026 06:50:51 GMT",
-      "source": "녹색경제신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "日도 반도체 열풍…키옥시아, 도요타 제치고 장중 시총 1위",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5YYmpWdXBhSFM2VXhSQTFrWlVmc0pELU02MDdjV1drUUJ5Z2lfdXRlXzljUjFBUGxJbkd1RzNXbTh3V240THdoVXh3aExlQkNoQzJZQTNR?oc=5",
-      "pubDate": "Fri, 12 Jun 2026 06:49:09 GMT",
-      "source": "중앙일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "‘호남 반도체’ 계산 분주한 與 당권 주자…정작 기업은 신중론",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5yZm5EV3pDNms1c2RTWU1nZnFra3lGd1ZUMTZMT3RGSlFYOWJCMzdmSWFsUm1QX2luRkZNTnhxMWpxUy05OS1QSHVuZlRqdnU1VmstMXVn?oc=5",
-      "pubDate": "Fri, 12 Jun 2026 06:47:23 GMT",
-      "source": "중앙일보",
+      "title": "담양뉴스 모바일 사이트, 전남·광주, 반도체 시대 열리나",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBSWV9ta19vVjc5dFN5b1dNRjMxSEhVSV9PRl9vVkhnOFpjRmdqclhnQXJMSXN1WWVrMFlCLWtrNHA3blFoTUdZX1E2N2ZkMXliMFNLcnhWdEZBVDlnNlNYdmszYUpTSzNf?oc=5",
+      "pubDate": "Fri, 12 Jun 2026 08:48:09 GMT",
+      "source": "교차로저널",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -95,9 +95,9 @@
     },
     {
       "title": "[도쿄증시-마감] 닛케이, 반도체株 랠리에 66,000선 회복",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9YWk8ySWVpLV9VWnlqVy1vVnVlNlFIZ2pCUmp5SzRJeVFnWkNwX2ZHWExkUE1aSXBXei02empfeFpLc1pMSUgwaEJZMDhpVk80d1dzaVlmdUkyWkZBYURFVV82ZGZpZGx1U0lUU0VDSk5wQQ?oc=5",
-      "pubDate": "Fri, 12 Jun 2026 06:47:06 GMT",
-      "source": "KB Think",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9pbE9TVTRSR2pRVVBwaDF5WU9zdGRIRzM1UEpSUlBfUTJDRFA3VWZnal9EamxvemoxbDhIcVV4ekZWbXNmTzJXZ0xDYjVOLVBESXlYODV1SVU2bjlvZG4yVGtxTDlqblE1bWhlT0ozTEc?oc=5",
+      "pubDate": "Fri, 12 Jun 2026 08:47:21 GMT",
+      "source": "연합인포맥스",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -107,10 +107,10 @@
       ]
     },
     {
-      "title": "반도체 슈퍼사이클 초입 … 노무라 “코스피 1만1000 시대 온다”",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5iM3RMNDQwNG5vY012UU9XSmZhRmdZN0hMbER2Wm1aUno1WjJINzU2TUQ1ejY1cmsyS1E4Z1hDOFZlMWFhdXBadDZGdm5CUUZxeXJFNy1GVjdrbi0yS01lelhmNFI2MTBXc2Vyb3I4QVZKQ19QRUNacHIwa9IBgAFBVV95cUxQa0ZXYWZVRnh1cVlOV2JIOWs0TTVXVDJZekhPVWR0WFF3dUpwcFI3WVRuRnRZVXpMa2JjSGhKNHdoRVlISFVjZGxSMzdEYXpHYkdEcmVDX18wWl9HeDMwYTFmLWFtSWNEZXphWjJZdzY3dE1ZYnA2MEVPTWRZSUZNQg?oc=5",
-      "pubDate": "Fri, 12 Jun 2026 06:46:50 GMT",
-      "source": "뉴데일리",
+      "title": "삼성전자 “파운드리 2028년 흑자 기대”",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBneVhnN2dyR1hybFo0cV9oR3gyTVctRVU4eXoxQzRWMVRzYlJocUtGNVJjUl9IajVxenVVN2ZiUGN0WWRGYkFjV0xGRldJaWV4cTZKZ2FnOW1feUU?oc=5",
+      "pubDate": "Fri, 12 Jun 2026 08:40:00 GMT",
+      "source": "KBS 뉴스",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -120,13 +120,13 @@
       ]
     },
     {
-      "title": "명지대 반도체공학부, 창의융합형 반도체 인재 양성 성과… 김유빈 교수 ‘2026 올해의 新한국인 대상’ 수상",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5JQ0Y0cTNMbGpOanZiRlRmRjZERVJmNUVySjNEeHdWMzhXaEtoM3JVdWM0VHc2Y2VHTUR3V0JHS2w0MXAwd1hUVFpPNDdTRUdWWkJvcHlR?oc=5",
-      "pubDate": "Fri, 12 Jun 2026 06:41:07 GMT",
-      "source": "중앙일보",
+      "title": "한미반도체, 스페이스X 500억 투자 결정...23% 급등",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9zbnVNam90cHdveVhjTEpZMzd3V0VtT01rXy1jYnp6OF83WDg5UVVXWThRYVdhWThjQkFubzFSZV9FbVZyUkVLX3RhZElPanBhNVVjeWU4MEViZ3FTbWVLNzJDQWpaekpsTHBrcw?oc=5",
+      "pubDate": "Fri, 12 Jun 2026 08:36:00 GMT",
+      "source": "한경매거진&북",
       "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
       },
       "impacts": [
         "삼성전자"
