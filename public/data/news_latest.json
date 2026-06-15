@@ -1,27 +1,64 @@
 {
-  "timestamp": "2026-06-15T14:17:06.138684",
+  "timestamp": "2026-06-15T16:17:04.701965",
   "count": 10,
   "articles": [
     {
-      "title": "중동전쟁 이후…코스피는 '금리'와 '반도체 실적'에 달렸다",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9CbTlUMng0dm9paVdMRmNMREZJZlJ5UnhRMzBHSnBfbDgzMldhSEVXSHhKR3V6a01xZEhSTGZxTzhpWXNrTEt0dTNfZXhUc1dSTDRPck5NVjBVR2JEaHNtdw?oc=5",
-      "pubDate": "Mon, 15 Jun 2026 05:11:48 GMT",
-      "source": "아시아경제",
+      "title": "현대차증권, 기아 타이거즈와 ‘스폰서 데이’ 개최…유니폼·테이블석 쏜다",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9jekU3TDdjRTgyWlRYSmFPLTJIZnFuVmRfQk5kelpJQTduRnh3a0lVNjU2WjZXbTB0SnlOMlNaOWthcE1SYjN5aEFWRWYybTJYZVlJUElIT3QwSkhZcHNVRA?oc=5",
+      "pubDate": "Mon, 15 Jun 2026 07:08:13 GMT",
+      "source": "매일경제 마켓",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "[단독] 제주반도체, 베트남 반도체 R&D·AI 센터 구축 검토…첨단 기술 협력 '첫 단추'",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5pVWRlYzFrak9OX1lDU0pIZ3p3Z2lXV1BMcndqa2JrMnNPaHVuRjZVS2V1U01DUXJaZFNNOEZ5dHEyOU81Ymlrd1ozNjhTUHZlajNfTjhISHFIRXNIMXd1NEJacw?oc=5",
+      "pubDate": "Mon, 15 Jun 2026 07:07:52 GMT",
+      "source": "더구루",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "\"비트코인 하락 부른 옵션 시장, 이번엔 반등 요인 될 수도\"",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBGaGhVejlTSHA3cEFwa3pmSVgyWUNnM0NUX19Ndld2emhBWGo1alFTb0dwaGllNVFRRXB4N0NtTlFpdUM3WTVxZHRxMElxTXJy?oc=5",
+      "pubDate": "Mon, 15 Jun 2026 07:03:44 GMT",
+      "source": "블루밍비트",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "반도체 호황 뒤엔 경고음… 美 관세에 꺾인 자동차, 갈 곳 잃은 철강",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE8wLUJkSWZiaDhJLWl5ZzNveVpKb3ZNWFlXR3hhLTFRQ2MyTUN4TTR0RlNHZ1FOU0NNclpBTnpCNW96bndneE80cGxLSnJxOEhtNVZMY3FvNGxDY0R1NF9IblVFRGNrYlBqQTlacE5hSnZqa2Rl?oc=5",
+      "pubDate": "Mon, 15 Jun 2026 06:55:34 GMT",
+      "source": "대한경제",
       "category": {
         "label": "🔴 HIGH IMPACT",
         "color": "#ff4757"
       },
       "impacts": [
-        "채권",
-        "원유",
         "삼성전자"
       ]
     },
     {
-      "title": "스맥, 브이디에스와 반도체 장비 공동개발",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5mTFJYNHpSaG1waGItSG1zUHJvbkxTMVhxRHdxQUpja3FhN1VtRkNLSXpqeVZtak9DZ0RoVVFKSVYtMkt3bVpYTjY3YkRkOFF5VXJEUmotYzVLak9G?oc=5",
-      "pubDate": "Mon, 15 Jun 2026 05:00:00 GMT",
-      "source": "뉴스핌",
+      "title": "삼성전자, 유망 스타트업 키운다…‘C랩 아웃사이드’ 9기 공모",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0wSGljeEZJR1F0LWo0dXFXdGVzbVhIM1hIU1NIc0tndk5IWlEyb1pVYVllZlJjNHpxc0lURHdGSnhyQjZGQ0ZYSFhTX3MxaTA?oc=5",
+      "pubDate": "Mon, 15 Jun 2026 06:54:45 GMT",
+      "source": "v.daum.net",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -31,10 +68,23 @@
       ]
     },
     {
-      "title": "삼성전자, ‘C랩 아웃사이드’ 9기 모집…AI·로봇 등 스타트업 30곳 선발 - 조선비즈",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQMUFRUUlna1dTdDZlY21kMEpiei1CLWswbENwd085Z0hVUkc0ekkxWmtUTmlkSUVNbFBuVnQxamtrdlo0VzJtVThyMVFMYXFkNGdNR05BejNScGtIUHc2bXpSWGZxZUR2eHpSNDNHNW5vS3dYUWJlOHppNU5Ga1hqVVdB0gGWAUFVX3lxTE04X0hZRzdUS01vZWFQeEFHczEwcG9QODFNUm16RndPa2RBMzltcno2TG9JS1pWbkRtVmQ3a255d0dxSkZBZWpEZllUMDU1cWtKT21acmVZTTQ1Rk5XYWVPVG9lbkNMd1I0ajdZcTZBdlo3ZXZsY0Y1MnBzaUxUVkNIUFI4SnhqRXNzWkRUTC13Uklvb2FEQQ?oc=5",
-      "pubDate": "Mon, 15 Jun 2026 04:58:00 GMT",
-      "source": "Chosunbiz",
+      "title": "“순이익 30% 성과급 달라” 파업 수순 밟는 현대차 노조, 24일 찬반투표",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBrWldZRmhpN3hUcFg4N2gtSGdZY1NnY0liNHd5bjZvVFRZY3dhQ3VZZkY2RnVzYmE4T2hZUEpERTZRSlBNNFJjTFJwNFZBcXpmdDRNYUt1b1JtZ2NVd3dzVDB4blZEZFBFUm1aUlhsNEVzb3F2X2V4cU9fMNIBgAFBVV95cUxPd2w4eWRZVzBuTFhNU0tLN1BEdC1BSHhuLUpSM3VLU2VfVXdUNzd6Vl9vTDVvNEREUkZnNVgyXzVzOTlyS0FPaFdxNUNiQmY0THJLbzAxM1ExbFJ5V0NFa0FxdXRRZnRGWVJoMWxvS3ZMV0dQeVdYalZqUXBEeTU5Tg?oc=5",
+      "pubDate": "Mon, 15 Jun 2026 06:52:23 GMT",
+      "source": "뉴데일리",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "지슨, 반도체 대기업과 '무선 백도어 해킹 탐지 시스템' 공급계약 - 머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1mNDhyVHI5eU1ILXExVjRNXzhDS1hDMlFVWEN2OFg2MlI4bEN6T3hGQk5NRU1Wc1hqRWpxNldwWElYbHUtczZ3TEJiWGZQY3NkUHRIeDFoczVLVHdiYmttbnhUT1R4STNV0gFuQVVfeXFMTjlCSHZMOVpjODVGU1NFRTVoWEg4VVVqQThrYnJmTm9ndDQ5SXR6YndTOW9FYjNTZzZVMmU3VktjWXJPaHJHOE5aRHkwTHJPOUNjSnY2OC14U1ZPcXBZVlVuZWxhWWVCS3FvZlpCNWc?oc=5",
+      "pubDate": "Mon, 15 Jun 2026 06:51:28 GMT",
+      "source": "머니투데이",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -44,61 +94,9 @@
       ]
     },
     {
-      "title": "삼성전자, 스위스 현대미술 담은 ‘아트 바젤 인 바젤 2026’ 컬렉션 선보여",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5hYndTN0FQbi05WlZrTVpaMlFYY0IzNFhTN3lnMDd4RkdYQnBxOWptVGlRUHN4NEVMWFktM1BRMUFyU0NBWTY5R1RCVHlEbEZPV1E?oc=5",
-      "pubDate": "Mon, 15 Jun 2026 04:51:00 GMT",
-      "source": "더나은미래",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "카카오-삼성전자 공동 AI 해커톤 개최",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBHWHltYVEzNWxlRFlPLVlNSlJYaHFGclRpU2pvMVZjNERRTGNkaWtfT2R5c2c1N0JxY3pfV2RhTmlBTHBHQmN4bWh3ZkQ1cGR5X09mNXNvMHRxMnN4S1p6NWtiSE53dw?oc=5",
-      "pubDate": "Mon, 15 Jun 2026 04:49:41 GMT",
-      "source": "디일렉",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "\"15일짜리 TV 테스트 이틀 만에 끝\"…삼성전자, 상암에 HPC 서버 517대 구축",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4zTDB1N2RiNktDb0tXaVNIam1BWTJpd0VpV2l4dmlvN1IxWlgzNGVaNHhHZHBMc0M2bXpUN3NGTFY5SjVJOTZJLW9FZnBWajEzcmgzNEFMMjlnU3EtTVdqNQ?oc=5",
-      "pubDate": "Mon, 15 Jun 2026 04:48:18 GMT",
-      "source": "아시아경제",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "\"이제는 반도체\"…강기정 시장, 광주 미래산업 새 성장축 제시",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1NMzV1NFpaY0M0Z3FacHFFU04tTUZFaks1TWJFdmZOaDlRNVRXUkhxZ0hpd0ptendJMXZlVHVZRm9YY2hiMXJZdWpndGRranB4TDJRMXZCRlluZEY5M2g2eUd6S1dPdjcyTmxvcjFsaw?oc=5",
-      "pubDate": "Mon, 15 Jun 2026 04:34:54 GMT",
-      "source": "진일보",
-      "category": {
-        "label": "🟢 POSITIVE",
-        "color": "#4ecdc4"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "TSMC, 반도체 '패널 레벨 패키징(PLP)' 본격 양산 준비…삼성과 한판승부",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1NYkVvcDJUclFLeUdBOFhSeXNWWFNJR0tsX19pd1JYSFVuR0VFcDhONUhPdXduSmRMeDNFeVM5NjMxQ0taYVhfb2NXLW9Sdw?oc=5",
-      "pubDate": "Mon, 15 Jun 2026 04:29:04 GMT",
+      "title": "[포토] 2026년 AI 반도체 M.A.X 얼라이언스 상반기 총회",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1lMkNranotYTdwdG1wa3I2V1oxcHhEWDJUMkhyMi1iREc2cFV5ZVVZNTlLak1IYm9LVFdjbWF5bmFtYjVBMjdQUzVXanZ0Zw?oc=5",
+      "pubDate": "Mon, 15 Jun 2026 06:50:36 GMT",
       "source": "전자신문",
       "category": {
         "label": "📋 GENERAL",
@@ -109,29 +107,28 @@
       ]
     },
     {
-      "title": "카카오·삼성전자, AI 인재 양성 위한 공동 해커톤 개최",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1VQ0hTOHR0eHVNc1h6WUN2QXNoOXlTeHNHckRYRmpiM3o3MlZGSGFpT2R1UmxWUWNpUGdzcG9SVnV3c1Zqb1pNdXJvQWNxR2J5SjBqYy1hdUtZd1VpcW4wRHBPQ005UEhNblkw?oc=5",
-      "pubDate": "Mon, 15 Jun 2026 04:25:00 GMT",
-      "source": "BBS불교방송",
+      "title": "참관 갈등·연좌농성…현대차 원청 사용자성 심판 ‘46분 지연’",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5QVld4SUR3dU1CaERJT3FpOWN4S0Rfc1dIbDB3QV9uM2tCYlZBQ29zdm5fQ1h0RUxfUUFIVFlwRlU4aGR5UkJzaGNLQl9ZN0E?oc=5",
+      "pubDate": "Mon, 15 Jun 2026 06:48:44 GMT",
+      "source": "v.daum.net",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
-        "삼성전자"
+        "현대차"
       ]
     },
     {
-      "title": "코리아넷뉴스 - 반도체 호조에···5월 ICT 수출 478억 달러 '역대 최대'",
-      "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQd3A4ZEVkYy1jLU0teDQ3eXZKTlpYeldfU043UGpJUTdNZExWR0hsay1EdzZMYjdUVXFTMERlNnVZd3g3YVpGWktBYWpOR0xNeEFaWFZVUHlpOE1rV2l0VFBMN3hPdnRtY2pJVVhtRFk5UE5pamh0Nk0zdEN0TFVlc2tDb0VmRnFHQmhlM28xcWFTNVhYSXYwM2V2T2FkWHNILS13aVJhVTRUdEc0Mk12RjdWNWU1SmNPX3JlN0ZCLVoya2pqRUFnZVpXTUJ1cXZYNWgzb28ybjZvcTE5Q0dSU25hVTlLTDgtVEoxdTdpZ3RxdjQyZGc?oc=5",
-      "pubDate": "Mon, 15 Jun 2026 04:21:19 GMT",
-      "source": "문화체육관광부 한국문화원",
+      "title": "한밭대 김정환 교수팀, 산화물 반도체 성능 향상 원리 규명",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAtYVcxaGhoVlZmajE3SjFGQldod3VEbVoyUWxvS0cyQzVyYV9oZE1STlppY0tBZnhYYmhSeEpQa1dIOWZvbzFaRHJmWTI5SEZ1QnRYMDZWY01hb0NmVi1lVzZpaEJPUE9NRU9CRQ?oc=5",
+      "pubDate": "Mon, 15 Jun 2026 06:47:52 GMT",
+      "source": "충청뉴스",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
-        "환율",
         "삼성전자"
       ]
     }
