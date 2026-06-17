@@ -1,64 +1,24 @@
 {
-  "timestamp": "2026-06-17T12:17:04.962989",
+  "timestamp": "2026-06-17T14:17:04.646744",
   "count": 10,
   "articles": [
     {
-      "title": "삼성전자, 업계 최소 크기 ‘수직적층’ 3D 트랜지스터 구현",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9Hc1M5MTNjZEtmRzBpclJMSEJDU3dvSi1taUpBakhNS0lDa3l0RjIwU1ExYldTUklwQkt2Z1RlazlENUNfZXYydzNIUzluMkZRRmwyeUI4NTVud9IBX0FVX3lxTFB5SVQyM3VHZ2ItZFZsTFdOeTNFNFBndmEwVHk5d0Q1R0RIM2VaejVoZ0xNYmVUYWQyY3cwdmtwdUZwQ1RyUDJrT1hkT2lRN3hEYXpkSm9qYmxldm5lNWRz?oc=5",
-      "pubDate": "Wed, 17 Jun 2026 02:59:00 GMT",
-      "source": "경향신문",
+      "title": "한은 “반도체 이례적 성과급, 물가 상승 압력”",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1kNFBvaTRRcW00cW9SeVRaaE9IazBGLXE4bDgzUzktUjFlMTcyaTdDQ3ZQVkZyRFU3MlN6UUdlUnl0bTg0TXROdmxOUGpuTVZaRFl6d2RwNlVSLXM?oc=5",
+      "pubDate": "Wed, 17 Jun 2026 05:04:00 GMT",
+      "source": "KBS 뉴스",
       "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
       },
       "impacts": [
         "삼성전자"
       ]
     },
     {
-      "title": "삼성전자, 로직 반도체도 수직 적층… VLSI 최고논문 선정 - 조선비즈",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQNE10WDRMSm1GUjFLZi0xTE1DV1NwX21Kbmo2bXBIRVpmTzhNa0t1VlRfRVp1ZFBJR2Y0T213bzNOV2xySURTT2VXd3A3QWN3bmdISHowYTdQTTZ1T2thMENoX3ZDN0NNV09acDNLWU9ZUmxCVkZDV3B4TkJtNDlUTnN30gGWAUFVX3lxTFB3NFNNMHpxZnlKU3Bjd2ljQXlFZ0lGRmZmWC1zcThkVmZqaUVxY2FybGlCYmRmbERuYXVEZ2I1LXFHVFFhclc2a3BSQUswQ0pNY195WmhGamYyby16WllfVjdDYnA2aUFrWUl0Vm9tM0t4dnF3dmJoTlNCX3hNWjZKYVV5cjRNZ0xueWtSZ3ItdjMtREdndw?oc=5",
-      "pubDate": "Wed, 17 Jun 2026 02:54:00 GMT",
-      "source": "Chosunbiz",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "아메리칸 비트코인 이사 리처드 부시, 391,500달러 상당 주식 매수",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBNN2tjZXc5ejFubE5IM3JtR2JXWWhxQnRuc2k0TTJGWjdDZ28tVFhzZ25haUdnVUpPS1hjc1dWdmQxeE1iY3hBb19nWFZpdjRBVGk0VEVuaVZCbGJZOFZFMzhHbHBSeUhyVW9BZXVPcks2OWhDMDdWQ2k5OA?oc=5",
-      "pubDate": "Wed, 17 Jun 2026 02:45:00 GMT",
-      "source": "Investing.com 한국어",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC",
-        "환율"
-      ]
-    },
-    {
-      "title": "TSMC 반도체 파운드리 가격 정책 메모리와 차별화, 분기별 단가 인상 피한다",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9ZczAwc0RBZDNvTmljanFuMGpPZS1rYVB1alVDNXBiMHZMR0ZOaFc4R3VWNElsMXlJVnRaRzVCTlotYXBoX1pvWGFOb2hwQTBfT0VPQ1RTaVBLOFA2TEZ6Rm93YzhKblJ3UkYwX3JzOE5TaXc?oc=5",
-      "pubDate": "Wed, 17 Jun 2026 02:40:31 GMT",
-      "source": "비즈니스포스트",
-      "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "조선대, '광기술공학과'→'반도체광공학과'로 개편…차세대 실무 인재 양성 본격화",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5MejgxNEUwbHlVZFA0SW10d3c1MGlyZG1tbmYzQTQ3NWlWMWlMampfUjJ3UGNEZkFCTGhkNVRkcEhwMTV1X1lIcU1rS1lhUQ?oc=5",
-      "pubDate": "Wed, 17 Jun 2026 02:36:56 GMT",
+      "title": "IITP “피지컬AI·반도체·보안 집중 R&D 추진”",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE51U0xQbFdBRE5pekJMeGd5QUVQaEVMY2FBTmJfUjdvRkJkT3I3czRzakx5dWJCc1ZCZzRKcXl6bDhWNnB2clR5Q1FzQUdRUQ?oc=5",
+      "pubDate": "Wed, 17 Jun 2026 05:03:40 GMT",
       "source": "전자신문",
       "category": {
         "label": "📋 GENERAL",
@@ -69,10 +29,10 @@
       ]
     },
     {
-      "title": "제주반도체 \"LPDDR5도 SK하이닉스 공장서 만든다\"",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE15clBuSXZPTmx1SlBINTh0MVZJVWlXMU9OZzhXNHo0UllpRThCa3JOQlRzQ3hXdjcxLTdQMnNfOW05LWxVdk9LVUhWTW9lY3VPTmkyOTBsZDQ3QUdUOENGd3hjTF9YUQ?oc=5",
-      "pubDate": "Wed, 17 Jun 2026 02:30:49 GMT",
-      "source": "디일렉",
+      "title": "[반도체 보안-②] 장비 설계부터 유지보수까지…SEMI E187·E188·E191 대응 ‘중요’",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1LZWdraHJ1aWdZMkppRE9fNlNlVEtsbmh0NHFDQkx3VGNBazlaSWhfZnc3TEV6QXRZaUJNSHFsNHE4cFZtS0xwVWVMcmdGSlJ1LWZBVkxTLTFJTnpaWnJ0dmNJaHNWQXZH?oc=5",
+      "pubDate": "Wed, 17 Jun 2026 05:00:00 GMT",
+      "source": "테크월드",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -82,10 +42,10 @@
       ]
     },
     {
-      "title": "삼성전자, 프랑스 비바테크서 '커넥티드 케어' 공개",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5RckhlNTJTU3lGT0gxWXFYbWc3endaVXQtanVab3ZJYVRqN0J0MnEtZlRzRmVhMjNxVUFxVWkyVzdQSk14bGg4aHR2UQ?oc=5",
-      "pubDate": "Wed, 17 Jun 2026 02:30:40 GMT",
-      "source": "아이뉴스24",
+      "title": "한솔테크닉스, 1772억원 들여 ‘윌테크놀러지’ 인수…반도체 부품·장비 사업 강화 - 조선비즈",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPdTVMakVHYUEzZEowWlVfSTZTb1JBZmJmRzRXbVdJTGdJNFI4RGdlVEFiamFnZ0h1T1NNRG5xQVZGZ3lfMkUtMGRCSHEyR0tuRE5GN29qbFdGOTdLZ0ZGMERmMVhlMTNyV1I4TTJOOXpkdDB6TkFZZ1pnWGNHdXBDMEtJcnZfX1lVRE1laGJUczLSAaQBQVVfeXFMTTNkS052bWJfWktIZUNkcTRfZEl3UW5PWXRadGNCc21JTkFjVjhCNXZkUElzX1pXMjhjTEsweWlDOS1PUDI1T2VLcXlmMlRIeWxfVnpTZGZickFQTVRLcHByMnk5WnZoZjB4QUl5VExLX040NlFVMlBLUVYwOGI1dGlySmR0ZkllcndEX210b3RDTzNvMlVUZE5BQ0xEclplWnlVSi0?oc=5",
+      "pubDate": "Wed, 17 Jun 2026 04:57:00 GMT",
+      "source": "Chosunbiz",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -95,23 +55,10 @@
       ]
     },
     {
-      "title": "비트코인 투자하고 월 배당까지…블랙록 '비트코인 인컴 ETF' 출시",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE82MC1ieEViWW1zRWxKNTBLNDd6cmxaVU11aDU2MDBXT3ZHQkRHSll3cm91QzJqYWdHRmRBTXh3d3c4d2hobjRGb0NvUE40QkJkOVVWQWlMeElNaHByWmk0TkFoR3otQQ?oc=5",
-      "pubDate": "Wed, 17 Jun 2026 02:29:36 GMT",
-      "source": "뉴스1",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "삼성전자, AI 기반 ‘커넥티드 케어’로 글로벌 헬스케어 시장 조준… ‘비바테크 2026’ 참가",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBSWnlIbmVmYXkwZU1WNDh0MzVoNWJHWXpScmk4OUlmM1RfN1RsNWhHcENYV1VVN3hIT2dISTY1SS1WMFM4Y0FBUEMyeDRoTUROdXNOZlJRWDJfME5uNmhtM3lXdl_SAWhBVV95cUxQR0Q3VVg1SXNWcXVQcllMdUxfZWo1NVMzTXhScXIydGp1X2RNdFZrYjA2TkZSRUwydGhST1ZPbmo1NDVTdHlrQjVNdlFQLTZVdlkyZ1NaTGRJUHN3NmZDSkVVNzU0N0tTYg?oc=5",
-      "pubDate": "Wed, 17 Jun 2026 02:24:05 GMT",
-      "source": "경인방송 뉴스",
+      "title": "반도체는 나는데…자동차 수출 5.9%·생산 8.2%·판매 10.3% 동반 감소",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9EMDB2YTRFNWZ2X2E5U2dHYzlpa0lKQk91ZWRCUnQ2QlhZeVFscGhLcE9tNDVkVTlOUDZMQlg1aWJvUi1hVVFOamlPRU9QSEtYNWdBVUFiUEs0SUJTN293M1Nn?oc=5",
+      "pubDate": "Wed, 17 Jun 2026 04:56:10 GMT",
+      "source": "매일신문",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -121,10 +68,62 @@
       ]
     },
     {
-      "title": "美 의회 '중국 봉쇄' 본격화…K반도체·바이오 셈법 복잡",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE15a2t0NnVLeFhyZjVPdklyWlNIZHpfMFFQbFZLUXZuLVRfbGNCeE81WFBoTWZYNFFPd3BRZ19nQVAxYUdHV0JLNXE0cWxLLTFLelhROERCbjE5QXhn?oc=5",
-      "pubDate": "Wed, 17 Jun 2026 02:24:00 GMT",
-      "source": "뉴스핌",
+      "title": "강원자치도, 의료기기 반도체 실증플랫폼 구축사업 최종 선정",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5WM20xOXZVeHM1bXpYSGRfM3NmYUxCeWhfWUhldHRmb3lieTUtRTNySWM1MHVKWDZQb2c1RldMT2RDOEtoUk81RXM0dVV6YlRkYUZjR0FON0hsdUUzOUJxWG1hemhsTVNacDVz?oc=5",
+      "pubDate": "Wed, 17 Jun 2026 04:54:14 GMT",
+      "source": "서울뉴스통신",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[서울데이터랩]코스닥 시총 상위주 혼조…바이오 강세 속 반도체·2차전지 엇갈려",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5kcEY3VW1aX0tJRURJblJaMmJ1SDBZRTA0Y0o4MHRQMlBVVWtyOWR0SC1fRV8zYkNZNW9mV05qU3RVcWlZOEZCa2g1RjN6RWFvVldTS1dzTVcxWE54UTJVaFYxMGdJOXRpSzNHWUNJZUhWQ3lYdEdySFVLYzhKdw?oc=5",
+      "pubDate": "Wed, 17 Jun 2026 04:53:09 GMT",
+      "source": "서울신문",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "홀트아동복지회, 현대차증권 후원으로 한부모가족 금융교육 실시",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBvbXFkUDFYRlpmVy05c2xIQWQzM0ZGazFXaW4yUUlOZk1MZHFrdXFyd182WDVxMFNCUENlUFA2aDU4VDRsOHZxdkM4dWE5TExEdjBBcU16OVhVSG9KNlpRWGJuLUJkS0g3b0p5Rw?oc=5",
+      "pubDate": "Wed, 17 Jun 2026 04:49:55 GMT",
+      "source": "복지타임즈",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "[광주 톺아보기] 박관열 경기광주시장 당선인, 삼성전자 앞 1인 시위…“반도체 용수사업 상생대책 마련해야”",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9BVkd0YjhrWVBGa3pRQVRZVWQyNlhCVjEzZ2VwdFFYYmNUQ2lTM1hMNVdzVXJVOHhqZEZYbVo1WWtpNnBHU095UUZnQkFzYXM4Mld0YlNNMWhPdVk?oc=5",
+      "pubDate": "Wed, 17 Jun 2026 04:49:09 GMT",
+      "source": "에너지경제신문",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전자 초기업노조, 최승호 위원장 재신임 묻는다",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE12QldzMlUwalFXM1UzczlKY3Rrd0MzTUw3cDlXaE1GVmduS0VLblRjQkZZWFFCYnhDMVkwT1NfM19vTndfWmttcG9iY1ZzNTF0V3NGY2k0aFh1VlF6VDZnTC1QeWs1Ul96cXEyb0g3d1Y?oc=5",
+      "pubDate": "Wed, 17 Jun 2026 04:31:50 GMT",
+      "source": "연합인포맥스",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
