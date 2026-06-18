@@ -1,11 +1,118 @@
 {
-  "timestamp": "2026-06-18T08:17:04.195487",
+  "timestamp": "2026-06-18T10:17:05.174405",
   "count": 10,
   "articles": [
     {
-      "title": "현대차 '구글 출신' 마케팅 전문가에 캐나다 판매·브랜드 전략 일임",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBuV08zd1ZQUmhOakxYSFRSWWdkdlZPb0ZEcXRyUmNBTGZEVi1VN1RlempTZkF0b2JPcmlFS0VqdU9vZlg3akxYdE4tQWZZVDhjbWhyWHdJNDUwdThLTGcwYw?oc=5",
-      "pubDate": "Wed, 17 Jun 2026 23:12:37 GMT",
+      "title": "삼성전자, '갤럭시 A37 5G' 출시…AI 기능·카메라 성능 강화",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA4LW01cFRucEFoaGstc1hJN3lZeXRsR2g5ajlBalBEZ2NNZ1pCWG9EaGRSd1B3bXhXM0lYQ1hpai1BVHNjNmo5bXlMaG9oMXlNZGpiX0xPMFg1VnhQblc2R2NtQzNXZVU?oc=5",
+      "pubDate": "Thu, 18 Jun 2026 01:14:40 GMT",
+      "source": "팍스경제TV",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "연준 연내 금리인상 시사에 비트코인 6.4만弗 하락 [매일코인]",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5FUjRHOHB0YkRHVU9zZGgyaWtjNlR1WHE4VjJhRTViNWYyY1lYMWUyQlhnOGlNbDFpckYyLUNLMklZOXdEQktoTmVZRjRGOS13bFE?oc=5",
+      "pubDate": "Thu, 18 Jun 2026 01:12:03 GMT",
+      "source": "매일경제 마켓",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "채권",
+        "BTC"
+      ]
+    },
+    {
+      "title": "[특징주] 삼성전자·SK하이닉스 동반 강세...메모리값 인상 수혜",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB2a3JlQXR0WWxSRHdOVzEtZHotdTFCaFZCUzJwNmMtNjlGM1FFSTdZaTVQcWZTUkFsdTRCYTNWTER4MVg4bHNIS2NzNHFBeThkYTJVR1dKVF83WEtL?oc=5",
+      "pubDate": "Thu, 18 Jun 2026 01:12:00 GMT",
+      "source": "뉴스핌",
+      "category": {
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "비트코인, 6.4만달러 후퇴…美 연준 '금리인상' 시사에 약세[코인브리핑]",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1BSXZzdS1oRTQ2ektWNXdFbFp5bGd1bnoyTEZGZk0zYnRYNjRjdmFLZXNXOWE0cVNmTmFnbHp0M2dxWjBIbG1YbnZqLUJJUzQ?oc=5",
+      "pubDate": "Thu, 18 Jun 2026 01:11:00 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "채권",
+        "BTC",
+        "환율"
+      ]
+    },
+    {
+      "title": "삼성전자, '갤럭시 A37 5G' 국내 출시…\"사용성 강화\"",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE52VkZtNlpsTXVMYzdSUU1CNGtYcVNITE1iOHdQNHFfLVVBell3bFJsY0x5Z3B3NTZ3Wkt5N3dHSHdub0V2V3NKRjRCOFFBNUF6WHVsXzJrMDZnM01Wc0dYRzhXS0l0M2xoTkZDUXlSUkZQdw?oc=5",
+      "pubDate": "Thu, 18 Jun 2026 01:08:23 GMT",
+      "source": "KB Think",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전자, 'AI 모듈러 홈' 출시…스마트홈 생태계 강화",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1PNkgyQy12LUpYZmQ4WjBydDNOZ0V0UU42SzZYRU9WVHlWbTU4T0h1dzQ1eGIwbGVxWEp0dzNuMTZiVXRQVjcyaXc0VjgyVTRDT0VuVGVR?oc=5",
+      "pubDate": "Thu, 18 Jun 2026 01:05:18 GMT",
+      "source": "지디넷코리아",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "SK하이닉스 사상 첫 ‘260만 닉스’ 터치…삼성전자는 2%↑",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5UNHBhTms1R1ZrUWFTVEdjMnA3WHgtOWRGaGhnTk9TeVI4TmFLdWh0RVVjMmk2a2lIZU5NTFc2UDF2NjBpejh4OE5Qd3dsWXZJRWc?oc=5",
+      "pubDate": "Thu, 18 Jun 2026 01:03:15 GMT",
+      "source": "매일경제 마켓",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "비트코인 장기 보유자 사상 최대…K33 \"약세장 종료 국면과 유사\"",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1EUUtMcTQ3NmFNMkppYWhWbmRuTlI2THRYd21JUEdUU0lfb1I4aTdRbzlobjVHajhmVDk4U3dRbVhNcXNuUHExWVQ4ZkdCMVhDbnhLUXdQNDNTUEdyUkQtNmtrV2lnVDJyd1R2ZF9ONW1ieGM?oc=5",
+      "pubDate": "Thu, 18 Jun 2026 01:01:00 GMT",
+      "source": "디지털투데이",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "현대차 中 구원투수 '아이오닉 V' 제원 공개…주행거리 최대 650km",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9wVXZMd1dCNzhaa09HYmdQVGwtaWFVbHRwVHdUVWRERE9zNXF2RFhQZnZ0aVFGX2JlTzJDY21FMDI0clZ5OU1zX0tXQi1rcHZ4QTV3UTBqRllOLUhGenVKZktZWQ?oc=5",
+      "pubDate": "Thu, 18 Jun 2026 01:00:07 GMT",
       "source": "더구루",
       "category": {
         "label": "📋 GENERAL",
@@ -16,123 +123,17 @@
       ]
     },
     {
-      "title": "[모닝 리포트] \"삼성전자 목표가 48만원 상향…메모리 가격 강세 반영\"",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5CZ29BUzhUTy1uLWduem1rcWMyeENEaS1TLTBod2hqTjgzN05Yc2pycGlFUmdpYnJyT0R0clJ1a1hBeE4zTFlVSFFtM0I1SGUxUE4xTy1xWFdaaTg3?oc=5",
-      "pubDate": "Wed, 17 Jun 2026 23:11:00 GMT",
-      "source": "뉴스핌",
-      "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[속보] 반도체 ‘투톱’ 삼전닉스, 프리마켓서 강세 출발",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPQ2hHbW1SYUVNcjFyTVZDd2hJQUZIaVVKbzV2Zkl5WUJ3b0JEMnhYUUU5R2RxQ2ZXWDByV1VEMUVXajMxRk10ekE1bXVWWncwb2tEbmswVGpJdlhvYzEzNjZfZWxqMThldEJkUVl1UnBwemxINVhPLWdDbHNjeXJzbFZOX0lPMGdPazJyODNIUUhZbV8xRnfSAWxBVV95cUxNaUJQTjF4eGhqbS1kWS0yUVBMT0lDYkFuUHhJdWRHcEszaFNhb0t0ZmZGQUZMaTl1bV9lWFNhZFlPS0Rhb1ViUE9zTWpLbldvV2M3NXpDTVhQWHR0NlBtMzhtb2xxbmN1MTRCZ28?oc=5",
-      "pubDate": "Wed, 17 Jun 2026 23:10:00 GMT",
-      "source": "국민일보",
-      "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "비트코인 6만4000달러로 후퇴…연준 의장, 점도표 제출 거부 '충격'",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5IdFRQaUhfX3NRbDJwTDZNR09kY0NFc1lRRnhwekVLSTktNHBsVmhCUUJDdTUwaWVDd3BkNkVLU0ZHM3JpZ2VTeFFSbEpmRWJ3TGRQWVRreFNEOWZKZVlhQkx5UzJSY1htY083NDNsUlYtb3M?oc=5",
-      "pubDate": "Wed, 17 Jun 2026 23:06:51 GMT",
+      "title": "호르무즈 긴장 완화에도 비트코인 부진…시장선 '유동성' 눈길",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5JUVoxV1p3LVZRY1d3ZXRVbHhrRjhlR0dYQ09FRDU4NmRvbkxNSml6ZWtVQzdMTGZWWUs3SGRVck84N0lBaUpudlRuRy15Z3VzYk5CcXF4d0NtTVZFZXkyajRkcnRZZ0J3anFjVDR5ZVlhOVE?oc=5",
+      "pubDate": "Thu, 18 Jun 2026 01:00:00 GMT",
       "source": "디지털투데이",
       "category": {
         "label": "🟣 CRYPTO",
         "color": "#a55eea"
       },
       "impacts": [
-        "채권",
-        "환율",
+        "원유",
         "BTC"
-      ]
-    },
-    {
-      "title": "[속보] 연준 매파 동결에 삼성전자 프리장 약세 출발 … SK하닉 보합",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE53aFpaN1AzWTc4cjFWU3E1S3p2TkNwaUJ2c3BTS0xEMTFQNWRNOFhpSlV2aUtqSlNsd2N0MkJHMVN4QWk0bC1hbmowMHUySHpFeEFvdE5Ba1ctTUhCT2VCclRWLVhlakxDSmw4dmlQVXRjWHo0UHJ5bGJZTdIBgAFBVV95cUxNT2VsaVU3SFIycTMxN0VfOEpyOEZJOExlTFBUbGU0MUduN18xUWRueWcwVU9LSGFoVDdpSzlzenVqOFBkekNWMUxsTGx6YVRETy0zc2sxX1V4anNGMmJpSENxYUFnU3JvanFqT29fM1hmSmJwemdqWG9seWNEX2JVVg?oc=5",
-      "pubDate": "Wed, 17 Jun 2026 23:04:44 GMT",
-      "source": "뉴데일리",
-      "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
-      },
-      "impacts": [
-        "채권",
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "믿을 건 반도체뿐?…하반기 섹터별 전망은 [제17회 대한민국 애널리스트 대상]",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5iV3d4M1AyaHN6M2RwVUJIcWVPQTJ3OWRfVlNLYVJxRU93OEpaV3ZqR2liOUJRZ3U1TkFxNW0tTkVJaF9qZ0JEWGYyNzY4R2ZGNW9xUEJNaEwyMmd5ek54czgyZEk?oc=5",
-      "pubDate": "Wed, 17 Jun 2026 23:00:01 GMT",
-      "source": "MTN 머니투데이방송",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자, 공간제작소와 손잡고 AI 홈 기반 ‘삼성 AI 모듈러 홈’ 출시",
-      "link": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxNN3huMUl2Rld1NU9CbEQ1VnJvUndYZGhiUld1MkhOdXlsRl82Vl83ODVlU1VMdmtfNnNic1drUm9hdUNPX2FzSko5Z0RiVWpIMVNGbU53ZlBuREQzc2RaVjZFaEY3NldYcGRuSHBvN004VDZGa1hNSU4zeVdjQ2NwVG14Z3E2YTZQRGtZdlhnVzV2dk1QT0diLVFGRi04ejFNYmliU252TlNCTy1aUjQ0WTIxZXhXQUxoYVNaYUlUOC1iVU05VUpoRjFrbVZ2YW9pTjNQcHNMUk0ySHpFT3B2a28td1M2cGpjVnlTUE1JSFk0QlFkb0FSbmtIeXdPSUJuWWFPUHBIemVoYnB5Zk9yY0FjRzZTWHAzLVpZSTE4Y2c5Tk1KZHBrSFhWUmNseHZKLWt5Wk9PcVQ1ZDI2UTdBaGhR?oc=5",
-      "pubDate": "Wed, 17 Jun 2026 23:00:00 GMT",
-      "source": "Samsung",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "佛 비바테크 2026 삼성전자 전시관 이모저모",
-      "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNNjM2cU5aZW94QmMwSmktTEg1Wk9uZElHMkFPbFlZQTZzY2FfVXN2aHNJQmRjd1JuaVBNcHN1Y3pnS0l5ZjVyNWJ4Y0xzclZMN28tWDF3QmdIcUpPZWh2bjFnVjhzZVFDcmRsMGRfd250SmZ0RDV4T0hkYTBuSlhwMEszSHY3WWh3cDRYc1JRUVZOZEpHZFd1c3hnOVNLbjU4VXotdTRzUF9LR2EzMy1MT2pOcnhiN3RpTXZBMS1tc2Nyc0x3cEdVb0twOTg5azhFREQ2dE1EaGRuaklVbjcyVE5fTldYTUpvY19ZYnJ1Wkl6d0FkZFBmdDU5bC1HZGFnSlFMdWdiMWdXRy11UXc?oc=5",
-      "pubDate": "Wed, 17 Jun 2026 23:00:00 GMT",
-      "source": "Samsung",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자, ‘갤럭시 A37 5G’ 국내 출시",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOQ01qUnRvcmlyOWRjYWNaSFVmUXRnZURFYzNmX0g2LUh6a25qTUg5a0V2M0FsWmppd0phMU5ieVVjSG1zaHpfVDQ3WUpBZzJBaWFubzNFbjN4VHprajdwY3NoNjhRVllFZVBEZ0xnOVZwTXNjNmh6U1pMQllfVi1hR0lGSURvcWppR1llOV9oNVZHcGpkZF9Ic2ZuWEhCZ1NaNWxvMHpkbXdRcVJvTUY4N2cxemotenpnRnVvWEFaeFMwRll3UllUOGFvcWxhTkdUeUFn?oc=5",
-      "pubDate": "Wed, 17 Jun 2026 23:00:00 GMT",
-      "source": "Samsung",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "대구시, 경제부총리에 'AI.반도체' 미래산업 육성 국가 지원 건의",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOVlFKTy1iRzlId3hfbkVTSURvQTZtLTltaG9rZlFQNndKdlQ4UmVCSHlhYUVSMWFMUm41MGFNZThfeEpTeDNndW5uNDJDNlJoamZoelR1MUZacE83X0ZsQUZxM1gzVXNUdzI1Q3lZZ1Q2ZmJqU0pMa25zb2VCd0ctN1BISTdMQ1BVLUVNUlBoRUxzcUp2UU1kN2w2OXA?oc=5",
-      "pubDate": "Wed, 17 Jun 2026 22:59:40 GMT",
-      "source": "tbc.co.kr",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
       ]
     }
   ]
