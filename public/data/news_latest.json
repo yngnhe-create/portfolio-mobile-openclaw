@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-06-22T10:17:05.657882",
+  "timestamp": "2026-06-22T12:17:04.887493",
   "count": 10,
   "articles": [
     {
-      "title": "삼성운용, '삼성 글로벌반도체펀드' 순자산 1조원 돌파",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBHTlgzdzE4djFuMHRzd3RnbzluWFZ2dDhQUlVpU2RHUWZPLURTelNGbEJ6VndKSm5JY1RieVhCZG1hbm1QVGRHanNTMEVlNVVVanFrcGViX1NkdXJMMVNFR2ZB?oc=5",
-      "pubDate": "Mon, 22 Jun 2026 01:12:00 GMT",
-      "source": "아시아경제",
+      "title": "오픈AI, 삼성전자 전 임직원에 챗GPT 엔터프라이즈·코덱스 공급",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBld29DSnNjSFpDZ3FzckptQW5FZDB3azlvb195Z1RlOFpmSWRrSGJkb05KdGZNMXU0blp0UUltTE03ZEtSbVU3NzRiTHlZMTdrQ0piaDlDcGdJeWJQV2p2el9oQm9HNlVPbFE?oc=5",
+      "pubDate": "Mon, 22 Jun 2026 03:12:13 GMT",
+      "source": "AI타임스",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -16,10 +16,23 @@
       ]
     },
     {
-      "title": "한양대 반도체공학과 정시 합격선 98점… 비수도권 의대 평균 웃돌아",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBDX3huV2pBUXZQRWtwZ3NsLXRLUDgwMUFBYnh5bXc2Y0diTEJhUEI5bU9ZUGZkR2g4Yi1WcXNyeFU3TXlWSXNOYXBHZXpocV8zcHVmdzNBYmRWcG9ZcWp5WF9qUTlYejExNmNz?oc=5",
-      "pubDate": "Mon, 22 Jun 2026 01:11:38 GMT",
-      "source": "뉴스H",
+      "title": "현대차그룹, 보스턴다이내믹스 지분 100% 품는다",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE0tMVI1VFJZQXBwb2lMdzUzU2VGN1ltekQ2YVJLcDRsT29EV1lkNUYyZ0xBX2ZNN0wxdkFhSzRyaWljR1BMVHdpWnJEdndhWFA4?oc=5",
+      "pubDate": "Mon, 22 Jun 2026 03:00:56 GMT",
+      "source": "문화일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "화장실 기업의 반도체 도전...AI 부품에 8000억원 투자",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5TWEZwYmQzZnZESm85ZmJrZHB5a0hpMGJiUjVBVzNPS0txcThCZGNvSUFNSm85Z3ZoaDRZdGh3RXp2YlpmYXdFSTBpWjllS19mbHJYNzF3RFdJQdIBVEFVX3lxTFBYeklZUmJzMEZUelVYWTdnT2JpajIyRVYxdW4xanVaempZZDRMTFhOaEVUNUV4Vm80bTE1d0t4alBEYkRGTVJXYlUybTJEMVdFMnhSUA?oc=5",
+      "pubDate": "Mon, 22 Jun 2026 03:00:07 GMT",
+      "source": "한국경제",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -29,48 +42,33 @@
       ]
     },
     {
-      "title": "용인 남사읍에 ‘반도체 마이스터고’ 탄생",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0wZTRNbEhURk52WDFfSnBzcS10LU5pa192allJRUwzTGpVYWtYcHE3WW9hX0RaaVBTaE05OW1HZWJZaEFPUlhoMFJCUmxxenpCYnQ3U2xpSXNGemJEUWdxVVpuOHE?oc=5",
-      "pubDate": "Mon, 22 Jun 2026 01:09:36 GMT",
-      "source": "용인신문",
+      "title": "반도체 슈퍼랠리로 수출 호황 … 역대급 실적 뒤 ‘K-양극화’",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1LT19jR0h2dXRITURBODVrb3p4WFJMTEtUanh2eG94cFFJRGV2SzBUdXo3aU4zck5HMUhkMTVYbFNkXzgwUGxWZVN6YWJxdGhJ?oc=5",
+      "pubDate": "Mon, 22 Jun 2026 02:57:41 GMT",
+      "source": "문화일보",
       "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
       },
       "impacts": [
         "삼성전자"
       ]
     },
     {
-      "title": "삼성전자, 프리미엄 주거 시장으로 HVAC 사업 확대…글로벌 공략 가속",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1iSURka3dkY0otR3lrNzR1NG14aWRocTFaQjRad1diQ0NWTlZUdV9RVHhFclBJMkV0SWNiSHBSaEtXMm9mdlJMelY5U0NoV19PTHJSWXpoejBvR01qcG9nUFJIcWZIWVVFX1pTTlZldVVVQQ?oc=5",
-      "pubDate": "Mon, 22 Jun 2026 01:07:27 GMT",
-      "source": "인더스트리뉴스",
+      "title": "신한투자증권 고객 절반 \"코스피 1만 간다\"",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9XYmxUTGE5aUJoeDRzR3FHdjdrOTBmTGdxNHVnNXluSlQzYjFsYVJQNk9ialNRYVRPY1VUS2Q4S0twZmFMZl9pUHVfREdBQ3VjcmdGWmJTRmM3NXZxYVc3ckZwOEc?oc=5",
+      "pubDate": "Mon, 22 Jun 2026 02:43:04 GMT",
+      "source": "포쓰저널",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
-      "impacts": [
-        "삼성전자"
-      ]
+      "impacts": []
     },
     {
-      "title": "한울반도체, 중기부 국책과제 통한 MLCC 검사장비 고도화 추진",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1uUGk4LWJEV1VyTGcxMWdDVDFVaF9KU0s3dFJVTnNwTWVQNU5GUXJKcmNnQmlldEl6MmpQenhhbHFLREpXc211UUJfdzZmclha?oc=5",
-      "pubDate": "Mon, 22 Jun 2026 01:01:00 GMT",
-      "source": "톱데일리",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "개미 2명 중 1명 “코스피 1만 넘는다”…반도체에 몰린 투심",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9xSW41ZXBvbjlNaUdHVUZVS0oxcnRDU2Q5M3JpRFgxVERaN01qYUt2ZmtUd1RzVnNZWVdueXZtNy1nUk00LVMxNXNEMmxUaFk?oc=5",
-      "pubDate": "Mon, 22 Jun 2026 00:59:17 GMT",
+      "title": "태성, 차세대 반도체 핵심 '유리기판' 장비 공급 확대",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE93NUpTQUF6eTI0VzBTMmF5STUtMzJGLTNldEZDdFZwU1gxakJ3U2VLdFNteFYxODUxMjZQRWc2NlhLZEJUTk1MX1MxVENKVWc?oc=5",
+      "pubDate": "Mon, 22 Jun 2026 02:42:56 GMT",
       "source": "v.daum.net",
       "category": {
         "label": "📋 GENERAL",
@@ -81,10 +79,10 @@
       ]
     },
     {
-      "title": "반도체 훈풍 탄 동탄…불장 속 규제 가능성 '솔솔'",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9VSHBzanJpT1FIRHVNQ2FYVk1vZDV4WnhiYlgwcGNCQ3UzVXpwcUZSX3pxQldNcllkdUdyOVFVelBTbW9HQVZld3E0NUY1VjNxTWpoVnBpZlVJS1hDX1Iwd1R3ZlRDRm5GdTQ3Q2pXalM?oc=5",
-      "pubDate": "Mon, 22 Jun 2026 00:58:22 GMT",
-      "source": "신아일보",
+      "title": "피지컬AI 솔루션 기술 확산… 경북, 반도체 등 무인화 지원",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5tYUhNVXFUVUt0dlBaV05ydUJkSGpuTl9tbFV6Mi0tVDRVdG5IcUg0VTdlUDA1dnBDVkNYVm5VT0ZQWnNEeGJ2OVRCUzFVUk5H?oc=5",
+      "pubDate": "Mon, 22 Jun 2026 02:37:44 GMT",
+      "source": "문화일보",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -94,10 +92,10 @@
       ]
     },
     {
-      "title": "집값 띄우는 반도체發 유동성에 보유·양도稅 강화 예고…공정가액비율 손볼까",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1vQXRHLXFpMF9zdGV1WjNDOFp4LWp0Y2FyZHN5M2t5RkFRUnM3Q2s3eFZ1TlZhb1BZaVRGWExZLVlVV3pfRGkwbnlKOXlvaGVSdmpaV0JhNnNKOFZOdUEyVQ?oc=5",
-      "pubDate": "Mon, 22 Jun 2026 00:57:40 GMT",
-      "source": "아시아경제",
+      "title": "본업보다 낫네…日욕조·세제 회사, 반도체 사업서 재미 '쏠쏠'",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5VWi16dmdackkzaTEzbjBud2dsWVhnSEpxSkJOajlzUm1rTHVGNm5sZVgwOWdOX2tEX1Y2Mkw0c1lMTkxucGh0Z3VsLXJVakk?oc=5",
+      "pubDate": "Mon, 22 Jun 2026 02:33:02 GMT",
+      "source": "v.daum.net",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -107,30 +105,29 @@
       ]
     },
     {
-      "title": "‘반도체 머니’ 부동산 유입? 정부, 보유세·양도세 손질 ‘시동’",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5lTkZyY2wyXzlUV2lJREM1Y3RfTTlZVm5sVXczbldCOTBKYnpFZW90UmdVUkp6bFdvSHlRQzhIMXVKYVp2VXhwdWVJMUVKVDZwTmdxcUE2WEJQT2F4OWdtUEdkTQ?oc=5",
-      "pubDate": "Mon, 22 Jun 2026 00:56:57 GMT",
-      "source": "에너지경제신문",
+      "title": "1∼4월 공작기계 해외 수주 23.3％↑…AI·반도체발 훈풍",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1JczZLZDFFRzZ4bkEwYkVmY1VzWlR2eVludUVlRHJmT1ZibHhOeUxTN2F3YnhtTTY5MjlhQ0FNRjhtV05BVlo0VTB6WWJnWXA4R3c?oc=5",
+      "pubDate": "Mon, 22 Jun 2026 02:33:00 GMT",
+      "source": "매일경제 마켓",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
-        "리츠",
         "삼성전자"
       ]
     },
     {
-      "title": "삼성전자, 오픈AI 챗GPT·코덱스 전세계 조직에 도입",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBwUW5Ba2tBRHhXdnFFbGpsb3JmUDdkb0pQZ1Atdjlfek1JVmN3aU1ISFRRQjVYc1JaSl96eERJem1ZcS1LZF95VnhtbE5HR0JiSXpiTDhUclZXU3Nta09rNVJzN1RqaXh3YWhPdmZwYS0?oc=5",
-      "pubDate": "Mon, 22 Jun 2026 00:55:50 GMT",
+      "title": "두 거물 억만장자의 비트코인 '바닥쳤다' 논리는",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE03d0dCelpHYkRmY2pLZ3VzNDdxUjJlZ2VvSDlHc2NEMzM0OUpJVUtvc05DSldnRElXdXdjNXJ0RUx0THp0TXlObnZPVEVqSDRkRXNucGVTLWdKdGxqYnBhMDY3V2R1QVFZMG8zcFVPem8?oc=5",
+      "pubDate": "Mon, 22 Jun 2026 02:32:36 GMT",
       "source": "연합인포맥스",
       "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
       },
       "impacts": [
-        "삼성전자"
+        "BTC"
       ]
     }
   ]
