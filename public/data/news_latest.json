@@ -1,120 +1,52 @@
 {
-  "timestamp": "2026-06-23T08:17:04.953109",
+  "timestamp": "2026-06-23T10:17:06.683426",
   "count": 10,
   "articles": [
     {
-      "title": "삼성전자 감사 페스티벌, 구매액 20% 온누리상품권 지급 시작",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBnTHZTU3dhVVMxamsxZU0ta2ppbVZqS042dWlBeUZoY3hsUTV6ZTlJcWdXcXU5enU5LTR2amxZdS10ZFgxdXdFZ1UzcE1NR2wxc1FzbW1oUGVhLU1z?oc=5",
-      "pubDate": "Mon, 22 Jun 2026 23:14:00 GMT",
-      "source": "뉴스핌",
+      "title": "[속보]SK하이닉스·삼성전자, 장초반 2·3%대 하락",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBoaWJaZEJhU09nTUNkTVFXSXNxZEhweVhMTF9jMVA2ajM1ZVV2cFQ0a3RwdlZsa2t4dkJfRHRRRlhqcnlaWEhWV0hKQmpmQS0y?oc=5",
+      "pubDate": "Tue, 23 Jun 2026 01:11:34 GMT",
+      "source": "문화일보",
       "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
       },
       "impacts": [
         "삼성전자"
       ]
     },
     {
-      "title": "삼성전자 HBM4 매출 10억달러 돌파…양산 4개월만",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBEUnZjWHJ3eTJ3UXU2TVQwYUZRYmhtNWhNX1BRZENmWmUxTzUzNDFsWmZtd1hnSF9hVHRRcG5XQTctOWFNWXBuUFdPdG9LSzN2R0t1VzZZeG5hbzVOaHBaYUYxLXRlWTg?oc=5",
-      "pubDate": "Mon, 22 Jun 2026 23:12:14 GMT",
-      "source": "강원도민일보",
-      "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
-      },
-      "impacts": [
-        "삼성전자",
-        "환율"
-      ]
-    },
-    {
-      "title": "[모닝 리포트] \"반도체 시총 경쟁 본격화, 수급 변동성 확대 전망\"",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE0xQmVLZHNZbXJLMlR1NENIN096ajYtRTBFNG5hNUpZNnYwc0o3SVh0Xzg0cE1LMmpCLW1DU1k1UHZmQW9leUwxdXFmcnpmWTd1bnJDUEk2RC1XMERy?oc=5",
-      "pubDate": "Mon, 22 Jun 2026 23:08:00 GMT",
-      "source": "뉴스핌",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[속보]삼성전자, HBM4 매출 10억달러 돌파…업계 최초",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1kWF9HOUkzR09Xcko3RUlmLXBIQ3hqVndiMUhjeHNtcmtNbFBwT200Z3lQYnhzMEtfWGgtRW8wcFZpVUlxa09NdWVXYzNlcG4xbUxXdDNicGxsRUhMbVc3Rw?oc=5",
-      "pubDate": "Mon, 22 Jun 2026 23:05:23 GMT",
+      "title": "김정관 \"반도체, 새로운 단계 필요…시장 선점위해 지방 투자 서둘러야\"",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBTQVNsaEhmTWp5VkYyRTg1em1JbVM1QmpwOTM2bTE0cThtQk5lQzlWZXA1OHp0YVJPcnhNS0ppWjhzaEdYeGZla2JWWi1ZNFBoY1p0aWZ3OFE4YVd6Si1pZQ?oc=5",
+      "pubDate": "Tue, 23 Jun 2026 01:10:51 GMT",
       "source": "아시아경제",
       "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
-      },
-      "impacts": [
-        "삼성전자",
-        "환율"
-      ]
-    },
-    {
-      "title": "[속보] 미국 반도체 상승에 삼성전자·SK하이닉스 프리장 1~2% 강세",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1KNGJRVks1WHdub2FUN1gtdER2OGVHbEliX0tidnQ2MlI0TmVwRVc3WmZtdERzaG1keDlRaWNRWTBQa0pqT3ZIVW9FV083b015M05pbUwxWEJDaDBsdU90b25qUE1XaV96azhobEYwWngxeHlOVHY4ZHNQVdIBgAFBVV95cUxQNUlIZjFqcXlQeTNVdFhJV2djQVkxeWFUZ1pIVFdIS1UxakFENFpOWDM4bnNvTmt3eTZxT1FLNWRLRUxlUUhxSVpualZUUlNzaUVwaVk2NWt3MVowWHpzSnhtcDBseXdWX2Fhcm8tWndHY0VUNF81aGhDZXI0bXhsRA?oc=5",
-      "pubDate": "Mon, 22 Jun 2026 23:04:20 GMT",
-      "source": "뉴데일리",
-      "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
       },
       "impacts": [
         "삼성전자"
       ]
     },
     {
-      "title": "[속보] 삼성전자, HBM4 매출 업계 최초 10억달러 돌파",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1FY0NUSzhSRjdMekV3U1lDcHdyQ3hZRmdmcjdLOTV3X3RKeWMwUHpHUmFNYlY4dmpEYTlieUhmcUp4R3RCdU53TE1nN2pWelJkQ1ZZM0lB?oc=5",
-      "pubDate": "Mon, 22 Jun 2026 23:03:16 GMT",
-      "source": "중앙일보",
-      "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
-      },
-      "impacts": [
-        "삼성전자",
-        "환율"
-      ]
-    },
-    {
-      "title": "삼성전자, HBM4 매출 업계 최초 10억달러 돌파",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE53a21pT01ZM2tka1pkOExGdE1ZSFNiZWEyZWRRZjdzbGk0Y05PSTJwakhobUNfYUwxYmdPS1VLRFZWRzViekpNeEJtOWlDcm9aY2N4MnlCTktad9IBVEFVX3lxTE5lZzc3Q0M2QmxLbENNdUNTQ3NITEMzbFN6WTE1UlFmWElVR284dDlaSWF1SnIzcDhXcFRFcV9wZ2xtb05IbDJ0VzVFSzZyLThHRmdUaw?oc=5",
-      "pubDate": "Mon, 22 Jun 2026 23:02:23 GMT",
-      "source": "한국경제",
-      "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
-      },
-      "impacts": [
-        "삼성전자",
-        "환율"
-      ]
-    },
-    {
-      "title": "李대통령, 이재용 회장 만난다… AI·반도체 ‘프로젝트 트리니티’ 주목",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFAyN1pGdzNYUkEyb3JCdVh1eGRuaU8xd3RlUG8yVXc2TnR5bEYtdnNkUlZ1Sk9RUFk3cVg4dlU0WGRfWXgzLW5KWjdVclVNN2s?oc=5",
-      "pubDate": "Mon, 22 Jun 2026 23:02:20 GMT",
+      "title": "삼성전자 HBM4, 출시 4달 만에 매출 10억달러… ‘연말 100억달러’ 정조준",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBiLUdBdTJwT181U0ZzNnYzOG5GTlZ0cFpjWkk1X2hOVWlQVkV6cFJabW4tNlI3MFcwNzg2MzJXSTVzNHZrMWg2V2NGRlBwSTg?oc=5",
+      "pubDate": "Tue, 23 Jun 2026 01:10:40 GMT",
       "source": "v.daum.net",
       "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
       },
       "impacts": [
+        "환율",
         "삼성전자"
       ]
     },
     {
-      "title": "반도체에 불붙은 동탄 집값, 묶으면 잡을 수 있나",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9td0dWMEdtc1FOVmF3NVhBX0p5VWdOYjI3aUJnQm5kREtnZHp6WGxlNERBUTNhYVdjemN3bHVwM0thQzdwMzUxRldwb1JvU21tN0ZTYTNpUlh6dWZoRWhLRUx0LXlHMjNyaVZodjM0MjY?oc=5",
-      "pubDate": "Mon, 22 Jun 2026 23:02:03 GMT",
-      "source": "비즈워치",
+      "title": "[카드] \"구매액 20% 환급\"…삼성전자, 온누리상품권 지급 시작",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE55cWYtQmdRTG9DSm5Na2xORzZQSFA3RVdIRDh2b1BIaFNMMXhURUpNSWJ1Wko3ZWc1dDlrMXl6X0VwWndjaXZiZTNlODRWMXBzM0luYnl3OGRQS0s1eFBZZQ?oc=5",
+      "pubDate": "Tue, 23 Jun 2026 01:09:56 GMT",
+      "source": "프라임경제",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -124,16 +56,83 @@
       ]
     },
     {
-      "title": "반도체社 호실적 랠리 예고…다올證 \"돌아온 바텀업 구간\"",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5Wd2lMZmhuS0kzTWN5ZHd1TXZScF9xQmlGZHgyc0FMS3RKU3FaOERxb1BUeEpmZndGVERlZTdLNjhuSTRWOVJHRHZfODRPNk9wSTd2X2Rvbm96aXlkVklFcnA1aHlXWHVid2kwWXljMDI?oc=5",
-      "pubDate": "Mon, 22 Jun 2026 23:01:08 GMT",
-      "source": "연합인포맥스",
+      "title": "삼성전자 HBM4, 출시 4개월 만에 업계 첫 매출 10억달러 돌파",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9lTDA0bTV2bE1RY2QwaGY3bGNIRU53R0pnRE52T0J3RTdGR0lGTlEwZ1VaX1VmVFBJbzZ2cEhwSW9kWVhNTFN5YVBTaFZxRFBkczJlNGprRWFsN0E?oc=5",
+      "pubDate": "Tue, 23 Jun 2026 01:09:00 GMT",
+      "source": "KBS 뉴스",
       "category": {
         "label": "🟡 MARKET",
         "color": "#f9ca24"
       },
       "impacts": [
+        "환율",
         "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전자 HBM4 매출 10억달러 돌파⋯\"연말 100억달러 가능\"",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1mWDhQemUwSGZoRGN5dTctZnZlc045MVU4aURpOTl3cFEwUzhSbElJbFo1bnVqdS03cnJBVlJwMnhZckpCX1ZmMkEwUjAzbjVwNUJGSXd5MFZXdENIb1E?oc=5",
+      "pubDate": "Tue, 23 Jun 2026 01:08:50 GMT",
+      "source": "포커스온경제",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
+      },
+      "impacts": [
+        "환율",
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "학력 지운 반도체 채용전쟁…“이젠 간판 말고 실력”",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5nNFM0dlI2WWo1X1F5VU1EM0Flc051ZEtjR0hHSE5MblhrWG5yNGtzR1Q3Wmd4c2M5eWswcmJRWE5YR1dzSjd6WFN6eHdiYnd3TFk0aVE4ZWpMbUxWcklPdXRpZDdDYTV1YW5qRQ?oc=5",
+      "pubDate": "Tue, 23 Jun 2026 01:05:03 GMT",
+      "source": "mstoday.co.kr",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "현대차, '현대 트랜스로컬 시리즈' 신규 참여 4개 기관 발표",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1zLWw5NlpKYUREMGZvU1NCVk14WmlobU9KZ1JueTh2MVV5YnQyYm1uMVNrX3M3Qm9MR2hfNkpLbVptbklrMTBfVDFJbGhhdw?oc=5",
+      "pubDate": "Tue, 23 Jun 2026 01:04:13 GMT",
+      "source": "전자신문",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "삼성전자, 온디바이스 최적화 UFS 5.0 메모리 개발",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBhVGF0STkwRUhVbm9QaVdyRE04cEpFRVRPc0k0V0Nqc2w1Wmprd3J6S1VGb0tNOGNIMHdfOEotN3lTd3FpOG9Ick9TT0lVREQyY1ptZDlMU1VHb1k1WkNab3RXQTN5UTVDd1NvNFFHNTRBSVJv0gF0QVVfeXFMTkhLR2xWWmNId0xQZmlhNmZYUU1WZkMteG56TVN2WHpTVTIyLU5fY1FRUzZfSDFHclZRU3pNS0E0M1BBWWFfalJPZ04yUEZ1QUw0a3JqbmI5RFdjSkF5M3hGZm5wbGpvTklMNHdlYWRJWmpXU3I?oc=5",
+      "pubDate": "Tue, 23 Jun 2026 01:03:51 GMT",
+      "source": "MBC 뉴스",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "\"주가는 주춤, 로봇은 전진\"…현대차그룹, 미래 승부수 키운다",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9UcmJJcWVOT1M5cEZnU0lGcXFiLTlJUFlfalRDRnhkSWNzVGZUcUdMTzRDSmJzQ2xmRzJHTFpsaFNsYmR1MGdBSDlXTW9SQnR0OE1keUFUdkRNWGk4UGRGZ2VR?oc=5",
+      "pubDate": "Tue, 23 Jun 2026 01:02:45 GMT",
+      "source": "매일신문",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
       ]
     }
   ]
