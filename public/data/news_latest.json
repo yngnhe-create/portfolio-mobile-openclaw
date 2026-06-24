@@ -1,26 +1,38 @@
 {
-  "timestamp": "2026-06-24T08:17:04.871579",
+  "timestamp": "2026-06-24T10:17:04.578805",
   "count": 10,
   "articles": [
     {
-      "title": "[08:01 가상자산] 비트코인, 美 연준 긴축 우려에 하락",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBZRmhFUEtjZG5Na0FpZHFBNW5Oc09wS2VVMmJfd1dLODNQVURLVlF4LTQxRVpNbGxsNTNITUY5c0YtOVBUdnRtbUF0TTMySVBsX0VtT3hHZVkxNlBLMllvdWc1QUtQemhtNjIycVRGS3Y?oc=5",
-      "pubDate": "Tue, 23 Jun 2026 23:08:48 GMT",
-      "source": "신아일보",
+      "title": "삼성전자, 갤럭시 워치 데이터로 신약개발 임상 가속화",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBMX1V4bW9pUTVid2Zjb2pxdGdkbFFIU09FRHg2bmpMY0NpMjYtcGtFLU5EcXppNGZMMlF2LS0zRFUyXzBkZUJjTC1oNWdzTy03N2hmQk5ubnBpczgyUmpuNjN2T1hZMm5jNUxMNm1ETW4yZw?oc=5",
+      "pubDate": "Wed, 24 Jun 2026 01:04:34 GMT",
+      "source": "KB Think",
       "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
       },
       "impacts": [
-        "채권",
-        "BTC"
+        "삼성전자"
       ]
     },
     {
-      "title": "[뉴욕증시 브리핑] 반도체 투매에 주요지수 또 급락…마이크론 13%↓",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5mZFFrM1RkOXc3MU9DVW93Rm1YS1YwVkFNbmtETWpjQ25nVTlQdXUtRmpzSWRZSjVCRzVuckJGZXN6RG5pWlNQMXZqVEQ2M29J?oc=5",
-      "pubDate": "Tue, 23 Jun 2026 23:08:20 GMT",
-      "source": "블루밍비트",
+      "title": "[특징주] 삼성전자, 시총 1위 자리 되찾아.. 9%대 '급등'",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNcUpVRXY5UDMzOWF6Nm82bUhhcFpzZXRQcllUc1pfTXJOV0dDZTRsak0zSUU2SjFQanIzTDQwTmx4dlVRT0tKNEFTczBHUFNOeXV0SWpkaDBUd2MwR2F3Q25rU2dPaHJHN0hXaXE0bGRmZWQtdnFUX0k3eUNyOUt1SmRZeUp4TXBw?oc=5",
+      "pubDate": "Wed, 24 Jun 2026 01:04:33 GMT",
+      "source": "글로벌이코노믹",
+      "category": {
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "코스피, 폭락분 만회하며 8500선 회복…삼성전자 9%대↑",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1kRXNfb2hiOEc0YjhoTlJrUjJwN2NkbmxUUFdDbUdkNFhaS0R2MjFjVGpPWlE4b2R1SFlBOHgtVVhnenR1bVBYSzBPaHZMdzZ3STl0Qjc2SFh2aW5EcUVkVQ?oc=5",
+      "pubDate": "Wed, 24 Jun 2026 01:01:52 GMT",
+      "source": "아시아경제",
       "category": {
         "label": "🔴 HIGH IMPACT",
         "color": "#ff4757"
@@ -30,88 +42,10 @@
       ]
     },
     {
-      "title": "[모닝 리포트] \"국내 증시 반도체 투매 후 반등 전망\"",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBxWU04NjUxSkhFejQ2QmtoeU44bmNiR2RybGlRWkV3Ti1vS0RqWUlDTm0yZ29vRU1CLWJDeVZrT2NVRlNfQnNLbV9oUjliX3JCY3JYVDF1U3BCbmsy?oc=5",
-      "pubDate": "Tue, 23 Jun 2026 23:08:00 GMT",
-      "source": "뉴스핌",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼전닉스 반도체 팹도 광주에 둥지 트나",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5HcTZJMUJicUhOZXNUbzN0dnNzbXZCQnVPSzVPNmFUVHl0RmtNR0lHSHBtVnVPQzVsdEVrS204MW9uQ0diSnNfQ3VQWEJFbEE?oc=5",
-      "pubDate": "Tue, 23 Jun 2026 23:02:47 GMT",
+      "title": "서울로보틱스, 현대차와 국책사업 참여…\"2000억 규모 K-AI 시티 만든다\"",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9CcU1NUXgyck00NlM4UFdySWwyaU5DMXpaWFlsNFROZnhaTGpveW5Pa1NPdkRXeUYwNGg1UVJrZXlYSHJXRW05a1JuRWhjNHc?oc=5",
+      "pubDate": "Wed, 24 Jun 2026 01:01:03 GMT",
       "source": "v.daum.net",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자서비스, 국가서비스대상 가전 AS 부문 2년 연속 대상",
-      "link": "https://news.google.com/rss/articles/CBMiygJBVV95cUxPQ0VUMUMxQnBFT2V0LVRkazZhSGxlSFM4cHVINlVVNjZfdlhDd245MUZob3M4M0IzcVVpLW9KY2huVlZoU3VmVTgxWXlyc1VETXBiZWd2VGNpMW1EQXExaHFSemtnNkJfNEdBUGpMSW9aQ192MTItdW40OXZjbTVkankyd21yVUhWQjBUMGl2Q2xlNjFnYTBlR3hsNzc0c2RLM3NrRkRhczRIWk1CWUdpX0l2RE5nTXN5Mzc4dWxVajRSNDd1bVpnbW5sZnlNdkUybnZ1cHNsUXM0UVRPckN6WUFJSFBndHpyeEJ0dGZDXzVxQ1dYbkstRnl1SkhfUzdoTFR0WmJqUGlkRWdHLTVvMXAtVmdjMEtwVG9VUGlmY0xNUFNXSlZlS2JVMXhtckFQTGJIR2hhalQ1NVZiZGNseE5XQi16UlB1bWc?oc=5",
-      "pubDate": "Tue, 23 Jun 2026 23:00:00 GMT",
-      "source": "Samsung",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자, 영화 ‘슈퍼걸’ 개봉에 맞춰 워너 브라더스 픽처스, DC 스튜디오와 글로벌 파트너십 전개",
-      "link": "https://news.google.com/rss/articles/CBMixwJBVV95cUxNNDFHb21CVUJjRzd0bVhqbkxyZ2pPRi1aZ1pjMWFvQk4tREtROHJiSGlxS0xDWEo2VE1JTW9VdGVycEc3VF8wdEkzY01GeFdIYWgyc0ZtVk91M3pobEZVN1hBOTAwTmlIVndsRVRKRUVuUG16NmhUektwSHdJS3VKcWxETWNSN0VJQmdXbThWMnRsT1RaeHJ4UWRLNHA3RG10VjYxRTA3OTlLVkpnSnZrMDdVZm9DLU0zaFVhVmpUT0tGcEhPX29qU0JBVEszdkNaQ19JQ1pVTFYyMVJ4LTRNMlJHamJIWEpYQWhTN2hvTTNsMWk3bHJSdlB5RzBPN2VJMGJwSk9EZ1pGN1FQbXJLdlpqWW9lYWY5ZmN6U2xTNWh4Z293OXE5QzlSRU51RDZBUkYzbUNFUzlkbGg4QWdFeUJhaUdKZm8?oc=5",
-      "pubDate": "Tue, 23 Jun 2026 23:00:00 GMT",
-      "source": "Samsung",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자, 글로벌 임상시험 전문 기업과 협력해 갤럭시 워치 데이터 기반 신약 개발 임상 가속화",
-      "link": "https://news.google.com/rss/articles/CBMixgJBVV95cUxPZkZOSHNCa2xzTENDUDJ4YktRRVA0VGFrWnJGcGNNelMwVUNrcURiMUxsYTdGVnI0bXZDbHVHVmRrU1NUMXMweTBSNVJSQmhwV3dzOEF4MEFWZjc1Q1J6SkpzVDZxRUdWWGhGYVhmdmhOLUZXUVU1MEtGUE82MXg0UEtycnBpNDVQRzFJdTJHWXNIZVlMbjdLTEw1VWY2SEVHc1JHRXBVNW9jVUV3SnFlNnAtX1RMMnJ0T0MtYjlVeHYtaGVkNHA0YVlGTGduUWpLR1N0U3VrOXhkNUdRUEpfQmozWTliNlcxYlBzYllCVTlOM2tlTV9ZRlBrbW1NMVBIS1ZFNER4cE9Mazd0ZjNFWjRGV3NocnlfUXN4OXMyNVBaRjZwZUxWVXVCb1J5LUpqa294S3MzbUNjZndSUTd6ZlNVWVVOZw?oc=5",
-      "pubDate": "Tue, 23 Jun 2026 23:00:00 GMT",
-      "source": "Samsung",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "7월 대한민국 경제도 ‘먹구름’…‘반도체·수출’은 호조",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5USGZRRzI3b3BNaGE5MjlIb3pnRmFnM3Bpa1hKR2pWOWYwTDdUbWpBQ1lNQzUxb21fcGpoMF9OR3BRdUs5QjJ5eVFDSEx5UTMteDVVdkE1RlZNSmxBMmtoNkRYS0dPbUxE?oc=5",
-      "pubDate": "Tue, 23 Jun 2026 23:00:00 GMT",
-      "source": "테크월드",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "현대차, AI 기술 적용한 신형 세단으로 내수 시장 정조준",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBnZlBBRk5VY1lnczJ3SkJOZ0ZvdWV1VHFETGViOUpwYjFjQjNaOVlkNHp2OHk4TERJN3R0QldWeUFQUWRiZG9fZGRMVGVtNjVMTy0yVHlVaVU1SXA0ZFFaUkMwUzIwTnVH?oc=5",
-      "pubDate": "Tue, 23 Jun 2026 22:59:00 GMT",
-      "source": "2news.co.kr",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -121,13 +55,78 @@
       ]
     },
     {
-      "title": "국회예정처, '반도체 호황' 명목GDP 6.6%p 더 끌어올린다…올해 12.6%",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE51OHN0aTZ1X2R0UF9nUTZULTNMWlVub0FIcHh0OHo1M0tmeGo3OVBoX1FUUnhkX0dlS1BPWmU5UjR6SGp0Y3FMc0E2bDQtWXNMbDlRNVcyX1FJaXliTDV3TXpLZEdSdE1mc1pfWDRUeGE?oc=5",
-      "pubDate": "Tue, 23 Jun 2026 22:54:13 GMT",
-      "source": "연합인포맥스",
+      "title": "코스피 8500선 회복, 삼성전자 ‘대장주’ 탈환",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5KSVVwQXEzdjd6VFBYNHRpZnVoVkZHTmV3RW45RTZfOHZ5OE1yemZvdXZjRllUNVU3SjB4cWhySmZZQzBWSFdVSUxOVzRmQmRwakVnaHBBa2RhSXphX1RmY091MTFrRVhvY2c?oc=5",
+      "pubDate": "Wed, 24 Jun 2026 00:58:03 GMT",
+      "source": "비즈워치",
       "category": {
-        "label": "🔵 MACRO",
-        "color": "#0984e3"
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "현대차·기아, 한미일 경제대화 내 '사이버보안 워킹그룹' 출범",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBvWFJkNnktdUZFQUZiRERiVHdrZVJacWFPWXk0U0w1WG9GREsybU5Hb3RVRXh6d1hFVndiNUxLbmpGelRPNE82cGVqODdrSUNhWEdVYk9DM19KaW9fVzRoSQ?oc=5",
+      "pubDate": "Wed, 24 Jun 2026 00:56:54 GMT",
+      "source": "뉴스1",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "[인사이트] AI가 다시 공장을 깨웠다… 반도체 수출에 올라탄 한국 경제",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB2d25LaGV5VTNmVjBreWUwRjNISGNPNW5PTm1aWUYzYzBmaGJYU0MxTHBqUjd2cjlXOU1nN0hSRGRDVUhweC0xSmJiOXZaa3pTVFZv?oc=5",
+      "pubDate": "Wed, 24 Jun 2026 00:56:01 GMT",
+      "source": "산업종합저널",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[특징주] 삼성물산, 삼성전자 지분가치 상승 기대에…12%대 급등 - 조선비즈",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVkE3RXZlUm4wSjBHY2tvNmMyUl9UZlFVcmZuNmFYSDZIanlZRkJPLUxaUXROUGdDZzYxeFRhTjhQUWJfU3RjUEk0aUwxeS1KLW9CSFpoOXVseUNJejZDLVJKRVM3ejB4UWR5SC1TWDNFZzY4YzB5MjY2OUtxM0NmSG9kV09UZ0R30gGcAUFVX3lxTE82RGViV0hzQ3MwZ1JsQlFiU0JIOGZPZVBsNHZ5Wi13VGZNNnV0S2treTliOW9ITFZnMGNPN0RsamhXdkNZY2NZb3FXVHJzcWhWMXZOMEtIOG1rbFNaVDhDeUlud0l5Umg2NlhYY0Rxelg5YnRVS0dQY0t2ajMxSnYyS1JoeDQwNHZyd1JadkJKQjhzZ0ZZbW0yZTVtYg?oc=5",
+      "pubDate": "Wed, 24 Jun 2026 00:54:00 GMT",
+      "source": "Chosunbiz",
+      "category": {
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[MK시그널] ISC, AI 반도체 시장 성장에 따른 테스트 소켓 수요 확대 등에 주가 상승세... MK시그널 추천 후 상승률 25.75% 기록",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1vMDdXcF95ZzUzZTJrQ3RlcEdQYkthOGdJX2oteVgwUG0walJmU3c1bXJ6WWN4WnFJUHpRVVlIX3NHZ21vNVZ0VVRfRVNRLTVobGc?oc=5",
+      "pubDate": "Wed, 24 Jun 2026 00:44:38 GMT",
+      "source": "매일경제 마켓",
+      "category": {
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전자, 10% 급등하며 시총 1위 탈환...코스피도 하루만에 반등",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNcXdoa0pTWUZURkNNdWJQM1ZrMHB5ODBORGRnUFd1TzVzQS1DbGxUcG9EQngyOUtTUV9idFNwUVVJNGVmRGFwbVF2RmdkcXkyV3o1R1pIb0Q1YW1BV1JQMFo0QzNpWm9GMEM2cVNJQVU5bmp0U054SWE2Tm11UUpXLQ?oc=5",
+      "pubDate": "Wed, 24 Jun 2026 00:43:00 GMT",
+      "source": "조선일보",
+      "category": {
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
       },
       "impacts": [
         "삼성전자"
