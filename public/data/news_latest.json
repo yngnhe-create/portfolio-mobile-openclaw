@@ -1,25 +1,12 @@
 {
-  "timestamp": "2026-06-26T10:17:04.828210",
+  "timestamp": "2026-06-26T12:17:04.697341",
   "count": 10,
   "articles": [
     {
-      "title": "전 IMF 이코노미스트 \"비트코인 정점은 2025년…사기꾼들 기억해라\"",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9vQndkMkNFVWlhRW1jakRtakNGYlBMcDBPaXctUWZ4U0VZM25NSVNSQTRHd2ZIZ0cwd1NVTWhvV2xUUGxuZlUzUUhIT19YOVB1UURKWnAtWDNsMXdBNXp1eUVpWVV6MFhkdkxNdlBVa0R1U0U?oc=5",
-      "pubDate": "Fri, 26 Jun 2026 01:05:00 GMT",
-      "source": "디지털투데이",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "한미반도체, 시스템반도체 패키징 'FC 본더 3.5' 출시",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4tWjUyd2t2VHdibmllci1VSEZFTVloeVBHY0dNNnlIU0dVR2hyQTJKN1VSUmJBRG1Cai12OExPd0s1MnNVT2NYeWhZNmV1dHBDaDdzS2hR?oc=5",
-      "pubDate": "Fri, 26 Jun 2026 01:00:59 GMT",
-      "source": "지디넷코리아",
+      "title": "\"반도체 산업마저 호남권으로\"…TK 정치권 반발 확산",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBMOXpESm9lYnRSYzEwUjFDN0pGZk8zQi0xWGs1NjlsRlFNdG1ETDExSVgyV1BCTUJuaFFyNHVnZ3VIb3hJaGZyU0cteVU4amdfekVHS1ZWdG9ubjBV?oc=5",
+      "pubDate": "Fri, 26 Jun 2026 02:58:00 GMT",
+      "source": "뉴스핌",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -29,24 +16,63 @@
       ]
     },
     {
-      "title": "[인포맥스 POLL] 6월 수출 첫 900억달러 돌파 전망…반도체 초호황 지속",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE90Qm5BM3JMdEJadTFzdEk5ejJ1N0dkcDJaTjJ5VnNQMjI1b0F1eU9lVDBMVG1IYUZXcGt0c0hpTXVIQ09HTEpqbjRlM0tqd3llTmZDazV3Nk9Xc1FSQkt5cmlJSGZGaGZFdnNHRUhvX1k?oc=5",
-      "pubDate": "Fri, 26 Jun 2026 01:00:24 GMT",
+      "title": "`아반떼·마그마·PV5` 총출동…현대차그룹이 채운 부산모빌리티쇼",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE41ZU9PMk9LS3ZtLU9LSDFfR3V2aW1obk8xbGwzS1VNSDlLZDlTZmt2eFVHcWVuVHdQV2ZLeXZlbW1ocGhYYXQtby0zam8xemRxd09HWWtLZkNHbmFiSzZBdnpISjc?oc=5",
+      "pubDate": "Fri, 26 Jun 2026 02:53:39 GMT",
+      "source": "디지털데일리",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "IBM, 세계 최초 '1나노 미만' AI 반도체 기술 공개",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1fSWhSd25tc2NxVURMLU0xeWNXU00wQTktWXFVdE01VGU3S3RWQloxVC1tcEpEY0prMkVDcUVrT0ttcTVSVlFtbTgwTlIwa21LME5PME5rTHRyZDdFbkV2ajZPbDhZNERWUlE?oc=5",
+      "pubDate": "Fri, 26 Jun 2026 02:50:29 GMT",
+      "source": "AI타임스",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "호남 반도체 앞세운 ‘1000조 원 플랜’… 전력·용수·인재가 순항조건",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBMbWZLUzFSaHczcC1URk9TUEl3LW4xQXlNOXZGMmVkRWFHRmh2aWZITkhGRzdMZWdvN1AwUXk1OWsxTV9STUdTMF9yd05VQkY0?oc=5",
+      "pubDate": "Fri, 26 Jun 2026 02:49:47 GMT",
+      "source": "문화일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "S&P500 선물, 반도체 수요 지속 우려 속 혼조…美국채금리↑",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1UZHdWbDFBeUNFX3JYNWVBQ3NYTVFvOWN1WTJIZEZyQXNIWHQ4WkJfbXA3V2IwZDBFaHdqR0YtVWhTcXkxMlFRbjF1alNLUEJFelJTUDZwWkY1ZWd1cC16SEVBTTBVNWpwOVNfblFTQnU?oc=5",
+      "pubDate": "Fri, 26 Jun 2026 02:47:55 GMT",
       "source": "연합인포맥스",
       "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
+        "label": "🔵 MACRO",
+        "color": "#0984e3"
       },
       "impacts": [
-        "환율",
-        "삼성전자"
+        "삼성전자",
+        "채권"
       ]
     },
     {
-      "title": "김용범 \"반도체 투자 너무 커... 진짜냐 싶을 정도로 낯설 것\"",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxON3AtRGU2d2xmS2I2YzZWbXNPQ28wbG1nTEtJSDFETW51ckZFLVNoV3FOWXV5WnZncG5Rd1ZvOVh2YUxycHVUSzZkazZOWWkyVWI4ZFFpcXJ6Uk9OX1ZTeDhQelNzTXllR3o5di1EZnlKelpKWkpuSk9ZTUU5blpvOXI1aDhGbDdfQ0lqU2xGQ2U?oc=5",
-      "pubDate": "Fri, 26 Jun 2026 00:52:00 GMT",
-      "source": "조선일보",
+      "title": "영남·충청·전북 반발 ‘광주 반도체’ 국민 납득이 관건[사설]",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9zRjRlcFdIakZ1Vm40MS0wSXB6ZDNZVlB4d2pmdS1FUlh2QzN3d2hrbXVVc3RuU0JlUnNzelIwa3dHeDhlVHE5ZHJqbmpaLXB5?oc=5",
+      "pubDate": "Fri, 26 Jun 2026 02:42:23 GMT",
+      "source": "문화일보",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -56,10 +82,10 @@
       ]
     },
     {
-      "title": "20% 환급 삼성전자 감사 페스티벌...삼성스토어 방문 75% 증가",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5mVS1WazZOMlFhMmdXaGg1SmkxeXBwUmpjU3RHekVkcnB4WFNOZTY0Njk1R0l5alZKYnZUUVhCTHNBLTdSLWpKaURweFFBQlREU0VFelotN0lUd0Z4RUE?oc=5",
-      "pubDate": "Fri, 26 Jun 2026 00:51:00 GMT",
-      "source": "YTN",
+      "title": "삼성전자 '감사 페스티벌' 종료 D-9… 온·오프라인 막바지 흥행 고조",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5FWUhEZmFxTUhqVU9RQU94WHV5RGlqQ1FGOGpGWWhoaGhkVktnblhPQ3hQSjl0Z2ZEOWxVY3ZmZ2ZWaXhMaFlUSHpLdEI0MUhpLU1OY2QyZmdzeElTeXB0MXlYZlVWcGdTdVB2dGozQVo?oc=5",
+      "pubDate": "Fri, 26 Jun 2026 02:36:13 GMT",
+      "source": "오피니언뉴스",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -69,10 +95,10 @@
       ]
     },
     {
-      "title": "현대차, '찾아가는 정비' 美 전국 딜러망 확대…스피피·MSX와 맞손",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBBVk1PMGtOZ2EyV2diR1FjR1VXelZ2SGppcmFpZE1GMWJXcWVHUTF1cDJMd2tPNVNfck1wb1V0WHFIQnpSNW05SmN1RG1VZEJIdUhzNkZHUGhLblBzaVVNT3YxZw?oc=5",
-      "pubDate": "Fri, 26 Jun 2026 00:50:36 GMT",
-      "source": "더구루",
+      "title": "현대차 '디 올 뉴 아반떼' 공개, 미래 SDV 방향성 제시",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE50bGIyUllaSm41em1ueUtFdHBndEdmdzhFVGdueXBMTkdCY1QzZlhFbG9tRWk3RGVhdEp3cDRna1E5QWg4eFlTd3oyV2JLVnFZbFVFNXZnZWp5RDBEQlVGQWlwUnBNdmNHR1NLR0h5Sjc?oc=5",
+      "pubDate": "Fri, 26 Jun 2026 02:36:13 GMT",
+      "source": "오피니언뉴스",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -82,23 +108,10 @@
       ]
     },
     {
-      "title": "네이버 앱·지도·웨일, 현대차 SDV에 들어간다… 양사 모빌리티 협력 확대",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNSktIWEpzZHQ0RmNqWnhPcTRkbG93c2x5Vnp4ek42eTFQdTJvYjFTc19yVVVnMVZOZnpBSTltVWN6eXdRSjdhOF92LVJJR3Y1MG5PTlFXV3ZKNVFLQ3hGekxtSmdkZ3RSVzJUcERMZi16a2Fxbkxqc2U0VldmMzIwTnRB?oc=5",
-      "pubDate": "Fri, 26 Jun 2026 00:50:00 GMT",
-      "source": "Chosunbiz",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "'2배' 레버리지 ETF 삼전·하닉뿐 … 금융당국, 반도체 쏠림현상 자초했다",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1KUXhXeXVSNkhBelJqcEY0UW4wWWJQU3J0ZGxXaGQ0N1FrODl6MTN1aFlGd1N3VlBKX05JZ1hRekVKOTZwdTc4SHh0cG5FcEFUZ2h0WXF3R1RNLVhrU0V3eDFDYWJDYlZ4UGRQcWtyeHBWdWFYVllaaGI1a9IBgAFBVV95cUxOMlh4R2E3UE13dERkempTdnFVdUxlLXcyVzJtbVM0NnVQQjNNUjVXV2lXcVc1Z2phYlp0MkNFUnp5dUl2aDA1VlpoN05OemFqYXItazJVSkNKNlJNZ1otMUZBOV9ZRXJUMS1mMlA1RklacFpiQ1lfb1ZSaURORXZRQw?oc=5",
-      "pubDate": "Fri, 26 Jun 2026 00:49:15 GMT",
-      "source": "뉴데일리",
+      "title": "[무등의 아침] “국힘, ‘호남 반도체 투자’ 정치적 호도…투자 골든 타임에 정치적 공방 피해야”",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBBRTAwekdPYkNLMVhCUHZMRWpBeG1xWkgxQ2hYczUzUFBwRzZfbHA4eGNXZXFEeE1GbVp6WGNxQmdGWlpVb2kxZGJMTEc2VHRLZzJhZlgwNW5LWWM?oc=5",
+      "pubDate": "Fri, 26 Jun 2026 02:33:00 GMT",
+      "source": "KBS 뉴스",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -108,23 +121,10 @@
       ]
     },
     {
-      "title": "삼성전자 '감사 페스티벌' 다음달 5일 종료 … 소비자 막바지 관심 고조",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1rVzdacFFiM3FiajJXM3ZhSEpEaDdBcHIxU3dlQVBQcFRJS3gwU3BiQ08yZGZNdkhlVHp2Zm9fc0RQN0dZUFFlVVRhZFgyQm9ZMWxldTVIbmp1V2tVb0V2ZW5ybFhndlpuTkdv?oc=5",
-      "pubDate": "Fri, 26 Jun 2026 00:49:00 GMT",
-      "source": "파이낸셜신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[사설] 반도체 난중일기",
-      "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTFBrS1JHdndXcXBXS1RUVVVTR0M3Mk00UkpEcjdmMUJ4V1hzN2N4a0ZxbzRkRWtVYjdBR2pmYUo5cDNQamc?oc=5",
-      "pubDate": "Fri, 26 Jun 2026 00:47:00 GMT",
-      "source": "수원화성신문",
+      "title": "국힘 \"정치가 기업 팔 비튼 것\"…'호남 반도체 투자설' 공세",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE81LVA5QkRPN2ZyalBKZmZZMU9Yb0NvNnV4YzdUUnBmdzQtRUd6SThXbXV3TzFlMWZYUlo3MzhFa3JXM3lDaGg4S2lHMllVN2s?oc=5",
+      "pubDate": "Fri, 26 Jun 2026 02:31:43 GMT",
+      "source": "v.daum.net",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
