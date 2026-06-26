@@ -1,11 +1,77 @@
 {
-  "timestamp": "2026-06-26T08:17:05.023990",
+  "timestamp": "2026-06-26T10:17:04.828210",
   "count": 10,
   "articles": [
     {
-      "title": "현대차그룹, 美 JD파워 2026 신차품질조사 5개 부문 '1위' 차지…제네시스 종합 '2위'",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5BTzNWOEltc3ctQVFVREhnM3Exd1pEbWVSMjIwQUg4VVdMUHp0eEpOQUlpYk9zOFJNdkxKbFB2bGFUUFdvZm50cWJQSnpMT25UWUhRUUxYUWtEOUpMYkROQ09WU1RBdw?oc=5",
-      "pubDate": "Thu, 25 Jun 2026 23:05:31 GMT",
+      "title": "전 IMF 이코노미스트 \"비트코인 정점은 2025년…사기꾼들 기억해라\"",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9vQndkMkNFVWlhRW1jakRtakNGYlBMcDBPaXctUWZ4U0VZM25NSVNSQTRHd2ZIZ0cwd1NVTWhvV2xUUGxuZlUzUUhIT19YOVB1UURKWnAtWDNsMXdBNXp1eUVpWVV6MFhkdkxNdlBVa0R1U0U?oc=5",
+      "pubDate": "Fri, 26 Jun 2026 01:05:00 GMT",
+      "source": "디지털투데이",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "한미반도체, 시스템반도체 패키징 'FC 본더 3.5' 출시",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4tWjUyd2t2VHdibmllci1VSEZFTVloeVBHY0dNNnlIU0dVR2hyQTJKN1VSUmJBRG1Cai12OExPd0s1MnNVT2NYeWhZNmV1dHBDaDdzS2hR?oc=5",
+      "pubDate": "Fri, 26 Jun 2026 01:00:59 GMT",
+      "source": "지디넷코리아",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[인포맥스 POLL] 6월 수출 첫 900억달러 돌파 전망…반도체 초호황 지속",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE90Qm5BM3JMdEJadTFzdEk5ejJ1N0dkcDJaTjJ5VnNQMjI1b0F1eU9lVDBMVG1IYUZXcGt0c0hpTXVIQ09HTEpqbjRlM0tqd3llTmZDazV3Nk9Xc1FSQkt5cmlJSGZGaGZFdnNHRUhvX1k?oc=5",
+      "pubDate": "Fri, 26 Jun 2026 01:00:24 GMT",
+      "source": "연합인포맥스",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "환율",
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "김용범 \"반도체 투자 너무 커... 진짜냐 싶을 정도로 낯설 것\"",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxON3AtRGU2d2xmS2I2YzZWbXNPQ28wbG1nTEtJSDFETW51ckZFLVNoV3FOWXV5WnZncG5Rd1ZvOVh2YUxycHVUSzZkazZOWWkyVWI4ZFFpcXJ6Uk9OX1ZTeDhQelNzTXllR3o5di1EZnlKelpKWkpuSk9ZTUU5blpvOXI1aDhGbDdfQ0lqU2xGQ2U?oc=5",
+      "pubDate": "Fri, 26 Jun 2026 00:52:00 GMT",
+      "source": "조선일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "20% 환급 삼성전자 감사 페스티벌...삼성스토어 방문 75% 증가",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5mVS1WazZOMlFhMmdXaGg1SmkxeXBwUmpjU3RHekVkcnB4WFNOZTY0Njk1R0l5alZKYnZUUVhCTHNBLTdSLWpKaURweFFBQlREU0VFelotN0lUd0Z4RUE?oc=5",
+      "pubDate": "Fri, 26 Jun 2026 00:51:00 GMT",
+      "source": "YTN",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "현대차, '찾아가는 정비' 美 전국 딜러망 확대…스피피·MSX와 맞손",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBBVk1PMGtOZ2EyV2diR1FjR1VXelZ2SGppcmFpZE1GMWJXcWVHUTF1cDJMd2tPNVNfck1wb1V0WHFIQnpSNW05SmN1RG1VZEJIdUhzNkZHUGhLblBzaVVNT3YxZw?oc=5",
+      "pubDate": "Fri, 26 Jun 2026 00:50:36 GMT",
       "source": "더구루",
       "category": {
         "label": "📋 GENERAL",
@@ -16,65 +82,23 @@
       ]
     },
     {
-      "title": "[인포맥스 POLL] 6월 수출 첫 900억달러 돌파 전망…반도체 초호황 지속",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBsVmZaamtTQXNaN0k1U0o1R2hCeWFNalotZzhuUlBfN1UwZ3Y5QkRzYWxRSF9OUmV0eWZKcDdYOXcxUmFkQVZFSjE1M3Z1VjFMNlh0Q056c213NFdqbTNpc0pITDVMb2xkQXZoUVJHTnpKUQ?oc=5",
-      "pubDate": "Thu, 25 Jun 2026 23:00:02 GMT",
-      "source": "KB Think",
+      "title": "네이버 앱·지도·웨일, 현대차 SDV에 들어간다… 양사 모빌리티 협력 확대",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNSktIWEpzZHQ0RmNqWnhPcTRkbG93c2x5Vnp4ek42eTFQdTJvYjFTc19yVVVnMVZOZnpBSTltVWN6eXdRSjdhOF92LVJJR3Y1MG5PTlFXV3ZKNVFLQ3hGekxtSmdkZ3RSVzJUcERMZi16a2Fxbkxqc2U0VldmMzIwTnRB?oc=5",
+      "pubDate": "Fri, 26 Jun 2026 00:50:00 GMT",
+      "source": "Chosunbiz",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
-        "삼성전자",
-        "환율"
+        "현대차"
       ]
     },
     {
-      "title": "동학개미 8조 베팅했는데…\"언제까지 반도체만 가나요\"",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5jaG54Zzc4UlpQOXBxZjZsM0duVVFHZkYwbjEzNWt5QTFYUTlYMXZ5OVBFU1g5RVd3YUpFR3hObWh3UVFKRmZlbmhIbF82TzAtSzBDdXpudTk0QdIBVEFVX3lxTE5yekFGZUs1UXdoSVlIZkhIZXozZzF5UFkyblk3aWdvem51OFVWS3NORTM1b0M5b1pzZkFlSUF0dThWU19rWjRmSWxaVXBTN2gta29YSA?oc=5",
-      "pubDate": "Thu, 25 Jun 2026 22:55:30 GMT",
-      "source": "한국경제",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "6만달러 깨진 비트코인 '설상가상'...투자자들 추가 하락에 베팅",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE03TWdPekdlOGxzOEc5T1pQV25NTWx0cWFaSTJHSHlRSEhwZ1ZUZEZHQkxwX1RGLVBGbGxFTDBnWWUzWmplSldJQmgyOURQWmpTQ09Gb9IBWEFVX3lxTE1WUTBhaU04NEdUcGdVZ1RMUnYwSHRyRFNoY1dJR0FZZjZ1dTdVVE5uTTFENE5tUzNGRUhieV9rOThNaFhoSzh0UUdWVExrYy1GdndBWVM5N3Q?oc=5",
-      "pubDate": "Thu, 25 Jun 2026 22:52:10 GMT",
-      "source": "미디어펜",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "환율",
-        "BTC"
-      ]
-    },
-    {
-      "title": "반도체·데이터센터 투자에 1분기 건설공사 계약 23.4％ 증가",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQTFY0MWM4WnBqbENpV3R1bUtvWm9PUWJOcU9JdUNPNGFTa3JJS1htc3dZUk1kenpIaEtTamJzLWUxWm8taEI4Nk45Yll2eU1POWNrZGtkSEE1T2ZVOXVWRXR2ZlJuQnRZb1NyOWh4d0JnQUpYcFgzUmxabXY3R1huVURBY3pNZw?oc=5",
-      "pubDate": "Thu, 25 Jun 2026 22:38:00 GMT",
-      "source": "TBS 서울",
-      "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
-      },
-      "impacts": [
-        "리츠",
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "李대통령, 이재용과 청와대 회동⋯지방 반도체 투자 논의",
-      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE00V1ZJOTZyZTRsTy14ZkcwMHJDdHBJbS03NU1IVXFSVUZRTzdPN1A2UVhDN180MVJTbUF4WmJsbEJib1RYX2NURHJvMmY?oc=5",
-      "pubDate": "Thu, 25 Jun 2026 22:14:36 GMT",
-      "source": "아이뉴스24",
+      "title": "'2배' 레버리지 ETF 삼전·하닉뿐 … 금융당국, 반도체 쏠림현상 자초했다",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1KUXhXeXVSNkhBelJqcEY0UW4wWWJQU3J0ZGxXaGQ0N1FrODl6MTN1aFlGd1N3VlBKX05JZ1hRekVKOTZwdTc4SHh0cG5FcEFUZ2h0WXF3R1RNLVhrU0V3eDFDYWJDYlZ4UGRQcWtyeHBWdWFYVllaaGI1a9IBgAFBVV95cUxOMlh4R2E3UE13dERkempTdnFVdUxlLXcyVzJtbVM0NnVQQjNNUjVXV2lXcVc1Z2phYlp0MkNFUnp5dUl2aDA1VlpoN05OemFqYXItazJVSkNKNlJNZ1otMUZBOV9ZRXJUMS1mMlA1RklacFpiQ1lfb1ZSaURORXZRQw?oc=5",
+      "pubDate": "Fri, 26 Jun 2026 00:49:15 GMT",
+      "source": "뉴데일리",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -84,10 +108,10 @@
       ]
     },
     {
-      "title": "[손병관의 뉴스프레소] 비수도권 반도체 클러스터에 국비로 전력·용수 지원",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE01RzYzZTY2NmNqTEZJMW84MExfWXJuNkozSUY2Yi1qdGFFeWVMX09VSjl1akdKTlh2VGg4YmZTSFp6QTl5TG9rdTJIanpJNGc?oc=5",
-      "pubDate": "Thu, 25 Jun 2026 22:08:04 GMT",
-      "source": "v.daum.net",
+      "title": "삼성전자 '감사 페스티벌' 다음달 5일 종료 … 소비자 막바지 관심 고조",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1rVzdacFFiM3FiajJXM3ZhSEpEaDdBcHIxU3dlQVBQcFRJS3gwU3BiQ08yZGZNdkhlVHp2Zm9fc0RQN0dZUFFlVVRhZFgyQm9ZMWxldTVIbmp1V2tVb0V2ZW5ybFhndlpuTkdv?oc=5",
+      "pubDate": "Fri, 26 Jun 2026 00:49:00 GMT",
+      "source": "파이낸셜신문",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -97,40 +121,13 @@
       ]
     },
     {
-      "title": "반도체·데이터 센터 훈풍에…1분기 건설공사 계약액 전년比 23.4%↑",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9udmIzM1hPR1lfSnVtTlVNVURBay0yZnk4bW9Ia094dW9XcUZUUVUtcTg3SHBFZVVCbngxMXhOWVFDTnh5WUJnc3AxdHV2NmdCNkZibVRldW9sX1dZandySw?oc=5",
-      "pubDate": "Thu, 25 Jun 2026 22:03:03 GMT",
-      "source": "아시아경제",
-      "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
-      },
-      "impacts": [
-        "리츠",
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[핀포인트] [제일기획] 삼성전자 알짜 곳간, 현금 유출 발맞춘 배당정책",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB5OHlTSG1XZWRFZzVVN0NtZWtfc0JJb1g1bGdfSmcwYUFhTFV3a2pjdTRNLXNwT3lDaGk5bWtDdk51UlBQTUFINWlRaXZPUkJpMEowVWFB?oc=5",
-      "pubDate": "Thu, 25 Jun 2026 22:00:23 GMT",
-      "source": "DealSite경제TV",
+      "title": "[사설] 반도체 난중일기",
+      "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTFBrS1JHdndXcXBXS1RUVVVTR0M3Mk00UkpEcjdmMUJ4V1hzN2N4a0ZxbzRkRWtVYjdBR2pmYUo5cDNQamc?oc=5",
+      "pubDate": "Fri, 26 Jun 2026 00:47:00 GMT",
+      "source": "수원화성신문",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "“반도체주 조정 또 올 수 있어… 삼성전자·SK하이닉스 주가는 지속 상승 전망”",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE94YmFPNmtfSkpuX25LbGR2Qlhnc0k0a0pKblFtbVNvMGgybFVnREJBLXNrRnN2RlJhaWVOWWFDRWFxMjRFLW81QThydWxnU1I3WHNxMFhLektSM1k0WWpTbzh1N0Q?oc=5",
-      "pubDate": "Thu, 25 Jun 2026 22:00:01 GMT",
-      "source": "주간동아",
-      "category": {
-        "label": "🟢 POSITIVE",
-        "color": "#4ecdc4"
       },
       "impacts": [
         "삼성전자"
