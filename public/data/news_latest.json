@@ -1,12 +1,25 @@
 {
-  "timestamp": "2026-06-30T14:17:05.261837",
+  "timestamp": "2026-06-30T16:17:04.507528",
   "count": 10,
   "articles": [
     {
-      "title": "SK하이닉스, 용인 반도체 클러스터 페이즈2 폐수 처리 시스템 구축",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFAwVGNkTmR4eW1uNXI5dll3bkxQd1o4NFVRWXRqVXpMbVVwcmJaQUw3ZzFCQW8xVzNVRWI0QVlrMkdSdEhKTkxzZjJhZGlwa1ptUW9aZkpFdlRSUVRkWDBOWGQwYnMyZw?oc=5",
-      "pubDate": "Tue, 30 Jun 2026 05:11:13 GMT",
-      "source": "디일렉",
+      "title": "우리금융硏 \"올해 성장전망 3.0%로 상향…반도체 사이클 장기화\"",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAyb2ZMTFFvcGhRRWJCdC1uTHItbTZqSVhVQXpwV29UdmFJSTFXVFhpU2w1MVhQVld2Rzk0Wk13VG5JdGI4dHIyODFYZ01vQ0t1eFdVX29teHpqdDDSAWBBVV95cUxOYWxhWGJobU02Nk04NlQ1TEJBdlcwSHNfV29sSXRIQmQ2a3VUUERHU1p3ZlZyM2RTZU9vc1JQQkhLWlBiR1R0R0Roa0l2Z3gyZHBwdl9wSWI1RVBWNFRKbW0?oc=5",
+      "pubDate": "Tue, 30 Jun 2026 07:06:55 GMT",
+      "source": "연합뉴스",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "김정관 \"800조 반도체 투자…전남·광주 5년치 총생산 규모\"",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5yWEdxM2NsUldFOU5IT01lcFlMVXM2SjdxVEVySUhsaTFfNklEOTdoX01rNXJzeU9ldlZIQUFsYnJkOTZfZnhMcGdYcFJpd1ZjQS1ySHlDVTI1Rk1rNVh0UXc4QzY4VmpLV0VQU2Ezb0lhcFla?oc=5",
+      "pubDate": "Tue, 30 Jun 2026 07:04:27 GMT",
+      "source": "연합뉴스 한민족센터",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -16,35 +29,9 @@
       ]
     },
     {
-      "title": "왜 호남인가…반도체 입지 경쟁력 키워드는 ‘전력·RE100’",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5waVI1anNkYjM5TkFKSFNhbm95NE5sWXBDTUVXR3VvWU1GUzNQVEFfSGlkUWM3UGxEOWhTQ2xsYVgtMkdvaWc4RUhMLVNXa2RmeFpvNmtqTzF3UXh5OHRpRzJTLVM5VEYteHdjTNIBcEFVX3lxTFBpU2FlNHN6NWVoWTdnOEtwT2pmb0dRM2ZHWk9yT0VFb1h2cFJqSTc1Q2tNZ3RzcE85clNfMmZYY2k1UXA1Zjg5d0hLanBaLVlhR3lXVlEtWWdPS3MzU3dzSDJnbGZZdmpBbW9FTUw5V3o?oc=5",
-      "pubDate": "Tue, 30 Jun 2026 04:54:26 GMT",
-      "source": "전기신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "포스텍, 초박형 반도체칩 적층 기술 개발···HBM보다 집적도 4배↑",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1MOU5mbnBXWnhNOWVLcnF2OWd5R1I1cmFhUGVqbUJfdmpXbzVNaGlsRTRzd0lPaEp3bFg1enBXWm5Kd1otX05MWkxPV2F4N3dsS3h5Nnc5TTNNZw?oc=5",
-      "pubDate": "Tue, 30 Jun 2026 04:52:00 GMT",
-      "source": "경향신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "의·치·한·약·수 다음은 반? 입시 풍경까지 바꾸는 반도체 호황",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBvNXZua1ZrLWRPMnJYcHZJakZlZ2FkUnNDdE5MWXN0TzVyR1RQS2NZenI5MWh3VFRQTGxud2RuWkNiYTQ5T3ZhZHRnNnhjVDA?oc=5",
-      "pubDate": "Tue, 30 Jun 2026 04:52:00 GMT",
+      "title": "경북도 4대 파운드리 구축 추진…로봇·반도체·바이오·양자",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5Xb21PZTlYdy1xeHVBQ0NGeGw2REh6SGlvSzgta3gzRzVVWlRtV3FTYjY0LVVGRmRSTHZOdnBYRmE2ZUVYdFhjcFJFZGxuLXM?oc=5",
+      "pubDate": "Tue, 30 Jun 2026 07:02:14 GMT",
       "source": "v.daum.net",
       "category": {
         "label": "📋 GENERAL",
@@ -55,10 +42,23 @@
       ]
     },
     {
-      "title": "서남권 반도체 벨트, 전남광주 청년 유출 막는 승부수 될까",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4zWXE5U2RVOFZNTVNIc2w0dnVZY0VtR1psLUV5NmYxclpMTHljYWRVdGpMUEhqZ2tmeDB2alItZUNlVUpQUF93R3Z3M1NGSXFlTDd4ZHk0LXZSQXfSAWBBVV95cUxPWFRDTmZuckdJQVNsQWJXT3FaZ1NLbm9kQTRMeXNNMUxrOFRjRDFxeVNGQ3dXZ2kwUTBPa0M0VTdNblZ1c3M4TWc2RGVTekpETjZRbjdON0I5UGNtUk1LWm4?oc=5",
-      "pubDate": "Tue, 30 Jun 2026 04:49:25 GMT",
-      "source": "연합뉴스",
+      "title": "[기고]반도체 성장거점의 전국화, 이제는 실행이 중요하다",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5MZEtkaWNsTURsNjlSX3YySDZ2Rm4xUHRSZVhRa1Z6M2RndGdEZGdDaDBUNUlJUmEtSTRaTTZBT0U4TFhRR3JheUlYVzdodw?oc=5",
+      "pubDate": "Tue, 30 Jun 2026 07:00:00 GMT",
+      "source": "전자신문",
+      "category": {
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "기후부, 서남권 반도체 '하루 65만 톤 용수' 세부 방안 발표",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQcE5qQnMwNl9YNmRmQmdTMnRWY1EyWHY1cTlTd2JZUy1STEFGNkJiZW5JeDVfeGtWSDc5R3EzNUhLVEZRbHA2MUtxY3RRNGpORzQtdUh3bkkwTWJacjhaMzYwWEFJd1VZakdFd0RMM3RNa3N0S2l5N0lPYVhBdVFqbkEyRlZ2V2R5ZGJ3RGhmcTRVbGJkRmdFSGZ2ZnFfX3VwT0w2UVlEVmd1czQ3cE1wVXp3TnVMbWg3VE51TNIBdEFVX3lxTFA2djlDeUFMZ01UQlM2a3AyT29MMEVtMmF4NVJuVWZxUzYtSWctM21TYkpzRmxfREJtc3I3ZHQ3Z2hmQ1hQV2ZMdDkySC0xbk1aOTZVWjF2cy1JRzNUa0ZycW9aT3EtVmF6ZVg5TXlNdllfanB6?oc=5",
+      "pubDate": "Tue, 30 Jun 2026 06:51:31 GMT",
+      "source": "MBC 뉴스",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -68,22 +68,9 @@
       ]
     },
     {
-      "title": "AI반도체 성능 대폭 개선…초박형 반도체, 10층으로 쌓았다",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9XZUJFQkoxcG50UFZaeTVFZjRVdzE1VlJuWUppczYwY1JQeGpsNXlCWHUtdEpNUFhkbXJ2RlJRbk8ybF9rS181d2xITWtidDdYY1BqNw?oc=5",
-      "pubDate": "Tue, 30 Jun 2026 04:47:00 GMT",
-      "source": "동아사이언스",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "전북시민사회 “호남 반도체 배치, 먼저 용인산단 전면 재검토부터”",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBMS00tT1JYLTllZTdlOUtmQ2FXdkpHMGFsbUU5OTdLbGhqOEJKX0ktcFRsb1lfOE80djMyS0tBT1pqdHZSMThIMTU4cjdmWS1pX1g1cS1FU3ZNRlgyY3IwTQ?oc=5",
-      "pubDate": "Tue, 30 Jun 2026 04:47:00 GMT",
+      "title": "국힘, ‘광주 반도체’ 국정조사 검토…“만원 연어덮밥도 했는데 못할 것 없다”",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5VVTgtLTJIOHJOT0M1eXB2TVZHYnZLc0ZrMlpZZmRtQ0hmcXZjb1VmMnRYMUl1LVpTdXd4Z01GeFdjOUEyMG5OSTdoS0pMRVl6Mk0yMjJtYVB1amhMQWJpZXBzYjJyMl82NnZ1dWZXVUx5cGw3?oc=5",
+      "pubDate": "Tue, 30 Jun 2026 06:49:00 GMT",
       "source": "한겨레",
       "category": {
         "label": "📋 GENERAL",
@@ -94,10 +81,23 @@
       ]
     },
     {
-      "title": "\"수도권 일극 깬다\"… 李대통령, 반도체 호남행 '역차별' 일축",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5MaHZXUGVtOWE1a21yeDU5dFE3MU9ZZXpvLTF0YTFJRzBoaldsOHpLZE83elRfZV9faUgzRkxkdUVhWjhLY0tHLTZoaDliN1g5ZVBPb3RkU3JnMldROWhNaERhYVFuYkp1X25XNGhIQmdvUQ?oc=5",
-      "pubDate": "Tue, 30 Jun 2026 04:42:43 GMT",
-      "source": "굿모닝충청",
+      "title": "국토부 \"반도체發 집값 상승 확산 가능성 낮아…전월세 감소 규제와 무관\"",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9zelhMQS1iOU1hc3RudF9pS2poZmh4TURwd3dOdno4QWZTMHVBQVlCMFJ6Qm9lX2N2akZva3lVblNoUUgwd3NNdXEwX0xjMXEwdnNqSFBxaUhMNW1Xam12OXNWaFhUMGdoV2RuQnBUeGQ?oc=5",
+      "pubDate": "Tue, 30 Jun 2026 06:46:00 GMT",
+      "source": "연합인포맥스",
+      "category": {
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성, ‘AI·로봇’ 구미 투자…꿩(반도체) 대신 닭 NO",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5OU3RJT2ZSN3FlOExuTUFpWjl6TC1TdWc3NFRLTXkyeUljQ2xQUWFBbFNDR3ZJbXhRTkhwVi12SG5VbXZwUGZ1RWVMbVVOVlE?oc=5",
+      "pubDate": "Tue, 30 Jun 2026 06:45:04 GMT",
+      "source": "v.daum.net",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -107,27 +107,26 @@
       ]
     },
     {
-      "title": "삼성·SK, 호남권 반도체 800조 투자⋯팹 1기 건설비 200조 시대",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9DR3owT2JzdUVKaTgxQnVIa3Q0OGt2S1JqRVZaVnczRmtOb01wOUozUTlRSThqODA4aUxoQTNXNkd1NFhudGR3d2hfLWgtNGdweVRaNmlFWnRCaXRDd1E?oc=5",
-      "pubDate": "Tue, 30 Jun 2026 04:31:30 GMT",
-      "source": "포커스온경제",
+      "title": "“비트코인 9000만원선 붕괴”…“사라질 것” 충격전망 속 약세 지속",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5iRWQ0aGVCTXYyRENScHk4MGJSMzVIYlRpd0Q3RzdCcUZtanAxQkJ3Y19xRjJVUERTUGlTOFY2RHVGOWhiTV91cDRlZHZhRFlU?oc=5",
+      "pubDate": "Tue, 30 Jun 2026 06:44:42 GMT",
+      "source": "문화일보",
       "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
       },
       "impacts": [
-        "삼성전자",
-        "리츠"
+        "BTC"
       ]
     },
     {
-      "title": "반도체 호황에 올해 5월까지 국세 수입 200조 원‥작년보다 27조 원 증가",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5OT3BBYldNdWhjcXVpQnQxT1pPSmQxZURJUkFUYTBScEJmUGwyamMyQWVtY0ZYVWg2aW56QmFVaGUxd1dRd0EtZkNzVjhvTmlwZUMyTDA2SVQzV2dvRy16el9Za1R5ckd5NkEtbUtPZTFHYURJ0gF0QVVfeXFMTVBnTGtHWHNfeDAtNWFmWU1EeXE2Rlhfd3o0eTRNTzZwUjdEYUlBMV80TlRTQk1NY191a3JfaHV6T3VxQkhvUXM2SEo4TTFicXhscnZubDlja3ROckNKSEs2aEgyRWpxajhxXzNBSlA4NW81RnY?oc=5",
-      "pubDate": "Tue, 30 Jun 2026 04:28:53 GMT",
-      "source": "MBC 뉴스",
+      "title": "외국인 3.8조 팔았지만 코스피 상승 마감…반도체가 지수 방어",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBwVThkYzNIVVVVTEw2R0txVWdSSzl3Q2FnNll6N2NzT1pOajU1SURKekdZSUh3Yk5SVXZYUHV5OERnUk9ETDBxTy1FTFBCZw?oc=5",
+      "pubDate": "Tue, 30 Jun 2026 06:44:08 GMT",
+      "source": "전자신문",
       "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
       },
       "impacts": [
         "삼성전자"
