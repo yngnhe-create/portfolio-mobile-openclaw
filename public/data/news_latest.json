@@ -1,12 +1,26 @@
 {
-  "timestamp": "2026-07-01T10:17:05.408160",
+  "timestamp": "2026-07-01T12:17:05.380631",
   "count": 10,
   "articles": [
     {
-      "title": "[특징주] 삼성전자·SK하이닉스, 차익실현 매물 출회 '하락세' 전환",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSUstcm4tWTNveExZVHlMV2FSVjd4bmtvR3BpeDJWbW9BZ0trUnRUMEsxYVU5Q2d0V090SjVCTmxWOXU3clY5UTdhS1FzYm9pZ09EWkRtajhOYzZlUG8yb3k3ZHhyWG42LWxfM3BxcURDV3VNcm82MzIxTHhOclBOdm5BRVJFdGlx?oc=5",
-      "pubDate": "Wed, 01 Jul 2026 01:11:37 GMT",
-      "source": "글로벌이코노믹",
+      "title": "6월 수출 1,000억 달러 넘었다…반도체, 첫 400억 달러↑",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1GQVZJWDFNVHBsVzlIM0JLVWY4RDF6aXdkWXdtQU5UVS0wdGFlc3RHazRBLVRQRHVFR0VxQ00tck1FOVEzcjc4OFROWTV6LXNUbXU4MW5NVjdIcEU?oc=5",
+      "pubDate": "Wed, 01 Jul 2026 03:01:00 GMT",
+      "source": "KBS 뉴스",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자",
+        "환율"
+      ]
+    },
+    {
+      "title": "고개 드는 AI·반도체 과속 경계론과 韓에 쏠리는 우려[사설]",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5fSFI0WE5MNG5ZMXhpYmtrMy1NcWdZWGl1WGkxTE1rc1JOeTA1cDVELUFudTZXbHozZ2dBVzFydkdmbm9oRkNLNzlKTWZIQUVw?oc=5",
+      "pubDate": "Wed, 01 Jul 2026 02:58:53 GMT",
+      "source": "문화일보",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -16,10 +30,37 @@
       ]
     },
     {
-      "title": "삼성전자, 차세대 파운드리 전략 공개… “시스템반도체 플랫폼 역할 강화” - 조선비즈",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxONHB1OWdDeUpteFpMVVZKYlhIOGFBbXFWeFBKcHFkeElHMUVjTWF3UE9xRGtkUjc3V2pRd2tYWnZWdWRRVE94SFVxYjNLTmR4My1mUl9qX2lZbUdnVElCclY2RHFsMDJybU9oNFBVSTNWRDY5Z1o5M0Zralk3NjlBU2RR0gGWAUFVX3lxTE1KQk1vUzhweE10NERkWEpVWVdSRnJQaXNNRnFxY0tQaWZiSmluSXhkNHlRZHR3bDkyWXNKM2djVUZHcUg1MUNWNmE3ZVhUQXhYX1h5djdzMmgwN1FZdm1UZms5bDliekNjM2JXaVZYeV93ZkFUSGlFWkhjYkNVU3ZnMlZNQmFhcndJYUQxMkV2VWNDN290QQ?oc=5",
-      "pubDate": "Wed, 01 Jul 2026 01:07:00 GMT",
-      "source": "Chosunbiz",
+      "title": "현대차그룹, 베네수엘라 지진 피해복구 성금 100만달러 전달",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9aa1JLZEEwOE5OYkNORG40WXN2VTJjTEZDaUJzSS15SENBR2IwVm03MTRucmE2UkN2U0NOQ0NkR2lISjYycDVFdlo0S080VXZSeUVGSkJQdkw2MVHSAWBBVV95cUxNbUIybEwwdGhjUUpHekFNRl8yYTNiR0loeEFobDFqcGJhYUNjXzBVazY0S0ZrNXRTbEVqTHVmUld2eU1HckY0Zk1wN0Y3Y1VfYW5BcklUVkVuZ2tfaVRUNWw?oc=5",
+      "pubDate": "Wed, 01 Jul 2026 02:52:44 GMT",
+      "source": "연합뉴스",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차",
+        "환율"
+      ]
+    },
+    {
+      "title": "한국 6월 수출 첫 1천억달러 돌파…세계 4번째",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1YN0ZZMVlqd1JPUUlJNXNPRE5XdzA5b050ek4tWmhhUXFEa3pVdmtkZ0lzQ1Z4Z0xSV1MweE1vWXN1dW9uelltRlhBdWpGWWU2U0hWQi02SGpSakhZTENTdnZ3UFZWaXZieW1QM0UwN2l3dw?oc=5",
+      "pubDate": "Wed, 01 Jul 2026 02:49:00 GMT",
+      "source": "한겨레",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "환율"
+      ]
+    },
+    {
+      "title": "민형배 \"진짜 통합 이제 시작…반도체 직접 챙기겠다\"",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBjVi1JNFI5RWRaME4wMkhyd19GSjgxeThWbFhjZlVzQ1ZPZ2ZEUE9TcllsNGJMYXdaYVpyZXlJdTFzQmpWWGd2ZVViZEVpMlk?oc=5",
+      "pubDate": "Wed, 01 Jul 2026 02:48:25 GMT",
+      "source": "v.daum.net",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -29,10 +70,37 @@
       ]
     },
     {
-      "title": "삼성전자, AI 시대 맞춰 8세대 폴더블폰 라인업 대폭 재편",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFA0ZGx4MUFrel9NdTQ1MVgtWmhkeTRGMmJZOGNKMTM2VlJqRklENElydzRqWjd1Mkw5T0c2eGNoUGZjREhfYUtITXYxZk5lS1dveGZmNlVrdDE3UGpfeEJUMi1rQmxYeWdEMHpUdEZyaW9HQQ?oc=5",
-      "pubDate": "Wed, 01 Jul 2026 01:06:17 GMT",
-      "source": "인더스트리뉴스",
+      "title": "6월 수출 사상 첫 ‘1000억 달러’ 돌파…반도체 200% 뛰며 역대 최대",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBEVXNnamwyalR2cnpTU1Z0YXFnOUxheDktYTk4RERNT0lFbG9nMlN3eHVJZE1oSFhNYm4xU01fU2ZlWlhDdm1BM21UR254TWxZOWlReEtn?oc=5",
+      "pubDate": "Wed, 01 Jul 2026 02:46:30 GMT",
+      "source": "중앙일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자",
+        "환율"
+      ]
+    },
+    {
+      "title": "밴스 美 부통령, 비트코인 3억8000만 이상 보유 신고",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE51dV8wZ2JNWmgyLXhaWDY2MW1iNXhzZXJLRUdtZFdreENCR2dza09wZmNkWFFXTkRma2tTbG4zWkFpdEpEY3JqdFJZU3BFUVpWUFkyUXFwNFZKaGlwS1drVFFnZXJTQQ?oc=5",
+      "pubDate": "Wed, 01 Jul 2026 02:46:14 GMT",
+      "source": "뉴스1",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "무디스 \"삼성전자·SK하이닉스 대규모 투자, 장기 경쟁력 크게 강화\"",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9MR2VRdV9DS3M2bEpFdUxjZUdPcG9GdTI3X2pWZDY0VjFMMjlEcHhMemhRMlR5dVpUQVdBNHZYRm1jU1pzTVhJSTFMZUgtRlVCR0pIR2lqTVkySklWVW4wNElya0hjWU5GVnlQT2VwS1lGQQ?oc=5",
+      "pubDate": "Wed, 01 Jul 2026 02:45:26 GMT",
+      "source": "KB Think",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -42,10 +110,10 @@
       ]
     },
     {
-      "title": "노동부 \"삼성전자·SK하이닉스 '성과급 백지화 공문설' 허위사실‥강력대응\"",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB4cG1LUXJOdVZzbzVmbEZKRlFuSkxZd1RSMjRxYmVfbjZRZTRpOHplblE5MkhVZ2hzeXFrOW55bzMxWjNRZEctRU9UZkxBSVhWak9MOFlvM0xpVWxKSThkX24zOGNsSHBPS2haZFV3SHJWaEtRUWtz0gF3QVVfeXFMT25wWXRublFfZklHLWc3X29vTHE4cFlxeF9xeVAwVmszbGdkSS1fLVA0VE44b0hMU3ZYcjJyYTE4dF9sRkh4a0lrQWNUekxyenRRay1Mc2NMWmtIN2NXVG5KSFRfZFJTTUJ5ZlBZdEljWElDLVVab1k?oc=5",
-      "pubDate": "Wed, 01 Jul 2026 01:02:56 GMT",
-      "source": "MBC 뉴스",
+      "title": "삼성전자, ‘세이프 포럼 2026’ 개최…AI 반도체 생태계 키운다",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE95WTVlOUdlS0k3NkloZGgycXIzRlVWV0pFSklNeExjTE54MjZoSExHV0t4WGZ0dE9zT090a1Mta2tvSjZockxQbEVmZnh2WFFHbzNPaHNuaTVKTXVDcVpRaG8yS0pBbHc?oc=5",
+      "pubDate": "Wed, 01 Jul 2026 02:39:57 GMT",
+      "source": "아이티데일리",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -55,78 +123,13 @@
       ]
     },
     {
-      "title": "노동부, ‘삼성전자·SK하이닉스 성과급 백지화’ 유포 글에 “허위사실”",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBFUHNLQnZqa0VmbFhfTjhEd3RKdGF1bXVqZ3JUMll3RF8yVDRqSFN0ZmlUS29hWTFSSXFueVBGaE83TGxqOWhYS1ZSaS12Z0w4dzhlVzhIcWJuUdIBX0FVX3lxTE81dXR1WjFVN0xpYXp1ZzR4d1RoOEFobHJZUExXTzRiZmQ0TXgwU3FVN0NnbE5HOFhsZk9wemp5U3poRUtCT3J2ZGJvUVhIdkd5ejI3NDZNRUpXbTl3aVBV?oc=5",
-      "pubDate": "Wed, 01 Jul 2026 01:01:00 GMT",
-      "source": "경향신문",
+      "title": "[속보] 안철수 \"백지수표에 가까운 호남권 반도체 재원 조달, 즉시 재고해야\"",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBzR0Jpbnh2WFZtRlN5MHlNWXhXX1lRRklLTmRGaDRFNGhvRk5qTldNMUFVRHVHbnVCaElkZHNuSnZrY2t1ajl6VDZGd3Y1b0w2di1pTTJ3OS1KT2M?oc=5",
+      "pubDate": "Wed, 01 Jul 2026 02:38:00 GMT",
+      "source": "경기일보",
       "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "반도체·빅테크가 밀고 K-푸드가 끌었다…韓 수출 역대 최대 성적표",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE05eDc5a2RpSGV3cTUyVUVPRGJvVzJva1k3TU1mdGdKRlVpU2lWcEx2MFk3LVlTdkhqU216dC04SGhFb285Sjg0TEVWeGJTejV0X2EzRGNOVjlJZEV6TDdfUXV5ZmhqNHBTZldFaUZsNnNtbERD?oc=5",
-      "pubDate": "Wed, 01 Jul 2026 00:59:51 GMT",
-      "source": "대한경제",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "유진투자증권, '삼성전자 vs SK하이닉스' 수익률 대결 이벤트 - 머니투데이",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB4ZUl3X1EzS3BfcnhKRjBjVmJjNGZETHBZVGpLT1lXa29MVWlxTUwxb2FURFBjczMxUjlOVWh3U3VNMFMwMm84YXNnd2FiWVRIMjFCc1ppc2dwYlhhMXJZNGg4TnFQWVBl0gFuQVVfeXFMT0ZGUUI0a1hRT3c0TWxZeHlzUEJTaDQxRGtyWVAyRjB4Nmo5amhhT1FDNHBSYkxFZFd6OWVhR0NXN1o1NmZBMFZFTHpfbGZvWG5KWncwYkg2UVdXTW0tam1BUDhnVHBWQUVtaTF5ZUE?oc=5",
-      "pubDate": "Wed, 01 Jul 2026 00:56:44 GMT",
-      "source": "머니투데이",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "800조 호남 반도체 투자, 민주당 전당대회용인가?",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1TVDVpalk0Ynp2dF94R2xrNUowNkdvb2FabWdqTmFsaXVXbFdYb3pvUlZBd0RqOWMyVTJIdmdFSmJVc18ycGtHWk9pLU1xYUZZeGVJN1VmamJldWVFX0paVThsbVNfQ2IyRFRMNmgyWWJ1WDZQcEVncmM5a9IBgAFBVV95cUxOOUM5QjFKb1V3TDcwcVA1X2NVMFNMMUN5VlNsb1JPeF9nZDdvN2xoSEJVeURkY2JQamJDZUN1ZklUc0dUbHBkaWQ1Y0VNU2swNWtXRmRCSG1KX2hoYzMyNnhDS2l3RWlzNFRxSGlTaHRuLS0zZ1FrVzBPY0ZVNDBrcw?oc=5",
-      "pubDate": "Wed, 01 Jul 2026 00:54:36 GMT",
-      "source": "뉴데일리",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼천리기계의 워크 스핀들 시리즈 - 반도체 소재 시장 성장과 Work Spindle의 진화",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBfM3dqbm8tWXpUSHhTNjU1dm0tMjlTMWRMYi1WM3ZwYWJtUnhVSDdHS0NoRG1BMG5HeFVVUW1ERE9jTDlDWUsxS0paVUNwR21TRS1HbWRiZ29ZNVBQZFVSUVJSdW1Fdw?oc=5",
-      "pubDate": "Wed, 01 Jul 2026 00:53:43 GMT",
-      "source": "mfgkr.com",
-      "category": {
-        "label": "🟢 POSITIVE",
-        "color": "#4ecdc4"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성 SK 호남 반도체 투자로 \"AI 버블 우려 잠재워\" 외신 평가, 국가 전략자산 역할도 주목",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1RSGhhOHdSNE9lZDVlZEpHSlc3blRhVnVubU41TVRlRklVRkhTNzFtd2NQam14bUdoRzdWdzVwbHhnajNjZjkxMDdLaW52ZFI3WDNqTjQ0bjVjX3hCUzBoV3VDenVTUGo1MFdCbUtjWW9aS00?oc=5",
-      "pubDate": "Wed, 01 Jul 2026 00:53:26 GMT",
-      "source": "비즈니스포스트",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
       },
       "impacts": [
         "삼성전자"
