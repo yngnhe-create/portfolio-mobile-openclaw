@@ -1,26 +1,12 @@
 {
-  "timestamp": "2026-07-01T16:17:04.881730",
+  "timestamp": "2026-07-01T18:17:05.056429",
   "count": 10,
   "articles": [
     {
-      "title": "비트코인, 2년 만에 5만8천달러 ‘털썩’…겹악재 언제까지?",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5LUnZSOFRLaXdxdEtEQWhaWU9COWZiMWYzd2xNTG1FM3hpQVZ1N0RqX3dob0FucXExaVQ4QS1nemNtT0JHc3NoQWE1NlBoNGNFakF2dFdyQ1pMdXByZXhQZmFrNTgxOTJNZi1ObEp3?oc=5",
-      "pubDate": "Wed, 01 Jul 2026 07:07:39 GMT",
-      "source": "아시아투데이",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "환율",
-        "BTC"
-      ]
-    },
-    {
-      "title": "추미애 경기도지사, 1호 결재는 ‘K-반도체 혁신 대책’…“생산능력 5년 내 2배로”",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1maUVGWS13RExpanZVWWRNanZxQU9nU1N0ajN0R21TUXNkUTRUOHkxd2RnVlR5eFZoQ1FCZ2ZxbUZLM2NEOG9lcjYwSjVMcmQtYU5Td1ZQTFZEdEU?oc=5",
-      "pubDate": "Wed, 01 Jul 2026 07:03:00 GMT",
-      "source": "KBS 뉴스",
+      "title": "외신 \"한국, 반도체와 국가균형발전 연계 가장 과감한 행보\"",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1XeHozY0NQdEZpamtyVm9rSGhYV0UxbGRyRXN1b0JacmdxTTNGRWUxcHMzTXRSYUtKLVNwcnJRdUZwQkFrTlkzS1JpNXlfNGZJcURwaHYwNU80MHFuNmc2U3BGeXJYV0hMNWk2NUZyRFZnRVRrYjJB?oc=5",
+      "pubDate": "Wed, 01 Jul 2026 09:07:00 GMT",
+      "source": "오마이뉴스",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -30,23 +16,89 @@
       ]
     },
     {
-      "title": "“인구 320만 메가시티”…광주특별시, ‘800조 반도체’ 기념식 열며 출범",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9UMmw2ZkpLellCR19PZmNfWUJxa3ZXTVQ4LWhrUkJ0TG95UkRTV1QxT1Y0ZkwxcV9CS0pYVUVDLXRyb216YTRMdDh3VWRwMnhDSl9hSXV3?oc=5",
-      "pubDate": "Wed, 01 Jul 2026 07:00:43 GMT",
+      "title": "[헬로즈업] AI·반도체 시대, 전력수급계획이 제조 경쟁력 가른다",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBIZ0pldEREUndQZkRnMWJDRlpHa1ZncmFubVhtR05OMk40emFtbHc0LTd4QnpzYjdQcHEwOWJxdW9lRk9lTUxaZ1NETVo4RVV6aDdhZ0hEbFBnQ3piX2dN?oc=5",
+      "pubDate": "Wed, 01 Jul 2026 09:04:53 GMT",
+      "source": "헬로티",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "완성차 5사 6월 글로벌 판매 0.9% 증가…기아 늘고 현대차 줄어",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5JNEthRF9pYlQ3R1RBRllIUFU4M3JvUnFQWURHVmdzbjQyUWl5RGhtekxIdm1MRlhKV3Y3dkpRcUpVQWJTNEUzS1hKSkpBRERfV3dnYzc4MDBsNmJFV1dOUWZFUDhXMWpiTEhnQ3dnTmFkRlJM?oc=5",
+      "pubDate": "Wed, 01 Jul 2026 09:01:00 GMT",
+      "source": "연합뉴스 한민족센터",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "반도체 호황에 눈높이 상향…올해 성장률 4%대 전망까지",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5iVWVRZzVuSnJmZDl2QUs1R2FFNnBPUktwM0tYQllIRHBtQ3BGWVpydUlsM21ITkRuU1RIWmpzN0J3bHNlOUZZam80ZlJjMGZJOTZIRzFRbEFSNUhib0pVTThEY051TVFMTlAwVGo0dk5zQQ?oc=5",
+      "pubDate": "Wed, 01 Jul 2026 09:00:00 GMT",
+      "source": "한겨레",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "호남 팹보다 더 두려운 건 ‘소재·부품 기업 이동’…구미 반도체 생태계 흔들리나",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBSWHpzX2VWUVRaN2JsTGVaTEhsYU1iRm05Ni1sWGg4NS1ldGU1UlYyUnB0Nk95bzBZLWhqeVcxZGlBcTBLUVZHZWk2YVJNbVVKSUxwaWYwZkwwR2piS05BaVlhdw?oc=5",
+      "pubDate": "Wed, 01 Jul 2026 08:54:10 GMT",
+      "source": "영남일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "반도체 3배 뛸 때 반토막 난 K팝 ETF",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1TSE1nVUJHNVFyWkFVdGNtMFczdDU4bDJWVXp1Q3VIM2pmQ0FuT1UwSnFXZnJYLVJQT0dpR0xaZENNM1pfendXM1Iwd01sb19zOXc?oc=5",
+      "pubDate": "Wed, 01 Jul 2026 08:46:06 GMT",
+      "source": "매일경제 마켓",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "6월 수출 사상 첫 ‘1000억 달러’ 돌파…반도체 200% 뛰며 역대 최대",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBEVXNnamwyalR2cnpTU1Z0YXFnOUxheDktYTk4RERNT0lFbG9nMlN3eHVJZE1oSFhNYm4xU01fU2ZlWlhDdm1BM21UR254TWxZOWlReEtn?oc=5",
+      "pubDate": "Wed, 01 Jul 2026 08:45:29 GMT",
       "source": "중앙일보",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
-        "삼성전자"
+        "삼성전자",
+        "환율"
       ]
     },
     {
-      "title": "[전문가기고] 텅스텐, K방산 및 K반도체의 약한 고리",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1MMktmUnV2T18tdFhpX3FmZGFRMFhvcXRWUEMxbnE3S0d4UGx0cGdnYnRTZ0x4bXdHN2VmbUN4TDFHZ3dOcGRqa1ZpVThvdw?oc=5",
-      "pubDate": "Wed, 01 Jul 2026 07:00:00 GMT",
-      "source": "전자신문",
+      "title": "[단독]삼성, 반도체 공정에 양자컴 심는다",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE05SDdiMlA1NWxwcHVOS09objVqSnBVeWhPZ1QxNmd6cHgwRngzTUppYXJGRVZ2WE95SFlYdFA1NmlEa1hSRFFIMzhESURuQVRxcHfSAVNBVV95cUxNMWNLd3Flb3BjWUg3Q25YWkdiRUt5ZzRJR0l5b05xeFExSnZrdDNPVUNabUFLeEFkMU1MM3lsQ0xKSVpSZW5uWWdWUGtBVVE3Z2djUQ?oc=5",
+      "pubDate": "Wed, 01 Jul 2026 08:40:37 GMT",
+      "source": "서울경제",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -56,10 +108,10 @@
       ]
     },
     {
-      "title": "전남광주통합특별시 출범 첫 행보 '반도체 투자'",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5DdmxFVUpZYkxfQ0hjVURDVWxHZ2JpNmlUMDhrZ0tRSzFNOUxaWmp6R09hc24tRnZ4NElLSHZ5S0czbWRrcVdsQk5GX1Jtdm9JbXhqTlk3Tl9VTDROblRlSmRJN2paUE5CN1ZSN0FTZVk?oc=5",
-      "pubDate": "Wed, 01 Jul 2026 06:56:58 GMT",
-      "source": "신아일보",
+      "title": "피지컬 AI 산업 발전 위한 'AI반도체SW플랫폼연구회' 성료",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5RQ3ZvYTNYdHJ6U1VlTjN3Tm5iem5xTDQyMF8wazNmZmJ0SFdCTEFQcUY3a2Q1RlZkRlFGR0N6S2dKd0hnLXN1N1FjZkVvMVNVdEh4MHp3?oc=5",
+      "pubDate": "Wed, 01 Jul 2026 08:34:51 GMT",
+      "source": "지디넷코리아",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -69,68 +121,16 @@
       ]
     },
     {
-      "title": "삼성 초기업노조 “호남 반도체, 정부·회사 우리와 협의해야”",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0xdEU2WWg3Wjk4NTdIc2lGdE5peURVWlZWZ3lQS0lWUlRFVWRLak5hZExjSzhMR3h2S1VTcDRSSHZ6bWJOYld5b1AwRThaV01NS2d0dnZn?oc=5",
-      "pubDate": "Wed, 01 Jul 2026 06:54:01 GMT",
+      "title": "현대차, 6월 판매 33만8313대…전년 대비 5.9% 감소",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5EeUZUTzE2RDFacHZUU2xsbGxrbGFCQ0s4SGZNMmtnSV9uSnZ0cVRDUWVfUmdhXzRrMXBDamdOODQyS0MtMEk3d3dxMlpfUFdyYVNZVnBB?oc=5",
+      "pubDate": "Wed, 01 Jul 2026 08:31:10 GMT",
       "source": "중앙일보",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자, 1.4나노 2029년 양산 목표… “순항 중” - 조선비즈",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNLXhvWURhTFBIVTFrbHFHa1ZaaE9JOHZaMTkzWmxHdWdBMXVLS2xPQmJvWEEwM2NGVTU4a2hNbVVIUVh4MThLWVI2aDN0Z3ptTmVWZXhEcFE4dVE1dVVJSEI0NjlDWTB3WU5ua3FLSk5rMjVfbjVKMmdfeVZ1RDBkMFlR0gGWAUFVX3lxTFAtbjlnbGJMbTNIU1ZYSTAyU3p0cURpRlFIRjZmNUQ4Ylh5NUNWTlZDLVlqLWxqdTBSRVZPbVkyZl9tX0pwZ01XTzZZLTByeVFMWllOdjJBcXBJOTRpYkQyLXZDOUtfcDhwMnI3ZUF1dzhlYmV1NnVGem12aEdNZ3RjYmVEdmpUMVN0SmNKT0ZHTlUxaTNjZw?oc=5",
-      "pubDate": "Wed, 01 Jul 2026 06:40:00 GMT",
-      "source": "Chosunbiz",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "'역대급 호황' 반도체 신화의 숨은 공동주역, 정부와 노동자",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5iSHlUcHktU0FBZDdtWkNOWHMxQUQ5MVJpcHpmMzh6TDUwcVAzUGZFTk16QXR0VDZkUTJtemtIek0tSDRxZC1UMVJRWWtKbXhjWnBoWDluYWsyOWFHRXNVUXIxRmRhaXlaQk9BQ0VUQ3A0WU9rZXhKcXNrTWFDU3M?oc=5",
-      "pubDate": "Wed, 01 Jul 2026 06:35:37 GMT",
-      "source": "프레시안",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "K반도체 ‘RE100’ 시험대…재생에너지 확보 과제",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9KMGhtUUZvbTBWRkdIc0RfU1ZMM3dueUZOUzR4RXJqOUpKZHhZa3BBa3EwV1JMOThobXQ0SUhtdk4yLVVKTkRjWUdMMElTOUNsdUdZaVd1Q2pNZGpXb25LVw?oc=5",
-      "pubDate": "Wed, 01 Jul 2026 06:31:36 GMT",
-      "source": "뉴스토마토",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[단독]“심야엔 0.01% 불과”…호남 반도체 24시간 돌릴 태양광 없다",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5PbDhqc0J5X09sMjBJRDVfOUJfM2Nzc3ZFNFo5V3lKQmVSUXhkRmJrdFNiemFtTGJ1bWlFTDlqbW85ZF9kZnhJUU55NGZXUWVEXzRoNUpQSU54cUxxZER3Vmt1LU5KVUZtbVVzbjVFWDlxS2JOTDNZ0gFmQVVfeXFMTlVRbnBnV3dYdHRVNGZNNHc4eHVhVEdNTVgzRnNKNC1NcHlLTWhqTHZCVDY5bDlrREh2X1hWajhmcHBqMkdibjhXZ01Qd291cUNuSXl2WmlXLTNHWG1jNmo2ZkRiV3d3?oc=5",
-      "pubDate": "Wed, 01 Jul 2026 06:30:25 GMT",
-      "source": "동아일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
+        "현대차"
       ]
     }
   ]
