@@ -1,12 +1,40 @@
 {
-  "timestamp": "2026-07-01T18:17:05.056429",
+  "timestamp": "2026-07-02T08:17:04.197712",
   "count": 10,
   "articles": [
     {
-      "title": "외신 \"한국, 반도체와 국가균형발전 연계 가장 과감한 행보\"",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1XeHozY0NQdEZpamtyVm9rSGhYV0UxbGRyRXN1b0JacmdxTTNGRWUxcHMzTXRSYUtKLVNwcnJRdUZwQkFrTlkzS1JpNXlfNGZJcURwaHYwNU80MHFuNmc2U3BGeXJYV0hMNWk2NUZyRFZnRVRrYjJB?oc=5",
-      "pubDate": "Wed, 01 Jul 2026 09:07:00 GMT",
-      "source": "오마이뉴스",
+      "title": "비트코인 반등에도 경계감 여전…레버리지 5만7000~6만500달러 집중",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE15UzBZLWk1RXFHb0diZE1haG0zbWVEVFBxTHFyazlYa1RRVDRkbXdsVG1GaGg3ejdIOTJjSWpLZWdqZGxISHlSTGx5OHlvdk1kaEVvXzJRaElLMV8yb2IxMUQtNmVQWjg0aG5FdWRzMWZzelk?oc=5",
+      "pubDate": "Wed, 01 Jul 2026 23:09:38 GMT",
+      "source": "디지털투데이",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC",
+        "환율"
+      ]
+    },
+    {
+      "title": "[08:00 가상자산] 비트코인, 워시 연준 의장 발언에 힘입어 반등",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBtWnEzRDVsODN0X1pvb3dJWGYwXzRSVjVySEFEZXptbTROcEFIY1ZlRkZrSE90OXp0YjM5eWJTd2lRRmppaHlMRFVuZ2hGMGpDNTFGa3pXeFpKT3hqRlNQUEZpS2VOdi1adjF5M29CODg?oc=5",
+      "pubDate": "Wed, 01 Jul 2026 23:04:55 GMT",
+      "source": "신아일보",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC",
+        "채권"
+      ]
+    },
+    {
+      "title": "[모닝 리포트] \"반도체 흔든 메타 노이즈…순환매 주목\"",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1QUHVPNkxCOEJiWnppQ01pSVBnVzl1dWFjbXZFQWdMQWVkQVlXOWlXNXJKeDNOOFVtNHFLOTFEaFByaEVsUlVBeTZBSTd4T0xacTBNVm5xUVdWVmN3?oc=5",
+      "pubDate": "Wed, 01 Jul 2026 23:03:00 GMT",
+      "source": "뉴스핌",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -16,75 +44,10 @@
       ]
     },
     {
-      "title": "[헬로즈업] AI·반도체 시대, 전력수급계획이 제조 경쟁력 가른다",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBIZ0pldEREUndQZkRnMWJDRlpHa1ZncmFubVhtR05OMk40emFtbHc0LTd4QnpzYjdQcHEwOWJxdW9lRk9lTUxaZ1NETVo4RVV6aDdhZ0hEbFBnQ3piX2dN?oc=5",
-      "pubDate": "Wed, 01 Jul 2026 09:04:53 GMT",
-      "source": "헬로티",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "완성차 5사 6월 글로벌 판매 0.9% 증가…기아 늘고 현대차 줄어",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5JNEthRF9pYlQ3R1RBRllIUFU4M3JvUnFQWURHVmdzbjQyUWl5RGhtekxIdm1MRlhKV3Y3dkpRcUpVQWJTNEUzS1hKSkpBRERfV3dnYzc4MDBsNmJFV1dOUWZFUDhXMWpiTEhnQ3dnTmFkRlJM?oc=5",
-      "pubDate": "Wed, 01 Jul 2026 09:01:00 GMT",
-      "source": "연합뉴스 한민족센터",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "반도체 호황에 눈높이 상향…올해 성장률 4%대 전망까지",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5iVWVRZzVuSnJmZDl2QUs1R2FFNnBPUktwM0tYQllIRHBtQ3BGWVpydUlsM21ITkRuU1RIWmpzN0J3bHNlOUZZam80ZlJjMGZJOTZIRzFRbEFSNUhib0pVTThEY051TVFMTlAwVGo0dk5zQQ?oc=5",
-      "pubDate": "Wed, 01 Jul 2026 09:00:00 GMT",
-      "source": "한겨레",
-      "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "호남 팹보다 더 두려운 건 ‘소재·부품 기업 이동’…구미 반도체 생태계 흔들리나",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBSWHpzX2VWUVRaN2JsTGVaTEhsYU1iRm05Ni1sWGg4NS1ldGU1UlYyUnB0Nk95bzBZLWhqeVcxZGlBcTBLUVZHZWk2YVJNbVVKSUxwaWYwZkwwR2piS05BaVlhdw?oc=5",
-      "pubDate": "Wed, 01 Jul 2026 08:54:10 GMT",
-      "source": "영남일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "반도체 3배 뛸 때 반토막 난 K팝 ETF",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1TSE1nVUJHNVFyWkFVdGNtMFczdDU4bDJWVXp1Q3VIM2pmQ0FuT1UwSnFXZnJYLVJQT0dpR0xaZENNM1pfendXM1Iwd01sb19zOXc?oc=5",
-      "pubDate": "Wed, 01 Jul 2026 08:46:06 GMT",
-      "source": "매일경제 마켓",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "6월 수출 사상 첫 ‘1000억 달러’ 돌파…반도체 200% 뛰며 역대 최대",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBEVXNnamwyalR2cnpTU1Z0YXFnOUxheDktYTk4RERNT0lFbG9nMlN3eHVJZE1oSFhNYm4xU01fU2ZlWlhDdm1BM21UR254TWxZOWlReEtn?oc=5",
-      "pubDate": "Wed, 01 Jul 2026 08:45:29 GMT",
-      "source": "중앙일보",
+      "title": "[뉴욕마켓워치] '컴퓨팅 용량이 남네?' 반도체 투매…주식·채권↓달러↑",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9EVi1JTE1obG5wc1BsSU9TeDdVQmpnSkdPWE9MWWxVZkYzeTZieThpMFpsMXVpQUVraGlBekNnZ2V5X0tGR09VR0JxOTd1dzVvUEZVTGNZc0xxU3VPRXlJcE1iRkZrZE9tTEkzX2NRT0g?oc=5",
+      "pubDate": "Wed, 01 Jul 2026 23:01:58 GMT",
+      "source": "연합인포맥스",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -95,10 +58,10 @@
       ]
     },
     {
-      "title": "[단독]삼성, 반도체 공정에 양자컴 심는다",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE05SDdiMlA1NWxwcHVOS09objVqSnBVeWhPZ1QxNmd6cHgwRngzTUppYXJGRVZ2WE95SFlYdFA1NmlEa1hSRFFIMzhESURuQVRxcHfSAVNBVV95cUxNMWNLd3Flb3BjWUg3Q25YWkdiRUt5ZzRJR0l5b05xeFExSnZrdDNPVUNabUFLeEFkMU1MM3lsQ0xKSVpSZW5uWWdWUGtBVVE3Z2djUQ?oc=5",
-      "pubDate": "Wed, 01 Jul 2026 08:40:37 GMT",
-      "source": "서울경제",
+      "title": "삼성전자서비스, 한국서비스품질지수(KS-SQI) 가전·휴대전화·컴퓨터 AS 전 부문 1위",
+      "link": "https://news.google.com/rss/articles/CBMixAJBVV95cUxNdDNOeFZuWkpoRVVGSTZjSXJVeXdfbl84bjhvT0ptWEVwZENseVNibllPdmNKcU5KSTNWTzBzVWl3V3BwSndBOXJreTFFTzBpWVE4TmpycWprOWxpUElVMlVuX1ZzMXRtZl82RExVNWV2SmVHWm5Fc0VPS1F5eTJXT0hpU29LV2ZuSG1sWjdNZDFwX0l6N3VSZXBrY3NtNVhnSE4ySUJUVjJsQXdjd2VySWJLajVFWHlmYXZOdk1fN0tzRXIzd0s0ZFdJSXVKWXVrNFhaOGZJeTlFU1o5UllqMTN3NWJRMnNtYUo1S0hfX3VpYzJ0ZThLMDQxR3FnOGxOMEJOTm5rR2RwOGVjeExRUV9KX2FTdXNMMW00c3dwVE5qUng4MV9SMjhnTkIxVUxVR0RiZzFiUW5fNERmakhLUlBsVkw?oc=5",
+      "pubDate": "Wed, 01 Jul 2026 23:00:00 GMT",
+      "source": "Samsung",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -108,10 +71,10 @@
       ]
     },
     {
-      "title": "피지컬 AI 산업 발전 위한 'AI반도체SW플랫폼연구회' 성료",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5RQ3ZvYTNYdHJ6U1VlTjN3Tm5iem5xTDQyMF8wazNmZmJ0SFdCTEFQcUY3a2Q1RlZkRlFGR0N6S2dKd0hnLXN1N1FjZkVvMVNVdEh4MHp3?oc=5",
-      "pubDate": "Wed, 01 Jul 2026 08:34:51 GMT",
-      "source": "지디넷코리아",
+      "title": "삼성전자, 7년 연속 시각∙청각 장애인용 TV 무상보급 사업 공급자로 선정",
+      "link": "https://news.google.com/rss/articles/CBMiywJBVV95cUxOZEJQcXlmV1NJdEhYRERGLVpOZ2ZoQlg3Y1NqbWViZHB0Y21pOFp3N0d5bnZsc2FmSUF1d05rbmZ3WW1Xby1XLW1lR3hsWUtGaHBSYXNXOGVReC1LUDZOX1EyOWE4dTJOYTV0d2pUYmlNd285cFRlQlJpUFR2Q2dhVDBWX1pxclJlLUQ5Vk52N2dwVmd0Yi1TYm9pZWt4cW12bXNKRXNfbG1kc2JYckdLSEZvRWpNanVaWFF5YURTZVRVWjk1YXJMUmIwYURGY3d2c2xqSFlGVDBRbHo1TmgyZzUtZ2NLZTdxcDQ2WUtnT3pRdF9Qb3BQdnZOV1BlZ1d6OWl3NTFaZjA1ZXZWLTdmRWxJZ3VudW4zYXJnQ1ItRldnWGQyYUh0bnE1YmhxNldBNV9QcHFvcGxNYTdRZkx1VmFodFNod2QxX3Vz?oc=5",
+      "pubDate": "Wed, 01 Jul 2026 23:00:00 GMT",
+      "source": "Samsung",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -121,16 +84,55 @@
       ]
     },
     {
-      "title": "현대차, 6월 판매 33만8313대…전년 대비 5.9% 감소",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5EeUZUTzE2RDFacHZUU2xsbGxrbGFCQ0s4SGZNMmtnSV9uSnZ0cVRDUWVfUmdhXzRrMXBDamdOODQyS0MtMEk3d3dxMlpfUFdyYVNZVnBB?oc=5",
-      "pubDate": "Wed, 01 Jul 2026 08:31:10 GMT",
-      "source": "중앙일보",
+      "title": "메타, AI 투자 감축? 반도체 6% 급락…\"다우 주목하라\" [김현석의 월스트리트나우]",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBSOGV2TU9yd2FjRTg3aEY4eGMzeG40czZwX0xPU3FkMDJrQ21feDJ1b2V5UGd3LWtjb1JBemV5Z21nQW9GY00wblNFeXVVNjNiLUk2RkRmX3ZRZ9IBVEFVX3lxTE1mSmd4Yy1LTzdWNlEyVm40RG5UNi1naGh3bjhrOWRjYnVQR21NNnVyVFRnbTlKel9HbzdocFRiVl9jMFZtY0V5VmZiRGlnc0I2QVZQSg?oc=5",
+      "pubDate": "Wed, 01 Jul 2026 22:57:17 GMT",
+      "source": "한국경제",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[3분증시] 뉴욕증시, 반도체 부진 속 3대 지수 모두 하락",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBCN3dWeXBKNHhoNzV3OGJ2QmdxNjFZamZxWE9OOVNRVVhBMnIwOExpUVdxd01PN21lbUV0ZFBzdTM2MEptR0ZmQndOZWVYTDdXNU04SklrZDZCYjhOdmI4ZXVoc0Z0d1N2c004NXJ5NnJWZzNm?oc=5",
+      "pubDate": "Wed, 01 Jul 2026 22:55:20 GMT",
+      "source": "연합뉴스 한민족센터",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
-        "현대차"
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "반도체가 밀어올린 한국 증시…상반기 상승률 세계 1위, GDP 상승에 순기능",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNTWhyb2M0UmdUQjAxQ0s2N3RpRkl4NGlTNVEzemhxTTFvRkRGc1J1dV9qdWYtSmZoZXZtYnJyczY2U04teXZyeXVpMHVCMUxJcXFNUkhtczBJaEdoNmhHdE43dWtFX204Y0pzUVNKd2pnN2xMbjFsQUlYUWxkc190eTIzRXdOYVlS?oc=5",
+      "pubDate": "Wed, 01 Jul 2026 22:38:42 GMT",
+      "source": "글로벌이코노믹",
+      "category": {
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "추미애 1호 결재 ‘K-반도체 혁신 대책’…5년 내 생산능력 2배 추진",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5uOW5oYWtvWXI5bGRRaHktVGtpRi1kN0N5bi1Kd2hOTmFMd0tDYkkteHhDSThQeWE0Y1k2V0dmSURDQ0tBY3ktOFc4OF9ockEwcndOdWZjd1dfQQ?oc=5",
+      "pubDate": "Wed, 01 Jul 2026 22:21:19 GMT",
+      "source": "데일리엔뉴스",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
       ]
     }
   ]
