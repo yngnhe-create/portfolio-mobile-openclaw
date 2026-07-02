@@ -1,26 +1,12 @@
 {
-  "timestamp": "2026-07-02T10:17:05.023419",
+  "timestamp": "2026-07-02T12:17:04.731136",
   "count": 10,
   "articles": [
     {
-      "title": "비트코인, 워시 의장 인플레 발언에 한때 6만달러 회복",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9IcE1zMmppY1o2MDdhTGF2WXkzUFJva2xWRjdFb3hqRUpTdEZ1b2xNbWhmenFWMXZBTG93eHI4VDBIR0ctZUdoWHRESTI3ZkFsbVJ2RjFPS3FMTUpNcW9ZNS1hLVY5SElKcUIyT1d0XzA?oc=5",
-      "pubDate": "Thu, 02 Jul 2026 01:04:51 GMT",
+      "title": "하반기 산업기상도, 반도체 '맑음'…차·배터리도 '대체로 맑음'",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4yb3pQMk54eURVUWRRZnZPbExTRGJNRDJrM0E2cVdsRm1QV2JqN1dZenhCblFxQzgzUXhwNzIycDdtLUJBRld3YjBYX3JuN3Y0QXRONFgzRWI4Z3N4dGxDMndJa1JENktBazU0Q09sdEo?oc=5",
+      "pubDate": "Thu, 02 Jul 2026 03:03:24 GMT",
       "source": "연합인포맥스",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC",
-        "환율"
-      ]
-    },
-    {
-      "title": "삼성전자서비스, 한국서비스품질지수 ‘전자제품 AS’ 전 부문 1위 - 조선비즈",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxObWhCSHJ1UmFxOUp3SEY0dmo0ZUgwMHBXX2VLNHFYczFTdlBfcGlQc2JmcGlpME5GX05ZZXktejFsOHY4QmgtYTkxYU9XcVJJS3VpejdNTVdLNlVlOTJNTjhJZ3QyWjZVU0JrdnZGdENWejA2WEVBMmxTMHZlenUxN21B0gGWAUFVX3lxTE9ZbGJfSjhCSHotdUpob2UzZzQ2RWJud1ptT20wcFdabDZLbnRFLXE4TDZHNFNybS1QaWZQRWdyTmFYWUZGWnZhQXk5andTX3cwYnVWa3otUW04eTE3U3NRaDdhV0NsMGpQakRIbjRxWTBlakpNUDdqM1R4bUtZNVd2dlpoSTc0eXc3NkRVYnlSak1oMkFYQQ?oc=5",
-      "pubDate": "Thu, 02 Jul 2026 01:01:00 GMT",
-      "source": "Chosunbiz",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -30,9 +16,22 @@
       ]
     },
     {
-      "title": "정부 주도 ‘답정너’ 반도체 입지 선정… 경제 위협하는 정치 개입[Deep Read]",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1qZ1pnNVZ1NjlIVE1NTzBfTy1PV1k1dVg2SElBaEVQQTZUMlIzMmVjczJrblJHTXU2azRpM0t2cng2UUVTeHg0Ykx6eTVYa2pz?oc=5",
-      "pubDate": "Thu, 02 Jul 2026 00:58:45 GMT",
+      "title": "\"요즘 현대차 너무하네\" 묻자, \"삼전 살래? 현차 살래?\" 우문현답?",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1UdHRjSmRfTmlRUTlNUTJ6UVFPRUs2WHBieWxnaHMzeEdTeXRwbXdnUFdnWGQwcFJPTjdrTmp0ZFIyTU1sbDN6b21wc1JZV0FidWdXNmtwZ2x4clJQNGVVaUJORzJrdUVhMjl0alliRmdEX0hwa1E?oc=5",
+      "pubDate": "Thu, 02 Jul 2026 02:59:00 GMT",
+      "source": "YTN",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "반도체 연구에도 ‘AI 비서’…카이스트, HBM 설계 자동화 소개",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1yaFM1Nm5iZUZIalpBc3M2MVkxaGkzMTlnak5MNU1kakJlV0RpZnl4RnpkdElpZ3ZOal9FakR1cVVrN245VDlJOEhja1BBcjN1?oc=5",
+      "pubDate": "Thu, 02 Jul 2026 02:58:08 GMT",
       "source": "문화일보",
       "category": {
         "label": "📋 GENERAL",
@@ -43,10 +42,10 @@
       ]
     },
     {
-      "title": "유기 반도체 회로 더 반듯하게 그린다…정밀도 높인 ‘분자 접착제’ 개발",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1udkMwVG5aU09TckMyMUxaQjZsNG5pWTZzbUVWWVJyckZ3S0pRRmthdlFLT256S0h3dEVhaFRlN1Zfb0M1Rzc2VWFRd3VNQlhvbk53RExxMW5ycXNfc05r?oc=5",
-      "pubDate": "Thu, 02 Jul 2026 00:56:32 GMT",
-      "source": "헬로티",
+      "title": "지역 인프라 불안에 노봉법 리스크 더해진 호남 반도체[사설]",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5mYXBoTDFFYVBreUZFNUhTZV8tNjJHYjBhNmN2VF9aUFoyWjZPYkRsUXJMVXdHU0hHbHJpRndoVUtDRWtucWQ3MVFKNXpDcDZ6?oc=5",
+      "pubDate": "Thu, 02 Jul 2026 02:57:42 GMT",
+      "source": "문화일보",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -56,10 +55,10 @@
       ]
     },
     {
-      "title": "유기 반도체 회로 선폭 편차 4분의 1로 줄이는 광가교제 개발",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9BQzJZUnpPTFFUWDI2bUd0VEJTZGRYRVlOdU9RcW9VSzJJUGhsN3ZBV0hLbDgxX0ZyNloxWnVlTGQtVlQwYWdqTlI4OXYycHRsa2V6YTAxVlZyNS1EOTgyTHdNY1hadw?oc=5",
-      "pubDate": "Thu, 02 Jul 2026 00:56:30 GMT",
-      "source": "기계신문",
+      "title": "용인 6년지나 첫삽… 호남 반도체 속도전 ‘토지보상’ 변수",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE8ydVJoWkRUY3p2UnZSUHR2VkZiRkFoVVlJeGQ3dl82eF9WVnB6WGVGQUV2UWNlOUx4OUlZV2Z3VXVVaTFYa1ZVOEVrcWpwVHhN?oc=5",
+      "pubDate": "Thu, 02 Jul 2026 02:54:40 GMT",
+      "source": "문화일보",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -69,49 +68,10 @@
       ]
     },
     {
-      "title": "해외생산 늘리는 현대차, 데이터 이관해 글로벌 품질편차 잡는다",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA3UHE2X0pBQmwwQWVWVGd0bDFGbVZpVHZnbjNfQlAwSzJPVWZ6UjMzWE8zRG1ranZSTGZVcC1GRmxzVl80dk96VzduVk9QVERQRE4zRFJGYllYOUpwS1ZvTWx4ZU8zOHRPSmRzOFMwZ1ZDLUF1QjNDblFyONIBgAFBVV95cUxPRnpVMFp6NGwtcEhNREh0R3cyd0YwTnZtWmxwamJNZzRPbkhWSGc1dTBUU2VUV0lhN0NBUmJaeFp3d2tfX2p0Q3BYR1V5VkFKdHdLTHl2aFB2RUtiNE13MDVaUUZUU3VUdEM2SXRhODRMSTdTN0xZU1hrQnNMT3JGTA?oc=5",
-      "pubDate": "Thu, 02 Jul 2026 00:54:46 GMT",
-      "source": "뉴데일리",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "기후부 장관 “호남 반도체 단지에 필요한 전력 6.3GW, 추가 원전 없이 확보 가능” - 조선비즈",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQaVFEdXlmNUNuOXdlUXc5dUphejNPX2p4OVIzMGFuQ1lNYXdOSEJxNXlDQ2pXeW5rRWdKdzdYR3RBckk4cFR2SlFwbHNhRTQ4bnUxNndtVW53ekw4NS1qMmZWNWxuUXBZdHBSWlloUS1Jb1FKaHdtMHhXODFEZExSbzVKWTFoQdIBmgFBVV95cUxPeEFDMms3TlYySDJtNW1DbFNvb0J1ZDM1LXhDcHBnZTlwSG9CdnVLcV9YcmRzb000Wkh1UUFRd1k2dlp5bFJyVWxKMjF0a08yaWlBSnpyRDJGVi1xX1drTXRZWlkxejBKdTl2WUV5ZWxGZ2NoV1lxTjI4RjBIWUpPNGhZRFBaazd4cllOMDZHLWJ3US1RS3NjQzFn?oc=5",
-      "pubDate": "Thu, 02 Jul 2026 00:52:00 GMT",
-      "source": "Chosunbiz",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "美 반도체 한파에 '30만전자' 붕괴…SK하이닉스, 231만원선까지 밀려",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9fZFdrYXlmZFJsdkNUc2VWT0V1cVRVeHFrYjdTRGI0dDF2QU00cGlDQUJsRmdRVklTNlFLN1JwQ0c5YkZSYVJjNEFYMVE0ZHM?oc=5",
-      "pubDate": "Thu, 02 Jul 2026 00:51:00 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "(특징주)삼성전자, 미 반도체 쇼크에 급락…30만원선 하회",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5IYnpselpnTXA1UHRqUjVaaW05S0JSQWxNd0U4WGJub1VCcjliREJwR2dFWGp6Tk1zUzNNWTNUNW9LclJPOVc2bXEwRUhIUnBuXzlvamtSUG0zOTRLdlpSbg?oc=5",
-      "pubDate": "Thu, 02 Jul 2026 00:47:15 GMT",
-      "source": "뉴스토마토",
+      "title": "코스피 장중 ‘매도 사이드카’… 반도체 위기론 재점화",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5QQWZVaGVxMEFwWlZVYk1XN1N2SGRBbUt6dTlOTEVFM0NFd1FlOEpDWHFPZnp3eHpMY2tLVmxCMFFGUnF0TFRraklUUzFkY0sz?oc=5",
+      "pubDate": "Thu, 02 Jul 2026 02:49:50 GMT",
+      "source": "문화일보",
       "category": {
         "label": "🔴 HIGH IMPACT",
         "color": "#ff4757"
@@ -121,10 +81,49 @@
       ]
     },
     {
-      "title": "반도체 물 공급 호언장담한 정부… 정작 ‘농업용수’ 데이터는 깜깜이[환경포커스]",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5hV3hBckd5R3FuZ2s1bU1LYlYzY2dsUzlBWU1neXQxWmdBcWY2SFVTRVRNTWQybFh3V2ppQUdvRjBTaFJFWVhnb0txeTYzem9uLVNaMmF4aVljWGFTSVROSVhaWQ?oc=5",
-      "pubDate": "Thu, 02 Jul 2026 00:43:31 GMT",
-      "source": "에너지경제신문",
+      "title": "너도 나도 반도체… ‘AI 전사’ 변신한 신임 시도지사들",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1PYklOME91RFdZSTM2dmNXc09CdHZaRHowV0xzY3dWOC1yb3IzX0dVTGdqbEtYbENDSmFjSGFlQUZMVHdiaDhmMFZreGkxRkg0?oc=5",
+      "pubDate": "Thu, 02 Jul 2026 02:37:43 GMT",
+      "source": "문화일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[메가프로젝트] SK하이닉스, 'AI반도체 거점' 청주에 100조 투자",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1ENUxDc0ZRVGlaN1h1VFAtLWRVeGN1c2RGZFV6X2dYM1pXdHJoVTFreDB5UXB2T19USGhvQXgzRWN4dUVZYzNaRW1JU0NXY21uWWtQNm83aTg2VkZhbmp6UnBBSUczV2VI0gFsQVVfeXFMT0FmQkRjNkxhQ2U1ZVAtTktOZWtOOUowMmlhak1XRWlJVDRaOVFlMmo2aWtWSzZlY1d1REUtQjhTdjg4UnZIT2dNV0Y2SEhEUUU3aDdjWjVBNDJ4djFaYlNYUVp1eXAwMm56SGYx?oc=5",
+      "pubDate": "Thu, 02 Jul 2026 02:36:58 GMT",
+      "source": "블로터",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전자, 장애인용 TV 3만5000대 공급…7년 연속 보급사업 선정",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE80c0tQc29uLWdlek5STkxGbnZWYktCZHBWZ0M4OG92N25OMnQxRUN5QU1GWndOWTEtUF9fUUVkT3FlS2xwR1hjSG00bXF0Rm9Scmdndlk0N2hrWjNBOVJYeEROSVM2SkZXeE1Zc285V1AtZEHSAXdBVV95cUxNazdFejA1VDBkRGZJVlc2REpBeUw0MENWc3NFYVdVaGZDSGQ0TUhfckJCWE9xa1lWdjh0TFdJZFpVenVka0NCaHRDdk8xV1VPdWlyYWFtMFZGcml3c2V2d1JiOV9oenpXNVNkZWo3eEtGRkZ0djU1TQ?oc=5",
+      "pubDate": "Thu, 02 Jul 2026 02:34:29 GMT",
+      "source": "스트레이트뉴스",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성·SK·셀트리온, 충청권 반도체·AI·바이오 산업에 392조 투자",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5WeHpuM2pEVmF2TmdGNmd3cW0ySGJCYkRaTG1zbnh1U1hTT2tTWW1VN2JuT3I2REd0YTdXUWNqQmkyejBNY0g5WW0yRHpiN3ZSaWc1aGpYNGNibXI2WFRLck0tTUlla182VnR4RWxOSG16QQ?oc=5",
+      "pubDate": "Thu, 02 Jul 2026 02:33:23 GMT",
+      "source": "인더스트리뉴스",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
