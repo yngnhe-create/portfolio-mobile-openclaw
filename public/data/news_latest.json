@@ -1,11 +1,90 @@
 {
-  "timestamp": "2026-07-02T16:17:04.879005",
+  "timestamp": "2026-07-02T18:17:04.672538",
   "count": 10,
   "articles": [
     {
-      "title": "서남권 반도체 인재 키운다…노동부·지자체·기업 협력 강화",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBGWTA3Ri1vcTJjR3NmUzJsbHc4eHZJYUdNNURycGQwckdSaHphamVZbVhZWmV1NGxKQU5KNmItUVlQRTJfdFlnVk1SUm43ZTE1Y0NndWk5bTl5TmItQjJDeDdhMWRFU2IteHFYaw?oc=5",
-      "pubDate": "Thu, 02 Jul 2026 07:10:29 GMT",
+      "title": "[김대호 진단] 반도체 거품붕괴? 레버리지와 음의 복리 효과",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQX3lpSGViX3hiTDhaVWRNUVRQekZLcV9vMkZJSzlPNHZSbDgzZkZEWVc1ZmFST0hQUnZkUElYU0dvNFYwQTBnRFlxS2VPNEw2cnQ4bEdHRWJtQ0kxT2x5aXFDbWFSOGtESTNxVXg3TG5sa3UtMlRDMWNVSHpKeEJyLU1GVnY?oc=5",
+      "pubDate": "Thu, 02 Jul 2026 09:02:20 GMT",
+      "source": "글로벌이코노믹",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "‘호남 반도체’ 건설업계 신규 먹거리 부상 [3대 메가프로젝트]",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE11UzNlaWNfQkNub0ZKSXRxMVQxLTZ5OUZyenRaNmxLeXdKQ2pqNHk1eDVGd2JuWWhadzN0Nml1UlhKbWo5WFdMSnUySFpDSE0?oc=5",
+      "pubDate": "Thu, 02 Jul 2026 09:02:00 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자",
+        "리츠"
+      ]
+    },
+    {
+      "title": "삼성 113조 투자…아산, 차세대 디스플레이·HBM 반도체 핵심기지 뜬다",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5GUlRyeEFWb2NoSkc1YnBCMUdlZnhkTDJLR1I1SlFRVlZFUWg2aTVoN0pqcHZWNXM0OFI5QVUzTXdHd3Vyb2p5bUxqMDlEM2c?oc=5",
+      "pubDate": "Thu, 02 Jul 2026 08:58:43 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "반도체 한파에 코스피 7,600대로...하이닉스 14% 폭락",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5NSXA5SU11M0dCd18ya0VuNGV5Y01FczdZZ3ZfUE83azAtV1Rvb1JraUh5Tm1DQllHWVJ6SWZ0V2JqSXBaemtZa2lFVTltWi1OOWR2UUpCQzlQYVRxcTBtYTVwYmR4eno5T29Rd3AzZXl5VzNSY3c?oc=5",
+      "pubDate": "Thu, 02 Jul 2026 08:48:00 GMT",
+      "source": "YTN",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "반도체 낙관론에 묻히면 안 된다",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB2MVBCcGJtdHZKVGhhSVQzNi15T3hzelFtc2FUcEtQQk5YWTFhYWNfZnBGZzF0dGhDVFZLM25ZQVZjN19qMUdocElieFVqTXhndWRZM1hBV0FjZ9IBVEFVX3lxTFBGWE5ZcHZOWHhRak91ZzBnRkp1SVMycFgyLTJzWFBUdW9lalYwdHRWUjRnYm5lY0lVNnNNMklNNGRyaFIzcVZzSEFzV01NUUhGcUdHNA?oc=5",
+      "pubDate": "Thu, 02 Jul 2026 08:36:37 GMT",
+      "source": "한국경제",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "‘2배 도박판’의 처참한 최후…반도체 대폭락에 ‘삼전닉스 레버리지’ 탑승 개미 ‘억’",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBaUmFtUG5qcXpyV0xROWRQZVRvS0tJR1RTZG9WbUI3dmJWZkY2WEFjQ3hnMUw5RTdjdVZ3WkFyRWZCdllRQWhQakpnMm5TTGs?oc=5",
+      "pubDate": "Thu, 02 Jul 2026 08:31:43 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "(설명) 반도체 산단 나주호 용수공급은 영산강물 대체 공급 등을 통해 농업용수 이용에는 차질이 없도록 할 계획",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBfTnpvVFVHNEVVME5wNFNUUmduSEwxMmZNTk11VVNJa0NiSVZmelNiWHhtdHplVzNfU0xObUx1S1lnNC1Tdi10NmYwNlRjYVJBQWhXclVRU3ptSk8wQlBaMU9ZWHQxaXowVWlLR1NEYw?oc=5",
+      "pubDate": "Thu, 02 Jul 2026 08:27:17 GMT",
       "source": "대한민국 정책브리핑",
       "category": {
         "label": "📋 GENERAL",
@@ -16,35 +95,9 @@
       ]
     },
     {
-      "title": "[중국증시-마감] 반도체 투매에 2%대 하락",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBUQmFaWGUwa3RucTlqVmdJNU04aUFPQnFwWmlWLWEtS1laV0lJa2QxUjFwT28xSWlxLVdrRmd4cUVRdlYxYzVtN3ZNTDZKZ2NEMUI0UWluUkRkcF9pX2tzWGkwR2Fva3dTRmtncFJQVlhOQQ?oc=5",
-      "pubDate": "Thu, 02 Jul 2026 07:06:10 GMT",
-      "source": "KB Think",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[마감시황] 코스피 7,648.09 마감…반도체 대형주 급락에 7.89% 하락",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5zYjRYSWFmU3pFTGNEcUF2VGJGcjJvczBvOU0ySzhnUXRnQ2FCNFRWelFlNlkzemJPa3RvdWJjQURlMmZsaERZd3ViRnNUcjF5VjBoZHN3SFQyQW1ZcmlIUDNtZVAzYkVRLThVMWh0ZWtTZU8zZ08xM1VhdE42QQ?oc=5",
-      "pubDate": "Thu, 02 Jul 2026 07:02:00 GMT",
-      "source": "서울신문",
-      "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "행정통합·특자체·반도체…기회 놓친 전북정치 숙제만 남았다",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9zSTJQX3pSakVZZ1VZTzNubUU5bmlhb1l3RXZWd1h5VGRHRVdIS2gwT3pvNGc1Y21ybXlYNGE5NHZUcmhNUW53S2NneWdsVFU?oc=5",
-      "pubDate": "Thu, 02 Jul 2026 07:01:05 GMT",
+      "title": "\"반도체 장비 패러다임 전환\"…세메스, 'AI 포럼 2026' 개최",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBjOFQxbjU2UnZ4TkxFenJBeG03emNURHNzLTlXNHEyZjBnUlA0bDdHMDZNR3dQbk9lMUY2LWdGd18xbWh4dUthdC1YOWxwUGM?oc=5",
+      "pubDate": "Thu, 02 Jul 2026 08:20:31 GMT",
       "source": "v.daum.net",
       "category": {
         "label": "📋 GENERAL",
@@ -55,49 +108,9 @@
       ]
     },
     {
-      "title": "김성환 기후부 장관 “서남권에 반도체 팹 더 지어진다면 원전도 추가 건설 고민”",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBtdkhiVVhFSG14dGdqYm9LX09mUUVROW1KZ0NXdDBLSUQtQXRhTXp1MVV2YlV6WU9RdklicWlJR1BDSjMxN29GU0pMVEwxWkg3Q1lWQkZB?oc=5",
-      "pubDate": "Thu, 02 Jul 2026 07:00:58 GMT",
-      "source": "중앙일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "리츠",
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[마감시황] 코스닥, 6.74% 급락 마감…반도체 약세에 시총 상위주 일제히 하락",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE53RkY2TjBhWDA4b2JpcDdSdldzX0VEVGtqbDRnT29FNk5rcG1KQU9wcklWTmRjOFppbkczNlJzY2hpdGFjd3lpbzItY3Jvc1pwNUhpcFF1aVpSSHAxX2N5OGFLTFBwR2s4LThTSjZVbzlPQ2VUdnZ5eF9wc2FjUQ?oc=5",
-      "pubDate": "Thu, 02 Jul 2026 07:00:22 GMT",
-      "source": "서울신문",
-      "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "고용노동부, 삼성·SK 서남권 반도체 투자 맞춰 인력 양성 논의",
-      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBNdTlUSDZjcXBQc2FlbFNIQ2MyZlpSSlNjN2p5bUQ0VXlCWDBrQUhUX1ROYUlWdkNfOTduVjIzNmhSUXBuYXFOZmFKYXQ?oc=5",
-      "pubDate": "Thu, 02 Jul 2026 06:59:21 GMT",
-      "source": "아이뉴스24",
-      "category": {
-        "label": "🔵 MACRO",
-        "color": "#0984e3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "박수현 충남도지사, \"충청권이 AI 반도체 중심\"…392조 원 규모 투자 환영",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE93YlI1R0JCdTBod2QxZXdjMkpxX0QzTTlpdnlyTzJsOFRZeVFSQURHRE9GWmlreEJ0MmNIU1ZTLWV0MXE0bnJTbDlGamN0MEE?oc=5",
-      "pubDate": "Thu, 02 Jul 2026 06:59:12 GMT",
+      "title": "[간추린 경제] 1. 7.89% 하락 2. \"애플, 中반도체 구매 협상 중\"‥삼전·닉스는?",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9hQVpDdHRkSmw0QzUyM1NZWE1kMGdkWkpaSVgycVZFLUtlSXFUaTFOWW1pWXloNHIxRzhMeHhNNFFrdG5ZTHo0LUxTN1pTRVE?oc=5",
+      "pubDate": "Thu, 02 Jul 2026 08:19:10 GMT",
       "source": "v.daum.net",
       "category": {
         "label": "📋 GENERAL",
@@ -108,23 +121,10 @@
       ]
     },
     {
-      "title": "안철수“100조 반도체 초과세수, 호남 무제한 투입”",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE10VW1LRE1HbU1BdGZQQTNKVVY4RjRjWS1XaldhOEpidHctSm1fZ1Fyc1lRc0RfcGFOU24wbGt2WUFTWEZrcEgydXZIbmlZUWpj?oc=5",
-      "pubDate": "Thu, 02 Jul 2026 06:55:50 GMT",
-      "source": "문화일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "‘메타 재채기’에 코스피 급락…반도체 조정 장세 가능성은 ‘글쎄’ [마감시황]",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA2ZmFURDNFWXF3RDdLQ19vUDBZX2JVWE1YOXcydU40eWhFTFZTaUpqTUR3eUNTSmhNTTRhMnZxV1NHS3ZOUlBWV0JrQ3o3Z1pIYVE4SFJ1dGR4TnM?oc=5",
-      "pubDate": "Thu, 02 Jul 2026 06:46:36 GMT",
-      "source": "에너지경제신문",
+      "title": "[속보]'메타 쇼크'에 반도체 투톱 폭락...코스피 7.9%↓ 8,000선 붕괴",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9DOFEyaTc3UkZGQUZILS0wMS1ZYWZFSzNfM2hDaUxDRHF6T0FBb0swcklCdU5tYTdoMDUwT2xHbDJCOHBMaUk1enZ2b241V2NZclUxNC15bm4zclVab1VDOQ?oc=5",
+      "pubDate": "Thu, 02 Jul 2026 08:18:35 GMT",
+      "source": "KBC광주방송",
       "category": {
         "label": "🔴 HIGH IMPACT",
         "color": "#ff4757"
