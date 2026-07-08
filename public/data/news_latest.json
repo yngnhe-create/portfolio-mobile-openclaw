@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-07-08T10:17:04.890425",
+  "timestamp": "2026-07-08T12:17:05.363745",
   "count": 10,
   "articles": [
     {
-      "title": "美 IT 전문 매체 \"삼성전자, 조금 더 존중받아야\"",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE85V2ttRU9FaWgyeDRxY1JWYmlNa2FSWFFycFVMb0xkXzVfU20zSzhETG9NWlkyS1ZVcFNxY2RrSjNpa3E3eDBKUWlwTkhMN0RCMEdRTDFINXB0ODQwY2pOel9rckRyMHpBY3FRX2U2bWQ?oc=5",
-      "pubDate": "Wed, 08 Jul 2026 01:06:51 GMT",
-      "source": "연합인포맥스",
+      "title": "삼성전자, ‘세이프 포럼 2026’ 국내 개최…AI 반도체 생태계 협력 확대 나서",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9JdTU1QjRsR183SXVxUFM3dFV2V2hmdnRacGdfbnZrN2huTndyUWRrd1NfYV96X1hoVmJvbEZoWGh0emFmdVR5dnBFTFlkemhEZ3E3T2kxcnNZZw?oc=5",
+      "pubDate": "Wed, 08 Jul 2026 03:15:46 GMT",
+      "source": "위클리피플 인물지식가이드저널",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -16,23 +16,38 @@
       ]
     },
     {
-      "title": "특징주, SK하이닉스-반도체 생산 테마 상승세에 5.18% ↑",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9XZnRLZWYtLWIwS0h3OWJHbGg5QmhIMzRsX2ZiQ1p4c0NncktWcVBFNmxLclFwSEdHc1dZMEdMQjJSVWVoWkQtQjJ1TTI4UkpMN3c?oc=5",
-      "pubDate": "Wed, 08 Jul 2026 01:03:09 GMT",
-      "source": "매일경제 마켓",
+      "title": "KDI “반도체 호조에 韓 경제 개선… 고유가·고환율 위험 상존\" - 조선비즈",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNT0VtZmxpS0s3VUp2T3Z0SHJZeThaOGk2N1lXWV9VOFNhMXpqWU42NVdGVENuNk9TXzlXMU81emV0VlZSMnZLS1B6V3g2eFhJQ3ZUNWh2Zk1FVFpjeVBiaUhfZmdtcHN0MUxySTltWE5DQ3MtLTJHQk1KaDE1VnRET3A2QTRwUdIBmgFBVV95cUxNb09qT3FYOUNrV1J5Mml1Vnd0WC1YeU5oa3JDckptSVBPRnhSSm44djJpcFh3VGFyU2VwWmwwb0hjTzZDaUFsbTNtMkR4UTNVYURUNkhTTjJ0eERzMDJhTnFwLUlRWnk5eU9ZZ0N3amN2M1I5UGVqZDF2QkVyZk9jWk9ocFItZjYzUnZJTmhxOUxjdXF0aVVydzFR?oc=5",
+      "pubDate": "Wed, 08 Jul 2026 03:02:08 GMT",
+      "source": "Chosunbiz",
       "category": {
-        "label": "🟢 POSITIVE",
-        "color": "#4ecdc4"
+        "label": "🔵 MACRO",
+        "color": "#0984e3"
+      },
+      "impacts": [
+        "환율",
+        "원유",
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "유통사에 고객·마진율 제한한 반도체 기업 NXP·ADI 공정위 심의 넘겨져 - 조선비즈",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQUkdobk5Bdy1TTjBkMHZxdGRNb2IxTXRyY0ZGc2FUenUyQ183QzVqaWRxYUUtY3VlZlk2Tjl4TmVuSmhta3RBZzJJVExOZ3k1VGhqMzhHeUZRcUt6M2c1ZHFWa0tySDYxMWptTXd2cURtZkU4enZPak53Nlo3cEIxLU5Ibl9mZ9IBmgFBVV95cUxOLVpVNWx4NUpWUnh3bkFVMXhrV3JEQzBNOXI0azh1bXBiZHZvT2JiMG9aRmVPWGYyUk5tVGxHc3h0VnNJNlhuYU1hVjVZbE82WHprRl9Qd3lKUGJGX3lEbldBdWZCRGNjT2F4Vld2bk90WndvTWtheGFtZHp2SFZSck00UFUtOGpJcWtQTGNaSzFJb1Z1Z1k5LTFB?oc=5",
+      "pubDate": "Wed, 08 Jul 2026 03:02:02 GMT",
+      "source": "Chosunbiz",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
       },
       "impacts": [
         "삼성전자"
       ]
     },
     {
-      "title": "삼성전자 고점 대비 -30% 급락 주도주 탈락 신호인가?",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBWWVhsT1dmOXhZMktsMDlGM0lEdXRtcHVsRjNzRnNMMml0SDlNZThJaTctMlg3a2theTlkY294ZG9FSEtXb2Fhd0lPLVNHUm9WN3VNeWdVcnNZVS1WYl9VN1dJUTEtQUFQckh5Y0s1d0LSAXRBVV95cUxNUkNtVjFFTGR4aEh2a3ZWOU9YMi1ZZzJ3V1hsVlhaNzhLSjBJNW1XWFJ1Ylc4eW9wYUItR2h3MXB1OWhQdkNjVGZtdGZSYkFXdDZpQy1PVHBPbjMzaThsVHVlWnRCSGI0elo2elhPRmFwc1V5WQ?oc=5",
-      "pubDate": "Wed, 08 Jul 2026 01:00:21 GMT",
-      "source": "연합인포맥스",
+      "title": "공정위, 비메모리 반도체 업체 ‘NXP’·‘ADI’ 제재 착수",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBIQWNWME1raHJlTVBVbTNJZzNzRzBwZ09vaWVCVVJSaHNDQXAtQmtrbFRobE5rMTRHbnpXZ1lxa0hxcy1DLTlSdlhPS2FPbHAyT1dXTEdKSlRnUzg?oc=5",
+      "pubDate": "Wed, 08 Jul 2026 03:02:00 GMT",
+      "source": "KBS 뉴스",
       "category": {
         "label": "🔴 HIGH IMPACT",
         "color": "#ff4757"
@@ -42,23 +57,36 @@
       ]
     },
     {
-      "title": "현대차그룹, 미래 모빌리티 대응 1·2차 협력사와 상생협력",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB0Z1Ntc2FWRHJEZHRxVEtSMi1TdEZaWlcxUy1GTlBGN2tGN2pHejdyakpwMlRFTmZ5b3IzSmhYdk9UdmtsNFBBa0Q3cHdOQm5OTEROWDNPUm1ZMGZ2bG1YZA?oc=5",
-      "pubDate": "Wed, 08 Jul 2026 00:58:30 GMT",
-      "source": "뉴스토마토",
+      "title": "삼성전자, 무풍 에어컨 출시 10년…글로벌 B2B 공조시장 공략 강화",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBSbV9rVEZaazlUSGkzZGxLNHRRX1hDbmxXb1VzTWtPYUtZenJ6ZzI0N182d3FYRWhWc2gyQUVvLWJqaVBIUWMyOXVpREtIOUVmUllpd1hLQUpnS3EwOXdla1lFay1TV0lkaUE?oc=5",
+      "pubDate": "Wed, 08 Jul 2026 03:01:32 GMT",
+      "source": "냉동공조저널",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
-        "현대차"
+        "삼성전자"
       ]
     },
     {
-      "title": "삼성전자, AI 서버용 eSSD 양산… 엔비디아 ‘베라 루빈’ 탑재 - 조선비즈",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPSHBuVDJJRm51Ml9SSWc1Zk1SVkdTc3ZKQkFveVVHczNWODFYTVRXbzM2a1UtRlNTanlzUC1teHluYnlwajF2MDVFa0Y0U2I3akQzZ0dNUHFYTmFOQ2RLUlBlNTZaMVFJRDZ2aGpncTRJU3BNS1Nzc0dzWGp2TFhYdHJB0gGWAUFVX3lxTE0td2xnSXBoMW5lel9DbU9XOGU3Z2d5dUdwWEJBMnoxczZ6S1B3NGVGYUtMY2k0ZEt3SE9PRmdwcjRiV0FKdm5Vbzh0VjBhUFlJUDR1VFNDdUQ0eWxPNkdsVjh1ZlozYjRZOS16SlZKS0FmUTFuNUk3dlkzSVBSZmRzaGNJMDltTTNpRERKNGJZRTdlRW1vUQ?oc=5",
-      "pubDate": "Wed, 08 Jul 2026 00:57:00 GMT",
-      "source": "Chosunbiz",
+      "title": "글로벌 비메모리 반도체 2곳, 마진율 강제…최대 1천억대 과징금",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ydUpjZTR6bXVrak50cFd4VVY0bnFUWERRUFB1a3hFY2dRNnBtR2xZemNpVnlBb2tiZXNEdVFuTjdaLVUyRUx5Rzd6MHpvNVVhblE?oc=5",
+      "pubDate": "Wed, 08 Jul 2026 03:00:06 GMT",
+      "source": "매일경제 마켓",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전자, 엔비디아 ‘베라루빈’용 차세대 eSSD ‘PM1763’ 양산 돌입",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9QdDJDNl9ZSGlFeGpPbUM1Ykc4V2pwWjZLc01Sbm45OF9JWWtlTklnSmZTY3YtUTFkR3ZOZHk3Vmo0T1VWajdFSWV2Rkl4cG04VnNWVmNjZk1rNi1LbC1ENl9RVQ?oc=5",
+      "pubDate": "Wed, 08 Jul 2026 02:59:01 GMT",
+      "source": "에너지경제신문",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -69,63 +97,36 @@
       ]
     },
     {
-      "title": "전기차에 저장한 전기 집에서 쓴다…현대차, 시범서비스 본격화",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBkRWdIdFdzUnBDcjdMSk1fcFRNTGNydjQwRWhoU0IyU3NTZXVyV1k1OXJkdGhGejc0SEw1RTIwempiOEtrMmE5XzVMRHE5OHlHdV9YRUN0ck0yczTSAWBBVV95cUxOSEQtbzBMalRNc19BNmtNN3F0bGJfMmJvNGdRRW5vU3JobWhxMThZYnE5TExFakhMSUVNdlF4ZWE3V2pjdDhaSmRrSnU3c2ZldGtPOFVOa1I2dXF5ZnRlTUE?oc=5",
-      "pubDate": "Wed, 08 Jul 2026 00:55:20 GMT",
-      "source": "연합뉴스",
+      "title": "“반도체호황에 ‘세금연동’ 교부금 100조? 굳이…”",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5MbGpNdnJCeGNmbDJZcXg2VGpSWEk5ZDJUWDd5MVJGakUtUTlUT19SbDk1VUJCeUVoTTJsLUxqZldweTNXdTdacGRfOV94bmNa?oc=5",
+      "pubDate": "Wed, 08 Jul 2026 02:56:09 GMT",
+      "source": "문화일보",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
-        "테슬라",
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "현대차증권, '대학생 서포터즈 3기' 모집…활동비 월 40만원 지원",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1RRFVVaFVHdU5QNDMzQTVELTJfVFNMYm9MTW1fV3JodlBGWElvOU1sVzBjWHktdGM4UXFPVlJiRnpGV2F5VHJfVnlUOGpVY0NRN2o1ak9SWGVPcWV6dkhILTIyRmJsNldCckVXMWU5eGVmQQ?oc=5",
+      "pubDate": "Wed, 08 Jul 2026 02:39:42 GMT",
+      "source": "인더스트리뉴스",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
         "현대차"
       ]
     },
     {
-      "title": "지난해 국내 100대 기업 경제 기여액 1,731조...1위 삼성전자",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0td3lPMTB5cGtzRHozb0xTN2NhczVzQjBka3ZVWjJRZnV1LUdXd21YREVMbkRtVkNNdzhZSGRSN3cwZ1h5U3hiQmV2ZDJEMmI2Xzc1YXA5dzlKb3RXZWtXSjJ3?oc=5",
-      "pubDate": "Wed, 08 Jul 2026 00:54:16 GMT",
-      "source": "KBC광주방송",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "국내 100대 기업 경제기여액 1천731조…삼성전자 177조로 1위",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1xZEo0NmctUFJ4UTBwT1VxR0hNazlWb3l3cUkxZjFMLWtKM1RaYWVTZFZHSlBoWkEtelFZVzZndm13ZzdSZ1FhcmpiTF90WEpBOTdsVWF6Y2VHZ3gxak5KRmF3alRqSGN4aFJLOHdSbjY?oc=5",
-      "pubDate": "Wed, 08 Jul 2026 00:54:07 GMT",
-      "source": "연합인포맥스",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "SG, SK하이닉스 용인 시스템반도체 클러스터 아스콘 전량 단독 공급 - 머니투데이",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE44TTlYWXRIV0lINVdWM3hjaFAwT0JjMnAwak5fem5ETy1xY3VpMlBhY2x4WlZkZ1oyMW5yWlRIVXRWbXNnSkJVNGtqMVhLcUZmNkhfcDdmRkZWSk4zQUpJVXl0N1ZhcnVW0gFuQVVfeXFMUDRvVVRTTUFxZHBObTJ0VEc3eFprUUdNZGtrc05LZVRyOGdrWGExNE1IbWhCRDk5X1k0MktodS13SEJzQWZ5eEoyajEtUzlRREt1dFVOaEphUEdUZ0o4bnFxTjVORUE4UXNoVW45Zmc?oc=5",
-      "pubDate": "Wed, 08 Jul 2026 00:50:52 GMT",
-      "source": "머니투데이",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "구윤철 \"호남권 반도체 클러스터 인허가 등 후속절차 동시 진행\"",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8yVTlJTVVmSVFDdkN3MzkxNW1acVJtWk0tRUQ2RlJUSVpaeHhGN3MyeFZZVTRWUWZJWWNVSXRFa0MzSzlBNV9NMElua3VHbzE4WEpmRXNwOGhMUHlaNmN3VA?oc=5",
-      "pubDate": "Wed, 08 Jul 2026 00:50:48 GMT",
-      "source": "아시아경제",
+      "title": "'흔들리는 반도체', 코스피 고점 지났나?…엇갈리는 시선들",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1tYXVpcHc2ZmI2djNOYm10dlZLU251cGtybzQyVzQtWm1jRzJTRm9ZUTdTZFlJZEFhaWk3WDZtX1NhYkgxZ2Z5TjJHVWlyVEoyN2VDR1Jrb2tBNUXSAWBBVV95cUxQZW4yOE1lV0oxdk4xckdfdXBMUzk3LWZHWlFRcU5nUWV1NHRaYzVXN1BYN1Y2c0tLYVVVNHNYNUhXeHpuMmg2T29BazB2SHFROGNmc0dOdXZLWWRmYUpVczE?oc=5",
+      "pubDate": "Wed, 08 Jul 2026 02:32:33 GMT",
+      "source": "연합뉴스",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
