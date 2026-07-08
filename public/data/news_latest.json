@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-07-08T18:17:05.343101",
+  "timestamp": "2026-07-09T08:17:04.728599",
   "count": 10,
   "articles": [
     {
-      "title": "나노코리아서 제조 기술력 뽐낸 삼성전자·LG전자… “미세 공정에서 완성되는 AI” - 조선비즈",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQbUQ2YmNzMG9NajZKeXdlb1ZodFFRV2FuamV5bEtySlJDU2NjdmdGLTc2UlhuUTlrSUZlbVZqZEI3Q0RaWTUybXN0akV0bGdXTGlIbjNuY2h3VzBSaHZFSTdfQVlTSFp3ODhQaXdLYy1LaVpmaUZfT01TSldDRmdmU0RB0gGWAUFVX3lxTE9IdTVMTEtmQ2UwZ3JjSE5ucHJKQnZUY1dMajYxVjNPeGV3SDE4c1Z1MF9vZ2dWNE0xUmZNb3pTN1RIdXY3VFhIZUNZdlhZTklBczZBX3VHY1NhTlRTOXU4c0NzNEc5RkZlNHNRRW1tZ0ZMOHdZZzhMbmxNa1BSWWhEVXZqWmI2UG80ZkplZGh6UHNGVjRtQQ?oc=5",
-      "pubDate": "Wed, 08 Jul 2026 09:09:00 GMT",
-      "source": "Chosunbiz",
+      "title": "\"반도체 조정은 모멘텀 투자 청산…매수 기회 될 수도\"",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9fOFdYSnNkbjU1dWRsdzNrRGo1ejM1ZkFQN2lPeGNpb3AyTVlIMG9HZVpPTDFCV2k3MXhSR3lodWxFX05FZWc0dXBYMGhZZUV3c3c0Y1JmVDN0QlNzUUtHTGhIVXJCSmk0OXVlWjhiT0c?oc=5",
+      "pubDate": "Wed, 08 Jul 2026 23:05:55 GMT",
+      "source": "연합인포맥스",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -16,37 +16,77 @@
       ]
     },
     {
-      "title": "'성과금 300%+1000만원' 거부…현대차 노조, 부분 파업 돌입",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5OR1lrWUNmLTlPenBoWUdfdWdJQ2QtNVo5YWVpVUFFRkhnQTVaTFUxdUNma0c3YTlGMVVkLWM3ZGYzVlIzSlR4c2ltWG1RTC1QQmRDMHg4ZGtFWEltVGUzeA?oc=5",
-      "pubDate": "Wed, 08 Jul 2026 08:59:01 GMT",
+      "title": "비트코인, 6만달러 지지선 위협…미·이란 전쟁·스트래티지 매도 압박",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5pOE9CdzllYjZjZW4ybjB1bk9sbDhEcDFzMUVDbFJmNjltalc0cWtjb0pWSEpJS00wdzl1SzdMcmdRY08yUmtoTXVUMGxuSjBU?oc=5",
+      "pubDate": "Wed, 08 Jul 2026 23:02:41 GMT",
+      "source": "블루밍비트",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "원유",
+        "BTC",
+        "환율"
+      ]
+    },
+    {
+      "title": "[GAM]비트코인 채굴에서 AI 인프라로 'WULF' ② 4배 랠리 후 전망은",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1oQlAyWEJZOEhGNm1KWmM2Sm9kaDcwZVdwTDdLbXNvRTA3ZnJGbTdTeFd6VThFU1I2OTNHNThqR2ZsVWpoRWNjVlg2U3FuelA0aE1YaTROa1p2eVMt?oc=5",
+      "pubDate": "Wed, 08 Jul 2026 23:01:00 GMT",
+      "source": "뉴스핌",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "[비즈나우] 시험대 오른 반도체…'쩐의 전쟁' 빅테크의 속사정",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5HT3AxWFZHWHNOcHJBYlBqcWZJYWRnVjZldnRTMm5IWHJFcFM5Mnp0c1FPYnNZX3BIVG1BNWZ4Z0p2SW1NRThUZnN6b3Q3X0U?oc=5",
+      "pubDate": "Wed, 08 Jul 2026 23:00:03 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "“전자칠판으로 교실을 연결하다”… 삼성전자, ISTE서 교육용 디스플레이 솔루션으로 디지털 교육의 미래 제시",
+      "link": "https://news.google.com/rss/articles/CBMisgJBVV95cUxNdk1GdDBtUXBuWmlEelhVbG9CM3JsSGdNblBqVjZvU2UtNnlNeE9XUzFrb0NDcnZUMS1fMmVZU3lOYUZJM2VkUHJwSndNZWx1UzlUQnc0WVFoblNPbUg0OXlEbTR0R1BZLTZNWEFDNk5pYzJPSl83aFZmdHg3bUkxNC1uNlY5ZUhyZ0tDWWZMb2RGUGRDdXN5Q19CYjdFY0lTazNDUWg2ZzRTYlU2OHlNR3ZQb0FlbndGZE5TOS1EalkwS29xYXVSX21EOVcwanBBUDJqMDJ5dW5tZlVvX0lTemd5bTVSRV9iSHZuZmQ4aTVJWGNReGx6eXdCaTdvZFQxNVBPV2tOR0VGeWdzNmNjNEZkRHk4MWwtS1l0bmMtUDF2UllISGswMk9NT2Z1NEtSWkE?oc=5",
+      "pubDate": "Wed, 08 Jul 2026 23:00:00 GMT",
+      "source": "Samsung Global Newsroom",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "반도체 효과…1~5월 경상흑자 작년 연간 기록 이미 상회 [1분 브리프]",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1CUVpPUkF6VGozN1NiN3RuYVVXOFFDRlJ3TFo5TExkVU9HS0NVUDRMa3gxa2MwcjcyVlZJOGhpeG0wUVpSVlN5Szc0d2FMRWVSMjlrd0Ywa19HV0ZCVGgxeg?oc=5",
+      "pubDate": "Wed, 08 Jul 2026 23:00:00 GMT",
       "source": "아시아경제",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
-        "현대차"
+        "삼성전자"
       ]
     },
     {
-      "title": "하나銀, 삼성전자 조합원에 저금리 신용대출 - 조선비즈",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNa1BJT0pjaDkzbTVpejRnNDRjOV80LWhzNzRPNldBeWVNNXVrdnBxbnVfclFBbjBNNVV1X1pLX1E5MmRLWFdmQVQ4V0pBUmVYYzZKckdRbWNxMWpIeUU5SXBkYzFTb2VzOUIxak5yLU5yeXBLRnNGMmdxeWs0MVFBbtIBlAFBVV95cUxPRm51b3lVNVVONGYwandjelltTS1ZWlZ1d0t4R3NPcTB0WXB4a2lPRWxXRE5DMy1fRG81UHZlSEQybUUzQzBob0RHUTJyMGE0dVFhZ0NiZlFpczNSSnZaaHJnalktd09WdTBvdFVXS09RMGZaOFFIMEg3S1ByaHR2QVd2by0zQjZMWUhUSXhhR3Rkd1p6?oc=5",
-      "pubDate": "Wed, 08 Jul 2026 08:55:00 GMT",
-      "source": "Chosunbiz",
-      "category": {
-        "label": "🔵 MACRO",
-        "color": "#0984e3"
-      },
-      "impacts": [
-        "삼성전자",
-        "채권"
-      ]
-    },
-    {
-      "title": "홍콩·대만은 올랐는데 韓증시 털썩 … 반도체 쏠림이 충격 키워",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9SVzB3eHU2STVJRlZpVzNXSWlKVTFnZkU2TUhCd0dITklTR0phU3Z2c2tkTk5YM1FRNzlWb0hHenAwRUtWaGhPcUV2SXlhUy1JclE?oc=5",
-      "pubDate": "Wed, 08 Jul 2026 08:54:55 GMT",
-      "source": "매일경제 마켓",
+      "title": "에이치시티-대진반도체, 반도체·전자산업 교정 서비스 확대 맞손",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE90bktLWHlOTkhKM3dYSFdwXy1wMHRIX01tS0hKYlJTVEVBaWtESkxhekVJNmgzbVdHclNfbmg3Z0JpQTFERUJCYTRkbW9vZw?oc=5",
+      "pubDate": "Wed, 08 Jul 2026 23:00:00 GMT",
+      "source": "전자신문",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -56,37 +96,23 @@
       ]
     },
     {
-      "title": "3000억원 손실 또 반복되나…현대차 2년 연속 파업 기로",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5sZlhJUkJCREV4MHFXYkZCYUp6OGJVbUhocUxQaWE1WVh1WndkZDlwUDRnRTlvNGQzQ3Jza2RYOXRSZTljYWJSRi1YM1J1bW8?oc=5",
-      "pubDate": "Wed, 08 Jul 2026 08:52:49 GMT",
-      "source": "v.daum.net",
+      "title": "[GAM]비트코인 채굴에서 AI 인프라로 'WULF' ① 앤스로픽 계약 의미는",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE44c2paSVRUbkE2cl9uSnNvN0JEUmNVcnNMdXJ5YWdPZDBjeDhaVzhXVHltSEtZNWZtV3ZfQU1PUWdjM2hCM2VDU1ZZM01RaUhkamZHVF9GTFhoMFNV?oc=5",
+      "pubDate": "Wed, 08 Jul 2026 23:00:00 GMT",
+      "source": "뉴스핌",
       "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
       },
       "impacts": [
-        "현대차"
+        "BTC"
       ]
     },
     {
-      "title": "[헬로스톡] 7/8 주목할 종목 : 삼성전자·현대차·LG전자·LG에너지솔루션",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBkYi13T1otbThVR2pUSkVCZUtSNU1kYzh4RVpPdFk2U0h0YUN3X2l1YWxiclVROTJzbUYxVk5VSUJsZWRCbGEwWk5pSzFiRUNIeVR1OENiRkNDWUtHUzIw?oc=5",
-      "pubDate": "Wed, 08 Jul 2026 08:45:32 GMT",
-      "source": "헬로티",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차",
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "“반도체 포기는 없다” 경북도·구미시·기업 머리 맞대",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBQclZ3MWZzRG1HRmM3N1E4WTYzdHA3Ykp1X21pM2dnMnFwQnhfNWUtR3RUWXk3Z0pNUEI5R0dqeVJzMkkwRlVQMTRVM0Niem8?oc=5",
-      "pubDate": "Wed, 08 Jul 2026 08:45:03 GMT",
-      "source": "v.daum.net",
+      "title": "반도체 흔들리자 코스피 와르르…'피크아웃' 공포 확산되나",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9kTFFQYzdQVDRhVjQ4RHpsazZnUlc3N0pxT1Z4SWk1NGFEWEJMRUt0SzNfQXJ1WGFlbUZmbzdiQnNnOWoweVg0UU0taGFtVnVSNnVrcmVLeGF2c2RKeHc?oc=5",
+      "pubDate": "Wed, 08 Jul 2026 22:56:00 GMT",
+      "source": "뉴스투데이",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -96,41 +122,16 @@
       ]
     },
     {
-      "title": "호남 반도체 프로젝트에서 생긴 것, 빠뜨린 것",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE11RWd4N0JWV29IR3FiY041alFQdlhTU25Lb25hRjFRcFY1RWstN1RGaG9fYlgwWkdPeklpVy0tOG45TEFWZFZpb0RndU5rWEtXSmRLMWNUWVlCZ9IBVEFVX3lxTE01YWlfdTVzeWE5MkhWZ29YWmVCM3hfSjBVdVNheWdoYWY3VHZKZFN0UHVLRDJMYlpBQW1ZU2dlbjc4d1NHWlhYWnNhbEpoX0ZrVmR2dw?oc=5",
-      "pubDate": "Wed, 08 Jul 2026 08:44:07 GMT",
+      "title": "트럼프 \"전쟁 재개 아냐\"…'허쉬보다 싼 엔비디아', 반도체 지지선 도달? [김현석의 월스트리트나우]",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9aNEkzNW1Db3RfUkhWV29uZHJkN3NLYlcwTGtjTzRSSWtzZVhTZXR2bTRpRDlyX3BjZUI0aTFQSE0ydDY0WWRacDhoRnh1TnlDVjVfaDFTRnhLUdIBVEFVX3lxTE10bTVLbkNiNTBodkprZlNrRXJaY1ZtbmZuQWRwa3Y3R1B5ZmVTVFhjaUNaZGZrWkMyN1k2cHA5V3d1T2tMYlJxVGlCMFVaaE05ejRWYg?oc=5",
+      "pubDate": "Wed, 08 Jul 2026 22:54:29 GMT",
       "source": "한국경제",
       "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
       },
       "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "“반도체 2030년 양산”…호남권 반도체 산단 총력전",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBnMENTOWRkb3VtY0duZVd4WEJqLUhfUVZGVXBzVjN0NDZGUnlWNDd5SHpQZU02V01sUW9Oc2oxeDlNTUlZX3pJYnZSWXEzZw?oc=5",
-      "pubDate": "Wed, 08 Jul 2026 08:42:54 GMT",
-      "source": "매일경제",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "반도체 공급망 다변화와 대구·경북 제조 혁신의 과제",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0xcUlvNVZvQ0hYd3NwNTRtdjJ0a25YcnoxZ0xLY3kyZXdvdHdxWkRmck5lZFplQ2YxZzVmM1RLMkpvQnRtV0RsNFgtQ1kyOGc?oc=5",
-      "pubDate": "Wed, 08 Jul 2026 08:42:00 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
+        "NVIDIA",
         "삼성전자"
       ]
     }
