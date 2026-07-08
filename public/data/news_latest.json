@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-07-08T14:17:04.352336",
+  "timestamp": "2026-07-08T16:17:05.209280",
   "count": 10,
   "articles": [
     {
-      "title": "불공정 거래한 비메모리 반도체 2개사, 1880억 원 과징금 물 수도",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQa20ybGMycTVwNjJnRVZiRDd0RG5nSWRsajh4ZUZnRFQ1WjJ6aXBLV2d5WHRCNXhfaDhiLTBBRGVrejVISEsxSGM0QlIxRC1walJRSXFuSlUxeExVNzkwbFhFdENSNGRsMHAzRjlRcHp5TVRmbUN5U3pJMTRjTlBzSDY3djlvV1VYYnRpcWtYWUdmZDA?oc=5",
-      "pubDate": "Wed, 08 Jul 2026 05:06:00 GMT",
-      "source": "국제신문",
+      "title": "中-네덜란드 통상장관 베이징서 회동…'반도체 마찰' 등 논의",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFAzVjBzOTF4d1daaHBMQnNxSmpjMi1kX2NwTFJRZmNKWlVnckFRODhtdGFJd25nNHNLX0NsaFl1WEN3VXlRLV9nNUJGd2sxc1k?oc=5",
+      "pubDate": "Wed, 08 Jul 2026 07:10:51 GMT",
+      "source": "v.daum.net",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -16,9 +16,22 @@
       ]
     },
     {
-      "title": "중국 AI 반도체 국산화 가속…화웨이 칩, 엔비디아 제쳤다",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9CUENHUlVUVHZoZEgxX0RQLTh0d19VRXJGdmNISTExUWhGdjRpYzZQSTk3R3BhSEFTOWdWcUpyelB1TEc0b3c0aVRETWFnQTA?oc=5",
-      "pubDate": "Wed, 08 Jul 2026 05:03:00 GMT",
+      "title": "코스피 7250선 붕괴…반도체 피크아웃 우려",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBIQm04WEREM053d01GYTdCSDhTNFlreENkZjdPa2R0UUVNeDFYS2RBRThkQ0Y1Wi15bjQwVmRTR3h1MlBVb2d0VGhWVjhBbkVEWFprT0pEek40OFFpQ2NZczFSTGxxc2xjQnF0MHd0UnJpS3PSAXdBVV95cUxQbExwMTVGdzBoek5ZY1h6ay1pVTJtMHpyYzdmSEVwdXFTR0ZndThWM3FKci1CWWV5UzcwQVRlbllYTjNKSDFBRi1NVUNCa3U2NjQteF8tSy1iX0tjdEdjRWp5Y3RnNXVJTXN1WFNnUmY5Tm9ybmRuOA?oc=5",
+      "pubDate": "Wed, 08 Jul 2026 07:09:27 GMT",
+      "source": "스트레이트뉴스",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "엔비디아 또 뚫은 삼성전자…AI메모리 판 바꾼다",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9UT0x4bEZTUjlHMTZmMWhrRGNIQ0V2OFZ5Y1kxT21aekk3SDN2ZjY1ZjJ0U0Q2LThVS3BvNmxfUnNTZEZPV1hINUFPNXhRMUU?oc=5",
+      "pubDate": "Wed, 08 Jul 2026 07:06:09 GMT",
       "source": "v.daum.net",
       "category": {
         "label": "📋 GENERAL",
@@ -30,10 +43,62 @@
       ]
     },
     {
-      "title": "삼성전자 급락 속 코스피지수, 약세장 진입 임박",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE52SVBXN3FweEpQdVM3eHk5cFdRenViRGZzdVpLbVZHTU9OSTFZY3VCcUY5YjVYUXZGNVM0dFJNUTZ3OXhJcjFqQWFNSTZEVG5JazVBUjExalplemNiQ1oydVBybWpVSDBIZloyMUF1R04?oc=5",
-      "pubDate": "Wed, 08 Jul 2026 05:03:00 GMT",
-      "source": "Investing.com 한국어",
+      "title": "SG, 용인 반도체 클러스터에 아스콘 전량 단독 공급",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5BcndoWGFTOU1tNVlXdjF3Mk9vRHNGamlsVnNDNGRIVEg1V3FtSFB2eGFKT2E5NHJfQUNHRk5BYkpHNjZMX2NtTVJ5MHJ4RXc3LTBqOTNVQmlBVkRDelNaVnBvQnM?oc=5",
+      "pubDate": "Wed, 08 Jul 2026 07:05:42 GMT",
+      "source": "서울경제TV",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[전북 반도체, 무엇이 부족했나](상) 이제 반도체 생태계 만들 시간",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5PeGdrTWdzN3JPbzBlbzFURFZPZmVFZ09Vckc3MGhTdDEwOTVvX0tkT1BFSTM5T2xYRWJMSmVfTnZ0N1Zzb2R5SGtvT2R3N0E?oc=5",
+      "pubDate": "Wed, 08 Jul 2026 07:02:50 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "민형배 시장 \"통합과 반도체 산단의 기회, 제대로 살려 힘 가져야\"[와이드이슈]",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9XUjhkZmJhajIySVRFeU1NNXQ0Ykw5S3czZWJFT0VNdjQ0Z3hQdEI0bmFoaXYyVXVQQXlIOWxvS29HTVkzd1dKcTN1YUtGQW94a2pDNUhTaHdEdkV2UXlzcXJR?oc=5",
+      "pubDate": "Wed, 08 Jul 2026 07:00:01 GMT",
+      "source": "KBC광주방송",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "물·전력·인재…AI 발목잡는 5대 병목 \"반도체 생산차질 우려\" - 머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBOQnJfeUhGcTVhUGFreW1oV0RpN3c0cW5wVkhwODlxMlU5TlQ0VXlTXzdobzdHdFFNT1FrbEJTdlU0VXd5TmF6eEJWdmpwVEstdk1xZ0Q2VXdYYURrR3oyUmxZVl9SM2Vk0gFuQVVfeXFMTUwxMXUzc3hRbVdBUktneEh3N0VIRDhueV9IbzI5TERaNkVTRUJFdGljU0lqT25kOUgtb0NHSV96eHc0ZmFXaTFYTzl6dlNOUzZocUkyc0E5aUNMSC1iNnFVOHRuV2xGeWFRWGJaU2c?oc=5",
+      "pubDate": "Wed, 08 Jul 2026 06:55:16 GMT",
+      "source": "머니투데이",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[특징주] 삼성전자, 6.3% 급락 마감…SK하이닉스도 5.7%↓(종합)",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1jZElqT0l5OFpnM05GdEU5NXQtcU90TG5KSzREbzJSZHY2c2tIcC10bjdWazJnakt3Q1pIc2QweUxoTm50bjVQejlJLTRuVjZSdnVSY0FLelkwVEHSAWBBVV95cUxOSHJKcEhHeWtka201N0VuczRhaFBleTFUVk51cWtQY0dMRkhjcHJVV2tKc2ZlRnI2SU9fdFJQUF91cmVYQl8yMTkwek91WGkzUHRYRjgwSnUyWGVRWVhmLXE?oc=5",
+      "pubDate": "Wed, 08 Jul 2026 06:54:33 GMT",
+      "source": "연합뉴스",
       "category": {
         "label": "🔴 HIGH IMPACT",
         "color": "#ff4757"
@@ -43,88 +108,24 @@
       ]
     },
     {
-      "title": "삼성전자, 기업용 eSSD ‘PM1763’ 생산 본격화",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBvaFpobVNVT214bGZxN1lvTkc4bk1LRnM1bm1mWkJJQmxlY2dhOHJYRVJlR3A1MHZ0aG5xUWtjYnViTlZJbDZXbWtsbldvLWJUWWc?oc=5",
-      "pubDate": "Wed, 08 Jul 2026 05:03:00 GMT",
-      "source": "더나은미래",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자, 22일 갤럭시 언팩 개최…차세대 폴더블 공개",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE4xYW9BNWxSa1hHRzNCSmFKMnlxQnFjdXJkUEkzMUEzbWd0LVVaU0FWUTBqOWxqMGQzQnZtLU1lOXkzMHRSV3ZlUkhXU1Nmd1dKNmxla2VJN3U4amtydW1hX3VOOXZrUQ?oc=5",
-      "pubDate": "Wed, 08 Jul 2026 04:52:43 GMT",
-      "source": "디일렉",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "정부, 금융시장 점검회의···“반도체 편중이 변동성 키운다”",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1sX0pwdG95dS1lWUFkZjZfUS0wU2lLWl81SzRsTGtCU1dfLS1oWDQ2b202MjhKby1UdlB1TEFRQUpMLVBhMnpheExjQ2tKM1B1RUpEMGJfZnE4UdIBX0FVX3lxTFB2UVdfLXZSR3dwLWxkV29uZThQY3N4a0I0VEJjenhiVHc4MXFhd2tCR29LWW1IVHpkTlh5TXdabk1aTEZoN3RKQjgtUXZOQ1NtX2s1blp3V3lJUkhJdDhJ?oc=5",
-      "pubDate": "Wed, 08 Jul 2026 04:42:00 GMT",
-      "source": "경향신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "반도체팹 부지 광주군공항 인근, 이르면 내일 토허구역 지정",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE0tTVJ3T2Q2NmtoQkF6alZrNS1HbTRzQVZER0JCUEd1ZlhMem9tTHFMdE9QWGJlT2Z2S3gyaU94dF9IMWJzQWUxSEhxNFNrNHZVQUFPUTA3aG4zQ2tBdVZRUnh2ekc2SG5JNFhGUWVodw?oc=5",
-      "pubDate": "Wed, 08 Jul 2026 04:41:38 GMT",
+      "title": "‘반도체 고점론’에 중동 악재까지 덮친 ‘검은 수요일’…7천피도 위태",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1SZ0VFaVRTT01sel84RDNPUTlTV0JDZmNXSFRoUWtwNGJjWWZiN1lXX0JyWS00ZExnQXEtcC0wdDZOdXJ0R3liQkluTUFLLW9hZ2NzWUpJYUVmM0tPb19ob2VMVkNBOXptRkpRdWVienBEVDY0V3Uxa3hIb1JFUQ?oc=5",
+      "pubDate": "Wed, 08 Jul 2026 06:53:53 GMT",
       "source": "서울신문",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
+        "원유",
         "삼성전자"
       ]
     },
     {
-      "title": "KDI 경기진단…\"반도체·서비스 호조에 완만한 개선세\"",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5MaWhweWVzYi1EZ1AxMm40R3BrVFlqYnhHbmlWSGMwN1dURVJzUDlvZUZXRkZWSTN6UWY1eXBMeXN4ZnZkbjVnM3htUnhETVdMYWlZaTA4Q3JxOERPd0cwVVliNTI5aTA?oc=5",
-      "pubDate": "Wed, 08 Jul 2026 04:40:00 GMT",
-      "source": "연합뉴스TV",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자 다음은 SK하이닉스…기대반 우려반 'ADR'",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxORlNRWi11UjBlb0JEU3dWSlc3SUZ3YXY1ZTN1ODFHY25rNEV2OENlcmxJQ09vcUNhMUpvMWt3MFY4VTVVQzNXRHpjMkhzZDFKdEI1NDZZbVVNRnBrYVlqZjZuMG0tVW9zY1VKTndtaTl1Y290cVhyQmhsVnlQdHFuQU9JakVIckZL?oc=5",
-      "pubDate": "Wed, 08 Jul 2026 04:36:31 GMT",
-      "source": "글로벌이코노믹",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "민형배 시장 \"반도체 클러스터 속도전\"…2030년 양산 목표",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB4aEYwejM4aDRMZkRHeTNUbVhkOG9sTDZ4SC05VjloS0s5SmROd1NxR1Y3UVVpVHEzV1FMXzZ0Z2g5Q0JpbDRaUHRlRzh2ZjZXZ08tZzlJOW5JNThCcmRTbQ?oc=5",
-      "pubDate": "Wed, 08 Jul 2026 04:30:17 GMT",
-      "source": "아시아경제",
+      "title": "R&D·안전 반도체에 ‘통 큰 투자’ 삼성물산, 미래 투자에 “풀 액셀”",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5GVmxwM0JOMVYwUkROYlhPd0tBNVluVUNOYnBQbW5WQ2tlTm0wV0pFdkpVWlRGdG51ajhmYTJwYUdvYkp5cVl0UDBoUVVkbXJsTVNtdUdQNFlHakFvSmEyQlI0WDYtWFY1R0laeE1B?oc=5",
+      "pubDate": "Wed, 08 Jul 2026 06:49:58 GMT",
+      "source": "아시아투데이",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
