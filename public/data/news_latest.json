@@ -1,40 +1,51 @@
 {
-  "timestamp": "2026-07-10T16:17:04.592196",
+  "timestamp": "2026-07-10T18:17:05.503012",
   "count": 10,
   "articles": [
     {
-      "title": "[분석] \"비트코인, 장기 상승 신호 나와…7만1000달러 돌파 여부가 핵심\"",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9oODhRTDQ2aV91REJ6MkJ2SWNVVXA1VWxWX2NLRTlFM0paVGVXY2g3YkFyZ3BBVlpBZzliRzdMRmVObnpBNGpnZVZibzUtbUNP?oc=5",
-      "pubDate": "Fri, 10 Jul 2026 07:11:16 GMT",
-      "source": "블루밍비트",
+      "title": "반도체 세수 풍년인데… 영통구청 복합개발은 오히려 ‘웃지 못할 상황’",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE53a1ZpRk5xWDlLTFlIbUIxa0VEbW9YX0tvNmtYQVpnQU1tWEdfV3A4SURmOGdoS2ROdVdzVmpPbk1QZ2EtZFNBdUo3emNHZmxVNmc?oc=5",
+      "pubDate": "Fri, 10 Jul 2026 09:05:35 GMT",
+      "source": "경인일보",
       "category": {
-        "label": "🟢 POSITIVE",
-        "color": "#4ecdc4"
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
       },
       "impacts": [
-        "BTC",
-        "환율"
+        "삼성전자"
       ]
     },
     {
-      "title": "현대차, 분기 매출 50조 눈앞…삼성전자·SK하이닉스 이어 세 번째 되나",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1KbDRUTk5xV3FSUTJHQjRkb25ZazV4a1g2WFNhRUFRSnNNQWRhNzlmSDBweGxEekhuanZFTUpBS2t4VVFCNkRzUTJndXBMT1k?oc=5",
-      "pubDate": "Fri, 10 Jul 2026 07:01:53 GMT",
+      "title": "반도체 온기에 웃은 코스피…다음 주 전망은",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1sQXhBRk9yNEQtSEhaMHV2RWVBLW5YRWJMMHI5Nm1weFh2ZjVyWnM3V0FOdC1oWHhEYXp6bXd1aUswR1NWQ3pILXN6akNnQVU?oc=5",
+      "pubDate": "Fri, 10 Jul 2026 09:03:08 GMT",
       "source": "v.daum.net",
       "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
       },
       "impacts": [
-        "삼성전자",
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "현대차도 中 공세에 부딪혀 … '수소차·피지컬AI'로 반격",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9OWVJObkwta2JvajR5WmlFYVprM0hjOGg5NFV1M0ppLUtSakV4eGxYdDFvb2kwbS0yVjBXenFReXpvYmhTVTZ6S2pvRTRzbUU?oc=5",
+      "pubDate": "Fri, 10 Jul 2026 08:57:11 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
         "현대차"
       ]
     },
     {
-      "title": "박진호 켄텍 총장 직무대행 \"반도체? 공장 하나 유치한다고 완성되는 산업 아냐\"[와이드이슈]",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1lVHMwcmFuUVI3VHVsaEt3VzRuekpZRlI5d0M1d1pLeWh2TVJLUk1ya28tc0hOc19nLS1EYk9fenJEdVA2SDFTZDM4T0d4Ql9EeDlub0pleGVMb2tndDlaTg?oc=5",
-      "pubDate": "Fri, 10 Jul 2026 07:00:01 GMT",
-      "source": "KBC광주방송",
+      "title": "기후부, 호남권 반도체 산단 용수 확보 본격화… 하루 65만톤 산업용수 선제 구축 점검",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE03V1JMeGJ4ZWNaNW1XdlM5bW9ZU2pVUHhKcVVrUHVfbWJsZTE0TGlUbWNPdDlPd2Y2WXJFWEwxbWV4LUczSDJ0dW9iSWEzOVJka19DNU01QnB0MmdaV2NiQklLS05fQmt0YVlqdW83ZTVOZw?oc=5",
+      "pubDate": "Fri, 10 Jul 2026 08:53:12 GMT",
+      "source": "에너지데일리",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -44,26 +55,13 @@
       ]
     },
     {
-      "title": "KPCA, 전남대·인천대와 반도체 패키징 인재 양성 협력 체결",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE44cW9QRGgwdDhNNUtIWG9nR2ZVSnF6Q1BmaU12Rkl3QWg2YzRCODNxOUtJbFUwX3hFVXVCZTNKUHhkU00wVmotaWdMY3hSQWF6VUpsNDN3?oc=5",
-      "pubDate": "Fri, 10 Jul 2026 06:58:08 GMT",
-      "source": "지디넷코리아",
+      "title": "안도걸 의원-한국광융합산업진흥회, 광주 반도체 산업 육성 해법 모색",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9qYXpBcGFkSHJiWjRwZy12VS1KUVpOY2NMOEZiNjFKOVBpZXVPVUhzY2o5enl1SHJManlvT2J6eG1KRlNWaHkzUU1iTlZTQQ?oc=5",
+      "pubDate": "Fri, 10 Jul 2026 08:52:31 GMT",
+      "source": "전자신문",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[비즈톡톡] 인도, 스마트폰 부품 관세 면제… 삼성전자보다 애플·샤오미 웃는 이유는 - 조선비즈",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxON1NnRFdsYVJrdmM4TzN6eXBQUjZmaFM0cXhZa1lpWERTaTY3bUtJN01HN1NMTXNSb2NhUS1PVUo0SDItMnFhekNUREFFZUw5SE82MFBQZ0QwdFpfQlJOSmYzQzJsZ0ZFZTBkalFfQ0ZRaWtLX2I0VnRVYXVoaGY2LUxB0gGWAUFVX3lxTE95aTlyc0lNQWlDMENlV0lDUVhIeW5kVE5aUnF6empYamVQdFJUS1NQSnZLWTFseUFYeXRtaUVSXzhma3Z6YVRHOXdoVUw1TGtHcVRkTE1SbFYteVhyb0tZZV9CbTJEc2t3QkxFUlZHVEYzcDlHU0owb0VlMEc4UVdBNnNrd05uY2E5ZlNBSmhuYkg2Y0dzdw?oc=5",
-      "pubDate": "Fri, 10 Jul 2026 06:57:00 GMT",
-      "source": "Chosunbiz",
-      "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
       },
       "impacts": [
         "삼성전자"
@@ -71,9 +69,9 @@
     },
     {
       "title": "[도쿄증시-마감] 美 반도체 훈풍에 종일 강세…국채금리는 일제히 ↓",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1KWHViTXg2Rjc1Q0c4Zk1xSUw0RjdkSnRyVWY0MDh6bW1lOGhMT3JMaGFKMm1ZaDFlUjJaSDdjaUYzQkZhd0J3QUdLM0VyWkRlWEN3TjM4WUlZTVliR2VRRVUwVDlWZzdTY2h1c0ZaN25BZw?oc=5",
-      "pubDate": "Fri, 10 Jul 2026 06:50:22 GMT",
-      "source": "KB Think",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBLandNU2JSa24xZ3haZF9laXFXY3BZNDBkcWFMaHlNR2pMME1SRkFfVGxEVFpRX2NuYnlFSXd6V1Q3c05jT3hWb3JTY1dvak9HdEFOV3g1OGV6T1NRQWMxMjBEUlQ2aEJXS2RRc2VsUW4?oc=5",
+      "pubDate": "Fri, 10 Jul 2026 08:50:37 GMT",
+      "source": "연합인포맥스",
       "category": {
         "label": "🔵 MACRO",
         "color": "#0984e3"
@@ -84,10 +82,10 @@
       ]
     },
     {
-      "title": "靑, 반도체 부지 '광주 군공항 이전' 관련 \"美측과 협의 시작\"",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5UXzRlU09vZzdGZDZBU3N1TFVkSDZQRXlCbzQ3Y21VaWh6WHBweld6ZExMcmV0aV9WLXhiTjdKVHNzY0s5TUF0cUhySXByNnphSWdYTE9Lb3o0UU9LTy1sZWhVMFVYR2pMRU1N?oc=5",
-      "pubDate": "Fri, 10 Jul 2026 06:48:34 GMT",
-      "source": "SPN 서울평양뉴스",
+      "title": "반도체에 가려진 알짜 주식들",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1CQXdEaXRnR1FlWWpIN2o1VGZtUmpua1pNZ1BsNGxpd2JYYlkycEtOOWJXTTFwTGNoMFFPUS03djdVTmpKdGNnbXhEbzMzNHl4UTM4U25BRDhOQdIBVEFVX3lxTE83Q19MbjdmbzJUY1F3V2g1UF9INXBSX2RlZkFUSnh2Mm9Qckd0dE9uaWZMdjNLZGFGdmhQeVQxcDAtQzVvUUdBTmdMbThxV2NIbE9qSQ?oc=5",
+      "pubDate": "Fri, 10 Jul 2026 08:34:37 GMT",
+      "source": "한국경제",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -97,10 +95,23 @@
       ]
     },
     {
-      "title": "[더밸류 브리핑] 오늘의 증권 소식...미래에셋증권·현대차증권·SK증권",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5IRV9OMEc2T3BhMS1PSElaSlQyWVVXY1I3Sng5WVdUVjBleWdwSjJENUFOWFA5QXZpa053NjRqNWRvRzlKMnRiSjB4UkhDSDhqMDZj?oc=5",
-      "pubDate": "Fri, 10 Jul 2026 06:46:03 GMT",
-      "source": "더밸류뉴스",
+      "title": "[퇴근길머니] ’반도체 투심 회복’ 코스피 상승…SK하이닉스, 美 증시 데뷔전",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1MX0ZLTVhNX29HYkJhWG1rR2NOY2xVcGRISFRzay1id1k1cHh4ZEg2MDFybmUtcXk1dnRNSXpLWHNWRlh3UE81ODZORURsWVZsbEVZOEdwSUNsNkZPWkJLeHR1N0FDMW8?oc=5",
+      "pubDate": "Fri, 10 Jul 2026 08:24:00 GMT",
+      "source": "연합뉴스TV",
+      "category": {
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[현대차 메이드 인 코리아-下] 새만금·영남·충청, 미래 산업 전초기지로",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5jaV9OV1dQUXlmUmVBOGRHaVE4TWFHVHhmLVB6ZWhNbkR6cUt2T2JNMWYtaUEtdjlOb1I3YVA4Q2JwSjEtUWhOY05aWWNrZWs0RHFsS0U3STFCTlgyWVpMcnIwaFdmZHJxdmtoaUVZV3g3QdIBdkFVX3lxTE9La3FfTFNDRmx5dk5jYkFJUWJ3VnIzaVpxNWh0WDZnNHNfSjdtYkJqSm9mU0JKaVRtNkcxcHoxUGpqUUJ3ZjlheFpOcF9yaEYwT0g5eVl5TnA3VzZkaE1fUDlVNWgtYzR6d1ZBc095ZVVmVENfblE?oc=5",
+      "pubDate": "Fri, 10 Jul 2026 08:21:35 GMT",
+      "source": "시사저널e",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -110,23 +121,10 @@
       ]
     },
     {
-      "title": "하나은행, 반도체 중소기업에 1000억원 금융지원",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1uaFRrLVVobjdXbG42TFl1SmR4di03VGJVNmk1NkpBR01lS180NC0xRTZrSnFBWk1ySU95NzVSMnV0RVdVaVpVdGRCOWNxVEljLURkWFdQVUktbVhmcC1XcUNndk1RdnFQaV9SdG5EcDNFUQ?oc=5",
-      "pubDate": "Fri, 10 Jul 2026 06:39:46 GMT",
-      "source": "인더스트리뉴스",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "증시 출렁일때…반도체 장비·소비재株 늘린 외국인",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1tZVRyWTJWWXN5STVhMzBBU0VfZDF0aFJxLUNOLWNGSHR2WmNlWXp4M19QMmxVM2plUGVzWmdtMU16QTBKQ1JRUkExbVNyalJuUmlYNHk2NzhBQdIBVEFVX3lxTE4wdnU1NEhSR0ppcTlyRElraTEzdEhPTVFYd3FtdC1RWlNkcklVeDVOOV9OM3VyamZkaVZTUXdCdHl5dGtGYXdNUHY2RGRHVGVhUzFTLQ?oc=5",
-      "pubDate": "Fri, 10 Jul 2026 06:37:07 GMT",
-      "source": "한국경제",
+      "title": "삼성전자, DX·전력반도체 임직원 보상 3000억 자사주 처분 완료",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9IRWRxX1F1Y2U2UkJ0N3JHN0xWVGpaUTFHNC1GdUFtM3UxekZEUGsxQVZBUW1NTElQUUJOaHh4eHk2RDNxV0pWWUZEckJiTkdQR2xDTXN5YWxSaXVRSjBvWFNjVjQ?oc=5",
+      "pubDate": "Fri, 10 Jul 2026 08:20:29 GMT",
+      "source": "뉴스1",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
