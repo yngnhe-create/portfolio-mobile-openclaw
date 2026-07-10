@@ -1,55 +1,79 @@
 {
-  "timestamp": "2026-07-10T08:17:04.859934",
+  "timestamp": "2026-07-10T10:17:04.310636",
   "count": 10,
   "articles": [
     {
-      "title": "[모닝 리포트] \"美·이란 협상·AI·반도체 훈풍…코스피 반등 기대\"",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9JVmNMN2M1RVNZekg1XzBsOUlhTWpKX0hpRFRpVV9fSzBiYUhrOS1aV2tEM2wycXNqZkp0NEM1bmF2Rmo2cUlVVWtUUUp3MTFRRmNJX01vYkVQeTB1?oc=5",
-      "pubDate": "Thu, 09 Jul 2026 23:14:00 GMT",
-      "source": "뉴스핌",
+      "title": "현대차, 2분기 실적 저점 매수 기회 온다",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBvMVhBTnp3QUJyQjVKYVphWWJ4REJXNXRBdE9BTzV6TC1CdW5JLXkzd3BPeGc5QVZrSUhzYjN0OGlhTmpnSmxJa0JKc0E3TjlLNmY0?oc=5",
+      "pubDate": "Fri, 10 Jul 2026 01:11:44 GMT",
+      "source": "경제타임스",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "중동 불안 뚫은 뉴욕증시…마이크론發 반도체 강세에 상승 마감",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5TNnBJcG1KaHF5YUQ0bWdmTHBWZnBjWmlBc1lvTTdtbFhJeDBUWEdVMjF4eGIxendPYzAzcGM1QXFUQkVMajI2Z2V4WHl2Ty02THZhT1FscE1uZkdEQzNSbW42MDg?oc=5",
+      "pubDate": "Fri, 10 Jul 2026 01:11:40 GMT",
+      "source": "서울경제TV",
+      "category": {
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
+      },
+      "impacts": [
+        "원유",
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "투자도 車도 현대적으로…현대차증권x현대차 제휴 프로모션",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4wb0VTWXU0M1lHV3c1N3lOMkhrcERjNGhGNHd5bHdPUWFCSjlnUWxhZTNZMXQ4U0tuNW5yX3JhLXZSZkV3RWxVT2JhTDQtaWd6TDFObm5vaVFWU3BkSDZxWThkbWVGR09HYnhRS3BhTXRhdWVZQ0E?oc=5",
+      "pubDate": "Fri, 10 Jul 2026 01:09:04 GMT",
+      "source": "인포스탁데일리",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
-        "삼성전자",
-        "원유"
+        "현대차"
       ]
     },
     {
-      "title": "美 국채금리 4.6%대 근접…비트코인, 옵션 만기 넘기고 반등할까",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5EaDlvUVd2Ujg5RTZUd2RUUDBJaTYzYVF0U0hmU0VrTFJCc3Z2WncxWkk2TzRtWVhUMmViLUJTSnZ6T0Vhd2ZrTWgxdVZGRndJRWlrWk9pTEplS2xkQU8zNmQtYV9EOTJ0M1lUQmFTVXM2MUU?oc=5",
-      "pubDate": "Thu, 09 Jul 2026 23:11:02 GMT",
-      "source": "디지털투데이",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC",
-        "채권"
-      ]
-    },
-    {
-      "title": "[뉴욕마켓워치] 이란 접어두고 반도체 랠리…주식·채권↑달러↓",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4tbGY3cTJaN09vdEFzaXpLMExUaVRRNnFtV0dJeHNGTER6QUx4VDNCUzNvb21KVHQ0Z2xOUFpVX2VlcHhqRWl1OHFTZV9lbWVnajZIeWNYdGZ6RXFPS1RnNG94eGdHbHJqVS1OVUdLb28?oc=5",
-      "pubDate": "Thu, 09 Jul 2026 23:08:55 GMT",
-      "source": "연합인포맥스",
+      "title": "'반도체 클러스터 조성지' 광주 군공항 주변, 토지거래허가구역 지정 - 머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE15NWE5UEJWeFBnNmowazNBR25JSktCNnJQLVNoSG1NVUZnTlNkTjVhQk5UbnJodVU1bm5JN2dvcmVVMHZKQ0FlZ3pwNFMtQTVSa0RHdHVCVjR1YkxrZjZlSE1CUldMam1Sd3fSAW9BVV95cUxOakpSWm1IMEUybDY0U3RCSFU2cFo1VFdHYmZmaE5YZVNCNlU3a3BsYUpaYmE3cXpHcHdLRjFXSU1BX2lYMVB4WVhPelRESXlzd0ZUZ19VRHNvUDVBSmgyYkJVcFZldnFkZGVXcFdfWUE?oc=5",
+      "pubDate": "Fri, 10 Jul 2026 01:07:54 GMT",
+      "source": "머니투데이",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
-        "삼성전자",
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "2분기 비트코인 ETF 50억 달러 유출…6.2만 달러 횡보[코인브리핑]",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5EQTNlUUNJUW1TVFdLSXotQnp1ZVJFUUY4UlI1QlhfVlJmZzhia0hDb21OQVhqai1MeUZDYjZxZXdqMTBGSW1uS3d4LXFqQjRTb2h4dGJEUTh1cHhHLVJWUDdzajBrdw?oc=5",
+      "pubDate": "Fri, 10 Jul 2026 01:07:43 GMT",
+      "source": "뉴스1",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
+      },
+      "impacts": [
         "환율",
-        "원유"
+        "BTC"
       ]
     },
     {
-      "title": "美 반도체 강세에 프리마켓서 삼성전자 4%↑SK하이닉스 5%↑",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9xbGplQnBYa3NGVldocTRKZXYwT3l4RzdUWWhndnpuUHZQbmxnUl9pYUxaM2lpQmZ6M3R3dVVWMEhjYkk2Q3BRV1YtN0Z3cFNIM3dIU3NfdW5wQzdCVVRtRdIBeEFVX3lxTE9QVUtPbDhKMk55WWNPSV9uS2R5c2pDVFZrdEwxLUNHZ2w4dWlzZHZIQmJrZ012MWVPT1Q0alN5Q0dLZ3pyLUpHbmxNTE5MS3RjMkxpUnFyX1VhYjdQLVVLMFFQbEhnVGpPdkVyOEFPN0Z5SWMxZG10bQ?oc=5",
-      "pubDate": "Thu, 09 Jul 2026 23:06:45 GMT",
-      "source": "뉴시스",
+      "title": "삼성전자 초기업노조 \"성과급을 지역사랑상품권으로? 국회의원부터 그렇게 해라\"",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPWXhtMHB0b21nZEo1TnQzeWkzVXdZa25vSzE3b3BSNTBJbVEtaExJM0dmZmNIQVdCRW14UmtzUGh2dk5WWVFyME1LSmx0Rkd2OXhHelRhOW5YVjRXUWZIalpjRDE0UGVtUHZHRmphbU5reGdmY0o2Mi1aS2p0Wjd1Y2k1dw?oc=5",
+      "pubDate": "Fri, 10 Jul 2026 01:04:00 GMT",
+      "source": "조선일보",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -59,86 +83,55 @@
       ]
     },
     {
-      "title": "중동 불안 뚫은 반도체 랠리... 나스닥 1.30% 상승",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9icVVESkJ3VE1zZEMxT1ZQeDktdUxDdFVWdVhFSGQyeVV4Y2VaRndpWmIwRXprYndnVUJmWm9kRXhNRUNQc3NsM2tkMTY2SVJJMk1HTUNsSnB2T2I1SktfVUVhbUU?oc=5",
-      "pubDate": "Thu, 09 Jul 2026 23:05:40 GMT",
-      "source": "매일일보",
+      "title": "전북도, 반도체 소재산업 경쟁력 강화 모색…기업 간담회 개최",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBDdUZIUVhqMmhEWVAxVUxmQjU0b2poVWpmRGpDRk11SGFnWnJqazJxT1gtTXdkZ2h3Ung0d2lfRmhKRlFfUVN3U0ZERFFDUQ?oc=5",
+      "pubDate": "Fri, 10 Jul 2026 00:58:56 GMT",
+      "source": "전자신문",
       "category": {
-        "label": "🟢 POSITIVE",
-        "color": "#4ecdc4"
-      },
-      "impacts": [
-        "삼성전자",
-        "원유"
-      ]
-    },
-    {
-      "title": "비트코인, 6만3000달러 반등…ETF 순유입 재개 뒷받침",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBSMkt0UUJZQzlUay0xc3JzVkhhTW5vLW1yRWpjYjB1a05YV3JzT2FFMlc2LVR3dEMtbWVQcU8wNncyZEVib0IyLVRybmN2NmZiU2RZU0FVU25FdFExenprWE11Qmt0VlZ5ZTVIVC0tTTRoTE0?oc=5",
-      "pubDate": "Thu, 09 Jul 2026 23:03:00 GMT",
-      "source": "디지털투데이",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC",
-        "환율"
-      ]
-    },
-    {
-      "title": "AI 메모리 기대 되살아났다…반도체 랠리에 뉴욕증시 동반 상승",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB4SjZ1MnpSMnl1czdrT3dwTU5TQnVYbEdnUU4zMXJ4dkRNMzBKOWk1OFZhNlFkNERON0FpdkpldkZlUXNJaHM1RmRxdVhKakFNOXM4aVBxcE5RU0k3Zm9JN01LdVl6Y2R6dE80cUdvcTVPcDg?oc=5",
-      "pubDate": "Thu, 09 Jul 2026 22:53:08 GMT",
-      "source": "마켓인",
-      "category": {
-        "label": "🟢 POSITIVE",
-        "color": "#4ecdc4"
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
       },
       "impacts": [
         "삼성전자"
       ]
     },
     {
-      "title": "마이크론, 美 반도체 투자 2500억달러로 확대…뉴욕 공장 첫 삽",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1uR1VVVllUUzQzWWdQU3laYkVKNE82OVJjUzJEU21rQVdDQUZnWVAwUGtCRVB3WWkyLXhNd05hTWpTenVhRFR3Z2E2bjVJR0VuUDgwNEV1SVh3aXFNS05tZEZqNXcwdw?oc=5",
-      "pubDate": "Thu, 09 Jul 2026 22:48:21 GMT",
-      "source": "디일렉",
+      "title": "충남 아산, 삼성전자 ‘46조 투자’ 본격화…HBM 공장 증설",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1PN0FObXNzNERMaGp4dm9LZ1NQMURoZE9tMUpRM3NqeEJhZ3lPMW0zeFFkRkpZVHR2V0x6aVN1dWZaMm56bVp3aHdKOEV0enBhQmJwN0VpNXRUMGVpU1UyS2s1aG45dE1zcTN0Q09Hdw?oc=5",
+      "pubDate": "Fri, 10 Jul 2026 00:57:42 GMT",
+      "source": "서울신문",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
-        "삼성전자",
-        "환율"
+        "삼성전자"
       ]
     },
     {
-      "title": "클래리티법 임박…비트코인 6만3000달러대 반등",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB0MVJyM1JpaXowN2Fkak9RMkhyaHo4R1hMODNRaXJqZTZ3Z0R0WGdiRURraThTeTl5NHBjM182TTRISEZEVi1tUG1LVldlUzhkVC1XYVpkZE9nUGlWQ3h1Q0JpbE5JMmVfTndodWFIclYyRlU?oc=5",
-      "pubDate": "Thu, 09 Jul 2026 22:39:10 GMT",
-      "source": "마켓인",
+      "title": "하나은행·기보, 반도체 생태계 지원 활성화 '맞손'",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNNzFIazRRZmtMX3VRZ2I3RHpoTDBjMV9zb0EyMVBkX00weWw2bm96b2ZGblo2aHJ3ajdRNzBVOThmSFdhSFR6OFZlLXRrbnBNbE5DaDIydGVWMDNYNU9iZXgxemg4ZEk3ZEp5c2JabXh2NzRwbUxBY3lQeVJSU19IalVWb2Q?oc=5",
+      "pubDate": "Fri, 10 Jul 2026 00:56:21 GMT",
+      "source": "글로벌이코노믹",
       "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
       },
       "impacts": [
-        "BTC",
-        "환율"
+        "삼성전자"
       ]
     },
     {
-      "title": "중동 불안에도 뉴욕증시 상승…반도체 랠리에 나스닥 1.3％↑",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOYndUYmdVY0ZIVGJZZnZoa3FoWG5kOU05cWduV2JDWkpVWDBuZEotNWFDR0toQmpiMGdZSlF3Y2lwWjZ0WG56R05hV1ROT3Y1UjhyUlZYZHNSdVVRNzZJU3YyOHc1RGIzblZQMnM4YUJNWFBqU252V25odDVRWVFVOGJKTUFhc2lj?oc=5",
-      "pubDate": "Thu, 09 Jul 2026 22:31:00 GMT",
-      "source": "TBS 서울",
+      "title": "기보·하나은행, 반도체 협력기업 1000억원 협약보증",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5WZHF0S1ZUNFFJVVhKZFRLdWFKbHNxSE9mM01YbXVkZHJseFZsbGNOTnJPZFZpamdybWsyNjVEcnlTTDFoUFhnX3hOQnA4ZnEwSVFEeA?oc=5",
+      "pubDate": "Fri, 10 Jul 2026 00:56:00 GMT",
+      "source": "이투데이",
       "category": {
-        "label": "🟢 POSITIVE",
-        "color": "#4ecdc4"
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
       },
       "impacts": [
-        "삼성전자",
-        "원유"
+        "삼성전자"
       ]
     }
   ]
