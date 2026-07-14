@@ -1,12 +1,25 @@
 {
-  "timestamp": "2026-07-14T14:17:04.961757",
+  "timestamp": "2026-07-14T16:17:04.429130",
   "count": 10,
   "articles": [
     {
-      "title": "\"반도체 가격 인상 못견뎌\"…삼성전자, 더블 스토리지 혜택 3년만에 축소 - 머니투데이",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBjNml6N2ZJUDZjZjZ1VWp1Qk5CbVJfZl9PYmtPNVB3WkMtMTRSSnNvTU9vYnZEMnlLLTIwU3hHVzg3bk4wVHJ5MjhMVWh1YkFoQXRjREpRS1JHUHRmRXZsaDRtR3FJZVnSAWxBVV95cUxQY1h6TzlsMVFYSEtfSlJMU21lQ29HVHdzYUdnUTFMTGlhMlNLZlhWS09WMkJ0Q00wUlgxOXVTTlpwMXFkUlczZ3ItSDAyX2hBV2Ztc0N1RHlNWTRxNzNYNW15a1plNW9rWmwwV0Y?oc=5",
-      "pubDate": "Tue, 14 Jul 2026 05:11:17 GMT",
-      "source": "머니투데이",
+      "title": "현대차, 상품성 높인 '2027 넥쏘' 출시…엔트리 트림 강화·선택사양 확대",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBVSnprQ042Tmx4ZHd0SC1DX2ZxTDVrSnIyZmFySnhUVExMVkV1bnB4bVJ1bFJTSDAwVGVHdVBKVDllM3laWmVVSGZydDNnNTJqWlRaU09tZXVkYnNrMFRETmFVS01qeEdpbW0zZ21ONkE4Zw?oc=5",
+      "pubDate": "Tue, 14 Jul 2026 07:10:36 GMT",
+      "source": "인더스트리뉴스",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "노동부, 삼성전자 노조의 '호남 반도체단지' 반대에 제동…\"교섭 대상 아냐\"",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE11RVFud2pwRjF4cU1rby15dlIybm9yX1FKQWFoVEdnbks1OFZNa1RXbFNOQ3V1a0N5VWJtZUZqUEtlMURZa1VDWjV6SFRoY0NjOTNBZEkyMVBVSUhrOURtNlpwT09VSDMzbGV6VU5SaUlidw?oc=5",
+      "pubDate": "Tue, 14 Jul 2026 07:09:07 GMT",
+      "source": "인더스트리뉴스",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -16,10 +29,36 @@
       ]
     },
     {
-      "title": "한미반도체, 2분기 매출 2511억원 ‘역대 최대’… 영업이익률 51.9% - 조선비즈",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPLVJoV0ozLWdrSW1nU1BhSUVCZTQ5NXhuTjdZLU5ZWFlYSl9RTGtKX2lWb1lYTzlvcEpNVjg1WFZCMS1VeHh1SVd5TkpoM0tCRmZYTmVhNXJlZTRlVGpqc3V3ZXp5VV9SQmx3M2duY2otQy1icXB4QmJFbDF1R1hReXJR0gGWAUFVX3lxTE1SY2dZSXFiSEFoSDVvemJuV0ZhN3RvcGtxZFltdVQ4Y0xlWWNKSUs2ZUlFR2M2SEtoRllVd2pkbFVBRUJMVkpFV21fSTdVR3MtUGtsTEZwUmtDUjhXUk5lRW01cEIyM3YtYlVGcGFQT3ZSWTFWeGRiTHE3bFV0amlqbnFBZGFTaEg5TEYtMVUzbi1tWG0ydw?oc=5",
-      "pubDate": "Tue, 14 Jul 2026 05:05:00 GMT",
-      "source": "Chosunbiz",
+      "title": "호서대, AI 반도체산업 핵심 ‘첨단 패키징 미래인재’ 양성 산실 ‘우뚝’",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9ZSnBnSzJ2QUNZTWU2V216bWVRZFRHUjRGVEF1UlNnMUFFUm01ekI5Zk91UmJhMGJZZVl6V3IxSkZmSVRPRkxUZlhLT0oyb3Jn?oc=5",
+      "pubDate": "Tue, 14 Jul 2026 07:08:39 GMT",
+      "source": "문화일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "현대차·기아, 레드닷 어워드 최우수상 1개·본상 5개 쾌거",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE05ekFIUXd6WTU0YmlCYTJxOW8wbmN0UWx2SnhEX1RVSmZMSFdZTU9za0trYmlsT0tfdXRWWXA0U2lFY1cyRGI4al9BczhDQllUcDEwS3BaQm5RS0xzR0QxWThBM2pzNk1tZ0ZBU3kxdDJjMGtPQ0E?oc=5",
+      "pubDate": "Tue, 14 Jul 2026 07:08:02 GMT",
+      "source": "인포스탁데일리",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "반도체 수백조 영업이익 분배 어떻게…노동계·재계·학계 '백가쟁명'",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9qOC1MRUxIdzF5cTFUWkFfOHBBUHU2Q19uaWhJUEloWVJLdjM0U1ZHSUZRYU9UQmo3Z0ttQXF1UjUyTEdUWUZMNV9tS0lSSGY1RkU3OVZJZ1lZNWNSTS1oZHFvUk4taGVZbkRCOGpKNlg?oc=5",
+      "pubDate": "Tue, 14 Jul 2026 07:05:43 GMT",
+      "source": "연합인포맥스",
       "category": {
         "label": "🟡 MARKET",
         "color": "#f9ca24"
@@ -29,13 +68,39 @@
       ]
     },
     {
-      "title": "정부, 반도체·AI로 잠재성장률 3% 노린다 [하반기 경제전략]",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9NOHZsRXdwaWFvNFVEOV83R0tqcThKSVlqQ2lKV3RjdXh4eFlFSjFzRm51UHdpdGNHWHVXSWlrZVREbUF1amZqVFU3TGhSLVk?oc=5",
-      "pubDate": "Tue, 14 Jul 2026 05:02:44 GMT",
-      "source": "v.daum.net",
+      "title": "(2026 하반기 경제성장전략)경제 골든타임…'반도체 온기'에 성장률 3% 대폭 상향",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE85RVpXNm1POGlUYmlXUWpaZThfaHgybUNPalRsSlBPSGUxcWNiZlNuNk9XNFVTWXpvWThoZ0E3aWNuVlNyRk1aTEEwOXM0Y1JSQzJmMjlKMnNyclFJOXpjNg?oc=5",
+      "pubDate": "Tue, 14 Jul 2026 07:04:17 GMT",
+      "source": "뉴스토마토",
       "category": {
-        "label": "🟢 POSITIVE",
-        "color": "#4ecdc4"
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전자, 사내 주담대 '면적 제한' 대상서 광주 등 제외 검토",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE95VExHdXNPTFZDLU14OWtyWURnUHNyREhnSTVEenRIOGRTZFZSbTBMblkzeXVGeHVza3RidDFwZXdRaWZtMXBrSUhtdkVQV001cDlxLUdtMzdmNm85bW5XRGVB?oc=5",
+      "pubDate": "Tue, 14 Jul 2026 07:02:35 GMT",
+      "source": "KBC광주방송",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전자·SK하이닉스, 슈퍼사이클의 끝인가 새로운 시작인가",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBTVFhuRGVJMHV4ZUhMY1hYdjU2TkRDd3NPZXE2MzlCazBzWWdtN3NmdlpSdTRCcU4zczF2MFRfWDcxTXVySk1LbTFLamRIYk9oeHhMNE5zbGtaa3dNaVlGNFE3Uzc4NkxrTEdKVkpDRFNoQQ?oc=5",
+      "pubDate": "Tue, 14 Jul 2026 07:00:38 GMT",
+      "source": "오피니언뉴스",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
       },
       "impacts": [
         "삼성전자"
@@ -43,9 +108,9 @@
     },
     {
       "title": "재경부 \"반도체·중공업 선물환 매도 대량 출회…수급 쏠림 완화\"",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5NdGhpUTJ1Mk11WDJHSG9JUFIzeW9ldjVfV1hPWUJWWGhqYnJnRFJEV3Vjcm5SN0E1bURVdldaWEFkV2JkZm5fSEtEcVJPU1ZDbzJ4NkI5TUxlRGpwRF84R1NfSnVVcVpmVUZaOHlrSzZJUQ?oc=5",
-      "pubDate": "Tue, 14 Jul 2026 05:00:01 GMT",
-      "source": "KB Think",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBRUTIxR1o1T29yMG1pSWxBdkE1cUZzeUE1Z0l2RDFuTF9oeGVmWDdXc3ZyaDZ2ZnI1bUFUVFVGTi0tcS1RWW9NTzcxb0FEaHpQR1p2eDBPV3B4ak84VWdkazJwOWZNV2JybXozQ1RUb0Y?oc=5",
+      "pubDate": "Tue, 14 Jul 2026 07:00:02 GMT",
+      "source": "연합인포맥스",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -55,75 +120,10 @@
       ]
     },
     {
-      "title": "동신대-국립목포대 화합물반도체센터, 반도체 우수 인재 양성 '맞손'",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBaeE8zRlZvWmhFLWRFNTJEeDBQYldpTVFjOGJreUl4ZmcyVEdESUtHeTd4MVJDTk9nQnVIUllUYWFVaVp6dHZFNmM0cTBudw?oc=5",
-      "pubDate": "Tue, 14 Jul 2026 04:57:08 GMT",
+      "title": "삼성전자, HVAC 밸류체인 재정비",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1CUndmczJNclNmdE9SenJ1aWlBRzF0ZnZNVDBkZzEtWkI1OFhRdDFJb2JnR3pETnhuZ2FuRV9sVDVlaFFyUTQtU1BSdUlkdw?oc=5",
+      "pubDate": "Tue, 14 Jul 2026 07:00:00 GMT",
       "source": "전자신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "한기대 융합전공 졸업생, 삼성전자·글로벌 기업 잇따라 진출",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1xcnM4Nk5yNFEyTHNHVnB2MFNLVDhmVFVmMFhScUhlenI3LWJtdWIweHkyT2JKTEJKaUUzcEpTVXVNeXZnNkJoV1MzY19JNWo1Vm9iRUthbktkM2hfMDVacGpDQWt3RGszRHNMXw?oc=5",
-      "pubDate": "Tue, 14 Jul 2026 04:54:31 GMT",
-      "source": "충청뉴스",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "키오시아, 18개월 만에 시총 50배↑…일본 ‘반도체 왕국’ 시동",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPbWoySFBHdnhERGxtWDNpSTJUMGJoNVZNUGZLdnhLdk92REdjTnluVVRoRUVWV3RnQl90VF8wS3R5SWlaVHh5Qk9WYWJwWVpmZzNpbkhYUVhXbHEweXFOa25ZdEd0eU5YdUpfTWxwMFI3R1l2X0pIb2RPSGlycmo4eGRn?oc=5",
-      "pubDate": "Tue, 14 Jul 2026 04:53:00 GMT",
-      "source": "한겨레",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자, 오우라 특허 6건 무효화...5건은 유효 판단",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9nT04tdFU3U01tWkNuVWxjcDBNR3lCOV9Id0RDc2E0SGVNdkpvV053X3lfQTFBdXFTS0dsT3NIcmZGYmlrR0Rsb0llSlhTR3c?oc=5",
-      "pubDate": "Tue, 14 Jul 2026 04:50:37 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "SK하이닉스 따라 더 뛴 SK스퀘어…‘반도체 지렛대’로 재평가",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB2UFI3Nktaajh0M1FmWEZZMms1MEtKWU5YNy1sNm5aeWxmUXR4R01SR3RBOG10NFU4ZFVsZXVra0VvRXpET0taVVhjYXJBR1o3N3VMYnFMazhLQQ?oc=5",
-      "pubDate": "Tue, 14 Jul 2026 04:50:13 GMT",
-      "source": "한국경제",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성 평택반도체 전력, 자체발전소가 끝이 아니다…제도 지원 시급",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1vSFVSdW9mVTBOSHdBUlVIeVNDZ1Jrckxxalo3dnlpRy1EWVNMVnFIeUV0QmhMOXJ4MDZOMnB0TFNBZGhuSUM3NEszNTc2LUtUUmY3TVh0ZnNWcTQ?oc=5",
-      "pubDate": "Tue, 14 Jul 2026 04:49:54 GMT",
-      "source": "에너지경제신문",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
