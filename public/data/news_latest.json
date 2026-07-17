@@ -1,24 +1,65 @@
 {
-  "timestamp": "2026-07-17T12:17:05.745981",
+  "timestamp": "2026-07-17T14:17:06.110050",
   "count": 10,
   "articles": [
     {
-      "title": "자오창펑 \"비트코인(BTC)은 방어하는 인플레이션, AI는 못 막아\"",
-      "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBJeDBWZWZ2X2RCVkZiSEpqV2VWYVVLQWdtbEQ0WW4zblFDaVZyRkphTVhjWkR0LVkwak84NURYMk5BWHZZNlF3Tzdn?oc=5",
-      "pubDate": "Fri, 17 Jul 2026 02:40:00 GMT",
-      "source": "코인리더스",
+      "title": "삼성전자 감사페스티벌 '대박'…온누리상품권 8,000억 규모·배송 지연 우려",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0tWkJDTVEtbkR6R2lyR2otSW9WczVwNTh6aXlZNV9YaVhqOGU2c2lpM2RUdDUxYTFacG5EdUUzODd4R3AzQnpZdGlMOXdJeFRZelpuODhpMWJUZ2RIRUdKaA?oc=5",
+      "pubDate": "Fri, 17 Jul 2026 04:55:01 GMT",
+      "source": "KBC광주방송",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[재계핫이슈] 삼전닉스의 잇따른 기존라인 증설에 초조한 ‘호남반도체’",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBCV25VZzNmdVB3cmJwX3dlNmJXX3JoUEt2NUhTM3M1RFBHUlpGSzVkLXlCWk9lSXN1OVp5ZlJtNmV0VjdGalF5Z0JweUZJRkF6RFA2N1JKRGgzSHhrUS1PQmFKRlJ5bjl4cnFr0gFvQVVfeXFMTndwWFVxTmk5bDc0LUN2dVMwT3dOVmlWS1R5cFpNLVlxVHQ5bTcyX2hSUE8zaVVFR2U1eUVaSi1SZDcxNlRIVDlkSmNDZUxWTERhc3VSck1hMHRCdlFKRk1LRElDZzZyOVg0SFRTYnI0?oc=5",
+      "pubDate": "Fri, 17 Jul 2026 04:54:44 GMT",
+      "source": "펜앤마이크",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "비트코인, 美 이란 추가 공습에 6만4000달러 하회…트럼프 對中 발언도 부담",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE94Q2RBbkJ5dXdjRm1ieF9ITWk3NThSQUhqZkpKby0yMzgwVVhFQ2NBeVZydjNnZUN5MmFoYVp2WUhjWGkxUGhqaXVXbGF2Nzdf?oc=5",
+      "pubDate": "Fri, 17 Jul 2026 04:37:30 GMT",
+      "source": "블루밍비트",
       "category": {
         "label": "🟣 CRYPTO",
         "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC",
+        "환율",
+        "원유"
+      ]
+    },
+    {
+      "title": "Bitcoin(BTCUSD) 종목이 7월17일에 1.11% 하락한 이유를 확인해 보세요",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQN0EwdldfN3FmZG5YdTBnUDB5b19rTlR1a0I0eUtPMVdBUHRJSjVJRVpQdUt2NXVZbUtJdktxTjBWaXFWNHM5cGh6RHliUlgxN29DcTlZS01YblVLZHVtandiVDMxbTdCUFkyMTR6Qzh4RWNCUHhjSDBDQk8yTmNNVW4tQ09OV0RkSTF1b2M3eUhRUQ?oc=5",
+      "pubDate": "Fri, 17 Jul 2026 04:26:17 GMT",
+      "source": "TradingKey",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
       },
       "impacts": [
         "BTC"
       ]
     },
     {
-      "title": "日 증시, 美 반도체 투매에 하락…닛케이 3% 가까이 떨어져 64,000선",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE04X3dIbEZQWUZRQkZDU1lNaHBpVnpKb0w0bXJXbko2LXMxN1VSYzVzdGRxbzRpbkVmUWd2NXRCWlhHdDdIc041RHNLamRibXVjcW9tcHJueFhSQ2REZHVGMWRscjRkcTFvVmxSMWJaLWU?oc=5",
-      "pubDate": "Fri, 17 Jul 2026 02:31:51 GMT",
+      "title": "亞증시, 반도체 매도세에 일제히 하락…日·대만 3%대 하락",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAyQ1VTd2NDWHRFY3FmRmJWcWtRUXdMUU1pQlBnWTlicE8zMDVWRkNTQ1VQYVAxNl9ZNkdNVEZjeE02M3FBY1NFVWhVYXJuS1JhcHZRQ1NRZXZpMTk3LTZFeUEzNHVkd2FpTVV2NzNaVko?oc=5",
+      "pubDate": "Fri, 17 Jul 2026 04:09:01 GMT",
       "source": "연합인포맥스",
       "category": {
         "label": "📋 GENERAL",
@@ -29,37 +70,51 @@
       ]
     },
     {
-      "title": "\"비트코인, 항복 국면 가까워…과거 바닥권과 비슷한 저평가 구간 진입\"",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5oZnR5QXFTMU9vaDlDaXpLOF9ZMV9LY3VvWkZ3R3RtV1FQSHFBN2hiSkJ5NF85MnREUnBLc3JhajJKWWFpd0Fta3pXRDF3LVkw?oc=5",
-      "pubDate": "Fri, 17 Jul 2026 02:28:12 GMT",
+      "title": "용인 반도체 산단, 에너지 공급은 어떻게?",
+      "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE4tUkYwNDljbU5YOEtORk1ZSElfTU1jb1ZlelhDbkZLQ3pGcm5OcHFscWpMTkFPM2dBbTlBWXZZZE9xM2VO?oc=5",
+      "pubDate": "Fri, 17 Jul 2026 04:08:48 GMT",
+      "source": "산업일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "비트코인 현물 ETF, 전날 7915만달러 순유입…3일 연속 유입",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9Cb3A2Vm5CbzVOMUR3WWQwblNkR2pDUU5neXlaTFR2N2NEV2I3SHNjVjJZNzdxN3R3U19ZZWE2MDJYeUhZSGFQQW1jN3BmRV9y?oc=5",
+      "pubDate": "Fri, 17 Jul 2026 04:00:54 GMT",
       "source": "블루밍비트",
       "category": {
         "label": "🟣 CRYPTO",
         "color": "#a55eea"
       },
       "impacts": [
-        "BTC"
+        "BTC",
+        "환율"
       ]
     },
     {
-      "title": "비트코인 9360만원대 하락, 미국·이란 공방 격화에 위험자산 회피 심리 확산",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBqSHk4czdLaHJ2MElhSEN3bF9aUEJwVWdiVk5rek9Ea2U4VkZNVnZBdG5UV1ZDYmZBdXR6QnJkVDFoT1pJa0x0eHd5MkVBUEJUbU4tb2xQMlh1YzVsN0VXdTMyRzU2cndGWDgtWTR4LUg4cDg?oc=5",
-      "pubDate": "Fri, 17 Jul 2026 02:24:20 GMT",
-      "source": "비즈니스포스트",
+      "title": "화웨이, 미 반도체 통제 뚫나…AI칩 1024장 연결한 ‘아틀라스 950’ 첫 공개",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1FUllYU1ZVZUExUFFwY1ZWTGR3R2k3TkdXVkxIa0Q0R0tWaUYwbTFoU3BVZUJLZVgxc3RiVUtGRmFaQ1FNLXVoQ0VVc1hqTmtKNTRTcXpoWlkwbzA3M3lWQTN1QlhYUkF5VzNvdg?oc=5",
+      "pubDate": "Fri, 17 Jul 2026 03:57:00 GMT",
+      "source": "한겨레",
       "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
       },
       "impacts": [
-        "원유",
-        "BTC"
+        "삼성전자",
+        "NVIDIA"
       ]
     },
     {
-      "title": "삼성전자 감사 페스티벌 ‘흥행’…판매액 4조원·환급액 8천억원 추산",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBUZzFpUW5IQnp5RTNMVXJiMERTSF9OWnd2dGI4Tzl0OWRWaDJSbEE5WXZOSVNwT0NDMDBiTUw4NHc5VFFJbWlVckpYN0hpaTFSYTNtbzdfMWFUY3ZGOExobkdGM1JsTENuWUg3T2ZEODbSAXRBVV95cUxNQWhoME1YN29ic0tQaEVvRHBKOVZ1d3N5QTk2NHRON0tWbFBrd2N0UVBSTVAtempGQURRSXJIS1J3Q01GWFFjZTl4Z1FyWUJyVnRSMEJVbGp4Qkc0Y2F2SnBRTHZUajVZSTZDT18teDNhVHNxNQ?oc=5",
-      "pubDate": "Fri, 17 Jul 2026 02:20:28 GMT",
-      "source": "산경투데이",
+      "title": "키옥시아, 한 달 만에 시총 반토막… AI 반도체 과열 경고",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5CWUtZR284cVc5TExOdTJLUEVXUVN4ci0wakdDWFRMaHN3VnRBaWd2bkpJRnM0NXpXZEVsRlh4NmZlWDlWN05lai0wWjNCOWhvam14MHJIRnFNYzB1dndWR0phLWR4NE5SelVVdmpZRHTSAXRBVV95cUxNc2UtSXl1VndEUENyR0ZnNXJYNzU1UU5VakNBVFV3R1ZXU3Q3czVHaXJpb0VwZy1Db3FST3BYVU9VSnp1d0xIQUtUNjR3NUN0SDRpWUtyX2ZWOVBJQVdIRW80WUJLSlJZcmt5T1A3ZGc4TWRhOA?oc=5",
+      "pubDate": "Fri, 17 Jul 2026 03:09:17 GMT",
+      "source": "IT조선",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -69,65 +124,13 @@
       ]
     },
     {
-      "title": "亞증시, 반도체 매도세에 일제히 하락…日·대만 3%대 하락",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1QemFHbWlOWWh6bkY5ZEN2YklpanlYZFhEeFlMc3ZhdS1TUkxSQnc2RDdETDdzZmZfcS1IUkxiQWZHSWhvdF9hTGJIaU9vRkhJekpTNmpZTG5JZHl2UXdRYVJNQjlKOWpnQWlsam0xOFN1QQ?oc=5",
-      "pubDate": "Fri, 17 Jul 2026 02:09:00 GMT",
-      "source": "KB Think",
+      "title": "반도체 호황 성과 활용 따라 한국경제 성장경로 달라진다",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBBSDV0Q2JRc0c4T1A5ZGFGdU1oaENVSi1lRHROSVhTUFZid1VvckhVMVhvWkFWZ21TNUxrYllqRWZyS1VWdndCMVRpQWEzMkMwZHYtVnNNY0JGa0JY?oc=5",
+      "pubDate": "Fri, 17 Jul 2026 03:00:11 GMT",
+      "source": "스카이데일리",
       "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "한화시스템, 서울대·성균관대와 ‘K-국방 반도체’ 국산화 본격 시동",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1RQWQ3QTNweGFXMkc2cXRiSHo1MmlHMG50SXlKeTQwOXdNR0RERDRoaDVJaFRXcGZabVZCNkxuTmd0TG9MQUJBeTNNb0MzQ2F0eDRXUHdMa1E5S3NoYVptZHRGaFJVWm9iNHhhdE1B?oc=5",
-      "pubDate": "Fri, 17 Jul 2026 02:08:00 GMT",
-      "source": "koreasprint.com",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "최태원 “반도체 샀다 팔았다 말고 묻어둬라…미·중 틈새서 ‘지능’ 수출해야”",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1wV0V5R09aS213dk1iUW93UnEzZGFoUEtDTll2Z3ZCUnBCUmZYeEVBWGRiNWl1Q1IxcG56bDN0OXF2d2pMaGZKVkxrd19LSEt3TF9kUVN3?oc=5",
-      "pubDate": "Fri, 17 Jul 2026 02:02:40 GMT",
-      "source": "헤럴드경제",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "글래스노드 \"비트코인(BTC), 손절 매도 식었다\"...바닥 초기 신호 포착",
-      "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE8taW1XUjJFM2JONkhRRHpLSXFBTjJQaW9EZEpwek1zdy1tSno4XzlDQVVLUmM4LVZEb2kxYkF3enk3UzhlR25BNThn?oc=5",
-      "pubDate": "Fri, 17 Jul 2026 02:00:00 GMT",
-      "source": "코인리더스",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "[N2 뷰] TSMC를 언급한 추미애 경기지사의 주문...'반도체'와 '기후' 공존 전략",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFAyalkwbzJjVGE2NE1BZk1HbUVOZGZUSHpqaU56dWF4MGx1MU9Fc2RyUzgwX2k3dFVMaEhtQlhxV2dZdExfY25EdE1yTlJ4dC1HOFJqR2lkTjlHb3paYmc?oc=5",
-      "pubDate": "Fri, 17 Jul 2026 01:56:50 GMT",
-      "source": "뉴스투데이",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
       },
       "impacts": [
         "삼성전자"
