@@ -1,11 +1,116 @@
 {
-  "timestamp": "2026-07-20T16:17:04.013268",
+  "timestamp": "2026-07-20T18:17:04.150566",
   "count": 10,
   "articles": [
     {
-      "title": "[이슈] NH투자증권 \"반도체 피크아웃 우려에도 코스피 6000선은 지킨다\"",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1GUVlUOWZzd0RfUlhBcEhYRXpoTzNkSFFoMTZNTkJuU2haemlib19KWkpzZUs4VHJoYVV1UHhYMklFakNNaHdZbUpHR0dnejVXVnVlNEhhZl9IR05IRE1YLTBmeFlqQWs?oc=5",
-      "pubDate": "Mon, 20 Jul 2026 07:10:08 GMT",
+      "title": "이번 교역조건 개선은 왜 다른가: 반도체 경기 호조의 실물경제 파급영향",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE4yNjFfMHltX3ctLXpNb1dIcGFwMmFINzYzU05reWdoUDFKdnBQbS1rWXphWlZKVDQ2Qm9JYllScDNsZXF4ZUl6YmI0ZHhjMXMwS0tTOVBRNThhLWtjLThtaWxpM0FLdjlRMzdv?oc=5",
+      "pubDate": "Mon, 20 Jul 2026 09:15:16 GMT",
+      "source": "KDI 경제교육",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[0720마감체크] 반도체 피크아웃 우려·중동 악재에 코스피·코스닥 급락 By 인포스탁데일리",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE42MjlRaVh0aEhxZlhrVWdLOHVLUkZvV1A2NkJvU2lob2UwOWp2Wld4bTVxYUgxOUNJcWQ2bmROWUVfSmVodmZ4YWJyTG1iSUtKcy0teTdrUk94cEpVVGp4R2lCU3RXVWVodEg3Wjk3bHU?oc=5",
+      "pubDate": "Mon, 20 Jul 2026 09:05:00 GMT",
+      "source": "Investing.com 한국어",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "삼성전자",
+        "원유"
+      ]
+    },
+    {
+      "title": "반도체 마중물 될 영산강 수질·수계문제 종합 관리해야",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5CQjNJa1ZSRmNrdUZ0RVRlWUc4bjRPMmdPWnBVTm9BY0g3RGV0aWp1QnY4UDEyamxhbzNsOE1IUXNrZUR5ZzZiVnBQY0I0UUk?oc=5",
+      "pubDate": "Mon, 20 Jul 2026 08:57:45 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "크라켄, 비트코인·이더리움 옵션 상품 출시…'틈새시장' 키운다",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBUM2RMWENNZzVZZnRZTXBGRlBpOXR1eTZfSTRlZENOTllYLVZ1eENxNDh6WEJaVUdGVFlVb3JWS1BvYWZUSVFtYzdsUm8yRWpJZkk1dlNGUzViQmtSRHJIUmk5Yjg5dw?oc=5",
+      "pubDate": "Mon, 20 Jul 2026 08:54:09 GMT",
+      "source": "뉴스1",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "한미반도체, 5000평 8공장 품는다…'장비 쇼티지' 선제 대응",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1RTUVrb0xBUldUMFh6T1RRLW5vd200RXhLdUhISmtESDVwNWxmeG5jVE5XWndjLWRXNThnMVA3Vmh5ME1TV01BQzRfR2tTTzg1d1V3VXAybkxfYU5f?oc=5",
+      "pubDate": "Mon, 20 Jul 2026 08:54:00 GMT",
+      "source": "뉴스핌",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "‘성장엔진 인재양성한다’ 전북도-전북대-현대차 맞손",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQTHFvc2h5a1NycFRMX1R6bTV2YWl1VTdVaHVPTDdJdmllYi1NdDZwcnVQNEdiamlvVFNIRURJdnFzT2t1Zkc1RzhiODUwOTY2cGFIZE5tSkZKR2dnTjg2S3ZiTVZMVXJ6TkNQWWdsbnM2MWNMWDVSUjlOREZ2YnNocjVwbVY5MG8?oc=5",
+      "pubDate": "Mon, 20 Jul 2026 08:50:00 GMT",
+      "source": "전북도민일보",
+      "category": {
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "삼성전자, 美 스마트폰·가전 본사 텍사스로 이전… 739명 감원 - 조선비즈",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOWmdHcFdqUm1ETFpRcXFzUFJQM0lDeTJCclNBQXN4bFVCU3k3a1JkZkVJR1BtaUxQS0trVWkyS282QVFMRzg5VzdIVUJ2bGFGZC04OVdmNVR5YUMxcnlPRU5iREllTVRzYXhYZzBYRWJQQlJEaGJWY0NaOWZQOG9ra29B0gGWAUFVX3lxTE1KX09KWE52WFl3UFFVQnpoZ042YUxBLWdYdDlSWE1DNGl6Q2hWVmRXSXJyTGhmWjZUTllOdl8wMWx0cklRb09oblg3OHhGM19yQmUySUx2aFVKZGxDVXBLa095cVA3aEduVjdmZU5saHZXTzB6eVNfQXVHc1RFajl1RC1JbjFzdDlCS0VNN1RZdFYxTi0yQQ?oc=5",
+      "pubDate": "Mon, 20 Jul 2026 08:46:00 GMT",
+      "source": "Chosunbiz",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "반도체 호황에 'GDP-GDI 격차' 역대 최대…\"소비·투자 파급 크다\"",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9ueEFPUXVGUjhHZTdVM1dHb1JrLVRRUWhRYThXX0ZFWGt4QkxQUUpNZ242cHc3X01TTFlQU0Y1S0NvY0owWDBSc1czaDUyWnVfSUdQcnZjdUVhRnUyQVBzY0s4YlY1NHJYQzRn?oc=5",
+      "pubDate": "Mon, 20 Jul 2026 08:35:33 GMT",
+      "source": "한국부동산뉴스",
+      "category": {
+        "label": "🔵 MACRO",
+        "color": "#0984e3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "반도체 전략 재편 제안… 동남권 역할 확대 필요성 제기",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5PeUg5R2xHdXdybmdWc1dPMXdiMjlVTTVVSFNHWFZ5cnBxaXpLM2REdkN0ZnZ1eXpJM2VxOUlocXRTRmIyOFpTdHZ1RUlxTXUtUTlaVGJ2bFhLTzl3NUE4bVJNRXZGcmM?oc=5",
+      "pubDate": "Mon, 20 Jul 2026 08:35:30 GMT",
       "source": "팍스경제TV",
       "category": {
         "label": "📋 GENERAL",
@@ -16,118 +121,13 @@
       ]
     },
     {
-      "title": "[성공예감] AI 서사와 반도체의 흥망, 엔비디아 주가에 달려있습니다 - 김학균 전무 (신영증권 리서치센터장)",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9ENHQzMmZfR04zY3hIQmtJbEJfdXMyTGxjNXk5TndJd2xXVmQ2cFotbGNfNXhCRzB0SHBxWmtMb3FIcmFxNmR6MFh6TG1yQkFaeER1a2xIVHJSMWM?oc=5",
-      "pubDate": "Mon, 20 Jul 2026 07:10:00 GMT",
-      "source": "KBS 뉴스",
+      "title": "미스릴, K-디스플레이서 반도체·디스플레이 장비용 AI 선봬",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5jYnFJcGN1Tzl1X0JlY0hzb1BDRm55bE9NNlVBN1hrLUZ2QVVsbEp3LU1pQjdrVjNQaUtrLTNldHNKVFlIbnM1V29VRlVQOGpkdE0yZmZpX09QNUNyOG1rYkZsekFldw?oc=5",
+      "pubDate": "Mon, 20 Jul 2026 08:33:43 GMT",
+      "source": "디일렉",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
-      },
-      "impacts": [
-        "NVIDIA",
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "NH투자증권 \"반도체 피크아웃 우려 과도… 코스피 6000선이 바닥\"",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE10WkV0SDVXV0VSTTUyY25fSTZ2Y1Jjc0VycUUwRE9KaWZGYzNVWHFMQjVlVXllSFlKQ1lkeXM0UlU0bF9TbkF4S2JXVzE4ZVljZUhQN0hRaXJvRzdlU3FlSWRFdE9wVFNmcGhsWkhkUXZaY2I5OWc?oc=5",
-      "pubDate": "Mon, 20 Jul 2026 07:08:59 GMT",
-      "source": "인포스탁데일리",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "현대차·전북도·전북대, 피지컬 AI·로봇 계약학과 추진",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1waTVyMUVTRG5YUW1MdjMzYXJ1WE1zWVZsV2Z1RG1zYVFyaGZKYzdUWWZ4UXEzeG9uRTBIU25XWWd3QVNfdWVUYTkxWGl0R0lpdVBoVUc0SmUwOEt5QTBBWU1LemdzTEF5bHRORA?oc=5",
-      "pubDate": "Mon, 20 Jul 2026 07:04:15 GMT",
-      "source": "중소기업신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "현대차, 새만금 AI 밸리 인재 키운다…전북자치도·전북대와 맞손",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE15WHRLUEdhVmNLOXpXaXp0eFR3US1DdGRNamlpZDR5alYzRjNzM0VBdVlCaFJObXpBN2NMM1h3Q1NiZ0pPRDA0cWRJUV9YOGM?oc=5",
-      "pubDate": "Mon, 20 Jul 2026 07:02:49 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "파업 강도 높인 현대차 노조…투쟁 이면엔 ‘로봇 포비아’",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5FRFgwajVldHF2VmxkbXpURHVsYUFLUVVpcG9BVzEyX3E5ZE44b2Z2R0pJQ0JKWXZ2YldSeWVkMkNUVEcwOC1BQmNfTkpUbmRvUlc4UGxCZVBnZVhnUkhLWEZyRlFKdU5JWW5WTFVNSdIBc0FVX3lxTE5RdzFrcnN4SDF4VVJsV2tCel9oYnJ5VWx5TjJBVWtlaEltUnY5c3NIdEZWR0NtNDN0YjhZbXFBYlA2RWowQTVSVUxidEtYb0FPWGpqeHllQ01uMHhTVWk0NHlGNHdwRlZDYlBTVlFJTzVRZTQ?oc=5",
-      "pubDate": "Mon, 20 Jul 2026 07:00:46 GMT",
-      "source": "시사저널",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "[마감시황] 코스피 4% 또 급락…반도체 쇼크에 양 시장 사이드카",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5jSVoyNWdiRk9tVlVZQ2E0enNYMWE3TVgyQ09qcl9NWnkzZlI4Z3BYXzhUaVZhVG52SUx2QnJUaFFUSV96M2UzRVo5YkgxVElsTnBqU1Z6RFI2RjVN?oc=5",
-      "pubDate": "Mon, 20 Jul 2026 07:00:00 GMT",
-      "source": "뉴스핌",
-      "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "초고수 삼성전자 끝까지 담고 삼성전기 매수 전환…SK하이닉스는 종일 팔았다[주식 초고수는 지금]",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1XekVyR1AyekN4djdFdUpMV1hDZ1hLMHQ0N3ZmeEJGZS1uXzFiTkpMWFZCREhlQlRNZFFNVVRrTzJVR1J5V2oxWldfY0o0VUJmckE?oc=5",
-      "pubDate": "Mon, 20 Jul 2026 06:59:41 GMT",
-      "source": "매일경제",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "‘새만금 AI 밸리’ 속도 내는 현대차…전북자치도·전북대와 함께 인재 키운다",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBVeVBMa1lPZFNRSEo3cnNCWFpfN3d4aVJENTN1Tk1wLUpDMDFTY0cyTTBpM3NpUGRvZGlmVWptRnU4VzJILU9XQlVlbTlVRUIwdlhaT29meHd1LW1SbHk4?oc=5",
-      "pubDate": "Mon, 20 Jul 2026 06:58:00 GMT",
-      "source": "스마트투데이",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "반도체 피크아웃 우려 지속…삼전·닉스 4%대 급락(종합2보)",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1JR2ZXTkN3WklDRW02VUdieVVzLU83aTA1RllhbkFQcVplQkdMRkZZTUc2VlF0VS1FTE9lcWV2eFB2UFhOM19WYTZkaE9EZ1E?oc=5",
-      "pubDate": "Mon, 20 Jul 2026 06:57:42 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
       },
       "impacts": [
         "삼성전자"
