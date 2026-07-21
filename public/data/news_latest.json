@@ -1,52 +1,26 @@
 {
-  "timestamp": "2026-07-21T08:17:04.715993",
+  "timestamp": "2026-07-21T10:17:05.135501",
   "count": 10,
   "articles": [
     {
-      "title": "삼성E&A, 중동 불안 덮은 반도체 특수에 호실적 전망",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1ZVlZsOXRMbWZhSWVDRm4tcVBKbWRkZ2RNaFdIM2haakJJbWk2eXBxcGZIZ1pzcjhqS1lmTGY3R2EyeV9jRlpqUFRzdW9FdkR3a2x0Z3pnRnhTM0ZUWlpzVFZNNW13MnJ2dmJTTFdLV3k?oc=5",
-      "pubDate": "Mon, 20 Jul 2026 23:02:05 GMT",
-      "source": "연합인포맥스",
+      "title": "삼성도 로봇사업 전면에…현대차와 ‘피지컬 AI’ 선점 경쟁",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9DNnpxZ2Z2SEZ2RlUyT2xKYU1nQmhvOXB5TThSUnJXbnR1Yl9MZDhNMEEtT3lET0ZxZnJ6eGRhMXVzSmE4Nl9xTDVXdjA0RGp1NWR4WXlwdGJuRnBnVXBRVGhMa1dON0JUWWNOaQ?oc=5",
+      "pubDate": "Tue, 21 Jul 2026 01:12:44 GMT",
+      "source": "재외동포신문",
       "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
       },
       "impacts": [
-        "원유",
-        "삼성전자"
+        "삼성전자",
+        "현대차"
       ]
     },
     {
-      "title": "반도체 업황 '고점론' 고개에도…AI 수요 구조 전환에 '우상향' 기조",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBpTzBNbjNnNjRtMm1QQjcwY0ljaGRGRHNRNzA1UWY5UWJHaGgySFo5OGl5Z3kxR1duVTJXYnFvQmJIbTZqRkZDdERlZkNYbTQ2Z0U4cUlNVkFERnZ2NDNsM2JTTWY2NE85REE?oc=5",
-      "pubDate": "Mon, 20 Jul 2026 23:00:00 GMT",
-      "source": "청년일보",
-      "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[증시키워드] 삼전ㆍSK하닉 반도체 급락 후 반등 시도 주목…삼천당제약 상한가에 바이오 관심 재점화",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE53VkVNcjlyRms5MWFPdURQN0puSV9YendZZnY1cmJyQ1pxY0cxTGhpMVhsSHBXZVhtNW93SHBxNk9sLU1qYWphRnpySEhrZTNGZG9iYQ?oc=5",
-      "pubDate": "Mon, 20 Jul 2026 22:56:00 GMT",
-      "source": "이투데이",
-      "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "'새만금 AI 밸리' 인재, 현대차가 키운다…전북대 계약학과 신설",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1kckxLc1IzVFBJSGpQY0dSZEFSMGJqQ3ZLY21vd0NobzZRT3V6c0lsNE8zLUhHZWMzZzk3SmZtN1hucGV4bk1sSzlmYWdEVVQwM2Z6Snc0NXd3b1lZcFRKaVllMGk?oc=5",
-      "pubDate": "Mon, 20 Jul 2026 22:47:09 GMT",
-      "source": "매일일보",
+      "title": "현대차그룹, 글로벌 V2X 통합 서비스 '올데이에너지' 출시",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE83X3BNN1lWd29fX1pLYlNCX2ZLMmJZZDRXRGNyRGotX19iTGJKaUo4c01zTG90RENycFZzbTB6T0tBTGQ5T2xiWUJFV3B1dmJLSGw3RnBxZGNvM21pc1g2NkY5VWs?oc=5",
+      "pubDate": "Tue, 21 Jul 2026 01:11:32 GMT",
+      "source": "서울경제TV",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -56,83 +30,109 @@
       ]
     },
     {
-      "title": "'개인 빚투'와 '반도체 쏠림'의 경고… 코스피, 지수 아닌 포지션 시장으로 변화 지적 나와",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPMDFmOURQbjVZOWI5LVNTWWdjcHFxLTRDS0NPNVBNRm9Mcld0TDAtaEMzTmppVmMwdDk1c19YZlN4ZmRJdFNxd05VcnVMaWFBX2ZsYlFyWm1temlIS0tBWWVRQU1ZOGFVeS0tb042UGJSS3BpWXI1LU1kQ2ZGMDEybkJHRnE2MVRR?oc=5",
-      "pubDate": "Mon, 20 Jul 2026 22:42:07 GMT",
+      "title": "현대차그룹, 싱가포르 AI 스타트업 '웨일' 투자…기업용 AI 생태계 확대",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5oemZ1bjNQOVNmOGV0ZjFuUjlkWEZfMmdQN19CT0pLdkxsOEs2VkFTSjFnSE4tRm53WUlicGZYYURKcHBQY2EwNjNoRm12ZkZCRy14Tjl1RzJGanZ4RGIwZEZpWko?oc=5",
+      "pubDate": "Tue, 21 Jul 2026 01:10:07 GMT",
+      "source": "PRESS9",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "삼성전자, 대표이사 직속 RX사업추진실 신설…로봇 사업 본격화",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPMEJlU2NSZGdFOHlMV29MNDNoRjQ3Sk9EdTFfeG55bHlDc3B4dWktR1Z3WmJNSl8wWENMbTl0T001bHJsS0E2ZFBRS0hReGJDTDRKN2xaeDk4dWNkRVNYLXJ1VTZNR25NNUt5b0FFQS1aY0VtVUJ6TXJ4a25XUHYteHhESQ?oc=5",
+      "pubDate": "Tue, 21 Jul 2026 01:05:00 GMT",
+      "source": "인베스트조선",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "7월 1~20일 수출 549억 달러…반도체 180%↑",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE01dnUweE4waWtuMXE3ZjhxRWJJTzRHY0ctV2FSTS1KcEJTY1pRWDM1b1U4UWdUZVpSVHdpSTlNdzBNVWJKbkxLTjhsOGFsSkdOMFFqUGIwYnVVQUhKalZOUThOTUtsQUpVc0toX29hMA?oc=5",
+      "pubDate": "Tue, 21 Jul 2026 01:04:48 GMT",
+      "source": "서울신문",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자",
+        "환율"
+      ]
+    },
+    {
+      "title": "'반도체 180% 급증' 7월 중순 수출 549억 달러...역대 최대 신기록",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5uLWNVZjJJME9zR19wcWY1TE5DMUJWVWNRUWZMOW9rWjAzR3BRcFItVng3bFRuRnNvZjFtcHJqVnVFTGNRZXJ6SF8xbzlyZmpFcHNQSnZYVjlyQ2h4YzIySw?oc=5",
+      "pubDate": "Tue, 21 Jul 2026 01:03:33 GMT",
+      "source": "KBC광주방송",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자",
+        "환율"
+      ]
+    },
+    {
+      "title": "“삼전 대표가 로봇 사업 직접 챙긴다”…삼성전자, ‘RX사업추진실’ 신설",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE92d00zaDhFRU1PeV9kdnBKRDJDdnYwNFZFMnRoQlRMSmxaaURDRjNRTHV6aF9OaGFnOTN0NmtwTm1ERW4yUlEtZm5YNXc3bmc?oc=5",
+      "pubDate": "Tue, 21 Jul 2026 01:03:01 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[특징주] 삼성전자·SK하이닉스, 등락 반복하다 '상승세' 전환",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOTEE1cHQ2andRSVZ1Z181YUJmeHlVMTVsZWY2eUZ6Vm1vQnoyUVF6SUxHVk83RVJYNVFrSGJiZnBXaWF3X205d1NYQVU3UERwLVNpMDZLRGZqbUdsSjZhVkdycEtUTWk5VDFhejlVVFlINHZkVGhzakV0WXpvNkFZUTBQcDJJeGQ2?oc=5",
+      "pubDate": "Tue, 21 Jul 2026 01:02:49 GMT",
       "source": "글로벌이코노믹",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[스타트 경제] 코스피, 반도체 투톱 흔들리며 하루 거래대금 23%↓...유동성 줄어드나",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBJeXRBMG5maW9QR1lMVUgwNWJYZHEyODNwUTFjb0lLdGpxZnRELXZlV0VJdFI2ekIyRHFpa2VjLXg3dHhWQk5oUTVWOEVqVk83VElyOUNNQ0FNajI4YVE?oc=5",
-      "pubDate": "Mon, 20 Jul 2026 22:41:00 GMT",
-      "source": "YTN",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "홍해도 막힌다? 유가·금리 급등…반도체 '저가매수' vs '아직' [김현석의 월스트리트나우]",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBOclNBYWQyYWh0aWQ4Tm9sdWwycUV5b0xqeWFQU2NuWk5sbWhyRmJhRWNxR1N4Zll4dEtYeFFPXzd5QTN5WWhjamZ5cjBZcWRpREJ2d1VSMk84QQ?oc=5",
-      "pubDate": "Mon, 20 Jul 2026 22:37:15 GMT",
-      "source": "한국경제",
       "category": {
         "label": "🟢 POSITIVE",
         "color": "#4ecdc4"
       },
       "impacts": [
-        "채권",
-        "원유",
         "삼성전자"
       ]
     },
     {
-      "title": "UBS \"반도체 조정은 매수 기회…마이크론·브로드컴 주목\"",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9VVzE1TXVZWmV4ZjdOaU8zajBrVDMtWHlPRndwWmh3Sm8wa0dNMkc0ZnIxX3c1TUxiNzJsUHppSjJpWWx1Ny01TThCZmRZVW9pLVlSd2hPVHh2Q0dkZGhDQ0hwVDhYNjAwU094M2owb0hvdw?oc=5",
-      "pubDate": "Mon, 20 Jul 2026 22:35:23 GMT",
-      "source": "KB Think",
+      "title": "삼성전자 '로봇'으로 현대차와 맞짱?...대표 직속 'RX사업추진실' 신설",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBvbVVMMUhULVdfeDRtV3JpWU9mSGMxVTdJTzB1a1phVEhta0pzcUdsMlp4TGs0THl4OV9XcnZycEJMNkdzcllUQ01qNzJRaXdDWkRpbGdiSGwwVVBO?oc=5",
+      "pubDate": "Tue, 21 Jul 2026 01:01:56 GMT",
+      "source": "뉴스;트리",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
-        "삼성전자"
+        "삼성전자",
+        "현대차"
       ]
     },
     {
-      "title": "반도체지수 20% 급락…반등 여부는 이번주 빅테크 실적에 [클릭e종목]",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAtNjRPS2tWWmNSMlgxV19XSXRnUEdWTGcxRS1MWmpJcXRERTBLdGs3Q2J3NUlQRE1YbTVCcncwXzBvUVFrSG0tZVJsdlUyMzBSNU9DSThxcDlVRXpOamhocQ?oc=5",
-      "pubDate": "Mon, 20 Jul 2026 22:30:00 GMT",
-      "source": "아시아경제",
-      "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[마켓무버]AI 반도체 반등에도 중동 리스크 부담…뉴욕증시 일제 하락",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE41NXlsZWUtZFYtYzlDdzBXXzg0V1kwMHo0Wm5QeVMwVVhKUEpsOVJBZmV6cEpmeGJ5Qm5LM1RyUWdJUjZfbHFvRmdQdE03UnhIVWpWbG5Qd1hUZ0dXb2trODY5NjVtVDhaR3V6QWVWYWpHa0NiZGk3ZUFQZw?oc=5",
-      "pubDate": "Mon, 20 Jul 2026 22:28:00 GMT",
-      "source": "이데일리TV",
+      "title": "“로봇 역량 다 모은다”…삼성전자, 대표 직속 ‘RX사업추진실’ 신설",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1obUM0NnhzSlN5dS1pdFZrclg5Wm8zbjNNcHdJOXhhWElrN0JPeVRoWTh3YU5ncTRQdHM4OGJXdWZreGVGS1BTdURYelQtVXc?oc=5",
+      "pubDate": "Tue, 21 Jul 2026 01:01:31 GMT",
+      "source": "v.daum.net",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
-        "원유",
         "삼성전자"
       ]
     }
