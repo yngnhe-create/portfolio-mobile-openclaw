@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-07-22T18:17:04.462891",
+  "timestamp": "2026-07-23T08:17:04.439350",
   "count": 10,
   "articles": [
     {
-      "title": "정부, 용인 반도체산단 전력공급 11년 앞당긴다",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5KVUo0RnBhblV4VGxJRlMxT0FKckJ2aG5PTlRiUW9UY0ZKcjNfdVpBa2dpQ2wxdzVBRHNWUzIzWDdmZXdjRWtEQ0lUdGx3anU5US1wMVB5dVE0Ym1s?oc=5",
-      "pubDate": "Wed, 22 Jul 2026 09:07:47 GMT",
-      "source": "뉴스;트리",
+      "title": "충남의 기적…AI 반도체 반년 만에 지난해 수출액 넘었다",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFB1VjFiaHM2eGVaMmZIc3M3VWVpUzZFRk5jOG91RG9YbmlnUUF5Rk5lVnJnelJLc1RmRXgxc1c5YUFUQklSYS1sY2pNOWwwd0NONWM1QzVsR2s?oc=5",
+      "pubDate": "Wed, 22 Jul 2026 23:12:37 GMT",
+      "source": "타파인",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -16,10 +16,49 @@
       ]
     },
     {
-      "title": "정동영 의원 “‘800조 반도체 협력사’는 전북으로 채우자”",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNZ2t0U1hnQWM4dVFYbG1wU1E2aGZ6ajExU0xOY0RTUW1oaGUtR0NpOWlic3l5ZF9iVWNScWdYbUJQaDhwT3NJbnFpYmE0TWtJQm1JZGktbHdIVjBLSkdBTU1kWmYxVVkwUmVvRm4zVlhjd2FsOUpLUVdrTnhUWDlxLWJpMmVqY1U?oc=5",
-      "pubDate": "Wed, 22 Jul 2026 09:00:00 GMT",
-      "source": "전북도민일보",
+      "title": "반도체가 끌고 소비가 받쳤다…2분기 실질 GDP 0.6% 성장",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE8zZkF0SVdWcnVDQlhrNW1ldkI0RUoyUjg0MmxIMzB0dXN4U2twdkJFeFN3ZDFfWFYtS0JNaWZsVzFwZF9nUzVva0t0QnptNlhBOUNZdWJnRkl2MHFTM040T1VQeWMzbnlVeVJ1cGRkWFpCdzJV?oc=5",
+      "pubDate": "Wed, 22 Jul 2026 23:09:56 GMT",
+      "source": "조세일보",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[속보] 2분기 경제성장률 3.7%…반도체 호황에 2연속 ‘깜짝 성장’",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPRzJSV2diSndFekFvcnR5em8zWjBBeEltR3pveWJBNDVBdHRkTDRTWXgzMmNGUGpDYXcyaHppcTRnSTEtQVo4bWhRWURDS2FhcEpER3F6bkFaZXEyYUhzbzNKY2c0dFVwLW1hWU1sYmhtZlJGYWt3aDd4enUwelc4UUg5MklvbnhGSmFTRS1B?oc=5",
+      "pubDate": "Wed, 22 Jul 2026 23:06:11 GMT",
+      "source": "조선일보",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[속보] 韓 2분기 GDP 0.6%…반도체가 이끈 ‘깜짝 성장’",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE0xd3ZSWWxtQy15LUx1a01pdllsNkVFWVVvb210Z1Z5aG1nc1dZa1gyZzl4cFR6MkNwM2NyS3M0aDNWd2p4U3JwTlBPYndMSDg3VUlGTEVLaEtibXNLTTYtazItX2NsVFl1UVlJOG1pTy1ieVJqZ2NHeDdB?oc=5",
+      "pubDate": "Wed, 22 Jul 2026 23:05:50 GMT",
+      "source": "서울신문",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전자, 갤럭시 Z 시리즈 공개…28일부터 국내 사전판매",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9hVk9RRjRMZzBvOFltNHVsSk9pam1JMlFPQzUwTXM3UFh5UmExU3NSdXFnNGRaWS1kREFaVmtwWWpBRUVZb0F0dWt5b3Z0RWtTM3NhTWhSVGw4ei1MTVF1UkpNOC0zZ2FE?oc=5",
+      "pubDate": "Wed, 22 Jul 2026 23:05:21 GMT",
+      "source": "한국NGO신문",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -29,10 +68,21 @@
       ]
     },
     {
-      "title": "비트코인 반등 … 6만6천弗 회복",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE8ydEc4VFVSSnczY0xZNmxkMXZxMEExVnVQM01iNXA0b2l0NVJ1bjQwT1VCc0I3VVF5RU1VekVqRUFqX3lQcHppX192WXVYa2RScFE?oc=5",
-      "pubDate": "Wed, 22 Jul 2026 08:57:52 GMT",
-      "source": "매일경제 마켓",
+      "title": "TS롬바드 \"삼전닉스, 주가 추가 상승여력 제한적…AI 투자처로 대만·일본 선호\"",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBJWXZkaUgxS0FySE9hV0FpWjEzUXk4R2Q4VnhJc2F1UWw2R0xVSktXX21GXzk3U0h6Uy0yQzd6clR6SnE3czN4eUFBcXI3a2luY1F1Z0ZRekdWUUluMVdrOFlORXA1c0FOWi05NE9VTnlpZw?oc=5",
+      "pubDate": "Wed, 22 Jul 2026 23:05:11 GMT",
+      "source": "KB Think",
+      "category": {
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
+      },
+      "impacts": []
+    },
+    {
+      "title": "[07:53 가상자산] 비트코인, 美 클래리티 법안 갈등에 약세",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5VSnF1V0R2WEJySHI2d210akFwZVlpenc4NG1uRnduLVFOY1M1SnB1b25ZOEtFQnR4aUtLV3d6MzE1OTg5MjR3WWJtSnhIUEFGVDBIVXJNNVRJTkFPb1ZzM3pKZW8yU2E2N0hpTUg3MGk?oc=5",
+      "pubDate": "Wed, 22 Jul 2026 23:03:00 GMT",
+      "source": "신아일보",
       "category": {
         "label": "🟣 CRYPTO",
         "color": "#a55eea"
@@ -42,91 +92,39 @@
       ]
     },
     {
-      "title": "[분석] \"비트코인 변동성 10년만 최저치…대규모 청산 리스크 완화\"",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBfeFAyQ01jSEtvc2R5WWdWSWJYZ0FYcTVsMnN6OXRucFQyempYZEYxcG01V1NfMlRhaWJzTGZkQU1KODhiT0dzYmJWOHFDLVFr?oc=5",
-      "pubDate": "Wed, 22 Jul 2026 08:57:26 GMT",
-      "source": "블루밍비트",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "BTC"
-      ]
-    },
-    {
-      "title": "전북, 피지컬 AI 산업 거점 제안…반도체 협력생태계 유치 승부수",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBrZTNXSFhfZTZ2LUw0Q0p6N19tTnNfUnVSRWFpem9XanI2aWowNk9uQUVSdjZZZ1FDY2EwdVhhVDhDOGhWMmVKWVFSdkVEOGxQcXc?oc=5",
-      "pubDate": "Wed, 22 Jul 2026 08:53:00 GMT",
-      "source": "전라매일",
+      "title": "현대차, 中 상하이에 'UX 스튜디오' 공식 개소… 글로벌 4대 거점 네트워크 완성",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9GQW15MXBBTGE1N01aQ1pHSlhpOS12RmhjMm44RGJ2TVg2QkNsV0lmM2dWX0tWdTU3UVpCc2M2SnRLNEhEYVNTMmxIUlBpNDlTdnc3UUk3VVNMWkxoU3c?oc=5",
+      "pubDate": "Wed, 22 Jul 2026 23:00:39 GMT",
+      "source": "더구루",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
-        "삼성전자"
+        "현대차"
       ]
     },
     {
-      "title": "전남광주 광산구, '반도체 클러스터 조성' 연석회의 개최",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFA2NVdDUFRlWkpVT2hxbkgxdEVoVmJqY3JWaGdlUFk1Ujd5akE2MTNsZUF0ZGpYYzBKMEh0N2p2a3lrd0FtUTNfeWZqTzJXcWc?oc=5",
-      "pubDate": "Wed, 22 Jul 2026 08:44:26 GMT",
-      "source": "v.daum.net",
+      "title": "2분기 GDP 0.6% 성장 서프라이즈…반도체가 견인 - 머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5hRG54NlM1VDc2VGpaM01tano3VGhKZVYtYTZXeF9odHU0dk1RalotT3B5R2hQWnVTM0x5OHJka25oamtyVWZ3OGJyN0lYUFVJVm9faGJSMGM2Qkw5QmdLVjFKVlQwcFJQT0lv0gFwQVVfeXFMTXFuOEl3YjQyUk1vYm1ucm0yMjFTSTJfTThGcTJIZlFEcEpTUHlGQV9EVGczZDVqZlk3SkdYcUlGLUFyUUpubGVrRS1uSDJadDhWY1E2Y0lFWU5RSlZPdTZMUGItSi10UEpYV1o0ME8wcw?oc=5",
+      "pubDate": "Wed, 22 Jul 2026 23:00:00 GMT",
+      "source": "머니투데이",
       "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
       },
       "impacts": [
         "삼성전자"
       ]
     },
     {
-      "title": "이상일 용인특례시장, 용인 반도체 국가산단에 대한 원활한 전력·용수 공급 지원 추미애 경기지사에 요청",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5STlFBMXpQVFlMeUEwTVd0Q1VXR08xTXRoVHNTc2dlYUNINXhaM01MQUdWRWJnWWJkWmNiSTd5SERvUF80MDlIdE5KbHUwenMwckxqYnROQkgtSUNiUGhn?oc=5",
-      "pubDate": "Wed, 22 Jul 2026 08:42:21 GMT",
-      "source": "세계환경신문",
+      "title": "반도체가 이끈 성장…2분기 韓경제 0.6%↑",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA4YTZWdVRYekJaTW9XcnQ1emdqWjUwZkxyYklyWHBKemZNMlNRVkoyY2U0ajdRdHpVbm43LWVnLVcwckJjNGtMOWtFdnF6Zmk2cTJVLXRtOWlmTUxLYlFpNjlYd0dzWW9n?oc=5",
+      "pubDate": "Wed, 22 Jul 2026 23:00:00 GMT",
+      "source": "ebn.co.kr",
       "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "“TK, ‘설계부터 생산까지’ 반도체 생태계 구축 최적의 지역”…국내 최고 반도체 전문가들의 한결같은 평가",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBtTW9vRkhhaEM2SWdKV2VzVzVHZVdhc0RzREhnTkNiZUFyVU9zbnRNTXB4aVkzdmJrOVA4NDBOS3lRSlRfUDRxaWZjaWlqaG8?oc=5",
-      "pubDate": "Wed, 22 Jul 2026 08:40:46 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "아산시·삼성전자, HBM 공장 증설 ‘맞손’",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1XSXBDdFhfQ0p6dVdBVlE5Nk9JLWZqV3RUbDdXOU11bEhfQk01V1J1VHh6T2l5dWpQOHR1TWVOcER2SVVGN3BYSEhnZ3MzUVpfMnZzRDQyVjF6eC12MWxCdGlobVg?oc=5",
-      "pubDate": "Wed, 22 Jul 2026 08:40:45 GMT",
-      "source": "매일일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "동국대 이세준 교수 연구팀, 촉각 기억·학습하는 AI 반도체 센서 개발",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE45NVhZQUsyT01KTGp2bDJvYlBudjA1TWp3YXdYZXBFUG9ZeGNKXzVlMkQ0bUVvUGlOMmtZVThjN2h6WVNnSG1FU2JKRGtKdw?oc=5",
-      "pubDate": "Wed, 22 Jul 2026 08:39:12 GMT",
-      "source": "전자신문",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
       },
       "impacts": [
         "삼성전자"
