@@ -1,25 +1,53 @@
 {
-  "timestamp": "2026-07-23T14:17:04.240994",
+  "timestamp": "2026-07-23T16:17:04.160134",
   "count": 10,
   "articles": [
     {
-      "title": "수이 기반 비트코인 인프라 '하시', 테스트넷 가동…기관용 디파이 정조준",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1BR0FOMDFOUWN1dm16RGM0Rk9GeWtqaUE4Smg0SndkbnFNSzNfeHZrLXpBQTVpeElhZEN6c0x6b1FBaHIxVnMtZ0V1YTRaY1Bi?oc=5",
-      "pubDate": "Thu, 23 Jul 2026 05:11:56 GMT",
-      "source": "블루밍비트",
+      "title": "가이던스 미달한 현대차 상반기 이익률…환율 효과 걷어내니 '비상등'",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1iWU9lU283QlpUa0UyaWJRRzNBX3BCR2ZYUVk5RjFVZVNzeHk0VDVOVWhDdzRoeW81TEVqRkNob3ZHR0dEVno5X3ptaGM4STc0ejJ4WlNaVmgtM1ZUckZSZ05LdUd4WmlVY0dhTlV6OW8?oc=5",
+      "pubDate": "Thu, 23 Jul 2026 07:09:57 GMT",
+      "source": "연합인포맥스",
+      "category": {
+        "label": "🔵 MACRO",
+        "color": "#0984e3"
+      },
+      "impacts": [
+        "환율",
+        "현대차"
+      ]
+    },
+    {
+      "title": "미국 클래리티법 통과 기대감…비트코인 7만달러 목전",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA4ZktZR2Z4LVlTMi12YjV2S3FSQWdFaVZwQXhpSUx3UmFuZ19OT2RCeFQxTkNQejE1eEswVGZDOFpZN3djbmpnTmNDWW9NR1BvS2lldnhhbWhld2xBYTBn?oc=5",
+      "pubDate": "Thu, 23 Jul 2026 07:08:18 GMT",
+      "source": "뉴스토마토",
       "category": {
         "label": "🟣 CRYPTO",
         "color": "#a55eea"
       },
       "impacts": [
+        "환율",
         "BTC"
       ]
     },
     {
-      "title": "현대차, 2분기 매출 49.2조원 '역대 최대'…영업익 21%↓",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9RMFdpZUg3N3RoalVpcGw3b1JKc3pKaDlzX25GTllCNTc4OU5zUFh6T2RnSkk0OGZpMi1kV2UzTUVCNzZSb1RtQjg1SURldw?oc=5",
-      "pubDate": "Thu, 23 Jul 2026 05:11:30 GMT",
-      "source": "전자신문",
+      "title": "‘흔들린 판매량’ 현대차 “하반기 아반떼 등 신차 총력전”",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9oek1wNGstVDA4LThtVzhBcXZJdnJ3MlAzeVQyQ09LcmV5bWwwNUpXcVVqMVQ4OVFHWnFlMXlmZ1lTTFFicnBzZHI5N29BZGxqNUlYTVpTUmduN2NRaXRJY04xWnpXcnRUMDhBMXRuNWhjeGVDRWcwbjhfeDk?oc=5",
+      "pubDate": "Thu, 23 Jul 2026 07:06:30 GMT",
+      "source": "한국금융신문",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "현대차, 2분기 역대 최대 분기 매출 기록‥영업이익은 20% 감소",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBINDBMcF9CUmpFdm1BVVY5M0RNd25yTmVkZmJFWWpHdm5RazRjYjRJZ0FEcWdzRENyWV9PT21mTElXbEtoNDhIRlEtYXYtRlpWMFZwa3RvRlVjWG9HV2QzbThfckpQUGlYOXd1SFdFWUI2WFZf0gF0QVVfeXFMUG5ENm1Zd0R0QmlhV19iMGhvQVk1ZnhzZFlaLVN1ODNPN3N2SHhndS0wWDJmMTFRT2ZRVktPMUpTRmRUbUl3MTUwR0R2ZVlyWnFrZERKVWZ5eWF5V3M1ZlRPeThmOFpUVTl4a3ZBWmJEeHZmbF8?oc=5",
+      "pubDate": "Thu, 23 Jul 2026 07:05:39 GMT",
+      "source": "MBC 뉴스",
       "category": {
         "label": "🟡 MARKET",
         "color": "#f9ca24"
@@ -29,61 +57,36 @@
       ]
     },
     {
-      "title": "현대차, 2분기 영업익 2.8조원 그쳐...전년비 20.8% 감소",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9OUk5NSjVYX255dENTZEhfUmMzUFpVMy13ZTNmekNKMTJqeWZFZXZQWlRiUUhCemFyeGRuS2g5NjhRaHVpMlBkVUlqRjA2V3c?oc=5",
-      "pubDate": "Thu, 23 Jul 2026 05:10:11 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "현대차, 2분기 영업익 20% 감소한 2조8천억원…컨센서스 하회(상보)",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE55TUMtSDFhdFkyaEs4c0JwUDBkMUF5TTZpNFNIbG5MOC0tcWZDZHhBcnpPclNvZnNqdXlmYzRmVmFQRG8xS0hROG1peExjanhnaElHcVQ5S3NITGxkd0RfZ3JFUjRBaFl4ZkZpR0RfYWg?oc=5",
-      "pubDate": "Thu, 23 Jul 2026 05:07:08 GMT",
-      "source": "연합인포맥스",
-      "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "[속보] 현대차, 2분기 영업익 2조8509억원…전년比 20.8%↓",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5aUkYtdmUwUzBWTzFObElqcFc2YjdnbmhELXlad3N0TVgwQXFCcmp0bDNRdS0tTFRnOTE4WmtROGczek04akRTeHdkRUVYaWllLW5LbXlPYktWQ3pv?oc=5",
-      "pubDate": "Thu, 23 Jul 2026 05:06:00 GMT",
-      "source": "뉴스핌",
-      "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "박용갑 “대전에 국방반도체 공공팹 구축”…산업 클러스터 조성 추진",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBZRnoxMlJlS1BMVEQ1Tm52cG5Mc3ZWRjN3TmJuMlQtVFNBQVRsZWxfN1NHRm8zYUk0dWNrUzBDbTlqSGNBMko5Y3ZfWHp2Zw?oc=5",
-      "pubDate": "Thu, 23 Jul 2026 05:05:34 GMT",
+      "title": "[컨콜] 현대차 “부품사 화재 정상화…하반기 신차로 만회”",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9scTlQUnBuYjBPMkM2TDVFVl9HR1ZrVUZkLThTWFVWRmdqVUxUSnJQTlY3SnAwdE1GNzI2a3UtdjVGRGFPX05kdEROb3JvUQ?oc=5",
+      "pubDate": "Thu, 23 Jul 2026 07:05:29 GMT",
       "source": "전자신문",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "한국 경제, 2분기 3.7% 성장…반도체 수출이 건설 부진 상쇄",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5QZEZwRVh4NVRqVlZObTQwdVdxSlNPMTBmMW5XVHZZVVVYd1llVVNhTjJOUDlPM3RRbUpSbTE4Mzl3ZGIwR1NIVlA5T1pKUlp5T0lySFpIRGxFQlozMW1zaDQyQ0JiY2JvTHpyMG1SZ1Y?oc=5",
+      "pubDate": "Thu, 23 Jul 2026 07:04:10 GMT",
+      "source": "굿모닝베트남미디어",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
+      },
+      "impacts": [
+        "리츠",
         "삼성전자"
       ]
     },
     {
-      "title": "현대차, 2분기 매출 49.2조원 '역대 최대'",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBZNElwU285b0pBVFRFVk1KR3ZYUEVJaE8xdWNwQUZZNFNxUHhvd3dLWGgxVHJuYTV1ZHNRRngxYm9yeHdldnkza01pVGFYcGs?oc=5",
-      "pubDate": "Thu, 23 Jul 2026 05:05:29 GMT",
+      "title": "현대차 매출 ‘사상 최대’ 찍었지만…원자재·화재 악재에 영업익 20%↓",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5UakIya08taW5SdGpqeEhic0s5MzdhdTJQLThaQm5YMldsMVF1UWlIS0NualVfSVdmSDQ0RFJKLXlEYjhqRTkzSXJEOERGblU?oc=5",
+      "pubDate": "Thu, 23 Jul 2026 07:04:09 GMT",
       "source": "v.daum.net",
       "category": {
         "label": "🟡 MARKET",
@@ -94,36 +97,37 @@
       ]
     },
     {
-      "title": "현대차, 2분기 매출 49.2조원 ’역대 최대’",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE4tNGVIS2cwcHlPRFRodTFxSEFmTS0zSVlKa0x3cUpPNWR5aHRGcDNSeER5RVVmMnc2WGZZd1lyaGpnSFJQM1NYVURtMnJoN2R0eHRJdlptVkZ6Ukc2MFlzcWdORkpZT2c?oc=5",
-      "pubDate": "Thu, 23 Jul 2026 05:04:00 GMT",
-      "source": "연합뉴스TV",
+      "title": "현대차 \"올해 판매 목표 어려울 수도…유럽서 중국 전기차 공세\"",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBmX2dUSjRmdHJtVUd2V1pYZFZ2ZmxnX213ZDFwQ3dldkFLUS1Dc3JfUV9BUjdscmRFX1BROTJwUjc0M1dHS2xuMDNRdmRMOVBWM1p3djhvanVWblVXUUpKWkUwMk5rem1RR0lnaU83dVZ3Z1NS?oc=5",
+      "pubDate": "Thu, 23 Jul 2026 07:04:06 GMT",
+      "source": "연합뉴스 한민족센터",
       "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
       },
       "impacts": [
+        "테슬라",
         "현대차"
       ]
     },
     {
-      "title": "[속보]현대차, 2분기 매출 49.2조 '역대 최대'…영업익 20.8%",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5xMlFGNTJ5ZDk4MWZlc21naU5KbWQ5NDI0SklDNURrbm1ERkNtNkt3SDJ4M1pxZjFoQTZsb2hmUEZXTzFLdTJTLUp5VzIyeXVHWWpiU3hSeHFJVmpGXzR2OUZDR1lVZ3BuYkRkUQ?oc=5",
-      "pubDate": "Thu, 23 Jul 2026 05:01:59 GMT",
+      "title": "美 빼고 후진한 현대차…신차로 하반기 반전 노린다 - 머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5vNzI4bzBIZERIOG1oRlpsRFl5X0sxdnBYZHhXU3plcmM0R01UTTk0cThvWGlXanpKVnNmTU5fVGZCQURsTHdKY0xhSDdGMVlEeE5YX3JvbS1xd0VNaGNkZzZ1bVZIWi1uQ2MzetIBckFVX3lxTE5EVlYtOUJrS2ZRZkNaSkZYMWw4QlBFazNuQVRfV0JVdUlpWmo0VVpZT3B5THZmLXdUczVpOE1hdnZ2VXQtVWl6dnpHellLTzc3WEs1MDJHdVVJdXB2TFdZek1Lb2o0UlRjTlVJR0VfT1Budw?oc=5",
+      "pubDate": "Thu, 23 Jul 2026 07:02:47 GMT",
       "source": "머니투데이",
       "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
       },
       "impacts": [
         "현대차"
       ]
     },
     {
-      "title": "[문정현의 글로브] 반도체 '롤러코스터 주가'보다 걱정되는 것",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9TRVFRVlRiLW9qZDRMZjFRSVhIaWNaLXRQb0tQTklpVzNlaFM3cGd1NlE2YVI1dFlZUno0Mk1zYlpUem5Cb1dqdG1YTHlXWFpia0tqcjZqbEhJR1JkQ2Z0UEd1VWJrSTBLSXB6Q1lZaGU?oc=5",
-      "pubDate": "Thu, 23 Jul 2026 05:00:22 GMT",
-      "source": "연합인포맥스",
+      "title": "[갤럭시 언팩 2026] 건강 징후를 지속 가능한 변화로 연결하다…삼성전자가 파트너들과 함께 그리는 ‘커넥티드 케어’ 비전",
+      "link": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxQVlo0akhiOEQyQTNaUGVKSzMzUFBlYkN3SDdmNFpWcDlzOGRSQUFvNDhNY0FEYUhybHZDWjEwUUstdUl1NF9GQ29jVzVBa3RTaEk2RmJyYmpXZ1lyMk5JR3d4Tk83MDVNbklGNTFDZ1ZUV3F5cDZhVkhLZVhmTmdXX01iZ3lmUlROelpBNzNlT0pGWnNHZlFYMUM4YkVvX0xCVmY3ZFppcXdwckdyS09acWU4alpMZlpCRVktQkxlMEg2U255UTlaTXRyTjVPYmI1WlZfT2xvMzlSRkZpLXBfc1NGc2Fzc2NmbFhEYlZxS0NtLUdKX0lNX3NidE95akFBTUNTZGlXa1RiOTUwMlJ1UGNjR1NtcUlXM3FDTS1sSThDUDY3c3QyaURlbUFVM3BvSFNndGpoM0dkbUdBY1E4NkNn?oc=5",
+      "pubDate": "Thu, 23 Jul 2026 07:00:00 GMT",
+      "source": "Samsung Global Newsroom",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
