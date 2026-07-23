@@ -1,50 +1,92 @@
 {
-  "timestamp": "2026-07-23T10:17:04.130821",
+  "timestamp": "2026-07-23T12:17:04.444680",
   "count": 10,
   "articles": [
     {
-      "title": "현대차그룹, 브라질 사회공헌 확대…환경·의료·문화·교육 아울러",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1pNzRFY0N0bmhQcWw4TUF6N3haSHRhNG1fN1paTWVoaW5hNHpITm5BcFdua25JanlSVHk0dlNPT0wtUUhpV1VBcmo2M29UbXF1a2xnV09n?oc=5",
-      "pubDate": "Thu, 23 Jul 2026 01:10:59 GMT",
+      "title": "“국방반도체 국산화 전폭지원”… 당국, 실증·R&D 전략 확충",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFAwOXRJZWJCRGdQVTM5blRSMjVzSEhTZzFUSXN6d25XWjVtSDFDOFZYTHhIX1RWZ0FEdk80bzZFWnhKeFJFS0t2MU9ORWtmTlBT?oc=5",
+      "pubDate": "Thu, 23 Jul 2026 03:10:07 GMT",
+      "source": "문화일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "현대차그룹, 브라질서 숲 조성·의료봉사… 사회공헌 늘리고 11억달러 투자도 ‘착착’",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9DZE5rekMtelFscVhrN25DY2ppVHpORFlneThUTGVKZzZLbWlHTFAxblhucC04Z0tSNTZIeXBpeHVIeGVOZHFGXzlKNEp3dVRV?oc=5",
+      "pubDate": "Thu, 23 Jul 2026 03:07:57 GMT",
+      "source": "문화일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "환율",
+        "현대차"
+      ]
+    },
+    {
+      "title": "2분기 GDP 0.6% ↑… 반도체 호황에 깜짝 성장",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFAyQy15cmdRR2t3VjNmd1hnc3RwMUo0ZVZHUWhBN09zREl1SDl6azdjZTRFWloySnE1cmpoVnd1LWVZREZ1NEx4MGN2T3hmanll?oc=5",
+      "pubDate": "Thu, 23 Jul 2026 03:06:22 GMT",
+      "source": "문화일보",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "반도체發 국내총소득 폭증, 재정 절제하고 물가 잡아야[사설]",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE50YklCUXg3SnNhNGpMVGZPaEt1Sng3bEtYWWlNc3VseWtOOV8zSjVvQS1jMG9HWmFpUUpOSzNqVWppbHBUVkFNQ1B6bkM3bEkw?oc=5",
+      "pubDate": "Thu, 23 Jul 2026 03:02:22 GMT",
+      "source": "문화일보",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "반도체 호황 韓 “1인당 GNI 4만달러 가능성”… 건설·농어업 등 역성장 시름",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1tRmRaRXRKYkhMUmdjcXhCLVlveURKaEFJTmh0Y3dBMnpIajBUbWJfbzN0S2hZOWVhdWlLZGRvTmxjR0RpQ2otOWEtcS1WQVhV?oc=5",
+      "pubDate": "Thu, 23 Jul 2026 03:00:14 GMT",
+      "source": "문화일보",
+      "category": {
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
+      },
+      "impacts": [
+        "환율",
+        "삼성전자",
+        "리츠"
+      ]
+    },
+    {
+      "title": "삼성전자 노사, 성과급 일부 사회공헌 추진…회사도 매칭 검토",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1RRzRheTRoNXl1UC16aDlkeFJlSEI0bXFXNklPZUFHUEUtcmh2QmUxeHZEUjgxS3BTeF92S3V1UU9xMmRsa3paWjZkRTdkc0FCMWhrNDln?oc=5",
+      "pubDate": "Thu, 23 Jul 2026 03:00:13 GMT",
       "source": "중앙일보",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "용인 반도체 산단 전력 공급 11년 앞당긴다… 김성환 장관, 현장 점검",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9oV3BvZDFhanVIcHdaeE9VR2FwSUZzT1ZzNDJBcFQzMGstbC1tVFhDaVpVMzYyNXFvQ0NQUFFEdWhoYm9yZlVzekd6ZUxadzY5MWZYak93UTJWNUl5VGc?oc=5",
-      "pubDate": "Thu, 23 Jul 2026 01:10:03 GMT",
-      "source": "기후에너지데이터뱅크",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
         "삼성전자"
       ]
     },
     {
-      "title": "아산시, 정부의 ‘3대 메가프로젝트’ 실천, 삼성전자와 ‘상생 발전 협약’ 체결",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFByOFVweUZseVo2X2JxQzVVTnQtamFLaEFmZktxWWNrT1UxUG5nZWJialBGSWFWeG5lcUNWaG9HQXNVeTkzT2RtRm1FVmVqdF9fYUhRTUZuVnVmZnc2MXM2Tnl0ekhxSHpfVHg0?oc=5",
-      "pubDate": "Thu, 23 Jul 2026 01:04:02 GMT",
-      "source": "충청뉴스",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "이상일 용인특례시장, 용인 반도체 국가산단에 대한 원활한 전력·용수 공급 지원 경기도지사에 요청",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5BYjBfaERLUzQ1QllESDRPbllQVHI0YWxQNWE0LTJ3Z3FGdWpscmRuV2VIUjNpZUpUS3g2RGp4RWxzenNqS3prOXJQZUtBQVE?oc=5",
-      "pubDate": "Thu, 23 Jul 2026 01:00:09 GMT",
+      "title": "반도체·AI로 체질 바꾼 SK에코플랜트, 최대 2000억 공모채 발행",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE13YUtuald3TVVVVFNwWncySDUxUWpRM0hDaVo5X0ZIZWd2dWw3ekdfcTBWcElTRG5KM0h3emFlQkpsM0k0TF9va05adlhOR0U?oc=5",
+      "pubDate": "Thu, 23 Jul 2026 02:57:35 GMT",
       "source": "v.daum.net",
       "category": {
         "label": "📋 GENERAL",
@@ -55,64 +97,10 @@
       ]
     },
     {
-      "title": "2026년 하반기 국내 증시 전망 | 반도체 급락 이후 주목할 업종은?",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQaWRRY1ZEa1AyV1did3Jua3I2TVdjbkxVSEpud28tcElSTy10bTlZTWVpNjU2R2ZCZTZUM0x5eGZRMkRaejRkNmJwN3o0SXp5cDN1SWljT3NxZkwwRXV5Sk9Yd0VuemYxYzZ5ZngxWHotOHdBTkE0OEJnQTd6d1BfNV9rcw?oc=5",
-      "pubDate": "Thu, 23 Jul 2026 01:00:00 GMT",
-      "source": "KB Think",
-      "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "비트코인 6만 5000달러대 정체…FOMC 인상 확률 34%",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1vaUEyWkRPTmF2RVAwS1JoNDZ3U3FLYkIzaDhkdDFaMTg4NFlFMFlxR3RnTlZLdGpMbWVOVWgxYV9uTkRMTUx5YXJuQlpjbjVYcGZ6V3hIUlpOaUE5aHRJMU0ybXU1R00?oc=5",
-      "pubDate": "Thu, 23 Jul 2026 00:58:59 GMT",
-      "source": "자본시장뉴스",
-      "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
-      },
-      "impacts": [
-        "환율",
-        "BTC",
-        "채권"
-      ]
-    },
-    {
-      "title": "반도체 호조에 2분기 성장률 0.6%…연간 3%대 성장률도 가시권",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBZX0tfVGlHVTlLM0ptR3hOajk5VTNSMXhQRDJIOUhEUjQ0ZXBkd2dPSzRmQ2pUeVVnclV2RXNVMmxrU0dqdDhOSG5LSjJ3RzFRRGU1M3RR?oc=5",
-      "pubDate": "Thu, 23 Jul 2026 00:58:03 GMT",
-      "source": "중앙일보",
-      "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "AI 반도체 호황에 충남 수출 반년 만에 1년 실적 넘어섰다",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBGWVExdlc1RzFlQXVaRlBESmdlYmI4TDNjTjhlU0w1NWZwWkZwOXd4RC0xU3VvN2dpTmwxdHZIQWd5d2RxRjNQNUoyeDB3ZlM4UEYyWnVYX1ByUdIBX0FVX3lxTFBLU2twcXRjakpZSmFfVlA4b0VSVWE1RDVwSEY0R2RTbXNza2pEZUQzN2N3V1N5RkxkaEx2TXBoMXo2UHdlb19XcUR4YjhsdDljX3NTeXp1Vm9NUzlfekY4?oc=5",
-      "pubDate": "Thu, 23 Jul 2026 00:58:00 GMT",
-      "source": "경향신문",
-      "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자, 런던서 갤럭시 언팩 2026 행사",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9ZLWhzM2FfSW55Q3dKZUlibGt5bWVfZTJXMzktQXpfcVdSTXh5SWloVGlfVm5ja0htWGJRU0JUU2t6dklma2FfM0hzZUNuRmNWeU5NUzY4NVI1dG0zVkEzamNB?oc=5",
-      "pubDate": "Thu, 23 Jul 2026 00:57:00 GMT",
-      "source": "미주중앙일보",
+      "title": "“피크아웃은 없다”… 구글 AI투자로 힘받은 K반도체",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5xOHROWUI5QTN4eUVQLVB1dUl4VlBMbjM0Uk5zSWNHclQ1MC1QcV9XcC1VQWJ1bkJpZW0zY3IyQWt6eTdDRDZnQkVfdTc3azd4?oc=5",
+      "pubDate": "Thu, 23 Jul 2026 02:52:05 GMT",
+      "source": "문화일보",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -122,18 +110,29 @@
       ]
     },
     {
-      "title": "비트코인, FOMC 앞두고 6.6만달러선 횡보…그레이스케일 \"바닥 가능성\"[코인브리핑]",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5mVl9BRklvWjM5b2ZRakMzQWcwd2U1WFRVMnEwWXdLMWZiY245bDE3T0xGclJtVXpzTUxBcDk2SC0zRnYwZnlrSDBVRC11MTFyZS11djZlaVBHbXhBMExFajFPV29wZw?oc=5",
-      "pubDate": "Thu, 23 Jul 2026 00:55:10 GMT",
-      "source": "뉴스1",
+      "title": "“AI시대 견인 핵심엔 반도체 공정 기술”",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9fMUpERmRteE1wb1VNNVBfelFyaDFjemJGRjlNQjBNbHBaNDdLRVRmZEdndXNLMzYtNEg2cE1udU50THVjSWRwdnBUSFF3eTRj?oc=5",
+      "pubDate": "Thu, 23 Jul 2026 02:48:05 GMT",
+      "source": "문화일보",
       "category": {
-        "label": "🟣 CRYPTO",
-        "color": "#a55eea"
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
       },
       "impacts": [
-        "환율",
-        "BTC",
-        "채권"
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "현대차·기아, 인도서 '볼더 콘셉트’ 닮은 오프로드 SUV 디자인 특허 공개",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBGM2FDZGRDcHZKemN2Uk80a3U4a2Y5blV5UVB5czAzTlZWbzdIUm9IWkl4V29HTklfSnlsbHhKNjRQTkY2Q1g2N0tCazcwaXY3bW94U0xwOGp3VXR2UzhNYzVLcw?oc=5",
+      "pubDate": "Thu, 23 Jul 2026 02:45:17 GMT",
+      "source": "더구루",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
       ]
     }
   ]
