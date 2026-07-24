@@ -1,53 +1,118 @@
 {
-  "timestamp": "2026-07-24T14:17:04.024930",
+  "timestamp": "2026-07-24T16:17:04.749728",
   "count": 10,
   "articles": [
     {
-      "title": "[리포트 브리핑]삼성E&A, '반도체 수혜주가 맞다' 목표가 65,000원 - 현대차증권",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1XU1Nua1d1SndPV0lESDdDbElMNWJnM2sweWs0XzRydlpKUEV5TU9DTWFXSDZhTDE2RlZESVFEUjZJaE5JeGZsTlpaelRaWHR4RDZHYk4tVkpobWNO?oc=5",
-      "pubDate": "Fri, 24 Jul 2026 05:10:00 GMT",
-      "source": "뉴스핌",
+      "title": "반도체값 뛰어도 버텼다…현대모비스, 2분기 영업익 12% 성장",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5lV2FoT1RRS3FLRlhzWlFvbl9QRVBDc3dFYjJJckkzZ1JCNHF6YVJqeVZnLWxkaGpwTUg5cTFraXpYX3VWSnVqdDdiYW1UVHYzQmtfdk1ESXJWN3c?oc=5",
+      "pubDate": "Fri, 24 Jul 2026 07:03:54 GMT",
+      "source": "에너지경제신문",
       "category": {
         "label": "🟡 MARKET",
         "color": "#f9ca24"
       },
       "impacts": [
-        "현대차",
         "삼성전자"
       ]
     },
     {
-      "title": "비트코인, 유가 쇼크에 법안 불확실성까지...9400만원선도 흔들",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE80LTFUMlNNOGVqa2o2RTNzUnUzSnVQTVhIQVQwZEU5eW9mVVlkWGt2eDVkRDNBYnhxZ3otRnBGM1N4NjV4ODFUY3hpQU9SNVgxVGlSRDMtaWUxQ1JBeDNSajlFblNVaUpSVFRrZy1vVG0?oc=5",
-      "pubDate": "Fri, 24 Jul 2026 05:06:39 GMT",
-      "source": "한양경제",
+      "title": "반도체 피크아웃? 또다른 호황의 통로? 키미 K3의 ‘두 얼굴’ [질문의 기술]",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBiQVUyVjlKTHdDWExMNFBPX3pZZUN1ZkJISTlCb3FQc01ZS0Jna2k3N1ZMQ3N4VzJYTGRSdkN1OXpQUGtIUEhfYk5pWC1nNU5wa1pPb0N3VUF3cElWMzRGSmcxdURCeXlmZlpvaUtR?oc=5",
+      "pubDate": "Fri, 24 Jul 2026 07:02:25 GMT",
+      "source": "더스쿠프",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "비트코인, 미-이란 긴장 및 관세 우려로 6만5천달러대로 하락",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBhMVRXcHNoY2xmVG1ITEt0MDNqZ0otVlFacV9ucUhVWV93dHhRZ0lyNEw5YU5IYmhHTnZWcFA4ZWoyWXQxQm90bGYtNVBiZkdUSUk3UVQ1TUZlYkVwNXZXWEZjVW9IQ3lMcW9NOUQ1QUJnTlU?oc=5",
+      "pubDate": "Fri, 24 Jul 2026 07:02:00 GMT",
+      "source": "Investing.com 한국어",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "BTC",
+        "원유",
+        "환율"
+      ]
+    },
+    {
+      "title": "`호남 반도체 팹` 예정지 광주 군공항…이전 논의 제동걸리나",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1tOGRNb3EyM3h3cHdpT01sVUNON0MtVkhZeEYxY0tjdDNBY29ldm9xU3NsY3NkLVFXanRtWHR6R0hfZHdnXzVTZl9xQmZYMDdyNmdiN0xVZFhMX3YyS1lfVmhUWE0?oc=5",
+      "pubDate": "Fri, 24 Jul 2026 06:47:13 GMT",
+      "source": "디지털데일리",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "반도체부트캠프사업단, 하계 계절학기 반도체 공정장비 실습교육 운영",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5FN21OVG9lc05RUGd2UE9zc3lfeV9fYlFJVnRGXzR2cHRKWWRTZ1djQlJ0blVmcUVFWmVfWl90SUd5alFSWW0tY3pocV8xTEIxRE1PQVkwZFNSZmNPZ3NibFFMbkd4T1pvdWpHeFRFUQ?oc=5",
+      "pubDate": "Fri, 24 Jul 2026 06:43:13 GMT",
+      "source": "경남대학교 대표",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "\"AI 투자 더 늘린다\"...반도체 초호황 지속 전망? [자막뉴스]",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5SOEN0U0l1MnZxVnhqeFl6YVhjMnFIcTFtUXUzLVVSSHhBV3B6bFFhTWY5VFdaMlgxNHdiUzRqbFVqaVVpM1h4TTk1V0FVZ0lFYTd2cXdkRkRMM0hnVFE?oc=5",
+      "pubDate": "Fri, 24 Jul 2026 06:40:00 GMT",
+      "source": "YTN",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전자, AI 반도체 '승부수'…비주력 축소하고 핵심 인력 재배치",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4wTWlBMTNVTmw1WFlEU0lfaDhKVkZWek9hMG1teHpnNUpSSlJyVzlMRFYyQkRJWXk4a2R4NzFJZnhzWExTTjNXd2JncXhLdExNbXdUZXg5ck16ZERuRlFxQzgxLXBIUXA5bkHSAW5BVV95cUxPMk9LQ3RpT1dKWERFNzlWTENoajBteHdDbWV3OUVKQW9PbXc2cVRWZXFUQkJyazljMEVCWHc0RmNxQ1VuMW1ZNGkyUklfWkhWWkt6eWJwTWJnOWMxZ1RBeVFHWHVLXzNJTng5aVRLZw?oc=5",
+      "pubDate": "Fri, 24 Jul 2026 06:39:18 GMT",
+      "source": "뉴시안",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "비트코인, K자본 시장 심장부로 대이동 [홍익희의 비트코인 이야기]",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9Ed1hIR2I5UU44NnlOenFDZ01QSWI2Z0cxZFB5TzRPcGh6amZrWHltLVg0eUcxUEFUZTNTR1JNdUZBdURTR0l6ZEtjTUM0R1ZQX3ZyMw?oc=5",
+      "pubDate": "Fri, 24 Jul 2026 06:34:56 GMT",
+      "source": "매일경제",
       "category": {
         "label": "🟣 CRYPTO",
         "color": "#a55eea"
       },
       "impacts": [
-        "BTC",
-        "원유"
+        "BTC"
       ]
     },
     {
-      "title": "[車산업 HOT 뉴스] ‘매출 최대’ 착시 속 골 깊어지는 현대차…영업이익률 5%대 ‘경고등’",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE44YVlqc21DZkFlOUVuZUJoMjhYZTFzYTItcjJCTl95UXhJc2VCTExKaWE4ZGdtMzZQcjRZQVlueDU2YWxJa1hKMk9XMkNxU2pCSjBub2pib25FT2JBTWJZSFRDS2txbW9RSEE?oc=5",
-      "pubDate": "Fri, 24 Jul 2026 05:06:00 GMT",
-      "source": "비즈월드",
-      "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "반도체는 광주, 제조AI는 여수",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1qM3FmeVI5SkNFR3Rxa08ydkw3MDdWN2NWemJ4VGVqNnBRdzQ1MklHeVhPcEQ1WGh6VGFMYlVlRjRkMFB6UzhQdFd5MGVHNU5mbWRnVHFSRWdRdkt2VHp3Zi0xNGhfZw?oc=5",
-      "pubDate": "Fri, 24 Jul 2026 05:04:29 GMT",
-      "source": "뉴스탑전남",
+      "title": "“AI 체험부터 900만원 경품까지”…KT·삼성전자, 내달 3일까지 동성로에서 폴더블8 출시 기념 공동 이벤트",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFAxbGMtOUVObldBR3B3VUwxdUdud2phc3BiNDY2OXBzS3cyU1hqV2ZER3BoRU5ZR2QtN2t0ckZGRGVScjVhWmVOaGcxS1Nzdw?oc=5",
+      "pubDate": "Fri, 24 Jul 2026 06:31:39 GMT",
+      "source": "전자신문",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -57,80 +122,17 @@
       ]
     },
     {
-      "title": "넷마블, 삼성전자와 협업…'세븐나이츠 리버스'·'몬길: STAR DIVE' 스페셜 테마 공개",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1LVmlGU1ozV0NsSU4wVGpnaHl0LTN2NjI1UldFX2VZcmIzMVF5T201LVlfc212ZW5JbkU2Y0xSbWplaFZjQ2xpd1VGU3hOM3NNaG5CbEs1emc4cDdScEs1cl9QRXJlUQ?oc=5",
-      "pubDate": "Fri, 24 Jul 2026 05:03:38 GMT",
-      "source": "이로운넷",
+      "title": "반도체 6% 급락에도 '초고수'는 담았다…SK하이닉스·삼성전자 역발상 매수",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB6MDZvU0FUeGlkNXMtdFdRN2dxYkQxRmFOT25hSzBRTE1UNXQtQnhWbXhhSXNhUTNTWlRoWnFWZWN5bk9TZno2NXBwQVRLMzZXb3YzeUQySWVGbnV1TkMzNTItX3lRWDlm?oc=5",
+      "pubDate": "Fri, 24 Jul 2026 06:25:28 GMT",
+      "source": "ebn.co.kr",
       "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
       },
       "impacts": [
         "삼성전자"
       ]
-    },
-    {
-      "title": "현대차그룹, 강서구 '여명학교' 교사 건립 업무협약 체결",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE92Rm9GcXR4d053UGV3TmNYemhRQkZMbWdXbHNmTnBlZnNYdEpPM0R2U0dwd0RIVVJYWE1HYW5GSkZVMHBwd3pGVUJpS3pFdlUwNEZuZ011TjdwWWxzR2JxTmg2ajM?oc=5",
-      "pubDate": "Fri, 24 Jul 2026 05:00:14 GMT",
-      "source": "서울경제TV",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "탈북청소년 '여명학교' 20여 년 만에 부지 정착‥현대차 기부",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1LSThQVGtWRVg2SmNTSi1QSl8zRjRaUnhqSWtpdmhranp3VGVEUmVmeGJUWVZHbk5SQlhxaGNoeGJOYWtTV213RnVDZkhvcHY0MW0tWXlFT0dqMUJtdUE3RGhmbkZfTDFhY0lQOGRKOW5fanFmUTh0dNIBeEFVX3lxTE53SWFudzYwNEtuSWozNVQ4SVNiMDFnSkphem81dEx2N2ptVVk1R2NMYjdSQktnQWhhUW1mN2d5OVdVNGgzLXBCM2syemF5ckNGa3o0NTFrTjVadThYdXlBaHJIdExadmtvQUVaOWpaWU5rLW9TSk4wLQ?oc=5",
-      "pubDate": "Fri, 24 Jul 2026 05:00:13 GMT",
-      "source": "MBC 뉴스",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "현대차그룹, 北 배경 학생 지원… 교육 인프라 구축",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9WLUpJbk50b0ViZW5qbjZrZkF0U3pTdWpkY2p0TWF3X0swVkJ1cGNib1g0aFN1ZW4wZEZZekh0OEZEU2RQYXN0S3ZtTWUwcFdXS0VaM1gzN3dCMC1qeTBveTlDZXVkTHVqcVB6NWZWVFrSAXRBVV95cUxPN28xckZUeExfVHBiVGtKc0hOaHJsS2Qzb3BHVUxaSlhXVFZETFJoWkhGUHVJMlFpd2hlb0tWOWw1UU5ka3NFVE9GbGdnUmlDMkVWR2hVR2tQU3NETGhWNXVxdDFEWUNMNWl1UnZ1Z0dKaEZNeg?oc=5",
-      "pubDate": "Fri, 24 Jul 2026 04:47:09 GMT",
-      "source": "IT조선",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "현대차그룹, 통일부·서울시교육청과 북한 배경 학생 지원 나선다",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBqM2ZPVFc3TmNKSElpbkYtQ0UwMWNoR1ZRa0htX1F4WHRqQWFPejVCaGxFeWVBMTRoN3R6YU42WlpxWUlBWVNlaDYtZUxxczRfRW5McnJyRmVQQQ?oc=5",
-      "pubDate": "Fri, 24 Jul 2026 04:44:00 GMT",
-      "source": "브릿지경제",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "마우저, 2분기에 5000종 이상의 신제품 추가 공급",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE00TndMNXRPejF4Y1RoVkpTNU9RYXMwSE4ydmM1eDkyXzlBVUtRcGhPZnNyYkVhSFI0OE4taW9iRktMQ3NFQlc4b05ZOEtWRHp4MUF3eE5SZEl1X1NSWnB0QVhaYjh6akpK?oc=5",
-      "pubDate": "Fri, 24 Jul 2026 04:40:00 GMT",
-      "source": "테크월드",
-      "category": {
-        "label": "🟡 MARKET",
-        "color": "#f9ca24"
-      },
-      "impacts": []
     }
   ]
 }
