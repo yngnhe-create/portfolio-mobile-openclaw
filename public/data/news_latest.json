@@ -1,12 +1,52 @@
 {
-  "timestamp": "2026-07-24T18:17:04.260972",
+  "timestamp": "2026-07-27T08:17:03.797883",
   "count": 10,
   "articles": [
     {
-      "title": "현대오토에버, 현대차·기아에 3044억 GPU 서버 공급…“그룹 AI 인프라 핵심 역할”",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBqZlI4WGJtLXdKY1RCUVI1WTBZRjVxajZXelg3TExiRjJOUE45SDRaX2tsNDBxb01rcXZRaXp4N0F4UnE2cFZOcEJKcEVld0Fjd0hieF9sbmlPSm9IMkJhZ0MtY1pQbzJVanRQbHFB?oc=5",
-      "pubDate": "Fri, 24 Jul 2026 09:01:37 GMT",
-      "source": "아시아투데이",
+      "title": "에이피알, ‘반도체첨단산업기술개발 사업’ 착수회의 개최",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1pbF9LSDBnZGtJZEg0TGV4ZEJmZFhkVEtIcVFUenBmelV1ZXhjQUVYdkRxUGkxbWpNRnZWWWFYa0p2bDZkakNxU0Q4NlFIcEJoRy12ZC1lSm5YUldsMEFDTjBmdw?oc=5",
+      "pubDate": "Sun, 26 Jul 2026 23:11:49 GMT",
+      "source": "코스모닝",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "주간 암호화폐 뉴스: 비트코인 가격 방어, 엇갈린 밈 코인 향방, 다가오는 클래리티 법안 외",
+      "link": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxNYlRzMkNGQm5xXy1qRjVxVmU5MFdKNWFOMEFVdnRuQ2ozTXVNWGVoYWVYMjRyZ1lmWDZfaEJkUVl5TTFqbXRQMkJWTXRKcWdrS2dWVUp4RU9mY1hrOS1MczVHTFdJRHFPWnhfTFV5dHJFM01BZ0t3bnY5QWZDenRLTGdZQkhwMVBkWFQzQ3NtSlZHUnJVOUZUVnpiZXNqMzVfZURncE91UXROZC1lNWpVQ1cwUWc2T1dFR0d2UmM2NHNzWktpalozM05WZ1VUbFlqQlR2WTdrQU5TZENDclZSaTdkNDFkeEZ1NXk0NWM3M0FZRnZ3b2NwOC1NYUdYUDM2bmQwYjdBeUtGUWxoZ2dOb1ROeUtoYzRlenA4c3QzSTNHT1JtWFVwT29zT3g4b3F4U2VaYkV1WlhQNlNyU1BHWWtIZkdhVDBYaWJYR2dXMjhZMWJNV0xuOQ?oc=5",
+      "pubDate": "Sun, 26 Jul 2026 23:09:44 GMT",
+      "source": "Benzinga",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC"
+      ]
+    },
+    {
+      "title": "[시황] 미국증시, 유가 하락에도 반도체 약세에 혼조 마감",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9uRUNqVWpJZTNZdVZ4MVc2dVlNNWZUazJWSWdKUHJJQ0lZcTF2Mk56YlpXN0g4dmE5RmV1aHRYSXNFZjE4YWRZc1M3U0I0cWhqRlBaT2lxUGRJdHJ6UnNodmxB?oc=5",
+      "pubDate": "Sun, 26 Jul 2026 23:03:23 GMT",
+      "source": "버핏연구소",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자",
+        "원유"
+      ]
+    },
+    {
+      "title": "현대차 후원 동남아 최고 권위 축구대회 ‘아세안 현대컵™’ 개막",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNZXF0M1ZvQ2JIdE44YlBXZGFYN3R3aVdhWjR0Qi1UT2lTMUNFR09wVjJBb296TlNSeDNzTnMxT1EwN3k2SVNLVmFEQmEwSFBFeVVHelZUQTJaNGRpMC1SaWtjalNLQ1ljVlhTemZXcllTUjZ5Z3BLT25BQnA0aEVpMkdvS0tSUXFyTGE2Q1VsdlJzWEk?oc=5",
+      "pubDate": "Sun, 26 Jul 2026 23:02:34 GMT",
+      "source": "Hyundai Motor Group",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -16,48 +56,9 @@
       ]
     },
     {
-      "title": "국립목포대 화합물반도체센터-동신대, 반도체 우수 인재 양성 ‘맞손’",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9KcU1xLW1Ga1haZGhrekdadEtic1ZWYTJjNDVodnpla0IyMnZEVUtWTDNHQkhDc3RzZmY3Y3ktcnFucHlzMi10OHk1LURSMFduRFo0enRfQTN4LVRDS3k1WXhPTlEweFljS25ZVQ?oc=5",
-      "pubDate": "Fri, 24 Jul 2026 08:49:10 GMT",
-      "source": "호남타임즈",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "액트 “삼성전자, 시총 2.5% 자사주 매입해 미국 ADR 상장해야”",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBRTmduVlFoT3EzVFNTZkthVjdXM0lXN1pwVklBY3Y0Zy1aQlZFeHM5bUhDRWVKLU5Qc0JIbjk2UlE0SGh5N0VEZTZBeUVhTUlYaVU5SWlBT0xLZGFfaS1NajhR?oc=5",
-      "pubDate": "Fri, 24 Jul 2026 08:39:00 GMT",
-      "source": "디지털데일리",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "구리·니켈 등 광물값 치솟자 … 현대차, 공급망 밀착관리나서",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5ZTWF0VTBOeDdYZVlVWFhyRXdocjcteUFTVUNtN3hiYWtnNEFHWXVERERWMXI4SjRNYkZoNVFrNExWV0wyQzFPMTk2VlE5Q0U?oc=5",
-      "pubDate": "Fri, 24 Jul 2026 08:36:10 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "AMD, AI서버 개발 시동…K반도체 힘받나",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBMXzJjNXVWRXBqZTBKMkowYWVMSVp1ajZkVnQ1aHV6dDVnVjd1Q1BTcjJ4T1V2NUVDSmpOd05XUkhXSktMbTh5dHFQZEpnVTg?oc=5",
-      "pubDate": "Fri, 24 Jul 2026 08:36:03 GMT",
+      "title": "[단독] 들썩이는 호남...‘반도체 클러스터’ 규제 공백 5일간 300억 몰렸다",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE16czFGU0JSaXJTSDlaSUp2OWt6dDA4UWpaSTVoZkpNSi04dzhhWHN0NnI1S0NRRXVjdkZPSE5CSkpJdXpmNUFtSEhrRnhLZkk?oc=5",
+      "pubDate": "Sun, 26 Jul 2026 23:01:07 GMT",
       "source": "v.daum.net",
       "category": {
         "label": "📋 GENERAL",
@@ -68,49 +69,23 @@
       ]
     },
     {
-      "title": "김성환 장관 “한빛원전 6기·재생에너지로 호남 반도체 전력 충분” By 알파경제 alphabiz",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9GLUZCdUwxS3hNWDVKN3JtYXBkcmhsWnFSV3Y5X1V3SXJBSW5mSFJ4X055S0ZxaHN2MjFUSzRmNkRveFBRbzZoZk1qQ1dWS3ROR3BLRjZFMjQ1OG9XdGcwN3VBNDRKTVo3bWdvYy1uWW4?oc=5",
-      "pubDate": "Fri, 24 Jul 2026 08:35:00 GMT",
-      "source": "Investing.com 한국어",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "\"삼성전자와 HBM4 긴밀 협력\"",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1KZVU2M2psZkZObGIxSUhIblJuMWpKaUlHdXdGQjlST01xdExSTldOcXp6dkJDT2VqWEh4bnRGZlNEbWRSR3NFVHBJQ3dKd2pFQXBuazdCeXRsdw?oc=5",
-      "pubDate": "Fri, 24 Jul 2026 08:34:09 GMT",
+      "title": "MS·메타·삼성전자 잇달아 실적 발표…이번주 AI 랠리 판가름",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9NdlRETHlaX1NQblFLeVE5c0pUTm13dVJFU1Z6VVpFRHhyT2RrQ1JkYXVxS0F3V19iODF4M0E3LUYtZEFSMG5wZXY0dmdYaWxNVTRzZDYxS2xPdw?oc=5",
+      "pubDate": "Sun, 26 Jul 2026 23:00:02 GMT",
       "source": "한국경제",
       "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
       },
       "impacts": [
         "삼성전자"
       ]
     },
     {
-      "title": "현대오토에버, 현대차·기아에 3044억원 규모 GPU 서버 공급",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5ZTHFEUkJUN3otaTNrNW9mYzdVd3hnY1QxWW9CcXVCZUtDYlBxS0RfTkNIcllrZFlZRFNqanpBb0h0eVYxNkRPUGlWWF91ajg?oc=5",
-      "pubDate": "Fri, 24 Jul 2026 08:33:28 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "액트, 삼성전자에 주주서한 발송…자사주 매입·미국 ADR 상장 촉구",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBKVlJwX0NnNThNSmw2SER2UnA5ZnN1aFRGUTJuUnR3UVJqbXJZT0lnRjNxdDJyU1BrakNZNmtXa2dGSFgyb1JaSHRpNy12SVU?oc=5",
-      "pubDate": "Fri, 24 Jul 2026 08:31:02 GMT",
-      "source": "v.daum.net",
+      "title": "삼성전자, ‘아파트 전기 냉난방 시대’ 앞당겨… 고효율 히트펌프 검증 본격화",
+      "link": "https://news.google.com/rss/articles/CBMiugJBVV95cUxOMlVzalBYaDVrdU5uNWpMUXFDbmdzUU1nWHRSLXF0NXJmQXp3OU5wUTh1eW5hWFozMHM2anNKTHFjNEd5NWdld3pxU2w3ZXZ1Ny1rdENUQ2ZDWVJRdkM4ai01cGlac0ZadUU4NWhJZmFlV0MxQXpPeDZRbTk5LXhxcHJUaDdzTmZpVVdwM0tWbkhFakN1SmhDUE10Z3NCbU9NVTV1UENVWS1fSDZMdWJnSTZiQUJNenRiMi1qVnZ6WXpETEduUUpVYVoxR0g4OTR2cFJkaXk3V1hCRkQwck81QVlCdkZLVXZBZUVsM09DaGd5Yy1vTm0tLTFUT1JCVUdNa1Y1c0xYTW9TWE1nSUptcUp6ZFA4MVB0Q3ZLRHVubDFheDhVUng4RlRqR0JYMHpmN0JrV19qcmNEUQ?oc=5",
+      "pubDate": "Sun, 26 Jul 2026 23:00:00 GMT",
+      "source": "Samsung Global Newsroom",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -120,16 +95,42 @@
       ]
     },
     {
-      "title": "현대오토에버, 현대차·기아에 GPU 서버 3044억 공급 [공시pick]",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE16VGFoME1zMjNzci1JWnA1SXZmV05rZkZMRFE0djNVdUotMnF2ZUdIOXl5LUQxMWNUSUVsLS1jcFlIbzlPVWM4d2FhRl9nZmZydXd0RDhvdERJRTVValp1TnZHX1UtaTZYOEE?oc=5",
-      "pubDate": "Fri, 24 Jul 2026 08:29:06 GMT",
-      "source": "조세일보",
+      "title": "삼성전자, ‘갤럭시 Z 폴드8 울트라·폴드8·플립8’, ‘갤럭시 워치 울트라2·워치9’ 사전 판매 시작",
+      "link": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxNN1ZYNWNDNzlaWk16dHBYdUJrVjEzN0JZMmtKOWsxUnpqblYwbEdTbGQ4S1oxeEJmcmdFZVAyaTNPT2FpdGVKVmJuUFlyVTdWbFJqUUJqOW5aNGtFRnZ3NDc5SlBrQTJHSjlTOFlLcFh0OFN3TGg5WTNtNm5keWZxTFRXaGpuZEpnMkxZZHBrN0NUdjBqaG1Xd1JwT05FT1lFbGhCYnp0X2o5RHduTEJpa010em52c3AwTXNuVVY1NDlnVlNET0FoRVZkU1gyTjlIQzNTa2RlTEdZQlNCYVNNY01oRmxtMWdhU0FkRWY2ZVNva3c3MjhBUkhsby1YYkd6cnZ0ZkUySWduU3czcjdwQ3dBOUE4SllFVXpnQ3VnazdVb3Fmb0U5N21makZzZFhqOS11Z1JNdWc1enRSajlFWkhB?oc=5",
+      "pubDate": "Sun, 26 Jul 2026 23:00:00 GMT",
+      "source": "Samsung Global Newsroom",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
-        "현대차"
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[뉴스핌 이 시각 PICK] 삼성전자·SK하이닉스 2분기 실적 주목 外",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE94YlJqalk2MjlTQWFkVFAwYWdLZ2xZdDZzUld2TkdqdFJWS25UZXh0MmE5dE5ub2F3MFd1c25QZF9nd1ZTVEtGRkFoWktCRDJ4YmE4UFN6TkZhYUVu?oc=5",
+      "pubDate": "Sun, 26 Jul 2026 23:00:00 GMT",
+      "source": "뉴스핌",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전자 \"폴더블 숙제 풀었다\" … 플렉스 티타늄 기술로 Z폴드8 하드웨어 혁신",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5mY1AyRzc0VUhyaVU4Q1RpSVNDODA0aTlGWk5mODAwS1FjT3g4eUM2WXlWMGJpUE9TaHVaUHB3a2lkcm9vd0F0UGJVLXVrTHU5VU5QVWhWOGZIblp5TWNiakhCSlFqZTNuWkNlMnU3TklsZnpBU0M5by15TdIBgAFBVV95cUxNODhieUhhNDNhdlM2MkdqQ1BPaGJSeVFkbGhWSmw4NjJHTmoxMkZSWVlVdWNwUWs3RWhic0pvWThFcWdkYWFGYVBCelNPbE5ONGJqVXVQS29zTzRvejZuT0NoXzRwTGdkUlRhM0tIT2I1d21mQkxVYVVtelg1a3RrcQ?oc=5",
+      "pubDate": "Sun, 26 Jul 2026 23:00:00 GMT",
+      "source": "뉴데일리",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
       ]
     }
   ]
