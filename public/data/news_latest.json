@@ -1,12 +1,38 @@
 {
-  "timestamp": "2026-07-27T14:17:04.160940",
+  "timestamp": "2026-07-27T16:17:04.233261",
   "count": 10,
   "articles": [
     {
-      "title": "삼전닉스 글로벌 점유율 61%…대만, 반도체 수출국 2위 부상",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9SUFZmV0tlN0YwU1M5QWhDamoxQklKUDA0c0FaaTFiR1lVQXFkR1loZmFNbFRGbTI1eFg4b3NHaWFvYjN6cjNrZnlZVXhpOTg?oc=5",
-      "pubDate": "Mon, 27 Jul 2026 05:06:00 GMT",
-      "source": "v.daum.net",
+      "title": "현대차, 첫 한·중앙아 정상회의에 제네시스 33대 지원…국제 의전차량 사업 확대",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE55Q1NjR2NmMERmUlhtNDN4T0dsMDhpLUtpOFk1YW5scUdFQ3ZZUm5Qc2VaQXJnckZEZzlhaWxBbllXMDdidEJmaDhhY2dpYXdtWkh6LXhnOVJVUmdnV3B6U2hkYTFlWWNGSDk3LTNTMFNzdw?oc=5",
+      "pubDate": "Mon, 27 Jul 2026 07:05:28 GMT",
+      "source": "인더스트리뉴스",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
+      ]
+    },
+    {
+      "title": "AI·반도체 수요 타고 수익성 개선…두산 2분기 영업익 38% 증가",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQdExzd0c2X3dMRVloZnItM01yNnpWNWd5b1Z0WC1jTTg5dWl1VklDTGc4VXFhWlBPS3U3NTl3elEtVWtxbGduWVM0STdNRUZtWkZRcWhKcjIzOVNZbGJ0MVhtMzNtYV9Vb19FdFNDR1lESFAwbENnS0E3TEVESmctOHpYVGR5dzZyeG1pMENNVQ?oc=5",
+      "pubDate": "Mon, 27 Jul 2026 07:05:00 GMT",
+      "source": "조선일보",
+      "category": {
+        "label": "🟡 MARKET",
+        "color": "#f9ca24"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[이로운분석]AI가 바꾼 제조업…반도체 공급망 재편, 수도권 집중 심화",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5ieHBQZGZCNXJjZEl1M1JhQUkwM2haQlV1ZlJ5VlNKOUYwaDM4Q1NIZXoxaWxjdUFqWDV6RzN0SzR1dVZJc05MMzB2LU9zaDI5SDA4S2pzX2M0WlpobTlJdE1MY3BJQQ?oc=5",
+      "pubDate": "Mon, 27 Jul 2026 07:04:49 GMT",
+      "source": "이로운넷",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -16,23 +42,76 @@
       ]
     },
     {
-      "title": "현대차그룹, 청년 직무역량 강화 교육 'HINT' 1기 입교식 개최",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFA5NURVQWkwcG0yaTVRWWRiakkxYzg2WXJ4dGh2T3pvY1RsalIxR0FSMFNQem9ScnNJTDhZVktCcmFEUE1oVUhqdGtRTUdUdw?oc=5",
-      "pubDate": "Mon, 27 Jul 2026 04:55:28 GMT",
+      "title": "화웨이, 내년 반도체 유리기판 상용화 추진…AI 반도체 공세 거세진다",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9xOGxucXlfaHZwVG1ZUGRKcDZfNlNMVWZQTDFicDVIMU1ILUJCcE1ubkpMS0ZCeUR3UWdmWXNGcFhPU0ZuYk5zZjlVMWJ1UQ?oc=5",
+      "pubDate": "Mon, 27 Jul 2026 07:00:00 GMT",
       "source": "전자신문",
       "category": {
-        "label": "🔵 MACRO",
-        "color": "#0984e3"
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성전자, 등락끝 1.8% 상승 마감…하닉은 3.2%↑(종합)",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1UZ083UDdGQ0VlTEdFNHhGMWVUVUJyYzYtSFZiYmtoM042U0R2YXV1MVlubTB6dUpUSHJCU25HUm11QUE0RDZKQmVDYUJDNEU?oc=5",
+      "pubDate": "Mon, 27 Jul 2026 06:55:42 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "코스피, 외국인 '팔자'에도 1% 상승…반도체株 강세",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5TRXdOcmE3QUQzdUpZaTBzbm9tUWdSSGcwRkxiZzlBZDhoblNDVnNvazJzRy1pTVI5dl8wYUtMVlZhR0pYRWpsYWZ6cVBMb0E0cmxLX05Jb2hoQjBNVzQ4UklVal8?oc=5",
+      "pubDate": "Mon, 27 Jul 2026 06:55:39 GMT",
+      "source": "서울경제TV",
+      "category": {
+        "label": "🟢 POSITIVE",
+        "color": "#4ecdc4"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "韓찾은 중앙아시아 정상, 제네시스 탄다…현대차 차량 지원",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBXQ0xPQzIwZXg2RTJ4Z2tFSmlsSUFIRXQ2MW9tVTdyWXlJeVhCOXVFNFlZc1BqZXY5aGl2MmtOWmZ5aDZXNW5UOG5mUmlYYTVfZ3NNLUVOMVJzc2RLQ3duS01fMjZ0VzJ6MW9rczYxdmk?oc=5",
+      "pubDate": "Mon, 27 Jul 2026 06:50:26 GMT",
+      "source": "연합인포맥스",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
       },
       "impacts": [
         "현대차"
       ]
     },
     {
-      "title": "삼성전자 Z8, “7년 폴더블 노하우 집약”…플렉스 티타늄으로 주름·내구성 잡았다",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBtdS02cU9BZkFjcWRscXZBNzFSTWdhbWJXS0Z1X0lxVHJKZS1VcTZReU5MNjZabjluRmxyeW01VmdBeXZ6WmNIbFo5NWNaVGFhQUVqZDlMNF9EYk5mWWw4VHVPbEkxWDVYOFVQNkRR?oc=5",
-      "pubDate": "Mon, 27 Jul 2026 04:54:55 GMT",
-      "source": "아시아투데이",
+      "title": "[ETF 특징주] 비트코인 ETF, 연준 금리 인상 우려에 자금 썰물",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE13Q3c3TWZhUGJ5bXZVZ2F2X1k3TG15ZTFnLVMyOUFsazg2STFpa1hud3ZfVVVlalFYaXVROXdVUjRiUXIzUXEzb2ZST1pXb2JfbGxYazctVGVRblpj?oc=5",
+      "pubDate": "Mon, 27 Jul 2026 06:47:00 GMT",
+      "source": "뉴스핌",
+      "category": {
+        "label": "🟣 CRYPTO",
+        "color": "#a55eea"
+      },
+      "impacts": [
+        "BTC",
+        "채권"
+      ]
+    },
+    {
+      "title": "[가보니] 새빛가속기, 반도체·신약 개발의 '눈' 된다",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9HcF9Yb0tZMGpCUlFvRmxrdWV2RkVWOTVQbWR2U3p4bkJnRzVjWjRVMm5kSldYWHhDaGlZZTNxbnBLbFdRckVEUG5sVXVUMHM?oc=5",
+      "pubDate": "Mon, 27 Jul 2026 06:45:55 GMT",
+      "source": "v.daum.net",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -42,94 +121,16 @@
       ]
     },
     {
-      "title": "현대차그룹, 청년 직무역량 강화 프로그램 'HINT' 출범…미래 모빌리티 인재 육성",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5QS0pXVFh2QTY4bU1pSFVIS01uSzJkcnlPWUNFeFpTVW54XzBwUi00SFJvVUdYQ3Q4SXNEYlVpdURpVFdJVnVsWmtWVnpKc1cyZ2ttYVNYc3hHb1M0U2JqdTJENWVvdmVEaHR0STNWbkg?oc=5",
-      "pubDate": "Mon, 27 Jul 2026 04:47:35 GMT",
-      "source": "신아일보",
+      "title": "현대차그룹, 청년 인재 육성 'HINT' 1기 합동 입교식 개최",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9ZaG92dnAwREFhOEgwTXdTcEdCRFJEZUNWWmt2SnlnNGdBcm9PQ2kyYlF0bkJkZmZyVnM4X1RkaG9EWE1idGpvUU9BN2kyVy1ReWxpbkdidGlCNDl2UGhKYXI0Q2g1NEIxSFE0?oc=5",
+      "pubDate": "Mon, 27 Jul 2026 06:45:45 GMT",
+      "source": "BBS불교방송",
       "category": {
-        "label": "🔵 MACRO",
-        "color": "#0984e3"
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
       },
       "impacts": [
         "현대차"
-      ]
-    },
-    {
-      "title": "“반도체·바이오 경쟁력 높인다” ‘꿈의 현미경’ 4세대 방사광가속기 착공",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE92MnRvcjRyQWhCS3hiWUNld3ZnV2xZZEFzaUhOMk5HM2E4REk5THFhbWo2bzdFWkxiZVBkeGo5dTJhX05OcGVkV1Q5S2ltQWhjSmtjU29n?oc=5",
-      "pubDate": "Mon, 27 Jul 2026 04:45:12 GMT",
-      "source": "중앙일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자 \"HBM5에 2나노 공정 적용\"…속도 50% 향상 목표",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBHLUtmR0owZVJDMjJqcGg1NzV6MGdvMkM1b0UxUEQ4anJGbVctM1Y0OHNKdUNadDltSmtlQ1Q1cm9KLTdQNEFROWJNNUdlemc?oc=5",
-      "pubDate": "Mon, 27 Jul 2026 04:42:07 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "삼성전자, ‘갤럭시 Z 폴드8’ 시리즈· ‘플립8’ 사전판매 돌입",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB1OE9UUV9zSzNFVEtZTnExVkJkdGhhV292QUhVamh5OEZMaW9IX093MEd4TkZIZUgzYm0yejNQLUtWRzVPQ0h0R0g5cmYycWc?oc=5",
-      "pubDate": "Mon, 27 Jul 2026 04:39:05 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[뉴스프레소] 美 반도체 급락 후 나스닥 선물↑… CXMT 중국 상장, 수급 블랙홀? - 머니투데이",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4yanpwUVpUd3owY21Sam8tejRvenV1NEpxR2d4UFNyVzg0WTQ2ZnQ4MEV4aWRtbHVuemJtZFdUVG0tNDdXZzRzU0Y0dTBGQUthRUxtaDZvdXdwNzZpWm5BdlQ1Q2lwalRI0gFuQVVfeXFMUEs2NlZlZWxhdG1seHNVQ2dlN2p2Tzg0NFNWcVJUT2FYdVNmTkJMWUpWN0EyQTlGQW1sZ3Z4ejliR3FiNGx6d2Y5blBTR2Znd21Rc0tZV25EQXllU2JUc1BoelVGRjRUOXQyWFdDQmc?oc=5",
-      "pubDate": "Mon, 27 Jul 2026 04:33:30 GMT",
-      "source": "머니투데이",
-      "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "반도체서 철강까지 번진 ‘N% 성과급’ 논란…정부 가이드라인 ‘속도전’ 필요 [기자24시]",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5WVUNyd01takpmUk5JZXZkeWNrclZQT0RQVFBDTmUzNkdPaG1TbHBXWl95UmhLanU2dHlLU3FxNUF4RkE4VzRYRnktTnhWRU0?oc=5",
-      "pubDate": "Mon, 27 Jul 2026 04:30:05 GMT",
-      "source": "v.daum.net",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "중국 반도체 CXMT 상장 직후 주가 470% 폭등…본토 시총 1위로",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5Xa0EzcS1HcEZ1blVrVlB3dGdwT1JhZVlZNzhFVUFtdzJfQUhCWExqbnp4SHlXTnVnMWhLREo2WTZsRF9aNXBKWHVHclZ2TkFPS0tmR1JlSHlzOWRSZVFOOThRakFSTEZGcnNZUg?oc=5",
-      "pubDate": "Mon, 27 Jul 2026 04:26:00 GMT",
-      "source": "한겨레",
-      "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
-      },
-      "impacts": [
-        "삼성전자"
       ]
     }
   ]
