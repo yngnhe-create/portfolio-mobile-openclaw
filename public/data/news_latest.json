@@ -1,76 +1,39 @@
 {
-  "timestamp": "2026-07-28T18:17:04.433189",
+  "timestamp": "2026-07-29T08:17:04.825339",
   "count": 10,
   "articles": [
     {
-      "title": "증시 덮친 中 반도체자립 공포 … 삼전 -13% 올들어 최대 낙폭",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5Nb1phUGRxUm94X2ZmZnlBYnpyZGJrTUlQNV9UeTV1aGxIMU1LUUFqbGMtV3VDNlB1Y25Zdlo2WUJXcFhvR3FPWDdkSlVLbURma2c?oc=5",
-      "pubDate": "Tue, 28 Jul 2026 08:59:08 GMT",
-      "source": "매일경제 마켓",
+      "title": "[뉴욕마켓워치] 중동 한숨 돌리니 중국이 반도체 타격…주식 혼조·채권↑달러↓",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1IT2RGQlJYQ0c5SEZDNzFxQ241bl90Z2tjN2dabXN0MmZjWlBxNnFyM0d3eWpGREZ1amFMY2pqbXhNOG5wXzRDZ3F5djBQLTFraHg1cnphT1JwS2JxV2ltRllVX1dOX2hFUTFqUDRhdEY?oc=5",
+      "pubDate": "Tue, 28 Jul 2026 23:10:24 GMT",
+      "source": "연합인포맥스",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
-        "삼성전자"
+        "원유",
+        "삼성전자",
+        "환율"
       ]
     },
     {
-      "title": "\"AI투자 최소 5년 이상 확대 … 中의 반도체 굴기는 위협적\"",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5qRXR3VlBEdWFlZFpCYjBhcFY5blY0WDRiMjhoYjJJXzFRc2p3QURheXhxVDJsNlY3RkRneFZXLV9vc2NnS2lIS29zV05nWnQ1cnc?oc=5",
-      "pubDate": "Tue, 28 Jul 2026 08:54:22 GMT",
-      "source": "매일경제 마켓",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "코스피 때린 中 반도체 공습 시장 떠받친 개미도 체력 바닥",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5xZHNMWWVHdDJjOXJsWjBpVkJidVJ0cmJVWnBGclFhRml0TmJvOGo4WkhxaDZDcFlXc0ZMcHFmOHRybGJJNXd0cEt1aUJsS1pjNWZqOXBiczBlZw?oc=5",
-      "pubDate": "Tue, 28 Jul 2026 08:45:09 GMT",
+      "title": "반도체 탈출→순환매…메모리 급락, 보잉·코카콜라 신고가 [김현석의 월스트리트나우]",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5MeTgwNlJpQmJJTERlXzdyS0l6QXJtWWIzbWFPZ3pzVnJJTlczM2JYelN4TDFkZ21QZ1V0QW5UTENvcDZMWllyV2FRU0xTM25jREd2cGlzeHpsdw?oc=5",
+      "pubDate": "Tue, 28 Jul 2026 23:08:25 GMT",
       "source": "한국경제",
       "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
       },
       "impacts": [
         "삼성전자"
       ]
     },
     {
-      "title": "中 자체 DUV 노광장비 양산 시작…반도체 장비 자립 속도",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE10TDEtR2lvQnBQNFRGSWZyTGR6dmZxdS1XVGh3X01JNzA2bHM1ZmI5Nl9GOVBEbnUweENiMmcyMV9Lb3N3TzdFSDU4d1F0Z1lZdmpyN3RB?oc=5",
-      "pubDate": "Tue, 28 Jul 2026 08:43:00 GMT",
-      "source": "중앙일보",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "중국 반도체 굴기·미국 AI 수익성 우려 겹악재에 코스피 속절없이 무너져",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5lMUJ0RXhGa1JjVjkzYThoT1hNcGYzT3JwRzI2OVI4M19uQXRPUWkwUVBmZGJuN1RGNnc3bzVDTkxJR0M3cUtyeHk4RlVHeDFacV80dURnZDhDQ2l5dGhfSHlhWE01ZmxTU3M3eTlNYllwUQ?oc=5",
-      "pubDate": "Tue, 28 Jul 2026 08:41:00 GMT",
-      "source": "한겨레",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "대학 칸막이 허물어 반도체 인재 매년 6000명 키운다",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5ESkpVcTVXNXUtcGJTZjFfTU5SVmJnU011a3ZUbWJwcDVGUHM0NjBBZndVZVNkdFFqRWV1ZlliNXo5Vy1rQkU3YmlpOWp5RW8?oc=5",
-      "pubDate": "Tue, 28 Jul 2026 08:36:03 GMT",
+      "title": "中 반도체 자립 속도…노광장비 국산화·메모리 신규 투자",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5mNmNXd0M5Tk1sdThsUTJRdjZ2X2JPTEY4Nzl1RFZDMFBfSlFPN3huNy1tUW52cUtpbTl2S2FrRENYcXJhWVBhVjNTN01EMGM?oc=5",
+      "pubDate": "Tue, 28 Jul 2026 23:04:54 GMT",
       "source": "v.daum.net",
       "category": {
         "label": "📋 GENERAL",
@@ -81,10 +44,10 @@
       ]
     },
     {
-      "title": "일본 구마모토 7.1 강진..인근 TSMC 반도체 공장 비상",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9aZHJMMWxqOVp0bVg4Tm5EQzE0ZnJQdmRMcUtZNEhxLWg4NnN5dXRkS3NXV1hHakxsOXFfQmh0LVd4ZVRpTXFfVzk4ZWpyaUJiTHdyd1R5SXh5ZmlQWk9VRTAyY2g?oc=5",
-      "pubDate": "Tue, 28 Jul 2026 08:32:06 GMT",
-      "source": "포쓰저널",
+      "title": "구마모토 강진에 TSMC·도쿄일렉트론 등 반도체·글로벌 공급망 '비상'",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPSE5sZnF6RWRLcVhYSkNjNFh4aHZJcXVxQ1hNbmo5WEhZZVhReDlMOXhJWVVaREdZS0g3aUljdTh2b2F4R210bFZjVG10d3JBbXNuZDh5U0hYOEs4dWY5aFk3U0Y5WnFBdnpiU3RUYVl4SndXZVJjLUFGZ3c2WWZuWm95ZTlZdjNU?oc=5",
+      "pubDate": "Tue, 28 Jul 2026 23:02:24 GMT",
+      "source": "글로벌이코노믹",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -94,10 +57,38 @@
       ]
     },
     {
-      "title": "삼성전자 17년 만에 최악…증권가가 꼽은 코스피 '진짜 리스크'는",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5YWFpBazg2dUh5ZzhYbjFNT2xScjZnTjZKVVg5VWFWdUtsSk8wN3NCYzVNTDRsREtOQV9WVmlYa1dzYWJkQjVKLTg5M1FERThwajhKZUpFUTNkdw?oc=5",
-      "pubDate": "Tue, 28 Jul 2026 08:27:32 GMT",
-      "source": "한국경제",
+      "title": "[인포맥스 POLL] 7월 수출 978억달러 전망…반도체 호황에 60%대 증가",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9STlBXSjdJV1JCR1FaVXZqaHVMSGtpU2tXWVRaeWEyU3Y3ZFNLNXVic2tjVmdsYjhUNy1HZUVreE01VmVPSHRpdzh2RGFsR1o2eElaOUN4anhLWVNHdG9aUjItajVTNXJsM1ByOWsxMm1KZw?oc=5",
+      "pubDate": "Tue, 28 Jul 2026 23:00:04 GMT",
+      "source": "KB Think",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자",
+        "환율"
+      ]
+    },
+    {
+      "title": "유가 급락에 다우 웃고 반도체 울었다…뉴욕증시 혼조 마감 [투자360]",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE40NFNUX3NQWmwtZlNfdVdCRE03UGloblVEZzV1VEhaVmo1bU91a1ZtTUZINXRKOWVXaDFYVWYzQWYyN2ZwbW0xTzRMSnpGZkRqQUlucGF3?oc=5",
+      "pubDate": "Tue, 28 Jul 2026 22:54:47 GMT",
+      "source": "헤럴드경제",
+      "category": {
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
+      },
+      "impacts": [
+        "원유",
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "글로벌 반도체 주식, 2022년 이후 최악의 월간 매도세-[굿모닝 글로벌 이슈]",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFA1cEdfMkkyUTRyV1F5QjZ0OVFvM0ZhNEFHMFZPQ0hEZmhUaHdJTmJGaW90M0ZzMy1jNFRFRkIyczctaWNQM0RsQm1QLW1EWUU?oc=5",
+      "pubDate": "Tue, 28 Jul 2026 22:50:40 GMT",
+      "source": "v.daum.net",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -107,10 +98,24 @@
       ]
     },
     {
-      "title": "삼성전자 주가, 오늘 왜 폭락했나?",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBhQzRFaE9CWkdrYTl0QVk0ZkZQeEZZWmhzZ2x6OHVqMFRDY3o3WGNLR2M5Q2hiWWhHZ0FuR2RNck1hakM2UzB5a2hDQkJ6VG16S2RNV09tM1VldUJ3SnBwbG5xSTJXMTBWSHJSZkkyUGtFR0tEZ0hF?oc=5",
-      "pubDate": "Tue, 28 Jul 2026 08:23:00 GMT",
-      "source": "Investing.com 한국어",
+      "title": "뉴욕증시, 유가하락 속 반도체 조정에 혼조 마감‥나스닥 0.2%↓",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9kU3ZZU1lmSk1SQXkzdDB5bUIzRFBJS0pZME1kejM0WEplZ01vaWM0OTRINXI4QUF1eVpEZmxUM3NrZWNhblc5ZlBoY0dwM1U?oc=5",
+      "pubDate": "Tue, 28 Jul 2026 22:49:10 GMT",
+      "source": "v.daum.net",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "원유",
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "[긴급 진단] 이승우 센터장 \"반도체 대폭락? '이 숫자' 뜨면 바닥“",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB6Ty05T3pKT0oweFRkeXRwcnJnOW95ZEZIMkduV1dWZExSeGFJYjZsbXZBOTFpUjFZRDVDVndwdDE0SEozU2RReTZzV2NoaV83TTRGSExiTVNtMjh2ZEE?oc=5",
+      "pubDate": "Tue, 28 Jul 2026 22:47:00 GMT",
+      "source": "YTN",
       "category": {
         "label": "🔴 HIGH IMPACT",
         "color": "#ff4757"
@@ -120,16 +125,18 @@
       ]
     },
     {
-      "title": "[亞증시-종합] 반도체 쇼크에 中·日·臺 하락…홍콩↑",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1vajh6aW5UQndoUnl2d09SN2UzQ3FKaEp3SHhqblNMVzZXODRuTVIxMDN6QS1qUDlkbEFxVVItRVF2ZTZwVTJFSTQ3cFVqZjhoa250akdNQU92amVXMTZiZzFWSWhiRUY2b3dWU3FKVW01QQ?oc=5",
-      "pubDate": "Tue, 28 Jul 2026 08:16:35 GMT",
-      "source": "KB Think",
+      "title": "[0729개장체크] 美 증시, 반도체 매수세 지속에도 유가·금리 급락에 혼조 마감",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE90SGNRMlNjM1pSSFhhRkZnX3IzWE4yRW9zc2Nsb1Ytc2dBOHlKcHNJTFpna1JpXzI2NUJkcjdobEw3X3FTRl9uYndlUVVuY3Q3c3lNWmp5NmNEZi1MMzRVVVJNcmh1dXJabnFZLUpOdGN2UEpPbFE?oc=5",
+      "pubDate": "Tue, 28 Jul 2026 22:45:48 GMT",
+      "source": "인포스탁데일리",
       "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
+        "label": "🔴 HIGH IMPACT",
+        "color": "#ff4757"
       },
       "impacts": [
-        "삼성전자"
+        "채권",
+        "삼성전자",
+        "원유"
       ]
     }
   ]
