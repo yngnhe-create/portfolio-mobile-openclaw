@@ -1,12 +1,26 @@
 {
-  "timestamp": "2026-07-29T10:17:04.008344",
+  "timestamp": "2026-07-29T12:17:04.237222",
   "count": 10,
   "articles": [
     {
-      "title": "현대차·포스코·한화오션 브라질 집결…공급망 ‘원팀’ 구축",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5GYjFTYWpoXzFkZUhQRkNjWGluejk2ZHRxT1BQREVaczVRLWs1NFhwX1dzb0RwSVZVUzRHTnljcV8wMnhHOTY1NThIRDBwQ0k?oc=5",
-      "pubDate": "Wed, 29 Jul 2026 01:11:04 GMT",
+      "title": "한은 \"반도체 호황에 수도권 경기 개선…건설업 대부분 부진\"",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBYRHlEWmFMQ2RZWHJDRlNMMHlhcm1PV2lCMF9GQUVnY3R1QVZjbkJ1Ykw5SHVyVkFPSDQxZFUwcUkyLWMzNXVTNm1SdWNXaDQ?oc=5",
+      "pubDate": "Wed, 29 Jul 2026 03:01:48 GMT",
       "source": "v.daum.net",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "리츠",
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "현대차 노조 사흘간 부분파업… 제조업계 ‘하투 먹구름’ 고조",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE01ZU53VHprenVrcEZnczE0T2FiT2hjMnZ1N253QUdiQWQ3eThWVWpVd1hscVA4M0lqRU01TnViRDM5LXdxUzduaG9VWVAydXVF?oc=5",
+      "pubDate": "Wed, 29 Jul 2026 03:01:07 GMT",
+      "source": "문화일보",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -16,37 +30,23 @@
       ]
     },
     {
-      "title": "원자력연-SK하이닉스, '우주 경제 시대' 新 반도체 길 연다 - 머니투데이",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0wenY5anc0amFJTzYxRmYxa3dWTkt2Yi1SZ3pSYXFMUXJ6WDhfR1NxTkkzemNOMWtEVzZ5Sm96VVphMHhpLWQ2NW9wczhySy1tYU1mN3BHa2Uzb3ZyX1BEeU9ZNmoyS0XSAWxBVV95cUxNSFh6ek9pZm5jOWRlMnFDdlM0aFRRaTlfZXNMenl1ZkFKbklUenQ4QmtIMnlwZ3Y0YzNUSFdmeDgxcDVienU1WEY0MWx2Ql83bU1mWDdFS1YtZF9DbmNHNEhXZG1FRnhEU3I4Qms?oc=5",
-      "pubDate": "Wed, 29 Jul 2026 01:06:58 GMT",
-      "source": "머니투데이",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "[인포맥스 POLL] 7월 수출 978억달러 전망…반도체 호황에 60%대 증가",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9tZVRNS2t6d212MXlkOGpfV0Q5T09SbTU5SXNoX1FBNUtNZGdfbDdTSmtfZDVjUWJYclhZWVJvZjdoS1BSUlJOOVFQZk5iRzhGbXR6WGNka2lSMjgxbnViU0lIY0lkbGJVd1BoZ3ZIQWrSAXRBVV95cUxQU2o2bDYyTUN0bE54RFFaY2F5SHp0SDhKMUw5Znp2MHFnTnRYckxpbl9XLVVfd28wQjhJQmpQUWFvczhkVlNDUXFQV0g2SnlCSXl6V2ZQdS1SRm5EWDdwckZ1d0IxTkdsSkplR2dRZWdPd2p6Ug?oc=5",
-      "pubDate": "Wed, 29 Jul 2026 01:00:05 GMT",
+      "title": "[한은 업무보고] \"반도체 경기 향후 상당 기간 확장세\"",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5EQWFCUmswS2hHZmFLdnJUYTR2UXRjdWROUGpWSnRuWVR5WHJWVU9tcTN0QXdZWE92cW1tSURsSjFPczdmVzNEakJOc1dySzA5UUI4X2M2V28tMU9MVjFVU21Yb3Nja3E3TzhyZkUySUXSAXRBVV95cUxQZWZNV3MxOGxlejJzajFHenhUbmptRFdnM3ZhR0pLanZPNHhWNmVoX3ZBUFV0Nko0eTYtVmJsN1VoODlMMTRqNWpsTDNEcHBacDEyMk1OWTlValhNLWpqOWJoN2xjenNFOXNmbl81ejlyUm5FdA?oc=5",
+      "pubDate": "Wed, 29 Jul 2026 03:00:04 GMT",
       "source": "연합인포맥스",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
       },
       "impacts": [
-        "환율",
         "삼성전자"
       ]
     },
     {
-      "title": "[한은 업무보고] \"반도체 경기 향후 상당 기간 확장세\"",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1neTlaWkZxYTdwb2xNaHV0dFVZUGZpQ0FoaHpmTkZQMHhTVVpWTmFNOTg4emdfU05WQWN0ajJKSDdLTjNuMy1UX0dtWFZCbmJCY1RhT213Vjl3ZldjRHk5eVRXaDVaaEs5VHRsbldhVEVFdw?oc=5",
-      "pubDate": "Wed, 29 Jul 2026 01:00:03 GMT",
-      "source": "KB Think",
+      "title": "구미시, 반도체 특화단지·방산혁신클러스터 등 대형 국책사업 유치로 탄탄한 산업 기반 조성",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1vRGxXdUh0a28ybnZfM1VHajcteFQwTDhNbm0xYlBNTnFOWVJuYm9rMmlyem5DT3loNXhBY0lVR1RJbncyV3dPSlBibG5tNlBVcm1zQVRfZ19TVlBzaFo5OUZVLWxzZw?oc=5",
+      "pubDate": "Wed, 29 Jul 2026 02:51:21 GMT",
+      "source": "데일리대구경북뉴스",
       "category": {
         "label": "📋 GENERAL",
         "color": "#8b9dc3"
@@ -56,61 +56,9 @@
       ]
     },
     {
-      "title": "공공나노팹센터 출범…반도체 R&D 인프라 강화",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9jNllyOW82YmRJaENoWFNOVmZXZHdPOGhoYVdCRzdTeXdnSkN4djl6RUdLQzVxVHRiUlFyQmdXZEdIRG03U3NxRlFpR05LYkZLVDIyNUF4RkxDV0XSAWBBVV95cUxOeUswTGQ3cGc1VHpOenJvT29OLXY3LVk3c0lZclp0X2dHY2ttMW4tQW9Ja2lfdDhrQ1I4MFlHV2FNSE1PQUhwdVNJcUJxczROTUZPU0Z2QlVyRllmOVlvZEM?oc=5",
-      "pubDate": "Wed, 29 Jul 2026 01:00:02 GMT",
-      "source": "연합뉴스",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "‘삼전닉스’ 주가 급락에도…한은 “반도체 실적이 추가 하락 막을 것”",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOczhmQnNxRE9WX2Y5RVFSTVJMQ2RQbU8wQjdMcEx6MDBXd1lSLW5FY042R3RKRUFvbDNyNk5iSXpFLWNkNUdXbFJzeVpKYnlNcXNmX2VNNk1XemxBcU1maWdRWmNpalBMM2RmcHg1SFJVVkRUVTZlQjcwejBTd25kdlNCLTgxTlJjM0FjY19KWFBiNWNwcEHSAWxBVV95cUxOOTlqclN4U0hQQW1sWWpkSTQyT0ZvRWd4R3BHLW1TWF9tVzEzYjQ3eElkUkVOaHM1aFBpeW9wd0NaSWU3YndlLWI5dURZS1gzZWRsb1JTQVNNZEl2WjFNTWhlQzVvVXN3Q3QzRFA?oc=5",
-      "pubDate": "Wed, 29 Jul 2026 01:00:00 GMT",
-      "source": "국민일보",
-      "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
-      },
-      "impacts": [
-        "삼성전자"
-      ]
-    },
-    {
-      "title": "현대차, 앰배서더 '손흥민' 대신 MLS서 '메시' 인터 마이애미 후원",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5RdTd4TVhLTFowdDJVVERnRDBfNGgwb3hseEN1SE9YR0djUVh4MVpqWE9JRmc5ZzFBUlN2WkFpSTBvUDNJQTNHMF8tUXJPSUZDSkVrVG5IMjdVSE51Q2w3OUxVYw?oc=5",
-      "pubDate": "Wed, 29 Jul 2026 00:58:10 GMT",
-      "source": "더구루",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "현대모비스·현대차, ‘아틀라스 양산’ 공장 실사 앞두고 강세",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE4yTXBTUV9kamoyOVhhckRTNGlmZFJZTkZwQzhzQzJjTDBuelJ0bFl3bkNXWEV0MFEtWjFpc0otTm1IMWl0cHdsVURLU3AzcS1qYkE?oc=5",
-      "pubDate": "Wed, 29 Jul 2026 00:52:28 GMT",
-      "source": "매일경제 마켓",
-      "category": {
-        "label": "📋 GENERAL",
-        "color": "#8b9dc3"
-      },
-      "impacts": [
-        "현대차"
-      ]
-    },
-    {
-      "title": "진도7 지진에 멈춰선 구마모토…반도체 공장도 타격",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE02RUwxbHllNS1ldVlHMVIxcUJPX2NNejY4RUdQSzNfQW5SVERFaTNmOEUyY1NlTjVBeUlQSE1kaUx0R2tndWhVTmQ3clN2THc?oc=5",
-      "pubDate": "Wed, 29 Jul 2026 00:42:50 GMT",
+      "title": "창신메모리發 대공습에 삼전닉스 '와르르'…반도체株 발목잡나",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE91QkotdzhlU1gyR3V3dlUtU0tvdV9qXzRUMUxpRnJzX3QtNXNUVWl2RzhNRHQtWkhlQnl4ZnV1YlZQUE04WWR6UTVqM0tLVkU?oc=5",
+      "pubDate": "Wed, 29 Jul 2026 02:44:49 GMT",
       "source": "v.daum.net",
       "category": {
         "label": "📋 GENERAL",
@@ -121,16 +69,68 @@
       ]
     },
     {
-      "title": "삼성전자·SK하이닉스, 폭락 하루 만에 동반 반등…외국인·기관 ‘사자’",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9mdmFUeXp5RGZnYlhxekU5TWNrbWRoWTZOWTNkd0cyNlFibF9JbzJPZnBzQV9rdm5KVHFtYWFnd1BnaEZQNXFWUDRmbktZVm1DNzNhRGZPLU92eF8zNmIzSmdzVVJiSW5mT2FIMURYRjHSAXRBVV95cUxPSFBXeEdZMnhwcmJIdm9WNTFEQlFUNTVqVTFCMGNDWkxXWms4SVRkX0hRa05qaVRVOFJaY21WT1dhdVQwMUNuQ0RrN1hzNDRBLXRCRHM5aGdEaUtVNHMyMTV5SEw1a2szX3dhUGJlbjlrZmt5Nw?oc=5",
-      "pubDate": "Wed, 29 Jul 2026 00:42:11 GMT",
-      "source": "산경투데이",
+      "title": "한은 “반도체 대규모 이익 전망, 주가 하방압력 제한 기대”",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1IdlpXaS10Rlo2VG4wZHByR0dxa2ZJLWNKNFl3UnFzcTRfQUUzY3ZyVWZwbTZ2VVBtZ3h2UWlncGl6ZlV0WV82dDU5TWNsQzJnajJrdERZS25WZ9IBX0FVX3lxTE1lUmlvMDNTcXZiYnFNRFViQ2J1TUhKUjhxRlNOZFlDN1d2d2hmXzIzWWxIN3UyVXh6aTYyZV9SSXpEcXY5MFg2NkdLTW5hNm1KMHBGanZkdTV4eGptZTVB?oc=5",
+      "pubDate": "Wed, 29 Jul 2026 02:25:00 GMT",
+      "source": "경향신문",
       "category": {
-        "label": "🔴 HIGH IMPACT",
-        "color": "#ff4757"
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
       },
       "impacts": [
         "삼성전자"
+      ]
+    },
+    {
+      "title": "삼성 2천억 포용금융 '반도체 돈잔치' 덮기인가",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB3MzdlLTdxOTJocklOZ3Z4QmFzSjY4RVhjVzlaQVRuS3JEY1I3S2wtOTBORzJ5WXp1NTFNai0weE0xWHItSlFpMk02YnZUbmNySXVJS1owMEY5cXV1QlpRTi1HNUo2dDVmWWxTVDl6SdIBc0FVX3lxTE85aUptR0RaOXF6cTRLaG5uNzR6eGRka1g2d0pSZFNTUE0tdnlpR0VXdExSWndTTmJFU0pIUXNSQnVmc19IN1RmbzV3RDdCMV95MzNralk4aXFYLVJ2ZWJxVjZ0am1hM3h5UXFEVDdmeGF4Ylk?oc=5",
+      "pubDate": "Wed, 29 Jul 2026 02:22:54 GMT",
+      "source": "세이프타임즈",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "중국 반도체·AI 자립 성과… DUV 노광장비 양산·1GW 센터 가동",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxORHd5MDJOdUdxVC1lWENaSXc0dFFzR0pzYzJZSTNRdEZCTkJVZE1ZbWF6NlAyZGM4OWJ2T18wX1JmTzlxd0xGQzZwMGF3RklFZW1sbjM0ZWd5aFI5UGstN1lneUFUcW1veWZhVFNQdDZaUTJEVDZqdTRLQkJ3ZVFyVC1maWFadkMz?oc=5",
+      "pubDate": "Wed, 29 Jul 2026 02:22:30 GMT",
+      "source": "글로벌이코노믹",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "대구·경북 반도체 생산 비중 1.8%…수도권 82.3%와 격차",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOQlZUTnRkaTEtQWg0M2lLZWFuSjY0aVVSREtJOVBXV0FjS1BIQ0pIME1aSHpwOW1FNUR6NGNZVXRUQUlkRjB4WVdma19sa2pvN0h4VnZNVUkzSi1nRy1tNGJ3eHdzWVh5NG8zZm15MUtPWjAzcGxTcWQ5S0tKdXU1SA?oc=5",
+      "pubDate": "Wed, 29 Jul 2026 02:16:55 GMT",
+      "source": "tbc.co.kr",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "삼성전자"
+      ]
+    },
+    {
+      "title": "현대차證, IRP 로보어드바이저 순풍…일임계약 추가 검토 - 머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9wWTRUbnlmZ1NpT2QwQkdiVXllWXk3RHNLNFlEa2JHei1qaWQ0YUJjTFJfeVRIaU5kM2pJTjlOd2NPWFNtM3ZfMTgyQTdJZEZUbG5pMFQydUxLOVBvS28zZlFBZzhVYUtu0gFuQVVfeXFMTjJCMTd4ZVpUZ0F3MURYQ2dUaGxFcXI4cHJDYUNnb0c5VnRHQnQ4eUlMdzVkdTFfMnVvUHNwTjVIRFFsRkUtWmd0Q2Nsbzd5cHRsR185a2JPc2k1LXRIWElRZnF3Mi0wRmJNcnl2WFE?oc=5",
+      "pubDate": "Wed, 29 Jul 2026 02:14:54 GMT",
+      "source": "머니투데이",
+      "category": {
+        "label": "📋 GENERAL",
+        "color": "#8b9dc3"
+      },
+      "impacts": [
+        "현대차"
       ]
     }
   ]
